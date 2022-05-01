@@ -1,0 +1,1167 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Source Sans Variable";
+  font-weight: 200 900;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("https://assets.codepen.io/49012/SourceSansVariable-Roman.ttf.woff2") format("woff2"), url("https://assets.codepen.io/49012/SourceSansVariable-Roman.ttf.woff") format("woff"), url("https://assets.codepen.io/49012/SourceSansVariable-Roman.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Variable";
+  font-weight: 200 900;
+  font-style: italic;
+  font-stretch: normal;
+  src: url("https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf.woff2") format("woff2"), url("https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf.woff") format("woff"), url("https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf") format("truetype");
+}
+:root {
+  --content-width-1: 60rem;
+  --bs-font-sans-serif: freight-display-pro;
+  --color-lightgray: #eee;
+  --h2-font-size: calc(1.525rem + 3.3vw);
+  --color-vassar-burgundy: #951829;
+  --color-vassar-dark-burgundy: #641A2B;
+  --color-vassar-cream: #FFF8EF;
+  --nav-link-text-color: #fff;
+  --nav-link-bg-color: var(--color-vassar-burgundy);
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.bg-lightgray {
+  background-color: var(--color-lightgray);
+}
+
+img {
+  width: 100%;
+}
+
+li::marker {
+  content: "⬩ ";
+  font-weight: bold;
+  color: var(--list-item-bullet-color, #f00);
+  padding-right: 1rem;
+  font-size: 80%;
+}
+
+.bob {
+  color: #f00;
+}
+
+.c {
+  color: #0f0;
+}
+
+.supertitle {
+  display: block;
+  font-size: max(1rem, 60%);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.mw-1 {
+  max-width: var(--content-width-1);
+}
+
+.content-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row-title {
+  font-size: var(--h2-font-size);
+}
+
+@keyframes downshift-in {
+  0% {
+    opacity: 0;
+    transform: translateY(var(--animate-downshift-in-dist, -1.4rem));
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media screen and (prefers-reduced-motion: no-preference) {
+  .animation-downshift-in.animate-when-content-appears:not(.animation-group) {
+    opacity: 0;
+    transform: translateY(var(--animate-downshift-in-dist, -1.4rem));
+  }
+  .animation-downshift-in.animate-when-content-appears:not(.animation-group).content-appeared {
+    animation-delay: var(--animation-delay, 0s);
+    animation-duration: var(--animation-dur, 2s);
+    animation-name: downshift-in;
+    animation-fill-mode: forwards;
+  }
+  .animation-downshift-in.animation-group .animation-item {
+    opacity: 0;
+    transform: translateY(var(--animate-downshift-in-dist, -1.4rem));
+  }
+  .animation-downshift-in.animation-group.content-appeared .animation-item {
+    animation-duration: var(--animation-dur, 2s);
+    animation-name: downshift-in;
+    animation-fill-mode: forwards;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.animation-fade-in.animation-group .animation-item {
+  opacity: 0%;
+}
+.animation-fade-in.animation-group.content-appeared .animation-item {
+  animation-duration: var(--animation-duration, 0.4s);
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+}
+.animation-fade-in:not(.has-bg).animate-when-content-appears {
+  opacity: 0%;
+}
+.animation-fade-in:not(.has-bg).animate-when-content-appears.content-appeared {
+  animation-delay: var(--animation-delay, 0s);
+  animation-duration: var(--animation-duration, 0.4s);
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+}
+.animation-fade-in.section.has-bg.animate-when-content-appears .section-title, .animation-fade-in.section.has-bg.animate-when-content-appears .section-content {
+  opacity: 0%;
+}
+.animation-fade-in.section.has-bg.animate-when-content-appears.content-appeared .section-title, .animation-fade-in.section.has-bg.animate-when-content-appears.content-appeared .section-content {
+  animation-delay: var(--animation-delay, 0s);
+  animation-duration: var(--animation-duration, 0.4s);
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+}
+
+.secondary-item.animation-fade-in {
+  opacity: 0%;
+}
+
+.content-appeared .secondary-item.animation-fade-in {
+  animation-duration: var(--animation-duration, 0.4s);
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rightshift-in {
+  0% {
+    opacity: 0;
+    transform: translateX(var(--animate-rightshift-in-dist, -1.4rem));
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.animation-rightshift-in.animate-when-content-appears {
+  opacity: 0;
+  transform: translateX(var(--animate-rightshift-in-dist, -1.4rem));
+}
+.animation-rightshift-in.animate-when-content-appears.content-appeared {
+  animation-delay: var(--animation-delay, 0s);
+  animation-duration: var(--animation-duration, 2s);
+  animation-name: rightshift-in;
+  animation-fill-mode: forwards;
+}
+.animation-rightshift-in.animation-group .animation-item {
+  opacity: 0;
+  transform: translateX(var(--animate-rightshift-in-dist, -1.4rem));
+}
+.animation-rightshift-in.animation-group.content-appeared .animation-item {
+  animation-duration: var(--animation-duration, 2s);
+  animation-name: rightshift-in;
+  animation-fill-mode: forwards;
+}
+
+.secondary-item.animation-rightshift-in {
+  opacity: 0;
+  transform: translateX(var(--animate-rightshift-in-dist, -1.4rem));
+}
+
+.content-appeared .secondary-item.animation-rightshift-in {
+  animation-duration: var(--animation-duration, 2s);
+  animation-name: rightshift-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shrink-in {
+  0% {
+    opacity: 0;
+    transform: scale(var(--animate-shrink-in-startSize, 1.4));
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes stretch-in {
+  0% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+@keyframes zoom-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.animation-zoom-in.animate-when-content-appears {
+  opacity: 0%;
+  transform: scale(0.6);
+}
+.animation-zoom-in.animate-when-content-appears.content-appeared {
+  animation-delay: var(--animation-delay, 0s);
+  animation-duration: 1s;
+  animation-name: zoom-in;
+  animation-fill-mode: forwards;
+}
+.animation-zoom-in.animation-group .animation-item {
+  opacity: 0%;
+  transform: scale(0.6);
+}
+.animation-zoom-in.animation-group.content-appeared .animation-item {
+  animation-duration: 1s;
+  animation-name: zoom-in;
+  animation-fill-mode: forwards;
+}
+
+.seq-item--useTransition:nth-child(1) {
+  transition-delay: calc(0s + (0.1s * 1));
+}
+.seq-item--useTransition:nth-child(2) {
+  transition-delay: calc(0s + (0.1s * 2));
+}
+.seq-item--useTransition:nth-child(3) {
+  transition-delay: calc(0s + (0.1s * 3));
+}
+.seq-item--useTransition:nth-child(4) {
+  transition-delay: calc(0s + (0.1s * 4));
+}
+.seq-item--useTransition:nth-child(5) {
+  transition-delay: calc(0s + (0.1s * 5));
+}
+.seq-item--useTransition:nth-child(6) {
+  transition-delay: calc(0s + (0.1s * 6));
+}
+.seq-item--useTransition:nth-child(7) {
+  transition-delay: calc(0s + (0.1s * 7));
+}
+.seq-item--useTransition:nth-child(8) {
+  transition-delay: calc(0s + (0.1s * 8));
+}
+.seq-item--useTransition:nth-child(9) {
+  transition-delay: calc(0s + (0.1s * 9));
+}
+.seq-item--useTransition:nth-child(10) {
+  transition-delay: calc(0s + (0.1s * 10));
+}
+.seq-item--useTransition:nth-child(11) {
+  transition-delay: calc(0s + (0.1s * 11));
+}
+.seq-item--useTransition:nth-child(12) {
+  transition-delay: calc(0s + (0.1s * 12));
+}
+.seq-item--useTransition:nth-child(13) {
+  transition-delay: calc(0s + (0.1s * 13));
+}
+.seq-item--useTransition:nth-child(14) {
+  transition-delay: calc(0s + (0.1s * 14));
+}
+.seq-item--useTransition:nth-child(15) {
+  transition-delay: calc(0s + (0.1s * 15));
+}
+.seq-item--useTransition:nth-child(16) {
+  transition-delay: calc(0s + (0.1s * 16));
+}
+.seq-item--useTransition:nth-child(17) {
+  transition-delay: calc(0s + (0.1s * 17));
+}
+.seq-item--useTransition:nth-child(18) {
+  transition-delay: calc(0s + (0.1s * 18));
+}
+.seq-item--useTransition:nth-child(19) {
+  transition-delay: calc(0s + (0.1s * 19));
+}
+.seq-item--useTransition:nth-child(20) {
+  transition-delay: calc(0s + (0.1s * 20));
+}
+.seq-item--useTransition:nth-child(21) {
+  transition-delay: calc(0s + (0.1s * 21));
+}
+.seq-item--useTransition:nth-child(22) {
+  transition-delay: calc(0s + (0.1s * 22));
+}
+.seq-item--useTransition:nth-child(1) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 1));
+}
+.seq-item--useTransition:nth-child(2) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 2));
+}
+.seq-item--useTransition:nth-child(3) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 3));
+}
+.seq-item--useTransition:nth-child(4) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 4));
+}
+.seq-item--useTransition:nth-child(5) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 5));
+}
+.seq-item--useTransition:nth-child(6) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 6));
+}
+.seq-item--useTransition:nth-child(7) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 7));
+}
+.seq-item--useTransition:nth-child(8) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 8));
+}
+.seq-item--useTransition:nth-child(9) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 9));
+}
+.seq-item--useTransition:nth-child(10) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 10));
+}
+.seq-item--useTransition:nth-child(11) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 11));
+}
+.seq-item--useTransition:nth-child(12) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 12));
+}
+.seq-item--useTransition:nth-child(13) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 13));
+}
+.seq-item--useTransition:nth-child(14) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 14));
+}
+.seq-item--useTransition:nth-child(15) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 15));
+}
+.seq-item--useTransition:nth-child(16) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 16));
+}
+.seq-item--useTransition:nth-child(17) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 17));
+}
+.seq-item--useTransition:nth-child(18) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 18));
+}
+.seq-item--useTransition:nth-child(19) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 19));
+}
+.seq-item--useTransition:nth-child(20) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 20));
+}
+.seq-item--useTransition:nth-child(21) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 21));
+}
+.seq-item--useTransition:nth-child(22) .secondary-item {
+  transition-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 22));
+}
+
+.animation-group .animation-item:nth-child(1) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 1));
+}
+.animation-group .animation-item:nth-child(2) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 2));
+}
+.animation-group .animation-item:nth-child(3) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 3));
+}
+.animation-group .animation-item:nth-child(4) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 4));
+}
+.animation-group .animation-item:nth-child(5) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 5));
+}
+.animation-group .animation-item:nth-child(6) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 6));
+}
+.animation-group .animation-item:nth-child(7) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 7));
+}
+.animation-group .animation-item:nth-child(8) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 8));
+}
+.animation-group .animation-item:nth-child(9) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 9));
+}
+.animation-group .animation-item:nth-child(10) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 10));
+}
+.animation-group .animation-item:nth-child(11) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 11));
+}
+.animation-group .animation-item:nth-child(12) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 12));
+}
+.animation-group .animation-item:nth-child(13) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 13));
+}
+.animation-group .animation-item:nth-child(14) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 14));
+}
+.animation-group .animation-item:nth-child(15) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 15));
+}
+.animation-group .animation-item:nth-child(16) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 16));
+}
+.animation-group .animation-item:nth-child(17) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 17));
+}
+.animation-group .animation-item:nth-child(18) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 18));
+}
+.animation-group .animation-item:nth-child(19) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 19));
+}
+.animation-group .animation-item:nth-child(20) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 20));
+}
+.animation-group .animation-item:nth-child(21) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 21));
+}
+.animation-group .animation-item:nth-child(22) {
+  animation-delay: calc(0s + (var(--sequential-animation-item-gap, 0.4s) * 22));
+}
+.animation-group .animation-item:nth-child(1) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 1));
+}
+.animation-group .animation-item:nth-child(2) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 2));
+}
+.animation-group .animation-item:nth-child(3) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 3));
+}
+.animation-group .animation-item:nth-child(4) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 4));
+}
+.animation-group .animation-item:nth-child(5) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 5));
+}
+.animation-group .animation-item:nth-child(6) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 6));
+}
+.animation-group .animation-item:nth-child(7) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 7));
+}
+.animation-group .animation-item:nth-child(8) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 8));
+}
+.animation-group .animation-item:nth-child(9) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 9));
+}
+.animation-group .animation-item:nth-child(10) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 10));
+}
+.animation-group .animation-item:nth-child(11) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 11));
+}
+.animation-group .animation-item:nth-child(12) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 12));
+}
+.animation-group .animation-item:nth-child(13) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 13));
+}
+.animation-group .animation-item:nth-child(14) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 14));
+}
+.animation-group .animation-item:nth-child(15) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 15));
+}
+.animation-group .animation-item:nth-child(16) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 16));
+}
+.animation-group .animation-item:nth-child(17) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 17));
+}
+.animation-group .animation-item:nth-child(18) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 18));
+}
+.animation-group .animation-item:nth-child(19) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 19));
+}
+.animation-group .animation-item:nth-child(20) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 20));
+}
+.animation-group .animation-item:nth-child(21) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 21));
+}
+.animation-group .animation-item:nth-child(22) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (var(--sequential-animation-item-gap, 0.4s) * 22));
+}
+
+.section {
+  background-color: var(--section-bg-color, #fff);
+  color: var(--section-text-color, #333);
+}
+.section a:link {
+  background-color: var(--section-link-bg-color, transparent);
+  color: var(--section-link-color, #f00);
+}
+.section a:visited {
+  color: var(--section-link-visited-color, #888);
+}
+.section a:hover, .section a:visited:hover {
+  background-color: var(--section-link-hover-bg-color, transparent);
+  color: var(--section-link-hover-color, #000);
+}
+
+.section .section-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  clip-path: inset(0 0 0 0);
+  --bg-shim-background: rgba(0,0,0,0.2);
+  --animate-shrink-in-startSize: 1.1;
+}
+.section .section-bg {
+  position: relative;
+}
+.section .section-bg:before, .section .section-bg:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.section .section-bg:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: var(--bg-shim-height, 100%);
+  background: var(--bg-shim-background);
+  bottom: 0;
+  z-index: 10;
+}
+.section .section-bg:after {
+  background-image: var(--bg-image);
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.section .section-bg:after {
+  opacity: 0;
+  transform: scale(var(--animate-shrink-in-startSize, 1.4));
+  animation-duration: var(--animate-shrink-in-dur, 2s);
+  animation-name: shrink-in;
+  animation-fill-mode: forwards;
+}
+
+.section-title {
+  color: var(--section-title-color, #333);
+  font-size: calc(1.465rem + 2.58vw);
+  font-weight: normal;
+  text-align: center;
+  margin-top: 0;
+  position: relative;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.section-title:after {
+  position: absolute;
+  content: "";
+  width: 1em;
+  border-top: 0.08em solid var(--section-title-border-color, #f00);
+  left: calc(50% - 0.5em);
+  bottom: -1.4rem;
+}
+.section-title.animate-when-content-appears:after {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.section-title.animate-when-content-appears.content-appeared:after {
+  animation-delay: var(--animate-stretch-in-delay, 0.4s);
+  animation-duration: var(--animate-stretch-in-dur, 0.4s);
+  animation-name: stretch-in;
+  animation-fill-mode: forwards;
+}
+
+.section {
+  padding: clamp(1rem, 10%, 4rem);
+}
+
+.section-content {
+  max-width: 78ch;
+  margin: 0 auto;
+}
+
+.section.has-bg {
+  position: relative;
+}
+.section.has-bg .section-title,
+.section.has-bg .section-content {
+  position: relative;
+  z-index: 100;
+}
+.section.has-bg:after {
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-attachment: fixed;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.section.section--full-bleed-image-column {
+  min-height: 100vh;
+  padding: 0;
+}
+.section.section--full-bleed-image-column .columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.section.section--full-bleed-image-column .col-has-image {
+  position: relative;
+}
+.section.section--full-bleed-image-column .full-bleed-image-container {
+  height: max(100%, 100vh);
+  position: absolute;
+  width: 100%;
+  clip-path: inset(0 0 0 0);
+}
+.section.section--full-bleed-image-column .full-bleed-image-container img {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  will-change: transform;
+}
+.section.section--full-bleed-image-column .section--full-bleed-image-column__content {
+  float: right;
+  max-width: 70ch;
+  padding: clamp(1rem, 10%, 4rem);
+}
+.section.section--full-bleed-image-column .section--full-bleed-image-column__content .section-title {
+  text-align: left;
+}
+.section.section--full-bleed-image-column .section--full-bleed-image-column__content .section-title:after {
+  left: 0;
+}
+
+.section:not(.image-is-first) .col--text {
+  order: 1;
+  padding: 0 !important;
+}
+.section:not(.image-is-first) .col-has-image {
+  order: 2;
+}
+
+.image-is-first.section.section--full-bleed-image-column .col--text {
+  margin-left: 50%;
+  width: 50%;
+}
+.image-is-first.section.section--full-bleed-image-column img {
+  left: 0;
+}
+
+.display-1 {
+  font-size: calc(1.725rem + 5.7vw);
+}
+
+/*
+  Specifying these as CSS vars so they're easier to
+  experiment with in the inspector
+*/
+:root {
+  --sansSerif: "Source Sans Variable";
+  --regularContent-font-size: calc(1.265rem + 0.18vw);
+  --regularContent-lineHeight: 1.36;
+  --regularContent-font-weight: "wght" 340;
+}
+
+p, li {
+  font-family: var(--sansSerif);
+  font-size: var(--regularContent-font-size);
+  font-variation-settings: var(--regularContent-font-weight);
+  line-height: var(--regularContent-lineHeight);
+}
+
+.vassar-masthead {
+  --animate-downshift-in-delay: 0.4s;
+  --animate-downshift-in-dur: 1s;
+  opacity: 0;
+  transform: translateY(var(--animate-downshift-in-dist, -1.4rem));
+  animation-delay: var(--animation-delay, 0s);
+  animation-duration: var(--animation-dur, 2s);
+  animation-name: downshift-in;
+  animation-fill-mode: forwards;
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  width: fit-content;
+  z-index: 2000;
+}
+.vassar-masthead a {
+  background-color: var(--vassar-masthead-bg, #000);
+  display: block;
+  padding: 1rem;
+}
+.vassar-masthead a:hover {
+  background-color: #00f;
+}
+.vassar-masthead svg {
+  width: 8rem;
+}
+.vassar-masthead svg path {
+  fill: #fff;
+}
+
+.section--top-level-masthead {
+  --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 0;
+}
+.section--top-level-masthead .section-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  clip-path: inset(0 0 0 0);
+  --bg-shim-background: rgba(0,0,0,0.2);
+  --animate-shrink-in-startSize: 1.1;
+}
+.section--top-level-masthead .section-bg {
+  position: relative;
+}
+.section--top-level-masthead .section-bg:before, .section--top-level-masthead .section-bg:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.section--top-level-masthead .section-bg:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: var(--bg-shim-height, 100%);
+  background: var(--bg-shim-background);
+  bottom: 0;
+  z-index: 10;
+}
+.section--top-level-masthead .section-bg:after {
+  background-image: var(--bg-image);
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.section--top-level-masthead .section-bg:after {
+  opacity: 0;
+  transform: scale(var(--animate-shrink-in-startSize, 1.4));
+  animation-duration: var(--animate-shrink-in-dur, 2s);
+  animation-name: shrink-in;
+  animation-fill-mode: forwards;
+}
+
+.title-container {
+  background: var(--gradient--black-to-transparent);
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 20;
+  padding: 16vw 8vw 8vw;
+  text-shadow: 0 0 2rem #000;
+}
+.title-container .section__title__tagline {
+  margin-bottom: 0;
+}
+.title-container h1 {
+  --animate-rightshift-in-delay: 0.4s;
+  --animate-rightshift-in-dur: 1s;
+  opacity: 0;
+  transform: translateX(var(--animate-rightshift-in-dist, -1.4rem));
+  animation-delay: var(--animation-delay, 0s);
+  animation-duration: var(--animation-duration, 2s);
+  animation-name: rightshift-in;
+  animation-fill-mode: forwards;
+}
+
+.section-with-bg {
+  --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 0;
+}
+.section-with-bg .section-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  clip-path: inset(0 0 0 0);
+  --bg-shim-background: rgba(0,0,0,0.2);
+  --animate-shrink-in-startSize: 1.1;
+}
+.section-with-bg .section-bg {
+  position: relative;
+}
+.section-with-bg .section-bg:before, .section-with-bg .section-bg:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.section-with-bg .section-bg:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: var(--bg-shim-height, 100%);
+  background: var(--bg-shim-background);
+  bottom: 0;
+  z-index: 10;
+}
+.section-with-bg .section-bg:after {
+  background-image: var(--bg-image);
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.section-with-bg .section-bg:after {
+  opacity: 0;
+  transform: scale(var(--animate-shrink-in-startSize, 1.4));
+  animation-duration: var(--animate-shrink-in-dur, 2s);
+  animation-name: shrink-in;
+  animation-fill-mode: forwards;
+}
+
+.title-container {
+  background: var(--gradient--black-to-transparent);
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 20;
+  padding: 16vw 8vw 8vw;
+  text-shadow: 0 0 2rem #000;
+}
+.title-container .section__title__tagline {
+  margin-bottom: 0;
+}
+.title-container h1 {
+  --animate-rightshift-in-delay: 0.4s;
+  --animate-rightshift-in-dur: 1s;
+  opacity: 0;
+  transform: translateX(var(--animate-rightshift-in-dist, -1.4rem));
+  animation-delay: var(--animation-delay, 0s);
+  animation-duration: var(--animation-duration, 2s);
+  animation-name: rightshift-in;
+  animation-fill-mode: forwards;
+}
+
+/*
+  This file contains styling that should be added to Bootstrap via the BS settings maps
+*/
+/*  Structure/layout
+    ================ */
+.p-6 {
+  padding: 4.5rem !important;
+}
+
+:root {
+  --w-25: 25%;
+  --w-33: 33%;
+  --w-50: 50%;
+  --w-75: 75%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+@media only screen and (min-width: 40em) {
+  .w-sm-25 {
+    width: 25%;
+  }
+}
+@media only screen and (min-width: 50em) {
+  .w-md-25 {
+    width: 25%;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .w-lg-25 {
+    width: 25%;
+  }
+}
+.w-33 {
+  width: 33%;
+}
+
+@media only screen and (min-width: 40em) {
+  .w-sm-33 {
+    width: 33%;
+  }
+}
+@media only screen and (min-width: 50em) {
+  .w-md-33 {
+    width: 33%;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .w-lg-33 {
+    width: 33%;
+  }
+}
+.w-50 {
+  width: 50%;
+}
+
+@media only screen and (min-width: 40em) {
+  .w-sm-50 {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 50em) {
+  .w-md-50 {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .w-lg-50 {
+    width: 50%;
+  }
+}
+.w-75 {
+  width: 75%;
+}
+
+@media only screen and (min-width: 40em) {
+  .w-sm-75 {
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 50em) {
+  .w-md-75 {
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .w-lg-75 {
+    width: 75%;
+  }
+}
+:root {
+  --mw-1: 40em;
+  --mw-2: 44em;
+  --mw-3: 50em;
+  --mw-4: 60em;
+}
+
+.mw-1 {
+  --current-max-width: var(--mw-1);
+  max-width: var(--mw-1);
+}
+
+.mw-inner-1 .section-content {
+  max-width: var(--mw-1);
+}
+
+@media only screen and (min-width: 40em) {
+  .mw-sm-1 {
+    max-width: 40em;
+  }
+}
+@media only screen and (min-width: 50em) {
+  .mw-md-1 {
+    max-width: 40em;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .mw-lg-1 {
+    max-width: 40em;
+  }
+}
+@media only screen and (min-width: 40em) {
+  .mw-sm-1 {
+    max-width: 40em;
+  }
+}
+@media only screen and (min-width: 50em) {
+  .mw-md-1 {
+    max-width: 40em;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .mw-lg-1 {
+    max-width: 40em;
+  }
+}
+.mw-2 {
+  --current-max-width: var(--mw-2);
+  max-width: var(--mw-2);
+}
+
+.mw-inner-2 .section-content {
+  max-width: var(--mw-2);
+}
+
+@media only screen and (min-width: 40em) {
+  .mw-sm-2 {
+    max-width: 44em;
+  }
+}
+@media only screen and (min-width: 50em) {
+  .mw-md-2 {
+    max-width: 44em;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .mw-lg-2 {
+    max-width: 44em;
+  }
+}
+@media only screen and (min-width: 40em) {
+  .mw-sm-2 {
+    max-width: 44em;
+  }
+}
+@media only screen and (min-width: 50em) {
+  .mw-md-2 {
+    max-width: 44em;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .mw-lg-2 {
+    max-width: 44em;
+  }
+}
+.mw-3 {
+  --current-max-width: var(--mw-3);
+  max-width: var(--mw-3);
+}
+
+.mw-inner-3 .section-content {
+  max-width: var(--mw-3);
+}
+
+@media only screen and (min-width: 40em) {
+  .mw-sm-3 {
+    max-width: 50em;
+  }
+}
+@media only screen and (min-width: 50em) {
+  .mw-md-3 {
+    max-width: 50em;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .mw-lg-3 {
+    max-width: 50em;
+  }
+}
+@media only screen and (min-width: 40em) {
+  .mw-sm-3 {
+    max-width: 50em;
+  }
+}
+@media only screen and (min-width: 50em) {
+  .mw-md-3 {
+    max-width: 50em;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .mw-lg-3 {
+    max-width: 50em;
+  }
+}
+.mw-4 {
+  --current-max-width: var(--mw-4);
+  max-width: var(--mw-4);
+}
+
+.mw-inner-4 .section-content {
+  max-width: var(--mw-4);
+}
+
+@media only screen and (min-width: 40em) {
+  .mw-sm-4 {
+    max-width: 60em;
+  }
+}
+@media only screen and (min-width: 50em) {
+  .mw-md-4 {
+    max-width: 60em;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .mw-lg-4 {
+    max-width: 60em;
+  }
+}
+@media only screen and (min-width: 40em) {
+  .mw-sm-4 {
+    max-width: 60em;
+  }
+}
+@media only screen and (min-width: 50em) {
+  .mw-md-4 {
+    max-width: 60em;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .mw-lg-4 {
+    max-width: 60em;
+  }
+}
+.buffer {
+  min-height: 100vh;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui;
+  color: #aaa;
+  text-transform: uppercase;
+  min-height: 100vh;
+  background: #eee;
+}
+.buffer:after {
+  content: "Buffer area";
+}
+
+.test-block {
+  background: #ccc;
+  padding: 2rem;
+}
+
+.theme-burgundy {
+  --section-bg-color: var(--color-vassar-burgundy);
+  --section-title-color: #f00;
+  --section-text-color: #fff;
+  --section-link-bg-color: transparent;
+  --section-link-color: #ff0;
+  --section-link-visited-color: #888;
+  --section-link-hover-bg-color: #000;
+  --section-link-hover-color: #0ff;
+}

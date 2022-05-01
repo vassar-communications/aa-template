@@ -25,18 +25,39 @@
 
 
 .animation-fade-in {
-  &.animate-when-content-appears {
-      @include setup-animate-fade-in();
-
-    &.content-appeared {
-        @include animate-fade-in();
-    }
-  }
   &.animation-group .animation-item {
     @include setup-animate-fade-in();
   }
+
   &.animation-group.content-appeared .animation-item {
     @include animate-fade-in(true);
+  }
+
+  &:not(.has-bg) {
+    &.animate-when-content-appears {
+        @include setup-animate-fade-in();
+
+      &.content-appeared {
+          @include animate-fade-in();
+      }
+    }
+  }
+
+  //  Backgrounds are typically fixed-position, and animations
+  //  disable the fixed positioning. So if an animation is
+  //  applied to a section with a background, don't animate
+  //  the section itself; just animate the contents.
+  &.section.has-bg {
+    &.animate-when-content-appears {
+      .section-title, .section-content {
+        @include setup-animate-fade-in();
+      }
+      &.content-appeared {
+        .section-title, .section-content {
+          @include animate-fade-in();
+        }
+      }
+    }
   }
 }
 
