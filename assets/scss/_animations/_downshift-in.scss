@@ -1,0 +1,46 @@
+@keyframes downshift-in {
+  0% {
+    opacity: 0;
+    transform: translateY(var(--animate-downshift-in-dist, -1.4rem));
+  }
+  100% {
+   opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@mixin setup-animate-downshift-in() {
+    opacity: 0;
+    transform: translateY(var(--animate-downshift-in-dist, -1.4rem));
+}
+@mixin animate-downshift-in($applied-to-sequential-items:false) {
+  //  If the animation is being applied to a sequence of items
+  //  via an .animation-group class, we don't want to specify a
+  //  uniform animation-delay because each item's delay is
+  //  being calculated by sequence(), in _sequential.scss
+  @if $applied-to-sequential-items == false {
+    animation-delay: var(--animation-delay, 0s);
+  }
+  animation-duration: var(--animation-dur, 2s);
+  animation-name: downshift-in;
+  animation-fill-mode: forwards;
+}
+
+//  add this for accessibility?
+@media screen and (prefers-reduced-motion: no-preference) {
+  .animation-downshift-in {
+    &.animate-when-content-appears:not(.animation-group) {
+      @include setup-animate-downshift-in();
+
+      &.content-appeared {
+        @include animate-downshift-in();
+      }
+    }
+    &.animation-group .animation-item {
+      @include setup-animate-downshift-in();
+    }
+    &.animation-group.content-appeared .animation-item {
+      @include animate-downshift-in( true );
+    }
+  }
+}

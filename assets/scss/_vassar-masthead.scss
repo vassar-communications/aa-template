@@ -1,0 +1,30 @@
+.vassar-masthead {
+  --animate-downshift-in-delay: 0.4s;
+  --animate-downshift-in-dur: 1s;
+  @include setup-animate-downshift-in();
+  @include animate-downshift-in();
+
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  width: fit-content;
+  z-index: 2000;
+
+  a {
+    background-color: var(--vassar-masthead-bg, #000);
+    display: block;
+    padding: 1rem;
+
+    &:hover {
+      background-color: #00f;
+    }
+  }
+
+  svg {
+    width: 8rem;
+
+    path {
+      fill: #fff;
+    }
+  }
+}

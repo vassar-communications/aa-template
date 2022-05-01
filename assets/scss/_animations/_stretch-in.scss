@@ -1,0 +1,21 @@
+@keyframes stretch-in {
+  0% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  100% {
+   opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+@mixin setup-animate-stretch-in() {
+    opacity: 0;
+    transform: scaleX(0);
+}
+@mixin animate-stretch-in() {
+  animation-delay: var(--animate-stretch-in-delay, 0.4s);
+  animation-duration: var(--animate-stretch-in-dur, 0.4s);
+  animation-name: stretch-in;
+  animation-fill-mode: forwards;
+}

@@ -1,0 +1,44 @@
+$theme-burgundy: (
+  "background": var(--color-vassar-burgundy),
+  "text-color": #fff,
+  "link-color": #ff0,
+  "link-color-visited": #ff0,
+  "link-color-hover": #000,
+  "link-bg-hover": #00f,
+  "background-pattern": 'quad'
+);
+
+
+
+
+@mixin theme($label, $theme) {
+  .bg-#{$label} {
+    background-color: map-get($theme, 'background');
+
+    @if map-has-key($theme, 'background-pattern') {
+      $the-bg-pattern: map-get($theme, 'background-pattern');
+      background-image: url(#{$the-bg-pattern}-pattern.png);
+    }
+
+
+    a {
+      &:link {
+        color: map-get($theme, 'link-color');
+      }
+      &:visited {
+        color: map-get($theme, 'link-color-visited');
+      }
+      &:hover,
+      &:visited:hover {
+        color: map-get($theme, 'link-color-hover');
+
+        @if map-has-key($theme, 'link-bg-hover') {
+          background: map-get($theme, 'link-bg-hover');
+        }
+      }
+    }
+  }
+}
+
+
+@include theme(burgundy, $theme-burgundy);

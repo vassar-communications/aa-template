@@ -1,0 +1,117 @@
+@font-face{
+    font-family: 'Source Sans Variable';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('https://assets.codepen.io/49012/SourceSansVariable-Roman.ttf.woff2') format('woff2'),
+         url('https://assets.codepen.io/49012/SourceSansVariable-Roman.ttf.woff') format('woff'),
+         url('https://assets.codepen.io/49012/SourceSansVariable-Roman.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Variable';
+    font-weight: 200 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf.woff2') format('woff2'),
+         url('https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf.woff') format('woff'),
+         url('https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf') format('truetype');
+}
+
+:root {
+    --content-width-1: 60rem;
+    --bs-font-sans-serif: freight-display-pro;
+
+    --color-lightgray: #eee;
+
+    --h2-font-size: calc(1.525rem + 3.3vw);
+
+    --color-vassar-burgundy: #951829;
+    --color-vassar-dark-burgundy: #641A2B;
+    --color-vassar-cream: #FFF8EF;
+
+    --nav-link-text-color: #fff;
+    --nav-link-bg-color: var(--color-vassar-burgundy);
+}
+
+
+$vassar__inner-container: '.section-content' !default;
+
+
+$vassar__breakpoints: (
+  sm: 40em,
+  md: 50em,
+  lg: 60em
+) !default;
+
+$vassar__inner-widths: (
+  25: 25%,
+  33: 33%,
+  50: 50%,
+  75: 75%
+) !default;
+
+$vassar__max-widths: 40em 44em 50em 60em !default;
+
+
+html {
+  overflow-x: hidden;
+}
+
+
+.bg-lightgray {
+  background-color: var(--color-lightgray);
+}
+
+img {
+  width: 100%;
+}
+
+li::marker {
+  content: '\2B29  ';
+  font-weight: bold;
+  color: var(--list-item-bullet-color, #f00);
+  padding-right: 1rem;
+  font-size: 80%;
+}
+
+
+.bob {
+  color: #f00;
+}
+.c {
+  color: #0f0;
+}
+
+.supertitle {
+  display: block;
+  font-size: max(1rem, 60%);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.mw-1 {
+  max-width: var(--content-width-1);
+}
+.content-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@import "_row-basics";
+@import "_mixins";
+@import "_animations/_all";
+
+@import "_sequential";
+@import "_section-basics";
+@import "_content-sections/_all";
+
+@import "_type";
+@import "_vassar-masthead";
+
+@import "_top-level-masthead";
+
+@import "_bootstrap-additions";
+@import "_utilities/_all";
+@import "_tools/_all";
+@import "_themes";

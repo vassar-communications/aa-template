@@ -1,0 +1,25 @@
+.display-1 {
+  font-size: calc(1.725rem + 5.7vw);
+}
+
+
+/*
+  Specifying these as CSS vars so they're easier to
+  experiment with in the inspector
+*/
+
+:root {
+  --sansSerif: 'Source Sans Variable';
+
+  --regularContent-font-size: calc(1.265rem + 0.18vw);
+  --regularContent-lineHeight: 1.36;
+  --regularContent-font-weight: "wght" 340;
+}
+
+
+p, li {
+  font-family: var(--sansSerif);
+  font-size: var(--regularContent-font-size);
+  font-variation-settings: var(--regularContent-font-weight);
+  line-height: var(--regularContent-lineHeight);
+}

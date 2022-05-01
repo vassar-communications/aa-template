@@ -1,0 +1,9 @@
+@include inner-widths($vassar__inner-widths);
+
+@include vassar__makeRules(
+  $vassar__max-widths,
+  "max-width",
+  "mw",
+  false,
+  $vassar__inner-container
+);

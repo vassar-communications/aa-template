@@ -1,0 +1,70 @@
+.section.section--full-bleed-image-column {
+  min-height: 100vh;
+  padding: 0;
+
+  //  Bootstrap col- and row- classes screw up the layout
+  //  so I'm not using them here
+  .column {
+
+  }
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  .col-has-image {
+    position: relative;
+  }
+
+  .full-bleed-image-container {
+    height: max(100%, 100vh);
+    position: absolute;
+    width: 100%;
+    clip-path: inset(0 0 0 0);
+
+    img {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      object-fit: cover;
+      will-change: transform;
+    }
+  }
+
+  .section--full-bleed-image-column__content {
+    float: right;
+    max-width: 70ch;
+    padding: clamp(1rem, 10%, 4rem);
+
+    .section-title {
+      text-align: left;
+
+      &:after {
+        left: 0;
+      }
+    }
+  }
+}
+
+.section:not(.image-is-first) {
+  .col--text {
+    order: 1;
+    padding: 0 !important;
+  }
+  .col-has-image {
+    order: 2;
+  }
+}
+
+.image-is-first.section.section--full-bleed-image-column {
+  .col--text {
+    margin-left: 50%;
+    width: 50%;
+  }
+  img {
+    left: 0;
+  }
+}

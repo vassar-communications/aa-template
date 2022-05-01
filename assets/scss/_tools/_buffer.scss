@@ -1,0 +1,22 @@
+.buffer {
+    min-height: 100vh;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui;
+    color: #aaa;
+    text-transform: uppercase;
+  min-height: 100vh;
+  background: #eee;
+
+  &:after {
+    content: "Buffer area";
+  }
+}
+
+
+.test-block {
+    background: #ccc;
+    padding: 2rem;
+}

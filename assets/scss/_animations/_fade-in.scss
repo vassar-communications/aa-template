@@ -1,0 +1,50 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@mixin setup-animate-fade-in() {
+  opacity: 0%;
+}
+@mixin animate-fade-in($applied-to-sequential-items:false) {
+  //  If the animation is being applied to a sequence of items
+  //  via an .animation-group class, we don't want to specify a
+  //  uniform animation-delay because each item's delay is
+  //  being calculated by sequence(), in _sequential.scss
+  @if $applied-to-sequential-items == false {
+    animation-delay: var(--animation-delay, 0s);
+  }
+  animation-duration: var(--animation-duration, 0.4s);
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+}
+
+
+.animation-fade-in {
+  &.animate-when-content-appears {
+      @include setup-animate-fade-in();
+
+    &.content-appeared {
+        @include animate-fade-in();
+    }
+  }
+  &.animation-group .animation-item {
+    @include setup-animate-fade-in();
+  }
+  &.animation-group.content-appeared .animation-item {
+    @include animate-fade-in(true);
+  }
+}
+
+.secondary-item.animation-fade-in {
+  @include setup-animate-fade-in();
+}
+.content-appeared {
+  .secondary-item.animation-fade-in {
+    @include animate-fade-in(true);
+  }
+}

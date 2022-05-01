@@ -1,0 +1,20 @@
+@keyframes shrink-in {
+  0% {
+    opacity: 0;
+    transform: scale(var(--animate-shrink-in-startSize, 1.4));
+  }
+  100% {
+   opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@mixin setup-animate-shrink-in() {
+    opacity: 0;
+    transform: scale(var(--animate-shrink-in-startSize, 1.4));
+}
+@mixin animate-shrink-in() {
+  animation-duration: var(--animate-shrink-in-dur, 2s);
+  animation-name: shrink-in;
+  animation-fill-mode: forwards;
+}

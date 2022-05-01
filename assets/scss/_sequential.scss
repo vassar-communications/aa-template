@@ -1,0 +1,55 @@
+@function has-key($map, $defaults, $key) {
+  @if map-has-key($map, $key) {
+      @return map-get($map, $key);
+    } @else {
+      @return map-get($defaults, $key);
+  }
+}
+
+@mixin sequence($map:(item: 1)) {
+	//	deprecated
+	$defaults: (
+		gap: var(--sequential-animation-item-gap, 0.4s),
+		offset: 0s,
+		max-items: 22,
+		type: animation,
+	);
+
+	$gap: has-key($map, $defaults, gap);
+	$offset: has-key($map, $defaults, offset);
+	$max-items: has-key($map, $defaults, max-items);
+	$type: has-key($map, $defaults, type);
+
+  $secondary-offset: var(--secondary-item-delay, 0.1s);
+
+	@for $i from 1 through $max-items {
+		&:nth-child(#{$i}) {
+			#{$type}-delay: calc(#{$offset} + (#{$gap} * #{$i}));
+		}
+	}
+  @for $i from 1 through $max-items {
+		&:nth-child(#{$i}) .secondary-item {
+			#{$type}-delay: calc(#{$offset} + #{$secondary-offset} + (#{$gap} * #{$i}));
+		}
+	}
+
+
+}
+
+
+$trans_settings: (
+  "type": transition,
+  "gap": 0.1s
+);
+
+$anim_settings: (
+  "type": animation,
+//  "gap": 1s
+);
+
+.seq-item--useTransition {
+  @include sequence($trans_settings);
+}
+.animation-group .animation-item {
+  @include sequence($anim_settings);
+}

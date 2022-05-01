@@ -1,0 +1,41 @@
+@keyframes zoom-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@mixin setup-animate-zoom-in() {
+  opacity: 0%;
+  transform: scale(0.6);
+}
+@mixin animate-zoom-in($applied-to-sequential-items:false) {
+  @if $applied-to-sequential-items == false {
+    animation-delay: var(--animation-delay, 0s);
+  }
+
+  animation-duration: 1s;
+  animation-name: zoom-in;
+  animation-fill-mode: forwards;
+}
+
+
+.animation-zoom-in {
+  &.animate-when-content-appears {
+    @include setup-animate-zoom-in();
+
+    &.content-appeared {
+      @include animate-zoom-in();
+    }
+  }
+  &.animation-group .animation-item {
+    @include setup-animate-zoom-in();
+  }
+  &.animation-group.content-appeared .animation-item {
+    @include animate-zoom-in(true);
+  }
+}

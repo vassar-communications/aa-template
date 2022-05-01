@@ -1,0 +1,40 @@
+.section-title {
+  color: var(--section-title-color, #333);
+  font-size: calc(1.465rem + 2.58vw);
+  font-weight: normal;
+  text-align: center;
+  margin-top: 0;
+
+  position: relative;
+  text-align: center;
+  margin-bottom: 3rem;
+
+  &:after {
+    position: absolute;
+    content: '';
+    width: 1em;
+    border-top: 0.08em solid var(--section-title-border-color, #f00);
+    left: calc(50% - 0.5em);
+    bottom: -1.4rem;
+  }
+
+  &.animate-when-content-appears {
+    &:after {
+      @include setup-animate-stretch-in();
+    }
+
+    &.content-appeared {
+      &:after {
+        @include animate-stretch-in();
+      }
+    }
+  }
+}
+
+.section {
+  padding: clamp(1rem, 10%, 4rem);
+}
+.section-content {
+  max-width: 78ch;
+  margin: 0 auto;
+}
