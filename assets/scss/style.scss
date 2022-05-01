@@ -28,7 +28,13 @@
 
     --color-vassar-burgundy: #951829;
     --color-vassar-dark-burgundy: #641A2B;
+
+    --color-vassar-lightgray: #eee;
+    --color-vassar-darkgray: #63666A;
+    --color-vassar-charcoal: #333;
+
     --color-vassar-cream: #FFF8EF;
+    --color-vassar-rose: #F2D4D7;
 
     --nav-link-text-color: #fff;
     --nav-link-bg-color: var(--color-vassar-burgundy);
@@ -104,9 +110,11 @@ li::marker {
 
 @import "_sequential";
 @import "_section-basics";
+@import "_section-intro";
 @import "_content-sections/_all";
 
 @import "_type";
+@import "_breadcrumb";
 @import "_vassar-masthead";
 
 @import "_top-level-masthead";

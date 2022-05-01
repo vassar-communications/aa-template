@@ -16,10 +16,11 @@
   --regularContent-font-weight: "wght" 340;
 }
 
-
-p, li {
-  font-family: var(--sansSerif);
-  font-size: var(--regularContent-font-size);
-  font-variation-settings: var(--regularContent-font-weight);
-  line-height: var(--regularContent-lineHeight);
+.section-content {
+  p, li {
+    font-family: var(--sansSerif);
+    font-size: var(--regularContent-font-size);
+    font-variation-settings: var(--regularContent-font-weight);
+    line-height: var(--regularContent-lineHeight);
+  }
 }

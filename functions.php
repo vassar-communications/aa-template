@@ -202,6 +202,34 @@ function sec_buffer( $extra = false ) {
   return '<div class="buffer"></div>';
 }
 
+/**
+ * [breadcrumb_nav description]
+ * @todo Make this dynamic.
+ * @param  boolean $extra               [description]
+ * @return [type]         [description]
+ */
+function breadcrumb_nav( $extra = false) {
+$template = <<<TMP
+<nav class="main-nav animate-when-content-appears animation-fade-in">
+  <ol class="nav-path">
+    <li><a href="">Vassar</a></li>
+    <li><strong class="nav__current-item">Admissions</strong>
+      <ul class="nav-current-section animation-group animate-when-content-appears animation-fade-in">
+        <li class="animation-item"><a href="">How to Apply</a></li>
+        <li class="animation-item"><a href="">1st Year Applicants</a></li>
+        <li class="animation-item"><a href="">Transfer Applicants</a></li>
+        <li class="animation-item"><a href="">International Applicants</a></li>
+        <li class="animation-item"><a href="">Information for Veterans</a></li>
+        <li class="animation-item"><a href="">Questbridge Students</a></li>
+        <li class="animation-item"><a href="">Financial Aid</a></li>
+        <li class="animation-item"><a href="">Application Portal</a></li>
+      </ul>
+    </li>
+  </ol>
+</nav>
+TMP;
+  return $template;
+}
 
 
 

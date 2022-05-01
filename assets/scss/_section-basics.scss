@@ -98,7 +98,7 @@
 
   &:after {
     background-image: var(--bg-image);
-    background-size: cover;
+    background-size: var(--bg-image-size, cover);
     background-attachment: fixed;
     content: "";
     height: 100%;
@@ -106,5 +106,6 @@
     position: absolute;
     width: 100%;
     top: 0;
+    opacity: var(--bg-image-opacity, 1);
   }
 }

@@ -1,11 +1,95 @@
 .theme-burgundy {
   --section-bg-color: var(--color-vassar-burgundy);
-  --section-title-color: #f00;
-  --section-text-color: #fff;
+  --section-title-color: var(--color-vassar-cream);
+  --section-text-color: var(--color-vassar-cream);
 
   --section-link-bg-color: transparent;
   --section-link-color: #ff0;
   --section-link-visited-color: #888;
   --section-link-hover-bg-color: #000;
   --section-link-hover-color: #0ff;
+
+  &.quad-pattern {
+      --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-white.png);
+      --bg-image-size: 6rem;
+      --bg-image-opacity: 0.16;
+  }
+}
+
+
+.theme-dark-burgundy {
+  --section-bg-color: var(--color-vassar-dark-burgundy);
+  --section-title-color: var(--color-vassar-cream);
+  --section-text-color: var(--color-vassar-cream);
+
+  --section-link-bg-color: transparent;
+  --section-link-color: #ff0;
+  --section-link-visited-color: #888;
+  --section-link-hover-bg-color: #000;
+  --section-link-hover-color: #0ff;
+
+  &.quad-pattern {
+      --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-white.png);
+      --bg-image-size: 6rem;
+      --bg-image-opacity: 0.16;
+  }
+}
+
+
+
+.theme-charcoal {
+  --section-bg-color: var(--color-vassar-charcoal);
+  --section-title-color: var(--color-vassar-cream);
+  --section-title-border-color: var(--color-vassar-darkgray);
+  --section-text-color: var(--color-vassar-cream);
+
+  --section-link-bg-color: transparent;
+  --section-link-color: #ff0;
+  --section-link-visited-color: #888;
+  --section-link-hover-bg-color: #000;
+  --section-link-hover-color: #0ff;
+
+  &.quad-pattern {
+      --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-white.png);
+      --bg-image-size: 6rem;
+      --bg-image-opacity: 0.16;
+  }
+}
+
+.theme-cream {
+  --section-bg-color: var(--color-vassar-cream);
+  --section-title-color: var(--color-vassar-charcoal);
+  --section-title-border-color: #f00;
+  --section-text-color: var(--color-vassar-charcoal);
+
+  --section-link-bg-color: transparent;
+  --section-link-color: #ff0;
+  --section-link-visited-color: #888;
+  --section-link-hover-bg-color: #000;
+  --section-link-hover-color: #0ff;
+
+  &.quad-pattern {
+      --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-black.png);
+      --bg-image-size: 6rem;
+      --bg-image-opacity: 0.1;
+  }
+}
+
+.theme-rose {
+  --section-bg-color: var(--color-vassar-rose);
+  --section-title-color: var(--color-vassar-charcoal);
+  --section-title-border-color: #f00;
+  --section-text-color: var(--color-vassar-charcoal);
+
+  --section-link-bg-color: transparent;
+  --section-link-color: #ff0;
+  --section-link-visited-color: #888;
+  --section-link-hover-bg-color: #000;
+  --section-link-hover-color: #0ff;
+
+  &.quad-pattern {
+      --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-white.png);
+      --bg-image-size: 6rem;
+      --bg-image-opacity: 0.8;
+  }
 }
