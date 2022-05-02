@@ -24,16 +24,26 @@ $page_classes = "class1 class2";
 
 <?php /*  PAGE CONTENT === */ ?>
 
+<?php echo sec_introContent('animate-when-content-appears animation-zoom-in'); ?>
+
+All Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life.
+
+<?php echo end_sec_introContent(); ?>
+
 <?php echo sec_fullBleedImageColumn(); ?>
   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-  <?php echo sec_regularContent( "hey now" ); ?>
-    <p>eeeee</p>
-  <?php echo end_sec(); ?>
+<!-- CHARCOAL WITH PATTERN -->
+<div class="section theme-charcoal has-bg quad-pattern animate-when-content-appears animation-zoom-in">
+  <h2 class="section-title animate-when-content-appears animation-zoom-in">Charcoal with pattern</h2>
 
-
+  <div class="section-content animate-when-content-appears animation-fade-in">
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. This is what an <a href="unvisited-link.html">unvisited link</a> looks like. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. This is what a <a href="">visited link</a> looks like. </p>
+  </div>
+</div>
+<!-- END SECTION -->
 
 
 

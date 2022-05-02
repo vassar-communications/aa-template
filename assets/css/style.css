@@ -593,7 +593,7 @@ li::marker {
 .section-title {
   color: var(--section-title-color, #333);
   font-size: calc(1.465rem + 2.58vw);
-  font-weight: normal;
+  font-weight: 100;
   text-align: center;
   margin-top: 0;
   position: relative;
@@ -647,6 +647,17 @@ li::marker {
   width: 100%;
   top: 0;
   opacity: var(--bg-image-opacity, 1);
+}
+
+.section--intro .section-content {
+  text-align: center;
+  max-width: 110ch;
+}
+.section--intro .intro-text {
+  font-family: freight-display-pro;
+  font-weight: 100;
+  font-size: calc(1.2rem + 1.62vw);
+  line-height: 1.14;
 }
 
 .section.section--full-bleed-image-column {
@@ -718,7 +729,9 @@ li::marker {
   --regularContent-font-weight: "wght" 340;
 }
 
-.section-content p, .section-content li {
+.col--text p, .col--text li,
+.section-content p,
+.section-content li {
   font-family: var(--sansSerif);
   font-size: var(--regularContent-font-size);
   font-variation-settings: var(--regularContent-font-weight);

@@ -189,6 +189,23 @@ function end_sec( $extra = false ) {
 
 
 
+function sec_introContent($classes = false, $extra = false) {
+$template = <<<TMP
+<div class="section section--intro $classes">
+  <div class="section-content">
+  <p class="intro-text">
+TMP;
+  return $template;
+}
+
+function end_sec_introContent( $extra = false ) {
+  return '</p></div></div>';
+}
+
+
+
+
+
 /**
  * sec_buffer()
  * Spacefiller section for testing scroll-in animations

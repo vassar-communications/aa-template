@@ -2,7 +2,6 @@
   font-size: calc(1.725rem + 5.7vw);
 }
 
-
 /*
   Specifying these as CSS vars so they're easier to
   experiment with in the inspector
@@ -16,6 +15,7 @@
   --regularContent-font-weight: "wght" 340;
 }
 
+.col--text,
 .section-content {
   p, li {
     font-family: var(--sansSerif);
