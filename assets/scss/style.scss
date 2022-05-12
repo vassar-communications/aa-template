@@ -20,7 +20,7 @@
 
 :root {
     --content-width-1: 60rem;
-    --bs-font-sans-serif: freight-display-pro;
+    --bs-font-sans-serif: 'Source Sans Variable', system-ui, Helvetica, Arial, sans-serif;
 
     --color-lightgray: #eee;
 
@@ -43,13 +43,14 @@
 
 $vassar__inner-container: '.section-content' !default;
 
-
 $vassar__breakpoints: (
   sm: 40em,
   md: 50em,
   lg: 60em
 ) !default;
 
+
+// Widths
 $vassar__inner-widths: (
   25: 25%,
   33: 33%,
@@ -57,7 +58,7 @@ $vassar__inner-widths: (
   75: 75%
 ) !default;
 
-$vassar__max-widths: 40em 44em 50em 60em !default;
+$vassar__max-widths: 100ch 120ch 140ch 160ch !default;
 
 
 html {

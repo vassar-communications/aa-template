@@ -5,6 +5,75 @@
 
 */
 
+
+/*  ********** UTILITIES **********
+    These are functions to be used within templating functions themselves.
+*/
+
+/**
+ * get_extra_value()
+ *
+ * This makes it a little easier to get values defined in an
+ * extras array (or not, if no array exists). You'd use it in a
+ * template tag function as follows:
+ * `$image_col_classes = get_extra_value( 'image_col_classes' );`
+ *
+ * You can then include $image_col_classes in the template markup, even
+ * if you have no idea whether it will ever contain anything. If it ever
+ * has a value, that value will be added; if not, it'll be blank.
+ *
+ * You can also, optionally, wrap an extras tag in text. This is useful
+ * for use cases like inline CSS. If an element might or might not have
+ * inline CSS, you wouldn't want to have 'style="$the_css"' in your template
+ * markup, since a lot of the time, it might just be empty. Better to do the
+ * following: just include $the_css in the template markup, and then, in the
+ * template function, call get_extra_value() as:
+ *
+ * `get_extra_value( 'the_css', $extras, 'style="%s"');`
+ *
+ * That way, the 'style=' part is only added if there actually is styling.
+ *
+ *
+ * @param  string  $extras_key - the key for the extra value in question
+ * @param  array  $extras_array - the full array of all extra parameters
+ * @param  string $format - an optional format (like 'style="[value here]"') to wrap the value in
+ * @return string - the formatted extra
+ */
+function get_extra_value( $extras_key, $extras_array, $format = false ) {
+  if ( array_key_exists( $extras_key, $extras_array ) ) {
+      // return $extras_array[ $extras_key ];
+      if( !$format ) $format = $extras_array[ $extras_key ];
+
+      return sprintf($format, $extras_array[ $extras_key ]);
+
+  }
+  else return false;
+}
+
+
+/*  ********** TEMPLATE FUNCTIONS **********
+    These are functions that generate markup for use in template tags. Their purpose is to centralize common markup - section titles, call-to-action links, etc - that would otherwise be hardcoded into multiple places.
+*/
+
+/**
+ * [$section_title description]
+ * @param string $title - the section title
+ * @param string $title_classes (optional) - classes that should be applied to the title markup
+ * @return string - the rendered markup
+ */
+$section_title = function ($title, $title_classes=false ) {
+  if( $title )
+return <<<TMP
+<h2 class="section-title $title_classes">$title</h2>
+TMP;
+};
+
+
+
+
+
+
+
 function site_header( $extra=false ) {
 
   global $page_title;
@@ -33,7 +102,7 @@ $template = <<<TMP
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="https://codepen.csilverman.com/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
@@ -112,8 +181,13 @@ function site_footer() {
 }
 
 
+
 /*  SECTION TAGS
     ============ */
+
+
+
+
 
 
 
@@ -135,27 +209,30 @@ function site_footer() {
 
 function sec_fullBleedImageColumn(
   $title = false,
-  $classes = false,
-  $css = false,
-  $extra = false
+  $image,
+  $section_classes = false,
+  $extras = false
   ) {
 
-    if( $css )
-      $css = 'style="' . $css . '"';
+
+$image_col_classes = get_extra_value( 'image_col_classes', $extras );
+$text_col_classes = get_extra_value( 'text_col_classes', $extras );
+$image_col_css = get_extra_value( 'image_col_css', $extras, 'style="%s"' );
+$text_col_css = get_extra_value( 'text_col_css', $extras, 'style="%s"' );
 
 $template = <<<TMP
-<div class="section section--full-bleed-image-column">
+<div class="section section--full-bleed-image-column $section_classes">
   <div class="columns">
 
-        <div class="column col-has-image animate-when-content-appears animation-fade-in" $css>
+        <div class="column col-has-image animate-when-content-appears animation-fade-in $image_col_classes" $image_col_css>
       <div class="full-bleed-image-container">
-        <img src="https://assets.codepen.io/49012/test-vertical.jpg" />
+        <img src="$image" />
       </div>
     </div>
 
 
-    <div class="column col--text">
-      <div class="section--full-bleed-image-column__content">
+    <div class="column col--text $text_col_classes">
+      <div class="section--full-bleed-image-column__content" $text_col_css>
         <h2 class="section-title animate-when-content-appears animation-zoom-in">Title</h2>
 TMP;
 
@@ -174,13 +251,23 @@ function end_sec_fullBleedImageColumn( $extra = false ) {
 
 
 
+function sec_regularContent(
+  $title=false,
+  $section_classes = false,
+  $title_classes=false,
+  $extra = false
+) {
+  global $section_title;
 
-function sec_regularContent($title, $classes = false, $extra = false) {
-  $template = '
-  <div class="section">
+
+$image_col_classes = get_extra_value( 'image_col_classes', $extras );
+
+
+return <<<TMP
+  <div class="section $section_classes">
     <div class="section-content">
-  ';
-  return $template;
+    {$section_title( $title, $title_classes )}
+TMP;
 }
 
 function end_sec( $extra = false ) {
@@ -230,7 +317,8 @@ $template = <<<TMP
 <nav class="main-nav animate-when-content-appears animation-fade-in">
   <ol class="nav-path">
     <li><a href="">Vassar</a></li>
-    <li><strong class="nav__current-item">Admissions</strong>
+    <li><a href="">Admissions</a></li>
+    <li><strong class="nav__current-item">Apply</strong>
       <ul class="nav-current-section animation-group animate-when-content-appears animation-fade-in">
         <li class="animation-item"><a href="">How to Apply</a></li>
         <li class="animation-item"><a href="">1st Year Applicants</a></li>
@@ -249,6 +337,36 @@ TMP;
 }
 
 
+
+
+
+
+function masthead_fancyVideoBackground( $title, $video, $extras ) {
+
+$template = <<<TMP
+
+<!-- https://stackoverflow.com/questions/24579785/force-iframe-youtube-video-to-center-fit-and-full-cover-the-screen-in-the-backgr -->
+
+<div class="video-header is-loading">
+
+  <div class="title-cover">
+    <h1 class="display-1">
+      <span class="slice slice-1">Admission</span>
+      <span class="slice slice-2">Admission</span>
+    </h1>
+    <div class="cover-content">
+      <a href="" class="btn btn-lg btn-primary">Apply</a>
+      <a href="" class="btn btn-lg btn-primary">Request Info</a>
+    </div>
+  </div>
+
+  <div class="video-background">
+    <iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" id="main-video" src="https://player.vimeo.com/video/675479542?h=3f69ff4c7f?h=360eb5ffb8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;muted=1&amp;autoplay=1&amp;loop=1&amp;byline=0&amp;title=0"  title="This-is-Vassar-Anthem-slide-loop"></iframe>
+  </div>
+</div>
+TMP;
+
+}
 
 
 

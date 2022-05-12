@@ -55,7 +55,7 @@
 
   position: relative;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 
   &:after {
     position: absolute;
@@ -83,7 +83,7 @@
   padding: clamp(1rem, 10%, 4rem);
 }
 .section-content {
-  max-width: 78ch;
+  max-width: 100ch;
   margin: 0 auto;
 }
 

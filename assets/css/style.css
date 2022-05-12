@@ -15,7 +15,7 @@
 }
 :root {
   --content-width-1: 60rem;
-  --bs-font-sans-serif: freight-display-pro;
+  --bs-font-sans-serif: "Source Sans Variable", system-ui, Helvetica, Arial, sans-serif;
   --color-lightgray: #eee;
   --h2-font-size: calc(1.525rem + 3.3vw);
   --color-vassar-burgundy: #951829;
@@ -598,7 +598,7 @@ li::marker {
   margin-top: 0;
   position: relative;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 .section-title:after {
   position: absolute;
@@ -624,7 +624,7 @@ li::marker {
 }
 
 .section-content {
-  max-width: 78ch;
+  max-width: 100ch;
   margin: 0 auto;
 }
 
@@ -1075,10 +1075,10 @@ li::marker {
   }
 }
 :root {
-  --mw-1: 40em;
-  --mw-2: 44em;
-  --mw-3: 50em;
-  --mw-4: 60em;
+  --mw-1: 100ch;
+  --mw-2: 120ch;
+  --mw-3: 140ch;
+  --mw-4: 160ch;
 }
 
 .mw-1 {
@@ -1092,32 +1092,32 @@ li::marker {
 
 @media only screen and (min-width: 40em) {
   .mw-sm-1 {
-    max-width: 40em;
+    max-width: 100ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-1 {
-    max-width: 40em;
+    max-width: 100ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-1 {
-    max-width: 40em;
+    max-width: 100ch;
   }
 }
 @media only screen and (min-width: 40em) {
   .mw-sm-1 {
-    max-width: 40em;
+    max-width: 100ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-1 {
-    max-width: 40em;
+    max-width: 100ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-1 {
-    max-width: 40em;
+    max-width: 100ch;
   }
 }
 .mw-2 {
@@ -1131,32 +1131,32 @@ li::marker {
 
 @media only screen and (min-width: 40em) {
   .mw-sm-2 {
-    max-width: 44em;
+    max-width: 120ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-2 {
-    max-width: 44em;
+    max-width: 120ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-2 {
-    max-width: 44em;
+    max-width: 120ch;
   }
 }
 @media only screen and (min-width: 40em) {
   .mw-sm-2 {
-    max-width: 44em;
+    max-width: 120ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-2 {
-    max-width: 44em;
+    max-width: 120ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-2 {
-    max-width: 44em;
+    max-width: 120ch;
   }
 }
 .mw-3 {
@@ -1170,32 +1170,32 @@ li::marker {
 
 @media only screen and (min-width: 40em) {
   .mw-sm-3 {
-    max-width: 50em;
+    max-width: 140ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-3 {
-    max-width: 50em;
+    max-width: 140ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-3 {
-    max-width: 50em;
+    max-width: 140ch;
   }
 }
 @media only screen and (min-width: 40em) {
   .mw-sm-3 {
-    max-width: 50em;
+    max-width: 140ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-3 {
-    max-width: 50em;
+    max-width: 140ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-3 {
-    max-width: 50em;
+    max-width: 140ch;
   }
 }
 .mw-4 {
@@ -1209,32 +1209,32 @@ li::marker {
 
 @media only screen and (min-width: 40em) {
   .mw-sm-4 {
-    max-width: 60em;
+    max-width: 160ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-4 {
-    max-width: 60em;
+    max-width: 160ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-4 {
-    max-width: 60em;
+    max-width: 160ch;
   }
 }
 @media only screen and (min-width: 40em) {
   .mw-sm-4 {
-    max-width: 60em;
+    max-width: 160ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-4 {
-    max-width: 60em;
+    max-width: 160ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-4 {
-    max-width: 60em;
+    max-width: 160ch;
   }
 }
 .buffer {
