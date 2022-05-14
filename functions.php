@@ -53,6 +53,9 @@ function get_extra_value( $extras_key, $extras_array, $format = false ) {
 
 /*  ********** TEMPLATE FUNCTIONS **********
     These are functions that generate markup for use in template tags. Their purpose is to centralize common markup - section titles, call-to-action links, etc - that would otherwise be hardcoded into multiple places.
+
+    Note: in order to use them, you'll need to declare them as globals in the
+    template function first: `global $section_title;`
 */
 
 /**
@@ -72,9 +75,23 @@ TMP;
 
 
 
+/*  ********** TEMPLATE TAGS **********
+    These are functions that you'd use in a page to generate the actual page markup.
 
+    Index
+    -----
 
-function site_header( $extra=false ) {
+    1. Required tags
+    2. Section tags
+*/
+
+/**
+ * site_header()
+ * Generates the header for a page: doctype, head, and opening body tag. Required on every page.
+ * @param array $extras (optional) - Reserved for future usage
+ * @return string - The header markup
+ */
+function site_header( $extras=false ) {
 
   global $page_title;
   global $page_classes;
@@ -122,10 +139,10 @@ TMP;
  *
  * @see https://codepen.io/csilverman/pen/KKZOoQW
  * @link https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ1F2lWxE1yMeSI/edit#heading=h.a091marh1u07
- * @param  array $extra - Reserved for future use
+ * @param  array $extras (optional) - Reserved for future use
  * @return string $template - The rendered HTML markup
  */
-function vassar_masthead( $extra = false ) {
+function vassar_masthead( $extras = false ) {
 $template = <<<TMP
 <div class="vassar-masthead">
 <a href="/" title="Home" rel="home" class="vassar-masthead-link">
@@ -140,7 +157,12 @@ TMP;
 
 
 
-
+/**
+ * [page_masthead description]
+ * @param  [type]  $cover_url               [description]
+ * @param  boolean $extras                  [description]
+ * @return [type]             [description]
+ */
 function page_masthead($cover_url, $extras = false) {
 
   global $page_title;
@@ -186,133 +208,13 @@ function site_footer() {
     ============ */
 
 
-
-
-
-
-
-
-
-
-/**
- * sec_fullBleedImageColumn()
- * Two-column row with image, where the image takes up 50% of the screen
- *
- * @see https://codepen.io/csilverman/pen/NWXQMWj?editors=1000
- * @link https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ1F2lWxE1yMeSI/edit#heading=h.nfn2l8uhdoxl
- * @param  string  $title (optional) - The title of the section
- * @param  string $classes (optional) - Any classes
- * @param  string $css (optional) - Inline CSS (like CSS variables)
- * @param  array $extra - Reserved for future use
- * @return string $template - The rendered HTML markup
- */
-
-function sec_fullBleedImageColumn(
-  $title = false,
-  $image,
-  $section_classes = false,
-  $extras = false
-  ) {
-
-
-$image_col_classes = get_extra_value( 'image_col_classes', $extras );
-$text_col_classes = get_extra_value( 'text_col_classes', $extras );
-$image_col_css = get_extra_value( 'image_col_css', $extras, 'style="%s"' );
-$text_col_css = get_extra_value( 'text_col_css', $extras, 'style="%s"' );
-
-$template = <<<TMP
-<div class="section section--full-bleed-image-column $section_classes">
-  <div class="columns">
-
-        <div class="column col-has-image animate-when-content-appears animation-fade-in $image_col_classes" $image_col_css>
-      <div class="full-bleed-image-container">
-        <img src="$image" />
-      </div>
-    </div>
-
-
-    <div class="column col--text $text_col_classes">
-      <div class="section--full-bleed-image-column__content" $text_col_css>
-        <h2 class="section-title animate-when-content-appears animation-zoom-in">Title</h2>
-TMP;
-
-  return $template;
-}
-
-/**
- * end_sec_fullBleedImageColumn()
- * @param  array $extra - Reserved for future use
- * @return string - The rendered HTML markup
- */
-function end_sec_fullBleedImageColumn( $extra = false ) {
-  return '</div></div></div></div>';
-}
-
-
-
-
-function sec_regularContent(
-  $title=false,
-  $section_classes = false,
-  $title_classes=false,
-  $extra = false
-) {
-  global $section_title;
-
-
-$image_col_classes = get_extra_value( 'image_col_classes', $extras );
-
-
-return <<<TMP
-  <div class="section $section_classes">
-    <div class="section-content">
-    {$section_title( $title, $title_classes )}
-TMP;
-}
-
-function end_sec( $extra = false ) {
-  return '</div></div>';
-}
-
-
-
-function sec_introContent($classes = false, $extra = false) {
-$template = <<<TMP
-<div class="section section--intro $classes">
-  <div class="section-content">
-  <p class="intro-text">
-TMP;
-  return $template;
-}
-
-function end_sec_introContent( $extra = false ) {
-  return '</p></div></div>';
-}
-
-
-
-
-
-/**
- * sec_buffer()
- * Spacefiller section for testing scroll-in animations
- *
- * @see https://codepen.io/csilverman/pen/popMVyL
- * @link https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ1F2lWxE1yMeSI/edit#heading=h.q3v10639vhm8
- * @param  boolean $extra - Reserved for future use
- * @return string - The rendered HTML markup
- */
-function sec_buffer( $extra = false ) {
-  return '<div class="buffer"></div>';
-}
-
 /**
  * [breadcrumb_nav description]
  * @todo Make this dynamic.
- * @param  boolean $extra               [description]
+ * @param  boolean $extras               [description]
  * @return [type]         [description]
  */
-function breadcrumb_nav( $extra = false) {
+function breadcrumb_nav( $extras = false) {
 $template = <<<TMP
 <nav class="main-nav animate-when-content-appears animation-fade-in">
   <ol class="nav-path">

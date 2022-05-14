@@ -624,7 +624,7 @@ li::marker {
 }
 
 .section-content {
-  max-width: 100ch;
+  max-width: 80ch;
   margin: 0 auto;
 }
 
@@ -647,6 +647,47 @@ li::marker {
   width: 100%;
   top: 0;
   opacity: var(--bg-image-opacity, 1);
+}
+
+.section-with-columns .section-content {
+  display: grid;
+  gap: var(--column-gap, 3rem);
+  grid-template-columns: repeat(var(--cols, 1), 1fr);
+  max-width: var(--cols-mw, 60rem);
+}
+
+.columns-2 .section-content {
+  /*	Sets up a media query. This expects that all of a project's breakpoints will
+  	    be stored in a map named $breakpoints, as follows:
+  $breakpoints: (
+  	"small": 30em,
+  	"medium": 50em,
+  	"large": 70em
+  );
+  	*/
+}
+@media screen and (min-width: 50em) {
+  .columns-2 .section-content {
+    --cols: 2;
+    --cols-mw: 60rem;
+  }
+}
+
+.columns-3 .section-content {
+  /*	Sets up a media query. This expects that all of a project's breakpoints will
+  	    be stored in a map named $breakpoints, as follows:
+  $breakpoints: (
+  	"small": 30em,
+  	"medium": 50em,
+  	"large": 70em
+  );
+  	*/
+}
+@media screen and (min-width: 60em) {
+  .columns-3 .section-content {
+    --cols: 3;
+    --cols-mw: 90rem;
+  }
 }
 
 .section--intro .section-content {
@@ -736,6 +777,11 @@ li::marker {
   font-size: var(--regularContent-font-size);
   font-variation-settings: var(--regularContent-font-weight);
   line-height: var(--regularContent-lineHeight);
+}
+
+.section-title {
+  font-family: freight-display-pro;
+  font-weight: 100;
 }
 
 .main-nav {

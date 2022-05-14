@@ -1,0 +1,27 @@
+.section-with-columns {
+  .section-content {
+    display: grid;
+    gap: var(--column-gap, 3rem);
+    grid-template-columns: repeat(var(--cols, 1), 1fr);
+    max-width: var(--cols-mw, 60rem);
+  }
+}
+
+
+.columns-2 {
+  .section-content {
+    @include break(md) {
+      --cols: 2;
+      --cols-mw: 60rem;
+    }
+  }
+}
+
+.columns-3 {
+  .section-content {
+    @include break(lg) {
+      --cols: 3;
+      --cols-mw: 90rem;
+    }
+  }
+}
