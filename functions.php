@@ -1,5 +1,15 @@
 <?php
 
+include(getcwd().'/core/partials/bg-image.inc');
+include(getcwd().'/core/partials/section-title.inc');
+
+include(getcwd().'/core/section-tags/buffer.inc');
+include(getcwd().'/core/section-tags/columns.inc');
+include(getcwd().'/core/section-tags/introContent.inc');
+include(getcwd().'/core/section-tags/fullBleedImageColumn.inc');
+include(getcwd().'/core/section-tags/regularContent.inc');
+
+
 /*
   VASSAR TEMPLATING SYSTEM
 
@@ -16,7 +26,7 @@
  * This makes it a little easier to get values defined in an
  * extras array (or not, if no array exists). You'd use it in a
  * template tag function as follows:
- * `$image_col_classes = get_extra_value( 'image_col_classes' );`
+ * `$image_col_classes = get_extra_value('image_col_classes');`
  *
  * You can then include $image_col_classes in the template markup, even
  * if you have no idea whether it will ever contain anything. If it ever
@@ -29,7 +39,7 @@
  * following: just include $the_css in the template markup, and then, in the
  * template function, call get_extra_value() as:
  *
- * `get_extra_value( 'the_css', $extras, 'style="%s"');`
+ * `get_extra_value('the_css', $extras, 'style="%s"');`
  *
  * That way, the 'style=' part is only added if there actually is styling.
  *
@@ -39,10 +49,10 @@
  * @param  string $format - an optional format (like 'style="[value here]"') to wrap the value in
  * @return string - the formatted extra
  */
-function get_extra_value( $extras_key, $extras_array, $format = false ) {
-  if ( array_key_exists( $extras_key, $extras_array ) ) {
+function get_extras_value($extras_key, $extras_array, $format = false) {
+  if ($extras_array && array_key_exists($extras_key, $extras_array)) {
       // return $extras_array[ $extras_key ];
-      if( !$format ) $format = $extras_array[ $extras_key ];
+      if(!$format) $format = $extras_array[ $extras_key ];
 
       return sprintf($format, $extras_array[ $extras_key ]);
 
@@ -58,18 +68,6 @@ function get_extra_value( $extras_key, $extras_array, $format = false ) {
     template function first: `global $section_title;`
 */
 
-/**
- * [$section_title description]
- * @param string $title - the section title
- * @param string $title_classes (optional) - classes that should be applied to the title markup
- * @return string - the rendered markup
- */
-$section_title = function ($title, $title_classes=false ) {
-  if( $title )
-return <<<TMP
-<h2 class="section-title $title_classes">$title</h2>
-TMP;
-};
 
 
 
@@ -91,7 +89,7 @@ TMP;
  * @param array $extras (optional) - Reserved for future usage
  * @return string - The header markup
  */
-function site_header( $extras=false ) {
+function site_header($extras=false) {
 
   global $page_title;
   global $page_classes;
@@ -142,7 +140,7 @@ TMP;
  * @param  array $extras (optional) - Reserved for future use
  * @return string $template - The rendered HTML markup
  */
-function vassar_masthead( $extras = false ) {
+function vassar_masthead($extras = false) {
 $template = <<<TMP
 <div class="vassar-masthead">
 <a href="/" title="Home" rel="home" class="vassar-masthead-link">
@@ -214,7 +212,7 @@ function site_footer() {
  * @param  boolean $extras               [description]
  * @return [type]         [description]
  */
-function breadcrumb_nav( $extras = false) {
+function breadcrumb_nav($extras = false) {
 $template = <<<TMP
 <nav class="main-nav animate-when-content-appears animation-fade-in">
   <ol class="nav-path">
@@ -243,7 +241,7 @@ TMP;
 
 
 
-function masthead_fancyVideoBackground( $title, $video, $extras ) {
+function masthead_fancyVideoBackground($title, $video, $extras) {
 
 $template = <<<TMP
 

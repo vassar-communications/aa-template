@@ -12,10 +12,10 @@ function sec_hasColumns(
 
   if( $columns == '' ) $columns = 2;
 
-  $css = get_extra_value( 'css', $extras, 'style="%s"' );
+  $css = get_extras_value( 'css', $extras, 'style="%s"' );
 
 
-$title_classes = get_extra_value( 'title_classes', $extras );
+$title_classes = get_extras_value( 'title_classes', $extras );
 
 
 return <<<TMP

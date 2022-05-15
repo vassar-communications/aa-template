@@ -23,10 +23,10 @@ function sec_fullBleedImageColumn(
   ) {
 
 
-$image_col_classes = get_extra_value( 'image_col_classes', $extras );
-$text_col_classes = get_extra_value( 'text_col_classes', $extras );
-$image_col_css = get_extra_value( 'image_col_css', $extras, 'style="%s"' );
-$text_col_css = get_extra_value( 'text_col_css', $extras, 'style="%s"' );
+$image_col_classes = get_extras_value( 'image_col_classes', $extras );
+$text_col_classes = get_extras_value( 'text_col_classes', $extras );
+$image_col_css = get_extras_value( 'image_col_css', $extras, 'style="%s"' );
+$text_col_css = get_extras_value( 'text_col_css', $extras, 'style="%s"' );
 
 $template = <<<TMP
 <div class="section section--full-bleed-image-column $section_classes">
