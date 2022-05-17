@@ -39,3 +39,17 @@ var discreteElements = document.getElementsByClassName('animate-when-content-app
 			offset: '80%'
 		});
 	}
+
+
+
+var discreteElements = document.getElementsByClassName('show-image-then-content')
+	for (var i = 0; i < discreteElements.length; i++) {
+		new Waypoint({
+			element: discreteElements[i],
+			handler: function() {
+				this.element.classList.add("content-appeared");
+			},
+//			context: document.getElementById('page-content'),
+			offset: '-2px'
+		});
+	}

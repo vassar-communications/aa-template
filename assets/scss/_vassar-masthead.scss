@@ -16,7 +16,7 @@
     padding: 1rem;
 
     &:hover {
-      background-color: #00f;
+      background-color: var(--vassar-masthead-bg-hover, #aaa);
     }
   }
 
