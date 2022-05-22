@@ -1,0 +1,9 @@
+.card--twocols {
+  display: flex;
+    flex-direction: row;
+
+    img {
+      width: var(--card-image-width, 50%);
+    object-fit: cover;
+    }
+}

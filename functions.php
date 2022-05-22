@@ -9,11 +9,15 @@ include($project_paths['main_project_root'].'/core/template-parts/footer.inc');
 /* Partials */
 
 include($project_paths['main_project_root'].'/core/partials/bg-image.inc');
+include($project_paths['main_project_root'].'/core/partials/card-title.inc');
 
 
 /* Items */
 
 include($project_paths['main_project_root'].'/core/items/dropdown.inc');
+include($project_paths['main_project_root'].'/core/items/stat.inc');
+include($project_paths['main_project_root'].'/core/items/cardWithText.inc');
+include($project_paths['main_project_root'].'/core/items/imageCard.inc');
 
 
 /* Sections */
