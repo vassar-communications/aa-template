@@ -1,3 +1,6 @@
+// $assets-path: 'https://codepen.csilverman.com';
+$assets-path: '..';
+
 @font-face{
     font-family: 'Source Sans Variable';
     font-weight: 200 900;
@@ -108,6 +111,8 @@ li::marker {
 @import "_row-basics";
 @import "_mixins";
 @import "_animations/_all";
+
+@import "_items/_all";
 
 @import "_sequential";
 @import "_section-basics";

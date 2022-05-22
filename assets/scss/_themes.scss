@@ -10,7 +10,7 @@
   --section-link-hover-color: #0ff;
 
   &.quad-pattern {
-      --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-white.png);
+      --bg-image: url(#{$assets-path}/images/Vassar_QuadGrid-white.png);
       --bg-image-size: 6rem;
       --bg-image-opacity: 0.16;
   }

@@ -6,7 +6,18 @@ include($project_paths['main_project_root'].'/core/template-parts/header.inc');
 include($project_paths['main_project_root'].'/core/template-parts/footer.inc');
 
 
+/* Partials */
+
 include($project_paths['main_project_root'].'/core/partials/bg-image.inc');
+
+
+/* Items */
+
+include($project_paths['main_project_root'].'/core/items/dropdown.inc');
+
+
+/* Sections */
+
 include($project_paths['main_project_root'].'/core/partials/section-title.inc');
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/buffer.inc');
@@ -14,6 +25,8 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/col
 include($project_paths['main_project_root'].'/core/sections/content_sections/introContent.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fullBleedImageColumn.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/regularContent.inc');
+
+
 
 
 /*
