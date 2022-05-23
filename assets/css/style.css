@@ -323,13 +323,90 @@ details[open] summary:before {
   font-weight: bold;
 }
 
+.card {
+  margin-bottom: 6rem;
+  /*
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: #000;
+      z-index: -1;
+    }
+  */
+}
+
+.card,
+.card-body {
+  transition: 0.4s all ease;
+}
+
+.card-body {
+  padding: var(--card-body-padding, clamp(1.2rem, -1.5rem + 8vw, 2rem));
+}
+.card-body p:only-child,
+.card-body p:last-child {
+  margin-bottom: 0;
+}
+
+.card {
+  --regularContent-font-size: 1.2rem;
+  border-radius: var(--card-border-radius, 0.5rem);
+  overflow: hidden;
+  text-decoration: none;
+  /*
+    &:hover .card-body  {
+        opacity: 0.8;
+    }
+  */
+}
+.card:link .card-body {
+  background-color: var(--section-bg-color);
+  color: var(--section-text-color);
+}
+.card:hover {
+  filter: brightness(1.2);
+}
+.card img {
+  border-radius: 0;
+}
+
 .card--twocols {
-  display: flex;
-  flex-direction: row;
+  /*	Sets up a media query. This expects that all of a project's breakpoints will
+  	    be stored in a map named $breakpoints, as follows:
+  $breakpoints: (
+  	"small": 30em,
+  	"medium": 50em,
+  	"large": 70em
+  );
+  	*/
+}
+@media screen and (min-width: 50em) {
+  .card--twocols {
+    display: flex;
+    flex-direction: row;
+  }
 }
 .card--twocols img {
-  width: var(--card-image-width, 50%);
   object-fit: cover;
+  /*	Sets up a media query. This expects that all of a project's breakpoints will
+  	    be stored in a map named $breakpoints, as follows:
+  $breakpoints: (
+  	"small": 30em,
+  	"medium": 50em,
+  	"large": 70em
+  );
+  	*/
+}
+@media screen and (min-width: 50em) {
+  .card--twocols img {
+    width: var(--card-image-width, 50%);
+  }
 }
 
 .seq-item--useTransition:nth-child(1) {

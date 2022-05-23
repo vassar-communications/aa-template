@@ -22,12 +22,12 @@ $card_image_url = $card_image_info['url'];
 $card_image_alt = $card_image_info['alt'];
 
 return <<<TMP
-<div class="card $classes" $css>
+<a class="card $classes" $css href="$card_link_url">
   <img src="$card_image_url" class="card-img" alt="$card_image_alt">
   <div class="card-img-overlay">
     {$card_title($title, $extras)}
     <p class="card-text">$text</p>
   </div>
-</div>
+</a>
 TMP;
 }
