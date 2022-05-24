@@ -35,7 +35,7 @@ TMP;
 
 function item_col( $col_classes='' ) {
   return <<<TMP
-  <div class="column $col_classes">';
+  <div class="column $col_classes">
 TMP;
 }
 function end_item_col() {

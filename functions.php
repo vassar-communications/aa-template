@@ -16,6 +16,7 @@ include($project_paths['main_project_root'].'/core/partials/card-title.inc');
 
 include($project_paths['main_project_root'].'/core/items/dropdown.inc');
 include($project_paths['main_project_root'].'/core/items/stat.inc');
+include($project_paths['main_project_root'].'/core/items/iconItem.inc');
 include($project_paths['main_project_root'].'/core/items/cardWithText.inc');
 include($project_paths['main_project_root'].'/core/items/imageCard.inc');
 

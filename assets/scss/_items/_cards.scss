@@ -18,12 +18,15 @@
 
 }
 .card,
-.card-body {
+.card-body,
+.card img {
   transition: 0.4s all ease;
 }
 
 .card-body {
   padding: var(--card-body-padding, clamp(1.2rem, -1.5rem + 8vw, 2rem));
+  position: relative;
+
 
   p:only-child,
   p:last-child {
@@ -32,18 +35,27 @@
 }
 
 .card {
-  --regularContent-font-size: 1.2rem;
+  --regularContent-font-size: 1.1rem;
+  --regularContent-lineHeight: 1.3;
 
   border-radius: var(--card-border-radius, 0.5rem);
   overflow: hidden;
   text-decoration: none;
 
   &:link .card-body {
-    background-color: var(--section-bg-color);
-    color: var(--section-text-color);
+    background-color: var(--section-bg-color, #fff);
+    color: var(--section-text-color, #333);
   }
   &:hover {
-    filter: brightness(1.2);    
+    --section-link-hover-bg-color: transparent;
+    filter: brightness(1.2);
+    transform: scale(1.02);
+    box-shadow: 0 0.2rem 0.8rem #b0ada8;
+
+    img {
+      transform: scale(1.06);
+      filter: contrast(1.2);
+    }
   }
 
 /*

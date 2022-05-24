@@ -1,0 +1,43 @@
+
+.icon-item {
+  --regularContent-font-size: var(--font-size-small);
+
+  &.icon-lg {
+    .the-icon {
+      font-size: 2.4rem;
+    }
+  }
+
+  &.icon-on-left {
+    display: flex;
+    gap: 1.6rem;
+
+    .the-icon {
+      font-size: 3rem;
+    }
+
+  }
+
+  &.icon-red {
+    .the-icon {
+      color: #f00;
+    }
+  }
+
+  .the-icon {
+      margin-bottom: 1rem;
+  }
+
+  &.style-feature {
+
+    .the-icon {
+      display: inline-block;
+      background: var(--section-text-color, var(--color-vassar-burgundy));
+      padding: 0.6rem;
+      line-height: 0;
+      color: var(--section-bg-color, #fff);
+      font-size: 2rem;
+      border-radius: 0.2rem;
+    }
+  }
+}
