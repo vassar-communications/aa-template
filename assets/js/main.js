@@ -174,6 +174,19 @@ var discreteElements = document.getElementsByClassName('show-image-then-content'
     }
   }
 
-  document.querySelectorAll('details').forEach((el) => {
+  document.querySelectorAll('details.animated-dropdown').forEach((el) => {
     new Accordion(el);
   });
+
+
+
+
+
+
+// https://stackoverflow.com/questions/8609170/how-to-wrap-each-word-of-an-element-in-a-span-tag
+
+var words = $(".word-by-word").text().split(" ");
+$(".word-by-word").empty();
+$.each(words, function(i, v) {
+    $(".word-by-word").append($("<span>").text(v));
+});

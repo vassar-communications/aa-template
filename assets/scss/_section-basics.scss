@@ -80,7 +80,7 @@
 }
 
 .section {
-  padding: clamp(1rem, 10%, 4rem);
+  padding: var(--section-padding, clamp(1rem, 10%, 4rem));
 }
 .section-content {
   max-width: 80ch;

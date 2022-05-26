@@ -16,7 +16,7 @@ global $project_paths;
 return <<<TMP
 <div class="icon-item $classes" $css>
   <div class="icon-container">
-    <i class="bi-$icon the-icon"></i>
+    <i class="fa fa-$icon the-icon"></i>
   </div>
   <div class="icon-item__text">
     <h$heading_level class="icon-item__title">$title</h$heading_level>

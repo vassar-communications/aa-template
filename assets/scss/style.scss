@@ -25,6 +25,8 @@ $assets-path: '..';
     --content-width-1: 60rem;
     --bs-font-sans-serif: 'Source Sans Variable', system-ui, Helvetica, Arial, sans-serif;
 
+    --font-big-serif: freight-display-pro;
+
     --color-lightgray: #eee;
 
     --h2-font-size: calc(1.525rem + 3.3vw);
@@ -86,10 +88,6 @@ li::marker {
   font-size: 80%;
 }
 
-
-.bob {
-  color: #f00;
-}
 .c {
   color: #0f0;
 }
@@ -115,11 +113,16 @@ li::marker {
 
 @import "_items/_all";
 
+@import "_atoms/_all";
+
+@import "_libraries/_all";
+
 @import "_sequential";
 @import "_section-basics";
 @import "_section-with-columns";
 @import "_section-has-image";
 @import "_section-intro";
+@import "_section-word-by-word";
 @import "_content-sections/_all";
 
 @import "_type";
