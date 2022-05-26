@@ -43,10 +43,10 @@ text-shadow: 0 0 2rem #000;
     margin-bottom: 0;
   }
   h1 {
-    --animate-rightshift-in-delay: 0.4s;
-    --animate-rightshift-in-dur: 1s;
-    @include setup-animate-rightshift-in();
-    @include animate-rightshift-in();
+    --animation-rightshift-in-delay: 0.4s;
+    --animation-rightshift-in-dur: 1s;
+    @include setup-animation-rightshift-in();
+    @include animation-rightshift-in();
   }
 
 

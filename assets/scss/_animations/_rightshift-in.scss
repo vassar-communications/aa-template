@@ -1,19 +1,21 @@
-@keyframes rightshift-in {
-  0% {
-    opacity: 0;
-    transform: translateX(var(--animate-rightshift-in-dist, -1.4rem));
-  }
-  100% {
-   opacity: 1;
-    transform: translateX(0);
-  }
-}
 
-@mixin setup-animate-rightshift-in() {
+@mixin setup-animation-rightshift-in() {
+
+  @keyframes rightshift-in {
+    0% {
+      opacity: 0;
+      transform: var(--initial-transforms, translateX(var(--animation-rightshift-in-dist, -1.4rem)));
+    }
+    100% {
+     opacity: var(--final-opacity, 1);
+      transform: var(--final-transforms, translateX(0));
+    }
+  }
+
     opacity: 0;
-    transform: translateX(var(--animate-rightshift-in-dist, -1.4rem));
+    transform: translateX(var(--animation-rightshift-in-dist, -1.4rem));
 }
-@mixin animate-rightshift-in($applied-to-sequential-items:false) {
+@mixin animation-rightshift-in($applied-to-sequential-items:false, $the-id:false) {
   //  If the animation is being applied to a sequence of items
   //  via an .animation-group class, we don't want to specify a
   //  uniform animation-delay because each item's delay is
@@ -29,25 +31,25 @@
 
 .animation-rightshift-in {
   &.animate-when-content-appears {
-      @include setup-animate-rightshift-in();
+      @include setup-animation-rightshift-in();
 
     &.content-appeared {
-        @include animate-rightshift-in();
+        @include animation-rightshift-in();
     }
   }
   &.animation-group .animation-item {
-    @include setup-animate-rightshift-in();
+    @include setup-animation-rightshift-in();
   }
   &.animation-group.content-appeared .animation-item {
-    @include animate-rightshift-in(true);
+    @include animation-rightshift-in(true);
   }
 }
 
 .secondary-item.animation-rightshift-in {
-  @include setup-animate-rightshift-in();
+  @include setup-animation-rightshift-in();
 }
 .content-appeared {
   .secondary-item.animation-rightshift-in {
-    @include animate-rightshift-in(true);
+    @include animation-rightshift-in(true);
   }
 }

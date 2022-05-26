@@ -21,6 +21,36 @@
         margin-right: 0;
   }
 
+  p {
+    overflow-wrap: break-word;
+    --regularContent-lineHeight: 1.2;
+    @include rfs(3rem, --regularContent-font-size);
+
+    span {
+      font-weight: 200;
+      font-variation-settings: "wght" 240;
+      font-family: var(--font-big-serif);
+      display: inline-block;
+      margin-right: 0.2em;
+
+      $settings: (
+        gap: 0.1s,
+        max-items: 100,
+      );
+
+      @include sequence($settings);
+      @include setup-animation-fade-in();
+    }
+
+  }
+  &.content-appeared {
+    --initial-transforms: translateX(-2.4rem) skewX(-10deg);
+    --final-opacity: 0.3;
+    --final-transforms: translateX(0) skewX(-10deg);
+    span {
+      @include animation-fade-in(true);
+    }
+  }
   .image-container {
     position: absolute;
     top: 0;
@@ -31,6 +61,8 @@
     overflow: hidden;
     background: #951829;
     opacity: 0.4;
+    /* HEY */
+      @include setup-animation-rightshift-in();
 
     svg {
       width: calc(100% + 3em);
@@ -44,35 +76,36 @@
 //      opacity: 0.6;
 
     }
+    image {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+    }
+
+    g {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      object-fit: contain;
+    }
+
   }
-}
 
-.word-by-word {
-  overflow-wrap: break-word;
-  --regularContent-lineHeight: 1.2;
-  @include rfs(3rem, --regularContent-font-size);
-
-  span {
-    font-weight: 200;
-    font-variation-settings: "wght" 240;
-    font-family: var(--font-big-serif);
+  &.content-appeared {
+    .image-container {
+      @include animation-rightshift-in();
+    }
   }
-}
 
-$settings: (
-  gap: 0.1s,
-  max-items: 100,
-);
+  &.space-around-image {
+    $amount-of-space: 1rem;
 
-
-span {
-  display: inline-block;
-  margin-right: 0.2em;
-
-  @include sequence($settings);
-  opacity: 0;
-
-animation-duration: 0.8s;
-  animation-name: fadein;
-  animation-fill-mode: forwards;
+    .image-container {
+      top: $amount-of-space;
+      bottom: -#{$amount-of-space};
+      height: calc(100% - (2 * #{$amount-of-space}));
+    }
+  }
 }
