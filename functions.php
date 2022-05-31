@@ -92,18 +92,27 @@ include($project_paths['main_project_root'].'/core/partials/bg-image.inc');
 include($project_paths['main_project_root'].'/core/partials/card-title.inc');
 
 
+/* Atoms */
+
+include($project_paths['main_project_root'].'/core/atoms/icon.inc');
+
+
 /* Items */
 
 include($project_paths['main_project_root'].'/core/items/dropdown.inc');
 include($project_paths['main_project_root'].'/core/items/stat.inc');
 include($project_paths['main_project_root'].'/core/items/iconItem.inc');
+include($project_paths['main_project_root'].'/core/items/icon-statItem.inc');
 include($project_paths['main_project_root'].'/core/items/cardWithText.inc');
 include($project_paths['main_project_root'].'/core/items/imageCard.inc');
 
 
 /* Sections */
 
+
 include($project_paths['main_project_root'].'/core/partials/section-title.inc');
+
+include($project_paths['main_project_root'].'/core/sections/universal_sections/siteHeader_video.inc');
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/buffer.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/wordByWord.inc');
@@ -111,6 +120,7 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/col
 include($project_paths['main_project_root'].'/core/sections/content_sections/introContent.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fullBleedImageColumn.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/regularContent.inc');
+include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle.inc');
 
 
 

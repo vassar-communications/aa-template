@@ -15,6 +15,14 @@
   --regularContent-font-weight: "wght" 340;
 }
 
+.intro-text {
+  @include font-size(2.4rem);
+  font-variation-settings: "wght" 340;
+  font-weight: 100;
+  font-family: var(--font-big-serif);
+  line-height: 1.16;
+}
+
 .col--text,
 .section-content {
   p, li {

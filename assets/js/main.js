@@ -185,8 +185,37 @@ var discreteElements = document.getElementsByClassName('show-image-then-content'
 
 // https://stackoverflow.com/questions/8609170/how-to-wrap-each-word-of-an-element-in-a-span-tag
 
-var words = $(".word-by-word").text().split(" ");
-$(".word-by-word").empty();
-$.each(words, function(i, v) {
-    $(".word-by-word").append($("<span>").text(v));
+
+$( ".sec-wordByWord" ).each(function( index ) {
+	
+	var words = $(".section-content p", this).text().split(" ");
+	$(".section-content p", this).empty();
+	
+	var theSection = $(this);
+	
+	$.each(words, function(i, v) {
+		$(".section-content p", theSection).append($("<span>").text(v));
+	});
+
+  console.log( index + ": " + $( this ).text() );
+});
+
+
+
+
+$('.card-array .section-content ').masonry({
+  // options
+  itemSelector: '.card'
+//  columnWidth: 200
+});
+
+
+
+
+$(document).ready(function () {
+  const iframe = document.getElementById("main-video");
+  iframe.addEventListener("load", function () {
+//    alert("Finish");
+    $('.video-header').removeClass('is-loading').addClass('is-loaded');
+  });
 });

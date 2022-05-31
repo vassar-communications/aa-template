@@ -9,8 +9,7 @@ include( $project_paths['main_project_root'] . '/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "Page";
-$page_tagline = "Whatever whatever";
+$page_title = "Sections with themes";
 $page_classes = "class1 class2";
 
 /*  ---------------------- */

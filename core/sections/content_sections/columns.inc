@@ -3,6 +3,7 @@
 function sec_hasColumns(
   $title=null,
   $columns='',
+  $intro=null,
   $section_classes=null,
   $content_classes=null,
   $extras=null
@@ -29,6 +30,9 @@ return <<<TMP
   <div class="section section-with-columns columns-$columns $section_classes" $css>
     {$section_title( $title, $title_classes )}
     {$bg_image($extras)}
+    <div class="section-intro">
+    $intro
+    </div>
     <div class="section-content $content_classes">
 TMP;
 }

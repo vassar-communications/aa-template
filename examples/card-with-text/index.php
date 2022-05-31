@@ -5,6 +5,8 @@ include( $project_paths['main_project_root'] . '/functions.php');
 
 ?>
 
+<!-- %%% -->
+
 <?php
 
 /*  PAGE INFO ============ */
@@ -22,6 +24,7 @@ $page_title = "Cards";
   'Cards'
 ); ?>
 
+<h3>Text cards</h3>
 
   <?php echo item_cardWithText(
     'Card title',
@@ -51,12 +54,24 @@ $page_title = "Cards";
   <?php echo end_item_cardWithText(); ?>
 
 
+<h3>Image cards</h3>
+
   <?php echo item_imageCard(
     'Card title',
     'texrtwatartr',
     'apple.com',
     ['url' => 'https://images.unsplash.com/photo-1652703747774-558a10faacc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80', 'alt' => 'asdfasdfds' ],
     null,
+    ['hlevel' => 4]
+  ); ?>
+
+
+  <?php echo item_imageCard(
+    icon('car').'Card title',
+    'texrtwatartr',
+    'apple.com',
+    ['url' => 'https://images.unsplash.com/photo-1652703747774-558a10faacc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80', 'alt' => 'asdfasdfds' ],
+    'text-at-bottom',
     ['hlevel' => 4]
   ); ?>
 

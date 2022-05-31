@@ -1,0 +1,18 @@
+.fixed-centered-title {
+    min-height: 100vh;
+    
+  .section-title {
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    background: transparent;
+  }
+}
