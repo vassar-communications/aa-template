@@ -18,7 +18,7 @@
   @if $applied-to-sequential-items == false {
     animation-delay: var(--animation-delay, 0s);
   }
-  animation-duration: var(--animation-duration, 0.4s);
+  animation-duration: var(--animation-duration, 1s);
   animation-name: fade-in;
   animation-fill-mode: forwards;
 }

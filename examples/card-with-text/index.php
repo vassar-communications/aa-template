@@ -12,6 +12,7 @@ include( $project_paths['main_project_root'] . '/functions.php');
 /*  PAGE INFO ============ */
 
 $page_title = "Cards";
+$page_docs = "https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ1F2lWxE1yMeSI/edit#heading=h.e8fwdx5qxado";
 
 /*  ---------------------- */
 
@@ -21,7 +22,10 @@ $page_title = "Cards";
 
 
 <?php echo sec_regularContent(
-  'Cards'
+  'Cards',
+  null,
+  null,
+  ['title_classes' => 'animate-when-content-appears animation-zoom-in']
 ); ?>
 
 <h3>Text cards</h3>
@@ -67,7 +71,7 @@ $page_title = "Cards";
 
 
   <?php echo item_imageCard(
-    icon('car').'Card title',
+    get_icon('play').'Card title',
     'texrtwatartr',
     'apple.com',
     ['url' => 'https://images.unsplash.com/photo-1652703747774-558a10faacc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80', 'alt' => 'asdfasdfds' ],

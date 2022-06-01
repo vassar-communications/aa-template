@@ -303,7 +303,7 @@ TMP;
 function show_code() {
 echo <<<TMP
 <details>
-<summary>Template code</summary>
+<summary style="font-size: 1rem">Template code</summary>
   <pre>
 TMP;
 
@@ -351,7 +351,9 @@ function get_current_page_name() {
 }
 
 function pattern_nav() {
-  $directory = $_SERVER['DOCUMENT_ROOT'].'/aa-template/examples';
+  global $project_paths;
+
+  $directory = $project_paths['main_project_root'].'/examples';
   $scanned_directory = array_values(array_diff(scandir($directory), array('..', '.', '.DS_Store')));
 
 
@@ -368,7 +370,7 @@ function pattern_nav() {
 
     $page_contents = file_get_contents($directory.'/'.$page.'/index.php');
     $page_contents = explode(PHP_EOL, $page_contents);
-    echo '<li><a class="'.$active_class.'" href="../'.$page.'/index.php'.'">';
+    echo '<li><a class="'.$active_class.'" href="'.$project_paths['public_path'].'/examples/'.$page.'/index.php'.'">';
 
     $page_info = get_page_info_from_array($page_contents);
     echo $page_info['title'] . '</a></li>';

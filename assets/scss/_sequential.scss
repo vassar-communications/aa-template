@@ -9,7 +9,7 @@
 @mixin sequence($map:(item: 1)) {
 	//	deprecated
 	$defaults: (
-		gap: var(--sequential-animation-item-gap, 0.4s),
+		gap: var(--sequential-animation-item-gap, 0.1s),
 		offset: 0s,
 		max-items: 22,
 		type: animation,

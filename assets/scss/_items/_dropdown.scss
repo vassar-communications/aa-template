@@ -1,19 +1,23 @@
 // https://css-tricks.com/how-to-animate-the-details-element-using-waapi/
 
-summary {
-  border: 1px solid transparent;
-  outline: none;
-  padding: 1rem;
-  display: block;
-  padding-left: 2em;
-  position: relative;
-  cursor: pointer;
-//  background: #eee;
-  margin-bottom: 1px;
+.item-dropdown, details {
+  summary {
+    border: 1px solid transparent;
+    outline: none;
+    padding: 1rem;
+    display: block;
+    padding-left: 2em;
+    position: relative;
+    cursor: pointer;
+  //  background: #eee;
+    margin-bottom: 1px;
 
+    @include font-size(1.6rem);
+    font-variation-settings: "wght" 340;
 
-  &:focus {
-    border-color: black;
+    &:focus {
+      border-color: black;
+    }
   }
 }
 details {

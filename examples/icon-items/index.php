@@ -5,8 +5,6 @@ include( $project_paths['main_project_root'] . '/functions.php');
 
 ?>
 
-<!-- %%% -->
-
 <?php
 
 /*  PAGE INFO ============ */
@@ -18,16 +16,29 @@ $page_docs = "https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ
 
 ?>
 
+<!-- %%% -->
+
+
 <?php echo site_header(); ?>
 
 <!-- FEATURE ICONS -->
 
+<style>
+  :root {
+    --sequential-animation-item-gap: 0.2s;
+  }
+</style>
+
 <?php echo sec_hasColumns(
   'Icon on side',
-  3
+  3,
+  null,
+  null,
+  'animation-group animation-downshift-in animate-when-content-appears',
+    ['title_classes' => 'animate-when-content-appears animation-zoom-in']
 ); ?>
 
-  <?php echo item_col(); ?>
+  <?php echo item_col('animation-item'); ?>
 
     <?php echo item_iconCard(
       'Campus Housing',
@@ -40,7 +51,7 @@ $page_docs = "https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ
 
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col(); ?>
+  <?php echo item_col('animation-item'); ?>
 
     <?php echo item_iconCard(
       'Cars on campus',
@@ -56,7 +67,7 @@ $page_docs = "https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ
 
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col(); ?>
+  <?php echo item_col('animation-item'); ?>
 
     <?php echo item_iconCard(
       'Meal Plan',
@@ -77,10 +88,14 @@ $page_docs = "https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ
 
 <?php echo sec_hasColumns(
   'Icon on top',
-  3
+  3,
+  null,
+  null,
+  'animation-group animation-fade-in animate-when-content-appears',
+    ['title_classes' => 'animate-when-content-appears animation-zoom-in']
 ); ?>
 
-  <?php echo item_col(); ?>
+  <?php echo item_col('animation-item'); ?>
 
     <?php echo item_iconCard(
       'Campus housing',
@@ -93,7 +108,7 @@ $page_docs = "https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ
 
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col(); ?>
+  <?php echo item_col('animation-item'); ?>
 
     <?php echo item_iconCard(
       'Cars on campus',
@@ -106,7 +121,7 @@ $page_docs = "https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ
 
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col(); ?>
+  <?php echo item_col('animation-item'); ?>
 
     <?php echo item_iconCard(
       'Meal Plan',

@@ -26,7 +26,7 @@ if (get_extras_value('bg-image-url', $extras)) {
 }
 
 return <<<TMP
-<details class="item-dropdown $classes">
+<details class="animated-dropdown item-dropdown $classes">
     <summary>$title</summary>
     <div class="dropdown__content">
 TMP;

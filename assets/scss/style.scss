@@ -80,14 +80,6 @@ img {
   width: 100%;
 }
 
-li::marker {
-  content: '\2B29  ';
-  font-weight: bold;
-  color: var(--list-item-bullet-color, #f00);
-  padding-right: 1rem;
-  font-size: 80%;
-}
-
 .c {
   color: #0f0;
 }
@@ -109,13 +101,14 @@ li::marker {
 
 @import "_row-basics";
 @import "_mixins";
+@import "_libraries/_all";
+
 @import "_animations/_all";
 
 @import "_items/_all";
 
 @import "_atoms/_all";
 
-@import "_libraries/_all";
 
 @import "_sequential";
 @import "_section-basics";
