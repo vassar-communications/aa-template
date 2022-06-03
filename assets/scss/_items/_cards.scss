@@ -1,25 +1,8 @@
 .card {
-  margin-bottom: 6rem;
-
+//  margin-bottom: 6rem;
   .icon {
       margin-right: 0.4rem;
   }
-
-/*
-  position: relative;
-
-  &:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: #000;
-    z-index: -1;
-  }
-*/
-
 }
 .card,
 .card-body,
@@ -30,7 +13,6 @@
 .card-body {
   padding: var(--card-body-padding, clamp(1.2rem, -1.5rem + 8vw, 2rem));
   position: relative;
-
 
   p:only-child,
   p:last-child {
@@ -50,23 +32,22 @@
     background-color: var(--section-bg-color, #fff);
     color: var(--section-text-color, #333);
   }
+
   &:hover {
     --section-link-hover-bg-color: transparent;
+
+    border-width: 0;
+    border-color: transparent;
     filter: brightness(1.2);
     transform: scale(1.02);
-    box-shadow: 0 0.2rem 0.8rem #b0ada8;
+    box-shadow: 0 0.2rem 0.8rem var(--box-shadow-color);
+    z-index: 10;
 
     img {
       transform: scale(1.06);
       filter: contrast(1.2);
     }
   }
-
-/*
-  &:hover .card-body  {
-      opacity: 0.8;
-  }
-*/
 
   img {
     border-radius: 0;
@@ -81,9 +62,10 @@
 
   img {
     object-fit: cover;
-  @include break(md) {
-    width: var(--card-image-width, 50%);
-  }
+
+    @include break(md) {
+      width: var(--card-image-width, 50%);
+    }
   }
 }
 
@@ -92,18 +74,24 @@
   --section-link-hover-color: #fff;
 
   .card-title {
+    align-items: center;
+    display: flex;
     margin-bottom: 0;
   }
   .card-img-content {
     padding: 1rem;
     text-shadow: 0 0.1rem 0.1rem #000;
+
+    .icon {
+      font-size: 70%;
+    }
   }
   .card-img-overlay {
     padding: 0;
   }
   &.text-at-top {
     .card-img-content {
-      background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 20%,rgba(0,0,0,0) 100%);
+      background: linear-gradient(to bottom,  rgba(0,0,0,0.4) 20%,rgba(0,0,0,0) 100%);
     }
   }
   &.text-at-bottom {
@@ -113,7 +101,7 @@
       align-items: end;
     }
     .card-img-content {
-      background: linear-gradient(to top, rgba(0,0,0,0.65) 20%,rgba(0,0,0,0) 100%);
+      background: linear-gradient(to top, rgba(0,0,0,0.4) 20%,rgba(0,0,0,0) 100%);
       width: 100%;
     }
   }

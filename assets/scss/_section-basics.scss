@@ -51,7 +51,9 @@
   font-size: calc(1.465rem + 2.58vw);
   font-weight: 100;
   text-align: center;
-  margin-top: 0;
+
+//  margin-top: -1em;
+//  padding-top: 1em;
 
   position: relative;
   text-align: center;
@@ -81,6 +83,7 @@
 
 .section {
   padding: var(--section-padding, clamp(1rem, 10%, 4rem));
+  padding-top: 0;
 }
 .section-content {
   max-width: 80ch;

@@ -44,6 +44,8 @@ $assets-path: '..';
 
     --nav-link-text-color: #fff;
     --nav-link-bg-color: var(--color-vassar-burgundy);
+
+    --box-shadow-color: rgba(10,30,20,0.1);
 }
 
 
@@ -117,6 +119,7 @@ img {
 @import "_section-video-masthead";
 @import "_section-intro";
 @import "_section-card-array";
+@import "_section-tile-grid";
 @import "_section-word-by-word";
 @import "_content-sections/_all";
 

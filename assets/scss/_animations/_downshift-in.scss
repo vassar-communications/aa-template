@@ -1,7 +1,7 @@
 @keyframes downshift-in {
   0% {
     opacity: 0;
-    transform: translateY(var(--animate-downshift-in-dist, -1.4rem));
+    transform: translateY(var(--animation-downshift-in-dist, -1.4rem));
   }
   100% {
    opacity: 1;
@@ -9,11 +9,11 @@
   }
 }
 
-@mixin setup-animate-downshift-in() {
+@mixin setup-animation-downshift-in() {
     opacity: 0;
-    transform: translateY(var(--animate-downshift-in-dist, -1.4rem));
+    transform: translateY(var(--animation-downshift-in-dist, -1.4rem));
 }
-@mixin animate-downshift-in($applied-to-sequential-items:false) {
+@mixin animation-downshift-in($applied-to-sequential-items:false) {
   //  If the animation is being applied to a sequence of items
   //  via an .animation-group class, we don't want to specify a
   //  uniform animation-delay because each item's delay is
@@ -30,17 +30,17 @@
 @media screen and (prefers-reduced-motion: no-preference) {
   .animation-downshift-in {
     &.animate-when-content-appears:not(.animation-group) {
-      @include setup-animate-downshift-in();
+      @include setup-animation-downshift-in();
 
       &.content-appeared {
-        @include animate-downshift-in();
+        @include animation-downshift-in();
       }
     }
     &.animation-group .animation-item {
-      @include setup-animate-downshift-in();
+      @include setup-animation-downshift-in();
     }
     &.animation-group.content-appeared .animation-item {
-      @include animate-downshift-in( true );
+      @include animation-downshift-in( true );
     }
   }
 }

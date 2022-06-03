@@ -34,7 +34,7 @@ $page_docs = "https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ
     'Card title',
     'apple.com',
     ['url' => 'https://images.unsplash.com/photo-1652703747774-558a10faacc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80', 'alt' => 'asdfasdfds' ],
-    'card--twocols theme-burgundy',
+    'card--twocols theme-burgundy mb-4',
     ['hlevel' => 4]
 
   ); ?>
@@ -48,7 +48,7 @@ $page_docs = "https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ
     'Card title',
     'apple.com',
     ['url' => 'https://images.unsplash.com/photo-1652703747774-558a10faacc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80', 'alt' => 'asdfasdfds' ],
-    null,
+    'mb-4',
     ['hlevel' => 4]
   ); ?>
 
@@ -65,7 +65,7 @@ $page_docs = "https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ
     'texrtwatartr',
     'apple.com',
     ['url' => 'https://images.unsplash.com/photo-1652703747774-558a10faacc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80', 'alt' => 'asdfasdfds' ],
-    null,
+    'mb-4',
     ['hlevel' => 4]
   ); ?>
 
@@ -81,6 +81,88 @@ $page_docs = "https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ
 
 
 <?php echo end_sec_regularContent(); ?>
+
+
+
+<?php echo sec_hasColumns(
+  'Tile grid',
+  3,
+  '<p class="intro-text">An intro paragraph goes here, is simply dummy text of the printing and typesetting industry.</p>',
+  'theme-charcoal section--tile-grid p-4',
+  'gap-0 animation-group animation-zoom-in animate-when-content-appears',
+  ['title_classes' => 'animation-zoom-in animate-when-content-appears']
+); ?>
+
+  <?php echo item_col('animation-item'); ?>
+    <?php echo item_imageCard(
+      get_icon('play').'Card title',
+      null,
+      'apple.com',
+      ['url' => 'https://images.unsplash.com/photo-1652703747774-558a10faacc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80', 'alt' => 'asdfasdfds' ],
+      'text-at-bottom',
+      ['hlevel' => 4]
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col('animation-item'); ?>
+    <?php echo item_imageCard(
+      get_icon('play').'Card title',
+      null,
+      'apple.com',
+      ['url' => 'https://images.unsplash.com/photo-1652703747774-558a10faacc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80', 'alt' => 'asdfasdfds' ],
+      'text-at-bottom',
+      ['hlevel' => 4]
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col('animation-item'); ?>
+    <?php echo item_imageCard(
+      get_icon('play').'Card title',
+      null,
+      'apple.com',
+      ['url' => 'https://images.unsplash.com/photo-1652703747774-558a10faacc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80', 'alt' => 'asdfasdfds' ],
+      'text-at-bottom',
+      ['hlevel' => 4]
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col('animation-item'); ?>
+    <?php echo item_imageCard(
+      get_icon('play').'Card title',
+      null,
+      'apple.com',
+      ['url' => 'https://images.unsplash.com/photo-1652703747774-558a10faacc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80', 'alt' => 'asdfasdfds' ],
+      'text-at-bottom',
+      ['hlevel' => 4]
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col('animation-item'); ?>
+    <?php echo item_imageCard(
+      get_icon('play').'Card title',
+      null,
+      'apple.com',
+      ['url' => 'https://images.unsplash.com/photo-1652703747774-558a10faacc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80', 'alt' => 'asdfasdfds' ],
+      'text-at-bottom',
+      ['hlevel' => 4]
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col('animation-item'); ?>
+    <?php echo item_imageCard(
+      get_icon('play').'Card title',
+      null,
+      'apple.com',
+      ['url' => 'https://images.unsplash.com/photo-1652703747774-558a10faacc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80', 'alt' => 'asdfasdfds' ],
+      'text-at-bottom',
+      ['hlevel' => 4]
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
+
 
 
 <?php echo site_footer(); ?>

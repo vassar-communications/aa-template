@@ -25,7 +25,14 @@
   }
 
   .intro-line {
-      @include setup-animation-fade-in();
+    @include font-size(1.3rem);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: var(--color-vassar-burgundy);
+
+    display: block;
+    @include setup-animation-downshift-in();
   }
 
   p {
@@ -55,8 +62,12 @@
     --final-opacity: 0.3;
     --final-transforms: translateX(0) skewX(-10deg);
 
-    span, .intro-line {
+    span {
       @include animation-fade-in(true);
+    }
+    .intro-line {
+      --animation-dur: 2s;
+      @include animation-downshift-in();
     }
   }
   &.has-image {

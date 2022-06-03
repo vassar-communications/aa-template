@@ -1,8 +1,8 @@
 .vassar-masthead {
   --animate-downshift-in-delay: 0.4s;
   --animate-downshift-in-dur: 1s;
-  @include setup-animate-downshift-in();
-  @include animate-downshift-in();
+  @include setup-animation-downshift-in();
+  @include animation-downshift-in();
 
   position: absolute;
   top: 0;

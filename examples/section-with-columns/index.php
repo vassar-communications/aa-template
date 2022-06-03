@@ -20,7 +20,7 @@ $page_title = "Section with columns";
   <?php echo sec_hasColumns(
     'Columns example',
     3,
-    '<p class="intro-text">A jolly intro paragraph goes here, is simply dummy text of the printing and typesetting industry.</p>'
+    '<p class="intro-text">An intro paragraph goes here, is simply dummy text of the printing and typesetting industry.</p>'
   ); ?>
 
     <?php echo item_col(); ?>
