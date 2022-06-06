@@ -206,35 +206,6 @@ function get_extras_value($extras_key, $extras_array, $format = false) {
 
 
 
-/**
- * [page_masthead description]
- * @param  [type]  $cover_url               [description]
- * @param  boolean $extras                  [description]
- * @return [type]             [description]
- */
-function page_masthead($cover_url, $extras = false) {
-
-  global $page_title;
-  global $page_tagline;
-
-$template = <<<TMP
-
-<div class="section section--top-level-masthead" style="--bg-image: url($cover_url);">
-  <div class="title-container d-flex flex-column-reverse">
-    <div class="section__title">
-    <h1 class="section__title__main display-1">$page_title</h1>
-    <p class="section__title__tagline">$page_tagline</p>
-    </div>
-  </div>
-
-  <div class="section-bg"></div>
-</div>
-TMP;
-
-  return $template;
-}
-
-
 
 
 
