@@ -7,7 +7,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "Academics";
+$page_title = "Outcomes";
 $page_classes = "";
 
 /*  ---------------------- */
