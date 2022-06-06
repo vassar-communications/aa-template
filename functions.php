@@ -66,7 +66,7 @@
 }
 
 .pattern-site-nav {
-  display: flex;
+  display: none;
   border-bottom: 1px solid #ddd;
 }
 
@@ -112,7 +112,14 @@ include($project_paths['main_project_root'].'/core/items/imageCard.inc');
 
 include($project_paths['main_project_root'].'/core/partials/section-title.inc');
 
+
 include($project_paths['main_project_root'].'/core/sections/universal_sections/siteHeader_video.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/pageMasthead.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/pageTextMasthead.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/vassarMasthead.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/hamburgerNavigation.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/breadcrumbNavigation.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/toplinksNavigation.inc');
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/buffer.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/wordByWord.inc');
@@ -200,35 +207,6 @@ function get_extras_value($extras_key, $extras_array, $format = false) {
 
 
 
-/**
- * [page_masthead description]
- * @param  [type]  $cover_url               [description]
- * @param  boolean $extras                  [description]
- * @return [type]             [description]
- */
-function page_masthead($cover_url, $extras = false) {
-
-  global $page_title;
-  global $page_tagline;
-
-$template = <<<TMP
-
-<div class="section section--top-level-masthead" style="--bg-image: url($cover_url);">
-  <div class="title-container d-flex flex-column-reverse">
-    <div class="section__title">
-    <h1 class="section__title__main display-1">$page_title</h1>
-    <p class="section__title__tagline">$page_tagline</p>
-    </div>
-  </div>
-
-  <div class="section-bg"></div>
-</div>
-TMP;
-
-  return $template;
-}
-
-
 
 
 
@@ -243,31 +221,6 @@ TMP;
  * @param  boolean $extras               [description]
  * @return [type]         [description]
  */
-function breadcrumb_nav($extras = false) {
-$template = <<<TMP
-<nav class="main-nav animate-when-content-appears animation-fade-in">
-  <ol class="nav-path">
-    <li><a href="">Vassar</a></li>
-    <li><a href="">Admissions</a></li>
-    <li><strong class="nav__current-item">Apply</strong>
-      <ul class="nav-current-section animation-group animate-when-content-appears animation-fade-in">
-        <li class="animation-item"><a href="">How to Apply</a></li>
-        <li class="animation-item"><a href="">1st Year Applicants</a></li>
-        <li class="animation-item"><a href="">Transfer Applicants</a></li>
-        <li class="animation-item"><a href="">International Applicants</a></li>
-        <li class="animation-item"><a href="">Information for Veterans</a></li>
-        <li class="animation-item"><a href="">Questbridge Students</a></li>
-        <li class="animation-item"><a href="">Financial Aid</a></li>
-        <li class="animation-item"><a href="">Application Portal</a></li>
-      </ul>
-    </li>
-  </ol>
-</nav>
-TMP;
-  return $template;
-}
-
-
 
 
 
