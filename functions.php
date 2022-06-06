@@ -66,7 +66,7 @@
 }
 
 .pattern-site-nav {
-  display: flex;
+  display: none;
   border-bottom: 1px solid #ddd;
 }
 
@@ -112,7 +112,13 @@ include($project_paths['main_project_root'].'/core/items/imageCard.inc');
 
 include($project_paths['main_project_root'].'/core/partials/section-title.inc');
 
+
 include($project_paths['main_project_root'].'/core/sections/universal_sections/siteHeader_video.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/pageMasthead.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/vassarMasthead.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/hamburgerNavigation.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/breadcrumbNavigation.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/toplinksNavigation.inc');
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/buffer.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/wordByWord.inc');
@@ -243,31 +249,6 @@ TMP;
  * @param  boolean $extras               [description]
  * @return [type]         [description]
  */
-function breadcrumb_nav($extras = false) {
-$template = <<<TMP
-<nav class="main-nav animate-when-content-appears animation-fade-in">
-  <ol class="nav-path">
-    <li><a href="">Vassar</a></li>
-    <li><a href="">Admissions</a></li>
-    <li><strong class="nav__current-item">Apply</strong>
-      <ul class="nav-current-section animation-group animate-when-content-appears animation-fade-in">
-        <li class="animation-item"><a href="">How to Apply</a></li>
-        <li class="animation-item"><a href="">1st Year Applicants</a></li>
-        <li class="animation-item"><a href="">Transfer Applicants</a></li>
-        <li class="animation-item"><a href="">International Applicants</a></li>
-        <li class="animation-item"><a href="">Information for Veterans</a></li>
-        <li class="animation-item"><a href="">Questbridge Students</a></li>
-        <li class="animation-item"><a href="">Financial Aid</a></li>
-        <li class="animation-item"><a href="">Application Portal</a></li>
-      </ul>
-    </li>
-  </ol>
-</nav>
-TMP;
-  return $template;
-}
-
-
 
 
 
