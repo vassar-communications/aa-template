@@ -115,6 +115,7 @@ include($project_paths['main_project_root'].'/core/partials/section-title.inc');
 
 include($project_paths['main_project_root'].'/core/sections/universal_sections/siteHeader_video.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/pageMasthead.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/pageTextMasthead.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/vassarMasthead.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/hamburgerNavigation.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/breadcrumbNavigation.inc');
