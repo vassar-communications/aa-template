@@ -11,7 +11,7 @@
  * @param  array $extras (optional) - Reserved for future use
  * @return string $template - The rendered HTML markup
  */
-function page_textmasthead($cover_url, $extras = false) {
+function page_textmasthead($extras = false) {
 
   global $page_title;
   global $page_tagline;
