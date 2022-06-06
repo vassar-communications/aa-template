@@ -24,7 +24,9 @@ $page_classes = "";
 
 
 <?php echo breadcrumbNav(); ?>
-<?php include '/admission/inc/admission-explore-breadcrumb.php';?>
+ <li><a href="/">Vassar</a></li>
+ <li><a href="/admission">Admission</a></li>
+ <li><a href="/admission/explore">Explore</a></li>
 <?php echo end_sec_breadcrumbNav(); ?>
 
 <?php echo toplinksNav(); ?>

@@ -7,7 +7,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "Academics";
+$page_title = "Campus";
 $page_classes = "";
 
 /*  ---------------------- */
@@ -20,7 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_masthead('https://images.unsplash.com/photo-1651035157347-e92d6a3cd958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2066&q=80'); ?>
+<?php echo page_textmasthead(); ?>
 
 
 <?php echo breadcrumbNav(); ?>
@@ -28,7 +28,7 @@ $page_classes = "";
 <?php echo end_sec_breadcrumbNav(); ?>
 
 <?php echo toplinksNav(); ?>
-  <?php include '/admission/inc/admission-explore-nav.php';?>
+<?php include '/admission/inc/admission-explore-nav.php';?>
 <?php echo end_sec_toplinksNav(); ?>
 
 <?php echo sec_wordByWord(); ?>
