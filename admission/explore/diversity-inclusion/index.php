@@ -24,11 +24,11 @@ $page_classes = "";
 
 
 <?php echo breadcrumbNav(); ?>
-<?php include '/admission/inc/admission-explore-breadcrumb.php';?>
+<?php include($project_paths['main_project_root'].'/admission/inc/admission-explore-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
 
 <?php echo toplinksNav(); ?>
-  <?php include '/admission/inc/admission-explore-nav.php';?>
+<?php include($project_paths['main_project_root'].'/admission/inc/admission-explore-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
 <?php echo sec_wordByWord(); ?>
