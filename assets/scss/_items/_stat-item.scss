@@ -1,0 +1,36 @@
+.stat-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stat-item {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3vw;
+  width: 25%;
+
+  .stat-label {
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 0.4rem;
+  }
+
+  .stat-icon {
+    display: none;
+  }
+
+  .stat-content b {
+    display: block;
+    line-height: 1;
+  }
+
+  .stat-value {
+    @include font-size(6rem);
+    font-variation-settings: "wght" 200;
+  }
+}

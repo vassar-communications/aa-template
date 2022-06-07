@@ -18,7 +18,7 @@
   @include rfs(6rem, --section-padding);
 
   .section-content {
-    max-width: 54em;
+    max-width: none; //54em;
   }
   &.no-image {
     text-align: center;
@@ -32,13 +32,15 @@
     color: var(--color-vassar-burgundy);
 
     display: block;
-    @include setup-animation-downshift-in();
+    @include setup-animation-zoom-in();
+
+    margin-bottom: 2rem;
   }
 
   p {
     overflow-wrap: break-word;
     --regularContent-lineHeight: 1.2;
-    @include rfs(3rem, --regularContent-font-size);
+    @include rfs(5rem, --regularContent-font-size);
 
     span {
       font-weight: 200;
@@ -67,7 +69,7 @@
     }
     .intro-line {
       --animation-dur: 2s;
-      @include animation-downshift-in();
+      @include animation-zoom-in();
     }
   }
   &.has-image {

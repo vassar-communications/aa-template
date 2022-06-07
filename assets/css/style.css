@@ -344,6 +344,12 @@ end pattern library nav */
   animation-fill-mode: forwards;
 }
 
+.section.content-appeared .animate-when-parent-content-appears.animation-group.animation-zoom-in .animation-item {
+  animation-duration: 1s;
+  animation-name: zoom-in;
+  animation-fill-mode: forwards;
+}
+
 .card .icon {
   margin-right: 0.4rem;
 }
@@ -580,6 +586,44 @@ details[open] summary:before {
   color: var(--section-bg-color, #fff);
 }
 
+.stat-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stat-item {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3vw;
+  width: 25%;
+}
+.stat-item .stat-label {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 0.4rem;
+}
+.stat-item .stat-icon {
+  display: none;
+}
+.stat-item .stat-content b {
+  display: block;
+  line-height: 1;
+}
+.stat-item .stat-value {
+  font-size: calc(1.725rem + 5.7vw);
+  font-variation-settings: "wght" 200;
+}
+@media (min-width: 1200px) {
+  .stat-item .stat-value {
+    font-size: 6rem;
+  }
+}
+
 li {
   --regularContent-lineHeight: 1.3;
   margin-bottom: 0.6rem;
@@ -611,6 +655,9 @@ li::marker {
 }
 .grid.cols-3 {
   --bs-columns: 3;
+}
+.grid.cols-4 {
+  --bs-columns: 4;
 }
 
 .seq-item--useTransition:nth-child(1) {
@@ -1080,7 +1127,7 @@ li::marker {
   will-change: transform;
 }
 
-.section.has-image:not(.show-image-then-content) .section-bg-image {
+.section.has-image:not(.show-image-then-content, .sec-fixedCenteredTitle) .section-bg-image {
   opacity: var(--section-bg-image-opacity, 0.2);
   filter: grayscale(100%);
 }
@@ -1106,6 +1153,8 @@ li::marker {
 }
 .show-image-then-content.content-appeared .section-title {
   background: transparent;
+  text-shadow: none;
+  color: var(--section-text-color, #333);
 }
 .show-image-then-content.content-appeared .section-title:after {
   opacity: 1;
@@ -1251,7 +1300,7 @@ li::marker {
   }
 }
 .sec-wordByWord .section-content {
-  max-width: 54em;
+  max-width: none;
 }
 .sec-wordByWord.no-image {
   text-align: center;
@@ -1263,8 +1312,9 @@ li::marker {
   letter-spacing: 0.1rem;
   color: var(--color-vassar-burgundy);
   display: block;
-  opacity: 0;
-  transform: translateY(var(--animation-downshift-in-dist, -1.4rem));
+  opacity: 0%;
+  transform: scale(0.6);
+  margin-bottom: 2rem;
 }
 @media (min-width: 1200px) {
   .sec-wordByWord .intro-line {
@@ -1274,11 +1324,11 @@ li::marker {
 .sec-wordByWord p {
   overflow-wrap: break-word;
   --regularContent-lineHeight: 1.2;
-  --regularContent-font-size: calc(1.425rem + 2.1vw);
+  --regularContent-font-size: calc(1.625rem + 4.5vw);
 }
 @media (min-width: 1200px) {
   .sec-wordByWord p {
-    --regularContent-font-size: 3rem;
+    --regularContent-font-size: 5rem;
   }
 }
 .sec-wordByWord p span {
@@ -1902,8 +1952,8 @@ li::marker {
 .sec-wordByWord.content-appeared .intro-line {
   --animation-dur: 2s;
   animation-delay: var(--animation-delay, 0s);
-  animation-duration: var(--animation-dur, 0.6s);
-  animation-name: downshift-in;
+  animation-duration: 1s;
+  animation-name: zoom-in;
   animation-fill-mode: forwards;
 }
 .sec-wordByWord.has-image .section-content {
@@ -2026,12 +2076,18 @@ li::marker {
   left: 0;
 }
 
-.fixed-centered-title {
+/*
+
+This should be a section option
+
+ */
+.sec-fixedCenteredTitle {
   min-height: 100vh;
 }
-.fixed-centered-title .section-title {
+.sec-fixedCenteredTitle .section-title {
   margin: 0;
   position: fixed;
+  padding: 0;
   top: 0;
   left: 0;
   transform: none;
@@ -2042,6 +2098,25 @@ li::marker {
   justify-content: center;
   z-index: 10;
   background: transparent;
+  font-family: var(--bs-font-sans-serif);
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 0 2em #000, 0 0 1em #000;
+  font-size: 8vw;
+  letter-spacing: -0.01em;
+  opacity: 0;
+}
+.sec-fixedCenteredTitle .section-content {
+  opacity: 0;
+}
+.sec-fixedCenteredTitle.show-title .section-title {
+  opacity: 1;
+}
+.sec-fixedCenteredTitle.hide-title-show-content .section-title {
+  opacity: 0;
+}
+.sec-fixedCenteredTitle.hide-title-show-content .section-content {
+  opacity: 1;
 }
 
 .section--wide-content.has-intro .section-title {

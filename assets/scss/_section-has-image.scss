@@ -39,7 +39,7 @@
   }
 }
 
-.section.has-image:not(.show-image-then-content) {
+.section.has-image:not(.show-image-then-content, .sec-fixedCenteredTitle) {
   .section-bg-image {
     @include bg-image-faded();
   }
@@ -76,6 +76,8 @@
   &.content-appeared {
     .section-title {
       background: transparent;
+      text-shadow: none;
+      color: var(--section-text-color, #333);
 
       &:after {
         opacity: 1;

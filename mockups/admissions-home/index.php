@@ -53,7 +53,7 @@ $page_docs = "https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ
   ]
 ); ?>
 
-<div class="grid cols-3 gap-0 animation-group animate-when-content-appears animation-zoom-in">
+<div class="grid cols-3 gap-0 animation-group animate-when-parent-content-appears animation-zoom-in">
 
 <?php echo item_col('animation-item'); ?>
   <?php echo item_imageCard(

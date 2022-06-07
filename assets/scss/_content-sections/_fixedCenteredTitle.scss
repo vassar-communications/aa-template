@@ -1,9 +1,17 @@
-.fixed-centered-title {
+/*
+
+This should be a section option
+
+ */
+
+
+.sec-fixedCenteredTitle {
     min-height: 100vh;
-    
+
   .section-title {
     margin: 0;
     position: fixed;
+    padding: 0;
     top: 0;
     left: 0;
     transform: none;
@@ -14,5 +22,36 @@
     justify-content: center;
     z-index: 10;
     background: transparent;
+
+    font-family: var(--bs-font-sans-serif);
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 0 0 2em #000, 0 0 1em #000;
+
+    font-size: 8vw;
+    letter-spacing: -0.01em;
+
+    opacity: 0;
+
+//    gap: 0.2em;
   }
+  .section-content {
+    opacity: 0;
+  }
+
+
+  &.show-title {
+    .section-title {
+      opacity: 1;
+    }
+  }
+  &.hide-title-show-content {
+    .section-title {
+      opacity: 0;
+    }
+    .section-content {
+      opacity: 1;
+    }
+  }
+
 }

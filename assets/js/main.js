@@ -56,6 +56,39 @@ var discreteElements = document.getElementsByClassName('show-image-then-content'
 
 
 
+// For the fixed-centered-title
+
+//  at halfway, the title appears
+//  when it hits the top, the title fades and the content appears
+
+  var discreteElements = document.getElementsByClassName('sec-fixedCenteredTitle')
+  	for (var i = 0; i < discreteElements.length; i++) {
+  		new Waypoint({
+  			element: discreteElements[i],
+  			handler: function() {
+  				this.element.classList.add("show-title");
+  			},
+  //			context: document.getElementById('page-content'),
+  			offset: '50%'
+  		});
+  	}
+
+    var discreteElements = document.getElementsByClassName('sec-fixedCenteredTitle')
+    	for (var i = 0; i < discreteElements.length; i++) {
+    		new Waypoint({
+    			element: discreteElements[i],
+    			handler: function() {
+    				this.element.classList.add("hide-title-show-content");
+    			},
+    //			context: document.getElementById('page-content'),
+    			offset: '-2px'
+    		});
+    	}
+
+
+// End fixed-centered-title
+
+
 
 
 // For the animated dropdown
@@ -187,12 +220,12 @@ var discreteElements = document.getElementsByClassName('show-image-then-content'
 
 
 $( ".sec-wordByWord" ).each(function( index ) {
-	
+
 	var words = $(".section-content p", this).text().split(" ");
 	$(".section-content p", this).empty();
-	
+
 	var theSection = $(this);
-	
+
 	$.each(words, function(i, v) {
 		$(".section-content p", theSection).append($("<span>").text(v));
 	});
@@ -201,6 +234,25 @@ $( ".sec-wordByWord" ).each(function( index ) {
 });
 
 
+/*
+//  This should be combined with the above function. Thing is,
+//  I need this working ASAP and I don't want to risk breaking anything
+
+$( ".sec-fixedCenteredTitle" ).each(function( index ) {
+
+	var words = $(".section-title", this).text().split(" ");
+	$(".section-title", this).empty();
+
+	var theSection = $(this);
+
+	$.each(words, function(i, v) {
+		$(".section-title", theSection).append($("<span>").text(v));
+	});
+
+  console.log( index + ": " + $( this ).text() );
+});
+
+*/
 
 
 $('.card-array .section-content ').masonry({
