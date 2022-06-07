@@ -8,7 +8,13 @@ This should be a section option
 .sec-fixedCenteredTitle {
     min-height: 100vh;
 
-  .section-title {
+
+    .animation-item {
+      @include setup-animation-zoom-in();
+    }
+
+
+  .section-title-container {
     margin: 0;
     position: fixed;
     padding: 0;
@@ -22,31 +28,44 @@ This should be a section option
     justify-content: center;
     z-index: 10;
     background: transparent;
+//    opacity: 0;
 
-    font-family: var(--bs-font-sans-serif);
-    font-weight: 800;
-    color: #fff;
-    text-shadow: 0 0 2em #000, 0 0 1em #000;
+    .section-title {
+      font-family: var(--bs-font-sans-serif);
+      font-weight: 800;
+      color: #fff;
+      text-shadow: 0 0 2em #000, 0 0 1em #000;
 
-    font-size: 8vw;
-    letter-spacing: -0.01em;
-
-    opacity: 0;
-
-//    gap: 0.2em;
+      font-size: 8vw;
+      letter-spacing: -0.01em;
+    }
   }
   .section-content {
     opacity: 0;
   }
 
+  .section-bg-image {
+    transition: 1s all ease;
+  }
+
+  .section-title-container {
+    transition: 1s all ease;
+  }
+
 
   &.show-title {
-    .section-title {
-      opacity: 1;
+    .section-title-container {
+//      opacity: 1;
     }
   }
   &.hide-title-show-content {
-    .section-title {
+
+    .section-bg-image {
+      opacity: var(--section-bg-image-opacity, 0.2);
+      filter: grayscale(100%);
+    }
+
+    .section-title-container {
       opacity: 0;
     }
     .section-content {
@@ -54,4 +73,52 @@ This should be a section option
     }
   }
 
+  .section-title {
+    margin: 0;
+    padding: 0;
+
+    &:after {
+      display: none;
+    }
+    .slide-from-left {
+      transform: translateX(-1em);
+    }
+    .slide-from-right {
+      transform: translateX(1em);
+    }
+
+    .slide-from-left,
+    .slide-from-right {
+      display: block;
+      opacity: 0;
+      transition: 2s all ease;
+    }
+
+  }
+
+  &.show-title {
+    .section-title {
+      .slide-from-left,
+      .slide-from-right {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
+
+}
+
+
+.nice-big-serif {
+  font-family: freight-big-pro;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+// animation
+
+.hide-title-show-content {
+  .animation-item {
+    @include animation-zoom-in(true);
+  }
 }

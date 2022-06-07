@@ -2084,7 +2084,11 @@ This should be a section option
 .sec-fixedCenteredTitle {
   min-height: 100vh;
 }
-.sec-fixedCenteredTitle .section-title {
+.sec-fixedCenteredTitle .animation-item {
+  opacity: 0%;
+  transform: scale(0.6);
+}
+.sec-fixedCenteredTitle .section-title-container {
   margin: 0;
   position: fixed;
   padding: 0;
@@ -2098,25 +2102,69 @@ This should be a section option
   justify-content: center;
   z-index: 10;
   background: transparent;
+}
+.sec-fixedCenteredTitle .section-title-container .section-title {
   font-family: var(--bs-font-sans-serif);
   font-weight: 800;
   color: #fff;
   text-shadow: 0 0 2em #000, 0 0 1em #000;
   font-size: 8vw;
   letter-spacing: -0.01em;
-  opacity: 0;
 }
 .sec-fixedCenteredTitle .section-content {
   opacity: 0;
 }
-.sec-fixedCenteredTitle.show-title .section-title {
-  opacity: 1;
+.sec-fixedCenteredTitle .section-bg-image {
+  transition: 1s all ease;
 }
-.sec-fixedCenteredTitle.hide-title-show-content .section-title {
+.sec-fixedCenteredTitle .section-title-container {
+  transition: 1s all ease;
+}
+.sec-fixedCenteredTitle.hide-title-show-content .section-bg-image {
+  opacity: var(--section-bg-image-opacity, 0.2);
+  filter: grayscale(100%);
+}
+.sec-fixedCenteredTitle.hide-title-show-content .section-title-container {
   opacity: 0;
 }
 .sec-fixedCenteredTitle.hide-title-show-content .section-content {
   opacity: 1;
+}
+.sec-fixedCenteredTitle .section-title {
+  margin: 0;
+  padding: 0;
+}
+.sec-fixedCenteredTitle .section-title:after {
+  display: none;
+}
+.sec-fixedCenteredTitle .section-title .slide-from-left {
+  transform: translateX(-1em);
+}
+.sec-fixedCenteredTitle .section-title .slide-from-right {
+  transform: translateX(1em);
+}
+.sec-fixedCenteredTitle .section-title .slide-from-left,
+.sec-fixedCenteredTitle .section-title .slide-from-right {
+  display: block;
+  opacity: 0;
+  transition: 2s all ease;
+}
+.sec-fixedCenteredTitle.show-title .section-title .slide-from-left,
+.sec-fixedCenteredTitle.show-title .section-title .slide-from-right {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.nice-big-serif {
+  font-family: freight-big-pro;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.hide-title-show-content .animation-item {
+  animation-duration: 1s;
+  animation-name: zoom-in;
+  animation-fill-mode: forwards;
 }
 
 .section--wide-content.has-intro .section-title {

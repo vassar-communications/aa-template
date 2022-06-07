@@ -29,7 +29,9 @@ return <<<TMP
     <div class="section $section_classes">
 
     <div class="section-bg-image-container $bg_classes" $bg_css>
-      {$section_title($title, $title_classes)}
+      <div class="section-title-container">
+        {$section_title($title, $title_classes)}
+      </div>
       <img class="section-bg-image" src="$bg_url" alt="$bg_alt" />
     </div>
 

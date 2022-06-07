@@ -69,7 +69,7 @@ var discreteElements = document.getElementsByClassName('show-image-then-content'
   				this.element.classList.add("show-title");
   			},
   //			context: document.getElementById('page-content'),
-  			offset: '50%'
+  			offset: '40%'
   		});
   	}
 
@@ -78,6 +78,7 @@ var discreteElements = document.getElementsByClassName('show-image-then-content'
     		new Waypoint({
     			element: discreteElements[i],
     			handler: function() {
+   				  this.element.classList.remove("show-title");
     				this.element.classList.add("hide-title-show-content");
     			},
     //			context: document.getElementById('page-content'),
@@ -256,6 +257,12 @@ $( ".sec-fixedCenteredTitle" ).each(function( index ) {
 
 
 $('.card-array .section-content ').masonry({
+  // options
+  itemSelector: '.card'
+//  columnWidth: 200
+});
+
+$('.layout-masonry').masonry({
   // options
   itemSelector: '.card'
 //  columnWidth: 200
