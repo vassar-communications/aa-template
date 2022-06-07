@@ -2139,6 +2139,7 @@ This should be a section option
 }
 .sec-fixedCenteredTitle .section-title .slide-from-left {
   transform: translateX(-1em);
+  font-size: 80%;
 }
 .sec-fixedCenteredTitle .section-title .slide-from-right {
   transform: translateX(1em);
@@ -2148,17 +2149,15 @@ This should be a section option
   display: block;
   opacity: 0;
   transition: 2s all ease;
+  line-height: 0.7;
+  font-family: freight-big-pro;
+  text-transform: uppercase;
+  font-style: italic;
 }
 .sec-fixedCenteredTitle.show-title .section-title .slide-from-left,
 .sec-fixedCenteredTitle.show-title .section-title .slide-from-right {
   opacity: 1;
   transform: translateX(0);
-}
-
-.nice-big-serif {
-  font-family: freight-big-pro;
-  text-transform: uppercase;
-  font-style: italic;
 }
 
 .hide-title-show-content .animation-item {
