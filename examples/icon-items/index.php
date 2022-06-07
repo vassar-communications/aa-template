@@ -9,7 +9,7 @@ include( $project_paths['main_project_root'] . '/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "Icon items";
+$page_title = "Icon columns";
 $page_docs = "https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ1F2lWxE1yMeSI/edit#heading=h.wh2ab5mcltu2";
 
 /*  ---------------------- */

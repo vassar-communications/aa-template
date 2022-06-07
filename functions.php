@@ -48,6 +48,7 @@
 .pattern-site-nav nav ul li {
   list-style: none;
   display: block;
+  margin-bottom: 0;
 }
 .pattern-site-nav nav ul li a {
   display: block;
@@ -58,15 +59,20 @@
   background: #0d6efd;
   color: #fff;
 }
+.pattern-site-nav nav:hover b {
+  background: #0d6efd;
+  color: #fff;
+}
 .pattern-site-nav nav:hover ul {
   display: block;
+/*  bottom: 2.6rem; */
 }
 .pattern-menu {
   width: 20rem;
 }
 
 .pattern-site-nav {
-  display: none;
+  display: flex;
   border-bottom: 1px solid #ddd;
 }
 
@@ -102,13 +108,13 @@ include($project_paths['main_project_root'].'/core/atoms/icon.inc');
 include($project_paths['main_project_root'].'/core/items/dropdown.inc');
 include($project_paths['main_project_root'].'/core/items/stat.inc');
 include($project_paths['main_project_root'].'/core/items/iconItem.inc');
+include($project_paths['main_project_root'].'/core/items/icon-cardButton.inc');
 include($project_paths['main_project_root'].'/core/items/icon-statItem.inc');
 include($project_paths['main_project_root'].'/core/items/cardWithText.inc');
 include($project_paths['main_project_root'].'/core/items/imageCard.inc');
 
 
 /* Sections */
-
 
 include($project_paths['main_project_root'].'/core/partials/section-title.inc');
 
@@ -127,6 +133,7 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/col
 include($project_paths['main_project_root'].'/core/sections/content_sections/introContent.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fullBleedImageColumn.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/regularContent.inc');
+include($project_paths['main_project_root'].'/core/sections/content_sections/wideContent.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle.inc');
 
 
