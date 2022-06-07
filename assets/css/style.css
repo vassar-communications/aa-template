@@ -30,6 +30,13 @@
   --nav-link-text-color: #fff;
   --nav-link-bg-color: var(--color-vassar-burgundy);
   --box-shadow-color: rgba(10,30,20,0.1);
+  /*  Font properties */
+  --intro-text-size: calc(1.345rem + 1.14vw);
+}
+@media (min-width: 1200px) {
+  :root {
+    --intro-text-size: 2.2rem;
+  }
 }
 
 html {
@@ -64,8 +71,69 @@ img {
   margin-right: auto;
 }
 
+/* break this into a system.css file at some point
+.pattern-site-nav {
+    background: #fff;
+    opacity: 0;
+    position: fixed;
+    width: 100vw;
+    height: fit-content;
+    left: 0;
+    z-index: 999999;
+    bottom: 0;
+    top: auto;
+}
+
+.pattern-site-nav:hover {
+    opacity: 1;
+    width: 100vw;
+    left: 0;
+    z-index: 999999;
+    height: fit-content;
+}
+end pattern library nav */
 .row-title {
   font-size: var(--h2-font-size);
+}
+
+.display-1 {
+  font-size: calc(1.725rem + 5.7vw);
+}
+
+/*
+  Specifying these as CSS vars so they're easier to
+  experiment with in the inspector
+*/
+:root {
+  --sansSerif: "Source Sans Variable";
+  --regularContent-font-size: calc(1.265rem + 0.18vw);
+  --regularContent-lineHeight: 1.36;
+  --regularContent-font-weight: "wght" 340;
+}
+
+.section-intro-text,
+.intro-text {
+  font-variation-settings: "wght" 340;
+  font-family: var(--font-big-serif);
+  line-height: 1.16;
+  font-family: var(--sansSerif);
+  font-weight: var(--regularContent-font-weight);
+  font-variation-settings: "wght" 300;
+  font-size: var(--intro-text-size);
+}
+
+.col--text p, .col--text li,
+.section-content p,
+.section-content li {
+  font-family: var(--sansSerif);
+  font-size: var(--regularContent-font-size);
+  font-variation-settings: var(--regularContent-font-weight);
+  line-height: var(--regularContent-lineHeight);
+}
+
+.section-title {
+  font-family: freight-display-pro;
+  font-weight: 100;
 }
 
 @keyframes downshift-in {
@@ -453,6 +521,34 @@ details[open] summary:before {
   font-weight: bold;
 }
 
+/* Inline icon button */
+/* Block-style icon button */
+.btn-card {
+  --section-link-bg-color: var(--color-vassar-burgundy);
+  --section-link-color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  text-align: left;
+  line-height: 1.3;
+  font-size: 1.2rem;
+  padding: calc(1.305rem + 0.66vw) calc(1.325rem + 0.9vw);
+  border-radius: 0.4rem;
+}
+@media (min-width: 1200px) {
+  .btn-card {
+    padding: 1.8rem 2rem;
+  }
+}
+.btn-card:hover {
+  --section-link-hover-bg-color: #f00;
+  --section-link-hover-color: #fff;
+}
+.btn-card .the-icon {
+  font-size: 3rem;
+}
+
 .icon-item {
   --regularContent-font-size: var(--font-size-small);
 }
@@ -503,6 +599,18 @@ li::marker {
 }
 .btn.has-icon .fa {
   margin-right: 0.4rem;
+}
+
+.grid {
+  display: grid;
+  gap: var(--bs-gap, 3rem);
+  grid-template-columns: repeat(var(--bs-columns, 1), 1fr);
+}
+.grid.cols-2 {
+  --bs-columns: 2;
+}
+.grid.cols-3 {
+  --bs-columns: 3;
 }
 
 .seq-item--useTransition:nth-child(1) {
@@ -774,17 +882,22 @@ li::marker {
 .section {
   background-color: var(--section-bg-color, #fff);
   color: var(--section-text-color, #333);
-}
-.section a:link {
-  background-color: var(--section-link-bg-color, transparent);
-  color: var(--section-link-color, #f00);
-}
-.section a:visited {
-  color: var(--section-link-visited-color, #888);
-}
-.section a:hover, .section a:visited:hover {
-  background-color: var(--section-link-hover-bg-color, transparent);
-  color: var(--section-link-hover-color, #000);
+  /*
+    a {
+      &:link {
+        background-color: var(--section-link-bg-color, transparent);
+        color: var(--section-link-color, #f00);
+      }
+      &:visited {
+        color: var(--section-link-visited-color, #888);
+      }
+      &:hover,
+      &:visited:hover {
+        background-color: var(--section-link-hover-bg-color, transparent);
+        color: var(--section-link-hover-color, #000);
+      }
+    }
+    */
 }
 
 .section .section-bg {
@@ -835,6 +948,8 @@ li::marker {
   font-size: calc(1.465rem + 2.58vw);
   font-weight: 100;
   text-align: center;
+  margin-top: -1em;
+  padding-top: 1em;
   position: relative;
   text-align: center;
   margin-bottom: var(--section-title-space, 6rem);
@@ -860,7 +975,6 @@ li::marker {
 
 .section {
   padding: var(--section-padding, clamp(1rem, 10%, 4rem));
-  padding-top: 0;
 }
 
 .section-content {
@@ -975,13 +1089,9 @@ li::marker {
   min-height: 100vh;
 }
 .show-image-then-content .section-title {
-  display: inline-block;
-  background: var(--section-bg-color, #fff);
-  color: var(--section-title-color, #333);
-  margin-left: 50%;
+  color: var(--section-title-color, #fff);
   margin-top: 4rem;
-  transform: translate(-50%, 0);
-  padding: 0.1em 0.3em;
+  text-shadow: 0 0 0.2em #000, 0 0 0.8em #000;
 }
 .show-image-then-content .section-title:after {
   opacity: 0;
@@ -1934,46 +2044,13 @@ li::marker {
   background: transparent;
 }
 
-.display-1 {
-  font-size: calc(1.725rem + 5.7vw);
+.section--wide-content.has-intro .section-title {
+  margin-bottom: 1em;
 }
-
-/*
-  Specifying these as CSS vars so they're easier to
-  experiment with in the inspector
-*/
-:root {
-  --sansSerif: "Source Sans Variable";
-  --regularContent-font-size: calc(1.265rem + 0.18vw);
-  --regularContent-lineHeight: 1.36;
-  --regularContent-font-weight: "wght" 340;
-}
-
-.intro-text {
-  font-size: calc(1.365rem + 1.38vw);
-  font-variation-settings: "wght" 340;
-  font-weight: 100;
-  font-family: var(--font-big-serif);
-  line-height: 1.16;
-}
-@media (min-width: 1200px) {
-  .intro-text {
-    font-size: 2.4rem;
-  }
-}
-
-.col--text p, .col--text li,
-.section-content p,
-.section-content li {
-  font-family: var(--sansSerif);
-  font-size: var(--regularContent-font-size);
-  font-variation-settings: var(--regularContent-font-weight);
-  line-height: var(--regularContent-lineHeight);
-}
-
-.section-title {
-  font-family: freight-display-pro;
-  font-weight: 100;
+.section--wide-content .section-intro {
+  max-width: 60em;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .main-nav {
@@ -2516,6 +2593,20 @@ li::marker {
   padding: 2rem;
 }
 
+/* Basic links */
+a:link {
+  background-color: var(--section-link-bg-color, transparent);
+  color: var(--section-link-color, #f00);
+}
+a:visited {
+  color: var(--section-link-visited-color, #888);
+}
+a:hover, a:visited:hover {
+  background-color: var(--section-link-hover-bg-color, transparent);
+  color: var(--section-link-hover-color, #000);
+}
+
+/* Section themes */
 .theme-burgundy {
   --section-bg-color: var(--color-vassar-burgundy);
   --section-title-color: var(--color-vassar-cream);

@@ -2,6 +2,7 @@
   background-color: var(--section-bg-color, #fff);
   color: var(--section-text-color, #333);
 
+/*
   a {
     &:link {
       background-color: var(--section-link-bg-color, transparent);
@@ -16,6 +17,7 @@
       color: var(--section-link-hover-color, #000);
     }
   }
+  */
 }
 
 
@@ -52,8 +54,8 @@
   font-weight: 100;
   text-align: center;
 
-//  margin-top: -1em;
-//  padding-top: 1em;
+  margin-top: -1em;
+  padding-top: 1em;
 
   position: relative;
   text-align: center;
@@ -83,7 +85,6 @@
 
 .section {
   padding: var(--section-padding, clamp(1rem, 10%, 4rem));
-  padding-top: 0;
 }
 .section-content {
   max-width: 80ch;

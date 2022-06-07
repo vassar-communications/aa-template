@@ -1,0 +1,12 @@
+.section--wide-content {
+    &.has-intro {
+      .section-title {
+        margin-bottom: 1em;
+      }
+    }
+    .section-intro {
+      max-width: 60em;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
