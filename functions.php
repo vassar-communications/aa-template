@@ -102,6 +102,7 @@ include($project_paths['main_project_root'].'/core/atoms/icon.inc');
 include($project_paths['main_project_root'].'/core/items/dropdown.inc');
 include($project_paths['main_project_root'].'/core/items/stat.inc');
 include($project_paths['main_project_root'].'/core/items/iconItem.inc');
+include($project_paths['main_project_root'].'/core/items/icon-cardButton.inc');
 include($project_paths['main_project_root'].'/core/items/icon-statItem.inc');
 include($project_paths['main_project_root'].'/core/items/cardWithText.inc');
 include($project_paths['main_project_root'].'/core/items/imageCard.inc');
@@ -127,6 +128,7 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/col
 include($project_paths['main_project_root'].'/core/sections/content_sections/introContent.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fullBleedImageColumn.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/regularContent.inc');
+include($project_paths['main_project_root'].'/core/sections/content_sections/wideContent.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle.inc');
 
 

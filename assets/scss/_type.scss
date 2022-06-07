@@ -15,12 +15,21 @@
   --regularContent-font-weight: "wght" 340;
 }
 
+.section-intro-text,
 .intro-text {
-  @include font-size(2.4rem);
   font-variation-settings: "wght" 340;
-  font-weight: 100;
   font-family: var(--font-big-serif);
   line-height: 1.16;
+
+  font-family: var(--sansSerif);
+  font-weight: var(--regularContent-font-weight);
+  font-variation-settings: "wght" 300;
+  font-size: var(--intro-text-size);
+
+}
+
+.page-intro-text {
+  //
 }
 
 .col--text,

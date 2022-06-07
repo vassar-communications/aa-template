@@ -1,3 +1,23 @@
+/* Basic links */
+
+a {
+  &:link {
+    background-color: var(--section-link-bg-color, transparent);
+    color: var(--section-link-color, #f00);
+  }
+  &:visited {
+    color: var(--section-link-visited-color, #888);
+  }
+  &:hover,
+  &:visited:hover {
+    background-color: var(--section-link-hover-bg-color, transparent);
+    color: var(--section-link-hover-color, #000);
+  }
+}
+
+
+/* Section themes */
+
 .theme-burgundy {
   --section-bg-color: var(--color-vassar-burgundy);
   --section-title-color: var(--color-vassar-cream);
