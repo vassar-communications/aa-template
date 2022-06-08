@@ -268,7 +268,9 @@ $(document).ready(function () {
     // options
     itemSelector: '.masonry-item',
     columnWidth: '.grid-sizer',
-    percentPosition: true
+    percentPosition: true,
+    gutter: 10
+
   });
 
   const iframe = document.getElementById("main-video");

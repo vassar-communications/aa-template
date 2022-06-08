@@ -23,11 +23,13 @@
 
 
 .layout-masonry-33 {
-  .masonry-item {
-    width: 33%;
+  .masonry-item,
+  .grid-sizer {
+    margin-bottom: 10px;
+    width: calc(33% - 10px);
 
     &.w-66 {
-      width: 66%;
+      width: 60%;
     }
 
   }

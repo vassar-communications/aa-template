@@ -449,7 +449,7 @@ end pattern library nav */
   padding: 0;
 }
 .card-full-image.text-at-top .card-img-content {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 20%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0) 100%);
 }
 .card-full-image.text-at-bottom .card-img-overlay {
   display: flex;
@@ -457,7 +457,7 @@ end pattern library nav */
   align-items: end;
 }
 .card-full-image.text-at-bottom .card-img-content {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 20%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0) 100%);
   width: 100%;
 }
 
@@ -719,11 +719,14 @@ li::marker {
   justify-content: center;
 }
 
-.layout-masonry-33 .masonry-item {
-  width: 33%;
+.layout-masonry-33 .masonry-item,
+.layout-masonry-33 .grid-sizer {
+  margin-bottom: 10px;
+  width: calc(33% - 10px);
 }
-.layout-masonry-33 .masonry-item.w-66 {
-  width: 66%;
+.layout-masonry-33 .masonry-item.w-66,
+.layout-masonry-33 .grid-sizer.w-66 {
+  width: 60%;
 }
 
 .seq-item--useTransition:nth-child(1) {
@@ -2186,7 +2189,6 @@ This should be a section option
   font-family: var(--bs-font-sans-serif);
   font-weight: 800;
   color: #fff;
-  text-shadow: 0 0 2em #000, 0 0 1em #000;
   font-size: var(--section-title-size, 8vw);
   letter-spacing: -0.01em;
   transition: text-shadow 0.4s ease;
@@ -2198,7 +2200,8 @@ This should be a section option
 }
 .sec-fixedCenteredTitle .section-intro-text {
   text-align: center;
-  margin: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 .sec-fixedCenteredTitle .section-bg-image {
   transition: 1s all ease;
@@ -2212,6 +2215,7 @@ This should be a section option
 }
 .sec-fixedCenteredTitle.show-content .section-title {
   opacity: var(--section-title-faded-opacity, 0.4);
+  color: var(--section-title-faded-color, #fff);
 }
 .sec-fixedCenteredTitle.show-content .section-title-container {
   background-color: var(--title-container-bg-afterContent, transparent);
@@ -2253,6 +2257,21 @@ This should be a section option
   animation-duration: 1s;
   animation-name: zoom-in;
   animation-fill-mode: forwards;
+}
+
+.cta-link {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 2em;
+  text-align: center;
+  font-variation-settings: "wght" 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  width: 100%;
+}
+.cta-link:after {
+  content: "→";
+  margin-left: 0.4rem;
 }
 
 .featured-video .embed-responsive {

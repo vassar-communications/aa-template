@@ -53,7 +53,7 @@ This should be a section option
       font-family: var(--bs-font-sans-serif);
       font-weight: 800;
       color: #fff;
-      text-shadow: 0 0 2em #000, 0 0 1em #000;
+//      text-shadow: 0 0 2em #000, 0 0 1em #000;
 //      text-shadow: 0 0 2em #000;
 
       font-size: var(--section-title-size, 8vw);
@@ -70,7 +70,8 @@ This should be a section option
 
   .section-intro-text {
     text-align: center;
-    margin: 2em;
+    margin-top: 2em;
+    margin-bottom: 1em;
   }
 
   .section-bg-image {
@@ -95,6 +96,7 @@ This should be a section option
     }
     .section-title {
       opacity: var(--section-title-faded-opacity, 0.4);
+      color: var(--section-title-faded-color, #fff);
 //      text-shadow: 0.1em 0.1em 0.1em transparent;
     }
     .section-title-container {
@@ -160,7 +162,21 @@ This should be a section option
   }
 }
 
+.cta-link {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 2em;
+  text-align: center;
+  font-variation-settings: "wght" 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  width: 100%;
 
+  &:after {
+    content: '→';
+    margin-left: 0.4rem;
+  }
+}
 
 
 .featured-video {
