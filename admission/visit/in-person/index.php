@@ -33,4 +33,6 @@ $page_classes = "";
 <div class="buffer"></div>
 <?php /*  PAGE CONTENT === */ ?>
 
+
+<?php include($project_paths['main_project_root'].'/admission/inc/tmp-related-links.php');?>
 <?php echo site_footer(); ?>

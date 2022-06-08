@@ -1,3 +1,3 @@
-<li><a href="/">Vassar</a></li>
- <li><a href="/admission">Admission</a></li>
- <li><a href="/admission/financial-aid">Financial Aid</a></li>
+<li class="breadcrumb-item"><a href="/"><?php icon('home'); ?> Home</a></li>
+<li class="breadcrumb-item"><a href="/admission">Admission</a></li>
+<li class="breadcrumb-item"><a href="/admission/financial-aid">Financial Aid</a></li>

@@ -20,17 +20,36 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead(); ?>
-
-<?php echo breadcrumbNav(); ?>
+<?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/admission-apply-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
+
+<?php echo page_textmasthead('theme-cream'); ?>
+
 
 <?php echo toplinksNav(); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/admission-apply-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
-<div class="buffer"></div>
-<?php /*  PAGE CONTENT === */ ?>
+
+<?php echo sec_hasColumns(
+    null,
+    2,
+    null,
+    '',
+    'mw-1'
+); ?>
+
+<?php echo item_col(); ?>
+<h2 class="display-3">Applying to Vassar</h2>
+<p>Everything you need to know to apply An overview of all the ways to apply to Vassar.</p>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(); ?>
+<img src="https://vassartest.chuckyatsuk.com/img/0198-19-11-kwe-library-vassar-vb-5415.jpg" />
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
 
 <?php echo site_footer(); ?>

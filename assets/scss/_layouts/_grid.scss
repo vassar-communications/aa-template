@@ -1,12 +1,36 @@
 .grid {
-    display: grid;
-    gap: var(--bs-gap, 3rem);
-    grid-template-columns: repeat(var(--bs-columns, 1), 1fr);
-  
-    &.cols-2 {
-      --bs-columns: 2;
-    }
-    &.cols-3 {
-      --bs-columns: 3;
-    }
+  display: grid;
+  gap: var(--bs-gap, 3rem);
+  grid-template-columns: repeat(var(--bs-columns, 1), 1fr);
+
+  &.cols-2 {
+    --bs-columns: 2;
   }
+  &.cols-3 {
+    --bs-columns: 3;
+  }
+  &.cols-4 {
+    --bs-columns: 4;
+  }
+}
+
+
+.loose-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.layout-masonry-33 {
+  .masonry-item,
+  .grid-sizer {
+    margin-bottom: 10px;
+    width: calc(33% - 10px);
+
+    &.w-66 {
+      width: 60%;
+    }
+
+  }
+}

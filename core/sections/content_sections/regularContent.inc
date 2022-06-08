@@ -11,7 +11,6 @@ function sec_regularContent(
 
 $title_classes = get_extras_value('title_classes', $extras);
 
-
 //  Check if a bg image was specified, and
 //    set up both the markup and the section class for it.
 global $bg_image;

@@ -39,7 +39,7 @@
   }
 }
 
-.section.has-image:not(.show-image-then-content) {
+.section.has-image:not(.show-image-then-content, .sec-fixedCenteredTitle) {
   .section-bg-image {
     @include bg-image-faded();
   }
@@ -49,13 +49,13 @@
   min-height: 100vh;
 
   .section-title {
-//    display: inline-block;
-//    background: var(--section-bg-color, #fff);
+    //    display: inline-block;
+    //    background: var(--section-bg-color, #fff);
     color: var(--section-title-color, #fff);
-//    margin-left: 50%;
+    //    margin-left: 50%;
     margin-top: 4rem;
-//    transform: translate(-50%, 0);
-//    padding: 0.1em 0.3em;
+    //    transform: translate(-50%, 0);
+    //    padding: 0.1em 0.3em;
 
     text-shadow: 0 0 0.2em #000, 0 0 0.8em #000;
 
@@ -76,6 +76,8 @@
   &.content-appeared {
     .section-title {
       background: transparent;
+      text-shadow: none;
+      color: var(--section-text-color, #333);
 
       &:after {
         opacity: 1;

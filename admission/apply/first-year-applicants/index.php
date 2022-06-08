@@ -20,17 +20,38 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead(); ?>
-
-<?php echo breadcrumbNav(); ?>
+<?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/admission-apply-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
+
+<?php echo page_textmasthead('theme-cream'); ?>
+
 
 <?php echo toplinksNav(); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/admission-apply-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
-<div class="buffer"></div>
+
+<?php echo sec_hasColumns(
+    null,
+    2,
+    null,
+    '',
+    ''
+); ?>
+
+<?php echo item_col(); ?>
+<h3>Information for First-Year Applicants</h3>
+<p>Everything you need to know to apply </p><?php echo end_item_col(); ?>
+
+
+<?php echo item_col(); ?>
+<img src="https://vassartest.chuckyatsuk.com/img/0084_16_04_KR_0013.jpg" />
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+<?php include($project_paths['main_project_root'].'/admission/inc/tmp-related-links.php');?>
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo site_footer(); ?>
