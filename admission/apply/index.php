@@ -94,7 +94,7 @@ $page_classes = "";
 <?php echo item_col(
 
 ); ?>
-<h3>Transfer Applicants</h3>
+<h3>Transfer Applicants.</h3>
 <p>Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. </p>
 <a class="px-0 btn btn-link">Learn more about transfer applications <i class="fa-solid fa-angle-right"></i></a>
 
