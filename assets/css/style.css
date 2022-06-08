@@ -31,11 +31,11 @@
   --nav-link-bg-color: var(--color-vassar-burgundy);
   --box-shadow-color: rgba(10,30,20,0.1);
   /*  Font properties */
-  --intro-text-size: calc(1.345rem + 1.14vw);
+  --intro-text-size: calc(1.385rem + 1.62vw);
 }
 @media (min-width: 1200px) {
   :root {
-    --intro-text-size: 2.2rem;
+    --intro-text-size: 2.6rem;
   }
 }
 
@@ -111,15 +111,14 @@ end pattern library nav */
   --regularContent-font-weight: "wght" 340;
 }
 
+.sec-fixedCenteredTitle .section-intro-text,
 .section-intro-text,
 .intro-text {
   font-variation-settings: "wght" 340;
   font-family: var(--font-big-serif);
   line-height: 1.16;
-  font-family: var(--sansSerif);
-  font-weight: var(--regularContent-font-weight);
-  font-variation-settings: "wght" 300;
   font-size: var(--intro-text-size);
+  font-weight: 100;
 }
 
 .col--text p, .col--text li,
@@ -587,18 +586,23 @@ details[open] summary:before {
 }
 
 .stat-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  gap: 2vw;
+}
+
+.grid-sizer {
+  width: 33%;
+  height: 8rem;
 }
 
 .stat-item {
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3vw;
-  width: 25%;
+  width: 30%;
+  gap: 1.4rem;
+}
+.stat-item .the-icon {
+  font-size: 4em;
 }
 .stat-item .stat-label {
   font-size: 1.1rem;
@@ -607,21 +611,70 @@ details[open] summary:before {
   letter-spacing: 0.1rem;
   margin-top: 0.4rem;
 }
-.stat-item .stat-icon {
-  display: none;
-}
 .stat-item .stat-content b {
   display: block;
   line-height: 1;
 }
 .stat-item .stat-value {
-  font-size: calc(1.725rem + 5.7vw);
+  font-size: calc(1.765rem + 6.18vw);
   font-variation-settings: "wght" 200;
 }
 @media (min-width: 1200px) {
   .stat-item .stat-value {
+    font-size: 6.4rem;
+  }
+}
+.stat-item.fs-1 .stat-value {
+  font-size: calc(1.525rem + 3.3vw);
+}
+@media (min-width: 1200px) {
+  .stat-item.fs-1 .stat-value {
+    font-size: 4rem;
+  }
+}
+.stat-item.fs-2 .stat-value {
+  font-size: calc(1.565rem + 3.78vw);
+}
+@media (min-width: 1200px) {
+  .stat-item.fs-2 .stat-value {
+    font-size: 4.4rem;
+  }
+}
+.stat-item.fs-3 .stat-value {
+  font-size: calc(1.605rem + 4.26vw);
+}
+@media (min-width: 1200px) {
+  .stat-item.fs-3 .stat-value {
+    font-size: 4.8rem;
+  }
+}
+.stat-item.fs-4 .stat-value {
+  font-size: calc(1.645rem + 4.74vw);
+}
+@media (min-width: 1200px) {
+  .stat-item.fs-4 .stat-value {
+    font-size: 5.2rem;
+  }
+}
+.stat-item.fs-5 .stat-value {
+  font-size: calc(1.725rem + 5.7vw);
+}
+@media (min-width: 1200px) {
+  .stat-item.fs-5 .stat-value {
     font-size: 6rem;
   }
+}
+.stat-item.fs-6 .stat-value {
+  font-size: calc(1.825rem + 6.9vw);
+}
+@media (min-width: 1200px) {
+  .stat-item.fs-6 .stat-value {
+    font-size: 7rem;
+  }
+}
+
+.w-66 {
+  width: 60%;
 }
 
 li {
@@ -658,6 +711,12 @@ li::marker {
 }
 .grid.cols-4 {
   --bs-columns: 4;
+}
+
+.loose-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .seq-item--useTransition:nth-child(1) {
@@ -2083,6 +2142,19 @@ This should be a section option
  */
 .sec-fixedCenteredTitle {
   min-height: 100vh;
+  padding-top: 50vh;
+  /*
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      background: #f00;
+      top: -200px;
+    }
+  */
 }
 .sec-fixedCenteredTitle .animation-item {
   opacity: 0%;
@@ -2101,18 +2173,25 @@ This should be a section option
   align-items: center;
   justify-content: center;
   z-index: 10;
-  background: transparent;
+  background-color: var(--title-container-bg-beforeContent, transparent);
 }
 .sec-fixedCenteredTitle .section-title-container .section-title {
   font-family: var(--bs-font-sans-serif);
   font-weight: 800;
   color: #fff;
-  text-shadow: 0 0 2em #000, 0 0 1em #000;
-  font-size: 8vw;
+  text-shadow: 0 0 2em #000;
+  font-size: var(--section-title-size, 8vw);
   letter-spacing: -0.01em;
+  transition: text-shadow 0.4s ease;
+  transition-property: text-shadow, opacity;
+  will-change: text-shadow;
 }
 .sec-fixedCenteredTitle .section-content {
   opacity: 0;
+}
+.sec-fixedCenteredTitle .section-intro-text {
+  text-align: center;
+  margin: 2em;
 }
 .sec-fixedCenteredTitle .section-bg-image {
   transition: 1s all ease;
@@ -2120,14 +2199,17 @@ This should be a section option
 .sec-fixedCenteredTitle .section-title-container {
   transition: 1s all ease;
 }
-.sec-fixedCenteredTitle.hide-title-show-content .section-bg-image {
+.sec-fixedCenteredTitle.show-content .section-bg-image {
   opacity: var(--section-bg-image-opacity, 0.2);
   filter: grayscale(100%);
 }
-.sec-fixedCenteredTitle.hide-title-show-content .section-title-container {
-  opacity: 0;
+.sec-fixedCenteredTitle.show-content .section-title {
+  opacity: var(--section-title-faded-opacity, 0.4);
 }
-.sec-fixedCenteredTitle.hide-title-show-content .section-content {
+.sec-fixedCenteredTitle.show-content .section-title-container {
+  background-color: var(--title-container-bg-afterContent, transparent);
+}
+.sec-fixedCenteredTitle.show-content .section-content {
   opacity: 1;
 }
 .sec-fixedCenteredTitle .section-title {
@@ -2160,7 +2242,7 @@ This should be a section option
   transform: translateX(0);
 }
 
-.hide-title-show-content .animation-item {
+.show-content .animation-item {
   animation-duration: 1s;
   animation-name: zoom-in;
   animation-fill-mode: forwards;

@@ -13,3 +13,10 @@
     --bs-columns: 4;
   }
 }
+
+
+.loose-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

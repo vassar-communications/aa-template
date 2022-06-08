@@ -2,6 +2,7 @@
 
 function sec_fixedCenteredTitle(
   $title=null,
+  $intro=null,
   $section_classes=null,
   $content_classes=null,
   $extras=null
@@ -25,18 +26,22 @@ if (get_extras_value('bg-image-url', $extras)) {
   $bg_css = get_extras_value( 'bg-css', $extras, 'style="%s"' );
 }
 
-return <<<TMP
-    <div class="section $section_classes">
+$css = get_extras_value( 'css', $extras, 'style="%s"' );
 
-    <div class="section-bg-image-container $bg_classes" $bg_css>
-      <div class="section-title-container">
-        {$section_title($title, $title_classes)}
+return <<<TMP
+    <div class="section $section_classes" $css>
+
+      <div class="section-bg-image-container $bg_classes" $bg_css>
+        <div class="section-title-container">
+          {$section_title($title, $title_classes)}
+        </div>
+        <img class="section-bg-image" src="$bg_url" alt="$bg_alt" />
       </div>
-      <img class="section-bg-image" src="$bg_url" alt="$bg_alt" />
-    </div>
 
 
     <div class="section-content $content_classes">
+      $intro
+
     TMP;
 }
 

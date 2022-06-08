@@ -78,11 +78,11 @@ var discreteElements = document.getElementsByClassName('show-image-then-content'
     		new Waypoint({
     			element: discreteElements[i],
     			handler: function() {
-   				  this.element.classList.remove("show-title");
-    				this.element.classList.add("hide-title-show-content");
+//   				  this.element.classList.remove("show-title");
+    				this.element.classList.add("show-content");
     			},
     //			context: document.getElementById('page-content'),
-    			offset: '-2px'
+    			offset: '-20%'
     		});
     	}
 
@@ -256,22 +256,21 @@ $( ".sec-fixedCenteredTitle" ).each(function( index ) {
 */
 
 
-$('.card-array .section-content ').masonry({
-  // options
-  itemSelector: '.card'
-//  columnWidth: 200
-});
-
-$('.layout-masonry').masonry({
-  // options
-  itemSelector: '.card'
-//  columnWidth: 200
-});
-
-
-
 
 $(document).ready(function () {
+  $('.card-array .section-content ').masonry({
+    // options
+    itemSelector: '.card'
+  //  columnWidth: 200
+  });
+
+  $('.layout-masonry').masonry({
+    // options
+    itemSelector: '.masonry-item',
+    columnWidth: '.grid-sizer',
+    percentPosition: true
+  });
+
   const iframe = document.getElementById("main-video");
   iframe.addEventListener("load", function () {
 //    alert("Finish");
