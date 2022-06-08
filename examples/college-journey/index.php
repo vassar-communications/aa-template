@@ -46,7 +46,7 @@ $page_title = "Your college journey begins here.";
    '<p class="section-intro-text">Our Admission team is here to help you with:</p>',
   'sec-fixedCenteredTitle card-array',
   null,
-    ['bg-image-url' => 'https://images.unsplash.com/photo-1652372167945-0c711b065450?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80',
+    ['bg-image-url' => 'journey/0100-21-10-kr-fw-general-vassar-0057.jpg',
     'bg-image-alt' => 'alt text',
     'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.2);
@@ -119,49 +119,49 @@ Vassar is from everywhere. World-class educations are built on world-wide commun
   <?php echo item_statIcon(
     '2,435',
     'students',
-    'car',
+    'people-group',
     'animation-item masonry-item'
   ); ?>
 
   <?php echo item_statIcon(
     '340',
     'faculty',
-    'car',
+    'person-chalkboard',
     'animation-item masonry-item'
   ); ?>
 
   <?php echo item_statIcon(
     '$54K',
     'average aid award',
-    'car',
+    'coins',
     'animation-item masonry-item'
   ); ?>
 
   <?php echo item_statIcon(
     '51',
     'majors',
-    'car',
+    'book',
     'animation-item masonry-item'
   ); ?>
 
   <?php echo item_statIcon(
     '8:1',
     'students to faculty',
-    'car',
+    'users',
     'animation-item masonry-item'
   ); ?>
 
   <?php echo item_statIcon(
     '27',
     'varsity teams',
-    'car',
+    'person-running',
     'animation-item masonry-item'
   ); ?>
 
   <?php echo item_statIcon(
     '170',
     'student orgs',
-    'car',
+    'screwdriver-wrench',
     'animation-item masonry-item'
   ); ?>
 
@@ -172,6 +172,40 @@ Vassar is from everywhere. World-class educations are built on world-wide commun
 <!-- end stats -->
 
 
+
+<!-- visit -->
+
+<?php echo sec_fixedCenteredTitle(
+  '<b class="slide-from-left">Visit before</b>
+   <b class="slide-from-right">you visit.</b>',
+   '<p class="section-intro-text">
+
+Vassar is extremely proud of our 1,000-acre campus. There are buildings that showcase classic architecture blended seamlessly with modern, cutting-edge facilities.
+
+   </p>',
+  'sec-fixedCenteredTitle theme-dark-burgundy featured-video',
+  'mw-4',
+    ['bg-image-url' => 'journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
+    'bg-image-alt' => 'alt text',
+    'css' => '
+      --section-title-size: 14vw;
+      --section-title-faded-opacity: 0.1;
+      --title-container-bg-beforeContent: rgba(0,0,0,0.4);
+      --section-bg-image-opacity: 0.1;
+      '
+    ]
+); ?>
+
+<div class="embed-responsive embed-responsive-16by9 ratio ratio-16x9">
+  <iframe title="vimeo-player" src="https://player.vimeo.com/video/531201548?h=eca7efdc85" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
+
+<?php echo end_sec_fixedCenteredTitle(); ?>
+
+<!-- end visit -->
 
 
 
@@ -198,56 +232,62 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
     ]
 ); ?>
 
-<div class="xlayout-masonry animation-group loose-grid stat-grid">
-  <!--<div class="grid-sizer"></div>-->
+  <div class="layout-masonry layout-masonry-33 animation-group">
 
-  <?php echo item_statIcon(
-    '2,435',
-    'students',
-    'car',
-    'animation-item masonry-item'
+    <div class="grid-sizer" style="width: 33%"></div>
+
+  <?php echo item_imageCard(
+    'Card title',
+    'texrtwatartr',
+    'apple.com',
+    ['url' => 'fav-places/0056-21-06-kr-campus-vassar-0006.jpg', 'alt' => 'asdfasdfds' ],
+    'animation-item masonry-item',
+    ['hlevel' => 4]
   ); ?>
 
-  <?php echo item_statIcon(
-    '340',
-    'faculty',
-    'car',
-    'animation-item masonry-item'
+  <?php echo item_imageCard(
+    'Card title',
+    'texrtwatartr',
+    'apple.com',
+    ['url' => 'fav-places/0212-18-10-kr-library-fall-vassar-3819.jpg', 'alt' => 'asdfasdfds' ],
+    'animation-item masonry-item',
+    ['hlevel' => 4]
   ); ?>
 
-  <?php echo item_statIcon(
-    '$54K',
-    'average aid award',
-    'car',
-    'animation-item masonry-item'
+  <?php echo item_imageCard(
+    'Card title',
+    'texrtwatartr',
+    'apple.com',
+    ['url' => 'fav-places/0195-19-11-kwe-gordon-vassar-1644.jpg', 'alt' => 'asdfasdfds' ],
+    'animation-item masonry-item',
+    ['hlevel' => 4]
   ); ?>
 
-  <?php echo item_statIcon(
-    '51',
-    'majors',
-    'car',
-    'animation-item masonry-item'
+  <?php echo item_imageCard(
+    'Card title',
+    'texrtwatartr',
+    'apple.com',
+    ['url' => 'fav-places/110619_160over90_Vassar_5483.jpg', 'alt' => 'asdfasdfds' ],
+    'animation-item masonry-item',
+    ['hlevel' => 4]
   ); ?>
 
-  <?php echo item_statIcon(
-    '8:1',
-    'students to faculty',
-    'car',
-    'animation-item masonry-item'
+  <?php echo item_imageCard(
+    'Card title',
+    'texrtwatartr',
+    'apple.com',
+    ['url' => 'fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg', 'alt' => 'asdfasdfds' ],
+    'animation-item masonry-item w-66',
+    ['hlevel' => 4]
   ); ?>
 
-  <?php echo item_statIcon(
-    '27',
-    'varsity teams',
-    'car',
-    'animation-item masonry-item'
-  ); ?>
-
-  <?php echo item_statIcon(
-    '170',
-    'student orgs',
-    'car',
-    'animation-item masonry-item'
+  <?php echo item_imageCard(
+    'Card title',
+    'texrtwatartr',
+    'apple.com',
+    ['url' => 'fav-places/studio.jpg', 'alt' => 'asdfasdfds' ],
+    'animation-item masonry-item',
+    ['hlevel' => 4]
   ); ?>
 
 </div><!-- end layout-masonry -->

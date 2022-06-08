@@ -384,7 +384,7 @@ end pattern library nav */
   border-width: 0;
   border-color: transparent;
   filter: brightness(1.2);
-  transform: scale(1.02);
+  transform: scale(1.1);
   box-shadow: 0 0.2rem 0.8rem var(--box-shadow-color);
   z-index: 10;
 }
@@ -717,6 +717,13 @@ li::marker {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.layout-masonry-33 .masonry-item {
+  width: 33%;
+}
+.layout-masonry-33 .masonry-item.w-66 {
+  width: 66%;
 }
 
 .seq-item--useTransition:nth-child(1) {
@@ -2179,7 +2186,7 @@ This should be a section option
   font-family: var(--bs-font-sans-serif);
   font-weight: 800;
   color: #fff;
-  text-shadow: 0 0 2em #000;
+  text-shadow: 0 0 2em #000, 0 0 1em #000;
   font-size: var(--section-title-size, 8vw);
   letter-spacing: -0.01em;
   transition: text-shadow 0.4s ease;
@@ -2246,6 +2253,12 @@ This should be a section option
   animation-duration: 1s;
   animation-name: zoom-in;
   animation-fill-mode: forwards;
+}
+
+.featured-video .embed-responsive {
+  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.4);
+  max-width: 60em;
+  margin: 0 auto;
 }
 
 .section--wide-content.has-intro .section-title {

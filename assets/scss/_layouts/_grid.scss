@@ -20,3 +20,15 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+.layout-masonry-33 {
+  .masonry-item {
+    width: 33%;
+
+    &.w-66 {
+      width: 66%;
+    }
+
+  }
+}
