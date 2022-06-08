@@ -12,7 +12,8 @@
 function toplinksNav($extras = false) {
 $template = <<<TMP
 
-<nav class="main-nav animate-when-content-appears animation-fade-in pt-1">
+<nav class="main-nav animate-when-content-appears animation-fade-in">
+<h5 class="supertitle">In this section</h5>
   <ol class="nav-path">
       <ul class="nav-current-section animation-group animate-when-content-appears animation-fade-in">
 

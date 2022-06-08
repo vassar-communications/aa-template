@@ -20,40 +20,46 @@ $template = <<<TMP
     z-index: 22;
 }
 
-.offcanvas {
+.offcanvasmain {
   z-index:9999;
 }
 </style>
+
 <div class="hamburger-navigation">
 
-
-
-  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
-     <span class="fa-solid fa-bars">
-     </span>
-     </button>
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">Menu <span class="fa-solid fa-bars"></button>
 
 </div>
 
-<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasExampleLabel">
+<div class="offcanvas offcanvas-top h-100" tabindex="-1" id="offcanvas" aria-labelledby="offcanvas">
   <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <button class="btn btn-primary" type="button"  class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">Close <span class="fa-solid fa-times"></button>
   </div>
   <div class="offcanvas-body">
-    <div>
-      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-    </div>
-    <div class="dropdown mt-3">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-        Dropdown button
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <li><a class="dropdown-item" href="#">Action</a></li>
-        <li><a class="dropdown-item" href="#">Another action</a></li>
-        <li><a class="dropdown-item" href="#">Something else here</a></li>
-      </ul>
-    </div>
+   <div class="h1">
+   <a href="">About</a>
+   </div>
+   <div class="">
+   <a href="">About</a>
+   </div>
+   <div class="">
+   <a href="">About</a>
+   </div>
+   <div class="">
+   <a href="">About</a>
+   </div>
+   <div class="">
+   <a href="">About</a>
+   </div>
+   <div class="">
+   <a href="">About</a>
+   </div>
+   <div class="">
+   <a href="">About</a>
+   </div>
+   <div class="">
+   <a href="">About</a>
+   </div>
   </div>
 </div>
 TMP;

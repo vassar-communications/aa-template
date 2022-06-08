@@ -1,11 +1,10 @@
 .main-nav {
-      background: #f9f7f4;
 
-  --border: 2px solid #ccc;
+  --border: 0px solid #ccc;
   --animation-duration: 1s;
   --sequential-animation-item-gap: 0.1s;
 
-  padding: 2rem 2rem 4rem 2rem;
+  padding: 2rem 2rem 4rem 4rem;
   font-family: var(--sansSerif);
 
   a {
@@ -20,8 +19,8 @@
 }
 .nav-path {
   padding: 0;
-  max-width: 60rem;
-  margin: 0 auto;
+  max-width: 80rem;
+  margin: 0 auto 0 0;
 
   & > li {
     position: relative;
@@ -71,3 +70,23 @@
     }
   }
 }
+
+
+.breadcrumb-nav {
+  position: absolute;
+  z-index: 21;
+}
+
+
+.breadcrumb-item+.breadcrumb-item::before {
+ font-family:"Font Awesome 6 Free";
+ opacity: 0.3;
+}
+
+
+
+
+.breadcrumb-nav a {
+  border: none!important;
+}
+

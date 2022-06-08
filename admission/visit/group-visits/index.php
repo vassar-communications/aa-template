@@ -30,7 +30,9 @@ $page_classes = "";
 <?php include($project_paths['main_project_root'].'/admission/inc/admission-visit-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
-<div class="buffer"></div>
+
 <?php /*  PAGE CONTENT === */ ?>
 
+
+<?php include($project_paths['main_project_root'].'/admission/inc/tmp-related-links.php');?>
 <?php echo site_footer(); ?>

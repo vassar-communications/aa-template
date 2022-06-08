@@ -10,21 +10,23 @@
 :root {
   --sansSerif: 'Source Sans Variable';
 
-  --regularContent-font-size: calc(1.265rem + 0.18vw);
+  --regularContent-font-size: calc(1rem + 0.18vw);
   --regularContent-lineHeight: 1.36;
   --regularContent-font-weight: "wght" 340;
 }
 
+.sec-fixedCenteredTitle .section-intro-text,
 .section-intro-text,
-.intro-text {
+.intro-text  {
   font-variation-settings: "wght" 340;
   font-family: var(--font-big-serif);
   line-height: 1.16;
 
-  font-family: var(--sansSerif);
-  font-weight: var(--regularContent-font-weight);
-  font-variation-settings: "wght" 300;
+  //  font-family: var(--sansSerif);
+  //  font-weight: var(--regularContent-font-weight);
+  //  font-variation-settings: "wght" 300;
   font-size: var(--intro-text-size);
+  font-weight: 300;
 
 }
 
@@ -41,8 +43,7 @@
     line-height: var(--regularContent-lineHeight);
   }
 }
-
-.section-title {
-  font-family: freight-display-pro;
+.section-title, .section__title__main, .h1, .h2, .h3, .h4, h1, h2, h3, h4  {
+  font-family: var(--font-big-serif);
   font-weight: 100;
 }

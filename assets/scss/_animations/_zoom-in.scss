@@ -34,10 +34,10 @@
 
   &:not(.has-bg) {
     &.animate-when-content-appears {
-        @include setup-animation-zoom-in();
+      @include setup-animation-zoom-in();
 
       &.content-appeared {
-          @include animation-zoom-in();
+        @include animation-zoom-in();
       }
     }
   }
@@ -65,6 +65,13 @@
 }
 .content-appeared {
   .secondary-item.animation-zoom-in {
+    @include animation-zoom-in(true);
+  }
+}
+
+
+.section.content-appeared .animate-when-parent-content-appears.animation-group.animation-zoom-in {
+  .animation-item {
     @include animation-zoom-in(true);
   }
 }

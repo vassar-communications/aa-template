@@ -30,7 +30,38 @@ $page_classes = "";
 <?php include($project_paths['main_project_root'].'/admission/inc/admission-apply-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
-<div class="buffer"></div>
+
+
+<?php echo sec_hasColumns(
+    null,
+    2,
+    null,
+    'theme-cream',
+    null
+); ?>
+
+<?php echo item_col(); ?>
+<h3>A conversation with one of our alumnae/i or student interviewers is an excellent way for you to learn more about Vassar and for us to learn more about you.</h3>
+<p>We accept interview requests from current domestic first-year applicants. Interviews take place from October through early March and are informational rather than evaluative. Please note, not all students will be able to meet with an interviewer as we do not have the capacity to honor all requests. If you are not extended an interview, rest assured that it will not negatively impact your application to Vassar. Your interview request will only be processed once the Office of Admission confirms we have received your application.</p>
+
+
+<?php echo item_iconButton(
+    'car',
+    'Register Now',
+    '/admission/financial-aid/applying-for-aid');
+?>
+
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(); ?>
+<img src="https://uc47ac64b0907ec3250f531e9267.previews.dropboxusercontent.com/p/thumb/ABgk6BB8TPTISuWhhMjRGjtcjuabB8CeEanttvis03esFA487-BcNlTRErqZD7Bz2anh101QaG_W-ecgfaQOAP2oT2JRMM6Gt57UZEVeex8qvA3ZYrxq5OFIrM-qJyEMk9ZgVqrvbKL7hqnLR9DLrvt0EpiNNmshd8O6OfxGLG-WzV5W7G0vJWHXQIWHPtp7xGcXHuotO4LCmvI1Hj62AqmxCjDxvbtSctEjufI-YLUCF7pswJlRO6xrv3pJR77TmjKZFJATTf_X3RHdCkoUScTYpgjzPrG7_pLsjBlc2ZBC81d4O3l56Y-5QI3zHi0rXVExQaXSgWERDnViOo96E0HnwikiYDQIfYAHzz4xMmiONHwN46BBIyQkNjs4yUws7o4/p.jpeg" />
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
+
 <?php /*  PAGE CONTENT === */ ?>
 
+<?php include($project_paths['main_project_root'].'/admission/inc/tmp-related-links.php');?>
 <?php echo site_footer(); ?>

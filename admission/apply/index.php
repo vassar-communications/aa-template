@@ -19,25 +19,171 @@ $page_classes = "";
 <?php echo vassar_masthead(); ?>
 
 <?php echo hamburger_navigation(); ?>
+<?php echo breadcrumbNav('theme-charcoal'); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/admission-breadcrumb.php');?>
+<?php echo end_sec_breadcrumbNav(); ?>
 
 <?php echo page_masthead('https://images.unsplash.com/photo-1651035157347-e92d6a3cd958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2066&q=80'); ?>
 
-<?php echo breadcrumbNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/admission-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
+
 
 <?php echo toplinksNav(); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/admission-apply-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
-<?php echo sec_wordByWord(); ?>
 
-  <p>Learning is Innovation</p>
+<?php echo sec_hasColumns(
+    null,
+    2,
+    null,
+    '',
+    ''
+); ?>
 
-<?php echo end_sec_wordByWord(); ?>
+<?php echo item_col(
+
+); ?>
+<h3>How to Apply</h3>
+<p>Learn more about Vassar's application requirements and important deadlines.</p>
+<a class="px-0 btn btn-link">Learn more about applying <i class="fa-solid fa-angle-right"></i></a>
 
 
-<div class="buffer"></div>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(); ?>
+<img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+<?php echo sec_hasColumns(
+    null,
+    2,
+    null,
+    '',
+    ''
+); ?>
+
+
+<?php echo item_col(); ?>
+<img src="https://images.unsplash.com/photo-1651035157347-e92d6a3cd958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2066&q=80" />
+<?php echo end_item_col(); ?>
+
+
+<?php echo item_col(
+
+); ?>
+<h3>First-Year applicants</h3>
+<p>Everything you need to know about applying to Vassar as an incoming first-year student.</p>
+<a class="px-0 btn btn-link">Learn more<i class="fa-solid fa-angle-right"></i></a>
+
+
+<?php echo end_item_col(); ?>
+
+
+<?php echo end_sec_hasColumns(); ?>
+
+<?php echo sec_hasColumns(
+    null,
+    2,
+    null,
+    '',
+    ''
+); ?>
+
+<?php echo item_col(
+
+); ?>
+<h3>Transfer Applicants</h3>
+<p>Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. </p>
+<a class="px-0 btn btn-link">Learn more about transfer applications <i class="fa-solid fa-angle-right"></i></a>
+
+
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(); ?>
+<img src="https://images.unsplash.com/photo-1651035157347-e92d6a3cd958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2066&q=80" />
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
+<?php echo sec_regularContent(
+    null,
+    null,
+    'mw-2'
+); ?>
+
+
+<h3>Need more information about applying?</h3>
+<p>Follow the links below or email admissions@vassar.edu, reach out to your Admission Officer, or ask a current Vassar student at askastudent@vassar.edu!</p>
+
+<?php echo end_sec_regularContent(); ?>
+
+
+<?php echo sec_hasColumns(
+    null,
+    2,
+    null,
+    '',
+    ''
+); ?>
+
+<?php echo item_col(); ?>
+<?php echo item_cardWithText(
+    'International Applicants',
+    '/admission/apply/international',
+    ['url' => 'https://images.unsplash.com/photo-1651035157347-e92d6a3cd958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2066&q=80', 'alt' => 'international' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<div class="btn btn-secondary"><i class="fa-solid fa-angle-right"></i></div>
+<?php echo end_item_cardWithText(); ?>
+<?php echo end_item_col(); ?>
+
+
+<?php echo item_col(); ?>
+<?php echo item_cardWithText(
+    'QuestBridge Students',
+    '/admission/apply/questbridge',
+    ['url' => 'https://images.unsplash.com/photo-1652703747774-558a10faacc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80', 'alt' => 'questbridge' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<div class="btn btn-secondary"><i class="fa-solid fa-angle-right"></i></div>
+<?php echo end_item_cardWithText(); ?>
+<?php echo end_item_col(); ?>
+
+
+<?php echo item_col(); ?>
+<?php echo item_cardWithText(
+    'Information for Veterans',
+    '/admission/apply/veterans',
+    ['url' => 'https://images.unsplash.com/photo-1651035157347-e92d6a3cd958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2066&q=80', 'alt' => 'veterans' ],
+    'mb-4',
+    ['hlevel' => 4]
+); ?>
+<div class="btn btn-secondary"><i class="fa-solid fa-angle-right"></i></div>
+<?php echo end_item_cardWithText(); ?>
+<?php echo end_item_col(); ?>
+
+
+<?php echo item_col(); ?>
+<?php echo item_cardWithText(
+    'Financial Aid Information',
+    '/admission/apply/financial-aid',
+    ['url' => 'https://images.unsplash.com/photo-1651035157347-e92d6a3cd958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2066&q=80', 'alt' => 'financial aid' ],
+    'mb-4',
+    ['hlevel' => 4]
+); ?>
+<div class="btn btn-secondary"><i class="fa-solid fa-angle-right"></i></div>
+<?php echo end_item_cardWithText(); ?>
+<?php echo end_item_col(); ?>
+
+
+
+<?php echo end_sec_hasColumns(); ?>
+
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo site_footer(); ?>

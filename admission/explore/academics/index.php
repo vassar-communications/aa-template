@@ -31,12 +31,15 @@ $page_classes = "";
 <?php include($project_paths['main_project_root'].'/admission/inc/admission-explore-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
-<?php echo sec_wordByWord(); ?>
 
-  <p>Learning is Innovation</p>
+<?php echo sec_wordByWord(
+    null,
+    'animate-when-content-appears space-around-image theme-dark-burgundy',
+    ''
+); ?>
+<p>Learning is Innovation</p>
 
 <?php echo end_sec_wordByWord(); ?>
-
 
 <div class="buffer"></div>
 <?php /*  PAGE CONTENT === */ ?>
