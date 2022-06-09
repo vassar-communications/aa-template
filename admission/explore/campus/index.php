@@ -21,7 +21,7 @@ $page_classes = "";
 <?php echo hamburger_navigation(); ?>
 
 <?php echo breadcrumbNav('theme-charcoal'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/admission-explore-breadcrumb.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
 
 
@@ -30,7 +30,7 @@ $page_classes = "";
 
 
 <?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/admission-explore-nav.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 <?php echo sec_wordByWord(
     null,

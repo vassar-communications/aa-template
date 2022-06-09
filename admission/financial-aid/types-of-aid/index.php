@@ -20,17 +20,24 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead(); ?>
-
-<?php echo breadcrumbNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/admission-financialaid-breadcrumb.php');?>
+<?php echo breadcrumbNav('theme-cream'); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-financialaid-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
 
+<?php echo page_textmasthead('theme-cream'); ?>
+
 <?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/admission-financialaid-nav.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-financialaid-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
-<div class="buffer"></div>
 <?php /*  PAGE CONTENT === */ ?>
+
+
+<?php echo relatedTopics(); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<?php echo end_sec_relatedTopics(); ?>
+
 
 <?php echo site_footer(); ?>

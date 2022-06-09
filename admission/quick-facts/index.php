@@ -21,14 +21,14 @@ $page_classes = "";
 <?php echo hamburger_navigation(); ?>
 
 <?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/admission-breadcrumb.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
 
 <?php echo page_textmasthead('theme-cream'); ?>
 
 
 <?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/admission-nav.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
 

@@ -21,7 +21,7 @@ $page_classes = "";
 <?php echo hamburger_navigation(); ?>
 
 <?php echo breadcrumbNav('theme-charcoal'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/admission-breadcrumb.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
 
 <?php echo page_masthead('https://images.unsplash.com/photo-1651035157347-e92d6a3cd958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2066&q=80'); ?>
@@ -29,7 +29,7 @@ $page_classes = "";
 
 
 <?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/admission-explore-nav.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
 
@@ -57,13 +57,13 @@ $page_classes = "";
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
-<img src="https://uc30548dae366635e290422596d9.previews.dropboxusercontent.com/p/thumb/ABia0GMySEf4LJOYDAQSa5oIBKjf_Y5lP9-Imtry9XxV55oQmilIWYM3b-1s8KzeEFCMI6np92mR1HEBhKzrqaJWmu3-KrdRQMA4atHd2yriuGoADbWlHd9ecGNlDTmQjvPPz2fv1K5fUJ4TDzR_Xy4aqdelQUqVISi650AD0hqeKARtcuawW3TjtoH1sHOwhf58hZxNXnl7LLmbSMS2oZ3BGZZMhFVa7qtjfHYYxrrYKCqxu3PbyroBRqcDN6kJGAANXVDE9dWp0ZWPSMio-Vy2BWuOElNS0cA9CR5jSdaKR3UaRYwAsJMrcq_tUeLGSaIivli4yZ_-s9br8b1o-a5fxJuf239_lwLcZCarN5Mx69lthHHtQPI9n7xUPpabaEw/p.jpeg" />
+<img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://uc3cd0f9901d779c249e93d9c9c7.previews.dropboxusercontent.com/p/thumb/ABgk9gJKlaydq6irAL488NDUo1ZiRp0_LVka9Oc1GWiZ9rMMvcKJ6lLyjIHwP9dtEW94sUbylZCEhxbwOe5ik1L59PGC2FTtRtk93WE8pNnJj_XdPZNqDvaOW_oZO0m1W6CyWZ12zV1JZUFgrgiO2YCVVziKEm9Ix5K-5VBfc0snirkbShSJTXJcwWxWzRPL3AHF3X5saXKGkgHnzc105WjePqpB7OXQoF4LjWCtNFyKk6769wKKjgNbJ6rMg1c1pgGlLdoRpbhGbH0qos7Bn5aS28lIUkHzW2bQXcO0MGDFBuD7PH4Bp_4DBdBNevJiQDG4YaY7U893h0tuJAhFcZ4LUqtzTEjwYy2FZjp2vAHrH3meSI_bTvmZrI5ip1hfemc/p.jpeg',
+    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
     'image-is-first',
     'mw-100'
 ); ?>

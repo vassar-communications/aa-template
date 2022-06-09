@@ -9,7 +9,7 @@ include( $project_paths['main_project_root'] . '/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "Your college journey begins here.";
+$page_title = "Vassar Admission";
 
 /*  ---------------------- */
 
@@ -44,45 +44,60 @@ $page_title = "Your college journey begins here.";
     '<b class="slide-from-left">Your college journey</b>
    <b class="slide-from-right nice-big-serif">begins here.</b>',
     '<p class="section-intro-text">Our Admission team is here to help you with:</p>',
-    'sec-fixedCenteredTitle card-array',
-    null,
+    'sec-fixedCenteredTitle',
+    'mw-4',
     ['bg-image-url' => 'journey/0100-21-10-kr-fw-general-vassar-0057.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.2);
+      --section-title-faded-opacity: 0.1;
+      --section-bg-image-opacity: 0.1;
+      --section-title-faded-color: #000;
       '
     ]
 
 ); ?>
 
-    <div class="layout-masonry animation-group">
-
-        <?php echo item_imageCard(
-            'Card title',
-            'texrtwatartr',
-            'apple.com',
-            ['url' => '0014-19-04-kr-chemistry-vassar-4578.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item masonry-item',
-            ['hlevel' => 4]
+    <div class="grid cols-3">
+        <?php echo item_cardWithText(
+            'Applying to Vassar',
+            '',
+            ['url' => 'apply/untitled-3.jpg', 'alt' => 'asdfasdfds' ],
+            'animation-item'
         ); ?>
 
-        <?php echo item_imageCard(
-            'Card title',
-            'texrtwatartr',
-            'apple.com',
-            ['url' => '0020_15_03_KR_0022.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item masonry-item',
-            ['hlevel' => 4]
+        <p>What’s required / How to apply / Important Deadlines / Tuition</p>
+        <p><strong>Learn more</strong> →</p>
+
+        <?php echo end_item_cardWithText(); ?>
+
+
+        <?php echo item_cardWithText(
+            'Financial Aid Information',
+            '',
+            ['url' => 'apply/untitled-2.jpg', 'alt' => 'asdfasdfds' ],
+            'animation-item'
         ); ?>
 
-        <?php echo item_imageCard(
-            'Card title',
-            'texrtwatartr',
-            'apple.com',
-            ['url' => '0055-16-05-kr-spring-vassar-0011.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item masonry-item',
-            ['hlevel' => 4]
+        <p>Early and regular decision / Transferring to Vassar</p>
+        <p><strong>Learn more</strong> →</p>
+
+        <?php echo end_item_cardWithText(); ?>
+
+
+        <?php echo item_cardWithText(
+            'Request Information',
+            '',
+            ['url' => 'apply/untitled-1.jpg', 'alt' => 'asdfasdfds' ],
+            'animation-item'
         ); ?>
+
+        <p>Have questions? Need Information? Get Vassar’s newsletter and other information about Vassar.</p>
+        <p><strong>Learn more</strong> →</p>
+
+        <?php echo end_item_cardWithText(); ?>
+
+
 
     </div><!-- end layout-masonry -->
 
@@ -98,6 +113,8 @@ $page_title = "Your college journey begins here.";
     '<p class="section-intro-text">
 
 Vassar is from everywhere. World-class educations are built on world-wide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will visit them while at Vassar. Over half of Vassar students receive financial aid.
+
+<p><strong class="cta-link">Learn more</strong></p>
 
    </p>',
     'sec-fixedCenteredTitle theme-burgundy',
@@ -179,13 +196,14 @@ Vassar is from everywhere. World-class educations are built on world-wide commun
     '<b class="slide-from-left">Visit before</b>
    <b class="slide-from-right">you visit.</b>',
     '<p class="section-intro-text">
+All Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life. Explore virtual visiting opportunities today and learn more about in-person visits.
+   </p>
 
-Vassar is extremely proud of our 1,000-acre campus. There are buildings that showcase classic architecture blended seamlessly with modern, cutting-edge facilities.
-
-   </p>',
+<p><strong class="cta-link">Visiting the Vassar campus</strong></p>
+   ',
     'sec-fixedCenteredTitle theme-dark-burgundy featured-video',
     'mw-4',
-    ['bg-image-url' => 'journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
+    ['bg-image-url' => 'visit/0216-18-10-jsu-fall-drone-vassar-R01895.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --section-title-size: 14vw;
@@ -221,7 +239,7 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
    </p>',
     'sec-fixedCenteredTitle theme-charcoal',
     'mw-4',
-    ['bg-image-url' => 'journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
+    ['bg-image-url' => 'visit/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --section-title-size: 14vw;
@@ -234,59 +252,58 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
 
     <div class="layout-masonry layout-masonry-33 animation-group">
 
-        <div class="grid-sizer" style="width: 33%"></div>
+        <div class="grid-sizer"></div>
 
         <?php echo item_imageCard(
-            'Card title',
-            'texrtwatartr',
+            get_icon('play').'Shakespeare Garden',
+            null,
             'apple.com',
             ['url' => 'fav-places/0056-21-06-kr-campus-vassar-0006.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item masonry-item',
-            ['hlevel' => 4]
+            'animation-item masonry-item text-at-bottom'
         ); ?>
 
         <?php echo item_imageCard(
-            'Card title',
-            'texrtwatartr',
+            get_icon('play').'Thompson Memorial Library',
+            null,
             'apple.com',
             ['url' => 'fav-places/0212-18-10-kr-library-fall-vassar-3819.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item masonry-item',
+            'animation-item masonry-item text-at-bottom',
             ['hlevel' => 4]
         ); ?>
 
         <?php echo item_imageCard(
-            'Card title',
-            'texrtwatartr',
+            get_icon('play').'Gordon Commons',
+            null,
             'apple.com',
             ['url' => 'fav-places/0195-19-11-kwe-gordon-vassar-1644.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item masonry-item',
+            'animation-item masonry-item text-at-bottom',
             ['hlevel' => 4]
         ); ?>
 
         <?php echo item_imageCard(
-            'Card title',
-            'texrtwatartr',
+            get_icon('play').'Bridge for Laboratory Sciences',
+            null,
             'apple.com',
             ['url' => 'fav-places/110619_160over90_Vassar_5483.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item masonry-item',
+            'animation-item masonry-item text-at-bottom',
             ['hlevel' => 4]
         ); ?>
 
         <?php echo item_imageCard(
-            'Card title',
-            'texrtwatartr',
+            get_icon('play').'The Ecological Preserve',
+            null,
             'apple.com',
             ['url' => 'fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item masonry-item w-66',
+            'animation-item masonry-item w-66 text-at-bottom',
             ['hlevel' => 4]
         ); ?>
 
         <?php echo item_imageCard(
-            'Card title',
-            'texrtwatartr',
+            get_icon('play').'Student Picks',
+            null,
             'apple.com',
             ['url' => 'fav-places/studio.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item masonry-item',
+            'animation-item masonry-item text-at-bottom',
             ['hlevel' => 4]
         ); ?>
 
@@ -300,6 +317,5 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
 
 
 
-    <div class="buffer"></div>
 
 <?php echo site_footer(); ?>

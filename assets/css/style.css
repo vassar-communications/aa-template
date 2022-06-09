@@ -72,12 +72,14 @@ img {
   margin-right: auto;
 }
 
+/* CY START */
 .btn-link {
   color: var(--color-vassar-charcoal);
   text-decoration: none;
   font-variation-settings: "wght" 600;
 }
 
+/* CY END */
 .row-title {
   font-size: var(--h2-font-size);
 }

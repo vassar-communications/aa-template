@@ -127,6 +127,7 @@ include($project_paths['main_project_root'].'/core/sections/universal_sections/v
 include($project_paths['main_project_root'].'/core/sections/universal_sections/hamburgerNavigation.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/breadcrumbNavigation.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/toplinksNavigation.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/relatedTopics.inc');
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/buffer.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/wordByWord.inc');

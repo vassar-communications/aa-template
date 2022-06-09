@@ -21,14 +21,14 @@ $page_classes = "";
 <?php echo hamburger_navigation(); ?>
 
 <?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/admission-apply-breadcrumb.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
 
 <?php echo page_textmasthead('theme-cream'); ?>
 
 
 <?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/admission-apply-nav.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
 <?php echo sec_hasColumns(
@@ -176,6 +176,10 @@ $page_classes = "";
 
 
 
-<?php include($project_paths['main_project_root'].'/admission/inc/tmp-related-links.php');?>
+<?php echo relatedTopics(); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<?php echo end_sec_relatedTopics(); ?>
 
 <?php echo site_footer(); ?>

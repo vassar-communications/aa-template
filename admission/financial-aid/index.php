@@ -20,16 +20,16 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 <?php echo breadcrumbNav('theme-charcoal'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/admission-breadcrumb.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
 
-<?php echo page_masthead('https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg'); ?>
+<?php echo page_masthead('https://vassartest.chuckyatsuk.com/img/financial-aid/0141-15-10-kr-fall-campus-vassar-0003.jpg'); ?>
 
 
 
 
 <?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/admission-financialaid-nav.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-financialaid-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
 <?php /*  PAGE CONTENT === */ ?>
@@ -54,7 +54,7 @@ $page_classes = "";
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
+<img src="https://vassartest.chuckyatsuk.com/img/financial-aid/0013-22-04-kr-noyes-vassar-0040.jpg" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
@@ -88,13 +88,13 @@ $page_classes = "";
 ); ?>
 <h2>Applying for Aid</h2>
 <p>Learn more about the steps required to apply for need-based financial aid.</p>
-<a class="px-0 btn btn-link">Learn more about applying for aid <i class="fa-solid fa-angle-right"></i></a>
+<a href="/admission/financial-aid/apply" class="px-0 btn btn-link">Learn more about applying for aid <i class="fa-solid fa-angle-right"></i></a>
 
 
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
+<img src="https://vassartest.chuckyatsuk.com/img/financial-aid/0085_16_04_KR_0008.jpg" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
@@ -111,7 +111,7 @@ $page_classes = "";
 
 
 <?php echo item_col(); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
+<img src="https://vassartest.chuckyatsuk.com/img/financial-aid/0256-19-10-ja-library-lawn-vassar-vb-066.jpg" />
 <?php echo end_item_col(); ?>
 
 
@@ -120,7 +120,7 @@ $page_classes = "";
 ); ?>
 <h2>Types of Aid</h2>
 <p>Financial aid awards typically include grants and scholarships, loans, and campus jobs. </p>
-<a class="px-0 btn btn-link">Learn more about types of aid <i class="fa-solid fa-angle-right"></i></a>
+<a href="/admission/financial-aid/types-of-aid" class="px-0 btn btn-link">Learn more about types of aid <i class="fa-solid fa-angle-right"></i></a>
 
 
 <?php echo end_item_col(); ?>
@@ -142,13 +142,13 @@ $page_classes = "";
 ); ?>
 <h2>Tuition & Fees</h2>
 <p>View a breakdown of Vassar's tuition, housing and dining costs, and other fees.</p>
-<a class="px-0 btn btn-link">Learn more about tuition & fees<i class="fa-solid fa-angle-right"></i></a>
+<a href="/admission/financial-aid/tuition" class="px-0 btn btn-link">Learn more about tuition & fees<i class="fa-solid fa-angle-right"></i></a>
 
 
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
+<img src="https://vassartest.chuckyatsuk.com/img/financial-aid/0198-19-11-kwe-library-vassar-vb-5394.jpg" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
@@ -164,7 +164,7 @@ $page_classes = "";
 <h2>Aid Calculators</h2>
 <p>Calculate your cost</p>
 <p>
-    <a href="#" class="px-0 btn btn-link">Go to Calculators <i class="fa-solid fa-angle-right"></i></a>
+    <a href="/admission/financial-aid/aid-calculators" class="px-0 btn btn-link">Go to Calculators <i class="fa-solid fa-angle-right"></i></a>
 </p>
 <?php echo end_sec_wideContent(); ?>
 
