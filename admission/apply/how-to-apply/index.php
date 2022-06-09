@@ -37,7 +37,7 @@ $page_classes = "";
     2,
     null,
     '',
-    'mw-1'
+    ''
 ); ?>
 
 <?php echo item_col(); ?>

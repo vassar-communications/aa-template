@@ -30,7 +30,25 @@ $page_classes = "";
 <?php include($project_paths['main_project_root'].'/admission/inc/admission-visit-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
-<div class="buffer"></div>
+<?php echo sec_hasColumns(
+    null,
+    2,
+    null,
+    '',
+    ''
+); ?>
+
+<?php echo item_col(); ?>
+<p>We are excited to welcome registered visitors to our campus! To be sure that your time on campus is safe and enjoyable, please carefully review the information on this page prior to your Vassar visit. </p>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(); ?>
+<img src="https://vassartest.chuckyatsuk.com/img/0198-19-11-kwe-library-vassar-vb-5415.jpg" />
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
 <?php /*  PAGE CONTENT === */ ?>
 
 
