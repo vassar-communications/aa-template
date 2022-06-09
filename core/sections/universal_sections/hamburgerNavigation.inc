@@ -36,30 +36,7 @@ $template = <<<TMP
     <button class="btn btn-primary" type="button"  class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">Close <span class="fa-solid fa-times"></button>
   </div>
   <div class="offcanvas-body">
-   <div class="h1">
-   <a href="">About</a>
-   </div>
-   <div class="">
-   <a href="">About</a>
-   </div>
-   <div class="">
-   <a href="">About</a>
-   </div>
-   <div class="">
-   <a href="">About</a>
-   </div>
-   <div class="">
-   <a href="">About</a>
-   </div>
-   <div class="">
-   <a href="">About</a>
-   </div>
-   <div class="">
-   <a href="">About</a>
-   </div>
-   <div class="">
-   <a href="">About</a>
-   </div>
+   
   </div>
 </div>
 TMP;
