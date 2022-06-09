@@ -20,12 +20,13 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_masthead('https://uc5613616f988a2df1a3c654edd2.previews.dropboxusercontent.com/p/thumb/ABg9a5gxatWywIso1mzeeE2znl8jP_EBTLvwRNQFOD8s9MP3T2FpDmyKUKRSjneMM6dKN39ngiS0waqdCl_leRgKFeRNAdbtL8l4VxUbZw9PfT0GFXAxb5hD3C0ARE8GD_2zGHDt011YcTnEhb6yqGOm4-qKauLyvYrxoGOdCguuE0T5qk4ZKgS12fWZh_16OFPbIjiffI1Z77RqwNxrbMlRh-2ZmDJ4OyP8kfYgogUWJpDCZDHd0qql64iRL28DccE93zZDx53W7Rphpn61Zulaolwa-JQWqkaxgs_pQ4Sxm-yZfa_c_BWxx3LPnjQbnSLEltd36BLPiIpmG3QaMwTikXV9SZbXY7XwOTp-dGXDyG60vK7QLm-Nd-BxKoBtiEjhCVMyzRN4vyft6ITawQ2GaVy-UNMnmQKw6_JCbDHLBCXkb_rI56qHiVclS4dnUw0/p.jpeg'); ?>
-
-
-<?php echo breadcrumbNav(); ?>
+<?php echo breadcrumbNav('theme-charcoal'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/admission-explore-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
+
+
+
+<?php echo page_masthead('https://images.unsplash.com/photo-1651035157347-e92d6a3cd958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2066&q=80'); ?>
 
 <?php echo toplinksNav(); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/admission-explore-nav.php');?>

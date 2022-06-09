@@ -20,11 +20,12 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead(); ?>
-
-<?php echo breadcrumbNav(); ?>
+<?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/admission-apply-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
+
+<?php echo page_textmasthead('theme-cream'); ?>
+
 
 <?php echo toplinksNav(); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/admission-apply-nav.php');?>

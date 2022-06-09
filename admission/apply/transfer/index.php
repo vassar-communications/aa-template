@@ -34,7 +34,30 @@ $page_classes = "";
 
 <?php /*  PAGE CONTENT === */ ?>
 
+<?php echo sec_hasColumns(
+    null,
+    2,
+    null,
+    '',
+    ''
+); ?>
 
+<?php echo item_col(
+
+); ?>
+
+<h3>Information for Transfer Applicants</h3>
+<p>Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. Transfer admission is need-aware and spots are limited.</p>
+
+
+
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(); ?>
+[insert deadlines card]
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
 
 <?php include($project_paths['main_project_root'].'/admission/inc/tmp-related-links.php');?>
 

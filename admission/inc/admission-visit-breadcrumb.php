@@ -1,3 +1,3 @@
-<li><a href="/">Home</a></li>
- <li><a href="/admission">Admission</a></li>
- <li><a href="/admission/visit/">Visit</a></li>
+<li class="breadcrumb-item"><a href="/">Home</a></li>
+<li class="breadcrumb-item"><a href="/admission">Admission</a></li>
+<li class="breadcrumb-item"><a href="/admission/visit/">Visit</a></li>
