@@ -20,7 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo breadcrumbNav('theme-burgundy'); ?>
+<?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/admission-apply-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
 
