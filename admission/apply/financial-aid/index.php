@@ -7,11 +7,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /*  PAGE INFO ============ */
 
-<<<<<<< HEAD
-$page_title = "Financial Aid.";
-=======
 $page_title = "Financial Aid";
->>>>>>> 0ee67d5aa861a4dda42e5945ca7c50142c64465c
 $page_classes = "";
 
 /*  ---------------------- */
@@ -24,7 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo breadcrumbNav('theme-cream'); ?>
+<?php echo breadcrumbNav('theme-burgundy'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/admission-apply-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
 
