@@ -1347,6 +1347,73 @@ li::marker {
   --card-border-radius: 0;
 }
 
+@keyframes stat-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+html {
+  font-family: system-ui;
+}
+
+.fancy-stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.stat-label {
+  text-transform: uppercase;
+}
+
+.stat-value {
+  font-size: 10vw;
+}
+
+.symbol-item {
+  font-size: 6vw;
+  padding-top: 3rem;
+}
+
+.fancy-stats-container > *,
+.fancy-stats-container .stat-item-additional {
+  opacity: 0;
+  animation-name: stat-fade-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+.fancy-stats-container .stat-item-additional {
+  animation-delay: var(--secondary-delay);
+}
+
+.item-students {
+  animation-delay: 2s;
+  --secondary-delay: calc(2s + 0.4s);
+}
+
+.symbol-div {
+  animation-delay: 3s;
+  --secondary-delay: calc(3s + 0.4s);
+}
+
+.item-faculty {
+  animation-delay: 4s;
+  --secondary-delay: calc(4s + 0.4s);
+}
+
+.symbol-equals {
+  animation-delay: 5s;
+  --secondary-delay: calc(5s + 0.4s);
+}
+
+.item-ratio {
+  animation-delay: 6s;
+  --secondary-delay: calc(6s + 0.4s);
+}
+
 @keyframes wbw-image-shrink-in {
   from {
     opacity: 0;
@@ -2278,6 +2345,10 @@ This should be a section option
   box-shadow: 0 1em 2em rgba(0, 0, 0, 0.4);
   max-width: 60em;
   margin: 0 auto;
+}
+
+.fade-the-title {
+  --section-title-faded-opacity: 0 !important;
 }
 
 .section--wide-content.has-intro .section-title {

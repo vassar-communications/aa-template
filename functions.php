@@ -114,6 +114,9 @@ include($project_paths['main_project_root'].'/core/items/cardWithText.inc');
 include($project_paths['main_project_root'].'/core/items/imageCard.inc');
 
 
+include($project_paths['main_project_root'].'/core/sections/content_sections/fancy-stats.inc');
+
+
 /* Sections */
 
 include($project_paths['main_project_root'].'/core/partials/section-title.inc');

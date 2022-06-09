@@ -123,19 +123,13 @@ Vassar is from everywhere. World-class educations are built on world-wide commun
     'bg-image-alt' => 'alt text',
     'css' => '
       --section-title-size: 14vw;
-      --section-title-faded-opacity: 0.2;
+      --section-title-faded-opacity: 0.1;
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0.1;
       '
     ]
 ); ?>
 
-
-<?php
-
-echo row_fancyStats();
-
- /*
 <div class="xlayout-masonry animation-group loose-grid stat-grid">
   <!--<div class="grid-sizer"></div>-->
 
@@ -189,9 +183,6 @@ echo row_fancyStats();
   ); ?>
 
 </div><!-- end layout-masonry -->
-*/
-
-?>
 
 <?php echo end_sec_fixedCenteredTitle(); ?>
 

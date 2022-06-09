@@ -11,7 +11,13 @@ function site_footer() {
 
 <script src="{$project_paths['public_path']}/assets/js/libraries/masonry.pkgd.min.js"></script>
 
+<!--
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+
 <script src="{$project_paths['public_path']}/assets/js/main.js"></script>
 </body>
 </html>
