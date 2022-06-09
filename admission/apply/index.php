@@ -23,7 +23,7 @@ $page_classes = "";
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
 
-<?php echo page_masthead('https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg'); ?>
+<?php echo page_masthead('https://vassartest.chuckyatsuk.com/img/apply/0084_16_04_KR_0013.jpg'); ?>
 
 
 
@@ -36,22 +36,20 @@ $page_classes = "";
     null,
     2,
     null,
-    '',
-    ''
+    'animate-when-content-appears animation-slide-up',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
 ); ?>
 
-<?php echo item_col(
-
-); ?>
-<h3>How to Apply</h3>
-<p>Learn more about Vassar's application requirements and important deadlines.</p>
-<a class="px-0 btn btn-link">Learn more about applying <i class="fa-solid fa-angle-right"></i></a>
+<?php echo item_col('equal'); ?>
+<h3 class="display-5 pb-3">How to Apply</h3>
+<p class="pb-3">Learn more about Vassar's application requirements and important deadlines.</p>
+<a href="/admission/apply/how-to-apply"  class="px-0 btn btn-link">Learn more about applying <i class="circle fa-solid fa-angle-right"></i></a>
 
 
 <?php echo end_item_col(); ?>
 
-<?php echo item_col(); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
+<?php echo item_col('equal'); ?>
+<img src="https://vassartest.chuckyatsuk.com/img/apply/how/110519_160over90_Vassar_0221.jpg" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
@@ -60,25 +58,25 @@ $page_classes = "";
     null,
     2,
     null,
-    '',
-    ''
+    'animate-when-content-appears animation-slide-up',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
 ); ?>
 
 
-<?php echo item_col(); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
-<?php echo end_item_col(); ?>
-
-
-<?php echo item_col(
-
-); ?>
-<h3>First-Year applicants</h3>
-<p>Everything you need to know about applying to Vassar as an incoming first-year student.</p>
-<a class="px-0 btn btn-link">Learn more<i class="fa-solid fa-angle-right"></i></a>
+<?php echo item_col('equal'); ?>
+<h3 class="display-5 pb-3">First-Year applicants</h3>
+<p class="pb-3">Everything you need to know about applying to Vassar as an incoming first-year student.</p>
+<a href="/admission/apply/first-year"  class="px-0 btn btn-link">Learn more<i class="circle fa-solid fa-angle-right"></i></a>
 
 
 <?php echo end_item_col(); ?>
+
+
+<?php echo item_col('equal'); ?>
+<img src="https://vassartest.chuckyatsuk.com/img/apply/0007_16_02_KR_0083.jpg" />
+<?php echo end_item_col(); ?>
+
+
 
 
 <?php echo end_sec_hasColumns(); ?>
@@ -87,45 +85,45 @@ $page_classes = "";
     null,
     2,
     null,
-    '',
-    ''
+    'animate-when-content-appears animation-slide-up',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
 ); ?>
 
-<?php echo item_col(
+<?php echo item_col('equal'); ?>
 
-); ?>
-<h3>Transfer Applicants.</h3>
-<p>Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. </p>
-<a class="px-0 btn btn-link">Learn more about transfer applications <i class="fa-solid fa-angle-right"></i></a>
+<h3 class="display-5 pb-3">Transfer Applicants.</h3>
+<p class="pb-3">Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. </p>
+<a href="/admission/apply/transfer" class="px-0 btn btn-link">Learn more about transfer applications  <i class="circle fa-solid fa-angle-right"></i></a>
 
 
 <?php echo end_item_col(); ?>
 
-<?php echo item_col(); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
+<?php echo item_col('equal'); ?>
+<img src="https://vassartest.chuckyatsuk.com/img/apply/0137_14_11_KR_0003.jpg" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
 
-<?php echo sec_regularContent(
+<?php echo sec_wideContent(
     null,
     null,
-    'mw-2'
+    'theme-cream pb-1',
+    'mw-4'
 ); ?>
 
 
-<h3>Need more information about applying?</h3>
+<h3 class="display-5">Need more information about applying?</h3>
 <p>Follow the links below or email admissions@vassar.edu, reach out to your Admission Officer, or ask a current Vassar student at askastudent@vassar.edu!</p>
 
-<?php echo end_sec_regularContent(); ?>
 
+<?php echo end_sec_wideContent(); ?>
 
 <?php echo sec_hasColumns(
     null,
-    2,
+    4,
     null,
-    '',
+    'theme-cream pt-1',
     ''
 ); ?>
 
@@ -183,6 +181,8 @@ $page_classes = "";
 
 
 <?php echo end_sec_hasColumns(); ?>
+
+
 
 <?php /*  PAGE CONTENT === */ ?>
 
