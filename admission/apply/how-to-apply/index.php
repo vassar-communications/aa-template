@@ -36,16 +36,16 @@ $page_classes = "";
     null,
     2,
     null,
-    '',
-    ''
+    'animate-when-content-appears animation-slide-up',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
 ); ?>
 
-<?php echo item_col(); ?>
+<?php echo item_col('equal'); ?>
 <h2 class="display-3">Applying to Vassar</h2>
 <p>Everything you need to know to apply An overview of all the ways to apply to Vassar.</p>
 <?php echo end_item_col(); ?>
 
-<?php echo item_col(); ?>
+<?php echo item_col('equal'); ?>
 <img src="https://vassartest.chuckyatsuk.com/img/0198-19-11-kwe-library-vassar-vb-5415.jpg" />
 <?php echo end_item_col(); ?>
 

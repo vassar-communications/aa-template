@@ -38,9 +38,7 @@ $template = <<<TMP
 
   <link rel="stylesheet" href="{$project_paths['public_path']}/assets/icons/fontawesome-free-6.1.1-web/css/all.min.css">
 
-
   <link rel="stylesheet" href="{$project_paths['public_path']}/assets/css/style.css">
-
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">

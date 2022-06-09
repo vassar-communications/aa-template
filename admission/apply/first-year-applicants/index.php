@@ -36,16 +36,15 @@ $page_classes = "";
     null,
     2,
     null,
-    '',
-    ''
+    'animate-when-content-appears animation-slide-up',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
 ); ?>
 
-<?php echo item_col(); ?>
+<?php echo item_col('equal'); ?>
 <h3>Information for First-Year Applicants</h3>
 <p>Everything you need to know to apply </p><?php echo end_item_col(); ?>
 
-
-<?php echo item_col(); ?>
+<?php echo item_col('equal'); ?>
 <img src="https://vassartest.chuckyatsuk.com/img/0084_16_04_KR_0013.jpg" />
 <?php echo end_item_col(); ?>
 

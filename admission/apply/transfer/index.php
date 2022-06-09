@@ -38,22 +38,18 @@ $page_classes = "";
     null,
     2,
     null,
-    '',
-    ''
+    'animate-when-content-appears animation-slide-up',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
 ); ?>
 
-<?php echo item_col(
-
-); ?>
+<?php echo item_col('equal'); ?>
 
 <h3>Information for Transfer Applicants</h3>
 <p>Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. Transfer admission is need-aware and spots are limited.</p>
 
 
-
 <?php echo end_item_col(); ?>
-
-<?php echo item_col(); ?>
+<?php echo item_col('equal'); ?>
 [insert deadlines card]
 <?php echo end_item_col(); ?>
 

@@ -35,16 +35,16 @@ $page_classes = "";
     null,
     2,
     null,
-    'theme-cream',
-    null
+    'animate-when-content-appears animation-slide-up',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
 ); ?>
 
-<?php echo item_col(); ?>
+<?php echo item_col('equal'); ?>
 <h3>Vassar believes in building a vibrant community of global citizens. </h3>
 <p>Vassar students come from more than 79 countries around the world and international students make up more than 10% of our community.</p>
 <?php echo end_item_col(); ?>
+<?php echo item_col('equal'); ?>
 
-<?php echo item_col(); ?>
 <img src="https://uc307bcb8b4bc4928b12a097531a.previews.dropboxusercontent.com/p/thumb/ABj5UGPuafkNHI_MQW9_R6M0OJ8lrpWnN_Lc6RkZr4ai19gxyT5VOLwJ1JWYS6BgN5KiEaGXedaj36GsI8EYv0j4v7TADYUGnqBcXIPovL6w_0nWg3FWORhNxkb5KFYbdqPSM_RLKhmMO6Nc9BqehrUE89aCsI4JP4G-WVGjYjcqOI-FHS_wGwg1D1mPxFFbEj_TC1LauowxgZproQBtCN3e8ykXSmmqxCf_KfJCULLgMafd3VTMNMbWAJlhLNAYzNvAU-LdT5twbjKFM2xGSuH53hwYfwNcjO3F4ralOWLzdERDPu3hpduER6Z6GpJPACO1GDqGUbugsTgLNkZiPJNzSUki-OrB1tZNj2xaZJgwURYZLy8_0wzPXDOhcQf27MQ/p.jpeg" />
 <?php echo end_item_col(); ?>
 
@@ -56,7 +56,7 @@ $page_classes = "";
 <?php echo sec_wideContent(
     null,
     null,
-    'theme-burgundy',
+    'theme-charcoal',
     'mw-4'
 ); ?>
 
@@ -64,8 +64,11 @@ $page_classes = "";
 <h3>Who is considered an international student?</h3>
 <p>When applying for admission to Vassar, anyone who is not a citizen or a permanent resident of the United States is considered an international student. If you have applied for a green card (permanent resident status) but have not received it by the time you apply, then you are considered an international student.</p>
 <p><strong>For our general admission requirements for all students, please review the following pages:</strong><br/>
-    <a href="">First-Year Application Requirements</a><br/>
-    <a href="">Transfer Application Requirements</a></p>
+<p>
+    <a href="/admission/apply/first-year-applicants"  class="px-0 btn btn-link">First-Year Application Requirements<i class="circle fa-solid fa-angle-right"></i></a></p>
+<p>
+    <a href="/admission/apply/transfer"  class="px-0 btn btn-link">Transfer Application Requirements<i class="circle fa-solid fa-angle-right"></i></a></p>
+
 <?php echo end_sec_wideContent(); ?>
 
 
@@ -132,7 +135,7 @@ $page_classes = "";
 <?php echo sec_wideContent(
     null,
     null,
-    'theme-burgundy',
+    'theme-cream',
     'mw-4'
 ); ?>
 <h3>Your application should include:</h3>

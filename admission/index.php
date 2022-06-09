@@ -26,8 +26,8 @@ $page_title = "Vassar Admission";
 <?php echo end_sec_breadcrumbNav(); ?>
 
 <?php echo sec_siteHeader_video(); ?>
-    <a href="" class="btn btn-lg btn-primary">Apply</a>
-    <a href="" class="btn btn-lg btn-primary">Request Info</a>
+    <a href="" class="btn btn-lg btn-light">Apply</a>
+    <a href="" class="btn btn-lg btn-light">Request Info</a>
 <?php echo end_sec_siteHeader_video(); ?>
 
 <?php echo toplinksNav(); ?>

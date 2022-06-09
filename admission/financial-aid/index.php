@@ -142,7 +142,7 @@ $page_classes = "";
 ); ?>
 <h2>Tuition & Fees</h2>
 <p>View a breakdown of Vassar's tuition, housing and dining costs, and other fees.</p>
-<a href="/admission/financial-aid/tuition" class="px-0 btn btn-link">Learn more about tuition & fees<i class="fa-solid fa-angle-right"></i></a>
+<a href="/admission/financial-aid/tuition" class="px-0 btn btn-link">Learn more about tuition & fees<i class="circle fa-solid fa-link"></i></a>
 
 
 <?php echo end_item_col(); ?>

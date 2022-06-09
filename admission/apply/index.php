@@ -66,7 +66,7 @@ $page_classes = "";
 <?php echo item_col('equal'); ?>
 <h3 class="display-5 pb-3">First-Year applicants</h3>
 <p class="pb-3">Everything you need to know about applying to Vassar as an incoming first-year student.</p>
-<a href="/admission/apply/first-year"  class="px-0 btn btn-link">Learn more<i class="circle fa-solid fa-angle-right"></i></a>
+<a href="/admission/apply/first-year-applicants"  class="px-0 btn btn-link">Learn more<i class="circle fa-solid fa-angle-right"></i></a>
 
 
 <?php echo end_item_col(); ?>
@@ -121,7 +121,7 @@ $page_classes = "";
 
 <?php echo sec_hasColumns(
     null,
-    4,
+    2,
     null,
     'theme-cream pt-1',
     ''
@@ -148,7 +148,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="btn btn-secondary"><i class="fa-solid fa-angle-right"></i></div>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-angle-right"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -157,11 +157,11 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'Information for Veterans',
     '/admission/apply/veterans',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg', 'alt' => 'veterans' ],
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/apply/veterans/0071-19-05-ss2-posse-vassar-0645.jpg', 'alt' => 'veterans' ],
     'mb-4',
     ['hlevel' => 4]
 ); ?>
-<div class="btn btn-secondary"><i class="fa-solid fa-angle-right"></i></div>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-angle-right"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -174,7 +174,7 @@ $page_classes = "";
     'mb-4',
     ['hlevel' => 4]
 ); ?>
-<div class="btn btn-secondary"><i class="fa-solid fa-angle-right"></i></div>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-angle-right"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 

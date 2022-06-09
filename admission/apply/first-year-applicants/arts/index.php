@@ -39,13 +39,11 @@ $page_classes = "";
     null,
     2,
     null,
-    'theme-cream',
-    'mw-100 d-flex align-items-center'
+    'animate-when-content-appears animation-slide-up',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
 ); ?>
 
-<?php echo item_col(
-
-); ?>
+<?php echo item_col('equal'); ?>
 <h3>Arts Portfolios</h3>
 <p>The arts portfolio is an optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance, if you intend to further pursue that passion at Vassar. Submissions will be evaluated by faculty in the relevant discipline and their evaluations will be shared with the Office of Admission.</p>
 
@@ -53,7 +51,7 @@ $page_classes = "";
 
 <?php echo end_item_col(); ?>
 
-<?php echo item_col(); ?>
+<?php echo item_col('equal'); ?>
 <img src="https://uc47ac64b0907ec3250f531e9267.previews.dropboxusercontent.com/p/thumb/ABgk6BB8TPTISuWhhMjRGjtcjuabB8CeEanttvis03esFA487-BcNlTRErqZD7Bz2anh101QaG_W-ecgfaQOAP2oT2JRMM6Gt57UZEVeex8qvA3ZYrxq5OFIrM-qJyEMk9ZgVqrvbKL7hqnLR9DLrvt0EpiNNmshd8O6OfxGLG-WzV5W7G0vJWHXQIWHPtp7xGcXHuotO4LCmvI1Hj62AqmxCjDxvbtSctEjufI-YLUCF7pswJlRO6xrv3pJR77TmjKZFJATTf_X3RHdCkoUScTYpgjzPrG7_pLsjBlc2ZBC81d4O3l56Y-5QI3zHi0rXVExQaXSgWERDnViOo96E0HnwikiYDQIfYAHzz4xMmiONHwN46BBIyQkNjs4yUws7o4/p.jpeg" />
 <?php echo end_item_col(); ?>
 

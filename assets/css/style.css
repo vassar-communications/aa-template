@@ -94,8 +94,9 @@ h6.nav-guide.serif {
 
 i.circle.fa-solid {
   background: transparent;
-  color: var(--color-vassar-charcoal);
-  border: 1px solid var(--color-vassar-charcoal);
+  border-color: var(--section-link-color, var(--color-vassar-charcoal));
+  border: 1px solid;
+  border-color: var(--section-link-color, var(--color-vassar-charcoal));
   width: 2rem;
   height: 2em;
   display: inline-flex;
@@ -106,8 +107,8 @@ i.circle.fa-solid {
 }
 
 .btn-link:hover i.circle.fa-solid {
-  border: 1px solid var(--color-vassar-burgundy);
-  color: var(--color-vassar-burgundy);
+  color: var(--section-link-color, var(--color-vassar-burgundy));
+  border-color: var(--section-link-color, var(--color-vassar-burgundy));
 }
 
 /* CY END */
