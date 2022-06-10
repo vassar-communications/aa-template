@@ -1,0 +1,46 @@
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(var(--animation-slide-up-dist, 4.4rem));
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@mixin setup-animation-slide-up() {
+  opacity: 0;
+  transform: translateY(var(--animation-slide-up-dist, 4.4rem));
+}
+@mixin animation-slide-up($applied-to-sequential-items:false) {
+  //  If the animation is being applied to a sequence of items
+  //  via an .animation-group class, we don't want to specify a
+  //  uniform animation-delay because each item's delay is
+  //  being calculated by sequence(), in _sequential.scss
+  @if $applied-to-sequential-items == false {
+    animation-delay: var(--animation-delay, 0s);
+  }
+  animation-duration: var(--animation-dur, 1s);
+  animation-name: slide-up;
+  animation-fill-mode: forwards;
+}
+
+//  add this for accessibility?
+@media screen and (prefers-reduced-motion: no-preference) {
+  .animation-slide-up {
+    &.animate-when-content-appears:not(.animation-group) {
+      @include setup-animation-slide-up();
+
+      &.content-appeared {
+        @include animation-slide-up();
+      }
+    }
+    &.animation-group .animation-item {
+      @include setup-animation-slide-up();
+    }
+    &.animation-group.content-appeared .animation-item {
+      @include animation-slide-up( true );
+    }
+  }
+}

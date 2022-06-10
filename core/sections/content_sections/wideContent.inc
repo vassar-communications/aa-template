@@ -1,30 +1,30 @@
 <?php
 
 function sec_wideContent(
-  $title=null,
-  $intro=null,
-  $section_classes=null,
-  $content_classes=null,
-  $extras=null
+    $title=null,
+    $intro=null,
+    $section_classes=null,
+    $content_classes=null,
+    $extras=null
 ) {
 
-  global $section_title;
+    global $section_title;
 
-$title_classes = get_extras_value('title_classes', $extras);
+    $title_classes = get_extras_value('title_classes', $extras);
 
 
 //  Check if a bg image was specified, and
 //    set up both the markup and the section class for it.
-global $bg_image;
+    global $bg_image;
 
-if (get_extras_value('bg-image-url', $extras)) {
-  $section_classes .= ' has-image';
-}
+    if (get_extras_value('bg-image-url', $extras)) {
+        $section_classes .= ' has-image';
+    }
 
-if ($intro !== null)
-  $section_classes .= ' has-intro';
+    if ($intro !== null)
+        $section_classes .= ' has-intro';
 
-return <<<TMP
+    return <<<TMP
     <div class="section section--wide-content $section_classes">
     {$section_title($title, $title_classes)}
     {$bg_image($extras)}
@@ -36,5 +36,5 @@ return <<<TMP
 }
 
 function end_sec_wideContent($extras = false) {
-  return '</div></div>';
+    return '</div></div>';
 }

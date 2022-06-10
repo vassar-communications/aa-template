@@ -22,9 +22,9 @@
   font-family: var(--font-big-serif);
   line-height: 1.16;
 
-//  font-family: var(--sansSerif);
-//  font-weight: var(--regularContent-font-weight);
-//  font-variation-settings: "wght" 300;
+  //  font-family: var(--sansSerif);
+  //  font-weight: var(--regularContent-font-weight);
+  //  font-variation-settings: "wght" 300;
   font-size: var(--intro-text-size);
   font-weight: 100;
 }
@@ -46,4 +46,17 @@
 .section-title {
   font-family: freight-display-pro;
   font-weight: 100;
+}
+
+
+.intro-line {
+  font-size: calc(1.255rem + 0.06vw);
+  text-transform: uppercase;
+  font-variation-settings: "wght" 700;
+  letter-spacing: 0.1rem;
+  color: var(--intro-line-color, var(--color-vassar-burgundy));
+  display: block;
+  margin-bottom: 2rem;
+  font-family: var(--bs-font-sans-serif);
+  text-align: center;
 }

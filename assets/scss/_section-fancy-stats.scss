@@ -1,0 +1,80 @@
+@keyframes stat-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+$animation-start-offset: 0;
+$animation-gap: 0.4s;
+
+@mixin anim-delay($item) {
+   $animation-delay: $animation-start-offset + ($item * $animation-gap);
+  animation-delay: $animation-delay;
+  --secondary-delay: calc(#{$animation-delay} + 0.4s);
+}
+
+html {
+  font-family: system-ui;
+}
+.fancy-stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+.stat-label {
+  text-transform: uppercase;
+}
+
+.symbol-item {
+  font-size: 6vw;
+//  padding-top: 3rem;
+}
+
+.fancy-stats-container {
+  margin-bottom: 2rem;
+}
+.fancy-stats-container {
+  & > *,
+  .stat-item-additional {
+    opacity: 0;
+  }
+  .stat-item-additional {
+    animation-delay: var(--secondary-delay);
+  }
+}
+
+.fancy-stats-container.content-appeared {
+  & > *,
+  .stat-item-additional {
+    animation-name: stat-fade-in;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+}
+
+.stat-label {
+    font-size: 1.4rem;
+    text-transform: none;
+}
+.stat-item-fact {
+    line-height: 1;
+}
+
+.item-students {
+  @include anim-delay(1);
+}
+.symbol-div {
+  @include anim-delay(2);
+}
+.item-faculty {
+  @include anim-delay(3);
+}
+.symbol-equals {
+  @include anim-delay(4);
+}
+.item-ratio {
+  @include anim-delay(5);
+}

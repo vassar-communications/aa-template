@@ -43,7 +43,7 @@ $assets-path: '..';
     --color-vassar-darkgray: #63666A;
     --color-vassar-charcoal: #333;
 
-    --color-vassar-cream: #FFF8EF;
+    --color-vassar-cream: #F8F7F5;
     --color-vassar-rose: #F2D4D7;
 
     --nav-link-text-color: #fff;
@@ -155,9 +155,12 @@ end pattern library nav */
 @import "_section-intro";
 @import "_section-card-array";
 @import "_section-tile-grid";
+@import "_section-fancy-stats";
 @import "_section-word-by-word";
 @import "_content-sections/_all";
 @import "_section-wide-content";
+
+@import "_specials/_all";
 
 @import "_breadcrumb";
 @import "_vassar-masthead";

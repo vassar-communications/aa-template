@@ -19,7 +19,7 @@
   .section-content {
     @include break(md) {
       --cols: 2;
-      --cols-mw: 60rem;
+      --cols-mw: 80rem;
     }
   }
 }
@@ -29,6 +29,16 @@
     @include break(lg) {
       --cols: 3;
       --cols-mw: 90rem;
+    }
+  }
+}
+
+
+.columns-4 {
+  .section-content {
+    @include break(lg) {
+      --cols: 4;
+      --cols-mw: 80rem;
     }
   }
 }
