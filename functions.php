@@ -114,9 +114,9 @@ function word_cycler($word_selector_id) {
     return <<<TMP
 <script>
 $(document).ready(function () {
-    
+
   var arr = [$list];
-  
+
   // run through the array forever
   (function recurse(counter) {
       var color = arr[counter];
@@ -131,7 +131,7 @@ $(document).ready(function () {
       }, 2000);
   // start it for the first number.
   })(0);
-  
+
 });
 </script>
 
@@ -245,6 +245,7 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/fix
 
 /*
   VASSAR TEMPLATING SYSTEM
+
 */
 
 
@@ -296,6 +297,7 @@ function get_extras_value($extras_key, $extras_array, $format = false) {
 
 /*  ********** TEMPLATE FUNCTIONS **********
     These are functions that generate markup for use in template tags. Their purpose is to centralize common markup - section titles, call-to-action links, etc - that would otherwise be hardcoded into multiple places.
+
     Note: in order to use them, you'll need to declare them as globals in the
     template function first: `global $section_title;`
 */
@@ -307,8 +309,10 @@ function get_extras_value($extras_key, $extras_array, $format = false) {
 
 /*  ********** TEMPLATE TAGS **********
     These are functions that you'd use in a page to generate the actual page markup.
+
     Index
     -----
+
     1. Required tags
     2. Section tags
 */
@@ -336,12 +340,11 @@ function get_extras_value($extras_key, $extras_array, $format = false) {
 function masthead_fancyVideoBackground($title, $video, $extras) {
 
     $template = <<<TMP
+
 <!-- https://stackoverflow.com/questions/24579785/force-iframe-youtube-video-to-center-fit-and-full-cover-the-screen-in-the-backgr -->
 
-
-
-
 <div class="video-header is-loading">
+
   <div class="title-cover">
     <h1 class="display-1">
       <span class="slice slice-1">Admission</span>
@@ -352,6 +355,7 @@ function masthead_fancyVideoBackground($title, $video, $extras) {
       <a href="" class="btn btn-lg btn-primary">Request Info</a>
     </div>
   </div>
+
   <div class="video-background">
     <iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" id="main-video" src="https://player.vimeo.com/video/675479542?h=3f69ff4c7f?h=360eb5ffb8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;muted=1&amp;autoplay=1&amp;loop=1&amp;byline=0&amp;title=0"  title="This-is-Vassar-Anthem-slide-loop"></iframe>
   </div>
