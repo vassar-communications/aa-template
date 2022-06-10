@@ -71,7 +71,7 @@ function site_footer() {
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Ask Banner</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Bias Incident Response Team</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">College Store</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Directory</a></li>
+          <li class="nav-item mb-2"><a hhttps://github.com/vassar-communications/aa-templateref="#" class="nav-link p-0 ">Directory</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Employment</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Events</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Give to Vassar</a></li>
