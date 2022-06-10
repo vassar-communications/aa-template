@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 /*  PAGE INFO ============ */
 
 $page_title = "Financial Aid";
-$page_classes = "";
+$page_classes = "alive";
 
 /*  ---------------------- */
 

@@ -38,10 +38,10 @@ function site_header($extras=false) {
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
-  <link rel="stylesheet" href="{$project_paths['public_path']}/assets/icons/fontawesome-free-6.1.1-web/css/all.min.css">
+  <link rel="stylesheet" href="/assets/icons/fontawesome-free-6.1.1-web/css/all.min.css">
 
 
-  <link rel="stylesheet" href="{$project_paths['public_path']}/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
