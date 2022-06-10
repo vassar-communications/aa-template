@@ -121,10 +121,9 @@ echo sec_fixedCenteredTitle(
 
 <div class="text-center">
 <a href="" class="cta-link">Learn more</a>
-</div>
-   </p>',
-    'sec-fixedCenteredTitle theme-burgundy',
-    'mw-4',
+</div>',
+  'sec-fixedCenteredTitle theme-burgundy',
+  'mw-4',
     ['bg-image-url' => 'journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
@@ -200,7 +199,7 @@ echo row_fancyStats();
 
 ?>
 
-    <div class="d-flex" style="gap: 2vw; --flipcard-height: 14rem">
+<div class="d-flex animation-zoom-in animate-when-content-appears animation-group" style="gap: 2vw; --flipcard-height: 14rem">
 
         <?php echo flipcard_stat(
             'Average Aid Award',
@@ -209,34 +208,34 @@ echo row_fancyStats();
       <li>Over half of Vassar students receive financial aid.</li>
     </ul>
     ',
-            null,
-            '',
-        );
-        ?>
+    'animation-item',
+    '',
+  );
+  ?>
 
-        <?php echo flipcard_stat(
-            'Majors',
-            '51',
-            'other stuff goes here',
-            null
-        );
-        ?>
+  <?php echo flipcard_stat(
+    'Majors',
+    '51',
+    'other stuff goes here',
+    'animation-item'
+  );
+  ?>
 
-        <?php echo flipcard_stat(
-            'Student Orgs',
-            '170',
-            'other stuff goes here',
-            null
-        );
-        ?>
+  <?php echo flipcard_stat(
+    'Student Orgs',
+    '170',
+    'other stuff goes here',
+    'animation-item'
+  );
+  ?>
 
-        <?php echo flipcard_stat(
-            'Varsity Teams',
-            '27',
-            'other stuff goes here',
-            null
-        );
-        ?>
+  <?php echo flipcard_stat(
+    'Varsity Teams',
+    '27',
+    'other stuff goes here',
+    'animation-item'
+  );
+  ?>
 
     </div>
 
