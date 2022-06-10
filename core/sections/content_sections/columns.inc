@@ -1,32 +1,32 @@
 <?php
 
 function sec_hasColumns(
-  $title=null,
-  $columns='',
-  $intro=null,
-  $section_classes=null,
-  $content_classes=null,
-  $extras=null
+    $title=null,
+    $columns='',
+    $intro=null,
+    $section_classes=null,
+    $content_classes=null,
+    $extras=null
 ) {
 
-  global $section_title;
+    global $section_title;
 
-  if( $columns == '' ) $columns = 2;
+    if( $columns == '' ) $columns = 2;
 
-  $css = get_extras_value( 'css', $extras, 'style="%s"' );
+    $css = get_extras_value( 'css', $extras, 'style="%s"' );
 
 
-$title_classes = get_extras_value( 'title_classes', $extras );
+    $title_classes = get_extras_value( 'title_classes', $extras );
 
 //  Check if a bg image was specified, and
 //    set up both the markup and the section class for it.
-global $bg_image;
+    global $bg_image;
 
-if (get_extras_value('bg-image-url', $extras)) {
-  $section_classes .= ' has-image';
-}
+    if (get_extras_value('bg-image-url', $extras)) {
+        $section_classes .= ' has-image';
+    }
 
-return <<<TMP
+    return <<<TMP
   <div class="section section-with-columns columns-$columns $section_classes" $css>
     {$section_title( $title, $title_classes )}
     {$bg_image($extras)}
@@ -38,14 +38,14 @@ TMP;
 }
 
 function item_col( $col_classes='' ) {
-  return <<<TMP
+    return <<<TMP
   <div class="g-col column $col_classes">
 TMP;
 }
 function end_item_col() {
-  return '</div>';
+    return '</div>';
 }
 
 function end_sec_hasColumns( $extra = false ) {
-  return '</div></div>';
+    return '</div></div>';
 }

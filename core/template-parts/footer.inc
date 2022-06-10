@@ -2,8 +2,8 @@
 
 
 function site_footer() {
-  global $project_paths;
-  $template = <<<TMP
+    global $project_paths;
+    $template = <<<TMP
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
@@ -22,6 +22,6 @@ function site_footer() {
 </html>
 TMP;
 
-  return $template;
+    return $template;
 
 }

@@ -8,11 +8,11 @@
  */
 function site_header($extras=false) {
 
-  global $project_paths;
-  global $page_title;
-  global $page_classes;
+    global $project_paths;
+    global $page_title;
+    global $page_classes;
 
-$template = <<<TMP
+    $template = <<<TMP
 <!doctype html>
 <html class="no-js $page_classes" lang="">
 
@@ -50,6 +50,6 @@ $template = <<<TMP
 <body>
 TMP;
 
-  return $template;
+    return $template;
 
 }

@@ -25,7 +25,7 @@
   --color-vassar-lightgray: #eee;
   --color-vassar-darkgray: #63666A;
   --color-vassar-charcoal: #333;
-  --color-vassar-cream: #FFF8EF;
+  --color-vassar-cream: #F8F7F5;
   --color-vassar-rose: #F2D4D7;
   --nav-link-text-color: #fff;
   --nav-link-bg-color: var(--color-vassar-burgundy);
@@ -292,6 +292,37 @@ end pattern library nav */
   100% {
     opacity: 1;
     transform: scale(1);
+  }
+}
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(var(--animation-slide-up-dist, 4.4rem));
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media screen and (prefers-reduced-motion: no-preference) {
+  .animation-slide-up.animate-when-content-appears:not(.animation-group) {
+    opacity: 0;
+    transform: translateY(var(--animation-slide-up-dist, 4.4rem));
+  }
+  .animation-slide-up.animate-when-content-appears:not(.animation-group).content-appeared {
+    animation-delay: var(--animation-delay, 0s);
+    animation-duration: var(--animation-dur, 1s);
+    animation-name: slide-up;
+    animation-fill-mode: forwards;
+  }
+  .animation-slide-up.animation-group .animation-item {
+    opacity: 0;
+    transform: translateY(var(--animation-slide-up-dist, 4.4rem));
+  }
+  .animation-slide-up.animation-group.content-appeared .animation-item {
+    animation-duration: var(--animation-dur, 1s);
+    animation-name: slide-up;
+    animation-fill-mode: forwards;
   }
 }
 @keyframes stretch-in {
@@ -773,6 +804,10 @@ li::marker {
   font-size: 80%;
 }
 
+.breadcrumb-item::marker, .nav-item::marker {
+  content: "";
+}
+
 .btn.has-icon {
   display: inline-flex;
   align-items: center;
@@ -1095,7 +1130,7 @@ li::marker {
 
 .section {
   background-color: var(--section-bg-color, #fff);
-  color: var(--section-text-color, #333);
+  color: var(--section-text-color, --color-vassar-charcoal, #333);
   /*
     a {
       &:link {
@@ -1158,7 +1193,7 @@ li::marker {
 }
 
 .section-title {
-  color: var(--section-title-color, #333);
+  color: var(--section-title-color, --color-vassar-charcoal, #333);
   font-size: calc(1.465rem + 2.58vw);
   font-weight: 100;
   text-align: center;
@@ -1245,7 +1280,7 @@ li::marker {
 @media screen and (min-width: 50em) {
   .columns-2 .section-content {
     --cols: 2;
-    --cols-mw: 60rem;
+    --cols-mw: 80rem;
   }
 }
 
@@ -1263,6 +1298,23 @@ li::marker {
   .columns-3 .section-content {
     --cols: 3;
     --cols-mw: 90rem;
+  }
+}
+
+.columns-4 .section-content {
+  /*	Sets up a media query. This expects that all of a project's breakpoints will
+  	    be stored in a map named $breakpoints, as follows:
+  $breakpoints: (
+  	"small": 30em,
+  	"medium": 50em,
+  	"large": 70em
+  );
+  	*/
+}
+@media screen and (min-width: 60em) {
+  .columns-4 .section-content {
+    --cols: 4;
+    --cols-mw: 80rem;
   }
 }
 
@@ -2504,11 +2556,10 @@ This should be a section option
   }
 }
 .main-nav {
-  background: #f9f7f4;
-  --border: 2px solid #ccc;
+  --border: 0px solid #ccc;
   --animation-duration: 1s;
   --sequential-animation-item-gap: 0.1s;
-  padding: 2rem 2rem 4rem 2rem;
+  padding: 2rem 2rem 4rem 4rem;
   font-family: var(--sansSerif);
 }
 .main-nav a {
@@ -2522,8 +2573,8 @@ This should be a section option
 
 .nav-path {
   padding: 0;
-  max-width: 60rem;
-  margin: 0 auto;
+  max-width: 80rem;
+  margin: 0 auto 0 0;
 }
 .nav-path > li {
   position: relative;
@@ -2567,6 +2618,20 @@ This should be a section option
   background: var(--nav-link-bg-color, #eee);
 }
 
+.breadcrumb-nav {
+  position: absolute;
+  z-index: 21;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  font-family: "Font Awesome 6 Free";
+  opacity: 0.3;
+}
+
+.breadcrumb-nav a {
+  border: none !important;
+}
+
 .vassar-masthead {
   --animate-downshift-in-delay: 0.4s;
   --animate-downshift-in-dur: 1s;
@@ -2581,14 +2646,15 @@ This should be a section option
   left: 1rem;
   width: fit-content;
   z-index: 2000;
+  background-color: var(--color-vassar-burgundy, #000);
 }
 .vassar-masthead a {
-  background-color: var(--vassar-masthead-bg, #000);
+  background-color: var(--color-vassar-burgundy, #000);
   display: block;
   padding: 1rem;
 }
 .vassar-masthead a:hover {
-  background-color: var(--vassar-masthead-bg-hover, #aaa);
+  background-color: var(--color-vassar-burgundy, #aaa);
 }
 .vassar-masthead svg {
   width: 8rem;
@@ -2680,6 +2746,10 @@ This should be a section option
     opacity: var(--final-opacity, 1);
     transform: var(--final-transforms, translateX(0));
   }
+}
+
+.textmasthead {
+  padding-top: 12rem;
 }
 
 .section-with-bg {
@@ -3140,3 +3210,5 @@ a:hover, a:visited:hover {
   --bg-image-size: 6rem;
   --bg-image-opacity: 0.8;
 }
+
+/*# sourceMappingURL=style.css.map */

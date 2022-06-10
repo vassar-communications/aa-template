@@ -1,18 +1,18 @@
 <?php
 
 function item_statIcon(
-  $value,
-  $label,
-  $icon,
-  $classes=null,
-  $extras=null
+    $value,
+    $label,
+    $icon,
+    $classes=null,
+    $extras=null
 ) {
 
-global $project_paths;
+    global $project_paths;
 
-  $css = get_extras_value('css', $extras, 'style="%s"');
+    $css = get_extras_value('css', $extras, 'style="%s"');
 
-return <<<TMP
+    return <<<TMP
 <div class="stat-item $classes" $css>
   <div class="stat-icon">
     <i class="fa fa-$icon the-icon"></i>
