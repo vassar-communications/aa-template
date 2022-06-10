@@ -11,28 +11,28 @@ This should be a section option
   min-height: 100vh;
 
   padding-top: 60vh;
-/*
-  position: relative;
+  /*
+    position: relative;
 
-  &:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 200px;
-    background: #f00;
-    top: -200px;
-  }
-*/
-//    min-height: calc(100vh + 200px);
-
-
-
-//    padding-top: 200px;
-
-
-    .animation-item {
-      @include setup-animation-zoom-in();
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      background: #f00;
+      top: -200px;
     }
+  */
+  //    min-height: calc(100vh + 200px);
+
+
+
+  //    padding-top: 200px;
+
+
+  .animation-item {
+    @include setup-animation-zoom-in();
+  }
 
 
   .section-title-container {
@@ -49,14 +49,14 @@ This should be a section option
     justify-content: center;
     z-index: 10;
     background-color: var(--title-container-bg-beforeContent, transparent);
-//    opacity: 0;
+    //    opacity: 0;
 
     .section-title {
       font-family: var(--bs-font-sans-serif);
       font-weight: 800;
       color: #fff;
-//      text-shadow: 0 0 2em #000, 0 0 1em #000;
-//      text-shadow: 0 0 2em #000;
+      //      text-shadow: 0 0 2em #000, 0 0 1em #000;
+      //      text-shadow: 0 0 2em #000;
 
       font-size: var(--section-title-size, 8vw);
       letter-spacing: -0.01em;
@@ -87,7 +87,7 @@ This should be a section option
 
   &.show-title {
     .section-title-container {
-//      opacity: 1;
+      //      opacity: 1;
     }
   }
   &.show-content {
@@ -99,7 +99,7 @@ This should be a section option
     .section-title {
       opacity: var(--section-title-faded-opacity, 0.4);
       color: var(--section-title-faded-color, #fff);
-//      text-shadow: 0.1em 0.1em 0.1em transparent;
+      //      text-shadow: 0.1em 0.1em 0.1em transparent;
     }
     .section-title-container {
       background-color: var(--title-container-bg-afterContent, transparent);

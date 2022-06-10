@@ -1,85 +1,85 @@
 <style>
-.active {
-  font-weight: bold;
-}
-::selection {
-  background: #afa; /* WebKit/Blink Browsers */
-  color: #333;
-}
-::-moz-selection {
-  background: #afa; /* Gecko Browsers */
-  color: #333;
-}
+    .active {
+        font-weight: bold;
+    }
+    ::selection {
+        background: #afa; /* WebKit/Blink Browsers */
+        color: #333;
+    }
+    ::-moz-selection {
+        background: #afa; /* Gecko Browsers */
+        color: #333;
+    }
 
-.pattern-site-nav summary:focus {
-  border: none;
-}
-.pattern-site-nav details pre {
-  white-space: pre-wrap;
-      background: #2c2c2c;
-      color: #afa;
-      padding: 2rem;
-      margin: 0 2rem 2rem;
-      border-radius: 0.4rem;
-      border: 1px solid #444;
-          box-shadow: inset 0 0.1rem 0.2rem #111;
-}
-.pattern-site-nav nav {
-  position: relative;
-  z-index: 40;
-}
-.pattern-site-nav nav b,
-.about-this-pattern {
-  display: inline-block;
-  padding: 1rem;
-}
-.about-this-pattern {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.pattern-site-nav nav ul {
-  display: none;
-  position: absolute;
-  background: #fff;
-  box-shadow: 0 1rem 1rem rgb(0 60 100 / 20%);
-  padding: 0;
-}
-.pattern-site-nav nav ul li {
-  list-style: none;
-  display: block;
-  margin-bottom: 0;
-}
-.pattern-site-nav nav ul li a {
-  display: block;
-  padding: 0.4rem 1rem;
-  text-decoration: none;
-}
-.pattern-site-nav nav ul li a:hover {
-  background: #0d6efd;
-  color: #fff;
-}
-.pattern-site-nav nav:hover b {
-  background: #0d6efd;
-  color: #fff;
-}
-.pattern-site-nav nav:hover ul {
-  display: block;
-/*  bottom: 2.6rem; */
-}
-.pattern-menu {
-  width: 20rem;
-}
+    .pattern-site-nav summary:focus {
+        border: none;
+    }
+    .pattern-site-nav details pre {
+        white-space: pre-wrap;
+        background: #2c2c2c;
+        color: #afa;
+        padding: 2rem;
+        margin: 0 2rem 2rem;
+        border-radius: 0.4rem;
+        border: 1px solid #444;
+        box-shadow: inset 0 0.1rem 0.2rem #111;
+    }
+    .pattern-site-nav nav {
+        position: relative;
+        z-index: 40;
+    }
+    .pattern-site-nav nav b,
+    .about-this-pattern {
+        display: inline-block;
+        padding: 1rem;
+    }
+    .about-this-pattern {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .pattern-site-nav nav ul {
+        display: none;
+        position: absolute;
+        background: #fff;
+        box-shadow: 0 1rem 1rem rgb(0 60 100 / 20%);
+        padding: 0;
+    }
+    .pattern-site-nav nav ul li {
+        list-style: none;
+        display: block;
+        margin-bottom: 0;
+    }
+    .pattern-site-nav nav ul li a {
+        display: block;
+        padding: 0.4rem 1rem;
+        text-decoration: none;
+    }
+    .pattern-site-nav nav ul li a:hover {
+        background: #0d6efd;
+        color: #fff;
+    }
+    .pattern-site-nav nav:hover b {
+        background: #0d6efd;
+        color: #fff;
+    }
+    .pattern-site-nav nav:hover ul {
+        display: block;
+        /*  bottom: 2.6rem; */
+    }
+    .pattern-menu {
+        width: 20rem;
+    }
 
-.pattern-site-nav {
-  display: flex;
-  border-bottom: 1px solid #ddd;
-}
+    .pattern-site-nav {
+        display: flex;
+        border-bottom: 1px solid #ddd;
+    }
 
-.pattern-site-nav details[open] {
-    background: #333;
-    color: #eee;
-}
+    .pattern-site-nav details[open] {
+        background: #333;
+        color: #eee;
+    }
 
 </style>
 
@@ -97,7 +97,7 @@ include($project_paths['main_project_root'].'/core/template-parts/footer.inc');
 
 function word_cycler($word_selector_id) {
 
-  $list = '
+    $list = '
     "New York",
     "Egypt",
     "Nigeria",
@@ -111,7 +111,7 @@ function word_cycler($word_selector_id) {
     "Japan"
   ';
 
-return <<<TMP
+    return <<<TMP
 <script>
 $(document).ready(function () {
 
@@ -142,9 +142,9 @@ TMP;
 
 
 function vassar_is_awesome($classes) {
-  $our_qualities = '<ul><li>interesting</li><li>talented</li><li>diverse</li><li>imaginative</li><li>innovative</li><li>curious</li><li>driven</li><li>principled</li><li>unusual</li><li>bold</li></ul>';
+    $our_qualities = '<ul><li>interesting</li><li>talented</li><li>diverse</li><li>imaginative</li><li>innovative</li><li>curious</li><li>driven</li><li>principled</li><li>unusual</li><li>bold</li></ul>';
 
-return <<<TMP
+    return <<<TMP
 <div class="awesome_ticker $classes">
   <div id="div1">
 $our_qualities
@@ -161,17 +161,17 @@ TMP;
 
 
 function flipcard_stat(
-  $title,
-  $value,
-  $reverse_content,
-  $class=null,
-  $css=null
+    $title,
+    $value,
+    $reverse_content,
+    $class=null,
+    $css=null
 ) {
 
 
-if($css) { $css = sprintf('style="%s"', $css); }
+    if($css) { $css = sprintf('style="%s"', $css); }
 
-return <<<TMP
+    return <<<TMP
 <div class="flip-card $class" $css>
   <div class="card-content">
     <div class="card__face card__face--front">
@@ -229,6 +229,7 @@ include($project_paths['main_project_root'].'/core/sections/universal_sections/v
 include($project_paths['main_project_root'].'/core/sections/universal_sections/hamburgerNavigation.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/breadcrumbNavigation.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/toplinksNavigation.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/relatedTopics.inc');
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/buffer.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/wordByWord.inc');
@@ -282,14 +283,14 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/fix
  * @return string - the formatted extra
  */
 function get_extras_value($extras_key, $extras_array, $format = false) {
-  if ($extras_array && array_key_exists($extras_key, $extras_array)) {
-      // return $extras_array[ $extras_key ];
-      if(!$format) $format = $extras_array[ $extras_key ];
+    if ($extras_array && array_key_exists($extras_key, $extras_array)) {
+        // return $extras_array[ $extras_key ];
+        if(!$format) $format = $extras_array[ $extras_key ];
 
-      return sprintf($format, $extras_array[ $extras_key ]);
+        return sprintf($format, $extras_array[ $extras_key ]);
 
-  }
-  else return false;
+    }
+    else return false;
 }
 
 
@@ -338,7 +339,7 @@ function get_extras_value($extras_key, $extras_array, $format = false) {
 
 function masthead_fancyVideoBackground($title, $video, $extras) {
 
-$template = <<<TMP
+    $template = <<<TMP
 
 <!-- https://stackoverflow.com/questions/24579785/force-iframe-youtube-video-to-center-fit-and-full-cover-the-screen-in-the-backgr -->
 
@@ -365,93 +366,93 @@ TMP;
 
 
 function show_code() {
-echo <<<TMP
+    echo <<<TMP
 <details>
 <summary style="font-size: 1rem">Template code</summary>
   <pre>
 TMP;
 
-  $rootDir = realpath($_SERVER["DOCUMENT_ROOT"]);
-  $temp_code = file_get_contents($rootDir . $_SERVER['PHP_SELF']);
-  $temp_code = explode('<!-- %'.'%% -->', $temp_code);
+    $rootDir = realpath($_SERVER["DOCUMENT_ROOT"]);
+    $temp_code = file_get_contents($rootDir . $_SERVER['PHP_SELF']);
+    $temp_code = explode('<!-- %'.'%% -->', $temp_code);
 
-  echo htmlentities($temp_code[1]);
+    echo htmlentities($temp_code[1]);
 
-echo '</pre></details>';
+    echo '</pre></details>';
 
 }
 
 
 function clean_up_variable($variable) {
-  $variable = str_replace('$page_title = "', '', $variable);
-  $variable = str_replace('$page_docs = "', '', $variable);
-  $variable = str_replace(';', '', $variable);
-  $variable = str_replace('"', '', $variable);
-  return $variable;
+    $variable = str_replace('$page_title = "', '', $variable);
+    $variable = str_replace('$page_docs = "', '', $variable);
+    $variable = str_replace(';', '', $variable);
+    $variable = str_replace('"', '', $variable);
+    return $variable;
 }
 
 function get_page_info_from_array($page_contents) {
-  // problem with array_search() is that it doesn't do partial string matches
-  $page_title = implode('', (preg_grep('/^\$page_title\s.*/', $page_contents)));
-  $page_title = clean_up_variable($page_title);
+    // problem with array_search() is that it doesn't do partial string matches
+    $page_title = implode('', (preg_grep('/^\$page_title\s.*/', $page_contents)));
+    $page_title = clean_up_variable($page_title);
 
-  $page_docs = implode('', (preg_grep('/^\$page_docs\s.*/', $page_contents)));
-  $page_docs = clean_up_variable($page_docs);
+    $page_docs = implode('', (preg_grep('/^\$page_docs\s.*/', $page_contents)));
+    $page_docs = clean_up_variable($page_docs);
 
-  $page_info['title'] = $page_title;
-  $page_info['docs'] = $page_docs;
+    $page_info['title'] = $page_title;
+    $page_info['docs'] = $page_docs;
 
-  return $page_info;
+    return $page_info;
 }
 
 function get_current_page_name() {
-  $current_page_name = $_SERVER['PHP_SELF'];
-  $path_parts = pathinfo($current_page_name);
-  $current_page_name = $path_parts['dirname'];
-  $current_page_name = explode('/', $current_page_name);
-  $current_page_name = end($current_page_name);
+    $current_page_name = $_SERVER['PHP_SELF'];
+    $path_parts = pathinfo($current_page_name);
+    $current_page_name = $path_parts['dirname'];
+    $current_page_name = explode('/', $current_page_name);
+    $current_page_name = end($current_page_name);
 
-  return $current_page_name;
+    return $current_page_name;
 }
 
 function pattern_nav() {
-  global $project_paths;
+    global $project_paths;
 
-  $directory = $project_paths['main_project_root'].'/examples';
-  $scanned_directory = array_values(array_diff(scandir($directory), array('..', '.', '.DS_Store')));
+    $directory = $project_paths['main_project_root'].'/examples';
+    $scanned_directory = array_values(array_diff(scandir($directory), array('..', '.', '.DS_Store')));
 
 
-  echo '<nav><b>Menu</b><ul class="pattern-menu">';
+    echo '<nav><b>Menu</b><ul class="pattern-menu">';
 
-  foreach ($scanned_directory as &$page) {
+    foreach ($scanned_directory as &$page) {
 
 //    echo $page . '--' . get_current_page_name() . '<br>';
 
-    if($page == get_current_page_name()) {
-      $active_class = 'active';
+        if($page == get_current_page_name()) {
+            $active_class = 'active';
+        }
+        else $active_class = '';
+
+        $page_contents = file_get_contents($directory.'/'.$page.'/index.php');
+        $page_contents = explode(PHP_EOL, $page_contents);
+        echo '<li><a class="'.$active_class.'" href="'.$project_paths['public_path'].'/examples/'.$page.'/index.php'.'">';
+
+        $page_info = get_page_info_from_array($page_contents);
+        echo $page_info['title'] . '</a></li>';
     }
-    else $active_class = '';
+    unset($item);
 
-    $page_contents = file_get_contents($directory.'/'.$page.'/index.php');
-    $page_contents = explode(PHP_EOL, $page_contents);
-    echo '<li><a class="'.$active_class.'" href="'.$project_paths['public_path'].'/examples/'.$page.'/index.php'.'">';
-
-    $page_info = get_page_info_from_array($page_contents);
-    echo $page_info['title'] . '</a></li>';
-  }
-  unset($item);
-
-  echo '</ul></nav>';
+    echo '</ul></nav>';
 }
 
 
 function get_docs_link() {
-  $rootDir = realpath($_SERVER["DOCUMENT_ROOT"]);
-  $page_contents = file_get_contents($rootDir . $_SERVER['PHP_SELF']);
-  $page_contents = explode(PHP_EOL, $page_contents);
-  $page_info = get_page_info_from_array($page_contents);
-  $docs_link = clean_up_variable($page_info['docs']);
-  return '<a class="about-this-pattern" href="'.$docs_link.'">About this pattern</a>';
+    $rootDir = realpath($_SERVER["DOCUMENT_ROOT"]);
+    $page_contents = file_get_contents($rootDir . $_SERVER['PHP_SELF']);
+    $page_contents = explode(PHP_EOL, $page_contents);
+    $page_info = get_page_info_from_array($page_contents);
+    $docs_link = clean_up_variable($page_info['docs']);
+    return '<a class="about-this-pattern" href="'.$docs_link.'">About this pattern</a>';
 }
 
 
@@ -460,8 +461,8 @@ function get_docs_link() {
 
 
 <div class="pattern-site-nav">
-  <?php pattern_nav(); ?>
+    <?php pattern_nav(); ?>
 
-  <?php show_code(); ?>
-  <?php echo get_docs_link(); ?>
+    <?php show_code(); ?>
+    <?php echo get_docs_link(); ?>
 </div>

@@ -9,3 +9,7 @@ li::marker {
   padding-right: 1rem;
   font-size: 80%;
 }
+
+.breadcrumb-item::marker , .nav-item::marker  {
+  content: '';
+}

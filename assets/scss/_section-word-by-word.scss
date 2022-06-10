@@ -50,8 +50,8 @@
       margin-right: 0.2em;
 
       $settings: (
-        gap: 0.1s,
-        max-items: 100,
+              gap: 0.1s,
+              max-items: 100,
       );
 
       @include sequence($settings);
@@ -88,7 +88,7 @@
       background: #951829;
       opacity: 0.4;
       /* HEY */
-        @include setup-animation-rightshift-in();
+      @include setup-animation-rightshift-in();
 
       svg {
         width: calc(100% + 3em);
@@ -97,10 +97,10 @@
         object-fit: cover;
         opacity: 0;
         transform: skewX(10deg) scale(1.2);
-  //      mix-blend-mode: multiply;
+        //      mix-blend-mode: multiply;
 
-  //      filter: contrast(2);
-  //      opacity: 0.6;
+        //      filter: contrast(2);
+        //      opacity: 0.6;
 
       }
       image {

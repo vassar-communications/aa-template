@@ -34,10 +34,10 @@
 
   &:not(.has-bg) {
     &.animate-when-content-appears {
-        @include setup-animation-zoom-in();
+      @include setup-animation-zoom-in();
 
       &.content-appeared {
-          @include animation-zoom-in();
+        @include animation-zoom-in();
       }
     }
   }
