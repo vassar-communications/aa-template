@@ -3168,10 +3168,17 @@ a:hover, a:visited:hover {
   --section-title-color: var(--color-vassar-cream);
   --section-text-color: var(--color-vassar-cream);
   --section-link-bg-color: transparent;
+<<<<<<< Updated upstream
   --section-link-color: var(--color-vassar-cream);
   --section-link-visited-color: var(--color-vassar-cream);
   --section-link-hover-bg-color: transparent;
   --section-link-hover-color: var(--color-vassar-cream);
+=======
+  --section-link-color: #ff0;
+  --section-link-visited-color: #888;
+  --section-link-hover-bg-color: var(--color-vassar-burgundy);
+  --section-link-hover-color: #fff;
+>>>>>>> Stashed changes
 }
 .theme-burgundy.quad-pattern {
   --bg-image: url(../images/Vassar_QuadGrid-white.png);
@@ -3184,10 +3191,17 @@ a:hover, a:visited:hover {
   --section-title-color: var(--color-vassar-cream);
   --section-text-color: var(--color-vassar-cream);
   --section-link-bg-color: transparent;
+<<<<<<< Updated upstream
   --section-link-color: var(--color-vassar-cream);
   --section-link-visited-color: var(--color-vassar-cream);
   --section-link-hover-bg-color: transparent;
   --section-link-hover-color: var(--color-vassar-cream);
+=======
+  --section-link-color: #ff0;
+  --section-link-visited-color: #888;
+  --section-link-hover-bg-color: var(--color-vassar-burgundy);
+  --section-link-hover-color: #fff;
+>>>>>>> Stashed changes
 }
 .theme-dark-burgundy.quad-pattern {
   --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-white.png);
@@ -3201,10 +3215,17 @@ a:hover, a:visited:hover {
   --section-title-border-color: var(--color-vassar-darkgray);
   --section-text-color: var(--color-vassar-cream);
   --section-link-bg-color: transparent;
+<<<<<<< Updated upstream
   --section-link-color: var(--color-vassar-cream);
   --section-link-visited-color: var(--color-vassar-cream);
   --section-link-hover-bg-color: transparent;
   --section-link-hover-color: var(--color-vassar-cream);
+=======
+  --section-link-color: #ff0;
+  --section-link-visited-color: #888;
+  --section-link-hover-bg-color: var(--color-vassar-burgundy);
+  --section-link-hover-color: #fff;
+>>>>>>> Stashed changes
   --box-shadow-color: rgba(0,0,0,0.6);
 }
 .theme-charcoal.quad-pattern {
@@ -3219,10 +3240,17 @@ a:hover, a:visited:hover {
   --section-title-border-color: #f00;
   --section-text-color: var(--color-vassar-charcoal);
   --section-link-bg-color: transparent;
+<<<<<<< Updated upstream
   --section-link-color: var(--color-vassar-charcoal);
   --section-link-visited-color: var(--color-vassar-charcoal);
   --section-link-hover-bg-color: transparent;
   --section-link-hover-color: var(--color-vassar-charcoal);
+=======
+  --section-link-color: #ff0;
+  --section-link-visited-color: #888;
+  --section-link-hover-bg-color: var(--color-vassar-burgundy);
+  --section-link-hover-color: #fff;
+>>>>>>> Stashed changes
 }
 .theme-cream.quad-pattern {
   --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-black.png);

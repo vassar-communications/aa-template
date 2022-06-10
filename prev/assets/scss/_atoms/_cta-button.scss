@@ -1,0 +1,40 @@
+.cta-link {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 2em;
+  text-align: center;
+  font-variation-settings: "wght" 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 4rem;
+  padding: 0.4rem 1.4rem 0.3rem;
+//  transition: 0.4s all ease;
+
+  &:after {
+    content: '→';
+    margin-left: 0.4rem;
+  }
+
+
+  .theme-burgundy &,
+  .theme-dark-burgundy & {
+    --section-link-color: var(--color-vassar-burgundy);
+    --section-link-visited-color: var(--color-vassar-burgundy);
+    --section-link-bg-color: #fff;
+    --section-link-hover-bg-color: #000;
+    --section-link-hover-color: #fff;
+  }
+
+  .video-header & {
+    --section-link-color: #fff;
+    --section-link-visited-color: #fff;
+    --section-link-bg-color: var(--color-vassar-burgundy);
+    --section-link-hover-bg-color: #f00;
+    --section-link-hover-color: #fff;
+
+    margin-right: 1rem;
+  }
+
+}

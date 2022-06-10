@@ -26,11 +26,18 @@ a {
   --section-text-color: var(--color-vassar-cream);
 
   --section-link-bg-color: transparent;
+<<<<<<< Updated upstream
   --section-link-color: var(--color-vassar-cream);
   --section-link-visited-color: var(--color-vassar-cream);
   --section-link-hover-bg-color: transparent;
   --section-link-hover-color: var(--color-vassar-cream);
 
+=======
+  --section-link-color: #ff0;
+  --section-link-visited-color: #888;
+  --section-link-hover-bg-color: var(--color-vassar-burgundy);
+  --section-link-hover-color: #fff;
+>>>>>>> Stashed changes
 
   &.quad-pattern {
     --bg-image: url(#{$assets-path}/images/Vassar_QuadGrid-white.png);
@@ -46,10 +53,17 @@ a {
   --section-text-color: var(--color-vassar-cream);
 
   --section-link-bg-color: transparent;
+<<<<<<< Updated upstream
   --section-link-color: var(--color-vassar-cream);
   --section-link-visited-color: var(--color-vassar-cream);
   --section-link-hover-bg-color: transparent;
   --section-link-hover-color: var(--color-vassar-cream);
+=======
+  --section-link-color: #ff0;
+  --section-link-visited-color: #888;
+  --section-link-hover-bg-color: var(--color-vassar-burgundy);
+  --section-link-hover-color: #fff;
+>>>>>>> Stashed changes
 
   &.quad-pattern {
     --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-white.png);
@@ -67,10 +81,17 @@ a {
   --section-text-color: var(--color-vassar-cream);
 
   --section-link-bg-color: transparent;
+<<<<<<< Updated upstream
   --section-link-color: var(--color-vassar-cream);
   --section-link-visited-color: var(--color-vassar-cream);
   --section-link-hover-bg-color: transparent;
   --section-link-hover-color: var(--color-vassar-cream);
+=======
+  --section-link-color: #ff0;
+  --section-link-visited-color: #888;
+  --section-link-hover-bg-color: var(--color-vassar-burgundy);
+  --section-link-hover-color: #fff;
+>>>>>>> Stashed changes
 
   --box-shadow-color: rgba(0,0,0,0.6);
 
@@ -88,11 +109,18 @@ a {
   --section-text-color: var(--color-vassar-charcoal);
 
   --section-link-bg-color: transparent;
+<<<<<<< Updated upstream
   --section-link-color: var(--color-vassar-charcoal);
   --section-link-visited-color: var(--color-vassar-charcoal);
   --section-link-hover-bg-color: transparent;
   --section-link-hover-color: var(--color-vassar-charcoal);
 
+=======
+  --section-link-color: #ff0;
+  --section-link-visited-color: #888;
+  --section-link-hover-bg-color: var(--color-vassar-burgundy);
+  --section-link-hover-color: #fff;
+>>>>>>> Stashed changes
 
   &.quad-pattern {
     --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-black.png);
