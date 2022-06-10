@@ -27,16 +27,18 @@ $page_title = "Vassar Admission";
 <!-- site masthead goes here -->
 
 <!-- animated pullquote goes here -->
-<?php echo sec_wordByWord(
+<?php echo sec_regularContent(
   null,
-  'animate-when-content-appears space-around-image theme-cream',
-  null,
-  ['intro-line' => 'A Vassar education opens minds and doors.']
+  'ticker-section theme-cream',
+  'animation-zoom-in animate-when-content-appears',
 ); ?>
 
-  <p>Each year, Vassar aims to enroll the most interesting, talented, and diverse first-year class possible.</p>
+<p><span class="intro-line">A Vassar education opens minds and doors.</span></p>
+  <p>Each year, Vassar aims to enroll the most</p>
+<?php echo vassar_is_awesome(); ?>
+    <p>first-year class possible.</p>
 
-<?php echo end_sec_wordByWord(); ?>
+<?php echo end_sec_regularContent(); ?>
 
 
 
@@ -49,8 +51,8 @@ $page_title = "Vassar Admission";
     ['bg-image-url' => 'journey/0100-21-10-kr-fw-general-vassar-0057.jpg',
     'bg-image-alt' => 'alt text',
     'css' => '
-      --title-container-bg-beforeContent: rgba(0,0,0,0.2);
-      --section-title-faded-opacity: 0.1;
+      --title-container-bg-beforeContent: rgba(0,0,0,0.4);
+      --section-title-faded-opacity: 0.2;
       --section-bg-image-opacity: 0.1;
       --section-title-faded-color: #000;
       '
@@ -107,12 +109,15 @@ $page_title = "Vassar Admission";
 
 <!-- stats -->
 
-<?php echo sec_fixedCenteredTitle(
+<?php
+echo word_cycler('where-from');
+
+echo sec_fixedCenteredTitle(
   '<b class="slide-from-left">This is</b>
    <b class="slide-from-right">Vassar.</b>',
    '<p class="section-intro-text">
 
-Vassar is from everywhere. World-class educations are built on world-wide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will visit them while at Vassar. Over half of Vassar students receive financial aid.
+Vassar is from <b id="where-from">everywhere</b>. World-class educations are built on world-wide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will visit them while at Vassar. Over half of Vassar students receive financial aid.
 
 <p><strong class="cta-link">Learn more</strong></p>
 
@@ -192,6 +197,38 @@ echo row_fancyStats();
 */
 
 ?>
+
+<div class="d-flex">
+
+  <?php echo flipcard_stat(
+    'Average aid award',
+    '$54K',
+    'other stuff goes here',
+    null,
+    '--flipcard-height: 20rem',
+  );
+  ?>
+
+  <?php echo flipcard_stat(
+    'Average aid award',
+    '$54K',
+    'other stuff goes here',
+    null,
+    '--flipcard-height: 20rem',
+  );
+  ?>
+
+  <?php echo flipcard_stat(
+    'Average aid award',
+    '$54K',
+    'other stuff goes here',
+    null,
+    '--flipcard-height: 20rem',
+  );
+  ?>
+    
+</div>
+
 
 <?php echo end_sec_fixedCenteredTitle(); ?>
 

@@ -1,0 +1,38 @@
+.flip-card {
+  width: 100%;
+  height: var(--flipcard-height, 2rem);
+  margin: 40px 0;
+  perspective: 600px;
+
+  &:hover .card-content {
+    transform: rotateY(180deg);
+  }
+}
+
+.card-content {
+  color: #444;
+  border: 1px solid #aaa;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+  background: #fff;
+}
+
+.card__face--back {
+  background: #fff;
+  transform: rotateY(180deg);
+}

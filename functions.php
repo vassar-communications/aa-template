@@ -92,6 +92,94 @@ include($project_paths['main_project_root'].'/core/template-parts/header.inc');
 include($project_paths['main_project_root'].'/core/template-parts/footer.inc');
 
 
+
+/* THIS NEEDS TO BE INTEGRATED */
+
+function word_cycler($word_selector_id) {
+
+  $list = '"NYC", "India", "Ohio", "Japan"';
+
+return <<<TMP
+<script>
+$(document).ready(function () {
+
+  var arr = [$list];
+
+  // run through the array forever
+  (function recurse(counter) {
+      var color = arr[counter];
+      $('#$word_selector_id').delay('2000').html(color);
+      // delete the value to save memory
+      delete arr[counter];
+      // add the value at the end of the array
+      arr.push(color);
+      // run it again for the next number
+      setTimeout(function() {
+          recurse(counter + 1);
+      }, 2000);
+  // start it for the first number.
+  })(0);
+
+});
+</script>
+
+TMP;
+
+}
+
+
+
+function vassar_is_awesome() {
+  $our_qualities = '<ul><li>interesting</li><li>talented</li><li>diverse</li><li>imaginative</li><li>innovative</li><li>curious</li><li>driven</li><li>principled</li><li>unusual</li><li>bold</li></ul>';
+
+return <<<TMP
+<div class="awesome_ticker">
+  <div id="div1">
+$our_qualities
+  </div>
+  <div id="div2">
+$our_qualities
+  </div>
+</div>
+TMP;
+
+}
+
+
+
+
+function flipcard_stat(
+  $title,
+  $value,
+  $reverse_content,
+  $class=null,
+  $css=null
+) {
+
+
+if($css) { $css = sprintf('style="%s"', $css); }
+
+return <<<TMP
+<div class="flip-card $class" $css>
+  <div class="card-content">
+    <div class="card__face card__face--front">
+      <p><strong>$title</strong></p>
+      <p>$value</p>
+    </div>
+    <div class="card__face card__face--back">
+      $reverse_content
+    </div>
+  </div>
+</div>
+TMP;
+
+}
+
+
+
+
+/* END */
+
 /* Partials */
 
 include($project_paths['main_project_root'].'/core/partials/bg-image.inc');
@@ -191,6 +279,7 @@ function get_extras_value($extras_key, $extras_array, $format = false) {
   }
   else return false;
 }
+
 
 
 /*  ********** TEMPLATE FUNCTIONS **********
