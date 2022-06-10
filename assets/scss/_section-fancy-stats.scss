@@ -30,9 +30,12 @@ html {
 
 .symbol-item {
   font-size: 6vw;
-  padding-top: 3rem;
+//  padding-top: 3rem;
 }
 
+.fancy-stats-container {
+  margin-bottom: 2rem;
+}
 .fancy-stats-container {
   & > *,
   .stat-item-additional {
@@ -50,6 +53,14 @@ html {
     animation-duration: 2s;
     animation-fill-mode: forwards;
   }
+}
+
+.stat-label {
+    font-size: 1.4rem;
+    text-transform: none;
+}
+.stat-item-fact {
+    line-height: 1;
 }
 
 .item-students {

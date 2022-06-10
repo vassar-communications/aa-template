@@ -833,12 +833,20 @@ li::marker {
   content: "→";
   margin-left: 0.4rem;
 }
-.theme-burgundy .cta-link {
+.theme-burgundy .cta-link, .theme-dark-burgundy .cta-link {
   --section-link-color: var(--color-vassar-burgundy);
   --section-link-visited-color: var(--color-vassar-burgundy);
   --section-link-bg-color: #fff;
   --section-link-hover-bg-color: #000;
   --section-link-hover-color: #fff;
+}
+.video-header .cta-link {
+  --section-link-color: #fff;
+  --section-link-visited-color: #fff;
+  --section-link-bg-color: var(--color-vassar-burgundy);
+  --section-link-hover-bg-color: #f00;
+  --section-link-hover-color: #fff;
+  margin-right: 1rem;
 }
 
 .grid {
@@ -1532,7 +1540,10 @@ html {
 
 .symbol-item {
   font-size: 6vw;
-  padding-top: 3rem;
+}
+
+.fancy-stats-container {
+  margin-bottom: 2rem;
 }
 
 .fancy-stats-container > *,
@@ -1548,6 +1559,15 @@ html {
   animation-name: stat-fade-in;
   animation-duration: 2s;
   animation-fill-mode: forwards;
+}
+
+.stat-label {
+  font-size: 1.4rem;
+  text-transform: none;
+}
+
+.stat-item-fact {
+  line-height: 1;
 }
 
 .item-students {

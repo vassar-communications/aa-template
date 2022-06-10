@@ -122,6 +122,7 @@ echo sec_fixedCenteredTitle(
 <div class="text-center">
 <a href="" class="cta-link">Learn more</a>
 </div>',
+
   'sec-fixedCenteredTitle theme-burgundy',
   'mw-4',
     ['bg-image-url' => 'journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
@@ -255,7 +256,10 @@ echo row_fancyStats();
 All Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life. Explore virtual visiting opportunities today and learn more about in-person visits.
    </p>
 
-<p><strong class="cta-link">Visiting the Vassar campus</strong></p>
+   <div class="text-center">
+   <a href="" class="cta-link">Schedule a Campus Visit</a>
+   </div>
+
    ',
     'sec-fixedCenteredTitle theme-dark-burgundy featured-video',
     'mw-4',
