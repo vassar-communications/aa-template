@@ -41,7 +41,7 @@ $page_classes = "";
 ); ?>
 
 <?php echo item_col('equal'); ?>
-<h3 class="display-5 pb-3">How to Apply Today</h3>
+<h3 class="display-5 pb-3">How to Apply</h3>
 <p class="pb-3">Learn more about Vassar's application requirements and important deadlines.</p>
 <a href="/admission/apply/how-to-apply"  class="px-0 btn btn-link">Learn more about applying <i class="circle fa-solid fa-angle-right"></i></a>
 
