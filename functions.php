@@ -72,7 +72,7 @@
     }
 
     .pattern-site-nav {
-        display: none;
+        display: flex;
         border-bottom: 1px solid #ddd;
     }
 
@@ -91,6 +91,106 @@ include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/core/template-parts/header.inc');
 include($project_paths['main_project_root'].'/core/template-parts/footer.inc');
 
+
+
+/* THIS NEEDS TO BE INTEGRATED */
+
+function word_cycler($word_selector_id) {
+
+    $list = '
+    "New York",
+    "Egypt",
+    "Nigeria",
+    "Maryland",
+    "Puerto Rico",
+    "Jamaica",
+    "California",
+    "Ecuador",
+    "India",
+    "Ohio",
+    "Japan"
+  ';
+
+    return <<<TMP
+<script>
+$(document).ready(function () {
+    
+  var arr = [$list];
+  
+  // run through the array forever
+  (function recurse(counter) {
+      var color = arr[counter];
+      $('#$word_selector_id').delay('2000').html(color);
+      // delete the value to save memory
+      delete arr[counter];
+      // add the value at the end of the array
+      arr.push(color);
+      // run it again for the next number
+      setTimeout(function() {
+          recurse(counter + 1);
+      }, 2000);
+  // start it for the first number.
+  })(0);
+  
+});
+</script>
+
+TMP;
+
+}
+
+
+
+function vassar_is_awesome($classes) {
+    $our_qualities = '<ul><li>interesting</li><li>talented</li><li>diverse</li><li>imaginative</li><li>innovative</li><li>curious</li><li>driven</li><li>principled</li><li>unusual</li><li>bold</li></ul>';
+
+    return <<<TMP
+<div class="awesome_ticker $classes">
+  <div id="div1">
+$our_qualities
+  </div>
+  <div id="div2">
+$our_qualities
+  </div>
+</div>
+TMP;
+
+}
+
+
+
+
+function flipcard_stat(
+    $title,
+    $value,
+    $reverse_content,
+    $class=null,
+    $css=null
+) {
+
+
+    if($css) { $css = sprintf('style="%s"', $css); }
+
+    return <<<TMP
+<div class="flip-card $class" $css>
+  <div class="card-content">
+    <div class="card__face card__face--front">
+      <p class="flipcard__title"><strong>$title</strong></p>
+      <p class="flipcard__value">$value</p>
+    </div>
+    <div class="card__face card__face--back">
+      $reverse_content
+    </div>
+  </div>
+</div>
+TMP;
+
+}
+
+
+
+
+/* END */
 
 /* Partials */
 
@@ -114,8 +214,10 @@ include($project_paths['main_project_root'].'/core/items/cardWithText.inc');
 include($project_paths['main_project_root'].'/core/items/imageCard.inc');
 
 
-/* Sections */
+include($project_paths['main_project_root'].'/core/sections/content_sections/fancy-stats.inc');
 
+
+/* Sections */
 
 include($project_paths['main_project_root'].'/core/partials/section-title.inc');
 
@@ -143,7 +245,6 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/fix
 
 /*
   VASSAR TEMPLATING SYSTEM
-
 */
 
 
@@ -181,20 +282,20 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/fix
  * @return string - the formatted extra
  */
 function get_extras_value($extras_key, $extras_array, $format = false) {
-  if ($extras_array && array_key_exists($extras_key, $extras_array)) {
-      // return $extras_array[ $extras_key ];
-      if(!$format) $format = $extras_array[ $extras_key ];
+    if ($extras_array && array_key_exists($extras_key, $extras_array)) {
+        // return $extras_array[ $extras_key ];
+        if(!$format) $format = $extras_array[ $extras_key ];
 
-      return sprintf($format, $extras_array[ $extras_key ]);
+        return sprintf($format, $extras_array[ $extras_key ]);
 
-  }
-  else return false;
+    }
+    else return false;
 }
+
 
 
 /*  ********** TEMPLATE FUNCTIONS **********
     These are functions that generate markup for use in template tags. Their purpose is to centralize common markup - section titles, call-to-action links, etc - that would otherwise be hardcoded into multiple places.
-
     Note: in order to use them, you'll need to declare them as globals in the
     template function first: `global $section_title;`
 */
@@ -206,10 +307,8 @@ function get_extras_value($extras_key, $extras_array, $format = false) {
 
 /*  ********** TEMPLATE TAGS **********
     These are functions that you'd use in a page to generate the actual page markup.
-
     Index
     -----
-
     1. Required tags
     2. Section tags
 */
@@ -236,12 +335,13 @@ function get_extras_value($extras_key, $extras_array, $format = false) {
 
 function masthead_fancyVideoBackground($title, $video, $extras) {
 
-$template = <<<TMP
-
+    $template = <<<TMP
 <!-- https://stackoverflow.com/questions/24579785/force-iframe-youtube-video-to-center-fit-and-full-cover-the-screen-in-the-backgr -->
 
-<div class="video-header is-loading">
 
+
+
+<div class="video-header is-loading">
   <div class="title-cover">
     <h1 class="display-1">
       <span class="slice slice-1">Admission</span>
@@ -252,7 +352,6 @@ $template = <<<TMP
       <a href="" class="btn btn-lg btn-primary">Request Info</a>
     </div>
   </div>
-
   <div class="video-background">
     <iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" id="main-video" src="https://player.vimeo.com/video/675479542?h=3f69ff4c7f?h=360eb5ffb8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;muted=1&amp;autoplay=1&amp;loop=1&amp;byline=0&amp;title=0"  title="This-is-Vassar-Anthem-slide-loop"></iframe>
   </div>
@@ -263,56 +362,54 @@ TMP;
 
 
 function show_code() {
-echo <<<TMP
+    echo <<<TMP
 <details>
 <summary style="font-size: 1rem">Template code</summary>
   <pre>
 TMP;
 
-  $rootDir = realpath($_SERVER["DOCUMENT_ROOT"]);
-  $temp_code = file_get_contents($rootDir . $_SERVER['PHP_SELF']);
-  $temp_code = explode('<!-- %'.'%% -->', $temp_code);
+    $rootDir = realpath($_SERVER["DOCUMENT_ROOT"]);
+    $temp_code = file_get_contents($rootDir . $_SERVER['PHP_SELF']);
+    $temp_code = explode('<!-- %'.'%% -->', $temp_code);
 
-  echo htmlentities($temp_code[1]);
+    echo htmlentities($temp_code[1]);
 
-echo '</pre></details>';
+    echo '</pre></details>';
 
 }
 
 
 function clean_up_variable($variable) {
-  $variable = str_replace('$page_title = "', '', $variable);
-  $variable = str_replace('$page_docs = "', '', $variable);
-  $variable = str_replace(';', '', $variable);
-  $variable = str_replace('"', '', $variable);
-  return $variable;
+    $variable = str_replace('$page_title = "', '', $variable);
+    $variable = str_replace('$page_docs = "', '', $variable);
+    $variable = str_replace(';', '', $variable);
+    $variable = str_replace('"', '', $variable);
+    return $variable;
 }
 
 function get_page_info_from_array($page_contents) {
-  // problem with array_search() is that it doesn't do partial string matches
-  $page_title = implode('', (preg_grep('/^\$page_title\s.*/', $page_contents)));
-  $page_title = clean_up_variable($page_title);
+    // problem with array_search() is that it doesn't do partial string matches
+    $page_title = implode('', (preg_grep('/^\$page_title\s.*/', $page_contents)));
+    $page_title = clean_up_variable($page_title);
 
-  $page_docs = implode('', (preg_grep('/^\$page_docs\s.*/', $page_contents)));
-  $page_docs = clean_up_variable($page_docs);
+    $page_docs = implode('', (preg_grep('/^\$page_docs\s.*/', $page_contents)));
+    $page_docs = clean_up_variable($page_docs);
 
-  $page_info['title'] = $page_title;
-  $page_info['docs'] = $page_docs;
+    $page_info['title'] = $page_title;
+    $page_info['docs'] = $page_docs;
 
-  return $page_info;
+    return $page_info;
 }
 
 function get_current_page_name() {
-  $current_page_name = $_SERVER['PHP_SELF'];
-  $path_parts = pathinfo($current_page_name);
-  $current_page_name = $path_parts['dirname'];
-  $current_page_name = explode('/', $current_page_name);
-  $current_page_name = end($current_page_name);
+    $current_page_name = $_SERVER['PHP_SELF'];
+    $path_parts = pathinfo($current_page_name);
+    $current_page_name = $path_parts['dirname'];
+    $current_page_name = explode('/', $current_page_name);
+    $current_page_name = end($current_page_name);
 
-  return $current_page_name;
+    return $current_page_name;
 }
-
-
 
 function pattern_nav() {
     global $project_paths;

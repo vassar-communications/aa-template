@@ -87,6 +87,7 @@ for (var i = 0; i < discreteElements.length; i++) {
 }
 
 
+
 // End fixed-centered-title
 
 
@@ -258,6 +259,21 @@ $( ".sec-fixedCenteredTitle" ).each(function( index ) {
 
 
 $(document).ready(function () {
+    var waypoints = $('.sec-fixedCenteredTitle .section-content').waypoint(function(direction) {
+        if(direction=='down') {
+            $(this[0,'element']).parent().addClass('fade-the-title');
+        }
+        else if(direction=='up') {
+            $(this[0,'element']).parent().removeClass('fade-the-title');
+        }
+
+
+    }, {
+        offset: '60%'
+    });
+
+
+
     $('.card-array .section-content ').masonry({
         // options
         itemSelector: '.card'

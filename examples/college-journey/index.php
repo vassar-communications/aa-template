@@ -317,5 +317,6 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
 
 
 
+    <div class="buffer"></div>
 
 <?php echo site_footer(); ?>

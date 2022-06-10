@@ -5,10 +5,12 @@ This should be a section option
  */
 
 
+
+
 .sec-fixedCenteredTitle {
   min-height: 100vh;
 
-  padding-top: 50vh;
+  padding-top: 60vh;
   /*
     position: relative;
 
@@ -185,4 +187,8 @@ This should be a section option
     max-width: 60em;
     margin: 0 auto;
   }
+}
+
+.fade-the-title {
+  --section-title-faded-opacity: 0 !important;
 }

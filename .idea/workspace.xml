@@ -2,8 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/scss/_items/_flipcard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/_section-fancy-stats.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/_specials/_all.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/_specials/_vassar_is_awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/sections/content_sections/fancy-stats.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home-prev/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/0014-19-04-kr-chemistry-vassar-4578.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/0020_15_03_KR_0022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/0055-16-05-kr-spring-vassar-0011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/apply/Untitled-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/apply/Untitled-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/apply/Untitled-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/fav-places/0056-21-06-kr-campus-vassar-0006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/fav-places/0195-19-11-kwe-gordon-vassar-1644.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/fav-places/0212-18-10-kr-library-fall-vassar-3819.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/fav-places/110619_160over90_Vassar_5483.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/fav-places/studio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/journey/0100-21-10-kr-fw-general-vassar-0057.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockups/admissions-home/visit/0216-18-10-jsu-fall-drone-vassar-R01895.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_animations/_zoom-in.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_animations/_zoom-in.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_content-sections/_fixedCenteredTitle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_content-sections/_fixedCenteredTitle.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_items/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_items/_all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_items/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_items/_icon-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_items/_icon-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_items/_stat-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_items/_stat-item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_layouts/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_layouts/_all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_layouts/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_layouts/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_section-has-image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_section-has-image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_section-video-masthead.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_section-video-masthead.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_section-wide-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_section-wide-content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_themes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_themes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/items/icon-cardButton.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/items/icon-cardButton.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/items/icon-statItem.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/items/icon-statItem.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sections/content_sections/columns.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/content_sections/columns.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sections/content_sections/fixedCenteredTitle.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/content_sections/fixedCenteredTitle.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sections/content_sections/regularContent.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/content_sections/regularContent.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sections/content_sections/wideContent.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/content_sections/wideContent.inc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/template-parts/footer.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/template-parts/footer.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/template-parts/header.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/template-parts/header.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/college-journey/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/college-journey/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/icon-stat-items/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/icon-stat-items/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/section-wide-content/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/section-wide-content/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/section-with-card-array/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/section-with-card-array/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockups/admissions-home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/mockups/admissions-home/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
