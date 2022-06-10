@@ -37,12 +37,18 @@ html {
   & > *,
   .stat-item-additional {
     opacity: 0;
-    animation-name: stat-fade-in;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
   }
   .stat-item-additional {
     animation-delay: var(--secondary-delay);
+  }
+}
+
+.fancy-stats-container.content-appeared {
+  & > *,
+  .stat-item-additional {
+    animation-name: stat-fade-in;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
   }
 }
 

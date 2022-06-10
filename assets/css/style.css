@@ -1476,12 +1476,16 @@ html {
 .fancy-stats-container > *,
 .fancy-stats-container .stat-item-additional {
   opacity: 0;
-  animation-name: stat-fade-in;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
 }
 .fancy-stats-container .stat-item-additional {
   animation-delay: var(--secondary-delay);
+}
+
+.fancy-stats-container.content-appeared > *,
+.fancy-stats-container.content-appeared .stat-item-additional {
+  animation-name: stat-fade-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
 .item-students {

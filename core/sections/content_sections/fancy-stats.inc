@@ -7,7 +7,7 @@ function row_fancyStats(
 ) {
 
 return <<<TMP
-<div class="fancy-stats-container">
+<div class="fancy-stats-container animate-when-content-appears">
   <div class="col-item stat-item item-students">
     <div class="stat-item-fact">
       <div class="stat-value">2,500</div>
