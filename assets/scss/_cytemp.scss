@@ -1,0 +1,89 @@
+
+/*
+
+1. Buttons
+2. Typography
+3. Layout
+4. Hamburger Nav
+
+*/
+
+/* 1. Buttons */
+
+
+.btn-link {
+
+  color: var(--color-vassar-charcoal);
+  text-decoration: none;
+  font-variation-settings: 'wght' 600;
+
+}
+.btn-link:hover {
+  color: var(--color-vassar-charcoal);
+}
+
+i.circle.fa-solid {
+  background: transparent;
+  border-color: var(--section-link-color,  var(--color-vassar-charcoal));
+  border: 1px solid;
+  border-color: var(--section-link-color,  var(--color-vassar-charcoal));
+  width: 2rem;
+  height: 2em;
+  display: inline-flex;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.5rem;
+}
+
+.btn-link:hover i.circle.fa-solid {
+  color: var(--section-link-color,  var(--color-vassar-burgundy));
+  border-color: var(--section-link-color,  var(--color-vassar-burgundy));
+}
+
+
+
+
+/* 2. Typography */
+
+
+h6.nav-guide.serif {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-lightgray);
+}
+
+.display-1,.display-2, .display-3, .display-4, .display-5, .display-6 {
+  font-family: var(--font-big-serif);
+}
+
+
+
+/* 3. Layout */
+
+.g-col.column.equal {
+  flex: 1;
+}
+
+
+
+
+/* 4. Hamburger Nav */
+
+.hamburger-navigation {
+  position: fixed;
+  top:  1em;
+  right: 1em;
+  z-index: 22;
+}
+
+.offcanvasmain {
+  z-index:9999;
+}
+
+
+
+.fix, .fix  a, a.fix {
+color: lime!important;
+  font-weight: 900;
+  font-style: italic;
+}

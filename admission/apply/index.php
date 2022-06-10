@@ -136,7 +136,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="btn btn-secondary"><i class="fa-solid fa-angle-right"></i></div>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-angle-right"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
