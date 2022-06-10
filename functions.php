@@ -97,7 +97,19 @@ include($project_paths['main_project_root'].'/core/template-parts/footer.inc');
 
 function word_cycler($word_selector_id) {
 
-  $list = '"NYC", "India", "Ohio", "Japan"';
+  $list = '
+    "New York",
+    "Egypt",
+    "Nigeria",
+    "Maryland",
+    "Puerto Rico",
+    "Jamaica",
+    "California",
+    "Ecuador",
+    "India",
+    "Ohio",
+    "Japan"
+  ';
 
 return <<<TMP
 <script>
@@ -163,8 +175,8 @@ return <<<TMP
 <div class="flip-card $class" $css>
   <div class="card-content">
     <div class="card__face card__face--front">
-      <p><strong>$title</strong></p>
-      <p>$value</p>
+      <p class="flipcard__title"><strong>$title</strong></p>
+      <p class="flipcard__value">$value</p>
     </div>
     <div class="card__face card__face--back">
       $reverse_content

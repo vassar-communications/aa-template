@@ -116,12 +116,12 @@ echo word_cycler('where-from');
 echo sec_fixedCenteredTitle(
   '<b class="slide-from-left">This is</b>
    <b class="slide-from-right">Vassar.</b>',
-   '<p class="section-intro-text">
+   '<p class="intro-line">Vassar is from <b id="where-from">everywhere</b>.</p>
+   <p class="section-intro-text">World-class educations are built on world-wide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will study abroad while at Vassar.</p>
 
-Vassar is from <b id="where-from">everywhere</b>. World-class educations are built on world-wide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will visit them while at Vassar. Over half of Vassar students receive financial aid.
-
-<p><strong class="cta-link">Learn more</strong></p>
-
+<div class="text-center">
+<a href="" class="cta-link">Learn more</a>
+</div>
    </p>',
   'sec-fixedCenteredTitle theme-burgundy',
   'mw-4',
@@ -132,6 +132,7 @@ Vassar is from <b id="where-from">everywhere</b>. World-class educations are bui
       --section-title-faded-opacity: 0.2;
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0.1;
+      --intro-line-color: #fff;
       '
     ]
 ); ?>
@@ -199,14 +200,17 @@ echo row_fancyStats();
 
 ?>
 
-<div class="d-flex" style="gap: 2vw;">
+<div class="d-flex" style="gap: 2vw; --flipcard-height: 14rem">
 
   <?php echo flipcard_stat(
     'Average Aid Award',
-    '$54K',
-    'other stuff goes here',
+    '<span class="dollar">$</span>54<span class="smaller">K</span>',
+    '<ul>
+      <li>Over half of Vassar students receive financial aid.</li>
+    </ul>
+    ',
     null,
-    '--flipcard-height: 20rem',
+    '',
   );
   ?>
 
@@ -214,8 +218,7 @@ echo row_fancyStats();
     'Majors',
     '51',
     'other stuff goes here',
-    null,
-    '--flipcard-height: 20rem',
+    null
   );
   ?>
 
@@ -223,8 +226,7 @@ echo row_fancyStats();
     'Student Orgs',
     '170',
     'other stuff goes here',
-    null,
-    '--flipcard-height: 20rem',
+    null
   );
   ?>
 
@@ -232,8 +234,7 @@ echo row_fancyStats();
     'Varsity Teams',
     '27',
     'other stuff goes here',
-    null,
-    '--flipcard-height: 20rem',
+    null
   );
   ?>
 

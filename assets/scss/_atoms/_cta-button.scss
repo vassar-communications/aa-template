@@ -1,0 +1,15 @@
+.cta-link {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 2em;
+  text-align: center;
+  font-variation-settings: "wght" 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.4rem;
+
+  &:after {
+    content: '→';
+    margin-left: 0.4rem;
+  }
+}

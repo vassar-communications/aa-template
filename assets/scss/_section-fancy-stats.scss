@@ -7,7 +7,7 @@
   }
 }
 
-$animation-start-offset: 1s;
+$animation-start-offset: 0;
 $animation-gap: 1s;
 
 @mixin anim-delay($item) {
@@ -28,9 +28,6 @@ html {
   text-transform: uppercase;
 }
 
-.stat-value {
-  font-size: 10vw;
-}
 .symbol-item {
   font-size: 6vw;
   padding-top: 3rem;

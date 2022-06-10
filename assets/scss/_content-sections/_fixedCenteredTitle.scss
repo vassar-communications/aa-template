@@ -72,7 +72,7 @@ This should be a section option
 
   .section-intro-text {
     text-align: center;
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 1em;
   }
 
@@ -163,23 +163,6 @@ This should be a section option
     @include animation-zoom-in(true);
   }
 }
-
-.cta-link {
-  font-weight: bold;
-  display: inline-block;
-  margin-bottom: 2em;
-  text-align: center;
-  font-variation-settings: "wght" 600;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  width: 100%;
-
-  &:after {
-    content: '→';
-    margin-left: 0.4rem;
-  }
-}
-
 
 .featured-video {
   .embed-responsive {

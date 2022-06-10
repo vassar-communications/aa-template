@@ -135,6 +135,18 @@ end pattern library nav */
   font-weight: 100;
 }
 
+.intro-line {
+  font-size: calc(1.255rem + 0.06vw);
+  text-transform: uppercase;
+  font-variation-settings: "wght" 700;
+  letter-spacing: 0.1rem;
+  color: var(--intro-line-color, var(--color-vassar-burgundy));
+  display: block;
+  margin-bottom: 2rem;
+  font-family: var(--bs-font-sans-serif);
+  text-align: center;
+}
+
 @keyframes downshift-in {
   0% {
     opacity: 0;
@@ -622,11 +634,45 @@ details[open] summary:before {
 .card__face--front {
   background: #fff;
   transition: 1s background ease;
+  text-align: center;
 }
 
 .card__face--back {
   background: #fff;
   transform: rotateY(180deg);
+}
+
+.flip-card .smaller {
+  font-size: 80%;
+}
+.flip-card .dollar {
+  font-size: 60%;
+  font-family: var(--bs-font-sans-serif);
+  font-variation-settings: "wght" 400;
+  color: #76b27a;
+  color: #b17f22;
+}
+.flip-card .flipcard__title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-variation-settings: "wght" 400;
+  letter-spacing: 0.06em;
+}
+.flip-card .flipcard__value {
+  font-size: calc(1.725rem + 5.7vw);
+  font-family: var(--font-big-serif);
+  line-height: 0.6;
+  margin: 0;
+}
+@media (min-width: 1200px) {
+  .flip-card .flipcard__value {
+    font-size: 6rem;
+  }
+}
+
+.stat-value {
+  font-size: 10vw;
+  font-weight: 100;
 }
 
 /*
@@ -733,6 +779,21 @@ li::marker {
 }
 .btn.has-icon .fa {
   margin-right: 0.4rem;
+}
+
+.cta-link {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 2em;
+  text-align: center;
+  font-variation-settings: "wght" 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.4rem;
+}
+.cta-link:after {
+  content: "→";
+  margin-left: 0.4rem;
 }
 
 .grid {
@@ -1407,10 +1468,6 @@ html {
   text-transform: uppercase;
 }
 
-.stat-value {
-  font-size: 10vw;
-}
-
 .symbol-item {
   font-size: 6vw;
   padding-top: 3rem;
@@ -1428,28 +1485,28 @@ html {
 }
 
 .item-students {
+  animation-delay: 1s;
+  --secondary-delay: calc(1s + 0.4s);
+}
+
+.symbol-div {
   animation-delay: 2s;
   --secondary-delay: calc(2s + 0.4s);
 }
 
-.symbol-div {
+.item-faculty {
   animation-delay: 3s;
   --secondary-delay: calc(3s + 0.4s);
 }
 
-.item-faculty {
+.symbol-equals {
   animation-delay: 4s;
   --secondary-delay: calc(4s + 0.4s);
 }
 
-.symbol-equals {
+.item-ratio {
   animation-delay: 5s;
   --secondary-delay: calc(5s + 0.4s);
-}
-
-.item-ratio {
-  animation-delay: 6s;
-  --secondary-delay: calc(6s + 0.4s);
 }
 
 @keyframes wbw-image-shrink-in {
@@ -2305,7 +2362,7 @@ This should be a section option
 }
 .sec-fixedCenteredTitle .section-intro-text {
   text-align: center;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 .sec-fixedCenteredTitle .section-bg-image {
@@ -2364,21 +2421,6 @@ This should be a section option
   animation-fill-mode: forwards;
 }
 
-.cta-link {
-  font-weight: bold;
-  display: inline-block;
-  margin-bottom: 2em;
-  text-align: center;
-  font-variation-settings: "wght" 600;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  width: 100%;
-}
-.cta-link:after {
-  content: "→";
-  margin-left: 0.4rem;
-}
-
 .featured-video .embed-responsive {
   box-shadow: 0 1em 2em rgba(0, 0, 0, 0.4);
   max-width: 60em;
@@ -2418,17 +2460,6 @@ This should be a section option
   .ticker-section p, .ticker-section li {
     font-size: 4rem;
   }
-}
-
-.intro-line {
-  font-size: calc(1.255rem + 0.06vw);
-  text-transform: uppercase;
-  font-variation-settings: "wght" 700;
-  letter-spacing: 0.1rem;
-  color: var(--color-vassar-burgundy);
-  display: block;
-  margin-bottom: 2rem;
-  font-family: var(--bs-font-sans-serif);
 }
 
 .awesome_ticker {

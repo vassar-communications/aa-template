@@ -40,9 +40,35 @@
 .card__face--front {
   background: #fff;
   transition: 1s background ease;
+  text-align: center;
 }
 
 .card__face--back {
   background: #fff;
   transform: rotateY(180deg);
+}
+
+.flip-card {
+  .smaller {
+    font-size: 80%;
+  }
+  .dollar {
+    font-size: 60%;
+    font-family: var(--bs-font-sans-serif);
+    font-variation-settings: "wght" 400;
+    color: #76b27a;
+    color: #b17f22;
+  }
+  .flipcard__title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-variation-settings: "wght" 400;
+    letter-spacing: 0.06em;
+  }
+  .flipcard__value {
+    @include font-size(6rem);
+    font-family: var(--font-big-serif);
+    line-height: 0.6;
+    margin: 0;
+  }
 }
