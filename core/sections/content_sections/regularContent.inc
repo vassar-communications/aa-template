@@ -9,8 +9,8 @@ function sec_regularContent(
 
   global $section_title;
 
-$title_classes = get_extras_value('title_classes', $extras);
-
+  $title_classes = get_extras_value('title_classes', $extras);
+  $css = get_extras_value( 'css', $extras, 'style="%s"' );
 
 //  Check if a bg image was specified, and
 //    set up both the markup and the section class for it.
@@ -21,7 +21,7 @@ if (get_extras_value('bg-image-url', $extras)) {
 }
 
 return <<<TMP
-    <div class="section $section_classes">
+    <div class="section $section_classes" $css>
     {$section_title($title, $title_classes)}
     {$bg_image($extras)}
     <div class="section-content $content_classes">

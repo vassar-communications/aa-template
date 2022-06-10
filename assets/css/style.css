@@ -594,10 +594,12 @@ details[open] summary:before {
 .flip-card:hover .card-content {
   transform: rotateY(180deg);
 }
+.flip-card:hover .card__face--front {
+  background: #000;
+}
 
 .card-content {
   color: #444;
-  border: 1px solid #aaa;
   width: 100%;
   height: 100%;
   transition: transform 1s;
@@ -612,10 +614,14 @@ details[open] summary:before {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  padding: 2vw;
+  box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
+  border-radius: 0.4rem;
 }
 
 .card__face--front {
   background: #fff;
+  transition: 1s background ease;
 }
 
 .card__face--back {
@@ -623,98 +629,91 @@ details[open] summary:before {
   transform: rotateY(180deg);
 }
 
+/*
+
 .stat-grid {
   gap: 2vw;
 }
-
 .grid-sizer {
   width: 33%;
   height: 8rem;
+
 }
 
+
+
+
+
 .stat-item {
+//  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+//  padding: 3vw;
   width: 30%;
   gap: 1.4rem;
-}
-.stat-item .the-icon {
-  font-size: 4em;
-}
-.stat-item .stat-label {
-  font-size: 1.1rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  margin-top: 0.4rem;
-}
-.stat-item .stat-content b {
-  display: block;
-  line-height: 1;
-}
-.stat-item .stat-value {
-  font-size: calc(1.765rem + 6.18vw);
-  font-variation-settings: "wght" 200;
-}
-@media (min-width: 1200px) {
-  .stat-item .stat-value {
-    font-size: 6.4rem;
+
+//  width: 25%;
+
+//  height: 10em;
+
+//  margin: 1%;
+
+  .the-icon {
+    font-size: 4em;
   }
-}
-.stat-item.fs-1 .stat-value {
-  font-size: calc(1.525rem + 3.3vw);
-}
-@media (min-width: 1200px) {
-  .stat-item.fs-1 .stat-value {
-    font-size: 4rem;
+
+//  background: #000;
+
+  .stat-label {
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 0.4rem;
   }
-}
-.stat-item.fs-2 .stat-value {
-  font-size: calc(1.565rem + 3.78vw);
-}
-@media (min-width: 1200px) {
-  .stat-item.fs-2 .stat-value {
-    font-size: 4.4rem;
+
+  .stat-icon {
+//    display: none;
   }
-}
-.stat-item.fs-3 .stat-value {
-  font-size: calc(1.605rem + 4.26vw);
-}
-@media (min-width: 1200px) {
-  .stat-item.fs-3 .stat-value {
-    font-size: 4.8rem;
+
+  .stat-content b {
+    display: block;
+    line-height: 1;
   }
-}
-.stat-item.fs-4 .stat-value {
-  font-size: calc(1.645rem + 4.74vw);
-}
-@media (min-width: 1200px) {
-  .stat-item.fs-4 .stat-value {
-    font-size: 5.2rem;
+
+  .stat-value {
+    @include font-size(6.4rem);
+    font-variation-settings: "wght" 200;
   }
-}
-.stat-item.fs-5 .stat-value {
-  font-size: calc(1.725rem + 5.7vw);
-}
-@media (min-width: 1200px) {
-  .stat-item.fs-5 .stat-value {
-    font-size: 6rem;
+
+  &.fs-1 .stat-value {
+    @include font-size(4rem);
   }
-}
-.stat-item.fs-6 .stat-value {
-  font-size: calc(1.825rem + 6.9vw);
-}
-@media (min-width: 1200px) {
-  .stat-item.fs-6 .stat-value {
-    font-size: 7rem;
+  &.fs-2 .stat-value {
+    @include font-size(4.4rem);
   }
+  &.fs-3 .stat-value {
+    @include font-size(4.8rem);
+  }
+  &.fs-4 .stat-value {
+    @include font-size(5.2rem);
+  }
+  &.fs-5 .stat-value {
+    @include font-size(6rem);
+  }
+  &.fs-6 .stat-value {
+    @include font-size(7rem);
+  }
+
+
 }
 
 .w-66 {
   width: 60%;
 }
 
+*/
 li {
   --regularContent-lineHeight: 1.3;
   margin-bottom: 0.6rem;

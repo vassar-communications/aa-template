@@ -30,13 +30,14 @@ $page_title = "Vassar Admission";
 <?php echo sec_regularContent(
   null,
   'ticker-section theme-cream',
-  'animation-zoom-in animate-when-content-appears',
+  'animation-fade-in animate-when-content-appears animation-group',
+  ['css' => '--sequential-animation-item-gap: 0.3s;']
 ); ?>
 
-<p><span class="intro-line">A Vassar education opens minds and doors.</span></p>
-  <p>Each year, Vassar aims to enroll the most</p>
-<?php echo vassar_is_awesome(); ?>
-    <p>first-year class possible.</p>
+<p class="animation-item"><span class="intro-line">A Vassar education opens minds and doors.</span></p>
+  <p class="animation-item">Each year, Vassar aims to enroll the most</p>
+<?php echo vassar_is_awesome('animation-item'); ?>
+    <p class="animation-item">first-year class possible.</p>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -198,10 +199,10 @@ echo row_fancyStats();
 
 ?>
 
-<div class="d-flex">
+<div class="d-flex" style="gap: 2vw;">
 
   <?php echo flipcard_stat(
-    'Average aid award',
+    'Average Aid Award',
     '$54K',
     'other stuff goes here',
     null,
@@ -210,8 +211,8 @@ echo row_fancyStats();
   ?>
 
   <?php echo flipcard_stat(
-    'Average aid award',
-    '$54K',
+    'Majors',
+    '51',
     'other stuff goes here',
     null,
     '--flipcard-height: 20rem',
@@ -219,14 +220,23 @@ echo row_fancyStats();
   ?>
 
   <?php echo flipcard_stat(
-    'Average aid award',
-    '$54K',
+    'Student Orgs',
+    '170',
     'other stuff goes here',
     null,
     '--flipcard-height: 20rem',
   );
   ?>
-    
+
+  <?php echo flipcard_stat(
+    'Varsity Teams',
+    '27',
+    'other stuff goes here',
+    null,
+    '--flipcard-height: 20rem',
+  );
+  ?>
+
 </div>
 
 

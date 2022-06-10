@@ -129,11 +129,11 @@ TMP;
 
 
 
-function vassar_is_awesome() {
+function vassar_is_awesome($classes) {
   $our_qualities = '<ul><li>interesting</li><li>talented</li><li>diverse</li><li>imaginative</li><li>innovative</li><li>curious</li><li>driven</li><li>principled</li><li>unusual</li><li>bold</li></ul>';
 
 return <<<TMP
-<div class="awesome_ticker">
+<div class="awesome_ticker $classes">
   <div id="div1">
 $our_qualities
   </div>
