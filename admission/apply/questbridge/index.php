@@ -52,11 +52,11 @@ $page_classes = "";
 
 <?php echo end_sec_hasColumns(); ?>
 
-<?php echo sec_wideContent(
+<?php echo sec_regularContent(
     null,
     null,
     '',
-    'mw-4'
+    ''
 ); ?>
 
 
@@ -74,7 +74,7 @@ $page_classes = "";
 
 
 </p>
-<?php echo end_sec_wideContent(); ?>
+<?php echo end_sec_regularContent(); ?>
 
 
 <?php echo relatedTopics(); ?>
