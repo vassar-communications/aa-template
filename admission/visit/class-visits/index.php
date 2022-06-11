@@ -33,7 +33,35 @@ $page_classes = "";
 
 
 <?php /*  PAGE CONTENT === */ ?>
+<?php echo sec_wideContent(
+    null,
+    null,
+    null,
+    'mw-4'
+); ?>
 
+
+<?php echo sec_hasColumns(
+    null,
+    2,
+    null,
+    'animate-when-content-appears animation-slide-up',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
+); ?>
+
+<?php echo item_col('equal'); ?>
+<h3 class="display-5">The Vassar Classroom Visited</h3>
+<p>Want to experience the virtual Vassar classroom? Check out these pre-recorded classes on a range of topics, including music, astronomy, political science, and many more.</p>
+<?php echo end_item_col(); ?>
+<?php echo item_col('equal'); ?>
+
+<img src="https://vassartest.chuckyatsuk.com/img/placeholder.jpg" />
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
+<?php echo end_sec_wideContent(); ?>
 
 
 <?php echo relatedTopics(); ?>

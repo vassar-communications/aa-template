@@ -17,6 +17,8 @@ $page_title = "Vassar Admission";
 
 <?php echo site_header(); ?>
 
+<?php echo vassar_masthead(); ?>
+
     <!--<div class="buffer"></div>-->
 
 <?php echo sec_siteHeader_video(); ?>
@@ -40,10 +42,28 @@ $page_title = "Vassar Admission";
     ['css' => '--sequential-animation-item-gap: 0.3s;']
 ); ?>
 
+<style>
+.ticker-section strong {
+  color: var(--color-vassar-burgundy);
+}
+
+.pattern-site-nav {
+    display: none;
+}
+
+</style>
+
     <p class="animation-item"><span class="intro-line">A Vassar education opens minds and doors.</span></p>
+
+    <p>Each year, Vassar aims to enroll the most <strong>interesting</strong>, <strong>talented</strong>, and <strong>diverse</strong> first-year class possible.</p>
+
+<!--
     <p class="animation-item">Each year, Vassar aims to enroll the most</p>
-<?php echo vassar_is_awesome('animation-item'); ?>
+<?php // echo vassar_is_awesome('animation-item'); ?>
     <p class="animation-item">first-year class possible.</p>
+-->
+
+
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -271,7 +291,7 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
         'bg-image-alt' => 'alt text',
         'css' => '
       --section-title-size: 14vw;
-      --section-title-faded-opacity: 0.1;
+      --section-title-faded-opacity: 0.2;
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0.1;
       '
@@ -381,7 +401,106 @@ All Vassar students are surrounded by an environment designed to spark something
     <!-- end visit -->
 
 
+    <!-- you may be wondering -->
 
+    <?php echo sec_fixedCenteredTitle(
+        '<b class="slide-from-left">You may</b>
+       <b class="slide-from-right">be wondering:</b>',
+        '<p class="section-intro-text">Here are a few quick answers to common questions. More questions? Check out our <a href="">Quick Facts</a>. Even more questions? <a href="">Contact us</a>.
+       </p>
+
+       <div class="text-center">
+       <a href="" class="cta-link">Learn more about Vassar</a>
+       </div>
+
+       ',
+        'sec-fixedCenteredTitle theme-cream xfeatured-video',
+        'mw-4',
+        ['bg-image-url' => 'visit/0216-18-10-jsu-fall-drone-vassar-R01895.jpg',
+            'bg-image-alt' => 'alt text',
+            'css' => '
+          --section-title-size: 9vw;
+          --title-container-bg-beforeContent: rgba(0,0,0,0.4);
+          --section-title-faded-opacity: 0.2;
+          --section-bg-image-opacity: 0.1;
+          --section-title-faded-color: #000;
+
+
+          '
+        ]
+    ); ?>
+
+
+    <div class="grid cols-3" style="--bs-gap: 1rem">
+        <?php echo item_iconButton(
+          'car',
+          'Students are allowed to have cars on campus.',
+          'vassar.edu',
+          'btn-card'
+        ); ?>
+
+        <?php echo item_iconButton(
+          'clipboard-check',
+          'Vassar does not currently require SAT or ACT scores.',
+          'vassar.edu',
+          'btn-card'
+        ); ?>
+
+        <?php echo item_iconButton(
+          'coins',
+          'Vassar meets all demonstrated financial need for all four years.',
+          'vassar.edu',
+          'btn-card'
+        ); ?>
+
+        <?php echo item_iconButton(
+          'house-chimney-user',
+          'Housing is guaranteed for all four years.',
+          'vassar.edu',
+          'btn-card'
+        ); ?>
+
+        <?php echo item_iconButton(
+          'people-arrows-left-right',
+          'Interviews aren’t required, but they’re informative.',
+          'vassar.edu',
+          'btn-card'
+        ); ?>
+
+        <?php echo item_iconButton(
+          'book-open',
+          'We award credit for AP scores of 4/5 and IB scores of 5/6/7.',
+          'vassar.edu',
+          'btn-card'
+        ); ?>
+
+        <?php echo item_iconButton(
+          'people-group',
+          'Vassar College does not have frats or sororities.',
+          'vassar.edu',
+          'btn-card'
+        ); ?>
+
+        <?php echo item_iconButton(
+          'passport',
+          'Undocumented/DACA-mented applicants welcome.',
+          'vassar.edu',
+          'btn-card'
+        ); ?>
+
+        <?php echo item_iconButton(
+          'graduation-cap',
+          'Many Vassar grads go on to the best law/med schools.',
+          'vassar.edu',
+          'btn-card'
+        ); ?>
+
+
+    </div>
+
+<?php echo end_sec_fixedCenteredTitle(); ?>
+
+    <!-- end you may be wondering -->
 
     <div class="buffer"></div>
 

@@ -12,19 +12,6 @@
 function hamburger_navigation($extras = false) {
 $template = <<<TMP
 
-<style>
-.hamburger-navigation {
-    position: absolute;
-    top:  1em;
-    right: 1em;
-    z-index: 22;
-}
-
-.offcanvasmain {
-  z-index:9999;
-}
-</style>
-
 <div class="hamburger-navigation">
 
 <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">Menu <span class="fa-solid fa-bars"></button>

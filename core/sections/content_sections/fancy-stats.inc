@@ -17,8 +17,9 @@ return <<<TMP
     </div>
   </div>
 
+
   <div class="col-item symbol-item symbol-div">
-    ÷
+    <!-- ÷ -->
   </div>
 
   <div class="col-item stat-item item-faculty">
@@ -31,7 +32,7 @@ return <<<TMP
   </div>
 
   <div class="col-item symbol-item symbol-equals">
-    =
+    <!-- = -->
   </div>
 
   <div class="col-item stat-item item-ratio">
