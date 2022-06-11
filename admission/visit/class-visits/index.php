@@ -50,12 +50,12 @@ $page_classes = "";
 ); ?>
 
 <?php echo item_col('equal'); ?>
-<h3>Vassar believes in building a vibrant community of global citizens. </h3>
-<p>Vassar students come from more than 79 countries around the world and international students make up more than 10% of our community.</p>
+<h3 class="display-5">The Vassar Classroom Visited</h3>
+<p>Want to experience the virtual Vassar classroom? Check out these pre-recorded classes on a range of topics, including music, astronomy, political science, and many more.</p>
 <?php echo end_item_col(); ?>
 <?php echo item_col('equal'); ?>
 
-<img src="https://uc307bcb8b4bc4928b12a097531a.previews.dropboxusercontent.com/p/thumb/ABj5UGPuafkNHI_MQW9_R6M0OJ8lrpWnN_Lc6RkZr4ai19gxyT5VOLwJ1JWYS6BgN5KiEaGXedaj36GsI8EYv0j4v7TADYUGnqBcXIPovL6w_0nWg3FWORhNxkb5KFYbdqPSM_RLKhmMO6Nc9BqehrUE89aCsI4JP4G-WVGjYjcqOI-FHS_wGwg1D1mPxFFbEj_TC1LauowxgZproQBtCN3e8ykXSmmqxCf_KfJCULLgMafd3VTMNMbWAJlhLNAYzNvAU-LdT5twbjKFM2xGSuH53hwYfwNcjO3F4ralOWLzdERDPu3hpduER6Z6GpJPACO1GDqGUbugsTgLNkZiPJNzSUki-OrB1tZNj2xaZJgwURYZLy8_0wzPXDOhcQf27MQ/p.jpeg" />
+<img src="https://vassartest.chuckyatsuk.com/img/placeholder.jpg" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
