@@ -3150,14 +3150,14 @@ This should be a section option
 /* Basic links */
 a:link {
   background-color: var(--section-link-bg-color, transparent);
-  color: var(--section-link-color, #f00);
+  color: var(--section-link-color, var(--color-vassar-burgundy));
 }
 a:visited {
-  color: var(--section-link-visited-color, #888);
+  color: var(--section-link-visited-color, var(--color-vassar-burgundy));
 }
 a:hover, a:visited:hover {
   background-color: var(--section-link-hover-bg-color, transparent);
-  color: var(--section-link-hover-color, #000);
+  color: var(--section-link-hover-color, var(--color-vassar-burgundy));
 }
 
 /* Section themes */
@@ -3166,9 +3166,9 @@ a:hover, a:visited:hover {
   --section-title-color: var(--color-vassar-cream);
   --section-text-color: var(--color-vassar-cream);
   --section-link-bg-color: transparent;
-  --section-link-color: #ff0;
-  --section-link-visited-color: #888;
-  --section-link-hover-bg-color: var(--color-vassar-burgundy);
+  --section-link-color: var(--color-vassar-cream);
+  --section-link-visited-color: var(--color-vassar-cream);
+  --section-link-hover-bg-color: transparent;
   --section-link-hover-color: #fff;
 }
 .theme-burgundy.quad-pattern {
@@ -3182,9 +3182,9 @@ a:hover, a:visited:hover {
   --section-title-color: var(--color-vassar-cream);
   --section-text-color: var(--color-vassar-cream);
   --section-link-bg-color: transparent;
-  --section-link-color: #ff0;
-  --section-link-visited-color: #888;
-  --section-link-hover-bg-color: var(--color-vassar-burgundy);
+  --section-link-color: var(--color-vassar-cream);
+  --section-link-visited-color: var(--color-vassar-cream);
+  --section-link-hover-bg-color: transparent;
   --section-link-hover-color: #fff;
 }
 .theme-dark-burgundy.quad-pattern {
@@ -3199,9 +3199,9 @@ a:hover, a:visited:hover {
   --section-title-border-color: var(--color-vassar-darkgray);
   --section-text-color: var(--color-vassar-cream);
   --section-link-bg-color: transparent;
-  --section-link-color: #ff0;
-  --section-link-visited-color: #888;
-  --section-link-hover-bg-color: var(--color-vassar-burgundy);
+  --section-link-color: var(--color-vassar-cream);
+  --section-link-visited-color: var(--color-vassar-cream);
+  --section-link-hover-bg-color: transparent;
   --section-link-hover-color: #fff;
   --box-shadow-color: rgba(0,0,0,0.6);
 }
@@ -3217,10 +3217,10 @@ a:hover, a:visited:hover {
   --section-title-border-color: #f00;
   --section-text-color: var(--color-vassar-charcoal);
   --section-link-bg-color: transparent;
-  --section-link-color: #ff0;
-  --section-link-visited-color: #888;
-  --section-link-hover-bg-color: var(--color-vassar-burgundy);
-  --section-link-hover-color: #fff;
+  --section-link-color: var(--color-vassar-charcoal);
+  --section-link-visited-color: var(--color-vassar-charcoal);
+  --section-link-hover-bg-color: transparent;
+  --section-link-hover-color: var(--color-vassar-charcoal);
 }
 .theme-cream.quad-pattern {
   --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-black.png);
@@ -3234,10 +3234,10 @@ a:hover, a:visited:hover {
   --section-title-border-color: #f00;
   --section-text-color: var(--color-vassar-charcoal);
   --section-link-bg-color: transparent;
-  --section-link-color: #ff0;
-  --section-link-visited-color: #888;
-  --section-link-hover-bg-color: #000;
-  --section-link-hover-color: #0ff;
+  --section-link-color: var(--color-vassar-charcoal);
+  --section-link-visited-color: var(--color-vassar-charcoal);
+  --section-link-hover-bg-color: transparent;
+  --section-link-hover-color: var(--color-vassar-charcoal);
 }
 .theme-rose.quad-pattern {
   --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-white.png);
@@ -3310,19 +3310,24 @@ h6.nav-guide.serif {
   z-index: 9999;
 }
 
-.accordion-button:not(.collapsed)::after {
+.offcanvas .accordion-button:not(.collapsed)::after {
   content: "\f057";
   font-family: "Font Awesome 6 Free";
   background-image: none;
 }
 
-.accordion-button.collapsed::after {
+.offcanvas .accordion-button.collapsed::after {
   content: "\f067";
   font-weight: 400;
   font-family: "Font Awesome 6 Free";
   background-image: none;
 }
 
+.offcanvas a {
+  text-decoration: none;
+}
+
+/* 5. Issues to Fix DEV */
 .fix, .fix a, a.fix {
   color: lime !important;
   font-weight: 900;
