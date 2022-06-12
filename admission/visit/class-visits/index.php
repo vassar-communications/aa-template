@@ -33,12 +33,6 @@ $page_classes = "";
 
 
 <?php /*  PAGE CONTENT === */ ?>
-<?php echo sec_wideContent(
-    null,
-    null,
-    null,
-    'mw-4'
-); ?>
 
 
 <?php echo sec_hasColumns(
@@ -61,7 +55,26 @@ $page_classes = "";
 <?php echo end_sec_hasColumns(); ?>
 
 
-<?php echo end_sec_wideContent(); ?>
+
+<?php echo sec_hasColumns(
+    null,
+    3,
+    null,
+    '',
+    ''
+); ?>
+
+<?php echo item_col(''); ?>
+
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(''); ?>
+
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
 
 
 <?php echo relatedTopics(); ?>

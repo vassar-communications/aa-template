@@ -33,29 +33,37 @@ $page_classes = "";
 <?php /*  PAGE CONTENT === */ ?>
 
 
+<?php echo sec_wideContent(
+    '',
+    '',
+    '',
+    'mw-4'
+); ?>
 
 <?php echo sec_hasColumns(
     null,
     2,
     null,
-    'animate-when-content-appears animation-slide-up',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
+    '',
+    ''
 ); ?>
 
-<?php echo item_col('equal'); ?>
+<?php echo item_col(''); ?>
 
 
 <p>Applying for financial aid can be daunting, but we’re here to help you through each step. If you have any questions, contact finaid@vassar.edu or visit Student Financial Services.</p>
 <a href="https://offices.vassar.edu/student-financial-services/"  class="px-0 btn btn-link">Visit Student Financial Services<i class="circle fa-solid fa-angle-right"></i></a>
 <?php echo end_item_col(); ?>
 
-<?php echo item_col('equal'); ?>
+<?php echo item_col(''); ?>
 
 
 <img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
+
+<?php echo end_sec_wideContent(); ?>
 
 <?php echo sec_regularContent(
     null,
