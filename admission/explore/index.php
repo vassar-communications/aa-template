@@ -64,28 +64,30 @@ $page_classes = "";
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/0084-19-05-ja-kumar-class-vassar-253.jpg',
-    'image-is-first',
+    'image-is-first theme-charcoal',
     'mw-100'
 ); ?>
-<h2>Academics</h2>
+<div class="animate-when-content-appears animation-slide-up">
+<h2 class="display-2">Academics</h2>
 <p>The Vassar curriculum is diverse, flexible, and fiercely bold. We were one of the country’s first colleges to experiment with interdepartmental courses in the early 20th century, and we have never stopped evolving. This is what makes a Vassar education future-facing.</p>
 
 <a href="/admission/explore/academics/" class="px-0 btn btn-link">Explore Academics <i class="circle fa-solid fa-angle-right"></i></a>
-
+</div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/Raymond-0204-19-11-kwe-raymond-parlor-vassar-vb-2823.jpg',
-    '',
+    'theme-charcoal',
     'mw-100'
 ); ?>
-<h2>Student Life</h2>
+<div class="animate-when-content-appears animation-slide-up">
+<h2 class="display-2">Student Life</h2>
 <p>Vassar’s community is full of character, collaboration, and diversity. People of all perspectives and backgrounds come here to learn, work, and live together in the proud tradition of a residential liberal arts college.</p>
 
 <a href="/admission/explore/student-life/" class="px-0 btn btn-link">Explore Student Life <i class="circle fa-solid fa-angle-right"></i></a>
-
+</div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
@@ -93,55 +95,62 @@ $page_classes = "";
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/muslim-prayer-space-1910-nz-201448.jpg',
-    'image-is-first',
+    'image-is-first theme-charcoal',
     'mw-100'
 ); ?>
-<h2>Diversity & Inclusion</h2>
+<div class="animate-when-content-appears animation-slide-up">
+<h2 class="display-2">Diversity & Inclusion</h2>
 <p>We celebrate our differences and our connections and provide resources that are committed to the healthy support of all members of our community.</p>
 
 <a href="/admission/explore/diversity-inclusion/" class="px-0 btn btn-link">Explore Diversity & Inclusion <i class="circle fa-solid fa-angle-right"></i></a>
+</div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/0216-18-10-jsu-fall-drone-vassar-R07705.jpg',
-    '',
+    'theme-charcoal',
     'mw-100'
 ); ?>
-<h2>Campus</h2>
+<div class="animate-when-content-appears animation-slide-up">
+<h2 class="display-2">Campus</h2>
 <p>On Vassar’s 1,000-acre campus, students have access to timeless architecture blended with cutting-edge facilities.</p>
 
 
 
 <a href="/admission/explore/campus/" class="px-0 btn btn-link">Explore Campus <i class="circle fa-solid fa-angle-right"></i></a>
+
+</div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/0002-20-01-kr-scc-networking-vassar-0041.jpg',
-    'image-is-first',
+    'image-is-first theme-charcoal ',
     'mw-100'
 ); ?>
-<h2>Outcomes</h2>
+<div class="animate-when-content-appears animation-slide-up">
+<h2 class="display-2">Outcomes</h2>
 <p>At Vassar, you’ll discover who you are, who you want to be, where you want to go, and how you can get there. We are committed to supporting your growth and success from day one.</p>
 
 
 <a href="/admission/explore/outcomes/" class="px-0 btn btn-link">Explore Outcomes <i class="circle fa-solid fa-angle-right"></i></a>
-
+</div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/Poughkeepsie_night_DSC_8551.jpg',
-    '',
+    'theme-charcoal',
     'mw-100'
 ); ?>
-<h2>Poughkeepsie & The Hudson Valley</h2>
+<div class="animate-when-content-appears animation-slide-up">
+<h2 class="display-2">Poughkeepsie & The Hudson Valley</h2>
 <p>One of the country’s hidden gems is just off campus. Poughkeepsie and the Hudson Valley boast a variety of cultural experiences, dining, shopping, and 22 surrounding parks.</p>
 
 <a href="/admission/explore/poughkeepsie-hudson-valley/" class="px-0 btn btn-link">Explore Poughkeepsie & The Hudson Valley <i class="circle fa-solid fa-angle-right"></i></a>
-
+</div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 

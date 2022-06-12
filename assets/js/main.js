@@ -290,8 +290,12 @@ $(document).ready(function () {
     });
 
     const iframe = document.getElementById("main-video");
-    iframe.addEventListener("load", function () {
+
+    if (iframe) {
+        iframe.addEventListener("load", function () {
 //    alert("Finish");
-        $('.video-header').removeClass('is-loading').addClass('is-loaded');
-    });
+            $('.video-header').removeClass('is-loading').addClass('is-loaded');
+        });
+    }
+
 });

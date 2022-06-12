@@ -1,6 +1,13 @@
 
-/*
+.fix, .fix  a, a.fix {
+  color: lime!important;
+  font-weight: 900;
+  font-style: italic;
+}
 
+
+/*
+0. Variables
 1. Buttons
 2. Typography
 3. Layout
@@ -8,8 +15,17 @@
 
 */
 
+
+/* 0.  Variables */
+
+
+
 /* 1. Buttons */
 
+
+a.btn-light {
+  background: var(--color-vassar-cream);
+}
 
 .btn-link {
 
@@ -18,15 +34,15 @@
   font-variation-settings: 'wght' 600;
 
 }
-.btn-link:hover {
-  color: var(--color-vassar-charcoal);
-}
+
+
+
 
 i.circle.fa-solid {
   background: transparent;
-  border-color: var(--section-link-color,  var(--color-vassar-charcoal));
+  border-color: var(--section-link-color,  var(--color-vassar-burgundy));
   border: 1px solid;
-  border-color: var(--section-link-color,  var(--color-vassar-charcoal));
+  border-color: var(--section-link-color,  var(--color-vassar-burgundy));
   width: 2rem;
   height: 2em;
   display: inline-flex;
@@ -52,7 +68,7 @@ h6.nav-guide.serif {
   border-bottom: 1px solid var(--color-lightgray);
 }
 
-.display-1,.display-2, .display-3, .display-4, .display-5, .display-6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1,.display-2, .display-3, .display-4, .display-5, .display-6 {
   font-family: var(--font-big-serif);
 }
 
@@ -87,8 +103,7 @@ h6.nav-guide.serif {
   background-image: none;
 }
 
-.offcanvas .accordion-button.collapsed::after {
-  content: "\f067";
+.offcanvas .accordion-button.collapsed::after {;
   font-weight: 400;
   font-family: "Font Awesome 6 Free";
   background-image: none;
@@ -97,10 +112,32 @@ h6.nav-guide.serif {
 .offcanvas a {
   text-decoration: none;
 }
-/* 5. Issues to Fix DEV */
 
-.fix, .fix  a, a.fix {
-color: lime!important;
-  font-weight: 900;
-  font-style: italic;
+
+.vassar-masthead-offcanvas svg {
+  fill: #fff;
+  width: 140px;
 }
+
+
+/* 6. Full Bleed Image Sections */
+
+
+.image-is-first.section.section--full-bleed-image-column .col--text {
+  margin-left: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.column.col--text {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+}
+
