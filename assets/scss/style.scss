@@ -42,8 +42,10 @@ $assets-path: '..';
     --color-vassar-lightgray: #eee;
     --color-vassar-darkgray: #63666A;
     --color-vassar-charcoal: #333;
+    --color-vassar-darkcoal: #111;
 
     --color-vassar-cream: #F8F7F5;
+    --color-vassar-verylightgray: #eee;
     --color-vassar-rose: #F2D4D7;
 
     --nav-link-text-color: #fff;
@@ -167,6 +169,10 @@ end pattern library nav */
 
 @import "_top-level-masthead";
 @import "_section-with-bg";
+
+@import "_content-sections/_section-ticker";
+@import "_tryptych";
+@import "_news-carousel";
 
 @import "_bootstrap-additions";
 @import "_utilities/_all";

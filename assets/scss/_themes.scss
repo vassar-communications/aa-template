@@ -59,6 +59,14 @@ a {
 
 .theme-charcoal {
   --section-bg-color: var(--color-vassar-charcoal);
+}
+.theme-darkcoal {
+  --section-bg-color: var(--color-vassar-darkcoal);
+}
+
+  .theme-charcoal,
+  .theme-darkcoal {
+
   --section-title-color: var(--color-vassar-cream);
   --section-title-border-color: var(--color-vassar-darkgray);
   --section-text-color: var(--color-vassar-cream);
@@ -96,6 +104,27 @@ a {
     --bg-image-opacity: 0.1;
   }
 }
+
+
+.theme-verylightgray {
+  --section-bg-color: var(--color-vassar-verylightgray);
+  --section-title-color: var(--color-vassar-charcoal);
+  --section-title-border-color: #f00;
+  --section-text-color: var(--color-vassar-charcoal);
+
+  --section-link-bg-color: transparent;
+  --section-link-color: #ff0;
+  --section-link-visited-color: #888;
+  --section-link-hover-bg-color: var(--color-vassar-burgundy);
+  --section-link-hover-color: #fff;
+
+  &.quad-pattern {
+    --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-black.png);
+    --bg-image-size: 6rem;
+    --bg-image-opacity: 0.1;
+  }
+}
+
 
 .theme-rose {
   --section-bg-color: var(--color-vassar-rose);

@@ -1,0 +1,30 @@
+.here-to-help {
+  padding-left: 3%;
+  padding-right: 3%;
+
+  .mw-4 {
+    max-width: none;
+  }
+  .card-body {
+    margin-top: -4rem;
+    padding: 1rem;
+    background: #222;
+    color: #eee;
+
+  }
+  h3.card-title {
+      font-size: 1.2rem;
+      font-variation-settings: "wght" 600;
+  }
+}
+
+
+h3.card-title {
+    font-size: 1.2rem;
+    font-variation-settings: "wght" 600;
+}
+
+.card-text {
+    display: flex;
+    flex-flow: column;
+}

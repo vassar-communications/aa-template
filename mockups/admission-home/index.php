@@ -37,15 +37,12 @@ $page_title = "Vassar Admission";
     <!-- animated pullquote goes here -->
 <?php echo sec_regularContent(
     null,
-    'ticker-section theme-cream',
+    'ticker-section theme-verylightgray',
     'animation-fade-in animate-when-content-appears animation-group',
     ['css' => '--sequential-animation-item-gap: 0.3s;']
 ); ?>
 
 <style>
-.ticker-section strong {
-  color: var(--color-vassar-burgundy);
-}
 
 .pattern-site-nav {
     display: none;
@@ -55,7 +52,7 @@ $page_title = "Vassar Admission";
 
     <p class="animation-item"><span class="intro-line">A Vassar education opens minds and doors.</span></p>
 
-    <p>Each year, Vassar aims to enroll the most <strong>interesting</strong>, <strong>talented</strong>, and <strong>diverse</strong> first-year class possible.</p>
+    <p class="animation-item">Each year, Vassar aims to enroll the most <strong>interesting</strong>, <strong>talented</strong>, and <strong>diverse</strong> first-year class possible.</p>
 
 <!--
     <p class="animation-item">Each year, Vassar aims to enroll the most</p>
@@ -73,21 +70,21 @@ $page_title = "Vassar Admission";
     '<b class="slide-from-left">Your college journey</b>
    <b class="slide-from-right nice-big-serif">begins here.</b>',
     '<p class="section-intro-text">Our Admission team is here to help you with:</p>',
-    'sec-fixedCenteredTitle',
+    'sec-fixedCenteredTitle theme-verylightgray here-to-help',
     'mw-4',
     ['bg-image-url' => 'journey/0100-21-10-kr-fw-general-vassar-0057.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
-      --section-title-faded-opacity: 0.2;
       --section-bg-image-opacity: 0.1;
-      --section-title-faded-color: #000;
+      --section-title-faded-color: #444;
+      --bs-gap: 1rem;
       '
     ]
 
 ); ?>
 
-    <div class="grid cols-3">
+    <div class="grid cols-3 animation-zoom-in animate-when-content-appears animation-group">
         <?php echo item_cardWithText(
             'Applying to Vassar',
             '',
@@ -121,7 +118,7 @@ $page_title = "Vassar Admission";
             'animation-item'
         ); ?>
 
-        <p>Have questions? Need Information? Get Vassar’s newsletter and other information about Vassar.</p>
+        <p>Get Vassar’s newsletter and other information about Vassar.</p>
         <p><strong>Learn more</strong> →</p>
 
         <?php echo end_item_cardWithText(); ?>
@@ -129,6 +126,11 @@ $page_title = "Vassar Admission";
 
 
     </div><!-- end layout-masonry -->
+
+    <div class="text-center mt-5">
+    <a href="" class="cta-link mt-4">Contact us</a>
+    </div>
+
 
 <?php echo end_sec_fixedCenteredTitle(); ?>
 
@@ -142,7 +144,7 @@ echo word_cycler('where-from');
 echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">This is</b>
    <b class="slide-from-right">Vassar.</b>',
-    '<p class="intro-line">Vassar is from <b id="where-from">everywhere</b>.</p>
+    '<p class="section-intro-text" style="font-size: 3rem; font-weight: 100;">Vassar is from <b id="where-from">everywhere</b></p>
    <p class="section-intro-text">World-class educations are built on world-wide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will study abroad while at Vassar.</p>
 
 <div class="text-center">
@@ -155,7 +157,7 @@ echo sec_fixedCenteredTitle(
         'bg-image-alt' => 'alt text',
         'css' => '
       --section-title-size: 14vw;
-      --section-title-faded-opacity: 0.2;
+      /* --section-title-faded-opacity: 0.2; */
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0.1;
       --intro-line-color: #fff;
@@ -231,9 +233,7 @@ echo row_fancyStats();
         <?php echo flipcard_stat(
             'Average Aid Award',
             '<span class="dollar">$</span>54<span class="smaller">K</span>',
-            '<ul>
-      <li>Over half of Vassar students receive financial aid.</li>
-    </ul>
+            '<p>More than half of Vassar students receive financial aid.</p>
     ',
     'animation-item',
     '',
@@ -282,23 +282,23 @@ echo row_fancyStats();
    <b class="slide-from-right">places.</b>',
     '<p class="section-intro-text">
 
-Vassar is extremely proud of our 1,000-acre campus. There are buildings that showcase classic architecture blended seamlessly with modern, cutting-edge facilities.
+We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings that showcase classic architecture blended seamlessly with modern, cutting-edge facilities.
 
    </p>',
-    'sec-fixedCenteredTitle theme-charcoal',
+    'sec-fixedCenteredTitle theme-darkcoal',
     'mw-4',
     ['bg-image-url' => 'fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --section-title-size: 14vw;
-      --section-title-faded-opacity: 0.2;
+      /* --section-title-faded-opacity: 0.2; */
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0.1;
       '
     ]
 ); ?>
 
-    <div class="layout-masonry layout-masonry-33 animation-group">
+    <div class="grid--verticalMasonry animation-group cols-3">
 
         <div class="grid-sizer"></div>
 
@@ -307,7 +307,7 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
             null,
             'apple.com',
             ['url' => 'fav-places/0056-21-06-kr-campus-vassar-0006.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item masonry-item text-at-bottom'
+            'animation-item grid-item text-at-bottom'
         ); ?>
 
         <?php echo item_imageCard(
@@ -315,7 +315,7 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
             null,
             'apple.com',
             ['url' => 'fav-places/0212-18-10-kr-library-fall-vassar-3819.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item masonry-item text-at-bottom',
+            'animation-item grid-item text-at-bottom',
             ['hlevel' => 4]
         ); ?>
 
@@ -324,7 +324,7 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
             null,
             'apple.com',
             ['url' => 'fav-places/0195-19-11-kwe-gordon-vassar-1644.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item masonry-item text-at-bottom',
+            'animation-item grid-item text-at-bottom',
             ['hlevel' => 4]
         ); ?>
 
@@ -333,7 +333,7 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
             null,
             'apple.com',
             ['url' => 'fav-places/110619_160over90_Vassar_5483.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item masonry-item text-at-bottom',
+            'animation-item grid-item text-at-bottom',
             ['hlevel' => 4]
         ); ?>
 
@@ -342,7 +342,7 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
             null,
             'apple.com',
             ['url' => 'fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item masonry-item w-66 text-at-bottom',
+            'animation-item grid-item w-66 text-at-bottom',
             ['hlevel' => 4]
         ); ?>
 
@@ -351,7 +351,7 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
             null,
             'apple.com',
             ['url' => 'fav-places/studio.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item masonry-item text-at-bottom',
+            'animation-item grid-item text-at-bottom',
             ['hlevel' => 4]
         ); ?>
 
@@ -382,7 +382,7 @@ All Vassar students are surrounded by an environment designed to spark something
         'bg-image-alt' => 'alt text',
         'css' => '
       --section-title-size: 14vw;
-      --section-title-faded-opacity: 0.1;
+      /* --section-title-faded-opacity: 0.1; */
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0.1;
       '
@@ -406,24 +406,20 @@ All Vassar students are surrounded by an environment designed to spark something
     <?php echo sec_fixedCenteredTitle(
         '<b class="slide-from-left">You may</b>
        <b class="slide-from-right">be wondering:</b>',
-        '<p class="section-intro-text">Here are a few quick answers to common questions. More questions? Check out our <a href="">Quick Facts</a>. Even more questions? <a href="">Contact us</a>.
+        '<p class="section-intro-text">Here are some answers to common questions.
        </p>
 
-       <div class="text-center">
-       <a href="" class="cta-link">Learn more about Vassar</a>
-       </div>
-
        ',
-        'sec-fixedCenteredTitle theme-cream xfeatured-video',
+        'sec-fixedCenteredTitle theme-verylightgray xfeatured-video',
         'mw-4',
         ['bg-image-url' => 'visit/0216-18-10-jsu-fall-drone-vassar-R01895.jpg',
             'bg-image-alt' => 'alt text',
             'css' => '
           --section-title-size: 9vw;
           --title-container-bg-beforeContent: rgba(0,0,0,0.4);
-          --section-title-faded-opacity: 0.2;
+          /* --section-title-faded-opacity: 0.2; */
           --section-bg-image-opacity: 0.1;
-          --section-title-faded-color: #000;
+          --section-title-faded-color: var(--color-vassar-burgundy);
 
 
           '
@@ -468,39 +464,25 @@ All Vassar students are surrounded by an environment designed to spark something
         ); ?>
 
         <?php echo item_iconButton(
-          'book-open',
-          'We award credit for AP scores of 4/5 and IB scores of 5/6/7.',
-          'vassar.edu',
-          'btn-card'
-        ); ?>
-
-        <?php echo item_iconButton(
-          'people-group',
-          'Vassar College does not have frats or sororities.',
-          'vassar.edu',
-          'btn-card'
-        ); ?>
-
-        <?php echo item_iconButton(
           'passport',
           'Undocumented/DACA-mented applicants welcome.',
           'vassar.edu',
           'btn-card'
         ); ?>
 
-        <?php echo item_iconButton(
-          'graduation-cap',
-          'Many Vassar grads go on to the best law/med schools.',
-          'vassar.edu',
-          'btn-card'
-        ); ?>
+    </div>
 
-
+    <div class="text-center mt-5">
+    <a href="" class="cta-link mt-4">More quick facts</a>
     </div>
 
 <?php echo end_sec_fixedCenteredTitle(); ?>
 
     <!-- end you may be wondering -->
+
+<?php echo newsCarousel(); ?>
+
+
 
     <div class="buffer"></div>
 

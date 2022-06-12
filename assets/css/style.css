@@ -25,7 +25,9 @@
   --color-vassar-lightgray: #eee;
   --color-vassar-darkgray: #63666A;
   --color-vassar-charcoal: #333;
+  --color-vassar-darkcoal: #111;
   --color-vassar-cream: #F8F7F5;
+  --color-vassar-verylightgray: #eee;
   --color-vassar-rose: #F2D4D7;
   --nav-link-text-color: #fff;
   --nav-link-bg-color: var(--color-vassar-burgundy);
@@ -840,6 +842,13 @@ li::marker {
   --section-link-hover-bg-color: #000;
   --section-link-hover-color: #fff;
 }
+.theme-verylightgray .cta-link {
+  --section-link-color: var(--color-vassar-burgundy);
+  --section-link-visited-color: var(--color-vassar-burgundy);
+  --section-link-bg-color: #fff;
+  --section-link-hover-bg-color: #000;
+  --section-link-hover-color: #fff;
+}
 .video-header .cta-link {
   --section-link-color: #fff;
   --section-link-visited-color: #fff;
@@ -868,6 +877,25 @@ li::marker {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.grid--verticalMasonry {
+  column-count: var(--vm-columns, 2);
+  column-gap: var(--col-gap, 1rem);
+  line-height: 0;
+}
+.grid--verticalMasonry .grid-item {
+  display: inline-block;
+  margin-bottom: var(--col-gap, 1rem);
+}
+.grid--verticalMasonry.cols-2 {
+  --vm-columns: 2;
+}
+.grid--verticalMasonry.cols-3 {
+  --vm-columns: 3;
+}
+.grid--verticalMasonry.cols-4 {
+  --vm-columns: 4;
 }
 
 .layout-masonry-33 .masonry-item,
@@ -2400,7 +2428,7 @@ This should be a section option
  */
 .sec-fixedCenteredTitle {
   min-height: 100vh;
-  padding-top: 60vh;
+  padding-top: 80vh;
   /*
     position: relative;
 
@@ -2462,7 +2490,7 @@ This should be a section option
   filter: grayscale(100%);
 }
 .sec-fixedCenteredTitle.show-content .section-title {
-  opacity: var(--section-title-faded-opacity, 0.4);
+  opacity: var(--section-title-faded-opacity, 1);
   color: var(--section-title-faded-color, #fff);
 }
 .sec-fixedCenteredTitle.show-content .section-title-container {
@@ -2871,6 +2899,236 @@ This should be a section option
   }
 }
 
+.ticker-section .section-content {
+  max-width: 58rem;
+}
+.ticker-section p {
+  line-height: 1.1;
+  font-family: var(--bs-font-sans-serif);
+}
+.ticker-section p strong {
+  font-variation-settings: "wght" 100;
+  transition: 0.8s all linear;
+  transition-delay: 1.4s;
+}
+.ticker-section .content-appeared strong {
+  color: var(--color-vassar-burgundy);
+  font-variation-settings: "wght" 600;
+}
+.ticker-section .content-appeared strong:nth-child(2) {
+  transition-delay: 1.6s;
+}
+.ticker-section .content-appeared strong:nth-child(3) {
+  transition-delay: 1.8s;
+}
+
+.here-to-help {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.here-to-help .mw-4 {
+  max-width: none;
+}
+.here-to-help .card-body {
+  margin-top: -4rem;
+  padding: 1rem;
+  background: #222;
+  color: #eee;
+}
+.here-to-help h3.card-title {
+  font-size: 1.2rem;
+  font-variation-settings: "wght" 600;
+}
+
+h3.card-title {
+  font-size: 1.2rem;
+  font-variation-settings: "wght" 600;
+}
+
+.card-text {
+  display: flex;
+  flex-flow: column;
+}
+
+/*! Flickity v2.2.2
+https://flickity.metafizzy.co
+---------------------------------------------- */
+.flickity-enabled {
+  position: relative;
+}
+.flickity-enabled:focus {
+  outline: 0;
+}
+.flickity-enabled.is-draggable {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.flickity-enabled.is-draggable .flickity-viewport {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.flickity-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.flickity-button {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.75);
+  border: none;
+  color: #333;
+}
+.flickity-button:hover {
+  background: #fff;
+  cursor: pointer;
+}
+.flickity-button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 5px #19f;
+}
+.flickity-button:active {
+  opacity: 0.6;
+}
+.flickity-button:disabled {
+  opacity: 0.3;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.flickity-button-icon {
+  fill: currentColor;
+}
+
+.flickity-prev-next-button {
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+.flickity-prev-next-button.previous {
+  left: 10px;
+}
+.flickity-prev-next-button.next {
+  right: 10px;
+}
+
+.flickity-rtl .flickity-prev-next-button.previous {
+  left: auto;
+  right: 10px;
+}
+
+.flickity-rtl .flickity-prev-next-button.next {
+  right: auto;
+  left: 10px;
+}
+
+.flickity-prev-next-button .flickity-button-icon {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 60%;
+  height: 60%;
+}
+
+.flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom: -25px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1;
+}
+
+.flickity-rtl .flickity-page-dots {
+  direction: rtl;
+}
+
+.flickity-page-dots .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 8px;
+  background: #333;
+  border-radius: 50%;
+  opacity: 0.25;
+  cursor: pointer;
+}
+
+.flickity-page-dots .dot.is-selected {
+  opacity: 1;
+}
+
+/*	LAYOUT
+	====== */
+html {
+  --carousel-height: 28rem;
+}
+
+.flickity-viewport {
+  position: relative;
+  height: 100% !important;
+}
+
+.carousel {
+  height: var(--carousel-height, 32em);
+}
+
+.carousel .carousel-cell {
+  height: 100%;
+  margin-right: 1em;
+  width: 100%;
+}
+
+.carousel-cell-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  max-width: 70rem;
+  margin: 0 auto;
+  gap: 1.3rem;
+}
+
+.carousel .carousel-cell .image-container {
+  width: fit-content;
+}
+.carousel .carousel-cell .image-container img {
+  max-width: 100%;
+  max-height: var(--carousel-height, 32em);
+}
+
+.figcaption {
+  width: 20rem;
+}
+.figcaption * {
+  margin-top: 0;
+}
+
+/*  Theme
+    ===== */
+.section--carousel {
+  background: #aaa;
+  padding: 4rem;
+}
+
 /*
   This file contains styling that should be added to Bootstrap via the BS settings maps
 */
@@ -3195,6 +3453,14 @@ a:hover, a:visited:hover {
 
 .theme-charcoal {
   --section-bg-color: var(--color-vassar-charcoal);
+}
+
+.theme-darkcoal {
+  --section-bg-color: var(--color-vassar-darkcoal);
+}
+
+.theme-charcoal,
+.theme-darkcoal {
   --section-title-color: var(--color-vassar-cream);
   --section-title-border-color: var(--color-vassar-darkgray);
   --section-text-color: var(--color-vassar-cream);
@@ -3205,7 +3471,8 @@ a:hover, a:visited:hover {
   --section-link-hover-color: #fff;
   --box-shadow-color: rgba(0,0,0,0.6);
 }
-.theme-charcoal.quad-pattern {
+.theme-charcoal.quad-pattern,
+.theme-darkcoal.quad-pattern {
   --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-white.png);
   --bg-image-size: 6rem;
   --bg-image-opacity: 0.16;
@@ -3223,6 +3490,23 @@ a:hover, a:visited:hover {
   --section-link-hover-color: #fff;
 }
 .theme-cream.quad-pattern {
+  --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-black.png);
+  --bg-image-size: 6rem;
+  --bg-image-opacity: 0.1;
+}
+
+.theme-verylightgray {
+  --section-bg-color: var(--color-vassar-verylightgray);
+  --section-title-color: var(--color-vassar-charcoal);
+  --section-title-border-color: #f00;
+  --section-text-color: var(--color-vassar-charcoal);
+  --section-link-bg-color: transparent;
+  --section-link-color: #ff0;
+  --section-link-visited-color: #888;
+  --section-link-hover-bg-color: var(--color-vassar-burgundy);
+  --section-link-hover-color: #fff;
+}
+.theme-verylightgray.quad-pattern {
   --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-black.png);
   --bg-image-size: 6rem;
   --bg-image-opacity: 0.1;
