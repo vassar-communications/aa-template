@@ -18,12 +18,13 @@ $template = <<<TMP
 
 </div>
 
-<div class="offcanvas offcanvas-top h-100 section theme-charcoal" tabindex="-1" id="offcanvas" aria-labelledby="offcanvas">
+<div class="offcanvas offcanvas-top h-100 section theme-dark-burgundy" tabindex="-1" id="offcanvas" aria-labelledby="offcanvas">
   <div class="offcanvas-header d-flex justify-content-end">
     <button class="btn btn-light" type="button"  class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">Close <span class="fa-solid fa-times"></button>
   </div>
   <div class="offcanvas-body">
-   
+  
+  
   </div>
 </div>
 TMP;

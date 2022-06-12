@@ -33,35 +33,116 @@ $page_classes = "";
 
 
 <?php /*  PAGE CONTENT === */ ?>
-<?php echo sec_wideContent(
-    null,
-    null,
-    null,
-    'mw-4'
+
+<?php echo sec_regularContent(
+    'The Vassar Classroom Visited',
+    '',
+    'text-center',
+    ''
 ); ?>
+
+<p>Want to experience the virtual Vassar classroom? Check out these pre-recorded classes on a range of topics, including music, astronomy, political science, and many more.</p>
+
+
+
+<?php echo end_sec_regularContent(); ?>
 
 
 <?php echo sec_hasColumns(
     null,
-    2,
+    3,
     null,
-    'animate-when-content-appears animation-slide-up',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
+    '',
+    ''
 ); ?>
 
-<?php echo item_col('equal'); ?>
-<h3>Vassar believes in building a vibrant community of global citizens. </h3>
-<p>Vassar students come from more than 79 countries around the world and international students make up more than 10% of our community.</p>
+<?php echo item_col(''); ?>
+<?php echo item_cardWithText(
+    'Paulina Bren, Adjunct Associate Professor of International Studies',
+    '#',
+    ['url' => 'https://www.vassar.edu/sites/default/files/oembed_thumbnails/OntDGT0q2u18Ct2LHfiR1iKHGQqp38M76_XlqS_Qf78.', 'alt' => 'Classroom Visits' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>Late Communism in the Eastern Bloc: Can It Tell Us Anything Today?</p>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
-<?php echo item_col('equal'); ?>
 
-<img src="https://uc307bcb8b4bc4928b12a097531a.previews.dropboxusercontent.com/p/thumb/ABj5UGPuafkNHI_MQW9_R6M0OJ8lrpWnN_Lc6RkZr4ai19gxyT5VOLwJ1JWYS6BgN5KiEaGXedaj36GsI8EYv0j4v7TADYUGnqBcXIPovL6w_0nWg3FWORhNxkb5KFYbdqPSM_RLKhmMO6Nc9BqehrUE89aCsI4JP4G-WVGjYjcqOI-FHS_wGwg1D1mPxFFbEj_TC1LauowxgZproQBtCN3e8ykXSmmqxCf_KfJCULLgMafd3VTMNMbWAJlhLNAYzNvAU-LdT5twbjKFM2xGSuH53hwYfwNcjO3F4ralOWLzdERDPu3hpduER6Z6GpJPACO1GDqGUbugsTgLNkZiPJNzSUki-OrB1tZNj2xaZJgwURYZLy8_0wzPXDOhcQf27MQ/p.jpeg" />
+<?php echo item_col(''); ?>
+<?php echo item_cardWithText(
+    'David Esteban, Associate Professor of Biology and The Pauline Newman Director of Science, Technology, and Society',
+    '#',
+    ['url' => 'https://www.vassar.edu/sites/default/files/oembed_thumbnails/OntDGT0q2u18Ct2LHfiR1iKHGQqp38M76_XlqS_Qf78.', 'alt' => 'Classroom Visits' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>What Happens When You Don’t Recover from a Viral Infection?</p>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
+
+
+
+<?php echo item_col(''); ?>
+<?php echo item_cardWithText(
+    'Gisella A. Kagy, Assistant Professor of Economics',
+    '#',
+    ['url' => 'https://www.vassar.edu/sites/default/files/oembed_thumbnails/OntDGT0q2u18Ct2LHfiR1iKHGQqp38M76_XlqS_Qf78.', 'alt' => 'Classroom Visits' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>The Impact of COVID-19 on the Lives of Women in Ethiopia’s Garment Industry</p>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<?php echo end_item_cardWithText(); ?>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(''); ?>
+<?php echo item_cardWithText(
+    'Barry Lam, Associate Professor of Philosophy',
+    '#',
+    ['url' => 'https://www.vassar.edu/sites/default/files/oembed_thumbnails/OntDGT0q2u18Ct2LHfiR1iKHGQqp38M76_XlqS_Qf78.', 'alt' => 'Classroom Visits' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>Why Punish? A Conversation on Retributive Justice</p>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<?php echo end_item_cardWithText(); ?>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(''); ?>
+<?php echo item_cardWithText(
+    'Jonathon Kahn, Professor of Religion',
+    '#',
+    ['url' => 'https://www.vassar.edu/sites/default/files/oembed_thumbnails/OntDGT0q2u18Ct2LHfiR1iKHGQqp38M76_XlqS_Qf78.', 'alt' => 'Classroom Visits' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>The White Disavowal of Racism: What It Means When the Central Park Dog-Walker, Amy Cooper, Says She’s Not a Racist</p>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<?php echo end_item_cardWithText(); ?>
+<?php echo end_item_col(); ?>
+
+
+
+<?php echo item_col(''); ?>
+<?php echo item_cardWithText(
+    'Kathryn Libin, Associate Professor of Music',
+    '#',
+    ['url' => 'https://www.vassar.edu/sites/default/files/oembed_thumbnails/OntDGT0q2u18Ct2LHfiR1iKHGQqp38M76_XlqS_Qf78.', 'alt' => 'Classroom Visits' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>Beethoven, the Eroica Symphony, and Prince Lobkowitz’s Musical Workshop</p>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<?php echo end_item_cardWithText(); ?>
+<?php echo end_item_col(); ?>
+
 
 <?php echo end_sec_hasColumns(); ?>
 
 
-<?php echo end_sec_wideContent(); ?>
+
 
 
 <?php echo relatedTopics(); ?>

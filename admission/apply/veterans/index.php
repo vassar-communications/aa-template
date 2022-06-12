@@ -50,11 +50,11 @@ $page_classes = "";
 <h3>Information for American Veterans</h3>
 <p>Vassar actively seeks to enroll qualified veterans of the U.S. Armed Forces. Vassar fosters these connections through the Posse Veterans Program and the Yellow Ribbon Program, aimed at increasing enrollment of veterans at selective colleges and universities.</p>
 
-
+<?php echo end_item_col(); ?>
 
 <?php echo item_col('equal'); ?>
 
-<?php echo item_col(); ?>
+
 <img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
 <?php echo end_item_col(); ?>
 
