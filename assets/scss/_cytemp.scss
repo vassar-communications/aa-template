@@ -81,6 +81,22 @@ h6.nav-guide.serif {
 }
 
 
+.accordion-button:not(.collapsed)::after {
+  content: "\f057";
+  font-family: "Font Awesome 6 Free";
+  background-image: none;
+}
+
+.accordion-button.collapsed::after {
+
+  content: "\f067";
+  font-weight: 400;
+  font-family: "Font Awesome 6 Free";
+  background-image: none;
+}
+
+
+
 
 .fix, .fix  a, a.fix {
 color: lime!important;
