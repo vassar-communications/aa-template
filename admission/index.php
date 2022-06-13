@@ -19,6 +19,9 @@ $page_title = "Vassar Admission";
 
 <?php echo vassar_masthead(); ?>
 
+<?php echo hamburger_navigation(); ?>
+
+
 <!--<div class="buffer"></div>-->
 
 <?php echo sec_siteHeader_video(); ?>
@@ -34,10 +37,17 @@ $page_title = "Vassar Admission";
 
 <!-- site masthead goes here -->
 
+
+<?php echo toplinksNav(); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-nav.php');?>
+<?php echo end_sec_toplinksNav(); ?>
+
+
+
 <!-- animated pullquote goes here -->
 <?php echo sec_regularContent(
     null,
-    'ticker-section theme-verylightgray',
+    'ticker-section theme-cream',
     'animation-fade-in animate-when-content-appears animation-group',
     ['css' => '--sequential-animation-item-gap: 0.3s;']
 ); ?>

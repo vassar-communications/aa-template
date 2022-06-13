@@ -20,14 +20,14 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo breadcrumbNav('theme-charcoal'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
+
 
 
 
 <?php echo page_masthead('https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg'); ?>
-
+<?php echo breadcrumbNav('theme-cream'); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-breadcrumb.php');?>
+<?php echo end_sec_breadcrumbNav(); ?>
 <?php echo toplinksNav(); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
@@ -42,37 +42,36 @@ $page_classes = "";
 
 <!-- visit -->
 
-<?php echo sec_fixedCenteredTitle(
-    '<b class="slide-from-left">Learning is</b>
-   <b class="slide-from-right">Innovation</b>',
-    '<h3 class="display-5 pb-3">Forge your own path</h3><p class="section-intro-text">
-Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.
-   </p>
-   ',
-    'sec-fixedCenteredTitle theme-dark-burgundy featured-video',
-    'mw-4 text-center',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/explore/academics/0020_15_03_KR_0022.jpg',
-        'bg-image-alt' => 'alt text',
-        'css' => '
-      --section-title-size: 14vw;
-      /* --section-title-faded-opacity: 0.1; */
-      --title-container-bg-beforeContent: rgba(0,0,0,0.4);
-      --section-bg-image-opacity: 0.1;
-      '
-    ]
+
+<?php echo sec_hasColumns(
+    null,
+    2,
+    null,
+    '',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
 ); ?>
 
+<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
+
+<h2 class="display-2">Learning is Innovation</h2>
+<p class="pb-3">Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.</p>
 
 
+<?php echo end_item_col(); ?>
 
-<?php echo end_sec_fixedCenteredTitle(); ?>
+<?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
+<img src="https://vassartest.chuckyatsuk.com/img/explore/academics/0020_15_03_KR_0022.jpg" />
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
 
 <!-- end visit -->
 
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_7630.jpg',
-    'image-is-first theme-charcoal',
+    'image-is-first theme-charcoal bg-dark',
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -87,7 +86,7 @@ Vassar’s open curriculum allows you the freedom and flexibility to pursue your
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/academics/082-21-07-kr-caad-vassar-0065.jpg',
-    'theme-charcoal',
+    'theme-charcoal bg-dark',
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -103,7 +102,7 @@ Vassar’s open curriculum allows you the freedom and flexibility to pursue your
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/0084-19-05-ja-kumar-class-vassar-253.jpg',
-    'image-is-first theme-charcoal',
+    'image-is-first theme-charcoal bg-dark',
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -118,7 +117,7 @@ Vassar’s open curriculum allows you the freedom and flexibility to pursue your
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/academics/lockhart-anna-peru-abroad-1809-alo-8.jpg',
-    'theme-charcoal',
+    'theme-charcoal bg-dark',
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -137,9 +136,9 @@ Vassar’s open curriculum allows you the freedom and flexibility to pursue your
     'mw-3'
 ); ?>
 <div class="py-5 accordion" id="academics">
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="headingMajors">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#Majors" aria-expanded="true" aria-controls="collapseOne">
+    <div class="accordion-item first">
+        <h2 class="accordion-header " id="headingMajors">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Majors" aria-expanded="true" aria-controls="collapseOne">
                 Majors
             </button>
         </h2>
@@ -380,9 +379,63 @@ Vassar’s open curriculum allows you the freedom and flexibility to pursue your
 </div>
 <?php echo end_sec_wideContent(); ?>
 
-<?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
-<?php echo end_sec_relatedTopics(); ?>
+<?php echo sec_wideContent(
+    'More in this Section',
+    '',
+    'theme-cream theme-verylightgray pb-1 presentation',
+    'mw-4'
+); ?>
+
+
+
+<?php echo sec_hasColumns(
+    null,
+    3,
+    null,
+    '',
+    ''
+); ?>
+
+<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
+<a class="card mb-4" href="/admission/explore/campus">
+    <img src="https://vassartest.chuckyatsuk.com/img/explore/hudson/0206-19-11-kwe-rowing-vassar-vb-4395.jpg" class="card-img-top" alt="asdfasdfds">
+    <div class="card-body">
+        <h4 class="card-title h2">Campus</h4>
+        <div class="card-text">
+            <p>Bold thinking converges with breathtaking natural beauty. or Vassar's campus can feel like a world unto itself.</p>
+            <i class="mx-0 circle fa-solid fa-angle-right"></i>
+        </div>
+    </div>
+</a>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
+<a class="card mb-4" href="/admission/explore/student-life">
+    <img src="https://vassartest.chuckyatsuk.com/img/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg" class="card-img-top" alt="asdfasdfds">
+    <div class="card-body">
+        <h4 class="card-title h2">Student Life</h4>
+        <div class="card-text">
+            <p>A strong community is made of every individual.<br/> &nbsp;</p>
+            <i class="mx-0 circle fa-solid fa-angle-right"></i>
+        </div>
+    </div>
+</a>
+<?php echo end_item_col(); ?>
+<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
+<a class="card mb-4" href="/admission/explore/outcomes">
+    <img src="https://vassartest.chuckyatsuk.com/img/explore/outcomes/110619_160over90_Vassar_4689.jpg" class="card-img-top" alt="asdfasdfds">
+    <div class="card-body">
+        <h4 class="card-title h2">Outcomes</h4>
+        <div class="card-text">
+            <p>Vassar is committed to ensuring our students’ growth and progress from Day 1 to beyond graduation.
+            </p>
+            <i class="mx-0 circle fa-solid fa-angle-right"></i>
+        </div>
+    </div>
+</a>
+<?php echo end_item_col(); ?>
+<?php echo end_sec_hasColumns(); ?>
+
+<?php echo end_sec_wideContent(); ?>
+
 <?php echo site_footer(); ?>

@@ -20,13 +20,11 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo breadcrumbNav('theme-charcoal'); ?>
+<?php echo page_masthead('https://vassartest.chuckyatsuk.com/img/explore/outcomes/Commencement_grads_11_JA_2.jpg'); ?>
+
+<?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
-
-
-
-<?php echo page_masthead('https://vassartest.chuckyatsuk.com/img/explore/outcomes/Commencement_grads_11_JA_2.jpg'); ?>
 
 <?php echo toplinksNav(); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-nav.php');?>
@@ -34,7 +32,7 @@ $page_classes = "";
 
 <?php echo sec_wordByWord(
     null,
-    'animate-when-content-appears space-around-image theme-dark-burgundy',
+    'animate-when-content-appears space-around-image',
     ''
 ); ?>
 <p>Life After Vassar</p>

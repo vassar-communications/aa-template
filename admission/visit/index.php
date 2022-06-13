@@ -20,12 +20,13 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo breadcrumbNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
+
 
 <?php echo page_masthead('https://vassartest.chuckyatsuk.com/img/visit/0069-19-05-kr-spring-vassar-4632.jpg'); ?>
 
+<?php echo breadcrumbNav(); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-breadcrumb.php');?>
+<?php echo end_sec_breadcrumbNav(); ?>
 
 <?php echo toplinksNav(); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-visit-nav.php');?>

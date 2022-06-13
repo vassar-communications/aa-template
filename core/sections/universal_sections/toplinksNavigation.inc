@@ -12,10 +12,9 @@
 function toplinksNav($extras = false) {
 $template = <<<TMP
 
-<nav class="main-nav animate-when-content-appears animation-fade-in mw-4 mx-auto px-0">
-<h6 class="serif nav-guide">In this section</h6>
-  <ol class="nav-path">
-      <ul class="nav-current-section animation-group animate-when-content-appears animation-fade-in">
+<nav class="toplinks main-nav section text-center justify-content-start d-flex pl-5 py-3">
+  <ol class="nav-path p-0 m-0">
+      <ul class="nav-current-section mt-0 pt-0">
 
 TMP;
 
