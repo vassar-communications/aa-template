@@ -9,12 +9,12 @@ function newsCarousel() {
   <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-        <img src="https://images.unsplash.com/photo-1620165476214-630ed1d3fec6?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" />
+        <img src="https://vassartest.chuckyatsuk.com/img/news1.jpeg" />
       </div>
       <div class="figcaption">
-        <h3>A title</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <h3 class="h3">Student Earns Goldwater Scholarship for Water Pollution Research</h3>
+        <p>The Goldwater Foundation has awarded a graduate school scholarship to Abigail Whittington ’23 for her research on water pollution.</p>
+      <a href="#" class="btn btn-link">Read More</a>
       </div>
     </div>
   </div>
@@ -22,8 +22,8 @@ function newsCarousel() {
     <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-        <img src="https://images.unsplash.com/photo-1620165476214-630ed1d3fec6?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" />
-      </div>
+        <img src="https://vassartest.chuckyatsuk.com/img/news1.jpeg" />
+         </div>
       <div class="figcaption">
         <h3>A title</h3>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -35,7 +35,7 @@ function newsCarousel() {
       <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-        <img src="https://images.unsplash.com/photo-1620165476214-630ed1d3fec6?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" />
+       <img src="https://vassartest.chuckyatsuk.com/img/news1.jpeg" />
       </div>
       <div class="figcaption">
         <h3>A title</h3>

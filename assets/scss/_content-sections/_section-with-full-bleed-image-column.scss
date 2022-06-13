@@ -24,10 +24,11 @@
     clip-path: inset(0 0 0 0);
 
     img {
-      position: fixed;
+      /* testing position: fixed; */
       top: 0;
       right: 0;
-      width: 50%;
+      /* testing width: 50%; */
+      width: 100%;
       height: 100%;
       object-fit: cover;
       will-change: transform;
