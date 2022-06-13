@@ -7759,6 +7759,10 @@ a:hover, a:visited:hover {
   text-align: center;
 }
 
+.text-color-burgundy {
+  color: var(--color-vassar-burgundy);
+}
+
 @keyframes downshift-in {
   0% {
     opacity: 0;
@@ -8304,6 +8308,7 @@ details[open] summary:before {
   font-size: 1.2rem;
   font-variation-settings: "wght" 400;
   letter-spacing: 0.06em;
+  color: var(--flipcard-title-color, var(--color-vassar-burgundy));
 }
 .flip-card .flipcard__value {
   font-size: calc(1.725rem + 5.7vw);
@@ -9190,7 +9195,8 @@ html {
 .fancy-stats-container {
   display: flex;
   justify-content: center;
-  gap: 2em;
+  gap: 4vw;
+  align-items: center;
 }
 
 .stat-label {
@@ -9198,7 +9204,8 @@ html {
 }
 
 .symbol-item {
-  font-size: 6vw;
+  border-left: 1px solid;
+  height: 4rem;
 }
 
 .fancy-stats-container {
@@ -10346,7 +10353,7 @@ This should be a section option
 }
 
 .section--top-level-masthead {
-  --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
+  --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 60%);
   min-height: 100vh;
   overflow: hidden;
   padding: 0;
@@ -10358,7 +10365,7 @@ This should be a section option
   width: 100vw;
   height: 100vh;
   clip-path: inset(0 0 0 0);
-  --bg-shim-background: rgba(0,0,0,0.2);
+  --bg-shim-background: rgba(0,0,0,0.05);
   --animate-shrink-in-startSize: 1.1;
 }
 .section--top-level-masthead .section-bg {
