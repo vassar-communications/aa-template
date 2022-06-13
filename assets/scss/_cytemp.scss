@@ -68,6 +68,17 @@ i.circle.fa-solid {
 }
 
 
+.tagline {
+  font-size: calc(1.255rem + 0.06vw);
+  text-transform: uppercase;
+  font-variation-settings: "wght" 700;
+  letter-spacing: 0.1rem;
+  display: block;
+  font-family: var(--bs-font-sans-serif);
+}
+
+
+
 /* 3. Layout */
 
 .g-col.column.equal {
@@ -87,6 +98,21 @@ i.circle.fa-solid {
 
 .offcanvasmain {
   z-index:9999;
+}
+
+
+.offcanvas a {
+  text-decoration: none;
+}
+
+
+.vassar-masthead-offcanvas svg {
+  fill: #fff;
+  width: 140px;
+}
+
+.offcanvas-body::-webkit-scrollbar {
+  display: none;
 }
 
 /* 6. Full Bleed Image Sections */
@@ -113,4 +139,20 @@ i.circle.fa-solid {
 .section.section--full-bleed-image-column .section--full-bleed-image-column__content {
 
   max-width: 90ch;
+}
+
+/* For the Demo */
+
+
+.academics .btn-link:hover i {
+  background: white;
+  color: #222222!important;
+}
+
+.academics li::marker {
+  content: '';
+}
+
+.academics .has-intro p {
+  font-size: 1.25rem;
 }

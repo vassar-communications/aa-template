@@ -7,8 +7,8 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "Academics";
-$page_classes = "";
+$page_title = "Explore Academics";
+$page_classes = "academics";
 
 /*  ---------------------- */
 
@@ -75,11 +75,11 @@ $page_classes = "";
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2">Intensives</h2>
-    <p>Dig Deep to Explore Your Interests</p>
+    <h2 class="display-2 mb-5">Intensives</h2>
+    <span class="tagline text-muted mb-2">Dig Deep to Explore Your Interests</span>
     <p>Vassar’s Intensives take the individualized classroom experience further by creating even more opportunities for student-driven exploration and mentored research. Intensives are designed to promote forward-thinking, non-traditional class experiences that catalyze deeper learning.</p>
 
-    <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about intensives <i class="circle fa-solid fa-angle-right"></i></a>
+    <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about Vassar Intensives <i class="circle fa-solid fa-angle-right"></i></a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -90,11 +90,11 @@ $page_classes = "";
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2">Research</h2>
-    <p>Develop Knowledge First-Hand</p>
+    <h2 class="display-2 mb-5">Research</h2>
+    <span class="tagline text-muted mb-2">Develop Knowledge First-Hand</span>
     <p>At Vassar, you can engage in research and make contributions to your field as early as your first year. A multitude of opportunities are available, including research-based classes, paid positions in faculty laboratories, and on-campus intensive summer research programs.</p>
 
-    <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about intensives <i class="circle fa-solid fa-angle-right"></i></a>
+    <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about Research at Vassar <i class="circle fa-solid fa-arrow-right"></i></a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -106,8 +106,8 @@ $page_classes = "";
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2">Community Engaged Learning</h2>
-    <p>Gain Professional Experience While Investing In Our Community</p>
+    <h2 class="display-2 mb-5">Community Engaged Learning</h2>
+    <span class="tagline text-muted mb-2">Gain Professional Experience While Investing In Our Community</span>
     <p>Real-world experience can take your education to the next level, so it’s no surprise that 90% of Vassar students choose to take on an internship. Through Community-Engaged Learning (CEL), you can combine your academic pursuits with hands-on work in the field while earning academic credit. </p>
 
     <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about CEL <i class="circle fa-solid fa-angle-right"></i></a>
@@ -121,17 +121,17 @@ $page_classes = "";
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2">Study abroad</h2>
-    <p>Broaden Your Horizons</p>
+    <h2 class="display-2 mb-5">Study abroad</h2>
+    <span class="tagline text-muted mb-2">Broaden Your Horizons</span>
     <p>Expand your global perspective and explore new ways of thinking by spending a semester or year abroad. Vassar offers more than 130 study abroad options around the world, so no matter your interests, you can find a program that will help you reach your goals.</p>
 
-    <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about intensives <i class="circle fa-solid fa-angle-right"></i></a>
+    <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about study abroad <i class="circle fa-solid fa-angle-right"></i></a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_wideContent(
     'Your Choices = Your Education',
-    'Vassar’s curriculum emphasizes a multidisciplinary approach to intellectual inquiry. With more than 1,000 courses to choose from and an average class size of <a href="#">17</a>, Vassar offers a customizable curriculum to satisfy any curiosity.',
+    '<p>Vassar’s curriculum emphasizes a multidisciplinary approach to intellectual inquiry. With more than 1,000 courses to choose from and an average class size of 17, Vassar offers a customizable curriculum to satisfy any curiosity.</p>',
     'theme-cream pb-1',
     'mw-3'
 ); ?>
@@ -398,13 +398,14 @@ $page_classes = "";
 
 <?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
 <a class="card mb-4" href="/admission/explore/campus">
-    <img src="https://vassartest.chuckyatsuk.com/img/explore/hudson/0206-19-11-kwe-rowing-vassar-vb-4395.jpg" class="card-img-top" alt="asdfasdfds">
+    <img src="https://vassartest.chuckyatsuk.com/img/visit/0191-19-10-ali-library-drone-vassar-vb-2015.jpg" class="card-img-top" alt="asdfasdfds">
     <div class="card-body">
-        <h4 class="card-title h2">Campus</h4>
+        <h4 class="card-title h2">Explore Campus</h4>
         <div class="card-text">
-            <p>Bold thinking converges with breathtaking natural beauty. or Vassar's campus can feel like a world unto itself.</p>
-            <i class="mx-0 circle fa-solid fa-angle-right"></i>
+            <p>Bold thinking converges with breathtaking natural beauty. </p>
+
         </div>
+        <div class="p-0 m-0 d-flex w-100 justify-content-end btn btn-link"><i class="mx-0 circle fa-solid fa-angle-right"></i></div>
     </div>
 </a>
 <?php echo end_item_col(); ?>
@@ -413,11 +414,12 @@ $page_classes = "";
 <a class="card mb-4" href="/admission/explore/student-life">
     <img src="https://vassartest.chuckyatsuk.com/img/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg" class="card-img-top" alt="asdfasdfds">
     <div class="card-body">
-        <h4 class="card-title h2">Student Life</h4>
+        <h4 class="card-title h2">Explore Student Life</h4>
         <div class="card-text">
-            <p>A strong community is made of every individual.<br/> &nbsp;</p>
-            <i class="mx-0 circle fa-solid fa-angle-right"></i>
+            <p>A strong community is made of every individual.</p>
+
         </div>
+        <div class="p-0 m-0 d-flex w-100 justify-content-end btn btn-link"><i class="mx-0 circle fa-solid fa-angle-right"></i></div>
     </div>
 </a>
 <?php echo end_item_col(); ?>
@@ -425,12 +427,12 @@ $page_classes = "";
 <a class="card mb-4" href="/admission/explore/outcomes">
     <img src="https://vassartest.chuckyatsuk.com/img/explore/outcomes/110619_160over90_Vassar_4689.jpg" class="card-img-top" alt="asdfasdfds">
     <div class="card-body">
-        <h4 class="card-title h2">Outcomes</h4>
+        <h4 class="card-title h2">Explore Outcomes</h4>
         <div class="card-text">
             <p>Vassar is committed to ensuring our students’ growth and progress from Day 1 to beyond graduation.
             </p>
-            <i class="mx-0 circle fa-solid fa-angle-right"></i>
         </div>
+        <div class="p-0 m-0 d-flex w-100 justify-content-end btn btn-link"><i class="mx-0 circle fa-solid fa-angle-right"></i></div>
     </div>
 </a>
 <?php echo end_item_col(); ?>
