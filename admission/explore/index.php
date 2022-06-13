@@ -154,21 +154,7 @@ $page_classes = "";
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-<?php echo sec_hasColumns(
-    null,
-    2,
-    null,
-    'theme-cream',
-    null
-); ?>
 
-<?php echo item_col(); ?>
-
-<?php echo end_item_col(); ?>
-
-<?php echo item_col(); ?>
-<?php echo end_item_col(); ?>
-<?php echo end_sec_hasColumns(); ?>
 
 <?php /*  PAGE CONTENT === */ ?>
 

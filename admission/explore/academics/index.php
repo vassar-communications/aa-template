@@ -435,7 +435,6 @@ $page_classes = "";
 </a>
 <?php echo end_item_col(); ?>
 <?php echo end_sec_hasColumns(); ?>
-
 <?php echo end_sec_wideContent(); ?>
 
 <?php echo site_footer(); ?>
