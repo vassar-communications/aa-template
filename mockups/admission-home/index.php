@@ -105,8 +105,7 @@ $page_title = "Vassar Admission";
       --section-bg-image-opacity: 0;
       --section-title-faded-color: #444;
       --bs-gap: 1rem;
-      '
-    ]
+      ']
 
 ); ?>
 
