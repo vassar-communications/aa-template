@@ -429,7 +429,7 @@ end pattern library nav */
   border-width: 0;
   border-color: transparent;
   filter: brightness(1.2);
-  transform: scale(1.1);
+  transform: scale(1.021);
   box-shadow: 0 0.2rem 0.8rem var(--box-shadow-color);
   z-index: 10;
 }
@@ -2449,18 +2449,6 @@ This should be a section option
 .sec-fixedCenteredTitle {
   min-height: 100vh;
   padding-top: 80vh;
-  /*
-    position: relative;
-
-    &:before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 200px;
-      background: #f00;
-      top: -200px;
-    }
-  */
 }
 .sec-fixedCenteredTitle .animation-item {
   opacity: 0%;
@@ -3588,6 +3576,17 @@ a:hover, a:visited:hover {
   --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-white.png);
   --bg-image-size: 6rem;
   --bg-image-opacity: 0.8;
+}
+
+.theme-black-to-white {
+  background-color: #000;
+  transition: 1s all ease;
+}
+.theme-black-to-white .section-bg-image-container {
+  background-color: transparent;
+}
+.theme-black-to-white.show-content {
+  background-color: #eee;
 }
 
 /*

@@ -150,3 +150,19 @@ a {
     --bg-image-opacity: 0.8;
   }
 }
+
+
+.theme-black-to-white {
+  background-color: #000;
+  transition: 1s all ease;
+
+  .section-bg-image-container {
+    background-color: transparent;
+  }
+
+  &.show-content {
+
+    background-color: #eee;
+//    @extend .theme-verylightgray;
+  }
+}

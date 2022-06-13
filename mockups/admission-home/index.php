@@ -147,7 +147,7 @@ echo sec_fixedCenteredTitle(
 <a href="" class="cta-link">Meet Vassar</a>
 </div>',
 
-  'sec-fixedCenteredTitle theme-extralightgray hide-image',
+  'sec-fixedCenteredTitle theme-black-to-white hide-image',
   'mw-4',
     [
       'bg-image-url' => 'journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
@@ -159,7 +159,7 @@ echo sec_fixedCenteredTitle(
       --section-bg-image-opacity: 0.1;
       --intro-line-color: #fff;
       --section-title-faded-color: var(--color-vassar-burgundy);
-
+      --section-bg-color-after-content: #fff;
       '
     ]
 ); ?>
@@ -308,15 +308,15 @@ We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings
 
 </style>
 
-    <div class="animation-group d-flex animation-zoom-in animate-when-content-appears">
+    <div class="animation-group d-flex animation-zoom-in animate-when-content-appears gap-3">
 
-      <?php echo item_imageCard(
-          get_icon('play').'Gordon Commons',
-          null,
-          'apple.com',
-          ['url' => 'fav-places-2/0195-19-11-kwe-gordon-vassar-1644.jpg', 'alt' => 'asdfasdfds' ],
-          'animation-item grid-item text-at-bottom'
-      ); ?>
+        <?php echo item_imageCard(
+            get_icon('play').'Gordon Commons',
+            null,
+            'apple.com',
+            ['url' => 'fav-places-2/0195-19-11-kwe-gordon-vassar-1644.jpg', 'alt' => 'asdfasdfds' ],
+            'animation-item grid-item text-at-bottom'
+        ); ?>
 
         <?php echo item_imageCard(
             get_icon('play').'Shakespeare Garden',
@@ -325,15 +325,16 @@ We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings
             ['url' => 'fav-places-2/0056-21-06-kr-campus-vassar-0006-copy.jpg', 'alt' => 'asdfasdfds' ],
             'animation-item grid-item text-at-bottom'
         ); ?>
-</div>
 
+      </div>
 
+      <div class="animation-group d-flex animation-zoom-in animate-when-content-appears gap-3">
 
         <?php echo item_imageCard(
             get_icon('play').'Thompson Memorial Library',
             null,
             'apple.com',
-            ['url' => 'fav-places/0212-18-10-kr-library-fall-vassar-3819.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => 'fav-places-2/0212-18-10-kr-library-fall-vassar-3819.jpg', 'alt' => 'asdfasdfds' ],
             'animation-item grid-item text-at-bottom'
         ); ?>
 
@@ -341,9 +342,13 @@ We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings
             get_icon('play').'Bridge for Laboratory Sciences',
             null,
             'apple.com',
-            ['url' => 'fav-places/110619_160over90_Vassar_5483.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => 'fav-places-2/farm-ramble-walking-Tour-1709-sal-1.jpg', 'alt' => 'asdfasdfds' ],
             'animation-item grid-item text-at-bottom'
         ); ?>
+
+      </div>
+
+      <div class="animation-group d-flex animation-zoom-in animate-when-content-appears gap-3">
 
         <?php echo item_imageCard(
             get_icon('play').'The Ecological Preserve',
@@ -357,7 +362,7 @@ We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings
             get_icon('play').'Student Picks',
             null,
             'apple.com',
-            ['url' => 'fav-places/studio.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => 'fav-places-2/studio.jpg', 'alt' => 'asdfasdfds' ],
             'animation-item grid-item text-at-bottom'
         ); ?>
 
@@ -395,10 +400,20 @@ All Vassar students are surrounded by an environment designed to spark something
     ]
 ); ?>
 
+<?php /*
     <div class="embed-responsive embed-responsive-16by9 ratio ratio-16x9">
         <iframe title="vimeo-player" src="https://player.vimeo.com/video/531201548?h=eca7efdc85" width="640" height="360" frameborder="0" allowfullscreen></iframe>
     </div>
+*/ ?>
 
+
+<?php echo item_imageCard(
+    get_icon('play').'Student Picks',
+    null,
+    'apple.com',
+    ['url' => 'video-thumbnail.jpg', 'alt' => 'asdfasdfds' ],
+    'text-at-bottom mt-5'
+); ?>
 
 
 
