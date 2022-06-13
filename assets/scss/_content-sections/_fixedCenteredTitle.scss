@@ -9,31 +9,11 @@ This should be a section option
 
 .sec-fixedCenteredTitle {
   min-height: 100vh;
-
   padding-top: 80vh;
-  /*
-    position: relative;
-
-    &:before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 200px;
-      background: #f00;
-      top: -200px;
-    }
-  */
-  //    min-height: calc(100vh + 200px);
-
-
-
-  //    padding-top: 200px;
-
 
   .animation-item {
     @include setup-animation-zoom-in();
   }
-
 
   .section-title-container {
     margin: 0;
@@ -174,4 +154,10 @@ This should be a section option
 
 .fade-the-title {
   --section-title-faded-opacity: 0 !important;
+}
+
+.hide-image {
+  .section-bg-image {
+    display: none;
+  }
 }

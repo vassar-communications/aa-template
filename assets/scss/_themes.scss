@@ -106,7 +106,8 @@ a {
 }
 
 
-.theme-verylightgray {
+.theme-verylightgray,
+.theme-extralightgray {
   --section-bg-color: var(--color-vassar-verylightgray);
   --section-title-color: var(--color-vassar-charcoal);
   --section-title-border-color: var(--color-vassar-red);
@@ -125,6 +126,11 @@ a {
   }
 }
 
+.theme-extralightgray {
+  --section-bg-color: #f0f0f0;
+}
+
+
 
 .theme-rose {
   --section-bg-color: var(--color-vassar-rose);
@@ -142,5 +148,21 @@ a {
     --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-white.png);
     --bg-image-size: 6rem;
     --bg-image-opacity: 0.8;
+  }
+}
+
+
+.theme-black-to-white {
+  background-color: #000;
+  transition: 1s all ease;
+
+  .section-bg-image-container {
+    background-color: transparent;
+  }
+
+  &.show-content {
+
+    background-color: #eee;
+//    @extend .theme-verylightgray;
   }
 }

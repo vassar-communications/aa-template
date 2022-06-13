@@ -26,5 +26,41 @@ h3.card-title {
 
 .card-text {
     display: flex;
-    flex-flow: column;
+
+    p:first-child {
+      flex: 1;
+    }
+}
+
+.card-has-cta-icon {
+  border: none;
+
+  .card-body {
+    position: relative;
+    border-bottom-right-radius: 1.8rem;
+    padding-right: 6rem;
+
+    &:after {
+      position: absolute;
+      content: '→';
+      border: 1px solid #fff;
+      width: 2rem;
+      height: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      right: 1rem;
+      bottom: 1rem;
+      font-size: 1.4rem;
+      line-height: 0;
+      padding-bottom: 0.12rem;
+    }
+  }
+
+  &:hover .card-body:after {
+    background: #eee;
+    color: #222;
+  }
+
 }
