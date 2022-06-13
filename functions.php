@@ -150,6 +150,7 @@ include($project_paths['main_project_root'].'/core/items/icon-cardButton.inc');
 include($project_paths['main_project_root'].'/core/items/icon-statItem.inc');
 include($project_paths['main_project_root'].'/core/items/cardWithText.inc');
 include($project_paths['main_project_root'].'/core/items/imageCard.inc');
+include($project_paths['main_project_root'].'/core/items/imageCard_modal.inc');
 
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/fancy-stats.inc');

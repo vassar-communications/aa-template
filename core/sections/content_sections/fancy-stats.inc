@@ -41,7 +41,7 @@ return <<<TMP
 
   <div class="col-item stat-item item-ratio">
     <div class="stat-item-fact">
-      <div class="stat-value">8:1</div>
+      <div class="stat-value">8<span class="delimiter-colon">:</span>1</div>
       <div class="stat-label text-color-burgundy">$ratio_icon Student to faculty ratio</div>
     </div>
   </div>

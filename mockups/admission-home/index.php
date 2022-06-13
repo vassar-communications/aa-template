@@ -34,6 +34,32 @@ $page_title = "Vassar Admission";
 
     <!-- site masthead goes here -->
 
+<?php
+/*
+    On return: get the modal card working.
+    I might need to activate the carousel module in the local
+    BS; looks like Chuck disabled some things.
+
+    Also, the including the modal card function breaks this
+    when I upload it to aa-devspace
+*/
+
+    echo item_imageCard_modal(
+      null,
+      'text',
+      'a-modal',
+      '<div class="ratio ratio-16x9">
+        <iframe id="video-id--2041" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/aHxtG6CJQso?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
+      </div>',
+      ['url' => 'fav-places-2/0195-19-11-kwe-gordon-vassar-1644.jpg',
+      'alt' => 'asdfasdf'
+      ],
+      'a-class'
+    );
+
+?>
+
+
     <!-- animated pullquote goes here -->
 <?php echo sec_regularContent(
     null,
@@ -76,13 +102,14 @@ $page_title = "Vassar Admission";
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
-      --section-bg-image-opacity: 0.1;
+      --section-bg-image-opacity: 0;
       --section-title-faded-color: #444;
       --bs-gap: 1rem;
       '
     ]
 
 ); ?>
+
 
     <div class="grid cols-3 animation-zoom-in animate-when-content-appears animation-group">
         <?php echo item_cardWithText(
@@ -153,10 +180,10 @@ echo sec_fixedCenteredTitle(
       'bg-image-url' => 'journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
-      --section-title-size: 14vw;
+      --section-title-size: 10vw;
       /* --section-title-faded-opacity: 0.2; */
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
-      --section-bg-image-opacity: 0.1;
+      --section-bg-image-opacity: 0;
       --intro-line-color: #fff;
       --section-title-faded-color: var(--color-vassar-burgundy);
       --section-bg-color-after-content: #fff;
@@ -250,7 +277,7 @@ echo row_fancyStats();
   <?php echo flipcard_stat(
     'Student Orgs',
     '170',
-    '<p>There’s no lack of ways to spend your energy at Vassar.</p>',
+    '<p>There are many ways to get involved at Vassar.</p>',
     'animation-item'
   );
   ?>
@@ -258,7 +285,7 @@ echo row_fancyStats();
   <?php echo flipcard_stat(
     'Varsity Teams',
     '27',
-    '<p>Athletics have always been an important facet of the Vassar experience.</p>',
+    '<p>Athletics has always been an important facet of the Vassar experience.</p>',
     'animation-item'
   );
   ?>
@@ -289,10 +316,10 @@ We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings
     ['bg-image-url' => 'fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
-      --section-title-size: 14vw;
+      --section-title-size: 10vw;
       /* --section-title-faded-opacity: 0.2; */
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
-      --section-bg-image-opacity: 0.1;
+      --section-bg-image-opacity: 0;
       '
     ]
 ); ?>
@@ -314,52 +341,53 @@ We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings
 
 </style>
 
-    <div class="animation-group d-flex animation-zoom-in animate-when-content-appears gap-3  mb-3">
+    <div class="animation-group staggered-grid animation-zoom-in animate-when-content-appears gap-3  mb-3">
 
-        <?php echo item_imageCard(
-            get_icon('play').'Gordon Commons',
-            null,
-            'apple.com',
-            ['url' => 'fav-places-2/0195-19-11-kwe-gordon-vassar-1644.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item grid-item text-at-bottom'
-        ); ?>
+      <?php echo item_imageCard(
+          get_icon('play').'Bridge for Laboratory Sciences',
+          null,
+          'https://www.vassar.edu',
+          ['url' => 'fav-places-2/110619_160over90_Vassar_5483.jpg', 'alt' => 'asdfasdfds' ],
+          'animation-item grid-item text-at-bottom'
+      ); ?>
 
         <?php echo item_imageCard(
             get_icon('play').'Shakespeare Garden',
             null,
-            'apple.com',
+            'https://www.vassar.edu',
             ['url' => 'fav-places-2/0056-21-06-kr-campus-vassar-0006-copy.jpg', 'alt' => 'asdfasdfds' ],
             'animation-item grid-item text-at-bottom'
         ); ?>
 
       </div>
 
-      <div class="animation-group d-flex animation-zoom-in animate-when-content-appears gap-3 mb-3">
+      <div class="animation-group staggered-grid-reverse animation-zoom-in animate-when-content-appears gap-3 mb-3">
 
         <?php echo item_imageCard(
             get_icon('play').'Thompson Memorial Library',
             null,
-            'apple.com',
+            'https://www.vassar.edu',
             ['url' => 'fav-places-2/0212-18-10-kr-library-fall-vassar-3819.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item grid-item text-at-bottom w-42'
-        ); ?>
-
-        <?php echo item_imageCard(
-            get_icon('play').'Bridge for Laboratory Sciences',
-            null,
-            'apple.com',
-            ['url' => 'fav-places-2/110619_160over90_Vassar_5483.jpg', 'alt' => 'asdfasdfds' ],
             'animation-item grid-item text-at-bottom'
         ); ?>
 
+        <?php echo item_imageCard(
+            get_icon('play').'Gordon Commons',
+            null,
+            'https://www.vassar.edu',
+            ['url' => 'fav-places-2/0195-19-11-kwe-gordon-vassar-1644.jpg', 'alt' => 'asdfasdfds' ],
+            'animation-item grid-item text-at-bottom'
+        ); ?>
+
+
       </div>
 
-      <div class="animation-group d-flex animation-zoom-in animate-when-content-appears gap-3  mb-3">
+      <div class="animation-group staggered-grid animation-zoom-in animate-when-content-appears gap-3  mb-3">
 
         <?php echo item_imageCard(
             get_icon('play').'The Ecological Preserve',
             null,
-            'apple.com',
+            'https://www.vassar.edu',
             ['url' => 'fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg', 'alt' => 'asdfasdfds' ],
             'animation-item grid-item text-at-bottom'
         ); ?>
@@ -367,9 +395,9 @@ We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings
         <?php echo item_imageCard(
             get_icon('play').'Student Picks',
             null,
-            'apple.com',
+            'https://www.vassar.edu',
             ['url' => 'fav-places-2/studio.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item grid-item text-at-bottom w-70'
+            'animation-item grid-item text-at-bottom'
         ); ?>
 
     </div><!-- end layout-masonry -->
@@ -398,10 +426,10 @@ All Vassar students are surrounded by an environment designed to spark something
     ['bg-image-url' => 'journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
-      --section-title-size: 14vw;
+      --section-title-size: 10vw;
       /* --section-title-faded-opacity: 0.1; */
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
-      --section-bg-image-opacity: 0.1;
+      --section-bg-image-opacity: 0;
       '
     ]
 ); ?>
@@ -414,9 +442,9 @@ All Vassar students are surrounded by an environment designed to spark something
 
 
 <?php echo item_imageCard(
-    get_icon('play').'Student Picks',
+    get_icon('play').'Video Tour',
     null,
-    'apple.com',
+    'https://www.vassar.edu',
     ['url' => 'video-thumbnail.jpg', 'alt' => 'asdfasdfds' ],
     'text-at-bottom mt-5'
 ); ?>
@@ -445,7 +473,7 @@ All Vassar students are surrounded by an environment designed to spark something
           --section-title-size: 9vw;
           --title-container-bg-beforeContent: rgba(0,0,0,0.4);
           /* --section-title-faded-opacity: 0.2; */
-          --section-bg-image-opacity: 0.1;
+          --section-bg-image-opacity: 0;
           --section-title-faded-color: var(--color-vassar-burgundy);
 
 
@@ -454,47 +482,48 @@ All Vassar students are surrounded by an environment designed to spark something
     ); ?>
 
 
-    <div class="grid cols-3" style="--bs-gap: 1rem">
-        <?php echo item_iconButton(
-          'car',
-          'Students are allowed to have cars on campus.',
-          'vassar.edu',
-          'btn-card'
-        ); ?>
+    <div class="grid cols-3 animation-group animation-zoom-in animate-when-content-appears" style="--bs-gap: 1rem">
+
+      <?php echo item_iconButton(
+        'house-chimney-user',
+        'Housing is guaranteed for all four years.',
+        'vassar.edu',
+        'btn-card animation-item'
+      ); ?>
 
         <?php echo item_iconButton(
           'clipboard-check',
           'Vassar does not currently require SAT or ACT scores.',
           'vassar.edu',
-          'btn-card'
+          'btn-card animation-item'
         ); ?>
 
         <?php echo item_iconButton(
           'coins',
           'Vassar meets all demonstrated financial need for all four years.',
           'vassar.edu',
-          'btn-card'
+          'btn-card animation-item'
         ); ?>
 
         <?php echo item_iconButton(
-          'house-chimney-user',
-          'Housing is guaranteed for all four years.',
+          'car',
+          'Students are allowed to have cars on campus.',
           'vassar.edu',
-          'btn-card'
+          'btn-card animation-item'
         ); ?>
 
         <?php echo item_iconButton(
           'people-arrows-left-right',
           'Interviews aren’t required, but they’re informative.',
           'vassar.edu',
-          'btn-card'
+          'btn-card animation-item'
         ); ?>
 
         <?php echo item_iconButton(
           'passport',
           'Undocumented/DACA-mented applicants welcome.',
           'vassar.edu',
-          'btn-card'
+          'btn-card animation-item'
         ); ?>
 
     </div>

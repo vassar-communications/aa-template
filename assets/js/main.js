@@ -259,6 +259,10 @@ $( ".sec-fixedCenteredTitle" ).each(function( index ) {
 
 
 $(document).ready(function () {
+
+
+
+
     var waypoints = $('.sec-fixedCenteredTitle .section-content').waypoint(function(direction) {
         if(direction=='down') {
             $(this[0,'element']).parent().addClass('fade-the-title');
@@ -269,7 +273,7 @@ $(document).ready(function () {
 
 
     }, {
-        offset: '60%'
+        offset: '66%'
     });
 
 
