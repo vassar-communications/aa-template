@@ -298,8 +298,7 @@ $(document).ready(function () {
         });
     }
 
-        $('.video-header').removeClass('is-loading').addClass('is-loaded');
-    });
+    
 });
 
 
