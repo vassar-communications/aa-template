@@ -79,7 +79,7 @@ $page_classes = "academics";
     <span class="tagline text-muted mb-2">Dig Deep to Explore Your Interests</span>
     <p>Vassar’s Intensives take the individualized classroom experience further by creating even more opportunities for student-driven exploration and mentored research. Intensives are designed to promote forward-thinking, non-traditional class experiences that catalyze deeper learning.</p>
 
-    <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about Vassar Intensives <i class="circle fa-solid fa-angle-right"></i></a>
+    <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about Vassar Intensives <i class="circle fa-solid fa-arrow-right"></i></a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -110,7 +110,7 @@ $page_classes = "academics";
     <span class="tagline text-muted mb-2">Gain Professional Experience While Investing In Our Community</span>
     <p>Real-world experience can take your education to the next level, so it’s no surprise that 90% of Vassar students choose to take on an internship. Through Community-Engaged Learning (CEL), you can combine your academic pursuits with hands-on work in the field while earning academic credit. </p>
 
-    <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about CEL <i class="circle fa-solid fa-angle-right"></i></a>
+    <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about CEL <i class="circle fa-solid fa-arrow-right"></i></a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -125,7 +125,7 @@ $page_classes = "academics";
     <span class="tagline text-muted mb-2">Broaden Your Horizons</span>
     <p>Expand your global perspective and explore new ways of thinking by spending a semester or year abroad. Vassar offers more than 130 study abroad options around the world, so no matter your interests, you can find a program that will help you reach your goals.</p>
 
-    <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about study abroad <i class="circle fa-solid fa-angle-right"></i></a>
+    <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about study abroad <i class="circle fa-solid fa-arrow-right"></i></a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -135,10 +135,10 @@ $page_classes = "academics";
     'theme-cream pb-1',
     'mw-3'
 ); ?>
-<div class="py-5 accordion" id="academics">
+<div class="py-5 accordion accordion-flush" id="academics">
     <div class="accordion-item first">
         <h2 class="accordion-header " id="headingMajors">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Majors" aria-expanded="true" aria-controls="collapseOne">
+            <button class="h2 accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#Majors" aria-expanded="false" aria-controls="collapseOne">
                 Majors
             </button>
         </h2>
@@ -217,7 +217,7 @@ $page_classes = "academics";
     </div>
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingCorrelates">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Correlates" aria-expanded="false" aria-controls="collapseTwo">
+            <button class="h2 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Correlates" aria-expanded="false" aria-controls="collapseTwo">
                 Correlates (Minors)
             </button>
         </h2>
@@ -353,7 +353,7 @@ $page_classes = "academics";
     </div>
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button class="h2 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Accelerated and Dual Degree Programs
             </button>
         </h2>
@@ -363,16 +363,16 @@ $page_classes = "academics";
                     <div class="col-sm">
                         <h3>Vassar/Columbia BA/MPH</h3>
                         <p>The BA/MPH is a dual degree program in which a student earns a BA from Vassar then goes on to an accelerated Masters program in Public Health at Columbia University Mailman School of Public Health.</p>
+
+                        <p>   <a href="https://www.vassar.edu/academics/accelerated-and-dual-degree-programs" >Learn more about Accelerated and Dual Degree Programs
+                            </a></p>
                     </div>
                     <div class="col-sm">
                         <h3>Vassar/Dartmouth BA/BE</h3>
                         <p>Through a cooperative arrangement with the Thayer School of Engineering at Dartmouth College, Vassar students may earn both the bachelor of arts (BA) degree from Vassar and the bachelor of engineering (BE) degree from Dartmouth. </p>
                     </div>
                 </div>
-                <div class="row">
-                    <a href="https://www.vassar.edu/academics/accelerated-and-dual-degree-programs" class="btn btn-text">Learn more about Accelerated and Dual Degree Programs
-                    </a>
-                </div>
+
             </div>
         </div>
     </div>
@@ -405,7 +405,7 @@ $page_classes = "academics";
             <p>Bold thinking converges with breathtaking natural beauty. </p>
 
         </div>
-        <div class="p-0 m-0 d-flex w-100 justify-content-end btn btn-link"><i class="mx-0 circle fa-solid fa-angle-right"></i></div>
+        <div class="p-0 m-0 d-flex w-100 justify-content-end btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
     </div>
 </a>
 <?php echo end_item_col(); ?>
@@ -419,7 +419,7 @@ $page_classes = "academics";
             <p>A strong community is made of every individual.</p>
 
         </div>
-        <div class="p-0 m-0 d-flex w-100 justify-content-end btn btn-link"><i class="mx-0 circle fa-solid fa-angle-right"></i></div>
+        <div class="p-0 m-0 d-flex w-100 justify-content-end btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
     </div>
 </a>
 <?php echo end_item_col(); ?>
@@ -432,7 +432,7 @@ $page_classes = "academics";
             <p>Vassar is committed to ensuring our students’ growth and progress from Day 1 to beyond graduation.
             </p>
         </div>
-        <div class="p-0 m-0 d-flex w-100 justify-content-end btn btn-link"><i class="mx-0 circle fa-solid fa-angle-right"></i></div>
+        <div class="p-0 m-0 d-flex w-100 justify-content-end btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
     </div>
 </a>
 <?php echo end_item_col(); ?>

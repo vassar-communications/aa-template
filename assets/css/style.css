@@ -11330,4 +11330,43 @@ i.circle.fa-solid {
   font-size: 1.25rem;
 }
 
+.academics li a:hover {
+  background: transparent;
+  text-decoration: underline;
+  color: var(--color-vassar-burgundy);
+}
+
+.academics .card-body {
+  background: #fff;
+}
+
+.academics .card:hover i.circle.fa-solid {
+  color: #fff !important;
+  background: #222 !important;
+}
+
+.academics .accordion li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-variation-settings: "wght" 500;
+}
+
+.academics .accordion button, .academics .accordion-button:not(.collapsed) {
+  background: #f8f7f5;
+}
+
+#academics .accordion-body {
+  padding: 4rem 1.5rem 2rem 0;
+  background: #f8f7f5;
+}
+
+.academics .accordion button {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.academics .accordion li {
+  font-size: 1.15rem;
+}
+
 /*# sourceMappingURL=style.css.map */
