@@ -1,6 +1,6 @@
 /* Basic links */
 
-p a {
+a {
   &:link {
     background-color: var(--section-link-bg-color, transparent);
     color: var(--section-link-color, var(--color-vassar-burgundy));

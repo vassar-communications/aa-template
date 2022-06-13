@@ -24,7 +24,7 @@ $template = <<<TMP
   <div><button class="btn btn-light" type="button"  class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">Close <span class="fa-solid fa-times"></button></div>
   </div>
   <div class="offcanvas-body">
-    <div class="section">
+    <div class="section px-0">
         <div class="row align-items-start">
             <div class="col">
                 <div class="nav-item">
@@ -36,13 +36,13 @@ $template = <<<TMP
                 data-bs-target="#admission" aria-expanded="false" aria-controls="collapseOne">+</a> 
                 </div>
                     <div id="admission" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body h3 text-left">
-                            <div> <a href="/admission/explore/">Explore Vassar</a></div>
-                            <div> <a href="/admission/apply/">Apply</a></div>
-                            <div> <a href="/admission/visit/">Visit Campus</a></div>
-                            <div> <a href="/admission/financial-aid/">Financial Aid</a></div>
-                            <div> <a href="/admission/quick-facts/">Quick Facts</a></div>
-                            <div> <a href="/admission/connect/">Connect</a></div>
+                        <div class="accordion-body h3 text-left px-0">
+                            <div class="mb-2"> <a href="/admission/explore/">Explore Vassar</a></div>
+                            <div class="mb-2"> <a href="/admission/apply/">Apply</a></div>
+                            <div class="mb-2"> <a  href="/admission/visit/">Visit Campus</a></div>
+                            <div class="mb-2"> <a   href="/admission/financial-aid/">Financial Aid</a></div>
+                             <div class="mb-2"> <a   href="/admission/quick-facts/">Quick Facts</a></div>
+                           <div class="mb-2"> <a  href="/admission/connect/">Connect</a></div>
                         </div>
                     </div>
                  <hr/>

@@ -2,7 +2,7 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
- ?>
+?>
 <?php
 
 /*  PAGE INFO ============ */
@@ -68,6 +68,32 @@ Vassar’s open curriculum allows you the freedom and flexibility to pursue your
 <?php echo end_sec_fixedCenteredTitle(); ?>
 
 <!-- end visit -->
+
+
+
+
+
+<?php echo sec_hasColumns(
+    null,
+    2,
+    null,
+    'animate-when-content-appears animation-slide-up',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
+); ?>
+
+<?php echo item_col('equal'); ?>
+
+
+<p class="pb-3">Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.</p>
+
+
+<?php echo end_item_col(); ?>
+
+<?php echo item_col('equal'); ?>
+<img src="https://vassartest.chuckyatsuk.com/img/explore/academics/0020_15_03_KR_0022.jpg" />
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
 
 <?php echo sec_fullBleedImageColumn(
     null,

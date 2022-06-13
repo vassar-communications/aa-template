@@ -7,38 +7,6 @@ function site_footer() {
 
 <div class="section text-light bg-dark">
   <footer class="container">
-    <div class="row">
-      <div class="col-2">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
-        </ul>
-      </div>
-
-      <div class="col-2">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
-        </ul>
-      </div>
-
-      <div class="col-2">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
-        </ul>
-      </div>
-
-      <div class="col-4 offset-1">
-     
-      </div>
-    </div>
 
     <div class="d-flex justify-content-between py-4 my-4 border-top">
       <p class="text-muted">© Vassar College</p>
