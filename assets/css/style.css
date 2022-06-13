@@ -11322,7 +11322,7 @@ i.circle.fa-solid {
   color: #222222 !important;
 }
 
-.academics li::marker {
+.academics li::marker, .visithome li::marker {
   content: "";
 }
 
@@ -11367,6 +11367,14 @@ i.circle.fa-solid {
 
 .academics .accordion li {
   font-size: 1.15rem;
+}
+
+.visithome a.btn.btn-light.btn-lg, .visithome .btn-group-lg > a.btn.btn-light {
+  color: #222;
+}
+
+.visithome .card-text {
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */

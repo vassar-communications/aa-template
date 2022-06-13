@@ -20,14 +20,19 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
+
+
+<?php echo page_textmasthead('theme-verylightgray'); ?>
+
 <?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-visit-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
 
-<?php echo page_textmasthead('theme-cream'); ?>
 <?php echo toplinksNav(); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-visit-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
+
+
 
 <?php echo sec_hasColumns(
     null,
@@ -51,7 +56,7 @@ $page_classes = "";
 
 <?php echo sec_regularContent(
     null,
-    null,
+    'theme-cream',
     '',
     ''
 ); ?>
@@ -94,10 +99,64 @@ $page_classes = "";
 <?php /*  PAGE CONTENT === */ ?>
 
 
-<?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
-<?php echo end_sec_relatedTopics(); ?>
+<?php echo sec_wideContent(
+    'Related Topics',
+    '',
+    'theme-cream theme-verylightgray pb-1 presentation',
+    'mw-4'
+); ?>
+
+
+
+<?php echo sec_hasColumns(
+    null,
+    3,
+    null,
+    '',
+    ''
+); ?>
+
+<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
+<a class="card mb-4" href="/admission/explore/campus">
+    <img src="https://vassartest.chuckyatsuk.com/img/visit/0191-19-10-ali-library-drone-vassar-vb-2015.jpg" class="card-img-top" alt="asdfasdfds">
+    <div class="card-body">
+        <h4 class="card-title h2">Explore Campus</h4>
+        <div class="card-text">
+            <p>Bold thinking converges with breathtaking natural beauty. </p>
+
+        </div>
+        <div class="p-0 m-0 d-flex w-100 justify-content-end btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
+    </div>
+</a>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
+<a class="card mb-4" href="/admission/explore/student-life">
+    <img src="https://vassartest.chuckyatsuk.com/img/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg" class="card-img-top" alt="asdfasdfds">
+    <div class="card-body">
+        <h4 class="card-title h2">Explore Student Life</h4>
+        <div class="card-text">
+            <p>A strong community is made of every individual.</p>
+
+        </div>
+        <div class="p-0 m-0 d-flex w-100 justify-content-end btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
+    </div>
+</a>
+<?php echo end_item_col(); ?>
+<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
+<a class="card mb-4" href="/admission/explore/outcomes">
+    <img src="https://vassartest.chuckyatsuk.com/img/explore/outcomes/110619_160over90_Vassar_4689.jpg" class="card-img-top" alt="asdfasdfds">
+    <div class="card-body">
+        <h4 class="card-title h2">Explore Outcomes</h4>
+        <div class="card-text">
+            <p>Vassar is committed to ensuring our students’ growth and progress from Day 1 to beyond graduation.
+            </p>
+        </div>
+        <div class="p-0 m-0 d-flex w-100 justify-content-end btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
+    </div>
+</a>
+<?php echo end_item_col(); ?>
+<?php echo end_sec_hasColumns(); ?>
+<?php echo end_sec_wideContent(); ?>
 
 <?php echo site_footer(); ?>

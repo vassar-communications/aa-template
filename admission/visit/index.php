@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 /*  PAGE INFO ============ */
 
 $page_title = "Visit Campus";
-$page_classes = "";
+$page_classes = "visithome";
 
 /*  ---------------------- */
 
@@ -24,7 +24,7 @@ $page_classes = "";
 
 <?php echo page_masthead('https://vassartest.chuckyatsuk.com/img/visit/0069-19-05-kr-spring-vassar-4632.jpg'); ?>
 
-<?php echo breadcrumbNav(); ?>
+<?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
 
@@ -122,7 +122,7 @@ $page_classes = "";
     ['hlevel' => 4]
 ); ?>
 <p>Want to schedule a group visit? Interactive virtual visits can be scheduled.</p>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-angle-right"></i></div>
+<div class="p-0 m-0 d-flex w-100 justify-content-start btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -135,7 +135,7 @@ $page_classes = "";
     ['hlevel' => 4]
 ); ?>
 <p>Reigster for all on-campus tours and virtual events</p>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-angle-right"></i></div>
+<div class="p-0 m-0 d-flex w-100 justify-content-start btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -149,12 +149,12 @@ $page_classes = "";
 
 <?php echo sec_regularContent(
     'Stay in Touch',
-    'theme-dark-burgundy',
+    'theme-burgundy',
     'text-center',
     ''
 ); ?>
 <p>Join our mailing list to stay up to date with all things Vassar and get access to special events throughout the year.</p>
-<a href="https://apply.vassar.edu/register/requestinfo" class="btn btn-light">Join the List</a>
+<a href="https://apply.vassar.edu/register/requestinfo" class="btn btn-light btn-lg">Join the List</a>
 
 
 <?php echo end_sec_regularContent(); ?>
