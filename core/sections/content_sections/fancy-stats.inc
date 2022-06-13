@@ -8,6 +8,7 @@ function row_fancyStats(
 
 $student_icon = get_icon('user-graduate');
 $faculty_icon = get_icon('chalkboard-user');
+$ratio_icon = get_icon('people-group');
 
 return <<<TMP
 <div class="fancy-stats-container animate-when-content-appears">
@@ -41,7 +42,7 @@ return <<<TMP
   <div class="col-item stat-item item-ratio">
     <div class="stat-item-fact">
       <div class="stat-value">8:1</div>
-      <div class="stat-label text-color-burgundy">Student to faculty ratio</div>
+      <div class="stat-label text-color-burgundy">$ratio_icon Student to faculty ratio</div>
     </div>
   </div>
 </div>
