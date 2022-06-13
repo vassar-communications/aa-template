@@ -305,10 +305,16 @@ We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings
 .w-66 {
   width: 66%;
 }
+.w-42 {
+  width: 42%;
+}
+.w-70 {
+  width: 70%;
+}
 
 </style>
 
-    <div class="animation-group d-flex animation-zoom-in animate-when-content-appears gap-3">
+    <div class="animation-group d-flex animation-zoom-in animate-when-content-appears gap-3  mb-3">
 
         <?php echo item_imageCard(
             get_icon('play').'Gordon Commons',
@@ -328,34 +334,34 @@ We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings
 
       </div>
 
-      <div class="animation-group d-flex animation-zoom-in animate-when-content-appears gap-3">
+      <div class="animation-group d-flex animation-zoom-in animate-when-content-appears gap-3 mb-3">
 
         <?php echo item_imageCard(
             get_icon('play').'Thompson Memorial Library',
             null,
             'apple.com',
             ['url' => 'fav-places-2/0212-18-10-kr-library-fall-vassar-3819.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item grid-item text-at-bottom'
+            'animation-item grid-item text-at-bottom w-42'
         ); ?>
 
         <?php echo item_imageCard(
             get_icon('play').'Bridge for Laboratory Sciences',
             null,
             'apple.com',
-            ['url' => 'fav-places-2/farm-ramble-walking-Tour-1709-sal-1.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => 'fav-places-2/110619_160over90_Vassar_5483.jpg', 'alt' => 'asdfasdfds' ],
             'animation-item grid-item text-at-bottom'
         ); ?>
 
       </div>
 
-      <div class="animation-group d-flex animation-zoom-in animate-when-content-appears gap-3">
+      <div class="animation-group d-flex animation-zoom-in animate-when-content-appears gap-3  mb-3">
 
         <?php echo item_imageCard(
             get_icon('play').'The Ecological Preserve',
             null,
             'apple.com',
             ['url' => 'fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item grid-item w-66 text-at-bottom'
+            'animation-item grid-item text-at-bottom'
         ); ?>
 
         <?php echo item_imageCard(
@@ -363,7 +369,7 @@ We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings
             null,
             'apple.com',
             ['url' => 'fav-places-2/studio.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item grid-item text-at-bottom'
+            'animation-item grid-item text-at-bottom w-70'
         ); ?>
 
     </div><!-- end layout-masonry -->
