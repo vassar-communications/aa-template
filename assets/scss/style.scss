@@ -22,7 +22,7 @@ $assets-path: '..';
 }
 
 
-//@import "../../assets/packages/bootstrap-scss/functions";
+@import "../../assets/packages/bootstrap-scss/functions";
 @import "_mixins";
 @import "_libraries/_all";
 
@@ -143,8 +143,8 @@ end pattern library nav */
 
 
 
-//@import "_cytheme";
-//@import "../../assets/packages/bootstrap-scss/bootstrap";
+@import "_cytheme";
+@import "../../assets/packages/bootstrap-scss/bootstrap";
 @import "_themes";
 
 @import "_row-basics";
@@ -190,4 +190,4 @@ end pattern library nav */
 @import "_tools/_all";
 
 @import "_themes";
-//@import "_cytemp";
+@import "_cytemp";

@@ -20,12 +20,13 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo breadcrumbNav('theme-charcoal'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
 
 <?php echo page_masthead('https://vassartest.chuckyatsuk.com/img/apply/0084_16_04_KR_0013.jpg'); ?>
 
+
+<?php echo breadcrumbNav(''); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-breadcrumb.php');?>
+<?php echo end_sec_breadcrumbNav(); ?>
 
 
 <?php echo toplinksNav(); ?>
