@@ -52,52 +52,45 @@ $page_classes = "";
 
 <?php echo end_sec_hasColumns(); ?>
 
+
 <div class="container">
  <div class="container position-relative" id="content">
   <div class="row mt-5">
    <aside class="col-md-3" id="left">
     <div class="mt-5 mb-3 sticky-top" id="side">
-     <ul class="nav flex-md-column flex-row justify-content-between" id="sidenav">
-      <li class="nav-item">
-       <a href="#sec1" class="nav-link pl-0">Grants & Scholarships</a>
-       <ul class="nav flex-md-column ml-2">
-        <li class="nav-item"><a href="#sec1a" class="nav-link">Vassar Scholarships</a></li>
-        <li class="nav-item"><a href="#sec1b" class="nav-link">Federal Grants</a></li>
-        <li class="nav-item"><a href="#sec1c" class="nav-link">State Grants</a></li>
-        <li class="nav-item"><a href="#sec1d" class="nav-link">Outside Scholarships</a></li>
-       </ul>
-      </li>
-      <li class="nav-item">
-       <a href="#sec2" class="nav-link pl-0">Loans & Lenders</a>
-       <ul class="nav flex-md-column ml-2">
-        <li class="nav-item"><a href="#sec2a" class="nav-link">Federal Loans for Students</a></li>
-        <li class="nav-item"><a href="#sec2b" class="nav-link">Federal Loans for Parents</a></li>
-        <li class="nav-item"><a href="#sec2c" class="nav-link">Alternative & Private Loans</a></li>
-       </ul>
-      </li>
-      <li class="nav-item"><a href="#sec3" class="nav-link pl-0">Campus Employment</a></li>
+     <ul class="list-group nav flex-md-column flex-row justify-content-between pt-5" id="sidenav">
+        <li class="list-group-item nav-item mb-0"><a href="#sec1" class="nav-link pl-0">Grants & Scholarships</a></li>
+       <!-- <li class="list-group-item nav-item"><a href="#sec1a" class="nav-link">Vassar Scholarships</a></li>
+        <li class="list-group-item nav-item"><a href="#sec1b" class="nav-link">Federal Grants</a></li>
+        <li class="list-group-item nav-item"><a href="#sec1c" class="nav-link">State Grants</a></li>
+        <li class="list-group-item nav-item"><a href="#sec1d" class="nav-link">Outside Scholarships</a></li> -->
+         <li class="list-group-item nav-item mb-0"><a href="#sec2" class="nav-link pl-0">Loans & Lenders</a></li>
+         <!--   <li class="list-group-item nav-item"><a href="#sec2a" class="nav-link">Federal Loans for Students</a></li>
+         <li class="list-group-item nav-item"><a href="#sec2b" class="nav-link">Federal Loans for Parents</a></li>
+         <li class="list-group-item nav-item"><a href="#sec2c" class="nav-link">Alternative & Private Loans</a></li> -->
+      <li class="list-group-item nav-item"><a href="#sec3" class="nav-link pl-0">Campus Employment</a></li>
      </ul>
     </div>
    </aside>
 
-   <main class="col py-5">
+   <main class="col mw-1 p-5">
     <div class="row position-relative">
      <div class="col">
       <div class="py-3 position-relative">
        <div class="position-relative">
 
         <div class="anchor" id="sec1"></div>
-        <h3>Grants & Scholarships</h3>
+        <h2 class="display-4">Grants & Scholarships</h2>
         <p>Grants and scholarships do not have to be repaid.</p>
 
 
 
         <div class="anchor" id="sec1a"></div>
-        <h5>Vassar Scholarships</h5>
+        <h4 class="pt-4">Vassar Scholarships</h4>
         <p>Vassar awards $71 million annually in scholarships, funded by Vassar’s endowment, alumnae/i club fundraising, and gifts.</p>
 
         <div class="anchor" id="sec1b"></div>
-        <h5>Federal Grants</h5>
+       <h4 class="pt-4">Federal Grants</h4>
         <p>
           <strong>Pell Grants</strong>
            <ul>
@@ -108,7 +101,7 @@ $page_classes = "";
 
 
         <p>
-         <a>Learn more about Pell Grants</a>
+            <a href="" class="fix">Learn more about Pell Grants</a>
         </p>
 
 
@@ -122,11 +115,11 @@ $page_classes = "";
         </p>
 
         <p>
-         <a>Learn more about FSEOG</a>
+            <a href="" class="fix">Learn more about FSEOG</a>
         </p>
 
         <div class="anchor" id="sec1c"></div>
-        <h5>State Grants</h5>
+        <h4 class="pt-4">State Grants</h4>
         <p>
          <strong>New York State Tuition Assistance Program (TAP)</strong>
         <ul>
@@ -135,12 +128,12 @@ $page_classes = "";
         </p>
 
         <p>
-         <a>Learn more about TAP</a>
+         <a href="" class="fix">Learn more about TAP</a>
         </p>
 
 
         <div class="anchor" id="sec1d"></div>
-        <h5>Outside Scholarships</h5>
+           <h4 class="pt-4">Outside Scholarships</h4>
         <p>
          Outside funds can offer students greater financial flexibility by lessening employment obligations and/or reducing student loans.</p>
 
@@ -153,14 +146,14 @@ $page_classes = "";
         </p>
 
 
-        <hr>
+        <hr class="my-5">
 
         <div class="anchor" id="sec2"></div>
-        <h3>Loans and Lenders</h3>
+           <h2 class="display-4">Loans and Lenders</h2>
            <p>Vassar will eliminate or reduce loans in the aid awards of students from low-income households.</p>
            <p>Loans (usually from the Federal Direct Loan program) are low-interest and can be repaid over a period of 10 years when the student either graduates or leaves college.</p>
            <div class="anchor" id="sec2a"></div>
-           <h5>Federal Loans for Students</h5>
+           <h4 class="pt-4">Federal Loans for Students</h4>
 
            <p><strong>Federal Direct Loans</strong></p>
            <ul>
@@ -174,8 +167,8 @@ $page_classes = "";
                <li>Repayment period: varies depending on payment plan selected</li>
            </ul>
 
-
-           <p><strong>Important Information</strong></p>
+           <div class="alert alert-secondary" role="alert">
+           <p><strong><i class="fa-solid fa-circle-info"></i>  Important Information about Federal Loans for Students</strong></p>
            <ul>
                <li>Interest rate: 3.73% (fixed) for 2021–22</li>
                <li>Origination fee: approximately 1%</li>
@@ -188,9 +181,11 @@ $page_classes = "";
                </li>
                <li>Repayment begins six months after a student graduates, leaves school, or drops below half-time enrollment</li>
                <li>Repayment period varies depending on the payment plan selected</li>
+           </ul>
+           </div>
 
                <div class="anchor" id="sec2b"></div>
-               <h5>Federal Loans for Parents</h5>
+               <h4 class="pt-4">Federal Loans for Parents</h4>
                <p>Direct Parent PLUS Loans are government loans made available to parents of dependent undergraduate students. To qualify, a parent:</p>
                <ul>
                    <li>Must be a U.S. citizen or eligible non-citizen</li>
@@ -198,32 +193,37 @@ $page_classes = "";
                    <li>Must undergo a credit check</li>
                    <li>If the credit is denied, the parent may reapply with an endorser, or the student may borrow an additional subsidized loan for $4,000-$5,000.</li>
                </ul>
-
-               <p><strong>Important Information</strong></p>
+           <div class="alert alert-secondary" role="alert">
+               <p><strong><i class="fa-solid fa-circle-info"></i> Important Information about Federal Loans for Parents</strong></p>
                <ul>
                    <li>Interest rate: 6.28% (fixed) for 2021–22</li>
                    <li>Origination fee: approximately 4%</li>
                    <li>Maximum annual limit: total cost of attendance (budget) less any financial aid the student receives</li>
                    <li>Repayment begins once the loan is fully disbursed, with an option to request a deferment</li>
                    <li>Repayment period varies depending on plan selected</li>
-               </ul>
+               </ul></div>
                <div class="anchor" id="sec2c"></div>
-               <h5>Alternative/Private Loans</h5>
+               <h4 class="pt-4">Alternative/Private Loans</h4>
                <p>Private student loans are non-government loans from lenders such as banks, credit unions, and state agencies. Either the parent or the student can be the primary borrower. If the student is the borrower, a co-signer is usually required.
                </p>
                <p>This summary of the differences explains federal versus private student loans.</p>
                <p>Vassar College does not endorse or recommend any particular private lender. For a sampling of lenders used by Vassar students in recent years, visit ELM Select.</p>
-               <p><strong>Important Information</strong></p>
-               <ul>
-                   <li>Interest rate: varies. A comparison of interest rates (prime rate versus 3 month Libor) can be found at Financial Forecast Center</li>
-                   <li>Origination fee: varies</li>
-                   <li>Maximum annual limit: total cost of attendance (budget) less any financial aid the student receives</li>
-                   <li>Repayment begins: varies</li>
-                   <li>Repayment period: varies</li>
-               </ul>
+
+               <div class="alert alert-secondary" role="alert">
+                   <p><strong><i class="fa-solid fa-circle-info"></i>  Important Information about Private Loans</strong></p>
+                   <ul>
+                       <li>Interest rate: varies. A comparison of interest rates (prime rate versus 3 month Libor) can be found at Financial Forecast Center</li>
+                       <li>Origination fee: varies</li>
+                       <li>Maximum annual limit: total cost of attendance (budget) less any financial aid the student receives</li>
+                       <li>Repayment begins: varies</li>
+                       <li>Repayment period: varies</li>
+                   </ul>
+               </div>
+
                <p>If you have any questions or concerns about the loan portion of your financial aid package, please call Student Financial Services at (845) 437-5320 or email finaid@vassar.edu.</p>
-                <div class="fix">
-               <h4>College Loan Tips</h4>
+
+
+               <h4 class="pt-4">College Loan Tips</h4>
                <ul>
                    <li>Apply for financial aid on Vassar’s Apply for Aid page.</li>
                    <li>Eligibility for all financial aid is determined by completing the Free Application for Federal Student Aid (FAFSA).</li>
@@ -231,11 +231,11 @@ $page_classes = "";
                    <li>Visit your state’s education department website to find out what grant or state-backed loans might be available to you. Some states offer education loans for their residents that are less costly than alternative education loans from private lenders.</li>
                    <li>Federal student and parent loans are less costly than alternative private education loans, and most of these loans require a co-signer if you want to reduce the cost of the loan. The Federal Parent Loan (PLUS) has a provision for loan forgiveness in the event that either the parent or student dies or suffers 100% disability. This is not offered by private student loans where a co-signer is required for the student.</li>
                </ul>
-                </div>
-               <hr>
+
+               <hr class="my-5">
 
                <div class="anchor" id="sec3"></div>
-               <h3>Campus Employment</h3>
+               <h2 class="display-4">Campus Employment</h2>
                <p>All financial aid recipients receive an allocation for either Federal Work-Study (federally funded) or Institutional Employment (Vassar-supplied employment funds).</p>
                <p>Students with work-study awards receive priority in the job registration process. These awards may also apply for off-campus community service work-study (CSWS).</p>
                <p>Jobs on campus include:</p>

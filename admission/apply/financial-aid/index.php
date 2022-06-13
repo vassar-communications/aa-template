@@ -68,6 +68,4 @@ $page_classes = "alive";
 <?php echo end_sec_relatedTopics(); ?>
 
 
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/tmp-related-links.php');?>
-
 <?php echo site_footer(); ?>
