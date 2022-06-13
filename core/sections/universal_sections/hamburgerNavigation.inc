@@ -63,10 +63,10 @@ $template = <<<TMP
                 </div>
             </div>
             <div class="col">
-            hi  One of three columns
+    
             </div>
             <div class="col">
-            One of three columns
+    
             </div>
         </div>
     </div> 

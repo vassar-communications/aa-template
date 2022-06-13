@@ -1,6 +1,6 @@
 /* Basic links */
 
-a {
+p a {
   &:link {
     background-color: var(--section-link-bg-color, transparent);
     color: var(--section-link-color, var(--color-vassar-burgundy));
@@ -37,7 +37,7 @@ a {
 }
 
 
-.theme-dark-burgundy {
+.theme-dark-burgundy, .bg-secondary {
   --section-bg-color: var(--color-vassar-dark-burgundy);
   --section-title-color: var(--color-vassar-cream);
   --section-text-color: var(--color-vassar-cream);
@@ -89,7 +89,7 @@ a {
 .theme-cream {
   --section-bg-color: var(--color-vassar-cream);
   --section-title-color: var(--color-vassar-charcoal);
-  --section-title-border-color: #f00;
+  --section-title-border-color: var(--color-vassar-red);
   --section-text-color: var(--color-vassar-charcoal);
 
   --section-link-bg-color: transparent;
@@ -109,14 +109,14 @@ a {
 .theme-verylightgray {
   --section-bg-color: var(--color-vassar-verylightgray);
   --section-title-color: var(--color-vassar-charcoal);
-  --section-title-border-color: #f00;
+  --section-title-border-color: var(--color-vassar-red);
   --section-text-color: var(--color-vassar-charcoal);
 
   --section-link-bg-color: transparent;
-  --section-link-color: #ff0;
-  --section-link-visited-color: #888;
-  --section-link-hover-bg-color: var(--color-vassar-burgundy);
-  --section-link-hover-color: #fff;
+  --section-link-color: var(--color-vassar-charcoal);
+  --section-link-visited-color: var(--color-vassar-charcoal);
+  --section-link-hover-bg-color: transparent;
+  --section-link-hover-color: var(--color-vassar-charcoal);
 
   &.quad-pattern {
     --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-black.png);
@@ -129,7 +129,7 @@ a {
 .theme-rose {
   --section-bg-color: var(--color-vassar-rose);
   --section-title-color: var(--color-vassar-charcoal);
-  --section-title-border-color: #f00;
+  --section-title-border-color: var(--color-vassar-red);
   --section-text-color: var(--color-vassar-charcoal);
 
   --section-link-bg-color: transparent;
