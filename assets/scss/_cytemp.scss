@@ -89,3 +89,28 @@ i.circle.fa-solid {
   z-index:9999;
 }
 
+/* 6. Full Bleed Image Sections */
+
+
+.image-is-first.section.section--full-bleed-image-column .col--text {
+  margin-left: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.column.col--text {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+}
+
+.section.section--full-bleed-image-column .section--full-bleed-image-column__content {
+
+  max-width: 90ch;
+}
