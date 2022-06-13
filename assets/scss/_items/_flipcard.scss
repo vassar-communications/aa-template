@@ -67,6 +67,7 @@
     font-size: 1.2rem;
     font-variation-settings: "wght" 400;
     letter-spacing: 0.06em;
+    color: var(--flipcard-title-color, var(--color-vassar-burgundy));
   }
   .flipcard__value {
     @include font-size(6rem);

@@ -22,14 +22,17 @@ html {
 .fancy-stats-container {
   display: flex;
   justify-content: center;
-  gap: 2em;
+  gap: 4vw;
+  align-items: center;
 }
 .stat-label {
   text-transform: uppercase;
 }
 
 .symbol-item {
-  font-size: 6vw;
+  border-left: 1px solid;
+    height: 4rem;
+//  font-size: 6vw;
 //  padding-top: 3rem;
 }
 
