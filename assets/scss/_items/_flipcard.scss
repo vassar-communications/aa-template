@@ -44,7 +44,10 @@
 }
 
 .card__face--back {
+  align-items: center;
   background: #fff;
+  display: flex;
+  justify-content: center;
   transform: rotateY(180deg);
 }
 
@@ -71,4 +74,10 @@
     line-height: 0.6;
     margin: 0;
   }
+}
+
+
+.card__face.card__face--back p {
+    font-size: 1.2rem;
+    font-variation-settings: "wght" 380;
 }

@@ -106,7 +106,8 @@ a {
 }
 
 
-.theme-verylightgray {
+.theme-verylightgray,
+.theme-extralightgray {
   --section-bg-color: var(--color-vassar-verylightgray);
   --section-title-color: var(--color-vassar-charcoal);
   --section-title-border-color: #f00;
@@ -124,6 +125,11 @@ a {
     --bg-image-opacity: 0.1;
   }
 }
+
+.theme-extralightgray {
+  --section-bg-color: #f0f0f0;
+}
+
 
 
 .theme-rose {

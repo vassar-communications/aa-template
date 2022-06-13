@@ -175,3 +175,9 @@ This should be a section option
 .fade-the-title {
   --section-title-faded-opacity: 0 !important;
 }
+
+.hide-image {
+  .section-bg-image {
+    display: none;
+  }
+}

@@ -671,7 +671,10 @@ details[open] summary:before {
 }
 
 .card__face--back {
+  align-items: center;
   background: #fff;
+  display: flex;
+  justify-content: center;
   transform: rotateY(180deg);
 }
 
@@ -701,6 +704,11 @@ details[open] summary:before {
   .flip-card .flipcard__value {
     font-size: 6rem;
   }
+}
+
+.card__face.card__face--back p {
+  font-size: 1.2rem;
+  font-variation-settings: "wght" 380;
 }
 
 .stat-value {
@@ -856,6 +864,18 @@ li::marker {
   --section-link-hover-bg-color: #f00;
   --section-link-hover-color: #fff;
   margin-right: 1rem;
+}
+
+.link-icon {
+  display: inline-block;
+  width: fit-content;
+  border: 1px solid #fff;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 
 .grid {
@@ -2545,6 +2565,10 @@ This should be a section option
   --section-title-faded-opacity: 0 !important;
 }
 
+.hide-image .section-bg-image {
+  display: none;
+}
+
 .section--wide-content.has-intro .section-title {
   margin-bottom: 1em;
 }
@@ -2947,7 +2971,38 @@ h3.card-title {
 
 .card-text {
   display: flex;
-  flex-flow: column;
+}
+.card-text p:first-child {
+  flex: 1;
+}
+
+.card-has-cta-icon {
+  border: none;
+}
+.card-has-cta-icon .card-body {
+  position: relative;
+  border-bottom-right-radius: 1.8rem;
+  padding-right: 6rem;
+}
+.card-has-cta-icon .card-body:after {
+  position: absolute;
+  content: "→";
+  border: 1px solid #fff;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  right: 1rem;
+  bottom: 1rem;
+  font-size: 1.4rem;
+  line-height: 0;
+  padding-bottom: 0.12rem;
+}
+.card-has-cta-icon:hover .card-body:after {
+  background: #eee;
+  color: #222;
 }
 
 /*! Flickity v2.2.2
@@ -3495,7 +3550,8 @@ a:hover, a:visited:hover {
   --bg-image-opacity: 0.1;
 }
 
-.theme-verylightgray {
+.theme-verylightgray,
+.theme-extralightgray {
   --section-bg-color: var(--color-vassar-verylightgray);
   --section-title-color: var(--color-vassar-charcoal);
   --section-title-border-color: #f00;
@@ -3506,10 +3562,15 @@ a:hover, a:visited:hover {
   --section-link-hover-bg-color: var(--color-vassar-burgundy);
   --section-link-hover-color: #fff;
 }
-.theme-verylightgray.quad-pattern {
+.theme-verylightgray.quad-pattern,
+.theme-extralightgray.quad-pattern {
   --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-black.png);
   --bg-image-size: 6rem;
   --bg-image-opacity: 0.1;
+}
+
+.theme-extralightgray {
+  --section-bg-color: #f0f0f0;
 }
 
 .theme-rose {
@@ -3595,13 +3656,13 @@ h6.nav-guide.serif {
 }
 
 .offcanvas .accordion-button:not(.collapsed)::after {
-  content: "\f057";
+  content: "";
   font-family: "Font Awesome 6 Free";
   background-image: none;
 }
 
 .offcanvas .accordion-button.collapsed::after {
-  content: "\f067";
+  content: "";
   font-weight: 400;
   font-family: "Font Awesome 6 Free";
   background-image: none;
@@ -3617,5 +3678,3 @@ h6.nav-guide.serif {
   font-weight: 900;
   font-style: italic;
 }
-
-/*# sourceMappingURL=style.css.map */
