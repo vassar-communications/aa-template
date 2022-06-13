@@ -1,0 +1,31 @@
+.ticker-section {
+  .section-content {
+      max-width: 58rem;
+  }
+  p {
+    line-height: 1.1;
+
+    font-family: var(--bs-font-sans-serif);
+
+    strong {
+      font-variation-settings: "wght" 100;
+      transition: 0.8s all linear;
+      transition-delay: 1.4s;
+    }
+  }
+
+
+  .content-appeared {
+    strong {
+      color: var(--color-vassar-burgundy);
+      font-variation-settings: "wght" 600;
+
+      &:nth-child(2) {
+        transition-delay: 1.6s;
+      }
+      &:nth-child(3) {
+        transition-delay: 1.8s;
+      }
+    }
+  }
+}

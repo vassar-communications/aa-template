@@ -10,7 +10,7 @@ This should be a section option
 .sec-fixedCenteredTitle {
   min-height: 100vh;
 
-  padding-top: 60vh;
+  padding-top: 80vh;
   /*
     position: relative;
 
@@ -97,7 +97,7 @@ This should be a section option
       filter: grayscale(100%);
     }
     .section-title {
-      opacity: var(--section-title-faded-opacity, 0.4);
+      opacity: var(--section-title-faded-opacity, 1);
       color: var(--section-title-faded-color, #fff);
       //      text-shadow: 0.1em 0.1em 0.1em transparent;
     }

@@ -156,6 +156,10 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/reg
 include($project_paths['main_project_root'].'/core/sections/content_sections/wideContent.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle.inc');
 
+include($project_paths['main_project_root'].'/core/sections/content_sections/news-carousel.inc');
+
+
+
 
 
 
@@ -330,4 +334,3 @@ function get_current_page_name() {
 
     return $current_page_name;
 }
-

@@ -1,3 +1,8 @@
+// consistency: have gap variables all named the same thing
+// bs-gap is a Bootstrap thing. Don't design this to reference
+// BS, since I'll have several different types of grids: regular, masonry,
+// and vertical masonry.
+
 .grid {
   display: grid;
   gap: var(--bs-gap, 3rem);
@@ -21,6 +26,33 @@
   justify-content: center;
 }
 
+.grid--verticalMasonry {
+//  gap: var(--bs-gap, 3rem);
+  column-count: var(--vm-columns, 2);
+  column-gap: var(--col-gap, 1rem);
+  line-height: 0;
+
+  .grid-item {
+    display: inline-block;
+    margin-bottom: var(--col-gap, 1rem);
+//    margin-bottom: calc(var(--col-gap, 1rem) * 0.7);
+  }
+
+  &.cols-2 {
+    --vm-columns: 2;
+  }
+  &.cols-3 {
+    --vm-columns: 3;
+  }
+  &.cols-4 {
+    --vm-columns: 4;
+  }
+
+}
+
+//  todo: for consistency, change this to:
+//  - grid--masonry rather than layout-masonry
+//  - grid-item rather than masonry-item
 
 .layout-masonry-33 {
   .masonry-item,

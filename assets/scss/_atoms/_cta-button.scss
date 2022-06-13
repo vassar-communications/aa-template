@@ -27,6 +27,14 @@
     --section-link-hover-color: #fff;
   }
 
+  .theme-verylightgray & {
+    --section-link-color: var(--color-vassar-burgundy);
+    --section-link-visited-color: var(--color-vassar-burgundy);
+    --section-link-bg-color: #fff;
+    --section-link-hover-bg-color: #000;
+    --section-link-hover-color: #fff;
+  }
+
   .video-header & {
     --section-link-color: #fff;
     --section-link-visited-color: #fff;
