@@ -11360,7 +11360,7 @@ This should be a section option
 }
 
 .section--top-level-masthead {
-  --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
+  --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 60%);
   min-height: 100vh;
   overflow: hidden;
   padding: 0;
@@ -11372,7 +11372,7 @@ This should be a section option
   width: 100vw;
   height: 100vh;
   clip-path: inset(0 0 0 0);
-  --bg-shim-background: rgba(0,0,0,0.2);
+  --bg-shim-background: rgba(0,0,0,0.05);
   --animate-shrink-in-startSize: 1.1;
 }
 .section--top-level-masthead .section-bg {

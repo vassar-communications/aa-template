@@ -33,7 +33,7 @@ $text_col_css = get_extras_value( 'text_col_css', $extras, 'style="%s"' );
 
 $template = <<<TMP
 <div class="section section--full-bleed-image-column $section_classes">
-  <div class="section-content columns $content_classes">
+  <div class="section-content columns  $content_classes">
 
         <div class="column col-has-image animate-when-content-appears animation-fade-in $image_col_classes" $image_col_css>
       <div class="full-bleed-image-container">

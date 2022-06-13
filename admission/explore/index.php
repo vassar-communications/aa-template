@@ -142,7 +142,7 @@ $page_classes = "";
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/Poughkeepsie_night_DSC_8551.jpg',
-    'theme-charcoal',
+    '',
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
