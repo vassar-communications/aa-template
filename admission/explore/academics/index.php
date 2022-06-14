@@ -396,7 +396,7 @@ $page_classes = "academics-cy academics";
     ''
 ); ?>
 
-<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
+<?php echo item_col('equalht'); ?>
 <a class="card mb-4" href="/admission/explore/campus">
     <img src="https://vassartest.chuckyatsuk.com/img/visit/0191-19-10-ali-library-drone-vassar-vb-2015.jpg" class="card-img-top" alt="asdfasdfds">
     <div class="card-body">
@@ -405,12 +405,12 @@ $page_classes = "academics-cy academics";
             <p>Bold thinking converges with breathtaking natural beauty. </p>
 
         </div>
-        <div class="p-0 m-0 d-flex w-100 justify-content-end btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
+        <div class="p-0 m-0 pt-4 d-flex w-100 justify-content-start btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
     </div>
 </a>
 <?php echo end_item_col(); ?>
 
-<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
+<?php echo item_col('equalht'); ?>
 <a class="card mb-4" href="/admission/explore/student-life">
     <img src="https://vassartest.chuckyatsuk.com/img/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg" class="card-img-top" alt="asdfasdfds">
     <div class="card-body">
@@ -419,11 +419,11 @@ $page_classes = "academics-cy academics";
             <p>A strong community is made of every individual.</p>
 
         </div>
-        <div class="p-0 m-0 d-flex w-100 justify-content-end btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
+        <div class="p-0 m-0 pt-4 d-flex w-100 justify-content-start btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
     </div>
 </a>
 <?php echo end_item_col(); ?>
-<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
+<?php echo item_col('equalht'); ?>
 <a class="card mb-4" href="/admission/explore/outcomes">
     <img src="https://vassartest.chuckyatsuk.com/img/explore/outcomes/0002-20-01-kr-scc-networking-vassar-0041.jpg" class="card-img-top" alt="asdfasdfds">
     <div class="card-body">
@@ -432,7 +432,7 @@ $page_classes = "academics-cy academics";
             <p>Vassar is committed to ensuring our students’ growth and progress from Day 1 to beyond graduation.
             </p>
         </div>
-        <div class="p-0 m-0 d-flex w-100 justify-content-end btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
+        <div class="p-0 m-0 pt-4 d-flex w-100 justify-content-start btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
     </div>
 </a>
 <?php echo end_item_col(); ?>
