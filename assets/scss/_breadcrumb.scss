@@ -73,8 +73,7 @@
 
 
 .breadcrumb-nav {
-  position: absolute;
-  z-index: 21;
+
 }
 
 
@@ -87,6 +86,7 @@
 
 
 .breadcrumb-nav a {
-  border: none!important;
+  border: none;
+  text-decoration:none;
 }
 

@@ -20,11 +20,13 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo breadcrumbNav('theme-cream'); ?>
+
+<?php echo page_textmasthead('theme-cream'); ?>
+
+<?php echo breadcrumbNav('theme-verylightgray'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
 
-<?php echo page_textmasthead('theme-cream'); ?>
 
 <?php echo toplinksNav(); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-nav.php');?>
@@ -52,11 +54,11 @@ $page_classes = "";
 
 <?php echo end_sec_hasColumns(); ?>
 
-<?php echo sec_wideContent(
+<?php echo sec_regularContent(
     null,
     null,
     '',
-    'mw-4'
+    ''
 ); ?>
 
 
@@ -74,7 +76,7 @@ $page_classes = "";
 
 
 </p>
-<?php echo end_sec_wideContent(); ?>
+<?php echo end_sec_regularContent(); ?>
 
 
 <?php echo relatedTopics(); ?>

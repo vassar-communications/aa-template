@@ -8,7 +8,7 @@
 }
 
 $animation-start-offset: 0;
-$animation-gap: 0.4s;
+$animation-gap: 0.2s;
 
 @mixin anim-delay($item) {
    $animation-delay: $animation-start-offset + ($item * $animation-gap);
@@ -22,14 +22,17 @@ html {
 .fancy-stats-container {
   display: flex;
   justify-content: center;
-  gap: 2em;
+  gap: 4vw;
+  align-items: center;
 }
 .stat-label {
   text-transform: uppercase;
 }
 
 .symbol-item {
-  font-size: 6vw;
+  border-left: 1px solid;
+    height: 4rem;
+//  font-size: 6vw;
 //  padding-top: 3rem;
 }
 
@@ -50,7 +53,7 @@ html {
   & > *,
   .stat-item-additional {
     animation-name: stat-fade-in;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
   }
 }
@@ -77,4 +80,16 @@ html {
 }
 .item-ratio {
   @include anim-delay(5);
+}
+
+
+.delimiter-colon {
+//  font-style: normal;
+  opacity: 0.6;
+  font-size: 78%;
+  display: inline-block;
+//  line-height: 0;
+  transform: translateY(-1rem);
+  margin-left: 0.4rem;
+  padding: 0 0.4rem;
 }

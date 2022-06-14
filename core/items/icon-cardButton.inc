@@ -16,11 +16,11 @@ function item_iconButton(
 
     return <<<TMP
 
-<a class="btn $classes" href="$link" role="button">
+<div class="icon-card $classes">
   <i class="fa fa-$icon the-icon"></i>
 
   $label
-</a>
+</div>
 
 
 TMP;

@@ -1,6 +1,13 @@
 
-/*
+.fix, .fix  a, a.fix {
+  color: lime!important;
+  font-weight: 900;
+  font-style: italic;
+}
 
+
+/*
+0. Variables
 1. Buttons
 2. Typography
 3. Layout
@@ -8,8 +15,17 @@
 
 */
 
+
+/* 0.  Variables */
+
+
+
 /* 1. Buttons */
 
+
+a.btn-light {
+  background: var(--color-vassar-cream);
+}
 
 .btn-link {
 
@@ -18,15 +34,15 @@
   font-variation-settings: 'wght' 600;
 
 }
-.btn-link:hover {
-  color: var(--color-vassar-charcoal);
-}
+
+
+
 
 i.circle.fa-solid {
   background: transparent;
-  border-color: var(--section-link-color,  var(--color-vassar-charcoal));
+  border-color: var(--section-link-color,  var(--color-vassar-burgundy));
   border: 1px solid;
-  border-color: var(--section-link-color,  var(--color-vassar-charcoal));
+  border-color: var(--section-link-color,  var(--color-vassar-burgundy));
   width: 2rem;
   height: 2em;
   display: inline-flex;
@@ -47,13 +63,18 @@ i.circle.fa-solid {
 /* 2. Typography */
 
 
-h6.nav-guide.serif {
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--color-lightgray);
+.h1, .h2, .h3, .h4, .h5, .h6, .display-1,.display-2, .display-3, .display-4, .display-5, .display-6 {
+  font-family: var(--font-big-serif);
 }
 
-.display-1,.display-2, .display-3, .display-4, .display-5, .display-6 {
-  font-family: var(--font-big-serif);
+
+.tagline {
+  font-size: calc(1.255rem + 0.06vw);
+  text-transform: uppercase;
+  font-variation-settings: "wght" 700;
+  letter-spacing: 0.1rem;
+  display: block;
+  font-family: var(--bs-font-sans-serif);
 }
 
 
@@ -63,7 +84,6 @@ h6.nav-guide.serif {
 .g-col.column.equal {
   flex: 1;
 }
-
 
 
 
@@ -81,9 +101,140 @@ h6.nav-guide.serif {
 }
 
 
-
-.fix, .fix  a, a.fix {
-color: lime!important;
-  font-weight: 900;
-  font-style: italic;
+.offcanvas a {
+  text-decoration: none;
 }
+
+
+.vassar-masthead-offcanvas svg {
+  fill: #fff;
+  width: 140px;
+}
+
+.offcanvas-body::-webkit-scrollbar {
+  display: none;
+}
+
+/* 6. Full Bleed Image Sections */
+
+
+.image-is-first.section.section--full-bleed-image-column .col--text {
+  margin-left: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.column.col--text {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+}
+
+.section.section--full-bleed-image-column .section--full-bleed-image-column__content {
+
+  max-width: 90ch;
+}
+
+/* For the Demo */
+
+
+.academics .btn-link:hover i {
+  background: white;
+  color: #222222!important;
+}
+
+.academics li::marker , .visithome li::marker, .inperson .theme-dark-burgundy li::marker,   {
+  content: '';
+}
+
+.academics .has-intro p {
+  font-size: 1.25rem;
+}
+
+.academics li a:hover {
+  background: transparent;
+  text-decoration: underline;
+  color:  var(--color-vassar-burgundy);
+}
+
+.academics .card-body {
+  background: #fff;
+}
+.academics .card:hover i.circle.fa-solid {
+  color: #fff!important;
+  background: #222!important;
+}
+
+.academics .accordion li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-variation-settings: 'wght' 500;
+}
+
+.academics .accordion button, .academics .accordion-button:not(.collapsed) {
+
+  background: var(--color-vassar-cream);
+}
+
+#academics .accordion-body {
+  padding: 4rem 1.5rem 2rem 0;
+  background: #f8f7f5;
+}
+.academics .accordion button {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.academics .accordion li {
+  font-size: 1.15rem;
+}
+
+.visithome a.btn.btn-light.btn-lg {
+  color: #222;
+}
+
+.visithome .card-text {
+  flex-direction: column;
+}
+
+.academics-cy .section.section--full-bleed-image-column .full-bleed-image-container img {
+  position: relative;
+  width: 100%;
+}
+
+.visithome .section-title::after {
+  border-top-color: var(--color-vassar-cream);
+}
+
+.academics-cy .section-title::after , .inperson .section-title::after {
+  border-top-color: var(--color-vassar-burgundy);
+}
+/* Inperson  Section */
+
+
+.inperson .toplinks li.active a {
+  background: var(--color-vassar-verylightgray);
+  color: var(--color-vassar-burgundy);
+}
+
+.inperson .toplinks a {
+  line-height: 36px;
+  border-radius: 3px;
+}
+
+.inperson .toplinks li a:hover {
+  background: var(--color-vassar-burgundy);
+  color: var(--color-vassar-cream);
+}
+
+
+.textmasthead .section__title__main {
+  text-shadow: none;
+}
+

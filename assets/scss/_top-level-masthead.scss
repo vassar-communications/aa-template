@@ -1,5 +1,5 @@
 .section--top-level-masthead {
-  --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
+  --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 80%);
 
   min-height: 100vh;
   overflow: hidden;
@@ -14,7 +14,7 @@
 
     clip-path: inset(0 0 0 0);
 
-  --bg-shim-background: rgba(0,0,0,0.2);
+  --bg-shim-background: rgba(0,0,0,0.05);
 
   @include background-image( true );
 

@@ -39,7 +39,7 @@
   }
 }
 
-.section.has-image:not(.show-image-then-content, .sec-fixedCenteredTitle) {
+.section.has-image:not(.show-image-then-content, .sec-fixedCenteredTitle, .sec-fixedCenteredTitleMasthead) {
   .section-bg-image {
     @include bg-image-faded();
   }

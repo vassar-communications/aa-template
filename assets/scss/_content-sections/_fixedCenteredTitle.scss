@@ -9,31 +9,11 @@ This should be a section option
 
 .sec-fixedCenteredTitle {
   min-height: 100vh;
-
-  padding-top: 60vh;
-  /*
-    position: relative;
-
-    &:before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 200px;
-      background: #f00;
-      top: -200px;
-    }
-  */
-  //    min-height: calc(100vh + 200px);
-
-
-
-  //    padding-top: 200px;
-
+  padding-top: 80vh;
 
   .animation-item {
     @include setup-animation-zoom-in();
   }
-
 
   .section-title-container {
     margin: 0;
@@ -97,7 +77,7 @@ This should be a section option
       filter: grayscale(100%);
     }
     .section-title {
-      opacity: var(--section-title-faded-opacity, 0.4);
+      opacity: var(--section-title-faded-opacity, 1);
       color: var(--section-title-faded-color, #fff);
       //      text-shadow: 0.1em 0.1em 0.1em transparent;
     }
@@ -174,4 +154,10 @@ This should be a section option
 
 .fade-the-title {
   --section-title-faded-opacity: 0 !important;
+}
+
+.hide-image {
+  .section-bg-image {
+    display: none;
+  }
 }

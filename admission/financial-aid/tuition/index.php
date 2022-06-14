@@ -123,10 +123,20 @@ $page_classes = "";
 <?php echo end_sec_hasColumns(); ?>
 
 
-<p>
+<?php echo sec_regularContent(
+    null,
+    null,
+    '',
+    ''
+); ?>
+
+
+
+
+<p class="fix">
  Students should anticipate budgeting $2,250 for books, supplies, and personal expenses, and transportation to and from the campus. Additional information can be found on the  Student Financial Services website.
 </p>
-
+<?php echo end_sec_regularContent(); ?>
 
 <?php echo end_sec_wideContent(); ?>
 

@@ -6,3 +6,8 @@
     margin-right: 0.4rem;
   }
 }
+
+.icon-card {
+  background-color: var(--section-link-bg-color, transparent);
+  color: var(--section-link-color, var(--color-vassar-burgundy));
+}

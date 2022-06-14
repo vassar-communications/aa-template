@@ -12,8 +12,8 @@
 function breadcrumbNav($section_classes=null,$extras = false) {
 $template = <<<TMP
 
-<nav class="breadcrumb-nav p-5 $section_classes" aria-label="breadcrumb">
-  <ol class="breadcrumb pt-5 mb-0">
+<nav class="section breadcrumb-nav d-flex justify-content-start pl-5 py-2 border-bottom $section_classes" aria-label="breadcrumb">
+  <ol class="breadcrumb p-3 mb-0">
 
 TMP;
 

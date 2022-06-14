@@ -21,15 +21,13 @@ $page_classes = "";
 <?php echo hamburger_navigation(); ?>
 
 
-<?php echo breadcrumbNav('theme-charcoal'); ?>
+
+
+<?php echo page_masthead('https://vassartest.chuckyatsuk.com/img/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg'); ?>
+
+<?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
-
-
-
-<?php echo page_masthead('https://images.unsplash.com/photo-1651035157347-e92d6a3cd958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2066&q=80'); ?>
-
-
 
 <?php echo toplinksNav(); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-nav.php');?>
