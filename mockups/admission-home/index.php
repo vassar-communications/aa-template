@@ -107,7 +107,7 @@ $page_classes = "admission-demo";
         <?php echo item_cardWithText(
             'Applying to Vassar',
             '',
-            ['url' => '/mockups/admission-home/apply/untitled-3.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => '/mockups/admission-home/apply/Untitled-3.jpg', 'alt' => 'asdfasdfds' ],
             'animation-item card-has-cta-icon'
         ); ?>
 
@@ -119,7 +119,7 @@ $page_classes = "admission-demo";
         <?php echo item_cardWithText(
             'Financial Aid Information',
             '',
-            ['url' => '/mockups/admission-home/apply/untitled-2.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => '/mockups/admission-home/apply/Untitled-2.jpg', 'alt' => 'asdfasdfds' ],
             'animation-item card-has-cta-icon'
         ); ?>
 
@@ -131,7 +131,7 @@ $page_classes = "admission-demo";
         <?php echo item_cardWithText(
             'Request Information',
             '',
-            ['url' => '/mockups/admission-home/apply/untitled-1.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => '/mockups/admission-home/apply/Untitled-1.jpg', 'alt' => 'asdfasdfds' ],
             'animation-item card-has-cta-icon'
         ); ?>
 
