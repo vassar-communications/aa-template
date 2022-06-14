@@ -89,6 +89,12 @@ i.circle.fa-solid {
 
 /* 4. Hamburger Nav */
 
+
+.hamburger-navigation .fa-bars {
+  padding: 0 0 0 0.5rem;
+}
+
+
 .hamburger-navigation {
   position: fixed;
   top:  1em;
@@ -169,6 +175,7 @@ i.circle.fa-solid {
 .academics .card:hover i.circle.fa-solid , .inperson .card:hover i.circle.fa-solid {
   color: #fff!important;
   background: #222!important;
+  border-color: #222!important;
 }
 
 .academics .accordion li a {
@@ -216,6 +223,14 @@ i.circle.fa-solid {
   border-top-color: var(--color-vassar-burgundy);
 }
 /* Inperson  Section */
+
+
+ .btn-link:hover i.circle.fa-solid {
+  background:  var(--color-vassar-burgundy);
+  color: var(--color-vassar-cream);
+   border-color: var(--color-vassar-burgundy);
+}
+
 
 
 .inperson .toplinks li.active a, .academics-cy .toplinks li.active a  {
@@ -298,3 +313,4 @@ button h3.card-title {
   flex-direction: column;
   justify-content: space-between;
 }
+
