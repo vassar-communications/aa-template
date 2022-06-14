@@ -11230,7 +11230,6 @@ html {
 /*  Theme
     ===== */
 .section--carousel {
-  background: #aaa;
   padding: 4rem;
 }
 
@@ -11903,6 +11902,20 @@ i.circle.fa-solid {
 
 .textmasthead .section__title__main {
   text-shadow: none;
+}
+
+/* Admission Homepage  */
+.theme-charcoal .btn-link:hover {
+  color: #fff;
+}
+
+.theme-charcoal .btn-link:hover i.circle.fa-solid {
+  background: var(--color-vassar-cream);
+  color: var(--color-vassar-charcoal);
+}
+
+button h3.card-title, button .card-title.h3 {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

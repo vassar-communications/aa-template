@@ -238,3 +238,17 @@ i.circle.fa-solid {
   text-shadow: none;
 }
 
+/* Admission Homepage  */
+
+
+.theme-charcoal .btn-link:hover {
+  color: #fff;
+}
+.theme-charcoal .btn-link:hover i.circle.fa-solid {
+  background: var(--color-vassar-cream);
+  color: var(--color-vassar-charcoal);
+}
+
+button h3.card-title {
+  color: #fff;
+}
