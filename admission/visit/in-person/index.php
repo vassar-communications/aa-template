@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 /*  PAGE INFO ============ */
 
 $page_title = "In-Person Campus Visits";
-$page_classes = "";
+$page_classes = "inperson";
 
 /*  ---------------------- */
 
@@ -90,7 +90,7 @@ $page_classes = "";
 
 <p>Check-in will take place outside of Kautz Admission House. Visitors arriving more than 10 minutes late will be asked to wait until the information session ends to join the tour; visitors arriving more than 10 minutes after the start of the tour will be unable to join.</p>
 
-<a class="btn btn-primary fix">Download Parking Map</a>
+<a class="btn btn-primary px-4">Download Parking Map <i class="mx-0 fa-solid fa-download"></i></a>
 
 <?php echo end_sec_regularContent(); ?>
 

@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 /*  PAGE INFO ============ */
 
 $page_title = "Explore Academics";
-$page_classes = "academics";
+$page_classes = "academics-cy academics";
 
 /*  ---------------------- */
 
@@ -76,7 +76,7 @@ $page_classes = "academics";
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <h2 class="display-2 mb-5">Intensives</h2>
-    <span class="tagline text-muted mb-2">Dig Deep to Explore Your Interests</span>
+    <span class="tagline  mb-2">Dig Deep to Explore Your Interests</span>
     <p>Vassar’s Intensives take the individualized classroom experience further by creating even more opportunities for student-driven exploration and mentored research. Intensives are designed to promote forward-thinking, non-traditional class experiences that catalyze deeper learning.</p>
 
     <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about Vassar Intensives <i class="circle fa-solid fa-arrow-right"></i></a>
@@ -91,7 +91,7 @@ $page_classes = "academics";
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <h2 class="display-2 mb-5">Research</h2>
-    <span class="tagline text-muted mb-2">Develop Knowledge First-Hand</span>
+    <span class="tagline  mb-2">Develop Knowledge First-Hand</span>
     <p>At Vassar, you can engage in research and make contributions to your field as early as your first year. A multitude of opportunities are available, including research-based classes, paid positions in faculty laboratories, and on-campus intensive summer research programs.</p>
 
     <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about Research at Vassar <i class="circle fa-solid fa-arrow-right"></i></a>
@@ -106,8 +106,8 @@ $page_classes = "academics";
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Community Engaged Learning</h2>
-    <span class="tagline text-muted mb-2">Gain Professional Experience While Investing In Our Community</span>
+    <h2 class="display-2 mb-5">Community-Engaged Learning</h2>
+    <span class="tagline  mb-2">Gain Professional Experience While Investing In Our Community</span>
     <p>Real-world experience can take your education to the next level, so it’s no surprise that 90% of Vassar students choose to take on an internship. Through Community-Engaged Learning (CEL), you can combine your academic pursuits with hands-on work in the field while earning academic credit. </p>
 
     <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about CEL <i class="circle fa-solid fa-arrow-right"></i></a>
@@ -121,8 +121,8 @@ $page_classes = "academics";
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Study abroad</h2>
-    <span class="tagline text-muted mb-2">Broaden Your Horizons</span>
+    <h2 class="display-2 mb-5">Study Abroad</h2>
+    <span class="tagline  mb-2">Broaden Your Horizons</span>
     <p>Expand your global perspective and explore new ways of thinking by spending a semester or year abroad. Vassar offers more than 130 study abroad options around the world, so no matter your interests, you can find a program that will help you reach your goals.</p>
 
     <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about study abroad <i class="circle fa-solid fa-arrow-right"></i></a>
