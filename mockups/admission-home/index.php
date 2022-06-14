@@ -334,62 +334,100 @@ We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings
 
     <div class="animation-group staggered-grid animation-zoom-in animate-when-content-appears gap-3  mb-3">
 
-      <?php echo item_imageCard(
-          get_icon('play').'Bridge for Laboratory Sciences',
-          null,
-          'https://www.vassar.edu',
-          ['url' => 'fav-places-2/110619_160over90_Vassar_5483.jpg', 'alt' => 'asdfasdfds' ],
-          'animation-item grid-item text-at-bottom'
-      ); ?>
 
-        <?php echo item_imageCard(
-            get_icon('play').'Shakespeare Garden',
-            null,
-            'https://www.vassar.edu',
-            ['url' => 'fav-places-2/0056-21-06-kr-campus-vassar-0006-copy.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item grid-item text-at-bottom'
-        ); ?>
+
+
+      <?php
+
+      echo item_imageCard_modal(
+        get_icon('play').'Bridge for Laboratory Sciences',
+        null,
+        'lab-sciences-modal',
+        null,
+        ['url' => 'fav-places-2/110619_160over90_Vassar_5483.jpg',
+        'alt' => 'asdfasdf'
+        ],
+        'animation-item grid-item text-at-bottom'
+      );
+
+      ?>
+
+<?php
+echo item_imageCard_modal(
+  get_icon('play').'Shakespeare Garden',
+  null,
+  'shakespeare-modal',
+  null,
+  ['url' => 'fav-places-2/0056-21-06-kr-campus-vassar-0006-copy.jpg',
+  'alt' => 'asdfasdf'
+  ],
+  'animation-item grid-item text-at-bottom'
+);
+
+?>
 
       </div>
 
       <div class="animation-group staggered-grid-reverse animation-zoom-in animate-when-content-appears gap-3 mb-3">
 
-        <?php echo item_imageCard(
-            get_icon('play').'Thompson Memorial Library',
-            null,
-            'https://www.vassar.edu',
-            ['url' => 'fav-places-2/0212-18-10-kr-library-fall-vassar-3819.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item grid-item text-at-bottom'
-        ); ?>
+        <?php
+        echo item_imageCard_modal(
+          get_icon('play').'Thompson Memorial Library',
+          null,
+          'thompson-modal',
+          null,
+          ['url' => 'fav-places-2/0212-18-10-kr-library-fall-vassar-3819.jpg',
+          'alt' => 'asdfasdf'
+          ],
+          'animation-item grid-item text-at-bottom'
+        );
 
-        <?php echo item_imageCard(
-            get_icon('play').'Gordon Commons',
-            null,
-            'https://www.vassar.edu',
-            ['url' => 'fav-places-2/0195-19-11-kwe-gordon-vassar-1644.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item grid-item text-at-bottom'
-        ); ?>
+        ?>
+
+        <?php
+        echo item_imageCard_modal(
+          get_icon('play').'Gordon Commons',
+          null,
+          'gordon-modal',
+          null,
+          ['url' => 'fav-places-2/0195-19-11-kwe-gordon-vassar-1644.jpg',
+          'alt' => 'asdfasdf'
+          ],
+          'animation-item grid-item text-at-bottom'
+        );
+
+        ?>
 
 
       </div>
 
       <div class="animation-group staggered-grid animation-zoom-in animate-when-content-appears gap-3  mb-3">
 
-        <?php echo item_imageCard(
-            get_icon('play').'The Ecological Preserve',
-            null,
-            'https://www.vassar.edu',
-            ['url' => 'fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item grid-item text-at-bottom'
-        ); ?>
+        <?php
+        echo item_imageCard_modal(
+          get_icon('play').'The Ecological Preserve',
+          null,
+          'ecological-modal',
+          null,
+          ['url' => 'fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg',
+          'alt' => 'asdfasdf'
+          ],
+          'animation-item grid-item text-at-bottom'
+        );
+        ?>
 
-        <?php echo item_imageCard(
-            get_icon('play').'Student Picks',
-            null,
-            'https://www.vassar.edu',
-            ['url' => 'fav-places-2/studio.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item grid-item text-at-bottom'
-        ); ?>
+        <?php
+        echo item_imageCard_modal(
+          get_icon('play').'Student Picks',
+          null,
+          'student-modal',
+          null,
+          ['url' => 'fav-places-2/studio.jpg',
+          'alt' => 'asdfasdf'
+          ],
+          'animation-item grid-item text-at-bottom'
+        );
+        ?>
 
     </div><!-- end layout-masonry -->
 
@@ -458,11 +496,11 @@ All Vassar students are surrounded by an environment designed to spark something
        ',
         'sec-fixedCenteredTitle theme-verylightgray xfeatured-video',
         'mw-4',
-        ['bg-image-url' => 'visit/0216-18-10-jsu-fall-drone-vassar-R01895.jpg',
+        ['bg-image-url' => '0027-21-05-kr-founders-vassar-0102.jpg',
             'bg-image-alt' => 'alt text',
             'css' => '
           --section-title-size: 9vw;
-          --title-container-bg-beforeContent: rgba(0,0,0,0.4);
+          --title-container-bg-beforeContent: rgba(0,0,0,0.1);
           /* --section-title-faded-opacity: 0.2; */
           --section-bg-image-opacity: 0;
           --section-title-faded-color: var(--color-vassar-burgundy);
@@ -470,7 +508,8 @@ All Vassar students are surrounded by an environment designed to spark something
 
           '
         ]
-    ); ?>
+    );
+    // visit/0216-18-10-jsu-fall-drone-vassar-R01895.jpg ?>
 
 
     <div class="grid cols-3 animation-group animation-zoom-in animate-when-content-appears" style="--bs-gap: 1rem">
@@ -533,6 +572,99 @@ All Vassar students are surrounded by an environment designed to spark something
     <!-- end you may be wondering -->
 
 <?php echo newsCarousel(); ?>
+
+
+
+
+<?php
+
+echo item_imageCard_modal_setup(
+  get_icon('play').'Bridge for Laboratory Sciences',
+  null,
+  'lab-sciences-modal',
+  '<div class="ratio ratio-16x9">
+<iframe class="modal-video" id="video-id--2081" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/avgWMTn4A1c?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
+  </div>',
+  ['url' => 'fav-places-2/110619_160over90_Vassar_5483.jpg',
+  'alt' => 'asdfasdf'
+  ],
+  'animation-item grid-item text-at-bottom'
+);
+
+echo item_imageCard_modal_setup(
+  get_icon('play').'Shakespeare Garden',
+  null,
+  'shakespeare-modal',
+  '<div class="ratio ratio-16x9">
+          <iframe class="modal-video" id="video-id--2186" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/pfJIwU-Kifg?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=2" data-gtm-yt-inspected-8="true"></iframe>
+        </div>',
+  ['url' => 'fav-places-2/0056-21-06-kr-campus-vassar-0006-copy.jpg',
+  'alt' => 'asdfasdf'
+  ],
+  'animation-item grid-item text-at-bottom'
+);
+
+?>
+
+<?php
+echo item_imageCard_modal_setup(
+  get_icon('play').'Thompson Memorial Library',
+  null,
+  'thompson-modal',
+  '<div class="modal-body ratio ratio-16x9">
+        <iframe class="modal-video" id="video-id--2121" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/lQ0Jb9u6zTY?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
+      </div>',
+  ['url' => 'fav-places-2/0212-18-10-kr-library-fall-vassar-3819.jpg',
+  'alt' => 'asdfasdf'
+  ],
+  'animation-item grid-item text-at-bottom'
+);
+
+?>
+
+<?php
+echo item_imageCard_modal_setup(
+  get_icon('play').'Gordon Commons',
+  null,
+  'gordon-modal',
+  '<div class="modal-body ratio ratio-16x9">
+        <iframe class="modal-video" id="video-id--2041" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/aHxtG6CJQso?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-7="true"></iframe>
+      </div>',
+  ['url' => 'fav-places-2/0195-19-11-kwe-gordon-vassar-1644.jpg',
+  'alt' => 'asdfasdf'
+  ],
+  'animation-item grid-item text-at-bottom'
+);
+
+?>
+
+<?php
+echo item_imageCard_modal_setup(
+  get_icon('play').'The Ecological Preserve',
+  null,
+  'ecological-modal',
+  '<div class="modal-body ratio ratio-16x9">
+        <iframe class="modal-video" id="video-id--2191" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/Wjxz5QMAw3c?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=2" data-gtm-yt-inspected-7="true"></iframe>
+      </div>',
+  ['url' => 'fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg',
+  'alt' => 'asdfasdf'
+  ],
+  'animation-item grid-item text-at-bottom'
+);
+?>
+
+<?php
+echo item_imageCard_modal_setup(
+  get_icon('play').'Student Picks',
+  null,
+  'student-modal',
+  '<div class="modal-body ratio ratio-16x9"><iframe width="560" height="315" src="https://www.youtube.com/embed/e2Qz73uGyLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>',
+  ['url' => 'fav-places-2/studio.jpg',
+  'alt' => 'asdfasdf'
+  ],
+  'animation-item grid-item text-at-bottom'
+);
+?>
 
 
 
