@@ -471,13 +471,27 @@ All Vassar students are surrounded by an environment designed to spark something
 */ ?>
 
 
-<?php echo item_imageCard(
+<?php
+echo item_imageCard_modal(
+  get_icon('play').'Video Tour',
+  null,
+  'video-tour-modal',
+  null,
+  ['url' => '/mockups/admission-home/video-thumbnail.jpg',
+  'alt' => 'asdfasdf'
+  ],
+  'animation-item grid-item text-at-bottom'
+);
+
+?>
+
+<?php /* echo item_imageCard(
     get_icon('play').'Video Tour',
     null,
     'https://www.vassar.edu',
     ['url' => '/mockups/admission-home/video-thumbnail.jpg', 'alt' => 'asdfasdfds' ],
     'text-at-bottom mt-5'
-); ?>
+); */ ?>
 
 
 
@@ -666,5 +680,22 @@ echo item_imageCard_modal_setup(
   'animation-item grid-item text-at-bottom'
 );
 ?>
+
+<?php
+echo item_imageCard_modal_setup(
+  get_icon('play').'Video Tour',
+  null,
+  'video-tour-modal',
+  '<div class="modal-body ratio ratio-16x9"><iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/531201548?title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" data-ready="true"></iframe></div>',
+  ['url' => '/mockups/admission-home/video-thumbnail.jpg',
+  'alt' => 'asdfasdf'
+  ],
+  'animation-item grid-item text-at-bottom'
+);
+
+?>
+
+
+
 
 <?php echo site_footer(); ?>
