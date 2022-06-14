@@ -179,6 +179,7 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/ful
 include($project_paths['main_project_root'].'/core/sections/content_sections/regularContent.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/wideContent.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle.inc');
+include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle-masthead.inc');
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/news-carousel.inc');
 

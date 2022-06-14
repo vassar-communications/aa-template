@@ -173,7 +173,7 @@ echo sec_fixedCenteredTitle(
 <a href="" class="cta-link">Meet Vassar</a>
 </div>',
 
-  'sec-fixedCenteredTitle theme-black-to-white hide-image',
+  'sec-fixedCenteredTitle theme-charcoal-to-white hide-image',
   'mw-4',
     [
       'bg-image-url' => 'journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
@@ -310,7 +310,7 @@ echo row_fancyStats();
 We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings that showcase classic architecture blended seamlessly with modern, cutting-edge facilities.
 
    </p>',
-    'sec-fixedCenteredTitle theme-darkcoal',
+    'sec-fixedCenteredTitle theme-charcoal',
     'mw-4',
     ['bg-image-url' => 'fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',
         'bg-image-alt' => 'alt text',

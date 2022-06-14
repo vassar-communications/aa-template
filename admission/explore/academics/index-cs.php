@@ -21,23 +21,23 @@ $page_classes = "academics";
 <?php echo hamburger_navigation(); ?>
 
 
-<?php echo sec_fixedCenteredTitle(
+<?php echo sec_fixedCenteredTitle_masthead(
     '<b class="slide-from-left">Explore</b>
    <b class="slide-from-right">Academics</b>',
     '<p class="section-intro-text">Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.</p>',
-    'sec-fixedCenteredTitle theme-verylightgray',
+    'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
-      --section-title-faded-color: #444;
+      /* --section-title-faded-color: #444; */
       --bs-gap: 1rem;
       ']
 ); ?>
 
-<?php echo end_sec_fixedCenteredTitle(); ?>
+<?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
 
 <?php // echo page_masthead('https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg'); ?>
@@ -91,7 +91,7 @@ $page_classes = "academics";
 
 <?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
 
-<h2 class="display-2">Learning is Innovation</h2>
+<h2 class="display-3">Learning is Innovation</h2>
 
 
 <?php echo end_item_col(); ?>
@@ -112,7 +112,7 @@ $page_classes = "academics";
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Intensives</h2>
+    <h2 class="display-3 mb-5">Intensives</h2>
     <span class="tagline text-muted mb-2">Dig Deep to Explore Your Interests</span>
     <p>Vassar’s Intensives take the individualized classroom experience further by creating even more opportunities for student-driven exploration and mentored research. Intensives are designed to promote forward-thinking, non-traditional class experiences that catalyze deeper learning.</p>
 
@@ -127,7 +127,7 @@ $page_classes = "academics";
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Research</h2>
+    <h2 class="display-3 mb-5">Research</h2>
     <span class="tagline text-muted mb-2">Develop Knowledge First-Hand</span>
     <p>At Vassar, you can engage in research and make contributions to your field as early as your first year. A multitude of opportunities are available, including research-based classes, paid positions in faculty laboratories, and on-campus intensive summer research programs.</p>
 
@@ -143,7 +143,7 @@ $page_classes = "academics";
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Community Engaged Learning</h2>
+    <h2 class="display-3 mb-5">Community Engaged Learning</h2>
     <span class="tagline text-muted mb-2">Gain Professional Experience While Investing In Our Community</span>
     <p>Real-world experience can take your education to the next level, so it’s no surprise that 90% of Vassar students choose to take on an internship. Through Community-Engaged Learning (CEL), you can combine your academic pursuits with hands-on work in the field while earning academic credit. </p>
 
@@ -158,7 +158,7 @@ $page_classes = "academics";
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Study abroad</h2>
+    <h2 class="display-3 mb-5">Study abroad</h2>
     <span class="tagline text-muted mb-2">Broaden Your Horizons</span>
     <p>Expand your global perspective and explore new ways of thinking by spending a semester or year abroad. Vassar offers more than 130 study abroad options around the world, so no matter your interests, you can find a program that will help you reach your goals.</p>
 

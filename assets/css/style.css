@@ -7987,6 +7987,17 @@ a:hover, a:visited:hover {
   background-color: #eee;
 }
 
+.theme-charcoal-to-white {
+  background-color: #444;
+  transition: 1s all ease;
+}
+.theme-charcoal-to-white .section-bg-image-container {
+  background-color: transparent;
+}
+.theme-charcoal-to-white.show-content {
+  background-color: #eee;
+}
+
 .row-title {
   font-size: var(--h2-font-size);
 }
@@ -9315,7 +9326,7 @@ li::marker {
   will-change: transform;
 }
 
-.section.has-image:not(.show-image-then-content, .sec-fixedCenteredTitle) .section-bg-image {
+.section.has-image:not(.show-image-then-content, .sec-fixedCenteredTitle, .sec-fixedCenteredTitleMasthead) .section-bg-image {
   opacity: var(--section-bg-image-opacity, 0.2);
   filter: grayscale(100%);
 }
@@ -9510,7 +9521,7 @@ html {
 .fancy-stats-container.content-appeared > *,
 .fancy-stats-container.content-appeared .stat-item-additional {
   animation-name: stat-fade-in;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
@@ -9524,28 +9535,28 @@ html {
 }
 
 .item-students {
+  animation-delay: 0.2s;
+  --secondary-delay: calc(0.2s + 0.4s);
+}
+
+.symbol-div {
   animation-delay: 0.4s;
   --secondary-delay: calc(0.4s + 0.4s);
 }
 
-.symbol-div {
+.item-faculty {
+  animation-delay: 0.6s;
+  --secondary-delay: calc(0.6s + 0.4s);
+}
+
+.symbol-equals {
   animation-delay: 0.8s;
   --secondary-delay: calc(0.8s + 0.4s);
 }
 
-.item-faculty {
-  animation-delay: 1.2s;
-  --secondary-delay: calc(1.2s + 0.4s);
-}
-
-.symbol-equals {
-  animation-delay: 1.6s;
-  --secondary-delay: calc(1.6s + 0.4s);
-}
-
 .item-ratio {
-  animation-delay: 2s;
-  --secondary-delay: calc(2s + 0.4s);
+  animation-delay: 1s;
+  --secondary-delay: calc(1s + 0.4s);
 }
 
 .delimiter-colon {
@@ -10472,6 +10483,128 @@ This should be a section option
 
 .hide-image .section-bg-image {
   display: none;
+}
+
+/*
+
+This should be a section option
+
+ */
+.sec-fixedCenteredTitleMasthead {
+  min-height: 100vh;
+  padding-top: 80vh;
+}
+.sec-fixedCenteredTitleMasthead .animation-item {
+  opacity: 0%;
+  transform: scale(0.6);
+}
+.sec-fixedCenteredTitleMasthead .section-title-container {
+  margin: 0;
+  position: fixed;
+  padding: 0;
+  top: 0;
+  left: 0;
+  transform: none;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  background-color: var(--title-container-bg-beforeContent, transparent);
+}
+.sec-fixedCenteredTitleMasthead .section-title-container .section-title {
+  font-family: var(--bs-font-sans-serif);
+  font-weight: 800;
+  color: #fff;
+  font-size: var(--section-title-size, 8vw);
+  letter-spacing: -0.01em;
+  transition: text-shadow 0.4s ease;
+  transition-property: text-shadow, opacity;
+  will-change: text-shadow;
+}
+.sec-fixedCenteredTitleMasthead .section-content {
+  opacity: 0;
+}
+.sec-fixedCenteredTitleMasthead .section-intro-text {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.sec-fixedCenteredTitleMasthead .section-bg-image {
+  transition: 1s all ease;
+}
+.sec-fixedCenteredTitleMasthead .section-title-container {
+  transition: 1s all ease;
+}
+.sec-fixedCenteredTitleMasthead.show-content .section-title {
+  opacity: var(--section-title-faded-opacity, 1);
+  color: var(--section-title-faded-color, #fff);
+}
+.sec-fixedCenteredTitleMasthead.show-content .section-title-container {
+  background-color: var(--title-container-bg-afterContent, transparent);
+}
+.sec-fixedCenteredTitleMasthead.show-content .section-content {
+  opacity: 1;
+}
+.sec-fixedCenteredTitleMasthead .section-title {
+  margin: 0;
+  padding: 0;
+}
+.sec-fixedCenteredTitleMasthead .section-title:after {
+  display: none;
+}
+.sec-fixedCenteredTitleMasthead .section-title .slide-from-left {
+  transform: translateX(-1em);
+  font-size: 80%;
+}
+.sec-fixedCenteredTitleMasthead .section-title .slide-from-right {
+  transform: translateX(1em);
+}
+.sec-fixedCenteredTitleMasthead .section-title .slide-from-left,
+.sec-fixedCenteredTitleMasthead .section-title .slide-from-right {
+  display: block;
+  opacity: 0;
+  transition: 2s all ease;
+  line-height: 0.7;
+  font-family: freight-big-pro;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.sec-fixedCenteredTitleMasthead.show-title .section-title .slide-from-left,
+.sec-fixedCenteredTitleMasthead.show-title .section-title .slide-from-right {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.show-content .animation-item {
+  animation-duration: 1s;
+  animation-name: zoom-in;
+  animation-fill-mode: forwards;
+}
+
+.featured-video .embed-responsive {
+  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.4);
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+.fade-the-title {
+  --section-title-faded-opacity: 0 !important;
+}
+
+.hide-image .section-bg-image {
+  display: none;
+}
+
+.sec-fixedCenteredTitleMasthead .section-title-container {
+  transition: 0.4s background ease;
+}
+.sec-fixedCenteredTitleMasthead.show-title .section-title-container {
+  background: rgba(0, 0, 0, 0.6);
+}
+.sec-fixedCenteredTitleMasthead.hide-title .section-title-container {
+  background: rgba(0, 0, 0, 0);
 }
 
 .section--wide-content.has-intro .section-title {
@@ -11540,6 +11673,17 @@ a:hover, a:visited:hover {
   background-color: transparent;
 }
 .theme-black-to-white.show-content {
+  background-color: #eee;
+}
+
+.theme-charcoal-to-white {
+  background-color: #444;
+  transition: 1s all ease;
+}
+.theme-charcoal-to-white .section-bg-image-container {
+  background-color: transparent;
+}
+.theme-charcoal-to-white.show-content {
   background-color: #eee;
 }
 
