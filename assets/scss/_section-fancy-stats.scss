@@ -8,7 +8,7 @@
 }
 
 $animation-start-offset: 0;
-$animation-gap: 0.4s;
+$animation-gap: 0.2s;
 
 @mixin anim-delay($item) {
    $animation-delay: $animation-start-offset + ($item * $animation-gap);
@@ -53,7 +53,7 @@ html {
   & > *,
   .stat-item-additional {
     animation-name: stat-fade-in;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
   }
 }

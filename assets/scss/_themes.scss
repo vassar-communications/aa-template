@@ -166,3 +166,18 @@ a {
 //    @extend .theme-verylightgray;
   }
 }
+
+.theme-charcoal-to-white {
+  background-color: #444;
+  transition: 1s all ease;
+
+  .section-bg-image-container {
+    background-color: transparent;
+  }
+
+  &.show-content {
+
+    background-color: #eee;
+//    @extend .theme-verylightgray;
+  }
+}

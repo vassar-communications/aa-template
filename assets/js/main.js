@@ -78,10 +78,47 @@ for (var i = 0; i < discreteElements.length; i++) {
     new Waypoint({
         element: discreteElements[i],
         handler: function() {
-//   				  this.element.classList.remove("show-title");
-            this.element.classList.add("show-content");
+            	this.element.classList.add("show-content");
         },
         //			context: document.getElementById('page-content'),
+        offset: '-40%'
+    });
+}
+
+
+
+
+var discreteElements = document.getElementsByClassName('sec-fixedCenteredTitleMasthead')
+for (var i = 0; i < discreteElements.length; i++) {
+    new Waypoint({
+        element: discreteElements[i],
+        handler: function(direction) {
+        	if(direction=='down') {
+            	this.element.classList.remove("show-title");
+            	this.element.classList.add("hide-title");
+            }
+            else if(direction=='up') {
+				this.element.classList.add("show-title");
+				this.element.classList.remove("hide-title");
+            }
+        },
+
+        offset: '-2px'
+    });
+}
+
+var discreteElements = document.getElementsByClassName('sec-fixedCenteredTitleMasthead')
+for (var i = 0; i < discreteElements.length; i++) {
+    new Waypoint({
+        element: discreteElements[i],
+        handler: function(direction) {
+        	if(direction=='down') {
+            	this.element.classList.add("show-content");
+            }
+            else if(direction=='up') {
+				this.element.classList.remove("show-content");
+            }
+        },
         offset: '-40%'
     });
 }
@@ -261,7 +298,7 @@ $( ".sec-fixedCenteredTitle" ).each(function( index ) {
 $(document).ready(function () {
 
 
-
+$('.sec-fixedCenteredTitleMasthead').addClass('show-title');
 
     var waypoints = $('.sec-fixedCenteredTitle .section-content').waypoint(function(direction) {
         if(direction=='down') {
