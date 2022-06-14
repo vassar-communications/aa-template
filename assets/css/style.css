@@ -12886,8 +12886,24 @@ i.circle.fa-solid {
   border-top-color: var(--color-vassar-cream);
 }
 
-.academics-cy .section-title::after {
+.academics-cy .section-title::after, .inperson .section-title::after {
   border-top-color: var(--color-vassar-burgundy);
+}
+
+/* Inperson  Section */
+.inperson .toplinks li.active a {
+  background: var(--color-vassar-verylightgray);
+  color: var(--color-vassar-burgundy);
+}
+
+.inperson .toplinks a {
+  line-height: 35px;
+  border-radius: 3px;
+}
+
+.inperson .toplinks li a:hover {
+  background: var(--color-vassar-burgundy);
+  color: var(--color-vassar-cream);
 }
 
 .textmasthead .section__title__main {
