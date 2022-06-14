@@ -238,3 +238,41 @@ i.circle.fa-solid {
   text-shadow: none;
 }
 
+/* Admission Homepage  */
+
+
+.theme-charcoal .btn-link:hover {
+  color: #fff;
+}
+.theme-charcoal .btn-link:hover i.circle.fa-solid {
+  background: var(--color-vassar-cream);
+  color: var(--color-vassar-charcoal);
+}
+
+button h3.card-title {
+  color: #fff;
+}
+
+/* Temp Footer Styles */
+
+.footer svg {
+  fill: #fff;
+  width: 180px;
+  margin-bottom: 1rem;
+}
+
+.donate-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer a {
+  color: var(--color-vassar-cream);
+  text-decoration: none;
+}
+.link_collection a { padding-right: 1rem; }
+.inner-row { margin-top: 1rem; }
+.knockedout { background-color: rgba(0, 0, 0, 0.39); color: #FFF; display: flex; flex-direction: column; justify-content: center; padding-left: 2rem;}
+.knockedout a { color: var(--color-vassar-cream); text-decoration:none;}
+.small-print { padding: 1rem 0; }
+.theme-darkest-burgundy {background: #3d0f1a}

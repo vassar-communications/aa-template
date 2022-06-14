@@ -40,7 +40,8 @@ null,
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
 
-<?php // echo page_masthead('https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg'); ?>
+<?php // this was the previous masthead
+// echo page_masthead('https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg'); ?>
 
 
 <?php echo breadcrumbNav('theme-cream'); ?>
