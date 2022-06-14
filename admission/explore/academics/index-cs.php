@@ -24,7 +24,7 @@ $page_classes = "academics";
 <?php echo sec_fixedCenteredTitle_masthead(
     '<b class="slide-from-left">Explore</b>
    <b class="slide-from-right">Academics</b>',
-    '<p class="section-intro-text">Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.</p>',
+null,
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg',
@@ -61,26 +61,6 @@ $page_classes = "academics";
 <!-- visit -->
 
 
-<?php echo sec_fixedCenteredTitle(
-    '<b class="slide-from-left">Learning is</b>
-   <b class="slide-from-right nice-big-serif">Innovation</b>',
-    '<p class="section-intro-text">Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.</p>',
-    'sec-fixedCenteredTitle theme-verylightgray',
-    'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/explore/academics/0020_15_03_KR_0022.jpg',
-        'bg-image-alt' => 'alt text',
-        'css' => '
-      --title-container-bg-beforeContent: rgba(0,0,0,0.4);
-      --section-bg-image-opacity: 0;
-      --section-title-faded-color: #444;
-      --bs-gap: 1rem;
-      ']
-); ?>
-
-<?php echo end_sec_fixedCenteredTitle(); ?>
-
-
-
 <?php echo sec_hasColumns(
     null,
     2,
@@ -93,6 +73,7 @@ $page_classes = "academics";
 
 <h2 class="display-3">Learning is Innovation</h2>
 
+<p class="section-intro-text">Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.</p>
 
 <?php echo end_item_col(); ?>
 

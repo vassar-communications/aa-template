@@ -36,14 +36,6 @@ $page_title = "Vassar Admission";
 
 <?php
 /*
-    On return: get the modal card working.
-    I might need to activate the carousel module in the local
-    BS; looks like Chuck disabled some things.
-
-    Also, the including the modal card function breaks this
-    when I upload it to aa-devspace
-*/
-
     echo item_imageCard_modal(
       null,
       'text',
@@ -56,7 +48,7 @@ $page_title = "Vassar Admission";
       ],
       'a-class'
     );
-
+*/
 ?>
 
 

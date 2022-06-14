@@ -40,7 +40,6 @@ function sec_fixedCenteredTitle_masthead(
 
 
     <div class="section-content $content_classes">
-      $intro
 
     TMP;
 }
