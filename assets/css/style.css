@@ -11889,6 +11889,14 @@ i.circle.fa-solid {
   border-top-color: var(--color-vassar-burgundy);
 }
 
+.academics-cy .title-container {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.academics-cy .section__title__main {
+  text-shadow: 0 0 34.2667px rgba(0, 0, 0, 0.1);
+}
+
 /* Inperson  Section */
 .btn-link:hover i.circle.fa-solid {
   background: var(--color-vassar-burgundy);

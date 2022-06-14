@@ -222,6 +222,18 @@ i.circle.fa-solid {
 .academics-cy .section-title::after , .inperson .section-title::after {
   border-top-color: var(--color-vassar-burgundy);
 }
+
+.academics-cy .title-container {
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.0) 100%);
+}
+
+.academics-cy  .section__title__main {
+ text-shadow: 0 0 34.2667px rgb(0 0 0 / 10%);
+
+}
+
+
+
 /* Inperson  Section */
 
 
