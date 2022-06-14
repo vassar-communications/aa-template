@@ -19,13 +19,12 @@ $page_classes = "";
 <?php echo vassar_masthead(); ?>
 
 <?php echo hamburger_navigation(); ?>
-<?php echo breadcrumbNav('theme-charcoal'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
 
 <?php echo page_masthead('https://vassartest.chuckyatsuk.com/img/financial-aid/0141-15-10-kr-fall-campus-vassar-0003.jpg'); ?>
 
-
+<?php echo breadcrumbNav('theme-cream'); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-breadcrumb.php');?>
+<?php echo end_sec_breadcrumbNav(); ?>
 
 
 <?php echo toplinksNav(); ?>

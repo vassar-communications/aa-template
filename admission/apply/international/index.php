@@ -53,11 +53,12 @@ $page_classes = "";
 
 
 
-<?php echo sec_wideContent(
+
+
+<?php echo sec_regularContent(
     null,
-    null,
-    'theme-charcoal',
-    'mw-4'
+    'theme-cream',
+    ''
 ); ?>
 
 
@@ -69,13 +70,13 @@ $page_classes = "";
 <p>
     <a href="/admission/apply/transfer"  class="px-0 btn btn-link">Transfer Application Requirements<i class="circle fa-solid fa-angle-right"></i></a></p>
 
-<?php echo end_sec_wideContent(); ?>
+<?php echo end_sec_regularContent(); ?>
 
 
 <?php echo sec_regularContent(
     null,
     null,
-    'mw-2'
+    ''
 ); ?>
 
 
@@ -132,12 +133,13 @@ $page_classes = "";
 
 <?php echo end_sec_regularContent(); ?>
 
-<?php echo sec_wideContent(
-    null,
+
+<?php echo sec_regularContent(
     null,
     'theme-cream',
-    'mw-4'
+    ''
 ); ?>
+
 <h3>Your application should include:</h3>
     <ul>
         <li>A transcript – a complete, certified record of your coursework and grades from each marking period of secondary school</li>
@@ -148,15 +150,16 @@ $page_classes = "";
     <p>All supporting documents should be in English. If your school does not provide a transcript in English, please provide both a certified copy of the original transcript and a translated copy in English.</p>
 
 
-<?php echo end_sec_wideContent(); ?>
+<?php echo end_sec_regularContent(); ?>
 
 
-<?php echo sec_wideContent(
-    null,
+
+<?php echo sec_regularContent(
     null,
     '',
-    'mw-1'
+    ''
 ); ?>
+
 
 <h3>Interviews</h3>
     <p>We recommend that applicants who submit the TOEFL/IELTS also complete an interview as an additional way to demonstrate English language proficiency; students who submit Duolingo will have the interview portion of the exam reviewed as part of their application.</p>
@@ -174,7 +177,7 @@ $page_classes = "";
 
 <h3>International Student Services</h3>
 <p>The <a class="fix" href="">Office of International Services (OIS)</a> offers a full range of resources for international students to make the Vassar experience as enjoyable and successful as possible. International students can also join the student-run Vassar International Students Association (VISA).</p>
-<?php echo end_sec_wideContent(); ?>
+<?php echo end_sec_regularContent(); ?>
 
 
 
