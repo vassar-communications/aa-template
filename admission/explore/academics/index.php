@@ -425,7 +425,7 @@ $page_classes = "academics-cy academics";
 <?php echo end_item_col(); ?>
 <?php echo item_col('equalht'); ?>
 <a class="card mb-4" href="/admission/explore/outcomes">
-    <img src="https://vassartest.chuckyatsuk.com/img/explore/outcomes/0002-20-01-kr-scc-networking-vassar-0041.jpg" class="card-img-top" alt="asdfasdfds">
+    <img src="https://vassartest.chuckyatsuk.com/img/explore/outcomes/0002-20-01-kr-scc-networking-vassar-0041.jpg" class="card-img-top" alt="Outcomes">
     <div class="card-body">
         <h4 class="card-title h2">Explore Outcomes</h4>
         <div class="card-text">
