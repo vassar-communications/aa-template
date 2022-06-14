@@ -3,23 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/arts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/first-year-applicants/arts/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/first-year-applicants/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/interviews/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/first-year-applicants/interviews/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/how-to-apply/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/how-to-apply/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admission/apply/international/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/international/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/veterans/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/veterans/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/aid-calculators/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/aid-calculators/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/apply/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/apply/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/forms/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/forms/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/tuition/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/tuition/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/types-of-aid/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/types-of-aid/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/nav-elements/admission-visit-breadcrumb.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/nav-elements/admission-visit-breadcrumb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/quick-facts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/quick-facts/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/class-visits/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/class-visits/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/group-visits/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/group-visits/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/on-demand/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/on-demand/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
