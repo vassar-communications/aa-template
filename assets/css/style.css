@@ -8343,7 +8343,7 @@ a:hover, a:visited:hover {
 }
 .card:hover img {
   transform: scale(1.06);
-  filter: contrast(1.2);
+  filter: contrast(0.9);
 }
 .card img {
   border-radius: 0;
