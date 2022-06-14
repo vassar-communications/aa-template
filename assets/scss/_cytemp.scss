@@ -218,19 +218,20 @@ i.circle.fa-solid {
 /* Inperson  Section */
 
 
-.inperson .toplinks li.active a {
+.inperson .toplinks li.active a, .academics-cy .toplinks li.active a  {
   background: var(--color-vassar-verylightgray);
   color: var(--color-vassar-burgundy);
 }
 
-.inperson .toplinks a {
+.inperson .toplinks a, .academics-cy .toplinks a {
   line-height: 36px;
   border-radius: 3px;
 }
 
-.inperson .toplinks li a:hover {
+.inperson .toplinks li a:hover, .academics-cy .toplinks li a:hover {
   background: var(--color-vassar-burgundy);
   color: var(--color-vassar-cream);
+  text-decoration: none;
 }
 
 
@@ -255,6 +256,13 @@ button h3.card-title {
 
 /* Temp Footer Styles */
 
+
+.theme-dark-burgundy .btn-link:hover i.circle.fa-solid {
+  background: var(--color-vassar-cream);
+  color: var(--color-vassar-dark-burgundy);
+}
+
+
 .footer svg {
   fill: #fff;
   width: 180px;
@@ -272,7 +280,21 @@ button h3.card-title {
 }
 .link_collection a { padding-right: 1rem; }
 .inner-row { margin-top: 1rem; }
-.knockedout { background-color: rgba(0, 0, 0, 0.39); color: #FFF; display: flex; flex-direction: column; justify-content: center; padding-left: 2rem;}
+.knockedout { background-color: rgba(0, 0, 0, 0.15); color: #FFF; display: flex; flex-direction: column; justify-content: center; padding: 1rem 3rem;}
 .knockedout a { color: var(--color-vassar-cream); text-decoration:none;}
 .small-print { padding: 1rem 0; }
 .theme-darkest-burgundy {background: #3d0f1a}
+
+/* Equal Height Related Links */
+
+
+.equalht {
+  display: flex;
+}
+
+
+.equalht .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
