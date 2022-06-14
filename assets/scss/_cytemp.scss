@@ -163,10 +163,10 @@ i.circle.fa-solid {
   color:  var(--color-vassar-burgundy);
 }
 
-.academics .card-body {
+.academics .card-body, .inperson .card-body {
   background: #fff;
 }
-.academics .card:hover i.circle.fa-solid {
+.academics .card:hover i.circle.fa-solid , .inperson .card:hover i.circle.fa-solid {
   color: #fff!important;
   background: #222!important;
 }

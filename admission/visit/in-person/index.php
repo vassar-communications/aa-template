@@ -39,7 +39,7 @@ $page_classes = "inperson";
     2,
     null,
     '',
-    ''
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
 ); ?>
 
 <?php echo item_col(); ?>
@@ -65,7 +65,7 @@ $page_classes = "inperson";
 <h3 class="display-6">Campus Access and Pre-Registration</h3>
     <p>Pre-registration is required to attend an on-campus Admission Information Session and Campus Tour; walk-ins will not be accommodated. Self-guided tours are permitted without registration, and campus maps are available at the directional sign in front of the Kautz Admission House.</p>
     <p>Please note, Admission Office staff will only be available during regularly scheduled visits to speak with registered visitors. All campus buildings, including the Kautz Admission House, remain closed to the general public. The guided tour includes entry into some campus buildings, but visitors will not be permitted to enter buildings separate from the tour. Please refrain from bringing pets along for the Information Session or Tour; service animals are welcome.</p>
-<hr/>
+<hr class="my-5"/>
 <h3 class="display-6">Visitor Health and Safety Policies</h3>
 <p><strong>Proof of COVID-19 Vaccination or Negative Test</strong><br/> We require all campus visitors to show proof of full vaccination against COVID-19. This requirement includes the booster shot, which is in keeping with the spring term campus requirement that all students and employees have a COVID-19 booster. Visitors who are not fully vaccinated, including those who have not yet received the booster, must present a negative COVID-19 test upon check-in.</p>
 
@@ -84,7 +84,7 @@ $page_classes = "inperson";
 
 <p><strong>Mask Policy</strong><br/> All visitors must wear a mask when indoors. The information session and guided tour will include entry into campus buildings, so please have a mask with you during your visit.</p>
 
-<hr/>
+<hr class="my-5"/>
 <h3 class="display-6">Arrival and Check-In</h3>
 <p>Parking is available in the North Parking Lot and South Parking Lot. A small number of parking spaces can also be found on Main Campus Drive and along the back of Main Circle in front of Kautz House. We recommend arriving on campus 20 minutes prior to the start of your visit in order to secure parking and make your way to the check-in location.</p>
 
