@@ -1,0 +1,13 @@
+// todo: have the text-shadow be a CSS var
+// integrate this into the section styling - shouldn't
+// be its own class
+
+.section-title-text-shadow {
+  &:not(.show-content) {
+    .section-title {
+      b {
+        text-shadow: 0 0em 0.2em #000;
+      }
+    }
+  }
+}

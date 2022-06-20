@@ -1,3 +1,17 @@
+<style>
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #aaa !important;
+    box-shadow: 0 0 0 0.25rem #aaa !important;
+}
+
+.section-intro-text {
+  font-size: var(--intro-text-size) !important;
+}
+
+
+</style>
 
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
@@ -147,7 +161,7 @@ $page_classes = "academics-cy academics";
 
 <?php echo sec_wideContent(
     'Your Choices <span class="burgundy">=</span> Your Education',
-    '<p>Vassar’s curriculum emphasizes a multidisciplinary approach to intellectual inquiry. With more than 1,000 courses to choose from and an average class size of 17, Vassar offers a customizable curriculum to satisfy any curiosity.</p>',
+    '<p class="section-intro-text">Vassar’s curriculum emphasizes a multidisciplinary approach to intellectual inquiry. With more than 1,000 courses to choose from and an average class size of 17, Vassar offers a customizable curriculum to satisfy any curiosity.</p>',
     'theme-cream pb-1 hidemark',
     'mw-3'
 ); ?>

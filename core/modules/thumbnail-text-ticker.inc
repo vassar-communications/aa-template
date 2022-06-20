@@ -1,6 +1,6 @@
 <?php
 
-function sec_thumbnailTextTicker() {
+function thumbnailTextTicker() {
   return <<<TMP
 
   <div class="thumbnail-text-ticker fade-nonselected full" id="gallery2">
