@@ -351,7 +351,8 @@ if ($('.featureImage-text-ticker').length) {
     // options
     cellAlign: 'left',
     contain: true,
-groupCells: true
+groupCells: true,
+    autoPlay: 3000
   });
 }
 

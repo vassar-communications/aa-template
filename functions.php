@@ -186,7 +186,7 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/fix
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/news-carousel.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/alums-carousel.inc');
-include($project_paths['main_project_root'].'/core/sections/content_sections/thumbnail-text-ticker.inc');
+include($project_paths['main_project_root'].'/core/modules/thumbnail-text-ticker.inc');
 
 
 

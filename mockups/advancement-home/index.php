@@ -47,9 +47,9 @@ $page_classes = "advancement-demo";
     '<b class="slide-from-left">Make a difference</b>
    <b class="slide-from-right nice-big-serif">and give back.</b>',
     '<p class="section-intro-text"> [ content goes here. We need a new background photo. ]</p>',
-    'sec-fixedCenteredTitle theme-verylightgray here-to-help',
+    'sec-fixedCenteredTitle theme-verylightgray make-a-difference section-title-text-shadow',
     'mw-4',
-    ['bg-image-url' => '/mockups/admission-home/journey/0100-21-10-kr-fw-general-vassar-0057.jpg',
+    ['bg-image-url' => '/mockups/advancement-home/assets/images/0153-19-11-kr-major-palooza-vassar-6031.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -116,10 +116,10 @@ echo sec_fixedCenteredTitle(
     '
    <p class="section-intro-text">Leaving campus doesn’t have to mean leaving Vassar. From global reunions to local get-togethers, Vassar alumni events keep the connection going.</p>',
 
-  'sec-fixedCenteredTitle theme-charcoal-to-white hide-image',
+  'sec-fixedCenteredTitle theme-charcoal-to-white section-title-text-shadow',
   'mw-4',
     [
-      'bg-image-url' => '/mockups/admission-home/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
+      'bg-image-url' => '/mockups/advancement-home/assets/images/0153-19-11-kr-major-palooza-vassar-0004-crop.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --section-title-size: 10vw;
@@ -192,7 +192,7 @@ Stories that showcase Vassar’s impact on the world, and more.
     ]
 ); ?>
 
-  <?php echo sec_thumbnailTextTicker(); ?>
+  <?php echo thumbnailTextTicker(); ?>
 
 <?php echo end_sec_fixedCenteredTitle(); ?>
 
