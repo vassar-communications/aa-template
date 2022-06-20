@@ -241,9 +241,13 @@ display: none;
 
 span.burgundy {
   color: var(--color-vassar-burgundy);
-  font-variation-settings: "wght" 500;
+  font-variation-settings: "wght" 200;
   font-family: var(--sansSerif);
 
+}
+
+.accordion-button:focus {
+  box-shadow:none;
 }
 
 
@@ -321,7 +325,7 @@ button h3.card-title {
 }
 .link_collection a { padding-right: 1rem; }
 .inner-row { margin-top: 1rem; }
-.knockedout { background-color: rgba(0, 0, 0, 0.15); color: #FFF; display: flex; flex-direction: column; justify-content: center; padding: 1rem 3rem;}
+.knockedout { background-color: rgba(0, 0, 0, 0.15); color: #FFF; display: flex; flex-direction: column; justify-content: center; padding: 1rem 2rem;}
 .knockedout a { color: var(--color-vassar-cream); text-decoration:none;}
 .small-print { padding: 1rem 0; }
 .theme-darkest-burgundy {background: #3d0f1a}
