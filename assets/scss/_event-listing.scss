@@ -1,0 +1,120 @@
+.event-listing {
+  .events {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+
+  .event {
+    background: #fff;
+    display: flex;
+    margin: 1.6rem 0;
+    box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    transition: 0.4s all ease;
+
+    &:first-child {
+      border-top-right-radius: 0.4rem;
+      border-top-left-radius: 0.4rem;
+    }
+    &:hover {
+      transform: scale(1.02);
+      z-index: 60;
+      box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .event__title {
+    font-family: freight-big-pro;
+    font-weight: bold;
+    font-size: 2.3rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+    padding-right: 3rem;
+  }
+
+  .event__content-container {
+    $inner-border-distance: 0.6rem;
+
+    padding: 2.4rem;
+    flex: 1;
+    border-top: 1px solid #dedede;
+    border-left: none;
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+    border-bottom-color: #ccc;
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      border: 1px solid #f00;
+      border-color: transparent;
+      border-left: none;
+      top: $inner-border-distance;
+      left: $inner-border-distance;
+      right: $inner-border-distance;
+      bottom: $inner-border-distance;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.2;
+      color: #666;
+      font-variation-settings: "wght" 400;
+    }
+  }
+
+  .event__image-container {
+    position: relative;
+    width: 14rem;
+    overflow: hidden;
+
+    border-top: 1px solid #fff;
+    border-left: 1px solid #aaa;
+    //  border-right: none;
+    //  border-top-left-radius: 0.4rem;
+    //  border-bottom-left-radius: 0.4rem;
+  }
+
+  img.event__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .calendar {
+    position: absolute;
+    z-index: 10;
+    line-height: 1.1;
+    background: #f00;
+    color: #fff;
+    top: 0;
+    right: 1.2rem;
+    padding: 0.6rem 0.8rem;
+
+    p {
+      margin: 0;
+    }
+  }
+  .event__month {
+    text-transform: uppercase;
+  }
+  .event__day {
+    font-size: 2rem;
+  }
+
+  .event__summary {
+    max-width: 36em;
+
+    p {
+      &:last-child,
+      &:only-child {
+        margin: 0;
+      }
+    }
+  }
+}

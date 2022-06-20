@@ -163,6 +163,7 @@ include($project_paths['main_project_root'].'/core/partials/bg-image-tag.inc');
 
 
 include($project_paths['main_project_root'].'/core/sections/universal_sections/siteHeader_video.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/siteHeader_video_adv.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/pageMasthead.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/pageTextMasthead.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/vassarMasthead.inc');
@@ -170,6 +171,8 @@ include($project_paths['main_project_root'].'/core/sections/universal_sections/h
 include($project_paths['main_project_root'].'/core/sections/universal_sections/breadcrumbNavigation.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/toplinksNavigation.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/relatedTopics.inc');
+
+include($project_paths['main_project_root'].'/core/sections/content_sections/event-listing.inc');
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/buffer.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/wordByWord.inc');
