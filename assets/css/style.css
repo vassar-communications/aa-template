@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 @charset "UTF-8";
 @font-face {
   font-family: "Source Sans Variable";
@@ -13190,4 +13191,23 @@ button h3.card-title, button .card-title.h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+=======
+/* Error: expected "}".
+ *     ,
+ * 339 | }
+ *     |  ^
+ *     '
+ *   _cytemp.scss 339:2  @import
+ *   style.scss 199:9    root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "}".\a     \2577 \a 339 \2502  }\a     \2502   ^\a     \2575 \a   _cytemp.scss 339:2  @import\a   style.scss 199:9    root stylesheet';
+>>>>>>> Stashed changes
 }
