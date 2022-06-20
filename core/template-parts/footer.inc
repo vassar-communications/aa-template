@@ -36,7 +36,7 @@ function site_footer() {
 
 
 
-			<div class="col-3 knockedout">
+			<div class="col-3 knockedout fixit">
 				<div><span class="tagline  mb-2">Join Us</span></div>
 				<div class="h4">Get Vassar’s newsletter and other information about Vassar.</div>
 				  <a href="/admission/explore/academics/" class="donate-btn px-0 mt-4 btn btn-link">Request Info <i class="circle fa-solid fa-arrow-right"></i></a>
