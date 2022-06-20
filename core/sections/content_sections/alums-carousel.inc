@@ -1,9 +1,7 @@
 <?php
 
-function newsCarousel() {
+function alumsCarousel() {
   return <<<TMP
-<div class="section section--carousel theme-charcoal">
-
 <div class="featureImage-text-ticker fade-nonselected full" id="gallery">
 
   <div class="carousel-cell">
@@ -49,7 +47,5 @@ function newsCarousel() {
 
   </div>
 
-
-</div>
 TMP;
 }

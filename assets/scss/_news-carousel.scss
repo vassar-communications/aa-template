@@ -144,46 +144,45 @@ html {
   --carousel-height: 28rem;
 }
 
-.flickity-viewport {
-  position: relative;
-  height: 100% !important;
-}
 
-.carousel {
-  height: var(--carousel-height, 32em);
-}
-.carousel .carousel-cell {
-  height: 100%;
-  margin-right: 1em;
-  width: 100%;
-}
-.carousel-cell-content {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  max-width: 70rem;
-  margin: 0 auto;
-  gap: 1.3rem;
-}
-.carousel .carousel-cell .image-container {
-//  height: auto;
-//  width: calc(100% - 20rem);
-  width: fit-content;
-//  object-fit: contain;
+.featureImage-text-ticker {
+  .flickity-viewport {
+    position: relative;
+    height: 100% !important;
+  }
 
-  img {
-    max-width: 100%;
-    max-height: var(--carousel-height, 32em);
+  & {
+    height: var(--carousel-height, 32em);
+  }
+  & .carousel-cell {
+    height: 100%;
+    margin-right: 1em;
+    width: 100%;
+  }
+  .carousel-cell-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 70rem;
+    margin: 0 auto;
+    gap: var(--carousel-gap, 1.3rem);
+  }
+  & .carousel-cell .image-container {
+    width: fit-content;
+
+    img {
+      max-width: 100%;
+      max-height: var(--carousel-height, 32em);
+    }
+  }
+  .figcaption {
+    width: 20rem;
+
+    * {
+      margin-top: 0;
+    }
   }
 }
-.figcaption {
-  width: 20rem;
-
-  * {
-    margin-top: 0;
-  }
-}
-
 
 
 /*  Theme
