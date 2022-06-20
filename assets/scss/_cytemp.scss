@@ -233,6 +233,17 @@ i.circle.fa-solid {
 
 }
 
+.hidemark .section-title::after {
+
+display: none;
+}
+
+
+span.burgundy {
+  color: var(--color-vassar-burgundy);
+  font-variation-settings: "wght" 500;
+  font-family: var(--sansSerif);
+
 
 
 /* Inperson  Section */

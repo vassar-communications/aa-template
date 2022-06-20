@@ -2,7 +2,7 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
- ?>
+?>
 <?php
 
 /*  PAGE INFO ============ */
@@ -19,6 +19,9 @@ $page_classes = "academics-cy academics";
 <?php echo vassar_masthead(); ?>
 
 <?php echo hamburger_navigation(); ?>
+
+
+
 
 
 
@@ -40,6 +43,7 @@ $page_classes = "academics-cy academics";
 ); ?>
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
+
 
 <?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-breadcrumb.php');?>
@@ -76,7 +80,7 @@ $page_classes = "academics-cy academics";
 <?php echo end_item_col(); ?>
 
 <?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/explore/0084-19-05-ja-kumar-class-vassar-253.jpg" />
+<img src="https://vassartest.chuckyatsuk.com/img/explore/academics/0020_15_03_KR_0022.jpg" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
@@ -117,7 +121,7 @@ $page_classes = "academics-cy academics";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/explore/academics/cel/0056_14_07_BL_7266.jpg',
+    'https://vassartest.chuckyatsuk.com/img/explore/0084-19-05-ja-kumar-class-vassar-253.jpg',
     'image-is-first theme-charcoal bg-dark',
     'mw-100'
 ); ?>
@@ -146,9 +150,9 @@ $page_classes = "academics-cy academics";
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_wideContent(
-    'Your Choices <span class="burgundy">=</span> Your Education',
+    'Your Choices = Your Education',
     '<p>Vassar’s curriculum emphasizes a multidisciplinary approach to intellectual inquiry. With more than 1,000 courses to choose from and an average class size of 17, Vassar offers a customizable curriculum to satisfy any curiosity.</p>',
-    'theme-cream pb-1 hidemark',
+    'theme-cream pb-1',
     'mw-3'
 ); ?>
 <div class="py-5 accordion accordion-flush" id="academics">
