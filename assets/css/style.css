@@ -12195,4 +12195,24 @@ button h3.card-title, button .card-title.h3 {
   justify-content: space-between;
 }
 
+.inperson .title-container {
+  height: 70vh;
+  padding-bottom: 4vw;
+}
+
+.inperson .section-bg {
+  height: 70vh;
+}
+
+.inperson h1.section__title__main.display-1.display, .inperson .section__title__main.display-1.display.h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.inperson .section--top-level-masthead {
+  min-height: 70vh;
+}
+
 /*# sourceMappingURL=style.css.map */
