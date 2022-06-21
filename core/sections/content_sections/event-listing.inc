@@ -58,6 +58,11 @@ function sec_eventListing( $extras = false ) {
         </div>
       </div>
     </div>
+
+    <div class="text-center mt-5">
+      <a href="" class="cta-link">All events</a>
+    </div>
+
   </div>
 TMP;
 }

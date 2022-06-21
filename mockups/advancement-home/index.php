@@ -28,6 +28,8 @@ $page_classes = "advancement-demo";
 
 
 <?php echo sec_siteHeader_video_adv(); ?>
+<a href="" class="cta-link">Give Now</a>
+<a href="" class="cta-link">Log in</a>
 <?php echo end_sec_siteHeader_video(); ?>
 
 <!-- intro quote -->
@@ -46,7 +48,7 @@ $page_classes = "advancement-demo";
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Make a difference</b>
    <b class="slide-from-right nice-big-serif">and give back.</b>',
-    '<p class="section-intro-text"> [ content goes here. We need a new background photo. ]</p>',
+    '<p class="section-intro-text"> [ content goes here. ]</p>',
     'sec-fixedCenteredTitle theme-verylightgray make-a-difference section-title-text-shadow',
     'mw-4',
     ['bg-image-url' => '/mockups/advancement-home/assets/images/0153-19-11-kr-major-palooza-vassar-6031.jpg',
@@ -122,7 +124,7 @@ echo sec_fixedCenteredTitle(
   'sec-fixedCenteredTitle theme-charcoal-to-white section-title-text-shadow',
   'mw-4',
     [
-      'bg-image-url' => '/mockups/advancement-home/assets/images/0153-19-11-kr-major-palooza-vassar-0004-crop.jpg',
+      'bg-image-url' => '/mockups/advancement-home/assets/images/0227-17-04-ym-dc-johnson-brunch-vassar-0644.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --section-title-size: 10vw;
@@ -149,11 +151,7 @@ echo sec_fixedCenteredTitle(
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Alumni</b>
    <b class="slide-from-right">Spotlight</b>',
-    '<p class="section-intro-text">
-
-Stories that showcase Vassar’s impact on the world, and more.
-
-   </p>',
+    '<p class="section-intro-text">Here we shine a light on the great work being done by our staff, students, and alumni.</p>',
     'sec-fixedCenteredTitle theme-charcoal alums-spotlight',
     'mw-4',
     ['bg-image-url' => '/mockups/admission-home/fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',

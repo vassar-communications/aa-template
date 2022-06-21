@@ -9803,6 +9803,12 @@ li::marker {
   border-radius: 50%;
 }
 
+.section-intro-text {
+  max-width: 40ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .grid {
   display: grid;
   gap: var(--bs-gap, 3rem);
@@ -12167,6 +12173,10 @@ html {
   margin: 0;
 }
 
+.ticker-section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
 .ticker-section .section-content {
   max-width: 58rem;
 }
@@ -12176,13 +12186,13 @@ html {
   font-family: var(--bs-font-sans-serif);
 }
 .ticker-section p strong {
-  font-variation-settings: "wght" 100;
+  font-variation-settings: "wght" 200;
   transition: 0.8s all linear;
   transition-delay: 1.4s;
 }
 .ticker-section .content-appeared strong {
   color: var(--color-vassar-burgundy);
-  font-variation-settings: "wght" 600;
+  font-variation-settings: "wght" 700;
 }
 .ticker-section .content-appeared strong:nth-child(2) {
   transition-delay: 1.6s;
