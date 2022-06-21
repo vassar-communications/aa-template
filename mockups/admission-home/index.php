@@ -354,7 +354,7 @@ We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings
 
 <?php
 echo item_imageCard_modal(
-  get_icon('play').'Shakespeare Garden',
+  get_icon('vr-cardboard').'Shakespeare Garden',
   null,
   'shakespeare-modal',
   null,
@@ -372,7 +372,7 @@ echo item_imageCard_modal(
 
         <?php
         echo item_imageCard_modal(
-          get_icon('play').'Thompson Memorial Library',
+          get_icon('vr-cardboard').'Thompson Memorial Library',
           null,
           'thompson-modal',
           null,
@@ -405,7 +405,7 @@ echo item_imageCard_modal(
 
         <?php
         echo item_imageCard_modal(
-          get_icon('play').'The Ecological Preserve',
+          get_icon('vr-cardboard').'The Ecological Preserve',
           null,
           'ecological-modal',
           null,
@@ -422,8 +422,8 @@ echo item_imageCard_modal(
           null,
           'student-modal',
           null,
-          ['url' => '/mockups/admission-home/fav-places-2/studio.jpg',
-          'alt' => 'asdfasdf'
+          ['url' => 'https://vassartest.chuckyatsuk.com/img/favplaces-v2.jpg',
+          'alt' => 'Student describing favorite place on campus'
           ],
           'animation-item grid-item text-at-bottom'
         );
@@ -470,27 +470,60 @@ All Vassar students are surrounded by an environment designed to spark something
 */ ?>
 
 
+<?php echo sec_hasColumns(
+    null,
+    3,
+    null,
+    '',
+    ''
+); ?>
+
+<?php echo item_col(''); ?>
 <?php
 echo item_imageCard_modal(
-  get_icon('play').'Video Tour',
-  null,
-  'video-tour-modal',
-  null,
-  ['url' => '/mockups/admission-home/video-thumbnail.jpg',
-  'alt' => 'asdfasdf'
-  ],
-  'animation-item grid-item text-at-bottom'
-);
-
-?>
-
-<?php /* echo item_imageCard(
-    get_icon('play').'Video Tour',
+    get_icon('play').'Thompson Library',
     null,
-    'https://www.vassar.edu',
-    ['url' => '/mockups/admission-home/video-thumbnail.jpg', 'alt' => 'asdfasdfds' ],
-    'text-at-bottom mt-5'
-); */ ?>
+    'tiktok1-modal',
+    null,
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/tik1.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom'
+);
+?>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(''); ?>
+<?php
+echo item_imageCard_modal(
+    get_icon('play').'Day in the Life',
+    null,
+    'tiktok2-modal',
+    null,
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/tik2.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom'
+);
+?>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(''); ?>
+<?php
+echo item_imageCard_modal(
+    get_icon('play').'Dorm Tour',
+    null,
+    'tiktok3-modal',
+    null,
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/tik3.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom'
+);
+?>
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
 
 
 
@@ -597,7 +630,7 @@ echo item_imageCard_modal_setup(
   null,
   'lab-sciences-modal',
   '<div class="ratio ratio-16x9">
-<iframe class="modal-video" id="video-id--2081" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/avgWMTn4A1c?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
+<iframe class="modal-video" id="video-id--2081" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/AqDKltbh7h4?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
   </div>',
   ['url' => '/mockups/admission-home/fav-places-2/110619_160over90_Vassar_5483.jpg',
   'alt' => 'asdfasdf'
@@ -680,21 +713,60 @@ echo item_imageCard_modal_setup(
 );
 ?>
 
+
 <?php
 echo item_imageCard_modal_setup(
-  get_icon('play').'Video Tour',
-  null,
-  'video-tour-modal',
-  '<div class="modal-body ratio ratio-16x9"><iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/531201548?title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" data-ready="true"></iframe></div>',
-  ['url' => '/mockups/admission-home/video-thumbnail.jpg',
-  'alt' => 'asdfasdf'
-  ],
-  'animation-item grid-item text-at-bottom'
+    get_icon('play').'Day in the Life',
+    null,
+    'tiktok1-modal',
+    '<div class="modal-body ratio ratio-9x16 bg-dark">
+<video width="320" height="240" controls>
+  <source src="https://vassartest.chuckyatsuk.com/img/admission-home/tik1.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>',
+    ['url' => '/mockups/admission-home/fav-places-2/studio.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom'
 );
-
 ?>
 
+<?php
+echo item_imageCard_modal_setup(
+    get_icon('play').'Day in the Life',
+    null,
+    'tiktok2-modal',
+    '<div class="modal-body ratio ratio-9x16 bg-dark">
+<video width="320" height="240" controls>
+  <source src="https://vassartest.chuckyatsuk.com/img/admission-home/tik2.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>',
+    ['url' => '/mockups/admission-home/fav-places-2/studio.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom'
+);
+?>
 
+<?php
+echo item_imageCard_modal_setup(
+    get_icon('play').'Dorm Tour',
+    null,
+    'tiktok3-modal',
+    '<div class="modal-body ratio ratio-9x16 bg-dark">
+<video width="320" height="240" controls>
+  <source src="https://vassartest.chuckyatsuk.com/img/admission-home/tik3.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>',
+    ['url' => '/mockups/admission-home/fav-places-2/studio.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom'
+);
+?>
 
 
 <?php echo site_footer(); ?>
