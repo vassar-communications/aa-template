@@ -185,67 +185,7 @@ echo sec_fixedCenteredTitle(
 ); ?>
 
 
-<?php
-
-echo row_fancyStats();
-
-/*
-<div class="xlayout-masonry animation-group loose-grid stat-grid">
- <!--<div class="grid-sizer"></div>-->
-
- <?php echo item_statIcon(
-   '2,435',
-   'students',
-   'people-group',
-   'animation-item masonry-item'
- ); ?>
-
- <?php echo item_statIcon(
-   '340',
-   'faculty',
-   'person-chalkboard',
-   'animation-item masonry-item'
- ); ?>
-
- <?php echo item_statIcon(
-   '$54K',
-   'average aid award',
-   'coins',
-   'animation-item masonry-item'
- ); ?>
-
- <?php echo item_statIcon(
-   '51',
-   'majors',
-   'book',
-   'animation-item masonry-item'
- ); ?>
-
- <?php echo item_statIcon(
-   '8:1',
-   'students to faculty',
-   'users',
-   'animation-item masonry-item'
- ); ?>
-
- <?php echo item_statIcon(
-   '27',
-   'varsity teams',
-   'person-running',
-   'animation-item masonry-item'
- ); ?>
-
- <?php echo item_statIcon(
-   '170',
-   'student orgs',
-   'screwdriver-wrench',
-   'animation-item masonry-item'
- ); ?>
-
-</div><!-- end layout-masonry -->
-*/
-
-?>
+<?php echo row_fancyStats(); ?>
 
 <div class="d-flex animation-zoom-in animate-when-content-appears animation-group" style="gap: 2vw; --flipcard-height: 14rem">
 
@@ -297,12 +237,10 @@ echo row_fancyStats();
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Our favorite</b>
    <b class="slide-from-right">places.</b>',
-    '<p class="section-intro-text">
+    '<p class="section-intro-text">We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings that showcase classic architecture blended seamlessly with modern, cutting-edge facilities.</p>
 
-We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings that showcase classic architecture blended seamlessly with modern, cutting-edge facilities.
-
-   </p>',
-    'sec-fixedCenteredTitle theme-charcoal',
+    <p class="text-center mb-5"><i class="icon fa fa-vr-cardboard me-2"></i> panoramic video</p>',
+    'sec-fixedCenteredTitle theme-burgundy',
     'mw-4',
     ['bg-image-url' => '/mockups/admission-home/fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',
         'bg-image-alt' => 'alt text',

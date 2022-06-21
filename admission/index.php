@@ -35,23 +35,6 @@ $page_classes = "admission-demo";
 
 <!-- site masthead goes here -->
 
-<?php
-/*
-    echo item_imageCard_modal(
-      null,
-      'text',
-      'a-modal',
-      '<div class="ratio ratio-16x9">
-        <iframe id="video-id--2041" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/aHxtG6CJQso?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
-      </div>',
-      ['url' => 'fav-places-2/0195-19-11-kwe-gordon-vassar-1644.jpg',
-      'alt' => 'asdfasdf'
-      ],
-      'a-class'
-    );
-*/
-?>
-
 
 <!-- animated pullquote goes here -->
 <?php echo sec_regularContent(
@@ -185,67 +168,7 @@ echo sec_fixedCenteredTitle(
 ); ?>
 
 
-<?php
-
-echo row_fancyStats();
-
-/*
-<div class="xlayout-masonry animation-group loose-grid stat-grid">
- <!--<div class="grid-sizer"></div>-->
-
- <?php echo item_statIcon(
-   '2,435',
-   'students',
-   'people-group',
-   'animation-item masonry-item'
- ); ?>
-
- <?php echo item_statIcon(
-   '340',
-   'faculty',
-   'person-chalkboard',
-   'animation-item masonry-item'
- ); ?>
-
- <?php echo item_statIcon(
-   '$54K',
-   'average aid award',
-   'coins',
-   'animation-item masonry-item'
- ); ?>
-
- <?php echo item_statIcon(
-   '51',
-   'majors',
-   'book',
-   'animation-item masonry-item'
- ); ?>
-
- <?php echo item_statIcon(
-   '8:1',
-   'students to faculty',
-   'users',
-   'animation-item masonry-item'
- ); ?>
-
- <?php echo item_statIcon(
-   '27',
-   'varsity teams',
-   'person-running',
-   'animation-item masonry-item'
- ); ?>
-
- <?php echo item_statIcon(
-   '170',
-   'student orgs',
-   'screwdriver-wrench',
-   'animation-item masonry-item'
- ); ?>
-
-</div><!-- end layout-masonry -->
-*/
-
-?>
+<?php echo row_fancyStats(); ?>
 
 <div class="d-flex animation-zoom-in animate-when-content-appears animation-group" style="gap: 2vw; --flipcard-height: 14rem">
 
@@ -297,11 +220,7 @@ echo row_fancyStats();
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Our favorite</b>
    <b class="slide-from-right">places.</b>',
-    '<p class="section-intro-text">
-
-We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings that showcase classic architecture blended seamlessly with modern, cutting-edge facilities.
-
-   </p>',
+    '<p class="section-intro-text">We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings that showcase classic architecture blended seamlessly with modern, cutting-edge facilities.</p>',
     'sec-fixedCenteredTitle theme-charcoal',
     'mw-4',
     ['bg-image-url' => '/mockups/admission-home/fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',
@@ -463,13 +382,6 @@ All Vassar students are surrounded by an environment designed to spark something
     ]
 ); ?>
 
-<?php /*
-    <div class="embed-responsive embed-responsive-16by9 ratio ratio-16x9">
-        <iframe title="vimeo-player" src="https://player.vimeo.com/video/531201548?h=eca7efdc85" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-    </div>
-*/ ?>
-
-
 <?php echo sec_hasColumns(
     null,
     3,
@@ -606,13 +518,9 @@ echo item_imageCard_modal(
 </div>
 
 <div class="text-center mt-5">
-    <a href="" class="cta-link mt-4 me-4">More quick facts</a>
-    <a href="" class="cta-link mt-4">Contact us</a>
-
+  <a href="" class="cta-link mt-4 me-4">More quick facts</a>
+  <a href="" class="cta-link mt-4">Contact us</a>
 </div>
-
-
-
 
 <?php echo end_sec_fixedCenteredTitle(); ?>
 
