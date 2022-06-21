@@ -349,10 +349,12 @@ $('.sec-fixedCenteredTitleMasthead').addClass('show-title');
 if ($('.featureImage-text-ticker').length) {
   $('.featureImage-text-ticker').flickity({
     // options
-    cellAlign: 'left',
+//    cellAlign: 'left',
     contain: true,
-groupCells: true,
-    autoPlay: 3000
+// groupCells: true,
+//freeScroll: true,
+//    autoPlay: 3000,
+        wrapAround: true
   });
 }
 

@@ -158,12 +158,14 @@ html {
     height: 100%;
     margin-right: 1em;
     width: 100%;
+    width: 70%;
+    transition: 1s all ease;
   }
   .carousel-cell-content {
     width: 100%;
     display: flex;
     justify-content: center;
-    max-width: 70rem;
+//    max-width: 70rem;
     margin: 0 auto;
     gap: var(--carousel-gap, 1.3rem);
   }
@@ -176,9 +178,11 @@ html {
     }
   }
   .figcaption {
+    background: #444;
+    padding: 2rem;
     width: 20rem;
 
-    * {
+    h3 {
       margin-top: 0;
     }
   }
@@ -190,4 +194,89 @@ html {
 
 .section--carousel {
   padding: 4rem;
+}
+
+
+.featureImage-text-ticker .carousel-cell:not(.is-selected) {
+    opacity: 0.2;
+    transform: scale(0.7) translateX(16em);
+}
+.featureImage-text-ticker .is-selected ~ .carousel-cell {
+    opacity: 0.2;
+    transform: scale(0.7) translateX(-16em);
+}
+
+.featureImage-text-ticker .carousel-cell.is-selected {
+    z-index: 10;
+}
+
+.featureImage-text-ticker .carousel-cell-content {
+    gap: 0;
+}
+
+.featureImage-text-ticker .carousel-cell.is-selected .carousel-cell-content {
+    box-shadow: 0 1em 1em rgba(0,0,0,0.4);
+}
+
+$border-distance: 0.6rem;
+
+.featureImage-text-ticker {
+  .btn-link {
+    margin-top: 2rem;
+  }
+  .image-container {
+    overflow: hidden;
+
+    img {
+      z-index: 10;
+      position: relative;
+      transition: 0.4s all ease;
+    }
+  }
+
+  .figcaption {
+    position: relative;
+
+    &:before, &:after {
+      position: absolute;
+      content: '';
+      border: 2px solid #f00;
+      opacity: 0;
+      width: 0;
+      height: 0;
+      transition: 0.4s all ease;
+    }
+    &:before {
+      top: $border-distance;
+      left: $border-distance;
+      border-right: none;
+      border-bottom: none;
+    }
+    &:after {
+      bottom: $border-distance;
+      right: $border-distance;
+      border-top: none;
+      border-left: none;
+    }
+  }
+}
+.featureImage-text-ticker .carousel-cell:hover {
+  cursor: pointer;
+    i.circle.fa-solid {
+      background: #fff;
+      color: #f00;
+    }
+
+    .figcaption {
+      &:before,
+      &:after {
+        width: calc(100% - (2 * #{$border-distance}));
+        height: calc(100% - (2 * #{$border-distance}));
+        opacity: 1;
+      }
+    }
+    img {
+      filter: brightness(1.2);
+      transform: scale(1.04);
+    }
 }

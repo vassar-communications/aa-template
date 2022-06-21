@@ -21,7 +21,7 @@ $card_image_url = $card_image_info['url'];
 $card_image_alt = $card_image_info['alt'];
 
 return <<<TMP
-<a class="card $classes" $css href="$card_link_url">
+<a class="card card--withParagraph $classes" $css href="$card_link_url">
   <img src="$card_image_url" class="card-img-top" alt="$card_image_alt">
   <div class="card-body">
     {$card_title($title, $extras)}

@@ -169,12 +169,13 @@ echo sec_fixedCenteredTitle(
   'sec-fixedCenteredTitle theme-charcoal-to-white xhide-image',
   'mw-4',
     [
-      'bg-image-url' => '/mockups/admission-home/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
+/*      'bg-image-url' => '/mockups/admission-home/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg', */
+      'bg-image-url' => '/mockups/admission-home/assets/images/0141-15-10-kr-fall-campus-vassar-0034.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --section-title-size: 10vw;
       /* --section-title-faded-opacity: 0.2; */
-      --title-container-bg-beforeContent: rgba(0,0,0,0.4);
+      --title-container-bg-beforeContent: rgba(0,0,0,0.26);
       --section-bg-image-opacity: 0;
       --intro-line-color: #fff;
       --section-title-faded-color: var(--color-vassar-burgundy);
@@ -288,76 +289,6 @@ echo row_fancyStats();
 <?php echo end_sec_fixedCenteredTitle(); ?>
 
     <!-- end stats -->
-
-
-
-
-<!-- Words of students -->
-
-
-<?php echo sec_fixedCenteredTitle(
-    '<b class="slide-from-left">In the words</b>
-   <b class="slide-from-right nice-big-serif">of students</b>',
-    '<p class="section-intro-text">[intro]</p>',
-    'sec-fixedCenteredTitle theme-verylightgray here-to-help',
-    'mw-4',
-    ['bg-image-url' => '/mockups/admission-home/journey/0100-21-10-kr-fw-general-vassar-0057.jpg',
-        'bg-image-alt' => 'alt text',
-        'css' => '
-      --title-container-bg-beforeContent: rgba(0,0,0,0.4);
-      --section-bg-image-opacity: 0;
-      --section-title-faded-color: #444;
-      --bs-gap: 1rem;
-      ']
-
-); ?>
-
-
-    <div class="grid cols-4 animation-zoom-in animate-when-content-appears animation-group">
-        <?php echo item_imageCard(
-            'Applying to Vassar',
-            '',
-            '',
-            ['url' => '/mockups/admission-home/apply/Untitled-3.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item card-has-cta-icon'
-        ); ?>
-
-
-
-        <?php echo item_imageCard(
-            'Applying to Vassar',
-            '',
-            '',
-            ['url' => '/mockups/admission-home/apply/Untitled-3.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item card-has-cta-icon'
-        ); ?>
-
-
-        <?php echo item_imageCard(
-            'Applying to Vassar',
-            '',
-            '',
-            ['url' => '/mockups/admission-home/apply/Untitled-3.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item card-has-cta-icon'
-        ); ?>
-
-        <?php echo item_imageCard(
-            'Applying to Vassar',
-            '',
-            '',
-            ['url' => '/mockups/admission-home/apply/Untitled-3.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item card-has-cta-icon'
-        ); ?>
-
-
-    </div><!-- end layout-masonry -->
-
-<?php echo end_sec_fixedCenteredTitle(); ?>
-
-
-
-<!-- end words of students -->
-
 
 
 

@@ -66,10 +66,11 @@ $page_classes = "advancement-demo";
             'Make a Gift',
             '',
             ['url' => '/mockups/advancement-home/assets/images/three-cards/Library-TT-IMG_6613.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item card-has-cta-icon'
+            'animation-item card-has-cta-icon card-has-cta-label'
         ); ?>
 
-        <p>Your gift to The Vassar Fund can honor the aspect of the Vassar experience that matters most to you. <strong>Give now</strong></p>
+        <p>Your gift to The Vassar Fund can honor the aspect of the Vassar experience that matters most to you.</p>
+        <p class="cta-icon-label">Give now</p>
 
         <?php echo end_item_cardWithText(); ?>
 
@@ -78,10 +79,11 @@ $page_classes = "advancement-demo";
             'Volunteer',
             '',
             ['url' => '/mockups/advancement-home/assets/images/three-cards/VC-Atlanta_Becca-Marco-05_Jada-Graves-14_Juan-Acosta-02-(1).jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item card-has-cta-icon'
+            'animation-item card-has-cta-icon card-has-cta-label'
         ); ?>
 
-        <p>An incredible way to enrich your life and the lives of others in countless ways. <strong>Explore volunteer opportunities</strong></p>
+        <p>An incredible way to enrich your life and the lives of others in countless ways.</p>
+        <p class="cta-icon-label">Explore volunteer opportunities</p>
 
         <?php echo end_item_cardWithText(); ?>
 
@@ -90,10 +92,11 @@ $page_classes = "advancement-demo";
             'Be a Mentor',
             '',
             ['url' => '/mockups/advancement-home/assets/images/three-cards/0006-19-01-kr-scc-reception-vassar-0977.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item card-has-cta-icon'
+            'animation-item card-has-cta-icon card-has-cta-label'
         ); ?>
 
-        <p>An extraordinary opportunity to develop positive relationships with students and help them navigate their future. <strong>More about mentorship</strong></p>
+        <p>An extraordinary opportunity to develop positive relationships with students and help them navigate their future.</p>
+        <p class="cta-icon-label">More about mentorship</p>
 
         <?php echo end_item_cardWithText(); ?>
 
