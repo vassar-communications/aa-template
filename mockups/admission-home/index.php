@@ -239,7 +239,7 @@ echo sec_fixedCenteredTitle(
    <b class="slide-from-right">places.</b>',
     '<p class="section-intro-text">We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings that showcase classic architecture blended seamlessly with modern, cutting-edge facilities.</p>
 
-    <p class="text-center mb-5"><i class="icon fa fa-vr-cardboard me-2"></i> panoramic video</p>',
+    <p class="text-center mb-5">Videos with a <i class="icon fa fa-vr-cardboard mx-2"></i> icon are panoramic. Drag inside the video to look around!</p>',
     'sec-fixedCenteredTitle theme-burgundy',
     'mw-4',
     ['bg-image-url' => '/mockups/admission-home/fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',
