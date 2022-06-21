@@ -383,11 +383,7 @@ echo item_imageCard_modal(
 All Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life. Explore virtual visiting opportunities today and learn more about in-person visits.
    </p>
 
-   <div class="text-center">
-   <a href="" class="cta-link">Schedule a Campus Visit</a>
-   </div>
-
-   ',
+   <p class="text-center">See the Vassar campus through the eyes of our students:</p>',
     'sec-fixedCenteredTitle theme-dark-burgundy featured-video',
     'mw-4',
     ['bg-image-url' => '/mockups/admission-home/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
@@ -412,7 +408,7 @@ All Vassar students are surrounded by an environment designed to spark something
     null,
     3,
     null,
-    '',
+    'p-0 bg-transparent',
     ''
 ); ?>
 
@@ -463,6 +459,9 @@ echo item_imageCard_modal(
 
 <?php echo end_sec_hasColumns(); ?>
 
+<div class="text-center mt-3 pt-5">
+<a href="" class="cta-link">Schedule a Campus Visit</a>
+</div>
 
 
 <?php echo end_sec_fixedCenteredTitle(); ?>

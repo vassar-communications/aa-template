@@ -155,7 +155,7 @@ $page_classes = "academics-cy academics";
     <span class="tagline  mb-2">Broaden Your Horizons</span>
     <p>Expand your global perspective and explore new ways of thinking by spending a semester or year abroad. Vassar offers more than 130 study abroad options around the world, so no matter your interests, you can find a program that will help you reach your goals.</p>
 
-    <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about study abroad <i class="circle fa-solid fa-arrow-right"></i></a>
+    <a href="/admission/explore/academics/" class="px-0 btn btn-link">Learn more about Study Abroad <i class="circle fa-solid fa-arrow-right"></i></a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
