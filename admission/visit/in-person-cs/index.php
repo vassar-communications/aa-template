@@ -112,16 +112,12 @@ $page_classes = "inperson";
     ''
 ); ?>
 
-<img class="mb-4" src="https://vassartest.chuckyatsuk.com/img/visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg" />
 <h3 class="display-6">Campus Access and Pre-Registration</h3>
     <p>Pre-registration is required to attend an on-campus Admission Information Session and Campus Tour; walk-ins will not be accommodated. Self-guided tours are permitted without registration, and campus maps are available at the directional sign in front of the Kautz Admission House.</p>
     <p>Please note, Admission Office staff will only be available during regularly scheduled visits to speak with registered visitors. All campus buildings, including the Kautz Admission House, remain closed to the general public. The guided tour includes entry into some campus buildings, but visitors will not be permitted to enter buildings separate from the tour. Please refrain from bringing pets along for the Information Session or Tour; service animals are welcome.</p>
 
 
 <?php echo end_sec_regularContent(); ?>
-
-
-<<<<<<< HEAD
 
 <?php echo sec_fullBleedImageColumn(
     null,
@@ -158,9 +154,6 @@ $page_classes = "inperson";
 
   <p>Regardless of your vaccination status or COVID-19 test results, if you are feeling sick, we ask that you stay home.</p>
 
-  <div class="p-4 shadow-md" style="background: #fff; margin-top: 2rem">
-  <p><strong>Mask Policy</strong><br/> All visitors must wear a mask when indoors. The information session and guided tour will include entry into campus buildings, so please have a mask with you during your visit.</p>
-  </div>
 
 
 <?php echo end_sec_regularContent(); ?>
@@ -177,13 +170,11 @@ $page_classes = "inperson";
 ); ?>
 
 
-=======
-<div class="alert alert-secondary" role="alert">
-    <h6><strong><i class="fa-solid fa-mask-face"></i>  Mask Policy</strong></h6>
-    <p>All visitors must wear a mask when indoors. The information session and guided tour will include entry into campus buildings, so please have a mask with you during your visit.</p>
+<div class="p-4 shadow-md" style="background: #fff; margin-top: 2rem">
+<p><strong><i class="fa-solid fa-mask-face"></i> <strong>Mask Policy</strong><br/> All visitors must wear a mask when indoors. The information session and guided tour will include entry into campus buildings, so please have a mask with you during your visit.</p>
 </div>
-<hr class="my-5"/>
->>>>>>> c0f6c4ec08bd7a080fe7e9aa2a8c01028136663a
+
+
 <h3 class="display-6">Arrival and Check-In</h3>
 <p>Parking is available in the North Parking Lot and South Parking Lot. A small number of parking spaces can also be found on Main Campus Drive and along the back of Main Circle in front of Kautz House. We recommend arriving on campus 20 minutes prior to the start of your visit in order to secure parking and make your way to the check-in location.</p>
 
