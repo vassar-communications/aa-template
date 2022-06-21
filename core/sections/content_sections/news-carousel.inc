@@ -1,13 +1,13 @@
 <style>
+    .featureImage-text-ticker .carousel-cell {
+        height: 100%;
+        margin-right: 1em;
+    }
 
-.featureImage-text-ticker .carousel-cell {
-    height: 100%;
-    margin-right: 1em;
-}
-.news-intro {
-  text-align: center;
-  margin-bottom: 4rem;
-}
+    .news-intro {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
 
 </style>
 
@@ -15,7 +15,7 @@
 <?php
 
 function newsCarousel() {
-  return <<<TMP
+    return <<<TMP
 <div class="section section--carousel theme-charcoal px-0">
 
 <p class="section-intro-text news-intro" style="">What&#39;s happening at Vassar</p>

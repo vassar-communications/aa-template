@@ -347,21 +347,24 @@ $('.sec-fixedCenteredTitleMasthead').addClass('show-title');
 /* local.js */
 
 if ($('.featureImage-text-ticker').length) {
-  $('.featureImage-text-ticker').flickity({
-    // options
+    $('.featureImage-text-ticker').flickity({
+        // options
 //    cellAlign: 'left',
-    contain: true,
+        contain: true,
 // groupCells: true,
 //freeScroll: true,
-//    autoPlay: 3000,
+        selectedAttraction: 0.009,
+        friction: 0.2,
+        pageDots:  false,
+    autoPlay: 4500,
         wrapAround: true
-  });
+    });
 }
 
 $( window ).resize(function() {
-  $( ".featureImage-text-ticker" ).each(function( index ) {
+    $( ".featureImage-text-ticker" ).each(function( index ) {
 //    $( this ).height( $( this ).find(".carousel-cell-content").height() );
-  });
+    });
 });
 
 
