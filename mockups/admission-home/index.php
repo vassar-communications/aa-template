@@ -354,7 +354,7 @@ We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings
 
 <?php
 echo item_imageCard_modal(
-  get_icon('play').'Shakespeare Garden',
+  get_icon('vr-cardboard').'Shakespeare Garden',
   null,
   'shakespeare-modal',
   null,
@@ -372,7 +372,7 @@ echo item_imageCard_modal(
 
         <?php
         echo item_imageCard_modal(
-          get_icon('play').'Thompson Memorial Library',
+          get_icon('vr-cardboard').'Thompson Memorial Library',
           null,
           'thompson-modal',
           null,
@@ -405,7 +405,7 @@ echo item_imageCard_modal(
 
         <?php
         echo item_imageCard_modal(
-          get_icon('play').'The Ecological Preserve',
+          get_icon('vr-cardboard').'The Ecological Preserve',
           null,
           'ecological-modal',
           null,
@@ -470,27 +470,6 @@ All Vassar students are surrounded by an environment designed to spark something
 */ ?>
 
 
-<?php
-echo item_imageCard_modal(
-  get_icon('play').'Video Tour',
-  null,
-  'video-tour-modal',
-  null,
-  ['url' => '/mockups/admission-home/video-thumbnail.jpg',
-  'alt' => 'asdfasdf'
-  ],
-  'animation-item grid-item text-at-bottom'
-);
-
-?>
-
-<?php /* echo item_imageCard(
-    get_icon('play').'Video Tour',
-    null,
-    'https://www.vassar.edu',
-    ['url' => '/mockups/admission-home/video-thumbnail.jpg', 'alt' => 'asdfasdfds' ],
-    'text-at-bottom mt-5'
-); */ ?>
 
 
 
@@ -597,7 +576,7 @@ echo item_imageCard_modal_setup(
   null,
   'lab-sciences-modal',
   '<div class="ratio ratio-16x9">
-<iframe class="modal-video" id="video-id--2081" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/avgWMTn4A1c?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
+<iframe class="modal-video" id="video-id--2081" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/AqDKltbh7h4?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
   </div>',
   ['url' => '/mockups/admission-home/fav-places-2/110619_160over90_Vassar_5483.jpg',
   'alt' => 'asdfasdf'
