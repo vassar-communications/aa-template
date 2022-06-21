@@ -470,6 +470,60 @@ All Vassar students are surrounded by an environment designed to spark something
 */ ?>
 
 
+<?php echo sec_hasColumns(
+    null,
+    3,
+    null,
+    '',
+    ''
+); ?>
+
+<?php echo item_col(''); ?>
+<?php
+echo item_imageCard_modal(
+    get_icon('play').'Day in the Life',
+    null,
+    'tiktok1-modal',
+    null,
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/tik1.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom'
+);
+?>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(''); ?>
+<?php
+echo item_imageCard_modal(
+    get_icon('play').'Student Picks',
+    null,
+    'tiktok1-modal',
+    null,
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/tik2.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom'
+);
+?>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(''); ?>
+<?php
+echo item_imageCard_modal(
+    get_icon('play').'Student Picks',
+    null,
+    'tiktok1-modal',
+    null,
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/tik3.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom'
+);
+?>
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
 
 
 
@@ -659,20 +713,24 @@ echo item_imageCard_modal_setup(
 );
 ?>
 
+
 <?php
 echo item_imageCard_modal_setup(
-  get_icon('play').'Video Tour',
-  null,
-  'video-tour-modal',
-  '<div class="modal-body ratio ratio-16x9"><iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/531201548?title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" data-ready="true"></iframe></div>',
-  ['url' => '/mockups/admission-home/video-thumbnail.jpg',
-  'alt' => 'asdfasdf'
-  ],
-  'animation-item grid-item text-at-bottom'
+    get_icon('play').'Day in the Life',
+    null,
+    'tiktok1-modal',
+    '<div class="modal-body ratio ratio-1x1">
+<video width="320" height="240" controls>
+  <source src="https://vassartest.chuckyatsuk.com/img/admission-home/tik1.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>',
+    ['url' => '/mockups/admission-home/fav-places-2/studio.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom'
 );
-
 ?>
-
 
 
 

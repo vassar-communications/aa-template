@@ -9562,8 +9562,9 @@ html {
 .delimiter-colon {
   opacity: 0.6;
   font-size: 78%;
-  display: inline-block;
-  transform: translateY(-1rem);
+  display: inline;
+  position: relative;
+  bottom: 1rem;
   margin-left: 0.4rem;
   padding: 0 0.4rem;
 }
