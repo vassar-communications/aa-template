@@ -80,6 +80,27 @@ $page_classes = "inperson";
 
 
 
+<?php echo sec_regularContent(
+    null,
+    'theme-burgundy',
+    '',
+    ''
+); ?>
+
+
+<div class="p-4 shadow-md mb-5" style="background: #fff; margin-top: 2rem; color: #444">
+<p><i class="fa-solid fa-mask-face"></i> <strong>Mask Policy</strong><br> All visitors must wear a mask when indoors. The information session and guided tour will include entry into campus buildings, so please have a mask with you during your visit.</p></div>
+
+
+<h3 class="display-6">Arrival and Check-In</h3>
+<p>Parking is available in the North Parking Lot and South Parking Lot. A small number of parking spaces can also be found on Main Campus Drive and along the back of Main Circle in front of Kautz House. We recommend arriving on campus 20 minutes prior to the start of your visit in order to secure parking and make your way to the check-in location.</p>
+
+<p>Check-in will take place outside of Kautz Admission House. Visitors arriving more than 10 minutes late will be asked to wait until the information session ends to join the tour; visitors arriving more than 10 minutes after the start of the tour will be unable to join.</p>
+
+<a style="background-color: #fff; color: #444;" class="btn btn-primary px-4">Download Parking Map <i class="mx-0 fa-solid fa-download"></i></a>
+
+<?php echo end_sec_regularContent(); ?>
+
 
 
 <!--
@@ -162,27 +183,6 @@ $page_classes = "inperson";
 
 
 
-<?php echo sec_regularContent(
-    null,
-    'theme-burgundy',
-    '',
-    ''
-); ?>
-
-
-<div class="p-4 shadow-md" style="background: #fff; margin-top: 2rem">
-<p><strong><i class="fa-solid fa-mask-face"></i> <strong>Mask Policy</strong><br/> All visitors must wear a mask when indoors. The information session and guided tour will include entry into campus buildings, so please have a mask with you during your visit.</p>
-</div>
-
-
-<h3 class="display-6">Arrival and Check-In</h3>
-<p>Parking is available in the North Parking Lot and South Parking Lot. A small number of parking spaces can also be found on Main Campus Drive and along the back of Main Circle in front of Kautz House. We recommend arriving on campus 20 minutes prior to the start of your visit in order to secure parking and make your way to the check-in location.</p>
-
-<p>Check-in will take place outside of Kautz Admission House. Visitors arriving more than 10 minutes late will be asked to wait until the information session ends to join the tour; visitors arriving more than 10 minutes after the start of the tour will be unable to join.</p>
-
-<a style="background-color: #fff; color: #444;" class="btn btn-primary px-4">Download Parking Map <i class="mx-0 fa-solid fa-download"></i></a>
-
-<?php echo end_sec_regularContent(); ?>
 
 
 
