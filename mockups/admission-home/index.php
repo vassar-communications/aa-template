@@ -33,25 +33,7 @@ $page_classes = "admission-demo";
 
 <?php echo end_sec_siteHeader_video(); ?>
 
-    <!-- site masthead goes here -->
-
-<?php
-/*
-    echo item_imageCard_modal(
-      null,
-      'text',
-      'a-modal',
-      '<div class="ratio ratio-16x9">
-        <iframe id="video-id--2041" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/aHxtG6CJQso?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
-      </div>',
-      ['url' => 'fav-places-2/0195-19-11-kwe-gordon-vassar-1644.jpg',
-      'alt' => 'asdfasdf'
-      ],
-      'a-class'
-    );
-*/
-?>
-
+<?php echo admission_topLevelNav(); ?>
 
     <!-- animated pullquote goes here -->
 <?php echo sec_regularContent(
