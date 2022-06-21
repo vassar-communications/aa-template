@@ -72,8 +72,6 @@ $page_classes = "inperson";
 
 <?php echo end_sec_regularContent(); ?>
 
-
-
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/visit/in-person/0070-21-06-kr-tour-vassar-0054.jpg',
