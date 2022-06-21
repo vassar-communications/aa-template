@@ -69,12 +69,14 @@ $page_classes = "inperson";
 <?php echo sec_fullBleedImageColumn(
     null,
     '/0070-21-06-kr-tour-vassar-0016.jpg',
-    'image-is-first theme-charcoal bg-dark sec-welcome',
+    'image-is-first theme-extralightgray xsec-welcome',
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
   <h2 class="display-6">We are excited to welcome registered visitors to our campus! To be sure that your time on campus is safe and enjoyable, please carefully review the information on this page prior to your Vassar visit. </h2>
-  <a href="https://apply.vassar.edu/portal/campusvisitcalendar"  class="px-0 btn btn-link">Register Now<i class="circle fa-solid fa-angle-right"></i></a>
+
+  <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="cta-link mt-5" style="background: var(--color-vassar-burgundy); color: #fff;">Register Now</a>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
