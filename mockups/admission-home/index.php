@@ -422,8 +422,8 @@ echo item_imageCard_modal(
           null,
           'student-modal',
           null,
-          ['url' => '/mockups/admission-home/fav-places-2/studio.jpg',
-          'alt' => 'asdfasdf'
+          ['url' => 'https://vassartest.chuckyatsuk.com/img/favplaces-v2.jpg',
+          'alt' => 'Student describing favorite place on campus'
           ],
           'animation-item grid-item text-at-bottom'
         );
