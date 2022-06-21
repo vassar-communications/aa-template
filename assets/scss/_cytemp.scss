@@ -210,7 +210,7 @@ i.circle.fa-solid {
   flex-direction: column;
 }
 
-.academics-cy .section.section--full-bleed-image-column .full-bleed-image-container img {
+.academics-cy .section.section--full-bleed-image-column .full-bleed-image-container img , .inperson .section.section--full-bleed-image-column .full-bleed-image-container img {
   position: relative;
   width: 100%;
 }
@@ -368,4 +368,8 @@ button h3.card-title {
 
 .modal-body {
   max-height: 80vh;
+}
+
+strong {
+  font-variation-settings: "wght" 700;
 }
