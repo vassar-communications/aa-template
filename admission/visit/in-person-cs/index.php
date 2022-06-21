@@ -28,6 +28,39 @@ p strong {
 .sec-welcome .column.col--text {
   background: var(--color-vassar-dark-burgundy);
 }
+.section__title__main.display-1.display {
+  font-family: freight-big-pro;
+  line-height: 0.8;
+}
+
+@keyframes title-word-appear {
+  from {
+    opacity: 0;
+    transform: translateX(-0.4em);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.titleLevel3-word {
+  display: block;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  transform: translateX(-0.4em);
+}
+
+.titleLevel3-word.word-1 {
+  animation-name: title-word-appear;
+  animation-duration: 1s;
+}
+.titleLevel3-word.word-2 {
+  animation-name: title-word-appear;
+  animation-duration: 1s;
+  animation-delay: 0.2s;
+}
+
 
 </style>
 
@@ -40,7 +73,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "In-Person Campus Visits";
+$page_title = "<b class='titleLevel3-word word-1'>In-Person</b> <b class='titleLevel3-word word-2'>Campus Visits</b>";
 $page_classes = "inperson";
 
 /*  ---------------------- */
@@ -127,6 +160,22 @@ $page_classes = "inperson";
 -->
 
 
+<!-- Campus Access and Pre-Registration -->
+<?php echo sec_fullBleedImageColumn(
+    null,
+    '0069-19-05-kr-spring-vassar-4221.jpg',
+    'image-is-first theme-charcoal bg-dark',
+    'mw-100'
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+
+  <h3 class="display-6">Campus Access and Pre-Registration</h3>
+      <p>Pre-registration is required to attend an on-campus Admission Information Session and Campus Tour; walk-ins will not be accommodated. Self-guided tours are permitted without registration, and campus maps are available at the directional sign in front of the Kautz Admission House.</p>
+      <p>Please note, Admission Office staff will only be available during regularly scheduled visits to speak with registered visitors. All campus buildings, including the Kautz Admission House, remain closed to the general public. The guided tour includes entry into some campus buildings, but visitors will not be permitted to enter buildings separate from the tour. Please refrain from bringing pets along for the Information Session or Tour; service animals are welcome.</p>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+<!-- End Campus Access and Pre-Registration -->
+
 
 <?php echo sec_regularContent(
     null,
@@ -134,37 +183,12 @@ $page_classes = "inperson";
     '',
     ''
 ); ?>
-
-<h3 class="display-6">Campus Access and Pre-Registration</h3>
-    <p>Pre-registration is required to attend an on-campus Admission Information Session and Campus Tour; walk-ins will not be accommodated. Self-guided tours are permitted without registration, and campus maps are available at the directional sign in front of the Kautz Admission House.</p>
-    <p>Please note, Admission Office staff will only be available during regularly scheduled visits to speak with registered visitors. All campus buildings, including the Kautz Admission House, remain closed to the general public. The guided tour includes entry into some campus buildings, but visitors will not be permitted to enter buildings separate from the tour. Please refrain from bringing pets along for the Information Session or Tour; service animals are welcome.</p>
-
-
-<?php echo end_sec_regularContent(); ?>
-
-<?php echo sec_fullBleedImageColumn(
-    null,
-    '/0059-20-09-kr-drawing-class-vassar-0156.jpg',
-    'image-is-first theme-charcoal bg-dark',
-    'mw-100'
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
 
   <h3 class="display-6">Visitor Health and Safety Policies</h3>
   <p><strong>Proof of COVID-19 Vaccination or Negative Test</strong><br/> We require all campus visitors to show proof of full vaccination against COVID-19. This requirement includes the booster shot, which is in keeping with the spring term campus requirement that all students and employees have a COVID-19 booster. Visitors who are not fully vaccinated, including those who have not yet received the booster, must present a negative COVID-19 test upon check-in.</p>
 
   <p>Visitors not in compliance will be turned away. This policy applies to all visitors, including those who are ineligible to receive the booster.</p>
 
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<?php echo sec_regularContent(
-    null,
-    'theme-cream',
-    '',
-    ''
-); ?>
 
   <p><strong>Acceptable proof of vaccination or COVID-19 testing includes:</strong></p>
   <ul>
