@@ -4045,6 +4045,10 @@ progress {
   --bs-aspect-ratio: 42.8571428571%;
 }
 
+.ratio-9x16 {
+  --bs-aspect-ratio: 177.7777777778%;
+}
+
 .fixed-top {
   position: fixed;
   top: 0;
@@ -12312,6 +12316,10 @@ button h3.card-title, button .card-title.h3 {
 
 .inperson .section--top-level-masthead {
   min-height: 70vh;
+}
+
+.modal-body {
+  max-height: 80vh;
 }
 
 /*# sourceMappingURL=style.css.map */

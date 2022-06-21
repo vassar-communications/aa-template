@@ -481,7 +481,7 @@ All Vassar students are surrounded by an environment designed to spark something
 <?php echo item_col(''); ?>
 <?php
 echo item_imageCard_modal(
-    get_icon('play').'Day in the Life',
+    get_icon('play').'Thompson Library',
     null,
     'tiktok1-modal',
     null,
@@ -496,9 +496,9 @@ echo item_imageCard_modal(
 <?php echo item_col(''); ?>
 <?php
 echo item_imageCard_modal(
-    get_icon('play').'Student Picks',
+    get_icon('play').'Day in the Life',
     null,
-    'tiktok1-modal',
+    'tiktok2-modal',
     null,
     ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/tik2.jpg',
         'alt' => 'asdfasdf'
@@ -511,9 +511,9 @@ echo item_imageCard_modal(
 <?php echo item_col(''); ?>
 <?php
 echo item_imageCard_modal(
-    get_icon('play').'Student Picks',
+    get_icon('play').'Dorm Tour',
     null,
-    'tiktok1-modal',
+    'tiktok3-modal',
     null,
     ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/tik3.jpg',
         'alt' => 'asdfasdf'
@@ -719,7 +719,7 @@ echo item_imageCard_modal_setup(
     get_icon('play').'Day in the Life',
     null,
     'tiktok1-modal',
-    '<div class="modal-body ratio ratio-1x1">
+    '<div class="modal-body ratio ratio-9x16 bg-dark">
 <video width="320" height="240" controls>
   <source src="https://vassartest.chuckyatsuk.com/img/admission-home/tik1.mp4" type="video/mp4">
 Your browser does not support the video tag.
@@ -732,6 +732,41 @@ Your browser does not support the video tag.
 );
 ?>
 
+<?php
+echo item_imageCard_modal_setup(
+    get_icon('play').'Day in the Life',
+    null,
+    'tiktok2-modal',
+    '<div class="modal-body ratio ratio-9x16 bg-dark">
+<video width="320" height="240" controls>
+  <source src="https://vassartest.chuckyatsuk.com/img/admission-home/tik2.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>',
+    ['url' => '/mockups/admission-home/fav-places-2/studio.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom'
+);
+?>
+
+<?php
+echo item_imageCard_modal_setup(
+    get_icon('play').'Dorm Tour',
+    null,
+    'tiktok3-modal',
+    '<div class="modal-body ratio ratio-9x16 bg-dark">
+<video width="320" height="240" controls>
+  <source src="https://vassartest.chuckyatsuk.com/img/admission-home/tik3.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>',
+    ['url' => '/mockups/admission-home/fav-places-2/studio.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom'
+);
+?>
 
 
 <?php echo site_footer(); ?>
