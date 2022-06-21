@@ -18,7 +18,7 @@ function newsCarousel() {
   return <<<TMP
 <div class="section section--carousel theme-charcoal px-0">
 
-<p class="section-intro-text news-intro" style="">What happens around here</p>
+<p class="section-intro-text news-intro" style="">What&#39;s happening at Vassar</p>
 
 <div class="featureImage-text-ticker fade-nonselected full" id="gallery">
 
