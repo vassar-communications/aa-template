@@ -404,7 +404,7 @@ All Vassar students are surrounded by an environment designed to spark something
 <?php echo item_col(''); ?>
 <?php
 echo item_imageCard_modal(
-    get_icon('play').'Thompson Library',
+    get_icon('play').'Study Night',
     null,
     'tiktok1-modal',
     null,
@@ -419,7 +419,7 @@ echo item_imageCard_modal(
 <?php echo item_col(''); ?>
 <?php
 echo item_imageCard_modal(
-    get_icon('play').'Day in the Life',
+    get_icon('play').'Main Tour',
     null,
     'tiktok2-modal',
     null,
@@ -434,7 +434,7 @@ echo item_imageCard_modal(
 <?php echo item_col(''); ?>
 <?php
 echo item_imageCard_modal(
-    get_icon('play').'Dorm Tour',
+    get_icon('play').'Geology Museum',
     null,
     'tiktok3-modal',
     null,
@@ -678,7 +678,7 @@ Your browser does not support the video tag.
 
 <?php
 echo item_imageCard_modal_setup(
-    get_icon('play').'Dorm Tour',
+    get_icon('play').'Geology Museum',
     null,
     'tiktok3-modal',
     '<div class="modal-body ratio ratio-9x16 bg-dark">
