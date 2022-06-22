@@ -21,9 +21,7 @@ $page_classes = "academics-cy academics give";
 
 <style>
 
-    .give .equal p {
-        max-width: 40ch!important;
-    }
+
 
     .give .equal .btn {
         color: #222;
@@ -48,7 +46,7 @@ $page_classes = "academics-cy academics give";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/Vassar_Campus_6_26_17_0078.jpg',
+    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/0001-18-01-kr-scc-nixon-vassar-0021.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -64,7 +62,7 @@ $page_classes = "academics-cy academics give";
 <?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
 <?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-resources-nav.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-give-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
 
@@ -77,7 +75,7 @@ $page_classes = "academics-cy academics give";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/0001-18-01-kr-scc-nixon-vassar-0021.jpg',
+    'https://vassartest.chuckyatsuk.com/img/alumni/give/0135_15_11_CS_294_1.jpg',
     'theme-dark-burgundy image-is-first',
     'mw-100'
 ); ?>

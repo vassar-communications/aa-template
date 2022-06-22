@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/template-parts/tmpfooteralumni.inc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/give/be-a-mentor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/be-a-mentor/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alumni/give/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
       <workItem from="1654583675601" duration="63227000" />
       <workItem from="1654737472328" duration="33265000" />
       <workItem from="1654829966865" duration="1107000" />
-      <workItem from="1655861572501" duration="25213000" />
+      <workItem from="1655861572501" duration="26174000" />
     </task>
     <servers />
   </component>
