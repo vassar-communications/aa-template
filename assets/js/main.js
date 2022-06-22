@@ -390,11 +390,15 @@ $( window ).resize(function() {
 });
 
 
-/*	Pause Videos when modal closes
+/*	Pause Videos when modal closes Needs reworking
 	=================== */
 $(function(){
     $('.modal').on('hidden.bs.modal', function (e) {
         $iframe = $(this).find("iframe");
         $iframe.attr("src", $iframe.attr("src"));
     });
+});
+
+$('body').on('hidden.bs.modal', '.modal', function () {
+    $('video').trigger('pause');
 });

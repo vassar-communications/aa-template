@@ -665,6 +665,7 @@ echo item_imageCard_modal_setup(
     null,
     'tiktok3-modal',
     '<div class="modal-body ratio ratio-9x16 bg-dark">
+
 <video width="320" height="240" controls>
   <source src="https://vassartest.chuckyatsuk.com/img/admission-home/tik3.mp4" type="video/mp4">
 Your browser does not support the video tag.
