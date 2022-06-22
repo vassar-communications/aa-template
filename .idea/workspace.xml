@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/admission/visit/in-person-alt/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/academics/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/academics/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admission/visit/in-person/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/in-person/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_cytemp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_cytemp.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +72,7 @@
       <workItem from="1654583675601" duration="63227000" />
       <workItem from="1654737472328" duration="33265000" />
       <workItem from="1654829966865" duration="1107000" />
-      <workItem from="1655861572501" duration="28662000" />
+      <workItem from="1655861572501" duration="31141000" />
     </task>
     <servers />
   </component>
