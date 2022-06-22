@@ -9257,7 +9257,7 @@ a:hover, a:visited:hover {
 }
 .theme-charcoal.quad-pattern,
 .theme-darkcoal.quad-pattern {
-  --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-white.png);
+  --bg-image: url(../images/Vassar_QuadGrid-white.png);
   --bg-image-size: 6rem;
   --bg-image-opacity: 0.16;
 }
@@ -13159,7 +13159,7 @@ a:hover, a:visited:hover {
 }
 .theme-charcoal.quad-pattern,
 .theme-darkcoal.quad-pattern {
-  --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-white.png);
+  --bg-image: url(../images/Vassar_QuadGrid-white.png);
   --bg-image-size: 6rem;
   --bg-image-opacity: 0.16;
 }

@@ -60,14 +60,13 @@ a {
 .theme-charcoal {
   --section-bg-color: var(--color-vassar-charcoal);
   --flickity-dot-color: #fff;
-
 }
 .theme-darkcoal {
   --section-bg-color: var(--color-vassar-darkcoal);
 }
 
-  .theme-charcoal,
-  .theme-darkcoal {
+.theme-charcoal,
+.theme-darkcoal {
 
   --section-title-color: var(--color-vassar-cream);
   --section-title-border-color: var(--color-vassar-darkgray);
@@ -82,7 +81,7 @@ a {
   --box-shadow-color: rgba(0,0,0,0.6);
 
   &.quad-pattern {
-    --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-white.png);
+    --bg-image: url(#{$assets-path}/images/Vassar_QuadGrid-white.png);
     --bg-image-size: 6rem;
     --bg-image-opacity: 0.16;
   }

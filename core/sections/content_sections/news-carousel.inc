@@ -8,6 +8,12 @@
         text-align: center;
         margin-bottom: 4rem;
     }
+.section.has-bg:after {
+--bg-image-opacity: 0.1;
+    }
+    .quad-pattern.has-bg * {
+      z-index: 10;
+    }
 
 </style>
 
@@ -16,7 +22,7 @@
 
 function newsCarousel() {
     return <<<TMP
-<div class="section section--carousel theme-charcoal px-0">
+<div class="section section--carousel theme-charcoal px-0 quad-pattern has-bg">
 
 <p class="section-intro-text news-intro" style="">What’s Happening at Vassar</p>
 
