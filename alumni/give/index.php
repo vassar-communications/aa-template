@@ -80,8 +80,8 @@ $page_classes = "academics-cy academics give";
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Fearlessly Consequential Campaign</h2>
-   <!-- <p>With a reverence for the past and a nod towards the future, Alumnae House strives to be a welcoming home for all Vassar students and alums.</p> -->
+    <h2 class="display-4 mb-5">Fearlessly Consequential Campaign</h2>
+   <p>Learn more about our new campaign</p>
 
     <a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link">Launch Campaign Site <i class="circle fa-solid fa-arrow-right"></i></a>
 </div>
@@ -90,8 +90,9 @@ $page_classes = "academics-cy academics give";
 
 <!-- animated pullquote goes here -->
 
-<?php echo sec_regularContent(
+<?php echo sec_wideContent(
     null,
+    '',
     'theme-darkcoal py-5 text-white',
     'animate-when-content-appears animation-slide-up text-center',
     ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/Vassar_Campus_6_26_17_0078.jpg',
@@ -100,9 +101,10 @@ $page_classes = "academics-cy academics give";
 ); ?>
 
 
+
 <p class="pt-5"><span class="text-white intro-line">Why Giving Matters</span></p>
 
-<h2 class="display-5 py-5"><strong>Every</strong> alum. <strong>Any</strong> amount. <strong>Every</strong> year.</h2>
+<h2 class="display-2 py-5"><strong>Every</strong> alum. <strong>Any</strong> amount. <strong>Every</strong> year.</h2>
 
 <button class="btn mb-5 btn-lg btn-light">Help Support Vassar <i class=" fa-solid fa-arrow-right"></i></button>
 <!--
@@ -113,7 +115,8 @@ $page_classes = "academics-cy academics give";
 
 
 
-<?php echo end_sec_regularContent(); ?>
+<?php echo end_sec_wideContent(); ?>
+
 
 
 <?php echo sec_hasColumns(
