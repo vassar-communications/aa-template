@@ -69,3 +69,15 @@ details[open] summary:before {
     color: var(--dropdown-closebox-closeme-color, #f00);
     font-weight: bold;
 }
+
+
+
+
+button.accordion-button {
+  border-bottom: 1px solid transparent;
+}
+button.accordion-button:hover {
+    background: #ddd;
+  border-bottom: 1px solid #f00;
+  color: #a00;
+}
