@@ -22,7 +22,7 @@ $page_classes = "";
 
 
 
-<?php echo page_textmasthead('theme-verylightgray'); ?>
+<?php echo page_textmasthead('theme-dark-burgundy'); ?>
 
 <?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>

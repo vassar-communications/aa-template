@@ -6,7 +6,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "Alumni Resources";
+$page_title = "Our Community";
 $page_classes = "academics-cy academics";
 
 /*  ---------------------- */
@@ -23,8 +23,8 @@ $page_classes = "academics-cy academics";
 
 
 <?php echo sec_fixedCenteredTitle_masthead(
-    '<b class="slide-from-left">Alumni</b>
-   <b class="slide-from-right">Resources</b>',
+    '<b class="slide-from-left">Our</b>
+   <b class="slide-from-right">Community</b>',
     null,
     'theme-verylightgray reveal-image',
     'mw-4',

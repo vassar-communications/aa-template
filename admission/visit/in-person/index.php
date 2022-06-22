@@ -30,28 +30,37 @@ $page_classes = "inperson";
 <?php echo end_sec_toplinksNav(); ?>
 
 
+<?php echo sec_wideContent(
+    null,
+    null,
+    null,
+    'mw-4'
+); ?>
+
+
+
 
 <?php echo sec_hasColumns(
     null,
     2,
     null,
-    '',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
+    'animate-when-content-appears animation-slide-up',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
 ); ?>
 
-<?php echo item_col(); ?>
+<?php echo item_col('equal'); ?>
 <h2 class="display-6">We are excited to welcome registered visitors to our campus! To be sure that your time on campus is safe and enjoyable, please carefully review the information on this page prior to your Vassar visit. </h2>
 <button class="mt-4 btn btn-primary">Register Now <i class="fa-solid fa-angle-right"></i></button>
 <?php echo end_item_col(); ?>
 
-<?php echo item_col(); ?>
+<?php echo item_col('equal'); ?>
 <img src="https://vassartest.chuckyatsuk.com/img/visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
 
-
+<?php echo end_sec_wideContent(); ?>
 
 
 
