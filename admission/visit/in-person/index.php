@@ -73,7 +73,7 @@ $page_classes = "inperson";
     '',
     ''
 ); ?>
-<h3 class="display-6">Campus Access and Pre-Registration</h3>
+<h3 class="pt-5 display-6">Campus Access and Pre-Registration</h3>
 <p>Pre-registration is required to attend an on-campus Admission Information Session and Campus Tour; walk-ins will not be accommodated. Self-guided tours are permitted without registration, and campus maps are available at the directional sign in front of the Kautz Admission House.</p>
 <p>Please note, Admission Office staff will only be available during regularly scheduled visits to speak with registered visitors. All campus buildings, including the Kautz Admission House, remain closed to the general public. The guided tour includes entry into some campus buildings, but visitors will not be permitted to enter buildings separate from the tour. Please refrain from bringing pets along for the Information Session or Tour; service animals are welcome.</p>
 
@@ -105,7 +105,7 @@ $page_classes = "inperson";
     <li>A negative rapid antigen test taken immediately before the visit (you will need to bring your own rapid test kit; please note that most rapid tests take 15-20 minutes to display a result)</li>
 </ul>
 
-<p class="pt-4">Regardless of your vaccination status or COVID-19 test results, if you are feeling sick, we ask that you stay home.</p>
+<p class="pt-4"><strong>Regardless of your vaccination status or COVID-19 test results, if you are feeling sick, we ask that you stay home.</strong></p>
 
 
 <div class="mt-4 alert alert-secondary" role="alert">
