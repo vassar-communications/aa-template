@@ -144,8 +144,15 @@ echo sec_fixedCenteredTitle(
     text-align: left;">Vassar is from <span id="where-from">everywhere</span></p>
    <p class="section-intro-text">World-class educations are built on world-wide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will study abroad while at Vassar.</p>
 
+<style>
+.hover-burgundy:hover {
+  background: var(--color-vassar-burgundy) !important;
+  color: #fff !important;
+}
+</style>
+
 <div class="text-center">
-<a href="" class="cta-link">Meet Vassar</a>
+<a href="" class="cta-link hover-burgundy" style="background: #fff">Meet Vassar</a>
 </div>',
 
   'sec-fixedCenteredTitle theme-charcoal-to-white xhide-image',
@@ -221,7 +228,7 @@ echo sec_fixedCenteredTitle(
    <b class="slide-from-right">places.</b>',
     '<p class="section-intro-text">We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings that showcase classic architecture blended seamlessly with modern, cutting-edge facilities.</p>
 
-    <p class="text-center mb-5">Videos with a <i class="icon fa fa-vr-cardboard mx-2"></i> icon are panoramic. Drag inside the video to look around!</p>',
+    <p class="text-center mb-5 fst-italic fs-5">Videos with a <i class="icon fa fa-vr-cardboard mx-2"></i> icon are panoramic. Drag inside the video to look around!</p>',
     'sec-fixedCenteredTitle theme-burgundy',
     'mw-4',
     ['bg-image-url' => '/mockups/admission-home/fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',
