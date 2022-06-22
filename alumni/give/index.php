@@ -7,7 +7,7 @@ include($project_paths['main_project_root'].'/functions.php');
 /*  PAGE INFO ============ */
 
 $page_title = "Give Back";
-$page_classes = "academics-cy academics";
+$page_classes = "academics-cy academics give";
 
 /*  ---------------------- */
 
@@ -19,7 +19,27 @@ $page_classes = "academics-cy academics";
 
 <?php echo hamburger_navigation(); ?>
 
+<style>
 
+    .give .equal p {
+        max-width: 40ch!important;
+    }
+
+    .give .equal .btn {
+        color: #222;
+    }
+
+    .give .equal i.circle.fa-solid.fa-arrow-right {
+        border-color: #222;
+    }
+
+    .give .equal .btn:hover i.circle.fa-solid.fa-arrow-right {
+        background: #222;
+        color: #fff!important;
+    }
+
+
+</style>
 
 
 <?php echo sec_fixedCenteredTitle_masthead(
@@ -28,7 +48,7 @@ $page_classes = "academics-cy academics";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/resources/0640_Vassar College_exteriors_campus life_Oct 2019_JA.JPG',
+    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/Vassar_Campus_6_26_17_0078.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -55,156 +75,138 @@ $page_classes = "academics-cy academics";
 
 
 
-<!-- visit -->
+<?php echo sec_fullBleedImageColumn(
+    null,
+    'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/0001-18-01-kr-scc-nixon-vassar-0021.jpg',
+    'theme-dark-burgundy image-is-first',
+    'mw-100'
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <h2 class="display-2 mb-5">Fearlessly Consequential Campaign</h2>
+   <!-- <p>With a reverence for the past and a nod towards the future, Alumnae House strives to be a welcoming home for all Vassar students and alums.</p> -->
+
+    <a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link">Launch Campaign Site <i class="circle fa-solid fa-arrow-right"></i></a>
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<!-- animated pullquote goes here -->
+
+<?php echo sec_regularContent(
+    null,
+    'theme-darkcoal py-5 text-white',
+    'animate-when-content-appears animation-slide-up text-center',
+    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/Vassar_Campus_6_26_17_0078.jpg',
+        'bg-image-alt' => 'The image alt text']
+
+); ?>
+
+
+<p class="pt-5"><span class="text-white intro-line">Why Giving Matters</span></p>
+
+<h2 class="display-5 py-5"><strong>Every</strong> alum. <strong>Any</strong> amount. <strong>Every</strong> year.</h2>
+
+<button class="btn mb-5 btn-lg btn-light">Help Support Vassar <i class=" fa-solid fa-arrow-right"></i></button>
+<!--
+    <p class="animation-item">Each year, Vassar aims to enroll the most</p>
+<?php // echo vassar_is_awesome('animation-item'); ?>
+    <p class="animation-item">first-year class possible.</p>
+-->
+
+
+
+<?php echo end_sec_regularContent(); ?>
+
+
+<?php echo sec_hasColumns(
+    'The Many Ways to Give Back',
+    2,
+    null,
+    'pb-2',
+    'pt-5 flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
+); ?>
+
+<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
+
+<h2 class="h1">Volunteer</h2>
+<p class="pb-3">Deepen relationships, expand your community, and devote time and expertise to things you care about.</p>
+<a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link">Explore volunteer opportunities <i class="circle fa-solid fa-arrow-right"></i></a>
+
+<?php echo end_item_col(); ?>
+
+<?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
+
+<img src="https://vassartest.chuckyatsuk.com/img/alumni/give/volunteer/Vassar_Project-24.jpg" />
+
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+<?php echo sec_hasColumns(
+    null,
+    2,
+    null,
+    'py-2',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
+); ?>
+
+
+
+<?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
+
+<img src="https://vassartest.chuckyatsuk.com/img/alumni/give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675.jpg" />
+
+<?php echo end_item_col(); ?>
+
+<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
+
+<h2 class="h1">Be a Mentor</h2>
+<p class="pb-3">Being a mentor is an extraordinary opportunity to develop positive relationships with students and help them navigate their future personally and/or professionally.</p>
+<a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link">Explore mentorship opportunities <i class="circle fa-solid fa-arrow-right"></i></a>
+
+<?php echo end_item_col(); ?>
+
+
+
+<?php echo end_sec_hasColumns(); ?>
 
 
 <?php echo sec_hasColumns(
     null,
     2,
     null,
-    '',
+    'py-2',
     'flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
 ); ?>
 
 <?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
 
-<h2 class="display-2">What’s not to love?</h2>
-<p class="pb-3">Vassar alumni are entitled to a whole host of services and benefits … automatically. Access career development opportunities; take advantage of a top-notch travel program that allows you to traverse the globe with Vassar professors knowledge about the various regions, their history and culture; and get goodies like a dedicated Vassar email and a lifetime subscription to VQ.</p>
-
-<div class="alert alert-light shadow mw-2">
-    <h6 class="strong">QUICK LINKS</h6>
-    <a class="px-0 btn btn-link">Alumni Login<i class="px-3  fa-solid fa-arrow-up-right-from-square"></i></a><br/>
-    <a class="px-0 btn btn-link">Volunteer Resources<i class="px-3 fa-solid fa-arrow-up-right-from-square"></i></a>
-
-</div>
+<h2 class="h1">Hire Vassar</h2>
+<p class="pb-3">Vassar students and alums are great candidates for internships and multi-level positions within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
+<a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link">Information for Employers <i class="circle fa-solid fa-arrow-right"></i></a>
 
 <?php echo end_item_col(); ?>
 
 <?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
 
-<img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/Sunset_Lake_15_TT_1519.jpg" />
+<img src="https://vassartest.chuckyatsuk.com/img/alumni/give/hire/0006-19-01-kr-scc-career-clusters-vassar-0522.jpg" />
 
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
-
 
 
 <?php echo sec_wideContent(
-    'Explore Resources',
     '',
-    'theme-cream theme-cream pb-1 presentation',
-    'mw-4'
+    '',
+    'theme-charcoal  presentation quad-pattern has-bg',
+    'mw-4 d-flex justify-content-around'
 ); ?>
 
-
-
-<?php echo sec_hasColumns(
-    null,
-    3,
-    null,
-    '',
-    ''
-); ?>
-
-<?php echo item_col('equalht'); ?>
-<a class="card mb-4" href="#">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/community/overview/0127_12_12_YEM_2467.jpg" class="card-img-top" alt="asdfasdfds">
-    <div class="card-body">
-        <h4 class="card-title h2">Alumni Directory</h4>
-        <div class="card-text">
-            <p>Log into your account to view the full directory.</p>
-
-        </div>
-        <div class="p-0 m-0 pt-4 d-flex w-100 justify-content-start align-items-center"><strong>Access directory</strong> <i class="ml-3 circle fa-solid fa-arrow-right"></i></div>
-    </div>
-</a>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('equalht'); ?>
-<a class="card mb-4" href="/alumni/community/aavc">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/vassar-network/0036-22-06-kr-reunion-vassar-0148.jpg" class="card-img-top" alt="asdfasdfds">
-    <div class="card-body">
-        <h4 class="card-title h2">The Vassar Network</h4>
-        <div class="card-text">
-            <p>Join the global Vassar community and connect with alums around the world.</p>
-
-        </div>
-        <div class="p-0 m-0 pt-4 d-flex w-100 justify-content-start align-items-center"><strong>Explore the Vassar Network</strong> <i class="ml-3 circle fa-solid fa-arrow-right"></i></div>
-    </div>
-</a>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('equalht'); ?>
-<a class="card mb-4" href="/alumni/community/alumni-news">
-    <img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" class="card-img-top" alt="Outcomes">
-    <div class="card-body">
-        <h4 class="card-title h2">Career Support</h4>
-        <div class="card-text">
-            <p>Helping alumni seek their next opportunity for personal growth and professional development.
-            </p>
-        </div>
-        <div class="p-0 m-0 pt-4 d-flex w-100 justify-content-start align-items-center"><strong>Visit Career Services</strong> <i class="ml-3 circle fa-solid fa-arrow-right"></i></div>
-    </div>
-</a>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('equalht'); ?>
-<a class="card mb-4" href="/alumni/community/alumni-news">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/grants/time-out-awardee-bishop-joseph-tolton-89_0829.jpg" class="card-img-top" alt="Outcomes">
-    <div class="card-body">
-        <h4 class="card-title h2">Grants & Fellowships</h4>
-        <div class="card-text">
-            <p>Explore grant and fellowship opportunities available to Vassar alumni.
-            </p>
-        </div>
-        <div class="p-0 m-0 pt-4 d-flex w-100 justify-content-start align-items-center"><strong>Learn more</strong> <i class="ml-3 circle fa-solid fa-arrow-right"></i></div>
-    </div>
-</a>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('equalht'); ?>
-<a class="card mb-4" href="/alumni/community/alumni-news">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/college-search/0036-22-06-kr-reunion-vassar-0040.jpg" class="card-img-top" alt="Outcomes">
-    <div class="card-body">
-        <h4 class="card-title h2">College Search 101</h4>
-        <div class="card-text">
-            <p>This program provides valuable, general information to your family as your college search process begins.
-            </p>
-        </div>
-        <div class="p-0 m-0 pt-4 d-flex w-100 justify-content-start align-items-center"><strong>Learn more</strong> <i class="ml-3 circle fa-solid fa-arrow-right"></i></div>
-    </div>
-</a>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('equalht'); ?>
-<a class="card mb-4" href="/alumni/community/alumni-news">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/campus-resources/110619_160over90_Vassar_7814.jpg" class="card-img-top" alt="Outcomes">
-    <div class="card-body">
-        <h4 class="card-title h2">On Campus Resources</h4>
-        <div class="card-text">
-            <p>Our 1,000-acre campus holds many treasures.
-            </p>
-        </div>
-        <div class="p-0 m-0 pt-4 d-flex w-100 justify-content-start align-items-center"><strong>Learn more</strong> <i class="ml-3 circle fa-solid fa-arrow-right"></i></div>
-    </div>
-</a>
-<?php echo end_item_col(); ?>
-<?php echo end_sec_hasColumns(); ?>
+<h2 class="h2"><strong>Every Gift Matters.</strong> Explore funds and initatives.</h2>
+<button class="btn btn-light">Make a Gift <i class="circle fa-solid fa-arrow-right"></i></button>
 <?php echo end_sec_wideContent(); ?>
 
-<?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/resources/alumnae-house/Alumnae_House_06_CB_08.jpg',
-    'theme-charcoal bg-dark',
-    'mw-100'
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Alumnae House</h2>
-    <p>With a reverence for the past and a nod towards the future, Alumnae House strives to be a welcoming home for all Vassar students and alums.</p>
 
-    <a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link">Visit Alumnae House <i class="circle fa-solid fa-arrow-right"></i></a>
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php echo site_footer(); ?>
+<?php echo site_footeralumni(); ?>
