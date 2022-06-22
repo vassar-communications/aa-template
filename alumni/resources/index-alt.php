@@ -71,23 +71,53 @@ $page_classes = "academics-cy academics";
 <h2 class="display-2">What’s not to love?</h2>
 <p class="pb-3">Vassar alumni are entitled to a whole host of services and benefits … automatically. Access career development opportunities; take advantage of a top-notch travel program that allows you to traverse the globe with Vassar professors knowledge about the various regions, their history and culture; and get goodies like a dedicated Vassar email and a lifetime subscription to VQ.</p>
 
-<div class="alert alert-light shadow mw-2">
-    <h6 class="strong">QUICK LINKS</h6>
-    <a class="px-0 btn btn-link">Alumni Login<i class="px-3  fa-solid fa-arrow-up-right-from-square"></i></a><br/>
-    <a class="px-0 btn btn-link">Volunteer Resources<i class="px-3 fa-solid fa-arrow-up-right-from-square"></i></a>
-
-</div>
 
 <?php echo end_item_col(); ?>
 
 <?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
 
 <img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/Sunset_Lake_15_TT_1519.jpg" />
-
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
+
+<?php echo sec_wideContent(
+    null,
+    null,
+    'theme-charcoal'
+); ?>
+
+<h5>RESOURCE QUICK LINKS</h5>
+
+<?php echo sec_hasColumns(
+    null,
+    3,
+    null,
+    'animate-when-content-appears animation-slide-up',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
+); ?>
+
+<?php echo item_col(''); ?>
+<h3 class="h2">Alumni Login</h3>
+<p>Update your contact information, etc.</p>
+<button class="px-0 btn text-white btn-link">Login<i class="ml-3 circle fa-solid fa-arrow-right"></i></button>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(''); ?>
+<h3 class="h2">Volunteer Resources</h3>
+<p>Intersted in volunteering or are you a current volunteer?</p>
+<button class="px-0 text-white btn btn-link">Visit Volunteer Resources <i class="ml-3 circle fa-solid fa-arrow-right"></i></button>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(''); ?>
+<h3 class="h2">Alumni Login</h3>
+<p>Update your contact information, etc.</p>
+<button class="px-0 btn text-white btn-link">Login<i class="ml-3 circle fa-solid fa-arrow-right"></i></button>
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+<?php echo end_sec_wideContent(); ?>
 
 
 <?php echo sec_wideContent(

@@ -356,7 +356,7 @@ if ($('.featureImage-text-ticker').length) {
         selectedAttraction: 0.009,
         friction: 0.2,
         pageDots:  false,
-    autoPlay: 4500,
+    autoPlay: 4000,
         wrapAround: true
     });
 }

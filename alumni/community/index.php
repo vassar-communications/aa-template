@@ -70,7 +70,7 @@ $page_classes = "academics-cy academics";
 
 <h2 class="display-2">Be Active. Grow.</h2>
 <p class="pb-3">Connect with fellow community members, participate in events, sign-up for mentoring/networking opportunities, and learn about all the ways to give back to Vassar.</p>
-
+<a class="btn btn-primary">Alumni Login <i class="fa-solid fa-arrow-right"></i></a>
 
 <?php echo end_item_col(); ?>
 

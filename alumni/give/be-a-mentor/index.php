@@ -7,7 +7,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "Contact Us";
+$page_title = "Be a Mentor";
 $page_classes = "";
 
 /*  ---------------------- */
@@ -24,12 +24,12 @@ $page_classes = "";
 
 
 <?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-breadcrumb.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-give-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
 
 
 <?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-nav.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-give-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
 <?php /*  PAGE CONTENT === */ ?>

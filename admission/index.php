@@ -19,7 +19,7 @@ $page_classes = "admission-demo";
 
 <?php echo vassar_masthead(); ?>
 
-
+<?php echo hamburger_navigation(); ?>
 <!--<div class="buffer"></div>-->
 
 <?php echo sec_siteHeader_video(); ?>
@@ -35,6 +35,7 @@ $page_classes = "admission-demo";
 
 <!-- site masthead goes here -->
 
+<?php echo admission_topLevelNav(); ?>
 
 <!-- animated pullquote goes here -->
 <?php echo sec_regularContent(
