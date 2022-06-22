@@ -9824,6 +9824,16 @@ details[open] summary:before {
   font-weight: bold;
 }
 
+button.accordion-button {
+  border-bottom: 1px solid transparent;
+}
+
+button.accordion-button:hover {
+  background: #ddd;
+  border-bottom: 1px solid #f00;
+  color: #a00;
+}
+
 /* Inline icon button */
 /* Block-style icon button */
 .btn-card {
