@@ -79,33 +79,17 @@ $page_classes = "inperson";
 
 <button class="mt-4 btn btn-primary">Register Now <i class="fa-solid fa-angle-right"></i></button>
 
-<?php echo end_sec_regularContent(); ?>
-
-<?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/visit/in-person/0070-21-06-kr-tour-vassar-0054.jpg',
-    'image-is-first theme-charcoal bg-dark',
-    'mw-100'
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
-
-    <h4 class="display-6">Arrival and Check-In</h4>
-    <p>Parking is available in the North Parking Lot and South Parking Lot. A small number of parking spaces can also be found on Main Campus Drive and along the back of Main Circle in front of Kautz House. We recommend arriving on campus 20 minutes prior to the start of your visit in order to secure parking and make your way to the check-in location.</p>
-
-    <p>Check-in will take place outside of Kautz Admission House. Visitors arriving more than 10 minutes late will be asked to wait until the information session ends to join the tour; visitors arriving more than 10 minutes after the start of the tour will be unable to join.</p>
-
-    <a style="background-color: #fff; color: #444;" class="btn btn-primary px-4">Download Parking Map <i class="mx-0 fa-solid fa-download"></i></a>
-
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
+<hr class="my-5">
 
 
-<?php echo sec_regularContent(
-    null,
-    'theme-cream',
-    '',
-    ''
-); ?>
+<h4 class="display-6">Arrival and Check-In</h4>
+<p class="pt-4">Parking is available in the North Parking Lot and South Parking Lot. A small number of parking spaces can also be found on Main Campus Drive and along the back of Main Circle in front of Kautz House. We recommend arriving on campus 20 minutes prior to the start of your visit in order to secure parking and make your way to the check-in location.</p>
+
+<p>Check-in will take place outside of Kautz Admission House. Visitors arriving more than 10 minutes late will be asked to wait until the information session ends to join the tour; visitors arriving more than 10 minutes after the start of the tour will be unable to join.</p>
+<button class="mt-4 btn btn-primary">Download Parking Map <i class="mx-0 fa-solid fa-download"></i></button>
+
+<hr class="my-5">
+
 
 <h3 class="display-6">Visitor Health and Safety Policies</h3>
 <p class="pt-4"><strong>Proof of COVID-19 Vaccination or Negative Test</strong><br/> We require all campus visitors to show proof of full vaccination against COVID-19. This requirement includes the booster shot, which is in keeping with the spring term campus requirement that all students and employees have a COVID-19 booster. Visitors who are not fully vaccinated, including those who have not yet received the booster, must present a negative COVID-19 test upon check-in.</p>
