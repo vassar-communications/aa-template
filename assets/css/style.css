@@ -11830,6 +11830,11 @@ html {
   right: -1.6rem;
 }
 
+.nav-current-section li a.active {
+  background-color: var(--color-vassar-verylightgray);
+  border-radius: 0.2rem;
+}
+
 .nav-current-section {
   border: var(--border);
   border-bottom: none;
@@ -11847,10 +11852,12 @@ html {
   display: inline-block;
   padding: 0.2rem 0.6rem;
   transition: 0.2s all ease;
+  line-height: 2.2rem;
 }
 .nav-current-section li a:hover {
   color: var(--nav-link-text-color, #222);
-  background: var(--nav-link-bg-color, #eee);
+  background: var(--nav-link-bg-color, var(--color-vassar-verylightgray));
+  border-radius: 0.2rem;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -13084,22 +13091,6 @@ span.burgundy {
   background: var(--color-vassar-burgundy);
   color: var(--color-vassar-cream);
   border-color: var(--color-vassar-burgundy);
-}
-
-.inperson .toplinks li.active a, .academics-cy .toplinks li.active a {
-  background: var(--color-vassar-verylightgray);
-  color: var(--color-vassar-burgundy);
-}
-
-.inperson .toplinks a, .academics-cy .toplinks a {
-  line-height: 36px;
-  border-radius: 3px;
-}
-
-.inperson .toplinks li a:hover, .academics-cy .toplinks li a:hover {
-  background: var(--color-vassar-burgundy);
-  color: var(--color-vassar-cream);
-  text-decoration: none;
 }
 
 .textmasthead .section__title__main {

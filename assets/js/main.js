@@ -424,3 +424,17 @@ $(function(){
 $('body').on('hidden.bs.modal', '.modal', function () {
     $('video').trigger('pause');
 });
+
+
+
+/*	add active class to current page
+	=================== */
+
+jQuery(function($) {
+    var path = window.location.href;
+    $('nav ul a').each(function() {
+        if (this.href === path) {
+            $(this).addClass('active');
+        }
+    });
+});

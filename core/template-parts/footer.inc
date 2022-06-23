@@ -54,7 +54,8 @@ function site_footer() {
 <footer class="container footer">
 		<div class="row align-items-end small-print">
 			<div class="col text-start">
-				&copy; Vassar College
+				&copy; 2022 Vassar College
+
 			</div>
 
 			<div class="col text-end link_collection">

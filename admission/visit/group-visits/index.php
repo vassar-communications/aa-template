@@ -46,8 +46,9 @@ $page_classes = "";
 <h3 class="display-5">Schedule a group visit</h3>
 <p>Vassar offers group visits to high school students and community-based organizations to provide information on the academic, residential, and student life experience.</p>
 
- <p>Group visits can be customized to fit the needs of the group. Presentations can include topics such as choosing a major or writing a college admission essay, or Q&A sessions with current students.
-     Group tours can be scheduled Monday through Friday between 9 a.m. and 5 p.m. ET, based on availability. To schedule, email <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>.</p>
+<p>Group visits can be customized to fit the needs of the group. Presentations can include topics such as choosing a major or writing a college admission essay, or Q&A sessions with current students.</p>
+
+<p>Group tours can be scheduled Monday through Friday between 9 a.m. and 5 p.m. ET, based on availability. To schedule, email <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>.</p>
 <?php echo end_item_col(); ?>
 <?php echo item_col('equal'); ?>
 

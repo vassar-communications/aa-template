@@ -214,7 +214,7 @@ $page_classes = "academics-cy academics";
 
                             <li><a href="https://greekandromanstudies.vassar.edu/">Greek and Roman Studies</a></li>
                             <li><a href="https://hispanicstudies.vassar.edu/">Hispanic Studies</a></li>
-                            <li><a href="https://history.vassar.edu/">History(HIST)</abbr></a></li>
+                            <li><a href="https://history.vassar.edu/">History</a></li>
                             <li><a href="https://independentprogram.vassar.edu/">Independent Program</a></li>
                             <li><a href="https://internationalstudies.vassar.edu/">International Studies</a></li>
                             <li><a href="https://italian.vassar.edu/">Italian</a></li>

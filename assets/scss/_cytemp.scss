@@ -261,25 +261,6 @@ span.burgundy {
    border-color: var(--color-vassar-burgundy);
 }
 
-
-
-.inperson .toplinks li.active a, .academics-cy .toplinks li.active a  {
-  background: var(--color-vassar-verylightgray);
-  color: var(--color-vassar-burgundy);
-}
-
-.inperson .toplinks a, .academics-cy .toplinks a {
-  line-height: 36px;
-  border-radius: 3px;
-}
-
-.inperson .toplinks li a:hover, .academics-cy .toplinks li a:hover {
-  background: var(--color-vassar-burgundy);
-  color: var(--color-vassar-cream);
-  text-decoration: none;
-}
-
-
 .textmasthead .section__title__main {
   text-shadow: none;
 }
