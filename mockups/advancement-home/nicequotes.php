@@ -89,6 +89,9 @@ span {
     max-width: 60em;
     padding: 1em;
 }
+em {
+  font-style: italic;
+}
 
 </style>
 
@@ -96,19 +99,19 @@ span {
 
   <div class="carousel-cell split-words-container">
     <div class="split-words-content">
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      <p>“...at Vassar, I was able to pursue a writing career, with a dedicated thesis class...while completing an Economics degree—that was a huge gift that definitely shaped my path after Vassar.” —Arushi&nbsp;Raina&nbsp;’14</p>
     </div>
   </div>
 
   <div class="carousel-cell split-words-container">
     <div class="split-words-content">
-      <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+      <p>“I got my spirit back at Vassar.” —&nbsp;Brenda&nbsp;Feigen&nbsp;’66</p>
     </div>
   </div>
 
   <div class="carousel-cell split-words-container">
     <div class="split-words-content">
-      <p>Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin.</p>
+      <p>“...the more you’re away from Vassar, the more you miss it.” —&nbsp;Livia&nbsp;Bartels&nbsp;’20</p>
     </div>
   </div>
 

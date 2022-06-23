@@ -1,10 +1,23 @@
 <style>
 
 .alums-carousel .carousel-cell {
-    width: 70rem !important;
+  width: 70rem !important;
 }
 .alums-carousel .carousel-cell-content {
   max-width: none;
+}
+
+.alums-carousel .image-container {
+  width: 70% !important;
+  height: var(--carousel-height, 32em);
+}
+.featureImage-text-ticker .carousel-cell .image-container img {
+  max-height: none;
+  max-width: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
 }
 
 </style>
