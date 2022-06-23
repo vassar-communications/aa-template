@@ -198,7 +198,7 @@ echo sec_fixedCenteredTitle(
 ); ?>
 
 
-  <div class='thumbnail-text-ticker' id='gallery2' data-flickity='{ "fade": true, "wrapAround": false, "autoPlay": 6000, "cellAlign": "center" }'>
+  <div class='thumbnail-text-ticker' data-flickity='{ "fade": true, "wrapAround": false, "autoPlay": 6000, "cellAlign": "center" }'>
 
     <?php echo tickerItem('<p><strong>Jason Blum ’91’s</strong> $10 million gift to <strong>Vassar College</strong> was the subject of <a href="https://apnews.com/press-release/pr-newswire/entertainment-television-9554c9edf9de533dab110ea9ff7a2d03">AP</a>, <em><a href="https://www.thewrap.com/jason-blum-donates-10-million-vassar-college/">The Wrap</a></em>, <em><a href="https://variety.com/2022/film/news/jason-blum-blumhouse-vassar-college-scholarship-1235299680/">Variety</a></em>, and <a href="https://www.yahoo.com/now/award-winning-film-television-producer-142700862.html">Yahoo! News</a> stories.</p>', 'blum.jpg'); ?>
 
