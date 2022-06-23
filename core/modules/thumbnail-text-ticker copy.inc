@@ -3,7 +3,7 @@
 function thumbnailTextTicker() {
   return <<<TMP
 
-  <div class='thumbnail-text-ticker' id='gallery2' data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": 6000, "cellAlign": "center", "contain": true }'>
+  <div class="thumbnail-text-ticker fade-nonselected full" id="gallery2">
 
     <div class="carousel-cell">
       <div class="carousel-cell-content">

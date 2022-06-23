@@ -394,6 +394,7 @@ $( window ).resize(function() {
 /*	IN THE MEDIA TICKER
 	=================== */
 
+/*
 if ($('.thumbnail-text-ticker').length) {
   $('.thumbnail-text-ticker').flickity({
     // options
@@ -404,6 +405,9 @@ groupCells: true,
     wrapAround: true
   });
 }
+*/
+
+
 
 $( window ).resize(function() {
   $( ".thumbnail-text-ticker" ).each(function( index ) {

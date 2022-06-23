@@ -33,15 +33,16 @@ $page_classes = "advancement-demo";
 
 <script>
 
+/*
 $( document ).ready(function() {
   $('.quotes-carousel').flickity({
     // options
-    cellAlign: 'center',
-    contain: true,
-    fade: true
+//    cellAlign: 'center',
+  //  contain: true,
+    // fade: true
   });
 });
-
+*/
 </script>
 
 <style>
@@ -91,7 +92,8 @@ span {
 
 </style>
 
-<div class="quotes-carousel" data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": 6000 }'>
+<div class="quotes-carousel" data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": 6000, "cellAlign": "center", "contain": true }'>
+
   <div class="carousel-cell split-words-container">
     <div class="split-words-content">
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -109,7 +111,6 @@ span {
       <p>Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin.</p>
     </div>
   </div>
-
 
 </div>
 
