@@ -113,11 +113,26 @@ $page_classes = "advancement-demo";
 <?php echo end_sec_fixedCenteredTitle(); ?>
 
 
+<style>
 
-    <!-- stats -->
+.the-quote-ticker {
+  min-height: 70vh;
+}
+
+</style>
+
+<?php echo sec_wideContent(
+  null,
+  null,
+  'the-quote-ticker'
+); ?>
+
+  <?php echo niceQuotes(); ?>
+
+<?php echo end_sec_wideContent(); ?>
+
 
 <?php
-echo word_cycler('where-from');
 
 echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Upcoming</b>
@@ -179,13 +194,9 @@ echo sec_fixedCenteredTitle(
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">In The</b>
    <b class="slide-from-right">Media</b>',
-    '<p class="section-intro-text">
-
-[in the media]
-
-   </p>',
+   '<p class="section-intro-text mb-5 pb-5">Vassar Alumni making news.</p>',
     'sec-fixedCenteredTitle theme-burgundy',
-    'mw-4',
+    'animation-fade-in animate-when-content-appears mw-4',
     ['bg-image-url' => '/mockups/advancement-home/assets/images/0069-19-05-kr-spring-vassar-4662.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
@@ -197,8 +208,72 @@ echo sec_fixedCenteredTitle(
     ]
 ); ?>
 
+<style>
+p.feature-text {
+    font-variation-settings: "wght" 340;
+    font-family: var(--font-big-serif);
+    line-height: 1.16;
+    font-size: 2rem;
+    font-weight: 100;
+}
+.featured-alum {
+  --section-link-color: #f00;
+  --section-link-hover-color: #000;
+  max-width: 60rem;
+  margin: 0 auto 4rem auto;
+}
 
-  <div class='thumbnail-text-ticker' data-flickity='{ "fade": true, "wrapAround": false, "autoPlay": 1500, "cellAlign": "center" }'>
+.featured-alum .row {
+padding: 4rem;
+    background: #fff;
+    color: #333;
+    box-shadow: 0 0.6em 1em #700;
+  }
+
+
+.small-header {
+  font-weight: bold;
+    text-align: center;
+    font-variation-settings: "wght" 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1.2rem;
+}
+.small-header:before,
+.small-header:after {
+  content: '';
+  color: #f00;
+  letter-spacing: -0.1rem;
+  font-weight: normal;
+  width: 10rem;
+  background: #f00;
+  height: 1px;
+  display: inline-block;
+  margin-bottom: 0.4rem;
+}
+.small-header:before {
+  margin-right: 1rem;
+}
+.small-header:after {
+  margin-left: 1rem;
+}
+
+</style>
+
+<div class="featured-alum container">
+  <div class="row">
+    <div class="col-5">
+      <img src="/mockups/advancement-home/assets/images/in-the-media/feature/news-ifill-thumb.jpeg" alt="" />
+    </div>
+    <div class="col-7">
+      <p class="feature-text">The Ford Foundation has awarded a senior fellowship to <strong>Sherrilyn Ifill ’84</strong>, President and Director-Counsel Emeritus of the NAACP Legal Defense Fund, “to continue her work on strengthening American democracy,” as announced by the <a href="https://www.fordfoundation.org/news-and-stories/news-and-press/news/sherrilyn-ifill-joins-ford-foundation-as-a-senior-fellow/">foundation</a>.</p>
+    </div>
+  </div>
+</div>
+
+<h3 class="small-header mt-5 mb-5">Of note</h3>
+
+  <div class='thumbnail-text-ticker' style='--carousel-height: 14rem;' data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": 3000, "cellAlign": "center", "prevNextButtons": false }'>
 
     <?php echo tickerItem('<p><strong>Jason Blum ’91’s</strong> $10 million gift to <strong>Vassar College</strong> was the subject of <a href="https://apnews.com/press-release/pr-newswire/entertainment-television-9554c9edf9de533dab110ea9ff7a2d03">AP</a>, <em><a href="https://www.thewrap.com/jason-blum-donates-10-million-vassar-college/">The Wrap</a></em>, <em><a href="https://variety.com/2022/film/news/jason-blum-blumhouse-vassar-college-scholarship-1235299680/">Variety</a></em>, and <a href="https://www.yahoo.com/now/award-winning-film-television-producer-142700862.html">Yahoo! News</a> stories.</p>', 'blum.jpg'); ?>
 

@@ -1,0 +1,75 @@
+<?php
+
+
+
+
+/**
+ * sec_buffer()
+ * Spacefiller section for testing scroll-in animations
+ *
+ * @see https://codepen.io/csilverman/pen/popMVyL
+ * @link https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ1F2lWxE1yMeSI/edit#heading=h.q3v10639vhm8
+ * @param  boolean $extras - Reserved for future use
+ * @return string - The rendered HTML markup
+ */
+function niceQuotes( $extras = false ) {
+return <<<TMP
+<style>
+.quotes-carousel {
+  height: 50vh;
+}
+  .quotes-carousel .carousel-cell {
+    width: 100%;
+    min-height: 50vh;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quotes-carousel .split-words-content p {
+    line-height: 1.16;
+  }
+
+  .carousel.is-fullscreen .carousel-cell {
+    height: 100%;
+  }
+
+  .quotes-carousel span {
+    display: inline-block;
+    margin-right: 0.23em;
+  }
+
+  .quotes-carousel .split-words-content {
+      max-width: 60em;
+      padding: 1em;
+  }
+
+  </style>
+
+<h3 class="small-header mt-5 mb-5">In their own words</h3>
+
+  <div class="quotes-carousel" data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": 6000, "cellAlign": "center", "contain": true, "prevNextButtons": false }'>
+
+    <div class="carousel-cell split-words-container">
+      <div class="split-words-content">
+        <p>“...at Vassar, I was able to pursue a writing career, with a dedicated thesis class...while completing an Economics degree—that was a huge gift that definitely shaped my path after Vassar.” —Arushi&nbsp;Raina&nbsp;’14</p>
+      </div>
+    </div>
+
+    <div class="carousel-cell split-words-container">
+      <div class="split-words-content">
+        <p>“I got my spirit back at Vassar.” —&nbsp;Brenda&nbsp;Feigen&nbsp;’66</p>
+      </div>
+    </div>
+
+    <div class="carousel-cell split-words-container">
+      <div class="split-words-content">
+        <p>“...the more you’re away from Vassar, the more you miss it.” —&nbsp;Livia&nbsp;Bartels&nbsp;’20</p>
+      </div>
+    </div>
+
+  </div>
+TMP;
+
+}

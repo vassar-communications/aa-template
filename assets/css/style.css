@@ -12519,6 +12519,9 @@ html {
 .thumbnail-text-ticker {
   height: var(--carousel-height, 32em);
 }
+.thumbnail-text-ticker .flickity-page-dots .dot {
+  background: #fff;
+}
 
 .thumbnail-text-ticker .carousel-cell {
   height: 100%;
@@ -12526,12 +12529,13 @@ html {
   width: 100%;
 }
 
-.carousel-cell-content {
+.thumbnail-text-ticker .carousel-cell-content {
   display: flex;
   justify-content: center;
   max-width: 60rem;
   margin: 0 auto;
   gap: 1.3rem;
+  align-items: center;
 }
 
 .thumbnail-text-ticker .carousel-cell .image-container {
@@ -12909,6 +12913,7 @@ html {
 }
 .event-listing .event {
   background: #fff;
+  border-radius: 0.6rem;
   display: flex;
   margin: 1.6rem 0;
   box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
@@ -12916,14 +12921,17 @@ html {
   position: relative;
   transition: 0.4s all ease;
 }
-.event-listing .event:first-child {
-  border-top-right-radius: 0.4rem;
-  border-top-left-radius: 0.4rem;
-}
 .event-listing .event:hover {
   transform: scale(1.02);
   z-index: 60;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.event-listing .event:hover .event__title {
+  color: #f00;
+}
+.event-listing .event:hover .event__title:after {
+  width: 80%;
 }
 .event-listing .event__title {
   font-family: freight-big-pro;
@@ -12932,15 +12940,21 @@ html {
   line-height: 1;
   margin-bottom: 1rem;
   padding-right: 3rem;
+  position: relative;
+  transition: 0.4s all ease;
+}
+.event-listing .event__title:after {
+  position: absolute;
+  content: "";
+  bottom: -0.5rem;
+  left: 0;
+  width: 0;
+  transition: 1s all ease;
+  border-top: 1px solid #f00;
 }
 .event-listing .event__content-container {
   padding: 2.4rem;
   flex: 1;
-  border-top: 1px solid #dedede;
-  border-left: none;
-  border-top-right-radius: 0.4rem;
-  border-bottom-right-radius: 0.4rem;
-  border-bottom-color: #ccc;
   position: relative;
 }
 .event-listing .event__content-container:before {
@@ -12963,9 +12977,19 @@ html {
 .event-listing .event__image-container {
   position: relative;
   width: 14rem;
+  min-height: 14rem;
   overflow: hidden;
-  border-top: 1px solid #fff;
-  border-left: 1px solid #aaa;
+}
+.event-listing .fa-clock {
+  color: #f00;
+}
+.event-listing .event__time {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 1rem 0;
+  color: #444;
+  font-variation-settings: "wght" 500;
 }
 .event-listing img.event__image {
   position: absolute;

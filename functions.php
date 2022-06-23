@@ -153,6 +153,7 @@ include($project_paths['main_project_root'].'/core/items/imageCard_modal.inc');
 
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/fancy-stats.inc');
+include($project_paths['main_project_root'].'/core/sections/content_sections/nice-quotes.inc');
 
 
 /* Sections */

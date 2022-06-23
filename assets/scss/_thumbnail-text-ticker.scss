@@ -13,19 +13,24 @@ html {
 
 .thumbnail-text-ticker {
   height: var(--carousel-height, 32em);
+
+  .flickity-page-dots .dot {
+    background: #fff;
+  }
 }
 .thumbnail-text-ticker .carousel-cell {
   height: 100%;
   margin-right: 1em;
   width: 100%;
 }
-.carousel-cell-content {
+.thumbnail-text-ticker .carousel-cell-content {
   // width: 100%;
   display: flex;
   justify-content: center;
   max-width: 60rem;
   margin: 0 auto;
   gap: 1.3rem;
+  align-items: center;
 }
 .thumbnail-text-ticker .carousel-cell .image-container {
 //  height: auto;
