@@ -77,7 +77,7 @@ $page_classes = "academics-cy academics give";
     2,
     null,
     'pb-2',
-    'pt-5 flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
 ); ?>
 
 <?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
