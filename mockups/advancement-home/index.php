@@ -197,7 +197,16 @@ echo sec_fixedCenteredTitle(
     ]
 ); ?>
 
-  <?php echo thumbnailTextTicker(); ?>
+
+  <div class='thumbnail-text-ticker' id='gallery2' data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": 6000, "cellAlign": "center", "contain": true }'>
+
+    <?php echo tickerItem('Jason Blum ’91’s $10 million gift to Vassar College was the subject of AP, The Wrap, Variety, and Yahoo! News stories.'); ?>
+
+
+  </div>
+
+
+  <?php // echo thumbnailTextTicker(); ?>
 
 <?php echo end_sec_fixedCenteredTitle(); ?>
 

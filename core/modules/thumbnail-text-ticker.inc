@@ -1,5 +1,23 @@
 <?php
 
+
+function tickerItem($title, $image) {
+  return <<<TMP
+
+  <div class="carousel-cell">
+    <div class="carousel-cell-content">
+      <div class="image-container">
+        <img src="$image" />
+      </div>
+      <div class="figcaption">
+        <p>$title</p>
+      </div>
+    </div>
+  </div>
+
+TMP;
+}
+
 function thumbnailTextTicker() {
   return <<<TMP
 

@@ -110,6 +110,12 @@ h2.display-2.text-center.has-accent-border:after {
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
+
+    background-image: url(spark.gif);
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        padding-bottom: 7rem;
+        background-size: 7rem;
 ">Your generosity helps to enhance Vassar’s programs and offerings to students.</p>
 
 </div>
