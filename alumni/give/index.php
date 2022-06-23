@@ -83,13 +83,13 @@ $page_classes = "academics-cy academics give";
 <?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
 
 <h2 class="display-2">The Many Ways to Give Back</h2>
-<p class="fix">Your generosity helps to enhance Vassar’s programs and offerings to students.</p>
+<p>Your generosity helps to enhance Vassar’s programs and offerings to students.</p>
 
 <?php echo end_item_col(); ?>
 
 <?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
 
-<img src="https://vassartest.chuckyatsuk.com/img/alumni/give/volunteer/Vassar_Project-24.jpg" />
+<img src="https://vassartest.chuckyatsuk.com/img/alumni/give/overview/Ad_Poster_15_TT_3930.jpg" />
 
 <?php echo end_item_col(); ?>
 
