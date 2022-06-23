@@ -11708,6 +11708,632 @@ html {
   height: calc(100% - (2 * 1rem));
 }
 
+/* nice quotes */
+.quotes-carousel p {
+  overflow-wrap: break-word;
+  --regularContent-lineHeight: 1.2;
+}
+.quotes-carousel p span {
+  font-weight: 200;
+  font-variation-settings: "wght" 240;
+  font-family: var(--font-big-serif);
+  display: inline-block;
+  margin-right: 0.2em;
+  font-size: calc(1.425rem + 2.1vw);
+  opacity: 0%;
+}
+@media (min-width: 1200px) {
+  .quotes-carousel p span {
+    font-size: 3rem;
+  }
+}
+.quotes-carousel p span:nth-child(1) {
+  animation-delay: calc(0s + (0.1s * 1));
+}
+.quotes-carousel p span:nth-child(2) {
+  animation-delay: calc(0s + (0.1s * 2));
+}
+.quotes-carousel p span:nth-child(3) {
+  animation-delay: calc(0s + (0.1s * 3));
+}
+.quotes-carousel p span:nth-child(4) {
+  animation-delay: calc(0s + (0.1s * 4));
+}
+.quotes-carousel p span:nth-child(5) {
+  animation-delay: calc(0s + (0.1s * 5));
+}
+.quotes-carousel p span:nth-child(6) {
+  animation-delay: calc(0s + (0.1s * 6));
+}
+.quotes-carousel p span:nth-child(7) {
+  animation-delay: calc(0s + (0.1s * 7));
+}
+.quotes-carousel p span:nth-child(8) {
+  animation-delay: calc(0s + (0.1s * 8));
+}
+.quotes-carousel p span:nth-child(9) {
+  animation-delay: calc(0s + (0.1s * 9));
+}
+.quotes-carousel p span:nth-child(10) {
+  animation-delay: calc(0s + (0.1s * 10));
+}
+.quotes-carousel p span:nth-child(11) {
+  animation-delay: calc(0s + (0.1s * 11));
+}
+.quotes-carousel p span:nth-child(12) {
+  animation-delay: calc(0s + (0.1s * 12));
+}
+.quotes-carousel p span:nth-child(13) {
+  animation-delay: calc(0s + (0.1s * 13));
+}
+.quotes-carousel p span:nth-child(14) {
+  animation-delay: calc(0s + (0.1s * 14));
+}
+.quotes-carousel p span:nth-child(15) {
+  animation-delay: calc(0s + (0.1s * 15));
+}
+.quotes-carousel p span:nth-child(16) {
+  animation-delay: calc(0s + (0.1s * 16));
+}
+.quotes-carousel p span:nth-child(17) {
+  animation-delay: calc(0s + (0.1s * 17));
+}
+.quotes-carousel p span:nth-child(18) {
+  animation-delay: calc(0s + (0.1s * 18));
+}
+.quotes-carousel p span:nth-child(19) {
+  animation-delay: calc(0s + (0.1s * 19));
+}
+.quotes-carousel p span:nth-child(20) {
+  animation-delay: calc(0s + (0.1s * 20));
+}
+.quotes-carousel p span:nth-child(21) {
+  animation-delay: calc(0s + (0.1s * 21));
+}
+.quotes-carousel p span:nth-child(22) {
+  animation-delay: calc(0s + (0.1s * 22));
+}
+.quotes-carousel p span:nth-child(23) {
+  animation-delay: calc(0s + (0.1s * 23));
+}
+.quotes-carousel p span:nth-child(24) {
+  animation-delay: calc(0s + (0.1s * 24));
+}
+.quotes-carousel p span:nth-child(25) {
+  animation-delay: calc(0s + (0.1s * 25));
+}
+.quotes-carousel p span:nth-child(26) {
+  animation-delay: calc(0s + (0.1s * 26));
+}
+.quotes-carousel p span:nth-child(27) {
+  animation-delay: calc(0s + (0.1s * 27));
+}
+.quotes-carousel p span:nth-child(28) {
+  animation-delay: calc(0s + (0.1s * 28));
+}
+.quotes-carousel p span:nth-child(29) {
+  animation-delay: calc(0s + (0.1s * 29));
+}
+.quotes-carousel p span:nth-child(30) {
+  animation-delay: calc(0s + (0.1s * 30));
+}
+.quotes-carousel p span:nth-child(31) {
+  animation-delay: calc(0s + (0.1s * 31));
+}
+.quotes-carousel p span:nth-child(32) {
+  animation-delay: calc(0s + (0.1s * 32));
+}
+.quotes-carousel p span:nth-child(33) {
+  animation-delay: calc(0s + (0.1s * 33));
+}
+.quotes-carousel p span:nth-child(34) {
+  animation-delay: calc(0s + (0.1s * 34));
+}
+.quotes-carousel p span:nth-child(35) {
+  animation-delay: calc(0s + (0.1s * 35));
+}
+.quotes-carousel p span:nth-child(36) {
+  animation-delay: calc(0s + (0.1s * 36));
+}
+.quotes-carousel p span:nth-child(37) {
+  animation-delay: calc(0s + (0.1s * 37));
+}
+.quotes-carousel p span:nth-child(38) {
+  animation-delay: calc(0s + (0.1s * 38));
+}
+.quotes-carousel p span:nth-child(39) {
+  animation-delay: calc(0s + (0.1s * 39));
+}
+.quotes-carousel p span:nth-child(40) {
+  animation-delay: calc(0s + (0.1s * 40));
+}
+.quotes-carousel p span:nth-child(41) {
+  animation-delay: calc(0s + (0.1s * 41));
+}
+.quotes-carousel p span:nth-child(42) {
+  animation-delay: calc(0s + (0.1s * 42));
+}
+.quotes-carousel p span:nth-child(43) {
+  animation-delay: calc(0s + (0.1s * 43));
+}
+.quotes-carousel p span:nth-child(44) {
+  animation-delay: calc(0s + (0.1s * 44));
+}
+.quotes-carousel p span:nth-child(45) {
+  animation-delay: calc(0s + (0.1s * 45));
+}
+.quotes-carousel p span:nth-child(46) {
+  animation-delay: calc(0s + (0.1s * 46));
+}
+.quotes-carousel p span:nth-child(47) {
+  animation-delay: calc(0s + (0.1s * 47));
+}
+.quotes-carousel p span:nth-child(48) {
+  animation-delay: calc(0s + (0.1s * 48));
+}
+.quotes-carousel p span:nth-child(49) {
+  animation-delay: calc(0s + (0.1s * 49));
+}
+.quotes-carousel p span:nth-child(50) {
+  animation-delay: calc(0s + (0.1s * 50));
+}
+.quotes-carousel p span:nth-child(51) {
+  animation-delay: calc(0s + (0.1s * 51));
+}
+.quotes-carousel p span:nth-child(52) {
+  animation-delay: calc(0s + (0.1s * 52));
+}
+.quotes-carousel p span:nth-child(53) {
+  animation-delay: calc(0s + (0.1s * 53));
+}
+.quotes-carousel p span:nth-child(54) {
+  animation-delay: calc(0s + (0.1s * 54));
+}
+.quotes-carousel p span:nth-child(55) {
+  animation-delay: calc(0s + (0.1s * 55));
+}
+.quotes-carousel p span:nth-child(56) {
+  animation-delay: calc(0s + (0.1s * 56));
+}
+.quotes-carousel p span:nth-child(57) {
+  animation-delay: calc(0s + (0.1s * 57));
+}
+.quotes-carousel p span:nth-child(58) {
+  animation-delay: calc(0s + (0.1s * 58));
+}
+.quotes-carousel p span:nth-child(59) {
+  animation-delay: calc(0s + (0.1s * 59));
+}
+.quotes-carousel p span:nth-child(60) {
+  animation-delay: calc(0s + (0.1s * 60));
+}
+.quotes-carousel p span:nth-child(61) {
+  animation-delay: calc(0s + (0.1s * 61));
+}
+.quotes-carousel p span:nth-child(62) {
+  animation-delay: calc(0s + (0.1s * 62));
+}
+.quotes-carousel p span:nth-child(63) {
+  animation-delay: calc(0s + (0.1s * 63));
+}
+.quotes-carousel p span:nth-child(64) {
+  animation-delay: calc(0s + (0.1s * 64));
+}
+.quotes-carousel p span:nth-child(65) {
+  animation-delay: calc(0s + (0.1s * 65));
+}
+.quotes-carousel p span:nth-child(66) {
+  animation-delay: calc(0s + (0.1s * 66));
+}
+.quotes-carousel p span:nth-child(67) {
+  animation-delay: calc(0s + (0.1s * 67));
+}
+.quotes-carousel p span:nth-child(68) {
+  animation-delay: calc(0s + (0.1s * 68));
+}
+.quotes-carousel p span:nth-child(69) {
+  animation-delay: calc(0s + (0.1s * 69));
+}
+.quotes-carousel p span:nth-child(70) {
+  animation-delay: calc(0s + (0.1s * 70));
+}
+.quotes-carousel p span:nth-child(71) {
+  animation-delay: calc(0s + (0.1s * 71));
+}
+.quotes-carousel p span:nth-child(72) {
+  animation-delay: calc(0s + (0.1s * 72));
+}
+.quotes-carousel p span:nth-child(73) {
+  animation-delay: calc(0s + (0.1s * 73));
+}
+.quotes-carousel p span:nth-child(74) {
+  animation-delay: calc(0s + (0.1s * 74));
+}
+.quotes-carousel p span:nth-child(75) {
+  animation-delay: calc(0s + (0.1s * 75));
+}
+.quotes-carousel p span:nth-child(76) {
+  animation-delay: calc(0s + (0.1s * 76));
+}
+.quotes-carousel p span:nth-child(77) {
+  animation-delay: calc(0s + (0.1s * 77));
+}
+.quotes-carousel p span:nth-child(78) {
+  animation-delay: calc(0s + (0.1s * 78));
+}
+.quotes-carousel p span:nth-child(79) {
+  animation-delay: calc(0s + (0.1s * 79));
+}
+.quotes-carousel p span:nth-child(80) {
+  animation-delay: calc(0s + (0.1s * 80));
+}
+.quotes-carousel p span:nth-child(81) {
+  animation-delay: calc(0s + (0.1s * 81));
+}
+.quotes-carousel p span:nth-child(82) {
+  animation-delay: calc(0s + (0.1s * 82));
+}
+.quotes-carousel p span:nth-child(83) {
+  animation-delay: calc(0s + (0.1s * 83));
+}
+.quotes-carousel p span:nth-child(84) {
+  animation-delay: calc(0s + (0.1s * 84));
+}
+.quotes-carousel p span:nth-child(85) {
+  animation-delay: calc(0s + (0.1s * 85));
+}
+.quotes-carousel p span:nth-child(86) {
+  animation-delay: calc(0s + (0.1s * 86));
+}
+.quotes-carousel p span:nth-child(87) {
+  animation-delay: calc(0s + (0.1s * 87));
+}
+.quotes-carousel p span:nth-child(88) {
+  animation-delay: calc(0s + (0.1s * 88));
+}
+.quotes-carousel p span:nth-child(89) {
+  animation-delay: calc(0s + (0.1s * 89));
+}
+.quotes-carousel p span:nth-child(90) {
+  animation-delay: calc(0s + (0.1s * 90));
+}
+.quotes-carousel p span:nth-child(91) {
+  animation-delay: calc(0s + (0.1s * 91));
+}
+.quotes-carousel p span:nth-child(92) {
+  animation-delay: calc(0s + (0.1s * 92));
+}
+.quotes-carousel p span:nth-child(93) {
+  animation-delay: calc(0s + (0.1s * 93));
+}
+.quotes-carousel p span:nth-child(94) {
+  animation-delay: calc(0s + (0.1s * 94));
+}
+.quotes-carousel p span:nth-child(95) {
+  animation-delay: calc(0s + (0.1s * 95));
+}
+.quotes-carousel p span:nth-child(96) {
+  animation-delay: calc(0s + (0.1s * 96));
+}
+.quotes-carousel p span:nth-child(97) {
+  animation-delay: calc(0s + (0.1s * 97));
+}
+.quotes-carousel p span:nth-child(98) {
+  animation-delay: calc(0s + (0.1s * 98));
+}
+.quotes-carousel p span:nth-child(99) {
+  animation-delay: calc(0s + (0.1s * 99));
+}
+.quotes-carousel p span:nth-child(100) {
+  animation-delay: calc(0s + (0.1s * 100));
+}
+.quotes-carousel p span:nth-child(1) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 1));
+}
+.quotes-carousel p span:nth-child(2) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 2));
+}
+.quotes-carousel p span:nth-child(3) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 3));
+}
+.quotes-carousel p span:nth-child(4) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 4));
+}
+.quotes-carousel p span:nth-child(5) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 5));
+}
+.quotes-carousel p span:nth-child(6) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 6));
+}
+.quotes-carousel p span:nth-child(7) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 7));
+}
+.quotes-carousel p span:nth-child(8) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 8));
+}
+.quotes-carousel p span:nth-child(9) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 9));
+}
+.quotes-carousel p span:nth-child(10) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 10));
+}
+.quotes-carousel p span:nth-child(11) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 11));
+}
+.quotes-carousel p span:nth-child(12) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 12));
+}
+.quotes-carousel p span:nth-child(13) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 13));
+}
+.quotes-carousel p span:nth-child(14) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 14));
+}
+.quotes-carousel p span:nth-child(15) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 15));
+}
+.quotes-carousel p span:nth-child(16) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 16));
+}
+.quotes-carousel p span:nth-child(17) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 17));
+}
+.quotes-carousel p span:nth-child(18) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 18));
+}
+.quotes-carousel p span:nth-child(19) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 19));
+}
+.quotes-carousel p span:nth-child(20) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 20));
+}
+.quotes-carousel p span:nth-child(21) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 21));
+}
+.quotes-carousel p span:nth-child(22) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 22));
+}
+.quotes-carousel p span:nth-child(23) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 23));
+}
+.quotes-carousel p span:nth-child(24) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 24));
+}
+.quotes-carousel p span:nth-child(25) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 25));
+}
+.quotes-carousel p span:nth-child(26) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 26));
+}
+.quotes-carousel p span:nth-child(27) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 27));
+}
+.quotes-carousel p span:nth-child(28) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 28));
+}
+.quotes-carousel p span:nth-child(29) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 29));
+}
+.quotes-carousel p span:nth-child(30) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 30));
+}
+.quotes-carousel p span:nth-child(31) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 31));
+}
+.quotes-carousel p span:nth-child(32) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 32));
+}
+.quotes-carousel p span:nth-child(33) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 33));
+}
+.quotes-carousel p span:nth-child(34) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 34));
+}
+.quotes-carousel p span:nth-child(35) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 35));
+}
+.quotes-carousel p span:nth-child(36) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 36));
+}
+.quotes-carousel p span:nth-child(37) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 37));
+}
+.quotes-carousel p span:nth-child(38) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 38));
+}
+.quotes-carousel p span:nth-child(39) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 39));
+}
+.quotes-carousel p span:nth-child(40) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 40));
+}
+.quotes-carousel p span:nth-child(41) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 41));
+}
+.quotes-carousel p span:nth-child(42) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 42));
+}
+.quotes-carousel p span:nth-child(43) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 43));
+}
+.quotes-carousel p span:nth-child(44) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 44));
+}
+.quotes-carousel p span:nth-child(45) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 45));
+}
+.quotes-carousel p span:nth-child(46) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 46));
+}
+.quotes-carousel p span:nth-child(47) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 47));
+}
+.quotes-carousel p span:nth-child(48) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 48));
+}
+.quotes-carousel p span:nth-child(49) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 49));
+}
+.quotes-carousel p span:nth-child(50) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 50));
+}
+.quotes-carousel p span:nth-child(51) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 51));
+}
+.quotes-carousel p span:nth-child(52) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 52));
+}
+.quotes-carousel p span:nth-child(53) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 53));
+}
+.quotes-carousel p span:nth-child(54) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 54));
+}
+.quotes-carousel p span:nth-child(55) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 55));
+}
+.quotes-carousel p span:nth-child(56) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 56));
+}
+.quotes-carousel p span:nth-child(57) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 57));
+}
+.quotes-carousel p span:nth-child(58) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 58));
+}
+.quotes-carousel p span:nth-child(59) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 59));
+}
+.quotes-carousel p span:nth-child(60) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 60));
+}
+.quotes-carousel p span:nth-child(61) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 61));
+}
+.quotes-carousel p span:nth-child(62) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 62));
+}
+.quotes-carousel p span:nth-child(63) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 63));
+}
+.quotes-carousel p span:nth-child(64) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 64));
+}
+.quotes-carousel p span:nth-child(65) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 65));
+}
+.quotes-carousel p span:nth-child(66) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 66));
+}
+.quotes-carousel p span:nth-child(67) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 67));
+}
+.quotes-carousel p span:nth-child(68) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 68));
+}
+.quotes-carousel p span:nth-child(69) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 69));
+}
+.quotes-carousel p span:nth-child(70) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 70));
+}
+.quotes-carousel p span:nth-child(71) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 71));
+}
+.quotes-carousel p span:nth-child(72) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 72));
+}
+.quotes-carousel p span:nth-child(73) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 73));
+}
+.quotes-carousel p span:nth-child(74) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 74));
+}
+.quotes-carousel p span:nth-child(75) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 75));
+}
+.quotes-carousel p span:nth-child(76) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 76));
+}
+.quotes-carousel p span:nth-child(77) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 77));
+}
+.quotes-carousel p span:nth-child(78) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 78));
+}
+.quotes-carousel p span:nth-child(79) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 79));
+}
+.quotes-carousel p span:nth-child(80) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 80));
+}
+.quotes-carousel p span:nth-child(81) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 81));
+}
+.quotes-carousel p span:nth-child(82) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 82));
+}
+.quotes-carousel p span:nth-child(83) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 83));
+}
+.quotes-carousel p span:nth-child(84) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 84));
+}
+.quotes-carousel p span:nth-child(85) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 85));
+}
+.quotes-carousel p span:nth-child(86) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 86));
+}
+.quotes-carousel p span:nth-child(87) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 87));
+}
+.quotes-carousel p span:nth-child(88) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 88));
+}
+.quotes-carousel p span:nth-child(89) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 89));
+}
+.quotes-carousel p span:nth-child(90) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 90));
+}
+.quotes-carousel p span:nth-child(91) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 91));
+}
+.quotes-carousel p span:nth-child(92) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 92));
+}
+.quotes-carousel p span:nth-child(93) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 93));
+}
+.quotes-carousel p span:nth-child(94) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 94));
+}
+.quotes-carousel p span:nth-child(95) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 95));
+}
+.quotes-carousel p span:nth-child(96) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 96));
+}
+.quotes-carousel p span:nth-child(97) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 97));
+}
+.quotes-carousel p span:nth-child(98) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 98));
+}
+.quotes-carousel p span:nth-child(99) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 99));
+}
+.quotes-carousel p span:nth-child(100) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 100));
+}
+.quotes-carousel .is-selected span {
+  animation-delay: var(--animation-delay, 0s);
+  animation-duration: var(--animation-duration, 1s);
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+}
+
 .section.section--full-bleed-image-column {
   min-height: 100vh;
   padding: 0;
@@ -12654,11 +13280,7 @@ html {
 }
 
 /* external css: flickity.css */
-* {
-  box-sizing: border-box;
-}
-
-.carousel-cell {
+.featureImage-text-ticker .carousel-cell {
   width: 66%;
   height: 200px;
   margin-right: 10px;
@@ -12667,8 +13289,7 @@ html {
   opacity: 0.2;
   transform: scale(0.7);
 }
-
-.is-selected {
+.featureImage-text-ticker .is-selected {
   opacity: 1;
   transform: scale(1);
 }

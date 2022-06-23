@@ -1,28 +1,24 @@
 
 /* external css: flickity.css */
 
-* { box-sizing: border-box; }
+.featureImage-text-ticker {
+  .carousel-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    opacity: 0.2;
+    transform: scale(0.7);
+  }
 
 
-.carousel {
-
+  .is-selected {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
-.carousel-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
-  border-radius: 5px;
-  counter-increment: carousel-cell;
-  opacity: 0.2;
-  transform: scale(0.7);
-}
-
-
-.is-selected {
-  opacity: 1;
-  transform: scale(1);
-}
 
 /*  LAYOUT
   ====== */

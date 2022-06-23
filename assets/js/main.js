@@ -273,6 +273,28 @@ $( ".sec-wordByWord" ).each(function( index ) {
 });
 
 
+
+
+$( ".split-words-container" ).each(function( index ) {
+
+    var words = $(".split-words-content p", this).text().split(" ");
+    $(".split-words-content p", this).empty();
+
+    var theSection = $(this);
+
+    $.each(words, function(i, v) {
+        $(".split-words-content p", theSection).append($("<span>").text(v));
+    });
+
+    console.log( index + ": " + $( this ).text() );
+});
+
+
+
+
+
+
+
 /*
 //  This should be combined with the above function. Thing is,
 //  I need this working ASAP and I don't want to risk breaking anything

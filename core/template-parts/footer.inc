@@ -37,7 +37,7 @@ function site_footer() {
 
 
 			<div class="col-3 knockedout fixit">
-			
+
 				<div class="display-6 mb-2">Learn more.</div>
         <img src="/0104_14_10_KR_0022.jpg" alt="" />
 				  <a href="#" class="donate-btn px-0 mt-4 btn btn-link">Request Info <i class="circle fa-solid fa-arrow-right"></i></a>
@@ -80,7 +80,8 @@ function site_footer() {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
 <script src="{$project_paths['public_path']}/assets/js/libraries/masonry.pkgd.min.js"></script>
 
-<script src="{$project_paths['public_path']}/assets/js/libraries/flickity.js"></script>
+
+
 
 <!--
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>

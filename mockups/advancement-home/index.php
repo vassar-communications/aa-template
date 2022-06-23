@@ -158,7 +158,7 @@ echo sec_fixedCenteredTitle(
     '<p class="section-intro-text">Here we shine a light on the great work being done by our staff, students, and alumni.</p>',
     'sec-fixedCenteredTitle theme-charcoal alums-spotlight',
     'mw-4',
-    ['bg-image-url' => '/mockups/admission-home/fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',
+    ['bg-image-url' => '/mockups/advancement-home/assets/images/0037-19-02-kr-ifill-sherrilyn-vassar-7892.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --section-title-size: 10vw;
