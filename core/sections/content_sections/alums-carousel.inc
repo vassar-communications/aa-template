@@ -1,8 +1,20 @@
+<style>
+
+.alums-carousel .carousel-cell {
+    width: 70rem !important;
+}
+.alums-carousel .carousel-cell-content {
+  max-width: none;
+}
+
+</style>
+
+
 <?php
 
 function alumsCarousel() {
   return <<<TMP
-<div class="featureImage-text-ticker fade-nonselected full" id="gallery">
+<div class="featureImage-text-ticker alums-carousel fade-nonselected full" id="gallery">
 
   <div class="carousel-cell">
     <div class="carousel-cell-content">

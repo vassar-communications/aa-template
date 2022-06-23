@@ -184,9 +184,9 @@ echo sec_fixedCenteredTitle(
 [in the media]
 
    </p>',
-    'sec-fixedCenteredTitle theme-charcoal',
+    'sec-fixedCenteredTitle theme-burgundy',
     'mw-4',
-    ['bg-image-url' => '/mockups/admission-home/fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',
+    ['bg-image-url' => '/mockups/advancement-home/assets/images/0069-19-05-kr-spring-vassar-4662.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --section-title-size: 10vw;
@@ -198,11 +198,23 @@ echo sec_fixedCenteredTitle(
 ); ?>
 
 
-  <div class='thumbnail-text-ticker' data-flickity='{ "fade": true, "wrapAround": false, "autoPlay": 6000, "cellAlign": "center" }'>
+  <div class='thumbnail-text-ticker' data-flickity='{ "fade": true, "wrapAround": false, "autoPlay": 1500, "cellAlign": "center" }'>
 
     <?php echo tickerItem('<p><strong>Jason Blum ’91’s</strong> $10 million gift to <strong>Vassar College</strong> was the subject of <a href="https://apnews.com/press-release/pr-newswire/entertainment-television-9554c9edf9de533dab110ea9ff7a2d03">AP</a>, <em><a href="https://www.thewrap.com/jason-blum-donates-10-million-vassar-college/">The Wrap</a></em>, <em><a href="https://variety.com/2022/film/news/jason-blum-blumhouse-vassar-college-scholarship-1235299680/">Variety</a></em>, and <a href="https://www.yahoo.com/now/award-winning-film-television-producer-142700862.html">Yahoo! News</a> stories.</p>', 'blum.jpg'); ?>
 
-    <?php echo tickerItem('The memoir <em>Stay True</em> by <strong>Hua Hsu</strong>, Associate Professor of English and <em>New Yorker</em> staff writer, received a positive <em><a href="https://www.publishersweekly.com/pw/by-topic/columns-and-blogs/openbook/article/89659-hua-hsu-s-memoir-in-memoriam.html">Publishers Weekly</a></em> review, which called it “a moving and beautifully rendered memoir of friendship, loss, and a meditation on youth, tragedy, coming of age, and the Asian American immigrant experience.”', 'blum.jpg'); ?>
+    <?php echo tickerItem('The memoir <em>Stay True</em> by <strong>Hua Hsu</strong>, Associate Professor of English and <em>New Yorker</em> staff writer, received a positive <em><a href="https://www.publishersweekly.com/pw/by-topic/columns-and-blogs/openbook/article/89659-hua-hsu-s-memoir-in-memoriam.html">Publishers Weekly</a></em> review, which called it “a moving and beautifully rendered memoir of friendship, loss, and a meditation on youth, tragedy, coming of age, and the Asian American immigrant experience.”', 'logos/publishers-weekly.png'); ?>
+
+    <?php echo tickerItem('Lawyer <strong>Carrie Goldberg ’99</strong> was named to the White House Task Force to Address Online Harassment and Abuse, as noted by the <a href="https://www.whitehouse.gov/briefing-room/statements-releases/2022/06/17/readout-of-the-white-house-task-force-to-address-online-harassment-and-abuse-launch/">White House</a>.', 'logos/white-house.png'); ?>
+
+    <?php echo tickerItem('<strong>Albert Muzquiz ’17</strong> and his popular TikTok account were the subjects of an <a href="https://www.insidehook.com/article/style/edgy-albert-tiktok-style-influencer">Inside Hook</a> story.', 'edgy-albert.jpg'); ?>
+
+    <?php echo tickerItem('<p>Author and teacher <strong>Torrey Maldonado ’96</strong> talked to the <em><a href="https://www.slj.com/story/the-brown-bookshelf-to-spotlight-black-kid-lit-creators-thoughts-on-juneteenth">School Library Journal</a></em> about his project surveying prominent Black children’s literature creators on the importance of Juneteenth.', 'logos/slj.png'); ?>
+
+    <?php echo tickerItem('<strong>Isabella Demougeot ’09</strong>, a senior litigation associate with JDKatz, PC, was interviewed for a <em><a href="https://medium.com/authority-magazine/top-lawyers-isabella-demougeot-on-the-5-things-you-need-to-become-a-top-lawyer-in-your-specific-b289f2d7f4cf">Medium</a></em> article asking top lawyers about achieving success in their specific fields.', 'isabella-demougeot.jpg'); ?>
+
+    <?php echo tickerItem('<strong>Eve Dunbar</strong>, Professor of English on the Jean Webster Chair, and the collection of essays she co-edited, <em>African American Literature in Transition, 1930-1940</em>, were mentioned in a <a href="https://www.wibw.com/2022/06/20/new-book-with-ku-authors-details-impact-black-literature-1930s/">WIBW</a> story.', 'eve-dunbar.jpg'); ?>
+
+    <?php echo tickerItem('<strong>Ivan Cedillo ’06</strong> was named the new principal at Del Valle High School in El Paso, TX, as noted by <a href="https://kfoxtv.com/news/local/ysleta-isd-names-new-principals-at-4-campuses-school-education-monica-triplett-gabriel-lopez-ivan-cedillo-bonita-torres-high-school-elementary-school-middle-school">KFOX 14</a>.', 'logos/kfox.jpg'); ?>
 
   </div>
 
