@@ -96,7 +96,7 @@ h2.display-2.text-center.has-accent-border:after {
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/0001-18-01-kr-scc-nixon-vassar-0021.jpg',
-    '',
+    'mb-5',
     'mw-100'
 ); ?>
 
