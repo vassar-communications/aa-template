@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/template-parts/patternlibrary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/give/old.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/tmp/sample-bio.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/animated-list/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/animated-list/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/animated-pull-quote/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/animated-pull-quote/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/card-with-text/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/card-with-text/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/college-journey/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/college-journey/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/dropdowns/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/dropdowns/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/icon-items/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/icon-items/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/icon-links/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/icon-links/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/icon-stat-items/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/icon-stat-items/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/section-wide-content/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/section-wide-content/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/section-with-background-image/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/section-with-background-image/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/section-with-card-array/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/section-with-card-array/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/section-with-columns/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/section-with-columns/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/section-with-themes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/section-with-themes/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/stats/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/stats/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/z_template/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/z_template/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/community/aavc/board-members/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/aavc/board-members/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/give/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +70,7 @@
       <workItem from="1654583675601" duration="63227000" />
       <workItem from="1654737472328" duration="33265000" />
       <workItem from="1654829966865" duration="1107000" />
-      <workItem from="1655861572501" duration="42128000" />
+      <workItem from="1655861572501" duration="49220000" />
     </task>
     <servers />
   </component>

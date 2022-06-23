@@ -72,35 +72,12 @@ $page_classes = "academics-cy academics give";
 
 
 
-<?php echo sec_hasColumns(
-    null,
-    2,
-    null,
-    'pb-2',
-    'pt-5 flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
-); ?>
-
-<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
-
-<h2 class="display-2">The Many Ways to Give Back</h2>
-<p class="fix">Your generosity helps to enhance Vassar’s programs and offerings to students.</p>
-
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
-
-<img src="https://vassartest.chuckyatsuk.com/img/alumni/give/volunteer/Vassar_Project-24.jpg" />
-
-<?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
-
 
 
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/alumni/give/0135_15_11_CS_294_1.jpg',
-    'theme-burgundy image-is-first',
+    'theme-dark-burgundy image-is-first',
     'mw-100'
 ); ?>
 
@@ -119,7 +96,7 @@ $page_classes = "academics-cy academics give";
 <?php echo sec_wideContent(
     null,
     '',
-    'theme-charcoal py-5 text-white',
+    'theme-darkcoal py-5 text-white',
     'animate-when-content-appears animation-slide-up text-center',
     ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/Vassar_Campus_6_26_17_0078.jpg',
         'bg-image-alt' => 'The image alt text']
@@ -144,67 +121,89 @@ $page_classes = "academics-cy academics give";
 <?php echo end_sec_wideContent(); ?>
 
 
-<?php echo sec_fullBleedImageColumn(
+
+<?php echo sec_hasColumns(
+    'The Many Ways to Give Back',
+    2,
     null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/give/volunteer/Vassar Project-11.jpg',
-    'theme-charcoal bg-dark',
-    'mw-100'
+    'pb-2',
+    'pt-5 flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
+); ?>
+
+<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
+
+<h2 class="display-3">Volunteer</h2>
+<p class="pb-3">Deepen relationships, expand your community, and devote time and expertise to things you care about.</p>
+<a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link">Explore volunteer opportunities <i class="circle fa-solid fa-arrow-right"></i></a>
+
+<?php echo end_item_col(); ?>
+
+<?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
+
+<img src="https://vassartest.chuckyatsuk.com/img/alumni/give/volunteer/Vassar_Project-24.jpg" />
+
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+<?php echo sec_hasColumns(
+    null,
+    2,
+    null,
+    'py-2',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
 ); ?>
 
 
-<div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Volunteer</h2>
-    <p>Deepen relationships, expand your community, and devote time and expertise to things you care about.</p>
 
-    <a href="/alumni/give/volunteer/" class="px-0 btn btn-link">Explore volunteer opportunities  <i class="circle fa-solid fa-arrow-right"></i></a>
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
+<?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
 
-<?php echo sec_fullBleedImageColumn(
+<img src="https://vassartest.chuckyatsuk.com/img/alumni/give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675.jpg" />
+
+<?php echo end_item_col(); ?>
+
+<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
+
+<h2 class="display-3">Be a Mentor</h2>
+<p class="pb-3">Being a mentor is an extraordinary opportunity to develop positive relationships with students and help them navigate their future personally and/or professionally.</p>
+<a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link">Explore mentorship opportunities <i class="circle fa-solid fa-arrow-right"></i></a>
+
+<?php echo end_item_col(); ?>
+
+
+
+<?php echo end_sec_hasColumns(); ?>
+
+
+<?php echo sec_hasColumns(
     null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675.jpg',
-    'theme-darkcoal bg-dark image-is-first',
-    'mw-100'
+    2,
+    null,
+    'py-2',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
 ); ?>
 
+<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
 
-<div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Be a Mentor </h2>
-    <p>Being a mentor is an extraordinary opportunity to develop positive relationships with students and help them navigate their future personally and/or professionally.</p>
+<h2 class="display-3">Hire Vassar</h2>
+<p class="pb-3">Vassar students and alums are great candidates for internships and multi-level positions within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
+<a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link">Information for Employers <i class="circle fa-solid fa-arrow-right"></i></a>
 
-    <a href="/alumni/give/be-a-mentor/" class="px-0 btn btn-link">Explore mentorship opportunities  <i class="circle fa-solid fa-arrow-right"></i></a>
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
+<?php echo end_item_col(); ?>
 
+<?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
 
+<img src="https://vassartest.chuckyatsuk.com/img/alumni/give/hire/0006-19-01-kr-scc-reception-vassar-0956.jpg" />
 
-<?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/give/hire/0006-19-01-kr-scc-reception-vassar-0956.jpg',
-    'theme-charcoal bg-dark',
-    'mw-100'
-); ?>
+<?php echo end_item_col(); ?>
 
-
-<div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Hire Vassar</h2>
-    <p>Vassar students and alums are great candidates for internships and multi-level positions within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
-
-    <a href="/alumni/give/hire-vassar/" class="px-0 btn btn-link">Information for Employers <i class="circle fa-solid fa-arrow-right"></i></a>
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-
-
-
-
+<?php echo end_sec_hasColumns(); ?>
 
 
 <?php echo sec_wideContent(
     '',
     '',
-    'theme-darkcoal  presentation quad-pattern has-bg',
+    'theme-charcoal  presentation quad-pattern has-bg',
     'mw-4 d-flex justify-content-around'
 ); ?>
 
