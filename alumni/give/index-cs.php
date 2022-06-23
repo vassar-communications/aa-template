@@ -95,11 +95,7 @@ h2.display-2.text-center.has-accent-border:after {
 
 <div class="section section-with-columns columns-2 pb-2">
 
-
-    <div class="section-intro">
-
-    </div>
-    <div class="section-content flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5">
+    <div class="section-content flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 ">
   <div class="g-col column equal animate-when-content-appears animation-slide-up content-appeared">
 <h2 class="display-2 text-center has-accent-border">The Many Ways to Give Back</h2>
 <p style="

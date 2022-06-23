@@ -198,10 +198,11 @@ echo sec_fixedCenteredTitle(
 ); ?>
 
 
-  <div class='thumbnail-text-ticker' id='gallery2' data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": 6000, "cellAlign": "center", "contain": true }'>
+  <div class='thumbnail-text-ticker' id='gallery2' data-flickity='{ "fade": true, "wrapAround": false, "autoPlay": 6000, "cellAlign": "center" }'>
 
-    <?php echo tickerItem('Jason Blum ’91’s $10 million gift to Vassar College was the subject of AP, The Wrap, Variety, and Yahoo! News stories.'); ?>
+    <?php echo tickerItem('<p><strong>Jason Blum ’91’s</strong> $10 million gift to <strong>Vassar College</strong> was the subject of <a href="https://apnews.com/press-release/pr-newswire/entertainment-television-9554c9edf9de533dab110ea9ff7a2d03">AP</a>, <em><a href="https://www.thewrap.com/jason-blum-donates-10-million-vassar-college/">The Wrap</a></em>, <em><a href="https://variety.com/2022/film/news/jason-blum-blumhouse-vassar-college-scholarship-1235299680/">Variety</a></em>, and <a href="https://www.yahoo.com/now/award-winning-film-television-producer-142700862.html">Yahoo! News</a> stories.</p>', 'blum.jpg'); ?>
 
+    <?php echo tickerItem('The memoir <em>Stay True</em> by <strong>Hua Hsu</strong>, Associate Professor of English and <em>New Yorker</em> staff writer, received a positive <em><a href="https://www.publishersweekly.com/pw/by-topic/columns-and-blogs/openbook/article/89659-hua-hsu-s-memoir-in-memoriam.html">Publishers Weekly</a></em> review, which called it “a moving and beautifully rendered memoir of friendship, loss, and a meditation on youth, tragedy, coming of age, and the Asian American immigrant experience.”', 'blum.jpg'); ?>
 
   </div>
 

@@ -7,7 +7,7 @@ function tickerItem($title, $image) {
   <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-        <img src="$image" />
+        <img src="/mockups/advancement-home/assets/images/in-the-media/$image" />
       </div>
       <div class="figcaption">
         <p>$title</p>
