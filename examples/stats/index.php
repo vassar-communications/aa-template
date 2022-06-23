@@ -14,7 +14,7 @@ $page_title = "Dropdowns";
 /*  ---------------------- */
 
 ?>
-
+<?php include($project_paths['main_project_root'].'/core/template-parts/patternlibrary.php');?>
 <?php echo site_header(); ?>
 
 

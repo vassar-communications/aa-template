@@ -16,7 +16,7 @@ $page_title = "Section with wide content";
 ?>
 
     <!-- %%% -->
-
+<?php include($project_paths['main_project_root'].'/core/template-parts/patternlibrary.php');?>
 <?php echo site_header(); ?>
 
 <?php echo sec_wideContent(

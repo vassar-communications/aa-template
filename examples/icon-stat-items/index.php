@@ -17,7 +17,7 @@ $page_docs = "https://docs.google.com/document/d/10cN3CBi-jaEj5DT_8HQSA3VcsiM2mQ
 /*  ---------------------- */
 
 ?>
-
+<?php include($project_paths['main_project_root'].'/core/template-parts/patternlibrary.php');?>
 <?php echo site_header(); ?>
 
 <?php echo sec_wideContent(
