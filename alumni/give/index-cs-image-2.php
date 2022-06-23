@@ -88,6 +88,10 @@ h2.display-2.text-center.has-accent-border:after {
     bottom: -2.5rem;
     left: calc(50% - 2rem);
 }
+
+.page-title-section .columns {
+  grid-template-columns: 6fr 4fr !important;
+}
 </style>
 
 
