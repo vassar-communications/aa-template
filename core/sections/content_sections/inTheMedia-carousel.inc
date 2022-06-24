@@ -24,6 +24,10 @@
   position: absolute;
   object-fit: cover;
 }
+.media-carousel .figcaption {
+    background: var(--color-vassar-dark-burgundy) !important;
+}
+
 .media-carousel .figcaption p {
   font-size: 1.3rem !important;
 }

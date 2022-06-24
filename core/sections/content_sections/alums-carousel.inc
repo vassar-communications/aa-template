@@ -32,11 +32,11 @@ function alumsCarousel() {
   <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-        <img src="https://vassartest.chuckyatsuk.com/img/news1.jpeg" />
+        <img src="https://www.vassar.edu/sites/default/files/2022-06/AAVC_awards_16x12.jpg" />
       </div>
        <div class="figcaption pt-5">
-        <h3 class="h3">Student Earns Goldwater Scholarship for Water Pollution Research</h3>
-        <p>The Goldwater Foundation has awarded a graduate school scholarship to Abigail Whittington ’23 for her research on water pollution.</p>
+        <h3 class="h3">Five Alumni Selected for 2022 AAVC Awards</h3>
+        <p>Meet the alums whom the Alumnae/i Association of Vassar College has chosen to honor this year for their work at Vassar and beyond (clockwise from top left): Arushi Raina ’14, Jonathan Granoff ’70, Brenda Feigen ’66, Edward Pittman ’82, and Deborah Macfarlan Enright ’82.</p>
           <a href="#" class="px-0 btn btn-link">Read more<i class="circle fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
@@ -45,11 +45,11 @@ function alumsCarousel() {
     <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-        <img src="https://vassartest.chuckyatsuk.com/img/news-2.jpeg" />
+        <img src="https://www.vassar.edu/sites/default/files/2022-06/alum_spotlight_reunion2022.jpg" />
          </div>
       <div class="figcaption pt-5">
-          <h3 class="h3">Vassar’s New Labyrinth Offers a Space for Contemplation</h3>
-        <p>Thanks to a gift from Mary Hyde Ottoway ’59 and her husband, James, a labyrinth, a component of contemplation practices for centuries, has been built outside Pratt House.</p>
+          <h3 class="h3">Reunion 2022 Highlights!</h3>
+        <p>This year’s joyous, in-person gathering drew more than 1,500 alums, friends, and family members representing classes that spanned 60 years. Catch up on the festivities! <em>Photo: Karl Rabe</em></p>
         <a href="#" class="px-0 btn btn-link">Read more<i class="circle fa-solid fa-arrow-right"></i></a>
 
       </div>
@@ -59,11 +59,11 @@ function alumsCarousel() {
       <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-             <img src="https://vassartest.chuckyatsuk.com/img/news-3.jpg" />
+             <img src="https://www.vassar.edu/sites/default/files/2022-06/alum_spotlight_marina_bayeva.jpg" />
           </div>
  <div class="figcaption pt-5">
-           <h3 class="h3">Campus Groups Honor Food Service Women</h3>
-        <p>Every year, a group of campus organizations honors women who’ve made a significant contribution to the Vassar community. The “She Is” celebration this year will honor the 72 women who work in food service on campus.</p>
+           <h3 class="h3">Marina Bayeva ’06: Helping Ukraine’s Displaced Animals</h3>
+        <p>Since the invasion of Ukraine began, Marina Bayeva ’06 has been collecting money for shelters in her native country and coordinating rescue efforts for animals there. <em>Photo: Courtesy of the subject.</em></p>
         <a href="#" class="px-0 btn btn-link">Read more<i class="circle fa-solid fa-arrow-right"></i></a>
 
       </div>

@@ -53,7 +53,7 @@ $page_classes = "advancement-demo";
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Make a difference</b>
    <b class="slide-from-right nice-big-serif">and give back.</b>',
-    '<p class="section-intro-text">The Vassar Community is filled with vibrant, eclectic, non-conformist changemakers who span more than eight decades of the lived, global experience of students, alumni, family and friends.</p>',
+    '<p class="section-intro-text">The Vassar Community is filled with vibrant, eclectic, non-conformist changemakers who span more than eight decades of the lived, global experience of students, alumni, family, and friends.</p>',
     'sec-fixedCenteredTitle theme-burgundy make-a-difference section-title-text-shadow',
     'mw-4',
     ['bg-image-url' => '/mockups/advancement-home/assets/images/0153-19-11-kr-major-palooza-vassar-6031.jpg',
