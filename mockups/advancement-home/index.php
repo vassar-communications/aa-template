@@ -32,6 +32,7 @@ $page_classes = "advancement-demo";
 <a href="" class="cta-link">Log in</a>
 <?php echo end_sec_siteHeader_video(); ?>
 
+<?php echo alums_topLevelNav(); ?>
 
 <?php // echo alums_topLevelNav(); ?>
 
