@@ -120,7 +120,7 @@ $page_classes = "academics-cy academics give";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/0001-18-01-kr-scc-nixon-vassar-0021.jpg',
+    'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/0002-18-01-kr-scc-estrella-vassar-0048.jpg',
     'mb-5 page-title-section',
     'mw-100'
 ); ?>
