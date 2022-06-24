@@ -79,7 +79,7 @@ TMP;
 
 
 function vassar_is_awesome($classes) {
-    $our_qualities = '<ul><li>interesting</li><li>talented</li><li>diverse</li><li>imaginative</li><li>innovative</li><li>curious</li><li>driven</li><li>principled</li><li>unusual</li><li>bold</li></ul>';
+    $our_qualities = '<ul><li>unafraid to question</li><li>a story of strength and substance</li><li>belonging and thriving</li><li>small but mighty</li><li>courage of conviction</li><li>a remarkable sense of place</li></ul>';
 
     return <<<TMP
 <div class="awesome_ticker $classes">
