@@ -12606,20 +12606,25 @@ html {
   animation-delay: 17s;
 }
 
+.vassar-is {
+  padding-top: 8rem !important;
+  padding-bottom: 8rem !important;
+}
+
 @keyframes marquee {
   from {
-    transform: translateX(-100%);
+    transform: translateX(100%);
   }
   to {
-    transform: translateX(100%);
+    transform: translateX(-100%);
   }
 }
 @keyframes marquee2 {
   from {
-    transform: translateX(-200%);
+    transform: translateX(0);
   }
   to {
-    transform: translateX(0);
+    transform: translateX(-200%);
   }
 }
 .main-nav {
