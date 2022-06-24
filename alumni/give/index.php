@@ -42,10 +42,18 @@ $page_classes = "academics-cy academics give";
         color: #fff !important;
     }
 
+    .theme-cream .btn-link:hover {
+        color: #222;
+    }
+
     .theme-burgundy .btn-link:hover i.circle.fa-solid {
         background: #fff;
         border: #fff;
         color: #222 !important;
+    }
+
+    .theme-burgundy .btn-link:hover {
+        color:#fff
     }
 
 
