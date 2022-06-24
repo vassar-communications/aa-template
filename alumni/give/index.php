@@ -238,7 +238,7 @@ $page_classes = "academics-cy academics give";
 
 
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2">Hire Vassar</h2>
+    <h2 class="display-2 edit">Hire Vassar</h2>
     <p>Vassar students and alums are great candidates for internships and multi-level positions within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
 
     <a href="/alumni/give/hire-vassar/" class="px-0 btn btn-link">Information for Employers <i class="circle fa-solid fa-arrow-right"></i></a>
