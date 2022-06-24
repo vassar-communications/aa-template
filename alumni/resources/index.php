@@ -53,50 +53,84 @@ $page_classes = "academics-cy academics";
 <?php /*  PAGE CONTENT === */ ?>
 
 
+<style>
+
+    h2.display-2.text-center.has-accent-border {
+        position: relative;
+        font-weight: bold;
+        letter-spacing: -0.028em;
+    }
+
+    h2.display-2.text-center.has-accent-border:after {
+        position: absolute;
+        content: '';
+        width: 4rem;
+        border: 2px solid #f00;
+        bottom: -2.5rem;
+        left: calc(50% - 2rem);
+    }
+
+    .page-title-section .columns {
+        grid-template-columns: 6fr 4fr !important;
+    }
+
+    .theme-dark-burgundy .card i {
+        border-color: #222;
+    }
+
+</style>
 
 
 <!-- visit -->
 
 
-<?php echo sec_hasColumns(
+
+
+<?php echo sec_fullBleedImageColumn(
     null,
-    2,
-    null,
-    '',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
+    'https://vassartest.chuckyatsuk.com/img/alumni/resources/Sunset_Lake_15_TT_1519.jpg',
+    'mb-5 page-title-section',
+    'mw-100'
 ); ?>
 
-<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
 
-<h2 class="display-2">What’s not to love?</h2>
-<p class="pb-3">Vassar alumni are entitled to a whole host of services and benefits … automatically. Access career development opportunities; take advantage of a top-notch travel program that allows you to traverse the globe with Vassar professors knowledge about the various regions, their history and culture; and get goodies like a dedicated Vassar email and a lifetime subscription to VQ.</p>
+<div class="animate-when-content-appears animation-slide-up">
+    <h2 class="display-2 text-center has-accent-border">What’s not to love?</h2>
+    <p style="
+        color: #666;
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 2rem;
+        max-width: 40rem;
+        margin-left: auto;
+        margin-right: auto;
 
-<div class="alert alert-light shadow mw-2">
-    <h6 class="strong">QUICK LINKS</h6>
-    <a class="px-0 btn btn-link">Alumni Login<i class="px-3  fa-solid fa-arrow-up-right-from-square"></i></a><br/>
-    <a class="px-0 btn btn-link">Volunteer Resources<i class="px-3 fa-solid fa-arrow-up-right-from-square"></i></a>
-
+        background-image: url(/alumni/give/spark.gif);
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            padding-bottom: 7rem;
+            background-size: 7rem;
+    ">Vassar alumni are entitled to a whole host of services and benefits … automatically.</p>
 </div>
 
-<?php echo end_item_col(); ?>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
-
-<img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/Sunset_Lake_15_TT_1519.jpg" />
-
-<?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
-
+<?php echo sec_regularContent(
+    'Explore Resources',
+    'theme-dark-burgundy',
+    '',
+    ''
+); ?>
+<p>Access career development opportunities; take advantage of a top-notch travel program that allows you to traverse the globe with Vassar professors knowledge about the various regions, their history and culture; and get goodies like a dedicated Vassar email and a lifetime subscription to VQ.</p>
+<?php echo end_sec_regularContent(); ?>
 
 
 <?php echo sec_wideContent(
-    'Explore Resources',
+    null,
     '',
-    'theme-cream theme-cream pb-1 presentation',
+    'theme-dark-burgundy pb-1 presentation',
     'mw-4'
 ); ?>
-
 
 
 <?php echo sec_hasColumns(
@@ -110,7 +144,7 @@ $page_classes = "academics-cy academics";
 <?php echo item_col('equalht'); ?>
 <a class="card mb-4" href="#">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/community/overview/0127_12_12_YEM_2467.jpg" class="card-img-top" alt="asdfasdfds">
-    <div class="card-body">
+    <div class="card-body text-dark">
         <h4 class="card-title h2">Alumni Directory</h4>
         <div class="card-text">
             <p>Log into your account to view the full directory.</p>
@@ -124,7 +158,7 @@ $page_classes = "academics-cy academics";
 <?php echo item_col('equalht'); ?>
 <a class="card mb-4" href="/alumni/community/aavc">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/vassar-network/0036-22-06-kr-reunion-vassar-0148.jpg" class="card-img-top" alt="asdfasdfds">
-    <div class="card-body">
+    <div class="card-body text-dark">
         <h4 class="card-title h2">The Vassar Network</h4>
         <div class="card-text">
             <p>Join the global Vassar community and connect with alums around the world.</p>
@@ -138,7 +172,7 @@ $page_classes = "academics-cy academics";
 <?php echo item_col('equalht'); ?>
 <a class="card mb-4" href="/alumni/community/alumni-news">
     <img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" class="card-img-top" alt="Outcomes">
-    <div class="card-body">
+    <div class="card-body text-dark">
         <h4 class="card-title h2">Career Support</h4>
         <div class="card-text">
             <p>Helping alumni seek their next opportunity for personal growth and professional development.
@@ -152,7 +186,7 @@ $page_classes = "academics-cy academics";
 <?php echo item_col('equalht'); ?>
 <a class="card mb-4" href="/alumni/community/alumni-news">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/grants/time-out-awardee-bishop-joseph-tolton-89_0829.jpg" class="card-img-top" alt="Outcomes">
-    <div class="card-body">
+    <div class="card-body text-dark">
         <h4 class="card-title h2">Grants & Fellowships</h4>
         <div class="card-text">
             <p>Explore grant and fellowship opportunities available to Vassar alumni.
@@ -166,7 +200,7 @@ $page_classes = "academics-cy academics";
 <?php echo item_col('equalht'); ?>
 <a class="card mb-4" href="/alumni/community/alumni-news">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/college-search/0036-22-06-kr-reunion-vassar-0040.jpg" class="card-img-top" alt="Outcomes">
-    <div class="card-body">
+    <div class="card-body text-dark">
         <h4 class="card-title h2">College Search 101</h4>
         <div class="card-text">
             <p>This program provides valuable, general information to your family as your college search process begins.
@@ -180,7 +214,7 @@ $page_classes = "academics-cy academics";
 <?php echo item_col('equalht'); ?>
 <a class="card mb-4" href="/alumni/community/alumni-news">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/campus-resources/110619_160over90_Vassar_7814.jpg" class="card-img-top" alt="Outcomes">
-    <div class="card-body">
+    <div class="card-body text-dark">
         <h4 class="card-title h2">On Campus Resources</h4>
         <div class="card-text">
             <p>Our 1,000-acre campus holds many treasures.
@@ -196,7 +230,7 @@ $page_classes = "academics-cy academics";
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/alumni/resources/alumnae-house/Alumnae_House_06_CB_08.jpg',
-    'theme-charcoal bg-dark',
+    'theme-charcoal bg-dark quad-pattern has-bg',
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -206,5 +240,7 @@ $page_classes = "academics-cy academics";
     <a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link">Visit Alumnae House <i class="circle fa-solid fa-arrow-right"></i></a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
+
 
 <?php echo site_footer(); ?>

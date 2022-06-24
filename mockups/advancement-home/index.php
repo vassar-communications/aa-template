@@ -322,4 +322,4 @@ padding: 4rem;
 
 
 
-<?php echo site_footer(); ?>
+<?php echo site_footeralumni(); ?>
