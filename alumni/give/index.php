@@ -36,7 +36,22 @@ $page_classes = "academics-cy academics give";
         color: #fff!important;
     }
 
+    .theme-cream .btn-link:hover i.circle.fa-solid {
+        background: #222;
+        border: #222;
+        color: #fff !important;
+    }
 
+    .theme-burgundy .btn-link:hover i.circle.fa-solid {
+        background: #fff;
+        border: #fff;
+        color: #222 !important;
+    }
+
+
+    .btn.btn-link:active , .btn.btn-link:focus {
+        box-shadow: none;
+    }
 </style>
 
 
@@ -72,35 +87,68 @@ $page_classes = "academics-cy academics give";
 
 
 
-<?php echo sec_hasColumns(
+<style>
+
+    h2.display-2.text-center.has-accent-border {
+        position: relative;
+        font-weight: bold;
+        letter-spacing: -0.028em;
+    }
+
+    h2.display-2.text-center.has-accent-border:after {
+        position: absolute;
+        content: '';
+        width: 4rem;
+        border: 2px solid #f00;
+        bottom: -2.5rem;
+        left: calc(50% - 2rem);
+    }
+
+    .page-title-section .columns {
+        grid-template-columns: 6fr 4fr !important;
+    }
+</style>
+
+
+<?php echo sec_fullBleedImageColumn(
     null,
-    2,
-    null,
-    'pb-2',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
+    'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/0001-18-01-kr-scc-nixon-vassar-0021.jpg',
+    'mb-5 page-title-section',
+    'mw-100'
 ); ?>
 
-<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
 
-<h2 class="display-2">The Many Ways to Give Back</h2>
-<p>Your generosity helps to enhance Vassar’s programs and offerings to students.</p>
+<div class="animate-when-content-appears animation-slide-up">
+    <h2 class="display-2 text-center has-accent-border">The Many Ways to Give Back</h2>
+    <p style="
+        color: #666;
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 2rem;
+        max-width: 40rem;
+        margin-left: auto;
+        margin-right: auto;
 
-<?php echo end_item_col(); ?>
+        background-image: url(spark.gif);
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            padding-bottom: 7rem;
+            background-size: 7rem;
+    ">Connect with the alumni community and learn how you can continue to support Vassar.</p>
+</div>
 
-<?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
-<img src="https://vassartest.chuckyatsuk.com/img/alumni/give/overview/0001-18-01-kr-scc-nixon-vassar-0021.jpg" />
 
-<?php echo end_item_col(); ?>
 
-<?php echo end_sec_hasColumns(); ?>
+
 
 
 
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/alumni/give/0135_15_11_CS_294_1.jpg',
-    'theme-burgundy image-is-first',
+    'theme-burgundy image-is-first quad-pattern has-bg',
     'mw-100'
 ); ?>
 
@@ -114,13 +162,11 @@ $page_classes = "academics-cy academics give";
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-<!-- animated pullquote goes here -->
-
 <?php echo sec_wideContent(
     null,
     '',
-    'theme-charcoal py-5 text-white',
-    'animate-when-content-appears animation-slide-up text-center',
+    'theme-darkcoal py-5 text-white ',
+    'animate-when-content-appears animation-fade-in text-center',
     ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/Vassar_Campus_6_26_17_0078.jpg',
         'bg-image-alt' => 'The image alt text']
 
@@ -129,6 +175,11 @@ $page_classes = "academics-cy academics give";
 
 
 <p class="pt-5"><span class="text-white intro-line">Why Giving Matters</span></p>
+
+
+
+
+
 
 <h2 class="display-2 py-5"><strong>Every</strong> alum. <strong>Any</strong> amount. <strong>Every</strong> year.</h2>
 
@@ -147,13 +198,13 @@ $page_classes = "academics-cy academics give";
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/alumni/give/volunteer/Vassar Project-11.jpg',
-    'theme-charcoal bg-dark',
+    'theme-cream',
     'mw-100'
 ); ?>
 
 
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Volunteer</h2>
+    <h2 class="display-2">Volunteer</h2>
     <p>Deepen relationships, expand your community, and devote time and expertise to things you care about.</p>
 
     <a href="/alumni/give/volunteer/" class="px-0 btn btn-link">Explore volunteer opportunities  <i class="circle fa-solid fa-arrow-right"></i></a>
@@ -163,13 +214,13 @@ $page_classes = "academics-cy academics give";
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/alumni/give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675.jpg',
-    'theme-darkcoal bg-dark image-is-first',
+    'theme-dark-burgundy  image-is-first',
     'mw-100'
 ); ?>
 
 
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Be a Mentor </h2>
+    <h2 class="display-2">Be a Mentor </h2>
     <p>Being a mentor is an extraordinary opportunity to develop positive relationships with students and help them navigate their future personally and/or professionally.</p>
 
     <a href="/alumni/give/be-a-mentor/" class="px-0 btn btn-link">Explore mentorship opportunities  <i class="circle fa-solid fa-arrow-right"></i></a>
@@ -180,14 +231,14 @@ $page_classes = "academics-cy academics give";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/give/hire/0006-19-01-kr-scc-reception-vassar-0956.jpg',
-    'theme-charcoal bg-dark',
+    'https://vassartest.chuckyatsuk.com/img/alumni/give/hire/0006-19-01-kr-scc-reception-vassar-0956_crop.jpeg',
+    'theme-cream',
     'mw-100'
 ); ?>
 
 
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Hire Vassar</h2>
+    <h2 class="display-2">Hire Vassar</h2>
     <p>Vassar students and alums are great candidates for internships and multi-level positions within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
 
     <a href="/alumni/give/hire-vassar/" class="px-0 btn btn-link">Information for Employers <i class="circle fa-solid fa-arrow-right"></i></a>
@@ -204,7 +255,7 @@ $page_classes = "academics-cy academics give";
 <?php echo sec_wideContent(
     '',
     '',
-    'theme-darkcoal  presentation quad-pattern has-bg',
+    'theme-charcoal bg-dark  presentation quad-pattern has-bg',
     'mw-4 d-flex justify-content-around'
 ); ?>
 
