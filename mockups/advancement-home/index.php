@@ -211,6 +211,44 @@ echo sec_fixedCenteredTitle(
     ]
 ); ?>
 
+<?php echo inTheMediaCarousel(); ?>
+
+<div class="text-center mt-3">
+      <a href="" class="cta-link mb-5" style="background: #fff;">More news</a>
+    </div>
+
+    <style>
+
+  .small-header {
+    font-weight: bold;
+      text-align: center;
+      font-variation-settings: "wght" 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-size: 1.2rem;
+  }
+  .small-header:before,
+  .small-header:after {
+    content: '';
+    color: #f00;
+    letter-spacing: -0.1rem;
+    font-weight: normal;
+    width: 10rem;
+    background: #f00;
+    height: 1px;
+    display: inline-block;
+    margin-bottom: 0.4rem;
+  }
+  .small-header:before {
+    margin-right: 1rem;
+  }
+  .small-header:after {
+    margin-left: 1rem;
+  }
+
+  </style>
+
+<?php /*
 <style>
 p.feature-text {
     font-variation-settings: "wght" 340;
@@ -234,35 +272,6 @@ padding: 4rem;
   }
 
 
-.small-header {
-  font-weight: bold;
-    text-align: center;
-    font-variation-settings: "wght" 600;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 1.2rem;
-}
-.small-header:before,
-.small-header:after {
-  content: '';
-  color: #f00;
-  letter-spacing: -0.1rem;
-  font-weight: normal;
-  width: 10rem;
-  background: #f00;
-  height: 1px;
-  display: inline-block;
-  margin-bottom: 0.4rem;
-}
-.small-header:before {
-  margin-right: 1rem;
-}
-.small-header:after {
-  margin-left: 1rem;
-}
-
-</style>
-
 <div class="featured-alum container">
   <div class="row">
     <div class="col-5">
@@ -273,7 +282,11 @@ padding: 4rem;
     </div>
   </div>
 </div>
+*/ ?>
 
+
+
+<?php /*
 <h3 class="small-header mt-5 mb-5">Of note</h3>
 
   <div class='thumbnail-text-ticker' style='--carousel-height: 14rem;' data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": 3000, "cellAlign": "center", "prevNextButtons": false }'>
@@ -295,7 +308,7 @@ padding: 4rem;
     <?php echo tickerItem('<strong>Ivan Cedillo ’06</strong> was named the new principal at Del Valle High School in El Paso, TX, as noted by <a href="https://kfoxtv.com/news/local/ysleta-isd-names-new-principals-at-4-campuses-school-education-monica-triplett-gabriel-lopez-ivan-cedillo-bonita-torres-high-school-elementary-school-middle-school">KFOX 14</a>.', 'logos/kfox.jpg'); ?>
 
   </div>
-
+ */ ?>
 
   <?php // echo thumbnailTextTicker(); ?>
 
