@@ -45,8 +45,8 @@ $page_classes = "";
         font-size: 2rem;
         max-width: 17ch;
     }
-    .section--wide-content .section-intro {
 
+    .section-intro {
         font-size: 1.25rem;
     }
 
@@ -63,7 +63,29 @@ $page_classes = "";
         opacity: 0;
     }
 
+    .modal .btn-close {
+        position: absolute;
+        z-index: 10;
+        top: -2rem;
+        right: -7rem;
+        opacity: 1 !important;
+        border-radius: 0;
+        color: #000;
+        background: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e);
+        background-repeat: no-repeat;
+        background-size: 3rem 3rem;
+        width: 3rem;
+        height: 4rem;
+    }
 
+    a.swap.card {
+        cursor: pointer;
+    }
+
+    .main-nav li {
+     
+        margin-bottom: 0;
+    }
 </style>
 
 
@@ -71,7 +93,7 @@ $page_classes = "";
     'Missed it live? See it here.',
     3,
     'On-Demand content featuring expertise from fellow grads and Vassar faculty and researchers.',
-    'pb-1 presentation video-grid',
+    'theme-cream quad-pattern has-bg presentation video-grid',
     ''
 ); ?>
 
@@ -81,7 +103,7 @@ $page_classes = "";
 
 <a class="swap card card-full-image text-at-bottom mb-4" data-bs-toggle="modal" data-bs-target="#ondemand01">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
-    <video muted autoplay loop width="100%">
+    <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/01_covid.mp4"
                 type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
@@ -100,7 +122,7 @@ $page_classes = "";
 
 <a class="swap card card-full-image text-at-bottom mb-4" data-bs-toggle="modal" data-bs-target="#ondemand02">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
-    <video muted autoplay loop width="100%">
+    <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/02_womens-rights.mp4"
                 type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
@@ -123,7 +145,7 @@ $page_classes = "";
 
 <a class="swap card card-full-image text-at-bottom mb-4" data-bs-toggle="modal" data-bs-target="#ondemand03">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
-    <video muted autoplay loop width="100%">
+    <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/03_higher-ed-pandemic.mp4"
                 type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
@@ -148,7 +170,7 @@ $page_classes = "";
 
 <a class="swap card card-full-image text-at-bottom mb-4" data-bs-toggle="modal" data-bs-target="#ondemand04">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
-    <video muted autoplay loop width="100%">
+    <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/04_votes-for-women.mp4"
                 type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
@@ -172,7 +194,7 @@ $page_classes = "";
 
 <a class="swap card card-full-image text-at-bottom mb-4" data-bs-toggle="modal" data-bs-target="#ondemand05">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
-    <video muted autoplay loop width="100%">
+    <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/05_democracy-crossroad.mp4"
                 type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
@@ -194,7 +216,7 @@ $page_classes = "";
 
 <a class="swap card card-full-image text-at-bottom mb-4" data-bs-toggle="modal" data-bs-target="#ondemand06">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
-    <video muted autoplay loop width="100%">
+    <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/06_SUSTAIN.mp4"
                 type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
@@ -219,7 +241,7 @@ $page_classes = "";
 <a class="swap card card-full-image text-at-bottom mb-4" href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5032
 ">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
-    <video muted autoplay loop width="100%">
+    <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/07-class-visited.mp4"
                 type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
@@ -240,7 +262,7 @@ $page_classes = "";
 
 <a class="swap card card-full-image text-at-bottom mb-4" href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5537">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
-    <video muted autoplay loop width="100%">
+    <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/08-nochlin.mov"
                 type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
@@ -260,7 +282,7 @@ $page_classes = "";
 
 <a class="swap card card-full-image text-at-bottom mb-4" href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5313">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
-    <video muted autoplay loop width="100%">
+    <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/09_AAAVC.mp4"
                 type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
@@ -285,9 +307,10 @@ $page_classes = "";
 
 <?php echo relatedTopics(); ?>
 
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-give-be-a-mentor.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-give-volunteer.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-resources-vassar-network.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-calendar-events.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-calendar-college-events.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-calendar-alumni-news.php');?>
+
 <?php echo end_sec_relatedTopics(); ?>
 
 

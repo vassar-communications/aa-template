@@ -11,14 +11,14 @@
  */
 function relatedTopics($section_classes=null,$extras = false) {
     $template = <<<TMP
-<div class="section theme-charcoal pb-1">
-    <div class="section-content mw-100 pl-5">
-        <h3 class="h2 pl-5">Related Topics</h3>
-    </div>
-</div>
 
-<div class="section section-with-columns columns-3 theme-charcoal pt-1 $section_classes">
-<div class="section-content text-left theme-white">
+
+  <div class="section  theme-charcoal bg-dark section-with-columns columns-3 relatedtopics">
+  
+  <h2 class="section-title ">Related Topics</h2>
+    <div class="section-content ">
+    
+    
 
 
 TMP;
