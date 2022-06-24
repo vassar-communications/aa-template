@@ -16,11 +16,11 @@ function niceQuotes( $extras = false ) {
 return <<<TMP
 <style>
 .quotes-carousel {
-  height: 50vh;
+  height: 20vh;
 }
   .quotes-carousel .carousel-cell {
     width: 100%;
-    min-height: 50vh;
+    min-height: 10vh;
     margin-right: 10px;
     display: flex;
     align-items: center;
@@ -38,6 +38,8 @@ return <<<TMP
   .quotes-carousel span {
     display: inline-block;
     margin-right: 0.23em;
+    font-size: 3.6rem !important;
+    color: var(--color-vassar-burgundy);
   }
 
   .quotes-carousel .split-words-content {
@@ -45,30 +47,61 @@ return <<<TMP
       padding: 1em;
   }
 
+  .quotes-carousel .flickity-page-dots {
+    display: none;
+  }
+
+  .the-quote-ticker .section-intro-text {
+    font-variation-settings: "wght" 340 !important;
+    font-family: var(--bs-font-sans-serif) !important;
+    line-height: 1.16 !important;
+    font-size: 1.8rem !important;
+    font-weight: 100 !important;
+    text-align: center;
+    color: #666;
+  }
+
   </style>
 
-<h3 class="small-header mt-5 mb-5">In their own words</h3>
+<h3 class="small-header mt-5 mb-5">Vassar Is</h3>
 
-  <div class="quotes-carousel" data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": 6000, "cellAlign": "center", "contain": true, "prevNextButtons": false }'>
+  <div class="quotes-carousel" data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": 2000, "cellAlign": "center", "contain": true, "prevNextButtons": false }'>
 
     <div class="carousel-cell split-words-container">
       <div class="split-words-content">
-        <p>“...at Vassar, I was able to pursue a writing career, with a dedicated thesis class...while completing an Economics degree—that was a huge gift that definitely shaped my path after Vassar.” —Arushi&nbsp;Raina&nbsp;’14</p>
+        <p>unafraid to question</p>
       </div>
     </div>
 
     <div class="carousel-cell split-words-container">
       <div class="split-words-content">
-        <p>“I got my spirit back at Vassar.” —&nbsp;Brenda&nbsp;Feigen&nbsp;’66</p>
+        <p>a story of strength and substance</p>
       </div>
     </div>
 
     <div class="carousel-cell split-words-container">
       <div class="split-words-content">
-        <p>“...the more you’re away from Vassar, the more you miss it.” —&nbsp;Livia&nbsp;Bartels&nbsp;’20</p>
+        <p>belonging and thriving</p>
       </div>
     </div>
 
+    <div class="carousel-cell split-words-container">
+      <div class="split-words-content">
+        <p>small but mighty</p>
+      </div>
+    </div>
+
+    <div class="carousel-cell split-words-container">
+      <div class="split-words-content">
+        <p>courage of conviction</p>
+      </div>
+    </div>
+
+    <div class="carousel-cell split-words-container">
+      <div class="split-words-content">
+        <p>a remarkable sense of place</p>
+      </div>
+    </div>
   </div>
 TMP;
 

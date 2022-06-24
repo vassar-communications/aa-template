@@ -53,15 +53,15 @@ $page_classes = "advancement-demo";
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Make a difference</b>
    <b class="slide-from-right nice-big-serif">and give back.</b>',
-    '<p class="section-intro-text">The Vassar Community is filled with vibrant, eclectic, non-conformist changemakers who span more than eight decades of the lived, global experience of students, alumni, family and friends. Our shared Vassar DNA binds us together and motivates us to remain connected and committed to the college and each other.</p>',
-    'sec-fixedCenteredTitle theme-verylightgray make-a-difference section-title-text-shadow',
+    '<p class="section-intro-text">The Vassar Community is filled with vibrant, eclectic, non-conformist changemakers who span more than eight decades of the lived, global experience of students, alumni, family and friends.</p>',
+    'sec-fixedCenteredTitle theme-burgundy make-a-difference section-title-text-shadow',
     'mw-4',
     ['bg-image-url' => '/mockups/advancement-home/assets/images/0153-19-11-kr-major-palooza-vassar-6031.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
-      --section-title-faded-color: #444;
+      --xsection-title-faded-color: #444;
       --bs-gap: 1rem;
       ']
 
@@ -129,6 +129,8 @@ $page_classes = "advancement-demo";
 ); ?>
 
   <?php echo niceQuotes(); ?>
+
+<p class="section-intro-text">Our shared Vassar DNA binds us together and motivates us to remain connected and committed to the college and each other.</p>
 
 <?php echo end_sec_wideContent(); ?>
 

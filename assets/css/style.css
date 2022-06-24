@@ -9158,6 +9158,33 @@ a:hover, a:visited:hover {
   background-color: #eee;
 }
 
+.theme-burgundy .card--withParagraph .card-body {
+  background: #fff;
+  color: #444;
+}
+
+.theme-burgundy .card--withParagraph .cta-icon-label {
+  color: var(--color-vassar-burgundy);
+  color: #c00;
+  font-variation-settings: "wght" 700;
+}
+
+.theme-burgundy .card--withParagraph.card-has-cta-icon .card-body:after {
+  background: var(--color-vassar-burgundy);
+  background: #c00;
+  color: #fff;
+}
+
+.theme-burgundy .card--withParagraph:hover .cta-icon-label {
+  color: #333;
+}
+
+.theme-burgundy .card--withParagraph.card-has-cta-icon:hover .card-body:after {
+  background: var(--color-vassar-burgundy);
+  background: #333;
+  color: #fff;
+}
+
 .row-title {
   font-size: var(--h2-font-size);
 }
@@ -13730,6 +13757,33 @@ a:hover, a:visited:hover {
 }
 .theme-charcoal-to-white.show-content {
   background-color: #eee;
+}
+
+.theme-burgundy .card--withParagraph .card-body {
+  background: #fff;
+  color: #444;
+}
+
+.theme-burgundy .card--withParagraph .cta-icon-label {
+  color: var(--color-vassar-burgundy);
+  color: #c00;
+  font-variation-settings: "wght" 700;
+}
+
+.theme-burgundy .card--withParagraph.card-has-cta-icon .card-body:after {
+  background: var(--color-vassar-burgundy);
+  background: #c00;
+  color: #fff;
+}
+
+.theme-burgundy .card--withParagraph:hover .cta-icon-label {
+  color: #333;
+}
+
+.theme-burgundy .card--withParagraph.card-has-cta-icon:hover .card-body:after {
+  background: var(--color-vassar-burgundy);
+  background: #333;
+  color: #fff;
 }
 
 .fix, .fix a, a.fix {
