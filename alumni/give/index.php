@@ -264,7 +264,7 @@ $page_classes = "academics-cy academics give";
     '',
     '',
     'theme-charcoal bg-dark  presentation quad-pattern has-bg',
-    'mw-4 d-flex justify-content-around'
+    'mw-4 py-3 d-flex justify-content-around'
 ); ?>
 
 <h2 class="h2"><strong>Every Gift Matters.</strong> Explore funds and initatives.</h2>
