@@ -13170,12 +13170,15 @@ html {
 }
 .featureImage-text-ticker .carousel-cell .image-container img {
   max-width: 100%;
-  max-height: var(--carousel-height, 32em);
+  height: var(--carousel-height, 32em);
 }
 .featureImage-text-ticker .figcaption {
   background: #444;
   padding: 2rem;
-  width: 20rem;
+  width: 21rem;
+}
+.featureImage-text-ticker .figcaption p {
+  font-size: 1.1rem;
 }
 .featureImage-text-ticker .figcaption h3, .featureImage-text-ticker .figcaption .h3 {
   margin-top: 0;

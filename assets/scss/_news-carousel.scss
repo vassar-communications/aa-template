@@ -54,13 +54,17 @@ html {
 
     img {
       max-width: 100%;
-      max-height: var(--carousel-height, 32em);
+      height: var(--carousel-height, 32em);
     }
   }
   .figcaption {
     background: #444;
     padding: 2rem;
-    width: 20rem;
+    width: 21rem;
+
+    p {
+        font-size: 1.1rem;
+    }
 
     h3 {
       margin-top: 0;
