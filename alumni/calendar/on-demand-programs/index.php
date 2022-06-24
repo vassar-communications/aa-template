@@ -73,6 +73,7 @@ $page_classes = "";
         color: #000;
         background: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e);
         background-repeat: no-repeat;
+        background-color: transparent;
         background-size: 3rem 3rem;
         width: 3rem;
         height: 4rem;
@@ -80,19 +81,44 @@ $page_classes = "";
 
     a.swap.card {
         cursor: pointer;
+        border: none;
     }
 
     .main-nav li {
-     
+
         margin-bottom: 0;
     }
 </style>
 
 
+
 <?php echo sec_hasColumns(
-    'Missed it live? See it here.',
+    null,
+    2,
+    null,
+    'animate-when-content-appears animation-slide-up',
+    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
+); ?>
+
+<?php echo item_col('equal'); ?>
+<h2 class="display-4">Missed it live? See it here. </h2>
+<p>On-Demand content featuring expertise from fellow grads and Vassar faculty and researchers.</p>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col('equal'); ?>
+<img src="https://vassartest.chuckyatsuk.com/img/visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg" />
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
+<?php echo end_sec_wideContent(); ?>
+
+
+<?php echo sec_hasColumns(
+    null,
     3,
-    'On-Demand content featuring expertise from fellow grads and Vassar faculty and researchers.',
+    null,
     'theme-cream quad-pattern has-bg presentation video-grid',
     ''
 ); ?>

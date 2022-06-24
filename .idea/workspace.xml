@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/alumni-calendar-alumni-news.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/alumni-calendar-college-events.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/alumni-calendar-events.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alumni/calendar/on-demand-programs/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/on-demand-programs/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/sections/universal_sections/relatedTopics.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/universal_sections/relatedTopics.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
