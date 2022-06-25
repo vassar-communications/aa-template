@@ -76,7 +76,7 @@ return <<<TMP
   <div class="modal-dialog modal-dialog-centered modal-xl">
     <div class="modal-content">
       <div class="modal-body p-0">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="position-fixed top-0 end-0 p-4 btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         $content_markup
       </div>
     </div>

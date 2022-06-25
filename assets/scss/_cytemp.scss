@@ -351,3 +351,9 @@ button h3.card-title {
 strong {
   font-variation-settings: "wght" 700;
 }
+
+button.card {
+  appearance: none !important;
+  border: none;
+  padding: 0;
+}

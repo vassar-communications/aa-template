@@ -1,6 +1,7 @@
 .section {
   background-color: var(--section-bg-color, #fff);
   color: var(--section-text-color, --color-vassar-charcoal);
+  padding: var(--section-padding, clamp(1rem, 10%, 4rem));
 
 /*
   a {
@@ -18,6 +19,7 @@
     }
   }
   */
+
 }
 
 
@@ -83,9 +85,6 @@
   }
 }
 
-.section {
-  padding: var(--section-padding, clamp(1rem, 10%, 4rem));
-}
 .section-content {
   max-width: 90ch;
   margin: 0 auto;
