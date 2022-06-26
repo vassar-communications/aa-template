@@ -22,7 +22,7 @@ $page_classes = "alive";
 
 
 
-<?php echo page_textmasthead('theme-cream'); ?>
+<?php echo page_textmasthead('theme-dark-burgundy'); ?>
 
 <?php echo breadcrumbNav('theme-verylightgray'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>
@@ -55,7 +55,15 @@ $page_classes = "alive";
 <?php echo end_item_col(); ?>
 
 <?php echo item_col('equal'); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+    </div>
+</div>
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>

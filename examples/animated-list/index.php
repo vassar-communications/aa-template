@@ -5,6 +5,8 @@ include( $project_paths['main_project_root'] . '/functions.php');
 
 ?>
 
+
+
 <!-- %%% -->
 
 <?php
@@ -16,9 +18,8 @@ $page_title = "Animated list";
 /*  ---------------------- */
 
 ?>
-
+<?php include($project_paths['main_project_root'].'/core/template-parts/patternlibrary.php');?>
 <?php echo site_header(); ?>
-
 <style>
 :root {
   --animation-duration: 1s;

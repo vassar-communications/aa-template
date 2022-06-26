@@ -1,0 +1,34 @@
+nav.nav--top ul {
+    padding: 0;
+}
+
+nav.nav--top li {
+    /* display: inline; */
+    margin: 0;
+}
+
+nav.nav--top li a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 0.08rem;
+    font-variation-settings: "wght" 500;
+}
+
+nav.nav--top ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+nav.nav--top li::marker {
+    display: none !important;
+    content: '';
+}
+
+nav.nav--top {
+    padding: 1rem;
+}

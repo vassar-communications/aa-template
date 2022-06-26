@@ -1,19 +1,40 @@
+<style>
+    .featureImage-text-ticker .carousel-cell {
+        height: 100%;
+        margin-right: 1em;
+    }
+
+    .news-intro {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+.section.has-bg:after {
+--bg-image-opacity: 0.1;
+    }
+    .quad-pattern.has-bg * {
+      z-index: 10;
+    }
+
+</style>
+
+
 <?php
 
 function newsCarousel() {
-  return <<<TMP
-<div class="section section--carousel theme-charcoal">
+    return <<<TMP
+<div class="section section--carousel theme-charcoal px-0 quad-pattern has-bg">
 
-<div class="carousel fade-nonselected full" id="gallery">
+<p class="section-intro-text news-intro" style="">What’s Happening at Vassar</p>
+
+<div class="featureImage-text-ticker fade-nonselected full" id="gallery">
 
   <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-        <img src="https://vassartest.chuckyatsuk.com/img/news1.jpeg" />
+        <img src="/mockups/admission-home/assets/images/news/aavc-awards-2206-2x3-edit1.jpg" />
       </div>
-       <div class="figcaption pt-5">
-        <h3 class="h3">Student Earns Goldwater Scholarship for Water Pollution Research</h3>
-        <p>The Goldwater Foundation has awarded a graduate school scholarship to Abigail Whittington ’23 for her research on water pollution.</p>
+       <div class="figcaption">
+        <h3 class="h3">Five Alumni Selected for 2022 AAVC Awards</h3>
           <a href="#" class="px-0 btn btn-link">Read more<i class="circle fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
@@ -22,30 +43,64 @@ function newsCarousel() {
     <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-        <img src="https://vassartest.chuckyatsuk.com/img/news-2.jpeg" />
+        <img src="/mockups/admission-home/assets/images/news/Pulitzer-Prizes-medal-edit1.jpeg" />
          </div>
-      <div class="figcaption pt-5">
-          <h3 class="h3">Vassar’s New Labyrinth Offers a Space for Contemplation</h3>
-        <p>Thanks to a gift from Mary Hyde Ottoway ’59 and her husband, James, a labyrinth, a component of contemplation practices for centuries, has been built outside Pratt House.</p>
+      <div class="figcaption">
+          <h3 class="h3">Ada Ferrer ’84 Wins 2022 Pulitzer Prize in History</h3>
+
         <a href="#" class="px-0 btn btn-link">Read more<i class="circle fa-solid fa-arrow-right"></i></a>
- 
+
       </div>
     </div>
   </div>
 
+
+
+
       <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-             <img src="https://vassartest.chuckyatsuk.com/img/news-3.jpg" />
+             <img src="/mockups/admission-home/assets/images/news/olmsted-story-lead.jpeg" />
           </div>
- <div class="figcaption pt-5">
-           <h3 class="h3">Campus Groups Honor Food Service Women</h3>
-        <p>Every year, a group of campus organizations honors women who’ve made a significant contribution to the Vassar community. The “She Is” celebration this year will honor the 72 women who work in food service on campus.</p>
+ <div class="figcaption">
+           <h3 class="h3">Exhibit Highlights Newly Revealed Olmsted Role in Campus Design</h3>
+
         <a href="#" class="px-0 btn btn-link">Read more<i class="circle fa-solid fa-arrow-right"></i></a>
- 
+
       </div>
     </div>
   </div>
+
+
+
+  <div class="carousel-cell">
+  <div class="carousel-cell-content">
+    <div class="image-container">
+      <img src="/mockups/admission-home/assets/images/news/05-Hohn-Photo-lead.jpg" />
+       </div>
+    <div class="figcaption">
+        <h3 class="h3">GIs and Fräuleins</h3>
+      <a href="#" class="px-0 btn btn-link">Read more<i class="circle fa-solid fa-arrow-right"></i></a>
+
+    </div>
+  </div>
+</div>
+
+<div class="carousel-cell">
+<div class="carousel-cell-content">
+  <div class="image-container">
+    <img src="/mockups/admission-home/assets/images/news/miringoff-22-2x3.jpg" />
+     </div>
+  <div class="figcaption">
+      <h3 class="h3">Students Receive Miringoff Awards for Service to the Community</h3>
+
+    <a href="#" class="px-0 btn btn-link">Read more<i class="circle fa-solid fa-arrow-right"></i></a>
+  </div>
+</div>
+</div>
+
+
+
 
   </div>
 

@@ -1,4 +1,4 @@
-.main-nav {
+ /* .main-nav {
 
   --border: 0px solid #ccc;
   --animation-duration: 1s;
@@ -43,6 +43,14 @@
     }
   }
 }
+
+
+.nav-current-section li a.active {
+  background-color: var(--color-vassar-verylightgray);
+  border-radius: $border-radius-sm;
+}
+
+
 .nav-current-section {
   border: var(--border);
   border-bottom: none;
@@ -62,21 +70,21 @@
       display: inline-block;
       padding: 0.2rem 0.6rem;
       transition: 0.2s all ease;
+      line-height: 2.2rem;
 
       &:hover {
         color: var(--nav-link-text-color, #222);
-        background: var(--nav-link-bg-color, #eee);
+        background: var(--nav-link-bg-color, var(--color-vassar-verylightgray));
+        border-radius: $border-radius-sm;
       }
     }
   }
 }
 
-
-.breadcrumb-nav {
-
-}
+*/
 
 
+/*
 .breadcrumb-item+.breadcrumb-item::before {
  font-family:"Font Awesome 6 Free";
  opacity: 0.3;
@@ -90,3 +98,4 @@
   text-decoration:none;
 }
 
+*/

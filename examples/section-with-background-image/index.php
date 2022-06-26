@@ -1,3 +1,4 @@
+
 <?php
 
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
@@ -17,6 +18,7 @@ $page_title = "Sections with background images";
 
 ?>
 
+<?php include($project_paths['main_project_root'].'/core/template-parts/patternlibrary.php');?>
 <?php echo site_header(); ?>
 
 <div class="buffer"></div>

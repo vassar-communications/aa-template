@@ -21,7 +21,7 @@ $page_classes = "";
 <?php echo hamburger_navigation(); ?>
 
 
-<?php echo page_textmasthead('theme-verylightgray'); ?>
+<?php echo page_textmasthead('theme-dark-burgundy'); ?>
 
 
 <?php echo breadcrumbNav('theme-cream'); ?>

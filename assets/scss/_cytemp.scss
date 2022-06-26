@@ -210,7 +210,7 @@ i.circle.fa-solid {
   flex-direction: column;
 }
 
-.academics-cy .section.section--full-bleed-image-column .full-bleed-image-container img {
+.academics-cy .section.section--full-bleed-image-column .full-bleed-image-container img , .inperson .section.section--full-bleed-image-column .full-bleed-image-container img {
   position: relative;
   width: 100%;
 }
@@ -222,6 +222,36 @@ i.circle.fa-solid {
 .academics-cy .section-title::after , .inperson .section-title::after {
   border-top-color: var(--color-vassar-burgundy);
 }
+
+.academics-cy .title-container {
+  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.0) 90%);
+  padding: 16vw 8vw 5vw;
+}
+
+.academics-cy  .section__title__main {
+ text-shadow: 0 0 34.2667px rgb(0 0 0 / 10%);
+
+}
+
+.hidemark .section-title::after {
+
+display: none;
+}
+
+
+span.burgundy {
+  color: var(--color-vassar-burgundy);
+  font-variation-settings: "wght" 200;
+  font-family: var(--sansSerif);
+
+}
+
+.accordion-button:focus {
+  box-shadow:none;
+}
+
+
+
 /* Inperson  Section */
 
 
@@ -230,25 +260,6 @@ i.circle.fa-solid {
   color: var(--color-vassar-cream);
    border-color: var(--color-vassar-burgundy);
 }
-
-
-
-.inperson .toplinks li.active a, .academics-cy .toplinks li.active a  {
-  background: var(--color-vassar-verylightgray);
-  color: var(--color-vassar-burgundy);
-}
-
-.inperson .toplinks a, .academics-cy .toplinks a {
-  line-height: 36px;
-  border-radius: 3px;
-}
-
-.inperson .toplinks li a:hover, .academics-cy .toplinks li a:hover {
-  background: var(--color-vassar-burgundy);
-  color: var(--color-vassar-cream);
-  text-decoration: none;
-}
-
 
 .textmasthead .section__title__main {
   text-shadow: none;
@@ -295,7 +306,7 @@ button h3.card-title {
 }
 .link_collection a { padding-right: 1rem; }
 .inner-row { margin-top: 1rem; }
-.knockedout { background-color: rgba(0, 0, 0, 0.15); color: #FFF; display: flex; flex-direction: column; justify-content: center; padding: 1rem 3rem;}
+.knockedout { background-color: rgba(0, 0, 0, 0.15); color: #FFF; display: flex; flex-direction: column; justify-content: center; padding: 1rem 2rem;}
 .knockedout a { color: var(--color-vassar-cream); text-decoration:none;}
 .small-print { padding: 1rem 0; }
 .theme-darkest-burgundy {background: #3d0f1a}
@@ -314,3 +325,35 @@ button h3.card-title {
   justify-content: space-between;
 }
 
+.inperson .title-container{
+  height: 70vh;
+  padding-bottom:4vw;
+}
+
+
+.inperson .section-bg {
+  height: 70vh;
+}
+.inperson h1.section__title__main.display-1.display {
+  font-size: 6rem;
+}
+
+.inperson .section--top-level-masthead {
+  min-height: 70vh;
+}
+
+
+
+.modal-body {
+  max-height: 80vh;
+}
+
+strong {
+  font-variation-settings: "wght" 700;
+}
+
+button.card {
+  appearance: none !important;
+  border: none;
+  padding: 0;
+}

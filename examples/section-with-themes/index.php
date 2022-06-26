@@ -15,7 +15,7 @@ $page_classes = "class1 class2";
 /*  ---------------------- */
 
 ?>
-
+<?php include($project_paths['main_project_root'].'/core/template-parts/patternlibrary.php');?>
 <?php echo site_header(); ?>
 
 

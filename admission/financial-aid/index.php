@@ -155,7 +155,7 @@ $page_classes = "";
 <?php echo sec_wideContent(
     null,
     null,
-    'theme-dark-burgundy',
+    'theme-cream',
     'mw-4'
 ); ?>
 

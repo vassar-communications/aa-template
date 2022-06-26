@@ -6,8 +6,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 
 include($project_paths['main_project_root'].'/core/template-parts/header.inc');
 include($project_paths['main_project_root'].'/core/template-parts/footer.inc');
-
-
+include($project_paths['main_project_root'].'/core/template-parts/tmpfooteralumni.inc');
 
 /* THIS NEEDS TO BE INTEGRATED */
 
@@ -80,7 +79,7 @@ TMP;
 
 
 function vassar_is_awesome($classes) {
-    $our_qualities = '<ul><li>interesting</li><li>talented</li><li>diverse</li><li>imaginative</li><li>innovative</li><li>curious</li><li>driven</li><li>principled</li><li>unusual</li><li>bold</li></ul>';
+    $our_qualities = '<ul><li>unafraid to question</li><li>a story of strength and substance</li><li>belonging and thriving</li><li>small but mighty</li><li>courage of conviction</li><li>a remarkable sense of place</li></ul>';
 
     return <<<TMP
 <div class="awesome_ticker $classes">
@@ -154,6 +153,7 @@ include($project_paths['main_project_root'].'/core/items/imageCard_modal.inc');
 
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/fancy-stats.inc');
+include($project_paths['main_project_root'].'/core/sections/content_sections/nice-quotes.inc');
 
 
 /* Sections */
@@ -161,8 +161,11 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/fan
 include($project_paths['main_project_root'].'/core/partials/section-title.inc');
 include($project_paths['main_project_root'].'/core/partials/bg-image-tag.inc');
 
+include($project_paths['main_project_root'].'/core/template-parts/alums-topLevelNav.inc');
+include($project_paths['main_project_root'].'/core/template-parts/admission-topLevelNav.inc');
 
 include($project_paths['main_project_root'].'/core/sections/universal_sections/siteHeader_video.inc');
+include($project_paths['main_project_root'].'/core/sections/universal_sections/siteHeader_video_adv.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/pageMasthead.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/pageTextMasthead.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/vassarMasthead.inc');
@@ -170,6 +173,8 @@ include($project_paths['main_project_root'].'/core/sections/universal_sections/h
 include($project_paths['main_project_root'].'/core/sections/universal_sections/breadcrumbNavigation.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/toplinksNavigation.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/relatedTopics.inc');
+
+include($project_paths['main_project_root'].'/core/sections/content_sections/event-listing.inc');
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/buffer.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/wordByWord.inc');
@@ -182,6 +187,12 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/fix
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle-masthead.inc');
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/news-carousel.inc');
+include($project_paths['main_project_root'].'/core/sections/content_sections/alums-carousel.inc');
+
+include($project_paths['main_project_root'].'/core/sections/content_sections/inTheMedia-carousel.inc');
+
+include($project_paths['main_project_root'].'/core/modules/thumbnail-text-ticker.inc');
+
 
 
 

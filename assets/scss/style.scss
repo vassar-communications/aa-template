@@ -159,7 +159,7 @@ end pattern library nav */
 @import "_atoms/_all";
 
 @import "_layouts/_all";
-
+@import "_nav";
 @import "_sequential";
 @import "_section-basics";
 @import "_section-with-columns";
@@ -173,24 +173,29 @@ end pattern library nav */
 @import "_content-sections/_all";
 @import "_section-wide-content";
 @import "_section-favplaces";
+@import "_alums-spotlight";
+@import "_thumbnail-text-ticker";
 
 @import "_specials/_all";
 
-@import "_breadcrumb";
+// @import "_breadcrumb";
 @import "_vassar-masthead";
 
 @import "_top-level-masthead";
 @import "_section-with-bg";
 
+@import "_event-listing";
+
 @import "_content-sections/_section-ticker";
 @import "_tryptych";
 @import "_news-carousel";
+@import "_adv-homepage-overrides";
 
 @import "_bootstrap-additions";
 @import "_utilities/_all";
 @import "_tools/_all";
 
-@import "_modal";
+// @import "_modal";
 @import "_interior-page-overrides";
 
 @import "_themes";

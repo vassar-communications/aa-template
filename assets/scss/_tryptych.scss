@@ -1,66 +1,91 @@
-.here-to-help {
+.here-to-help,
+.make-a-difference {
   padding-left: 3%;
   padding-right: 3%;
 
   .mw-4 {
     max-width: none;
   }
+}
+
+.card--withParagraph {
   .card-body {
     margin-top: -4rem;
     padding: 1rem;
     background: #222;
-    color: #eee;
+    color: #ccc;
 
   }
   h3.card-title {
       font-size: 1.2rem;
       font-variation-settings: "wght" 600;
   }
-}
+  h3.card-title {
+      font-size: 1.2rem;
+      font-variation-settings: "wght" 600;
+  }
 
+  .card-text {
+//      display: flex;
 
-h3.card-title {
-    font-size: 1.2rem;
-    font-variation-settings: "wght" 600;
-}
+      p:first-child {
+        flex: 1;
+      }
+  }
 
-.card-text {
-    display: flex;
+  &.card-has-cta-icon {
+    border: none;
 
-    p:first-child {
-      flex: 1;
+    .card-body {
+      position: relative;
+      border-bottom-right-radius: 1.8rem;
+      padding-right: 6rem;
+
+      &:after {
+        position: absolute;
+        content: '→';
+        border: 1px solid #fff;
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        right: 1rem;
+        bottom: 1rem;
+        font-size: 1.4rem;
+        line-height: 0;
+        padding-bottom: 0.12rem;
+      }
     }
-}
 
-.card-has-cta-icon {
-  border: none;
+    &.card-has-cta-label {
+      .card-body {
+        padding-bottom: 3rem;
+      }
+    }
 
-  .card-body {
-    position: relative;
-    border-bottom-right-radius: 1.8rem;
-    padding-right: 6rem;
+    &:hover .card-body:after {
+      background: #eee;
+      color: #222;
+    }
 
-    &:after {
+  }
+
+  .cta-icon-label {
+      font-weight: bold;
+      font-variation-settings: "wght" 500;
+      font-size: 1.2em;
+      color: #fff;
+
       position: absolute;
-      content: '→';
-      border: 1px solid #fff;
-      width: 2rem;
-      height: 2rem;
+      height: 4rem;
+      width: 100%;
+      bottom: 0;
+      left: 0;
       display: flex;
       align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      right: 1rem;
-      bottom: 1rem;
-      font-size: 1.4rem;
-      line-height: 0;
-      padding-bottom: 0.12rem;
-    }
+      justify-content: right;
+      padding-right: 4rem;
   }
-
-  &:hover .card-body:after {
-    background: #eee;
-    color: #222;
-  }
-
 }

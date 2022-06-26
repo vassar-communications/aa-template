@@ -1,14 +1,18 @@
 .ticker-section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+
   .section-content {
       max-width: 58rem;
   }
   p {
     line-height: 1.1;
+    letter-spacing: -0.01em;
 
     font-family: var(--bs-font-sans-serif);
 
     strong {
-      font-variation-settings: "wght" 100;
+      font-variation-settings: "wght" 200;
       transition: 0.8s all linear;
       transition-delay: 1.4s;
     }
@@ -18,7 +22,7 @@
   .content-appeared {
     strong {
       color: var(--color-vassar-burgundy);
-      font-variation-settings: "wght" 600;
+      font-variation-settings: "wght" 700;
 
       &:nth-child(2) {
         transition-delay: 1.6s;

@@ -59,13 +59,14 @@ a {
 
 .theme-charcoal {
   --section-bg-color: var(--color-vassar-charcoal);
+  --flickity-dot-color: #fff;
 }
 .theme-darkcoal {
   --section-bg-color: var(--color-vassar-darkcoal);
 }
 
-  .theme-charcoal,
-  .theme-darkcoal {
+.theme-charcoal,
+.theme-darkcoal {
 
   --section-title-color: var(--color-vassar-cream);
   --section-title-border-color: var(--color-vassar-darkgray);
@@ -80,7 +81,7 @@ a {
   --box-shadow-color: rgba(0,0,0,0.6);
 
   &.quad-pattern {
-    --bg-image: url(https://codepen.csilverman.com/images/Vassar_QuadGrid-white.png);
+    --bg-image: url(#{$assets-path}/images/Vassar_QuadGrid-white.png);
     --bg-image-size: 6rem;
     --bg-image-opacity: 0.16;
   }
@@ -180,4 +181,34 @@ a {
     background-color: #eee;
 //    @extend .theme-verylightgray;
   }
+}
+
+
+
+
+
+.theme-burgundy .card--withParagraph .card-body {
+    background: #fff;
+    color: #444;
+}
+
+.theme-burgundy .card--withParagraph .cta-icon-label {
+	color: var(--color-vassar-burgundy);
+	color: #c00;
+	font-variation-settings: "wght" 700;
+}
+
+.theme-burgundy .card--withParagraph.card-has-cta-icon .card-body:after {
+    background: var(--color-vassar-burgundy);
+    background: #c00;
+    color: #fff;
+}
+
+.theme-burgundy .card--withParagraph:hover .cta-icon-label {
+  color: #333
+}
+.theme-burgundy .card--withParagraph.card-has-cta-icon:hover .card-body:after {
+    background: var(--color-vassar-burgundy);
+    background: #333;
+    color: #fff;
 }

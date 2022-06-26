@@ -1,6 +1,7 @@
 .section {
   background-color: var(--section-bg-color, #fff);
   color: var(--section-text-color, --color-vassar-charcoal);
+  padding: var(--section-padding, clamp(1rem, 10%, 4rem));
 
 /*
   a {
@@ -18,6 +19,7 @@
     }
   }
   */
+
 }
 
 
@@ -65,7 +67,7 @@
     position: absolute;
     content: '';
     width: 1em;
-    border-top: 0.08em solid var(--section-title-border-color, #f00);
+    border-top: 0.05em solid var(--section-title-border-color, #f00);
     left: calc(50% - 0.5em);
     bottom: -1.4rem;
   }
@@ -83,9 +85,6 @@
   }
 }
 
-.section {
-  padding: var(--section-padding, clamp(1rem, 10%, 4rem));
-}
 .section-content {
   max-width: 90ch;
   margin: 0 auto;

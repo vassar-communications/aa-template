@@ -1,0 +1,76 @@
+<style>
+
+.alums-carousel .carousel-cell {
+  width: 70rem !important;
+}
+.alums-carousel .carousel-cell-content {
+  max-width: none;
+}
+
+.alums-carousel .image-container {
+  width: 70% !important;
+  height: var(--carousel-height, 32em);
+}
+.featureImage-text-ticker .carousel-cell .image-container img {
+  max-height: none;
+  max-width: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+</style>
+
+
+<?php
+
+function alumsCarousel() {
+  return <<<TMP
+<div class="featureImage-text-ticker alums-carousel fade-nonselected full" id="gallery">
+
+  <div class="carousel-cell">
+    <div class="carousel-cell-content">
+      <div class="image-container">
+        <img src="https://www.vassar.edu/sites/default/files/2022-06/AAVC_awards_16x12.jpg" />
+      </div>
+       <div class="figcaption pt-5">
+        <h3 class="h3">Five Alumni Selected for 2022 AAVC Awards</h3>
+        <p>Meet the alums whom the Alumnae/i Association of Vassar College has chosen to honor this year for their work at Vassar and beyond (clockwise from top left): Arushi Raina ’14, Jonathan Granoff ’70, Brenda Feigen ’66, Edward Pittman ’82, and Deborah Macfarlan Enright ’82.</p>
+          <a href="#" class="px-0 btn btn-link">Read more<i class="circle fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+    <div class="carousel-cell">
+    <div class="carousel-cell-content">
+      <div class="image-container">
+        <img src="https://www.vassar.edu/sites/default/files/2022-06/alum_spotlight_reunion2022.jpg" />
+         </div>
+      <div class="figcaption pt-5">
+          <h3 class="h3">Reunion 2022 Highlights!</h3>
+        <p>This year’s joyous, in-person gathering drew more than 1,500 alums, friends, and family members representing classes that spanned 60 years. Catch up on the festivities! <em>Photo: Karl Rabe</em></p>
+        <a href="#" class="px-0 btn btn-link">Read more<i class="circle fa-solid fa-arrow-right"></i></a>
+
+      </div>
+    </div>
+  </div>
+
+      <div class="carousel-cell">
+    <div class="carousel-cell-content">
+      <div class="image-container">
+             <img src="https://www.vassar.edu/sites/default/files/2022-06/alum_spotlight_marina_bayeva.jpg" />
+          </div>
+ <div class="figcaption pt-5">
+           <h3 class="h3">Marina Bayeva ’06: Helping Ukraine’s Displaced Animals</h3>
+        <p>Since the invasion of Ukraine began, Marina Bayeva ’06 has been collecting money for shelters in her native country and coordinating rescue efforts for animals there. <em>Photo: Courtesy of the subject.</em></p>
+        <a href="#" class="px-0 btn btn-link">Read more<i class="circle fa-solid fa-arrow-right"></i></a>
+
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+TMP;
+}
