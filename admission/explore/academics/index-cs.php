@@ -169,7 +169,7 @@ $page_classes = "academics-cy academics";
     'mw-3'
 ); ?>
 
-  <?php echo item_dropdown('Majors'); ?>
+  <?php echo item_dropdown('51 Majors'); ?>
     <div class="row has-dividers">
       <div class="col-sm">
           <ul>
@@ -242,131 +242,205 @@ $page_classes = "academics-cy academics";
 
   <?php echo item_dropdown('Correlates (Minors)'); ?>
     <div class="row has-dividers">
-        <div class="col-sm">
-            <ul>
-                <li><a href="https://africanastudies.vassar.edu/">Africana Studies</a><br>
-                    Africana Studies<br>
-                    Arabic Language &amp; Culture<br>
-                    Prison Studies</li>
-                <li><a href="https://americanstudies.vassar.edu/">American Studies</a><br>
-                    Native American Studies</li>
-                <li><a href="https://anthropology.vassar.edu/">Anthropology</a><br>
-                    Anthropology<br>
-                    Biology and Culture</li>
-                <li><a href="https://art.vassar.edu/">Art</a><br>
-                    Art History<br>
-                    Studio Art</li>
-                <li><a href="https://asianstudies.vassar.edu/">Asian Studies</a><br>
-                    Asian American Studies<br>
-                    Asian Studies</li>
-                <li><a href="https://physicsandastronomy.vassar.edu/astronomy/">Astronomy</a><br>
-                    Astronomy</li>
-                <li><a href="https://biology.vassar.edu/">Biology</a><br>
-                    Biology<br>
-                    Biology and Culture</li>
-                <li><a href="https://chemistry.vassar.edu/">Chemistry</a><br>
-                    Chemistry</li>
-                <li><a href="https://chineseandjapanese.vassar.edu/">Chinese</a><br>
-                    Chinese</li>
-                <li><a href="https://chineseandjapanese.vassar.edu/">Chinese &amp; Japanese</a><br>
-                    Chinese &amp; Japanese Literary &amp; Cultural Studies</li>
-                <li><a href="https://computerscience.vassar.edu/">Computer Science</a><br>
-                    Computer Science</li>
-                <li><a href="https://earthscienceandgeography.vassar.edu/earth-science/">Earth Science</a><br>
-                    Earth Science</li>
-                <li><a href="https://economics.vassar.edu/">Economics</a><br>
-                    International Economics<br>
-                    Public Policy<br>
-                    Quantitative Economics</li>
-                <li><a href="https://education.vassar.edu/">Education</a><br>
-                    Educational Studies</li>
-            </ul>
-        </div>
-        <div class="col-sm">
-            <ul>
-
-                <li><a href="https://english.vassar.edu/">English</a><br>
-                    Race, Ethnicity, and Indigeneity<br>
-                    Gender, Sexuality, and the Body<br>
-                    Poetry and Poetics<br>
-                    Literary Geographies<br>
-                    British and American Literary History<br>
-                    Creative Writing and Literary Forms</li>
-                <li><a href="https://environmentalstudies.vassar.edu/">Environmental Studies</a><br>
-                    Sustainability</li>
-                <li><a href="https://film.vassar.edu/">Film</a><br>
-                    Film</li>
-                <li><a href="https://french.vassar.edu/">French &amp; Francophone Studies</a><br>
-                    French &amp; Francophone Studies</li>
-                <li><a href="https://earthscienceandgeography.vassar.edu/geography/">Geography</a><br>
-                    Environmental Land-Use Analysis<br>
-                    Society &amp; Space</li>
-                <li><a href="https://german.vassar.edu/">German Studies</a><br>
-                    German</li>
-                <li><a href="https://www.vassar.edu/global-nineteenth-century-studies/">Global Nineteenth-Century Studies</a><br>
-                    Global Nineteenth-Century Studies</li>
-                <li><a href="https://greekandromanstudies.vassar.edu/">Greek &amp; Roman Studies</a><br>
-                    Greek and Roman Studies</li>
-                <li><a href="https://hispanicstudies.vassar.edu/">Hispanic Studies</a><br>
-                    Hispanic Studies</li>
-                <li><a href="https://history.vassar.edu/">History</a><br>
-                    History</li>
-
-
-                <li><a href="https://www.vassar.edu/internationalstudies/">International Studies</a><br>
-                    Migration and Displacement Studies</li>
-
-                <li><a href="https://italian.vassar.edu/">Italian</a><br>
-                    Italian</li>
-                <li><a href="https://chineseandjapanese.vassar.edu/">Japanese</a><br>
-                    Japanese</li>
-                <li><a href="https://jewishstudies.vassar.edu/">Jewish Studies</a><br>
-                    Jewish Studies</li>
-                <li><a href="https://latinamericanstudies.vassar.edu/">Latin American &amp; Latino/a Studies</a><br>
-                    Latin American &amp; Latino/a Studies</li>
-            </ul>
-        </div>
-        <div class="col-sm">
-            <ul>
-
-
-                <li><a href="https://math.vassar.edu/">Mathematics &amp; Statistics</a><br>
-                    Mathematics</li>
-                <li><a href="https://medievalandrenaissancestudies.vassar.edu/">Medieval &amp; Renaissance Studies</a><br>
-                    Medieval &amp; Renaissance Studies</li>
-                <li><a href="https://music.vassar.edu/">Music</a><br>
-                    Music &amp; Culture<br>
-                    Music Composition<br>
-                    Music History<br>
-                    Music Performance<br>
-                    Music Theory</li>
-                <li><a href="https://philosophy.vassar.edu/">Philosophy</a><br>
-                    Aesthetics and Philosophy of Ar<br>
-                    Analytic Philosophy<br>
-                    Comparative Philosophy<br>
-                    Continental Philosophy<br>
-                    Ethics &amp; Social &amp; Political Philosophy<br>
-                    History of Philosophy</li>
-                <li><a href="https://physicsandastronomy.vassar.edu/physics/">Physics</a><br>
-                    Physics</li>
-                <li><a href="https://politicalscience.vassar.edu/">Political Science</a><br>
-                    American Politics<br>
-                    Comparative Politics<br>
-                    International Politics<br>
-                    Political Theory</li>
-                <li><a href="https://religion.vassar.edu/">Religion</a><br>
-                    Religion</li>
-                <li><a href="https://russian.vassar.edu/">Russian Studies</a><br>
-                    Russian Studies</li>
-                <li><a href="https://sociology.vassar.edu/">Sociology</a><br>
-                    Sociology</li>
-                <li><a href="https://urbanstudies.vassar.edu/">Urban Studies</a><br>
-                    Urban Studies</li>
-                <li><a href="https://www.vassar.edu/women-feminist-queer-studies/">Women, Feminist, and Queer Studies</a><br>
-                    Queer Studies<br>
-                    Women’s Studies</li>
-            </ul>
-        </div>
+      <div class="col-sm">
+         <dl>
+            <dt><a href="https://africanastudies.vassar.edu/">Africana Studies</a></dt>
+            <dd>
+               Africana Studies<br>
+               Arabic Language &amp; Culture<br>
+               Prison Studies
+            </dd>
+            <dt><a href="https://americanstudies.vassar.edu/">American Studies</a></dt>
+            <dd>
+               Native American Studies
+            </dd>
+            <dt><a href="https://anthropology.vassar.edu/">Anthropology</a></dt>
+            <dd>
+               Anthropology<br>
+               Biology and Culture
+            </dd>
+            <dt><a href="https://art.vassar.edu/">Art</a></dt>
+            <dd>
+               Art History<br>
+               Studio Art
+            </dd>
+            <dt><a href="https://asianstudies.vassar.edu/">Asian Studies</a></dt>
+            <dd>
+               Asian American Studies<br>
+               Asian Studies
+            </dd>
+            <dt><a href="https://physicsandastronomy.vassar.edu/astronomy/">Astronomy</a></dt>
+            <dd>
+               Astronomy
+            </dd>
+            <dt><a href="https://biology.vassar.edu/">Biology</a></dt>
+            <dd>
+               Biology<br>
+               Biology and Culture
+            </dd>
+            <dt><a href="https://chemistry.vassar.edu/">Chemistry</a></dt>
+            <dd>
+               Chemistry
+            </dd>
+            <dt><a href="https://chineseandjapanese.vassar.edu/">Chinese</a></dt>
+            <dd>
+               Chinese
+            </dd>
+            <dt><a href="https://chineseandjapanese.vassar.edu/">Chinese &amp; Japanese</a></dt>
+            <dd>
+               Chinese &amp; Japanese Literary &amp; Cultural Studies
+            </dd>
+            <dt><a href="https://computerscience.vassar.edu/">Computer Science</a></dt>
+            <dd>
+               Computer Science
+            </dd>
+            <dt><a href="https://earthscienceandgeography.vassar.edu/earth-science/">Earth Science</a></dt>
+            <dd>
+               Earth Science
+            </dd>
+            <dt><a href="https://economics.vassar.edu/">Economics</a></dt>
+            <dd>
+               International Economics<br>
+               Public Policy<br>
+               Quantitative Economics
+            </dd>
+            <dt><a href="https://education.vassar.edu/">Education</a></dt>
+            <dd>
+               Educational Studies
+            </dd>
+         </dl>
+      </div>
+      <div class="col-sm">
+         <dl>
+            <dt><a href="https://english.vassar.edu/">English</a></dt>
+            <dd>
+               Race, Ethnicity, and Indigeneity<br>
+               Gender, Sexuality, and the Body<br>
+               Poetry and Poetics<br>
+               Literary Geographies<br>
+               British and American Literary History<br>
+               Creative Writing and Literary Forms
+            </dd>
+            <dt><a href="https://environmentalstudies.vassar.edu/">Environmental Studies</a></dt>
+            <dd>
+               Sustainability
+            </dd>
+            <dt><a href="https://film.vassar.edu/">Film</a></dt>
+            <dd>
+               Film
+            </dd>
+            <dt><a href="https://french.vassar.edu/">French &amp; Francophone Studies</a></dt>
+            <dd>
+               French &amp; Francophone Studies
+            </dd>
+            <dt><a href="https://earthscienceandgeography.vassar.edu/geography/">Geography</a></dt>
+            <dd>
+               Environmental Land-Use Analysis<br>
+               Society &amp; Space
+            </dd>
+            <dt><a href="https://german.vassar.edu/">German Studies</a></dt>
+            <dd>
+               German
+            </dd>
+            <dt><a href="https://www.vassar.edu/global-nineteenth-century-studies/">Global Nineteenth-Century Studies</a></dt>
+            <dd>
+               Global Nineteenth-Century Studies
+            </dd>
+            <dt><a href="https://greekandromanstudies.vassar.edu/">Greek &amp; Roman Studies</a></dt>
+            <dd>
+               Greek and Roman Studies
+            </dd>
+            <dt><a href="https://hispanicstudies.vassar.edu/">Hispanic Studies</a></dt>
+            <dd>
+               Hispanic Studies
+            </dd>
+            <dt><a href="https://history.vassar.edu/">History</a></dt>
+            <dd>
+               History
+            </dd>
+            <dt><a href="https://www.vassar.edu/internationalstudies/">International Studies</a></dt>
+            <dd>
+               Migration and Displacement Studies
+            </dd>
+            <dt><a href="https://italian.vassar.edu/">Italian</a></dt>
+            <dd>
+               Italian
+            </dd>
+            <dt><a href="https://chineseandjapanese.vassar.edu/">Japanese</a></dt>
+            <dd>
+               Japanese
+            </dd>
+            <dt><a href="https://jewishstudies.vassar.edu/">Jewish Studies</a></dt>
+            <dd>
+               Jewish Studies
+            </dd>
+            <dt><a href="https://latinamericanstudies.vassar.edu/">Latin American &amp; Latino/a Studies</a></dt>
+            <dd>
+               Latin American &amp; Latino/a Studies
+            </dd>
+         </dl>
+      </div>
+      <div class="col-sm">
+         <dl>
+            <dt><a href="https://math.vassar.edu/">Mathematics &amp; Statistics</a></dt>
+            <dd>
+               Mathematics
+            </dd>
+            <dt><a href="https://medievalandrenaissancestudies.vassar.edu/">Medieval &amp; Renaissance Studies</a></dt>
+            <dd>
+               Medieval &amp; Renaissance Studies
+            </dd>
+            <dt><a href="https://music.vassar.edu/">Music</a></dt>
+            <dd>
+               Music &amp; Culture<br>
+               Music Composition<br>
+               Music History<br>
+               Music Performance<br>
+               Music Theory
+            </dd>
+            <dt><a href="https://philosophy.vassar.edu/">Philosophy</a></dt>
+            <dd>
+               Aesthetics and Philosophy of Ar<br>
+               Analytic Philosophy<br>
+               Comparative Philosophy<br>
+               Continental Philosophy<br>
+               Ethics &amp; Social &amp; Political Philosophy<br>
+               History of Philosophy
+            </dd>
+            <dt><a href="https://physicsandastronomy.vassar.edu/physics/">Physics</a></dt>
+            <dd>
+               Physics
+            </dd>
+            <dt><a href="https://politicalscience.vassar.edu/">Political Science</a></dt>
+            <dd>
+               American Politics<br>
+               Comparative Politics<br>
+               International Politics<br>
+               Political Theory
+            </dd>
+            <dt><a href="https://religion.vassar.edu/">Religion</a></dt>
+            <dd>
+               Religion
+            </dd>
+            <dt><a href="https://russian.vassar.edu/">Russian Studies</a></dt>
+            <dd>
+               Russian Studies
+            </dd>
+            <dt><a href="https://sociology.vassar.edu/">Sociology</a></dt>
+            <dd>
+               Sociology
+            </dd>
+            <dt><a href="https://urbanstudies.vassar.edu/">Urban Studies</a></dt>
+            <dd>
+               Urban Studies
+            </dd>
+            <dt><a href="https://www.vassar.edu/women-feminist-queer-studies/">Women, Feminist, and Queer Studies</a></dt>
+            <dd>
+               Queer Studies<br>
+               Women’s Studies
+            </dd>
+         </dl>
+      </div>
     </div>
   <?php echo end_item_dropdown(); ?>
 
