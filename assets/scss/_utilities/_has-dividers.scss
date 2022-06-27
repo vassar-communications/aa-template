@@ -1,0 +1,10 @@
+.has-dividers {
+  [class|="col"],
+  [class*="col"] {
+    border-right: 1px solid #aaa;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}

@@ -170,7 +170,7 @@ $page_classes = "academics-cy academics";
 ); ?>
 
   <?php echo item_dropdown('Majors'); ?>
-    <div class="row">
+    <div class="row has-dividers">
       <div class="col-sm">
           <ul>
               <li><a href="https://africanastudies.vassar.edu/">Africana Studies&nbsp</a></li>
@@ -241,7 +241,7 @@ $page_classes = "academics-cy academics";
   <?php echo end_item_dropdown(); ?>
 
   <?php echo item_dropdown('Correlates (Minors)'); ?>
-    <div class="row">
+    <div class="row has-dividers">
         <div class="col-sm">
             <ul>
                 <li><a href="https://africanastudies.vassar.edu/">Africana Studies</a><br>
@@ -371,7 +371,7 @@ $page_classes = "academics-cy academics";
   <?php echo end_item_dropdown(); ?>
 
   <?php echo item_dropdown('Accelerated and Dual Degree Programs'); ?>
-    <div class="row">
+    <div class="row has-dividers">
       <div class="col-sm">
           <h3>Vassar/Columbia BA/MPH</h3>
           <p>The BA/MPH is a dual degree program in which a student earns a BA from Vassar then goes on to an accelerated Masters program in Public Health at Columbia University Mailman School of Public Health.</p>

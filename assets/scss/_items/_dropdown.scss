@@ -9,7 +9,6 @@
     padding-left: 2em;
     position: relative;
     cursor: pointer;
-  //  background: #eee;
     margin-bottom: 1px;
 
     @include font-size(1.6rem);
@@ -25,10 +24,12 @@ details {
   margin-right: 1rem;
 
   &:not(:last-of-type) {
-      border-bottom: 1px solid var(--dropdown-border-color, #ddd);
+    border-bottom: 1px solid var(--dropdown-border-color, #ddd);
   }
 
   summary {
+    transition: 0.4s all ease;
+
     &:before {
       content: "+";
       line-height: 0;
@@ -40,7 +41,7 @@ details {
       transform: rotate(0);
       transform-origin: center;
       transition: 0.25s transform ease;
-    color: var(--dropdown-closebox-openme-color, #666);
+      color: var(--dropdown-closebox-openme-color, #666);
       height: 100%;
       display: flex;
       justify-content: center;
@@ -56,22 +57,21 @@ details {
   }
   &[open] {
     summary {
-      font-weight: bold;
+      font-variation-settings: "wght" 800;
+      font-size: 2rem;
     }
   }
 }
 
 .dropdown__content {
-    padding: 0 2rem 1.6rem 2rem;
+  margin-top: 1rem;
+  padding: 0 2rem 1.6rem 2rem;
 }
 
 details[open] summary:before {
-    color: var(--dropdown-closebox-closeme-color, #f00);
-    font-weight: bold;
+  color: var(--dropdown-closebox-closeme-color, #f00);
+  font-weight: bold;
 }
-
-
-
 
 button.accordion-button {
   border-bottom: 1px solid transparent;
@@ -80,4 +80,9 @@ button.accordion-button:hover {
     background: #ddd;
   border-bottom: 1px solid #f00;
   color: #a00;
+}
+
+details[open] {
+  background: #eee;
+  box-shadow: 0 1em 1em rgb(0 0 0 / 20%);
 }
