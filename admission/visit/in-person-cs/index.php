@@ -114,6 +114,16 @@ $page_classes = "inperson";
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+<?php echo sec_wordByWord_fixed(
+  null,
+  'animate-when-content-appears space-around-image',
+  null
+); ?>
+
+  <p>“Vassar’s more than 100 buildings showcase various architectural styles, from the Gothic Thompson Memorial Library to César Pelli’s Lehman Loeb Art Center.”</p>
+  <div class="quote-attribution"><em>Architectural Digest</em>, “50 Most Beautiful Campuses”</div>
+<?php echo end_sec_wordByWord_fixed(); ?>
+
 
 <?php echo sec_regularContent(
     null,

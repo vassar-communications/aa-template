@@ -1,0 +1,65 @@
+/*
+  This builds off _section-word-by-word.scss.
+ */
+
+.fixed-quote {
+    height: 100vh;
+
+    .section-content {
+      position: fixed;
+      top: 0;
+      left: 20vw;
+      height: 100vh;
+      width: 60vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      p {
+        @include rfs(3rem, --regularContent-font-size);
+      }
+    }
+}
+
+.fixed-quote .section-content:before,
+.fixed-quote .section-content:after {
+  position: fixed;
+      content: "";
+      font-size: 40vw;
+      height: 100vh;
+      font-weight: 100;
+      top: 0;
+      opacity: 0.06;
+      background-position: center;
+      display: block;
+      width: 16vw;
+      background-repeat: no-repeat;
+      background-size: 16vw;
+}
+
+.fixed-quote .section-content:before {
+  background-image: url('/assets/images/quote-start.svg');
+  left: 10vw;
+}
+.fixed-quote .section-content:after {
+  background-image: url('/assets/images/quote-end.svg');
+  right: 10vw;
+}
+.quote-attribution {
+  color: #d00;
+  font-size: 1.4rem;
+  font-variation-settings: "wght" 700;
+  margin-top: 2vh;
+}
+.fixed-quote {
+  .quote-attribution {
+    --animation-delay: 1.6s;
+    --animation-duration: 3s;
+    @include setup-animation-fade-in();
+  }
+  &.content-appeared .quote-attribution {
+    @include animation-fade-in();
+  }
+}

@@ -178,6 +178,9 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/eve
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/buffer.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/wordByWord.inc');
+
+include($project_paths['main_project_root'].'/core/sections/content_sections/wordByWord-fixed.inc');
+
 include($project_paths['main_project_root'].'/core/sections/content_sections/columns.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/introContent.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fullBleedImageColumn.inc');

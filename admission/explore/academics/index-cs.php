@@ -119,6 +119,7 @@ $page_classes = "academics-cy academics";
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/academics/cel/0056_14_07_BL_7266.jpg',
