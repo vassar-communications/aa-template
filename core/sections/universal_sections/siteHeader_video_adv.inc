@@ -33,6 +33,17 @@ if (get_extras_value('bg-image-url', $extras)) {
 }
 
 return <<<TMP
+
+
+<style>
+.title-cover {
+    background: rgba(0, 0, 0, 0.1);
+}
+.video-header h1 {
+  text-shadow: 0 0 2rem #000, 0 0 1rem #000;
+}
+</style>
+
   <script src="https://player.vimeo.com/api/player.js"></script>
 
     <div class="section video-header is-loading $section_classes">

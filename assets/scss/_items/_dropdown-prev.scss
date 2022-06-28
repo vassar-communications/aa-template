@@ -27,7 +27,7 @@ details {
     border-bottom: 1px solid var(--dropdown-border-color, #ddd);
   }
 
-  summary span {
+  summary {
     transition: 0.4s all ease;
 
     &:before {
@@ -52,11 +52,11 @@ details {
       display: none;
     }
   }
-  &[open] > summary span:before {
+  &[open] > summary:before {
     transform: rotate(45deg);
   }
   &[open] {
-    summary span {
+    summary {
       font-variation-settings: "wght" 800;
       font-size: 2rem;
     }
@@ -68,7 +68,7 @@ details {
   padding: 0 2rem 1.6rem 2rem;
 }
 
-details[open] summary span:before {
+details[open] summary:before {
   color: var(--dropdown-closebox-closeme-color, #f00);
   font-weight: bold;
 }

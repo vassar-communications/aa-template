@@ -152,12 +152,12 @@ $page_classes = "academics-cy academics";
 
 <?php echo sec_wideContent(
     'Your Choices <span class="burgundy">=</span> Your Education',
-    '<p class="section-intro-text">Vassar’s curriculum emphasizes a multidisciplinary approach to intellectual inquiry. With more than 1,000 courses to choose from and an average class size of 17, Vassar offers a customizable curriculum to satisfy any curiosity.</p>',
+    '<p class="section-intro-text mb-5">Vassar’s curriculum emphasizes a multidisciplinary approach to intellectual inquiry. With more than 1,000 courses to choose from and an average class size of 17, Vassar offers a customizable curriculum to satisfy any curiosity.</p>',
     'theme-cream pb-1 hidemark',
     'mw-3'
 ); ?>
 
-  <?php echo item_dropdown('51 Majors'); ?>
+  <?php echo item_dropdown('51 Majors', 'dropdown--feature'); ?>
     <div class="row has-dividers">
       <div class="col-sm">
           <ul>
@@ -228,7 +228,7 @@ $page_classes = "academics-cy academics";
   </div>
   <?php echo end_item_dropdown(); ?>
 
-  <?php echo item_dropdown('40 Correlates (Minors)'); ?>
+  <?php echo item_dropdown('40 Correlates (Minors)', 'dropdown--feature'); ?>
     <div class="row has-dividers">
       <div class="col-sm">
          <dl>
@@ -432,7 +432,7 @@ $page_classes = "academics-cy academics";
     </div>
   <?php echo end_item_dropdown(); ?>
 
-  <?php echo item_dropdown('Accelerated and Dual Degree Programs'); ?>
+  <?php echo item_dropdown('Accelerated and Dual Degree Programs', 'dropdown--feature'); ?>
     <div class="row has-dividers">
       <div class="col-sm">
           <h3>Vassar/Columbia BA/MPH</h3>

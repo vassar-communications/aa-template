@@ -118,7 +118,18 @@ $page_classes = "academics-cy academics give";
 </style>
 
 
-<?php echo sec_fullBleedImageColumn(
+
+<?php echo masthead_interiorPage(
+  'The Many Ways to Give Back',
+  'Connect with the alumni community and learn how you can continue to support Vassar.',
+  'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/0002-18-01-kr-scc-estrella-vassar-0048.jpg');
+?>
+
+
+
+<?php
+/*
+ echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/0002-18-01-kr-scc-estrella-vassar-0048.jpg',
     'mb-5 page-title-section',
@@ -145,7 +156,7 @@ $page_classes = "academics-cy academics give";
     ">Connect with the alumni community and learn how you can continue to support Vassar.</p>
 </div>
 
-<?php echo end_sec_fullBleedImageColumn(); ?>
+<?php echo end_sec_fullBleedImageColumn(); */ ?>
 
 
 
@@ -162,7 +173,7 @@ $page_classes = "academics-cy academics give";
 
 
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-4 mb-5">Fearlessly Consequential Campaign</h2>
+    <h2 class="display-2 mb-5">Fearlessly Consequential Campaign</h2>
     <p>Your gift to Vassar can make a difference.</p>
 
     <a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link">Learn more about our new campaign <i class="circle fa-solid fa-arrow-right"></i></a>
@@ -191,7 +202,7 @@ $page_classes = "academics-cy academics give";
 
 <h2 class="display-2 py-5"><strong>Every</strong> alum. <strong>Any</strong> amount. <strong>Every</strong> year.</h2>
 
-<button class="btn mb-5 btn-lg btn-light">Help Support Vassar <i class=" fa-solid fa-arrow-right"></i></button>
+<button class="btn mb-5 btn-lg btn-light">Support Vassar <i class=" fa-solid fa-arrow-right ms-1"></i></button>
 <!--
     <p class="animation-item">Each year, Vassar aims to enroll the most</p>
 <?php // echo vassar_is_awesome('animation-item'); ?>
