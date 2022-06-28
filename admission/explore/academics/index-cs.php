@@ -240,7 +240,7 @@ $page_classes = "academics-cy academics";
   </div>
   <?php echo end_item_dropdown(); ?>
 
-  <?php echo item_dropdown('Correlates (Minors)'); ?>
+  <?php echo item_dropdown('40 Correlates (Minors)'); ?>
     <div class="row has-dividers">
       <div class="col-sm">
          <dl>

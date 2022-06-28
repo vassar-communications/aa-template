@@ -1,3 +1,10 @@
+$(document).ready(function () {
+	$('details').on('click', function () {
+		$(this).toggleClass('open');
+	});
+});
+
+
 
 // deprecate this one in favor of the new way
 /*
@@ -390,25 +397,6 @@ $( window ).resize(function() {
 });
 
 
-
-/*	IN THE MEDIA TICKER
-	=================== */
-
-/*
-if ($('.thumbnail-text-ticker').length) {
-  $('.thumbnail-text-ticker').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true,
-groupCells: true,
-//    autoPlay: 1500,
-    wrapAround: true
-  });
-}
-*/
-
-
-
 $( window ).resize(function() {
   $( ".thumbnail-text-ticker" ).each(function( index ) {
 //    $( this ).height( $( this ).find(".carousel-cell-content").height() );
@@ -439,3 +427,7 @@ jQuery(function($) {
         }
     });
 });
+
+
+
+

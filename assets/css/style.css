@@ -9876,7 +9876,17 @@ button.accordion-button:hover {
 
 details[open] {
   background: #eee;
+  border-top: 1px solid #f00;
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
+}
+
+details .dropdown__content .col-sm {
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+details.open .dropdown__content .col-sm {
+  opacity: 1;
 }
 
 /* Inline icon button */

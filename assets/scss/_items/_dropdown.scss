@@ -77,12 +77,27 @@ button.accordion-button {
   border-bottom: 1px solid transparent;
 }
 button.accordion-button:hover {
-    background: #ddd;
+  background: #ddd;
   border-bottom: 1px solid #f00;
   color: #a00;
 }
 
 details[open] {
   background: #eee;
-  box-shadow: 0 1em 1em rgb(0 0 0 / 20%);
+  border-top: 1px solid #f00;
+  box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
+}
+
+details .dropdown__content {
+  .col-sm {
+    opacity: 0;
+    transition: 1s all ease;
+//    transition-delay: 1s;
+  }
+}
+
+details.open .dropdown__content {
+  .col-sm {
+    opacity: 1;
+  }
 }
