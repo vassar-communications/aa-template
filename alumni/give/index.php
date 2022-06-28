@@ -173,7 +173,7 @@ $page_classes = "academics-cy academics give";
 
 
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Fearlessly Consequential Campaign</h2>
+    <h2 class="display-2 mb-5 new-section-title-design">Fearlessly Consequential Campaign</h2>
     <p>Your gift to Vassar can make a difference.</p>
 
     <a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link">Learn more about our new campaign <i class="circle fa-solid fa-arrow-right"></i></a>
@@ -223,7 +223,7 @@ $page_classes = "academics-cy academics give";
 
 
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2">Volunteer</h2>
+    <h2 class="display-2 new-section-title-design color-burgundy">Volunteer</h2>
     <p>Deepen relationships, expand your community, and devote time and expertise to things you care about.</p>
 
     <a href="/alumni/give/volunteer/" class="px-0 btn btn-link">Explore volunteer opportunities  <i class="circle fa-solid fa-arrow-right"></i></a>
@@ -239,7 +239,7 @@ $page_classes = "academics-cy academics give";
 
 
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2">Be a Mentor </h2>
+    <h2 class="display-2 new-section-title-design">Be a Mentor </h2>
     <p>Being a mentor is an extraordinary opportunity to develop positive relationships with students and help them navigate their future personally and professionally.</p>
 
     <a href="/alumni/give/be-a-mentor/" class="px-0 btn btn-link">Explore mentorship opportunities  <i class="circle fa-solid fa-arrow-right"></i></a>
@@ -257,7 +257,7 @@ $page_classes = "academics-cy academics give";
 
 
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 edit">Hire Vassar</h2>
+    <h2 class="display-2 edit new-section-title-design color-burgundy">Hire Vassar</h2>
     <p>Vassar students and alumni are great candidates for internships and positions at any level within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
 
     <a href="/alumni/give/hire-vassar/" class="px-0 btn btn-link">Information for Employers <i class="circle fa-solid fa-arrow-right"></i></a>

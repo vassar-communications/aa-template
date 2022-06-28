@@ -65,3 +65,25 @@ html.give {
     }
   }
 }
+
+
+.new-section-title-design {
+  line-height: 1;
+  position: relative;
+  margin-bottom: 3rem;
+
+  &:after {
+    position: absolute;
+    bottom: -1.5rem;
+    border-top: 2px solid #f00;
+    content: '';
+    left: 0;
+    width: 4rem;
+  }
+
+}
+
+
+.color-burgundy {
+  color: var(--color-vassar-burgundy);
+}
