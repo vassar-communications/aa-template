@@ -393,11 +393,18 @@ All Vassar students are surrounded by an environment designed to spark something
 */ ?>
 
 
+<style>
+.stackla-placeholder {
+  border: 4px dashed #f00;
+  padding: 1rem;
+}
+</style>
+
 <?php echo sec_hasColumns(
     null,
     3,
     null,
-    'p-0 bg-transparent',
+    'p-4 bg-transparent stackla-placeholder',
     ''
 ); ?>
 

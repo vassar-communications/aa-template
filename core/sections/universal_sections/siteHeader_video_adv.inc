@@ -37,10 +37,10 @@ return <<<TMP
 
 <style>
 .title-cover {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1) !important;
 }
 .video-header h1 {
-  text-shadow: 0 0 2rem #000, 0 0 1rem #000;
+  text-shadow: 0 0 2rem #000, 0 0 1rem #000 !important;
 }
 </style>
 
