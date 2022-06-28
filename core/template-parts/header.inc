@@ -37,11 +37,14 @@ function site_header($extras=false) {
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
+
+<!-- the unpkg files were taking too long to come in
   <script src="https://unpkg.com/flickity@2.2/dist/flickity.pkgd.js"></script>
   <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js"></script>
+-->
 
-  <!-- <script src="{$project_paths['public_path']}/assets/js/libraries/flickity.js"></script>
-  <script src="{$project_paths['public_path']}/assets/js/libraries/flickity-fade.js"></script> -->
+  <script src="{$project_paths['public_path']}/assets/js/libraries/flickity.js"></script>
+  <script src="{$project_paths['public_path']}/assets/js/libraries/flickity-fade.js"></script>
 
 
   <link rel="stylesheet" href="{$project_paths['public_path']}/assets/icons/fontawesome-free-6.1.1-web/css/all.min.css">

@@ -9876,7 +9876,6 @@ button.accordion-button:hover {
 
 details[open] {
   background: #eee;
-  border-top: 1px solid #f00;
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
 }
 
@@ -12891,6 +12890,29 @@ html.give ul.nav.nav-pills {
   font-size: 1.2rem;
   padding-bottom: 1.4rem;
   border-bottom: 1px solid #eee;
+}
+
+.fancy-card .card-text p {
+  font-variation-settings: "wght" 400;
+}
+.fancy-card h3.card-title, .fancy-card .card-title.h3 {
+  font-family: var(--font-big-serif);
+  font-weight: bold;
+  font-size: 2rem !important;
+  color: #c00;
+  transition: 0.3s all ease;
+}
+.fancy-card:hover h3.card-title, .fancy-card:hover .card-title.h3 {
+  color: #111;
+}
+
+.here-to-help .fancy-card h3.card-title, .here-to-help .fancy-card .card-title.h3 {
+  color: #eee;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+.here-to-help .fancy-card:hover h3.card-title, .here-to-help .fancy-card:hover .card-title.h3 {
+  color: #666;
 }
 
 /*	LAYOUT

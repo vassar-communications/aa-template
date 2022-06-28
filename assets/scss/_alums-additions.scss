@@ -29,3 +29,39 @@ html.give {
           border-bottom: 1px solid #eee;
   }
 }
+
+
+
+
+.fancy-card {
+  .card-text p {
+    font-variation-settings: "wght" 400;
+  }
+  h3.card-title {
+    font-family: var(--font-big-serif);
+    font-weight: bold;
+    font-size: 2rem !important;
+    color: #c00;
+    transition: 0.3s all ease;
+  }
+  &:hover {
+    h3.card-title {
+      color: #111;
+    }
+  }
+}
+
+.here-to-help {
+  .fancy-card {
+    h3.card-title {
+      color: #eee;
+      margin-bottom: 1rem;
+      line-height: 1;
+    }
+    &:hover {
+      h3.card-title {
+        color: #666;
+      }
+    }
+  }
+}

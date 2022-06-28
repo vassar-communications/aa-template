@@ -73,7 +73,7 @@ $page_classes = "advancement-demo";
             'Make a Gift',
             '',
             ['url' => '/mockups/advancement-home/assets/images/three-cards/Library-TT-IMG_6613.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item card-has-cta-icon card-has-cta-label'
+            'fancy-card animation-item card-has-cta-icon card-has-cta-label'
         ); ?>
 
         <p>Your gift to The Vassar Fund can honor the aspect of the Vassar experience that matters most to you.</p>
@@ -86,7 +86,7 @@ $page_classes = "advancement-demo";
             'Volunteer',
             '',
             ['url' => '/mockups/advancement-home/assets/images/three-cards/VC-Atlanta_Becca-Marco-05_Jada-Graves-14_Juan-Acosta-02-(1).jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item card-has-cta-icon card-has-cta-label'
+            'fancy-card animation-item card-has-cta-icon card-has-cta-label'
         ); ?>
 
         <p>An incredible way to enrich your life and the lives of others in countless ways.</p>
@@ -99,7 +99,7 @@ $page_classes = "advancement-demo";
             'Be a Mentor',
             '',
             ['url' => '/mockups/advancement-home/assets/images/three-cards/0006-19-01-kr-scc-reception-vassar-0977.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item card-has-cta-icon card-has-cta-label'
+            'fancy-card animation-item card-has-cta-icon card-has-cta-label'
         ); ?>
 
         <p>An extraordinary opportunity to develop positive relationships with students and help them navigate their future.</p>

@@ -90,7 +90,7 @@ $page_classes = "admission-demo";
             'Applying to Vassar',
             '',
             ['url' => '/mockups/admission-home/apply/Untitled-3.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item card-has-cta-icon'
+            'fancy-card animation-item card-has-cta-icon'
         ); ?>
 
         <p>What’s required / How to apply / Important Deadlines / Tuition</p>
@@ -102,7 +102,7 @@ $page_classes = "admission-demo";
             'Financial Aid Information',
             '',
             ['url' => '/mockups/admission-home/apply/Untitled-2.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item card-has-cta-icon'
+            'fancy-card animation-item card-has-cta-icon'
         ); ?>
 
         <p>Early and regular decision / Transferring to Vassar</p>
@@ -114,7 +114,7 @@ $page_classes = "admission-demo";
             'Request Information',
             '',
             ['url' => '/mockups/admission-home/apply/Untitled-1.jpg', 'alt' => 'asdfasdfds' ],
-            'animation-item card-has-cta-icon'
+            'fancy-card animation-item card-has-cta-icon'
         ); ?>
 
         <p>Get Vassar’s newsletter and other information about Vassar.</p>

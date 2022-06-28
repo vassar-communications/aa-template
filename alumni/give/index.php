@@ -240,7 +240,7 @@ $page_classes = "academics-cy academics give";
 
 <div class="animate-when-content-appears animation-slide-up">
     <h2 class="display-2">Be a Mentor </h2>
-    <p>Being a mentor is an extraordinary opportunity to develop positive relationships with students and help them navigate their future personally and/or professionally.</p>
+    <p>Being a mentor is an extraordinary opportunity to develop positive relationships with students and help them navigate their future personally and professionally.</p>
 
     <a href="/alumni/give/be-a-mentor/" class="px-0 btn btn-link">Explore mentorship opportunities  <i class="circle fa-solid fa-arrow-right"></i></a>
 </div>
@@ -258,7 +258,7 @@ $page_classes = "academics-cy academics give";
 
 <div class="animate-when-content-appears animation-slide-up">
     <h2 class="display-2 edit">Hire Vassar</h2>
-    <p>Vassar students and alums are great candidates for internships and multi-level positions within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
+    <p>Vassar students and alumni are great candidates for internships and positions at any level within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
 
     <a href="/alumni/give/hire-vassar/" class="px-0 btn btn-link">Information for Employers <i class="circle fa-solid fa-arrow-right"></i></a>
 </div>
