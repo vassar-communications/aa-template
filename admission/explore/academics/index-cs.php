@@ -76,30 +76,17 @@ $page_classes = "academics-cy academics";
 <!-- visit -->
 
 
-<?php echo sec_hasColumns(
-    null,
-    2,
-    null,
-    '',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
-); ?>
+<!-- inner page masthead -->
 
-<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
+<?php echo masthead_interiorPage(
+  'Learning is Innovation',
+  'Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.',
+  'https://vassartest.chuckyatsuk.com/img/explore/0084-19-05-ja-kumar-class-vassar-253.jpg');
+?>
 
-<h2 class="display-2">Learning is Innovation</h2>
-<p class="pb-3">Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.</p>
+<!-- end inner page masthead -->
 
 
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/explore/0084-19-05-ja-kumar-class-vassar-253.jpg" />
-<?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
-
-
-<!-- end visit -->
 
 <?php echo sec_fullBleedImageColumn(
     null,

@@ -181,6 +181,8 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/wor
 include($project_paths['main_project_root'].'/core/sections/content_sections/columns.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/introContent.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fullBleedImageColumn.inc');
+include($project_paths['main_project_root'].'/core/sections/content_sections/interiorPage-masthead.inc');
+
 include($project_paths['main_project_root'].'/core/sections/content_sections/regularContent.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/wideContent.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle.inc');
