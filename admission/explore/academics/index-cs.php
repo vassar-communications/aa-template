@@ -105,7 +105,7 @@ $page_classes = "academics-cy academics";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/explore/academics/082-21-07-kr-caad-vassar-0065.jpg',
+    '0075_16_07_KR_0075.jpg',
     'theme-burgundy quad-pattern has-bg',
     'mw-100'
 ); ?>
