@@ -1,27 +1,27 @@
-<style>
-    .featureImage-text-ticker .carousel-cell {
-        height: 100%;
-        margin-right: 1em;
-    }
-
-    .news-intro {
-        text-align: center;
-        margin-bottom: 4rem;
-    }
-.section.has-bg:after {
---bg-image-opacity: 0.1;
-    }
-    .quad-pattern.has-bg * {
-      z-index: 10;
-    }
-
-</style>
-
-
 <?php
 
 function newsCarousel() {
     return <<<TMP
+
+    <style>
+        .featureImage-text-ticker .carousel-cell {
+            height: 100%;
+            margin-right: 1em;
+        }
+
+        .news-intro {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+    .section.has-bg:after {
+    --bg-image-opacity: 0.1;
+        }
+        .quad-pattern.has-bg * {
+          z-index: 10;
+        }
+
+    </style>
+
 <div class="section section--carousel theme-charcoal px-0 quad-pattern has-bg">
 
 <p class="section-intro-text news-intro" style="">What’s Happening at Vassar</p>

@@ -1,44 +1,44 @@
-<style>
-
-.media-carousel {
-  --carousel-height: 33rem;
-  height: 37rem !important;
-}
-.media-carousel .carousel-cell {
-  width: 70rem !important;
-}
-.media-carousel .carousel-cell-content {
-  max-width: none;
-}
-
-.media-carousel .image-container {
-  width: 70% !important;
-  height: var(--carousel-height, 32em);
-  position: relative;
-}
-.featureImage-text-ticker .carousel-cell .image-container img {
-  max-height: none;
-  max-width: none;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  object-fit: cover;
-}
-.media-carousel .figcaption {
-    background: var(--color-vassar-dark-burgundy) !important;
-}
-
-.media-carousel .figcaption p {
-  font-size: 1.3rem !important;
-}
-</style>
-
-
 <?php
 
 
 function inTheMediaCarousel() {
   return <<<TMP
+
+  <style>
+
+  .media-carousel {
+    --carousel-height: 33rem;
+    height: 37rem !important;
+  }
+  .media-carousel .carousel-cell {
+    width: 70rem !important;
+  }
+  .media-carousel .carousel-cell-content {
+    max-width: none;
+  }
+
+  .media-carousel .image-container {
+    width: 70% !important;
+    height: var(--carousel-height, 32em);
+    position: relative;
+  }
+  .featureImage-text-ticker .carousel-cell .image-container img {
+    max-height: none;
+    max-width: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+  }
+  .media-carousel .figcaption {
+      background: var(--color-vassar-dark-burgundy) !important;
+  }
+
+  .media-carousel .figcaption p {
+    font-size: 1.3rem !important;
+  }
+  </style>
+
 <div class="featureImage-text-ticker media-carousel fade-nonselected full" id="gallery">
 
   <div class="carousel-cell">

@@ -91,7 +91,7 @@ $page_classes = "academics-cy academics";
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_7630.jpg',
-    'image-is-first theme-charcoal bg-dark',
+    'image-is-first theme-charcoal quad-pattern has-bg',
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -106,7 +106,7 @@ $page_classes = "academics-cy academics";
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/academics/082-21-07-kr-caad-vassar-0065.jpg',
-    'theme-charcoal bg-dark',
+    'theme-burgundy quad-pattern has-bg',
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -123,7 +123,7 @@ $page_classes = "academics-cy academics";
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/academics/cel/0056_14_07_BL_7266.jpg',
-    'image-is-first theme-charcoal bg-dark',
+    'image-is-first theme-charcoal quad-pattern has-bg',
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -138,7 +138,7 @@ $page_classes = "academics-cy academics";
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/explore/academics/lockhart-anna-peru-abroad-1809-alo-8.jpg',
-    'theme-charcoal bg-dark',
+    'theme-burgundy quad-pattern has-bg',
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
