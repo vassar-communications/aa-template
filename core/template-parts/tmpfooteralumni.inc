@@ -36,11 +36,11 @@ function site_footeralumni() {
 
 
 
-			<div class="col-3 knockedout fixit">
-				<div><span class="tagline  mb-2">Give to Vassar</span></div>
-				<div class="display-6">Fearlessly Consequential</div>
+			<div class="col-3 knockedout fixit p-3 my-4 shadow-lg" style="border: 1px solid #f00">
+<!--				<div><span class="tagline mb-2">Give to Vassar</span></div> -->
+				<img src="/alumni/campaign.jpg" />
 				  <a href="/admission/explore/academics/" class="donate-btn px-0 mt-4 btn btn-link">Donate Now <i class="circle fa-solid fa-arrow-right"></i></a>
-			
+
 </div>
 		</div> <!-- row -->
 

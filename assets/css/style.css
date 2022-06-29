@@ -12899,11 +12899,11 @@ html.give ul.nav.nav-pills {
   font-family: var(--font-big-serif);
   font-weight: bold;
   font-size: 2rem !important;
-  color: #c00;
+  color: #111;
   transition: 0.3s all ease;
 }
 .fancy-card:hover h3.card-title, .fancy-card:hover .card-title.h3 {
-  color: #111;
+  color: #c00;
 }
 
 .here-to-help .fancy-card h3.card-title, .here-to-help .fancy-card .card-title.h3 {
@@ -12923,7 +12923,7 @@ html.give ul.nav.nav-pills {
 .new-section-title-design:after {
   position: absolute;
   bottom: -1.5rem;
-  border-top: 2px solid #f00;
+  border-top: 2px solid var(--new-title-underline-color, #f00);
   content: "";
   left: 0;
   width: 4rem;

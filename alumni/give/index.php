@@ -22,6 +22,88 @@ $page_classes = "academics-cy academics give";
 <style>
 
 
+/*  spark */
+
+.spark-1 {
+  border: 1px solid #fff;
+  border-top: none;
+  border-right: none;
+  opacity: 1;
+  transform-origin: bottom left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.spark-line {
+  position: absolute;
+  width: 10rem;
+  border-top: 2px solid #fff;
+  bottom: 0;
+  transform: rotate(-45deg);
+  transform-origin: bottom left;
+}
+
+.line-1 {
+  transform: rotate(-45deg);
+}
+
+.line-2 {
+  transform: rotate(-22deg);
+}
+
+.line-3 {
+  transform: rotate(-67deg);
+}
+
+.spark-container {
+  width: 10rem;
+  height: 10rem;
+  position: relative;
+}
+
+.spark-container > * {
+  transition: 1s all ease;
+  width: 0;
+  height: 0;
+  transition-delay: 0.4s;
+}
+
+.content-appeared .spark-1 {
+  width: 10rem;
+  height: 10rem;
+  opacity: 0;
+}
+
+.content-appeared .spark-line {
+  width: 20rem;
+  opacity: 0;
+}
+
+/* end spark */
+
+.diag-btn {
+  background-color: #fff !important;
+  color: #333 !important;
+  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+  transform: skewX(-10deg);
+  display: inline-block;
+  transition: 1s all ease;
+  transition-delay: 1s;
+  clip-path: inset(0 100% 0 0);
+}
+.diag-btn span {
+  display: inline-block;
+  transform: skewX(10deg);
+  font-variation-settings: "wght" 500;
+}
+.content-appeared .diag-btn {
+  clip-path: inset(0 0 0 0);
+}
+
+
+
+
 
     .give .equal .btn {
         color: #222;
@@ -173,10 +255,29 @@ $page_classes = "academics-cy academics give";
 
 
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 new-section-title-design">Fearlessly Consequential Campaign</h2>
+
+  <div class="spark-container">
+    <div class="spark-1"></div>
+    <div class="spark-line line-1"></div>
+    <div class="spark-line line-2"></div>
+    <div class="spark-line line-3"></div>
+  </div>
+
+  <h2 class="display-2 mb-5 new-section-title-design animate-when-content-appears animation-fade-in animation-group" style="--sequential-animation-item-gap: 0.2s; --new-title-underline-color: #fff">
+    <span class="animation-item">Fearlessly</span>
+    <span class="animation-item">Consequential</span>
+    <span class="animation-item">Campaign</span>
+  </h2>
+
     <p>Your gift to Vassar can make a difference.</p>
 
+<!--
     <a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link">Learn more about our new campaign <i class="circle fa-solid fa-arrow-right"></i></a>
+-->
+
+<a href="/alumni/resources/alumnae-house/" class="diag-btn mt-5"><span>Learn more about our new campaign  <i class="fa-solid fa-arrow-right ms-1"></i></span></a>
+
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -202,7 +303,7 @@ $page_classes = "academics-cy academics give";
 
 <h2 class="display-2 py-5"><strong>Every</strong> alum. <strong>Any</strong> amount. <strong>Every</strong> year.</h2>
 
-<button class="btn mb-5 btn-lg btn-light">Support Vassar <i class=" fa-solid fa-arrow-right ms-1"></i></button>
+<button class="btn mb-5 btn-lg btn-primary">Support Vassar <i class=" fa-solid fa-arrow-right ms-1"></i></button>
 <!--
     <p class="animation-item">Each year, Vassar aims to enroll the most</p>
 <?php // echo vassar_is_awesome('animation-item'); ?>
@@ -279,7 +380,7 @@ $page_classes = "academics-cy academics give";
 ); ?>
 
 <h2 class="h2"><strong>Every Gift Matters.</strong> Explore funds and initatives.</h2>
-<button class="btn btn-light">Make a Gift <i class="circle fa-solid fa-arrow-right"></i></button>
+<button class="btn btn-primary">Make a Gift <i class="fa-solid fa-arrow-right  ms-2"></i></button>
 <?php echo end_sec_wideContent(); ?>
 
 
