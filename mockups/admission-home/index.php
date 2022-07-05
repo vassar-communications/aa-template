@@ -199,7 +199,7 @@ echo sec_fixedCenteredTitle(
   <?php echo flipcard_stat(
     'Student Orgs',
     '170',
-    '<p>There are many ways to get involved at Vassar.</p>',
+    '<p>From volunteer opportunities in our local community to mystery hikes with the Outing Club, Vassar has an organization for everyone.</p>',
     'animation-item'
   );
   ?>
@@ -207,7 +207,7 @@ echo sec_fixedCenteredTitle(
   <?php echo flipcard_stat(
     'Varsity Teams',
     '27',
-    '<p>Athletics has always been an important facet of the Vassar experience.</p>',
+    '<p>In the past three years, Vassar student-athletes have achieved All-American status in seven sports.</p>',
     'animation-item'
   );
   ?>
