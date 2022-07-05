@@ -40,7 +40,7 @@ $page_classes = "academics-cy academics";
 
 
 
-<?php echo sec_fixedCenteredTitle_masthead(
+<?php echo sec_fixedCenteredTitle_masthead_vid(
     '<b class="slide-from-left">Explore</b>
    <b class="slide-from-right">Academics</b>',
     null,
@@ -56,7 +56,7 @@ $page_classes = "academics-cy academics";
       ']
 ); ?>
 
-<?php echo end_sec_fixedCenteredTitle_masthead(); ?>
+<?php echo end_sec_fixedCenteredTitle_masthead_vid(); ?>
 
 <?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-breadcrumb.php');?>

@@ -190,6 +190,7 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/reg
 include($project_paths['main_project_root'].'/core/sections/content_sections/wideContent.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle-masthead.inc');
+include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle-masthead_vid.inc');
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/news-carousel.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/alums-carousel.inc');

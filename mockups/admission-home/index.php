@@ -228,7 +228,7 @@ echo sec_fixedCenteredTitle(
    <b class="slide-from-right">places.</b>',
     '<p class="section-intro-text">We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings that showcase classic architecture blended seamlessly with modern, cutting-edge facilities.</p>
 
-    <p class="text-center mb-5 fst-italic fs-5">Videos with a <i class="icon fa fa-vr-cardboard mx-2"></i> icon are panoramic. Drag inside the video to look around!</p>',
+    <p class="text-center mb-5"><small class="fst-italic">Videos with a <i class="icon fa fa-vr-cardboard mx-2"></i> icon are panoramic. Drag inside the video to look around!</small></p>',
     'sec-fixedCenteredTitle theme-burgundy',
     'mw-4',
     ['bg-image-url' => '/mockups/admission-home/fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',
@@ -242,24 +242,7 @@ echo sec_fixedCenteredTitle(
     ]
 ); ?>
 
-<style>
-
-.w-33 {
-  width: 33%;
-}
-.w-66 {
-  width: 66%;
-}
-.w-42 {
-  width: 42%;
-}
-.w-70 {
-  width: 70%;
-}
-
-</style>
-
-    <div class="animation-group staggered-grid animation-zoom-in animate-when-content-appears gap-3  mb-3">
+    <div class="animation-group staggered-grid animation-zoom-in animate-when-content-appears gap-3 mb-3">
 
 
 
