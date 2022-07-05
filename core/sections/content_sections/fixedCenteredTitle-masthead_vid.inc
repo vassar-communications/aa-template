@@ -57,7 +57,7 @@ return <<<TMP
 }
 
 </style>
-  <script src="https://player.vimeo.com/api/player.js"></script>
+
     <div class="section masthead-video-background sec-fixedCenteredTitleMasthead is-loading $section_classes" $css>
 
       <div class="section-bg-image-container $bg_classes" $bg_css>

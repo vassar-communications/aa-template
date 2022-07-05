@@ -36,7 +36,7 @@ function site_header($extras=false) {
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-
+  <script src="https://player.vimeo.com/api/player.js"></script>
 
 <!-- the unpkg files were taking too long to come in
   <script src="https://unpkg.com/flickity@2.2/dist/flickity.pkgd.js"></script>
