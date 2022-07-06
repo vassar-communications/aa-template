@@ -9879,15 +9879,21 @@ details[open] {
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
 }
 
-details .dropdown__content .col-sm {
-  opacity: 0;
-  transition: 1s all ease;
+/*
+details .dropdown__content {
+  .col-sm {
+    opacity: 0;
+    transition: 1s all ease;
+//    transition-delay: 1s;
+  }
 }
 
-details.open .dropdown__content .col-sm {
-  opacity: 1;
+details.open .dropdown__content {
+  .col-sm {
+    opacity: 1;
+  }
 }
-
+*/
 .dropdown--feature summary {
   font-size: 2.1rem;
   position: relative;
@@ -10878,7 +10884,7 @@ nav.nav--top {
   color: #fff;
 }
 .video-header .title-cover {
-  background: rgba(0, 0, 0, 0.26);
+  background: rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 0;
   left: 0;
