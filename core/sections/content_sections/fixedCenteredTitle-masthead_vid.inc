@@ -56,6 +56,10 @@ return <<<TMP
   }
 }
 
+.sec-fixedCenteredTitleMasthead.show-title .section-title-container {
+    background: rgba(0, 0, 0, 0.1);
+}
+
 </style>
 
     <div class="section masthead-video-background sec-fixedCenteredTitleMasthead is-loading $section_classes" $css>
