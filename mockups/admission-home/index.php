@@ -89,7 +89,7 @@ $page_classes = "admission-demo";
         <?php echo item_cardWithText(
             'Applying to Vassar',
             '',
-            ['url' => '/mockups/admission-home/apply/Untitled-3.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => '/mockups/admission-home/assets/images/0085_16_04_KR_0008.jpg', 'alt' => 'asdfasdfds' ],
             'fancy-card animation-item card-has-cta-icon'
         ); ?>
 
