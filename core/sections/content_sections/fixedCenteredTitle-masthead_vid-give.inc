@@ -1,6 +1,6 @@
 <?php
 
-function sec_fixedCenteredTitle_masthead_vid(
+function sec_fixedCenteredTitle_masthead_vid_give(
     $title=null,
     $intro=null,
     $section_classes=null,
@@ -70,9 +70,9 @@ return <<<TMP
         </div>
 
 
-<!--
+
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/726089539?h=002128ec09" width="640" height="360" frameborder="0" allowfullscreen></iframe>
--->
+
 
 
         <div class="video-background">
@@ -88,6 +88,6 @@ return <<<TMP
 TMP;
 }
 
-function end_sec_fixedCenteredTitle_masthead_vid($extras = false) {
+function end_sec_fixedCenteredTitle_masthead_vid_give($extras = false) {
     return '</div></div>';
 }
