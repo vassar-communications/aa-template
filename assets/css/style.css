@@ -12939,6 +12939,10 @@ html.give ul.nav.nav-pills {
   color: var(--color-vassar-burgundy);
 }
 
+.badge--fearlessly-consequential {
+  background: #fff;
+}
+
 /*	LAYOUT
 	====== */
 html {
