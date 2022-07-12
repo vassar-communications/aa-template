@@ -244,7 +244,7 @@ $page_classes = "academics-cy academics give";
 
 
 
-
+<?php /*
 
 <?php echo sec_fullBleedImageColumn(
     null,
@@ -280,6 +280,9 @@ $page_classes = "academics-cy academics give";
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
+*/ ?>
+
 
 
 <?php echo sec_wideContent(
@@ -334,7 +337,7 @@ $page_classes = "academics-cy academics give";
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/alumni/give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675.jpg',
-    'theme-dark-burgundy  image-is-first',
+    'theme-burgundy image-is-first quad-pattern has-bg',
     'mw-100'
 ); ?>
 

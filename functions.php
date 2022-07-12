@@ -60,8 +60,6 @@ $(document).ready(function () {
       // add the value at the end of the array
       arr.push(color);
 
-//      $('#$word_selector_id').toggleClass('bob1').toggleClass('bob2');
-
       // run it again for the next number
       setTimeout(function() {
           recurse(counter + 1);
