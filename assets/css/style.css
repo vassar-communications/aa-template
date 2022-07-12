@@ -12939,8 +12939,15 @@ html.give ul.nav.nav-pills {
   color: var(--color-vassar-burgundy);
 }
 
-.badge--fearlessly-consequential {
+.footer .border-double {
+  border: 6px double var(--color-vassar-dark-burgundy);
+}
+.footer .footer-badge a {
+  color: var(--footer-badge-link-color, #fff) !important;
+}
+.footer .badge-theme-white {
   background: #fff;
+  --footer-badge-link-color: var(--color-vassar-dark-burgundy);
 }
 
 /*	LAYOUT

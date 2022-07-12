@@ -1,3 +1,15 @@
-.badge--fearlessly-consequential {
-  background: #fff;
+.footer {
+  .border-double {
+    border: 6px double var(--color-vassar-dark-burgundy);
+  }
+
+  .footer-badge {
+    a {
+      color: var(--footer-badge-link-color, #fff) !important;
+    }
+  }
+  .badge-theme-white {
+    background: #fff;
+    --footer-badge-link-color: var(--color-vassar-dark-burgundy);
+  }
 }
