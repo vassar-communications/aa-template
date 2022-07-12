@@ -145,7 +145,7 @@ $page_classes = "academics-cy academics give";
 </style>
 
 
-<?php echo sec_fixedCenteredTitle_masthead(
+<?php echo sec_fixedCenteredTitle_masthead_vid_give(
     '<b class="slide-from-left">Give</b>
    <b class="slide-from-right">Back</b>',
     null,
@@ -161,7 +161,7 @@ $page_classes = "academics-cy academics give";
       ']
 ); ?>
 
-<?php echo end_sec_fixedCenteredTitle_masthead(); ?>
+<?php echo end_sec_fixedCenteredTitle_masthead_vid_give(); ?>
 
 <?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-breadcrumb.php');?>

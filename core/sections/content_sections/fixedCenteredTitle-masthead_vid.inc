@@ -69,12 +69,6 @@ return <<<TMP
           {$section_title($title, $title_classes)}
         </div>
 
-
-<!--
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/726089539?h=002128ec09" width="640" height="360" frameborder="0" allowfullscreen></iframe>
--->
-
-
         <div class="video-background">
           <iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" id="main-video" src="https://player.vimeo.com/video/726089539?h=002128ec09&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;muted=1&amp;autoplay=1&amp;loop=1&amp;byline=0&amp;title=0"  title="This-is-Vassar-Anthem-slide-loop"></iframe>
         </div>
