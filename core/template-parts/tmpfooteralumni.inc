@@ -38,7 +38,7 @@ function site_footeralumni() {
 
 			<div class="col-2 footer-badge badge-theme-white border-double fixit p-3 my-4 shadow-lg">
 <!--				<div><span class="tagline mb-2">Give to Vassar</span></div> -->
-				<img src="/assets/images/VassarFearlesslyConsequential_Wordmark_03.png" />
+				<img src="/assets/images/fearlessly-consequential.jpg" />
 				  <a href="/admission/explore/academics/" class="donate-btn px-0 mt-4 btn btn-link">Learn More <i class="circle fa-solid fa-arrow-right"></i></a>
 
 </div>
