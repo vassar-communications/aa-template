@@ -130,7 +130,7 @@ $page_classes = "advancement-demo";
 
   <?php echo niceQuotes(); ?>
 
-<p class="section-intro-text">Our shared Vassar DNA binds us together and motivates us to remain connected and committed to the college and each other.</p>
+<p class="section-intro-text">Our shared Vassar DNA binds us together and motivates us to remain connected and committed to the College and each other.</p>
 
 <?php echo end_sec_wideContent(); ?>
 
