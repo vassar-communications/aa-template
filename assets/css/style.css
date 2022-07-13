@@ -9356,23 +9356,23 @@ a:hover, a:visited:hover {
 
 .theme-burgundy .card--withParagraph .cta-icon-label {
   color: var(--color-vassar-burgundy);
-  color: #c00;
+  color: #333;
   font-variation-settings: "wght" 700;
 }
 
 .theme-burgundy .card--withParagraph.card-has-cta-icon .card-body:after {
   background: var(--color-vassar-burgundy);
-  background: #c00;
+  background: #333;
   color: #fff;
 }
 
 .theme-burgundy .card--withParagraph:hover .cta-icon-label {
-  color: #333;
+  color: #c00;
 }
 
 .theme-burgundy .card--withParagraph.card-has-cta-icon:hover .card-body:after {
   background: var(--color-vassar-burgundy);
-  background: #333;
+  background: #c00;
   color: #fff;
 }
 
@@ -14124,23 +14124,23 @@ a:hover, a:visited:hover {
 
 .theme-burgundy .card--withParagraph .cta-icon-label {
   color: var(--color-vassar-burgundy);
-  color: #c00;
+  color: #333;
   font-variation-settings: "wght" 700;
 }
 
 .theme-burgundy .card--withParagraph.card-has-cta-icon .card-body:after {
   background: var(--color-vassar-burgundy);
-  background: #c00;
+  background: #333;
   color: #fff;
 }
 
 .theme-burgundy .card--withParagraph:hover .cta-icon-label {
-  color: #333;
+  color: #c00;
 }
 
 .theme-burgundy .card--withParagraph.card-has-cta-icon:hover .card-body:after {
   background: var(--color-vassar-burgundy);
-  background: #333;
+  background: #c00;
   color: #fff;
 }
 

@@ -73,7 +73,7 @@ $page_classes = "admission-demo";
     '<p class="section-intro-text">Our Admission team is here to help you with:</p>',
     'sec-fixedCenteredTitle theme-verylightgray here-to-help',
     'mw-4',
-    ['bg-image-url' => '/mockups/admission-home/journey/0100-21-10-kr-fw-general-vassar-0057.jpg',
+    ['bg-image-url' => '/mockups/admission-home/assets/images/0145-15-05-hw-campus-vassar-vb-4747.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -89,7 +89,7 @@ $page_classes = "admission-demo";
         <?php echo item_cardWithText(
             'Applying to Vassar',
             '',
-            ['url' => '/mockups/admission-home/assets/images/0085_16_04_KR_0008.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => '/mockups/admission-home/apply/Untitled-1.jpg', 'alt' => '' ],
             'fancy-card animation-item card-has-cta-icon'
         ); ?>
 
@@ -101,7 +101,7 @@ $page_classes = "admission-demo";
         <?php echo item_cardWithText(
             'Financial Aid Information',
             '',
-            ['url' => '/mockups/admission-home/apply/Untitled-2.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => '/mockups/admission-home/apply/Untitled-2.jpg', 'alt' => '' ],
             'fancy-card animation-item card-has-cta-icon'
         ); ?>
 
@@ -111,9 +111,9 @@ $page_classes = "admission-demo";
 
 
         <?php echo item_cardWithText(
-            'Request Information',
+            'Visit',
             '',
-            ['url' => '/mockups/admission-home/apply/Untitled-1.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => '/mockups/admission-home/assets/images/0219-17-05-kr-spring-vassar-0043.jpg', 'alt' => '' ],
             'fancy-card animation-item card-has-cta-icon'
         ); ?>
 

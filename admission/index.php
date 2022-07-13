@@ -75,7 +75,7 @@ $page_classes = "admission-demo";
     '<p class="section-intro-text">Our Admission team is here to help you with:</p>',
     'sec-fixedCenteredTitle theme-verylightgray here-to-help',
     'mw-4',
-    ['bg-image-url' => '/mockups/admission-home/journey/0100-21-10-kr-fw-general-vassar-0057.jpg',
+    ['bg-image-url' => '/mockups/admission-home/assets/images/0145-15-05-hw-campus-vassar-vb-4747.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
