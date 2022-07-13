@@ -342,23 +342,6 @@ $('.sec-fixedCenteredTitleMasthead').addClass('show-title');
         offset: '66%'
     });
 
-
-
-    $('.card-array .section-content ').masonry({
-        // options
-        itemSelector: '.card'
-        //  columnWidth: 200
-    });
-
-    $('.layout-masonry').masonry({
-        // options
-        itemSelector: '.masonry-item',
-        columnWidth: '.grid-sizer',
-        percentPosition: true,
-        gutter: 10
-
-    });
-
     const iframe = document.getElementById("main-video");
 
     if (iframe) {
@@ -377,25 +360,22 @@ $('.sec-fixedCenteredTitleMasthead').addClass('show-title');
 
 if ($('.featureImage-text-ticker').length) {
     $('.featureImage-text-ticker').flickity({
-        // options
-//    cellAlign: 'left',
         contain: true,
-// groupCells: true,
-//freeScroll: true,
         selectedAttraction: 0.009,
         friction: 0.2,
         pageDots:  false,
-    autoPlay: 10000,
+	    autoPlay: 6000,
         wrapAround: true
     });
 }
 
+/*
 $( window ).resize(function() {
     $( ".featureImage-text-ticker" ).each(function( index ) {
 //    $( this ).height( $( this ).find(".carousel-cell-content").height() );
     });
 });
-
+*/
 
 $( window ).resize(function() {
   $( ".thumbnail-text-ticker" ).each(function( index ) {

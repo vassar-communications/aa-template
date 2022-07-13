@@ -78,9 +78,6 @@ function site_footeralumni() {
 </footer>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
-<script src="{$project_paths['public_path']}/assets/js/libraries/masonry.pkgd.min.js"></script>
-
-<script src="{$project_paths['public_path']}/assets/js/libraries/flickity.js"></script>
 
 <!--
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
