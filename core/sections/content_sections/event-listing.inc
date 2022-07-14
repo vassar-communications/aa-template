@@ -56,8 +56,6 @@ function sec_eventListing( $extras = false ) {
         </div>
       </div>
     </div>
-    </div>
-
 
     <div class="event">
       <div class="calendar">
@@ -75,6 +73,10 @@ function sec_eventListing( $extras = false ) {
         </div>
       </div>
     </div>
+
+    </div>
+
+
 
 
 
