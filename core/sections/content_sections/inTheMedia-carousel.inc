@@ -53,7 +53,7 @@ function inTheMediaCarousel() {
       </div>
        <div class="figcaption pt-5">
         <small class="mb-3 d-block">June 21, 2022</small>
-<p><strong>Jason Blum ’91’s</strong> $10 million gift to <strong>Vassar College</strong> was the subject of a <a href="https://variety.com/2022/film/news/jason-blum-blumhouse-vassar-college-scholarship-1235299680/">Variety</a></em></a> story.</p>
+<p><strong>Jason Blum ’91’s</strong> $10 million gift to <strong>Vassar College</strong> was the subject of a <a href="https://variety.com/2022/film/news/jason-blum-blumhouse-vassar-college-scholarship-1235299680/"><em>Variety</em></a> story.</p>
           <a href="#" class="px-0 btn btn-link">Read more on <em>Variety</em>.<i class="circle fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
