@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/give/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/items/cardWithText.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/items/cardWithText.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sections/content_sections/fixedCenteredTitle-masthead_vid.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/content_sections/fixedCenteredTitle-masthead_vid.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sections/content_sections/inTheMedia-carousel.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/content_sections/inTheMedia-carousel.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
       <workItem from="1655999789131" duration="61000" />
       <workItem from="1657086102806" duration="43548000" />
       <workItem from="1657276853319" duration="56020000" />
-      <workItem from="1657765727741" duration="13754000" />
+      <workItem from="1657765727741" duration="13986000" />
     </task>
     <servers />
   </component>

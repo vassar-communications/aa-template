@@ -19,138 +19,8 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<<<<<<< Updated upstream
-<style>
-
-
-/*  spark */
-
-.spark-1 {
-  border: 1px solid #fff;
-  border-top: none;
-  border-right: none;
-  opacity: 1;
-  transform-origin: bottom left;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-.spark-line {
-  position: absolute;
-  width: 10rem;
-  border-top: 2px solid #fff;
-  bottom: 0;
-  transform: rotate(-45deg);
-  transform-origin: bottom left;
-}
-
-.line-1 {
-  transform: rotate(-45deg);
-}
-
-.line-2 {
-  transform: rotate(-22deg);
-}
-
-.line-3 {
-  transform: rotate(-67deg);
-}
-
-.spark-container {
-  width: 10rem;
-  height: 10rem;
-  position: relative;
-}
-
-.spark-container > * {
-  transition: 1s all ease;
-  width: 0;
-  height: 0;
-  transition-delay: 0.4s;
-}
-
-.content-appeared .spark-1 {
-  width: 10rem;
-  height: 10rem;
-  opacity: 0;
-}
-
-.content-appeared .spark-line {
-  width: 20rem;
-  opacity: 0;
-}
-
-/* end spark */
-
-.diag-btn {
-  background-color: #fff !important;
-  color: #333 !important;
-  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
-  transform: skewX(-10deg);
-  display: inline-block;
-  transition: 1s all ease;
-  transition-delay: 1s;
-  clip-path: inset(0 100% 0 0);
-}
-.diag-btn span {
-  display: inline-block;
-  transform: skewX(10deg);
-  font-variation-settings: "wght" 500;
-}
-.content-appeared .diag-btn {
-  clip-path: inset(0 0 0 0);
-}
-
-
-
-
-
-    .give .equal .btn {
-        color: #222;
-    }
-
-    .give .equal i.circle.fa-solid.fa-arrow-right {
-        border-color: #222;
-    }
-
-    .give .equal .btn:hover i.circle.fa-solid.fa-arrow-right {
-        background: #222;
-        color: #fff!important;
-    }
-
-    .theme-cream .btn-link:hover i.circle.fa-solid {
-        background: #222;
-        border: #222;
-        color: #fff !important;
-    }
-
-    .theme-cream .btn-link:hover {
-        color: #222;
-    }
-
-    .theme-burgundy .btn-link:hover i.circle.fa-solid {
-        background: #fff;
-        border: #fff;
-        color: #222 !important;
-    }
-
-    .theme-burgundy .btn-link:hover,  .theme-dark-burgundy .btn-link:hover {
-        color:#fff !important;
-    }
-
-
-    .btn.btn-link:active , .btn.btn-link:focus {
-        box-shadow: none;
-    }
-</style>
-
-
-<?php echo sec_fixedCenteredTitle_masthead_vid_give(
-=======
 
 <?php echo sec_fixedCenteredTitle_masthead_vid(
->>>>>>> Stashed changes
     '<b class="slide-from-left">Give</b>
    <b class="slide-from-right">Back</b>',
     '727857417?h=67e1eace57',
@@ -166,12 +36,8 @@ $page_classes = "";
       ']
 ); ?>
 
-<<<<<<< Updated upstream
-<?php echo end_sec_fixedCenteredTitle_masthead_vid_give(); ?>
-=======
 <?php echo end_sec_fixedCenteredTitle_masthead_vid(); ?>
 
->>>>>>> Stashed changes
 
 <?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-breadcrumb.php');?>
@@ -191,86 +57,15 @@ $page_classes = "";
 
 
 <?php echo masthead_interiorPage(
-  'The Many Ways to Give Back',
-  'Connect with the alumni community and learn how you can continue to support Vassar.',
-  'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/0002-18-01-kr-scc-estrella-vassar-0048.jpg');
+    'The Many Ways to Give Back',
+    'Connect with the alumni community and learn how you can continue to support Vassar.',
+    'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/0002-18-01-kr-scc-estrella-vassar-0048.jpg');
 ?>
 
 
 
-<<<<<<< Updated upstream
-<?php
-/*
- echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/0002-18-01-kr-scc-estrella-vassar-0048.jpg',
-    'mb-5 page-title-section',
-    'mw-100'
-); ?>
 
 
-<div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 text-center has-accent-border">The Many Ways to Give Back</h2>
-    <p style="
-        color: #666;
-        text-align: center;
-        margin-top: 5rem;
-        font-size: 2rem;
-        max-width: 40rem;
-        margin-left: auto;
-        margin-right: auto;
-
-        background-image: url(spark.gif);
-            background-repeat: no-repeat;
-            background-position: bottom center;
-            padding-bottom: 7rem;
-            background-size: 7rem;
-    ">Connect with the alumni community and learn how you can continue to support Vassar.</p>
-</div>
-
-<?php echo end_sec_fullBleedImageColumn(); */ ?>
-
-
-
-
-
-<?php /*
-
-<?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/give/0135_15_11_CS_294_1.jpg',
-    'theme-burgundy image-is-first quad-pattern has-bg',
-    'mw-100'
-); ?>
-
-
-<div class="animate-when-content-appears animation-slide-up">
-
-  <div class="spark-container">
-    <div class="spark-1"></div>
-    <div class="spark-line line-1"></div>
-    <div class="spark-line line-2"></div>
-    <div class="spark-line line-3"></div>
-  </div>
-
-  <h2 class="display-2 mb-5 new-section-title-design animate-when-content-appears animation-fade-in animation-group" style="--sequential-animation-item-gap: 0.2s; --new-title-underline-color: #fff">
-    <span class="animation-item">Fearlessly</span>
-    <span class="animation-item">Consequential</span>
-    <span class="animation-item">Campaign</span>
-  </h2>
-
-    <p>Your gift to Vassar can make a difference.</p>
-
-<!--
-    <a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link">Learn more about our new campaign <i class="circle fa-solid fa-arrow-right"></i></a>
--->
-=======
->>>>>>> Stashed changes
-
-
-
-
-*/ ?>
 
 
 
@@ -326,11 +121,7 @@ $page_classes = "";
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/alumni/give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675.jpg',
-<<<<<<< Updated upstream
-    'theme-burgundy image-is-first quad-pattern has-bg',
-=======
     'theme-burgundy quad-pattern has-bg image-is-first',
->>>>>>> Stashed changes
     'mw-100'
 ); ?>
 
