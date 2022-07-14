@@ -33,48 +33,32 @@ $page_classes = "alive";
 <?php echo end_sec_toplinksNav(); ?>
 
 
-<?php echo sec_hasColumns(
+
+<?php echo sec_fullBleedImageColumn(
     null,
-    2,
-    null,
-    'animate-when-content-appears animation-slide-up',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
+    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
+    'image-is-first theme-cream',
+    ''
 ); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <h2 class="display-2 mb-5 border-animate">Financial Aid</h2>
+    <p>Through a generous financial aid program, Vassar meets 100% of the full demonstrated need of all admitted students for all four years. Financial aid is awarded exclusively on the basis of need as determined by the Free Application for Federal Student Aid (FAFSA) and the CSS Profile.</p>
+
+    <a href="/admission/financial-aid/applying-for-aid" class="px-0 btn btn-link arrow">Learn more and apply for aid</a>
 
 
-<?php echo item_col('equal'); ?>
-<h1 class="mb-3">Financial Aid</h1>
-<p>Through a generous financial aid program, Vassar meets 100% of the full demonstrated need of all admitted students for all four years. Financial aid is awarded exclusively on the basis of need as determined by the Free Application for Federal Student Aid (FAFSA) and the CSS Profile.</p>
-
-
-<p class="mb-3">
-    <a href="/admission/financial-aid/applying-for-aid" class="px-0 btn btn-link">Learn more and apply for aid <i class="circle fa-solid fa-angle-right"></i></a>
-</p>
-
-
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('equal'); ?>
-<div class="card">
-    <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
-    </div>
 </div>
-<?php echo end_item_col(); ?>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php echo end_sec_hasColumns(); ?>
+
 
 <?php /*  PAGE CONTENT === */ ?>
 
+<!-- Related Topics -->
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/financial-aid/financial-aid-calculators.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/financial-aid/financial-aid-forms.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/financial-aid/financial-aid-types-of-aid.php');?>
 <?php echo end_sec_relatedTopics(); ?>
-
 
 <?php echo site_footer(); ?>

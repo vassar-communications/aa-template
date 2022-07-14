@@ -19,7 +19,6 @@ function sec_fixedCenteredTitle_masthead(
 
     if (get_extras_value('bg-image-url', $extras)) {
         $section_classes .= ' has-image';
-
         $bg_url = get_extras_value('bg-image-url', $extras);
         $bg_alt = get_extras_value('bg-image-alt', $extras);
         $bg_classes = get_extras_value('bg-image-classes', $extras);
@@ -29,10 +28,10 @@ function sec_fixedCenteredTitle_masthead(
     $css = get_extras_value( 'css', $extras, 'style="%s"' );
 
     return <<<TMP
-    <div class="section sec-fixedCenteredTitleMasthead $section_classes" $css>
+    <div class="section min-vh-100  sec-fixedCenteredTitleMasthead $section_classes" $css>
 
       <div class="section-bg-image-container $bg_classes" $bg_css>
-        <div class="section-title-container">
+        <div class="position-fixed w-100 vh-100 d-flex justify-content-center align-items-center section-title-container ">
           {$section_title($title, $title_classes)}
         </div>
         <img class="section-bg-image" src="$bg_url" alt="$bg_alt" />

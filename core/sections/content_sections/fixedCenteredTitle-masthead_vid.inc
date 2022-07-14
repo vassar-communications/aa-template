@@ -2,7 +2,11 @@
 
 function sec_fixedCenteredTitle_masthead_vid(
     $title=null,
+<<<<<<< Updated upstream
     $intro=null,
+=======
+    $video=null,
+>>>>>>> Stashed changes
     $section_classes=null,
     $content_classes=null,
     $extras=null
@@ -28,6 +32,7 @@ function sec_fixedCenteredTitle_masthead_vid(
 
     $css = get_extras_value( 'css', $extras, 'style="%s"' );
 
+<<<<<<< Updated upstream
 return <<<TMP
 <style>
 .masthead-video-background {
@@ -71,6 +76,26 @@ return <<<TMP
 
         <div class="video-background">
           <iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" id="main-video" src="https://player.vimeo.com/video/726089539?h=002128ec09&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;muted=1&amp;autoplay=1&amp;loop=1&amp;byline=0&amp;title=0"  title="This-is-Vassar-Anthem-slide-loop"></iframe>
+=======
+    return <<<TMP
+
+
+    <div class="section min-vh-100 masthead-video-background sec-fixedCenteredTitleMasthead is-loading $section_classes" $css>
+
+      <div class="section-bg-image-container $bg_classes" $bg_css>
+        <div class="position-fixed w-100 vh-100 d-flex justify-content-center align-items-center section-title-container">
+
+          {$section_title($title, $title_classes)}
+        </div>
+
+
+
+
+
+
+        <div class="video-background">
+          <iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" id="main-video" src="https://player.vimeo.com/video/$video&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;muted=1&amp;autoplay=1&amp;loop=1&amp;byline=0&amp;title=0"  title="This-is-Vassar-Anthem-slide-loop"></iframe>
+>>>>>>> Stashed changes
         </div>
 
 

@@ -13,7 +13,7 @@ function toplinksNav($extras = false) {
 $template = <<<TMP
 
 <nav class="section">
-      <ul class="nav nav-pills">
+      <ul class="nav nav-pills pb-3">
 
 TMP;
 

@@ -49,7 +49,7 @@ $page_classes = "";
 <div class="alert alert-light shadow mw-2">
     <h6 class="strong">Ready to Mentor?</h6>
     <p>Fill out the Volunteer Interest Form to learn more about mentoring opportunities!</p>
-    <a href="#" class="px-0 btn btn-link">Vassar Volunteer Interest Form<i class="px-3  fa-solid fa-arrow-up-right-from-square"></i></a><br/>
+    <a href="#" class="px-0 btn btn-link arrow">Vassar Volunteer Interest Form<i class="px-3  fa-solid fa-arrow-up-right-from-square"></i></a><br/>
 
 </div>
 
@@ -69,7 +69,7 @@ $page_classes = "";
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-give-be-a-mentor.php');?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-give-volunteer.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-resources-vassar-network.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/resources-vassar-network.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
 

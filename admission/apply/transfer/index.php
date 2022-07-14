@@ -35,26 +35,19 @@ $page_classes = "";
 
 <?php /*  PAGE CONTENT === */ ?>
 
-<?php echo sec_hasColumns(
+
+<?php echo sec_fullBleedImageColumn(
     null,
-    2,
-    null,
-    'animate-when-content-appears animation-slide-up',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
+    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
+    'image-is-first theme-cream',
+    ''
 ); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <h3 class="display-4">Information for Transfer Applicants</h3>
+    <p>Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. Transfer admission is need-aware and spots are limited.</p>
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php echo item_col('equal'); ?>
-
-<h3>Information for Transfer Applicants</h3>
-<p>Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. Transfer admission is need-aware and spots are limited.</p>
-
-
-<?php echo end_item_col(); ?>
-<?php echo item_col('equal'); ?>
-[insert deadlines card]
-<?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
 
 <?php echo sec_regularContent(
     null,
@@ -104,10 +97,10 @@ $page_classes = "";
 <p>For more than 35 years, <a href="https://offices.vassar.edu/exploring-transfer/">Exploring Transfer</a> has brought students from select community colleges to Vassar’s campus for an intensive five-week period during the summer. </p>
 <?php echo end_sec_regularContent(); ?>
 
+<!-- Related Topics -->
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-how-to-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-first-year.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-international.php');?>
 <?php echo end_sec_relatedTopics(); ?>
-
 <?php echo site_footer(); ?>

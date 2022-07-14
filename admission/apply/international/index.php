@@ -31,25 +31,18 @@ $page_classes = "";
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
-<?php echo sec_hasColumns(
+
+<?php echo sec_fullBleedImageColumn(
     null,
-    2,
-    null,
-    'animate-when-content-appears animation-slide-up',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
+    'https://vassartest.chuckyatsuk.com/img/apply/international/0074_15_08_KR_0088.jpg',
+    'image-is-first theme-cream',
+    ''
 ); ?>
-
-<?php echo item_col('equal'); ?>
-<h3 class="display-4">Vassar believes in building a vibrant community of global citizens. </h3>
-<p>Vassar students come from more than 79 countries around the world and international students make up more than 10% of our community.</p>
-<?php echo end_item_col(); ?>
-<?php echo item_col('equal'); ?>
-
-<img src="https://vassartest.chuckyatsuk.com/img/apply/international/0074_15_08_KR_0088.jpg" />
-<?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
-
+<div class="animate-when-content-appears animation-slide-up">
+    <h3 class="display-4">Vassar believes in building a vibrant community of global citizens. </h3>
+    <p>Vassar students come from more than 79 countries around the world and international students make up more than 10% of our community.</p>
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 
@@ -66,9 +59,9 @@ $page_classes = "";
 <p>When applying for admission to Vassar, anyone who is not a citizen or a permanent resident of the United States is considered an international student. If you have applied for a green card (permanent resident status) but have not received it by the time you apply, then you are considered an international student.</p>
 <p><strong>For our general admission requirements for all students, please review the following pages:</strong><br/>
 <p>
-    <a href="/admission/apply/first-year-applicants"  class="px-0 btn btn-link">First-Year Application Requirements<i class="circle fa-solid fa-angle-right"></i></a></p>
+    <a href="/admission/apply/first-year-applicants"  class="px-0 btn btn-link arrow">First-Year Application Requirements<i class="circle fa-solid fa-angle-right"></i></a></p>
 <p>
-    <a href="/admission/apply/transfer"  class="px-0 btn btn-link">Transfer Application Requirements<i class="circle fa-solid fa-angle-right"></i></a></p>
+    <a href="/admission/apply/transfer"  class="px-0 btn btn-link arrow">Transfer Application Requirements<i class="circle fa-solid fa-angle-right"></i></a></p>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -164,10 +157,10 @@ $page_classes = "";
 
 
 
+<!-- Related Topics -->
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-how-to-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-first-year.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-transfer.php');?>
 <?php echo end_sec_relatedTopics(); ?>
-
 <?php echo site_footer(); ?>

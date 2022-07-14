@@ -3,7 +3,7 @@
 function item_cardWithText(
   $title=false,
   $card_link_url,
-  $card_image_info,
+  $card_image_info=false,
   $classes=null,
   $extras=null
 ) {
@@ -21,19 +21,22 @@ $card_image_url = $card_image_info['url'];
 $card_image_alt = $card_image_info['alt'];
 
 return <<<TMP
-<a class="card card--withParagraph $classes" $css href="$card_link_url">
+<div class="card $classes" $css>
+<a href="$card_link_url" class="stretched-link"></a>
   <img src="$card_image_url" class="card-img-top" alt="$card_image_alt">
   <div class="card-body">
     {$card_title($title, $extras)}
     <div class="card-text">
+
 TMP;
+
 }
 
-
-function end_item_cardWithText($extras=null) {
+function end_item_cardWithText( $card_link_text=false,$extras=null) {
   return <<<TMP
+  <div class="cta-icon-label btn btn-link">$card_link_text</div>
     </div>
   </div>
-</a>
+</div>
 TMP;
 }

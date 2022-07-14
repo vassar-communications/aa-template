@@ -34,7 +34,11 @@ $page_classes = "";
 <?php echo end_sec_toplinksNav(); ?>
 
 
-
+<?php echo masthead_interiorPage(
+    'Our team is here to help you.',
+    'Our team is here to help you.',
+    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg');
+?>
 
 <div class="buffer"></div>
 <?php /*  PAGE CONTENT === */ ?>

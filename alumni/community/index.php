@@ -7,7 +7,7 @@ include($project_paths['main_project_root'].'/functions.php');
 /*  PAGE INFO ============ */
 
 $page_title = "Our Community";
-$page_classes = "academics-cy academics";
+$page_classes = "";
 
 /*  ---------------------- */
 
@@ -29,7 +29,7 @@ $page_classes = "academics-cy academics";
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/community/overview/0037-19-02-kr-ifill-sherrilyn-vassar-7892.jpg',
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'replacethisalttext',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
@@ -103,9 +103,9 @@ $page_classes = "academics-cy academics";
     ''
 ); ?>
 
-<?php echo item_col('equalht'); ?>
+<?php echo item_col('d-flex'); ?>
 <a class="card mb-4" href="/alumni/community/alumni-groups">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/community/overview/0127_12_12_YEM_2467.jpg" class="card-img-top" alt="asdfasdfds">
+    <img src="https://vassartest.chuckyatsuk.com/img/alumni/community/overview/0127_12_12_YEM_2467.jpg" class="card-img-top" alt="replacealttext">
     <div class="card-body">
         <h4 class="card-title h2">Alumni Groups</h4>
         <div class="card-text">
@@ -117,9 +117,9 @@ $page_classes = "academics-cy academics";
 </a>
 <?php echo end_item_col(); ?>
 
-<?php echo item_col('equalht'); ?>
+<?php echo item_col('d-flex'); ?>
 <a class="card mb-4" href="/alumni/community/aavc">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/community/overview/0041-22-06-bl-reunion-vassar-6818.jpg" class="card-img-top" alt="asdfasdfds">
+    <img src="https://vassartest.chuckyatsuk.com/img/alumni/community/overview/0041-22-06-bl-reunion-vassar-6818.jpg" class="card-img-top" alt="replacealttext">
     <div class="card-body">
         <h4 class="card-title h2">Alumnae/i Association of Vassar</h4>
         <div class="card-text">
@@ -130,7 +130,7 @@ $page_classes = "academics-cy academics";
     </div>
 </a>
 <?php echo end_item_col(); ?>
-<?php echo item_col('equalht'); ?>
+<?php echo item_col('d-flex'); ?>
 <a class="card mb-4" href="/alumni/community/alumni-news">
     <img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" class="card-img-top" alt="Outcomes">
     <div class="card-body">
@@ -156,7 +156,7 @@ $page_classes = "academics-cy academics";
     <h2 class="display-2 mb-5">Notable Alumni</h2>
     <p>Discover remarkable Vassar alumni throughout history who have made an impact in their communities and industries throughout the world.</p>
 
-    <a href="/alumni/community/notable-alumni/" class="px-0 btn btn-link">Discover our alumni <i class="circle fa-solid fa-arrow-right"></i></a>
+    <a href="/alumni/community/notable-alumni/" class="px-0 btn btn-link arrow">Discover our alumni <i class="circle fa-solid fa-arrow-right"></i></a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

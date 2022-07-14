@@ -1,6 +1,6 @@
 .dropdown--feature {
   summary {
-    font-size: 2.1rem;
+    font-size: $h2-font-size;
     position: relative;
     text-align: center;
 
@@ -10,15 +10,15 @@
       left: 0;
       top: 0;
       height: 100%;
-      border-bottom: 1px solid #f00;
+      border-bottom: 1px solid $red;
       transition: 0.6s all ease;
       width: 0;
     }
     &:hover {
-      color: #f00;
+      color: $red;
 
       span:before {
-        color: #f00;
+        color: $red;
       }
 
       &:before {
@@ -36,7 +36,27 @@
     padding-left: 3.4rem;
 
     &:before {
-      font-size: 1.6em;
+      font-size: $h4-font-size;
     }
   }
+}
+
+
+.dropdown--feature span {
+  font-family: var(--font-big-serif);
+  font-weight: bold;
+  letter-spacing: -0.04rem;
+}
+
+
+.dropdown--feature summary:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  height: 100%;
+  border-bottom: 1px solid #f00;
+  transition: 0.6s all ease;
+  width: 0;
+
 }

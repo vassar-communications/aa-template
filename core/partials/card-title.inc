@@ -7,7 +7,7 @@ $card_title = function ($title, $extras) {
     if (!$heading_level) $heading_level = 3;
 
     return <<<TMP
-    <h$heading_level class="card-title">$title</h$heading_level>
+    <h$heading_level class="h$heading_level card-title">$title</h$heading_level>
   TMP;
   }
   else return false;

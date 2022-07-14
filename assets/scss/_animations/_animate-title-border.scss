@@ -1,0 +1,29 @@
+.border-animate {
+  line-height: 1;
+  position: relative;
+  margin-bottom: 3rem;
+
+  &:after {
+    position: absolute;
+    bottom: -1.5rem;
+    border-top: 2px solid var(--new-title-underline-color, $red);
+    content: '';
+    left: 0;
+    width: 4rem;
+  }
+
+}
+
+h2.border-animate:after {
+  border-color: $red !important;
+}
+
+
+.border-animate:after {
+  width: 0!important;
+  transition: 1s all ease!important;
+  transition-delay: 0.6s!important;
+}
+.content-appeared .border-animate:after {
+  width: 4rem!important;
+}

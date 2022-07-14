@@ -29,8 +29,8 @@
   text-decoration: none;
 
   &:link .card-body {
-    background-color: var(--section-bg-color, #fff);
-    color: var(--section-text-color, #333);
+    background-color: var(--section-bg-color, $white);
+    color: var(--section-text-color, $gray-800);
   }
 
   &:hover {
@@ -77,7 +77,7 @@
     align-items: center;
     display: flex;
     margin-bottom: 0;
-    font-family: var(--bs-font-sans-serif);
+   // font-family: var(--bs-font-sans-serif);
     text-align: left;
   }
   .card-img-content {
@@ -92,19 +92,35 @@
     padding: 0;
   }
   &.text-at-top {
+
+    .card-img-overlay {
+      display: flex;
+      width: 100%;
+      align-items: start;
+      background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 20%,rgba(0,0,0,0) 100%);
+    }
+
+    /* apply gradient to card instead of just title for better readability
     .card-img-content {
       background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 20%,rgba(0,0,0,0) 100%);
     }
+
+    */
+
   }
   &.text-at-bottom {
     .card-img-overlay {
       display: flex;
       width: 100%;
       align-items: end;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) 40%);
     }
+    /* apply gradient to card instead of just title for better readability
     .card-img-content {
       background: linear-gradient(to top, rgba(0,0,0,0.6) 20%,rgba(0,0,0,0) 100%);
       width: 100%;
-    }
+       }
+       */
+
   }
 }

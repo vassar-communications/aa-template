@@ -24,7 +24,7 @@ function masthead_interiorPage(
 $mastheadMarkup .= <<<TMP
   <div class="animate-when-content-appears animation-slide-up">
     <h2 class="masthead-title display-2 text-center has-accent-border">$title</h2>
-    <p class="section-intro">$intro</p>
+    <p class="section-intro text-center mt-6">$intro</p>
   </div>
 TMP;
 

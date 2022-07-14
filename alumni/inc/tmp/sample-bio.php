@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Stephen Hankins ‘85 P’13, ’17 (he/him/his)',
     '#',
-    ['url' => 'https://www.vassar.edu/sites/default/files/2021-06/hankins.jpeg', 'alt' => 'asdfasdfds' ],
+    ['url' => 'https://www.vassar.edu/sites/default/files/2021-06/hankins.jpeg', 'alt' => 'replacealttext' ],
     'mb-4',
     ['hlevel' => 4]
 ); ?>

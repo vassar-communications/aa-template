@@ -64,11 +64,11 @@ $page_classes = "";
 
 
 
+<!-- Related Topics -->
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/financial-aid/financial-aid-types-of-aid.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/financial-aid/financial-aid-forms.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/financial-aid/financial-aid-apply.php');?>
 <?php echo end_sec_relatedTopics(); ?>
-
 
 <?php echo site_footer(); ?>

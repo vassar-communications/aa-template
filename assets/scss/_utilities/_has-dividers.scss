@@ -1,10 +1,12 @@
 .has-dividers {
   [class|="col"],
   [class*="col"] {
-    border-right: 1px solid #aaa;
+    border-right: 1px solid $gray-500;
 
     &:last-child {
       border-right: none;
     }
   }
 }
+
+

@@ -1,0 +1,52 @@
+/* base styles for masthead full height */
+
+.section--top-level-masthead {
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 0;
+
+  .section-bg {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    clip-path: inset(0 0 0 0);
+
+  --bg-shim-background: rgba(0,0,0,0.05);
+
+  @include background-image( true );
+
+  --animate-shrink-in-startSize: 1.1;
+
+    &:after {
+      @include setup-animate-shrink-in();
+      @include animate-shrink-in();
+    }
+  }
+}
+
+.title-container {
+  background: var(--gradient--black-to-transparent);
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 20;
+  padding: 16vw 8vw 8vw;
+
+  .section__title__tagline {
+    margin-bottom: 0;
+  }
+  h1 {
+    --animation-rightshift-in-delay: 0.4s;
+    --animation-rightshift-in-dur: 1s;
+    @include setup-animation-rightshift-in();
+    @include animation-rightshift-in();
+  }
+
+
+}

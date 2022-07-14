@@ -1,9 +1,8 @@
 $(document).ready(function () {
-	$('details').on('click', function () {
-		$(this).toggleClass('open');
-	});
+    $('details').on('click', function () {
+        $(this).toggleClass('open');
+    });
 });
-
 
 
 // deprecate this one in favor of the new way
@@ -342,6 +341,10 @@ $('.sec-fixedCenteredTitleMasthead').addClass('show-title');
         offset: '66%'
     });
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     const iframe = document.getElementById("main-video");
 
     if (iframe) {
@@ -364,7 +367,11 @@ if ($('.featureImage-text-ticker').length) {
         selectedAttraction: 0.009,
         friction: 0.2,
         pageDots:  false,
+<<<<<<< Updated upstream
 	    autoPlay: 6000,
+=======
+    autoPlay: 6000,
+>>>>>>> Stashed changes
         wrapAround: true
     });
 }
@@ -395,6 +402,11 @@ $(function(){
 
 
 
+$('body').on('hidden.bs.modal', '.modal', function () {
+    $('video').trigger('pause');
+});
+
+
 
 /*	add active class to current page
 	=================== */
@@ -407,7 +419,4 @@ jQuery(function($) {
         }
     });
 });
-
-
-
 

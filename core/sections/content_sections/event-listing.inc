@@ -19,6 +19,11 @@ function sec_eventListing( $extras = false ) {
   <div class="event-listing">
     <div class="events">
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
       <div class="event">
         <div class="calendar">
           <div class="event__month">Jul</div>
@@ -56,8 +61,13 @@ function sec_eventListing( $extras = false ) {
         </div>
       </div>
     </div>
+<<<<<<< Updated upstream
 
     <div class="event">
+=======
+    
+     <div class="event">
+>>>>>>> Stashed changes
       <div class="calendar">
         <div class="event__month">Jul</div>
         <div class="event__day">23</div>
@@ -65,23 +75,38 @@ function sec_eventListing( $extras = false ) {
       <div class="event__image-container"><img class="event__image" src="https://connect.vassar.edu/s/1654/images/content_images/National_Mall_Square_637926272060260308.jpg"/></div>
       <div class="event__content-container">
         <h3 class="event__title">VCDC’s Meet Me on the Mall 2022</h3>
+<<<<<<< Updated upstream
         <div class="event__time">
           <i class="fa-regular fa-clock"></i> <span>3:00 p.m.–5:00 p.m.</span>
         </div>
+=======
+
+        <div class="event__time">
+          <i class="fa-regular fa-clock"></i> <span>3:00 p.m.–5:00 p.m.</span>
+        </div>
+
+>>>>>>> Stashed changes
         <div class="event__summary">
           <p>VCDC’s second annual Meet Me on the Mall to celebrate summer (rescheduled from June)! Join us on the National Mall in front of the carousel for a picnic with your Vassar family.</p>
         </div>
       </div>
     </div>
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
     </div>
+    
+    
+    
+    
 
 
 
 
 
     <div class="text-center mt-5">
-      <a href="" class="cta-link" style="background: #fff;">All events</a>
+          <a href="" class="mb-5 btn btn-lg btn-light arrow">All events</a>
     </div>
 
   </div>

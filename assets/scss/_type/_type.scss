@@ -1,0 +1,70 @@
+@font-face{
+  font-family: 'Source Sans Variable';
+  font-weight: 200 900;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('https://assets.codepen.io/49012/SourceSansVariable-Roman.ttf.woff2') format('woff2'),
+  url('https://assets.codepen.io/49012/SourceSansVariable-Roman.ttf.woff') format('woff'),
+  url('https://assets.codepen.io/49012/SourceSansVariable-Roman.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Source Sans Variable';
+  font-weight: 200 900;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf.woff2') format('woff2'),
+  url('https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf.woff') format('woff'),
+  url('https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf') format('truetype');
+}
+
+
+
+.sec-fixedCenteredTitle .section-intro-text,
+.section-intro-text,
+.intro-text {
+  font-size: $h1-font-size;
+  line-height: 1.16;
+  font-weight: 100;
+}
+
+
+.col--text,
+.section-content {
+  p, li {
+    font-family: var(--sansSerif);
+    font-size: var(--regularContent-font-size);
+    font-variation-settings: var(--regularContent-font-weight);
+    line-height: var(--regularContent-lineHeight);
+  }
+}
+
+
+.intro-line {
+  // font-size: calc(1.255rem + 0.06vw);
+  font-size: $font-size-lg;
+  text-transform: uppercase;
+  font-variation-settings: "wght" 700;
+  letter-spacing: $letter-spacing;
+  color: var(--intro-line-color, $burgundy);
+  display: block;
+  margin-bottom: $spacer * 3;
+  font-family: var(--bs-font-sans-serif);
+  // text-align: center;
+}
+
+
+strong {
+  font-variation-settings: "wght" 700;
+}
+
+
+.tagline {
+  //font-size: calc(1.255rem + 0.06vw);
+  font-size:  $h5-font-size;
+  text-transform: uppercase;
+  font-variation-settings: "wght" 700;
+  letter-spacing: 0.1rem;
+  display: block;
+  font-family: var(--bs-font-sans-serif);
+}

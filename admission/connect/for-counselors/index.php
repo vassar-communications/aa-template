@@ -50,7 +50,7 @@ $page_classes = "";
 <?php echo item_col(''); ?>
 <h3 class="display-5 mb-3">Information for High School Counselors</h3>
 <p class="mb-3">Vassar was built to advance the notion of what a liberal arts college can be. From day one, we’ve empowered students to explore widely, delve deeply, and investigate every new idea with an open mind. Please don’t hesitate to be in touch as you help your students explore their college options. </p>
-<a href="/admission/visit/in-person"  class="px-0 btn btn-link">Learn more<i class="circle fa-solid fa-angle-right"></i></a>
+<a href="/admission/visit/in-person"  class="px-0 btn btn-link arrow">Learn more<i class="circle fa-solid fa-angle-right"></i></a>
 
 <?php echo end_item_col(); ?>
 <?php echo item_col(''); ?>

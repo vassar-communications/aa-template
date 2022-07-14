@@ -15,7 +15,7 @@
     font-variation-settings: "wght" 340;
 
     &:focus {
-      border-color: black;
+      border-color: $black;
     }
   }
 }
@@ -24,7 +24,7 @@ details {
   margin-right: 1rem;
 
   &:not(:last-of-type) {
-    border-bottom: 1px solid var(--dropdown-border-color, #ddd);
+    border-bottom: 1px solid var(--dropdown-border-color, $gray-300);
   }
 
   summary span {
@@ -33,7 +33,7 @@ details {
     &:before {
       content: "+";
       line-height: 0;
-      font-size: 2em;
+      font-size: $h2-font-size;
       font-weight: 100;
       position: absolute;
       top: 0;
@@ -41,7 +41,7 @@ details {
       transform: rotate(0);
       transform-origin: center;
       transition: 0.25s transform ease;
-      color: var(--dropdown-closebox-openme-color, #666);
+      color: var(--dropdown-closebox-openme-color, $gray-600);
       height: 100%;
       display: flex;
       justify-content: center;
@@ -58,7 +58,7 @@ details {
   &[open] {
     summary span {
       font-variation-settings: "wght" 800;
-      font-size: 2rem;
+      font-size: $h2-font-size;
     }
   }
 }
@@ -69,7 +69,7 @@ details {
 }
 
 details[open] summary span:before {
-  color: var(--dropdown-closebox-closeme-color, #f00);
+  color: var(--dropdown-closebox-closeme-color, $red);
   font-weight: bold;
 }
 
@@ -77,14 +77,14 @@ button.accordion-button {
   border-bottom: 1px solid transparent;
 }
 button.accordion-button:hover {
-  background: #ddd;
-  border-bottom: 1px solid #f00;
-  color: #a00;
+  background: $gray-300;
+  border-bottom: 1px solid $red;
+  color: $burgundy;
 }
 
 details[open] {
-  background: #eee;
-//  border-top: 1px solid #f00;
+  background: $gray-200;
+//  border-top: 1px solid $red;
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
 }
 
@@ -93,7 +93,7 @@ details .dropdown__content {
   .col-sm {
     opacity: 0;
     transition: 1s all ease;
-//    transition-delay: 1s;
+    //    transition-delay: 1s;
   }
 }
 
@@ -101,5 +101,9 @@ details.open .dropdown__content {
   .col-sm {
     opacity: 1;
   }
+<<<<<<< Updated upstream
 }
 */
+=======
+}
+>>>>>>> Stashed changes

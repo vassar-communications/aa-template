@@ -17,7 +17,7 @@ return <<<TMP
       <div class="stat-value">2,500</div>
     </div>
     <div class="stat-item-additional">
-      <div class="stat-label text-color-burgundy">$student_icon Students</div>
+      <div class="stat-label text-primary">$student_icon Students</div>
     </div>
   </div>
 
@@ -31,7 +31,7 @@ return <<<TMP
       <div class="stat-value">355</div>
     </div>
     <div class="stat-item-additional">
-      <div class="stat-label text-color-burgundy">$faculty_icon Faculty</div>
+      <div class="stat-label text-primary">$faculty_icon Faculty</div>
     </div>
   </div>
 
@@ -42,7 +42,7 @@ return <<<TMP
   <div class="col-item stat-item item-ratio">
     <div class="stat-item-fact">
       <div class="stat-value">8<span class="delimiter-colon">:</span>1</div>
-      <div class="stat-label text-color-burgundy">$ratio_icon Student to faculty ratio</div>
+      <div class="stat-label text-primary">$ratio_icon Student to faculty ratio</div>
     </div>
   </div>
 </div>

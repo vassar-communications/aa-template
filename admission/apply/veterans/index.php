@@ -34,6 +34,11 @@ $page_classes = "";
 
 <?php /*  PAGE CONTENT === */ ?>
 
+<?php echo masthead_interiorPage(
+    'Information for American Veterans',
+    'Vassar actively seeks to enroll qualified veterans of the U.S. Armed Forces. Vassar fosters these connections through the Posse Veterans Program and the Yellow Ribbon Program, aimed at increasing enrollment of veterans at selective colleges and universities.',
+    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg');
+?>
 
 
 <?php echo sec_hasColumns(
@@ -130,11 +135,10 @@ $page_classes = "";
 
 <?php echo end_sec_regularContent(); ?>
 
+<!-- Related Topics -->
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-how-to-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-first-year.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-transfer.php');?>
 <?php echo end_sec_relatedTopics(); ?>
-
-
 <?php echo site_footer(); ?>

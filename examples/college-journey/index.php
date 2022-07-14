@@ -47,7 +47,7 @@ $page_title = "Vassar Admission";
     'sec-fixedCenteredTitle',
     'mw-4',
     ['bg-image-url' => 'journey/0100-21-10-kr-fw-general-vassar-0057.jpg',
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'replacethisalttext',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.2);
       --section-title-faded-opacity: 0.1;
@@ -62,7 +62,7 @@ $page_title = "Vassar Admission";
         <?php echo item_cardWithText(
             'Applying to Vassar',
             '',
-            ['url' => 'apply/untitled-3.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => 'apply/untitled-3.jpg', 'alt' => 'replacealttext' ],
             'animation-item'
         ); ?>
 
@@ -75,7 +75,7 @@ $page_title = "Vassar Admission";
         <?php echo item_cardWithText(
             'Financial Aid Information',
             '',
-            ['url' => 'apply/untitled-2.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => 'apply/untitled-2.jpg', 'alt' => 'replacealttext' ],
             'animation-item'
         ); ?>
 
@@ -88,7 +88,7 @@ $page_title = "Vassar Admission";
         <?php echo item_cardWithText(
             'Request Information',
             '',
-            ['url' => 'apply/untitled-1.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => 'apply/untitled-1.jpg', 'alt' => 'replacealttext' ],
             'animation-item'
         ); ?>
 
@@ -120,7 +120,7 @@ Vassar is from everywhere. World-class educations are built on world-wide commun
     'sec-fixedCenteredTitle theme-burgundy',
     'mw-4',
     ['bg-image-url' => 'journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'replacethisalttext',
         'css' => '
       --section-title-size: 14vw;
       --section-title-faded-opacity: 0.1;
@@ -204,7 +204,7 @@ All Vassar students are surrounded by an environment designed to spark something
     'sec-fixedCenteredTitle theme-dark-burgundy featured-video',
     'mw-4',
     ['bg-image-url' => 'visit/0216-18-10-jsu-fall-drone-vassar-R01895.jpg',
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'replacethisalttext',
         'css' => '
       --section-title-size: 14vw;
       --section-title-faded-opacity: 0.1;
@@ -240,7 +240,7 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
     'sec-fixedCenteredTitle theme-charcoal',
     'mw-4',
     ['bg-image-url' => 'visit/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'replacethisalttext',
         'css' => '
       --section-title-size: 14vw;
       --section-title-faded-opacity: 0.1;
@@ -258,7 +258,7 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
             get_icon('play').'Shakespeare Garden',
             null,
             'apple.com',
-            ['url' => 'fav-places/0056-21-06-kr-campus-vassar-0006.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => 'fav-places/0056-21-06-kr-campus-vassar-0006.jpg', 'alt' => 'replacealttext' ],
             'animation-item masonry-item text-at-bottom'
         ); ?>
 
@@ -266,7 +266,7 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
             get_icon('play').'Thompson Memorial Library',
             null,
             'apple.com',
-            ['url' => 'fav-places/0212-18-10-kr-library-fall-vassar-3819.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => 'fav-places/0212-18-10-kr-library-fall-vassar-3819.jpg', 'alt' => 'replacealttext' ],
             'animation-item masonry-item text-at-bottom',
             ['hlevel' => 4]
         ); ?>
@@ -275,7 +275,7 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
             get_icon('play').'Gordon Commons',
             null,
             'apple.com',
-            ['url' => 'fav-places/0195-19-11-kwe-gordon-vassar-1644.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => 'fav-places/0195-19-11-kwe-gordon-vassar-1644.jpg', 'alt' => 'replacealttext' ],
             'animation-item masonry-item text-at-bottom',
             ['hlevel' => 4]
         ); ?>
@@ -284,7 +284,7 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
             get_icon('play').'Bridge for Laboratory Sciences',
             null,
             'apple.com',
-            ['url' => 'fav-places/110619_160over90_Vassar_5483.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => 'fav-places/110619_160over90_Vassar_5483.jpg', 'alt' => 'replacealttext' ],
             'animation-item masonry-item text-at-bottom',
             ['hlevel' => 4]
         ); ?>
@@ -293,7 +293,7 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
             get_icon('play').'The Ecological Preserve',
             null,
             'apple.com',
-            ['url' => 'fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => 'fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg', 'alt' => 'replacealttext' ],
             'animation-item masonry-item w-66 text-at-bottom',
             ['hlevel' => 4]
         ); ?>
@@ -302,7 +302,7 @@ Vassar is extremely proud of our 1,000-acre campus. There are buildings that sho
             get_icon('play').'Student Picks',
             null,
             'apple.com',
-            ['url' => 'fav-places/studio.jpg', 'alt' => 'asdfasdfds' ],
+            ['url' => 'fav-places/studio.jpg', 'alt' => 'replacealttext' ],
             'animation-item masonry-item text-at-bottom',
             ['hlevel' => 4]
         ); ?>

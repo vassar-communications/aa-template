@@ -59,9 +59,10 @@ $page_classes = "";
 
 <?php echo end_sec_hasColumns(); ?>
 
+<!-- Related Topics -->
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-how-to-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-international.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-transfer.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 <?php echo site_footer(); ?>
