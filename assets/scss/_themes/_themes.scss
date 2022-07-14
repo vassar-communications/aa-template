@@ -180,7 +180,7 @@ p a, a.btn-link, nav a, li a, footer a  {
   &.show-content {
 
     background-color: $gray-200;
-//    @extend .theme-verylightgray;
+    //    @extend .theme-verylightgray;
   }
 }
 
@@ -195,41 +195,6 @@ p a, a.btn-link, nav a, li a, footer a  {
   &.show-content {
 
     background-color: $gray-200;
-//    @extend .theme-verylightgray;
+    //    @extend .theme-verylightgray;
   }
 }
-<<<<<<< Updated upstream:assets/scss/_themes.scss
-
-
-
-
-
-.theme-burgundy .card--withParagraph .card-body {
-    background: #fff;
-    color: #444;
-}
-
-.theme-burgundy .card--withParagraph .cta-icon-label {
-	color: var(--color-vassar-burgundy);
-  color: #333;
-
-	font-variation-settings: "wght" 700;
-}
-
-.theme-burgundy .card--withParagraph.card-has-cta-icon .card-body:after {
-    background: var(--color-vassar-burgundy);
-    background: #333;
-    color: #fff;
-
-}
-
-.theme-burgundy .card--withParagraph:hover .cta-icon-label {
-  color: #c00;
-}
-.theme-burgundy .card--withParagraph.card-has-cta-icon:hover .card-body:after {
-  background: var(--color-vassar-burgundy);
-  background: #c00;
-  color: #fff;
-}
-=======
->>>>>>> Stashed changes:assets/scss/_themes/_themes.scss

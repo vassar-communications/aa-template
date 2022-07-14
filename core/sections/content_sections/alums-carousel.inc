@@ -1,20 +1,11 @@
 <?php
 
 function alumsCarousel() {
-  return <<<TMP
+    return <<<TMP
 
 
 <div class="featureImage-text-ticker alums-carousel fade-nonselected full" id="gallery">
-<<<<<<< Updated upstream
-
-
-
-
-
-<div class="carousel-cell">
-=======
 	<div class="carousel-cell">
->>>>>>> Stashed changes
   <div class="carousel-cell-content">
     <div class="image-container">
       <img src="/mockups/advancement-home/assets/images/sherika_sanjay_by_caleb_stein.jpg" />
@@ -22,18 +13,10 @@ function alumsCarousel() {
      <div class="figcaption pt-5">
       <h3 class="h3">Alum’s Photography Featured in the New York Times</h3>
       <p>Photographer Caleb Stein ’17 and Amitava Kumar, Professor of English on the Helen D. Lockwood Chair, collaborated on “An Ode to the Queen City of the Hudson,” an opinion piece in the <em>New York Times</em>. Photo by Caleb Stein ’17</p>
-<<<<<<< Updated upstream
-        <a href="https://www.nytimes.com/2022/07/03/opinion/poughkeepsie-watering-holes-hudson-valley.html?fbclid=IwAR1ZNtwsdT1FOnR2yBvUdF_2g3M2Dc29qHMAuU08Hgt2P1Jmm9SvzH3M75U" class="px-0 btn btn-link">Read more<i class="circle fa-solid fa-arrow-right"></i></a>
-    </div>
-  </div>
-</div>
-
-=======
         <a href="https://www.nytimes.com/2022/07/03/opinion/poughkeepsie-watering-holes-hudson-valley.html?fbclid=IwAR1ZNtwsdT1FOnR2yBvUdF_2g3M2Dc29qHMAuU08Hgt2P1Jmm9SvzH3M75U" class="px-0 btn btn-link arrow">Read more</a>
     </div>
   </div>
 </div>
->>>>>>> Stashed changes
   <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">

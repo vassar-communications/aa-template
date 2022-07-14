@@ -37,7 +37,7 @@ $page_classes = "advancement-demo";
     'animation-fade-in animate-when-content-appears animation-group',
     ['css' => '--sequential-animation-item-gap: 0.3s;']
 ); ?>
-  <p class="animation-item">With <strong>41,000+ alumni</strong> around the<br> globe, Vassar’s <strong>powerful network</strong><br> is never out of reach.</p>
+<p class="animation-item">With <strong>41,000+ alumni</strong> around the<br> globe, Vassar’s <strong>powerful network</strong><br> is never out of reach.</p>
 <?php echo end_sec_regularContent(); ?>
 <!-- end intro quote -->
 
@@ -61,60 +61,60 @@ $page_classes = "advancement-demo";
 ); ?>
 
 
-    <div class="grid cols-3 animation-zoom-in animate-when-content-appears animation-group">
-        <?php echo item_cardWithText(
-            'Make a Gift',
-            '',
-            ['url' => '/mockups/advancement-home/assets/images/three-cards/Library-TT-IMG_6613.jpg', 'alt' => 'replacealttext' ],
-            'fancy-card animation-item card-has-cta-icon card-has-cta-label'
-        ); ?>
+<div class="grid cols-3 animation-zoom-in animate-when-content-appears animation-group">
+    <?php echo item_cardWithText(
+        'Make a Gift',
+        '',
+        ['url' => '/mockups/advancement-home/assets/images/three-cards/Library-TT-IMG_6613.jpg', 'alt' => 'replacealttext' ],
+        'fancy-card animation-item card-has-cta-icon card-has-cta-label'
+    ); ?>
 
-        <p>Your gift to The Vassar Fund can honor the aspect of the Vassar experience that matters most to you.</p>
-        <p class="cta-icon-label">Give now</p>
+    <p>Your gift to The Vassar Fund can honor the aspect of the Vassar experience that matters most to you.</p>
+    <p class="cta-icon-label">Give now</p>
 
-        <?php echo end_item_cardWithText(); ?>
-
-
-        <?php echo item_cardWithText(
-            'Volunteer',
-            '',
-            ['url' => '/mockups/advancement-home/assets/images/three-cards/VC-Atlanta_Becca-Marco-05_Jada-Graves-14_Juan-Acosta-02-(1).jpg', 'alt' => 'replacealttext' ],
-            'fancy-card animation-item card-has-cta-icon card-has-cta-label'
-        ); ?>
-
-        <p>An incredible way to enrich your life and the lives of others in countless ways.</p>
-        <p class="cta-icon-label">Explore volunteer opportunities</p>
-
-        <?php echo end_item_cardWithText(); ?>
+    <?php echo end_item_cardWithText(); ?>
 
 
-        <?php echo item_cardWithText(
-            'Be a Mentor',
-            '',
-            ['url' => '/mockups/advancement-home/assets/images/three-cards/0006-19-01-kr-scc-reception-vassar-0977.jpg', 'alt' => 'replacealttext' ],
-            'fancy-card animation-item card-has-cta-icon card-has-cta-label'
-        ); ?>
+    <?php echo item_cardWithText(
+        'Volunteer',
+        '',
+        ['url' => '/mockups/advancement-home/assets/images/three-cards/VC-Atlanta_Becca-Marco-05_Jada-Graves-14_Juan-Acosta-02-(1).jpg', 'alt' => 'replacealttext' ],
+        'fancy-card animation-item card-has-cta-icon card-has-cta-label'
+    ); ?>
 
-        <p>An extraordinary opportunity to develop positive relationships with students and help them navigate their future.</p>
-        <p class="cta-icon-label">More about mentorship</p>
+    <p>An incredible way to enrich your life and the lives of others in countless ways.</p>
+    <p class="cta-icon-label">Explore volunteer opportunities</p>
 
-        <?php echo end_item_cardWithText(); ?>
+    <?php echo end_item_cardWithText(); ?>
+
+
+    <?php echo item_cardWithText(
+        'Be a Mentor',
+        '',
+        ['url' => '/mockups/advancement-home/assets/images/three-cards/0006-19-01-kr-scc-reception-vassar-0977.jpg', 'alt' => 'replacealttext' ],
+        'fancy-card animation-item card-has-cta-icon card-has-cta-label'
+    ); ?>
+
+    <p>An extraordinary opportunity to develop positive relationships with students and help them navigate their future.</p>
+    <p class="cta-icon-label">More about mentorship</p>
+
+    <?php echo end_item_cardWithText(); ?>
 
 
 
-    </div><!-- end layout-masonry -->
+</div><!-- end layout-masonry -->
 
 <?php echo end_sec_fixedCenteredTitle(); ?>
 
 <?php echo sec_wideContent(
-  null,
-  null,
-  'the-quote-ticker'
+    null,
+    null,
+    'the-quote-ticker'
 ); ?>
 
-  <?php echo niceQuotes(); ?>
+<?php echo niceQuotes(); ?>
 
-<p class="section-intro-text">Our shared Vassar DNA binds us together and motivates us to remain connected and committed to the College and each other.</p>
+<p class="section-intro-text">Our shared Vassar DNA binds us together and motivates us to remain connected and committed to the college and each other.</p>
 
 <?php echo end_sec_wideContent(); ?>
 
@@ -127,10 +127,10 @@ echo sec_fixedCenteredTitle(
     '
    <p class="section-intro-text">Leaving campus doesn’t have to mean leaving Vassar. From global reunions to local get-togethers, Vassar alumni events keep the connection going.</p>',
 
-  'sec-fixedCenteredTitle theme-charcoal-to-white section-title-text-shadow',
-  'mw-4',
+    'sec-fixedCenteredTitle theme-charcoal-to-white section-title-text-shadow',
+    'mw-4',
     [
-      'bg-image-url' => '/mockups/advancement-home/assets/images/0227-17-04-ym-dc-johnson-brunch-vassar-0644.jpg',
+        'bg-image-url' => '/mockups/advancement-home/assets/images/0227-17-04-ym-dc-johnson-brunch-vassar-0644.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --section-title-size: 10vw;
@@ -144,15 +144,15 @@ echo sec_fixedCenteredTitle(
     ]
 ); ?>
 
-  <?php echo sec_eventListing(); ?>
+<?php echo sec_eventListing(); ?>
 
-  <?php echo end_sec_fixedCenteredTitle(); ?>
-
-
+<?php echo end_sec_fixedCenteredTitle(); ?>
 
 
 
-    <!-- fav places -->
+
+
+<!-- fav places -->
 
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Alumni</b>
@@ -171,7 +171,7 @@ echo sec_fixedCenteredTitle(
     ]
 ); ?>
 
-  <?php echo alumsCarousel(); ?>
+<?php echo alumsCarousel(); ?>
 
 <?php echo end_sec_fixedCenteredTitle(); ?>
 
@@ -181,7 +181,7 @@ echo sec_fixedCenteredTitle(
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">In The</b>
    <b class="slide-from-right">Media</b>',
-   '<p class="section-intro-text mb-5 pb-5">Vassar Alumni making news.</p>',
+    '<p class="section-intro-text mb-5 pb-5">Vassar Alumni making news.</p>',
     'sec-fixedCenteredTitle theme-burgundy',
     'animation-fade-in animate-when-content-appears mw-4',
     ['bg-image-url' => '/mockups/advancement-home/assets/images/0069-19-05-kr-spring-vassar-4662.jpg',
@@ -198,8 +198,8 @@ echo sec_fixedCenteredTitle(
 <?php echo inTheMediaCarousel(); ?>
 
 <div class="text-center mt-3">
-      <a href="" class="btn btn-light btn-lg arrow mb-5" style="background: #fff;">More news</a>
-    </div>
+    <a href="" class="btn btn-light btn-lg arrow mb-5" style="background: #fff;">More news</a>
+</div>
 
 
 

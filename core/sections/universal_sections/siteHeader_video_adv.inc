@@ -13,41 +13,28 @@ I'm wondering about embedding the video as an HTML5 video element, and using htt
 <?php
 
 function sec_siteHeader_video_adv(
-  $title=null,
-  $section_classes=null,
-  $content_classes=null,
-  $extras=null
+    $title=null,
+    $section_classes=null,
+    $content_classes=null,
+    $extras=null
 ) {
 
-  global $section_title;
+    global $section_title;
 
-$title_classes = get_extras_value('title_classes', $extras);
+    $title_classes = get_extras_value('title_classes', $extras);
 
 
 //  Check if a bg image was specified, and
 //    set up both the markup and the section class for it.
-global $bg_image;
+    global $bg_image;
 
-if (get_extras_value('bg-image-url', $extras)) {
-  $section_classes .= ' has-image';
-}
+    if (get_extras_value('bg-image-url', $extras)) {
+        $section_classes .= ' has-image';
+    }
 
-return <<<TMP
+    return <<<TMP
 
 
-<<<<<<< Updated upstream
-<style>
-/*
-.title-cover {
-    background: rgba(0, 0, 0, 0.1) !important;
-}
-.video-header h1 {
-  text-shadow: 0 0 2rem #000, 0 0 1rem #000 !important;
-}
-*/
-</style>
-=======
->>>>>>> Stashed changes
 
   <script src="https://player.vimeo.com/api/player.js"></script>
 

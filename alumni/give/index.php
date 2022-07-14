@@ -159,7 +159,7 @@ $page_classes = "";
     'mw-4 py-3 d-flex justify-content-around'
 ); ?>
 
-<h2 class="h2"><strong>Every Gift Matters.</strong> Explore funds and initatives.</h2>
+<h2 class="h2"><strong>Every Gift Matters.</strong> Explore funds and initiatives.</h2>
 <button class="btn btn-primary arrow">Make a Gift</button>
 <?php echo end_sec_wideContent(); ?>
 

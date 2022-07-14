@@ -84,11 +84,10 @@ button.accordion-button:hover {
 
 details[open] {
   background: $gray-200;
-//  border-top: 1px solid $red;
+  //  border-top: 1px solid $red;
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
 }
 
-/*
 details .dropdown__content {
   .col-sm {
     opacity: 0;
@@ -101,9 +100,4 @@ details.open .dropdown__content {
   .col-sm {
     opacity: 1;
   }
-<<<<<<< Updated upstream
 }
-*/
-=======
-}
->>>>>>> Stashed changes
