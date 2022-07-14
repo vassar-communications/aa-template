@@ -162,7 +162,7 @@ echo sec_fixedCenteredTitle(
 
   <?php echo sec_eventListing(); ?>
 
-<?php echo end_sec_fixedCenteredTitle(); ?>
+  <?php echo end_sec_fixedCenteredTitle(); ?>
 
 
 
