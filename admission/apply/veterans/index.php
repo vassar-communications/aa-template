@@ -121,17 +121,18 @@ $page_classes = "";
 
 <h3 class="display-4 mb-4">Vassar Contacts and Links</h3>
     <p>Contact our admission department with any veteran’s related questions or follow the links below for more information</p>
-    <p>Financial Aid<br/>
-        Ann Gitto, Associate Director of Student Financial Services<br/>
-        Email</p>
 
-<p>Veterans Advisor & Registrar<br/>
-        Colleen Mallet, Registrar<br/>
-    Email</p>
+    <dl class="clean-list-with-borders">
+      <dt>Financial Aid<dt>
+      <dd>Ann Gitto, Associate Director of Student Financial Services</dd>
 
-<p>Links to Information on Veterans’ Benefits<br/>
-        Post 9/11 GI Bill® Benefits<br/>
-        Yellow Ribbon Program</p>
+    <dt>Veterans Advisor & Registrar</dt>
+      <dd>Colleen Mallet, Registrar</dd>
+
+    <dt>Links to Information on Veterans’ Benefits</dt>
+            <dd>Post 9/11 GI Bill® Benefits<br/>
+            Yellow Ribbon Program</dd>
+      </dl>
 
 <?php echo end_sec_regularContent(); ?>
 
