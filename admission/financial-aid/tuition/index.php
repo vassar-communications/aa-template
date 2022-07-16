@@ -52,7 +52,7 @@ $page_classes = "";
 
 <?php echo sec_wideContent(
     'Tuition and Fees Overview',
-    '<h2>The total cost to attend Vasssar is $78,580</h2>',
+    '<h2>The total cost to attend Vassar is $78,580</h2>',
     '',
     'mw-4'
 ); ?>
@@ -128,7 +128,7 @@ $page_classes = "";
 
 
 <p class="fix">
- Students should anticipate budgeting $2,250 for books, supplies, and personal expenses, and transportation to and from the campus. Additional information can be found on the  Student Financial Services website.
+ Students should anticipate budgeting $2,250 for books, supplies, and personal expenses, and transportation to and from the campus. Additional information can be found on the Student Financial Services website.
 </p>
 <?php echo end_sec_regularContent(); ?>
 
@@ -143,7 +143,7 @@ $page_classes = "";
     <h2 class="display-2 mb-5 border-animate">Room and Board</h2>
     <p>Students living on campus are required to participate in a <a href="#">college board plan</a> (also known as the meal plan). For more information about housing, visit the <a href="#">Office of Residential Life</a>.</p>
 
-    <a href="/admission/financial-aid/apply/" class="px-0 btn btn-link arrow">Visit the  Office of Residential Life</a>
+    <a href="/admission/financial-aid/apply/" class="px-0 btn btn-link arrow">Visit the Office of Residential Life</a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

@@ -1,0 +1,10 @@
+/*
+This defines text styling for all regular text: paragraphs and basic lists.
+ */
+
+p, li {
+ font-family: var(--sansSerif);
+ font-size: var(--regularContent-font-size);
+ font-variation-settings: var(--regularContent-font-weight);
+ line-height: var(--regularContent-lineHeight);
+}

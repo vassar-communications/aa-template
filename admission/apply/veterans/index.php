@@ -123,7 +123,7 @@ $page_classes = "";
     <p>Contact our admission department with any veteran’s related questions or follow the links below for more information</p>
 
     <dl class="clean-list-with-borders">
-      <dt>Financial Aid<dt>
+      <dt>Financial Aid</dt>
       <dd>Ann Gitto, Associate Director of Student Financial Services</dd>
 
     <dt>Veterans Advisor & Registrar</dt>

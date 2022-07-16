@@ -9689,23 +9689,6 @@ progress {
   font-stretch: normal;
   src: url("https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf.woff2") format("woff2"), url("https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf.woff") format("woff"), url("https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf") format("truetype");
 }
-.sec-fixedCenteredTitle .section-intro-text,
-.section-intro-text,
-.intro-text {
-  font-size: 2.5rem;
-  line-height: 1.16;
-  font-weight: 100;
-}
-
-.col--text p, .col--text li,
-.section-content p,
-.section-content li {
-  font-family: var(--sansSerif);
-  font-size: var(--regularContent-font-size);
-  font-variation-settings: var(--regularContent-font-weight);
-  line-height: var(--regularContent-lineHeight);
-}
-
 .intro-line {
   font-size: 1.25rem;
   text-transform: uppercase;
@@ -9728,6 +9711,30 @@ strong {
   letter-spacing: 0.1rem;
   display: block;
   font-family: var(--bs-font-sans-serif);
+}
+
+/*
+This defines text styling for all regular text: paragraphs and basic lists.
+ */
+p, li {
+  font-family: var(--sansSerif);
+  font-size: var(--regularContent-font-size);
+  font-variation-settings: var(--regularContent-font-weight);
+  line-height: var(--regularContent-lineHeight);
+}
+
+/*
+Any time we need an intro paragraph, use this styling.
+
+(May need to add a smaller size in addition)
+*/
+.sec-fixedCenteredTitle .section-intro-text,
+.section-intro-text,
+.intro-text {
+  font-size: 2.5rem;
+  font-family: var(--font-big-serif);
+  line-height: 1.16;
+  font-weight: 100;
 }
 
 .seq-item--useTransition:nth-child(1) {
@@ -14252,6 +14259,18 @@ ul.style-checklist a {
   position: absolute;
   left: 0;
   top: 0.8rem;
+}
+
+/*
+  Apply this class to a dl element.
+ */
+.clean-list-with-borders {
+  font-size: 1.3rem;
+}
+.clean-list-with-borders dt:not(:first-child) {
+  border-top: 1px solid #aaa;
+  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 /* Basic links */
