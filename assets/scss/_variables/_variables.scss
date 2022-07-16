@@ -628,16 +628,16 @@ $card-group-margin:                 $grid-gutter-width * .5 !default;
 $accordion-padding-y:                     $spacer * 1 !default;
 $accordion-padding-x:                     $spacer * 1  !default;
 $accordion-color:                         $body-color !default;
-$accordion-bg:                            $body-bg !default;
+$accordion-bg:                            $gray-100 !default;
 $accordion-border-width:                  $border-width !default;
 $accordion-border-color:                  rgba($black, .125) !default;
 $accordion-border-radius:                 $border-radius !default;
 $accordion-inner-border-radius:           subtract($accordion-border-radius, $accordion-border-width) !default;
 
-$accordion-body-padding-y:                $accordion-padding-y !default;
+$accordion-body-padding-y:                $accordion-padding-y * 3 !default;
 $accordion-body-padding-x:                $accordion-padding-x !default;
 
-$accordion-button-padding-y:              $accordion-padding-y * 3!default;
+$accordion-button-padding-y:              $accordion-padding-y !default;
 $accordion-button-padding-x:              $accordion-padding-x !default;
 $accordion-button-color:                  $accordion-color !default;
 $accordion-button-bg:                     $accordion-bg !default;

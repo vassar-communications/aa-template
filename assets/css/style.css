@@ -3473,11 +3473,11 @@ progress {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 3rem 1rem;
+  padding: 1rem 1rem;
   font-size: 1rem;
   color: #1e1e1e;
   text-align: left;
-  background-color: #fff;
+  background-color: #f8f9fa;
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
@@ -3528,7 +3528,7 @@ progress {
 }
 
 .accordion-item {
-  background-color: #fff;
+  background-color: #f8f9fa;
   border: 1px solid rgba(14, 14, 14, 0.125);
 }
 .accordion-item:first-of-type {
@@ -3556,7 +3556,7 @@ progress {
 }
 
 .accordion-body {
-  padding: 1rem 1rem;
+  padding: 3rem 1rem;
 }
 
 .accordion-flush .accordion-collapse {
@@ -13694,6 +13694,10 @@ p a:hover, p a:visited:hover, a.btn-link:hover, a.btn-link:visited:hover, nav a:
 .footer .badge-theme-white {
   background: #fff;
   --footer-badge-link-color: var(--color-vassar-dark-burgundy);
+}
+
+p a {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

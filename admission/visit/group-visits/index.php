@@ -18,7 +18,7 @@ $page_classes = "";
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead('https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg'); ?>
 
 <?php echo hamburger_navigation(); ?>
 
@@ -37,7 +37,7 @@ $page_classes = "";
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/visit/group/group.jpg',
-    'image-is-first theme-charcoal',
+    'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -48,21 +48,21 @@ $page_classes = "";
 
 <?php echo sec_regularContent(
     null,
-    'theme-cream',
+    '',
     '',
     ''
 ); ?>
 
-<h4 class="display-4 mb-4 placeholder">Schedule a group visit</h4>
+<h4 class="display-4 mb-4">Schedule a group visit</h4>
 <p>Group visits can be customized to fit the needs of the group. Presentations can include topics such as choosing a major or writing a college admission essay, or Q&A sessions with current students.</p>
 
-<p>Group tours can be scheduled Monday through Friday between 9 a.m. and 5 p.m. ET, based on availability. To schedule, email <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>.</p>
+<p class="mb-5">Group tours can be scheduled Monday through Friday between 9 a.m. and 5 p.m. ET, based on availability. To schedule, email <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>.</p>
 
-<h4 class="display-4 mb-4 placeholder">Individual Opportunities</h4>
+<h4 class="display-4 mb-4">Individual Opportunities</h4>
 <p>If you are interested in engaging with Vassar individually, we encourage you to sign up for one of our regularly scheduled virtual visit events.</p>
 <ul>
-    <li>In-Person Campus Visits</li>
-    <li>Virtual Programs</li>
+    <li><a href="/admission/visit/in-person/">In-Person Campus Visits</a></li>
+    <li><a href="/admission/visit/virtual-programs/">Virtual Programs</a></li>
 </ul>
 
 
