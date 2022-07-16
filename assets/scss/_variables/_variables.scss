@@ -1,69 +1,4 @@
-:root {
-  --color-vassar-burgundy: #951829;
-  --color-vassar-dark-burgundy: #641A2B;
-  --color-vassar-red: #ED1C24;
-  --color-vassar-darkest-burgundy: #3d0f1a;
-  --color-vassar-darkgray: #63666A;
-  --color-vassar-charcoal: #333;
-  --color-vassar-cream: #F8F7F5 ;
-  --color-vassar-verylightgray: #eeeeee;
-  --color-vassar-rose: #F2D4D7;
-  --box-shadow-color: rgba(10,30,20,0.1);
-
-  /*  Root from type.scss */
-  --h2-font-size: calc(1.525rem + 3.3vw);
-  --font-size-small: 1.24rem;
-  --sansSerif: 'Source Sans Variable';
-  --bs-font-sans-serif: 'Source Sans Variable', system-ui, Helvetica, Arial, sans-serif;
-  --font-big-serif: freight-display-pro;
-  --regularContent-font-size: calc(1.165rem + 0.18vw);
-  --regularContent-lineHeight: 1.36;
-  --regularContent-font-weight: "wght" 340;
-
-  --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
-
-  --text-shadow: 0 0 1rem rgb(0 0 0 / 40%);
-  --bg-shim-background: rgba(0,0,0,0.2);
-}
-
-$letter-spacing: 0.08rem;
-
-$vassar__inner-container: '.section-content' !default;
-
-$vassar__breakpoints: (
-        sm: 40em,
-        md: 50em,
-        lg: 60em
-) !default;
-
-// Widths
-$vassar__inner-widths: (
-        25: 25%,
-        33: 33%,
-        50: 50%,
-        75: 75%
-) !default;
-
-$vassar__max-widths: 100ch 120ch 140ch 160ch !default;
-
-
-html {
-  overflow-x: hidden;
-}
-
-img {
-  width: 100%;
-}
-
-
-
-// Variables
-//
-// Variables should follow the `$component-state-property-size` formula for
-// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
-
 // Color system
-
 
 // scss-docs-start gray-color-variables
 $white:    #fff !default;
@@ -138,6 +73,70 @@ $theme-colors: (
 ) !default;
 // scss-docs-end theme-colors-map
 
+
+:root {
+  --color-vassar-burgundy: #{$burgundy};
+  --color-vassar-dark-burgundy: #{$darkburgundy};
+  --color-vassar-red: #{$red};
+  --color-vassar-darkest-burgundy: #{$darkestburgundy};
+  --color-vassar-darkgray: #{$gray-600};
+  --color-vassar-charcoal: #{$gray-800};
+  --color-vassar-cream: #{$cream} ;
+  --color-vassar-verylightgray: #{$gray-200};
+  --color-vassar-rose: #{$rose};
+  --box-shadow-color: rgba(10,30,20,0.1);
+
+  /*  Root from type.scss */
+  --h2-font-size: calc(1.525rem + 3.3vw);
+  --font-size-small: 1.24rem;
+  --sansSerif: 'Source Sans Variable';
+  --bs-font-sans-serif: 'Source Sans Variable', system-ui, Helvetica, Arial, sans-serif;
+  --font-big-serif: freight-display-pro;
+  --regularContent-font-size: calc(1.165rem + 0.18vw);
+  --regularContent-lineHeight: 1.36;
+  --regularContent-font-weight: "wght" 340;
+
+  --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
+
+  --text-shadow: 0 0 1rem rgb(0 0 0 / 40%);
+  --bg-shim-background: rgba(0,0,0,0.2);
+}
+
+$letter-spacing: 0.08rem;
+
+$vassar__inner-container: '.section-content' !default;
+
+$vassar__breakpoints: (
+        sm: 40em,
+        md: 50em,
+        lg: 60em
+) !default;
+
+// Widths
+$vassar__inner-widths: (
+        25: 25%,
+        33: 33%,
+        50: 50%,
+        75: 75%
+) !default;
+
+$vassar__max-widths: 100ch 120ch 140ch 160ch !default;
+
+
+html {
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
 
 // Options

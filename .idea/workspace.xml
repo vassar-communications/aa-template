@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/international/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/international/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/group-visits/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/group-visits/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_temp/_cytemp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_temp/_cytemp.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/_variables/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_variables/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +76,7 @@
       <workItem from="1655999789131" duration="61000" />
       <workItem from="1657086102806" duration="43548000" />
       <workItem from="1657276853319" duration="56020000" />
-      <workItem from="1657765727741" duration="21104000" />
+      <workItem from="1657765727741" duration="22691000" />
     </task>
     <servers />
   </component>
