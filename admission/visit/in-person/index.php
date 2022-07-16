@@ -59,7 +59,7 @@ $page_classes = "";
 
 
 <?php echo sec_regularContent(
-    null,
+    'Arrival and Check-In',
     'theme-burgundy',
     '',
     ''
@@ -73,8 +73,6 @@ $page_classes = "";
     'alert-light alert-accent-gold'
 ); ?>
 
-
-<h4 class="display-4 mb-4">Arrival and Check-In</h4>
 <p>Parking is available in the North Parking Lot and South Parking Lot. A small number of parking spaces can also be found on Main Campus Drive and along the back of Main Circle in front of Kautz House. We recommend arriving on campus 20 minutes prior to the start of your visit in order to secure parking and make your way to the check-in location.</p>
 
 <p>Check-in will take place outside of Kautz Admission House. Visitors arriving more than 10 minutes late will be asked to wait until the information session ends to join the tour; visitors arriving more than 10 minutes after the start of the tour will be unable to join.</p>
@@ -87,14 +85,13 @@ $page_classes = "";
 
 <!-- Campus Access and Pre-Registration -->
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Campus Access and Pre-Registration',
     'https://vassartest.chuckyatsuk.com/img/visit/in-person/0069-19-05-kr-spring-vassar-4221.jpeg',
     'image-is-first theme-charcoal bg-dark',
     'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 
-    <h4 class="display-4 mb-4">Campus Access and Pre-Registration</h4>
     <p>Pre-registration is required to attend an on-campus Admission Information Session and Campus Tour; walk-ins will not be accommodated. Self-guided tours are permitted without registration, and campus maps are available at the directional sign in front of the Kautz Admission House.</p>
     <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="btn btn-light mt-5 arrow">Register Now</a>
     <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -102,7 +99,7 @@ $page_classes = "";
 
 
     <?php echo sec_regularContent(
-        null,
+        'Visitor Health and Safety Policies',
         'theme-cream',
         '',
         ''
@@ -114,14 +111,13 @@ $page_classes = "";
         'alert-light alert-accent-gold'
     ); ?>
 
-
-    <h4 class="display-4 mb-4">Visitor Health and Safety Policies</h4>
-    <p><strong>Proof of COVID-19 Vaccination or Negative Test</strong><br/> We require all campus visitors to show proof of full vaccination against COVID-19. This requirement includes the booster shot, which is in keeping with the spring term campus requirement that all students and employees have a COVID-19 booster. Visitors who are not fully vaccinated, including those who have not yet received the booster, must present a negative COVID-19 test upon check-in.</p>
+    <h3>Proof of COVID-19 Vaccination or Negative Test</h3>
+      <p>We require all campus visitors to show proof of full vaccination against COVID-19. This requirement includes the booster shot, which is in keeping with the spring term campus requirement that all students and employees have a COVID-19 booster. Visitors who are not fully vaccinated, including those who have not yet received the booster, must present a negative COVID-19 test upon check-in.</p>
 
     <p>Visitors not in compliance will be turned away. This policy applies to all visitors, including those who are ineligible to receive the booster.</p>
 
 
-    <p><strong>Acceptable proof of vaccination or COVID-19 testing includes:</strong></p>
+    <h3>Acceptable proof of vaccination or COVID-19 testing includes:</h3>
     <ul>
         <li>Official vaccination card including the booster shot</li>
         <li>NY Excelsior Pass App with vaccination record or record of a negative PCR test within 72 hours of the visit</li>
