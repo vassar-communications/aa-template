@@ -604,7 +604,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
 $card-spacer-y:                     $spacer !default;
 $card-spacer-x:                     $spacer !default;
 $card-title-spacer-y:               $spacer * .5 !default;
-$card-border-width:                 0 !default;
+$card-border-width:                 1px !default;
 $card-border-radius:                $border-radius !default;
 $card-border-color:                 rgba($black, .125) !default;
 $card-inner-border-radius:          subtract($card-border-radius, $card-border-width) !default;

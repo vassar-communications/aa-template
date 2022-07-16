@@ -39,7 +39,7 @@ $page_classes = "";
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Interiews</h2>
+    <h2 class="display-2 mb-5 border-animate">Interviews</h2>
     <p>A conversation with one of our alumnae/i or student interviewers is an excellent way for you to learn more about Vassar and for us to learn more about you.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>

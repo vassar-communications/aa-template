@@ -44,7 +44,19 @@ $page_classes = "";
 <?php echo item_col('equal'); ?>
 <h2 class="display-3">Information for First-Year Applicants</h2>
 <p>Everything you need to know to apply </p>
+
+<?php echo deadlines('Some deadlines'); ?>
+
+  <?php echo deadlines_item('Title 1', 'date 1', 'eee'); ?>
+  <?php echo deadlines_item('Title 2', 'date 2'); ?>
+  <?php echo deadlines_item('Title 3', 'date 3'); ?>
+
+<?php echo end_deadlines(); ?>
+
 <p class="fix">insert deadlines</p>
+
+
+
 <?php echo end_item_col(); ?>
 
 <?php echo item_col('equal'); ?>
