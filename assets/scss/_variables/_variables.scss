@@ -120,7 +120,7 @@ $vassar__inner-widths: (
         75: 75%
 ) !default;
 
-$vassar__max-widths: 100ch 120ch 140ch 160ch !default;
+$vassar__max-widths: none 100ch 120ch 140ch 160ch !default;
 
 
 html {
@@ -814,4 +814,3 @@ $offcanvas-bg-color:                $modal-content-bg !default;
 $offcanvas-color:                   $modal-content-color !default;
 $offcanvas-box-shadow:              $modal-content-box-shadow-xs !default;
 // scss-docs-end offcanvas-variables
-

@@ -1,0 +1,31 @@
+.animated-statement {
+  .statement-text {
+    line-height: 1.2;
+    overflow-wrap: break-word;
+
+    span {
+      display: inline-block;
+      margin-right: 0.2em;
+      font-family: var(--font-big-serif);
+      font-size: var(--h2-font-size);
+      font-weight: 100;
+
+      $settings: (
+              gap: 0.1s,
+              max-items: 100,
+      );
+
+      @include sequence($settings);
+
+      @include setup-animation-fade-in();
+    }
+  }
+}
+
+.content-appeared {
+  .statement-text {
+    span {
+      @include animation-fade-in();
+    }
+  }
+}

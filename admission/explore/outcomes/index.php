@@ -63,12 +63,12 @@ $page_classes = "";
 
 <?php echo sec_regularContent(
     null,
-    'theme-charcoal',
+    'theme-charcoal animate-when-content-appears mw-inner-1',
     null,
     null
 ); ?>
 
-<p>Within six months of graduating, 96% of Vassar students are employed, in graduate school, or in a competitive fellowship.</p>
+<?php echo animated_statement('Within six months of graduating, 96% of Vassar students are employed, in graduate school, or in a competitive fellowship.'); ?>
 
 <?php echo end_sec_regularContent(); ?>
 

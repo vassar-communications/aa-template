@@ -79,8 +79,11 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/inT
 /* Modules */
 
 include($project_paths['main_project_root'].'/core/modules/thumbnail-text-ticker.inc');
+
+include($project_paths['main_project_root'].'/core/modules/animated-statement.inc');
+
 include($project_paths['main_project_root'].'/core/modules/word-selector.inc');
-include($project_paths['main_project_root'].'/core/modules/flipcard-stat.inc');
+include($project_paths['main_project_root'].'/core/items/flipcard-stat.inc');
 include($project_paths['main_project_root'].'/core/modules/vassar-is-awesome.inc');
 
 
