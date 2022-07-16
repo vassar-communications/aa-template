@@ -14873,6 +14873,10 @@ ul.style-checklist a {
 
 .deadlines {
   border-width: 2px;
+  border-color: #c00;
+}
+.deadlines .card-header {
+  color: #c00;
 }
 
 .deadlines-description {
@@ -14880,10 +14884,38 @@ ul.style-checklist a {
   width: 100%;
 }
 
+.deadline-item {
+  font-family: var(--font-big-serif);
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  .deadline-item {
+    font-size: 2rem;
+  }
+}
 @media screen and (min-width: 50em) {
   .deadline-item {
     display: flex;
     flex-wrap: wrap;
+  }
+}
+
+.deadlines-text {
+  color: var(--color-vassar-dark-burgundy);
+}
+@media screen and (min-width: 50em) {
+  .deadlines-text {
+    width: 70%;
+  }
+}
+
+.deadlines-date {
+  font-weight: bold;
+}
+@media screen and (min-width: 50em) {
+  .deadlines-date {
+    text-align: right;
+    width: 30%;
   }
 }
 

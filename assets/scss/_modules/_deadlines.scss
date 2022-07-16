@@ -1,13 +1,36 @@
 .deadlines {
   border-width: 2px;
+  border-color: #c00;
+
+  .card-header {
+    color: #c00;
+  }
 }
 .deadlines-description {
   margin: 0;
   width: 100%;
 }
 .deadline-item {
+  font-family: var(--font-big-serif);
+  @include font-size(2rem);
+
   @include break(md) {
     display: flex;
     flex-wrap: wrap;
+  }
+}
+.deadlines-text {
+  color: var(--color-vassar-dark-burgundy);
+
+  @include break(md) {
+    width: 70%;
+  }
+}
+.deadlines-date {
+  font-weight: bold;
+
+  @include break(md) {
+    text-align: right;
+    width: 30%;
   }
 }

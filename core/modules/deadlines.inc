@@ -33,8 +33,9 @@ function deadlines_item($deadlines_text, $deadlines_date, $deadlines_desc='') {
     $deadlines_desc = '<p class="deadlines-description">'.$deadlines_desc.'</p>';
 
   return <<<TMP
-  <li class="deadline-item list-group-item">  <span class="deadlines-text">$deadlines_text</span>
-    <span class="deadlines-date">$deadlines_date</span>
+  <li class="deadline-item list-group-item">
+    <div class="deadlines-text">$deadlines_text</div>
+    <div class="deadlines-date">$deadlines_date</div>
     $deadlines_desc
 </li>
 

@@ -45,17 +45,12 @@ $page_classes = "";
 <h2 class="display-3">Information for First-Year Applicants</h2>
 <p>Everything you need to know to apply </p>
 
-<?php echo deadlines('Some deadlines'); ?>
+<?php echo deadlines('Early Decision Application deadlines'); ?>
 
-  <?php echo deadlines_item('Title 1', 'date 1', 'eee'); ?>
-  <?php echo deadlines_item('Title 2', 'date 2'); ?>
-  <?php echo deadlines_item('Title 3', 'date 3'); ?>
+  <?php echo deadlines_item('Early Decision Round 1', 'November 15'); ?>
+  <?php echo deadlines_item('Early Decision Round 2', 'January 1'); ?>
 
 <?php echo end_deadlines(); ?>
-
-<p class="fix">insert deadlines</p>
-
-
 
 <?php echo end_item_col(); ?>
 
