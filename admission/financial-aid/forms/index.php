@@ -20,7 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($placeholder_img_banner); ?>
 
 
 <?php echo breadcrumbNav('theme-cream'); ?>
@@ -37,12 +37,12 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/assets/images/placeholders/main-placeholder.jpg',
+    $placeholder_img_square,
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h1 class="display-6">Here you will find all the forms and resources you’ll need to successfully apply for financial aid.</h1>
+    <p class="intro-text">Here you will find all the forms and resources you’ll need to successfully apply for financial aid.</p>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>

@@ -20,7 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($placeholder_img_banner); ?>
 
 
 <?php echo breadcrumbNav('theme-cream'); ?>
@@ -43,7 +43,7 @@ $page_classes = "";
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h1 class="display-6">Vassar provides a high-value education and is committed to meeting 100% of the demonstrated financial need of all admitted students.</h1>
+    <?php echo animated_statement('Vassar provides a high-value education and is committed to meeting 100% of the demonstrated financial need of all admitted students.'); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -134,45 +134,55 @@ $page_classes = "";
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Room and Board',
     $admission_img_path.'financial-aid/tuition/Cushing-Dorm_Room_Series_Seven_12_HW_6.jpg',
-    'image-is-first theme-charcoal bg-dark',
+    'image-is-first theme-charcoal',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Room and Board</h2>
-    <p>Students living on campus are required to participate in a <a href="#">college board plan</a> (also known as the meal plan). For more information about housing, visit the <a href="#">Office of Residential Life</a>.</p>
+    <p>Students living on campus are required to participate in a <a class="hey-im-broken" href="#">college board plan</a> (also known as the meal plan). For more information about housing, visit the <a class="hey-im-broken" href="#">Office of Residential Life</a>.</p>
 
-    <a href="/admission/financial-aid/apply/" class="px-0 btn btn-link arrow">Visit the Office of Residential Life</a>
+    <?php echo cta_link(
+      '/admission/financial-aid/apply/',
+      'Visit the Office of Residential Life'
+    ); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Student Activity Fee',
     $admission_img_path.'financial-aid/tuition/0024-18-03-kr-wvkr-vassar-3474.jpg',
-    'theme-charcoal bg-dark',
+    'theme-burgundy has-bg quad-pattern',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Student Activity Fee</h2>
     <p>Payment of this fee is required of all matriculated students. Student activity fees comprise the budget of the Vassar Student Association (student government) and provide funding for more than 100 student organizations and campus events.</p>
 
-    <a href="/admission/financial-aid/apply/" class="px-0 btn btn-link arrow">Explore Student Orgs</a>
+    <?php echo cta_link(
+      '/admission/financial-aid/apply/',
+      'Explore Student Orgs'
+    ); ?>
+
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Student Health Insurance',
     $admission_img_path.'financial-aid/tuition/0105_14_11_TT_2826.jpg',
-    'image-is-first theme-charcoal bg-dark',
+    'image-is-first theme-extralightgray',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Student Health Insurance</h2>
     <p>All students are required to have health insurance coverage.</p>
 
-    <a href="https://offices.vassar.edu/student-financial-services/" class="px-0 btn btn-link arrow">Visit Student Financial Services for more information</a>
+    <?php echo cta_link(
+      'https://offices.vassar.edu/student-financial-services/',
+      'Visit Student Financial Services'
+    ); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
