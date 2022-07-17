@@ -1,6 +1,24 @@
 .info-card {
   background: #fff;
+
+  .the-icon {
+    font-size: 1.4rem;
+  }
 }
 .red-alert {
   border-left: 8px solid #d00;
+}
+.has-title {
+  .alert-header {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0.4rem;
+    padding-bottom: 0.4rem;
+
+    h3 {
+      margin-bottom: 0;
+    }
+  }
 }

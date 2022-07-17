@@ -60,7 +60,11 @@ $page_classes = "";
     <li>Coalition application</li>
     <li>QuestBridge application</li>
     </ul>
-  <p><a href="/admission/apply/first-year-applicants">Learn more about First-Year Applications</a></p>
+
+    <?php echo cta_link(
+      '/admission/apply/first-year-applicants',
+      'Learn more about First-Year Applications'
+    ); ?>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -72,7 +76,13 @@ $page_classes = "";
     ''
 ); ?>
   <p>Transfer applicants can apply using the Common application.</p>
-  <p><a href="/admission/apply/transfer">Learn more about Transfer Applications</a></p>
+
+  <?php echo cta_link(
+    '/admission/apply/transfer',
+    'Learn more about Transfer Applications'
+  ); ?>
+
+
 <?php echo end_sec_regularContent(); ?>
 
 
@@ -113,24 +123,15 @@ $page_classes = "";
   </ul>
   <p>It is also recommended that applicants take a substantial portion of their work in enriched, accelerated, or honors courses or in Advanced Placement or International Baccalaureate programs when these options are available.</p>
   <p>Special attention is given to the academic breadth, depth, and rigor of candidates’ junior and senior year programs.</p>
-  <p>Students applying to Vassar during the 2020–21, 2021–22, and 2022–23 admission cycles may choose whether or not to submit SAT/ACT scores.</p>
-<?php echo end_sec_regularContent(); ?>
 
-<?php echo sec_regularContent(
-    'Standardized Testing',
-    'theme-cream',
-    '',
-    ''
-); ?>
   <?php echo info_card(
-    null,
+    'Optional SAT/ACT Scores',
     null,
     'info'
   );
   ?>
     <p>Students applying to Vassar during the 2020–21, 2021–22, and 2022–23 admission cycles may choose whether or not to submit SAT/ACT scores.</p>
   <?php echo end_info_card(); ?>
-
 
 <?php echo end_sec_regularContent(); ?>
 

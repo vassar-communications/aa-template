@@ -10283,6 +10283,10 @@ h2.border-animate:after, .border-animate.h2:after {
   width: 4rem !important;
 }
 
+.hey-im-broken {
+  border: 4px solid #f0f !important;
+}
+
 .btn.has-icon {
   display: inline-flex;
   align-items: center;
@@ -10681,19 +10685,28 @@ details.open .dropdown__content .col-sm {
   font-size: 3rem;
 }
 
+.icon-item {
+  padding: 1.4rem 0;
+}
 .icon-item.small-font {
   --regularContent-font-size: var(--font-size-small);
 }
+.icon-item:not(:last-child) {
+  border-bottom: 1px solid var(--icon-item-border-color, #aaa);
+}
+.icon-item.theme-white-border {
+  --icon-item-border-color: #fff;
+}
 .icon-item .the-icon {
   color: var(--icon-color, #63666A);
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 .icon-item.icon-lg .the-icon {
   font-size: 2.4rem;
 }
 .icon-item.icon-on-left {
   display: flex;
-  gap: 1.6rem;
+  gap: 1rem;
 }
 .icon-item.icon-red .the-icon {
   color: #ED1C24;
@@ -10704,7 +10717,6 @@ details.open .dropdown__content .col-sm {
 .icon-item.icon-on-left .the-icon {
   display: inline-block;
   padding: 0.6rem;
-  font-size: 2rem;
   border-radius: 0.2rem;
 }
 .icon-item.icon-feature .the-icon {
@@ -14924,9 +14936,24 @@ ul.style-checklist a {
 .info-card {
   background: #fff;
 }
+.info-card .the-icon {
+  font-size: 1.4rem;
+}
 
 .red-alert {
   border-left: 8px solid #d00;
+}
+
+.has-title .alert-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+.has-title .alert-header h3, .has-title .alert-header .h3 {
+  margin-bottom: 0;
 }
 
 /* Basic links */

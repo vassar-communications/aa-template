@@ -86,39 +86,63 @@ $page_classes = "";
 ); ?>
 <p>The following are not required for your application. for more information click the links below</p>
 
-<?php echo item_iconCard(
+<?php echo item_iconItem(
   'Standardized Tests',
   'clipboard',
-  'icon-on-left'
+  'icon-on-left theme-white-border'
 ); ?>
   <p>Vassar does not require students to submit the SAT or ACT </p>
-  <a class="fix btn btn-text" href="#">Read Vassar's standardized test policy</a>
-<?php echo end_item_iconCard(); ?>
 
 
-<?php echo item_iconCard(
+  <?php echo cta_link(
+    '',
+    'Read Vassar’s standardized test policy'
+  ); ?>
+
+
+<?php echo end_item_iconItem(); ?>
+
+
+<?php echo item_iconItem(
   'Your Space',
   'face-smile',
-  'icon-on-left'
+  'icon-on-left theme-white-border'
 ); ?>
   <p>This is a chance for you to show the admission committee something else about yourself. It is your space, so if you choose to complete it, send something that is a reflection of you! Past applicants have submitted poetry, craft projects, photography, short stories, videos, and more.</p>
-<?php echo end_item_iconCard(); ?>
+<?php echo end_item_iconItem(); ?>
 
 
-<?php echo item_iconCard(
+<?php echo item_iconItem(
   'Interviews',
   'people-arrows-left-right',
-  'icon-on-left'
+  'icon-on-left theme-white-border'
 ); ?>
   <p>Though not required, you may want to connect with a Vassar student or alum to learn more. These interviews are informational, not evaluative.</p>
-  <a class="btn btn-text" href="/admission/apply/first-year-applicants/interviews">Learn more</a>
-<?php echo end_item_iconCard(); ?>
 
-<h3>Music, Art, and Dance Portfolios</h3>
-<p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance</p>
-<a class="btn btn-text" href="/admission/apply/first-year-applicants/arts">Learn more</a>
+  <?php echo cta_link(
+    '/admission/apply/first-year-applicants/interviews'
+  ); ?>
+
+
+<?php echo end_item_iconItem(); ?>
+
+<?php echo item_iconItem(
+  'Music, Art, and Dance Portfolios',
+  'star',
+  'icon-on-left theme-white-border'
+); ?>
+  <p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance</p>
+
+  <?php echo cta_link(
+    '/admission/apply/first-year-applicants/arts'
+  ); ?>
+
+
+<?php echo end_item_iconItem(); ?>
 
 <?php echo end_sec_regularContent(); ?>
+
+
 
 <!-- Related Topics -->
 <?php echo relatedTopics(); ?>

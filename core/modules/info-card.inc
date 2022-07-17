@@ -6,6 +6,7 @@ function info_card(
 ) {
 
 if ($title !== '')
+  $classes .= ' has-title ';
   $title = '<h3 class="card-title">'.$title.'</h3>';
 
 if (($type == '') || ($type == 'info')) {
@@ -22,7 +23,7 @@ else {
 
 return <<<TMP
   <div class="info-card alert p-4 shadow mb-5 my-4 $classes">
-    <div class="alert-header"><i class="$icon"></i>$title</div>
+    <div class="alert-header"><i class="the-icon $icon"></i>$title</div>
 TMP;
 
 }

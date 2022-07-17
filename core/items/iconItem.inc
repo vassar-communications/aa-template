@@ -1,6 +1,6 @@
 <?php
 
-function item_iconCard(
+function item_iconItem(
   $title=false,
   $icon,
   $classes=null,
@@ -24,7 +24,7 @@ TMP;
 }
 
 
-function end_item_iconCard($extras=null) {
+function end_item_iconItem($extras=null) {
   return <<<TMP
     </div>
   </div>
