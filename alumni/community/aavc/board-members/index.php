@@ -147,7 +147,7 @@ $page_classes = "";
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-give-be-a-mentor.php');?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-give-volunteer.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-resources-vassar-network.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/resources-vassar-network.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
 

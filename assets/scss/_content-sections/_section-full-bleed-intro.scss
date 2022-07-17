@@ -1,0 +1,35 @@
+/*
+  This styling builds off that for sec_fullBleedImageColumn.
+*/
+
+.masthead--interiorPage {
+  .masthead-title {
+    font-weight: $font-weight-bolder;
+    letter-spacing: -0.028em;
+    line-height: 1;
+    position: relative;
+
+    &:after {
+      border: 2px solid $red;
+      bottom: -2.5rem;
+      content: '';
+      left: calc(50% - 2rem);
+      position: absolute;
+      width: 4rem;
+    }
+  }
+
+  .columns {
+    grid-template-columns: 6fr 4fr !important;
+  }
+
+  .section-intro {
+    color: $gray-600;
+    font-size: $h2-font-size;
+    background-image: url('/assets/images/spark.gif');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 7rem;
+    background-size: 7rem;
+  }
+}

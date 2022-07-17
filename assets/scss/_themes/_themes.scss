@@ -1,0 +1,200 @@
+/* Basic links */
+
+p a, a.btn-link, nav a, li a, footer a  {
+  &:link {
+    background-color: var(--section-link-bg-color, transparent);
+    color: var(--section-link-color, var(--color-vassar-burgundy));
+  }
+  &:visited {
+    color: var(--section-link-visited-color, var(--color-vassar-burgundy));
+  }
+  &:hover,
+  &:visited:hover {
+    background-color: var(--section-link-hover-bg-color, transparent);
+    color: var(--section-link-hover-color, var(--color-vassar-burgundy));
+  }
+}
+
+
+
+
+/* Section themes */
+
+.theme-burgundy {
+  --section-bg-color: var(--color-vassar-burgundy);
+  --section-title-color: var(--color-vassar-cream);
+  --section-text-color: var(--color-vassar-cream);
+  --section-title-border-color: var(--color-vassar-cream);
+
+  --section-link-bg-color: transparent;
+  --section-link-color: var(--color-vassar-cream);
+  --section-link-visited-color: var(--color-vassar-cream);
+  --section-link-hover-bg-color: transparent;
+  --section-link-hover-color: #fff;
+
+  --intro-line-color: var(--color-vassar-cream);
+
+  &.quad-pattern {
+    --bg-image: url('/assets/images/Vassar_QuadGrid-white.png');
+    --bg-image-size: 6rem;
+    --bg-image-opacity: 0.3;
+  }
+}
+
+
+.theme-dark-burgundy {
+  --section-bg-color: var(--color-vassar-dark-burgundy);
+  --section-title-color: var(--color-vassar-cream);
+  --section-title-border-color: var(--color-vassar-cream);
+  --section-text-color: var(--color-vassar-cream);
+
+  --section-link-bg-color: transparent;
+  --section-link-color: var(--color-vassar-cream);
+  --section-link-visited-color: var(--color-vassar-cream);
+  --section-link-hover-bg-color: transparent;
+  --section-link-hover-color: #fff;
+
+  --intro-line-color: var(--color-vassar-cream);
+
+
+  &.quad-pattern {
+    --bg-image: url('/assets/images/Vassar_QuadGrid-white.png');
+    --bg-image-size: 6rem;
+    --bg-image-opacity: 0.2;
+  }
+}
+
+
+.theme-charcoal {
+  --section-bg-color: var(--color-vassar-charcoal);
+  --flickity-dot-color: #fff;
+}
+.theme-darkcoal {
+  --section-bg-color: $black;
+}
+
+.theme-charcoal,
+.theme-darkcoal {
+
+  --section-title-color: var(--color-vassar-cream);
+  --section-title-border-color: var(--color-vassar-darkgray);
+  --section-text-color: var(--color-vassar-cream);
+
+  --section-link-bg-color: transparent;
+  --section-link-color: var(--color-vassar-cream);
+  --section-link-visited-color: var(--color-vassar-cream);
+  --section-link-hover-bg-color: transparent;
+  --section-link-hover-color: #fff;
+
+
+  --intro-line-color: var(--color-vassar-cream);
+
+  --box-shadow-color: rgba(0,0,0,0.6);
+
+  &.quad-pattern {
+    --bg-image: url('/assets/images/Vassar_QuadGrid-white.png');
+    --bg-image-size: 6rem;
+    --bg-image-opacity: 0.2;
+  }
+}
+
+.theme-cream {
+  --section-bg-color: var(--color-vassar-cream);
+  --section-title-color: var(--color-vassar-charcoal);
+  --section-title-border-color: var(--color-vassar-red);
+  --section-text-color: var(--color-vassar-charcoal);
+
+  --section-link-bg-color: transparent;
+  --section-link-color: var(--color-vassar-charcoal);
+  --section-link-visited-color: var(--color-vassar-charcoal);
+  --section-link-hover-bg-color: transparent;
+  --section-link-hover-color: var(--color-vassar-charcoal);
+
+  --intro-line-color: var(--color-vassar-burgundy);
+
+  &.quad-pattern {
+    --bg-image: url('/assets/images/Vassar_QuadGrid-black.png');
+    --bg-image-size: 6rem;
+    --bg-image-opacity: 0.3;
+  }
+}
+
+
+.theme-verylightgray,
+.theme-extralightgray {
+  --section-bg-color: var(--color-vassar-verylightgray);
+  --section-title-color: var(--color-vassar-charcoal);
+  --section-title-border-color: var(--color-vassar-red);
+  --section-text-color: var(--color-vassar-charcoal);
+
+  --section-link-bg-color: transparent;
+  --section-link-color: var(--color-vassar-charcoal);
+  --section-link-visited-color: var(--color-vassar-charcoal);
+  --section-link-hover-bg-color: transparent;
+  --section-link-hover-color: var(--color-vassar-charcoal);
+
+  --intro-line-color: var(--color-vassar-burgundy);
+
+  &.quad-pattern  {
+    --bg-image: url('/assets/images/Vassar_QuadGrid-black.png');
+    --bg-image-size: 6rem;
+    --bg-image-opacity: 0.3;
+  }
+}
+
+.theme-extralightgray {
+  --section-bg-color: $gray-300;
+
+}
+
+
+
+.theme-rose {
+  --section-bg-color: var(--color-vassar-rose);
+  --section-title-color: var(--color-vassar-charcoal);
+  --section-title-border-color: var(--color-vassar-red);
+  --section-text-color: var(--color-vassar-charcoal);
+
+  --section-link-bg-color: transparent;
+  --section-link-color: var(--color-vassar-charcoal);
+  --section-link-visited-color: var(--color-vassar-charcoal);
+  --section-link-hover-bg-color: transparent;
+  --section-link-hover-color: var(--color-vassar-charcoal);
+
+  &.quad-pattern {
+    --bg-image: url('/assets/images/Vassar_QuadGrid-white.png');
+    --bg-image-size: 6rem;
+    --bg-image-opacity: 0.3;
+  }
+}
+
+
+.theme-black-to-white {
+  background-color: #000;
+  transition: 1s all ease;
+
+  .section-bg-image-container {
+    background-color: transparent;
+  }
+
+  &.show-content {
+
+    background-color: $gray-200;
+    //    @extend .theme-verylightgray;
+  }
+}
+
+.theme-charcoal-to-white {
+  background-color: $gray-700;
+  transition: 1s all ease;
+
+  .section-bg-image-container {
+    background-color: transparent;
+  }
+
+  &.show-content {
+
+    background-color: $gray-200;
+    //    @extend .theme-verylightgray;
+  }
+}

@@ -1,0 +1,30 @@
+
+.hamburger-navigation .fa-bars {
+  padding: 0 0 0 0.5rem;
+}
+
+
+.hamburger-navigation {
+  position: fixed;
+  top:  1em;
+  right: 1em;
+  z-index: 22;
+}
+
+.offcanvasmain {
+  z-index:9999;
+}
+
+.offcanvas a {
+  text-decoration: none;
+}
+
+
+.vassar-masthead-offcanvas svg {
+  fill: $white;
+  width: 140px;
+}
+
+.offcanvas-body::-webkit-scrollbar {
+  display: none;
+}

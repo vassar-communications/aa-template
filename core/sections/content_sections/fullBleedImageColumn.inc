@@ -33,16 +33,16 @@ $text_col_css = get_extras_value( 'text_col_css', $extras, 'style="%s"' );
 
 $template = <<<TMP
 <div class="section section--full-bleed-image-column $section_classes">
-  <div class="section-content columns  $content_classes">
+  <div class="section-content columns mw-100  $content_classes">
 
-        <div class="column col-has-image animate-when-content-appears animation-fade-in $image_col_classes" $image_col_css>
+    <div class="column col-has-image animate-when-content-appears animation-fade-in $image_col_classes" $image_col_css>
       <div class="full-bleed-image-container">
         <img src="$image" />
       </div>
     </div>
 
 
-    <div class="column col--text $text_col_classes">
+    <div class="column col--text d-flex justify-content-center align-items-center w-100 text_col_classes">
       <div class="section--full-bleed-image-column__content" $text_col_css>
         {$section_title($title, $title_classes)}
 TMP;

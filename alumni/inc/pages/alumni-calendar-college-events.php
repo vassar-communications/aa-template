@@ -1,5 +1,5 @@
 <div class="g-col column">
-    <a class="card mb-4 equalht" href="#">
+    <a class="card mb-4 d-flex" href="#">
         <div class="card-body">
             <h4 class="card-title card-title h2 mb-3">Upcoming College Events</h4>
             <div class="card-text">

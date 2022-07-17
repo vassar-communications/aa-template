@@ -1,3 +1,10 @@
+/*
+ * This file needs some organization, since we have a few different kinds of cards. There are fancier cards, like the feature cards with images, but then there are going to be more generic cards: deadlines, notes, etc. Right now, all that styling is wrapped up together here.
+ *
+ * Future: separate out the fancy card styling from the generic card styling.
+
+ */
+
 .card {
   //  margin-bottom: 6rem;
   .icon {
@@ -9,6 +16,14 @@
 .card img {
   transition: 0.4s all ease;
 }
+
+.card-header {
+  font-family: var(--sansSerif);
+  font-size: 1.3rem;
+  font-variation-settings: "wght" 760;
+  line-height: var(--regularContent-lineHeight);
+}
+
 
 .card-body {
   padding: var(--card-body-padding, clamp(1.2rem, -1.5rem + 8vw, 2rem));
@@ -29,11 +44,15 @@
   text-decoration: none;
 
   &:link .card-body {
-    background-color: var(--section-bg-color, #fff);
-    color: var(--section-text-color, #333);
+    background-color: var(--section-bg-color, $white);
+    color: var(--section-text-color, $gray-800);
   }
 
-  &:hover {
+  &.is-link {
+    border-width: 0;
+  }
+  &.is-link:hover,
+  &.is-link:focus {
     --section-link-hover-bg-color: transparent;
 
     border-width: 0;
@@ -77,7 +96,7 @@
     align-items: center;
     display: flex;
     margin-bottom: 0;
-    font-family: var(--bs-font-sans-serif);
+   // font-family: var(--bs-font-sans-serif);
     text-align: left;
   }
   .card-img-content {
@@ -92,19 +111,48 @@
     padding: 0;
   }
   &.text-at-top {
+
+    .card-img-overlay {
+      display: flex;
+      width: 100%;
+      align-items: start;
+      background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 20%,rgba(0,0,0,0) 100%);
+    }
+
+    /* apply gradient to card instead of just title for better readability
     .card-img-content {
       background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 20%,rgba(0,0,0,0) 100%);
     }
+
+    */
+
   }
   &.text-at-bottom {
     .card-img-overlay {
       display: flex;
       width: 100%;
       align-items: end;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) 40%);
     }
+    /* apply gradient to card instead of just title for better readability
     .card-img-content {
       background: linear-gradient(to top, rgba(0,0,0,0.6) 20%,rgba(0,0,0,0) 100%);
       width: 100%;
-    }
+       }
+       */
+
+  }
+}
+
+/*  LIST-GROUP
+    ========== */
+
+.card {
+  .list-group {
+    @include padding(1rem);
+  }
+  .list-group-item {
+    padding-left: 0;
+    padding-right: 0;
   }
 }

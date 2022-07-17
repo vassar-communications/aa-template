@@ -20,9 +20,8 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
+<?php echo page_partialmasthead('https://vassartest.chuckyatsuk.com/img/visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2033.jpg'); ?>
 
-
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
 
 <?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-visit-breadcrumb.php');?>
@@ -35,65 +34,48 @@ $page_classes = "";
 
 <?php /*  PAGE CONTENT === */ ?>
 
-<?php echo sec_hasColumns(
+<?php echo masthead_interiorPage(
+    'Explore our online resources',
+    'There are any number of good reasons why a student might not be able to travel to Vassar, but that shouldn’t stop anyone from experiencing campus. That’s why we want virtual touring to be as easy, free, complete and immersive as possible.',
+    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg');
+?>
+
+
+<?php echo sec_fullBleedImageColumn(
     null,
-    2,
-    null,
-    '',
+    'https://vassartest.chuckyatsuk.com/img/visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2025.jpg',
+    'image-is-first theme-cream',
     ''
 ); ?>
 
-<?php echo item_col(); ?>
-<h2 class="display-6">Explore our online resources</h2>
-<p>There are any number of good reasons why a student might not be able to travel to Vassar, but that shouldn’t stop anyone from experiencing campus. That’s why we want virtual touring to be as easy, free, complete and immersive as possible.</p>
-<a href="https://apply.vassar.edu/portal/campusvisitcalendar"  class="px-0 btn btn-link">Register Now<i class="circle fa-solid fa-angle-right"></i></a>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col(); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2025.jpg" />
-<?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
-
-
-<?php echo sec_hasColumns(
-    'Virtual Visit Options',
-    2,
-    null,
-    '',
-    'fix'
-); ?>
-
-<?php echo item_col(); ?>
-Virtual Information Sessions<br/>
-Learn about academics, student life, the application process, financial aid, and ask your questions about Vassar.
-<?php echo end_item_col(); ?>
-
-<?php echo item_col(); ?>
-Student Q&As<br/>
-Meet current students on Zoom and ask your questions about academics, involvement, and what it’s like to be a Vassar College student.
-<?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
-
+<div class="animate-when-content-appears animation-slide-up">
+    <h2 class="display-2 mb-5 border-animate">Virtual Visit Options</h2>
+    <span class="tagline  mb-2">Virtual Information Sessions.</span><p>Learn about academics, student life, the application process, financial aid, and ask your questions about Vassar.</p>
+    <span class="tagline  mb-2">Student Q&As</span>
+        <p>Meet current students on Zoom and ask your questions about academics, involvement, and what it’s like to be a Vassar College student.</p>
+    <a href="https://apply.vassar.edu/portal/campusvisitcalendar"  class="btn btn-primary arrow">Register Now</a>
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_hasColumns(
     null,
     2,
     null,
-    'theme-charcoal',
-    ''
+    'theme-charcoal bg-dark has-bg quad-pattern',
+    'd-flex align-items-center'
 ); ?>
 
+
+
 <?php echo item_col(); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2025.jpg" />
+<h2 class="display-2">Video Campus Tour</h2>
+<p>Students wishing to preview the Vassar campus can watch this 30-minute video tour</p>
+<a href="https://apply.vassar.edu/portal/campusvisitcalendar"  class="px-0 btn btn-link arrow">Watch Video</a>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
-<h2 class="display-6">Video Campus Tour</h2>
-<p>Students wishing to preview the Vassar campus can watch this 30-minute video tour:</p>
-<a href="https://apply.vassar.edu/portal/campusvisitcalendar"  class="px-0 btn btn-link">Watch Video<i class="circle fa-solid fa-play"></i></a>
+<img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
@@ -102,63 +84,75 @@ Meet current students on Zoom and ask your questions about academics, involvemen
     'More Online Resources',
     3,
     null,
-    'theme-dark-burgundy',
+    'theme-cream',
     ''
 ); ?>
 
-<?php echo item_col(); ?>
+
 <?php echo item_cardWithText(
     'Self-Guided Virtual Tour',
     'https://www.vassar.edu/tour',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/visit/virtual/0091_15_09_KR_0201.jpg', 'alt' => 'Virtual Tours' ],
-    '',
-    ['hlevel' => 4]
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/visit/virtual/0091_15_09_KR_0201.jpg', 'alt' => 'replacealttext' ],
+    'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
-<p>Click below to access an interactive campus tour with 360° views.</p>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-angle-right"></i></div>
-<?php echo end_item_cardWithText(); ?>
-<?php echo end_item_col(); ?>
 
-<?php echo item_col(); ?>
+<p>Access an interactive campus tour with 360° views.</p>
+
+<?php echo end_item_cardWithText(
+    null,
+); ?>
+
+
 <?php echo item_cardWithText(
     'Classroom Visits',
-    '/admission/visit/class-visits',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/visit/virtual/110519_160over90_Vassar_0348.jpg', 'alt' => 'Classroom Visits' ],
-    '',
-    ['hlevel' => 4]
+    '/admission/visit/class-visits/',
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/visit/virtual/110519_160over90_Vassar_0348.jpg', 'alt' => 'replacealttext' ],
+    'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
-<p>Want to experience the virtual Vassar classroom? Check out these pre-recorded classes.</p>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-angle-right"></i></div>
-<?php echo end_item_cardWithText(); ?>
-<?php echo end_item_col(); ?>
 
-<?php echo item_col(); ?>
+<p>Want to experience the virtual Vassar classroom? Check out these pre-recorded classes.</p>
+
+<?php echo end_item_cardWithText(
+    null,
+); ?>
+
+
+
 <?php echo item_cardWithText(
     'Vassar on Demand',
-    '/admission/visit/on-demand',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/visit/virtual/Take_Off_MZa.jpg', 'alt' => 'international' ],
-    '',
-    ['hlevel' => 4]
+    '/admission/visit/on-demand/',
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/visit/virtual/Take_Off_MZa.jpg', 'alt' => 'replacealttext' ],
+    'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
+
 <p>Miss a virtual event or want to see more? Watch past events, presentations, and performances any time!</p>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-angle-right"></i></div>
-<?php echo end_item_cardWithText(); ?>
+
+<?php echo end_item_cardWithText(
+    null,
+); ?>
+
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
 
 
+
+
+
+
 <?php echo sec_fullBleedImageColumn(
     null,
     'https://vassartest.chuckyatsuk.com/img/visit/virtual/Urban_Center_Black_Studies_SPC.jpg',
-    'theme-charcoal',
-    'mw-100'
+    'theme-charcoal bg-dark',
+    ''
 ); ?>
-<h2 class="display-6">Buildings and Belonging</h2>
+<div class="animate-when-content-appears animation-slide-up">
+<h2 class="display-2 mb-5 border-animate">Buildings and Belonging</h2>
 <p>Buildings and Belonging is a digital tool and self-guided campus tour that celebrates, honors, and remembers the contributions of African-American community members whose presence and contributions have shaped Vassar.</p>
 
-<a class="px-0 btn btn-link" href="#" role="button">Buildings & Belongings Map</a>
+<a class="placeholder px-0 btn btn-link arrow" href="#">Buildings & Belongings Map</a>
+</div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
@@ -169,11 +163,11 @@ Meet current students on Zoom and ask your questions about academics, involvemen
 
 
 
-
+<!-- Related Topics -->
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-in-person.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-group-visits.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-hudson-valley.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
 <?php echo site_footer(); ?>

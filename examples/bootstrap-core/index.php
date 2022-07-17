@@ -28,11 +28,41 @@ $page_title = "Bootstrap Components";
 </style>
 
 <?php echo sec_regularContent(
-    'Animated list',
+    'Solid Cream',
+    'theme-cream',
     null,
-    null,
-    ['title_classes' => 'animate-when-content-appears animation-zoom-in']
+    null
 ); ?>
+<a href="" class="cta-link">Apply</a>
+
+<a href="" class="btn btn-sm btn-primary">Apply</a>
+<?php echo end_sec_regularContent(); ?>
+
+
+
+<?php echo sec_regularContent(
+    'Solid Burgundy',
+    'theme-burgundy',
+    null,
+    null
+); ?>
+<a href="" class="cta-link">Apply</a>
+
+<a href="" class="btn btn-sm btn-block btn-primary">Apply</a>
+<?php echo end_sec_regularContent(); ?>
+
+
+<a href="" class="btn btn-sm btn-block btn-primary" role="button">Apply</a>
+
+
+<?php echo sec_regularContent(
+    'Solid Burgundy',
+    '',
+    null,
+    null
+); ?>
+
+<?php echo end_sec_regularContent(); ?>
 
 
 

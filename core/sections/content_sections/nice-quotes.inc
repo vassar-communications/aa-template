@@ -1,8 +1,5 @@
 <?php
 
-
-
-
 /**
  * sec_buffer()
  * Spacefiller section for testing scroll-in animations
@@ -14,56 +11,7 @@
  */
 function niceQuotes( $extras = false ) {
 return <<<TMP
-<style>
-.quotes-carousel {
-  height: 20vh;
-}
-  .quotes-carousel .carousel-cell {
-    width: 100%;
-    min-height: 10vh;
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .quotes-carousel .split-words-content p {
-    line-height: 1.16;
-  }
-
-  .carousel.is-fullscreen .carousel-cell {
-    height: 100%;
-  }
-
-  .quotes-carousel span {
-    display: inline-block;
-    margin-right: 0.23em;
-    font-size: 3.6rem !important;
-    color: var(--color-vassar-burgundy);
-  }
-
-  .quotes-carousel .split-words-content {
-      max-width: 60em;
-      padding: 1em;
-  }
-
-  .quotes-carousel .flickity-page-dots {
-    display: none;
-  }
-
-  .the-quote-ticker .section-intro-text {
-    font-variation-settings: "wght" 340 !important;
-    font-family: var(--bs-font-sans-serif) !important;
-    line-height: 1.16 !important;
-    font-size: 1.8rem !important;
-    font-weight: 100 !important;
-    text-align: center;
-    color: #666;
-  }
-
-  </style>
-
-<h3 class="small-header mt-5 mb-5">Vassar Is</h3>
+<h3 class="fancy-heading tagline text-center my-5">Vassar Is</h3>
 
   <div class="quotes-carousel" data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": 2000, "cellAlign": "center", "contain": true, "prevNextButtons": false }'>
 

@@ -8,44 +8,33 @@ This should be a section option
 
 
 .sec-fixedCenteredTitleMasthead {
-  min-height: 100vh;
-  padding-top: 80vh;
+ // min-height: 100vh;
+ // padding-top: 80vh;
 
   .animation-item {
     @include setup-animation-zoom-in();
   }
 
   .section-title-container {
-    margin: 0;
-    position: fixed;
-    padding: 0;
-    top: 0;
-    left: 0;
     transform: none;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     z-index: 10;
     background-color: var(--title-container-bg-beforeContent, transparent);
-    //    opacity: 0;
 
     .section-title {
-      font-family: var(--bs-font-sans-serif);
+      font-family: var(--font-big-serif);
       font-weight: 800;
       color: #fff;
-      //      text-shadow: 0 0 2em #000, 0 0 1em #000;
-      //      text-shadow: 0 0 2em #000;
-
       font-size: var(--section-title-size, 8vw);
       letter-spacing: -0.01em;
-
       transition: text-shadow 0.4s ease;
       transition-property: text-shadow, opacity;
       will-change: text-shadow;
+      text-transform: uppercase;
+      font-style: italic;
     }
   }
+
+  /* Does not seem necessary for the initial implementation of this pattern
   .section-content {
     opacity: 0;
   }
@@ -55,15 +44,19 @@ This should be a section option
     margin-top: 1em;
     margin-bottom: 1em;
   }
+*/
 
+
+/* does not seem to apply
   .section-bg-image {
-    transition: 1s all ease;
+    transition: 10s all ease;
   }
 
   .section-title-container {
-    transition: 1s all ease;
+    transition: 10s all ease;
   }
 
+*/
 
   &.show-title {
     .section-title-container {
@@ -90,8 +83,11 @@ This should be a section option
   }
 
   .section-title {
+
+    /* not necessary given flex?
     margin: 0;
     padding: 0;
+ */
 
     &:after {
       display: none;
@@ -100,20 +96,18 @@ This should be a section option
       transform: translateX(-1em);
       font-size: 80%;
     }
+
     .slide-from-right {
       transform: translateX(1em);
     }
 
     .slide-from-left,
     .slide-from-right {
+
       display: block;
       opacity: 0;
       transition: 2s all ease;
       line-height: 0.7;
-
-      font-family: freight-big-pro;
-      text-transform: uppercase;
-      font-style: italic;
 
     }
 

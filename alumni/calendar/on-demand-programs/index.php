@@ -128,7 +128,7 @@ $page_classes = "";
 <?php echo item_col(''); ?>
 
 <a class="swap card card-full-image text-at-bottom mb-4" data-bs-toggle="modal" data-bs-target="#ondemand01">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
+    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="replacealttext">
     <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/01_covid.mp4"
                 type="video/mp4">
@@ -147,7 +147,7 @@ $page_classes = "";
 <?php echo item_col(''); ?>
 
 <a class="swap card card-full-image text-at-bottom mb-4" data-bs-toggle="modal" data-bs-target="#ondemand02">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
+    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="replacealttext">
     <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/02_womens-rights.mp4"
                 type="video/mp4">
@@ -170,7 +170,7 @@ $page_classes = "";
 <?php echo item_col(''); ?>
 
 <a class="swap card card-full-image text-at-bottom mb-4" data-bs-toggle="modal" data-bs-target="#ondemand03">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
+    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="replacealttext">
     <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/03_higher-ed-pandemic.mp4"
                 type="video/mp4">
@@ -191,11 +191,11 @@ $page_classes = "";
 
 
 
-<?php echo item_col('equalht'); ?>
+<?php echo item_col('d-flex'); ?>
 
 
 <a class="swap card card-full-image text-at-bottom mb-4" data-bs-toggle="modal" data-bs-target="#ondemand04">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
+    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="replacealttext">
     <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/04_votes-for-women.mp4"
                 type="video/mp4">
@@ -216,10 +216,10 @@ $page_classes = "";
 
 
 
-<?php echo item_col('equalht'); ?>
+<?php echo item_col('d-flex'); ?>
 
 <a class="swap card card-full-image text-at-bottom mb-4" data-bs-toggle="modal" data-bs-target="#ondemand05">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
+    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="replacealttext">
     <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/05_democracy-crossroad.mp4"
                 type="video/mp4">
@@ -238,10 +238,10 @@ $page_classes = "";
 <?php echo end_item_col(); ?>
 
 
-<?php echo item_col('equalht'); ?>
+<?php echo item_col('d-flex'); ?>
 
 <a class="swap card card-full-image text-at-bottom mb-4" data-bs-toggle="modal" data-bs-target="#ondemand06">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
+    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="replacealttext">
     <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/06_SUSTAIN.mp4"
                 type="video/mp4">
@@ -262,11 +262,11 @@ $page_classes = "";
 
 
 
-<?php echo item_col('equalht'); ?>
+<?php echo item_col('d-flex'); ?>
 
 <a class="swap card card-full-image text-at-bottom mb-4" href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5032
 ">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
+    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="replacealttext">
     <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/07-class-visited.mp4"
                 type="video/mp4">
@@ -284,10 +284,10 @@ $page_classes = "";
 <?php echo end_item_col(); ?>
 
 
-<?php echo item_col('equalht'); ?>
+<?php echo item_col('d-flex'); ?>
 
 <a class="swap card card-full-image text-at-bottom mb-4" href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5537">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
+    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="replacealttext">
     <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/08-nochlin.mov"
                 type="video/mp4">
@@ -304,10 +304,10 @@ $page_classes = "";
 
 <?php echo end_item_col(); ?>
 
-<?php echo item_col('equalht'); ?>
+<?php echo item_col('d-flex'); ?>
 
 <a class="swap card card-full-image text-at-bottom mb-4" href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5313">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="asdfasdfds">
+    <img src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/bg.jpg" class="card-img" alt="replacealttext">
     <video muted autoplay loop preload="auto" width="100%">
         <source src="https://vassartest.chuckyatsuk.com/img/alumni/calendar/on-demand/video/09_AAAVC.mp4"
                 type="video/mp4">

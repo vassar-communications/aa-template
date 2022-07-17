@@ -1,0 +1,14 @@
+/*
+Any time we need an intro paragraph, use this styling.
+
+(May need to add a smaller size in addition)
+*/
+
+.sec-fixedCenteredTitle .section-intro-text,
+.section-intro-text,
+.intro-text {
+  font-size: $h1-font-size;
+  font-family: var(--font-big-serif);
+  line-height: 1.16;
+  font-weight: 100;
+}

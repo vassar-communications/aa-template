@@ -1,49 +1,3 @@
-<style>
-
-
-    .textmasthead.theme-verylightgray .section__title {
-        position: relative;
-        z-index: 10;
-    }
-    .shadow-md {
-        box-shadow: 0 0.4rem 0.6rem rgb(0 0 0 / 18%) !important;
-    }
-
-    .section__title__main.display-1.display {
-        font-family: freight-big-pro;
-        line-height: 0.8;
-    }
-
-    @keyframes title-word-appear {
-        from {
-            opacity: 0;
-            transform: translateX(-0.4em);
-        }
-        to {
-            opacity: 1;
-            transform: translateX(0);
-        }
-    }
-
-    .titleLevel3-word {
-        display: block;
-        animation-fill-mode: forwards;
-        opacity: 0;
-        transform: translateX(-0.4em);
-    }
-
-    .titleLevel3-word.word-1 {
-        animation-name: title-word-appear;
-        animation-duration: 1s;
-    }
-    .titleLevel3-word.word-2 {
-        animation-name: title-word-appear;
-        animation-duration: 1s;
-        animation-delay: 0.2s;
-    }
-
-
-</style>
 
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
@@ -53,8 +7,8 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "<span class='titleLevel3-word word-1'>In-Person</span> <span class='titleLevel3-word word-2'>Campus Visits</span>";
-$page_classes = "inperson";
+$page_title = "In-Person Visits";
+$page_classes = "";
 
 /*  ---------------------- */
 
@@ -64,7 +18,7 @@ $page_classes = "inperson";
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo page_masthead('https://vassartest.chuckyatsuk.com/img/visit/in-person/0073-21-06-kr-summer-vassar-0179.jpg'); ?>
+<?php echo page_partialmasthead('https://vassartest.chuckyatsuk.com/img/visit/in-person/0073-21-06-kr-summer-vassar-0179.jpg'); ?>
 
 <?php echo hamburger_navigation(); ?>
 
@@ -77,155 +31,117 @@ $page_classes = "inperson";
 <?php echo end_sec_toplinksNav(); ?>
 
 
-<?php echo sec_wideContent(
+
+<?php echo sec_fullBleedImageColumn(
     null,
+    'https://vassartest.chuckyatsuk.com/img/visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg',
+    'image-is-first theme-cream',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p class="intro-text">We are excited to welcome registered visitors to our campus! To be sure that your time on campus is safe and enjoyable, please carefully review the information on this page prior to your Vassar visit.</p>
+
+    <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="btn btn-primary mt-5 arrow">Register Now</a>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php echo sec_wordByWord_fixed(
     null,
-    null,
-    'mw-4'
+    'animate-when-content-appears space-around-image',
+    null
 ); ?>
 
-
-
-
-<?php echo sec_hasColumns(
-    null,
-    2,
-    null,
-    'animate-when-content-appears animation-slide-up',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
-); ?>
-
-<?php echo item_col('equal'); ?>
-<h2 class="display-6">We are excited to welcome registered visitors to our campus! To be sure that your time on campus is safe and enjoyable, please carefully review the information on this page prior to your Vassar visit. </h2>
-<button class="mt-4 btn btn-primary">Register Now <i class="fa-solid fa-angle-right"></i></button>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('equal'); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg" />
-<?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
-
-
-<?php echo end_sec_wideContent(); ?>
-
-
-
-
+<p>“Vassar’s more than 100 buildings showcase various architectural styles, from the Gothic Thompson Memorial Library to César Pelli’s Lehman Loeb Art Center.”</p>
+<div class="quote-attribution"><em>Architectural Digest</em>, “50 Most Beautiful Campuses”</div>
+<?php echo end_sec_wordByWord_fixed(); ?>
 
 
 <?php echo sec_regularContent(
-    null,
-    'theme-cream',
+    'Arrival and Check-In',
+    'theme-burgundy',
     '',
     ''
 ); ?>
-<h3 class="pt-5 display-6">Campus Access and Pre-Registration</h3>
-<p>Pre-registration is required to attend an on-campus Admission Information Session and Campus Tour; walk-ins will not be accommodated. Self-guided tours are permitted without registration, and campus maps are available at the directional sign in front of the Kautz Admission House.</p>
-<p>Please note, Admission Office staff will only be available during regularly scheduled visits to speak with registered visitors. All campus buildings, including the Kautz Admission House, remain closed to the general public. The guided tour includes entry into some campus buildings, but visitors will not be permitted to enter buildings separate from the tour. Please refrain from bringing pets along for the Information Session or Tour; service animals are welcome.</p>
-
-<button class="mt-4 btn btn-primary">Register Now <i class="fa-solid fa-angle-right"></i></button>
-
-<hr class="my-5">
 
 
-<h4 class="display-6">Arrival and Check-In</h4>
-<p class="pt-4">Parking is available in the North Parking Lot and South Parking Lot. A small number of parking spaces can also be found on Main Campus Drive and along the back of Main Circle in front of Kautz House. We recommend arriving on campus 20 minutes prior to the start of your visit in order to secure parking and make your way to the check-in location.</p>
+<?php echo item_alert(
+    'Mask Policy',
+    'All visitors must wear a mask when indoors. The information session and guided tour will include entry into campus buildings, so please have a mask with you during your visit.',
+    'mask-face',
+    'alert-light alert-accent-gold'
+); ?>
+
+<p>Parking is available in the North Parking Lot and South Parking Lot. A small number of parking spaces can also be found on Main Campus Drive and along the back of Main Circle in front of Kautz House. We recommend arriving on campus 20 minutes prior to the start of your visit in order to secure parking and make your way to the check-in location.</p>
 
 <p>Check-in will take place outside of Kautz Admission House. Visitors arriving more than 10 minutes late will be asked to wait until the information session ends to join the tour; visitors arriving more than 10 minutes after the start of the tour will be unable to join.</p>
-<button class="mt-4 btn btn-primary">Download Parking Map <i class="mx-0 fa-solid fa-download"></i></button>
 
-<hr class="my-5">
-
-
-<h3 class="display-6">Visitor Health and Safety Policies</h3>
-<p class="pt-4"><strong>Proof of COVID-19 Vaccination or Negative Test</strong><br/> We require all campus visitors to show proof of full vaccination against COVID-19. This requirement includes the booster shot, which is in keeping with the spring term campus requirement that all students and employees have a COVID-19 booster. Visitors who are not fully vaccinated, including those who have not yet received the booster, must present a negative COVID-19 test upon check-in.</p>
-
-<p>Visitors not in compliance will be turned away. This policy applies to all visitors, including those who are ineligible to receive the booster.</p>
-
-<p class="pt-4"><strong>Acceptable proof of vaccination or COVID-19 testing includes:</strong></p>
-<ul>
-    <li>Official vaccination card including the booster shot</li>
-    <li>NY Excelsior Pass App with vaccination record or record of a negative PCR test within 72 hours of the visit</li>
-    <li>A SMART Health Card with vaccination record or record of a negative PCR test within 72 hours of the visit</li>
-    <li>Paper record of a negative PCR test with the date/time being no greater than 72 hours prior to your visit</li>
-    <li>A negative rapid antigen test taken immediately before the visit (you will need to bring your own rapid test kit; please note that most rapid tests take 15-20 minutes to display a result)</li>
-</ul>
-
-<p class="pt-4"><strong>Regardless of your vaccination status or COVID-19 test results, if you are feeling sick, we ask that you stay home.</strong></p>
-
-
-<div class="mt-4 alert alert-secondary" role="alert">
-    <h6><strong><i class="fa-solid fa-mask-face"></i>  Mask Policy</strong></h6>
-    <p>All visitors must wear a mask when indoors. The information session and guided tour will include entry into campus buildings, so please have a mask with you during your visit.</p>
-</div>
+<a class="btn btn-light">Download Parking Map <i class="mx-0 fa-solid fa-download"></i></a>
 
 <?php echo end_sec_regularContent(); ?>
 
+
+
+<!-- Campus Access and Pre-Registration -->
+<?php echo sec_fullBleedImageColumn(
+    'Campus Access and Pre-Registration',
+    'https://vassartest.chuckyatsuk.com/img/visit/in-person/0069-19-05-kr-spring-vassar-4221.jpeg',
+    'image-is-first theme-charcoal bg-dark',
+    'mw-100'
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+
+    <p>Pre-registration is required to attend an on-campus Admission Information Session and Campus Tour; walk-ins will not be accommodated. Self-guided tours are permitted without registration, and campus maps are available at the directional sign in front of the Kautz Admission House.</p>
+    <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="btn btn-light mt-5 arrow">Register Now</a>
+    <?php echo end_sec_fullBleedImageColumn(); ?>
+    <!-- End Campus Access and Pre-Registration -->
+
+
+    <?php echo sec_regularContent(
+        'Visitor Health and Safety Policies',
+        'theme-cream',
+        '',
+        ''
+    ); ?>
+    <?php echo item_alert(
+        'Please note',
+        ' Admission Office staff will only be available during regularly scheduled visits to speak with registered visitors. All campus buildings, including the Kautz Admission House, remain closed to the general public. The guided tour includes entry into some campus buildings, but visitors will not be permitted to enter buildings separate from the tour. Please refrain from bringing pets along for the Information Session or Tour; service animals are welcome.',
+        'info-circle',
+        'alert-light alert-accent-gold'
+    ); ?>
+
+    <h3>Proof of COVID-19 Vaccination or Negative Test</h3>
+      <p>We require all campus visitors to show proof of full vaccination against COVID-19. This requirement includes the booster shot, which is in keeping with the spring term campus requirement that all students and employees have a COVID-19 booster. Visitors who are not fully vaccinated, including those who have not yet received the booster, must present a negative COVID-19 test upon check-in.</p>
+
+    <p>Visitors not in compliance will be turned away. This policy applies to all visitors, including those who are ineligible to receive the booster.</p>
+
+
+    <h3>Acceptable proof of vaccination or COVID-19 testing includes:</h3>
+    <ul>
+        <li>Official vaccination card including the booster shot</li>
+        <li>NY Excelsior Pass App with vaccination record or record of a negative PCR test within 72 hours of the visit</li>
+        <li>A SMART Health Card with vaccination record or record of a negative PCR test within 72 hours of the visit</li>
+        <li>Paper record of a negative PCR test with the date/time being no greater than 72 hours prior to your visit</li>
+        <li>A negative rapid antigen test taken immediately before the visit (you will need to bring your own rapid test kit; please note that most rapid tests take 15-20 minutes to display a result)</li>
+    </ul>
+
+    <p>Regardless of your vaccination status or COVID-19 test results, if you are feeling sick, we ask that you stay home.</p>
+
+
+
+    <?php echo end_sec_regularContent(); ?>
 
 
 
 <?php /*  PAGE CONTENT === */ ?>
 
 
-<?php echo sec_wideContent(
-    'Related Topics',
-    '',
-    'theme-cream theme-verylightgray pb-1 presentation',
-    'mw-4'
-); ?>
-
-
-
-<?php echo sec_hasColumns(
-    null,
-    3,
-    null,
-    '',
-    ''
-); ?>
-
-<?php echo item_col('equalht'); ?>
-<a class="card mb-4" href="/admission/explore/campus">
-    <img src="https://vassartest.chuckyatsuk.com/img/visit/0191-19-10-ali-library-drone-vassar-vb-2015.jpg" class="card-img-top" alt="asdfasdfds">
-    <div class="card-body">
-        <h4 class="card-title h2">Explore Campus</h4>
-        <div class="card-text">
-            <p>Bold thinking converges with breathtaking natural beauty. </p>
-
-        </div>
-        <div class="p-0 m-0 pt-4 d-flex w-100 justify-content-start btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
-    </div>
-</a>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('equalht'); ?>
-<a class="card mb-4" href="/admission/explore/student-life">
-    <img src="https://vassartest.chuckyatsuk.com/img/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg" class="card-img-top" alt="asdfasdfds">
-    <div class="card-body">
-        <h4 class="card-title h2">Explore Student Life</h4>
-        <div class="card-text">
-            <p>A strong community is made of every individual.</p>
-
-        </div>
-        <div class="p-0 m-0 pt-4 d-flex w-100 justify-content-start btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
-    </div>
-</a>
-<?php echo end_item_col(); ?>
-<?php echo item_col('equalht'); ?>
-<a class="card mb-4" href="/admission/explore/outcomes">
-    <img src="https://vassartest.chuckyatsuk.com/img/explore/outcomes/0002-20-01-kr-scc-networking-vassar-0041.jpg" class="card-img-top" alt="Outcomes">
-    <div class="card-body">
-        <h4 class="card-title h2">Explore Outcomes</h4>
-        <div class="card-text">
-            <p>Vassar is committed to ensuring our students’ growth and progress from Day 1 to beyond graduation.
-            </p>
-        </div>
-        <div class="p-0 m-0 pt-4 d-flex w-100 justify-content-start btn btn-link"><i class="mx-0 circle fa-solid fa-arrow-right"></i></div>
-    </div>
-</a>
-<?php echo end_item_col(); ?>
-<?php echo end_sec_hasColumns(); ?>
-<?php echo end_sec_wideContent(); ?>
+<!-- Related Topics -->
+<?php echo relatedTopics(); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-hudson-valley.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-virtual-programs.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-group-visits.php');?>
+<?php echo end_sec_relatedTopics(); ?>
 
 <?php echo site_footer(); ?>

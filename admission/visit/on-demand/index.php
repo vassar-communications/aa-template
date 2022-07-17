@@ -38,25 +38,24 @@ $page_classes = "";
 <?php /*  PAGE CONTENT === */ ?>
 
 
-<?php echo sec_hasColumns(
+
+
+<?php echo sec_fullBleedImageColumn(
     null,
-    2,
-    null,
-    '',
+    'https://vassartest.chuckyatsuk.com/img/visit/on-demand/0086-20-09-kr-library-vassar-0001.jpg',
+    'image-is-first theme-cream',
     ''
 ); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <h1 class="display-6">Miss a virtual event or want to see more? Watch past events, presentations, and performances any time! This page will be updated as new events take place, so check back often to explore all that Vassar has to offer.</h1>
 
-<?php echo item_col(); ?>
-<h2 class="display-6">Vassar Virtual</h2>
-<p>Miss a virtual event or want to see more? Watch past events, presentations, and performances any time! This page will be updated as new events take place, so check back often to explore all that Vassar has to offer.</p>
-<a href="https://apply.vassar.edu/portal/campusvisitcalendar"  class="px-0 btn btn-link">Register Now<i class="circle fa-solid fa-angle-right"></i></a>
-<?php echo end_item_col(); ?>
+    <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="btn btn-primary mt-5 arrow">Register Now</a>
 
-<?php echo item_col(); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/visit/on-demand/0086-20-09-kr-library-vassar-0001.jpg" />
-<?php echo end_item_col(); ?>
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php echo end_sec_hasColumns(); ?>
+
+
 
 <?php echo sec_wideContent(
     'Voices of Vassar',
@@ -81,7 +80,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -94,7 +93,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -107,7 +106,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -139,7 +138,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -152,7 +151,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -165,7 +164,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -178,7 +177,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -212,7 +211,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -225,7 +224,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -238,7 +237,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -259,10 +258,12 @@ $page_classes = "";
 <a href="https://apply.vassar.edu/register/requestinfo" class="btn btn-light">Join the list</a>
 <?php echo end_sec_regularContent(); ?>
 
+
+<!-- Related Topics -->
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-virtual-programs.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-in-person.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-group-visits.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
 <?php echo site_footer(); ?>

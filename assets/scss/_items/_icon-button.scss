@@ -22,7 +22,7 @@
   border-radius: 0.4rem;
 
   &:hover {
-    --section-link-hover-bg-color: #f00;
+    --section-link-hover-bg-color: var(--color-vassar-red);
     --section-link-hover-color: #fff;
   }
 

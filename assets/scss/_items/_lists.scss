@@ -1,16 +1,15 @@
-/*disabling list styles temporarily as these classes impacted too many instances of the li element
 
 li {
   --regularContent-lineHeight: 1.3;
 }
 
+/* li element impacts too many parts of the product these fancy lists may need to be specified as there is also a need to use old fashioned plain bullets in certain scenarios. */
 
-li::marker {
+.list-fancy  li::marker {
   content: '\2B29  ';
   font-weight: bold;
-  color: var(--list-item-bullet-color, #f00);
+  color: var(--list-item-bullet-color, $red);
   padding-right: 1rem;
   font-size: 80%;
 }
 
-*/

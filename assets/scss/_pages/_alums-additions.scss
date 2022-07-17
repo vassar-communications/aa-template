@@ -1,0 +1,40 @@
+.fancy-card {
+  .card-text p {
+    font-variation-settings: "wght" 400;
+  }
+  h3.card-title {
+    font-family: var(--font-big-serif);
+    font-weight: bold;
+    font-size: $h2-font-size !important;
+    color: $black;
+    transition: 0.3s all ease;
+  }
+  &:hover {
+    h3.card-title {
+      color: $red;
+    }
+  }
+}
+
+.here-to-help {
+  .fancy-card {
+    h3.card-title {
+      color: $gray-200;
+      margin-bottom: 1rem;
+      line-height: 1;
+    }
+    &:hover {
+      h3.card-title {
+        color: $gray-600;
+      }
+    }
+  }
+}
+
+
+
+
+
+.color-burgundy {
+  color: $burgundy;
+}

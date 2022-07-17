@@ -1,0 +1,11 @@
+/* Partial Masthead */
+
+.partial-masthead  {
+  min-height: auto;
+    .title-container, .section-bg {
+      height: 70vh;
+    }
+    .title-container{
+      padding-bottom:4vw;
+    }
+}

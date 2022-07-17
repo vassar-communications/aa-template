@@ -7,7 +7,7 @@ include($project_paths['main_project_root'].'/functions.php');
 /*  PAGE INFO ============ */
 
 $page_title = "Alumni Resources";
-$page_classes = "academics-cy academics";
+$page_classes = "";
 
 /*  ---------------------- */
 
@@ -29,7 +29,7 @@ $page_classes = "academics-cy academics";
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/resources/0640_Vassar College_exteriors_campus life_Oct 2019_JA.JPG',
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'replacethisalttext',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
@@ -137,9 +137,9 @@ $page_classes = "academics-cy academics";
     ''
 ); ?>
 
-<?php echo item_col('equalht'); ?>
+<?php echo item_col('d-flex'); ?>
 <a class="card mb-4" href="#">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/community/overview/0127_12_12_YEM_2467.jpg" class="card-img-top" alt="asdfasdfds">
+    <img src="https://vassartest.chuckyatsuk.com/img/alumni/community/overview/0127_12_12_YEM_2467.jpg" class="card-img-top" alt="replacealttext">
     <div class="card-body">
         <h4 class="card-title h2">Alumni Directory</h4>
         <div class="card-text">
@@ -151,9 +151,9 @@ $page_classes = "academics-cy academics";
 </a>
 <?php echo end_item_col(); ?>
 
-<?php echo item_col('equalht'); ?>
+<?php echo item_col('d-flex'); ?>
 <a class="card mb-4" href="/alumni/community/aavc">
-    <img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/vassar-network/0036-22-06-kr-reunion-vassar-0148.jpg" class="card-img-top" alt="asdfasdfds">
+    <img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/vassar-network/0036-22-06-kr-reunion-vassar-0148.jpg" class="card-img-top" alt="replacealttext">
     <div class="card-body">
         <h4 class="card-title h2">The Vassar Network</h4>
         <div class="card-text">
@@ -165,7 +165,7 @@ $page_classes = "academics-cy academics";
 </a>
 <?php echo end_item_col(); ?>
 
-<?php echo item_col('equalht'); ?>
+<?php echo item_col('d-flex'); ?>
 <a class="card mb-4" href="/alumni/community/alumni-news">
     <img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" class="card-img-top" alt="Outcomes">
     <div class="card-body">
@@ -179,7 +179,7 @@ $page_classes = "academics-cy academics";
 </a>
 <?php echo end_item_col(); ?>
 
-<?php echo item_col('equalht'); ?>
+<?php echo item_col('d-flex'); ?>
 <a class="card mb-4" href="/alumni/community/alumni-news">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/grants/time-out-awardee-bishop-joseph-tolton-89_0829.jpg" class="card-img-top" alt="Outcomes">
     <div class="card-body">
@@ -193,7 +193,7 @@ $page_classes = "academics-cy academics";
 </a>
 <?php echo end_item_col(); ?>
 
-<?php echo item_col('equalht'); ?>
+<?php echo item_col('d-flex'); ?>
 <a class="card mb-4" href="/alumni/community/alumni-news">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/college-search/0036-22-06-kr-reunion-vassar-0040.jpg" class="card-img-top" alt="Outcomes">
     <div class="card-body">
@@ -207,7 +207,7 @@ $page_classes = "academics-cy academics";
 </a>
 <?php echo end_item_col(); ?>
 
-<?php echo item_col('equalht'); ?>
+<?php echo item_col('d-flex'); ?>
 <a class="card mb-4" href="/alumni/community/alumni-news">
     <img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/campus-resources/110619_160over90_Vassar_7814.jpg" class="card-img-top" alt="Outcomes">
     <div class="card-body">
@@ -233,7 +233,7 @@ $page_classes = "academics-cy academics";
     <h2 class="display-2 mb-5">Alumnae House</h2>
     <p>With a reverence for the past and a nod towards the future, Alumnae House strives to be a welcoming home for all Vassar students and alums.</p>
 
-    <a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link">Visit Alumnae House <i class="circle fa-solid fa-arrow-right"></i></a>
+    <a href="/alumni/resources/alumnae-house/" class="px-0 btn btn-link arrow">Visit Alumnae House <i class="circle fa-solid fa-arrow-right"></i></a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

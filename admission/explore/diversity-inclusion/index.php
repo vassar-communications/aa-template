@@ -2,17 +2,18 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
- ?>
+?>
 <?php
 
 /*  PAGE INFO ============ */
 
-$page_title = "Diversity & Inclusion";
+$page_title = "Explore Diversity & Inclusion";
 $page_classes = "";
 
 /*  ---------------------- */
 
 ?>
+
 
 <?php echo site_header(); ?>
 
@@ -21,9 +22,23 @@ $page_classes = "";
 <?php echo hamburger_navigation(); ?>
 
 
+<?php echo sec_fixedCenteredTitle_masthead(
+    '<b class="slide-from-left">Explore</b>
+   <b class="slide-from-right">Diversity & Inclusion</b>',
+    null,
+    'theme-verylightgray reveal-image',
+    'mw-4',
+    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg',
+        'bg-image-alt' => 'alt text',
+        'css' => '
+      --title-container-bg-beforeContent: rgba(0,0,0,0.4);
+      --section-bg-image-opacity: 0;
+      /* --section-title-faded-color: #444; */
+      --bs-gap: 1rem;
+      ']
+); ?>
 
-
-<?php echo page_masthead('https://images.unsplash.com/photo-1651035157347-e92d6a3cd958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2066&q=80'); ?>
+<?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
 
 <?php echo breadcrumbNav('theme-cream'); ?>
@@ -34,14 +49,16 @@ $page_classes = "";
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>
 
-<?php echo sec_wordByWord(
-    null,
-    'animate-when-content-appears space-around-image theme-dark-burgundy',
-    ''
-); ?>
-<p>Together We Become More</p>
 
-<?php echo end_sec_wordByWord(); ?>
+<?php echo masthead_interiorPage(
+    'Together We Become More',
+    'We celebrate our differences and our connections and provide resources that are committed to the healthy support of EVERYONE.',
+    'https://vassartest.chuckyatsuk.com/img/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
+?>
+
+
+
+
 
 <?php echo sec_hasColumns(
     null,
@@ -64,5 +81,31 @@ $page_classes = "";
 
 <div class="buffer"></div>
 <?php /*  PAGE CONTENT === */ ?>
+
+
+<!-- RELATED TOPICS ===  -->
+
+<?php echo sec_hasColumns(
+    'More in This Section',
+    3,
+    null,
+    'related-topics-section theme-burgundy',
+    ''
+); ?>
+
+<?php echo item_col('related-topics-column d-flex'); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-academics.php');?>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col('related-topics-column d-flex'); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-student-life.php');?>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col('related-topics-column d-flex'); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-campus.php');?>
+<?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
 
 <?php echo site_footer(); ?>

@@ -13,9 +13,9 @@ function relatedTopics($section_classes=null,$extras = false) {
     $template = <<<TMP
 
 
-  <div class="section  theme-charcoal bg-dark section-with-columns columns-3 relatedtopics">
+  <div class="section theme-burgundy section-with-columns columns-3 relatedtopics">
   
-  <h2 class="section-title ">Related Topics</h2>
+  <h2 class="section-title">Related Topics</h2>
     <div class="section-content ">
     
     

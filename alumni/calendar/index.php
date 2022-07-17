@@ -7,7 +7,7 @@ include($project_paths['main_project_root'].'/functions.php');
 /*  PAGE INFO ============ */
 
 $page_title = "Our Community";
-$page_classes = "academics-cy academics";
+$page_classes = "";
 
 /*  ---------------------- */
 
@@ -29,7 +29,7 @@ $page_classes = "academics-cy academics";
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/community/overview/0037-19-02-kr-ifill-sherrilyn-vassar-7892.jpg',
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'replacethisalttext',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;

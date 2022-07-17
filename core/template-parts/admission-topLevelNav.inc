@@ -5,15 +5,13 @@ function admission_topLevelNav() {
     global $project_paths;
     $template = <<<TMP
 
-<nav class="nav--top animation-zoom-in animate-when-content-appears animation-group">
-  <ul>
-    <li class="animation-item"><a href="">Explore</a></li>
-    <li class="animation-item"><a href="">Apply</a></li>
-    <li class="animation-item"><a href="">Visit</a></li>
-    <li class="animation-item"><a href="">Financial Aid</a></li>
-    <li class="animation-item"><a href="">Quick Facts</a></li>
-    <li class="animation-item"><a href="">Connect</a></li>
-  </ul>
+<nav class="nav--top nav p-4 text-uppercase justify-content-center animation-zoom-in animate-when-content-appears animation-group">
+   <a class="nav-link animation-item" href="/admission/explore/">Explore</a>
+   <a class="nav-link animation-item" href="/admission/apply/">Apply</a>
+   <a class="nav-link animation-item" href="/admission/visit/">Visit</a>
+   <a class="nav-link animation-item" href="/admission/financial-aid/">Financial Aid</a>
+   <a class="nav-link animation-item" href="/admission/quick-facts/">Quick Facts</a>
+   <a class="nav-link animation-item" href="/admission/connect/">Connect</a>
 </nav>
 
 TMP;

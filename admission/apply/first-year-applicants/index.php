@@ -44,7 +44,14 @@ $page_classes = "";
 <?php echo item_col('equal'); ?>
 <h2 class="display-3">Information for First-Year Applicants</h2>
 <p>Everything you need to know to apply </p>
-<p class="fix">insert deadlines</p>
+
+<?php echo deadlines('Early Decision Application deadlines'); ?>
+
+  <?php echo deadlines_item('Early Decision Round 1', 'November 15'); ?>
+  <?php echo deadlines_item('Early Decision Round 2', 'January 1'); ?>
+
+<?php echo end_deadlines(); ?>
+
 <?php echo end_item_col(); ?>
 
 <?php echo item_col('equal'); ?>
@@ -84,28 +91,27 @@ $page_classes = "";
 <h3 class="display-4">Optional Application Materials</h3>
 <p>The following are not required for your application. for more information click the links below</p>
 
-<h4>Standardized Tests</h4>
+<h3>Standardized Tests</h3>
 <p>Vassar does not require students to submit the SAT or ACT </p>
 <a class="fix btn btn-text" href="#">Read Vassar's standardized test policy</a>
 
-<h4>Your Space</h4>
+<h3>Your Space</h3>
 <p>This is a chance for you to show the admission committee something else about yourself. It is your space, so if you choose to complete it, send something that is a reflection of you! Past applicants have submitted poetry, craft projects, photography, short stories, videos, and more.</p>
 
-<h4>Interviews</h4>
+<h3>Interviews</h3>
 <p>Though not required, you may want to connect with a Vassar student or alum to learn more. These interviews are informational, not evaluative.</p>
 <a class="btn btn-text" href="/admission/apply/first-year-applicants/interviews">Learn more</a>
 
-<h4>Music, Art, and Dance Portfolios</h4>
+<h3>Music, Art, and Dance Portfolios</h3>
 <p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance</p>
 <a class="btn btn-text" href="/admission/apply/first-year-applicants/arts">Learn more</a>
 
 <?php echo end_sec_regularContent(); ?>
 
+<!-- Related Topics -->
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-how-to-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-international.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-transfer.php');?>
 <?php echo end_sec_relatedTopics(); ?>
-<?php /*  PAGE CONTENT === */ ?>
-
 <?php echo site_footer(); ?>

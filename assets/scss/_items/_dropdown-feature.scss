@@ -1,0 +1,62 @@
+.dropdown--feature {
+  summary {
+    font-size: $h2-font-size;
+    position: relative;
+    text-align: center;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      border-bottom: 1px solid $red;
+      transition: 0.6s all ease;
+      width: 0;
+    }
+    &:hover {
+      color: $red;
+
+      span:before {
+        color: $red;
+      }
+
+      &:before {
+        width: 100%;
+      }
+    }
+  }
+  summary:focus,
+  details summary:focus {
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+  }
+  span {
+    position: relative;
+    padding-left: 3.4rem;
+
+    &:before {
+      font-size: $h4-font-size;
+    }
+  }
+}
+
+
+.dropdown--feature span {
+  font-family: var(--font-big-serif);
+  font-weight: bold;
+  letter-spacing: -0.04rem;
+}
+
+
+.dropdown--feature summary:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  height: 100%;
+  border-bottom: 1px solid #f00;
+  transition: 0.6s all ease;
+  width: 0;
+
+}

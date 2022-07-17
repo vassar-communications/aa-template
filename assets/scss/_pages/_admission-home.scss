@@ -1,0 +1,30 @@
+/* admission home */
+
+.tiktok video {
+  height: auto!important;
+  max-height: 90vh;
+  width: auto;
+
+}
+#tiktok1-modal .modal-content, #tiktok2-modal .modal-content , #tiktok3-modal .modal-content  {
+  width: auto!important;
+}
+
+.modal-dialog {
+  justify-content: center;
+}
+
+.tiktok-grid {
+  grid-template-columns: 4fr 4fr 4fr;
+}
+
+/*modal card buttons currently only on admission home */
+
+/* this helps a display issue on the modal cards since they now use the button element */
+
+button.card {
+  appearance: none !important;
+  border: none;
+  padding: 0;
+}
+

@@ -3,7 +3,7 @@
   --regularContent-font-size: var(--font-size-small);
 
   .the-icon {
-    color: var(--icon-color, #666);
+    color: var(--icon-color, $gray-600);
     font-size: 2rem;
   }
 
@@ -20,7 +20,7 @@
 
   &.icon-red {
     .the-icon {
-      color: #f00;
+      color: $red;
     }
   }
 
@@ -40,7 +40,7 @@
 
   &.icon-feature {
     .the-icon {
-      background: var(--section-text-color, var(--color-vassar-burgundy));
+      background: var(--section-text-color, $burgundy);
       color: var(--section-bg-color, #fff);
     }
   }

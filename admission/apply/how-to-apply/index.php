@@ -67,7 +67,7 @@ $page_classes = "";
                 </div>
             </aside>
 
-            <main class="col mw-1 p-5">
+            <main class="col p-5">
                 <div class="row position-relative">
                     <div class="col">
                         <div class="py-3 position-relative">
@@ -144,10 +144,11 @@ $page_classes = "";
 
 
 
-                                <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<!-- Related Topics -->
+<?php echo relatedTopics(); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-first-year.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-international.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-transfer.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
 <?php echo site_footer(); ?>

@@ -35,107 +35,120 @@ $page_classes = "";
 
 <?php /*  PAGE CONTENT === */ ?>
 
-<?php echo sec_regularContent(
-    'The Vassar Classroom Visited',
-    '',
-    'text-center',
+
+<?php echo sec_fullBleedImageColumn(
+    null,
+    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
+    'image-is-first theme-cream',
     ''
 ); ?>
-
-<p>Want to experience the virtual Vassar classroom? Check out these pre-recorded classes on a range of topics, including music, astronomy, political science, and many more.</p>
-
-
-
-<?php echo end_sec_regularContent(); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <h1 class="display-6">Want to experience the virtual Vassar classroom? Check out these pre-recorded classes on a range of topics, including music, astronomy, political science, and many more.</h1>
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_hasColumns(
-    null,
+    'Featured Classes',
     3,
     null,
-    '',
+    'theme-charcoal bg-dark',
     ''
 ); ?>
 
 <?php echo item_col(''); ?>
+
 <?php echo item_cardWithText(
-    'Paulina Bren, Adjunct Associate Professor of International Studies',
+    'Late Communism in the Eastern Bloc: Can It Tell Us Anything Today?',
     '#',
-    ['url' => 'https://www.vassar.edu/sites/default/files/oembed_thumbnails/OntDGT0q2u18Ct2LHfiR1iKHGQqp38M76_XlqS_Qf78.', 'alt' => 'Classroom Visits' ],
-    '',
-    ['hlevel' => 4]
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg', 'alt' => 'replacealttext' ],
+    'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
-<p>Late Communism in the Eastern Bloc: Can It Tell Us Anything Today?</p>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
-<?php echo end_item_cardWithText(); ?>
+
+<p>Paulina Bren, Adjunct Associate Professor of International Studies</p>
+
+<?php echo end_item_cardWithText(
+    null,
+); ?>
+
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(''); ?>
+
 <?php echo item_cardWithText(
-    'David Esteban, Associate Professor of Biology and The Pauline Newman Director of Science, Technology, and Society',
+    'What Happens When You Don’t Recover from a Viral Infection?',
     '#',
-    ['url' => 'https://www.vassar.edu/sites/default/files/oembed_thumbnails/OntDGT0q2u18Ct2LHfiR1iKHGQqp38M76_XlqS_Qf78.', 'alt' => 'Classroom Visits' ],
-    '',
-    ['hlevel' => 4]
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg', 'alt' => 'replacealttext' ],
+    'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
-<p>What Happens When You Don’t Recover from a Viral Infection?</p>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
-<?php echo end_item_cardWithText(); ?>
-<?php echo end_item_col(); ?>
 
+<p>David Esteban, Associate Professor of Biology and The Pauline Newman Director of Science, Technology, and Society</p>
 
-
-<?php echo item_col(''); ?>
-<?php echo item_cardWithText(
-    'Gisella A. Kagy, Assistant Professor of Economics',
-    '#',
-    ['url' => 'https://www.vassar.edu/sites/default/files/oembed_thumbnails/OntDGT0q2u18Ct2LHfiR1iKHGQqp38M76_XlqS_Qf78.', 'alt' => 'Classroom Visits' ],
-    '',
-    ['hlevel' => 4]
+<?php echo end_item_cardWithText(
+    null,
 ); ?>
-<p>The Impact of COVID-19 on the Lives of Women in Ethiopia’s Garment Industry</p>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
-<?php echo end_item_cardWithText(); ?>
-<?php echo end_item_col(); ?>
 
-<?php echo item_col(''); ?>
-<?php echo item_cardWithText(
-    'Barry Lam, Associate Professor of Philosophy',
-    '#',
-    ['url' => 'https://www.vassar.edu/sites/default/files/oembed_thumbnails/OntDGT0q2u18Ct2LHfiR1iKHGQqp38M76_XlqS_Qf78.', 'alt' => 'Classroom Visits' ],
-    '',
-    ['hlevel' => 4]
-); ?>
-<p>Why Punish? A Conversation on Retributive Justice</p>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
-<?php echo end_item_cardWithText(); ?>
-<?php echo end_item_col(); ?>
 
-<?php echo item_col(''); ?>
-<?php echo item_cardWithText(
-    'Jonathon Kahn, Professor of Religion',
-    '#',
-    ['url' => 'https://www.vassar.edu/sites/default/files/oembed_thumbnails/OntDGT0q2u18Ct2LHfiR1iKHGQqp38M76_XlqS_Qf78.', 'alt' => 'Classroom Visits' ],
-    '',
-    ['hlevel' => 4]
-); ?>
-<p>The White Disavowal of Racism: What It Means When the Central Park Dog-Walker, Amy Cooper, Says She’s Not a Racist</p>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
-<?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
 
 
 <?php echo item_col(''); ?>
+
+
 <?php echo item_cardWithText(
-    'Kathryn Libin, Associate Professor of Music',
+    'The Impact of COVID-19 on the Lives of Women in Ethiopia’s Garment Industry',
     '#',
-    ['url' => 'https://www.vassar.edu/sites/default/files/oembed_thumbnails/OntDGT0q2u18Ct2LHfiR1iKHGQqp38M76_XlqS_Qf78.', 'alt' => 'Classroom Visits' ],
-    '',
-    ['hlevel' => 4]
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg', 'alt' => 'replacealttext' ],
+    'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
-<p>Beethoven, the Eroica Symphony, and Prince Lobkowitz’s Musical Workshop</p>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
+
+<p>Gisella A. Kagy, Assistant Professor of Economics</p>
+
+<?php echo end_item_cardWithText(
+    null,
+); ?>
+
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(''); ?>
+
+<?php echo item_cardWithText(
+    'Why Punish? A Conversation on Retributive Justice',
+    '#',
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg', 'alt' => 'replacealttext' ],
+    'related-topics card--withParagraph card-has-cta-icon'
+); ?>
+
+<p>Barry Lam, Associate Professor of Philosophy</p>
+<?php echo end_item_cardWithText(); ?>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col(''); ?>
+
+
+
+<?php echo item_cardWithText(
+    'The White Disavowal of Racism: What It Means When the Central Park Dog-Walker, Amy Cooper, Says She’s Not a Racist',
+    '#',
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg', 'alt' => 'replacealttext' ],
+    'related-topics card--withParagraph card-has-cta-icon'
+); ?>
+<p>Jonathon Kahn, Professor of Religion</p>
+<?php echo end_item_cardWithText(); ?>
+<?php echo end_item_col(); ?>
+
+
+
+<?php echo item_col(''); ?>
+
+<?php echo item_cardWithText(
+    'Beethoven, the Eroica Symphony, and Prince Lobkowitz’s Musical Workshop',
+    '#',
+    ['url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg', 'alt' => 'replacealttext' ],
+    'related-topics card--withParagraph card-has-cta-icon'
+); ?>
+<p>Kathryn Libin, Associate Professor of Music</p>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -146,10 +159,11 @@ $page_classes = "";
 
 
 
+<!-- Related Topics -->
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-virtual-programs.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-in-person.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-group-visits.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
 <?php echo site_footer(); ?>

@@ -35,35 +35,32 @@ $page_classes = "";
 
 <?php /*  PAGE CONTENT === */ ?>
 
-<?php echo sec_hasColumns(
+
+
+
+<?php echo sec_fullBleedImageColumn(
     null,
-    2,
-    null,
-    'animate-when-content-appears animation-slide-up',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
+    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
+    'image-is-first theme-cream',
+    ''
 ); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <h2 class="display-2 mb-5 border-animate">QuestBridge</h2>
+    <p>Vassar is a partner with QuestBridge, a program dedicated to providing higher educational opportunities to exceptional, high-achieving students from low-income communities to support their success.</p>
 
-<?php echo item_col('equal'); ?>
-<h1 class="mb-3">QuestBridge</h1>
-<p class="mb-3">Vassar is a partner with QuestBridge, a program dedicated to providing higher educational opportunities to exceptional, high-achieving students from low-income communities to support their success.</p>
-<a href="https://www.questbridge.org/"  class="px-0 btn btn-link">Visit Questbridge.org<i class="circle fa-solid fa-link"></i></a>
-<?php echo end_item_col(); ?>
-<?php echo item_col('equal'); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
-<?php echo end_item_col(); ?>
+    <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="px-0 btn btn-link arrow">Visit Questbridge.org</a>
 
-<?php echo end_sec_hasColumns(); ?>
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_regularContent(
-    null,
+    'More about QuestBridge',
     null,
     '',
     ''
 ); ?>
 
 
-
-<h2 class="mb-3">QuestBridge More Information</h2>
 <p>Vassar College has been a proud QuestBridge partner college since 2007.</p>
 
 <p> If you are planning to forward your QuestBridge application to Vassar, please complete the Vassar College Selection Form for QuestBridge Applicants and the Vassar QuestBridge Writing Supplement.</p>
@@ -78,10 +75,10 @@ $page_classes = "";
 </p>
 <?php echo end_sec_regularContent(); ?>
 
-
+<!-- Related Topics -->
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-how-to-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-first-year.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-transfer.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 <?php echo site_footer(); ?>
