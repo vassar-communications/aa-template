@@ -35,7 +35,7 @@ $page_classes = "";
 <?php echo masthead_interiorPage(
     'Information for American Veterans',
     'Vassar actively seeks to enroll qualified veterans of the U.S. Armed Forces. Vassar fosters these connections through the Posse Veterans Program and the Yellow Ribbon Program, aimed at increasing enrollment of veterans at selective colleges and universities.',
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg');
+    '/assets/images/placeholders/main-placeholder.jpg');
 ?>
 
 
@@ -43,7 +43,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
+    '/assets/images/placeholders/main-placeholder.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
@@ -51,21 +51,21 @@ $page_classes = "";
     <h2 class="display-2 mb-5 border-animate">Posse Veterans Program</h2>
     <p>This program supports veterans interested in pursuing bachelor’s degrees at top educational institutions. Those accepted into the program attend college as part of a Veterans Posse, which is a team of service veterans.</p>
     <p><a href="https://www.vassar.edu/vq/issues/2013/03/vassar-today/call-of-duty.html">The first 10 participants</a> joined the Vassar community in Fall 2013, attending tuition-free through a combination of scholarship aid and GI Bill® benefits.</p>
-    <a href="https://www.possefoundation.org/shaping-the-future/posse-veterans-program" class="btn btn-link px-0 arrow">Visit the Posse Veterans Program</a>
+    <a href="https://www.possefoundation.org/shaping-the-future/posse-veterans-program" class="btn btn-link arrow">Visit the Posse Veterans Program</a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
+    '/assets/images/placeholders/main-placeholder.jpg',
     'theme-burgundy has-bg quad-pattern',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <h2 class="display-2 mb-5 border-animate">Yellow Ribbon Program</h2>
     <p>The Yellow Ribbon Program is a collaboration between colleges and universities and the Veterans Administration to cover the cost of tuition and fees, under the Post-9/11 Veterans Educational Assistance Act of 2008. This program makes a Vassar education accessible to eligible veterans, regardless of socio-economic status.</p>
-    <a href="https://www.possefoundation.org/shaping-the-future/posse-veterans-program" class="btn btn-link px-0 arrow">Visit the Yellow Ribbon Program</a>
+    <a href="https://www.possefoundation.org/shaping-the-future/posse-veterans-program" class="btn btn-link arrow">Visit the Yellow Ribbon Program</a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

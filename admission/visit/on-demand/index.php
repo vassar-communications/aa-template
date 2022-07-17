@@ -42,7 +42,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/visit/on-demand/0086-20-09-kr-library-vassar-0001.jpg',
+    $admission_img_path.'visit/on-demand/0086-20-09-kr-library-vassar-0001.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
@@ -76,7 +76,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'The College Search During the Pandemic',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -89,7 +89,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'Demystifying Financial Aid',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -102,7 +102,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'A Case for the Liberal Arts',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -134,7 +134,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'Interdisciplinary Living and Learning',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -147,7 +147,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'Faculty Mentored Research',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -160,7 +160,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'Student Organizations',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -173,7 +173,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'The Transitions Program',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -207,7 +207,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     '“Is Love a Boy?” performed by the Vassar College Chamber Singers',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -220,7 +220,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     '“Unclouded Day” performed by the Vassar College Choir and Friends',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -233,7 +233,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     '“No Time” performed by the Vassar College Women’s Chorus',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
 ); ?>

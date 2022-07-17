@@ -37,7 +37,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
+    '/assets/images/placeholders/main-placeholder.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>

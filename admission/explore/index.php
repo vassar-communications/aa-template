@@ -27,7 +27,7 @@ $page_classes = "";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
+    ['bg-image-url' => '/assets/images/placeholders/main-placeholder.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -52,13 +52,13 @@ $page_classes = "";
 <?php echo masthead_interiorPage(
     'Freedom to Discover',
     'Vassar’s unique community is an environment that sparks curiosity. Everyone can discover their individual path beyond the edges to make a positive impact on the world.',
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg');
+    '/assets/images/placeholders/main-placeholder.jpg');
 ?>
 
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/explore/0084-19-05-ja-kumar-class-vassar-253.jpg',
+    $admission_img_path.'explore/0084-19-05-ja-kumar-class-vassar-253.jpg',
     'image-is-first theme-dark-burgundy quad-pattern has-bg',
     ''
 ); ?>
@@ -72,7 +72,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/explore/Raymond-0204-19-11-kwe-raymond-parlor-vassar-vb-2823.jpg',
+    $admission_img_path.'explore/Raymond-0204-19-11-kwe-raymond-parlor-vassar-vb-2823.jpg',
     'theme-charcoal quad-pattern has-bg',
     ''
 ); ?>
@@ -88,7 +88,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/explore/muslim-prayer-space-1910-nz-201448.jpg',
+    $admission_img_path.'explore/muslim-prayer-space-1910-nz-201448.jpg',
     'image-is-first theme-dark-burgundy quad-pattern has-bg',
     ''
 ); ?>
@@ -103,7 +103,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/explore/0216-18-10-jsu-fall-drone-vassar-R07705.jpg',
+    $admission_img_path.'explore/0216-18-10-jsu-fall-drone-vassar-R07705.jpg',
     'theme-charcoal quad-pattern has-bg',
     ''
 ); ?>
@@ -121,7 +121,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/explore/0002-20-01-kr-scc-networking-vassar-0041.jpg',
+    $admission_img_path.'explore/0002-20-01-kr-scc-networking-vassar-0041.jpg',
     'image-is-first theme-dark-burgundy quad-pattern has-bg',
     ''
 ); ?>
@@ -135,7 +135,7 @@ $page_classes = "";
 <?php echo end_sec_fullBleedImageColumn(); ?>
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/explore/Poughkeepsie_night_DSC_8551.jpg',
+    $admission_img_path.'explore/Poughkeepsie_night_DSC_8551.jpg',
     'theme-charcoal quad-pattern has-bg',
     ''
 ); ?>

@@ -18,7 +18,7 @@ $page_classes = "";
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo page_partialmasthead('https://vassartest.chuckyatsuk.com/img/visit/in-person/0073-21-06-kr-summer-vassar-0179.jpg'); ?>
+<?php echo page_partialmasthead($admission_img_path.'visit/in-person/0073-21-06-kr-summer-vassar-0179.jpg'); ?>
 
 <?php echo hamburger_navigation(); ?>
 
@@ -34,7 +34,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg',
+    $admission_img_path.'visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
@@ -86,7 +86,7 @@ $page_classes = "";
 <!-- Campus Access and Pre-Registration -->
 <?php echo sec_fullBleedImageColumn(
     'Campus Access and Pre-Registration',
-    'https://vassartest.chuckyatsuk.com/img/visit/in-person/0069-19-05-kr-spring-vassar-4221.jpeg',
+    $admission_img_path.'visit/in-person/0069-19-05-kr-spring-vassar-4221.jpeg',
     'image-is-first theme-charcoal bg-dark',
     'mw-100'
 ); ?>

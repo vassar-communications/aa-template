@@ -75,7 +75,7 @@ $page_classes = "";
 <?php echo end_item_col(); ?>
 
 <?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
+<img src="/assets/images/placeholders/main-placeholder.jpg" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
@@ -132,7 +132,7 @@ $page_classes = "";
 <?php echo end_item_col(); ?>
 <?php echo item_col('d-flex'); ?>
 <a class="card mb-4" href="/alumni/community/alumni-news">
-    <img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" class="card-img-top" alt="Outcomes">
+    <img src="/assets/images/placeholders/main-placeholder.jpg" class="card-img-top" alt="Outcomes">
     <div class="card-body">
         <h4 class="card-title h2">Alumni News & Stories</h4>
         <div class="card-text">

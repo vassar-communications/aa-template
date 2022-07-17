@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Forms & Resources',
     '/admission/financial-aid/forms/',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/financial-aid/forms/0139_14_11_KR_0310.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'financial-aid/forms/0139_14_11_KR_0310.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

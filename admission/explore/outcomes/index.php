@@ -27,7 +27,7 @@ $page_classes = "";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/explore/outcomes/Commencement_grads_11_JA_2.jpg',
+    ['bg-image-url' => $admission_img_path.'explore/outcomes/Commencement_grads_11_JA_2.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -52,7 +52,7 @@ $page_classes = "";
 <?php echo masthead_interiorPage(
     'Life After Vassar',
     'Vassar is committed to ensuring our students’ growth and progress from Day 1 to beyond graduation. ',
-    'https://vassartest.chuckyatsuk.com/img/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
+    $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
 ?>
 
 
@@ -76,7 +76,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/explore/outcomes/110619_160over90_Vassar_4689.jpg',
+    $admission_img_path.'explore/outcomes/110619_160over90_Vassar_4689.jpg',
     'image-is-first theme-dark-burgundy quad-pattern has-bg',
     ''
 ); ?>
@@ -90,7 +90,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/explore/outcomes/0153-19-11-kr-major-palooza-vassar-5360-crop.jpg',
+    $admission_img_path.'explore/outcomes/0153-19-11-kr-major-palooza-vassar-5360-crop.jpg',
     ' theme-charcoal quad-pattern has-bg',
     ''
 ); ?>
@@ -103,7 +103,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/explore/outcomes/0002-18-01-kr-scc-estrella-vassar-0048.jpg',
+    $admission_img_path.'explore/outcomes/0002-18-01-kr-scc-estrella-vassar-0048.jpg',
     'image-is-first theme-dark-burgundy quad-pattern has-bg',
     ''
 ); ?>

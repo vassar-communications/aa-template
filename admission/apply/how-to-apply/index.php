@@ -36,7 +36,7 @@ $page_classes = "";
 <?php echo masthead_interiorPage(
     'Applying to Vassar',
     'Everything you need to know to apply An overview of all the ways to apply to Vassar.',
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg');
+    '/assets/images/placeholders/main-placeholder.jpg');
 ?>
 
 
@@ -70,14 +70,14 @@ $page_classes = "";
                                         <li><a href="https://www.mycoalition.org/public/info/vassar">Coalition application</a></li>
                                         <li><a href="http://questbridge.org/college-partners/vassar-college">QuestBridge application</a></li>
                                     </ul>
-                                <p><a class="btn btn-link px-0 arrow" href="/admission/apply/first-year-applicants">Learn more about First-Year Applications</a></p>
+                                <p><a class="btn btn-link arrow" href="/admission/apply/first-year-applicants">Learn more about First-Year Applications</a></p>
 
                                 <hr class="my-5">
 
                                 <div class="anchor" id="sec2"></div>
                                 <h4 class="display-4">Transfer Applicants</h4>
                                 <p>Transfer applicants can apply using the Common application.</p>
-                                <p><a class="btn btn-link px-0 arrow" href="/admission/apply/transfer">Learn more about Transfer Applications</a></p>
+                                <p><a class="btn btn-link arrow" href="/admission/apply/transfer">Learn more about Transfer Applications</a></p>
 
                                 <hr class="my-5">
 

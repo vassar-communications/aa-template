@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Tuition & Fees',
     '/admission/financial-aid/tuition/',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/financial-aid/tuition/Vassar_Reception_20210601_KR_0173.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'financial-aid/tuition/Vassar_Reception_20210601_KR_0173.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

@@ -18,7 +18,7 @@ $page_classes = "";
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo page_partialmasthead('https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg'); ?>
+<?php echo page_partialmasthead('/assets/images/placeholders/main-placeholder.jpg'); ?>
 
 <?php echo hamburger_navigation(); ?>
 
@@ -36,7 +36,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/visit/group/group.jpg',
+    $admission_img_path.'visit/group/group.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>

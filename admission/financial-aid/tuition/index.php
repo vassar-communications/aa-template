@@ -38,7 +38,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/financial-aid/tuition/0137_14_11_KR_0003.jpg',
+    $admission_img_path.'financial-aid/tuition/0137_14_11_KR_0003.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
@@ -135,7 +135,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/financial-aid/tuition/Cushing-Dorm_Room_Series_Seven_12_HW_6.jpg',
+    $admission_img_path.'financial-aid/tuition/Cushing-Dorm_Room_Series_Seven_12_HW_6.jpg',
     'image-is-first theme-charcoal bg-dark',
     ''
 ); ?>
@@ -149,7 +149,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/financial-aid/tuition/0024-18-03-kr-wvkr-vassar-3474.jpg',
+    $admission_img_path.'financial-aid/tuition/0024-18-03-kr-wvkr-vassar-3474.jpg',
     'theme-charcoal bg-dark',
     ''
 ); ?>
@@ -164,7 +164,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/financial-aid/tuition/0105_14_11_TT_2826.jpg',
+    $admission_img_path.'financial-aid/tuition/0105_14_11_TT_2826.jpg',
     'image-is-first theme-charcoal bg-dark',
     ''
 ); ?>

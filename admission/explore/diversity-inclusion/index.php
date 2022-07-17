@@ -28,7 +28,7 @@ $page_classes = "";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg',
+    ['bg-image-url' => $admission_img_path.'explore/academics/110619_160over90_Vassar_6232.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -53,7 +53,7 @@ $page_classes = "";
 <?php echo masthead_interiorPage(
     'Together We Become More',
     'We celebrate our differences and our connections and provide resources that are committed to the healthy support of EVERYONE.',
-    'https://vassartest.chuckyatsuk.com/img/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
+    $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
 ?>
 
 

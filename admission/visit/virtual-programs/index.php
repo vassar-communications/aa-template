@@ -20,7 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead('https://vassartest.chuckyatsuk.com/img/visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2033.jpg'); ?>
+<?php echo page_partialmasthead($admission_img_path.'visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2033.jpg'); ?>
 
 
 <?php echo breadcrumbNav('theme-cream'); ?>
@@ -37,13 +37,13 @@ $page_classes = "";
 <?php echo masthead_interiorPage(
     'Explore our online resources',
     'There are any number of good reasons why a student might not be able to travel to Vassar, but that shouldn’t stop anyone from experiencing campus. That’s why we want virtual touring to be as easy, free, complete and immersive as possible.',
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg');
+    '/assets/images/placeholders/main-placeholder.jpg');
 ?>
 
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2025.jpg',
+    $admission_img_path.'visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2025.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
@@ -75,7 +75,7 @@ $page_classes = "";
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
+<img src="/assets/images/placeholders/main-placeholder.jpg" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
@@ -92,7 +92,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'Self-Guided Virtual Tour',
     'https://www.vassar.edu/tour',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/visit/virtual/0091_15_09_KR_0201.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'visit/virtual/0091_15_09_KR_0201.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
 
@@ -106,7 +106,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'Classroom Visits',
     '/admission/visit/class-visits/',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/visit/virtual/110519_160over90_Vassar_0348.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'visit/virtual/110519_160over90_Vassar_0348.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
 
@@ -121,7 +121,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'Vassar on Demand',
     '/admission/visit/on-demand/',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/visit/virtual/Take_Off_MZa.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'visit/virtual/Take_Off_MZa.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
 
@@ -143,7 +143,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/visit/virtual/Urban_Center_Black_Studies_SPC.jpg',
+    $admission_img_path.'visit/virtual/Urban_Center_Black_Studies_SPC.jpg',
     'theme-charcoal bg-dark',
     ''
 ); ?>

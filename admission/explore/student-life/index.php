@@ -29,7 +29,7 @@ $page_classes = "";
     '726007009?h=91eec5d256',
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg',
+    ['bg-image-url' => $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -54,7 +54,7 @@ $page_classes = "";
 <?php echo masthead_interiorPage(
     'Find Your Spark',
     'Vassar’s community is full of character, collaboration, and vibrant diversity. People of all perspectives and backgrounds come here to learn, work, and live together in the proud tradition of a residential liberal arts college.',
-    'https://vassartest.chuckyatsuk.com/img/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
+    $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
 ?>
 
 

@@ -149,3 +149,17 @@
  p a {
    text-decoration: underline;
  }
+
+
+
+ /*text buttons */
+
+
+a.btn.btn-text {
+  padding: 0.5rem 0!important;
+}
+
+a.btn.btn-text:focus {
+  outline: none!important;
+  box-shadow: none!important;
+}

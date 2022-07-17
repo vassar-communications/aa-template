@@ -35,7 +35,7 @@ $page_classes = "";
 <?php echo masthead_interiorPage(
     'Our team is here to help you.',
     '',
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg');
+    '/assets/images/placeholders/main-placeholder.jpg');
 ?>
 
 

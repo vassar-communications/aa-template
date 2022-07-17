@@ -26,7 +26,7 @@ $page_classes = "";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/apply/0084_16_04_KR_0013.jpg',
+    ['bg-image-url' => $admission_img_path.'apply/0084_16_04_KR_0013.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -55,14 +55,14 @@ $page_classes = "";
 <?php echo masthead_interiorPage(
     'Placeholder',
     'Placeholder Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.',
-    'https://vassartest.chuckyatsuk.com/img/explore/0084-19-05-ja-kumar-class-vassar-253.jpg');
+    $admission_img_path.'explore/0084-19-05-ja-kumar-class-vassar-253.jpg');
 ?>
 
 
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/apply/how/110519_160over90_Vassar_0221.jpg',
+    $admission_img_path.'apply/how-to-apply/110519_160over90_Vassar_0221.jpg',
     'image-is-first theme-charcoal bg-dark',
     ''
 ); ?>
@@ -76,7 +76,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/apply/0007_16_02_KR_0083.jpg',
+    $admission_img_path.'apply/0007_16_02_KR_0083.jpg',
     'theme-charcoal bg-dark',
     ''
 ); ?>
@@ -92,7 +92,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/apply/0137_14_11_KR_0003.jpg',
+    $admission_img_path.'apply/0137_14_11_KR_0003.jpg',
     'image-is-first theme-charcoal bg-dark',
     ''
 ); ?>

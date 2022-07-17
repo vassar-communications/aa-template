@@ -33,7 +33,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     'Vassar believes in building a vibrant community of global citizens.',
-    'https://vassartest.chuckyatsuk.com/img/apply/international/0074_15_08_KR_0088.jpg',
+    $admission_img_path.'apply/international/0074_15_08_KR_0088.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>

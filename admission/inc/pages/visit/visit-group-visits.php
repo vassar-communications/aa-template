@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Group Visits',
     '/admission/visit/group-visits/',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/visit/group/group.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'visit/group/group.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

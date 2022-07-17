@@ -38,7 +38,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
+    '/assets/images/placeholders/main-placeholder.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
@@ -61,7 +61,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'Late Communism in the Eastern Bloc: Can It Tell Us Anything Today?',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
 
@@ -78,7 +78,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'What Happens When You Don’t Recover from a Viral Infection?',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
 
@@ -99,7 +99,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'The Impact of COVID-19 on the Lives of Women in Ethiopia’s Garment Industry',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
 
@@ -116,7 +116,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'Why Punish? A Conversation on Retributive Justice',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
 
@@ -131,7 +131,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'The White Disavowal of Racism: What It Means When the Central Park Dog-Walker, Amy Cooper, Says She’s Not a Racist',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
 <p>Jonathon Kahn, Professor of Religion</p>
@@ -145,7 +145,7 @@ $page_classes = "";
 <?php echo item_cardWithText(
     'Beethoven, the Eroica Symphony, and Prince Lobkowitz’s Musical Workshop',
     '#',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
 <p>Kathryn Libin, Associate Professor of Music</p>

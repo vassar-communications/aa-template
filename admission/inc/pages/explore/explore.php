@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Explore Vassar',
     '/admission/explore/',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

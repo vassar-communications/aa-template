@@ -27,7 +27,7 @@ $page_classes = "visithome";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/visit/0069-19-05-kr-spring-vassar-4632.jpg',
+    ['bg-image-url' => $admission_img_path.'visit/0069-19-05-kr-spring-vassar-4632.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -55,14 +55,14 @@ $page_classes = "visithome";
 <?php echo masthead_interiorPage(
     'This text must change',
     'This is only placeholder text. We need to get an intro sentence for this section.',
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg');
+    '/assets/images/placeholders/main-placeholder.jpg');
 ?>
 
 
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/visit/0042-21-06-kr-reception-vassar-0130.jpg',
+    $admission_img_path.'visit/0042-21-06-kr-reception-vassar-0130.jpg',
     'image-is-first theme-charcoal bg-dark',
     ''
 ); ?>
@@ -77,7 +77,7 @@ $page_classes = "visithome";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/visit/0191-19-10-ali-library-drone-vassar-vb-2015.jpg',
+    $admission_img_path.'visit/0191-19-10-ali-library-drone-vassar-vb-2015.jpg',
     'theme-cream',
     ''
 ); ?>
@@ -113,7 +113,7 @@ $page_classes = "visithome";
 <?php echo item_cardWithText(
     'Group Visit Info',
     '/admission/visit/group-visits/',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/visit/0055_15_04_KR_0110.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'visit/0055_15_04_KR_0110.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
 
@@ -130,7 +130,7 @@ $page_classes = "visithome";
 <?php echo item_cardWithText(
     'Register',
     'https://apply.vassar.edu/portal/campusvisitcalendar',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/visit/Vassar_Campus_20190423_KR_9440.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'visit/Vassar_Campus_20190423_KR_9440.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon'
 ); ?>
 

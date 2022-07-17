@@ -35,7 +35,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     'Applying to Vassar',
-    $admission_img_path.'110519_160over90_Vassar_0221.jpg',
+    $admission_img_path.'apply/how-to-apply/110519_160over90_Vassar_0221.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>

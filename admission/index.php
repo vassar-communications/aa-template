@@ -319,7 +319,7 @@ echo sec_fixedCenteredTitle(
         null,
         'student-modal',
         null,
-        ['url' => 'https://vassartest.chuckyatsuk.com/img/favplaces-v2.jpg',
+        ['url' => $admission_img_path.'favplaces-v2.jpg',
             'alt' => 'Student describing favorite place on campus'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -371,7 +371,7 @@ All Vassar students are surrounded by an environment designed to spark something
         null,
         'food-modal',
         null,
-        ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/video/food-1.jpg',
+        ['url' => $admission_img_path.'admission-home/video/food-1.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -385,7 +385,7 @@ All Vassar students are surrounded by an environment designed to spark something
         null,
         'student-takes',
         null,
-        ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/video/words-4.jpg',
+        ['url' => $admission_img_path.'admission-home/video/words-4.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -402,7 +402,7 @@ All Vassar students are surrounded by an environment designed to spark something
         null,
         'tiktok1-modal',
         null,
-        ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/video/day-1.jpg',
+        ['url' => $admission_img_path.'admission-home/video/day-1.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -414,7 +414,7 @@ All Vassar students are surrounded by an environment designed to spark something
         null,
         'tiktok2-modal',
         null,
-        ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/video/dorm-a-1.jpg',
+        ['url' => $admission_img_path.'admission-home/video/dorm-a-1.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -426,7 +426,7 @@ All Vassar students are surrounded by an environment designed to spark something
         null,
         'tiktok3-modal',
         null,
-        ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/video/dorm-b.jpg',
+        ['url' => $admission_img_path.'admission-home/video/dorm-b.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'

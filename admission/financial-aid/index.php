@@ -26,7 +26,7 @@ $page_classes = "";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/financial-aid/0141-15-10-kr-fall-campus-vassar-0003.jpg',
+    ['bg-image-url' => $admission_img_path.'financial-aid/0141-15-10-kr-fall-campus-vassar-0003.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -58,7 +58,7 @@ $page_classes = "";
 <?php echo masthead_interiorPage(
     'More than 60% of Vassar students receive financial aid.',
     'Through a generous financial aid program, Vassar meets 100% of the full demonstrated need of all admitted students for all four years. Financial aid is awarded exclusively on the basis of need as determined by the Free Application for Federal Student Aid (FAFSA) and the CSS Profile.',
-    'https://vassartest.chuckyatsuk.com/img/financial-aid/0013-22-04-kr-noyes-vassar-0040.jpg');
+    $admission_img_path.'financial-aid/0013-22-04-kr-noyes-vassar-0040.jpg');
 ?>
 
 
@@ -83,7 +83,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/financial-aid/0085_16_04_KR_0008.jpg',
+    $admission_img_path.'financial-aid/0085_16_04_KR_0008.jpg',
     'image-is-first theme-charcoal bg-dark',
     ''
 ); ?>
@@ -98,7 +98,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/financial-aid/0256-19-10-ja-library-lawn-vassar-vb-066.jpg',
+    $admission_img_path.'financial-aid/0256-19-10-ja-library-lawn-vassar-vb-066.jpg',
     'theme-charcoal bg-dark',
     ''
 ); ?>
@@ -113,7 +113,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/financial-aid/0198-19-11-kwe-library-vassar-vb-5394.jpg',
+    $admission_img_path.'financial-aid/0198-19-11-kwe-library-vassar-vb-5394.jpg',
     'image-is-first theme-charcoal bg-dark',
     ''
 ); ?>

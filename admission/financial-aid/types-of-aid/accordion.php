@@ -36,7 +36,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/financial-aid/0138-15-11-kr-vcdf-vassar-0110.jpg',
+    $admission_img_path.'financial-aid/0138-15-11-kr-vcdf-vassar-0110.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
@@ -261,7 +261,7 @@ $page_classes = "";
     'info-circle',
     'alert-light alert-accent-gold mt-5'
 ); ?>
-<p><a href="https://offices.vassar.edu/student-employment/" class="btn btn-link px-0 arrow">Learn More about campus jobs at Student Employment</a></p>
+<p><a href="https://offices.vassar.edu/student-employment/" class="btn btn-link arrow">Learn More about campus jobs at Student Employment</a></p>
 
 <?php echo end_sec_regularContent(); ?>
 
