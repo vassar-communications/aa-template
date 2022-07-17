@@ -138,7 +138,7 @@ $page_classes = "";
 
 <h3 class="display-4">Interviews</h3>
     <p>We recommend that applicants who submit the TOEFL/IELTS also complete an interview as an additional way to demonstrate English language proficiency; students who submit Duolingo will have the interview portion of the exam reviewed as part of their application.</p>
-<p>Vassar also accepts interviews from <a class="fix" href="">InitialView</a> and <a class="fix" href="">Vericant</a>. While international applicants can’t request alumnae/i or student interviews, if we have interviewers in your area, we will reach out to you to set up an interview.</p>
+<p>Vassar also accepts interviews from <a  href="https://initialview.com/">InitialView</a> and <a href="https://www.vericant.com/">Vericant</a>. While international applicants can’t request alumnae/i or student interviews, if we have interviewers in your area, we will reach out to you to set up an interview.</p>
 <hr class="my-5">
 <h3 class="display-4">Financial Aid</h3>
 <p>Vassar meets the full demonstrated financial need of all students for all four years, but we are need-aware when reviewing applications from international students. Students who are neither U.S. citizens nor permanent residents who wish to be considered for financial aid at any time during their four years at Vassar must apply at the same time that they apply for admission. Those students admitted without financial aid in the first year are not eligible to receive Vassar funding during their years at the college. Financial aid is not available for international transfer applicants.</p>
@@ -151,7 +151,7 @@ $page_classes = "";
 <hr class="my-5">
 
 <h3 class="display-4">International Student Services</h3>
-<p>The <a class="fix" href="">Office of International Services (OIS)</a> offers a full range of resources for international students to make the Vassar experience as enjoyable and successful as possible. International students can also join the student-run Vassar International Students Association (VISA).</p>
+<p>The <a href="https://offices.vassar.edu/international-services/">Office of International Services (OIS)</a> offers a full range of resources for international students to make the Vassar experience as enjoyable and successful as possible. International students can also join the student-run Vassar International Students Association (VISA).</p>
 <?php echo end_sec_regularContent(); ?>
 
 

@@ -32,24 +32,13 @@ $page_classes = "";
 <?php echo end_sec_toplinksNav(); ?>
 
 
-<?php echo sec_hasColumns(
-    null,
-    2,
-    null,
-    'animate-when-content-appears animation-slide-up',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
-); ?>
 
-<?php echo item_col('equal'); ?>
-<h2 class="display-3">Applying to Vassar</h2>
-<p>Everything you need to know to apply An overview of all the ways to apply to Vassar.</p>
-<?php echo end_item_col(); ?>
+<?php echo masthead_interiorPage(
+    'Applying to Vassar',
+    'Everything you need to know to apply An overview of all the ways to apply to Vassar.',
+    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg');
+?>
 
-<?php echo item_col('equal'); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/apply/how/110519_160over90_Vassar_0221.jpg" />
-<?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
 
 
 <div class="container">
@@ -74,39 +63,39 @@ $page_classes = "";
                             <div class="position-relative">
 
                                 <div class="anchor" id="sec1"></div>
-                                <h2 class="display-4">First Year Applicants</h2>
+                                <h4 class="display-4 mb-4">First Year Applicants</h4>
                                 <p>First-year applicants may submit in any one of the following ways:</p>
                                     <ul>
-                                    <li>Common application</li>
-                                    <li>Coalition application</li>
-                                    <li>QuestBridge application</li>
+                                        <li><a href="https://apply.commonapp.org/Login?ma=278">Common application (including Vassar Member Questions)</a></li>
+                                        <li><a href="https://www.mycoalition.org/public/info/vassar">Coalition application</a></li>
+                                        <li><a href="http://questbridge.org/college-partners/vassar-college">QuestBridge application</a></li>
                                     </ul>
-                                <p><a href="/admission/apply/first-year-applicants">Learn more about First-Year Applications</a></p>
+                                <p><a class="btn btn-link px-0 arrow" href="/admission/apply/first-year-applicants">Learn more about First-Year Applications</a></p>
 
                                 <hr class="my-5">
 
                                 <div class="anchor" id="sec2"></div>
-                                <h2 class="display-4">Transfer Applicants</h2>
+                                <h4 class="display-4">Transfer Applicants</h4>
                                 <p>Transfer applicants can apply using the Common application.</p>
-                                <p><a href="/admission/apply/transfer">Learn more about Transfer Applications</a></p>
+                                <p><a class="btn btn-link px-0 arrow" href="/admission/apply/transfer">Learn more about Transfer Applications</a></p>
 
                                 <hr class="my-5">
 
                                 <div class="anchor" id="sec3"></div>
-                                <h2 class="display-4">Submitting Application Materials</h2>
+                                <h4 class="display-4">Submitting Application Materials</h4>
                                 <p>Electronic submission is preferred. Application materials may also be submitted via email, fax, or mail.</p>
                                 <p>Supplemental materials, can be uploaded through the application status portal, which is available after an application has been submitted and processed.</p>
                                 <p><strong>To submit documents:</strong><br/>
                                     Email: <a href="mailto:admappmaterials@vassar.edu">admappmaterials@vassar.edu</a><br/>
                                     Fax: (845) 437-706</p>
-                                <p>Financial Aid documents should be submitted to Student Financial Services through IDOC.</p>
+                                <p>Financial Aid documents should be submitted to <a href="https://studentfinancialservices.vassar.edu/financial-aid/">Student Financial Services</a> through IDOC.</p>
 
                                 <hr class="my-5">
 
 
 
                                 <div class="anchor" id="sec4"></div>
-                                <h2 class="display-4">Selection Criteria</h2>
+                                <h4 class="display-4">Selection Criteria</h4>
                                 <p>Vassar weighs a number of factors in the admission decision, including:</p>
                                 <ul>
                                     <li>Academic performance, as demonstrated in high school</li>
@@ -123,13 +112,19 @@ $page_classes = "";
                                 </ul>
                                 <p>It is also recommended that applicants take a substantial portion of their work in enriched, accelerated, or honors courses or in Advanced Placement or International Baccalaureate programs when these options are available.</p>
                                 <p>Special attention is given to the academic breadth, depth, and rigor of candidates’ junior and senior year programs.</p>
-                                <p>Students applying to Vassar during the 2020–21, 2021–22, and 2022–23 admission cycles may choose whether or not to submit SAT/ACT scores.</p>
+
 
                                 <hr class="my-5">
                                 <div class="anchor" id="sec5"></div>
-                                <h2 class="display-4">Standardized Testing</h2>
+                                <h4 class="display-4">Standardized Testing</h4>
+                                <?php echo item_alert(
+                                    '',
+                                    'Students applying to Vassar during the 2020–21, 2021–22, and 2022–23 admission cycles may choose whether or not to submit SAT/ACT scores.',
+                                    'info-circle',
+                                    'alert-light alert-accent-gold my-4'
+                                ); ?>
+                                <p class="fix"><strong>[INSERT STANDARDIZED TESTING INFO]</strong></p>
 
-                                <p class="fix">insert from quick facts page</p>
 
 
                             </div>

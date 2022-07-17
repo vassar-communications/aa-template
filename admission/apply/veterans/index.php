@@ -41,66 +41,44 @@ $page_classes = "";
 ?>
 
 
-<?php echo sec_hasColumns(
+
+
+<?php echo sec_fullBleedImageColumn(
     null,
-    2,
-    null,
-    'animate-when-content-appears animation-slide-up',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
+    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
+    'image-is-first theme-cream',
+    ''
 ); ?>
-
-<?php echo item_col('equal'); ?>
-
-<h2 class="display-3">Information for American Veterans</h2>
-<p>Vassar actively seeks to enroll qualified veterans of the U.S. Armed Forces. Vassar fosters these connections through the Posse Veterans Program and the Yellow Ribbon Program, aimed at increasing enrollment of veterans at selective colleges and universities.</p>
-
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('equal'); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <h2 class="display-2 mb-5 border-animate">Posse Veterans Program</h2>
+    <p>This program supports veterans interested in pursuing bachelor’s degrees at top educational institutions. Those accepted into the program attend college as part of a Veterans Posse, which is a team of service veterans.</p>
+    <p>The first 10 participants joined the Vassar community in Fall 2013, attending tuition-free through a combination of scholarship aid and GI Bill® benefits.  <a href="https://www.vassar.edu/vq/issues/2013/03/vassar-today/call-of-duty.html">Read more</a></p>
+    <a href="https://www.possefoundation.org/shaping-the-future/posse-veterans-program" class="btn btn-link px-0 arrow">Visit the Posse Veterans Program</a>
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-<img src="https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg" />
-<?php echo end_item_col(); ?>
+<?php echo sec_fullBleedImageColumn(
+    null,
+    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
+    'theme-burgundy has-bg quad-pattern',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <h2 class="display-2 mb-5 border-animate">Yellow Ribbon Program</h2>
+    <p>The Yellow Ribbon Program is a collaboration between colleges and universities and the Veterans Administration to cover the cost of tuition and fees, under the Post-9/11 Veterans Educational Assistance Act of 2008. This program makes a Vassar education accessible to eligible veterans, regardless of socio-economic status.</p>
+    <a href="https://www.possefoundation.org/shaping-the-future/posse-veterans-program" class="btn btn-link px-0 arrow">Visit the Yellow Ribbon Program</a>
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php echo end_sec_hasColumns(); ?>
 
 
 <?php echo sec_regularContent(
-    null,
-    'theme-cream',
-    ''
-); ?>
-
-
-
-<h3 class="display-4">Posse Veterans Program</h3>
-<p>This program supports veterans interested in pursuing bachelor’s degrees at top educational institutions. Those accepted into the program attend college as part of a Veterans Posse, which is a team of service veterans.
-
-    The first 10 participants joined the Vassar community in Fall 2013, attending tuition-free through a combination of scholarship aid and GI Bill® benefits.  Read more</p>
-<p>Interested in applying through the Posse Veterans Program? </p>
-
-<p>Posse Veterans Program</br>
-    14 Wall Street, Suite 8A-60</br>
-    New York, NY 10005</br>
-    Tel: (212) 405-1691</br>
-    Fax: (212) 405-1697</br>
-    veterans@possefoundation.org</p>
-
-<hr/>
-
-<h3 class="display-4">Yellow Ribbon Program</h3>
-<p>The Yellow Ribbon Program is a collaboration between colleges and universities and the Veterans Administration to cover the cost of tuition and fees, under the Post-9/11 Veterans Educational Assistance Act of 2008. This program makes a Vassar education accessible to eligible veterans, regardless of socio-economic status.</p>
-
-<?php echo end_sec_regularContent(); ?>
-
-<?php echo sec_regularContent(
-    null,
+    'Special Accommodations for Veterans',
     null,
     ''
 ); ?>
-
-<h3 class="display-4 mb-4">Special Accommodations for Veterans</h3>
-    <h4>Admissions</h4>
+    <h3>Admissions</h3>
         <p>Vassar is proud to offer an automatic application fee waiver to all service veterans.</p>
         <p>Visit the Apply page  to learn about application requirements.</p>
         <p>Veterans may supplement their applications by submitting additional materials related to their military experience, including:</p>
@@ -110,17 +88,22 @@ $page_classes = "";
             <li>A supplementary essay</li>
         </ul>
     <hr/>
-    <h4>Financial Aid</h4>
+    <h3>Financial Aid</h3>
     <p>As a participant in the Yellow Ribbon Program, Vassar will match funding with the U.S. Department of Veterans Affairs to cover the difference in costs between Vassar’s tuition and fees and those of the highest public in-state institution.</p>
     <hr/>
-    <h4>Housing</h4>
+    <h3>Housing</h3>
     <p>Housing options are available both on or off campus. The surrounding area offers apartment units for rent. Campus includes apartment-like housing for single juniors and seniors. The Office of Residential Life will work with veterans to ensure that housing arrangements are appropriate to their needs.</p>
     <hr/>
-    <h4>Advising</h4>
+    <h3>Advising</h3>
     <p>Vassar provides advice and support through pre-major or major advisors, an advisor in the  Office of the Dean of Studies dedicated to each class, and a counseling service staffed by trained professionals who help students, free of charge, with personal and academic issues.</p>
+<?php echo end_sec_regularContent(); ?>
 
-<h3 class="display-4 mb-4">Vassar Contacts and Links</h3>
-    <p>Contact our admission department with any veteran’s related questions or follow the links below for more information</p>
+
+<?php echo sec_wideContent(
+    'Vassar Contacts and Links',
+    'Contact our admission department with any veteran’s related questions or follow the links below for more information',
+    'theme-charcoal'
+); ?>
 
     <dl class="clean-list-with-borders">
       <dt>Financial Aid</dt>

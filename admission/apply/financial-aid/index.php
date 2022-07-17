@@ -44,7 +44,7 @@ $page_classes = "alive";
     <h2 class="display-2 mb-5 border-animate">Financial Aid</h2>
     <p>Through a generous financial aid program, Vassar meets 100% of the full demonstrated need of all admitted students for all four years. Financial aid is awarded exclusively on the basis of need as determined by the Free Application for Federal Student Aid (FAFSA) and the CSS Profile.</p>
 
-    <a href="/admission/financial-aid/applying-for-aid" class="px-0 btn btn-link arrow">Learn more and apply for aid</a>
+    <a href="/admission/financial-aid/" class="px-0 btn btn-link arrow">Learn more and apply for aid</a>
 
 
 </div>
