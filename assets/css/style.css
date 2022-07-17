@@ -9744,6 +9744,33 @@ Any time we need an intro paragraph, use this styling.
   }
 }
 
+/*
+ * This is a generic list that other list-based patterns rely on. It removes the bullet points and adds borders between each item.
+ */
+.clean-list-with-borders, .labeled-list {
+  padding-left: 0;
+}
+.clean-list-with-borders li, .labeled-list li {
+  list-style: none;
+  padding-top: var(--list-border-padding, 0.4rem);
+  padding-bottom: var(--list-border-padding, 0.4rem);
+}
+.clean-list-with-borders li:not(:last-child), .labeled-list li:not(:last-child) {
+  border-bottom: 1px solid var(--list-border-color, #ccc);
+}
+
+/*
+ * This is a generic card intended for text.
+ */
+.plain-text-card {
+  padding: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  .plain-text-card {
+    padding: 2rem;
+  }
+}
+
 .seq-item--useTransition:nth-child(1) {
   transition-delay: calc(0s + (0.1s * 1));
 }
@@ -11065,6 +11092,10 @@ li {
 }
 .grid.cols-4 {
   --bs-columns: 4;
+}
+
+.items-equal-height .g-col > * {
+  height: 100%;
 }
 
 .loose-grid {
@@ -14888,10 +14919,10 @@ ul.style-checklist a {
 /*
   Apply this class to a dl element.
  */
-.clean-list-with-borders {
+.clean-dt-list-with-borders {
   font-size: 1.3rem;
 }
-.clean-list-with-borders dt:not(:first-child) {
+.clean-dt-list-with-borders dt:not(:first-child) {
   border-top: 1px solid #aaa;
   margin-top: 1rem;
   padding-top: 1rem;

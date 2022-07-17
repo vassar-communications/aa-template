@@ -126,7 +126,7 @@ $page_classes = "";
     'theme-charcoal'
 ); ?>
 
-    <dl class="clean-list-with-borders">
+    <dl class="clean-dt-list-with-borders">
       <dt>Financial Aid</dt>
       <dd>Ann Gitto, Associate Director of Student Financial Services</dd>
 

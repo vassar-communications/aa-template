@@ -54,46 +54,70 @@ $page_classes = "";
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-<?php echo sec_regularContent(
+
+<?php echo sec_hasColumns(
     'Apply for Financial Aid',
-    null,
-    '',
-    ''
+    '3',
+    '<p class="intro-text">To be considered for financial aid, you must complete the following items by the advertised deadlines:</p>',
+    'items-equal-height',
+    'gap-3'
 ); ?>
 
-<p class="intro-text">To be considered for financial aid, you must complete the following items by the advertised deadlines:</p>
+  <?php echo item_col(); ?>
 
-<h3>FAFSA</h3>
-<p>The FAFSA must be completed to determine eligibility for all sources of federal financial aid.</p>
-<ul>
- <li>Vassar code: 002895</li>
- <li>Applies only to U.S. Citizens and Permanent Residents</li>
- <li>Available after October 1st</li>
- <li>Once completed, review the Student Aid Report (SAR) sent to you by the Department of Education for accuracy. If necessary, correct any errors and resubmit.</li>
-</ul>
-<a href="https://studentaid.gov/h/apply-for-aid/fafsa"  class="px-0 btn btn-link arrow">Visit FAFSA.ORG<i class="circle fa-solid fa-link"></i></a>
-<hr/>
-<h3>CSS Profile</h3>
-<p>The CSS Profile is required to determine eligibility for Vassar scholarship aid.</p>
-<ul>
- <li>Vassar code: 2956</li>
- <li>Applies to all students, domestic and international</li>
- <li>Available after October 1st</li>
- <li>If parents are separated/divorced, both parents will each complete their own CSS Profile application</li>
-</ul>
-<a href="https://cssprofile.collegeboard.org/"  class="px-0 btn btn-link arrow">Visit CSS Profile<i class="circle fa-solid fa-link"></i></a>
-<hr/>
-<h3>College Board IDOC</h3>
-<p>This is a service to submit requested documentation as part of the aid application.</p>
-<ul>
- <li>Available late October/early November; must complete CSS Profile first</li>
- <li>IDOC will email instructions once you become eligible for service</li>
- <li>Write your name and IDOC ID number on all documents</li>
- <li>Retain a copy of all documents you submit</li>
-</ul>
-<a href="https://pages.collegeboard.org/idoc"  class="px-0 btn btn-link arrow">Visit Collegeboard IDOC<i class="circle fa-solid fa-link"></i></a>
+    <div class="card plain-text-card">
+    <h3>FAFSA</h3>
+    <p>The FAFSA must be completed to determine eligibility for all sources of federal financial aid.</p>
 
-<?php echo end_sec_regularContent(); ?>
+    <ul class="labeled-list">
+      <?php echo labeled_list_item('Vassar code', '002895'); ?>
+      <?php echo labeled_list_item('Available after', 'October 1st'); ?>
+      <?php echo labeled_list_item('Applies to', 'U.S. Citizens and Permanent Residents only'); ?>
+    </ul>
+
+     <p>Once completed, review the Student Aid Report (SAR) sent to you by the Department of Education for accuracy. If necessary, correct any errors and resubmit.</p>
+    <a href="https://studentaid.gov/h/apply-for-aid/fafsa"  class="px-0 btn btn-link arrow">Visit FAFSA.ORG<i class="circle fa-solid fa-link"></i></a>
+    </div>
+
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <div class="card plain-text-card">
+    <h3>CSS Profile</h3>
+    <p>The CSS Profile is required to determine eligibility for Vassar scholarship aid.</p>
+
+    <ul class="labeled-list">
+      <?php echo labeled_list_item('Vassar code', '2956'); ?>
+      <?php echo labeled_list_item('Available after', 'October 1st'); ?>
+      <?php echo labeled_list_item('Applies to', 'All students, domestic and international'); ?>
+    </ul>
+
+     <p>If parents are separated/divorced, both parents will each complete their own CSS Profile application</p>
+
+    <a href="https://cssprofile.collegeboard.org/"  class="px-0 btn btn-link arrow">Visit CSS Profile<i class="circle fa-solid fa-link"></i></a>
+    </div>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+
+    <div class="card plain-text-card">
+    <h3>College Board IDOC</h3>
+    <p>This is a service to submit requested documentation as part of the aid application.</p>
+    <ul>
+     <li>Available late October/early November; must complete CSS Profile first</li>
+     <li>IDOC will email instructions once you become eligible for service</li>
+     <li>Write your name and IDOC ID number on all documents</li>
+     <li>Retain a copy of all documents you submit</li>
+    </ul>
+    <a href="https://pages.collegeboard.org/idoc"  class="px-0 btn btn-link arrow">Visit Collegeboard IDOC<i class="circle fa-solid fa-link"></i></a>
+    </div>
+
+  <?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
+
 
 <?php echo sec_regularContent(
     'Financial Aid Application Checklists',

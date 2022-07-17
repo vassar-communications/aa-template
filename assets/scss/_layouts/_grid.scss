@@ -19,6 +19,11 @@
   }
 }
 
+.items-equal-height {
+  .g-col > * {
+    height: 100%;
+  }
+}
 
 .loose-grid {
   display: flex;
