@@ -5,6 +5,8 @@
 $placeholder_img_banner = '/assets/images/placeholders/placeholder-banner.png';
 $placeholder_img_square = '/assets/images/placeholders/placeholder-square.png';
 
+$admission_img_path = '/admission/assets/images/';
+
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 
 /* Template Parts */
