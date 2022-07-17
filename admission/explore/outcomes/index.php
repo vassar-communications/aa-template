@@ -97,7 +97,7 @@ $page_classes = "";
 <div class="animate-when-content-appears animation-slide-up">
     <h2 class="display-2 mb-5 border-animate">Major Palooza</h2>
     <p>Vassar hosts Major Palooza for sophomores to explore the value and versatility of a liberal arts degree, as well as to network with Vassar’s vast and dedicated alumni. Panels and receptions are available to all.</p>
-    <a href="#" class="placeholder px-0 btn btn-link arrow">Link Needed</a>
+    <a href="https://major-palooza.vassar.edu/" class="px-0 btn btn-link arrow">Visit Major Palooza</a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -110,7 +110,7 @@ $page_classes = "";
 <div class="animate-when-content-appears animation-slide-up">
     <h2 class="display-2 mb-5 border-animate">Connections</h2>
     <p>Vassar’s Sophomore Career Connections introduces second-year students to the extraordinary range of career options available to them. Vassar offers an extensive network of alumni and parent mentors as one of our very best career resources.</p>
-    <a href="#" class="placeholder px-0 btn btn-link arrow">Link Needed</a>
+    <a href="https://www.vassar.edu/sophomore-career-connections" class="px-0 btn btn-link arrow">Visit Sophomore Career Connectsions</a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
