@@ -67,61 +67,75 @@ $page_classes = "";
 <?php echo sec_wideContent(
     null,
     null,
-    'theme-burgundy',
+    'theme-burgundy animate-when-content-appears text-center',
     'mw-4'
 ); ?>
 
 
-<h3>Applying for financial aid does not limit—or impact—an applicant’s chances of admission.</h3>
-<p>Admission decisions are made without regard to any student’s financial situation. Vassar is committed to making education accessible to all eligible students.</p>
-<p>
-    <a href="https://offices.vassar.edu/student-financial-services/" class="px-0 btn btn-link arrow">Learn more at Student Financial Services</a>
-</p>
+<?php echo animated_statement('Applying for financial aid does not limit—or impact—an applicant’s chances of admission.', 'mb-4'); ?>
+
+<p class="position-center" style="max-width: 80ch">Admission decisions are made without regard to any student’s financial situation. Vassar is committed to making education accessible to all eligible students.</p>
+
+<?php echo cta_link(
+  'https://offices.vassar.edu/student-financial-services/',
+  'Learn more at Student Financial Services'
+); ?>
+
+
 <?php echo end_sec_wideContent(); ?>
 
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Applying for Aid',
     $admission_img_path.'financial-aid/0085_16_04_KR_0008.jpg',
-    'image-is-first theme-charcoal bg-dark',
+    'image-is-first theme-cream has-bg',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Applying for Aid</h2>
-    <p>Learn more about the steps required to apply for need-based financial aid.</p>
+    <p class="intro-text">Learn more about the steps required to apply for need-based financial aid.</p>
 
-    <a href="/admission/financial-aid/apply/" class="px-0 btn btn-link arrow">Learn more about applying for aid</a>
+    <?php echo cta_link(
+      '/admission/financial-aid/apply',
+      'Learn more about applying for aid'
+    ); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Types of Aid',
     $admission_img_path.'financial-aid/0256-19-10-ja-library-lawn-vassar-vb-066.jpg',
-    'theme-charcoal bg-dark',
+    'theme-charcoal bg-dark has-bg quad-pattern',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Types of Aid</h2>
-    <p>Financial aid awards typically include grants and scholarships, loans, and campus jobs. </p>
+    <p class="intro-text">Financial aid awards typically include grants and scholarships, loans, and campus jobs. </p>
 
-    <a href="/admission/financial-aid/tuition/" class="px-0 btn btn-link arrow">Learn more about types of aid</a>
+    <?php echo cta_link(
+      'admission/financial-aid/tuition/',
+      'Learn more about types of aid'
+    ); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Tuition & Fees',
     $admission_img_path.'financial-aid/0198-19-11-kwe-library-vassar-vb-5394.jpg',
-    'image-is-first theme-charcoal bg-dark',
+    'image-is-first theme-extralightgray',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Tuition & Fees</h2>
-    <p>View a breakdown of Vassar's tuition, housing and dining costs, and other fees.</p>
+    <p class="intro-text">View a breakdown of Vassar’s tuition, housing and dining costs, and other fees.</p>
 
-    <a href="/admission/financial-aid/tuition/" class="px-0 btn btn-link arrow">Learn more about tuition & fees</a>
+    <?php echo cta_link(
+      'admission/financial-aid/tuition/',
+      'Learn more about tuition & fees'
+    ); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

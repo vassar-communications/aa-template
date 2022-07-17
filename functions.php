@@ -2,6 +2,7 @@
 
 <?php
 
+//  These are just to make it easier to specify obvious placeholders
 $placeholder_img_banner = '/assets/images/placeholders/placeholder-banner.png';
 $placeholder_img_square = '/assets/images/placeholders/placeholder-square.png';
 

@@ -20,7 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($placeholder_img_banner); ?>
 
 
 <?php echo breadcrumbNav('theme-cream'); ?>
@@ -35,32 +35,33 @@ $page_classes = "";
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    null,
-    '/assets/images/placeholders/main-placeholder.jpg',
+    'Student Financial Services',
+    $placeholder_img_square,
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h1 class="display-6">Applying for financial aid can be daunting, but we’re here to help you through each step.</h1>
+  <p class="intro-text">Applying for financial aid can be daunting, but we’re here to help you through each step.</p>
+
     <p><a>If you have any questions, contact <a href="mailto:finaid@vassar.edu">finaid@vassar.edu</a> or visit Student Financial Services.</p>
 
-    <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="px-0 btn btn-link mt-5 arrow">Visit Student Financial Services</a>
+    <?php echo cta_link(
+      'https://apply.vassar.edu/portal/campusvisitcalendar',
+      'Visit Student Financial Services'
+    ); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_regularContent(
-    null,
+    'Apply for Financial Aid',
     null,
     '',
     ''
 ); ?>
 
-
-
-<h2 class="display-5 mb-3">Apply for Financial Aid</h2>
-<p>To be considered for financial aid, you must complete the following items by the advertised deadlines:</p>
+<p class="intro-text">To be considered for financial aid, you must complete the following items by the advertised deadlines:</p>
 
 <h3>FAFSA</h3>
 <p>The FAFSA must be completed to determine eligibility for all sources of federal financial aid.</p>
