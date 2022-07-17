@@ -2,6 +2,9 @@
 
 <?php
 
+$placeholder_img_banner = '/assets/images/placeholders/placeholder-banner.png';
+$placeholder_img_square = '/assets/images/placeholders/placeholder-square.png';
+
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 
 /* Template Parts */

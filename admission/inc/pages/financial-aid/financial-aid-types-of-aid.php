@@ -2,7 +2,7 @@
     'Types of Aid',
     '/admission/financial-aid/types-of-aid/',
     ['url' => 'https://vassartest.chuckyatsuk.com/img/financial-aid/0138-15-11-kr-vcdf-vassar-0110.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
     <p>Vassar offers scholarships, grants, loans, and on-campus jobs</p>

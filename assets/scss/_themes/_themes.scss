@@ -143,7 +143,7 @@ p a, a.btn-link, nav a, li a, footer a  {
 }
 
 .theme-extralightgray {
-  --section-bg-color: $gray-300;
+  --section-bg-color: #{$gray-300};
 
 }
 
@@ -179,13 +179,13 @@ p a, a.btn-link, nav a, li a, footer a  {
 
   &.show-content {
 
-    background-color: $gray-200;
+    background-color: #{$gray-200};
     //    @extend .theme-verylightgray;
   }
 }
 
 .theme-charcoal-to-white {
-  background-color: $gray-700;
+  background-color: #{$gray-700};
   transition: 1s all ease;
 
   .section-bg-image-container {
@@ -194,7 +194,7 @@ p a, a.btn-link, nav a, li a, footer a  {
 
   &.show-content {
 
-    background-color: $gray-200;
+    background-color: #{$gray-200};
     //    @extend .theme-verylightgray;
   }
 }

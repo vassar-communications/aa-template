@@ -11,8 +11,9 @@
   width: 100%;
 }
 .deadline-item {
-  font-family: var(--font-big-serif);
-  @include font-size(2rem);
+//  font-family: var(--font-big-serif);
+  @include font-size(1.2rem);
+  font-variation-settings: "wght" 400;
 
   @include break(md) {
     display: flex;
@@ -20,14 +21,14 @@
   }
 }
 .deadlines-text {
-  color: var(--color-vassar-dark-burgundy);
+//  color: var(--color-vassar-dark-burgundy);
 
   @include break(md) {
     width: 70%;
   }
 }
 .deadlines-date {
-  font-weight: bold;
+  font-variation-settings: "wght" 700;
 
   @include break(md) {
     text-align: right;
