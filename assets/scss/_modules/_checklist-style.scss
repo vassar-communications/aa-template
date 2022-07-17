@@ -1,7 +1,11 @@
 ul.style-checklist {
-    background: #fff;
-    color: #333;
-    padding: 4rem;
+  background: #fff;
+  color: #333;
+  padding: 4rem;
+
+  &.theme-cream {
+    background: var(--color-vassar-cream);
+  }
 }
 
 ul.style-checklist a {

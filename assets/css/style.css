@@ -14842,6 +14842,9 @@ ul.style-checklist {
   color: #333;
   padding: 4rem;
 }
+ul.style-checklist.theme-cream {
+  background: var(--color-vassar-cream);
+}
 
 ul.style-checklist a {
   color: #f00;
@@ -14916,6 +14919,14 @@ ul.style-checklist a {
     text-align: right;
     width: 30%;
   }
+}
+
+.info-card {
+  background: #fff;
+}
+
+.red-alert {
+  border-left: 8px solid #d00;
 }
 
 /* Basic links */

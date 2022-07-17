@@ -59,10 +59,10 @@ $page_classes = "";
 
 <?php echo sec_regularContent(
     'First-Year Application Requirements',
-    '',
+    'mw-inner-1',
     'checklist'
 ); ?>
-<ul>
+<ul class="style-checklist theme-cream">
     <li>Common Application or Coalition application</li>
     <li>$65 application fee or fee waiver
     <li>Early Decision Agreement (Early Decision Applicants ONLY)
@@ -104,9 +104,15 @@ $page_classes = "";
   <p>This is a chance for you to show the admission committee something else about yourself. It is your space, so if you choose to complete it, send something that is a reflection of you! Past applicants have submitted poetry, craft projects, photography, short stories, videos, and more.</p>
 <?php echo end_item_iconCard(); ?>
 
-<h3>Interviews</h3>
-<p>Though not required, you may want to connect with a Vassar student or alum to learn more. These interviews are informational, not evaluative.</p>
-<a class="btn btn-text" href="/admission/apply/first-year-applicants/interviews">Learn more</a>
+
+<?php echo item_iconCard(
+  'Interviews',
+  'people-arrows-left-right',
+  'icon-on-left'
+); ?>
+  <p>Though not required, you may want to connect with a Vassar student or alum to learn more. These interviews are informational, not evaluative.</p>
+  <a class="btn btn-text" href="/admission/apply/first-year-applicants/interviews">Learn more</a>
+<?php echo end_item_iconCard(); ?>
 
 <h3>Music, Art, and Dance Portfolios</h3>
 <p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance</p>

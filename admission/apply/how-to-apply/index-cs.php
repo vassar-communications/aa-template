@@ -47,97 +47,92 @@ $page_classes = "";
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+<?php echo sec_regularContent(
+    'First Year Applicants',
+    null,
+    '',
+    ''
+); ?>
+
+  <p>First-year applicants may submit in any one of the following ways:</p>
+    <ul>
+    <li>Common application</li>
+    <li>Coalition application</li>
+    <li>QuestBridge application</li>
+    </ul>
+  <p><a href="/admission/apply/first-year-applicants">Learn more about First-Year Applications</a></p>
+
+<?php echo end_sec_regularContent(); ?>
 
 
-
-<div class="container">
-    <div class="container position-relative" id="content">
-        <div class="row mt-5">
-            <aside class="col-md-3" id="left">
-                <div class="mt-5 mb-3 sticky-top" id="side">
-                    <ul class="list-group nav flex-md-column flex-row justify-content-between pt-5" id="sidenav">
-                        <li class="list-group-item nav-item mb-0"><a href="#sec1" class="nav-link pl-0">First-Year Applicants</a></li>
-                        <li class="list-group-item nav-item mb-0"><a href="#sec2" class="nav-link pl-0">Transfer Applicants</a></li>
-                        <li class="list-group-item nav-item"><a href="#sec3" class="nav-link pl-0">Options for Submission</a></li>
-                        <li class="list-group-item nav-item"><a href="#sec4" class="nav-link pl-0">Selection Criteria</a></li>
-                        <li class="list-group-item nav-item"><a href="#sec4" class="nav-link pl-0">Standardized Testing</a></li>
-                    </ul>
-                </div>
-            </aside>
-
-            <main class="col p-5">
-                <div class="row position-relative">
-                    <div class="col">
-                        <div class="py-3 position-relative">
-                            <div class="position-relative">
-
-                                <div class="anchor" id="sec1"></div>
-                                <h2 class="display-4">First Year Applicants</h2>
-                                <p>First-year applicants may submit in any one of the following ways:</p>
-                                    <ul>
-                                    <li>Common application</li>
-                                    <li>Coalition application</li>
-                                    <li>QuestBridge application</li>
-                                    </ul>
-                                <p><a href="/admission/apply/first-year-applicants">Learn more about First-Year Applications</a></p>
-
-                                <hr class="my-5">
-
-                                <div class="anchor" id="sec2"></div>
-                                <h2 class="display-4">Transfer Applicants</h2>
-                                <p>Transfer applicants can apply using the Common application.</p>
-                                <p><a href="/admission/apply/transfer">Learn more about Transfer Applications</a></p>
-
-                                <hr class="my-5">
-
-                                <div class="anchor" id="sec3"></div>
-                                <h2 class="display-4">Submitting Application Materials</h2>
-                                <p>Electronic submission is preferred. Application materials may also be submitted via email, fax, or mail.</p>
-                                <p>Supplemental materials, can be uploaded through the application status portal, which is available after an application has been submitted and processed.</p>
-                                <p><strong>To submit documents:</strong><br/>
-                                    Email: <a href="mailto:admappmaterials@vassar.edu">admappmaterials@vassar.edu</a><br/>
-                                    Fax: (845) 437-706</p>
-                                <p>Financial Aid documents should be submitted to Student Financial Services through IDOC.</p>
-
-                                <hr class="my-5">
+<?php echo sec_regularContent(
+    'Transfer Applicants',
+    'theme-burgundy has-bg quad-pattern',
+    '',
+    ''
+); ?>
+  <p>Transfer applicants can apply using the Common application.</p>
+  <p><a href="/admission/apply/transfer">Learn more about Transfer Applications</a></p>
+<?php echo end_sec_regularContent(); ?>
 
 
-
-                                <div class="anchor" id="sec4"></div>
-                                <h2 class="display-4">Selection Criteria</h2>
-                                <p>Vassar weighs a number of factors in the admission decision, including:</p>
-                                <ul>
-                                    <li>Academic performance, as demonstrated in high school</li>
-                                    <li>Personal strengths, motivation, and potential as evidenced in essays, recommendations, and community involvement</li>
-                                </ul>
-                                <p>Vassar recommends that prospective applicants applying from high school elect four years of:
-                                </p>
-                                <ul>
-                                    <li>English</li>
-                                    <li>Mathematics</li>
-                                    <li>Laboratory science</li>
-                                    <li>History or social science</li>
-                                    <li>Foreign language</li>
-                                </ul>
-                                <p>It is also recommended that applicants take a substantial portion of their work in enriched, accelerated, or honors courses or in Advanced Placement or International Baccalaureate programs when these options are available.</p>
-                                <p>Special attention is given to the academic breadth, depth, and rigor of candidates’ junior and senior year programs.</p>
-                                <p>Students applying to Vassar during the 2020–21, 2021–22, and 2022–23 admission cycles may choose whether or not to submit SAT/ACT scores.</p>
-
-                                <hr class="my-5">
-                                <div class="anchor" id="sec5"></div>
-                                <h2 class="display-4">Standardized Testing</h2>
-
-                                <p class="fix">insert from quick facts page</p>
+<?php echo sec_regularContent(
+    'Submitting Application Materials',
+    'theme-extralightgray',
+    '',
+    ''
+); ?>
+  <p>Electronic submission is preferred. Application materials may also be submitted via email, fax, or mail.</p>
+  <p>Supplemental materials, can be uploaded through the application status portal, which is available after an application has been submitted and processed.</p>
+  <p><strong>To submit documents:</strong><br/>
+      Email: <a href="mailto:admappmaterials@vassar.edu">admappmaterials@vassar.edu</a><br/>
+      Fax: (845) 437-706</p>
+  <p>Financial Aid documents should be submitted to Student Financial Services through IDOC.</p>
+<?php echo end_sec_regularContent(); ?>
 
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </main>
-        </div>
-    </div>
-</div>
+<?php echo sec_regularContent(
+    'Selection Criteria',
+    null,
+    '',
+    ''
+); ?>
+  <p>Vassar weighs a number of factors in the admission decision, including:</p>
+  <ul>
+      <li>Academic performance, as demonstrated in high school</li>
+      <li>Personal strengths, motivation, and potential as evidenced in essays, recommendations, and community involvement</li>
+  </ul>
+  <p>Vassar recommends that prospective applicants applying from high school elect four years of:
+  </p>
+  <ul>
+      <li>English</li>
+      <li>Mathematics</li>
+      <li>Laboratory science</li>
+      <li>History or social science</li>
+      <li>Foreign language</li>
+  </ul>
+  <p>It is also recommended that applicants take a substantial portion of their work in enriched, accelerated, or honors courses or in Advanced Placement or International Baccalaureate programs when these options are available.</p>
+  <p>Special attention is given to the academic breadth, depth, and rigor of candidates’ junior and senior year programs.</p>
+  <p>Students applying to Vassar during the 2020–21, 2021–22, and 2022–23 admission cycles may choose whether or not to submit SAT/ACT scores.</p>
+<?php echo end_sec_regularContent(); ?>
+
+<?php echo sec_regularContent(
+    'Standardized Testing',
+    'theme-cream',
+    '',
+    ''
+); ?>
+  <?php echo info_card(
+    null,
+    null,
+    'info'
+  );
+  ?>
+    <p>Students applying to Vassar during the 2020–21, 2021–22, and 2022–23 admission cycles may choose whether or not to submit SAT/ACT scores.</p>
+  <?php echo end_info_card(); ?>
+
+
+<?php echo end_sec_regularContent(); ?>
 
 
 
