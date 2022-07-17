@@ -20,9 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-
-
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($placeholder_img_banner); ?>
 
 <?php echo breadcrumbNav('theme-verylightgray'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>
@@ -52,7 +50,7 @@ $page_classes = "";
 <div class="animate-when-content-appears animation-slide-up">
     <h2 class="display-2 mb-5 border-animate">Posse Veterans Program</h2>
     <p>This program supports veterans interested in pursuing bachelor’s degrees at top educational institutions. Those accepted into the program attend college as part of a Veterans Posse, which is a team of service veterans.</p>
-    <p>The first 10 participants joined the Vassar community in Fall 2013, attending tuition-free through a combination of scholarship aid and GI Bill® benefits.  <a href="https://www.vassar.edu/vq/issues/2013/03/vassar-today/call-of-duty.html">Read more</a></p>
+    <p><a href="https://www.vassar.edu/vq/issues/2013/03/vassar-today/call-of-duty.html">The first 10 participants</a> joined the Vassar community in Fall 2013, attending tuition-free through a combination of scholarship aid and GI Bill® benefits.</p>
     <a href="https://www.possefoundation.org/shaping-the-future/posse-veterans-program" class="btn btn-link px-0 arrow">Visit the Posse Veterans Program</a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -78,24 +76,47 @@ $page_classes = "";
     null,
     ''
 ); ?>
-    <h3>Admissions</h3>
-        <p>Vassar is proud to offer an automatic application fee waiver to all service veterans.</p>
-        <p>Visit the Apply page  to learn about application requirements.</p>
-        <p>Veterans may supplement their applications by submitting additional materials related to their military experience, including:</p>
-        <ul>
-            <li>AARTS transcript</li>
-            <li>Military educational records</li>
-            <li>A supplementary essay</li>
-        </ul>
-    <hr/>
-    <h3>Financial Aid</h3>
-    <p>As a participant in the Yellow Ribbon Program, Vassar will match funding with the U.S. Department of Veterans Affairs to cover the difference in costs between Vassar’s tuition and fees and those of the highest public in-state institution.</p>
-    <hr/>
-    <h3>Housing</h3>
-    <p>Housing options are available both on or off campus. The surrounding area offers apartment units for rent. Campus includes apartment-like housing for single juniors and seniors. The Office of Residential Life will work with veterans to ensure that housing arrangements are appropriate to their needs.</p>
-    <hr/>
-    <h3>Advising</h3>
-    <p>Vassar provides advice and support through pre-major or major advisors, an advisor in the  Office of the Dean of Studies dedicated to each class, and a counseling service staffed by trained professionals who help students, free of charge, with personal and academic issues.</p>
+
+
+  <?php echo item_iconItem(
+    'Admissions',
+    'ticket',
+    'icon-on-left'
+  ); ?>
+          <p>Vassar is proud to offer an automatic application fee waiver to all service veterans.</p>
+          <p>Visit the Apply page  to learn about application requirements.</p>
+          <p>Veterans may supplement their applications by submitting additional materials related to their military experience, including:</p>
+          <ul>
+              <li>AARTS transcript</li>
+              <li>Military educational records</li>
+              <li>A supplementary essay</li>
+          </ul>
+  <?php echo end_item_iconItem(); ?>
+
+  <?php echo item_iconItem(
+    'Financial Aid',
+    'sack-dollar',
+    'icon-on-left'
+  ); ?>
+      <p>As a participant in the Yellow Ribbon Program, Vassar will match funding with the U.S. Department of Veterans Affairs to cover the difference in costs between Vassar’s tuition and fees and those of the highest public in-state institution.</p>
+  <?php echo end_item_iconItem(); ?>
+
+  <?php echo item_iconItem(
+    'Housing',
+    'house-chimney',
+    'icon-on-left'
+  ); ?>
+      <p>Housing options are available both on or off campus. The surrounding area offers apartment units for rent. Campus includes apartment-like housing for single juniors and seniors. The Office of Residential Life will work with veterans to ensure that housing arrangements are appropriate to their needs.</p>
+  <?php echo end_item_iconItem(); ?>
+
+  <?php echo item_iconItem(
+    'Advising',
+    'person-circle-question',
+    'icon-on-left'
+  ); ?>
+      <p>Vassar provides advice and support through pre-major or major advisors, an advisor in the  Office of the Dean of Studies dedicated to each class, and a counseling service staffed by trained professionals who help students, free of charge, with personal and academic issues.</p>
+  <?php echo end_item_iconItem(); ?>
+
 <?php echo end_sec_regularContent(); ?>
 
 

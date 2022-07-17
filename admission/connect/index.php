@@ -20,7 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($placeholder_img_banner); ?>
 
 <?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-connect-breadcrumb.php');?>
@@ -41,26 +41,28 @@ $page_classes = "";
 
 
 <?php echo sec_regularContent(
-    null,
+    'Contact Information',
     'theme-cream',
     null,
 ); ?>
-<h2 class="display-2">Contact Information</h2>
 <p>We are happy to help with questions, but please know that we do not track demonstrated interest as part of the application process.</p>
+
+
+    <div class="address-card">
 <p>
-    <strong>Mailing address:</strong><br/>
-    Office of Admission<br/>
-    Vassar College, Box 10<br/>
-    124 Raymond Ave<br/>
-    Poughkeepsie, NY 12604-0010<br/>
+    <strong>Mailing address:</strong><br>
+    Office of Admission<br>
+    Vassar College, Box 10<br>
+    124 Raymond Ave<br>
+    Poughkeepsie, NY 12604-0010<br>
     USA
 </p>
 <p>
-    Telephone: (845) 437-7300 or (800) 827-7270<br/>
-    Fax: (845) 437-7063<br/>
+    Telephone: (845) 437-7300 or (800) 827-7270<br>
+    Fax: (845) 437-7063<br>
     Email: <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>
 </p>
-
+    </div>
 
 
 
@@ -71,11 +73,10 @@ $page_classes = "";
 
 
 <?php echo sec_regularContent(
-    null,
+    'Staff Directory',
     null,
     null,
 ); ?>
-<h2 class="display-2">Staff Directory</h2>
 <p class="mb-5">Browse our staff directory below to find the admission counselor for your area.</p>
 <div class="staff-contact mb-5">
     <h3>Sonya K. Smith</h3>
