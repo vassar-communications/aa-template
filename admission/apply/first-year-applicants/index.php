@@ -91,18 +91,18 @@ $page_classes = "";
 <h3 class="display-4">Optional Application Materials</h3>
 <p>The following are not required for your application. for more information click the links below</p>
 
-<h4>Standardized Tests</h4>
+<h3>Standardized Tests</h3>
 <p>Vassar does not require students to submit the SAT or ACT </p>
 <a class="fix btn btn-text" href="#">Read Vassar's standardized test policy</a>
 
-<h4>Your Space</h4>
+<h3>Your Space</h3>
 <p>This is a chance for you to show the admission committee something else about yourself. It is your space, so if you choose to complete it, send something that is a reflection of you! Past applicants have submitted poetry, craft projects, photography, short stories, videos, and more.</p>
 
-<h4>Interviews</h4>
+<h3>Interviews</h3>
 <p>Though not required, you may want to connect with a Vassar student or alum to learn more. These interviews are informational, not evaluative.</p>
 <a class="btn btn-text" href="/admission/apply/first-year-applicants/interviews">Learn more</a>
 
-<h4>Music, Art, and Dance Portfolios</h4>
+<h3>Music, Art, and Dance Portfolios</h3>
 <p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance</p>
 <a class="btn btn-text" href="/admission/apply/first-year-applicants/arts">Learn more</a>
 
