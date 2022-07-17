@@ -1,6 +1,8 @@
 
 .icon-item {
-  --regularContent-font-size: var(--font-size-small);
+  &.small-font {
+    --regularContent-font-size: var(--font-size-small);    
+  }
 
   .the-icon {
     color: var(--icon-color, $gray-600);

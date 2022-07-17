@@ -86,12 +86,23 @@ $page_classes = "";
 ); ?>
 <p>The following are not required for your application. for more information click the links below</p>
 
-<h3>Standardized Tests</h3>
-<p>Vassar does not require students to submit the SAT or ACT </p>
-<a class="fix btn btn-text" href="#">Read Vassar's standardized test policy</a>
+<?php echo item_iconCard(
+  'Standardized Tests',
+  'clipboard',
+  'icon-on-left'
+); ?>
+  <p>Vassar does not require students to submit the SAT or ACT </p>
+  <a class="fix btn btn-text" href="#">Read Vassar's standardized test policy</a>
+<?php echo end_item_iconCard(); ?>
 
-<h3>Your Space</h3>
-<p>This is a chance for you to show the admission committee something else about yourself. It is your space, so if you choose to complete it, send something that is a reflection of you! Past applicants have submitted poetry, craft projects, photography, short stories, videos, and more.</p>
+
+<?php echo item_iconCard(
+  'Your Space',
+  'face-smile',
+  'icon-on-left'
+); ?>
+  <p>This is a chance for you to show the admission committee something else about yourself. It is your space, so if you choose to complete it, send something that is a reflection of you! Past applicants have submitted poetry, craft projects, photography, short stories, videos, and more.</p>
+<?php echo end_item_iconCard(); ?>
 
 <h3>Interviews</h3>
 <p>Though not required, you may want to connect with a Vassar student or alum to learn more. These interviews are informational, not evaluative.</p>

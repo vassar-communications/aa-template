@@ -10681,7 +10681,7 @@ details.open .dropdown__content .col-sm {
   font-size: 3rem;
 }
 
-.icon-item {
+.icon-item.small-font {
   --regularContent-font-size: var(--font-size-small);
 }
 .icon-item .the-icon {
@@ -15192,11 +15192,11 @@ p a:hover, p a:visited:hover, a.btn-link:hover, a.btn-link:visited:hover, nav a:
   }
 }
 :root {
-  --mw-1: none;
-  --mw-2: 100ch;
-  --mw-3: 120ch;
-  --mw-4: 140ch;
-  --mw-5: 160ch;
+  --mw-1: 100ch;
+  --mw-2: 120ch;
+  --mw-3: 140ch;
+  --mw-4: 160ch;
+  --mw-5: none;
 }
 
 .mw-1 {
@@ -15210,32 +15210,32 @@ p a:hover, p a:visited:hover, a.btn-link:hover, a.btn-link:visited:hover, nav a:
 
 @media only screen and (min-width: 40em) {
   .mw-sm-1 {
-    max-width: none;
+    max-width: 100ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-1 {
-    max-width: none;
+    max-width: 100ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-1 {
-    max-width: none;
+    max-width: 100ch;
   }
 }
 @media only screen and (min-width: 40em) {
   .mw-sm-1 {
-    max-width: none;
+    max-width: 100ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-1 {
-    max-width: none;
+    max-width: 100ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-1 {
-    max-width: none;
+    max-width: 100ch;
   }
 }
 .mw-2 {
@@ -15249,32 +15249,32 @@ p a:hover, p a:visited:hover, a.btn-link:hover, a.btn-link:visited:hover, nav a:
 
 @media only screen and (min-width: 40em) {
   .mw-sm-2 {
-    max-width: 100ch;
+    max-width: 120ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-2 {
-    max-width: 100ch;
+    max-width: 120ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-2 {
-    max-width: 100ch;
+    max-width: 120ch;
   }
 }
 @media only screen and (min-width: 40em) {
   .mw-sm-2 {
-    max-width: 100ch;
+    max-width: 120ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-2 {
-    max-width: 100ch;
+    max-width: 120ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-2 {
-    max-width: 100ch;
+    max-width: 120ch;
   }
 }
 .mw-3 {
@@ -15288,32 +15288,32 @@ p a:hover, p a:visited:hover, a.btn-link:hover, a.btn-link:visited:hover, nav a:
 
 @media only screen and (min-width: 40em) {
   .mw-sm-3 {
-    max-width: 120ch;
+    max-width: 140ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-3 {
-    max-width: 120ch;
+    max-width: 140ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-3 {
-    max-width: 120ch;
+    max-width: 140ch;
   }
 }
 @media only screen and (min-width: 40em) {
   .mw-sm-3 {
-    max-width: 120ch;
+    max-width: 140ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-3 {
-    max-width: 120ch;
+    max-width: 140ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-3 {
-    max-width: 120ch;
+    max-width: 140ch;
   }
 }
 .mw-4 {
@@ -15327,32 +15327,32 @@ p a:hover, p a:visited:hover, a.btn-link:hover, a.btn-link:visited:hover, nav a:
 
 @media only screen and (min-width: 40em) {
   .mw-sm-4 {
-    max-width: 140ch;
+    max-width: 160ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-4 {
-    max-width: 140ch;
+    max-width: 160ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-4 {
-    max-width: 140ch;
+    max-width: 160ch;
   }
 }
 @media only screen and (min-width: 40em) {
   .mw-sm-4 {
-    max-width: 140ch;
+    max-width: 160ch;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-4 {
-    max-width: 140ch;
+    max-width: 160ch;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-4 {
-    max-width: 140ch;
+    max-width: 160ch;
   }
 }
 .mw-5 {
@@ -15366,32 +15366,32 @@ p a:hover, p a:visited:hover, a.btn-link:hover, a.btn-link:visited:hover, nav a:
 
 @media only screen and (min-width: 40em) {
   .mw-sm-5 {
-    max-width: 160ch;
+    max-width: none;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-5 {
-    max-width: 160ch;
+    max-width: none;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-5 {
-    max-width: 160ch;
+    max-width: none;
   }
 }
 @media only screen and (min-width: 40em) {
   .mw-sm-5 {
-    max-width: 160ch;
+    max-width: none;
   }
 }
 @media only screen and (min-width: 50em) {
   .mw-md-5 {
-    max-width: 160ch;
+    max-width: none;
   }
 }
 @media only screen and (min-width: 60em) {
   .mw-lg-5 {
-    max-width: 160ch;
+    max-width: none;
   }
 }
 .fix, .fix a, a.fix {
