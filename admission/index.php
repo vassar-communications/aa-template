@@ -319,7 +319,7 @@ echo sec_fixedCenteredTitle(
         null,
         'student-modal',
         null,
-        ['url' => $admission_img_path.'favplaces-v2.jpg',
+        ['url' => $admission_img_path.'admission-home/favplaces-v2.jpg',
             'alt' => 'Student describing favorite place on campus'
         ],
         'animation-item grid-item text-at-bottom text-white'

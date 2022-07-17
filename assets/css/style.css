@@ -14522,7 +14522,7 @@ p a {
 }
 
 /*text buttons */
-a.btn.btn-text {
+.btn.btn-link {
   padding: 0.5rem 0 !important;
 }
 
