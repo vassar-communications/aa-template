@@ -48,11 +48,11 @@
     color: var(--section-text-color, $gray-800);
   }
 
-  &.is-link {
+  &.card-is-link {
     border-width: 0;
   }
-  &.is-link:hover,
-  &.is-link:focus {
+  &.card-is-link:hover,
+  &.card-is-link:focus {
     --section-link-hover-bg-color: transparent;
 
     border-width: 0;

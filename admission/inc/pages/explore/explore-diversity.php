@@ -2,7 +2,7 @@
     'Explore Diversity & Inclusion',
     '/admission/explore/diversity-inclusion/',
     ['url' => 'https://vassartest.chuckyatsuk.com/img/explore/diversity/Kaleidoscope-0111_14_11_KR_0067.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
     <p>We celebrate our differences and our connections</p>

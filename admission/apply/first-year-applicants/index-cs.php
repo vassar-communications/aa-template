@@ -1,0 +1,112 @@
+
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
+include($project_paths['main_project_root'].'/functions.php');
+ ?>
+<?php
+
+/*  PAGE INFO ============ */
+
+$page_title = "First-Year Applicants";
+$page_classes = "";
+
+/*  ---------------------- */
+
+?>
+
+<?php echo site_header(); ?>
+
+<?php echo vassar_masthead(); ?>
+
+<?php echo hamburger_navigation(); ?>
+
+
+
+<?php echo page_partialmasthead($placeholder_img_banner); ?>
+
+<?php echo breadcrumbNav('theme-verylightgray'); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>
+<?php echo end_sec_breadcrumbNav(); ?>
+
+
+<?php echo toplinksNav(); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-nav.php');?>
+<?php echo end_sec_toplinksNav(); ?>
+
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Information for First-Year Applicants',
+    $placeholder_img_square,
+    'image-is-first theme-cream',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p class="intro-text mb-5">Everything you need to know to apply.</p>
+
+    <?php echo deadlines('Early Decision Application deadlines'); ?>
+
+      <?php echo deadlines_item('Early Decision Round 1', 'November 15'); ?>
+      <?php echo deadlines_item('Early Decision Round 2', 'January 1'); ?>
+
+    <?php echo end_deadlines(); ?>
+
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php echo sec_regularContent(
+    'First-Year Application Requirements',
+    '',
+    'checklist'
+); ?>
+<ul>
+    <li>Common Application or Coalition application</li>
+    <li>$65 application fee or fee waiver
+    <li>Early Decision Agreement (Early Decision Applicants ONLY)
+    <li>School Report and High School Transcript: To be completed and sent by your school counselor. Available for online completion or download through Common Application.
+    <li>Teacher Evaluations
+    <li>Mid-year Grade Report Vassar requests each applicant’s most recent grade report to be sent by the school counselor.
+    <li>For Early Decision I and II, Vassar requires a first quarter/trimester grade report, which should be sent as soon as it becomes available.
+    <li>For Regular Decision, a mid-year report with first term grades is required when available, typically by February 1.
+    <li>Students admitted during Early Decision I or II will also be asked to provide their first term grades as soon as they become available.
+    <li>TOEFL/IELTS/DET: If English is neither your first language nor the primary language of instruction in secondary schools you have attended for the last three years.
+    </li>
+</ul>
+
+<?php echo end_sec_regularContent(); ?>
+
+
+<?php echo sec_regularContent(
+    'Optional Application Materials',
+    'theme-extralightgray',
+    ''
+); ?>
+<p>The following are not required for your application. for more information click the links below</p>
+
+<h3>Standardized Tests</h3>
+<p>Vassar does not require students to submit the SAT or ACT </p>
+<a class="fix btn btn-text" href="#">Read Vassar's standardized test policy</a>
+
+<h3>Your Space</h3>
+<p>This is a chance for you to show the admission committee something else about yourself. It is your space, so if you choose to complete it, send something that is a reflection of you! Past applicants have submitted poetry, craft projects, photography, short stories, videos, and more.</p>
+
+<h3>Interviews</h3>
+<p>Though not required, you may want to connect with a Vassar student or alum to learn more. These interviews are informational, not evaluative.</p>
+<a class="btn btn-text" href="/admission/apply/first-year-applicants/interviews">Learn more</a>
+
+<h3>Music, Art, and Dance Portfolios</h3>
+<p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance</p>
+<a class="btn btn-text" href="/admission/apply/first-year-applicants/arts">Learn more</a>
+
+<?php echo end_sec_regularContent(); ?>
+
+<!-- Related Topics -->
+<?php echo relatedTopics(); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-how-to-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-international.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-transfer.php');?>
+<?php echo end_sec_relatedTopics(); ?>
+<?php echo site_footer(); ?>

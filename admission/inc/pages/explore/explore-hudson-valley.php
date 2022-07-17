@@ -2,7 +2,7 @@
     'Explore Poughkeepsie & The Hudson Valley',
     '/admission/explore/poughkeepsie-hudson-valley/',
     ['url' => 'https://vassartest.chuckyatsuk.com/img/explore/hudson/Mid-Huson_Bridge_10_JGa.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
     <p>Vassar is part of the historic Hudson Valley</p>
