@@ -14526,7 +14526,7 @@ a.btn.btn-text {
   padding: 0.5rem 0 !important;
 }
 
-a.btn.btn-text:focus {
+.btn.btn-link:active:focus, .btn.btn-link.active:focus {
   outline: none !important;
   box-shadow: none !important;
 }

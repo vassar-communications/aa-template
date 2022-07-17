@@ -55,7 +55,7 @@ $page_classes = "";
 <?php echo end_item_col(); ?>
 
 <?php echo item_col('equal'); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/0084_16_04_KR_0013.jpg" />
+<img src="/admission/assets/images/placeholder.jpg" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
@@ -100,7 +100,7 @@ $page_classes = "";
 
 <h3>Interviews</h3>
 <p>Though not required, you may want to connect with a Vassar student or alum to learn more. These interviews are informational, not evaluative.</p>
-<a class="btn btn-text" href="/admission/apply/first-year-applicants/interviews">Learn more</a>
+<a class="btn btn-text" href="/admission/apply/first-year-applicants/interviews">Learn more about interviews at Vassar</a>
 
 <h3>Music, Art, and Dance Portfolios</h3>
 <p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance</p>

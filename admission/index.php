@@ -663,7 +663,7 @@ echo item_imageCard_modal_setup(
     'tiktok1-modal',
     '<div class="tiktok bg-dark">
 <video class="video" width="500" height="240" controls>
-  <source src="https://vassartest.chuckyatsuk.com/img/admission-home/video/day-in-life.mp4" type="video/mp4">
+  <source src="/admission/assets/videos/day-in-life.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </div>',
@@ -680,8 +680,8 @@ echo item_imageCard_modal_setup(
     null,
     'tiktok2-modal',
     '<div class="tiktok bg-dark">
-<video class="video" width="500" height="240" controls poster="https://vassartest.chuckyatsuk.com/img/admission-home/video/dorm-a-poster-lg.jpg">
-  <source src="https://vassartest.chuckyatsuk.com/img/admission-home/video/dorm-a.mp4" type="video/mp4">
+<video class="video" width="500" height="240" controls poster="/admission/assets/images/admission-home/video/dorm-a-poster-lg.jpg">
+  <source src="/admission/assets/videos/dorm-a.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </div>',
@@ -699,7 +699,7 @@ echo item_imageCard_modal_setup(
     'tiktok3-modal',
     '<div class="tiktok bg-dark">
 <video class="video" width="500" height="240" controls>
-  <source src="https://vassartest.chuckyatsuk.com/img/admission-home/video/dorm-b.mp4" type="video/mp4">
+  <source src=/admission/assets/videos/dorm-b.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </div>',

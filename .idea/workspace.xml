@@ -2,181 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/0084_16_04_KR_0013.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/0198-19-11-kwe-library-vassar-vb-5415.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/geo.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/old/tik1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/old/tik2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/old/tik3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/tik1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/tik1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/tik2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/tik2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/tik3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/tik3.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/day-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/day-in-life.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/dorm-a-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/dorm-a-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/dorm-a-poster-lg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/dorm-a.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/dorm-b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/dorm-b.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/food-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/food-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/food-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/food-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/food-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/words-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/words-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/words-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/words-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/words-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/admission-home/video/words-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/0007_16_02_KR_0083.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/0084_16_04_KR_0013.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/0137_14_11_KR_0003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/arts/0059-20-09-kr-drawing-class-vassar-0156.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/financial-aid/0050_14_05_JA_1874.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/international/0074_15_08_KR_0088.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/interviews/0046_16_04_KR_0008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/transfer/0137_14_11_KR_0003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/veterans/0071-19-05-ss2-posse-vassar-0645.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/0002-20-01-kr-scc-networking-vassar-0041.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/0084-19-05-ja-kumar-class-vassar-253.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/0216-18-10-jsu-fall-drone-vassar-R07705.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/Poughkeepsie_night_DSC_8551.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/Raymond-0204-19-11-kwe-raymond-parlor-vassar-vb-2823.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/academics/0014-19-04-kr-chemistry-vassar-4578.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/academics/0020_15_03_KR_0022.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/academics/082-21-07-kr-caad-vassar-0065.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/academics/110519_160over90_Vassar_1979.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/academics/110619_160over90_Vassar_6232.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/academics/110619_160over90_Vassar_7630.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/academics/cel/0056_14_07_BL_7266.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/academics/cel/0068_15_07_BL_7549.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/academics/cel/0074_16_07_KR_0051.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/academics/fotino-bryan-morocco-abroad-fba-70251.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/academics/lockhart-anna-peru-abroad-1809-alo-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/diversity/0148-17-09-kr-alana-vassar-1505.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/diversity/Kaleidoscope-0111_14_11_KR_0067.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/hudson/0206-19-11-kwe-rowing-vassar-vb-4395.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/hudson/Mid-Huson_Bridge_10_JGa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/muslim-prayer-space-1910-nz-201448.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/outcomes/0002-18-01-kr-scc-estrella-vassar-0048.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/outcomes/0002-20-01-kr-scc-networking-vassar-0041.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/outcomes/0153-19-11-kr-major-palooza-vassar-5360-crop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/outcomes/110619_160over90_Vassar_4689.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/outcomes/Commencement_grads_11_JA_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/favplaces-v2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/financial-aid/0013-22-04-kr-noyes-vassar-0040.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/financial-aid/0085_16_04_KR_0008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/financial-aid/0138-15-11-kr-vcdf-vassar-0110.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/financial-aid/0141-15-10-kr-fall-campus-vassar-0003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/financial-aid/0198-19-11-kwe-library-vassar-vb-5394.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/financial-aid/0256-19-10-ja-library-lawn-vassar-vb-066.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/financial-aid/calculators/0107_15_10_TT_5727.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/financial-aid/forms/0139_14_11_KR_0310.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/financial-aid/tuition/0024-18-03-kr-wvkr-vassar-3474.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/financial-aid/tuition/0105_14_11_TT_2826.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/financial-aid/tuition/0137_14_11_KR_0003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/financial-aid/tuition/Cushing-Dorm_Room_Series_Seven_12_HW_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/financial-aid/tuition/Vassar_Reception_20210601_KR_0173.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/game-0054_16_05_KR_0077.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/news-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/news-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/news1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/placeholder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/0042-21-06-kr-reception-vassar-0130.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/0055_15_04_KR_0110.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/0069-19-05-kr-spring-vassar-4632.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/0191-19-10-ali-library-drone-vassar-vb-2015.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/Vassar_Campus_20190423_KR_9440.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/group/group.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/in-person/0069-19-05-kr-spring-vassar-4221.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/in-person/0070-21-06-kr-tour-vassar-0054.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/in-person/0073-21-06-kr-summer-vassar-0179.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/in-person/Library-TT-IMG_6613_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/on-demand/0086-20-09-kr-library-vassar-0001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/virtual/0091_15_09_KR_0201.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2025.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2033.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/virtual/110519_160over90_Vassar_0348.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/virtual/Ph.f7.17_Africana_Kourouma.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/virtual/Take_Off_MZa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/virtual/Urban_Center_Black_Studies_SPC.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/placeholders/main-placeholder.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/how-to-apply/index-cs.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/how-to-apply/index-cs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/how-to-apply/index-sidenav.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/how-to-apply/index-sidenav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/how-to-apply/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/how-to-apply/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/international/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/international/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/questbridge/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/questbridge/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/transfer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/transfer/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/veterans/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/veterans/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/assets/images/110519_160over90_Vassar_0221.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/admission/assets/images/apply/how-to-apply/110519_160over90_Vassar_0221.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/connect/for-counselors/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/connect/for-counselors/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/connect/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/connect/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/explore/academics/index-cs.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/academics/index-cs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/explore/academics/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/academics/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/explore/campus/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/campus/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/explore/diversity-inclusion/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/diversity-inclusion/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/explore/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/explore/outcomes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/outcomes/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/explore/poughkeepsie-hudson-valley/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/poughkeepsie-hudson-valley/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/explore/student-life/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/student-life/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/apply/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/apply/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/forms/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/forms/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/tuition/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/tuition/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/types-of-aid/accordion.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/types-of-aid/accordion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/types-of-aid/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/types-of-aid/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/apply/apply-arts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/apply/apply-arts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/apply/apply-financial-aid.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/apply/apply-financial-aid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/apply/apply-first-year.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/apply/apply-first-year.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/apply/apply-how-to-apply.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/apply/apply-how-to-apply.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/apply/apply-international.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/apply/apply-international.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/apply/apply-interviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/apply/apply-interviews.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/apply/apply-questbridge.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/apply/apply-questbridge.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/apply/apply-transfer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/apply/apply-transfer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/apply/apply-veterans.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/apply/apply-veterans.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/apply/apply.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/apply/apply.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/connect/connect-counselors.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/connect/connect-counselors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/connect/connect-students.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/connect/connect-students.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/connect/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/connect/connect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/explore/explore-academics.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/explore/explore-academics.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/explore/explore-campus.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/explore/explore-campus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/explore/explore-diversity.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/explore/explore-diversity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/explore/explore-hudson-valley.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/explore/explore-hudson-valley.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/explore/explore-outcomes.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/explore/explore-outcomes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/explore/explore-student-life.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/explore/explore-student-life.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/explore/explore.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/explore/explore.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/financial-aid/financial-aid-apply.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/financial-aid/financial-aid-apply.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/financial-aid/financial-aid-calculators.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/financial-aid/financial-aid-calculators.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/financial-aid/financial-aid-forms.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/financial-aid/financial-aid-forms.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/financial-aid/financial-aid-tuition.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/financial-aid/financial-aid-tuition.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/financial-aid/financial-aid-types-of-aid.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/financial-aid/financial-aid-types-of-aid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/financial-aid/financial-aid.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/financial-aid/financial-aid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/quick-facts/quick-facts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/quick-facts/quick-facts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/visit/visit-class-visits.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/visit/visit-class-visits.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/visit/visit-group-visits.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/visit/visit-group-visits.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/visit/visit-in-person.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/visit/visit-in-person.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/visit/visit-on-demand.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/visit/visit-on-demand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/visit/visit-virtual-programs.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/visit/visit-virtual-programs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/visit/visit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/visit/visit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/index-cs.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/first-year-applicants/index-cs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/first-year-applicants/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/assets/images/0084_16_04_KR_0013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/assets/images/admission-home/geo.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/assets/images/admission-home/tik1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/assets/images/admission-home/tik2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/assets/images/admission-home/tik3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/assets/images/admission-home/video/day-in-life.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/assets/images/admission-home/video/dorm-a.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/assets/images/admission-home/video/dorm-b.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/admission/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/class-visits/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/class-visits/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/group-visits/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/group-visits/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/in-person/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/in-person/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/on-demand/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/on-demand/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/virtual-programs/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/virtual-programs/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/community/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/index-alt.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/index-alt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/_temp/_cytemp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_temp/_cytemp.scss" afterDir="false" />
@@ -227,11 +64,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admission/assets/images/apply" />
       <recent name="$PROJECT_DIR$/admission/assets/images/apply/how-to-apply" />
       <recent name="$PROJECT_DIR$/assets/scss/_components" />
       <recent name="$PROJECT_DIR$/assets/scss/_pages" />
       <recent name="$PROJECT_DIR$/assets/scss/_content-sections" />
-      <recent name="$PROJECT_DIR$/core/sections/content_sections" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
