@@ -59,21 +59,21 @@ $page_classes = "";
 
 <div class="accordion accordion-flush" id="grants">
     <div class="accordion-item">
-        <h2 class="accordion-header" id="grants-headingOne">
+        <div class="accordion-header" id="grants-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#grants-collapseOne" aria-expanded="false" aria-controls="grants-collapseOne">
                 Vassar Scholarships
             </button>
-        </h2>
+        </div>
         <div id="grants-collapseOne" class="accordion-collapse collapse" aria-labelledby="grants-headingOne" data-bs-parent="#grants">
             <div class="accordion-body"><p>Vassar awards $71 million annually in scholarships, funded by Vassar’s endowment, alumnae/i club fundraising, and gifts.</p></div>
         </div>
     </div>
     <div class="accordion-item">
-        <h2 class="accordion-header" id="grants-headingTwo">
+        <div class="accordion-header" id="grants-headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#grants-collapseTwo" aria-expanded="false" aria-controls="grants-collapseTwo">
                 Federal Grants
             </button>
-        </h2>
+        </div>
         <div id="grants-collapseTwo" class="accordion-collapse collapse" aria-labelledby="grants-headingTwo" data-bs-parent="#grants">
             <div class="accordion-body">
                 <p><strong>Pell Grants</strong></p>
@@ -93,11 +93,11 @@ $page_classes = "";
         </div>
     </div>
     <div class="accordion-item">
-        <h2 class="accordion-header" id="grants-headingThree">
+        <div class="accordion-header" id="grants-headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#grants-collapseThree" aria-expanded="false" aria-controls="grants-collapseThree">
                 State Grants
             </button>
-        </h2>
+        </div>
         <div id="grants-collapseThree" class="accordion-collapse collapse" aria-labelledby="grants-headingThree" data-bs-parent="#grants">
             <div class="accordion-body">
                 <p><strong>New York State Tuition Assistance Program (TAP)</strong></p>
@@ -110,11 +110,11 @@ $page_classes = "";
         </div>
     </div>
     <div class="accordion-item">
-        <h2 class="accordion-header" id="grants-headingFour">
+        <div class="accordion-header" id="grants-headingFour">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#grants-collapseFour" aria-expanded="false" aria-controls="grants-collapseFour">
                 Outside Scholarships
             </button>
-        </h2>
+        </div>
         <div id="grants-collapseFour" class="accordion-collapse collapse" aria-labelledby="grants-headingFour" data-bs-parent="#grants">
             <div class="accordion-body">
                 <p>Outside funds can offer students greater financial flexibility by lessening employment obligations and/or reducing student loans.</p>
@@ -136,13 +136,13 @@ $page_classes = "";
 <p>Vassar will eliminate or reduce loans in the aid awards of students from low-income households.</p>
 <p>Loans (usually from the Federal Direct Loan program) are low-interest and can be repaid over a period of 10 years when the student either graduates or leaves college.</p>
 
-<div class="accordion" id="loans">
+<div class="accordion accordion-flush" id="loans">
     <div class="accordion-item">
-        <h2 class="accordion-header" id="loans-headingOne">
+        <div class="accordion-header" id="loans-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#loans-collapseOne" aria-expanded="false" aria-controls="loans-collapseOne">
                 Federal Loans for Students
             </button>
-        </h2>
+        </div>
         <div id="loans-collapseOne" class="accordion-collapse collapse" aria-labelledby="loans-headingOne" data-bs-parent="#loans">
             <div class="accordion-body">
                 <p><strong>Federal Direct Loans</strong></p>
@@ -174,11 +174,11 @@ $page_classes = "";
         </div>
     </div>
     <div class="accordion-item">
-        <h2 class="accordion-header" id="loans-headingTwo">
+        <div class="accordion-header" id="loans-headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#loans-collapseTwo" aria-expanded="false" aria-controls="loans-collapseTwo">
                 Federal Loans for Parents
             </button>
-        </h2>
+        </div>
         <div id="loans-collapseTwo" class="accordion-collapse collapse" aria-labelledby="loans-headingTwo" data-bs-parent="#loans">
             <div class="accordion-body">
                 <p>Direct Parent PLUS Loans are government loans made available to parents of dependent undergraduate students. To qualify, a parent:</p>
@@ -200,11 +200,11 @@ $page_classes = "";
         </div>
     </div>
     <div class="accordion-item">
-        <h2 class="accordion-header" id="loans-headingThree">
+        <div class="accordion-header" id="loans-headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#loans-collapseThree" aria-expanded="false" aria-controls="loans-collapseThree">
                 Alternative/Private Loans
             </button>
-        </h2>
+        </div>
         <div id="loans-collapseThree" class="accordion-collapse collapse" aria-labelledby="loans-headingThree" data-bs-parent="#loans">
             <div class="accordion-body">
                 <p>Private student loans are non-government loans from lenders such as banks, credit unions, and state agencies. Either the parent or the student can be the primary borrower. If the student is the borrower, a co-signer is usually required.
@@ -223,11 +223,11 @@ $page_classes = "";
         </div>
     </div>
     <div class="accordion-item">
-        <h2 class="accordion-header" id="loans-headingFour">
+        <div class="accordion-header" id="loans-headingFour">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#loans-collapseFour" aria-expanded="false" aria-controls="loans-collapseFour">
                 College Loan Tips
             </button>
-        </h2>
+        </div>
         <div id="loans-collapseFour" class="accordion-collapse collapse" aria-labelledby="loans-headingFour" data-bs-parent="#loans">
             <div class="accordion-body">
                 <ul>

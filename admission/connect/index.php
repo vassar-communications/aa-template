@@ -169,6 +169,11 @@ $page_classes = "";
 </div>
 <?php echo end_sec_regularContent(); ?>
 
+<?php echo relatedTopics(); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/connect/connect-students.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/connect/connect-counselors.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit.php');?>
+<?php echo end_sec_relatedTopics(); ?>
 
 <?php /*  PAGE CONTENT === */ ?>
 

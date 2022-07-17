@@ -39,9 +39,9 @@ $page_classes = "";
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/connect/connect.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-student-life.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
 <?php echo site_footer(); ?>
