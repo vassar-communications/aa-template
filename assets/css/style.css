@@ -11179,6 +11179,10 @@ This is a generic container element for containing a 100vh fixed-position elemen
   position: relative;
   text-align: center;
   margin-bottom: var(--section-title-space, 6rem);
+  max-width: 30ch;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.1;
 }
 .section-title:after {
   position: absolute;
@@ -14893,6 +14897,13 @@ ul.style-checklist a {
   padding-top: 1rem;
 }
 
+.staff-contact {
+  background: var(--color-vassar-cream);
+  padding: 2rem;
+  border-radius: 0.4rem;
+  border-bottom: 1px solid #ccc;
+}
+
 .deadlines {
   border-width: 2px;
   border-color: #c00;
@@ -14954,6 +14965,30 @@ ul.style-checklist a {
 }
 .has-title .alert-header h3, .has-title .alert-header .h3 {
   margin-bottom: 0;
+}
+
+.linked-list {
+  padding-left: 0;
+}
+.linked-list li {
+  list-style: none;
+  border-top: 1px solid #ddd;
+}
+.linked-list a {
+  display: block;
+  font-variation-settings: "wght" 400;
+  display: block;
+  padding: 0.4rem;
+}
+.linked-list a:after {
+  content: "→";
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  justify-content: center;
+  padding-bottom: 0.12rem;
+  font-size: 1.4rem;
+  align-items: center;
 }
 
 /* Basic links */

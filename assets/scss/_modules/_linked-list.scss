@@ -1,0 +1,29 @@
+.linked-list {
+  padding-left: 0;
+
+  li {
+    list-style: none;
+
+//    &:not(:last-child) {
+      border-top: 1px solid #ddd;
+//    }
+  }
+
+  a {
+    display: block;
+    font-variation-settings: "wght" 400;
+    display: block;
+    padding: 0.4rem;
+
+    &:after {
+      content: "→";
+      width: 2rem;
+      height: 2rem;
+      display: inline-flex;
+      justify-content: center;
+      padding-bottom: 0.12rem;
+      font-size: 1.4rem;
+      align-items: center;
+    }
+  }
+}
