@@ -18,7 +18,7 @@ $page_classes = "";
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo page_partialmasthead('/assets/images/placeholders/main-placeholder.jpg'); ?>
+<?php echo page_partialmasthead($placeholder_img_banner); ?>
 
 <?php echo hamburger_navigation(); ?>
 
@@ -41,7 +41,7 @@ $page_classes = "";
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h1 class="display-6">Vassar offers group visits to high school students and community-based organizations to provide information on the academic, residential, and student life experience.</h1>
+    <p class="intro-text">Vassar offers group visits to high school students and community-based organizations to provide information on the academic, residential, and student life experience.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -53,18 +53,33 @@ $page_classes = "";
     ''
 ); ?>
 
-<h4 class="display-4 mb-4">Schedule a group visit</h4>
+<?php echo item_iconItem(
+  'Schedule a group visit',
+  'people-group',
+  'icon-on-left'
+); ?>
 <p>Group visits can be customized to fit the needs of the group. Presentations can include topics such as choosing a major or writing a college admission essay, or Q&A sessions with current students.</p>
+<p class="mb-5">Group tours can be scheduled Monday through Friday between 9 a.m. and 5 p.m. ET, based on availability. To schedule, email <a href="">admissions@vassar.edu</a>.</p>
 
-<p class="mb-5">Group tours can be scheduled Monday through Friday between 9 a.m. and 5 p.m. ET, based on availability. To schedule, email <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>.</p>
+<?php echo cta_link(
+  'mailto:admissions@vassar.edu',
+  'Schedule a Group Tour'
+); ?>
 
-<h4 class="display-4 mb-4">Individual Opportunities</h4>
+<?php echo end_item_iconItem(); ?>
+
+
+<?php echo item_iconItem(
+  'Individual Opportunities',
+  'user',
+  'icon-on-left'
+); ?>
 <p>If you are interested in engaging with Vassar individually, we encourage you to sign up for one of our regularly scheduled virtual visit events.</p>
-<ul>
+<ul class="linked-list">
     <li><a href="/admission/visit/in-person/">In-Person Campus Visits</a></li>
     <li><a href="/admission/visit/virtual-programs/">Virtual Programs</a></li>
 </ul>
-
+<?php echo end_item_iconItem(); ?>
 
 <?php echo end_sec_regularContent(); ?>
 

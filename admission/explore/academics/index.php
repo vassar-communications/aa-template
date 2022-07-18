@@ -63,70 +63,82 @@ $page_classes = "";
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Intensives',
     $admission_img_path.'explore/academics/110619_160over90_Vassar_7630.jpg',
     'image-is-first theme-charcoal bg-dark quad-pattern has-bg',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Intensives</h2>
-    <span class="tagline  mb-2">Dig Deep to Explore Your Interests</span>
+    <p class="tagline">Dig Deep to Explore Your Interests</p>
     <p>Vassar’s Intensives take the individualized classroom experience further by creating even more opportunities for student-driven exploration and mentored research. Intensives are designed to promote forward-thinking, non-traditional class experiences that catalyze deeper learning.</p>
 
-    <a href="/admission/explore/academics/" class="px-0 btn btn-link arrow">Learn more about Vassar Intensives</a>
+    <?php echo cta_link(
+      '/admission/explore/academics/',
+      'Learn more about Vassar Intensives'
+    ); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Research',
     $admission_img_path.'explore/academics/082-21-07-kr-caad-vassar-0065.jpg',
-    'theme-charcoal bg-dark',
+    'theme-burgundy',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Research</h2>
-    <span class="tagline  mb-2">Develop Knowledge First-Hand</span>
+    <p class="tagline">Develop Knowledge First-Hand</p>
     <p>At Vassar, you can engage in research and make contributions to your field as early as your first year. A multitude of opportunities are available, including research-based classes, paid positions in faculty laboratories, and on-campus intensive summer research programs.</p>
 
-    <a href="/admission/explore/academics/" class="px-0 btn btn-link arrow">Learn more about Research at Vassar</a>
+    <?php echo cta_link(
+      '/admission/explore/academics/',
+      'Learn more about Research at Vassar'
+    ); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Community-Engaged Learning',
     $admission_img_path.'explore/academics/cel/0056_14_07_BL_7266.jpg',
-    'image-is-first theme-charcoal bg-dark',
+    'image-is-first theme-extralightgray',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Community-Engaged Learning</h2>
-    <span class="tagline  mb-2">Gain Professional Experience While Investing In Our Community</span>
+    <p class="tagline">Gain Professional Experience While Investing In Our Community</p>
     <p>Real-world experience can take your education to the next level, so it’s no surprise that 90% of Vassar students choose to take on an internship. Through Community-Engaged Learning (CEL), you can combine your academic pursuits with hands-on work in the field while earning academic credit. </p>
 
-    <a href="/admission/explore/academics/" class="px-0 btn btn-link arrow">Learn more about CEL</a>
+    <?php echo cta_link(
+      '/admission/explore/academics/',
+      'Learn more about CEL'
+    ); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Study Abroad',
     $admission_img_path.'explore/academics/lockhart-anna-peru-abroad-1809-alo-8.jpg',
     'theme-charcoal bg-dark',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Study Abroad</h2>
-    <span class="tagline  mb-2">Broaden Your Horizons</span>
-    <p>Expand your global perspective and explore <a href="test">Link on charcoal</a> new ways of thinking by spending a semester or year abroad. Vassar offers more than 130 study abroad options around the world, so no matter your interests, you can find a program that will help you reach your goals.</p>
+    <p class="tagline">Broaden Your Horizons</p>
+    <p>Expand your global perspective and explore new ways of thinking by spending a semester or year abroad. Vassar offers more than 130 study abroad options around the world, so no matter your interests, you can find a program that will help you reach your goals.</p>
 
-    <a href="/admission/explore/academics/" class="px-0 btn btn-link arrow">Learn more about Study Abroad</a>
+    <?php echo cta_link(
+      '/admission/explore/academics/',
+      'Learn more about Study Abroad'
+    ); ?>
+
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_wideContent(
     'Your Choices <span class="text-primary">=</span> Your Education',
-    '<p class="h2">Vassar’s curriculum emphasizes a multidisciplinary approach to intellectual inquiry. With more than 1,000 courses to choose from and an average class size of 17, Vassar offers a customizable curriculum to satisfy any curiosity.</p>',
+    '<p class="intro-text">Vassar’s curriculum emphasizes a multidisciplinary approach to intellectual inquiry. With more than 1,000 courses to choose from and an average class size of 17, Vassar offers a customizable curriculum to satisfy any curiosity.</p>',
     'theme-cream pb-1 hidemark',
     'mw-3 pb-5'
 ); ?>

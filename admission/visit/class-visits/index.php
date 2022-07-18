@@ -20,8 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($placeholder_img_banner); ?>
 
 <?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-visit-breadcrumb.php');?>
@@ -38,12 +37,12 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/assets/images/placeholders/main-placeholder.jpg',
+    $placeholder_img_square,
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h1 class="display-6">Want to experience the virtual Vassar classroom? Check out these pre-recorded classes on a range of topics, including music, astronomy, political science, and many more.</h1>
+    <p class="intro-text">Want to experience the virtual Vassar classroom? Check out these pre-recorded classes on a range of topics, including music, astronomy, political science, and many more.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
