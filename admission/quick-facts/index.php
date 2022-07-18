@@ -93,14 +93,13 @@ $page_classes = "";
 
 <?php echo sec_regularContent(
     'After You’ve Applied',
-    'section-class',
-    '',
+    'red-icons',
     ''
 ); ?>
 
   <?php echo item_iconItem(
     null,
-    'house-chimney',
+    'list-check',
     'icon-on-left'
   ); ?>
       <p>Within 5 days of receiving your application, we will send you an email with your Applicant ID and directions on how to access an online checklist for your application.</p>
@@ -108,21 +107,76 @@ $page_classes = "";
 
   <?php echo item_iconItem(
     null,
-    'house-chimney',
+    'clock',
     'icon-on-left'
   ); ?>
       <p>Adding all supporting documents to our system may take a few weeks. If there are items missing from your application, you will be notified before decision release for your specified application round.</p>
   <?php echo end_item_iconItem(); ?>
 
   <?php echo item_iconItem(
-    'Housing',
-    'house-chimney',
+    null,
+    'check',
     'icon-on-left'
   ); ?>
       <p>Students will be able to check their admission decision online on the same website you used to check the status of your application. Vassar does not release admission decisions via telephone.</p>
   <?php echo end_item_iconItem(); ?>
 
 <?php echo end_sec_regularContent(); ?>
+
+
+
+<?php echo sec_regularContent(
+    'What’s in Your Application',
+    '',
+    ''
+); ?>
+
+  <p class="intro-text">Your application can contain a number of items, some of which are optional.</p>
+
+<?php echo end_sec_regularContent(); ?>
+
+<?php echo sec_hasColumns(
+    'Required',
+    '2',
+    '',
+    'section-class',
+    'gap-3',
+    ['title_level' => '3']
+); ?>
+
+  <?php echo item_col(); ?>
+
+<ul class="style-checklist">
+  <li><strong class="h3">Early Decision Agreement</strong><br>
+    (Early Decision Applicants only)
+  </li>
+  <li><strong class="h3">School Report and High School Transcript</strong><br>
+    To be completed and sent by your guidance counselor.
+  </li>
+  <li><strong class="h3">Mid-Year Grade Report</strong><br>
+    Vassar requests each applicant’s most recent grade report to be sent by their school counselor.
+
+    <ul>
+      <li><strong>Early Decision I or II applicants:</strong> Vassar requires a first quarter/trimester grade report, which should be sent as soon as it becomes available, and first semester grades as soon as they become available.</li>
+      <li><strong>Regular Decision applicants:</strong> A mid-year report with first semester grades is required when available, typically by February 1.</li>
+    </ul>
+  </li>
+  <li><strong class="h3">Teacher Evaluations/Recommendation Letters </strong><br>
+    Vassar requires two recommendations: one from your guidance counselor or school advisor, and one from a teacher in a core academic subject. If you wish, you may submit a third letter, either from another teacher or from someone else in your life who can share pertinent information.
+  </li>
+</ul>
+
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+  <?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
+
+
+
 
 
 

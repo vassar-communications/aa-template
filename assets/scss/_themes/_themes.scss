@@ -198,3 +198,7 @@ p a, a.btn-link, nav a, li a, footer a  {
     //    @extend .theme-verylightgray;
   }
 }
+
+.red-icons {
+  --icon-color: #{$red};
+}

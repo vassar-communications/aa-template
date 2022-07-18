@@ -71,6 +71,24 @@
   }
 }
 
+
+//  While working on Quick Facts, I realized that the structure of
+//  the page requires sections that are more clearly sub-parts of
+//  other sections. Example I'm looking at right now is the Community
+//  page: there's an Our Campus section, and then a subsection about
+//  the weather. Both require a large, immersive treatment, but Weather
+//  is a sub-section of Our Campus; cramming both into a single row is
+//  not going to be good. So long story short: I'm adding an option to
+//  display section titles as h3s.
+//
+//  This thing launches in fifteen days. Don't @ me.
+
+h3.section-title {
+  @include font-size(2.3rem);
+  font-weight: bold;
+  font-family: var(--sansSerif);
+}
+
 .section-content {
   max-width: 90ch;
   margin: 0 auto;

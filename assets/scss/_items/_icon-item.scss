@@ -2,6 +2,12 @@
 .icon-item {
   padding: 1.4rem 0;
 
+  p {
+    &:only-child {
+      margin: 0;
+    }
+  }
+
   &.small-font {
     --regularContent-font-size: var(--font-size-small);
   }

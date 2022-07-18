@@ -6,9 +6,9 @@
  * @param string $title_classes (optional) - classes that should be applied to the title markup
  * @return string - the rendered markup
  */
-$section_title = function ($title, $title_classes=false) {
+$section_title = function ($title, $title_classes=false, $title_level='2') {
   if($title)
 return <<<TMP
-<h2 class="section-title $title_classes">$title</h2>
+<h$title_level class="section-title $title_classes">$title</h$title_level>
 TMP;
 };

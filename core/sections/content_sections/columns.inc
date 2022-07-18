@@ -17,6 +17,11 @@ function sec_hasColumns(
 
 
     $title_classes = get_extras_value( 'title_classes', $extras );
+    $title_level = get_extras_value('title_level', $extras);
+
+    //  I'm not sure why I have to do this, since I did specify
+    //  a default parameter of 2
+    if($title_level == '') $title_level = '2';
 
 //  Check if a bg image was specified, and
 //    set up both the markup and the section class for it.
@@ -28,7 +33,7 @@ function sec_hasColumns(
 
     return <<<TMP
   <div class="section section-with-columns columns-$columns $section_classes" $css>
-    {$section_title( $title, $title_classes )}
+    {$section_title( $title, $title_classes, $title_level )}
     {$bg_image($extras)}
     <div class="section-intro">
     $intro
