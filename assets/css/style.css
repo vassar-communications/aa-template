@@ -15202,6 +15202,10 @@ p a:hover, p a:visited:hover, a.btn-link:hover, a.btn-link:visited:hover, nav a:
   --icon-color: #ED1C24;
 }
 
+.gold-icons {
+  --icon-color: #C6AA76;
+}
+
 .buffer {
   min-height: 100vh;
   background: #eee;

@@ -22,7 +22,7 @@ else {
 }
 
 return <<<TMP
-  <div class="info-card alert p-4 shadow mb-5 my-4 $classes">
+  <div class="info-card alert p-4 shadow mb-5 $classes">
     <div class="alert-header"><i class="the-icon $icon"></i>$title</div>
 TMP;
 

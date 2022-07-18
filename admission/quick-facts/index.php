@@ -139,8 +139,8 @@ $page_classes = "";
     'Required',
     '2',
     '',
-    'section-class',
-    'gap-3',
+    'theme-extralightgray',
+    '',
     ['title_level' => '3']
 ); ?>
 
@@ -169,10 +169,64 @@ $page_classes = "";
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
+    <?php echo info_card(
+      'Fee Waiver',
+      '',
+      'info'
+    ); ?>
+
+      <p>If the application fee poses a financial hardship, a fee waiver can be requested on the Common Application or the Coalition Application. Fee waivers are automatically offered to students who participated in the Vassar View program, QuestBridge Finalists, Veterans, and International applicants who are unable to use a credit card to pay the application fee.</p>
+
+      <ul>
+        <li>If you apply via the Common Application, under the Vassar College Member-Specific section you will be asked “Do you intend to use one of these school-specific fee waivers?” Please select “Yes, I will be using a Vassar fee waiver.”</li>
+        <li>If you apply via the Coalition Application, use the fee waiver code: Vassar Fee Waiver.</li>
+      </ul>
+
+    <?php echo end_info_card(); ?>
+
   <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
+
+<?php echo sec_regularContent(
+    'SAT/ACT Scores',
+    'gold-icons',
+    ''
+); ?>
+
+  <p class="intro-text">Vassar will not require students to submit the SAT or ACT for the 2020–2021, 2021–2022, and 2022–2023 admission cycles, as part of a new pilot policy. First-year applicants may choose whether or not to submit their SAT and/or ACT test scores as a reflection of their academic abilities.</p>
+
+
+  <?php echo item_iconItem(
+    null,
+    'icons',
+    'icon-on-left'
+  ); ?>
+      <p>While scores are considered, they are secondary to the applicant’s high school transcript. Remember, we look at your application as a whole, and not just one particular element.</p>
+  <?php echo end_item_iconItem(); ?>
+
+  <?php echo item_iconItem(
+    null,
+    'bolt-lightning',
+    'icon-on-left'
+  ); ?>
+      <p>Should you choose to submit your scores, we will take your highest combined test scores. So, if you have taken the SAT or the ACT multiple times, we will combine your strongest scores on each section. Likewise, if you have taken both the SAT and the ACT, we will take whichever scores are higher.</p>
+  <?php echo end_item_iconItem(); ?>
+
+  <?php echo item_iconItem(
+    null,
+    'landmark-dome',
+    'icon-on-left'
+  ); ?>
+      <p>To submit your required standardized test scores to Vassar, you may request official scores from the College Board and/or ACT. In addition, Vassar will accept complete test scores reported on an official high school transcript, or copies of official SAT/ACT score reports validated by a school counselor.</p>
+  <?php echo end_item_iconItem(); ?>
+
+
+
+  <ul>
+
+<?php echo end_sec_regularContent(); ?>
 
 
 
