@@ -33,40 +33,34 @@ $page_classes = "";
 <?php echo end_sec_toplinksNav(); ?>
 
 
-<?php echo sec_hasColumns(
-    null,
-    2,
-    null,
-    'animate-when-content-appears animation-slide-up',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
+<?php echo sec_fullBleedImageColumn(
+    'Information for First-Year Applicants',
+    $admission_img_path.'apply/international/0074_15_08_KR_0088.jpg',
+    'image-is-first theme-cream',
+    ''
 ); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p class="intro-text mb-5">Everything you need to know to apply.</p>
 
-<?php echo item_col('equal'); ?>
-<h2 class="display-3">Information for First-Year Applicants</h2>
-<p>Everything you need to know to apply </p>
+    <?php echo deadlines('Early Decision Application deadlines'); ?>
 
-<?php echo deadlines('Early Decision Application deadlines'); ?>
+    <?php echo deadlines_item('Early Decision Round 1', 'November 15'); ?>
+    <?php echo deadlines_item('Early Decision Round 2', 'January 1'); ?>
 
-  <?php echo deadlines_item('Early Decision Round 1', 'November 15'); ?>
-  <?php echo deadlines_item('Early Decision Round 2', 'January 1'); ?>
+    <?php echo end_deadlines(); ?>
 
-<?php echo end_deadlines(); ?>
 
-<?php echo end_item_col(); ?>
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php echo item_col('equal'); ?>
-<img src="/admission/assets/images/placeholder.jpg" />
-<?php echo end_item_col(); ?>
 
-<?php echo end_sec_hasColumns(); ?>
 
 <?php echo sec_regularContent(
-    null,
-    'theme-charcoal',
+    'First-Year Application Requirements',
+    'theme-charcoal mw-inner-1 has-bg quad-pattern bg-dark',
     'checklist'
 ); ?>
-<h3 class="display-4">First-Year Application Requirements</h3>
-<ul>
+<ul class="style-checklist">
     <li>Common Application or Coalition application</li>
     <li>$65 application fee or fee waiver
     <li>Early Decision Agreement (Early Decision Applicants ONLY)
@@ -84,29 +78,71 @@ $page_classes = "";
 
 
 <?php echo sec_regularContent(
-    null,
+    'Optional Application Materials',
     '',
     ''
 ); ?>
-<h3 class="display-4">Optional Application Materials</h3>
 <p>The following are not required for your application. for more information click the links below</p>
 
-<h3>Standardized Tests</h3>
+<?php echo item_iconItem(
+    'Standardized Tests',
+    'clipboard',
+    'icon-on-left theme-gray-border'
+); ?>
 <p>Vassar does not require students to submit the SAT or ACT </p>
-<a class="fix btn btn-text" href="#">Read Vassar's standardized test policy</a>
 
-<h3>Your Space</h3>
+
+<?php echo cta_link(
+    '',
+    'Read Vassar’s standardized test policy'
+); ?>
+
+
+<?php echo end_item_iconItem(); ?>
+
+
+<?php echo item_iconItem(
+    'Your Space',
+    'face-smile',
+    'icon-on-left theme-gray-border'
+); ?>
 <p>This is a chance for you to show the admission committee something else about yourself. It is your space, so if you choose to complete it, send something that is a reflection of you! Past applicants have submitted poetry, craft projects, photography, short stories, videos, and more.</p>
+<?php echo end_item_iconItem(); ?>
 
-<h3>Interviews</h3>
+
+<?php echo item_iconItem(
+    'Interviews',
+    'people-arrows-left-right',
+    'icon-on-left theme-gray-border'
+); ?>
 <p>Though not required, you may want to connect with a Vassar student or alum to learn more. These interviews are informational, not evaluative.</p>
-<a class="btn btn-text" href="/admission/apply/first-year-applicants/interviews">Learn more about interviews at Vassar</a>
 
-<h3>Music, Art, and Dance Portfolios</h3>
+<?php echo cta_link(
+    '/admission/apply/first-year-applicants/interviews',
+    'Learn more about interviews at Vassar'
+); ?>
+
+
+<?php echo end_item_iconItem(); ?>
+
+<?php echo item_iconItem(
+    'Music, Art, and Dance Portfolios',
+    'star',
+    'icon-on-left theme-gray-border'
+); ?>
 <p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance</p>
-<a class="btn btn-text" href="/admission/apply/first-year-applicants/arts">Learn more</a>
+
+<?php echo cta_link(
+    '/admission/apply/first-year-applicants/arts',
+    'Learn more about arts portfolio submissions'
+); ?>
+
+
+<?php echo end_item_iconItem(); ?>
 
 <?php echo end_sec_regularContent(); ?>
+
+
 
 <!-- Related Topics -->
 <?php echo relatedTopics(); ?>

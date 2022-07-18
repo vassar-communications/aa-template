@@ -1,6 +1,6 @@
 <?php echo item_cardWithText(
     'First-Year Applicants',
-    '/admission/apply/requirements/',
+    '/admission/apply/first-year-applicants/',
     ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
