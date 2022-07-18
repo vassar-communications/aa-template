@@ -13,13 +13,21 @@ global $project_paths;
   $heading_level = get_extras_value('hlevel', $extras);
   if (!$heading_level) $heading_level = 3;
 
+
+  if($title) {
+    $title_markup = <<<TMP
+    <h$heading_level class="icon-item__title">$title</h$heading_level>
+TMP;
+  }
+  else $title_markup = null;
+
 return <<<TMP
 <div class="icon-item $classes" $css>
   <div class="icon-container">
     <i class="fa fa-$icon the-icon"></i>
   </div>
   <div class="icon-item__text">
-    <h$heading_level class="icon-item__title">$title</h$heading_level>
+  $title_markup
 TMP;
 }
 
