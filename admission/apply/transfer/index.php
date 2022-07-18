@@ -60,7 +60,7 @@ $page_classes = "";
 
 <?php echo sec_regularContent(
     'Transfer Application Checklist',
-    'mw-inner-1 theme-charcoal',
+    'mw-inner-1 theme-dark-burgundy has-bg quad-pattern',
     'checklist'
 ); ?>
 
@@ -79,19 +79,48 @@ $page_classes = "";
 
 <?php echo sec_regularContent(
     null,
-    null,
+    'theme-extralightgray',
     ''
 ); ?>
-<h3>Transfer Eligibility</h3>
+
+
+<?php echo item_iconItem(
+    'Transfer Eligibility',
+    'image',
+    'icon-on-left theme-white-border'
+); ?>
 <p>Students may apply for transfer as early as the first term of the first year of college. Upon enrolling to Vassar as a transfer, you must complete the equivalent of at least four full-time semesters to graduate.</p>
-<hr/>
-<h3>Transfer Decision Notification</h3>
+
+<?php echo end_item_iconItem(); ?>
+
+
+
+<?php echo item_iconItem(
+    'Transfer Decision Notification',
+    'image',
+    'icon-on-left theme-white-border'
+); ?>
 <p>Transfer applicants for the spring semester are notified of their admission decision in mid-December; applicants for the fall are notified in early May. Admitted transfer applicants are expected to respond and enroll within two weeks of notification.</p>
-<hr/>
-<h3>Transfer Financial Aid</h3>
+
+<?php echo end_item_iconItem(); ?>
+
+
+<?php echo item_iconItem(
+    'Transfer Financial Aid',
+    'image',
+    'icon-on-left theme-white-border'
+); ?>
 <p>Although Vassar meets the full demonstrated need of all admitted students who apply for financial aid at the time of their admission application, limited financial resources are designated for transfer students, and the applicant pool is highly competitive. International transfer students are not eligible for financial aid.</p>
-<hr/>
-<h3>Transfer of Credit</h3>
+
+<?php echo end_item_iconItem(); ?>
+
+
+
+<?php echo item_iconItem(
+    'Transfer of Credit',
+    'image',
+    'icon-on-left theme-white-border'
+); ?>
 <p>Vassar offers transfer credit for courses in the liberal arts and sciences which are the approximate equivalent in content, methodology, and rigor to courses listed in the <a href="https://catalogue.vassar.edu/">Vassar Catalog</a></p>
 <p>We do not award transfer credit for:</p>
 <ul>
@@ -101,10 +130,17 @@ $page_classes = "";
     <li>Distance learning credits</li>
 </ul>
 
-<hr/>
+<?php echo end_item_iconItem(); ?>
 
-<h3>Exploring Transfer</h3>
+
+<?php echo item_iconItem(
+    'Exploring Transfer',
+    'image',
+    'icon-on-left theme-white-border'
+); ?>
 <p>For more than 35 years, <a href="https://offices.vassar.edu/exploring-transfer/">Exploring Transfer</a> has brought students from select community colleges to Vassar’s campus for an intensive five-week period during the summer. </p>
+<?php echo end_item_iconItem(); ?>
+
 <?php echo end_sec_regularContent(); ?>
 
 <!-- Related Topics -->

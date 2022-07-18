@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/transfer/0039-21-05-kr-spring-vassar-0034-crop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/transfer/0039-21-05-kr-spring-vassar-0034.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/transfer/0198-19-11-kwe-library-vassar-vb-5289-crop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/transfer/0198-19-11-kwe-library-vassar-vb-5289.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/veterans/0067_16_05_JA-posse-487.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/veterans/0099_15_09_KR_0039.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/veterans/commencement-posse-1905-ssh-002-crop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/hudson/0148-18-11-kr-walkway-vassar-5527.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/virtual/Vassar_Campus_20190416_KR_6122.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/virtual/tour-video-still.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admission/apply/transfer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/transfer/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/veterans/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/veterans/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/explore/explore-hudson-valley.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/explore/explore-hudson-valley.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/on-demand/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/on-demand/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/virtual-programs/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/virtual-programs/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/community/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_modules/_checklist-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_modules/_checklist-style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
