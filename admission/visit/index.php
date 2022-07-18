@@ -53,8 +53,8 @@ $page_classes = "visithome";
 
 
 <?php echo masthead_interiorPage(
-    'This text must change',
-    'This is only placeholder text. We need to get an intro sentence for this section.',
+    'Visiting Campus',
+    'All Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life.',
     '/assets/images/placeholders/main-placeholder.jpg');
 ?>
 
@@ -103,7 +103,7 @@ $page_classes = "visithome";
 <?php echo sec_hasColumns(
     'Need more information about visiting?',
     2,
-    'Follow the links below or email admission@vassar.edu, or ask a current Vassar student at askastudent@vassar.edu!',
+    '<p>Follow the links below or email <a href="mailto:admission@vassar.edu">admission@vassar.edu</a>, or ask a current Vassar student at <a href="mailto:askastudent@vassar.edu">askastudent@vassar.edu</a>!</p>',
     'theme-burgundy animate-when-content-appears animation-slide-up',
     ''
 ); ?>
@@ -114,7 +114,7 @@ $page_classes = "visithome";
     'Group Visit Info',
     '/admission/visit/group-visits/',
     ['url' => $admission_img_path.'visit/0055_15_04_KR_0110.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
 <p>Want to schedule a group visit? Interactive virtual visits can be scheduled.</p>
@@ -131,7 +131,7 @@ $page_classes = "visithome";
     'Register',
     'https://apply.vassar.edu/portal/campusvisitcalendar',
     ['url' => $admission_img_path.'visit/Vassar_Campus_20190423_KR_9440.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
 <p>Register for all on-campus tours and virtual events</p>

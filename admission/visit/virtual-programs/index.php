@@ -37,9 +37,8 @@ $page_classes = "";
 <?php echo masthead_interiorPage(
     'Explore our online resources',
     'There are any number of good reasons why a student might not be able to travel to Vassar, but that shouldn’t stop anyone from experiencing campus. That’s why we want virtual touring to be as easy, free, complete and immersive as possible.',
-    '/assets/images/placeholders/main-placeholder.jpg');
-?>
-
+    $admission_img_path.'visit/virtual/Vassar_Campus_20190416_KR_6122.jpg'
+);?>
 
 <?php echo sec_fullBleedImageColumn(
     null,
@@ -62,7 +61,7 @@ $page_classes = "";
     null,
     2,
     null,
-    'theme-charcoal bg-dark has-bg quad-pattern',
+    'theme-dark-burgundy',
     'd-flex align-items-center'
 ); ?>
 
@@ -75,7 +74,7 @@ $page_classes = "";
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
-<img src="/assets/images/placeholders/main-placeholder.jpg" />
+<img src="/admission/assets/images/visit/virtual/tour-video-still.jpg" alt="changealttext" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
@@ -144,14 +143,14 @@ $page_classes = "";
 <?php echo sec_fullBleedImageColumn(
     null,
     $admission_img_path.'visit/virtual/Urban_Center_Black_Studies_SPC.jpg',
-    'theme-charcoal bg-dark',
+    'theme-charcoal bg-dark quad-pattern has-bg',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 <h2 class="display-2 mb-5 border-animate">Buildings and Belonging</h2>
 <p>Buildings and Belonging is a digital tool and self-guided campus tour that celebrates, honors, and remembers the contributions of African-American community members whose presence and contributions have shaped Vassar.</p>
 
-<a class="placeholder px-0 btn btn-link arrow" href="#">Buildings & Belongings Map</a>
+<a class="btn btn-link arrow" href="https://www.vassar.edu/buildings-and-belonging">Buildings & Belongings Map</a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

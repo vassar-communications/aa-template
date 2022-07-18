@@ -57,17 +57,10 @@ $page_classes = "";
 
 
 
-<?php echo sec_wideContent(
-    'Voices of Vassar',
-    'Hear directly from our students about some of their favorite Vassar topics! These student-designed presentations will give you the chance to learn about life at Vassar directly from the source.',
-    'theme-cream',
-    'mw-4'
-); ?>
-
 <?php echo sec_hasColumns(
-    null,
+    'Voices of Vassar',
     3,
-    null,
+    '<p>Hear directly from our students about some of their favorite Vassar topics! These student-designed presentations will give you the chance to learn about life at Vassar directly from the source.</p>',
     '',
     ''
 ); ?>
@@ -80,7 +73,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -93,7 +86,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -106,27 +99,19 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
-<?php echo end_sec_wideContent(); ?>
 
-
-<?php echo sec_wideContent(
-    'Weekly Features',
-    'Hear directly from our students about some of their favorite Vassar topics! These student-designed presentations will give you the chance to learn about life at Vassar directly from the source.',
-    '',
-    'mw-4'
-); ?>
 
 <?php echo sec_hasColumns(
-    null,
+    'Weekly Features',
     3,
-    null,
-    '',
+    '<p>Hear directly from our students about some of their favorite Vassar topics! These student-designed presentations will give you the chance to learn about life at Vassar directly from the source.</p>',
+    'theme-dark-burgundy quad-pattern has-bg',
     ''
 ); ?>
 
@@ -138,7 +123,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -151,7 +136,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -164,7 +149,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -177,28 +162,20 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
 
 <?php echo end_sec_hasColumns(); ?>
 
-<?php echo end_sec_wideContent(); ?>
 
 
-
-<?php echo sec_wideContent(
-    'Student Performances',
-    'View recent live performances from Vassar students.',
-    'theme-cream',
-    'mw-4'
-); ?>
 
 <?php echo sec_hasColumns(
-    null,
+    'Student Performances',
     3,
-    null,
+    '<p>View recent live performances from Vassar students.</p>',
     '',
     ''
 ); ?>
@@ -211,7 +188,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -224,7 +201,7 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
@@ -237,17 +214,15 @@ $page_classes = "";
     '',
     ['hlevel' => 4]
 ); ?>
-<div class="px-0 btn btn-link arrow"><i class="mx-0 circle fa-solid fa-play"></i></div>
+<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
 <?php echo end_item_cardWithText(); ?>
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
-<?php echo end_sec_wideContent(); ?>
-
 <?php echo sec_regularContent(
     'Don’t Miss a Future Event!',
-    'theme-dark-burgundy',
+    'theme-charcoal has-bg quad-pattern',
     'text-center',
     ''
 ); ?>

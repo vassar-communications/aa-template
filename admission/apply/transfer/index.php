@@ -21,8 +21,8 @@ $page_classes = "";
 <?php echo hamburger_navigation(); ?>
 
 
+<?php echo page_partialmasthead($admission_img_path.'apply/transfer/0039-21-05-kr-spring-vassar-0034-crop.jpg'); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
 
 <?php echo breadcrumbNav('theme-verylightgray'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>
@@ -36,27 +36,36 @@ $page_classes = "";
 <?php /*  PAGE CONTENT === */ ?>
 
 
+
+
 <?php echo sec_fullBleedImageColumn(
-    null,
-    '/assets/images/placeholders/main-placeholder.jpg',
+    'Information for Transfer Applicants',
+    $admission_img_path.'apply/transfer/0198-19-11-kwe-library-vassar-vb-5289-crop.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h3 class="display-4">Information for Transfer Applicants</h3>
-    <p>Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. Transfer admission is need-aware and spots are limited.</p>
+    <p class="mb-5">Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. Transfer admission is need-aware and spots are limited.</p>
+
+    <?php echo deadlines('Early Decision Application deadlines'); ?>
+
+    <?php echo deadlines_item('Early Decision Round 1', 'November 15'); ?>
+    <?php echo deadlines_item('Early Decision Round 2', 'January 1'); ?>
+
+    <?php echo end_deadlines(); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_regularContent(
-    null,
-    'theme-charcoal',
-    ''
+    'Transfer Application Checklist',
+    'mw-inner-1 theme-charcoal',
+    'checklist'
 ); ?>
 
-<h2>Transfer Application Checklist</h2>
-<ul>
+
+<ul class="style-checklist theme-cream">
     <li><a href="https://www.commonapp.org/">Common Application</a> and $65 application fee or fee waiver request</li>
     <li>Transcripts from all high schools attended</li>
     <li>Transcripts from all colleges attended</li>
@@ -67,6 +76,7 @@ $page_classes = "";
     <li> <a class="fix" href="#">TOEFL/IELTS/DET</a>: Required if English is neither your first language nor the primary language of instruction for the last three years of your education</li>
 </ul>
 <?php echo end_sec_regularContent(); ?>
+
 <?php echo sec_regularContent(
     null,
     null,

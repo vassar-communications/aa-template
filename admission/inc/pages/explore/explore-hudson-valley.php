@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Explore Poughkeepsie & The Hudson Valley',
     '/admission/explore/poughkeepsie-hudson-valley/',
-    ['url' => $admission_img_path.'explore/hudson/Mid-Huson_Bridge_10_JGa.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'explore/hudson/0148-18-11-kr-walkway-vassar-5527.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

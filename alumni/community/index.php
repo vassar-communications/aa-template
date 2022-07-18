@@ -55,30 +55,13 @@ $page_classes = "";
 
 
 
-<!-- visit -->
+<?php echo masthead_interiorPage(
+    'Be Active. Grow.',
+    'Connect with fellow community members, participate in events, sign-up for mentoring/networking opportunities, and learn about all the ways to give back to Vassar.',
+    '/assets/images/placeholders/main-placeholder.jpg');
+?>
 
 
-<?php echo sec_hasColumns(
-    null,
-    2,
-    null,
-    '',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
-); ?>
-
-<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
-
-<h2 class="display-2">Be Active. Grow.</h2>
-<p class="pb-3">Connect with fellow community members, participate in events, sign-up for mentoring/networking opportunities, and learn about all the ways to give back to Vassar.</p>
-<a class="btn btn-primary">Alumni Login <i class="fa-solid fa-arrow-right"></i></a>
-
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
-<img src="/assets/images/placeholders/main-placeholder.jpg" />
-<?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
 
 
 <!-- end visit -->

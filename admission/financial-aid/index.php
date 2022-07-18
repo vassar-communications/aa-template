@@ -96,7 +96,7 @@ $page_classes = "";
     <p class="intro-text">Learn more about the steps required to apply for need-based financial aid.</p>
 
     <?php echo cta_link(
-      '/admission/financial-aid/apply',
+      '/admission/financial-aid/apply/',
       'Learn more about applying for aid'
     ); ?>
 
@@ -114,7 +114,7 @@ $page_classes = "";
     <p class="intro-text">Financial aid awards typically include grants and scholarships, loans, and campus jobs. </p>
 
     <?php echo cta_link(
-      'admission/financial-aid/tuition/',
+      '/admission/financial-aid/types-of-aid/',
       'Learn more about types of aid'
     ); ?>
 
@@ -132,7 +132,7 @@ $page_classes = "";
     <p class="intro-text">View a breakdown of Vassar’s tuition, housing and dining costs, and other fees.</p>
 
     <?php echo cta_link(
-      'admission/financial-aid/tuition/',
+      '/admission/financial-aid/tuition/',
       'Learn more about tuition & fees'
     ); ?>
 
@@ -151,7 +151,7 @@ $page_classes = "";
 <h2>Aid Calculators</h2>
 <p>Calculate your cost</p>
 <p>
-    <a href="/admission/financial-aid/aid-calculators" class="px-0 btn btn-link arrow">Go to Calculators</a>
+    <a href="/admission/financial-aid/aid-calculators/" class="px-0 btn btn-link arrow">Go to Calculators</a>
 </p>
 <?php echo end_sec_wideContent(); ?>
 

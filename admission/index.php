@@ -24,8 +24,8 @@ $page_classes = "";
 
 <?php echo sec_siteHeader_video(); ?>
 
-<a href="" class="mx-2 btn btn-lg btn-primary arrow">Apply</a>
-<a href="" class="mx-2 btn btn-lg btn-primary arrow">Request Info</a>
+<a href="/admission/apply/" class="mx-2 btn btn-lg btn-primary arrow">Apply</a>
+<a href="https://apply.vassar.edu/register/requestinfo" class="mx-2 btn btn-lg btn-primary arrow">Request Info</a>
 
 <?php echo end_sec_siteHeader_video(); ?>
 
@@ -73,9 +73,9 @@ $page_classes = "";
 
     <?php echo item_cardWithText(
         'Applying to Vassar',
-        '#',
+        '/admission/apply/',
         ['url' => '/mockups/admission-home/apply/Untitled-3.jpg', 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark'
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
     <p>What’s required / How to apply / Important Deadlines / Tuition</p>
@@ -89,9 +89,9 @@ $page_classes = "";
 
     <?php echo item_cardWithText(
         'Financial Aid Information',
-        '#',
+        '/admission/financial-aid/',
         ['url' => '/mockups/admission-home/apply/Untitled-2.jpg', 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark'
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
 
     ); ?>
 
@@ -104,9 +104,9 @@ $page_classes = "";
 
     <?php echo item_cardWithText(
         'Request Information',
-        '',
+        'https://apply.vassar.edu/register/requestinfo',
         ['url' => '/mockups/admission-home/apply/Untitled-1.jpg', 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark'
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
     <p>Get Vassar’s newsletter and other information about Vassar.</p>
