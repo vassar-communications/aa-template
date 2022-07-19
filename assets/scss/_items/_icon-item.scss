@@ -1,4 +1,6 @@
-
+.icon-items-list {
+  margin-bottom: 1.4rem;
+}
 .icon-item {
   padding: 1.4rem 0;
 
@@ -9,7 +11,7 @@
   .icon-item__text {
       width: 100%;
   }
-  
+
   p {
     &:only-child {
       margin: 0;

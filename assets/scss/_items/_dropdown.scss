@@ -1,3 +1,11 @@
+// Currently, we have two kinds of dropdowns: the details/summary-based
+// ones, which are for the feature content on Academics, and the standard
+// Bootstrap ones. I think we need those two styles, since they work for
+// the content they have, but dropdowns should use details/summary, since
+// it's simpler, more compatible, and won't break if we upgrade Bootstrap.
+
+
+
 // https://css-tricks.com/how-to-animate-the-details-element-using-waapi/
 
 .item-dropdown, details {
@@ -76,7 +84,8 @@ details[open] summary span:before {
 button.accordion-button {
   border-bottom: 1px solid transparent;
 }
-button.accordion-button:hover {
+button.accordion-button:hover,
+button.accordion-button:focus {
   background: $gray-300;
   border-bottom: 1px solid $red;
   color: $burgundy;

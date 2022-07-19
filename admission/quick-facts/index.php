@@ -97,6 +97,7 @@ $page_classes = "";
     ''
 ); ?>
 
+<div class="icon-items-list">
   <?php echo item_iconItem(
     null,
     'list-check',
@@ -120,6 +121,7 @@ $page_classes = "";
   ); ?>
       <p>Students will be able to check their admission decision online on the same website you used to check the status of your application. Vassar does not release admission decisions via telephone.</p>
   <?php echo end_item_iconItem(); ?>
+</div>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -230,7 +232,7 @@ $page_classes = "";
 
   <p class="intro-text">Vassar will not require students to submit the SAT or ACT for the 2020–2021, 2021–2022, and 2022–2023 admission cycles, as part of a new pilot policy. First-year applicants may choose whether or not to submit their SAT and/or ACT test scores as a reflection of their academic abilities.</p>
 
-
+<div class="icon-items-list">
   <?php echo item_iconItem(
     null,
     'icons',
@@ -254,6 +256,7 @@ $page_classes = "";
   ); ?>
       <p>To submit your required standardized test scores to Vassar, you may request official scores from the College Board and/or ACT. In addition, Vassar will accept complete test scores reported on an official high school transcript, or copies of official SAT/ACT score reports validated by a school counselor.</p>
   <?php echo end_item_iconItem(); ?>
+</div>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -305,6 +308,7 @@ $satact_info_card = info_card('Important', '', 'alert') . '<p>Applicants are adv
 
   <p class="intro-text text-center">The typical candidate has taken a very challenging curriculum at their high school, taking full advantage of all that their school has to offer.</p>
 
+<div class="icon-items-list">
   <?php echo item_iconItem(
     null,
     'book',
@@ -328,6 +332,25 @@ $satact_info_card = info_card('Important', '', 'alert') . '<p>Applicants are adv
   ); ?>
       <p>The middle 50% of students admitted in 2019 scored between 1400–1520 on the SAT Evidence-Based Reading and Writing (EBRW) and Math Sections. The ACT middle 50% range was between 32–34. As noted above, we are not requiring SAT/ACT scores at this time.</p>
   <?php echo end_item_iconItem(); ?>
+</div>
+
+  <h3>Additional Information</h3>
+
+  <?php echo accordion('useful-info'); ?>
+    <?php echo accordion_item('useful-info', 'QuestBridge applicants'); ?>
+      <p>QuestBridge applicants are given all the same considerations as any first-year applicant to Vassar College. Additional information on QuestBridge at Vassar is available at our <a href="https://www.questbridge.org/vassar-college/faq">QuestBridge FAQ</a>.</p>
+    <?php echo end_accordion_item(); ?>
+
+    <?php echo accordion_item('useful-info', 'Taking a gap year'); ?>
+      <p>Admitted first-year students may defer entry to Vassar for one year with the permission of the Office of Admission. Students who are taking a gap year must confirm their intent to enroll at Vassar by submitting the <strong class="hey-im-broken">Candidate’s Reply Card and the required enrollment deposit by May 1 [link to CRC?]</strong>, and must complete the Deferral Request Form, available on the Admitted Students website, <strong>no later than May 22</strong>. If deferred status is approved, a formal letter stating the conditions under which the deferral has been granted will be sent to the student. Students who may be offered admission to Vassar from the wait list after May 1 are not eligible to request a deferral of admission.</p>
+    <?php echo end_accordion_item(); ?>
+
+    <?php echo accordion_item('useful-info', 'Undocumented students'); ?>
+      <p>Vassar College considers applications submitted by undocumented or DACA-mented students for the first-year class with the same consideration given to any other applicants when reviewing their application. Although funding is limited, the College is committed to meeting the full, demonstrated financial need of undocumented or DACA students admitted to Vassar following the same procedures Vassar uses to grant aid to accepted international students.</p>
+    <?php echo end_accordion_item(); ?>
+
+  <?php echo end_accordion(); ?>
+
 
 <?php echo end_sec_regularContent(); ?>
 

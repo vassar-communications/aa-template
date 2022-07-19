@@ -10610,7 +10610,8 @@ button.accordion-button {
   border-bottom: 1px solid transparent;
 }
 
-button.accordion-button:hover {
+button.accordion-button:hover,
+button.accordion-button:focus {
   background: #dee2e6;
   border-bottom: 1px solid #ED1C24;
   color: #951829;
@@ -10710,6 +10711,10 @@ details.open .dropdown__content .col-sm {
 }
 .btn-card .the-icon {
   font-size: 3rem;
+}
+
+.icon-items-list {
+  margin-bottom: 1.4rem;
 }
 
 .icon-item {
