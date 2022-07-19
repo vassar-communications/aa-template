@@ -145,6 +145,11 @@ p a, a.btn-link, nav a, li a, footer a  {
 .theme-extralightgray {
   --section-bg-color: #{$gray-300};
 
+  &.quad-pattern {
+    --bg-image: url('/assets/images/Vassar_QuadGrid-white.png');
+    --bg-image-size: 6rem;
+    --bg-image-opacity: 1;
+  }
 }
 
 
@@ -204,4 +209,23 @@ p a, a.btn-link, nav a, li a, footer a  {
 }
 .gold-icons {
   --icon-color: #{$gold};
+}
+
+
+
+.has-top-border {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    border-top: 1px solid var(--section-top-border, #fff);
+    width: 80%;
+    left: 10%;
+  }
+}
+
+.gray-top-border {
+  --section-top-border: #rgba(0,0,0,0.4);
 }

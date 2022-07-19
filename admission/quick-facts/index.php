@@ -127,7 +127,7 @@ $page_classes = "";
 
 <?php echo sec_regularContent(
     'What’s in Your Application',
-    '',
+    'has-bg quad-pattern theme-extralightgray',
     ''
 ); ?>
 
@@ -193,7 +193,7 @@ $page_classes = "";
     'Optional',
     '2',
     '',
-    'theme-burgundy has-bg quad-pattern mw-inner-3',
+    'theme-extralightgray has-top-border mw-inner-3',
     '',
     ['title_level' => '3']
 ); ?>
@@ -297,10 +297,39 @@ $satact_info_card = info_card('Important', '', 'alert') . '<p>Applicants are adv
 
 
 
+<?php echo sec_regularContent(
+    'Entrance Requirements',
+    'red-icons',
+    ''
+); ?>
 
+  <p class="intro-text text-center">The typical candidate has taken a very challenging curriculum at their high school, taking full advantage of all that their school has to offer.</p>
 
+  <?php echo item_iconItem(
+    null,
+    'book',
+    'icon-on-left'
+  ); ?>
+      <p>We recommend students take four years of the five main academic core subjects: English, Math, Foreign Language, Natural Science and History/Social Science. We seriously consider the quality of the senior year program.</p>
+  <?php echo end_item_iconItem(); ?>
 
+  <?php echo item_iconItem(
+    null,
+    'star',
+    'icon-on-left'
+  ); ?>
+      <p>Our typical applicants have an unweighted A- average, are within the top 10%–20% of their class, and have been actively involved in extracurricular activities and have shown leadership and other accomplishments.</p>
+  <?php echo end_item_iconItem(); ?>
 
+  <?php echo item_iconItem(
+    null,
+    'award',
+    'icon-on-left'
+  ); ?>
+      <p>The middle 50% of students admitted in 2019 scored between 1400–1520 on the SAT Evidence-Based Reading and Writing (EBRW) and Math Sections. The ACT middle 50% range was between 32–34. As noted above, we are not requiring SAT/ACT scores at this time.</p>
+  <?php echo end_item_iconItem(); ?>
+
+<?php echo end_sec_regularContent(); ?>
 
 
 
