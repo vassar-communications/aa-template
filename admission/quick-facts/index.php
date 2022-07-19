@@ -189,6 +189,39 @@ $page_classes = "";
 <?php echo end_sec_hasColumns(); ?>
 
 
+<?php echo sec_hasColumns(
+    'Optional',
+    '2',
+    '',
+    'theme-burgundy has-bg quad-pattern mw-inner-3',
+    '',
+    ['title_level' => '3']
+); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_iconItem(
+      'Interviews',
+      'people-arrows-left-right',
+      'icon-on-left'
+    ); ?>
+        <p>Off-campus interviews are available for first-year applicants. These are conducted all over the world by Vassar alumnae/i and are available from November through February. Interviews are not required, but they are a great way to learn about Vassar from a new perspective. Not having an interview will not affect your admission decision. Requests for alumnae/i interviews will not be processed until we receive your application.</p>
+    <?php echo end_item_iconItem(); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_iconItem(
+      'Your Space',
+      'child-reaching',
+      'icon-on-left'
+    ); ?>
+        <p>“Your Space” is an optional section of our application...so don’t stress over it! This is a chance for you to show the admission committee something else about yourself. There is no “right” answer on what you should submit. For example, in the past, applicants have sent poetry, cartoons, art projects, photography, collages, short stories, videos, and short films. It is your space, so if you choose to complete it, send something that is a reflection of you!</p>
+    <?php echo end_item_iconItem(); ?>
+  <?php echo end_item_col(); ?>
+
+
+<?php echo end_sec_hasColumns(); ?>
+
+
 <?php echo sec_regularContent(
     'SAT/ACT Scores',
     'gold-icons',
@@ -222,11 +255,52 @@ $page_classes = "";
       <p>To submit your required standardized test scores to Vassar, you may request official scores from the College Board and/or ACT. In addition, Vassar will accept complete test scores reported on an official high school transcript, or copies of official SAT/ACT score reports validated by a school counselor.</p>
   <?php echo end_item_iconItem(); ?>
 
-
-
-  <ul>
-
 <?php echo end_sec_regularContent(); ?>
+
+
+
+
+<?php
+
+$satact_info_card = info_card('Important', '', 'alert') . '<p>Applicants are advised not to wait until the last test date available for your application round. In the event of test date postponements due to weather, or delays in test score releases, Vassar tries to work with students but cannot guarantee scores will arrive in time for applicants to be considered in their chosen application round.</p>' . end_info_card();
+
+ echo sec_hasColumns(
+    'Deadlines',
+    '3',
+    '<p class="intro-text">The following indicates the latest date you can take standardized tests.</p>' . $satact_info_card,
+    'items-equal-height theme-cream',
+    'gap-3'
+); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo deadlines('Early Decision Round I'); ?>
+      <?php echo deadlines_item('SAT', 'November Sitting'); ?>
+      <?php echo deadlines_item('ACT', 'October Sitting'); ?>
+    <?php echo end_deadlines(); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo deadlines('Early Decision Round II'); ?>
+      <?php echo deadlines_item('SAT', 'December Sitting'); ?>
+      <?php echo deadlines_item('ACT', 'December Sitting'); ?>
+    <?php echo end_deadlines(); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo deadlines('Regular Decision'); ?>
+      <?php echo deadlines_item('SAT', 'December Sitting'); ?>
+      <?php echo deadlines_item('ACT', 'December Sitting'); ?>
+    <?php echo end_deadlines(); ?>
+  <?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
+
+
+
+
+
 
 
 

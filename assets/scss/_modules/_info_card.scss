@@ -7,6 +7,10 @@
 }
 .red-alert {
   border-left: 8px solid #d00;
+
+  .the-icon {
+    color: #e00;
+  }
 }
 .has-title {
   .alert-header {

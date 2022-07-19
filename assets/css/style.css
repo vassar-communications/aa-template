@@ -15001,6 +15001,9 @@ ul.style-checklist a {
 .red-alert {
   border-left: 8px solid #d00;
 }
+.red-alert .the-icon {
+  color: #e00;
+}
 
 .has-title .alert-header {
   display: flex;
