@@ -59,15 +59,17 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    $admission_img_path.'explore/muslim-prayer-space-1910-nz-201448.jpg',
+    '/assets/images/placeholders/main-placeholder.jpg',
     'image-is-first theme-dark-burgundy quad-pattern has-bg',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Diversity & Inclusion</h2>
-    <p>We celebrate our differences and our connections and provide resources that are committed to the healthy support of all members of our community.</p>
-
-    <a href="/admission/explore/diversity-inclusion/" class="px-0 btn btn-link arrow">Explore Diversity & Inclusion</a>
+    <h2 class="display-2 mb-5 border-animate placeholder">On Vassar’s 1,000-acre campus, students have access to:</h2>
+    <ul>
+        <li>Timeless architecture blended with cutting-edge facilities</li>
+        <li> Spaces that inspire bold thinking as well as an appreciation for natural beauty</li>
+        <li>A safe and inclusive environments where, no matter who you are, together we can become more</li>
+    </ul>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
