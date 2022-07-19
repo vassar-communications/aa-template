@@ -52,16 +52,49 @@ $page_classes = "";
 
 <?php echo masthead_interiorPage(
     'Where Horizons Meet',
-    'Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.',
+    'Vassar’s 1,000-acre campus blends timeless architecture blended with cutting-edge facilities',
     $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
 ?>
 
 
+<?php echo sec_fullBleedImageColumn(
+    null,
+    $admission_img_path.'explore/muslim-prayer-space-1910-nz-201448.jpg',
+    'image-is-first theme-dark-burgundy quad-pattern has-bg',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <h2 class="display-2 mb-5 border-animate">Diversity & Inclusion</h2>
+    <p>We celebrate our differences and our connections and provide resources that are committed to the healthy support of all members of our community.</p>
+
+    <a href="/admission/explore/diversity-inclusion/" class="px-0 btn btn-link arrow">Explore Diversity & Inclusion</a>
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+<?php echo sec_wideContent(
+    'Where Else But Vassar?',
+    '<p>Every Vassar student has their own cherished place on campus. Some of our favorite spaces include:</p>',
+    'theme-charcoal has-bg quad-pattern bg-dark',
+    ''
+); ?>
 
 
+<?php echo admissionExploreCampusCarousel(); ?>
+
+<?php echo end_sec_wideContent(); ?>
 
 
-<div class="buffer"></div>
+<?php echo sec_wordByWord_fixed(
+    null,
+    'animate-when-content-appears space-around-image',
+    null
+); ?>
+
+<p>Vassar’s harmony is the sound of every individual coming together. It’s more than symbolic that there are 65 Steinway pianos on campus.</p>
+<!--<div class="quote-attribution">Robyn Taylor, <em>101.5 WPDH</em></div>-->
+<?php echo end_sec_wordByWord_fixed(); ?>
+
+
 <?php /*  PAGE CONTENT === */ ?>
 
 <!-- RELATED TOPICS ===  -->
@@ -70,21 +103,13 @@ $page_classes = "";
     'More in This Section',
     3,
     null,
-    'related-topics-section theme-burgundy',
+    'relatedtopics theme-burgundy',
     ''
 ); ?>
 
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-academics.php');?>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-student-life.php');?>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-diversity.php');?>
-<?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 

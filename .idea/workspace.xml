@@ -2,13 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/admission/apply/international/index-cy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/international/0083_15_08_TT_5251.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/hudson/0072-21-06-kr-mohonk-vassar-0066.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/hudson/0073-21-06-kr-summer-vassar-0064.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/hudson/0195-16-10-kr-farm-market-vassar-0017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/hudson/Dia_Beacon_10_RBa1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/hudson/PM_20190530_Bocuse_311.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/hudson/Springwood_06_TT_09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/hudson/Storm_King_07_TT_166-crop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/calendar/calendar-college-events.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/calendar/calendar-generation-vassar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/calendar/calendar-on-demand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/calendar/calendar-reunions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/calendar/calendar-travel-program.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/calendar/calendar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/community/community-aavc-awards.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/community/community-aavc-board.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/community/community-aavc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/community/community-alumni-groups.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/community/community-alumni-news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/community/community-awards-past.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/community/community-notable-alumni.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/community/community.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/contact/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/give/give-hire-vassar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/give/give-mentor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/give/give-support-vassar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/give/give-volunteer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/give/give.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/resources/resources-alumni-house.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/inc/pages/resources/resources.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/sections/content_sections/carousel-admission-explore-campus.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/sections/content_sections/carousel-admission-explore-hudson.inc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/first-year-applicants/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/international/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/international/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/assets/images/apply/international/0074_15_08_KR_0088.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/admission/assets/images/apply/international/0074_15_08_KR_0088.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/apply/apply-first-year.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/apply/apply-first-year.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/academics/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/academics/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/campus/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/campus/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/diversity-inclusion/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/diversity-inclusion/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/outcomes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/outcomes/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/poughkeepsie-hudson-valley/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/poughkeepsie-hudson-valley/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/student-life/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/student-life/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/financial-aid/apply/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/apply/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sections/content_sections/alums-carousel.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/content_sections/carousel-alumni-home-spotlight.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sections/content_sections/inTheMedia-carousel.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/content_sections/carousel-alumni-home-media.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sections/content_sections/news-carousel.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/content_sections/carousel-admission-home-news.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

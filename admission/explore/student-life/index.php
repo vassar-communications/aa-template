@@ -59,9 +59,6 @@ $page_classes = "";
 
 
 
-
-
-<div class="buffer"></div>
 <?php /*  PAGE CONTENT === */ ?>
 
 
@@ -71,21 +68,13 @@ $page_classes = "";
     'More in This Section',
     3,
     null,
-    'related-topics-section theme-burgundy',
+    'relatedtopics theme-burgundy',
     ''
 ); ?>
 
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-academics.php');?>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-diversity.php');?>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-campus.php');?>
-<?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 

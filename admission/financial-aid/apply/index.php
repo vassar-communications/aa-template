@@ -121,8 +121,8 @@ $page_classes = "";
 
 <?php echo sec_regularContent(
     'Financial Aid Application Checklists',
-    'theme-charcoal',
     '',
+    'theme-charcoal',
     ''
 ); ?>
 

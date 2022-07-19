@@ -73,7 +73,7 @@ $page_classes = "";
 <?php echo sec_fullBleedImageColumn(
     null,
     $admission_img_path.'explore/Raymond-0204-19-11-kwe-raymond-parlor-vassar-vb-2823.jpg',
-    'theme-charcoal quad-pattern has-bg',
+    '',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -104,7 +104,7 @@ $page_classes = "";
 <?php echo sec_fullBleedImageColumn(
     null,
     $admission_img_path.'explore/0216-18-10-jsu-fall-drone-vassar-R07705.jpg',
-    'theme-charcoal quad-pattern has-bg',
+    '',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -136,7 +136,7 @@ $page_classes = "";
 <?php echo sec_fullBleedImageColumn(
     null,
     $admission_img_path.'explore/Poughkeepsie_night_DSC_8551.jpg',
-    'theme-charcoal quad-pattern has-bg',
+    '',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">

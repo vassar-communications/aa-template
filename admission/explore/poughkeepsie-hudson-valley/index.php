@@ -59,22 +59,17 @@ $page_classes = "";
 
 <?php /*  PAGE CONTENT === */ ?>
 
-
-
 <?php echo sec_wideContent(
-    'Placeholder',
-    '<p class="section-intro-text">placeholder title</p>',
-    'show-image-then-content',
-    'mw-4',
-    ['bg-image-url' => 'https://images.unsplash.com/photo-1652703747774-558a10faacc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80',
-        'bg-image-alt' => 'replacethisalttext',
-        'title_classes' => 'animate-when-content-appears animation-zoom-in'
-    ]
+    'Local [CHANGE] Features',
+    '<p>Vassar is [CHANGE THIS] surrounded by ...</p>',
+    'theme-charcoal has-bg quad-pattern bg-dark',
+    ''
 ); ?>
 
-[INSERT CAROUSEL]
-<?php echo end_sec_wideContent(); ?>
 
+<?php echo admissionExplorehudsonCarousel(); ?>
+
+<?php echo end_sec_wideContent(); ?>
 
 
 <?php echo sec_wordByWord_fixed(
@@ -94,21 +89,13 @@ $page_classes = "";
     'More in This Section',
     3,
     null,
-    'related-topics-section theme-burgundy',
+    'relatedtopics theme-burgundy',
     ''
 ); ?>
 
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-academics.php');?>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-student-life.php');?>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-campus.php');?>
-<?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
