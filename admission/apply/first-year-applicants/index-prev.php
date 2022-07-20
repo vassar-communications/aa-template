@@ -22,8 +22,7 @@ $page_classes = "";
 
 
 
-<?php echo page_partialmasthead($placeholder_img_banner); ?>
-
+<?php echo page_textmasthead('theme-dark-burgundy'); ?>
 <?php echo breadcrumbNav('theme-verylightgray'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>
 <?php echo end_sec_breadcrumbNav(); ?>
@@ -34,21 +33,19 @@ $page_classes = "";
 <?php echo end_sec_toplinksNav(); ?>
 
 
-
-
 <?php echo sec_fullBleedImageColumn(
     'Information for First-Year Applicants',
-    $placeholder_img_square,
+    $admission_img_path.'apply/0007_16_02_KR_0083.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text mb-5">Everything you need to know to apply.</p>
+    <p class="mb-5">Everything you need to know to apply.</p>
 
     <?php echo deadlines('Early Decision Application deadlines'); ?>
 
-      <?php echo deadlines_item('Early Decision Round 1', 'November 15'); ?>
-      <?php echo deadlines_item('Early Decision Round 2', 'January 1'); ?>
+    <?php echo deadlines_item('Early Decision Round 1', 'November 15'); ?>
+    <?php echo deadlines_item('Early Decision Round 2', 'January 1'); ?>
 
     <?php echo end_deadlines(); ?>
 
@@ -57,15 +54,16 @@ $page_classes = "";
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+
 <?php echo sec_regularContent(
     'First-Year Application Requirements',
-    'mw-inner-1',
+    'theme-charcoal mw-inner-1 has-bg quad-pattern bg-dark',
     'checklist'
 ); ?>
-<ul class="style-checklist theme-cream">
-    <li>Common Application or Coalition application</li>
+<ul class="style-checklist">
+    <li><a href="https://apply.commonapp.org/Login?ma=278">Common Application</a> or <a href="https://www.mycoalition.org/public/info/vassar">Coalition application</a></li>
     <li>$65 application fee or fee waiver
-    <li>Early Decision Agreement (Early Decision Applicants ONLY)
+    <li><a href="https://www.vassar.edu/admissions/apply/#early-decision">Early Decision Agreement</a> (Early Decision Applicants ONLY)
     <li>School Report and High School Transcript: To be completed and sent by your school counselor. Available for online completion or download through Common Application.
     <li>Teacher Evaluations
     <li>Mid-year Grade Report Vassar requests each applicant’s most recent grade report to be sent by the school counselor.
@@ -81,63 +79,63 @@ $page_classes = "";
 
 <?php echo sec_regularContent(
     'Optional Application Materials',
-    'theme-extralightgray',
+    '',
     ''
 ); ?>
 <p>The following are not required for your application. for more information click the links below</p>
 
 <?php echo item_iconItem(
-  'Standardized Tests',
-  'clipboard',
-  'icon-on-left theme-white-border'
+    'Standardized Tests',
+    'clipboard',
+    'icon-on-left theme-gray-border'
 ); ?>
-  <p>Vassar does not require students to submit the SAT or ACT </p>
+<p>Vassar does not require students to submit the SAT or ACT </p>
 
 
-  <?php echo cta_link(
+<?php echo cta_link(
     '',
     'Read Vassar’s standardized test policy'
-  ); ?>
+); ?>
 
 
 <?php echo end_item_iconItem(); ?>
 
 
 <?php echo item_iconItem(
-  'Your Space',
-  'face-smile',
-  'icon-on-left theme-white-border'
+    'Your Space',
+    'face-smile',
+    'icon-on-left theme-gray-border'
 ); ?>
-  <p>This is a chance for you to show the admission committee something else about yourself. It is your space, so if you choose to complete it, send something that is a reflection of you! Past applicants have submitted poetry, craft projects, photography, short stories, videos, and more.</p>
+<p>This is a chance for you to show the admission committee something else about yourself. It is your space, so if you choose to complete it, send something that is a reflection of you! Past applicants have submitted poetry, craft projects, photography, short stories, videos, and more.</p>
 <?php echo end_item_iconItem(); ?>
 
 
 <?php echo item_iconItem(
-  'Interviews',
-  'people-arrows-left-right',
-  'icon-on-left theme-white-border'
+    'Interviews',
+    'people-arrows-left-right',
+    'icon-on-left theme-gray-border'
 ); ?>
-  <p>Though not required, you may want to connect with a Vassar student or alum to learn more. These interviews are informational, not evaluative.</p>
+<p>Though not required, you may want to connect with a Vassar student or alum to learn more. These interviews are informational, not evaluative.</p>
 
-  <?php echo cta_link(
-      '/admission/apply/first-year-applicants/interviews',
-      'Learn more about interviews at Vassar'
-  ); ?>
+<?php echo cta_link(
+    '/admission/apply/first-year-applicants/interviews',
+    'Learn more about interviews at Vassar'
+); ?>
 
 
 <?php echo end_item_iconItem(); ?>
 
 <?php echo item_iconItem(
-  'Music, Art, and Dance Portfolios',
-  'star',
-  'icon-on-left theme-white-border'
+    'Music, Art, and Dance Portfolios',
+    'star',
+    'icon-on-left theme-gray-border'
 ); ?>
-  <p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance</p>
+<p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance</p>
 
-  <?php echo cta_link(
+<?php echo cta_link(
     '/admission/apply/first-year-applicants/arts',
-      'Learn more about arts portfolio submissions'
-  ); ?>
+    'Learn more about arts portfolio submissions'
+); ?>
 
 
 <?php echo end_item_iconItem(); ?>
