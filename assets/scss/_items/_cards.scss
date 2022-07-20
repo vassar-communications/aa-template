@@ -76,7 +76,7 @@
 }
 
 .card--twocols {
-  @include break(md) {
+  @include break(lg) {
     display: flex;
     flex-direction: row;
   }
@@ -94,7 +94,7 @@
   img {
     object-fit: cover;
 
-    @include break(md) {
+    @include break(lg) {
       width: var(--card-image-width, 50%);
     }
   }

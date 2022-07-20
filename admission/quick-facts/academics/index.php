@@ -44,7 +44,7 @@ $page_classes = "";
     'Academics at Vassar',
     '2',
     null,
-    'items-equal-height mw-inner-1 theme-cream',
+    'items-equal-height mw-inner-1 theme-extralightgray',
     'gap-3'
 ); ?>
 
@@ -68,21 +68,20 @@ $page_classes = "";
 
 
 <?php echo sec_regularContent(
-    'There’s a major for that',
-    'animate-when-content-appears red-icons mw-inner-4 theme-charcoal has-bg',
+    'Most popular majors',
+    'animate-when-content-appears gold-icons mw-inner-4 theme-charcoal has-bg section-bg-image-top',
     '',
     ['title_level' => '3',
-    'bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/Vassar_Campus_6_26_17_0078.jpg',
+    'bg-image-url' => $admission_img_path.'quick-facts/Class-room-HW_26A9303.jpg',
     'bg-image-alt' => 'replacealttxt']
 ); ?>
-<p class="tagline text-center mb-2">Most popular majors</p>
 
   <?php echo animated_statement('English · Political Science · Psychological Science · Economics · Biology', 'text-center'); ?>
 
-  <div class="icon-items-list mw-1 mt-4 mx-auto">
+  <div class="icon-items-list mw-1 mt-5 mx-auto">
     <?php echo item_iconItem(
       null,
-      'list-check',
+      'graduation-cap',
       'icon-on-left'
     ); ?>
         <p>Vassar does not have a core curriculum, so students are able to complete a double major within four years.</p>
@@ -90,7 +89,7 @@ $page_classes = "";
 
     <?php echo item_iconItem(
       null,
-      'list-check',
+      'screwdriver-wrench',
       'icon-on-left'
     ); ?>
         <p>Some students create their own majors, combining disciplines of particular personal interest. A large number of our students complete a major and a correlate sequence (minor), sometimes in academically disparate fields.</p>
@@ -99,7 +98,8 @@ $page_classes = "";
 
   <?php echo cta_link(
     '/admission/explore/academics/',
-    'See all our majors and minors'
+    'See all our majors and minors',
+    'd-block mt-4 mx-auto'
   ); ?>
 
 <?php echo end_sec_regularContent(); ?>
@@ -152,7 +152,7 @@ $page_classes = "";
         'Internships',
         '[NEED LINK]',
         ['url' => $placeholder_img_vertical, 'alt' => 'replacealttext' ],
-        'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
+        'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
     ); ?>
         <p>Internship opportunities—what we call Community-Engaged Learning—are available in Poughkeepsie, Albany, and New York City. Nearly 70% of Vassar students participate in community-engaged learning for credit at some point during their Vassar careers.</p>
     <?php echo end_item_cardWithText('Learn more'); ?>
@@ -163,7 +163,7 @@ $page_classes = "";
         'Study Abroad',
         '[NEED LINK]',
         ['url' => $placeholder_img_vertical, 'alt' => 'replacealttext' ],
-        'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
+        'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
     ); ?>
         <p>Vassar students (usually juniors) may study abroad for one semester or for a full academic year. About 45% of our students participate in our study-away programs prior to graduation.</p>
     <?php echo end_item_cardWithText('Learn more about studying away '); ?>
@@ -171,14 +171,12 @@ $page_classes = "";
 
 <?php echo end_sec_hasColumns(); ?>
 
-
-
 <?php echo sec_hasColumns(
   'After Vassar',
   '3',
   '<p class="intro-text">Vassar opens doors. Vassar students have a high rate of acceptance into both law and medical school. Two-thirds of Vassar students ultimately pursue advanced studies.</p>',
-  'items-equal-height mw-inner-3 theme-cream',
-  'gap-3'
+  'items-equal-height mw-inner-3 theme-dark-burgundy has-bg quad-pattern',
+  'gap-3',
 ); ?>
 
   <?php echo item_col(); ?>
@@ -212,33 +210,33 @@ $page_classes = "";
 
 
 <?php echo sec_hasColumns(
-    'Learning in the Community',
-    '2',
-    '<p class="intro-text">[intro?]</p>',
     null,
+    '2',
+    null,
+    'pt-0 items-equal-height mw-inner-5 theme-dark-burgundy has-bg quad-pattern',
     'gap-3'
 ); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Internships',
+        'Pre-Law',
         '[NEED LINK]',
         ['url' => $placeholder_img_vertical, 'alt' => 'replacealttext' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
     ); ?>
-        <p>Internship opportunities—what we call Community-Engaged Learning—are available in Poughkeepsie, Albany, and New York City. Nearly 70% of Vassar students participate in community-engaged learning for credit at some point during their Vassar careers.</p>
+        <p>Pre-law Advising is handled by the Office of Career Development, also with faculty support. Both encourage students to come to their offices to discuss any questions they have with respect to pre-law studies and the law school application process.</p>
     <?php echo end_item_cardWithText('Learn more'); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Study Abroad',
+        'Pre-Med',
         '[NEED LINK]',
         ['url' => $placeholder_img_vertical, 'alt' => 'replacealttext' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
     ); ?>
-        <p>Vassar students (usually juniors) may study abroad for one semester or for a full academic year. About 45% of our students participate in our study-away programs prior to graduation.</p>
-    <?php echo end_item_cardWithText('Learn more about studying away '); ?>
+        <p>The Office for Fellowships and Pre-Health Advising provides guidance and assistance to students planning to pursue careers in medicine and other careers in the health professions.</p>
+    <?php echo end_item_cardWithText('Learn more'); ?>
   <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>

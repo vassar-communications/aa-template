@@ -1,9 +1,18 @@
 // regular stat items
+
+
 .stat-item {
   background: #fff;
   padding: 2rem;
   border-radius: 0.6rem;
   text-align: center;
+
+  .theme-burgundy &,
+  .theme-dark-burgundy &,
+  .theme-charcoal &,
+  .theme-darkcoal & {
+    color: var(--section-bg-color, #333);
+  }
 }
 
 .stat-value {

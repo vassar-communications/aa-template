@@ -15,6 +15,10 @@ function sec_hasColumns(
 
     $css = get_extras_value( 'css', $extras, 'style="%s"' );
 
+    $intro_markup = false;
+    if($intro) {
+      $intro_markup = '<div class="section-intro">'.$intro.'</div>';
+    }
 
     $title_classes = get_extras_value( 'title_classes', $extras );
     $title_level = get_extras_value('title_level', $extras);
@@ -35,9 +39,7 @@ function sec_hasColumns(
   <div class="section section-with-columns columns-$columns $section_classes" $css>
     {$section_title( $title, $title_classes, $title_level )}
     {$bg_image($extras)}
-    <div class="section-intro">
-    $intro
-    </div>
+    $intro_markup
     <div class="section-content $content_classes">
 TMP;
 }
