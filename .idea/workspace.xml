@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/financial-aid/types/0060_16_06_TT_2026.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/financial-aid/aid-calculators/visual.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/financial-aid/apply/visual.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/financial-aid/forms/alt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/financial-aid/forms/visual.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/financial-aid/types-of-aid/sidenav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/group/0098_15_09_KR_0019-flip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/group/0098_15_09_KR_0019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/group/0100-21-10-kr-fw-arboretum-vassar-0270.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/aid-calculators/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/aid-calculators/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/apply/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/apply/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/forms/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/forms/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/tuition/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/tuition/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/types-of-aid/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/types-of-aid/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/visit/class-visits/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/class-visits/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/visit/group-visits/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/group-visits/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/visit/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/visit/z-UNUSED-on-demand/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/on-demand/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

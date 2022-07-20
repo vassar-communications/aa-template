@@ -18,7 +18,7 @@ $page_classes = "";
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo page_partialmasthead($placeholder_img_banner); ?>
+<?php echo page_partialmasthead($admission_img_path.'visit/group/0100-21-10-kr-fw-arboretum-vassar-0270.jpg'); ?>
 
 <?php echo hamburger_navigation(); ?>
 
@@ -36,7 +36,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    $admission_img_path.'visit/group/group.jpg',
+    $admission_img_path.'visit/group/0098_15_09_KR_0019-flip.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>

@@ -20,7 +20,8 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($placeholder_img_banner); ?>
+
+<?php echo page_textmasthead('theme-dark-burgundy'); ?>
 
 <?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-visit-breadcrumb.php');?>
@@ -37,7 +38,7 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    $placeholder_img_square,
+    $admission_img_path.'visit/virtual/110519_160over90_Vassar_0348.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>

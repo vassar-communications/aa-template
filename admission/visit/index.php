@@ -55,7 +55,7 @@ $page_classes = "visithome";
 <?php echo masthead_interiorPage(
     'Visiting Campus',
     'All Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life.',
-    '/assets/images/placeholders/main-placeholder.jpg');
+    $admission_img_path.'visit/0070-19-05-kr-spring-library-vassar-6094.jpg');
 ?>
 
 

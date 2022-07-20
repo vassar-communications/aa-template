@@ -7,7 +7,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "Virtual Programs";
+$page_title = "Vassar on Demand";
 $page_classes = "";
 
 /*  ---------------------- */
