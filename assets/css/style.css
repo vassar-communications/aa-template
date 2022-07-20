@@ -10396,6 +10396,9 @@ h2.border-animate:after, .border-animate.h2:after {
  * Future: separate out the fancy card styling from the generic card styling.
 
  */
+.card.slightly-wider-image {
+  --card-image-width: 56%;
+}
 .card .icon {
   margin-right: 0.4rem;
 }
@@ -10458,6 +10461,17 @@ h2.border-animate:after, .border-animate.h2:after {
     display: flex;
     flex-direction: row;
   }
+}
+.card--twocols .cta-icon-label.btn.btn-link {
+  padding-right: 4rem !important;
+  text-align: right;
+  line-height: 1;
+  font-size: 1.1rem;
+  padding-left: 1rem !important;
+}
+.card--twocols .card-text p {
+  font-size: 1.04rem;
+  font-variation-settings: "wght" 380;
 }
 .card--twocols img {
   object-fit: cover;
@@ -15057,11 +15071,13 @@ p a:hover, p a:visited:hover, a.btn-link:hover, a.btn-link:visited:hover, nav a:
 
 .theme-charcoal {
   --section-bg-color: var(--color-vassar-charcoal);
+  --section-bg-image-opacity: 0.1;
   --flickity-dot-color: #fff;
 }
 
 .theme-darkcoal {
-  --section-bg-color: $black;
+  --section-bg-color: #0e0e0e;
+  --section-bg-image-opacity: 0.1;
 }
 
 .theme-charcoal,

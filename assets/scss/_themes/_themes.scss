@@ -67,10 +67,12 @@ p a, a.btn-link, nav a, li a, footer a  {
 
 .theme-charcoal {
   --section-bg-color: var(--color-vassar-charcoal);
+  --section-bg-image-opacity: 0.1;
   --flickity-dot-color: #fff;
 }
 .theme-darkcoal {
-  --section-bg-color: $black;
+  --section-bg-color: #{$black};
+    --section-bg-image-opacity: 0.1;
 }
 
 .theme-charcoal,

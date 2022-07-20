@@ -5,6 +5,7 @@
 //  These are just to make it easier to specify obvious placeholders
 $placeholder_img_banner = '/assets/images/placeholders/placeholder-banner.png';
 $placeholder_img_square = '/assets/images/placeholders/placeholder-square.png';
+$placeholder_img_vertical = '/assets/images/placeholders/placeholder-portrait.jpg';
 
 $admission_img_path = '/admission/assets/images/';
 

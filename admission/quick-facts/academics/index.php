@@ -69,15 +69,17 @@ $page_classes = "";
 
 <?php echo sec_regularContent(
     'There’s a major for that',
-    'animate-when-content-appears red-icons mw-inner-4',
+    'animate-when-content-appears red-icons mw-inner-4 theme-charcoal has-bg',
     '',
-    ['title_level' => '3']
+    ['title_level' => '3',
+    'bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/Vassar_Campus_6_26_17_0078.jpg',
+    'bg-image-alt' => 'replacealttxt']
 ); ?>
 <p class="tagline text-center mb-2">Most popular majors</p>
 
   <?php echo animated_statement('English · Political Science · Psychological Science · Economics · Biology', 'text-center'); ?>
 
-  <div class="icon-items-list">
+  <div class="icon-items-list mw-1 mt-4 mx-auto">
     <?php echo item_iconItem(
       null,
       'list-check',
@@ -91,7 +93,7 @@ $page_classes = "";
       'list-check',
       'icon-on-left'
     ); ?>
-        <p>  Some students create their own majors, combining disciplines of particular personal interest. A large number of our students complete a major and a correlate sequence (minor), sometimes in academically disparate fields.</p>
+        <p>Some students create their own majors, combining disciplines of particular personal interest. A large number of our students complete a major and a correlate sequence (minor), sometimes in academically disparate fields.</p>
     <?php echo end_item_iconItem(); ?>
   </div>
 
@@ -104,12 +106,10 @@ $page_classes = "";
 
 
 
-
-
 <?php echo sec_hasColumns(
     'Credit',
     '3',
-    'Vassar awards credit for scores of 4 or 5 on the AP exams and for scores of 5, 6  or 7 on IB Higher Level exams. A maximum of 2 units of pre-matriculation examination-based credits will be awarded.',
+    '<p class="intro-text">Vassar awards credit for scores of 4 or 5 on the AP exams and for scores of 5, 6, or 7 on IB Higher Level exams. A maximum of 2 units of pre-matriculation examination-based credits will be awarded.</p>',
     'items-equal-height mw-inner-2 theme-cream',
     'gap-3'
 ); ?>
@@ -139,33 +139,10 @@ $page_classes = "";
 <?php echo end_sec_hasColumns(); ?>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<?php echo sec_regularContent(
-    'Credit',
-    'animate-when-content-appears red-icons mw-inner-4',
-    '',
-    ['title_level' => '3']
-); ?>
-
-<?php echo end_sec_regularContent(); ?>
-
-
-
-
-
 <?php echo sec_hasColumns(
     'Learning in the Community',
     '2',
+    null,
     null,
     'gap-3'
 ); ?>
@@ -174,8 +151,8 @@ $page_classes = "";
     <?php echo item_cardWithText(
         'Internships',
         '[NEED LINK]',
-        ['url' => $placeholder_img_square, 'alt' => 'replacealttext' ],
-        'related-topics card--withParagraph card-has-cta-icon card-is-link hey-im-broken'
+        ['url' => $placeholder_img_vertical, 'alt' => 'replacealttext' ],
+        'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
     ); ?>
         <p>Internship opportunities—what we call Community-Engaged Learning—are available in Poughkeepsie, Albany, and New York City. Nearly 70% of Vassar students participate in community-engaged learning for credit at some point during their Vassar careers.</p>
     <?php echo end_item_cardWithText('Learn more'); ?>
@@ -185,8 +162,8 @@ $page_classes = "";
     <?php echo item_cardWithText(
         'Study Abroad',
         '[NEED LINK]',
-        ['url' => $placeholder_img_square, 'alt' => 'replacealttext' ],
-        'related-topics card--withParagraph card-has-cta-icon card-is-link hey-im-broken'
+        ['url' => $placeholder_img_vertical, 'alt' => 'replacealttext' ],
+        'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
     ); ?>
         <p>Vassar students (usually juniors) may study abroad for one semester or for a full academic year. About 45% of our students participate in our study-away programs prior to graduation.</p>
     <?php echo end_item_cardWithText('Learn more about studying away '); ?>
@@ -194,6 +171,77 @@ $page_classes = "";
 
 <?php echo end_sec_hasColumns(); ?>
 
+
+
+<?php echo sec_hasColumns(
+  'After Vassar',
+  '3',
+  '<p class="intro-text">Vassar opens doors. Vassar students have a high rate of acceptance into both law and medical school. Two-thirds of Vassar students ultimately pursue advanced studies.</p>',
+  'items-equal-height mw-inner-3 theme-cream',
+  'gap-3'
+); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Six months after graduating',
+      '96%',
+      'are employed, in school, or pursuing a fellowship/volunteer experience.'
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Law school admit rate',
+      '90%',
+      'including Yale, Stanford, NYU, Univ. of Chicago and Univ. of Pennsylvania.'
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Med school admit rate',
+      '85%',
+      'including Vanderbilt, Columbia, Dartmouth and Harvard'
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
+
+
+
+<?php echo sec_hasColumns(
+    'Learning in the Community',
+    '2',
+    '<p class="intro-text">[intro?]</p>',
+    null,
+    'gap-3'
+); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_cardWithText(
+        'Internships',
+        '[NEED LINK]',
+        ['url' => $placeholder_img_vertical, 'alt' => 'replacealttext' ],
+        'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
+    ); ?>
+        <p>Internship opportunities—what we call Community-Engaged Learning—are available in Poughkeepsie, Albany, and New York City. Nearly 70% of Vassar students participate in community-engaged learning for credit at some point during their Vassar careers.</p>
+    <?php echo end_item_cardWithText('Learn more'); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_cardWithText(
+        'Study Abroad',
+        '[NEED LINK]',
+        ['url' => $placeholder_img_vertical, 'alt' => 'replacealttext' ],
+        'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
+    ); ?>
+        <p>Vassar students (usually juniors) may study abroad for one semester or for a full academic year. About 45% of our students participate in our study-away programs prior to graduation.</p>
+    <?php echo end_item_cardWithText('Learn more about studying away '); ?>
+  <?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
 
 
 

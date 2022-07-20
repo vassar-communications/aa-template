@@ -6,7 +6,9 @@
  */
 
 .card {
-  //  margin-bottom: 6rem;
+  &.slightly-wider-image {
+    --card-image-width: 56%;
+  }
   .icon {
     margin-right: 0.4rem;
   }
@@ -78,7 +80,17 @@
     display: flex;
     flex-direction: row;
   }
-
+  .cta-icon-label.btn.btn-link {
+    padding-right: 4rem !important;
+    text-align: right;
+    line-height: 1;
+    font-size: 1.1rem;
+    padding-left: 1rem !important;
+  }
+  .card-text p {
+      font-size: 1.04rem;
+      font-variation-settings: "wght" 380;
+  }
   img {
     object-fit: cover;
 
