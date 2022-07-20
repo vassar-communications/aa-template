@@ -20,7 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($placeholder_img_banner); ?>
+<?php echo page_textmasthead('theme-dark-burgundy'); ?>
 
 
 <?php echo breadcrumbNav('theme-cream'); ?>
@@ -35,27 +35,21 @@ $page_classes = "";
 <?php /*  PAGE CONTENT === */ ?>
 
 
-<?php echo sec_fullBleedImageColumn(
-    null,
-    $placeholder_img_square,
-    'image-is-first theme-cream',
-    ''
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text">Here you will find all the forms and resources you’ll need to successfully apply for financial aid.</p>
 
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
 <?php echo sec_regularContent(
-    null,
-    null,
+    'Financial Aid Forms & Resources',
+    '',
     '',
     ''
 ); ?>
 
-
-<h2>Forms</h2>
-<ul>
+<p class="mb-5">Here you will find all the forms and resources you’ll need to successfully apply for financial aid.</p>
+<?php echo item_iconItem(
+    'Forms',
+    'file-lines',
+    'icon-on-left theme-white-border'
+); ?>
+<ul class="linked-list">
     <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/2022-23-business-farm-supplement.pdf">Business/Farm Supplement</a></li>
     <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/22-23-certification-of-finances.pdf">Certification of Finances</a></li>
     <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/2022-23-verification-statement-dependent-student.pdf">Federal Verification Worksheet: Dependent</a></li>
@@ -66,28 +60,43 @@ $page_classes = "";
     <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/22-23-student-non-filer-statement.pdf">Non-Tax Filer Statement - Student</a></li>
 </ul>
 
+<?php echo end_item_iconItem(); ?>
 
-<h2>FAFSA</h2>
-<p>Vassar FAFSA Code 002895<br/>
-    <a href="">Free Application for Federal Student Aid (FAFSA)</a></p>
 
-<h2>PROFILE</h2>
-<p>Vassar PROFILE Code 2956<br/>
-    <a href="">CSS / Financial Aid PROFILE</a></p>
-
-<h2>Resources</h2>
-<ul>
+<?php echo item_iconItem(
+    'Resources',
+    'book',
+    'icon-on-left theme-white-border'
+); ?>
+<ul class="linked-list">
     <li><a href="https://www.cashcourse.org/">Cash Course (Financial Literacy)</a></li>
     <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/04/vassar-fin-aid-award-21-v3-3-31-21.pdf">Understanding your Financial Aid Letter</a></li>
     <li><a href="https://offices.vassar.edu/student-financial-services/financial-aid/forms/computer/">Guidelines for Computer Purchases</a></li>
+    <li><a href="https://studentaid.gov/h/apply-for-aid/fafsa">FAFSA.ORG <strong>(Vassar Code: 002895)</strong></a></li>
+    <li><a href="https://cssprofile.collegeboard.org/">CSS Profile <strong>(Vassar Code: 2956)</strong></a></li>
 </ul>
 
 
-<h2>Questions about Financial Aid?</h2>
-<p>Email <a href="mailto:finaid@vassar.edu">finaid@vassar.edu</a> or visit <a href="https://offices.vassar.edu/student-financial-services/">Student Financial Services</a>.</p>
+
+
+<?php echo end_item_iconItem(); ?>
 
 
 <?php echo end_sec_regularContent(); ?>
+
+
+
+
+<?php echo sec_wideContent(
+    'Questions about Financial Aid?',
+    '<p>Email <a href="mailto:finaid@vassar.edu">finaid@vassar.edu</a> or visit Student Financial Services.</p>
+',
+    'theme-charcoal has-bg quad-pattern bg-dark',
+    'text-center'
+); ?>
+
+<a href="https://offices.vassar.edu/student-financial-services/" class="mt-5 btn btn-light">Visit Student Financial Services</a>
+<?php echo end_sec_wideContent(); ?>
 
 
 

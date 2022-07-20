@@ -2,7 +2,7 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
-?>
+ ?>
 <?php
 
 /*  PAGE INFO ============ */
@@ -20,8 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-
-<?php echo page_partialmasthead($placeholder_img_banner); ?>
+<?php echo page_textmasthead('theme-dark-burgundy'); ?>
 
 
 <?php echo breadcrumbNav('theme-cream'); ?>
@@ -38,29 +37,38 @@ $page_classes = "";
 
 
 
-<?php echo sec_hasColumns(
+<?php echo sec_regularContent(
     'Calculate your cost',
-    2,
-    null,
     '',
     ''
 ); ?>
+<p class="text-center placeholder">These calculators help to provide an early indication of what it might cost to attend Vassar</p>
 
-<?php echo item_col(''); ?>
+<?php echo item_iconItem(
+    'MyinTuition Cost Estimator',
+    'calculator',
+    'icon-on-left theme-grey-border'
+); ?>
 
-<h3>MyinTuition Cost Estimator</h3>
 <p>Use our MyinTuition Cost Estimator to quickly estimate your eligibility for need-based financial aid from Vassar. This estimator often takes 5 minutes or less.</p>
-<a href="#"  class="fix px-0 btn btn-link">Launch Calculator<i class="circle fa-solid fa-angle-right"></i></a>
-<?php echo end_item_col(); ?>
+<a href="https://myintuition.org/quick-college-cost-estimator/"  class="px-0 btn btn-link arrow">Launch MyinTuition Cost Estimator</a>
 
-<?php echo item_col(''); ?>
+<?php echo end_item_iconItem(); ?>
 
-<h3>Net Price Calculator</h3>
+
+<?php echo item_iconItem(
+    'Net Price Calculator',
+    'calculator',
+    'icon-on-left theme-white-border'
+); ?>
+
 <p>For a more detailed estimate of your family contribution and financial aid award, use our Net Price Calculator.</p>
-<a href="#"  class="fix px-0 btn btn-link">Launch Calculator<i class="circle fa-solid fa-angle-right"></i></a>
-<?php echo end_item_col(); ?>
+<a href="https://npc.collegeboard.org/app/vassar"  class="px-0 btn btn-link arrow">Launch Net Price Calculator</a>
 
-<?php echo end_sec_hasColumns(); ?>
+<?php echo end_item_iconItem(); ?>
+
+
+<?php echo end_sec_regularContent(); ?>
 
 
 
