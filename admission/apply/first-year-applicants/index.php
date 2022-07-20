@@ -35,12 +35,12 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     'Information for First-Year Applicants',
-    $admission_img_path.'apply/international/0074_15_08_KR_0088.jpg',
+    $admission_img_path.'apply/0007_16_02_KR_0083.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text mb-5">Everything you need to know to apply.</p>
+    <p class="mb-5">Everything you need to know to apply.</p>
 
     <?php echo deadlines('Early Decision Application deadlines'); ?>
 
@@ -61,9 +61,9 @@ $page_classes = "";
     'checklist'
 ); ?>
 <ul class="style-checklist">
-    <li>Common Application or Coalition application</li>
+    <li><a href="https://apply.commonapp.org/Login?ma=278">Common Application</a> or <a href="https://www.mycoalition.org/public/info/vassar">Coalition application</a></li>
     <li>$65 application fee or fee waiver
-    <li>Early Decision Agreement (Early Decision Applicants ONLY)
+    <li><a href="https://www.vassar.edu/admissions/apply/#early-decision">Early Decision Agreement</a> (Early Decision Applicants ONLY)
     <li>School Report and High School Transcript: To be completed and sent by your school counselor. Available for online completion or download through Common Application.
     <li>Teacher Evaluations
     <li>Mid-year Grade Report Vassar requests each applicant’s most recent grade report to be sent by the school counselor.

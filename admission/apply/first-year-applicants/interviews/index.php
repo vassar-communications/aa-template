@@ -33,17 +33,15 @@ $page_classes = "";
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Interviews',
-    $placeholder_img_square,
+    null,
+   $admission_img_path.'apply/interviews/0046_16_04_KR_0008.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>A conversation with one of our alumnae/i or student interviewers is an excellent way for you to learn more about Vassar and for us to learn more about you.</p>
+    <h1 class="display-6">A conversation with one of our alumnae/i or student interviewers is an excellent way for you to learn more about Vassar and for us to learn more about you.</h1>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
-
-
 
 
 <?php echo sec_hasColumns(
@@ -51,43 +49,43 @@ $page_classes = "";
     2,
     null,
     'animate-when-content-appears animation-slide-up',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
+    'pt-5 flex-equal align-items-start d-flex flex-column-reverse flex-md-row'
 ); ?>
 
 <?php echo item_col('equal'); ?>
 <p>We accept interview requests from current domestic first-year applicants. Interviews take place from October through early March and are informational rather than evaluative. Please note, not all students will be able to meet with an interviewer as we do not have the capacity to honor all requests. If you are not extended an interview, rest assured that it will not negatively impact your application to Vassar. Your interview request will only be processed once the Office of Admission confirms we have received your application.</p>
 
-<a href="#" class="btn btn-primary arrow">Register Now</a>
+<a href="#" class="fix btn btn-primary arrow">Register Now</a>
+
 
 <?php echo end_item_col(); ?>
 
 <?php echo item_col('equal'); ?>
-<?php echo item_alert(
-    'Interview Request Deadlines',
-    '<h6>Early Decision I</h6><p>Nov. 15</p><h6>Early Decision I</h6><p>Nov. 15</p><h6>Early Decision I</h6><p>Nov. 15</p>',
-    'calendar',
-    'alert-light'
-); ?>
+
+<?php echo deadlines('Interview Request Deadlines'); ?>
+
+<?php echo deadlines_item('Early Decision Round 1', 'November 15, 2022'); ?>
+<?php echo deadlines_item('Early Decision Round 2', 'January 1, 2023'); ?>
+<?php echo deadlines_item('Regular Decision', 'January 7, 2023'); ?>
+<?php echo end_deadlines(); ?>
+
+
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
 <?php echo sec_regularContent(
-    null,
-    null,
-    '',
-    ''
-); ?>
+        null,
+    'theme-cream'
 
+); ?>
 <?php echo item_alert(
     'Note for International Applicants',
     'Given the limited availability of alumnae/i and student interviewers internationally, our office will reach out to you if we are able to extend an interview. We do not accept requests for interviews from students residing overseas.',
     'globe',
     'alert-light alert-accent-gold'
 ); ?>
-
 <?php echo end_sec_regularContent(); ?>
-
 
 <?php /*  PAGE CONTENT === */ ?>
 

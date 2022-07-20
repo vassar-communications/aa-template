@@ -80,7 +80,7 @@ $page_classes = "";
     <div class="accordion-item">
         <div class="accordion-header" id="elp-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#elp-collapseOne" aria-expanded="true" aria-controls="elp-collapseOne">
-                Vassar Scholarships
+                TOEFL
             </button>
         </div>
         <div id="elp-collapseOne" class="accordion-collapse collapse" aria-labelledby="elp-headingOne" data-bs-parent="#elp">
