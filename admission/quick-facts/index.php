@@ -355,6 +355,11 @@ $satact_info_card = info_card('Important', '', 'alert') . '<p>Applicants are adv
 <?php echo end_sec_regularContent(); ?>
 
 
+<?php echo relatedTopics(); ?>
+  <?php include($project_paths['main_project_root'].'/admission/inc/pages/financial-aid/financial-aid-apply.php');?>
+  <?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-international.php');?>
+  <?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-transfer.php');?>
+<?php echo end_sec_relatedTopics(); ?>
 
 
 

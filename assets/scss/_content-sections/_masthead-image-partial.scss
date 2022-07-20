@@ -1,6 +1,17 @@
 /* Partial Masthead */
 
 .partial-masthead  {
+
+  .supertitle {
+      font-size: 2rem;
+      border-bottom: 1px solid #fff;
+      display: i;
+      width: fit-content;
+      padding-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+  }
+
   min-height: auto;
     .title-container, .section-bg {
       height: 70vh;

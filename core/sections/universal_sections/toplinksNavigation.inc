@@ -12,7 +12,7 @@
 function toplinksNav($extras = false) {
 $template = <<<TMP
 
-<nav class="section">
+<nav class="section local-nav">
       <ul class="nav nav-pills pb-3">
 
 TMP;
@@ -25,5 +25,3 @@ function end_sec_toplinksNav($extras = false) {
   return '     </ul></nav>
 ';
 }
-
-

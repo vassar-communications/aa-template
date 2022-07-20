@@ -49,8 +49,10 @@ $page_classes = "";
 
 <div class="animate-when-content-appears animation-slide-up">
     <h2 class="display-2 mb-5 border-animate">Virtual Visit Options</h2>
-    <span class="tagline  mb-2">Virtual Information Sessions.</span><p>Learn about academics, student life, the application process, financial aid, and ask your questions about Vassar.</p>
-    <span class="tagline  mb-2">Student Q&As</span>
+    <p class="tagline  mb-2">Virtual Information Sessions</p>
+
+      <p>Learn about academics, student life, the application process, financial aid, and ask your questions about Vassar.</p>
+    <p class="tagline  mb-2">Student Q&As</p>
         <p>Meet current students on Zoom and ask your questions about academics, involvement, and what it’s like to be a Vassar College student.</p>
     <a href="https://apply.vassar.edu/portal/campusvisitcalendar"  class="btn btn-primary arrow">Register Now</a>
 </div>
