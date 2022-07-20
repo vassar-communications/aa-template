@@ -53,7 +53,7 @@ $page_classes = "";
 
 <?php echo masthead_interiorPage(
     'Find Your Spark',
-    'Vassar’s community is full of character, collaboration, and vibrant diversity. People of all perspectives and backgrounds come here to learn, work, and live together in the proud tradition of a residential liberal arts college.',
+    '<span class="placeholder">Vassar’s community is full of character, collaboration, and vibrant diversity. People of all perspectives and backgrounds come here to learn, work, and live together in the proud tradition of a residential liberal arts college.</span>',
     $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
 ?>
 

@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/arts/110619_160over90_Vassar_4789.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/international/0074_15_08_KR_0122.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/financial-aid/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/financial-aid/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/arts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/first-year-applicants/arts/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/first-year-applicants/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/interviews/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/first-year-applicants/interviews/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/international/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/international/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/diversity-inclusion/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/diversity-inclusion/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/outcomes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/outcomes/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/student-life/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/student-life/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -51,7 +51,7 @@ $page_classes = "";
 
 <?php echo masthead_interiorPage(
     'Life After Vassar',
-    'Vassar is committed to ensuring our students’ growth and progress from Day 1 to beyond graduation. ',
+    '<span class="placeholder">Vassar is committed to ensuring our students’ growth and progress from Day 1 to beyond graduation.</span>',
     $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
 ?>
 

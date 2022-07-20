@@ -28,7 +28,7 @@ $page_classes = "";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => $admission_img_path.'explore/academics/110619_160over90_Vassar_6232.jpg',
+    ['bg-image-url' => $admission_img_path.'placeholder.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -52,31 +52,12 @@ $page_classes = "";
 
 <?php echo masthead_interiorPage(
     'Together We Become More',
-    'We celebrate our differences and our connections and provide resources that are committed to the healthy support of EVERYONE.',
+    '<span class="placeholder">We celebrate our differences and our connections and provide resources that are committed to the healthy support of EVERYONE.</span>',
     $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
 ?>
 
 
 
-
-
-<?php echo sec_hasColumns(
-    null,
-    2,
-    null,
-    'theme-cream',
-    null
-); ?>
-
-<?php echo item_col(); ?>
-<h2>We celebrate our differences and our connections and provide resources that are committed to the healthy support of EVERYONE. </h2>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col(); ?>
-<img src="https://uc30548dae366635e290422596d9.previews.dropboxusercontent.com/p/thumb/ABia0GMySEf4LJOYDAQSa5oIBKjf_Y5lP9-Imtry9XxV55oQmilIWYM3b-1s8KzeEFCMI6np92mR1HEBhKzrqaJWmu3-KrdRQMA4atHd2yriuGoADbWlHd9ecGNlDTmQjvPPz2fv1K5fUJ4TDzR_Xy4aqdelQUqVISi650AD0hqeKARtcuawW3TjtoH1sHOwhf58hZxNXnl7LLmbSMS2oZ3BGZZMhFVa7qtjfHYYxrrYKCqxu3PbyroBRqcDN6kJGAANXVDE9dWp0ZWPSMio-Vy2BWuOElNS0cA9CR5jSdaKR3UaRYwAsJMrcq_tUeLGSaIivli4yZ_-s9br8b1o-a5fxJuf239_lwLcZCarN5Mx69lthHHtQPI9n7xUPpabaEw/p.jpeg" />
-<?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
 
 
 <div class="buffer"></div>
