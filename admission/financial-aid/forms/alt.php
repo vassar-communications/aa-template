@@ -72,11 +72,7 @@ $page_classes = "";
     <li><a href="https://www.cashcourse.org/">Cash Course (Financial Literacy)</a></li>
     <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/04/vassar-fin-aid-award-21-v3-3-31-21.pdf">Understanding your Financial Aid Letter</a></li>
     <li><a href="https://offices.vassar.edu/student-financial-services/financial-aid/forms/computer/">Guidelines for Computer Purchases</a></li>
-    <li><a href="https://studentaid.gov/h/apply-for-aid/fafsa">FAFSA.ORG <strong>(Vassar Code: 002895)</strong></a></li>
-    <li><a href="https://cssprofile.collegeboard.org/">CSS Profile <strong>(Vassar Code: 2956)</strong></a></li>
 </ul>
-
-
 
 
 <?php echo end_item_iconItem(); ?>
@@ -85,18 +81,59 @@ $page_classes = "";
 <?php echo end_sec_regularContent(); ?>
 
 
+<?php echo sec_hasColumns(
+    null,
+    '2',
+    null,
+    'theme-dark-burgundy',
+    ''
 
-
-<?php echo sec_wideContent(
-    'Questions about Financial Aid?',
-    '<p>Email <a href="mailto:finaid@vassar.edu">finaid@vassar.edu</a> or visit Student Financial Services.</p>
-',
-    'theme-charcoal has-bg quad-pattern bg-dark',
-    'text-center'
 ); ?>
 
-<a href="https://offices.vassar.edu/student-financial-services/" class="mt-5 btn btn-light">Visit Student Financial Services</a>
-<?php echo end_sec_wideContent(); ?>
+<div class="card plain-text-card text-dark">
+    <h3>FAFSA</h3>
+    <p>The FAFSA must be completed to determine eligibility for all sources of federal financial aid.</p>
+
+    <ul class="labeled-list">
+        <?php echo labeled_list_item('Vassar code', '002895'); ?>
+        <?php echo labeled_list_item('Available after', 'October 1st'); ?>
+        <?php echo labeled_list_item('Applies to', 'U.S. Citizens and Permanent Residents only'); ?>
+    </ul>
+
+    <p>Once completed, review the Student Aid Report (SAR) sent to you by the Department of Education for accuracy. If necessary, correct any errors and resubmit.</p>
+    <a href="https://studentaid.gov/h/apply-for-aid/fafsa"  class="px-0 btn btn-link arrow text-start text-dark">Visit FAFSA.ORG</a>
+</div>
+
+<div class="card plain-text-card text-dark">
+    <h3>CSS Profile</h3>
+    <p>The CSS Profile is required to determine eligibility for Vassar scholarship aid.</p>
+
+    <ul class="labeled-list">
+        <?php echo labeled_list_item('Vassar code', '2956'); ?>
+        <?php echo labeled_list_item('Available after', 'October 1st'); ?>
+        <?php echo labeled_list_item('Applies to', 'All students, domestic and international'); ?>
+    </ul>
+
+    <p>If parents are separated/divorced, both parents will each complete their own CSS Profile application</p>
+
+    <a href="https://cssprofile.collegeboard.org/"  class="px-0 btn btn-link arrow text-start text-dark">Visit CSS Profile</a>
+</div>
+
+<?php echo  end_sec_hasColumns(); ?>
+
+
+
+<?php echo sec_regularContent(
+    'Questions about Financial Aid?',
+    'theme-charcoal has-bg quad-pattern bg-dark',
+    'text-center',
+    ''
+); ?>
+
+<p>Email <a href="mailto:finaid@vassar.edu">finaid@vassar.edu</a> or visit Student Financial Services.</p>
+
+<a href="https://offices.vassar.edu/student-financial-services/" class="btn btn-light">Visit Student Financial Services</a>
+<?php echo end_sec_regularContent(); ?>
 
 
 

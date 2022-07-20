@@ -20,7 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($placeholder_img_banner); ?>
+<?php echo page_partialmasthead($admission_img_path.'financial-aid/tuition/Vassar_Reception_20210601_KR_0173.jpg'); ?>
 
 
 <?php echo breadcrumbNav('theme-cream'); ?>
@@ -36,6 +36,7 @@ $page_classes = "";
 <?php /*  PAGE CONTENT === */ ?>
 
 
+
 <?php echo sec_fullBleedImageColumn(
     null,
     $admission_img_path.'financial-aid/tuition/0137_14_11_KR_0003.jpg',
@@ -43,93 +44,74 @@ $page_classes = "";
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <?php echo animated_statement('Vassar provides a high-value education and is committed to meeting 100% of the demonstrated financial need of all admitted students.'); ?>
+   <h1 class="display-6">Vassar provides a high-value education and is committed to meeting 100% of the demonstrated financial need of all admitted students.</h1>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-
-
 <?php echo sec_wideContent(
     'Tuition and Fees Overview',
-    '<h2>The total cost to attend Vassar is $78,580</h2>',
-    '',
-    'mw-4'
+    '<p>The total cost to attend Vassar is $78,580</p>',
+    'pb-0',
+    'mw-4 '
 ); ?>
 
-<?php echo sec_hasColumns(
-    null,
-    3,
-    null,
-    '',
-    ''
-); ?>
 
-<?php echo item_col(
+<div class="fancy-stats-container animate-when-content-appears my-5">
+    <div class="col-item stat-item item-students">
+        <div class="stat-item-fact">
+            <div class="tagline">Tuition</div>
+            <div class="display-2">$61,940</div>
+        </div>
+        <div class="stat-item-additional">
+            <div class="stat-label text-primary">For the 2021–2022 school year</div>
+        </div>
+    </div>
 
-); ?>
-<div class="card mb-4">
- <div class="card-body">
-  <h6 class="card-title">Tuition</h6>
-  <div class="card-text">
-   <div class="display-2">$61,940</div>
-   <p>For the 2021–2022 school year the total cost is $78,580</p>
-  </div>
- </div>
+
+    <div class="col-item symbol-item symbol-div">
+        <!-- ÷ -->
+    </div>
+
+    <div class="col-item stat-item item-faculty">
+        <div class="stat-item-fact">
+            <div class="tagline">Housing and Dining</div>
+            <div class="display-2">$15,710</div>
+        </div>
+        <div class="stat-item-additional">
+            <div class="stat-label text-primary">96% of Vassar students live on campus and housing</div>
+        </div>
+    </div>
+
+    <div class="col-item symbol-item symbol-equals">
+        <!-- = -->
+    </div>
+
+    <div class="col-item stat-item item-ratio">
+        <div class="stat-item-fact">
+            <div class="tagline">Fees</div>
+            <div class="display-2">$930<span class="delimiter-colon">:</span>1</div>
+            <div class="stat-label text-primary">Covering Health Insurance and Activity Fees</div>
+        </div>
+    </div>
 </div>
-
-
-<?php echo end_item_col(); ?>
-<?php echo item_col(
-
-); ?>
-<div class="card mb-4">
- <div class="card-body">
-  <h6 class="card-title">Housing and dining</h6>
-  <div class="card-text">
-   <div class="display-2">$15,710</div>
-   <p>96% of Vassar students live on campus and housing </p>
-  </div>
- </div>
-</div>
-
-
-
-<?php echo end_item_col(); ?>
-<?php echo item_col(
-
-); ?>
-<div class="card mb-4">
- <div class="card-body">
-  <h6 class="card-title">Fees</h6>
-  <div class="card-text">
-   <div class="display-2">$930</div>
-   <p>Covering Health Insurance and Activity Fees</p>
-  </div>
- </div>
-</div>
-
-
-
-<?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
-
 
 <?php echo end_sec_wideContent(); ?>
 <?php echo sec_regularContent(
     null,
-    null,
+    'pt-0 text-center',
     '',
     ''
 ); ?>
 
+<?php echo item_alert(
+    null,
+    '<p>Students should anticipate budgeting $2,250 for books, supplies, and personal expenses, and transportation to and from the campus. Additional information can be found on the Student Financial Services website.</p>',
+    'info-circle',
+    ' text-start alert-light alert-accent-gold'
+); ?>
 
-
-
-<p class="fix">
- Students should anticipate budgeting $2,250 for books, supplies, and personal expenses, and transportation to and from the campus. Additional information can be found on the Student Financial Services website.
-</p>
+<a href="https://offices.vassar.edu/student-financial-services/" class="btn btn-primary arrow">Visit Student Financial Services</a>
 <?php echo end_sec_regularContent(); ?>
 
 
@@ -140,10 +122,10 @@ $page_classes = "";
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Students living on campus are required to participate in a <a class="hey-im-broken" href="#">college board plan</a> (also known as the meal plan). For more information about housing, visit the <a class="hey-im-broken" href="#">Office of Residential Life</a>.</p>
+    <p>Students living on campus are required to participate in a <a href="http://vassar.cafebonappetit.com">college board plan</a> (also known as the meal plan). For more information about housing, visit the <a  href="https://offices.vassar.edu/residential-life/">Office of Residential Life</a>.</p>
 
     <?php echo cta_link(
-      '/admission/financial-aid/apply/',
+      'https://offices.vassar.edu/residential-life/',
       'Visit the Office of Residential Life'
     ); ?>
 
@@ -179,12 +161,15 @@ $page_classes = "";
     <p>All students are required to have health insurance coverage.</p>
 
     <?php echo cta_link(
-      'https://offices.vassar.edu/student-financial-services/',
+      'https://www.vassar.edu/social-media/student-orgs',
       'Visit Student Financial Services'
     ); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
 
 
 
