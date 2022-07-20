@@ -49,6 +49,30 @@ $page_classes = "";
 
 </style>
 
+<!-- 	"url": "https://national-weather-service.p.rapidapi.com/zones/land/NYZ066/forecast", -->
+
+
+<script>
+
+const settings = {
+	"async": true,
+	"crossDomain": true,
+
+	"url": "https://www.ncdc.noaa.gov/cdo-web/api/v2/stations",
+
+	"method": "GET",
+	"headers": {
+		"X-RapidAPI-Key": "e32163bb65mshc2008fd7b00e810p1a6738jsnb7cb4a6a8345",
+		"X-RapidAPI-Host": "national-weather-service.p.rapidapi.com"
+	}
+};
+
+$.ajax(settings).done(function (response) {
+	console.log(response);
+});
+</script>
+
+
 <?php echo sec_hasColumns(
     'Our Students',
     '3',
@@ -149,17 +173,114 @@ $page_classes = "";
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
-  <?php echo item_cardWithText(
-      'Political diversity',
-      '#',
-      ['url' => $placeholder_img_square, 'alt' => 'replacealttext' ],
-      'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark'
-  ); ?>
-    <p>Politically, our campus is open-minded. Vassar students span the political spectrum. Diversity of opinion is respected, critical thought encouraged, and communication of ideas held as central to a liberal arts education.</p>
-    <?php echo end_item_cardWithText('[Related Link]'); ?>
+    <?php echo item_cardWithText(
+        'Political diversity',
+        '#',
+        ['url' => $placeholder_img_square, 'alt' => 'replacealttext' ],
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark'
+    ); ?>
+      <p>Politically, our campus is open-minded. Vassar students span the political spectrum. Diversity of opinion is respected, critical thought encouraged, and communication of ideas held as central to a liberal arts education.</p>
+      <?php echo end_item_cardWithText('[Related Link]'); ?>
   <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
+
+
+
+
+<?php echo sec_hasColumns(
+    'Vassar Life',
+    '2',
+    '<p class="intro-text">Vassar is not a commuter campus or a suitcase school, as approximately 90% of students stay on campus every weekend.</p>',
+    'mw-inner-4',
+    'gap-3'
+); ?>
+
+  <?php echo item_col(); ?>
+  item
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+  item
+  <?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'On Campus',
+    $placeholder_img_square,
+    'image-is-first theme-cream',
+    '',
+    ['title_level' => '3']
+); ?>
+  <div class="animate-when-content-appears animation-slide-up">
+
+      <?php echo item_iconItem(
+        null,
+        'house-chimney',
+        'icon-on-left'
+      ); ?>
+          <p>Popular on-campus hangouts include late night dining at Gordon Commons, the College Center, the Food Truck, and Dorm Multi-Purpose Rooms and Parlors.</p>
+      <?php echo end_item_iconItem(); ?>
+
+      <?php echo item_iconItem(
+        null,
+        'house-chimney',
+        'icon-on-left'
+      ); ?>
+          <p>Throughout the year, nationally known speakers, writers, and musicians appear on campus.</p>
+      <?php echo end_item_iconItem(); ?>
+
+      <?php echo item_iconItem(
+        null,
+        'house-chimney',
+        'icon-on-left'
+      ); ?>
+          <p>Each weekend, students have the opportunity to attend <em>a cappella</em> concerts, drama productions, lectures, dance recitals, and athletic events.</p>
+      <?php echo end_item_iconItem(); ?>
+
+      <?php echo item_iconItem(
+        null,
+        'house-chimney',
+        'icon-on-left'
+      ); ?>
+          <p>Student-run organizations and residence houses plan numerous social activities. These can range from afternoon tea in the Rose Parlor to comedy shows, dances, movies, and study breaks.</p>
+      <?php echo end_item_iconItem(); ?>
+
+  </div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Off Campus',
+    $placeholder_img_square,
+    'theme-charcoal',
+    '',
+    ['title_level' => '3']
+); ?>
+  <div class="animate-when-content-appears animation-slide-up">
+
+      <?php echo item_iconItem(
+        null,
+        'house-chimney',
+        'icon-on-left'
+      ); ?>
+          <p>There are many stores and restaurants within one block from campus, including Billy Bob’s BBQ, Burger Fi, The Crafted Kup, Pizzeria Bacio’s, Twisted Soul and Thai Spice.</p>
+      <?php echo end_item_iconItem(); ?>
+
+      <?php echo item_iconItem(
+        null,
+        'house-chimney',
+        'icon-on-left'
+      ); ?>
+          <p>Students typically go to New York City one to two weekends per semester.</p>
+      <?php echo end_item_iconItem(); ?>
+
+  </div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 

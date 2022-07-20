@@ -13136,8 +13136,9 @@ html {
     grid-template-columns: repeat(2, 1fr);
   }
   .section.section--full-bleed-image-column .full-bleed-image-container {
-    height: max(100%, 100vh);
-    position: absolute;
+    height: 100vh;
+    position: sticky;
+    top: 0;
   }
   .section.section--full-bleed-image-column .full-bleed-image-container img {
     position: absolute;
@@ -13154,7 +13155,7 @@ html {
 }
 @media (min-width: 1024px) {
   .section:not(.image-is-first) .col--text {
-    height: 100vh;
+    min-height: 100vh;
   }
 }
 
@@ -13167,7 +13168,7 @@ html {
 }
 @media (min-width: 1024px) {
   .image-is-first.section.section--full-bleed-image-column .col--text {
-    height: 100vh;
+    min-height: 100vh;
   }
 }
 
