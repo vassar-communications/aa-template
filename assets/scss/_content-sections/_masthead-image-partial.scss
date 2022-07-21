@@ -1,7 +1,9 @@
 /* Partial Masthead */
 
 .partial-masthead  {
-
+  .section__title__main {
+    text-shadow: 0 0 1rem #000;
+  }
   .supertitle {
       font-size: 2rem;
       border-bottom: 1px solid #fff;
@@ -14,7 +16,7 @@
 
   min-height: auto;
     .title-container, .section-bg {
-      height: 70vh;
+      height: 80vh;
     }
     .title-container{
       padding-bottom:4vw;

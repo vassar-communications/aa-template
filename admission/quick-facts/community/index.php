@@ -22,7 +22,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($placeholder_img_banner); ?>
+<?php echo page_partialmasthead($quickfacts_img_path.'110619_160over90_Vassar_5564-crop.jpg'); ?>
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
@@ -132,8 +132,9 @@ $page_classes = "";
     <?php echo item_cardWithText(
         'Academic diversity',
         '#',
-        ['url' => $placeholder_img_square, 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark'
+        ['url' => $quickfacts_img_path.'110619_160over90_Vassar_4608.jpg'
+, 'alt' => 'replacealttext' ],
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
       <p>Our campus is a mix of students interested in the natural sciences, social sciences, arts and humanities, as well as some interesting combinations of these disciplines.</p>
       <?php echo end_item_cardWithText('See all our majors and minors'); ?>
@@ -144,7 +145,7 @@ $page_classes = "";
       'Extracurricular diversity',
       '#',
       ['url' => $placeholder_img_square, 'alt' => 'replacealttext' ],
-      'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark'
+      'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
   ); ?>
     <p>Extracurricular diversity is characteristic of our campus culture. A number of students are varsity athletes; others have an inclination to sing, dance, act, improvise, sculpt, film, paint, write, or otherwise create. Some do it all!</p>
     <?php echo end_item_cardWithText('See all our student organizations'); ?>
@@ -155,7 +156,7 @@ $page_classes = "";
         'Political diversity',
         '#',
         ['url' => $placeholder_img_square, 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark'
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
       <p>Politically, our campus is open-minded. Vassar students span the political spectrum. Diversity of opinion is respected, critical thought encouraged, and communication of ideas held as central to a liberal arts education.</p>
       <?php echo end_item_cardWithText('[Related Link]'); ?>
@@ -262,7 +263,7 @@ $page_classes = "";
     <?php echo item_cardWithText(
         'Dining',
         '[NEED LINK]',
-        ['url' => $placeholder_img_wide, 'alt' => 'replacealttext' ],
+        ['url' => $quickfacts_img_path.'0195-19-11-kwe-gordon-vassar-1644.jpg', 'alt' => 'replacealttext' ],
         'card--twoscols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
     ); ?>
         <p>All students are on one standardized meal plan, providing unlimited access to the main dining hall from 7 a.m. to 1 a.m., as well as expanded options at Express, the Bridge Café, the Retreat, a food truck, and cook-your-own ingredients.</p>
@@ -273,10 +274,10 @@ $page_classes = "";
     <?php echo item_cardWithText(
         'Student Organizations',
         '[NEED LINK]',
-        ['url' => $placeholder_img_wide, 'alt' => 'replacealttext' ],
+        ['url' => $quickfacts_img_path.'0234-17-04-kr-music-event-vassar-0007.jpg', 'alt' => 'replacealttext' ],
         'card--twsocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
     ); ?>
-        <p>We have over 170 active student organizations, including theater groups, a cappella groups, student government, political organizations, and several student publications. We even have a juggling/circus troupe.</p>
+        <p>We have over 170 active student organizations, including theater groups, <em>a cappella</em> groups, student government, political organizations, and several student publications. We even have a juggling/circus troupe.</p>
     <?php echo end_item_cardWithText('Learn more about student orgs'); ?>
   <?php echo end_item_col(); ?>
 
@@ -354,7 +355,7 @@ echo sec_hasColumns(
 
 <?php echo sec_fullBleedImageColumn(
     'Dorms',
-    $placeholder_img_square,
+    $quickfacts_img_path.'THs-0144-15-05-hw-dorm-vassar-vb-3813.jpg',
     'image-is-first theme-cream',
     '',
     ['title_level' => '3']
@@ -467,25 +468,25 @@ echo sec_hasColumns(
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      null,
-      '98%',
-      'of Vassar students live on campus'
+      'Average Winter Temp',
+      '35<span class="stat-unit">°F</span><br>
+      2<span class="stat-unit">°C</span>'
     ); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      null,
-      '98%',
-      'of Vassar students live on campus'
+      'Average Summer Temp',
+      '80<span class="stat-unit">°F</span><br>
+      27<span class="stat-unit">°C</span>'
     ); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      null,
-      '98%',
-      'of Vassar students live on campus'
+      'Right Now – ☀️',
+      '82<span class="stat-unit">°F</span><br>
+      28<span class="stat-unit">°C</span>'
     ); ?>
   <?php echo end_item_col(); ?>
 

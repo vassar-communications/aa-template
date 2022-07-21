@@ -98,6 +98,8 @@ $theme-colors: (
 
   --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
 
+  --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 40%, rgba(0,0,0,0.0) 60%, rgba(0,0,0,0) 100%);
+
   --text-shadow: 0 0 1rem rgb(0 0 0 / 40%);
   --bg-shim-background: rgba(0,0,0,0.2);
 }

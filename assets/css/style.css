@@ -20,6 +20,7 @@
   --regularContent-lineHeight: 1.36;
   --regularContent-font-weight: "wght" 340;
   --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
+  --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 40%, rgba(0,0,0,0.0) 60%, rgba(0,0,0,0) 100%);
   --text-shadow: 0 0 1rem rgb(0 0 0 / 40%);
   --bg-shim-background: rgba(0,0,0,0.2);
 }
@@ -13661,6 +13662,9 @@ This should be a section option
 .partial-masthead {
   min-height: auto;
 }
+.partial-masthead .section__title__main {
+  text-shadow: 0 0 1rem #000;
+}
 .partial-masthead .supertitle {
   font-size: 2rem;
   border-bottom: 1px solid #fff;
@@ -13671,7 +13675,7 @@ This should be a section option
   letter-spacing: 0.1rem;
 }
 .partial-masthead .title-container, .partial-masthead .section-bg {
-  height: 70vh;
+  height: 80vh;
 }
 .partial-masthead .title-container {
   padding-bottom: 4vw;
