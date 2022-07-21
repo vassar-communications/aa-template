@@ -233,13 +233,11 @@ echo sec_fixedCenteredTitle(
 
 
 
-
     <?php
-
-    echo item_imageCard_modal(
+    echo item_imageCard_videoModal(
         get_icon('play').'Bridge for Laboratory Sciences',
         null,
-        'lab-sciences-modal',
+        'https://www.youtube.com/embed/AqDKltbh7h4',
         null,
         ['url' => '/mockups/admission-home/fav-places-2/110619_160over90_Vassar_5483.jpg',
             'alt' => 'asdfasdf'
@@ -250,10 +248,10 @@ echo sec_fixedCenteredTitle(
     ?>
 
     <?php
-    echo item_imageCard_modal(
+    echo item_imageCard_videoModal(
         get_icon('vr-cardboard').'Shakespeare Garden',
         null,
-        'shakespeare-modal',
+        'https://www.youtube.com/embed/pfJIwU-Kifg',
         null,
         ['url' => '/mockups/admission-home/fav-places-2/0056-21-06-kr-campus-vassar-0006-copy.jpg',
             'alt' => 'asdfasdf'
@@ -263,15 +261,18 @@ echo sec_fixedCenteredTitle(
 
     ?>
 
+
 </div>
 
 <div class="animation-group staggered-grid-reverse animation-zoom-in animate-when-content-appears gap-3 mb-3">
 
+
+
     <?php
-    echo item_imageCard_modal(
+    echo item_imageCard_videoModal(
         get_icon('vr-cardboard').'Thompson Memorial Library',
         null,
-        'thompson-modal',
+        'https://www.youtube.com/embed/lQ0Jb9u6zTY',
         null,
         ['url' => '/mockups/admission-home/fav-places-2/0212-18-10-kr-library-fall-vassar-3819.jpg',
             'alt' => 'asdfasdf'
@@ -281,11 +282,13 @@ echo sec_fixedCenteredTitle(
 
     ?>
 
+
+
     <?php
-    echo item_imageCard_modal(
+    echo item_imageCard_videoModal(
         get_icon('play').'Gordon Commons',
         null,
-        'gordon-modal',
+        'https://www.youtube.com/embed/l9N-gTmvMgo',
         null,
         ['url' => '/mockups/admission-home/fav-places-2/0195-19-11-kwe-gordon-vassar-1644.jpg',
             'alt' => 'asdfasdf'
@@ -296,35 +299,40 @@ echo sec_fixedCenteredTitle(
     ?>
 
 
+
+
 </div>
 
 <div class="animation-group staggered-grid animation-zoom-in animate-when-content-appears gap-3  mb-3">
 
     <?php
-    echo item_imageCard_modal(
+    echo item_imageCard_videoModal(
         get_icon('vr-cardboard').'The Ecological Preserve',
         null,
-        'ecological-modal',
+        'https://www.youtube.com/embed/Wjxz5QMAw3c',
         null,
         ['url' => '/mockups/admission-home/fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
+
     ?>
 
     <?php
-    echo item_imageCard_modal(
+    echo item_imageCard_videoModal(
         get_icon('play').'Student Picks',
         null,
-        'student-modal',
+        'https://www.youtube.com/embed/e2Qz73uGyLs',
         null,
         ['url' => $admission_img_path.'admission-home/favplaces-v2.jpg',
             'alt' => 'Student describing favorite place on campus'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
+
     ?>
+
 
 </div><!-- end layout-masonry -->
 
@@ -364,12 +372,12 @@ All Vassar students are surrounded by an environment designed to spark something
 
 
 <div class="animation-group staggered-grid  animation-zoom-in animate-when-content-appears gap-3  mb-3">
-    <?php
 
-    echo item_imageCard_modal(
+    <?php
+    echo item_imageCard_videoModal(
         get_icon('play').'All about food',
         null,
-        'food-modal',
+        'https://www.youtube.com/embed/0jdM1pZJy64',
         null,
         ['url' => $admission_img_path.'admission-home/video/food-1.jpg',
             'alt' => 'asdfasdf'
@@ -378,12 +386,12 @@ All Vassar students are surrounded by an environment designed to spark something
     );
 
     ?>
-    <?php
 
-    echo item_imageCard_modal(
+    <?php
+    echo item_imageCard_videoModal(
         get_icon('play').'What\'s Your Take?',
         null,
-        'student-takes',
+        'https://www.youtube.com/embed/7fjWRvjKH5E',
         null,
         ['url' => $admission_img_path.'admission-home/video/words-4.jpg',
             'alt' => 'asdfasdf'
@@ -392,6 +400,7 @@ All Vassar students are surrounded by an environment designed to spark something
     );
 
     ?>
+
 </div>
 
 
@@ -536,124 +545,6 @@ All Vassar students are surrounded by an environment designed to spark something
 
 
 
-<?php
-
-echo item_imageCard_modal_setup(
-    get_icon('play').'All about food',
-    null,
-    'food-modal',
-    '<div class="ratio ratio-16x9">
-<iframe class="modal-video" id="video-id--2081" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/0jdM1pZJy64?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
-  </div>',
-    ['url' => '/mockups/admission-home/fav-places-2/110619_160over90_Vassar_5483.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-echo item_imageCard_modal_setup(
-    get_icon('play').'Whats your Take',
-    null,
-    'student-takes',
-    '<div class="ratio ratio-16x9">
-<iframe class="modal-video" id="video-id--2081" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/7fjWRvjKH5E?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
-  </div>',
-    ['url' => '/mockups/admission-home/fav-places-2/110619_160over90_Vassar_5483.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-
-echo item_imageCard_modal_setup(
-    get_icon('play').'Bridge for Laboratory Sciences',
-    null,
-    'lab-sciences-modal',
-    '<div class="ratio ratio-16x9">
-<iframe class="modal-video" id="video-id--2081" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/AqDKltbh7h4?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
-  </div>',
-    ['url' => '/mockups/admission-home/fav-places-2/110619_160over90_Vassar_5483.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-
-
-echo item_imageCard_modal_setup(
-    get_icon('play').'Shakespeare Garden',
-    null,
-    'shakespeare-modal',
-    '<div class="ratio ratio-16x9">
-          <iframe class="modal-video" id="video-id--2186" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/pfJIwU-Kifg?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=2" data-gtm-yt-inspected-8="true"></iframe>
-        </div>',
-    ['url' => '/mockups/admission-home/fav-places-2/0056-21-06-kr-campus-vassar-0006-copy.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-?>
-
-<?php
-echo item_imageCard_modal_setup(
-    get_icon('play').'Thompson Memorial Library',
-    null,
-    'thompson-modal',
-    '<div class="ratio ratio-16x9">
-        <iframe class="modal-video" id="video-id--2121" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/lQ0Jb9u6zTY?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
-      </div>',
-    ['url' => '/mockups/admission-home/fav-places-2/0212-18-10-kr-library-fall-vassar-3819.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-?>
-
-<?php
-echo item_imageCard_modal_setup(
-    get_icon('play').'Gordon Commons',
-    null,
-    'gordon-modal',
-    '<div class="ratio ratio-16x9">
-        <iframe class="modal-video" id="video-id--2041" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/l9N-gTmvMgo?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-7="true"></iframe>
-      </div>',
-    ['url' => '/mockups/admission-home/fav-places-2/0195-19-11-kwe-gordon-vassar-1644.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-?>
-
-<?php
-echo item_imageCard_modal_setup(
-    get_icon('play').'The Ecological Preserve',
-    null,
-    'ecological-modal',
-    '<div class="ratio ratio-16x9">
-        <iframe class="modal-video" id="video-id--2191" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/Wjxz5QMAw3c?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=2" data-gtm-yt-inspected-7="true"></iframe>
-      </div>',
-    ['url' => '/mockups/admission-home/fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-?>
-
-<?php
-echo item_imageCard_modal_setup(
-    get_icon('play').'Student Picks',
-    null,
-    'student-modal',
-    '<div class="ratio ratio-16x9"><iframe width="560" height="315" src="https://www.youtube.com/embed/e2Qz73uGyLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>',
-    ['url' => '/mockups/admission-home/fav-places-2/studio.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-?>
 
 
 <?php
@@ -711,4 +602,16 @@ Your browser does not support the video tag.
 ?>
 
 
-<?php echo site_footer(); ?>
+
+
+ <?php
+ echo item_modal_standardVideo();
+ ?>
+
+
+
+ </div>
+
+
+
+ <?php echo site_footer(); ?>

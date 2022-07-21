@@ -50,6 +50,8 @@ include($project_paths['main_project_root'].'/core/items/icon-statItem.inc');
 include($project_paths['main_project_root'].'/core/items/cardWithText.inc');
 include($project_paths['main_project_root'].'/core/items/imageCard.inc');
 include($project_paths['main_project_root'].'/core/items/imageCard_modal.inc');
+include($project_paths['main_project_root'].'/core/items/imageCard_videoModal.inc');
+include($project_paths['main_project_root'].'/core/items/modal-standardVideo.inc');
 
 include($project_paths['main_project_root'].'/core/items/labeled-list-item.inc');
 
