@@ -147,7 +147,8 @@
   }
 }
  p a {
-   text-decoration: underline;
+   text-decoration: none;
+   border-bottom: 1px solid  $gray-500;
  }
 
 

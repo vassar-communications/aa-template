@@ -62,7 +62,101 @@ $page_classes = "";
 <?php /*  PAGE CONTENT === */ ?>
 
 
+
+
+<?php echo sec_wideContent(
+        'Extracurricular activities include',
+        '',
+        'theme-dark-burgundy',
+);?>
+
+
+
+
+
+<div class="grid cols-4 animation-group animation-zoom-in animate-when-content-appears" style="--bs-gap: 1rem">
+
+    <?php echo item_iconButton(
+        'image',
+        'nine a capella singing groups',
+        null,
+        'btn-card animation-item'
+    ); ?>
+
+    <?php echo item_iconButton(
+        'image',
+        'the Barefoot Fireflies fire-juggling club',
+        null,
+        'btn-card animation-item'
+    ); ?>
+
+    <?php echo item_iconButton(
+        'image',
+        'hundreds of student organizations',
+        null,
+        'btn-card animation-item'
+    ); ?>
+
+    <?php echo item_iconButton(
+        'image',
+        'thousands of campus-wide events',
+        null,
+        'btn-card animation-item'
+    ); ?>
+
+</div>
+
+
+<?php echo end_sec_wideContent(); ?>
 <!-- RELATED TOPICS ===  -->
+
+<?php echo sec_wideContent(
+    'It’s Not Student Housing, It’s Home',
+    'Our nine historic residential houses are the heart of Vassar. You won’t find a Greek system on campus—a fact we celebrate—and 97% of students choose to live on campus. ',
+    'theme-charcoal bg-dark quad-pattern has-bg',
+);?>
+<div class="animation-group staggered-grid animation-zoom-in animate-when-content-appears gap-3  mb-3">
+</div>
+
+<?php echo end_sec_wideContent(); ?>
+
+<?php echo sec_fullBleedImageColumn(
+    'Galvanize Your Energy',
+    $admission_img_path.'placeholder.jpg',
+    'image-is-first theme-cream',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>Athletics have always been an important facet of the Vassar experience. In addition to our 27 Varsity sports, athletes of all levels have the opportunity to join an intramural team, take a yoga class, or use Vassar’s on-campus golf course. Among many offerings, club sports include Ultimate Frisbee, Quidditch, Figure Skating, and others.</p>
+
+    <?php echo cta_link(
+        'https://www.vassarathletics.com/',
+        'Learn more about Vassar Athletics'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Part of a Bigger Whole',
+    $admission_img_path.'placeholder.jpg',
+    '',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>The Vassar community engages with Poughkeepsie and the wider Hudson River Valley region on multiple levels. Students participate in community-based learning assignments and volunteering opportunities. Reciprocally, Vassar welcomes our neighbors to engage in campus events and explore our facilities.</p>
+
+    <?php echo cta_link(
+        'https://vassargoodneighbors.wordpress.com/',
+        'Learn more about Vassar’s Good Neighbors Partnerships'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
 
 <?php echo sec_hasColumns(
     'More in This Section',

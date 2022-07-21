@@ -17,7 +17,7 @@
   --bs-font-sans-serif: "Source Sans Variable", system-ui, Helvetica, Arial, sans-serif;
   --font-big-serif: freight-display-pro;
   --regularContent-font-size: calc(1.165rem + 0.18vw);
-  --regularContent-lineHeight: 1.36;
+  --regularContent-lineHeight: 1.5;
   --regularContent-font-weight: "wght" 340;
   --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
   --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 40%, rgba(0,0,0,0.0) 60%, rgba(0,0,0,0) 100%);
@@ -14623,7 +14623,8 @@ p a:hover, p a:visited:hover, a.btn-link:hover, a.btn-link:visited:hover, nav a:
 }
 
 p a {
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid #adb5bd;
 }
 
 /*text buttons */
