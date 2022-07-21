@@ -181,28 +181,41 @@ $page_classes = "";
 ); ?>
 
 <?php echo item_col(); ?>
-<?php echo item_cardWithText(
-    '“Is Love a Boy?” performed by the Vassar College Chamber Singers',
-    '#',
-    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
-    '',
-    ['hlevel' => 4]
-); ?>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
-<?php echo end_item_cardWithText(); ?>
+
+<?php
+echo item_imageCard_videoModal(
+    get_icon('play').'“Is Love a Boy?” performed by the Vassar College Chamber Singers',
+    null,
+    'https://www.youtube.com/embed/f8meSHKeTSg',
+    null,
+    ['url' => $admission_img_path.'admission-home/video/food-1.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom text-white'
+);
+
+?>
+
+
 <?php echo end_item_col(); ?>
 
 
 <?php echo item_col(); ?>
-<?php echo item_cardWithText(
-    '“Unclouded Day” performed by the Vassar College Choir and Friends',
-    '#',
-    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
-    '',
-    ['hlevel' => 4]
-); ?>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
-<?php echo end_item_cardWithText(); ?>
+
+<?php
+echo item_imageCard_videoModal(
+    get_icon('play').'“Unclouded Day” performed by the Vassar College Choir and Friends',
+    null,
+    'https://player.vimeo.com/video/484138020?api=1?badge=0?autoplay=1',
+    null,
+    ['url' => $admission_img_path.'admission-home/video/food-1.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom text-white'
+);
+
+?>
+
 <?php echo end_item_col(); ?>
 
 
@@ -242,3 +255,7 @@ $page_classes = "";
 <?php echo end_sec_relatedTopics(); ?>
 
 <?php echo site_footer(); ?>
+
+<?php
+echo item_modal_standardVideo();
+?>

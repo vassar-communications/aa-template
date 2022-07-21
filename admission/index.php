@@ -610,8 +610,6 @@ Your browser does not support the video tag.
 
 
 
- </div>
-
 
 
  <?php echo site_footer(); ?>
