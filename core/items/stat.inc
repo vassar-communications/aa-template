@@ -11,6 +11,8 @@ function item_stat(
   $css = get_extras_value('css', $extras, 'style="%s"');
   $heading_level = get_extras_value('hlevel', $extras);
 
+  $stat_figure = str_ireplace('%', '<span class="stat-unit">%</span>', $stat_figure);
+
   if($stat_description)
     $stat_description = sprintf('<div>%s</div>', $stat_description);
 

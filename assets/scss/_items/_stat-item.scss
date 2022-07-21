@@ -17,9 +17,14 @@
 
 .stat-value {
   font-family: var(--bs-font-sans-serif);
-  font-size: 8rem;
+  @include font-size(8rem);
   font-variation-settings: "wght" 200;
   line-height: 1;
+
+  .stat-unit {
+    font-size: 70%;
+    color: #888;
+  }
 }
 
 // Homepage

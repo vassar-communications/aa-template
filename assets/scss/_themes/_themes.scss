@@ -206,6 +206,15 @@ p a, a.btn-link, nav a, li a, footer a  {
   }
 }
 
+.burgundy-icons {
+  --icon-color: #{$burgundy};
+}
+.dark-burgundy-icons {
+  --icon-color: #{$darkburgundy};
+}
+.darkest-burgundy-icons {
+  --icon-color: #{$darkestburgundy};
+}
 .red-icons {
   --icon-color: #{$red};
 }

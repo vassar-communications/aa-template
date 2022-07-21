@@ -10739,8 +10739,12 @@ details.open .dropdown__content .col-sm {
 .icon-item {
   padding: 1.4rem 0;
 }
+.vertically-center-icon .icon-item {
+  align-items: center;
+}
 .icon-item .icon-container {
   width: 4.2rem;
+  height: 3rem;
 }
 .icon-item .icon-item__text {
   width: 100%;
@@ -10872,9 +10876,18 @@ details.open .dropdown__content .col-sm {
 
 .stat-value {
   font-family: var(--bs-font-sans-serif);
-  font-size: 8rem;
+  font-size: calc(1.925rem + 8.1vw);
   font-variation-settings: "wght" 200;
   line-height: 1;
+}
+@media (min-width: 1200px) {
+  .stat-value {
+    font-size: 8rem;
+  }
+}
+.stat-value .stat-unit {
+  font-size: 70%;
+  color: #888;
 }
 
 .fancy-stats-container .stat-value {
@@ -11234,6 +11247,10 @@ h3.section-title, .section-title.h3 {
   width: 100%;
   top: 0;
   opacity: var(--bg-image-opacity, 1);
+}
+
+.wide-intro .section-intro {
+  --section-intro-width: 56rem;
 }
 
 .card-array .card {
@@ -11626,7 +11643,7 @@ html {
   max-width: var(--cols-mw, 60rem);
 }
 .section-with-columns .section-intro {
-  max-width: 46rem;
+  max-width: var(--section-intro-width, 46rem);
   margin: 1rem auto 2.6rem auto;
   text-align: center;
 }
@@ -15192,6 +15209,18 @@ p a:hover, p a:visited:hover, a.btn-link:hover, a.btn-link:visited:hover, nav a:
 }
 .theme-charcoal-to-white.show-content {
   background-color: #eeeeee;
+}
+
+.burgundy-icons {
+  --icon-color: #951829;
+}
+
+.dark-burgundy-icons {
+  --icon-color: #641A2B;
+}
+
+.darkest-burgundy-icons {
+  --icon-color: #3d0f1a;
 }
 
 .red-icons {

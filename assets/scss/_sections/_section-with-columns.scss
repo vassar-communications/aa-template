@@ -8,7 +8,7 @@
     max-width: var(--cols-mw, 60rem);
   }
   .section-intro {
-    max-width: 46rem;
+    max-width: var(--section-intro-width, 46rem);
     margin: 1rem auto 2.6rem auto;
     text-align: center;
   }

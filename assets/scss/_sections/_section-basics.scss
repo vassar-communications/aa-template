@@ -116,3 +116,9 @@ h3.section-title {
     opacity: var(--bg-image-opacity, 1);
   }
 }
+
+.wide-intro {
+  .section-intro {
+    --section-intro-width: 56rem;
+  }
+}

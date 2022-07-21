@@ -6,6 +6,7 @@
 $placeholder_img_banner = '/assets/images/placeholders/placeholder-banner.png';
 $placeholder_img_square = '/assets/images/placeholders/placeholder-square.png';
 $placeholder_img_vertical = '/assets/images/placeholders/placeholder-portrait.jpg';
+$placeholder_img_wide = '/assets/images/placeholders/placeholder-wide.jpg';
 
 $admission_img_path = '/admission/assets/images/';
 

@@ -4,8 +4,13 @@
 .icon-item {
   padding: 1.4rem 0;
 
+  .vertically-center-icon & {
+    align-items: center;
+  }
+
   .icon-container {
       width: 4.2rem;
+      height: 3rem;
   }
 
   .icon-item__text {
