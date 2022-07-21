@@ -115,8 +115,9 @@ $page_classes = "";
     'Our nine historic residential houses are the heart of Vassar. You won’t find a Greek system on campus—a fact we celebrate—and 97% of students choose to live on campus. ',
     'theme-charcoal bg-dark quad-pattern has-bg',
 );?>
-<div class="animation-group staggered-grid animation-zoom-in animate-when-content-appears gap-3  mb-3">
-</div>
+
+[INSERT IMAGE GALLERY]
+
 
 <?php echo end_sec_wideContent(); ?>
 
