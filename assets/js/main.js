@@ -42,7 +42,7 @@ for (var i = 0; i < discreteElements.length; i++) {
             this.element.classList.add("content-appeared");
         },
 //			context: document.getElementById('page-content'),
-        offset: '60%'
+        offset: '80%'
     });
 }
 

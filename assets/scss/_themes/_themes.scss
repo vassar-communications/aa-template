@@ -1,6 +1,13 @@
 /* Basic links */
 
-p a, a.btn-link, nav a, li a, footer a  {
+p a,
+a.btn-link,
+nav a,
+li a,
+footer a  {
+  transition: 0.4s all ease;
+  transition-property: color, background-color;
+
   &:link {
     background-color: var(--section-link-bg-color, transparent);
     color: var(--section-link-color, var(--color-vassar-burgundy));
@@ -9,7 +16,9 @@ p a, a.btn-link, nav a, li a, footer a  {
     color: var(--section-link-visited-color, var(--color-vassar-burgundy));
   }
   &:hover,
-  &:visited:hover {
+  &:visited:hover,
+  &:focus,
+  &:visited:focus {
     background-color: var(--section-link-hover-bg-color, transparent);
     color: var(--section-link-hover-color, var(--color-vassar-burgundy));
   }
@@ -29,8 +38,8 @@ p a, a.btn-link, nav a, li a, footer a  {
   --section-link-bg-color: transparent;
   --section-link-color: var(--color-vassar-cream);
   --section-link-visited-color: var(--color-vassar-cream);
-  --section-link-hover-bg-color: transparent;
-  --section-link-hover-color: #fff;
+  --section-link-hover-bg-color: #fff;
+  --section-link-hover-color: var(--color-vassar-dark-burgundy);
 
   --intro-line-color: var(--color-vassar-cream);
 
@@ -51,8 +60,8 @@ p a, a.btn-link, nav a, li a, footer a  {
   --section-link-bg-color: transparent;
   --section-link-color: var(--color-vassar-cream);
   --section-link-visited-color: var(--color-vassar-cream);
-  --section-link-hover-bg-color: transparent;
-  --section-link-hover-color: #fff;
+  --section-link-hover-bg-color: #fff;
+  --section-link-hover-color: var(--color-vassar-dark-burgundy);
 
   --intro-line-color: var(--color-vassar-cream);
 
@@ -85,8 +94,8 @@ p a, a.btn-link, nav a, li a, footer a  {
   --section-link-bg-color: transparent;
   --section-link-color: var(--color-vassar-cream);
   --section-link-visited-color: var(--color-vassar-cream);
-  --section-link-hover-bg-color: transparent;
-  --section-link-hover-color: #fff;
+  --section-link-hover-bg-color: var(--color-vassar-cream);
+  --section-link-hover-color: var(--color-vassar-charcoal);
 
 
   --intro-line-color: var(--color-vassar-cream);
@@ -98,6 +107,12 @@ p a, a.btn-link, nav a, li a, footer a  {
     --bg-image-size: 6rem;
     --bg-image-opacity: 0.2;
   }
+  .link--cta {
+    --section-link-color: #fff;
+    --section-link-hover-color: #f00;
+    --section-link-hover-bg-color: transparent;
+  }
+
 }
 
 .theme-cream {
@@ -109,7 +124,7 @@ p a, a.btn-link, nav a, li a, footer a  {
   --section-link-bg-color: transparent;
   --section-link-color: var(--color-vassar-charcoal);
   --section-link-visited-color: var(--color-vassar-charcoal);
-  --section-link-hover-bg-color: transparent;
+  --section-link-hover-bg-color: var(--color-vassar-burgundy);
   --section-link-hover-color: var(--color-vassar-charcoal);
 
   --intro-line-color: var(--color-vassar-burgundy);
@@ -119,6 +134,14 @@ p a, a.btn-link, nav a, li a, footer a  {
     --bg-image-size: 6rem;
     --bg-image-opacity: 0.3;
   }
+
+  .link--cta {
+    --section-link-color: var(--color-vassar-burgundy);
+    --section-link-visited-color: var(--color-vassar-burgundy);
+    --section-link-hover-color: var(--color-vassar-red);
+    --section-link-hover-bg-color: transparent;
+  }
+
 }
 
 
@@ -132,8 +155,8 @@ p a, a.btn-link, nav a, li a, footer a  {
   --section-link-bg-color: transparent;
   --section-link-color: var(--color-vassar-charcoal);
   --section-link-visited-color: var(--color-vassar-charcoal);
-  --section-link-hover-bg-color: transparent;
-  --section-link-hover-color: var(--color-vassar-charcoal);
+  --section-link-hover-bg-color: var(--color-vassar-charcoal);
+  --section-link-hover-color: var(--color-vassar-cream);
 
   --intro-line-color: var(--color-vassar-burgundy);
 

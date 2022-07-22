@@ -69,7 +69,10 @@ $page_classes = "visithome";
 <div class="animate-when-content-appears animation-slide-up">
     <p>Get to know our vibrant community first-hand and learn more about the Vassar experience.</p>
 
-    <a href="/admission/visit/in-person/" class="px-0 btn btn-link arrow">Learn more and register for an in-person visit</a>
+    <?php echo cta_link(
+      '/admission/visit/in-person/',
+      'Learn more and register for an in-person visit'
+    ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -83,7 +86,10 @@ $page_classes = "visithome";
 <div class="animate-when-content-appears animation-slide-up section-large-title">
     <p>Vassar offers a wide array of opportunities to virtually explore the Vassar campus and to connect with our community. </p>
 
-    <a href="/admission/visit/virtual-programs/" class="px-0 btn btn-link arrow">Explore virtual programs</a>
+    <?php echo cta_link(
+      '/admission/visit/virtual-programs/',
+      'Explore virtual programs'
+    ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
