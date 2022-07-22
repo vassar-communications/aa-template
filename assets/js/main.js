@@ -385,7 +385,8 @@ if ($('.featureImage-text-ticker').length) {
         friction: 0.2,
         pageDots:  false,
         autoPlay: 10000,
-        wrapAround: true
+        wrapAround: true,
+        watchCSS: true
     });
 }
 

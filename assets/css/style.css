@@ -14107,19 +14107,25 @@ html {
 }
 
 /* external css: flickity.css */
-.featureImage-text-ticker .carousel-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
-  counter-increment: carousel-cell;
-  opacity: 0.2;
-  transform: scale(0.7);
-}
-.featureImage-text-ticker .is-selected {
-  opacity: 1;
-  transform: scale(1);
-}
+@media screen and (min-width: 50em) {
+  /* disable Flickity for large devices */
+  .featureImage-text-ticker:after {
+    content: "flickity";
+  }
 
+  .featureImage-text-ticker .carousel-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    counter-increment: carousel-cell;
+    opacity: 0.2;
+    transform: scale(0.7);
+  }
+  .featureImage-text-ticker .is-selected {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 /*  LAYOUT
   ====== */
 html {
@@ -14211,19 +14217,19 @@ html {
   border-left: none;
 }
 
-.featureImage-text-ticker .carousel-cell:hover {
+.featureImage-text-ticker .carousel-cell.is-link:hover {
   cursor: pointer;
 }
-.featureImage-text-ticker .carousel-cell:hover i.circle.fa-solid {
+.featureImage-text-ticker .carousel-cell.is-link:hover i.circle.fa-solid {
   background: #fff;
   color: #ED1C24;
 }
-.featureImage-text-ticker .carousel-cell:hover .figcaption:before, .featureImage-text-ticker .carousel-cell:hover .figcaption:after {
+.featureImage-text-ticker .carousel-cell.is-link:hover .figcaption:before, .featureImage-text-ticker .carousel-cell.is-link:hover .figcaption:after {
   width: calc(100% - (2 * 0.6rem));
   height: calc(100% - (2 * 0.6rem));
   opacity: 1;
 }
-.featureImage-text-ticker .carousel-cell:hover img {
+.featureImage-text-ticker .carousel-cell.is-link:hover img {
   filter: brightness(1.2);
   transform: scale(1.04);
 }
