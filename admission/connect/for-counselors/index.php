@@ -20,7 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($placeholder_img_banner); ?>
 
 <?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-connect-breadcrumb.php');?>
@@ -34,13 +34,12 @@ $page_classes = "";
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Information for High School Counselors',
     '/assets/images/placeholders/main-placeholder.jpg',
-    'image-is-first theme-cream',
+    'image-is-first theme-cream section-large-title',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h1 class="display-2">Information for High School Counselors</h1>
     <p>Vassar was built to advance the notion of what a liberal arts college can be. From day one, we’ve empowered students to explore widely, delve deeply, and investigate every new idea with an open mind. Please don’t hesitate to be in touch as you help your students explore their college options. </p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>

@@ -44,7 +44,7 @@ $page_classes = "";
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-   <h1 class="display-6">Vassar provides a high-value education and is committed to meeting 100% of the demonstrated financial need of all admitted students.</h1>
+   <p class="intro-text">Vassar provides a high-value education and is committed to meeting 100% of the demonstrated financial need of all admitted students.</p>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>

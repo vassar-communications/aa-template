@@ -41,36 +41,38 @@ $page_classes = "";
 );?>
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Virtual Visit Options',
     $admission_img_path.'visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2025.jpg',
-    'image-is-first theme-cream',
+    'image-is-first theme-cream section-large-title',
     ''
 ); ?>
 
-<div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Virtual Visit Options</h2>
+<div class="animate-when-content-appears animation-slide-up ">
     <p class="tagline  mb-2">Virtual Information Sessions</p>
 
       <p>Learn about academics, student life, the application process, financial aid, and ask your questions about Vassar.</p>
     <p class="tagline  mb-2">Student Q&As</p>
         <p>Meet current students on Zoom and ask your questions about academics, involvement, and what it’s like to be a Vassar College student.</p>
-    <a href="https://apply.vassar.edu/portal/campusvisitcalendar"  class="btn btn-primary arrow">Register Now</a>
+
+        <?php echo cta_button(
+          'https://apply.vassar.edu/portal/campusvisitcalendar',
+          'Register Now'
+        ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_hasColumns(
-    null,
+    'Video Campus Tour',
     2,
     null,
-    'theme-dark-burgundy',
+    'theme-dark-burgundy section-large-title',
     'd-flex align-items-center'
 ); ?>
 
 
 
 <?php echo item_col(); ?>
-<h2 class="display-2">Video Campus Tour</h2>
 <p>Students wishing to preview the Vassar campus can watch this 30-minute video tour</p>
 <a href="https://apply.vassar.edu/portal/campusvisitcalendar"  class="px-0 btn btn-link arrow">Watch Video</a>
 <?php echo end_item_col(); ?>
@@ -94,7 +96,7 @@ $page_classes = "";
     'Self-Guided Virtual Tour',
     'https://www.vassar.edu/tour',
     ['url' => $admission_img_path.'visit/virtual/0091_15_09_KR_0201.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
 <p>Access an interactive campus tour with 360° views.</p>
@@ -108,7 +110,7 @@ $page_classes = "";
     'Classroom Visits',
     '/admission/visit/class-visits/',
     ['url' => $admission_img_path.'visit/virtual/110519_160over90_Vassar_0348.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
 <p>Want to experience the virtual Vassar classroom? Check out these pre-recorded classes.</p>
@@ -123,7 +125,7 @@ $page_classes = "";
     'Vassar on Demand',
     '/admission/visit/on-demand/',
     ['url' => $admission_img_path.'visit/virtual/Take_Off_MZa.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
 <p>Miss a virtual event or want to see more? Watch past events, presentations, and performances any time!</p>
@@ -143,16 +145,19 @@ $page_classes = "";
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Buildings and Belonging',
     $admission_img_path.'visit/virtual/Urban_Center_Black_Studies_SPC.jpg',
-    'theme-charcoal bg-dark quad-pattern has-bg',
+    'theme-charcoal bg-dark quad-pattern has-bg section-large-title',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-<h2 class="display-2 mb-5 border-animate">Buildings and Belonging</h2>
 <p>Buildings and Belonging is a digital tool and self-guided campus tour that celebrates, honors, and remembers the contributions of African-American community members whose presence and contributions have shaped Vassar.</p>
 
-<a class="btn btn-link arrow" href="https://www.vassar.edu/buildings-and-belonging">Buildings & Belongings Map</a>
+<?php echo cta_link(
+  'https://www.vassar.edu/buildings-and-belonging',
+  'Buildings & Belongings Map'
+); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

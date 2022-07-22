@@ -61,13 +61,12 @@ $page_classes = "visithome";
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Visit the Vassar Campus In Person',
     $admission_img_path.'visit/0042-21-06-kr-reception-vassar-0130.jpg',
-    'image-is-first theme-charcoal bg-dark',
+    'image-is-first theme-charcoal bg-dark section-large-title',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Visit the Vassar Campus In Person </h2>
     <p>Get to know our vibrant community first-hand and learn more about the Vassar experience.</p>
 
     <a href="/admission/visit/in-person/" class="px-0 btn btn-link arrow">Learn more and register for an in-person visit</a>
@@ -76,13 +75,12 @@ $page_classes = "visithome";
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Explore Our Virtual Opportunities',
     $admission_img_path.'visit/0191-19-10-ali-library-drone-vassar-vb-2015.jpg',
     'theme-cream',
     ''
 ); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Explore Our Virtual Opportunities</h2>
+<div class="animate-when-content-appears animation-slide-up section-large-title">
     <p>Vassar offers a wide array of opportunities to virtually explore the Vassar campus and to connect with our community. </p>
 
     <a href="/admission/visit/virtual-programs/" class="px-0 btn btn-link arrow">Explore virtual programs</a>
@@ -154,8 +152,8 @@ $page_classes = "visithome";
     'text-center',
     ''
 ); ?>
-<p>Join our mailing list to stay up to date with all things Vassar and get access to special events throughout the year.</p>
-<a href="https://apply.vassar.edu/register/requestinfo" class="btn btn-light btn-lg">Join the List</a>
+<p class="intro-text">Join our mailing list to stay up to date with all things Vassar and get access to special events throughout the year.</p>
+<a href="https://apply.vassar.edu/register/requestinfo" class="btn btn-light btn-lg mt-4">Join the List</a>
 
 
 <?php echo end_sec_regularContent(); ?>

@@ -43,7 +43,7 @@ $page_classes = "";
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Applying for financial aid can be daunting, but we’re here to help you through each step.</p>
 
-    <p><a>If you have any questions, contact <a href="mailto:finaid@vassar.edu">finaid@vassar.edu</a> or visit Student Financial Services.</p>
+    <p>If you have any questions, contact <a href="mailto:finaid@vassar.edu">finaid@vassar.edu</a> or visit Student Financial Services.</p>
 
     <?php echo cta_link(
         'https://apply.vassar.edu/portal/campusvisitcalendar',

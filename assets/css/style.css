@@ -13688,7 +13688,7 @@ This should be a section option
 .partial-masthead .supertitle {
   font-size: 2rem;
   border-bottom: 1px solid #fff;
-  display: inline-block;
+  display: block;
   width: fit-content;
   padding-bottom: 1rem;
   text-transform: uppercase;
