@@ -24,7 +24,7 @@ $page_classes = "";
 
 
 <?php echo sec_fixedCenteredTitle_masthead_vid(
-    '<b class="slide-from-left">Explore</b>
+    '<b class="slide-from-left supertitle">Explore</b>
    <b class="slide-from-right">Student Life</b>',
     '726007009?h=91eec5d256',
     'theme-verylightgray reveal-image',

@@ -23,7 +23,7 @@ $page_classes = "";
 
 
 <?php echo sec_fixedCenteredTitle_masthead_vid(
-    '<b class="slide-from-left">Explore</b>
+    '<b class="slide-from-left supertitle">Explore</b>
    <b class="slide-from-right">Campus</b>',
     '726094046?h=e82beea31f',
     'theme-verylightgray reveal-image',
@@ -52,24 +52,45 @@ $page_classes = "";
 
 <?php echo masthead_interiorPage(
     'Where Horizons Meet',
-    'Vassar’s 1,000-acre campus blends timeless architecture blended with cutting-edge facilities',
+    'Vassar’s 1,000-acre campus blends timeless architecture blended with cutting-edge facilities.',
     $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
 ?>
 
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/assets/images/placeholders/main-placeholder.jpg',
-    'image-is-first theme-dark-burgundy quad-pattern has-bg',
+    $placeholder_img_vertical,
+    'image-is-first theme-dark-burgundy quad-pattern has-bg gold-icons',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate placeholder">On Vassar’s 1,000-acre campus, students have access to:</h2>
-    <ul>
-        <li>Timeless architecture blended with cutting-edge facilities</li>
-        <li> Spaces that inspire bold thinking as well as an appreciation for natural beauty</li>
-        <li>A safe and inclusive environments where, no matter who you are, together we can become more</li>
-    </ul>
+    <p class="intro-text placeholder">On Vassar’s 1,000-acre campus, students have access to:</p>
+
+    <div class="icon-items-list vertically-center-icon">
+      <?php echo item_iconItem(
+        null,
+        'archway',
+        'icon-on-left'
+      ); ?>
+          <p>Timeless architecture blended with cutting-edge facilities.</p>
+      <?php echo end_item_iconItem(); ?>
+
+      <?php echo item_iconItem(
+        null,
+        'tree',
+        'icon-on-left'
+      ); ?>
+          <p>Spaces that inspire bold thinking as well as an appreciation for natural beauty.</p>
+      <?php echo end_item_iconItem(); ?>
+
+      <?php echo item_iconItem(
+        null,
+        'people-roof',
+        'icon-on-left'
+      ); ?>
+          <p>A safe and inclusive environment where, no matter who you are, together we can become more.</p>
+      <?php echo end_item_iconItem(); ?>
+    </div>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

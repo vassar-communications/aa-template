@@ -38,13 +38,12 @@ $page_classes = "";
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'QuestBridge',
     '/assets/images/placeholders/main-placeholder.jpg',
-    'image-is-first theme-cream',
+    'image-is-first theme-cream section-large-title',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">QuestBridge</h2>
     <p>Vassar is a partner with QuestBridge, a program dedicated to providing higher educational opportunities to exceptional, high-achieving students from low-income communities to support their success.</p>
 
     <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="px-0 btn btn-link arrow">Visit Questbridge.org</a>

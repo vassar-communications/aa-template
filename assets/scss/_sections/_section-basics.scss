@@ -34,6 +34,11 @@
 .section-title {
   color: var(--section-title-color, --color-vassar-charcoal);
   font-size: calc(1.465rem + 2.58vw);
+
+  .section-large-title & {
+    @include font-size(4.5rem);
+  }
+
   font-weight: 100;
   text-align: center;
 

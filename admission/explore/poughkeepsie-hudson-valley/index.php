@@ -22,7 +22,7 @@ $page_classes = "";
 
 
 <?php echo sec_fixedCenteredTitle_masthead(
-    '<b class="slide-from-left">Explore</b>
+    '<b class="slide-from-left supertitle">Explore</b>
    <b class="slide-from-right">Poughkeepsie & The Hudson Valley</b>',
     null,
     'theme-verylightgray reveal-image',

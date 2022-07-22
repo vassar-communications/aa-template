@@ -61,13 +61,12 @@ $page_classes = "";
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'How to Apply',
     $admission_img_path.'apply/how-to-apply/110519_160over90_Vassar_0221.jpg',
     'image-is-first theme-charcoal bg-dark quad-pattern has-bg',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">How to Apply</h2>
     <p>Learn more about Vassar's application requirements and important deadlines.</p>
 
     <a href="/admission/apply/how-to-apply/" class="px-0 btn btn-link arrow">Learn more about how to apply to Vassar</a>
@@ -75,13 +74,12 @@ $page_classes = "";
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'First-Year applicants',
     $admission_img_path.'apply/0007_16_02_KR_0083.jpg',
     'theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">First-Year applicants</h2>
     <p>Everything you need to know about applying to Vassar as an incoming first-year student.</p>
 
     <a href="/admission/apply/first-year-applicants/" class="px-0 btn btn-link arrow">Learn more about applying as a first-year student</a>
@@ -91,13 +89,12 @@ $page_classes = "";
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Transfer Applicants',
     $admission_img_path.'apply/0137_14_11_KR_0003.jpg',
     'image-is-first theme-charcoal bg-dark quad-pattern has-bg',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Transfer Applicants</h2>
     <p>Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. </p>
 
     <a href="/admission/apply/transfer/" class="px-0 btn btn-link arrow">Information for transfer applicants</a>
@@ -106,13 +103,12 @@ $page_classes = "";
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'International Applicants',
     $admission_img_path.'apply/international/0074_15_08_KR_0122.jpg',
     'theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">International Applicants</h2>
     <p>Vassar is a vibrant community of global citizens</p>
 
     <a href="/admission/apply/international/" class="px-0 btn btn-link arrow">Information for international applicants</a>

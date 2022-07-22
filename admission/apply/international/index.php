@@ -39,7 +39,7 @@ $page_classes = "";
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Vassar students come from more than 79 countries around the world and international students make up more than 10% of our community.</p>
+    <p class="intro-text">Vassar students come from more than 79 countries around the world and international students make up more than 10% of our community.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

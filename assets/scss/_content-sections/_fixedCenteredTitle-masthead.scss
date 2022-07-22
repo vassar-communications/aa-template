@@ -11,6 +11,19 @@ This should be a section option
  // min-height: 100vh;
  // padding-top: 80vh;
 
+ .supertitle {
+     font-size: 2rem !important;
+     border-bottom: 1px solid #fff;
+     display: inline-block !important;
+     width: fit-content;
+     padding-bottom: 1rem;
+     text-transform: uppercase;
+     letter-spacing: 0.1rem;
+ }
+
+ iframe {
+   background: #000;
+ }
   .animation-item {
     @include setup-animation-zoom-in();
   }
@@ -31,6 +44,9 @@ This should be a section option
       will-change: text-shadow;
       text-transform: uppercase;
       font-style: italic;
+
+      margin: 0;
+      padding: 0;
     }
   }
 
@@ -83,12 +99,6 @@ This should be a section option
   }
 
   .section-title {
-
-    /* not necessary given flex?
-    margin: 0;
-    padding: 0;
- */
-
     &:after {
       display: none;
     }

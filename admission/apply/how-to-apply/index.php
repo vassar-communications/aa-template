@@ -96,7 +96,7 @@ $page_classes = "";
   <p>Supplemental materials, can be uploaded through the application status portal, which is available after an application has been submitted and processed.</p>
   <p><strong>To submit documents:</strong><br/>
       Email: <a href="mailto:admappmaterials@vassar.edu">admappmaterials@vassar.edu</a><br/>
-      Fax: (845) 437-706</p>
+      Fax: (845) 437-7063</p>
   <p>Financial Aid documents should be submitted to Student Financial Services through IDOC.</p>
 <?php echo end_sec_regularContent(); ?>
 

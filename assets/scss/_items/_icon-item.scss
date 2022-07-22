@@ -18,7 +18,10 @@
   }
 
   p {
-    &:only-child {
+    --regularContent-lineHeight: 1.26;
+
+    &:only-child,
+    &:last-of-type {
       margin: 0;
     }
   }
