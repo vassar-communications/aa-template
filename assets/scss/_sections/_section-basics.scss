@@ -130,3 +130,24 @@ h3.section-title {
     --section-intro-width: 56rem;
   }
 }
+
+
+.section--edge-to-edge {
+  padding-left: 0;
+  padding-right: 0;
+
+  .section-content {
+    max-width: none;
+  }
+
+  @include break(md) {
+    &-md {
+      padding-left: 0;
+      padding-right: 0;
+
+      .section-content {
+        max-width: none;
+      }
+    }
+  }
+}

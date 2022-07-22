@@ -1,13 +1,47 @@
+/*  LAYOUT
+  ====== */
+
+html {
+  --carousel-height: 28rem;
+}
+
+$border-distance: 0.6rem;
+
+
+.figcaption {
+  background: var(--color-vassar-dark-burgundy) !important;
+//  @include padding(2rem);
+
+  padding: clamp(1rem, 2.5vw, 2rem);
+
+  p {
+    font-size: 1.14rem !important;
+  }
+  * {
+    position: relative;
+    z-index: 10;
+  }
+}
+
 
 /* external css: flickity.css */
 
-@include break(md) {
-  /* disable Flickity for large devices */
-  .featureImage-text-ticker:after {
-    content: 'flickity';
+@include break(lg, 'max') {
+  .carousel-cell {
+    margin-bottom: 3rem;
   }
+}
+
+@include break(lg) {
+  /* disable Flickity for large devices */
 
   .featureImage-text-ticker {
+    height: var(--carousel-height, 32em);
+
+    &:after {
+      content: 'flickity';
+    }
+
     .carousel-cell {
       width: 66%;
       height: 200px;
@@ -22,60 +56,46 @@
       opacity: 1;
       transform: scale(1);
     }
-  }
-}
 
-
-/*  LAYOUT
-  ====== */
-
-html {
-  --carousel-height: 28rem;
-}
-
-.featureImage-text-ticker {
-  .flickity-viewport {
-    position: relative;
-    height: 100% !important;
-  }
-
-  & {
-    height: var(--carousel-height, 32em);
-  }
-  & .carousel-cell {
-    height: 100%;
-
-
-
-  }
-  .carousel-cell-content {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    gap: var(--carousel-gap, 1.3rem);
-  }
-
-  & .carousel-cell .image-container {
-    width: fit-content;
-
-    img {
-      width: fit-content;
-    // this was distorting images  max-width: 100%;
-      height: var(--carousel-height, 32em);
-      object-fit: cover !important;
+    .flickity-viewport {
+      position: relative;
+      height: 100% !important;
     }
-  }
-  .figcaption {
-    background: $gray-700;
-    // padding: 2rem;
-    width: 21rem;
 
-    p {
+    .carousel-cell-content {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      gap: var(--carousel-gap, 1.3rem);
+    }
+
+    .carousel-cell {
+      height: 100%;
+
+      .image-container {
+        width: fit-content;
+
+        img {
+          width: fit-content;
+        // this was distorting images  max-width: 100%;
+          height: var(--carousel-height, 32em);
+          object-fit: cover !important;
+        }
+      }
+    }
+    .figcaption {
+      background: $gray-700;
+      // padding: 2rem;
+      width: 21rem;
+
+      p {
         font-size: $font-size-base;
+      }
     }
   }
 }
+
 
 
 /*  Theme
@@ -87,25 +107,15 @@ html {
 
 
 
-.featureImage-text-ticker .carousel-cell.is-selected {
-  z-index: 10;
-}
-
-.featureImage-text-ticker .carousel-cell-content {
-  gap: 0;
-  border-radius: 0.4em;
-  overflow: hidden;
-}
-
-
-.featureImage-text-ticker .carousel-cell.is-selected .carousel-cell-content {
- // disabling as this wraps an element outside of the image and text -  box-shadow: 0 1em 1em rgba(0,0,0,0.4);
-}
-
-
-$border-distance: 0.6rem;
-
 .featureImage-text-ticker {
+  .carousel-cell.is-selected {
+    z-index: 10;
+  }
+  .carousel-cell-content {
+    gap: 0;
+    border-radius: 0.4em;
+    overflow: hidden;
+  }
   .btn-link {
     margin-top: 2rem;
   }
@@ -144,25 +154,54 @@ $border-distance: 0.6rem;
       border-left: none;
     }
   }
+  .carousel-cell.is-link:hover {
+    cursor: pointer;
+
+    i.circle.fa-solid {
+      background: #fff;
+      color: $red;
+    }
+    .figcaption {
+      &:before,
+      &:after {
+        width: calc(100% - (2 * #{$border-distance}));
+        height: calc(100% - (2 * #{$border-distance}));
+        opacity: 1;
+      }
+    }
+    img {
+      filter: brightness(1.2);
+      transform: scale(1.04);
+    }
+  }
 }
 
 
-.featureImage-text-ticker .carousel-cell.is-link:hover {
-  cursor: pointer;
-  i.circle.fa-solid {
-    background: #fff;
-    color: $red;
-  }
-  .figcaption {
-    &:before,
-    &:after {
-      width: calc(100% - (2 * #{$border-distance}));
-      height: calc(100% - (2 * #{$border-distance}));
-      opacity: 1;
+
+/* In the Media Carousel */
+@include break(lg) {
+  .media-carousel {
+    --carousel-height: 33rem;
+    height: 37rem !important;
+
+    .carousel-cell {
+      width: 70rem !important;
     }
-  }
-  img {
-    filter: brightness(1.2);
-    transform: scale(1.04);
+    .carousel-cell-content {
+      max-width: none;
+    }
+    .image-container {
+      width: 70% !important;
+      height: var(--carousel-height, 32em);
+      position: relative;
+    }
+    &.featureImage-text-ticker .carousel-cell .image-container img {
+      max-height: none;
+      max-width: none;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      object-fit: cover;
+    }
   }
 }

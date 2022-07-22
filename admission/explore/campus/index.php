@@ -97,7 +97,7 @@ $page_classes = "";
 <?php echo sec_wideContent(
     'Where Else But Vassar?',
     '<p>Every Vassar student has their own cherished place on campus. Some of our favorite spaces include:</p>',
-    'theme-charcoal has-bg quad-pattern bg-dark',
+    'theme-charcoal has-bg quad-pattern bg-dark section--edge-to-edge',
     ''
 ); ?>
 

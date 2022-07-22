@@ -21,7 +21,7 @@ function carousel_item(
         <div class="image-container">
           <img src="$image" />
         </div>
-         <div class="figcaption pt-5">
+         <div class="figcaption pt-4">
 TMP;
 }
 

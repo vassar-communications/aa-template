@@ -25,7 +25,7 @@ foreach ($lines as &$line) {
 
   $line = explode(',', $line);
   if($line[0] == '') {
-    $final_markup .= '[] <a href="https://vassar-staging.benaustin.com'.$line[1].'">'.$line[1].'</a><br>';
+    $final_markup .= '<a href="https://vassar-staging.benaustin.com'.$line[1].'">'.$line[1].'</a><br>';
   }
   else {
     // end image item, start new image item
