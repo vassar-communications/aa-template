@@ -9,6 +9,6 @@
 $section_title = function ($title, $title_classes=false, $title_level='2') {
   if($title)
 return <<<TMP
-<h$title_level class="section-title $title_classes">$title</h$title_level>
+<h$title_level class="section-title animate-when-content-appears $title_classes">$title</h$title_level>
 TMP;
 };

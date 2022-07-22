@@ -64,13 +64,16 @@
   }
 
   &.animate-when-content-appears {
+    @include setup-animation-fade-in();
+
     &:after {
-      @include setup-animate-stretch-in();
+      @include setup-animation-stretch-in();
     }
 
     &.content-appeared {
+      @include animation-fade-in();
       &:after {
-        @include animate-stretch-in();
+        @include animation-stretch-in();
       }
     }
   }

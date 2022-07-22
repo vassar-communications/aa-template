@@ -127,7 +127,7 @@ $page_classes = "";
 <!-- stats -->
 
 <?php
-echo word_cycler('where-from');
+// echo word_cycler('where-from');
 
 echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">This is</b>
@@ -136,7 +136,7 @@ echo sec_fixedCenteredTitle(
     font-weight: 100;
     max-width: 40rem;
     margin: 4rem auto 2rem;
-    text-align: left;">Vassar is from <span id="where-from">everywhere</span></h2>
+    text-align: left;">Vassar is from <span id="x-where-from">everywhere</span></h2>
    <h3 class="section-intro-text">World-class educations are built on world-wide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will study abroad while at Vassar.</h3>
 <div class="text-center mb-5">
 <a href="" class="btn btn-lg btn-light arrow">Meet Vassar</a>
@@ -154,7 +154,7 @@ echo sec_fixedCenteredTitle(
       --title-container-bg-beforeContent: rgba(0,0,0,0.26);
       --section-bg-image-opacity: 0;
       --intro-line-color: #fff;
-      --section-title-faded-color: $burgundy; 
+      --section-title-faded-color: $burgundy;
       --section-bg-color-after-content: #fff;
       '
     ]
@@ -472,7 +472,7 @@ All Vassar students are surrounded by an environment designed to spark something
           --title-container-bg-beforeContent: rgba(0,0,0,0.1);
           /* --section-title-faded-opacity: 0.2; */
           --section-bg-image-opacity: 0;
-            --section-title-faded-color: var(--color-vassar-dark-burgundy); 
+            --section-title-faded-color: var(--color-vassar-dark-burgundy);
 
 
           '

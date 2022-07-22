@@ -11213,9 +11213,18 @@ This is a generic container element for containing a 100vh fixed-position elemen
   left: calc(50% - 0.5em);
   bottom: -1.4rem;
 }
+.section-title.animate-when-content-appears {
+  opacity: 0%;
+}
 .section-title.animate-when-content-appears:after {
   opacity: 0;
   transform: scaleX(0);
+}
+.section-title.animate-when-content-appears.content-appeared {
+  animation-delay: var(--animation-delay, 0s);
+  animation-duration: var(--animation-duration, 1s);
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
 }
 .section-title.animate-when-content-appears.content-appeared:after {
   animation-delay: var(--animate-stretch-in-delay, 0.4s);

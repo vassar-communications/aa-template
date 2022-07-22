@@ -100,6 +100,8 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/car
 include($project_paths['main_project_root'].'/core/modules/thumbnail-text-ticker.inc');
 
 include($project_paths['main_project_root'].'/core/modules/animated-statement.inc');
+include($project_paths['main_project_root'].'/core/modules/carousel.inc');
+
 include($project_paths['main_project_root'].'/core/modules/accordion.inc');
 
 include($project_paths['main_project_root'].'/core/modules/deadlines.inc');
