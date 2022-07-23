@@ -11,6 +11,7 @@ $nav-item-border-size: 2px;
 :root {
   --underline-color: #f00;
   --section-nav-emphasis-color: #{$link-red};
+  --nav-outline-color: #{$gold};
 }
 
 .main-site-nav {
@@ -31,7 +32,7 @@ $nav-item-border-size: 2px;
 
   .local-section-nav {
     padding: 0.2rem 0.8rem 0 0.8rem;
-    border: 1px solid #aaa;
+    border: 1px solid var(--nav-outline-color);
     border-bottom: none;
     margin-bottom: 4rem;
     max-width: 80rem;
@@ -52,7 +53,7 @@ $nav-item-border-size: 2px;
         height: 100%;
         top: 0.8rem;
         position: absolute;
-        border: 1px solid #aaa;
+        border: 1px solid var(--nav-outline-color);
         border-left: none;
         border-bottom: none;
         right: -1.4rem;
@@ -102,4 +103,15 @@ li.breadcrumb-item:last-child a {
 a.breadcrumb-link {
   font-size: 1.1rem;
   font-variation-settings: "wght" 490;
+}
+
+
+.breadcrumb-link {
+ --section-link-color: #333;
+ --section-link-visited-color: #333;
+
+}
+.breadcrumb-item:last-child a {
+  --section-link-color: #{$link-red};
+  --section-link-visited-color: #{$link-red};
 }

@@ -1,11 +1,12 @@
-<!-- Note this is just a temp configuration -->
-
 <?php
+
+/* Note this is just a temp configuration */
+
 
 function item_modal_standardVideo () {
 
     return <<<TMP
-        
+
 <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
         <div class="modal-content">

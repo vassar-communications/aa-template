@@ -1,15 +1,3 @@
-<!--
-
-Sometimes the animation isn't visible. What seems to be happening is that the script thinks the Vimeo video has loaded before it actually appears in the embed, so it starts playing the animation.
-
-I'm wondering about embedding the video as an HTML5 video element, and using https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadeddata_event - maybe that's more accurate? Or is there a way to do this via the Vimeo API?
-
--->
-
-
-<!-- https://stackoverflow.com/questions/24579785/force-iframe-youtube-video-to-center-fit-and-full-cover-the-screen-in-the-backgr -->
-
-
 <?php
 
 function sec_siteHeader_video(

@@ -13794,6 +13794,7 @@ This should be a section option
 :root {
   --underline-color: #f00;
   --section-nav-emphasis-color: #e00;
+  --nav-outline-color: #C6AA76;
 }
 
 .main-site-nav .breadcrumb-item + .breadcrumb-item::before {
@@ -13811,7 +13812,7 @@ This should be a section option
 }
 .main-site-nav .local-section-nav {
   padding: 0.2rem 0.8rem 0 0.8rem;
-  border: 1px solid #aaa;
+  border: 1px solid var(--nav-outline-color);
   border-bottom: none;
   margin-bottom: 4rem;
   max-width: 80rem;
@@ -13828,7 +13829,7 @@ This should be a section option
   height: 100%;
   top: 0.8rem;
   position: absolute;
-  border: 1px solid #aaa;
+  border: 1px solid var(--nav-outline-color);
   border-left: none;
   border-bottom: none;
   right: -1.4rem;
@@ -13866,6 +13867,16 @@ li.breadcrumb-item:last-child a {
 a.breadcrumb-link {
   font-size: 1.1rem;
   font-variation-settings: "wght" 490;
+}
+
+.breadcrumb-link {
+  --section-link-color: #333;
+  --section-link-visited-color: #333;
+}
+
+.breadcrumb-item:last-child a {
+  --section-link-color: #e00;
+  --section-link-visited-color: #e00;
 }
 
 /* no styles currently used */

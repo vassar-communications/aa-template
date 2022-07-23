@@ -33,15 +33,15 @@ function site_header($extras=false) {
 
   <link rel="stylesheet" href="https://use.typekit.net/cga8whe.css">
 
+  <!-- analytics -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&l='+l:'';j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WCS4M7');</script>
+
+  <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCS4M7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- end analytics -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   <script src="https://player.vimeo.com/api/player.js"></script>
-
-<!-- the unpkg files were taking too long to come in
-  <script src="https://unpkg.com/flickity@2.2/dist/flickity.pkgd.js"></script>
-  <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js"></script>
--->
 
   <script src="{$project_paths['public_path']}/assets/js/libraries/flickity.js"></script>
   <script src="{$project_paths['public_path']}/assets/js/libraries/flickity-fade.js"></script>
