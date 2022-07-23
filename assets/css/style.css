@@ -16,6 +16,7 @@
   --sansSerif: "Source Sans Variable";
   --bs-font-sans-serif: "Source Sans Variable", system-ui, Helvetica, Arial, sans-serif;
   --font-big-serif: freight-display-pro;
+  --font-title-serif: freight-big-pro;
   --regularContent-font-size: calc(1.165rem + 0.18vw);
   --regularContent-lineHeight: 1.5;
   --regularContent-font-weight: "wght" 340;
@@ -13524,6 +13525,10 @@ This should be a section option
   background: rgba(0, 0, 0, 0);
 }
 
+.sec-fixedCenteredTitleMasthead.show-title .section-title-container {
+  background: rgba(0, 0, 0, 0.2);
+}
+
 .ticker-section {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -13786,7 +13791,12 @@ This should be a section option
   font-variation-settings: "wght" 500;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+:root {
+  --underline-color: #f00;
+  --section-nav-emphasis-color: #e00;
+}
+
+.main-site-nav .breadcrumb-item + .breadcrumb-item::before {
   float: left;
   padding-right: 0.5rem;
   color: #aaa;
@@ -13795,31 +13805,27 @@ This should be a section option
   font-weight: 900;
   font-size: 0.9rem;
 }
-
-.breadcrumb-item {
+.main-site-nav .breadcrumb-item {
   display: flex;
   align-items: center;
 }
-
-.current-item a {
-  border-bottom: 2px solid #f00;
-}
-
-.local-section-nav {
-  padding: 0.2rem 0.2rem 0 0.2rem;
+.main-site-nav .local-section-nav {
+  padding: 0.2rem 0.8rem 0 0.8rem;
   border: 1px solid #aaa;
   border-bottom: none;
   margin-bottom: 4rem;
   max-width: 80rem;
 }
-
-.breadcrumb .breadcrumb-item {
+.main-site-nav .breadcrumb {
+  padding: 1rem 0 0.8rem 0;
+}
+.main-site-nav .breadcrumb .breadcrumb-item {
   position: relative;
 }
-.breadcrumb .breadcrumb-item:last-child:after {
+.main-site-nav .breadcrumb .breadcrumb-item:last-child:after {
   content: "";
   width: 1rem;
-  height: 2rem;
+  height: 100%;
   top: 0.8rem;
   position: absolute;
   border: 1px solid #aaa;
@@ -13827,32 +13833,39 @@ This should be a section option
   border-bottom: none;
   right: -1.4rem;
 }
-
-:root {
-  --highlight-color: #f00;
-  --highlight-color-2: #00f;
-}
-
-.nav-link {
-  background-image: linear-gradient(to right, var(--highlight-color) 0%, var(--highlight-color) 100%);
+.main-site-nav .nav-link {
+  background-image: linear-gradient(to right, var(--underline-color) 0%, var(--underline-color) 100%);
   text-decoration: none;
   position: relative;
   background-repeat: no-repeat;
   background-position: 0px bottom;
   transition: background 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
-}
-
-.nav-link:hover {
-  background-size: 100% 1px;
-}
-
-.nav-link {
+  transition-property: background, color;
   display: inline;
-  background-image: linear-gradient(to right, var(--highlight-color) 0%, var(--highlight-color) 100%);
-  background-size: 0% 10%;
+  background-image: linear-gradient(to right, var(--underline-color) 0%, var(--underline-color) 100%);
+  background-size: 0% 4%;
+  padding: 0.5rem 0;
 }
-.nav-link:hover {
-  background-size: 100% 10%;
+.main-site-nav .nav-link:hover, .main-site-nav .nav-link:focus {
+  color: var(--section-nav-emphasis-color);
+  background-size: 100% 2px;
+}
+.main-site-nav .nav-item {
+  margin: 1rem 0.6rem 0 0.6rem;
+}
+.main-site-nav .current-item .nav-link {
+  color: var(--section-nav-emphasis-color);
+  background-size: 100% 2px;
+}
+
+li.breadcrumb-item:last-child a {
+  font-weight: bold;
+  font-variation-settings: "wght" 800;
+}
+
+a.breadcrumb-link {
+  font-size: 1.1rem;
+  font-variation-settings: "wght" 490;
 }
 
 /* no styles currently used */
@@ -15834,10 +15847,6 @@ footer a:visited:focus {
     width: 177.78vh;
   }
 }
-.sec-fixedCenteredTitleMasthead.show-title .section-title-container {
-  background: rgba(0, 0, 0, 0.1);
-}
-
 /* Admission News Carousel */
 .admission-news-carousel .featureImage-text-ticker .carousel-cell {
   height: 100%;

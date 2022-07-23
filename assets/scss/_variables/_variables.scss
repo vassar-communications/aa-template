@@ -36,6 +36,7 @@ $burgundy: #951829 !default;
 $darkburgundy: #641A2B !default;
 $darkestburgundy: #3d0f1a !default;
 $red:     #ED1C24 !default;
+$link-red: #e00 !default; // slightly darker for adequate contrast
 $rose: #F2D4D7 !default;
 $gold: #C6AA76 !default;
 // scss-docs-end color-variables
@@ -92,6 +93,7 @@ $theme-colors: (
   --sansSerif: 'Source Sans Variable';
   --bs-font-sans-serif: 'Source Sans Variable', system-ui, Helvetica, Arial, sans-serif;
   --font-big-serif: freight-display-pro;
+  --font-title-serif: freight-big-pro;
   --regularContent-font-size: calc(1.165rem + 0.18vw);
   --regularContent-lineHeight: 1.5;
   --regularContent-font-weight: "wght" 340;

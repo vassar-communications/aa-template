@@ -22,11 +22,6 @@ include($project_paths['main_project_root'].'/core/template-parts/footer.inc');
 include($project_paths['main_project_root'].'/core/template-parts/local-nav.inc');
 include($project_paths['main_project_root'].'/core/template-parts/tmpfooteralumni.inc');
 
-include($project_paths['main_project_root'].'/core/template-parts/alums-topLevelNav.inc');
-include($project_paths['main_project_root'].'/core/template-parts/admission-topLevelNav.inc');
-
-
-
 /* Partials */
 
 include($project_paths['main_project_root'].'/core/partials/bg-image.inc');

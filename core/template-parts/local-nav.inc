@@ -5,6 +5,7 @@
 //  variables for that page: title, classes, etc
 function get_page_vars($full_filepath) {
 
+/*
   //  HACK - FIX THIS LATER
   if($full_filepath == '/') {
     $page_vars['page_title'] = 'Home';
@@ -16,7 +17,7 @@ function get_page_vars($full_filepath) {
     $page_vars['page_link'] = '/admission/';
     return $page_vars;
   }
-
+*/
 
   global $project_paths;
 
@@ -196,7 +197,7 @@ function breadcrumb() {
 }
 
 function interior_page_nav() {
-  return '<div class="section">'.
+  return '<div class="section main-site-nav">'.
   breadcrumb().
   local_nav().
   '</div>';
