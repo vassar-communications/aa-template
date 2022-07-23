@@ -24,13 +24,7 @@ $page_classes = "";
 <?php echo page_partialmasthead($admission_img_path.'apply/transfer/0039-21-05-kr-spring-vassar-0034-crop.jpg'); ?>
 
 
-<?php echo breadcrumbNav('theme-verylightgray'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo interior_page_nav() ?>
 
 
 <?php /*  PAGE CONTENT === */ ?>

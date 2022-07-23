@@ -39,16 +39,9 @@ $page_classes = "";
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
+<?php echo interior_page_nav() ?>
 
 
-<?php echo breadcrumbNav(''); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
 
 
 <?php /*  PAGE CONTENT === */ ?>

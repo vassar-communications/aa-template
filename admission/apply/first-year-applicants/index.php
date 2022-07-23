@@ -22,16 +22,7 @@ $page_classes = "";
 
 <?php echo page_partialmasthead($placeholder_img_banner); ?>
 
-<?php echo breadcrumbNav('theme-verylightgray'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-
-
-<?php echo breadcrumb(); ?>
-<?php echo local_nav(); ?>
-
-
+<?php echo interior_page_nav() ?>
 
 <?php echo sec_fullBleedImageColumn(
     'Information for First-Year Applicants',

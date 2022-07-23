@@ -22,16 +22,7 @@ $page_classes = "";
 
 <?php echo page_partialmasthead($admission_img_path.'financial-aid/tuition/Vassar_Reception_20210601_KR_0173.jpg'); ?>
 
-
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-financialaid-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-financialaid-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
-
+<?php echo interior_page_nav() ?>
 
 <?php /*  PAGE CONTENT === */ ?>
 

@@ -1,13 +1,36 @@
+<style>
+.vassar-masthead {
+  display: none;
+}
+</style>
+
 <?php
 
 
 //  Provided a path to a page (/admission/apply), this returns all the
 //  variables for that page: title, classes, etc
-function get_page_vars($short_filepath) {
+function get_page_vars($full_filepath) {
+
+
+echo '<br> FFP' . $full_filepath . '<br>';
+
+  //  HACK - FIX THIS LATER
+  if($full_filepath == '/') {
+    $page_vars['page_title'] = 'Home';
+    $page_vars['page_link'] = '/';
+    return $page_vars;
+  }
+  if($full_filepath == '/admission/') {
+    $page_vars['page_title'] = 'Admission';
+    $page_vars['page_link'] = '/admission/';
+    return $page_vars;
+  }
+
+
   global $project_paths;
 
-  $full_filepath = $project_paths['main_project_root'].$short_filepath.'/index.php';
-  $page_contents = file_get_contents($full_filepath);
+//  $full_filepath = $project_paths['main_project_root'].$short_filepath.'/index.php';
+  $page_contents = file_get_contents($full_filepath.'/index.php');
 
   // so uh, yeah, this gets ugly.
   $page_contents = explode('/*  PAGE INFO ============ */', $page_contents);
@@ -25,7 +48,8 @@ function get_page_vars($short_filepath) {
   // so I'm a little more inclined towards methods I'd otherwise avoid
 
   $page_vars['page_title'] = $page_title;
-  $page_vars['page_link'] = $short_filepath;
+  $page_vars['page_link'] = str_replace($_SERVER['DOCUMENT_ROOT'], '', $full_filepath);
+
   return $page_vars;
 }
 
@@ -60,26 +84,41 @@ function local_nav($nav_file_path = null) {
   // bring in our paths from _cfg
   global $project_paths;
 
-  // if a path isn't specified, figure out where we are
+  // We need to load the file that lists all the other
+  // subsections in this parent section.
+  //
+  // if a specific _nav file isn't specified, figure out where we are
+  // and which _nav file to use.
   if(!$nav_file_path) {
 
-   // we don't want the directory we're in, we want the directory
-   // above that; the main parent section, like Apply or Visit.
-   // local_nav() needs a path like '/admission/apply/'. To get that:
-   // 1. get the full path to the current working directory
-   // 2. strip out the root
-   // 3. use dirname to grab the parent directory
+    // So now we need to know whether the current page
+    //  is the parent index page for a whole subsection (like apply/index.php),
+    //  in which case the _nav file we need is in the same directory - or whether the current page is a child index page (/how-to-apply/index.php)
+    //  in which case the _nav file is in the directory above us.
 
-   // And here we are
-   $nav_file_path = str_replace($_SERVER['DOCUMENT_ROOT'], '', dirname(getcwd(), 1));
+    //  It's pretty simple: just see if there's a _nav file in our directory
+    //  and if not, check the directory above.
+
+    if (file_exists(getcwd().'/_nav.txt')) {
+      $the_path_where_the_subsections_are = getcwd();
+      $nav_file_path = getcwd().'/_nav.txt';
+    }
+    else {
+      // okay, so we don't want the directory we're in, we want the directory
+      // above that.
+      // local_nav() needs a path like '/admission/apply/'. To get that:
+      // 1. get the full path to the current working directory
+      // 2. strip out the root
+      // 3. use dirname to grab the parent directory
+      $the_path_where_the_subsections_are = dirname(getcwd(), 1);
+      $nav_file_path = dirname(getcwd(), 1).'/_nav.txt';
+    }
   }
 
-  //  Next: we need to load the file that lists all the other
-  //  subsections in this parent section.
-  $nav_file_path_full = $project_paths['main_project_root'].$nav_file_path.'/_nav.txt';
+  echo 'where the subsections are - ' . $the_path_where_the_subsections_are . '<br>';
 
   // load the file
-  $local_nav_file = file_get_contents($nav_file_path_full);
+  $local_nav_file = file_get_contents($nav_file_path);
 
   // iterate over each line
   $local_pages = explode(PHP_EOL, $local_nav_file);
@@ -88,17 +127,26 @@ function local_nav($nav_file_path = null) {
   $nav_markup = '';
 
   foreach ($local_pages as &$page) {
-    // construct the path to the page
-    $path = $project_paths['main_project_root'].$nav_file_path.'/'.$page;
+
     $here = getcwd();
 
+    $each_subsections_path = $the_path_where_the_subsections_are.'/'.$page;
+
+    $here = trim($here);
+
     // so does the path match the page we're already on?
-    if( $path == $here ) $class = 'current-item';
-    else $class = null;
+//    if( $path == $here ) {
+  //    $class = 'current-item';
+    //}
+    //else
 
-    $page = trim($page);
+    $class = null;
 
-    $page_vars = get_page_vars('/admission/apply/'.$page);
+//    echo $path . ' - ' . $here . '<br>';
+
+    $each_subsections_path = trim($each_subsections_path);
+    echo 'current path = ' . $each_subsections_path . '<br>';
+    $page_vars = get_page_vars($each_subsections_path);
     $page_title = $page_vars['page_title'];
     $item_link = $page_vars['page_link'];
 
@@ -115,8 +163,10 @@ function local_nav($nav_file_path = null) {
 
 function breadcrumb() {
 
-  // Well, here's our path.
+  // Here's our path.
   $current_path = str_replace($_SERVER['DOCUMENT_ROOT'], '', dirname(getcwd(), 1));
+
+  echo 'current BC path = '.$current_path;
 
 //  return $current_path;
 
@@ -137,7 +187,7 @@ function breadcrumb() {
 
   foreach ($path_in_pieces as &$item) {
     $path .= $item.'/';
-    $item_info = get_page_vars($path);
+    $item_info = get_page_vars($_SERVER['DOCUMENT_ROOT'].$path);
     $title = $item_info['page_title'];
 
     $breadcrumb_markup .= crumb_item($path, $title);
@@ -145,4 +195,11 @@ function breadcrumb() {
   unset($item);
 
   return $breadcrumb_markup.'</ol>';
+}
+
+function interior_page_nav() {
+  return '<div class="section">'.
+  breadcrumb().
+  local_nav().
+  '</div>';
 }

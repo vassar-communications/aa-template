@@ -22,15 +22,7 @@ $page_classes = "";
 
 <?php echo page_textmasthead('theme-dark-burgundy'); ?>
 
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
-
+<?php echo interior_page_nav() ?>
 
 <?php echo sec_fullBleedImageColumn(
     null,
