@@ -13828,6 +13828,33 @@ This should be a section option
   right: -1.4rem;
 }
 
+:root {
+  --highlight-color: #f00;
+  --highlight-color-2: #00f;
+}
+
+.nav-link {
+  background-image: linear-gradient(to right, var(--highlight-color) 0%, var(--highlight-color) 100%);
+  text-decoration: none;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 0px bottom;
+  transition: background 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+}
+
+.nav-link:hover {
+  background-size: 100% 1px;
+}
+
+.nav-link {
+  display: inline;
+  background-image: linear-gradient(to right, var(--highlight-color) 0%, var(--highlight-color) 100%);
+  background-size: 0% 10%;
+}
+.nav-link:hover {
+  background-size: 100% 10%;
+}
+
 /* no styles currently used */
 .footer svg {
   fill: #fff;
