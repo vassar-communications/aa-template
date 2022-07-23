@@ -1,7 +1,7 @@
 
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
-include($project_paths['main_project_root'].'/functions.php');
+include_once($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
@@ -20,8 +20,6 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-
-
 <?php echo page_partialmasthead($placeholder_img_banner); ?>
 
 <?php echo breadcrumbNav('theme-verylightgray'); ?>
@@ -30,9 +28,8 @@ $page_classes = "";
 
 
 <?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-nav.php');?>
+  <?php echo local_nav(); ?>
 <?php echo end_sec_toplinksNav(); ?>
-
 
 
 

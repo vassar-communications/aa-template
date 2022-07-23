@@ -7,7 +7,8 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "Explore Poughkeepsie & The Hudson Valley";
+// $page_title = "Explore Poughkeepsie & The Hudson Valley";
+$page_title = "Explore Local";
 $page_classes = "";
 
 /*  ---------------------- */
@@ -23,7 +24,8 @@ $page_classes = "";
 
 <?php echo sec_fixedCenteredTitle_masthead(
     '<b class="slide-from-left supertitle">Explore</b>
-   <b class="slide-from-right">Poughkeepsie & The Hudson Valley</b>',
+   <!--<b class="slide-from-right">Poughkeepsie & The Hudson Valley</b>-->
+   <b class="slide-from-right">Local</b>',
     null,
     'theme-verylightgray reveal-image',
     'mw-4',

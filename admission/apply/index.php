@@ -1,7 +1,7 @@
 
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
-include($project_paths['main_project_root'].'/functions.php');
+include_once($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
@@ -20,6 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
+<?php echo local_nav(); ?>
 
 <?php echo sec_fixedCenteredTitle_masthead(
     'Apply',
