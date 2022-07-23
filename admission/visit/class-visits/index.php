@@ -20,8 +20,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($placeholder_img_banner); ?>
 
 <?php echo interior_page_nav() ?>
 

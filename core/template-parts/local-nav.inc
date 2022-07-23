@@ -1,18 +1,9 @@
-<style>
-.vassar-masthead {
-  display: none;
-}
-</style>
-
 <?php
 
 
 //  Provided a path to a page (/admission/apply), this returns all the
 //  variables for that page: title, classes, etc
 function get_page_vars($full_filepath) {
-
-
-echo '<br> FFP' . $full_filepath . '<br>';
 
   //  HACK - FIX THIS LATER
   if($full_filepath == '/') {
@@ -115,8 +106,6 @@ function local_nav($nav_file_path = null) {
     }
   }
 
-  echo 'where the subsections are - ' . $the_path_where_the_subsections_are . '<br>';
-
   // load the file
   $local_nav_file = file_get_contents($nav_file_path);
 
@@ -135,17 +124,15 @@ function local_nav($nav_file_path = null) {
     $here = trim($here);
 
     // so does the path match the page we're already on?
-//    if( $path == $here ) {
-  //    $class = 'current-item';
-    //}
-    //else
-
+    if( $each_subsections_path == $here ) {
+    $class = 'current-item';
+ }
+else {
     $class = null;
-
+}
 //    echo $path . ' - ' . $here . '<br>';
 
     $each_subsections_path = trim($each_subsections_path);
-    echo 'current path = ' . $each_subsections_path . '<br>';
     $page_vars = get_page_vars($each_subsections_path);
     $page_title = $page_vars['page_title'];
     $item_link = $page_vars['page_link'];
@@ -163,10 +150,21 @@ function local_nav($nav_file_path = null) {
 
 function breadcrumb() {
 
-  // Here's our path.
-  $current_path = str_replace($_SERVER['DOCUMENT_ROOT'], '', dirname(getcwd(), 1));
+  //  How the breadcrumb works:
+  //  - If a section has children, it should appear in the breadcrumb
+  //  - If a section has no children (it's an endpoint page) it should
+  //  not appear in the breadcrumb, since it already appears in the subnav.
+  //
+  //  A quick way to determine whether or not a section should appear in
+  //  the breadcrumb is whether or not it has a _nav.txt file. Endpoint
+  //  pages have no _nav.txt, because they have no subsections.
 
-  echo 'current BC path = '.$current_path;
+    if (file_exists(getcwd().'/_nav.txt')) {
+      $current_path = str_replace($_SERVER['DOCUMENT_ROOT'], '', getcwd());
+    }
+    else {
+      $current_path = str_replace($_SERVER['DOCUMENT_ROOT'], '', dirname(getcwd(), 1));
+    }
 
 //  return $current_path;
 

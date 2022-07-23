@@ -20,8 +20,6 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo local_nav(); ?>
-
 <?php echo sec_fixedCenteredTitle_masthead(
     'Apply',
     null,
