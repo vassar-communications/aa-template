@@ -1,1 +1,23 @@
-/* no styles currently used */
+
+// This should contain all interior page nav styling.
+
+.breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: 0.5rem;
+  color: #aaa;
+  content: '\f054';
+  font-family: var(--font-icons);
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+
+.current-item {
+  a {
+    border-bottom: 2px solid #f00;
+  }
+}

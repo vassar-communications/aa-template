@@ -19,6 +19,7 @@
   --regularContent-font-size: calc(1.165rem + 0.18vw);
   --regularContent-lineHeight: 1.5;
   --regularContent-font-weight: "wght" 340;
+  --font-icons: "Font Awesome 6 Free";
   --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
   --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 40%, rgba(0,0,0,0.0) 60%, rgba(0,0,0,0) 100%);
   --text-shadow: 0 0 1rem rgb(0 0 0 / 40%);
@@ -13785,7 +13786,25 @@ This should be a section option
   font-variation-settings: "wght" 500;
 }
 
-/* no styles currently used */
+.breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: 0.5rem;
+  color: #aaa;
+  content: "";
+  font-family: var(--font-icons);
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+
+.current-item a {
+  border-bottom: 2px solid #f00;
+}
+
 /* no styles currently used */
 .footer svg {
   fill: #fff;

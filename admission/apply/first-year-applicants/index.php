@@ -27,9 +27,9 @@ $page_classes = "";
 <?php echo end_sec_breadcrumbNav(); ?>
 
 
-<?php echo toplinksNav(); ?>
-  <?php echo local_nav(); ?>
-<?php echo end_sec_toplinksNav(); ?>
+
+<?php echo breadcrumb(); ?>
+<?php echo local_nav(); ?>
 
 
 

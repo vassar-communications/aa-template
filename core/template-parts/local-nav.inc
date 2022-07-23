@@ -1,12 +1,8 @@
-<style>
-.yes {
-  background: #f00;
-}
-</style>
 <?php
 
 
-
+//  Provided a path to a page (/admission/apply), this returns all the
+//  variables for that page: title, classes, etc
 function get_page_vars($short_filepath) {
   global $project_paths;
 
@@ -33,7 +29,8 @@ function get_page_vars($short_filepath) {
   return $page_vars;
 }
 
-
+//  Wraps data in markup, returns a nav item.
+//  Pretty simple.
 function nav_item($link, $title, $classes='') {
   $nav_item_tmp = <<<TMP
 <li class="nav-item $classes"><a class="nav-link" href="$link">$title</a></li>
@@ -41,6 +38,23 @@ TMP;
     return $nav_item_tmp;
 }
 
+//  Wraps data in markup, returns a breadcrumb item.
+function crumb_item($link, $title, $classes='') {
+$breadcrumb_item_tmp = <<<TMP
+<li class="breadcrumb-item $classes"><a class="breadcrumb-link" href="$link">$title</a></li>
+TMP;
+    return $breadcrumb_item_tmp;
+}
+
+
+
+
+
+
+//  This generates navigation that lists the other pages in
+//  whatever subsection you're in, or a list of pages for a
+//  specific directory. If no path is provided, it'll generate
+//  nav for the current subsection.
 
 function local_nav($nav_file_path = null) {
   // bring in our paths from _cfg
@@ -79,7 +93,7 @@ function local_nav($nav_file_path = null) {
     $here = getcwd();
 
     // so does the path match the page we're already on?
-    if( $path == $here ) $class = 'yes';
+    if( $path == $here ) $class = 'current-item';
     else $class = null;
 
     $page = trim($page);
@@ -92,8 +106,43 @@ function local_nav($nav_file_path = null) {
 
 
   }
+  unset($page);
+
+  return '<nav class="local-section-nav"><ul class="nav">
+'.$nav_markup.'</ul></nav>';
+}
+
+
+function breadcrumb() {
+
+  // Well, here's our path.
+  $current_path = str_replace($_SERVER['DOCUMENT_ROOT'], '', dirname(getcwd(), 1));
+
+//  return $current_path;
+
+  // - Home link is simple. That's vassar.edu.
+  // - Site link is also simple. That's whatever is right
+  // off the root.
+  // - The last item in the breadcrumb trail should always be
+  // the second-to-last item in the path. We're not showing the
+  // current page we're on in the breadcrumb trail, since that's
+  // indicated in the subnav.
+  //
+  // Sooo...
+
+  $path_in_pieces = explode('/', $current_path);
+  $path = '';
+
+  $breadcrumb_markup = '<ol class="breadcrumb">';
+
+  foreach ($path_in_pieces as &$item) {
+    $path .= $item.'/';
+    $item_info = get_page_vars($path);
+    $title = $item_info['page_title'];
+
+    $breadcrumb_markup .= crumb_item($path, $title);
+  }
   unset($item);
 
-  return '<nav class="section local-nav"><ul class="nav nav-pills pb-3">
-'.$nav_markup.'</ul></nav>';
+  return $breadcrumb_markup.'</ol>';
 }

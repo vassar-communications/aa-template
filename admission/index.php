@@ -10,10 +10,12 @@ include( $project_paths['main_project_root'] . '/functions.php');
 /*  PAGE INFO ============ */
 
 $page_title = "Vassar Admission";
+$nav_title = "Admission";
 $page_classes = "";
 /*  ---------------------- */
 
 ?>
+
 
 <?php echo site_header(); ?>
 
