@@ -10,6 +10,7 @@ function get_page_vars($full_filepath) {
   // these are pages that don't currently have info
   // so avoid them
   $bad_paths = [
+    $_SERVER['DOCUMENT_ROOT'],
     $_SERVER['DOCUMENT_ROOT'].'/'
   ];
 
@@ -35,6 +36,7 @@ function get_page_vars($full_filepath) {
       echo 'filepath = '. $full_filepath.'/index.php' . '<br>';
       echo 'current root is '. $_SERVER['DOCUMENT_ROOT'] . '<br>';
       echo 'getcwd() is '. getcwd() . '<br>';
+      echo '$_SERVER["DOCUMENT_ROOT"]. __DIR__" = '.$_SERVER['DOCUMENT_ROOT']. __DIR__ . '<br>';
       return false;
     }
     // so uh, yeah, this gets ugly.
