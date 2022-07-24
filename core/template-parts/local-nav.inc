@@ -31,6 +31,10 @@ function get_page_vars($full_filepath) {
   //  $full_filepath = $project_paths['main_project_root'].$short_filepath.'/index.php';
     $page_contents = file_get_contents($full_filepath.'/index.php');
 
+    if( !$page_contents ) {
+      echo 'filepath = '.$full_filepath.'/index.php'.'<br>';
+      return false;
+    }
     // so uh, yeah, this gets ugly.
 
     $page_contents = explode('/* PAGE INFO === */', $page_contents);
