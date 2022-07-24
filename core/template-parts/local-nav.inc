@@ -32,8 +32,9 @@ function get_page_vars($full_filepath) {
     $page_contents = file_get_contents($full_filepath.'/index.php');
 
     if( !$page_contents ) {
-      echo 'filepath = '.$full_filepath.'/index.php'.'<br>';
-      echo 'current root is '.$_SERVER['DOCUMENT_ROOT'].'<br>';
+      echo 'filepath = '. $full_filepath.'/index.php' . '<br>';
+      echo 'current root is '. $_SERVER['DOCUMENT_ROOT'] . '<br>';
+      echo 'getcwd() is '. getcwd() . '<br>';
       return false;
     }
     // so uh, yeah, this gets ugly.
