@@ -7,12 +7,14 @@ include( $project_paths['main_project_root'] . '/functions.php');
 
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Vassar Admission";
-$nav_title = "Admission";
-$page_classes = "";
-/*  ---------------------- */
+$page_info = [
+  'page_title' => 'Vassar Admission',
+  'nav_title' => 'Admission',
+];
+
+/* === */
 
 ?>
 
