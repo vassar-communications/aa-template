@@ -10414,6 +10414,34 @@ h2.border-animate:after, .border-animate.h2:after {
 .card .icon {
   margin-right: 0.4rem;
 }
+.card a:focus {
+  border: 8px solid #f00;
+}
+.card a:focus:before {
+  border-color: #fff;
+  z-index: 120;
+}
+.card a:focus:after {
+  border-color: #fff;
+  z-index: 80;
+}
+.card .stretched-link {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  right: 4px;
+  z-index: 100;
+}
+.card .stretched-link:before, .card .stretched-link:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  border: 4px solid transparent;
+}
 
 .card,
 .card-body,
