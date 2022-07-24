@@ -21,34 +21,15 @@ function get_base_path($type='document_root') {
   }
 
 
-
-
 /*
-  $path = getcwd();
-  echo 'getcwd = ' . $path . '<br>';
 
-  $path = str_replace($_SERVER['DOCUMENT_ROOT'], '%%%%'.$_SERVER['DOCUMENT_ROOT'], $path);
-  echo 'with %%%% = ' . $path . '<br>';
+Problem: I based a lot of this code on the assumption that getcwd() and $_SERVER['DOCUMENT_ROOT'] return the same thing as the root of the server. That, as it turns out, was presumptuous.
 
-  $path = explode('%%%%', $path);
-  $path = $path[1];
-  echo 'path[1] = ' . $path . '<br>';
+That's how it works on my local environment, but on the remote Ben Austin server, getcwd() returned a path that was a lot deeper than $_SERVER['DOCUMENT_ROOT']. So trying to get the base of the web directory by stripping DOCUMENT_ROOT from getcwd() via str_replace meant that the final path still had some weird sub-root stuff in it.
 
-  $path = str_replace('%%%%', '', $path);
-  echo 'without %%%% = ' . $path . '<br><br><br>';
+Final decision: on servers where getcwd() and $_SERVER['DOCUMENT_ROOT'] return different root paths, hardcode the root path and use that in place of $_SERVER['DOCUMENT_ROOT'].
 
-  if( $type == 'document_root' ) {
-    $path_doc_root = $path;
-    return $path_doc_root;
-  }
-  if( $type == 'path_to_current_doc_from_web_dir' ) {
-    $path = str_replace($_SERVER['DOCUMENT_ROOT'], '', $path);
-    return $path;
-  }
-  else 'you should never see this.';
-  */
-
-
+*/
 
 }
 
@@ -84,6 +65,7 @@ function get_page_vars($full_filepath) {
   //  $full_filepath = $project_paths['main_project_root'].$short_filepath.'/index.php';
     $page_contents = file_get_contents($full_filepath.'/index.php');
 
+/*
     if( !$page_contents ) {
       echo 'filepath = '. $full_filepath.'/index.php' . '<br>';
       echo 'current root is '. $_SERVER['DOCUMENT_ROOT'] . '<br>';
@@ -92,6 +74,8 @@ function get_page_vars($full_filepath) {
       echo 'DIR = '.__DIR__;
       return false;
     }
+*/
+
     // so uh, yeah, this gets ugly.
 
     $page_contents = explode('/* PAGE INFO === */', $page_contents);
@@ -113,7 +97,7 @@ function get_page_vars($full_filepath) {
 
   //  $page_vars['page_info'] = $page_info;
 
-    $page_info['page_link'] = str_replace($_SERVER['DOCUMENT_ROOT'], '', $full_filepath);
+    $page_info['page_link'] = str_replace(get_base_path(), '', $full_filepath);
 
     return $page_info;
   }
