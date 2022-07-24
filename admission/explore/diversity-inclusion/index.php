@@ -22,14 +22,15 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fixedCenteredTitle_masthead(
-    '<b class="slide-from-left supertitle">Explore</b>
-   <b class="slide-from-right">Diversity & Inclusion</b>',
+    '<b class="slide-from-left"><div class="supertitle">Explore</div> <div>Diversity</div></b>
+   <b class="slide-from-right">& Inclusion</b>',
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => $page_info['feature_image'],
         'bg-image-alt' => 'alt text',
         'css' => '
+        --cover-overlay-color: rgba(0,0,0,0.4);
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
       /* --section-title-faded-color: #444; */
@@ -52,51 +53,40 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 
-<?php echo sec_wideContent(
+<?php echo sec_hasColumns(
     'The Class of 2025 represents',
+    '3',
     null,
-    'theme-cream',
-    'mw-4 '
+    'items-equal-height mw-inner-4 theme-extralightgray animate-when-content-appears animation-group animation-fade-in',
+    'gap-3',
+    ['css' => '--sequential-animation-item-gap: 0.2s']
 ); ?>
 
+  <?php echo item_col('animation-item'); ?>
+    <?php echo item_stat(
+      null,
+      '2,456',
+      'students from all 50 states and 79 countries'
+    ); ?>
+  <?php echo end_item_col(); ?>
 
-<div class="fancy-stats-container animate-when-content-appears my-5">
-    <div class="col-item stat-item item-students">
-        <div class="stat-item-fact">
-            <div class="display-2">2,456</div>
-        </div>
-        <div class="stat-item-additional">
-            <div class="stat-label text-primary">students from all 50 states and 79 countries</div>
-        </div>
-    </div>
+  <?php echo item_col('animation-item'); ?>
+    <?php echo item_stat(
+      null,
+      '38%',
+      'students of color'
+    ); ?>
+  <?php echo end_item_col(); ?>
 
+  <?php echo item_col('animation-item'); ?>
+    <?php echo item_stat(
+      null,
+      '13%',
+      'students who are first in their families to attend college'
+    ); ?>
+  <?php echo end_item_col(); ?>
 
-    <div class="col-item symbol-item symbol-div">
-        <!-- ÷ -->
-    </div>
-
-    <div class="col-item stat-item item-faculty">
-        <div class="stat-item-fact">
-            <div class="display-2">38%</div>
-        </div>
-        <div class="stat-item-additional">
-            <div class="stat-label text-primary">students of color</div>
-        </div>
-    </div>
-
-    <div class="col-item symbol-item symbol-equals">
-        <!-- = -->
-    </div>
-
-    <div class="col-item stat-item item-ratio">
-        <div class="stat-item-fact">
-            <div class="display-2">13%</div>
-            <div class="stat-label text-primary">students who are first in their families to attend college</div>
-        </div>
-    </div>
-</div>
-
-<?php echo end_sec_wideContent(); ?>
+<?php echo end_sec_hasColumns(); ?>
 
 <?php echo sec_fullBleedImageColumn(
     'Services',

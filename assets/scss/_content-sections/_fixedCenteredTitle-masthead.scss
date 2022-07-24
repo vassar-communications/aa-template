@@ -17,6 +17,7 @@ This should be a section option
      display: inline-block !important;
      width: fit-content;
      padding-bottom: 1rem;
+     margin-bottom: 1rem;
      text-transform: uppercase;
      letter-spacing: 0.1rem;
  }
@@ -189,5 +190,5 @@ This should be a section option
   }
 }
 .sec-fixedCenteredTitleMasthead.show-title .section-title-container {
-  background: rgba(0, 0, 0, 0.2);
+  background: var(--cover-overlay-color, rgba(0, 0, 0, 0.2));
 }

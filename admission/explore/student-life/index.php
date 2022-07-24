@@ -34,8 +34,11 @@ $page_info = [
 
 
 <?php echo sec_fixedCenteredTitle_masthead_vid(
-    '<b class="slide-from-left supertitle">Explore</b>
-   <b class="slide-from-right">Student Life</b>',
+    '<div class="slide-from-left">
+      <b class="supertitle">Explore</b>
+      <div>Student</div>
+    </div>
+   <b class="slide-from-right">Life</b>',
     '726007009?h=91eec5d256',
     'theme-verylightgray reveal-image',
     'mw-4',
@@ -70,13 +73,7 @@ $page_info = [
         'Extracurricular activities include',
         '',
         'theme-dark-burgundy',
-);?>
-
-
-
-
-
-<div class="grid cols-4 animation-group animation-zoom-in animate-when-content-appears" style="--bs-gap: 1rem">
+); ?><div class="grid cols-4 animation-group animation-zoom-in animate-when-content-appears" style="--bs-gap: 1rem">
 
     <?php echo item_iconButton(
         'image',
@@ -106,22 +103,18 @@ $page_info = [
         'btn-card animation-item'
     ); ?>
 
-</div>
+</div><?php echo end_sec_wideContent(); ?><?php echo sec_regularContent(
+    null,
+    'theme-charcoal bg-dark quad-pattern has-bg animate-when-content-appears mw-inner-4 text-center',
+    ''
+); ?>
 
-
-<?php echo end_sec_wideContent(); ?>
-<!-- RELATED TOPICS ===  -->
-
-<?php echo sec_wideContent(
-    'It’s Not Student Housing, It’s Home',
-    'Our nine historic residential houses are the heart of Vassar. You won’t find a Greek system on campus—a fact we celebrate—and 97% of students choose to live on campus. ',
-    'theme-charcoal bg-dark quad-pattern has-bg',
-);?>
+<?php echo animated_statement('It’s Not Student Housing, It’s Home').'<p>Our nine historic residential houses are the heart of Vassar. You won’t find a Greek system on campus—a fact we celebrate—and 97% of students choose to live on campus.</p>';
+    ?>
 
 [INSERT IMAGE GALLERY]
 
-
-<?php echo end_sec_wideContent(); ?>
+<?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_fullBleedImageColumn(
     'Galvanize Your Energy',

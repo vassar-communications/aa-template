@@ -20,6 +20,10 @@ function site_header($extras=false) {
 
   $page_classes = get_value_if_exists('page_classes', $page_info);
 
+  $social_card_data = [
+    'image' => $page_info['feature_image']
+  ];
+
 
 //  Here's where we're generating the OG stuff.
 //  How that works:
