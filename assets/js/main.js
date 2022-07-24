@@ -423,6 +423,31 @@ $( window ).resize(function() {
 });
 
 
+
+/* Custom Button to  Pause Background Videos  */
+
+
+$('#pause_button').on('click', function() {
+
+
+    var video  = $('#header_video');
+    var player = new Vimeo.Player(video);
+
+    player.pause();
+    $('#play_pause').addClass("paused");
+});
+
+$('#play_button').on('click', function() {
+
+    var video  = $('#header_video');
+    var player = new Vimeo.Player(video);
+
+    player.play();
+    $('#play_pause').removeClass("paused");
+});
+
+
+
 /*	Pause Videos when modal closes Needs reworking
 	=================== */
 
