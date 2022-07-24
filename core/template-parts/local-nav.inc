@@ -232,14 +232,6 @@ function breadcrumb() {
       $current_path = dirname(get_base_path('path_to_current_doc_from_web_dir'), 1);
     }
 
-echo 'document_root = ' . get_base_path('document_root') . '<br>';
-
-echo 'path to doc = ' . get_base_path('path_to_current_doc_from_web_dir') . '<br>';
-
-echo 'path to doc, up 1 = '. dirname(get_base_path('path_to_current_doc_from_web_dir'), 1) . '<br>';
-
-echo 'current_path = '.$current_path . '<br>';
-
   // - Home link is simple. That's vassar.edu.
   // - Site link is also simple. That's whatever is right
   // off the root.
