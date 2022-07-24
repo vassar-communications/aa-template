@@ -1,17 +1,21 @@
 <?php
 
 
-function get_base_path() {
+function get_base_path($type='document_root') {
   $path = getcwd();
   $path = str_replace($_SERVER['DOCUMENT_ROOT'], '%%%%'.$_SERVER['DOCUMENT_ROOT'], $path);
   $path = explode('%%%%', $path);
   $path = $path[1];
   $path = str_replace('%%%%', '', $path);
 
-
-  $path = str_replace($_SERVER['DOCUMENT_ROOT'], '', $path);
-
-  return $path;
+  if( $type == 'document_root' ) {
+    $path_doc_root = $path;
+    return $path_doc_root;
+  }
+  if( $type == 'path_to_current_doc_from_web_dir' ) {
+    $path = str_replace($_SERVER['DOCUMENT_ROOT'], '', $path);
+    return $path;
+  }
 }
 
 
@@ -204,10 +208,10 @@ function breadcrumb() {
 
     if (file_exists(getcwd().'/_nav.txt')) {
 //      $current_path = str_replace($_SERVER['DOCUMENT_ROOT'], '', getcwd());
-      $current_path = get_base_path();
+      $current_path = get_base_path('path_to_current_doc_from_web_dir');
     }
     else {
-      $current_path = dirname(get_base_path(), 1);
+      $current_path = dirname(get_base_path('path_to_current_doc_from_web_dir'), 1);
     }
 
 //  return $current_path;
