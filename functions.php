@@ -244,8 +244,6 @@ $page_info = str_replace("}';", "}", $page_info);
 
 $page_info = json_decode($page_info, true);
 
-print_r( $page_info );
-
 // eval($page_contents[0]);
 
     // This might not be the best way of doing it, but
@@ -420,8 +418,6 @@ function breadcrumb() {
     else {
       $path .= $item.'/';
       $item_info = get_page_vars($_SERVER['DOCUMENT_ROOT'].$path);
-
-      print_r($item_info);
 
       $title = $item_info['page_title'];
     }
