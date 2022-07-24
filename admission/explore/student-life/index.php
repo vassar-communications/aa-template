@@ -5,12 +5,15 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Explore Student Life";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'Explore Student Life',
+  'feature_image' => $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg'
+];
 
-/*  ---------------------- */
+/* === */
+
 
 ?>
 
@@ -29,7 +32,7 @@ $page_classes = "";
     '726007009?h=91eec5d256',
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg',
+    ['bg-image-url' => $page_info['feature_image'],
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);

@@ -4,12 +4,15 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Explore Academics";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'Explore Academics',
+  'feature_image' => 'https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg'
+];
 
-/*  ---------------------- */
+/* === */
+
 
 ?>
 
@@ -27,7 +30,7 @@ $page_classes = "";
     '726089539?h=002128ec09',
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => $admission_img_path.'explore/academics/110619_160over90_Vassar_6232.jpg',
+    ['bg-image-url' => $page_info['feature_image'],
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);

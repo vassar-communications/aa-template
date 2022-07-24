@@ -5,12 +5,14 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Explore Diversity & Inclusion";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'Explore Diversity & Inclusion',
+  'feature_image' => 'https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg'
+];
 
-/*  ---------------------- */
+/* === */
 
 ?>
 
@@ -28,7 +30,7 @@ $page_classes = "";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => $admission_img_path.'placeholder.jpg',
+    ['bg-image-url' => $page_info['feature_image'],
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);

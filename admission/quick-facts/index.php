@@ -5,12 +5,15 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Quick Facts";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'Quick Facts',
+  'feature_image' => $placeholder_img_banner
+];
 
-/*  ---------------------- */
+/* === */
+
 
 ?>
 
@@ -28,7 +31,7 @@ $page_classes = "";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => $placeholder_img_banner,
+    ['bg-image-url' => $page_info['feature_image'],
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);

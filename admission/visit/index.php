@@ -5,12 +5,16 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Visit Campus";
-$page_classes = "visithome";
+$page_info = [
+  'page_title' => 'Visit Campus',
+  'page_classes' => 'visithome',
+  'feature_image' => $admission_img_path.'visit/0069-19-05-kr-spring-vassar-4632.jpg'
+];
 
-/*  ---------------------- */
+/* === */
+
 
 ?>
 
@@ -27,7 +31,7 @@ $page_classes = "visithome";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => $admission_img_path.'visit/0069-19-05-kr-spring-vassar-4632.jpg',
+    ['bg-image-url' => $page_info['feature_image'],
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);

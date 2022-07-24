@@ -5,12 +5,14 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "In-Person Visits";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'In-Person Visits',
+  'feature_image' => $admission_img_path.'visit/in-person/0073-21-06-kr-summer-vassar-0179.jpg'
+];
 
-/*  ---------------------- */
+/* === */
 
 ?>
 
@@ -18,7 +20,7 @@ $page_classes = "";
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo page_partialmasthead($admission_img_path.'visit/in-person/0073-21-06-kr-summer-vassar-0179.jpg'); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo hamburger_navigation(); ?>
 

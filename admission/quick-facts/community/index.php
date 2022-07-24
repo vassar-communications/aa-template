@@ -5,14 +5,15 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
+$page_info = [
+  'page_supertitle' => "Quick Facts",
+  'page_title' => 'Community',
+  'feature_image' => $quickfacts_img_path.'110619_160over90_Vassar_5564-crop.jpg'
+];
 
-$page_supertitle = "Quick Facts";
-$page_title = "Community";
-$page_classes = "";
-
-/*  ---------------------- */
+/* === */
 
 ?>
 
@@ -22,7 +23,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($quickfacts_img_path.'110619_160over90_Vassar_5564-crop.jpg'); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 

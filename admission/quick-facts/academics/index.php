@@ -5,14 +5,16 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
+$page_info = [
+  'page_supertitle' => 'Quick Facts',
+  'page_title' => 'Academics',
+  'feature_image' => $placeholder_img_banner
+];
 
-$page_supertitle = "Quick Facts";
-$page_title = "Academics";
-$page_classes = "";
+/* === */
 
-/*  ---------------------- */
 
 ?>
 
@@ -22,7 +24,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($placeholder_img_banner); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 

@@ -5,12 +5,14 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Group Visits";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'Group Visits',
+  'feature_image' => $admission_img_path.'visit/group/0100-21-10-kr-fw-arboretum-vassar-0270.jpg'
+];
 
-/*  ---------------------- */
+/* === */
 
 ?>
 
@@ -18,7 +20,7 @@ $page_classes = "";
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo page_partialmasthead($admission_img_path.'visit/group/0100-21-10-kr-fw-arboretum-vassar-0270.jpg'); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo hamburger_navigation(); ?>
 

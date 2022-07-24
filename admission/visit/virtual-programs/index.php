@@ -5,12 +5,15 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Virtual Programs";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'Virtual Programs',
+  'feature_image' => $admission_img_path.'visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2033.jpg'
+];
 
-/*  ---------------------- */
+/* === */
+
 
 ?>
 
@@ -20,7 +23,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($admission_img_path.'visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2033.jpg'); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo interior_page_nav() ?>
 

@@ -24,7 +24,6 @@ function site_header($extras=false) {
 //  This is the page the header is being called on.
 
 $vars = get_page_vars(getcwd());
-print_r($vars['page_info']);
 
     $template = <<<TMP
 <!doctype html>

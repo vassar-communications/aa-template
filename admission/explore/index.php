@@ -5,12 +5,14 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Explore Vassar";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'Explore Vassar',
+  'feature_image' => $placeholder_img_banner
+];
 
-/*  ---------------------- */
+/* === */
 
 ?>
 
@@ -27,7 +29,7 @@ $page_classes = "";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => '/assets/images/placeholders/main-placeholder.jpg',
+    ['bg-image-url' => $page_info['feature_image'],
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);

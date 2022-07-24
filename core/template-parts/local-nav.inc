@@ -5,53 +5,64 @@
 //  variables for that page: title, classes, etc
 function get_page_vars($full_filepath) {
 
-  // bring in all the system-wide variables we might need
-  include( $_SERVER['DOCUMENT_ROOT'].'/_cfg.php' );
-
-
-/*
   //  HACK - FIX THIS LATER
-  if($full_filepath == '/') {
-    $page_vars['page_title'] = 'Home';
-    $page_vars['page_link'] = '/';
-    return $page_vars;
+
+  // these are pages that don't currently have info
+  // so avoid them
+  $bad_paths = [
+    $_SERVER['DOCUMENT_ROOT'].'/'
+  ];
+
+  if( !in_array( $full_filepath, $bad_paths ) ) {
+
+    // bring in all the system-wide variables we might need
+    include( $_SERVER['DOCUMENT_ROOT'].'/_cfg.php' );
+
+    if($full_filepath == $_SERVER['DOCUMENT_ROOT'].'/admission/') {
+      $page_info['page_title'] = 'Admission';
+      $page_info['page_link'] = '/admission/';
+      return $page_info;
+    }
+
+
+
+    global $project_paths;
+
+  //  $full_filepath = $project_paths['main_project_root'].$short_filepath.'/index.php';
+    $page_contents = file_get_contents($full_filepath.'/index.php');
+
+    // so uh, yeah, this gets ugly.
+
+    $page_contents = explode('/* PAGE INFO === */', $page_contents);
+    $page_contents = explode('/* === */', $page_contents[1]);
+
+    eval($page_contents[0]);
+
+    // This might not be the best way of doing it, but
+    // I need these vars and I'm not sure how else to get
+    // them given our setup and process. Maybe explode the
+    // page info block and turn that into an associative array?
+
+    // Probably a better approach would have been Jekyll-style
+    // front matter. This isn't user-facing code, though,
+    // so I'm a little more inclined towards methods I'd otherwise avoid
+
+  //  $page_vars['page_title'] = $page_title;
+  //  $page_vars['page_link'] = str_replace($_SERVER['DOCUMENT_ROOT'], '', $full_filepath);
+
+  //  $page_vars['page_info'] = $page_info;
+
+    $page_info['page_link'] = str_replace($_SERVER['DOCUMENT_ROOT'], '', $full_filepath);
+
+    return $page_info;
   }
-  if($full_filepath == '/admission/') {
-    $page_vars['page_title'] = 'Admission';
-    $page_vars['page_link'] = '/admission/';
-    return $page_vars;
-  }
-*/
-
-  global $project_paths;
-
-//  $full_filepath = $project_paths['main_project_root'].$short_filepath.'/index.php';
-  $page_contents = file_get_contents($full_filepath.'/index.php');
-
-  // so uh, yeah, this gets ugly.
-  $page_contents = explode('/* PAGE INFO === */', $page_contents);
-  $page_contents = explode('/* === */', $page_contents[1]);
-
-  eval($page_contents[0]);
-
-  // This might not be the best way of doing it, but
-  // I need these vars and I'm not sure how else to get
-  // them given our setup and process. Maybe explode the
-  // page info block and turn that into an associative array?
-
-  // Probably a better approach would have been Jekyll-style
-  // front matter. This isn't user-facing code, though,
-  // so I'm a little more inclined towards methods I'd otherwise avoid
-
-//  $page_vars['page_title'] = $page_title;
-//  $page_vars['page_link'] = str_replace($_SERVER['DOCUMENT_ROOT'], '', $full_filepath);
-
-//  $page_vars['page_info'] = $page_info;
-
-  $page_info['page_link'] = str_replace($_SERVER['DOCUMENT_ROOT'], '', $full_filepath);
-
-  return $page_info;
+  else return false;
 }
+
+
+
+
+
 
 //  Wraps data in markup, returns a nav item.
 //  Pretty simple.
@@ -193,10 +204,15 @@ function breadcrumb() {
   $breadcrumb_markup = '<ol class="breadcrumb">';
 
   foreach ($path_in_pieces as &$item) {
-    $path .= $item.'/';
-    $item_info = get_page_vars($_SERVER['DOCUMENT_ROOT'].$path);
-    $title = $item_info['page_title'];
-
+    if($item == '') {
+      $path = '/';
+      $title = 'Home';
+    }
+    else {
+      $path .= $item.'/';
+      $item_info = get_page_vars($_SERVER['DOCUMENT_ROOT'].$path);
+      $title = $item_info['page_title'];
+    }
     $breadcrumb_markup .= crumb_item($path, $title);
   }
   unset($item);

@@ -5,12 +5,15 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Class Visits";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'Class Visits',
+  'feature_image' => $placeholder_img_banner
+];
 
-/*  ---------------------- */
+/* === */
+
 
 ?>
 
@@ -20,7 +23,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($placeholder_img_banner); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo interior_page_nav() ?>
 
