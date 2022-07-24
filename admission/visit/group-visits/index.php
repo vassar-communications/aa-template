@@ -7,13 +7,20 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = [
-  'page_title' => 'Group Visits',
-  'feature_image' => $admission_img_path.'visit/group/0100-21-10-kr-fw-arboretum-vassar-0270.jpg'
-];
+$page_info = '{
+  "page_title": "Group Visits",
+  "feature_image": "/admission/assets/images/visit/group/0100-21-10-kr-fw-arboretum-vassar-0270.jpg"
+}';
 
 /* === */
 
+$page_info = json_decode($page_info, true);
+
+/*$page_info = [
+  'page_title' => 'Group Visits',
+  'feature_image' => $admission_img_path.'visit/group/0100-21-10-kr-fw-arboretum-vassar-0270.jpg'
+];
+*/
 ?>
 
 <?php echo site_header(); ?>

@@ -7,13 +7,9 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = [
-  'page_title' => 'Types of Aid',
-  'page_classes' => '',
-  'feature_image' => $admission_img_path.'financial-aid/types/0060_16_06_TT_2026.jpg'
-];
-
+$page_info = '{"page_title":"Types of Aid","page_classes":"","feature_image":"/admission/assets/images/financial-aid/types/0060_16_06_TT_2026.jpg"}';
 /* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 

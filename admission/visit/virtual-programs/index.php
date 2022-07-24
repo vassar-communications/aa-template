@@ -7,13 +7,23 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
+$page_info = '{
+  "page_title": "Virtual Programs",
+  "feature_image": "/admission/assets/images/visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2033.jpg"
+}';
+
+/* === */
+
+$page_info = json_decode($page_info, true);
+
+/*
 $page_info = [
   'page_title' => 'Virtual Programs',
   'feature_image' => $admission_img_path.'visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2033.jpg'
 ];
 
-/* === */
 
+ */
 
 ?>
 

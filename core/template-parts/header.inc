@@ -1,16 +1,24 @@
 <?php
 
+// $page_info = get_page_vars(getcwd());
+
+
+
 /**
  * site_header()
  * Generates the header for a page: doctype, head, and opening body tag. Required on every page.
  * @param array $extras (optional) - Reserved for future usage
  * @return string - The header markup
  */
+
 function site_header($extras=false) {
 
-    global $project_paths;
-    global $page_title;
-    global $page_classes;
+  global $project_paths;
+  global $page_info;
+
+  $page_title = $page_info['page_title'];
+
+  $page_classes = get_value_if_exists('page_classes', $page_info);
 
 
 //  Here's where we're generating the OG stuff.
@@ -23,7 +31,7 @@ function site_header($extras=false) {
 
 //  This is the page the header is being called on.
 
-$vars = get_page_vars(getcwd());
+// $vars = get_page_vars(getcwd());
 
     $template = <<<TMP
 <!doctype html>

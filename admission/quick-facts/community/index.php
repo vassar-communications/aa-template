@@ -7,13 +7,9 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = [
-  'page_supertitle' => "Quick Facts",
-  'page_title' => 'Community',
-  'feature_image' => $quickfacts_img_path.'110619_160over90_Vassar_5564-crop.jpg'
-];
-
+$page_info = '{"page_supertitle":"Quick Facts","page_title":"Community","feature_image":"/admission/assets/images/quick-facts/110619_160over90_Vassar_5564-crop.jpg"}';
 /* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 

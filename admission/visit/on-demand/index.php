@@ -7,14 +7,23 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
+$page_info = '{
+  "page_title": "Vassar on Demand",
+  "feature_image": "/assets/images/placeholders/placeholder-banner.png"
+}';
+
+/* === */
+
+$page_info = json_decode($page_info, true);
+
+/*
 $page_info = [
   'page_title' => 'Vassar on Demand',
   'feature_image' => $placeholder_img_banner
 ];
 
-/* === */
 
-
+ */
 ?>
 
 <?php echo site_header(); ?>

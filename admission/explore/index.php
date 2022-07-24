@@ -7,13 +7,9 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = [
-  'page_title' => 'Explore Vassar',
-  'feature_image' => $placeholder_img_banner
-];
-
+$page_info = '{"page_title":"Explore Vassar","feature_image":"/assets/images/placeholders/placeholder-banner.png"}';
 /* === */
-
+$page_info = json_decode($page_info, true);
 ?>
 
 <?php echo site_header(); ?>
@@ -41,15 +37,7 @@ $page_info = [
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
-
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
-
+<?php echo interior_page_nav() ?>
 
 <?php echo masthead_interiorPage(
     'Freedom to Discover',

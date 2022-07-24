@@ -7,12 +7,12 @@ include_once($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = [
-  'page_title' => 'Applying to Vassar',
-  'feature_image' => $admission_img_path.'apply/0084_16_04_KR_0013.jpg'
-];
-
+$page_info = '{
+  "page_title":"Applying to Vassar",
+  "feature_image":"/admission/assets/images/apply/0084_16_04_KR_0013.jpg"
+}';
 /* === */
+$page_info = json_decode($page_info, true);
 
 
 ?>

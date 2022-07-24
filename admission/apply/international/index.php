@@ -7,12 +7,12 @@ include_once($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = [
-  'page_title' => 'International Applicants',
-  'feature_image' => $admission_img_path.'apply/international/0083_15_08_TT_5251.jpg'
-];
-
+$page_info = '{
+  "page_title": "International Applicants",
+  "feature_image": "/admission/assets/images/apply/international/0083_15_08_TT_5251.jpg"
+}';
 /* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 

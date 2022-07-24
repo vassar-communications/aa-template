@@ -7,13 +7,9 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = [
-  'page_title' => 'Financial Aid',
-  'page_classes' => '',
-  'feature_image' => $admission_img_path.'financial-aid/0141-15-10-kr-fall-campus-vassar-0003.jpg'
-];
-
+$page_info = '{"page_title":"Financial Aid","page_classes":"","feature_image":"/admission/assets/images/financial-aid/0141-15-10-kr-fall-campus-vassar-0003.jpg"}';
 /* === */
+$page_info = json_decode($page_info, true);
 
 
 ?>

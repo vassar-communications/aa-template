@@ -5,21 +5,12 @@ include($project_paths['main_project_root'].'/functions.php');
 <?php
 
 /* PAGE INFO === */
-
-$page_info = '{
-  "page_title": "Explore Student Life",
-  "feature_image": "explore/student-life/Vassar_Campus_20190508_KR_5256.jpg"
-}';
+$page_info = [
+  'page_title' => 'Class Visits',
+  'feature_image' => $placeholder_img_banner
+];
 
 /* === */
-
-$page_info = json_decode($page_info, true);
-
-/*
-$page_info = [
-  'page_title' => 'Explore Student Life', 'feature_image' => $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg'
-];
-*/
 
 
 ?>

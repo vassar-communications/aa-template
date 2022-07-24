@@ -7,10 +7,14 @@ include_once($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = [
-  'page_title' => 'For Veterans',
-  'feature_image' => $admission_img_path.'apply/veterans/0099_15_09_KR_0039.jpg'
-];
+$page_info = '{
+  "page_title": "For Veterans",
+  "feature_image": "/admission/assets/images/apply/veterans/0099_15_09_KR_0039.jpg"
+}';
+
+/* === */
+
+$page_info = json_decode($page_info, true);
 
 /* === */
 

@@ -7,16 +7,20 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = [
-  'page_title' => 'In-Person Visits',
-  'feature_image' => $admission_img_path.'visit/in-person/0073-21-06-kr-summer-vassar-0179.jpg'
-];
+$page_info = '{
+  "page_title": "In-Person Visits",
+  "feature_image": "/admission/assets/images/visit/in-person/0073-21-06-kr-summer-vassar-0179.jpg"
+}';
 
 /* === */
 
+$page_info = json_decode($page_info, true);
+
 ?>
 
-<?php echo site_header(); ?>
+<?php
+  echo site_header();
+?>
 
 <?php echo vassar_masthead(); ?>
 

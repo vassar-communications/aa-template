@@ -7,12 +7,9 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = [
-  'page_title' => 'Explore Diversity & Inclusion',
-  'feature_image' => 'https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg'
-];
-
+$page_info = '{"page_title":"Explore Diversity & Inclusion","feature_image":"https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg"}';
 /* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 

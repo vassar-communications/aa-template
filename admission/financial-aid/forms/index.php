@@ -7,10 +7,9 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = [
-  'page_title' => 'Forms & Resources',
-  'feature_image' => $placeholder_img_banner
-];
+$page_info = '{"page_title":"Forms & Resources","feature_image":"/assets/images/placeholders/placeholder-banner.png"}';
+/* === */
+$page_info = json_decode($page_info, true);
 
 /* === */
 

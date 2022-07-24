@@ -6,15 +6,25 @@ include($project_paths['main_project_root'].'/functions.php');
 <?php
 
 /* PAGE INFO === */
+$page_info = '{
+  "page_title": "Visit Campus",
+  "page_classes": "visithome",
+  "feature_image": "/admission/assets/images/visit/0069-19-05-kr-spring-vassar-4632.jpg"
+}';
 
+/* === */
+
+$page_info = json_decode($page_info, true);
+
+/*
 $page_info = [
   'page_title' => 'Visit Campus',
   'page_classes' => 'visithome',
   'feature_image' => $admission_img_path.'visit/0069-19-05-kr-spring-vassar-4632.jpg'
 ];
 
-/* === */
 
+ */
 
 ?>
 

@@ -7,12 +7,14 @@ include_once($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = [
-  'page_title' => 'Transfer Applicants',
-  'feature_image' => $admission_img_path.'apply/transfer/0039-21-05-kr-spring-vassar-0034-crop.jpg'
-];
+$page_info = '{
+  "page_title": "Transfer Applicants",
+  "feature_image": "/admission/assets/images/apply/transfer/0039-21-05-kr-spring-vassar-0034-crop.jpg"
+}';
 
 /* === */
+
+$page_info = json_decode($page_info, true);
 
 ?>
 

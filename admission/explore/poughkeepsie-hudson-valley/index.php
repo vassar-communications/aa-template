@@ -7,12 +7,9 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = [
-  'page_title' => 'Explore Local',
-  'feature_image' => $admission_img_path.'explore/hudson/Mid-Huson_Bridge_10_JGa.jpg'
-];
-
+$page_info = '{"page_title":"Explore Local","feature_image":"/admission/assets/images/explore/hudson/Mid-Huson_Bridge_10_JGa.jpg"}';
 /* === */
+$page_info = json_decode($page_info, true);
 
 
 ?>

@@ -7,12 +7,12 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = [
-  'page_title' => 'Explore Campus',
-  'feature_image' => $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg
-];
-
+$page_info = '{
+  "page_title": "Explore Campus",
+  "feature_image": "/admission/assets/images/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg"
+}';
 /* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -30,7 +30,7 @@ $page_info = [
     '726094046?h=e82beea31f',
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => $page_info['feature_image']',
+    ['bg-image-url' => $page_info['feature_image'],
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
