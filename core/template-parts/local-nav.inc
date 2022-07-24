@@ -3,10 +3,17 @@
 
 function get_base_path($type='document_root') {
   $path = getcwd();
+  echo 'getcwd = ' . $path . '<br>';
+
   $path = str_replace($_SERVER['DOCUMENT_ROOT'], '%%%%'.$_SERVER['DOCUMENT_ROOT'], $path);
+  echo 'with %%%% = ' . $path . '<br>';
+
   $path = explode('%%%%', $path);
   $path = $path[1];
+  echo 'path[1] = ' . $path . '<br>';
+
   $path = str_replace('%%%%', '', $path);
+  echo 'without %%%% = ' . $path . '<br><br><br>';
 
   if( $type == 'document_root' ) {
     $path_doc_root = $path;
@@ -16,6 +23,7 @@ function get_base_path($type='document_root') {
     $path = str_replace($_SERVER['DOCUMENT_ROOT'], '', $path);
     return $path;
   }
+  else 'you should never see this.';
 }
 
 
