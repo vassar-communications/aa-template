@@ -430,7 +430,7 @@ $( window ).resize(function() {
 $('#pause_button').on('click', function() {
 
 
-    var video  = $('#header_video');
+    var video  = $('#main-video');
     var player = new Vimeo.Player(video);
 
     player.pause();
@@ -439,7 +439,7 @@ $('#pause_button').on('click', function() {
 
 $('#play_button').on('click', function() {
 
-    var video  = $('#header_video');
+    var video  = $('#main-video');
     var player = new Vimeo.Player(video);
 
     player.play();
