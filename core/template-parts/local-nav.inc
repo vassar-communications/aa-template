@@ -33,6 +33,7 @@ function get_page_vars($full_filepath) {
 
     if( !$page_contents ) {
       echo 'filepath = '.$full_filepath.'/index.php'.'<br>';
+      echo 'current root is '.$_SERVER['DOCUMENT_ROOT'].'<br>';
       return false;
     }
     // so uh, yeah, this gets ugly.
