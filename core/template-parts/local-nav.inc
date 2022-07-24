@@ -2,6 +2,28 @@
 
 
 function get_base_path($type='document_root') {
+
+  //  which server are we on?
+
+  if( strpos(getcwd(), 'vassar-staging.benaustin.com') ) {
+    $root_path = '/nfs/c08/h03/mnt/117884/domains/vassar-staging.benaustin.com/html';
+  }
+  else {
+    $root_path = $_SERVER['DOCUMENT_ROOT'];
+  }
+
+  if( $type == 'document_root' ) {
+    return $root_path;
+  }
+  if( $type == 'path_to_current_doc_from_web_dir' ) {
+    $path = str_replace($root_path, '', getcwd());
+    return $path;
+  }
+
+
+
+
+/*
   $path = getcwd();
   echo 'getcwd = ' . $path . '<br>';
 
@@ -24,6 +46,10 @@ function get_base_path($type='document_root') {
     return $path;
   }
   else 'you should never see this.';
+  */
+
+
+
 }
 
 
