@@ -1,6 +1,20 @@
 <?php
 
 
+function get_base_path() {
+  $path = getcwd();
+  $path = str_replace($_SERVER['DOCUMENT_ROOT'], '%%%%'.$_SERVER['DOCUMENT_ROOT'], $path);
+  $path = explode('%%%%', $path);
+  $path = $path[1];
+  $path = str_replace('%%%%', '', $path);
+
+
+  $path = str_replace($_SERVER['DOCUMENT_ROOT'], '', $path);
+
+  return $path;
+}
+
+
 //  Provided a path to a page (/admission/apply), this returns all the
 //  variables for that page: title, classes, etc
 function get_page_vars($full_filepath) {
@@ -37,6 +51,7 @@ function get_page_vars($full_filepath) {
       echo 'current root is '. $_SERVER['DOCUMENT_ROOT'] . '<br>';
       echo 'getcwd() is '. getcwd() . '<br>';
       echo '$_SERVER["DOCUMENT_ROOT"]. __DIR__" = '.$_SERVER['DOCUMENT_ROOT']. __DIR__ . '<br>';
+      echo 'DIR = '.__DIR__;
       return false;
     }
     // so uh, yeah, this gets ugly.
@@ -188,10 +203,11 @@ function breadcrumb() {
   //  pages have no _nav.txt, because they have no subsections.
 
     if (file_exists(getcwd().'/_nav.txt')) {
-      $current_path = str_replace($_SERVER['DOCUMENT_ROOT'], '', getcwd());
+//      $current_path = str_replace($_SERVER['DOCUMENT_ROOT'], '', getcwd());
+      $current_path = get_base_path();
     }
     else {
-      $current_path = str_replace($_SERVER['DOCUMENT_ROOT'], '', dirname(getcwd(), 1));
+      $current_path = dirname(get_base_path(), 1);
     }
 
 //  return $current_path;
