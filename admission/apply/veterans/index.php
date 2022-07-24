@@ -5,12 +5,14 @@ include_once($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "For Veterans";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'For Veterans',
+  'feature_image' => $admission_img_path.'apply/veterans/0099_15_09_KR_0039.jpg'
+];
 
-/*  ---------------------- */
+/* === */
 
 ?>
 
@@ -20,7 +22,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($admission_img_path.'apply/veterans/0099_15_09_KR_0039.jpg'); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -38,7 +40,8 @@ $page_classes = "";
     'Posse Veterans Program',
     $admission_img_path.'apply/veterans/0071-19-05-ss2-posse-vassar-0645.jpg',
     'image-is-first theme-cream section-large-title',
-    ''
+    '',
+    ['img_alt_text' => 'Graduates of the Posse Veterans Program standing in a row wearing graduation robes and caps.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>This program supports veterans interested in pursuing bachelor’s degrees at top educational institutions. Those accepted into the program attend college as part of a Veterans Posse, which is a team of service veterans.</p>

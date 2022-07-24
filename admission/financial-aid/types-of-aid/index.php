@@ -5,12 +5,15 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Types of Aid";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'Types of Aid',
+  'page_classes' => '',
+  'feature_image' => $admission_img_path.'financial-aid/types/0060_16_06_TT_2026.jpg'
+];
 
-/*  ---------------------- */
+/* === */
 
 ?>
 
@@ -20,7 +23,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($admission_img_path.'financial-aid/types/0060_16_06_TT_2026.jpg'); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo interior_page_nav() ?>
 

@@ -5,12 +5,14 @@ include_once($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "International Applicants";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'International Applicants',
+  'feature_image' => $admission_img_path.'apply/international/0083_15_08_TT_5251.jpg'
+];
 
-/*  ---------------------- */
+/* === */
 
 ?>
 
@@ -20,7 +22,7 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($admission_img_path.'apply/international/0083_15_08_TT_5251.jpg'); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 
 <?php echo interior_page_nav() ?>

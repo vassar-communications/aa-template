@@ -5,12 +5,14 @@ include_once($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Transfer Applicants";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'Transfer Applicants',
+  'feature_image' => $admission_img_path.'apply/transfer/0039-21-05-kr-spring-vassar-0034-crop.jpg'
+];
 
-/*  ---------------------- */
+/* === */
 
 ?>
 
@@ -21,7 +23,7 @@ $page_classes = "";
 <?php echo hamburger_navigation(); ?>
 
 
-<?php echo page_partialmasthead($admission_img_path.'apply/transfer/0039-21-05-kr-spring-vassar-0034-crop.jpg'); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 
 <?php echo interior_page_nav() ?>

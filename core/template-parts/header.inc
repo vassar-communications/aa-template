@@ -12,6 +12,20 @@ function site_header($extras=false) {
     global $page_title;
     global $page_classes;
 
+
+//  Here's where we're generating the OG stuff.
+//  How that works:
+//    figure out what page we're on
+//    grab all of its variables
+//    run them through socialcard() to generate OG markup
+//    insert that markup into the template below
+
+
+//  This is the page the header is being called on.
+
+$vars = get_page_vars(getcwd());
+print_r($vars['page_info']);
+
     $template = <<<TMP
 <!doctype html>
 <html class="no-js $page_classes" lang="">

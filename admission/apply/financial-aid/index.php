@@ -5,12 +5,15 @@ include_once($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Financial Aid";
-$page_classes = "alive";
+$page_info = [
+  'page_title' => 'Financial Aid',
+  'page_classes' => 'alive',
+  'feature_image' => $admission_img_path.'financial-aid/0141-15-10-kr-fall-campus-vassar-0003.jpg'
+];
 
-/*  ---------------------- */
+/* === */
 
 ?>
 
@@ -20,7 +23,7 @@ $page_classes = "alive";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($placeholder_img_banner); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo interior_page_nav() ?>
 

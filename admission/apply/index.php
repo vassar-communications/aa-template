@@ -5,12 +5,15 @@ include_once($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Applying to Vassar";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'Applying to Vassar',
+  'feature_image' => $admission_img_path.'apply/0084_16_04_KR_0013.jpg'
+];
 
-/*  ---------------------- */
+/* === */
+
 
 ?>
 
@@ -25,7 +28,7 @@ $page_classes = "";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => $admission_img_path.'apply/0084_16_04_KR_0013.jpg',
+    ['bg-image-url' => $page_info['feature_image'],
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);

@@ -1,4 +1,11 @@
 <?php
+
+
+//image => [url]
+//title
+//description
+//twitter
+
 function socialcard($arr) {
 	foreach ($arr as $key => $value) {
 		$markup .= PHP_EOL;

@@ -2,6 +2,7 @@
 
 <?php
 
+/*
 //  These are just to make it easier to specify obvious placeholders
 $placeholder_img_banner = '/assets/images/placeholders/placeholder-banner.png';
 $placeholder_img_square = '/assets/images/placeholders/placeholder-square.png';
@@ -10,7 +11,7 @@ $placeholder_img_wide = '/assets/images/placeholders/placeholder-wide.jpg';
 
 $admission_img_path = '/admission/assets/images/';
 $quickfacts_img_path = $admission_img_path.'quick-facts/';
-
+*/
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 
 include($project_paths['main_project_root'].'/core/review/slugify.inc');

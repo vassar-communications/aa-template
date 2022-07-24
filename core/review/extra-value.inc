@@ -32,6 +32,7 @@
  * @return string - the formatted extra
  */
 function get_extras_value($extras_key, $extras_array, $format = false) {
+
     if ($extras_array && array_key_exists($extras_key, $extras_array)) {
         // return $extras_array[ $extras_key ];
         if(!$format) $format = $extras_array[ $extras_key ];

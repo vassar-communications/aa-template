@@ -5,12 +5,14 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Interviews";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'Interviews',
+  'feature_image' => $placeholder_img_banner
+];
 
-/*  ---------------------- */
+/* === */
 
 ?>
 

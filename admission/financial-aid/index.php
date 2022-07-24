@@ -5,12 +5,16 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Financial Aid";
-$page_classes = "";
+$page_info = [
+  'page_title' => 'Financial Aid',
+  'page_classes' => '',
+  'feature_image' => $admission_img_path.'financial-aid/0141-15-10-kr-fall-campus-vassar-0003.jpg'
+];
 
-/*  ---------------------- */
+/* === */
+
 
 ?>
 
@@ -26,8 +30,8 @@ $page_classes = "";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => $admission_img_path.'financial-aid/0141-15-10-kr-fall-campus-vassar-0003.jpg',
-        'bg-image-alt' => 'alt text',
+    ['bg-image-url' => $page_info['feature_image'],
+        'bg-image-alt' => 'The front of Thompson Library on the Vassar College campus.',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;

@@ -5,6 +5,10 @@
 //  variables for that page: title, classes, etc
 function get_page_vars($full_filepath) {
 
+  // bring in all the system-wide variables we might need
+  include( $_SERVER['DOCUMENT_ROOT'].'/_cfg.php' );
+
+
 /*
   //  HACK - FIX THIS LATER
   if($full_filepath == '/') {
@@ -25,12 +29,12 @@ function get_page_vars($full_filepath) {
   $page_contents = file_get_contents($full_filepath.'/index.php');
 
   // so uh, yeah, this gets ugly.
-  $page_contents = explode('/*  PAGE INFO ============ */', $page_contents);
-  $page_contents = explode('/*  ---------------------- */', $page_contents[1]);
+  $page_contents = explode('/* PAGE INFO === */', $page_contents);
+  $page_contents = explode('/* === */', $page_contents[1]);
 
   eval($page_contents[0]);
 
-  // this might not be the best way of doing it, but
+  // This might not be the best way of doing it, but
   // I need these vars and I'm not sure how else to get
   // them given our setup and process. Maybe explode the
   // page info block and turn that into an associative array?
@@ -39,10 +43,14 @@ function get_page_vars($full_filepath) {
   // front matter. This isn't user-facing code, though,
   // so I'm a little more inclined towards methods I'd otherwise avoid
 
-  $page_vars['page_title'] = $page_title;
-  $page_vars['page_link'] = str_replace($_SERVER['DOCUMENT_ROOT'], '', $full_filepath);
+//  $page_vars['page_title'] = $page_title;
+//  $page_vars['page_link'] = str_replace($_SERVER['DOCUMENT_ROOT'], '', $full_filepath);
 
-  return $page_vars;
+//  $page_vars['page_info'] = $page_info;
+
+  $page_info['page_link'] = str_replace($_SERVER['DOCUMENT_ROOT'], '', $full_filepath);
+
+  return $page_info;
 }
 
 //  Wraps data in markup, returns a nav item.
