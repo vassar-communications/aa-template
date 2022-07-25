@@ -109,9 +109,23 @@ a.breadcrumb-link {
 .breadcrumb-link {
  --section-link-color: #333;
  --section-link-visited-color: #333;
+ --section-link-hover-color: #f00;
 
 }
 .breadcrumb-item:last-child a {
   --section-link-color: #{$link-red};
   --section-link-visited-color: #{$link-red};
+}
+
+.local-nav {
+  padding-top: 2rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-variation-settings: "wght" 420;
+
+  .current-item & {
+    font-variation-settings: "wght" 666;
+  }
 }

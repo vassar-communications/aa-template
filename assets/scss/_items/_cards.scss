@@ -13,7 +13,8 @@
     margin-right: 0.4rem;
   }
 
-  a:focus {
+/*
+  a:focus:not(:click) {
     border: 8px solid #f00;
 
     &:before {
@@ -25,7 +26,7 @@
       z-index: 80;
     }
   }
-
+*/
   .stretched-link {
     position: absolute;
     top: 4px;

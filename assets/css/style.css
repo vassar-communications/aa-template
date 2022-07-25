@@ -10408,22 +10408,27 @@ h2.border-animate:after, .border-animate.h2:after {
  * Future: separate out the fancy card styling from the generic card styling.
 
  */
+.card {
+  /*
+    a:focus:not(:click) {
+      border: 8px solid #f00;
+
+      &:before {
+        border-color: #fff;
+        z-index: 120;
+      }
+      &:after {
+        border-color: #fff;
+        z-index: 80;
+      }
+    }
+  */
+}
 .card.slightly-wider-image {
   --card-image-width: 56%;
 }
 .card .icon {
   margin-right: 0.4rem;
-}
-.card a:focus {
-  border: 8px solid #f00;
-}
-.card a:focus:before {
-  border-color: #fff;
-  z-index: 120;
-}
-.card a:focus:after {
-  border-color: #fff;
-  z-index: 80;
 }
 .card .stretched-link {
   position: absolute;
@@ -13421,6 +13426,10 @@ This should be a section option
   display: none;
 }
 
+.fade-the-title .section-title-container {
+  opacity: 0;
+}
+
 /*
 
 This should be a section option
@@ -13901,11 +13910,24 @@ a.breadcrumb-link {
 .breadcrumb-link {
   --section-link-color: #333;
   --section-link-visited-color: #333;
+  --section-link-hover-color: #f00;
 }
 
 .breadcrumb-item:last-child a {
   --section-link-color: #e00;
   --section-link-visited-color: #e00;
+}
+
+.local-nav {
+  padding-top: 2rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-variation-settings: "wght" 420;
+}
+.current-item .nav-link {
+  font-variation-settings: "wght" 666;
 }
 
 /* no styles currently used */
@@ -14104,16 +14126,6 @@ button.card {
 }
 
 /* end diagonal butotn */
-.local-nav {
-  padding-top: 2rem;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-  font-weight: bold;
-  font-variation-settings: "wght" 670;
-}
-
 .section-title-text-shadow:not(.show-content) .section-title b {
   text-shadow: 0 0em 0.2em #000;
 }

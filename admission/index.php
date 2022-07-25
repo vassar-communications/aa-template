@@ -26,6 +26,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_siteHeader_video(); ?>
 
 <a href="/admission/apply/" class="mx-2 btn btn-lg btn-primary arrow">Apply</a>
+<a href="/admission/visit/" class="mx-2 btn btn-lg btn-primary arrow">Visit</a>
 <a href="https://apply.vassar.edu/register/requestinfo" class="mx-2 btn btn-lg btn-primary arrow">Request Info</a>
 
 <?php echo end_sec_siteHeader_video(); ?>

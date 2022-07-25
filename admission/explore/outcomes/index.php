@@ -55,7 +55,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     null,
-    'theme-charcoal animate-when-content-appears mw-inner-1',
+    'theme-charcoal animate-when-content-appears mw-inner-4',
     null,
     null
 ); ?>
@@ -69,7 +69,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fullBleedImageColumn(
     'Career Development',
     $admission_img_path.'explore/outcomes/110619_160over90_Vassar_4689.jpg',
-    'image-is-first theme-dark-burgundy quad-pattern has-bg',
+    'image-is-first theme-burgundy quad-pattern has-bg',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -82,7 +82,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fullBleedImageColumn(
     'Major Palooza',
     $admission_img_path.'explore/outcomes/0153-19-11-kr-major-palooza-vassar-5360-crop.jpg',
-    ' theme-charcoal quad-pattern has-bg',
+    ' theme-charcoal',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -94,7 +94,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fullBleedImageColumn(
     'Connections',
     $admission_img_path.'explore/outcomes/0002-18-01-kr-scc-estrella-vassar-0048.jpg',
-    'image-is-first theme-dark-burgundy quad-pattern has-bg',
+    'image-is-first theme-extralightgray quad-pattern has-bg',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">

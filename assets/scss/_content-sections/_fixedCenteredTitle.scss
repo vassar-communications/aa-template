@@ -158,3 +158,13 @@ This should be a section option
     display: none;
   }
 }
+
+
+
+// added 07/24 - Chris
+// For some reason, the CSS-var-based version of this stopped working
+// I'll figure it out, but not tonight.
+
+.fade-the-title .section-title-container {
+  opacity: 0;
+}

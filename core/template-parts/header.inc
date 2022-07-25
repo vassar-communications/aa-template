@@ -16,13 +16,16 @@ function site_header($extras=false) {
   global $project_paths;
   global $page_info;
 
-  $page_title = $page_info['page_title'];
+//  $page_title = $page_info['page_title'];
 
-  $page_classes = get_value_if_exists('page_classes', $page_info);
+$page_title = 'Admission';
+$page_classes = null;
 
-  $social_card_data = [
-    'image' => $page_info['feature_image']
-  ];
+//  $page_classes = get_value_if_exists('page_classes', $page_info);
+
+//  $social_card_data = [
+//    'image' => $page_info['feature_image']
+//  ];
 
 
 //  Here's where we're generating the OG stuff.

@@ -46,11 +46,11 @@ $page_info = json_decode($page_info, true);
     'Our Students',
     '3',
     '<p class="intro-text">Diverse in every sense of the word, Vassar students practice many different religions and are of different sexual orientations. Our students come from all regions of the United States and 55 foreign countries.</p>',
-    'items-equal-height mw-inner-3 theme-extralightgray cols-6',
+    'items-equal-height mw-inner-3 theme-extralightgray cols-6 animate-when-content-appears animation-group animation-fade-in',
     'gap-3'
 ); ?>
 
-  <?php echo item_col('span-1'); ?>
+  <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
       'Student body',
       '2,450',
@@ -58,15 +58,15 @@ $page_info = json_decode($page_info, true);
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col('span-1'); ?>
+  <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
       'Students of color',
       '33%',
       'in recent classes'
     ); ?>
-  <?php echo end_item_col('span-1'); ?>
+  <?php echo end_item_col(); ?>
 
-  <?php echo item_col('span-1'); ?>
+  <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
       'Student organizations',
       '170',
@@ -74,7 +74,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col('span-2'); ?>
+  <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
       '',
       '65%',
@@ -82,7 +82,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col('span-2'); ?>
+  <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
       '',
       '35%',
@@ -90,7 +90,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col('span-2'); ?>
+  <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
       'Men',
       '58%',
@@ -98,7 +98,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col('span-2'); ?>
+  <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
       'Women',
       '42%',
