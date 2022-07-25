@@ -69,14 +69,14 @@ $page_info = json_decode($page_info, true);
 
 
 
-<div class="grid cols-3 animation-zoom-in animate-when-content-appears animation-group">
+<div class="grid cols-2 animation-zoom-in animate-when-content-appears animation-group">
 
 
 
     <?php echo item_cardWithText(
         'Applying to Vassar',
         '/admission/apply/',
-        ['url' => '/mockups/admission-home/apply/Untitled-3.jpg', 'alt' => 'replacealttext' ],
+        ['url' => '/admission/assets/images/admission-home/0198-19-11-kwe-library-vassar-vb-5415.jpg', 'alt' => 'replacealttext' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
@@ -89,10 +89,25 @@ $page_info = json_decode($page_info, true);
 
 
 
+
+
+    <?php echo item_cardWithText(
+        'Visit',
+        '/admission/visit/',
+        ['url' => '/admission/assets/images/admission-home/0100-21-10-kr-fw-general-vassar-0057.jpg', 'alt' => 'replacealttext' ],
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
+    ); ?>
+
+    <p>[NEED SUMMARY CONTENT]</p>
+
+    <?php echo end_item_cardWithText(
+        null,
+    ); ?>
+
     <?php echo item_cardWithText(
         'Financial Aid Information',
         '/admission/financial-aid/',
-        ['url' => '/mockups/admission-home/apply/Untitled-2.jpg', 'alt' => 'replacealttext' ],
+        ['url' => '/admission/assets/images/admission-home/0177_16_09_KR_0072.jpg', 'alt' => 'replacealttext' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
 
     ); ?>
@@ -107,7 +122,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Request Information',
         'https://apply.vassar.edu/register/requestinfo',
-        ['url' => '/mockups/admission-home/apply/Untitled-1.jpg', 'alt' => 'replacealttext' ],
+        ['url' => '/admission/assets/images/admission-home/0065-19-05-kr-jewett-dorm-vassar-4374.jpg', 'alt' => 'replacealttext' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
@@ -173,7 +188,7 @@ echo sec_fixedCenteredTitle(
         'More than half of Vassar students receive financial aid.
     ',
         'animation-item',
-        '',
+        '/admission/financial-aid/'
     );
     ?>
 
@@ -181,7 +196,8 @@ echo sec_fixedCenteredTitle(
         'Majors',
         '51',
         'Choose from 48 departments and programs, 51 majors, plus the Independent Program (interdisciplinary “design your own” major).',
-        'animation-item'
+        'animation-item',
+        '/admission/explore/academics/'
     );
     ?>
 
@@ -189,15 +205,17 @@ echo sec_fixedCenteredTitle(
         'Student Orgs',
         '170',
         'From volunteer opportunities in our local community to mystery hikes with the Outing Club, Vassar has an organization for everyone.',
-        'animation-item'
+        'animation-item',
+        '/admission/explore/student-life/'
     );
     ?>
 
     <?php echo flipcard_stat(
-        'Varsity Teams',
-        '27',
-        'In the past three years, Vassar student-athletes have achieved All-American status in seven sports.',
-        'animation-item'
+        'Employed Grads',
+        '96%',
+        'Within six months of graduating, 96% of Vassar students are employed, in graduate school, or in a competitive fellowship.',
+        'animation-item',
+        '/admission/explore/outcomes/'
     );
     ?>
 

@@ -10842,6 +10842,13 @@ details.open .dropdown__content .col-sm {
   margin: 40px 0;
   perspective: 600px;
 }
+.flip-card .stretched-link {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .flip-card:hover .card-content {
   transform: rotateY(180deg);
 }
