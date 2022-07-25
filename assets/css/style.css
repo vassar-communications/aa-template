@@ -13289,13 +13289,21 @@ html {
 /*
   This styling builds off that for sec_fullBleedImageColumn.
 */
-.masthead--interiorPage .masthead-title {
+.section.masthead--interiorPage .section--full-bleed-image-column__content {
+  padding-top: 0;
+}
+.section.masthead--interiorPage .masthead-title {
   font-weight: 900;
   letter-spacing: -0.028em;
   line-height: 1;
   position: relative;
+  background-image: url(/assets/images/spark-up.gif);
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 6rem;
+  background-size: 7rem;
 }
-.masthead--interiorPage .masthead-title:after {
+.section.masthead--interiorPage .masthead-title:after {
   border: 2px solid #ED1C24;
   bottom: -2.5rem;
   content: "";
@@ -13303,10 +13311,10 @@ html {
   position: absolute;
   width: 4rem;
 }
-.masthead--interiorPage .columns {
+.section.masthead--interiorPage .columns {
   grid-template-columns: 6fr 4fr !important;
 }
-.masthead--interiorPage .section-intro {
+.section.masthead--interiorPage .section-intro {
   color: #63666A;
   font-size: 2rem;
   --regularContent-lineHeight: 1.3;

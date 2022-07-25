@@ -33,7 +33,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/assets/images/placeholders/placeholder-square.png',
+     '/admission/assets/images/visit/0113-19-09-kr-families-weekend-vassar-1616.jpg',
     'image-is-first theme-cream',
     ''
 );
@@ -50,17 +50,6 @@ $page_info = json_decode($page_info, true);
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<?php echo sec_wordByWord_fixed(
-    null,
-    'animate-when-content-appears space-around-image',
-    null
-); ?>
-
-<p>“Vassar’s more than 100 buildings showcase various architectural styles, from the Gothic Thompson Memorial Library to César Pelli’s Lehman Loeb Art Center.”</p>
-<div class="quote-attribution"><em>Architectural Digest</em>, “50 Most Beautiful Campuses”</div>
-<?php echo end_sec_wordByWord_fixed(); ?>
 
 
 <?php echo sec_regularContent(
@@ -86,6 +75,16 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_regularContent(); ?>
 
+
+<?php echo sec_wordByWord_fixed(
+    null,
+    'animate-when-content-appears space-around-image',
+    null
+); ?>
+
+<p>“Vassar’s more than 100 buildings showcase various architectural styles, from the Gothic Thompson Memorial Library to César Pelli’s Lehman Loeb Art Center.”</p>
+<div class="quote-attribution"><em>Architectural Digest</em>, “50 Most Beautiful Campuses”</div>
+<?php echo end_sec_wordByWord_fixed(); ?>
 
 
 <!-- Campus Access and Pre-Registration -->

@@ -2,12 +2,25 @@
   This styling builds off that for sec_fullBleedImageColumn.
 */
 
-.masthead--interiorPage {
+.section.masthead--interiorPage {
+  $spark-size: 7rem;
+
+  .section--full-bleed-image-column__content {
+    padding-top: 0;
+  }
+
   .masthead-title {
     font-weight: $font-weight-bolder;
     letter-spacing: -0.028em;
     line-height: 1;
     position: relative;
+
+    background-image: url(/assets/images/spark-up.gif);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 6rem;
+    background-size: $spark-size;
+
 
     &:after {
       border: 2px solid $red;
@@ -31,6 +44,6 @@
     background-repeat: no-repeat;
     background-position: bottom center;
     padding-bottom: 7rem;
-    background-size: 7rem;
+    background-size: $spark-size;
   }
 }
