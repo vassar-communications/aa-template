@@ -7,7 +7,10 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = '{"page_title":"Outcomes","feature_image":"/admission/assets/images/explore/outcomes/Commencement_grads_11_JA_2.jpg"}';
+$page_info = '{
+  "page_title":"Explore Outcomes",
+  "feature_image":"/admission/assets/images/explore/outcomes/Commencement_grads_11_JA_2.jpg"
+}';
 /* === */
 $page_info = json_decode($page_info, true);
 

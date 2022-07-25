@@ -33,10 +33,16 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    $admission_img_path.'visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg',
+    '/assets/images/placeholders/placeholder-square.png',
     'image-is-first theme-cream',
     ''
-); ?>
+);
+
+// former image: visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg
+// Admission said they don't want to use this; there's a student
+// in there who they don't want to feature
+
+?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">We are excited to welcome registered visitors to our campus! To be sure that your time on campus is safe and enjoyable, please carefully review the information on this page prior to your Vassar visit.</p>
 
