@@ -67,41 +67,66 @@ $page_info = [
 ); ?>
 
 <?php echo item_col(); ?>
-<?php echo item_cardWithText(
-    'The College Search During the Pandemic',
-    '#',
-    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+
+<?php
+echo item_imageCard_videoModal(
+    get_icon('play').'The College Search During the Pandemic',
+    null,
+    '487429322',
+    'vimeo',
     '',
-    ['hlevel' => 4]
-); ?>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
-<?php echo end_item_cardWithText(); ?>
+    ['url' => $admission_img_path.'placeholder.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom text-white'
+);
+
+?>
+
 <?php echo end_item_col(); ?>
 
 
 <?php echo item_col(); ?>
-<?php echo item_cardWithText(
-    'Demystifying Financial Aid',
-    '#',
-    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+
+<?php
+echo item_imageCard_videoModal(
+    get_icon('play').'A Case for the Liberal Arts',
+    null,
+    '487430715',
+    'vimeo',
     '',
-    ['hlevel' => 4]
-); ?>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
-<?php echo end_item_cardWithText(); ?>
+    ['url' => $admission_img_path.'placeholder.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom text-white'
+);
+
+?>
+
+
 <?php echo end_item_col(); ?>
 
 
 <?php echo item_col(); ?>
-<?php echo item_cardWithText(
-    'A Case for the Liberal Arts',
-    '#',
-    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+
+
+
+<?php
+echo item_imageCard_videoModal(
+    get_icon('play').'Demystifying Financial Aid',
+    null,
+    '487422599',
+    'vimeo',
     '',
-    ['hlevel' => 4]
-); ?>
-<div class="px-0 btn btn-link"><i class="mx-0 circle fa-solid fa-play"></i></div>
-<?php echo end_item_cardWithText(); ?>
+    ['url' => $admission_img_path.'placeholder.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom text-white'
+);
+
+?>
+
+
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
@@ -187,8 +212,9 @@ $page_info = [
 echo item_imageCard_videoModal(
     get_icon('play').'“Is Love a Boy?” performed by the Vassar College Chamber Singers',
     null,
-    'https://www.youtube.com/embed/f8meSHKeTSg',
-    null,
+    'f8meSHKeTSg',
+    'youtube',
+    '',
     ['url' => $admission_img_path.'admission-home/video/food-1.jpg',
         'alt' => 'asdfasdf'
     ],
@@ -207,9 +233,10 @@ echo item_imageCard_videoModal(
 echo item_imageCard_videoModal(
     get_icon('play').'“Unclouded Day” performed by the Vassar College Choir and Friends',
     null,
-    'https://player.vimeo.com/video/484138020?api=1?badge=0?autoplay=1',
-    null,
-    ['url' => $admission_img_path.'admission-home/video/food-1.jpg',
+    '484138020',
+    'youtube',
+    '',
+    ['url' => $admission_img_path.'placeholder.jpg',
         'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -221,9 +248,25 @@ echo item_imageCard_videoModal(
 
 
 <?php echo item_col(); ?>
+
+<?php
+echo item_imageCard_videoModal(
+    get_icon('play').'“No Time” performed by the Vassar College Women’s Chorus',
+    null,
+    '484138020',
+    'youtube',
+    '',
+    ['url' => $admission_img_path.'placeholder.jpg',
+        'alt' => 'asdfasdf'
+    ],
+    'animation-item grid-item text-at-bottom text-white'
+);
+
+?>
+
 <?php echo item_cardWithText(
     '“No Time” performed by the Vassar College Women’s Chorus',
-    '#',
+    'xe6lj-ZM8aY',
     ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
