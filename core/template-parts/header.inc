@@ -56,8 +56,6 @@ $page_classes = null;
   <meta property="og:image" content="">
 
   <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
 
   <link rel="stylesheet" href="https://use.typekit.net/cga8whe.css">
 
@@ -81,8 +79,7 @@ $page_classes = null;
 
   <link rel="stylesheet" href="{$project_paths['public_path']}/assets/css/style.css">
 
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+  <meta name="theme-color" content="#951829">
 </head>
 
 <body>

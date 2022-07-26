@@ -227,7 +227,7 @@ $page_info = json_decode($page_info, true);
         <div id="loans-collapseFour" class="accordion-collapse collapse" aria-labelledby="loans-headingFour" data-bs-parent="#loans">
             <div class="accordion-body">
                 <ul>
-                    <li>Apply for financial aid on Vassar’s <a href="/admissions/financial-aid/apply/">Apply for Aid</a> page.</li>
+                    <li>Apply for financial aid on Vassar’s <a href="/admission/financial-aid/apply/">Apply for Aid</a> page.</li>
                     <li>Eligibility for all financial aid is determined by completing the <a href="http://www.fafsa.ed.gov/">Free Application for Federal Student Aid (FAFSA)</a>.</li>
                     <li>Avoid any scholarship/grant searches that require a fee. Look for free searches like <a href="http://www.fastweb.com/">fastweb</a>.</li>
                     <li>Visit your state’s education department website to find out what grant or state-backed loans might be available to you. Some states offer education loans for their residents that are less costly than alternative education loans from private lenders.</li>
