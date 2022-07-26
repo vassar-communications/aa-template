@@ -94,9 +94,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Types of Aid',
-    $admission_img_path.'financial-aid/0256-19-10-ja-library-lawn-vassar-vb-066.jpg',
+    $admission_img_path.'financial-aid/types/0025-21-04-kr-spring-vassar-0012.jpg',
     'theme-charcoal bg-dark has-bg quad-pattern',
-    ''
+    null,
+    ['img_alt_text' => 'A student sits in a tree on a sunny day playing a guitar']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Financial aid awards typically include grants and scholarships, loans, and campus jobs. </p>
