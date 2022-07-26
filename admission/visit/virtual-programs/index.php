@@ -84,7 +84,7 @@ $page_info = [
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
-<img src="/admission/assets/images/visit/virtual/tour-video-still.jpg" alt="changealttext" />
+<img src="/admission/assets/images/visit/virtual/tour-video-still.jpg" alt="Aerial view of a brick campus building, the New England Building" />
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
@@ -101,7 +101,7 @@ $page_info = [
 <?php echo item_cardWithText(
     'Self-Guided Virtual Tour',
     'https://www.vassar.edu/tour',
-    ['url' => $admission_img_path.'visit/virtual/0091_15_09_KR_0201.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'visit/virtual/0091_15_09_KR_0201.jpg', 'alt' => 'Students studying at desks in the Thompson Memorial Library' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
@@ -115,7 +115,7 @@ $page_info = [
 <?php echo item_cardWithText(
     'Classroom Visits',
     '/admission/visit/class-visits/',
-    ['url' => $admission_img_path.'visit/virtual/110519_160over90_Vassar_0348.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'visit/virtual/110519_160over90_Vassar_0348.jpg', 'alt' => 'Professor referring to chalk board in front of students' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
@@ -130,7 +130,7 @@ $page_info = [
 <?php echo item_cardWithText(
     'Vassar on Demand',
     '/admission/visit/on-demand/',
-    ['url' => $admission_img_path.'visit/virtual/Take_Off_MZa.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'visit/virtual/Take_Off_MZa.jpg', 'alt' => 'Vassar Repertory Dance Theatre company performing on stage' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

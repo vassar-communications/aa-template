@@ -14316,6 +14316,7 @@ html {
   }
   .featureImage-text-ticker:after {
     content: "flickity";
+    opacity: 0;
   }
   .featureImage-text-ticker .carousel-cell {
     width: 66%;

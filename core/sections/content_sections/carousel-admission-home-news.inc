@@ -12,7 +12,7 @@ function newsCarousel() {
   <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-        <img src="/mockups/admission-home/assets/images/news/aavc-awards-2206-2x3-edit1.jpg" />
+        <img src="/admission/assets/images/news/aavc-awards-2206-2x3-edit1.jpg" />
       </div>
        <div class="figcaption p-4">
         <h3 class="h3">Five Alumni Selected for 2022 AAVC Awards</h3>
@@ -24,7 +24,7 @@ function newsCarousel() {
     <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-        <img src="/mockups/admission-home/assets/images/news/Pulitzer-Prizes-medal-edit1.jpeg" />
+        <img src="/admission/assets/images/news/Pulitzer-Prizes-medal-edit1.jpeg" />
          </div>
       <div class="figcaption p-4">
           <h3 class="h3">Ada Ferrer ’84 Wins 2022 Pulitzer Prize in History</h3>
@@ -40,7 +40,7 @@ function newsCarousel() {
       <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-             <img src="/mockups/admission-home/assets/images/news/olmsted-story-lead.jpeg" />
+             <img src="/admission/assets/images/news/olmsted-story-lead.jpeg" />
           </div>
  <div class="figcaption p-4">
            <h3 class="h3">Exhibit Highlights Newly Revealed Olmsted Role in Campus Design</h3>
@@ -56,7 +56,7 @@ function newsCarousel() {
   <div class="carousel-cell">
   <div class="carousel-cell-content">
     <div class="image-container">
-      <img src="/mockups/admission-home/assets/images/news/05-Hohn-Photo-lead.jpg" />
+      <img src="/admission/assets/images/news/05-Hohn-Photo-lead.jpg" />
        </div>
     <div class="figcaption p-4">
         <h3 class="h3">GIs and Fräuleins</h3>
@@ -69,7 +69,7 @@ function newsCarousel() {
 <div class="carousel-cell">
 <div class="carousel-cell-content">
   <div class="image-container">
-    <img src="/mockups/admission-home/assets/images/news/miringoff-22-2x3.jpg" />
+    <img src="/admission/assets/images/news/miringoff-22-2x3.jpg" />
      </div>
   <div class="figcaption p-4">
       <h3 class="h3">Students Receive Miringoff Awards for Service to the Community</h3>

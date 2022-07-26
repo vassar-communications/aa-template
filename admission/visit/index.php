@@ -42,7 +42,7 @@ $page_info = [
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => $page_info['feature_image'],
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'Aerial view of the residential quad on Vassar Campus',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
@@ -123,7 +123,7 @@ $page_info = [
 <?php echo item_cardWithText(
     'Group Visit Info',
     '/admission/visit/group-visits/',
-    ['url' => $admission_img_path.'visit/0055_15_04_KR_0110.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'visit/0055_15_04_KR_0110.jpg', 'alt' => 'Side view of a panel discussion and audience' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
@@ -140,7 +140,7 @@ $page_info = [
 <?php echo item_cardWithText(
     'Register',
     'https://apply.vassar.edu/portal/campusvisitcalendar',
-    ['url' => $admission_img_path.'visit/Vassar_Campus_20190423_KR_9440.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'visit/Vassar_Campus_20190423_KR_9440.jpg', 'alt' => 'Circle of students in conversation seated on Vassar campus lawn' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

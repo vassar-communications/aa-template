@@ -56,7 +56,7 @@ $page_info = json_decode($page_info, true);
     '<p class="section-intro-text">Our Admission team is here to help you with:</p>',
     'sec-fixedCenteredTitle theme-verylightgray here-to-help',
     'mw-4',
-    ['bg-image-url' => '/mockups/admission-home/assets/images/0145-15-05-hw-campus-vassar-vb-4747.jpg',
+    ['bg-image-url' => '/admission/assets/images/0145-15-05-hw-campus-vassar-vb-4747.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -76,7 +76,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Applying to Vassar',
         '/admission/apply/',
-        ['url' => '/admission/assets/images/admission-home/0198-19-11-kwe-library-vassar-vb-5415.jpg', 'alt' => 'replacealttext' ],
+        ['url' => '/admission/assets/images/admission-home/0198-19-11-kwe-library-vassar-vb-5415.jpg', 'alt' => 'Student studying in the Thompson Memorial Library' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
@@ -162,8 +162,8 @@ echo sec_fixedCenteredTitle(
     'sec-fixedCenteredTitle theme-charcoal-to-white xhide-image',
     'mw-4',
     [
-        /*      'bg-image-url' => '/mockups/admission-home/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg', */
-        'bg-image-url' => '/mockups/admission-home/assets/images/0141-15-10-kr-fall-campus-vassar-0034.jpg',
+        /*      'bg-image-url' => '/admission/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg', */
+        'bg-image-url' => '/admission/assets/images/0141-15-10-kr-fall-campus-vassar-0034.jpg',
         'bg-image-alt' => 'replacethisalttext',
         'css' => '
       --section-title-size: 10vw;
@@ -238,7 +238,7 @@ echo sec_fixedCenteredTitle(
     <p class="text-center mb-5 fst-italic fs-5">Videos with a <i class="icon fa fa-vr-cardboard mx-2"></i> icon are panoramic. Drag inside the video to look around!</p>',
     'sec-fixedCenteredTitle theme-burgundy',
     'mw-4',
-    ['bg-image-url' => '/mockups/admission-home/fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',
+    ['bg-image-url' => '/admission/assets/images/admission-home/fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',
         'bg-image-alt' => 'replacethisalttext',
         'css' => '
       --section-title-size: 10vw;
@@ -259,7 +259,7 @@ echo sec_fixedCenteredTitle(
         null,
         'https://www.youtube.com/embed/AqDKltbh7h4',
         null,
-        ['url' => '/mockups/admission-home/fav-places-2/110619_160over90_Vassar_5483.jpg',
+        ['url' => '/admission/assets/images/admission-home/fav-places/110619_160over90_Vassar_5483.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -273,7 +273,7 @@ echo sec_fixedCenteredTitle(
         null,
         'https://www.youtube.com/embed/pfJIwU-Kifg',
         null,
-        ['url' => '/mockups/admission-home/fav-places-2/0056-21-06-kr-campus-vassar-0006-copy.jpg',
+        ['url' => '/admission/assets/images/admission-home/fav-places/0056-21-06-kr-campus-vassar-0006-copy.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -294,7 +294,7 @@ echo sec_fixedCenteredTitle(
         null,
         'https://www.youtube.com/embed/lQ0Jb9u6zTY',
         null,
-        ['url' => '/mockups/admission-home/fav-places-2/0212-18-10-kr-library-fall-vassar-3819.jpg',
+        ['url' => '/admission/assets/images/admission-home/fav-places/0212-18-10-kr-library-fall-vassar-3819.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -310,7 +310,7 @@ echo sec_fixedCenteredTitle(
         null,
         'https://www.youtube.com/embed/l9N-gTmvMgo',
         null,
-        ['url' => '/mockups/admission-home/fav-places-2/0195-19-11-kwe-gordon-vassar-1644.jpg',
+        ['url' => '/admission/assets/images/admission-home/fav-places/0195-19-11-kwe-gordon-vassar-1644.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -331,7 +331,7 @@ echo sec_fixedCenteredTitle(
         null,
         'https://www.youtube.com/embed/Wjxz5QMAw3c',
         null,
-        ['url' => '/mockups/admission-home/fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg',
+        ['url' => '/admission/assets/images/admission-home/fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -345,7 +345,7 @@ echo sec_fixedCenteredTitle(
         null,
         'https://www.youtube.com/embed/e2Qz73uGyLs',
         null,
-        ['url' => $admission_img_path.'admission-home/favplaces-v2.jpg',
+        ['url' => '/admission/assets/images/admission-home/fav-places/favplaces-v2.jpg',
             'alt' => 'Student speaking while being interviewed'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -370,10 +370,10 @@ echo sec_fixedCenteredTitle(
 All Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life. Explore virtual visiting opportunities today and learn more about in-person visits.
    </h3>
 
-   <p class="text-center mb-5  fs-5">See the Vassar campus through the eyes of our students:</p>',
+   <p class="text-center mb-5 fs-5">See the Vassar campus through the eyes of our students:</p>',
     'sec-fixedCenteredTitle theme-dark-burgundy featured-video',
     'mw-4',
-    ['bg-image-url' => '/mockups/admission-home/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
+    ['bg-image-url' => '/admission/assets/images/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
         'bg-image-alt' => 'replacethisalttext',
         'css' => '
       --section-title-size: 10vw;
@@ -399,7 +399,7 @@ All Vassar students are surrounded by an environment designed to spark something
         null,
         'https://www.youtube.com/embed/0jdM1pZJy64',
         null,
-        ['url' => $admission_img_path.'admission-home/video/food-1.jpg',
+        ['url' => '/admission/assets/images/admission-home/video/food-1.jpg',
             'alt' => 'Smiling student being interviewed, pizza topping choices superimposed on photo to indicate the wide variety of food choices being discussed'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -413,7 +413,7 @@ All Vassar students are surrounded by an environment designed to spark something
         null,
         'https://www.youtube.com/embed/7fjWRvjKH5E',
         null,
-        ['url' => $admission_img_path.'admission-home/video/words-4.jpg',
+        ['url' => '/admission/assets/images/admission-home/video/words-4.jpg',
             'alt' => 'Student being interviewed'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -431,7 +431,7 @@ All Vassar students are surrounded by an environment designed to spark something
         null,
         'tiktok1-modal',
         null,
-        ['url' => $admission_img_path.'admission-home/video/day-1.jpg',
+        ['url' => '/admission/assets/images/admission-home/video/day-1.jpg',
             'alt' => 'Student working on a laptop in front of a window'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -443,7 +443,7 @@ All Vassar students are surrounded by an environment designed to spark something
         null,
         'tiktok2-modal',
         null,
-        ['url' => $admission_img_path.'admission-home/video/dorm-a-1.jpg',
+        ['url' => '/admission/assets/images/admission-home/video/dorm-a-1.jpg',
             'alt' => 'View of campus quad through a sunny window'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -455,7 +455,7 @@ All Vassar students are surrounded by an environment designed to spark something
         null,
         'tiktok3-modal',
         null,
-        ['url' => $admission_img_path.'admission-home/video/dorm-b.jpg',
+        ['url' => '/admission/assets/images/admission-home/video/dorm-b.jpg',
             'alt' => 'Decorative string lights on a dorm wall'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -485,8 +485,8 @@ All Vassar students are surrounded by an environment designed to spark something
        ',
     'sec-fixedCenteredTitle theme-verylightgray xfeatured-video',
     'mw-4',
-    ['bg-image-url' => '/mockups/admission-home/0027-21-05-kr-founders-vassar-0102.jpg',
-        'bg-image-alt' => 'replacethisalttext',
+    ['bg-image-url' => '/admission/assets/images/0027-21-05-kr-founders-vassar-0102.jpg',
+        'bg-image-alt' => 'Crowd watching fireworks over Vassar campus',
         'css' => '
           --section-title-size: 9vw;
           --title-container-bg-beforeContent: rgba(0,0,0,0.1);
@@ -578,7 +578,7 @@ echo item_imageCard_modal_setup(
 Your browser does not support the video tag.
 </video>
 </div>',
-    ['url' => '/mockups/admission-home/fav-places-2/studio.jpg',
+    ['url' => '/admission/fav-places-2/studio.jpg',
         'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'

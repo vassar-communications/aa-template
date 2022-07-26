@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Explore Student Life',
     '/admission/explore/student-life/',
-    ['url' => $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg', 'alt' => 'Group of students sitting in a circle on a campus lawn' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

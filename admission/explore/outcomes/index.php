@@ -30,11 +30,10 @@ $page_info = json_decode($page_info, true);
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => $page_info['feature_image'],
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'Group of graduates in gowns and mortarboards seen from the back',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
-      /* --section-title-faded-color: #444; */
       --bs-gap: 1rem;
       ']
 ); ?>

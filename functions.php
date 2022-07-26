@@ -409,6 +409,7 @@ function breadcrumb() {
   $path = '';
 
   $breadcrumb_markup = '<ol class="breadcrumb">';
+  $crumb_level = 1;
 
   foreach ($path_in_pieces as &$item) {
     if($item == '') {
@@ -421,7 +422,8 @@ function breadcrumb() {
 
       $title = $item_info['page_title'];
     }
-    $breadcrumb_markup .= crumb_item($path, $title);
+    $breadcrumb_markup .= crumb_item($path, $title, 'level-'.$crumb_level);
+    $crumb_level++;
   }
   unset($item);
 

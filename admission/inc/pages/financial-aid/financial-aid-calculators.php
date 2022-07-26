@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Aid Calculators',
     '/admission/financial-aid/aid-calculators/',
-    ['url' => $admission_img_path.'financial-aid/calculators/0107_15_10_TT_5727.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $admission_img_path.'financial-aid/calculators/0107_15_10_TT_5727.jpg', 'alt' => 'Detail of exterior wall of The Bridge for Laboratory Sciences on Vassar campus' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

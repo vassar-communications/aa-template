@@ -40,6 +40,7 @@ $border-distance: 0.6rem;
 
     &:after {
       content: 'flickity';
+      opacity: 0;
     }
 
     .carousel-cell {
