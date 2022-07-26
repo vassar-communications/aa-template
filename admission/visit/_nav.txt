@@ -1,5 +1,3 @@
-class-visits
-group-visits
 in-person
-on-demand
 virtual-programs
+group-visits
