@@ -48,8 +48,8 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo masthead_interiorPage(
-    'Placeholder',
-    'Placeholder Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.',
+    'Apply',
+    'Vassar’s open curriculum offers the freedom and flexibility to pursue your passions while discovering new interests. As there are no class requirements, you can take the courses you wish and know your classmates have chosen them as well.',
     $admission_img_path.'explore/0084-19-05-ja-kumar-class-vassar-253.jpg');
 ?>
 
