@@ -43,21 +43,21 @@ $page_info = [
     ''
 ); ?>
 
-<button href="https://github.com/appleple/modal-video" class="btn btn-red js-video-btn" data-video-id='L61p2uyiMSo'>Open Video</button>
+<button  class="btn btn-red js-video-btn" data-video-id='f8meSHKeTSg'>YT</button>
+
+<button class="btn btn-red js-video-btn" data-video-id='xe6lj-ZM8aY'>YT2</button>
+
+<button class="btn btn-red js-video-btn" data-video-id='487423155' data-channel="vimeo"> Vimeo</button>
+
+<h3>Vimeo 2</h3>
+<button  class="btn btn-red js-video-btn" data-video-id='487429322' data-channel="vimeo"> Vimeo 2</button>
+
+
 <script>
     window.addEventListener('DOMContentLoaded',function(){
         new ModalVideo(".js-video-btn");
     });
 </script>
-
-<h3>Vimeo</h3>
-<button href="https://github.com/appleple/modal-video" class="btn btn-red js-video-vimeo-btn" data-video-id='336257407'>Open Vimeo</button>
-<script>
-    window.addEventListener('DOMContentLoaded',function(){
-        new ModalVideo(".js-video-vimeo-btn",{channel:'vimeo'});
-    });
-</script>
-
 
 
 <?php echo end_sec_regularContent(); ?>

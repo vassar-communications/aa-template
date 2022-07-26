@@ -258,5 +258,5 @@ echo item_imageCard_videoModal(
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-in-person.php');?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-group-visits.php');?>
 <?php echo end_sec_relatedTopics(); ?>
-x
+
 <?php echo site_footer(); ?>
