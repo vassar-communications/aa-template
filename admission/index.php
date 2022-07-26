@@ -257,8 +257,8 @@ echo sec_fixedCenteredTitle(
     echo item_imageCard_videoModal(
         get_icon('play').'Bridge for Laboratory Sciences',
         null,
-        'https://www.youtube.com/embed/AqDKltbh7h4',
-        null,
+        'AqDKltbh7h4',
+        'youtube',
         ['url' => '/admission/assets/images/admission-home/fav-places/110619_160over90_Vassar_5483.jpg',
             'alt' => 'asdfasdf'
         ],
@@ -267,12 +267,14 @@ echo sec_fixedCenteredTitle(
 
     ?>
 
+
+
     <?php
     echo item_imageCard_videoModal(
         get_icon('vr-cardboard').'Shakespeare Garden',
         null,
-        'https://www.youtube.com/embed/pfJIwU-Kifg',
-        null,
+        'pfJIwU-Kifg',
+        'youtube',
         ['url' => '/admission/assets/images/admission-home/fav-places/0056-21-06-kr-campus-vassar-0006-copy.jpg',
             'alt' => 'asdfasdf'
         ],
@@ -292,8 +294,8 @@ echo sec_fixedCenteredTitle(
     echo item_imageCard_videoModal(
         get_icon('vr-cardboard').'Thompson Memorial Library',
         null,
-        'https://www.youtube.com/embed/lQ0Jb9u6zTY',
-        null,
+        'lQ0Jb9u6zTY',
+        'youtube',
         ['url' => '/admission/assets/images/admission-home/fav-places/0212-18-10-kr-library-fall-vassar-3819.jpg',
             'alt' => 'asdfasdf'
         ],
@@ -308,8 +310,8 @@ echo sec_fixedCenteredTitle(
     echo item_imageCard_videoModal(
         get_icon('play').'Gordon Commons',
         null,
-        'https://www.youtube.com/embed/l9N-gTmvMgo',
-        null,
+        'l9N-gTmvMgo',
+        'youtube',
         ['url' => '/admission/assets/images/admission-home/fav-places/0195-19-11-kwe-gordon-vassar-1644.jpg',
             'alt' => 'asdfasdf'
         ],
@@ -329,8 +331,8 @@ echo sec_fixedCenteredTitle(
     echo item_imageCard_videoModal(
         get_icon('vr-cardboard').'The Ecological Preserve',
         null,
-        'https://www.youtube.com/embed/Wjxz5QMAw3c',
-        null,
+        'Wjxz5QMAw3c',
+        'youtube',
         ['url' => '/admission/assets/images/admission-home/fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg',
             'alt' => 'asdfasdf'
         ],
@@ -343,8 +345,8 @@ echo sec_fixedCenteredTitle(
     echo item_imageCard_videoModal(
         get_icon('play').'Student Picks',
         null,
-        'https://www.youtube.com/embed/e2Qz73uGyLs',
-        null,
+        'e2Qz73uGyLs',
+        'youtube',
         ['url' => '/admission/assets/images/admission-home/fav-places/favplaces-v2.jpg',
             'alt' => 'Student speaking while being interviewed'
         ],
@@ -397,7 +399,7 @@ All Vassar students are surrounded by an environment designed to spark something
     echo item_imageCard_videoModal(
         get_icon('play').'All about food',
         null,
-        'https://www.youtube.com/embed/0jdM1pZJy64',
+        'embed/0jdM1pZJy64',
         null,
         ['url' => '/admission/assets/images/admission-home/video/food-1.jpg',
             'alt' => 'Smiling student being interviewed, pizza topping choices superimposed on photo to indicate the wide variety of food choices being discussed'
@@ -411,7 +413,7 @@ All Vassar students are surrounded by an environment designed to spark something
     echo item_imageCard_videoModal(
         get_icon('play').'What’s Your Take?',
         null,
-        'https://www.youtube.com/embed/7fjWRvjKH5E',
+        '7fjWRvjKH5E',
         null,
         ['url' => '/admission/assets/images/admission-home/video/words-4.jpg',
             'alt' => 'Student being interviewed'

@@ -90,7 +90,7 @@ echo item_imageCard_videoModal(
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'Demystifying Financial Aid',
+    get_icon('play').'A Case for the Liberal Arts',
     null,
     '487430715',
     'vimeo',
@@ -108,6 +108,8 @@ echo item_imageCard_videoModal(
 
 
 <?php echo item_col(); ?>
+
+
 
 <?php
 echo item_imageCard_videoModal(

@@ -1,7 +1,7 @@
 <?php
 
 function item_imageCard_VideoModal(
-    $title=false,
+    $title,
     $text,
     $videourl,
     $channel,
@@ -26,10 +26,8 @@ function item_imageCard_VideoModal(
     $card_image_alt = $card_image_info['alt'];
 
     return <<<TMP
-
-js-video-btn" data-video-id='f8meSHKeTSg'
     
-<button type="button" class="card card-full-image js-video-btn $classes"  data-video-id="$videourl" channel-id"$channel">
+<button type="button" class="card card-full-image js-video-btn $classes"  data-video-id="$videourl" data-channel="$channel">
   <img src="$card_image_url" class="card-img" alt="$card_image_alt">
   <div class="card-img-overlay">
     <div class="card-img-content">
