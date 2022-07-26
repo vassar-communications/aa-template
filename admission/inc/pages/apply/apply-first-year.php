@@ -1,8 +1,8 @@
 <?php echo item_cardWithText(
     'First-Year Applicants',
-    '/admission/apply/requirements/',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    '/admission/apply/first-year-applicants/',
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
     <p>Application information and options for first-year applicants</p>

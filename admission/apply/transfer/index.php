@@ -1,16 +1,20 @@
 
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
-include($project_paths['main_project_root'].'/functions.php');
+include_once($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Transfer Applicants";
-$page_classes = "";
+$page_info = '{
+  "page_title": "Transfer Applicants",
+  "feature_image": "/admission/assets/images/apply/transfer/0039-21-05-kr-spring-vassar-0034-crop.jpg"
+}';
 
-/*  ---------------------- */
+/* === */
+
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -21,42 +25,45 @@ $page_classes = "";
 <?php echo hamburger_navigation(); ?>
 
 
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
 
-<?php echo breadcrumbNav('theme-verylightgray'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo interior_page_nav() ?>
 
 
 <?php /*  PAGE CONTENT === */ ?>
 
 
+
+
 <?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
+    'Information for Transfer Applicants',
+    $admission_img_path.'apply/transfer/0198-19-11-kwe-library-vassar-vb-5289-crop.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h3 class="display-4">Information for Transfer Applicants</h3>
-    <p>Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. Transfer admission is need-aware and spots are limited.</p>
+    <p class="mb-5">Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. Transfer admission is need-aware and spots are limited.</p>
+
+    <?php echo deadlines('Early Decision Application deadlines'); ?>
+
+    <?php echo deadlines_item('Early Decision Round 1', 'November 15'); ?>
+    <?php echo deadlines_item('Early Decision Round 2', 'January 1'); ?>
+
+    <?php echo end_deadlines(); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_regularContent(
-    null,
-    'theme-charcoal',
-    ''
+    'Transfer Application Checklist',
+    'mw-inner-1 theme-dark-burgundy has-bg quad-pattern',
+    'checklist'
 ); ?>
 
-<h2>Transfer Application Checklist</h2>
-<ul>
+
+<ul class="style-checklist theme-cream">
     <li><a href="https://www.commonapp.org/">Common Application</a> and $65 application fee or fee waiver request</li>
     <li>Transcripts from all high schools attended</li>
     <li>Transcripts from all colleges attended</li>
@@ -67,21 +74,51 @@ $page_classes = "";
     <li> <a class="fix" href="#">TOEFL/IELTS/DET</a>: Required if English is neither your first language nor the primary language of instruction for the last three years of your education</li>
 </ul>
 <?php echo end_sec_regularContent(); ?>
+
 <?php echo sec_regularContent(
     null,
-    null,
+    'theme-extralightgray',
     ''
 ); ?>
-<h3>Transfer Eligibility</h3>
+
+
+<?php echo item_iconItem(
+    'Transfer Eligibility',
+    'image',
+    'icon-on-left theme-white-border'
+); ?>
 <p>Students may apply for transfer as early as the first term of the first year of college. Upon enrolling to Vassar as a transfer, you must complete the equivalent of at least four full-time semesters to graduate.</p>
-<hr/>
-<h3>Transfer Decision Notification</h3>
+
+<?php echo end_item_iconItem(); ?>
+
+
+
+<?php echo item_iconItem(
+    'Transfer Decision Notification',
+    'image',
+    'icon-on-left theme-white-border'
+); ?>
 <p>Transfer applicants for the spring semester are notified of their admission decision in mid-December; applicants for the fall are notified in early May. Admitted transfer applicants are expected to respond and enroll within two weeks of notification.</p>
-<hr/>
-<h3>Transfer Financial Aid</h3>
+
+<?php echo end_item_iconItem(); ?>
+
+
+<?php echo item_iconItem(
+    'Transfer Financial Aid',
+    'image',
+    'icon-on-left theme-white-border'
+); ?>
 <p>Although Vassar meets the full demonstrated need of all admitted students who apply for financial aid at the time of their admission application, limited financial resources are designated for transfer students, and the applicant pool is highly competitive. International transfer students are not eligible for financial aid.</p>
-<hr/>
-<h3>Transfer of Credit</h3>
+
+<?php echo end_item_iconItem(); ?>
+
+
+
+<?php echo item_iconItem(
+    'Transfer of Credit',
+    'image',
+    'icon-on-left theme-white-border'
+); ?>
 <p>Vassar offers transfer credit for courses in the liberal arts and sciences which are the approximate equivalent in content, methodology, and rigor to courses listed in the <a href="https://catalogue.vassar.edu/">Vassar Catalog</a></p>
 <p>We do not award transfer credit for:</p>
 <ul>
@@ -91,10 +128,17 @@ $page_classes = "";
     <li>Distance learning credits</li>
 </ul>
 
-<hr/>
+<?php echo end_item_iconItem(); ?>
 
-<h3>Exploring Transfer</h3>
+
+<?php echo item_iconItem(
+    'Exploring Transfer',
+    'image',
+    'icon-on-left theme-white-border'
+); ?>
 <p>For more than 35 years, <a href="https://offices.vassar.edu/exploring-transfer/">Exploring Transfer</a> has brought students from select community colleges to Vassar’s campus for an intensive five-week period during the summer. </p>
+<?php echo end_item_iconItem(); ?>
+
 <?php echo end_sec_regularContent(); ?>
 
 <!-- Related Topics -->

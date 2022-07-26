@@ -9,11 +9,11 @@
   }
 }
 
-@mixin setup-animate-stretch-in() {
+@mixin setup-animation-stretch-in() {
     opacity: 0;
     transform: scaleX(0);
 }
-@mixin animate-stretch-in() {
+@mixin animation-stretch-in() {
   animation-delay: var(--animate-stretch-in-delay, 0.4s);
   animation-duration: var(--animate-stretch-in-dur, 0.4s);
   animation-name: stretch-in;

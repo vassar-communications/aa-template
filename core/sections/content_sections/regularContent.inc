@@ -10,6 +10,12 @@ function sec_regularContent(
     global $section_title;
 
     $title_classes = get_extras_value('title_classes', $extras);
+    $title_level = get_extras_value('title_level', $extras);
+
+    //  I'm not sure why I have to do this, since I did specify
+    //  a default parameter of 2
+    if($title_level == '') $title_level = '2';
+
     $css = get_extras_value( 'css', $extras, 'style="%s"' );
 
 //  Check if a bg image was specified, and
@@ -22,7 +28,7 @@ function sec_regularContent(
 
     return <<<TMP
     <div class="section $section_classes" $css>
-    {$section_title($title, $title_classes)}
+    {$section_title($title, $title_classes, $title_level)}
     {$bg_image($extras)}
     <div class="section-content $content_classes">
     TMP;

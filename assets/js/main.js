@@ -42,7 +42,7 @@ for (var i = 0; i < discreteElements.length; i++) {
             this.element.classList.add("content-appeared");
         },
 //			context: document.getElementById('page-content'),
-        offset: '60%'
+        offset: '80%'
     });
 }
 
@@ -385,7 +385,8 @@ if ($('.featureImage-text-ticker').length) {
         friction: 0.2,
         pageDots:  false,
         autoPlay: 10000,
-        wrapAround: true
+        wrapAround: true,
+        watchCSS: true
     });
 }
 
@@ -422,19 +423,27 @@ $( window ).resize(function() {
 });
 
 
-/*	Pause Videos when modal closes Needs reworking
-	=================== */
-$(function(){
-    $('.modal').on('hidden.bs.modal', function (e) {
-        $iframe = $(this).find("iframe");
-        $iframe.attr("src", $iframe.attr("src"));
-    });
+
+/* Custom Button to  Pause Background Videos  */
+
+
+$('#pause_button').on('click', function() {
+
+
+    var video  = $('#main-video');
+    var player = new Vimeo.Player(video);
+
+    player.pause();
+    $('#play_pause').addClass("paused");
 });
 
+$('#play_button').on('click', function() {
 
+    var video  = $('#main-video');
+    var player = new Vimeo.Player(video);
 
-$('body').on('hidden.bs.modal', '.modal', function () {
-    $('video').trigger('pause');
+    player.play();
+    $('#play_pause').removeClass("paused");
 });
 
 

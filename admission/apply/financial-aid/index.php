@@ -1,16 +1,20 @@
 
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
-include($project_paths['main_project_root'].'/functions.php');
+include_once($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Financial Aid";
-$page_classes = "alive";
+$page_info = '{
+  "page_title":"Financial Aid",
+  "page_classes":"alive",
+  "feature_image":"/admission/assets/images/financial-aid/0141-15-10-kr-fall-campus-vassar-0003.jpg"
+}';
 
-/*  ---------------------- */
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -20,31 +24,24 @@ $page_classes = "alive";
 
 <?php echo hamburger_navigation(); ?>
 
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
-
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
-
-<?php echo breadcrumbNav('theme-verylightgray'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
-
+<?php echo interior_page_nav() ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
+    'Financial Aid',
+    $placeholder_img_square,
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Financial Aid</h2>
     <p>Through a generous financial aid program, Vassar meets 100% of the full demonstrated need of all admitted students for all four years. Financial aid is awarded exclusively on the basis of need as determined by the Free Application for Federal Student Aid (FAFSA) and the CSS Profile.</p>
 
-    <a href="/admission/financial-aid/applying-for-aid" class="px-0 btn btn-link arrow">Learn more and apply for aid</a>
+    <?php echo cta_link(
+      '/admission/financial-aid/',
+      'Learn more and apply for aid'
+    ); ?>
 
 
 </div>

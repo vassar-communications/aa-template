@@ -1,16 +1,26 @@
-
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Explore Student Life";
-$page_classes = "";
+$page_info = '{
+  "page_title": "Explore Student Life",
+  "feature_image": "explore/student-life/Vassar_Campus_20190508_KR_5256.jpg"
+}';
 
-/*  ---------------------- */
+/* === */
+
+$page_info = json_decode($page_info, true);
+
+/*
+$page_info = [
+  'page_title' => 'Explore Student Life', 'feature_image' => $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg'
+];
+*/
+
 
 ?>
 
@@ -24,12 +34,15 @@ $page_classes = "";
 
 
 <?php echo sec_fixedCenteredTitle_masthead_vid(
-    '<b class="slide-from-left">Explore</b>
-   <b class="slide-from-right">Student Life</b>',
+    '<div class="slide-from-left">
+      <b class="supertitle">Explore</b>
+      <div>Student</div>
+    </div>
+   <b class="slide-from-right">Life</b>',
     '726007009?h=91eec5d256',
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg',
+    ['bg-image-url' => $page_info['feature_image'],
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -41,51 +54,117 @@ $page_classes = "";
 
 <?php echo end_sec_fixedCenteredTitle_masthead_vid(); ?>
 
-
-
-
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo interior_page_nav() ?>
 
 <?php echo masthead_interiorPage(
     'Find Your Spark',
-    'Vassar’s community is full of character, collaboration, and vibrant diversity. People of all perspectives and backgrounds come here to learn, work, and live together in the proud tradition of a residential liberal arts college.',
-    'https://vassartest.chuckyatsuk.com/img/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
+    '<span class="placeholder">Vassar’s community is full of character, collaboration, and vibrant diversity. People of all perspectives and backgrounds come here to learn, work, and live together in the proud tradition of a residential liberal arts college.</span>',
+    $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
 ?>
 
 
 
-
-
-<div class="buffer"></div>
 <?php /*  PAGE CONTENT === */ ?>
 
 
-<!-- RELATED TOPICS ===  -->
+
+
+<?php echo sec_wideContent(
+        'Extracurricular activities include',
+        '',
+        'theme-dark-burgundy',
+); ?><div class="grid cols-4 animation-group animation-zoom-in animate-when-content-appears" style="--bs-gap: 1rem">
+
+    <?php echo item_iconButton(
+        'image',
+        'nine a capella singing groups',
+        null,
+        'btn-card animation-item'
+    ); ?>
+
+    <?php echo item_iconButton(
+        'image',
+        'the Barefoot Fireflies fire-juggling club',
+        null,
+        'btn-card animation-item'
+    ); ?>
+
+    <?php echo item_iconButton(
+        'image',
+        'hundreds of student organizations',
+        null,
+        'btn-card animation-item'
+    ); ?>
+
+    <?php echo item_iconButton(
+        'image',
+        'thousands of campus-wide events',
+        null,
+        'btn-card animation-item'
+    ); ?>
+
+</div><?php echo end_sec_wideContent(); ?><?php echo sec_regularContent(
+    null,
+    'theme-charcoal bg-dark quad-pattern has-bg animate-when-content-appears mw-inner-4 text-center',
+    ''
+); ?>
+
+<?php echo animated_statement('It’s Not Student Housing, It’s Home').'<p>Our nine historic residential houses are the heart of Vassar. You won’t find a Greek system on campus—a fact we celebrate—and 97% of students choose to live on campus.</p>';
+    ?>
+
+[INSERT IMAGE GALLERY]
+
+<?php echo end_sec_regularContent(); ?>
+
+<?php echo sec_fullBleedImageColumn(
+    'Galvanize Your Energy',
+    $admission_img_path.'placeholder.jpg',
+    'image-is-first theme-cream',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>Athletics have always been an important facet of the Vassar experience. In addition to our 27 Varsity sports, athletes of all levels have the opportunity to join an intramural team, take a yoga class, or use Vassar’s on-campus golf course. Among many offerings, club sports include Ultimate Frisbee, Quidditch, Figure Skating, and others.</p>
+
+    <?php echo cta_link(
+        'https://www.vassarathletics.com/',
+        'Learn more about Vassar Athletics'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Part of a Bigger Whole',
+    $admission_img_path.'placeholder.jpg',
+    '',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>The Vassar community engages with Poughkeepsie and the wider Hudson River Valley region on multiple levels. Students participate in community-based learning assignments and volunteering opportunities. Reciprocally, Vassar welcomes our neighbors to engage in campus events and explore our facilities.</p>
+
+    <?php echo cta_link(
+        'https://vassargoodneighbors.wordpress.com/',
+        'Learn more about Vassar’s Good Neighbors Partnerships'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
 
 <?php echo sec_hasColumns(
     'More in This Section',
     3,
     null,
-    'related-topics-section theme-burgundy',
+    'relatedtopics theme-burgundy',
     ''
 ); ?>
 
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-academics.php');?>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-diversity.php');?>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-campus.php');?>
-<?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 

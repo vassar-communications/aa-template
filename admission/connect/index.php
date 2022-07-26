@@ -5,12 +5,11 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Connect";
-$page_classes = "";
-
-/*  ---------------------- */
+$page_info = '{"page_title":"Connect","feature_image":"/assets/images/placeholders/placeholder-banner.png"}';
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -20,47 +19,59 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
-
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-connect-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
 
 
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-connect-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo sec_fixedCenteredTitle_masthead(
+    '<b class="slide-from-left">Connect</b>',
+    null,
+    'theme-verylightgray reveal-image',
+    'mw-4',
+    ['bg-image-url' => $page_info['feature_image'],
+        'bg-image-alt' => 'alt text',
+        'css' => '
+      --title-container-bg-beforeContent: rgba(0,0,0,0.4);
+      --section-bg-image-opacity: 0;
+      --bs-gap: 1rem;
+      ']
+); ?>
+<?php echo end_sec_fixedCenteredTitle_masthead(); ?>
+
+<?php // echo page_partialmasthead($page_info['feature_image']); ?>
+
+<?php echo interior_page_nav() ?>
 
 
 <?php echo masthead_interiorPage(
     'Our team is here to help you.',
     '',
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg');
+    '/assets/images/placeholders/main-placeholder.jpg');
 ?>
 
 
 
 <?php echo sec_regularContent(
-    null,
+    'Contact Information',
     'theme-cream',
     null,
 ); ?>
-<h2 class="display-2">Contact Information</h2>
 <p>We are happy to help with questions, but please know that we do not track demonstrated interest as part of the application process.</p>
+
+
+    <div class="address-card">
 <p>
-    <strong>Mailing address:</strong><br/>
-    Office of Admission<br/>
-    Vassar College, Box 10<br/>
-    124 Raymond Ave<br/>
-    Poughkeepsie, NY 12604-0010<br/>
+    <strong>Mailing address:</strong><br>
+    Office of Admission<br>
+    Vassar College, Box 10<br>
+    124 Raymond Ave<br>
+    Poughkeepsie, NY 12604-0010<br>
     USA
 </p>
 <p>
-    Telephone: (845) 437-7300 or (800) 827-7270<br/>
-    Fax: (845) 437-7063<br/>
+    Telephone: (845) 437-7300 or (800) 827-7270<br>
+    Fax: (845) 437-7063<br>
     Email: <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>
 </p>
-
+    </div>
 
 
 
@@ -71,11 +82,10 @@ $page_classes = "";
 
 
 <?php echo sec_regularContent(
-    null,
+    'Staff Directory',
     null,
     null,
 ); ?>
-<h2 class="display-2">Staff Directory</h2>
 <p class="mb-5">Browse our staff directory below to find the admission counselor for your area.</p>
 <div class="staff-contact mb-5">
     <h3>Sonya K. Smith</h3>
@@ -169,6 +179,11 @@ $page_classes = "";
 </div>
 <?php echo end_sec_regularContent(); ?>
 
+<?php echo relatedTopics(); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/connect/connect-students.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/connect/connect-counselors.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit.php');?>
+<?php echo end_sec_relatedTopics(); ?>
 
 <?php /*  PAGE CONTENT === */ ?>
 

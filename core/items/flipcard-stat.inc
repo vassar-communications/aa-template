@@ -5,20 +5,32 @@ function flipcard_stat(
     $value,
     $reverse_content,
     $class=null,
+    $link=null,
     $css=null
 ) {
 
 
     if($css) { $css = sprintf('style="%s"', $css); }
 
+    $link_start = null;
+    $link_end = null;
+
+    if($link) {
+      $link_start = sprintf('<a class="stretched-link" href="%s">', $link);
+      $link_end = '</a>';
+    }
+
     return <<<TMP
 <div class="flip-card $class" $css>
   <div class="card-content">
     <div class="card__face card__face--front">
+      $link_start $link_end
       <div class="flipcard__title tagline mb-3">$title</div>
       <div class="flipcard__value">$value</div>
     </div>
     <div class="card__face card__face--back">
+      $link_start $link_end
+
       $reverse_content
     </div>
   </div>

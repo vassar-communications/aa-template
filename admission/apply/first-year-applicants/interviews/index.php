@@ -5,12 +5,14 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Interviews";
-$page_classes = "";
-
-/*  ---------------------- */
+$page_info = '{
+  "page_title":"Interviews",
+  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+}';
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -22,29 +24,18 @@ $page_classes = "";
 
 <?php echo page_textmasthead('theme-dark-burgundy'); ?>
 
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
-
+<?php echo interior_page_nav() ?>
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
+   $admission_img_path.'apply/interviews/0046_16_04_KR_0008.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Interviews</h2>
-    <p>A conversation with one of our alumnae/i or student interviewers is an excellent way for you to learn more about Vassar and for us to learn more about you.</p>
+    <h1 class="display-6">A conversation with one of our alumnae/i or student interviewers is an excellent way for you to learn more about Vassar and for us to learn more about you.</h1>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
-
-
 
 
 <?php echo sec_hasColumns(
@@ -52,43 +43,43 @@ $page_classes = "";
     2,
     null,
     'animate-when-content-appears animation-slide-up',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
+    'pt-5 flex-equal align-items-start d-flex flex-column-reverse flex-md-row'
 ); ?>
 
 <?php echo item_col('equal'); ?>
 <p>We accept interview requests from current domestic first-year applicants. Interviews take place from October through early March and are informational rather than evaluative. Please note, not all students will be able to meet with an interviewer as we do not have the capacity to honor all requests. If you are not extended an interview, rest assured that it will not negatively impact your application to Vassar. Your interview request will only be processed once the Office of Admission confirms we have received your application.</p>
 
-<a href="#" class="btn btn-primary arrow">Register Now</a>
+<a href="#" class="fix btn btn-primary arrow">Register Now</a>
+
 
 <?php echo end_item_col(); ?>
 
 <?php echo item_col('equal'); ?>
-<?php echo item_alert(
-    'Interview Request Deadlines',
-    '<h6>Early Decision I</h6><p>Nov. 15</p><h6>Early Decision I</h6><p>Nov. 15</p><h6>Early Decision I</h6><p>Nov. 15</p>',
-    'calendar',
-    'alert-light'
-); ?>
+
+<?php echo deadlines('Interview Request Deadlines'); ?>
+
+<?php echo deadlines_item('Early Decision Round 1', 'November 15, 2022'); ?>
+<?php echo deadlines_item('Early Decision Round 2', 'January 1, 2023'); ?>
+<?php echo deadlines_item('Regular Decision', 'January 7, 2023'); ?>
+<?php echo end_deadlines(); ?>
+
+
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
 <?php echo sec_regularContent(
-    null,
-    null,
-    '',
-    ''
-); ?>
+        null,
+    'theme-cream'
 
+); ?>
 <?php echo item_alert(
     'Note for International Applicants',
     'Given the limited availability of alumnae/i and student interviewers internationally, our office will reach out to you if we are able to extend an interview. We do not accept requests for interviews from students residing overseas.',
     'globe',
     'alert-light alert-accent-gold'
 ); ?>
-
 <?php echo end_sec_regularContent(); ?>
-
 
 <?php /*  PAGE CONTENT === */ ?>
 

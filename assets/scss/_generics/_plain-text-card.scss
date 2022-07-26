@@ -1,0 +1,7 @@
+/*
+ * This is a generic card intended for text.
+ */
+
+.plain-text-card {
+  @include padding(2rem);
+}

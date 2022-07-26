@@ -24,12 +24,22 @@ function sec_fullBleedImageColumn(
   ) {
 
   global $section_title;
+
+  $bob = get_extras_value('bob', $extras);
+
   $title_classes = get_extras_value('title_classes', $extras);
+  $title_level = get_extras_value('title_level', $extras);
+
+  //  I'm not sure why I have to do this, since I did specify
+  //  a default parameter of 2
+  if($title_level == '') $title_level = '2';
 
 $image_col_classes = get_extras_value( 'image_col_classes', $extras );
 $text_col_classes = get_extras_value( 'text_col_classes', $extras );
 $image_col_css = get_extras_value( 'image_col_css', $extras, 'style="%s"' );
 $text_col_css = get_extras_value( 'text_col_css', $extras, 'style="%s"' );
+
+$image_alt_text = get_extras_value( 'img_alt_text', $extras );
 
 $template = <<<TMP
 <div class="section section--full-bleed-image-column $section_classes">
@@ -37,14 +47,14 @@ $template = <<<TMP
 
     <div class="column col-has-image animate-when-content-appears animation-fade-in $image_col_classes" $image_col_css>
       <div class="full-bleed-image-container">
-        <img src="$image" />
+        <img src="$image" alt="$image_alt_text" />
       </div>
     </div>
 
 
-    <div class="column col--text d-flex justify-content-center align-items-center w-100 text_col_classes">
+    <div class="column col--text d-flex justify-content-center align-items-center w-100 text_col_classes">$bob
       <div class="section--full-bleed-image-column__content" $text_col_css>
-        {$section_title($title, $title_classes)}
+        {$section_title($title, $title_classes, $title_level)}
 TMP;
 
   return $template;

@@ -5,12 +5,11 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Tuition & Fees";
-$page_classes = "";
-
-/*  ---------------------- */
+$page_info = '{"page_title":"Tuition & Fees","page_classes":"","feature_image":"/admission/assets/images/financial-aid/tuition/Vassar_Reception_20210601_KR_0173.jpg"}';
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -20,161 +19,147 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
-
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-financialaid-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-financialaid-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
-
+<?php echo interior_page_nav() ?>
 
 <?php /*  PAGE CONTENT === */ ?>
 
 
+
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/financial-aid/tuition/0137_14_11_KR_0003.jpg',
+    $admission_img_path.'financial-aid/tuition/0137_14_11_KR_0003.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h1 class="display-6">Vassar provides a high-value education and is committed to meeting 100% of the demonstrated financial need of all admitted students.</h1>
+   <p class="intro-text">Vassar provides a high-value education and is committed to meeting 100% of the demonstrated financial need of all admitted students.</p>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-
-
 <?php echo sec_wideContent(
     'Tuition and Fees Overview',
-    '<h2>The total cost to attend Vassar is $78,580</h2>',
-    '',
-    'mw-4'
+    '<p>The total cost to attend Vassar is $78,580</p>',
+    'pb-0',
+    'mw-4 '
 ); ?>
 
-<?php echo sec_hasColumns(
-    null,
-    3,
-    null,
-    '',
-    ''
-); ?>
 
-<?php echo item_col(
+<div class="fancy-stats-container animate-when-content-appears my-5">
+    <div class="col-item stat-item item-students">
+        <div class="stat-item-fact">
+            <div class="tagline">Tuition</div>
+            <div class="display-2">$61,940</div>
+        </div>
+        <div class="stat-item-additional">
+            <div class="stat-label text-primary">For the 2021–2022 school year</div>
+        </div>
+    </div>
 
-); ?>
-<div class="card mb-4">
- <div class="card-body">
-  <h6 class="card-title">Tuition</h6>
-  <div class="card-text">
-   <div class="display-2">$61,940</div>
-   <p>For the 2021–2022 school year the total cost is $78,580</p>
-  </div>
- </div>
+
+    <div class="col-item symbol-item symbol-div">
+        <!-- ÷ -->
+    </div>
+
+    <div class="col-item stat-item item-faculty">
+        <div class="stat-item-fact">
+            <div class="tagline">Housing and Dining</div>
+            <div class="display-2">$15,710</div>
+        </div>
+        <div class="stat-item-additional">
+            <div class="stat-label text-primary">96% of Vassar students live on campus and housing</div>
+        </div>
+    </div>
+
+    <div class="col-item symbol-item symbol-equals">
+        <!-- = -->
+    </div>
+
+    <div class="col-item stat-item item-ratio">
+        <div class="stat-item-fact">
+            <div class="tagline">Fees</div>
+            <div class="display-2">$930<span class="delimiter-colon">:</span>1</div>
+            <div class="stat-label text-primary">Covering Health Insurance and Activity Fees</div>
+        </div>
+    </div>
 </div>
-
-
-<?php echo end_item_col(); ?>
-<?php echo item_col(
-
-); ?>
-<div class="card mb-4">
- <div class="card-body">
-  <h6 class="card-title">Housing and dining</h6>
-  <div class="card-text">
-   <div class="display-2">$15,710</div>
-   <p>96% of Vassar students live on campus and housing </p>
-  </div>
- </div>
-</div>
-
-
-
-<?php echo end_item_col(); ?>
-<?php echo item_col(
-
-); ?>
-<div class="card mb-4">
- <div class="card-body">
-  <h6 class="card-title">Fees</h6>
-  <div class="card-text">
-   <div class="display-2">$930</div>
-   <p>Covering Health Insurance and Activity Fees</p>
-  </div>
- </div>
-</div>
-
-
-
-<?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
-
 
 <?php echo end_sec_wideContent(); ?>
 <?php echo sec_regularContent(
     null,
-    null,
+    'pt-0 text-center',
     '',
     ''
 ); ?>
 
+<?php echo item_alert(
+    null,
+    '<p>Students should anticipate budgeting $2,250 for books, supplies, and personal expenses, and transportation to and from the campus. Additional information can be found on the Student Financial Services website.</p>',
+    'info-circle',
+    ' text-start alert-light alert-accent-gold'
+); ?>
 
-
-
-<p class="fix">
- Students should anticipate budgeting $2,250 for books, supplies, and personal expenses, and transportation to and from the campus. Additional information can be found on the Student Financial Services website.
-</p>
+<a href="https://offices.vassar.edu/student-financial-services/" class="btn btn-primary arrow">Visit Student Financial Services</a>
 <?php echo end_sec_regularContent(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/financial-aid/tuition/Cushing-Dorm_Room_Series_Seven_12_HW_6.jpg',
-    'image-is-first theme-charcoal bg-dark',
+    'Room and Board',
+    $admission_img_path.'financial-aid/tuition/Cushing-Dorm_Room_Series_Seven_12_HW_6.jpg',
+    'image-is-first theme-charcoal',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Room and Board</h2>
-    <p>Students living on campus are required to participate in a <a href="#">college board plan</a> (also known as the meal plan). For more information about housing, visit the <a href="#">Office of Residential Life</a>.</p>
+    <p>Students living on campus are required to participate in a <a href="http://vassar.cafebonappetit.com">college board plan</a> (also known as the meal plan). For more information about housing, visit the <a  href="https://offices.vassar.edu/residential-life/">Office of Residential Life</a>.</p>
 
-    <a href="/admission/financial-aid/apply/" class="px-0 btn btn-link arrow">Visit the Office of Residential Life</a>
+    <?php echo cta_link(
+      'https://offices.vassar.edu/residential-life/',
+      'Visit the Office of Residential Life'
+    ); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/financial-aid/tuition/0024-18-03-kr-wvkr-vassar-3474.jpg',
-    'theme-charcoal bg-dark',
+    'Student Activity Fee',
+    $admission_img_path.'financial-aid/tuition/0024-18-03-kr-wvkr-vassar-3474.jpg',
+    'theme-burgundy has-bg quad-pattern',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Student Activity Fee</h2>
     <p>Payment of this fee is required of all matriculated students. Student activity fees comprise the budget of the Vassar Student Association (student government) and provide funding for more than 100 student organizations and campus events.</p>
 
-    <a href="/admission/financial-aid/apply/" class="px-0 btn btn-link arrow">Explore Student Orgs</a>
+    <?php echo cta_link(
+      '/admission/financial-aid/apply/',
+      'Explore Student Orgs'
+    ); ?>
+
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/financial-aid/tuition/0105_14_11_TT_2826.jpg',
-    'image-is-first theme-charcoal bg-dark',
+    'Student Health Insurance',
+    $admission_img_path.'financial-aid/tuition/0105_14_11_TT_2826.jpg',
+    'image-is-first theme-extralightgray',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Student Health Insurance</h2>
     <p>All students are required to have health insurance coverage.</p>
 
-    <a href="https://offices.vassar.edu/student-financial-services/" class="px-0 btn btn-link arrow">Visit Student Financial Services for more information</a>
+    <?php echo cta_link(
+      'https://www.vassar.edu/social-media/student-orgs',
+      'Visit Student Financial Services'
+    ); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
 
 
 

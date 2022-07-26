@@ -1,16 +1,18 @@
 
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
-include($project_paths['main_project_root'].'/functions.php');
+include_once($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "QuestBridge Students";
-$page_classes = "";
-
-/*  ---------------------- */
+$page_info = '{
+  "page_title":"QuestBridge Students",
+  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+}';
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -20,17 +22,9 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
-
-<?php echo breadcrumbNav('theme-verylightgray'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo interior_page_nav() ?>
 
 
 <?php /*  PAGE CONTENT === */ ?>
@@ -39,13 +33,12 @@ $page_classes = "";
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg',
-    'image-is-first theme-cream',
+    'QuestBridge',
+    '/assets/images/placeholders/main-placeholder.jpg',
+    'image-is-first theme-cream section-large-title',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">QuestBridge</h2>
     <p>Vassar is a partner with QuestBridge, a program dedicated to providing higher educational opportunities to exceptional, high-achieving students from low-income communities to support their success.</p>
 
     <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="px-0 btn btn-link arrow">Visit Questbridge.org</a>

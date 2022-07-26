@@ -2,15 +2,14 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
- ?>
+?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Aid Calculators";
-$page_classes = "";
-
-/*  ---------------------- */
+$page_info = '{"page_title":"Aid Calculators","feature_image":"/assets/images/placeholders/placeholder-banner.png"}';
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -21,18 +20,9 @@ $page_classes = "";
 <?php echo hamburger_navigation(); ?>
 
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
-
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-financialaid-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-financialaid-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
-
+<?php echo interior_page_nav() ?>
 
 <?php /*  PAGE CONTENT === */ ?>
 

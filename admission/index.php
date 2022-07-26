@@ -7,13 +7,14 @@ include( $project_paths['main_project_root'] . '/functions.php');
 
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Vassar Admission";
-$page_classes = "";
-/*  ---------------------- */
+$page_info = '{"page_title":"Vassar Admission","nav_title":"Admission"}';
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
+
 
 <?php echo site_header(); ?>
 
@@ -24,8 +25,9 @@ $page_classes = "";
 
 <?php echo sec_siteHeader_video(); ?>
 
-<a href="" class="mx-2 btn btn-lg btn-primary arrow">Apply</a>
-<a href="" class="mx-2 btn btn-lg btn-primary arrow">Request Info</a>
+<a href="/admission/apply/" class="mx-2 btn btn-lg btn-primary arrow">Apply</a>
+<a href="/admission/visit/" class="mx-2 btn btn-lg btn-primary arrow">Visit</a>
+<a href="https://apply.vassar.edu/register/requestinfo" class="mx-2 btn btn-lg btn-primary arrow">Request Info</a>
 
 <?php echo end_sec_siteHeader_video(); ?>
 
@@ -54,7 +56,7 @@ $page_classes = "";
     '<p class="section-intro-text">Our Admission team is here to help you with:</p>',
     'sec-fixedCenteredTitle theme-verylightgray here-to-help',
     'mw-4',
-    ['bg-image-url' => '/mockups/admission-home/assets/images/0145-15-05-hw-campus-vassar-vb-4747.jpg',
+    ['bg-image-url' => '/admission/assets/images/0145-15-05-hw-campus-vassar-vb-4747.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -67,15 +69,15 @@ $page_classes = "";
 
 
 
-<div class="grid cols-3 animation-zoom-in animate-when-content-appears animation-group">
+<div class="grid cols-2 animation-zoom-in animate-when-content-appears animation-group">
 
 
 
     <?php echo item_cardWithText(
         'Applying to Vassar',
-        '#',
-        ['url' => '/mockups/admission-home/apply/Untitled-3.jpg', 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark'
+        '/admission/apply/',
+        ['url' => '/admission/assets/images/admission-home/0198-19-11-kwe-library-vassar-vb-5415.jpg', 'alt' => 'Student studying in the Thompson Memorial Library' ],
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
     <p>What’s required / How to apply / Important Deadlines / Tuition</p>
@@ -87,11 +89,26 @@ $page_classes = "";
 
 
 
+
+
+    <?php echo item_cardWithText(
+        'Visit',
+        '/admission/visit/',
+        ['url' => '/admission/assets/images/admission-home/0100-21-10-kr-fw-general-vassar-0057.jpg', 'alt' => 'replacealttext' ],
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
+    ); ?>
+
+    <p>[NEED SUMMARY CONTENT]</p>
+
+    <?php echo end_item_cardWithText(
+        null,
+    ); ?>
+
     <?php echo item_cardWithText(
         'Financial Aid Information',
-        '#',
-        ['url' => '/mockups/admission-home/apply/Untitled-2.jpg', 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark'
+        '/admission/financial-aid/',
+        ['url' => '/admission/assets/images/admission-home/0177_16_09_KR_0072.jpg', 'alt' => 'replacealttext' ],
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
 
     ); ?>
 
@@ -104,9 +121,9 @@ $page_classes = "";
 
     <?php echo item_cardWithText(
         'Request Information',
-        '',
-        ['url' => '/mockups/admission-home/apply/Untitled-1.jpg', 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark'
+        'https://apply.vassar.edu/register/requestinfo',
+        ['url' => '/admission/assets/images/admission-home/0065-19-05-kr-jewett-dorm-vassar-4374.jpg', 'alt' => 'replacealttext' ],
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
     <p>Get Vassar’s newsletter and other information about Vassar.</p>
@@ -127,7 +144,7 @@ $page_classes = "";
 <!-- stats -->
 
 <?php
-echo word_cycler('where-from');
+// echo word_cycler('where-from');
 
 echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">This is</b>
@@ -136,7 +153,7 @@ echo sec_fixedCenteredTitle(
     font-weight: 100;
     max-width: 40rem;
     margin: 4rem auto 2rem;
-    text-align: left;">Vassar is from <span id="where-from">everywhere</span></h2>
+    text-align: left;">Vassar is from <span id="x-where-from">everywhere</span></h2>
    <h3 class="section-intro-text">World-class educations are built on world-wide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will study abroad while at Vassar.</h3>
 <div class="text-center mb-5">
 <a href="" class="btn btn-lg btn-light arrow">Meet Vassar</a>
@@ -145,8 +162,8 @@ echo sec_fixedCenteredTitle(
     'sec-fixedCenteredTitle theme-charcoal-to-white xhide-image',
     'mw-4',
     [
-        /*      'bg-image-url' => '/mockups/admission-home/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg', */
-        'bg-image-url' => '/mockups/admission-home/assets/images/0141-15-10-kr-fall-campus-vassar-0034.jpg',
+        /*      'bg-image-url' => '/admission/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg', */
+        'bg-image-url' => '/admission/assets/images/0141-15-10-kr-fall-campus-vassar-0034.jpg',
         'bg-image-alt' => 'replacethisalttext',
         'css' => '
       --section-title-size: 10vw;
@@ -154,7 +171,7 @@ echo sec_fixedCenteredTitle(
       --title-container-bg-beforeContent: rgba(0,0,0,0.26);
       --section-bg-image-opacity: 0;
       --intro-line-color: #fff;
-      --section-title-faded-color: $burgundy; 
+      --section-title-faded-color: $burgundy;
       --section-bg-color-after-content: #fff;
       '
     ]
@@ -171,7 +188,7 @@ echo sec_fixedCenteredTitle(
         'More than half of Vassar students receive financial aid.
     ',
         'animation-item',
-        '',
+        '/admission/financial-aid/'
     );
     ?>
 
@@ -179,7 +196,8 @@ echo sec_fixedCenteredTitle(
         'Majors',
         '51',
         'Choose from 48 departments and programs, 51 majors, plus the Independent Program (interdisciplinary “design your own” major).',
-        'animation-item'
+        'animation-item',
+        '/admission/explore/academics/'
     );
     ?>
 
@@ -187,15 +205,17 @@ echo sec_fixedCenteredTitle(
         'Student Orgs',
         '170',
         'From volunteer opportunities in our local community to mystery hikes with the Outing Club, Vassar has an organization for everyone.',
-        'animation-item'
+        'animation-item',
+        '/admission/explore/student-life/'
     );
     ?>
 
     <?php echo flipcard_stat(
-        'Varsity Teams',
-        '27',
-        'In the past three years, Vassar student-athletes have achieved All-American status in seven sports.',
-        'animation-item'
+        'Employed Grads',
+        '96%',
+        'Within six months of graduating, 96% of Vassar students are employed, in graduate school, or in a competitive fellowship.',
+        'animation-item',
+        '/admission/explore/outcomes/'
     );
     ?>
 
@@ -218,7 +238,7 @@ echo sec_fixedCenteredTitle(
     <p class="text-center mb-5 fst-italic fs-5">Videos with a <i class="icon fa fa-vr-cardboard mx-2"></i> icon are panoramic. Drag inside the video to look around!</p>',
     'sec-fixedCenteredTitle theme-burgundy',
     'mw-4',
-    ['bg-image-url' => '/mockups/admission-home/fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',
+    ['bg-image-url' => '/admission/assets/images/admission-home/fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',
         'bg-image-alt' => 'replacethisalttext',
         'css' => '
       --section-title-size: 10vw;
@@ -233,67 +253,79 @@ echo sec_fixedCenteredTitle(
 
 
 
-
     <?php
-
-    echo item_imageCard_modal(
+    echo item_imageCard_videoModal(
         get_icon('play').'Bridge for Laboratory Sciences',
         null,
-        'lab-sciences-modal',
-        null,
-        ['url' => '/mockups/admission-home/fav-places-2/110619_160over90_Vassar_5483.jpg',
+        'AqDKltbh7h4',
+        'youtube',
+        '',
+        ['url' => '/admission/assets/images/admission-home/fav-places/110619_160over90_Vassar_5483.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
 
     ?>
+
+
+
 
     <?php
-    echo item_imageCard_modal(
+    echo item_imageCard_videoModal(
         get_icon('vr-cardboard').'Shakespeare Garden',
         null,
-        'shakespeare-modal',
-        null,
-        ['url' => '/mockups/admission-home/fav-places-2/0056-21-06-kr-campus-vassar-0006-copy.jpg',
+        'pfJIwU-Kifg',
+        'youtube',
+        '',
+        ['url' => '/admission/assets/images/admission-home/fav-places/0056-21-06-kr-campus-vassar-0006-copy.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
 
     ?>
+
 
 </div>
 
 <div class="animation-group staggered-grid-reverse animation-zoom-in animate-when-content-appears gap-3 mb-3">
 
+
+
     <?php
-    echo item_imageCard_modal(
+    echo item_imageCard_videoModal(
         get_icon('vr-cardboard').'Thompson Memorial Library',
         null,
-        'thompson-modal',
-        null,
-        ['url' => '/mockups/admission-home/fav-places-2/0212-18-10-kr-library-fall-vassar-3819.jpg',
+        'lQ0Jb9u6zTY',
+        'youtube',
+        '',
+        ['url' => '/admission/assets/images/admission-home/fav-places/0212-18-10-kr-library-fall-vassar-3819.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
 
     ?>
+
+
 
     <?php
-    echo item_imageCard_modal(
+    echo item_imageCard_videoModal(
         get_icon('play').'Gordon Commons',
         null,
-        'gordon-modal',
-        null,
-        ['url' => '/mockups/admission-home/fav-places-2/0195-19-11-kwe-gordon-vassar-1644.jpg',
+        'l9N-gTmvMgo',
+        'youtube',
+        '',
+        ['url' => '/admission/assets/images/admission-home/fav-places/0195-19-11-kwe-gordon-vassar-1644.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
 
     ?>
+
+
 
 
 </div>
@@ -301,30 +333,35 @@ echo sec_fixedCenteredTitle(
 <div class="animation-group staggered-grid animation-zoom-in animate-when-content-appears gap-3  mb-3">
 
     <?php
-    echo item_imageCard_modal(
+    echo item_imageCard_videoModal(
         get_icon('vr-cardboard').'The Ecological Preserve',
         null,
-        'ecological-modal',
-        null,
-        ['url' => '/mockups/admission-home/fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg',
+        'Wjxz5QMAw3c',
+        'youtube',
+        '',
+        ['url' => '/admission/assets/images/admission-home/fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg',
             'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
+
     ?>
 
     <?php
-    echo item_imageCard_modal(
+    echo item_imageCard_videoModal(
         get_icon('play').'Student Picks',
         null,
-        'student-modal',
-        null,
-        ['url' => 'https://vassartest.chuckyatsuk.com/img/favplaces-v2.jpg',
-            'alt' => 'Student describing favorite place on campus'
+        'e2Qz73uGyLs',
+        'youtube',
+        '',
+        ['url' => '/admission/assets/images/admission-home/fav-places/favplaces-v2.jpg',
+            'alt' => 'Student speaking while being interviewed'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
+
     ?>
+
 
 </div><!-- end layout-masonry -->
 
@@ -342,10 +379,10 @@ echo sec_fixedCenteredTitle(
 All Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life. Explore virtual visiting opportunities today and learn more about in-person visits.
    </h3>
 
-   <p class="text-center mb-5  fs-5">See the Vassar campus through the eyes of our students:</p>',
+   <p class="text-center mb-5 fs-5">See the Vassar campus through the eyes of our students:</p>',
     'sec-fixedCenteredTitle theme-dark-burgundy featured-video',
     'mw-4',
-    ['bg-image-url' => '/mockups/admission-home/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
+    ['bg-image-url' => '/admission/assets/images/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
         'bg-image-alt' => 'replacethisalttext',
         'css' => '
       --section-title-size: 10vw;
@@ -364,34 +401,37 @@ All Vassar students are surrounded by an environment designed to spark something
 
 
 <div class="animation-group staggered-grid  animation-zoom-in animate-when-content-appears gap-3  mb-3">
-    <?php
 
-    echo item_imageCard_modal(
+    <?php
+    echo item_imageCard_videoModal(
         get_icon('play').'All about food',
         null,
-        'food-modal',
-        null,
-        ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/video/food-1.jpg',
-            'alt' => 'asdfasdf'
+        '0jdM1pZJy64',
+        'youtube',
+        '',
+        ['url' => '/admission/assets/images/admission-home/video/food-1.jpg',
+            'alt' => 'Smiling student being interviewed, pizza topping choices superimposed on photo to indicate the wide variety of food choices being discussed'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
 
     ?>
+
     <?php
-
-    echo item_imageCard_modal(
-        get_icon('play').'What\'s Your Take?',
+    echo item_imageCard_videoModal(
+        get_icon('play').'What’s Your Take?',
         null,
-        'student-takes',
-        null,
-        ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/video/words-4.jpg',
-            'alt' => 'asdfasdf'
+        '7fjWRvjKH5E',
+        'youtube',
+        '',
+        ['url' => '/admission/assets/images/admission-home/video/words-4.jpg',
+            'alt' => 'Student being interviewed'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
 
     ?>
+
 </div>
 
 
@@ -402,8 +442,8 @@ All Vassar students are surrounded by an environment designed to spark something
         null,
         'tiktok1-modal',
         null,
-        ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/video/day-1.jpg',
-            'alt' => 'asdfasdf'
+        ['url' => '/admission/assets/images/admission-home/video/day-1.jpg',
+            'alt' => 'Student working on a laptop in front of a window'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -414,8 +454,8 @@ All Vassar students are surrounded by an environment designed to spark something
         null,
         'tiktok2-modal',
         null,
-        ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/video/dorm-a-1.jpg',
-            'alt' => 'asdfasdf'
+        ['url' => '/admission/assets/images/admission-home/video/dorm-a-1.jpg',
+            'alt' => 'View of campus quad through a sunny window'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -426,8 +466,8 @@ All Vassar students are surrounded by an environment designed to spark something
         null,
         'tiktok3-modal',
         null,
-        ['url' => 'https://vassartest.chuckyatsuk.com/img/admission-home/video/dorm-b.jpg',
-            'alt' => 'asdfasdf'
+        ['url' => '/admission/assets/images/admission-home/video/dorm-b.jpg',
+            'alt' => 'Decorative string lights on a dorm wall'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -456,14 +496,14 @@ All Vassar students are surrounded by an environment designed to spark something
        ',
     'sec-fixedCenteredTitle theme-verylightgray xfeatured-video',
     'mw-4',
-    ['bg-image-url' => '/mockups/admission-home/0027-21-05-kr-founders-vassar-0102.jpg',
-        'bg-image-alt' => 'replacethisalttext',
+    ['bg-image-url' => '/admission/assets/images/0027-21-05-kr-founders-vassar-0102.jpg',
+        'bg-image-alt' => 'Crowd watching fireworks over Vassar campus',
         'css' => '
           --section-title-size: 9vw;
           --title-container-bg-beforeContent: rgba(0,0,0,0.1);
           /* --section-title-faded-opacity: 0.2; */
           --section-bg-image-opacity: 0;
-            --section-title-faded-color: var(--color-vassar-dark-burgundy); 
+            --section-title-faded-color: var(--color-vassar-dark-burgundy);
 
 
           '
@@ -536,124 +576,6 @@ All Vassar students are surrounded by an environment designed to spark something
 
 
 
-<?php
-
-echo item_imageCard_modal_setup(
-    get_icon('play').'All about food',
-    null,
-    'food-modal',
-    '<div class="ratio ratio-16x9">
-<iframe class="modal-video" id="video-id--2081" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/0jdM1pZJy64?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
-  </div>',
-    ['url' => '/mockups/admission-home/fav-places-2/110619_160over90_Vassar_5483.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-echo item_imageCard_modal_setup(
-    get_icon('play').'Whats your Take',
-    null,
-    'student-takes',
-    '<div class="ratio ratio-16x9">
-<iframe class="modal-video" id="video-id--2081" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/7fjWRvjKH5E?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
-  </div>',
-    ['url' => '/mockups/admission-home/fav-places-2/110619_160over90_Vassar_5483.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-
-echo item_imageCard_modal_setup(
-    get_icon('play').'Bridge for Laboratory Sciences',
-    null,
-    'lab-sciences-modal',
-    '<div class="ratio ratio-16x9">
-<iframe class="modal-video" id="video-id--2081" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/AqDKltbh7h4?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
-  </div>',
-    ['url' => '/mockups/admission-home/fav-places-2/110619_160over90_Vassar_5483.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-
-
-echo item_imageCard_modal_setup(
-    get_icon('play').'Shakespeare Garden',
-    null,
-    'shakespeare-modal',
-    '<div class="ratio ratio-16x9">
-          <iframe class="modal-video" id="video-id--2186" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/pfJIwU-Kifg?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=2" data-gtm-yt-inspected-8="true"></iframe>
-        </div>',
-    ['url' => '/mockups/admission-home/fav-places-2/0056-21-06-kr-campus-vassar-0006-copy.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-?>
-
-<?php
-echo item_imageCard_modal_setup(
-    get_icon('play').'Thompson Memorial Library',
-    null,
-    'thompson-modal',
-    '<div class="ratio ratio-16x9">
-        <iframe class="modal-video" id="video-id--2121" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/lQ0Jb9u6zTY?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-8="true"></iframe>
-      </div>',
-    ['url' => '/mockups/admission-home/fav-places-2/0212-18-10-kr-library-fall-vassar-3819.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-?>
-
-<?php
-echo item_imageCard_modal_setup(
-    get_icon('play').'Gordon Commons',
-    null,
-    'gordon-modal',
-    '<div class="ratio ratio-16x9">
-        <iframe class="modal-video" id="video-id--2041" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/l9N-gTmvMgo?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=1" data-gtm-yt-inspected-7="true"></iframe>
-      </div>',
-    ['url' => '/mockups/admission-home/fav-places-2/0195-19-11-kwe-gordon-vassar-1644.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-?>
-
-<?php
-echo item_imageCard_modal_setup(
-    get_icon('play').'The Ecological Preserve',
-    null,
-    'ecological-modal',
-    '<div class="ratio ratio-16x9">
-        <iframe class="modal-video" id="video-id--2191" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/Wjxz5QMAw3c?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.vassar.edu&amp;widgetid=2" data-gtm-yt-inspected-7="true"></iframe>
-      </div>',
-    ['url' => '/mockups/admission-home/fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-?>
-
-<?php
-echo item_imageCard_modal_setup(
-    get_icon('play').'Student Picks',
-    null,
-    'student-modal',
-    '<div class="ratio ratio-16x9"><iframe width="560" height="315" src="https://www.youtube.com/embed/e2Qz73uGyLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>',
-    ['url' => '/mockups/admission-home/fav-places-2/studio.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-?>
 
 
 <?php
@@ -663,11 +585,11 @@ echo item_imageCard_modal_setup(
     'tiktok1-modal',
     '<div class="tiktok bg-dark">
 <video class="video" width="500" height="240" controls>
-  <source src="https://vassartest.chuckyatsuk.com/img/admission-home/video/day-in-life.mp4" type="video/mp4">
+  <source src="/admission/assets/videos/day-in-life.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </div>',
-    ['url' => '/mockups/admission-home/fav-places-2/studio.jpg',
+    ['url' => '/admission/fav-places-2/studio.jpg',
         'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -680,8 +602,8 @@ echo item_imageCard_modal_setup(
     null,
     'tiktok2-modal',
     '<div class="tiktok bg-dark">
-<video class="video" width="500" height="240" controls poster="https://vassartest.chuckyatsuk.com/img/admission-home/video/dorm-a-poster-lg.jpg">
-  <source src="https://vassartest.chuckyatsuk.com/img/admission-home/video/dorm-a.mp4" type="video/mp4">
+<video class="video" width="500" height="240" controls poster="/admission/assets/images/admission-home/video/dorm-a-poster-lg.jpg">
+  <source src="/admission/assets/videos/dorm-a.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </div>',
@@ -699,7 +621,7 @@ echo item_imageCard_modal_setup(
     'tiktok3-modal',
     '<div class="tiktok bg-dark">
 <video class="video" width="500" height="240" controls>
-  <source src="https://vassartest.chuckyatsuk.com/img/admission-home/video/dorm-b.mp4" type="video/mp4">
+  <source src=/admission/assets/videos/dorm-b.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </div>',
@@ -711,4 +633,14 @@ Your browser does not support the video tag.
 ?>
 
 
-<?php echo site_footer(); ?>
+
+
+ <?php
+ echo item_modal_standardVideo();
+ ?>
+
+
+
+
+
+ <?php echo site_footer(); ?>

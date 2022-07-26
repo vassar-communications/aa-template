@@ -13,8 +13,8 @@
  */
 function page_textmasthead( $section_classes=null,$extras = false) {
 
-  global $page_title;
-  global $page_tagline;
+  global $page_info;
+  $page_title = $page_info['page_title'];
 
 $template = <<<TMP
 <div class="textmasthead pb-4 section d-flex flex-column-reverse text-left $section_classes">

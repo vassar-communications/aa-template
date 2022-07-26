@@ -32,7 +32,11 @@ function sec_fixedCenteredTitle_masthead_vid(
 
 
     <div class="section min-vh-100 masthead-video-background sec-fixedCenteredTitleMasthead is-loading $section_classes" $css>
-
+        <button id="play_pause" class="videoplayer_button" aria-label="pause/play background video" title="pause/play background video">
+            <span id="pause_button" class="videoplayer_icon videoplayer_icon_pause" aria-hidden="true"><i class="fa fa-solid fa-pause"></i></span>
+            <span id="play_button" class="videoplayer_icon videoplayer_icon_play" aria-hidden="true"><i class="fa fa-solid fa-play"></i></span></span>
+            <span class="videoplayer_icon_label">Pause/Play this video</span>
+        </button>
       <div class="section-bg-image-container $bg_classes" $bg_css>
         <div class="position-fixed w-100 vh-100 d-flex justify-content-center align-items-center section-title-container">
 
@@ -45,7 +49,7 @@ function sec_fixedCenteredTitle_masthead_vid(
 
 
         <div class="video-background">
-          <iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" id="main-video" src="https://player.vimeo.com/video/$video&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;muted=1&amp;autoplay=1&amp;loop=1&amp;byline=0&amp;title=0"  title="This-is-Vassar-Anthem-slide-loop"></iframe>
+          <iframe id="main-video" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" id="main-video" src="https://player.vimeo.com/video/$video&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;background=1&amp;muted=1&amp;autoplay=1&amp;loop=1&amp;byline=0&amp;title=0"  title="This-is-Vassar-Anthem-slide-loop"></iframe>
         </div>
 
 

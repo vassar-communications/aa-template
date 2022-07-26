@@ -1,0 +1,208 @@
+/*  LAYOUT
+  ====== */
+
+html {
+  --carousel-height: 28rem;
+}
+
+$border-distance: 0.6rem;
+
+
+.figcaption {
+  background: var(--color-vassar-dark-burgundy) !important;
+//  @include padding(2rem);
+
+  padding: clamp(1rem, 2.5vw, 2rem);
+
+  p {
+    font-size: 1.14rem !important;
+  }
+  * {
+    position: relative;
+    z-index: 10;
+  }
+}
+
+
+/* external css: flickity.css */
+
+@include break(lg, 'max') {
+  .carousel-cell {
+    margin-bottom: 3rem;
+  }
+}
+
+@include break(lg) {
+  /* disable Flickity for large devices */
+
+  .featureImage-text-ticker {
+    height: var(--carousel-height, 32em);
+
+    &:after {
+      content: 'flickity';
+      opacity: 0;
+    }
+
+    .carousel-cell {
+      width: 66%;
+      height: 200px;
+      margin-right: 10px;
+     // border-radius: 5px;
+      counter-increment: carousel-cell;
+      opacity: 0.2;
+      transform: scale(0.7);
+    }
+
+    .is-selected {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .flickity-viewport {
+      position: relative;
+      height: 100% !important;
+    }
+
+    .carousel-cell-content {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      gap: var(--carousel-gap, 1.3rem);
+    }
+
+    .carousel-cell {
+      height: 100%;
+
+      .image-container {
+        width: fit-content;
+
+        img {
+          width: fit-content;
+        // this was distorting images  max-width: 100%;
+          height: var(--carousel-height, 32em);
+          object-fit: cover !important;
+        }
+      }
+    }
+    .figcaption {
+      background: $gray-700;
+      // padding: 2rem;
+      width: 21rem;
+
+      p {
+        font-size: $font-size-base;
+      }
+    }
+  }
+}
+
+
+
+/*  Theme
+    ===== */
+
+.section--carousel {
+  padding: 4rem;
+}
+
+
+
+.featureImage-text-ticker {
+  .carousel-cell.is-selected {
+    z-index: 10;
+  }
+  .carousel-cell-content {
+    gap: 0;
+    border-radius: 0.4em;
+    overflow: hidden;
+  }
+  .btn-link {
+    margin-top: 2rem;
+  }
+  .image-container {
+    overflow: hidden;
+
+    img {
+      z-index: 10;
+      position: relative;
+      transition: 0.4s all ease;
+    }
+  }
+
+  .figcaption {
+    position: relative;
+
+    &:before, &:after {
+      position: absolute;
+      content: '';
+      border: 2px solid $red;
+      opacity: 0;
+      width: 0;
+      height: 0;
+      transition: 0.4s all ease;
+    }
+    &:before {
+      top: $border-distance;
+      left: $border-distance;
+      border-right: none;
+      border-bottom: none;
+    }
+    &:after {
+      bottom: $border-distance;
+      right: $border-distance;
+      border-top: none;
+      border-left: none;
+    }
+  }
+  .carousel-cell.is-link:hover {
+    cursor: pointer;
+
+    i.circle.fa-solid {
+      background: #fff;
+      color: $red;
+    }
+    .figcaption {
+      &:before,
+      &:after {
+        width: calc(100% - (2 * #{$border-distance}));
+        height: calc(100% - (2 * #{$border-distance}));
+        opacity: 1;
+      }
+    }
+    img {
+      filter: brightness(1.2);
+      transform: scale(1.04);
+    }
+  }
+}
+
+
+
+/* In the Media Carousel */
+@include break(lg) {
+  .media-carousel {
+    --carousel-height: 33rem;
+    height: 37rem !important;
+
+    .carousel-cell {
+      width: 70rem !important;
+    }
+    .carousel-cell-content {
+      max-width: none;
+    }
+    .image-container {
+      width: 70% !important;
+      height: var(--carousel-height, 32em);
+      position: relative;
+    }
+    &.featureImage-text-ticker .carousel-cell .image-container img {
+      max-height: none;
+      max-width: none;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      object-fit: cover;
+    }
+  }
+}

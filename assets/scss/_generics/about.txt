@@ -1,0 +1,4 @@
+
+_generics is for Sass files that exist to be extended by other files so I don't have to rewrite the same styles.
+
+Current example: we'll have a couple of list modules where the items need borders and shouldn't have bullet points, so I've set up a generic example of this which can be @extended as needed.

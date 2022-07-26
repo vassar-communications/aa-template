@@ -5,12 +5,14 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Explore Campus";
-$page_classes = "";
-
-/*  ---------------------- */
+$page_info = '{
+  "page_title": "Explore Campus",
+  "feature_image": "/admission/assets/images/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg"
+}';
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -23,12 +25,12 @@ $page_classes = "";
 
 
 <?php echo sec_fixedCenteredTitle_masthead_vid(
-    '<b class="slide-from-left">Explore</b>
+    '<b class="slide-from-left supertitle">Explore</b>
    <b class="slide-from-right">Campus</b>',
     '726094046?h=e82beea31f',
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg',
+    ['bg-image-url' => $page_info['feature_image'],
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -40,28 +42,115 @@ $page_classes = "";
 
 <?php echo end_sec_fixedCenteredTitle_masthead_vid(); ?>
 
-
-
-
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo interior_page_nav() ?>
 
 <?php echo masthead_interiorPage(
     'Where Horizons Meet',
-    'Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.',
-    'https://vassartest.chuckyatsuk.com/img/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
+    'Vassar’s 1,000-acre campus blends timeless architecture blended with cutting-edge facilities.',
+    $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
 ?>
 
 
+<?php echo sec_fullBleedImageColumn(
+    null,
+    $placeholder_img_vertical,
+    'image-is-first theme-dark-burgundy quad-pattern has-bg gold-icons',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p class="intro-text placeholder">On Vassar’s 1,000-acre campus, students have access to:</p>
+
+    <div class="icon-items-list vertically-center-icon">
+      <?php echo item_iconItem(
+        null,
+        'archway',
+        'icon-on-left'
+      ); ?>
+          <p>Timeless architecture blended with cutting-edge facilities.</p>
+      <?php echo end_item_iconItem(); ?>
+
+      <?php echo item_iconItem(
+        null,
+        'tree',
+        'icon-on-left'
+      ); ?>
+          <p>Spaces that inspire bold thinking as well as an appreciation for natural beauty.</p>
+      <?php echo end_item_iconItem(); ?>
+
+      <?php echo item_iconItem(
+        null,
+        'people-roof',
+        'icon-on-left'
+      ); ?>
+          <p>A safe and inclusive environment where, no matter who you are, together we can become more.</p>
+      <?php echo end_item_iconItem(); ?>
+    </div>
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+<?php echo sec_wideContent(
+    'Where Else But Vassar?',
+    '<p>Every Vassar student has their own cherished place on campus. Some of our favorite spaces include:</p>',
+    'theme-charcoal has-bg quad-pattern bg-dark section--edge-to-edge',
+    ''
+); ?>
+
+
+<?php //echo admissionExploreCampusCarousel(); ?>
 
 
 
 
-<div class="buffer"></div>
+<?php echo carousel(); ?>
+  <?php echo carousel_item("/assets/images/placeholders/main-placeholder.jpg"); ?>
+    <h3 class="h3">The Libraries</h3>
+    <p>With more than 1 million volumes, the Vassar libraries hold one of the largest liberal arts collections in the country. In the Thompson Memorial Library, sit and study in the main reading room beneath the stunning Cornaro stained glass window as the sun streams through.</p>
+  <?php echo end_carousel_item(); ?>
+
+  <?php echo carousel_item("/assets/images/placeholders/main-placeholder.jpg"); ?>
+        <h3 class="h3">The Frances Lehman Loeb Art Center</h3>
+      <p>Founded in 1864 as the Vassar College Art Gallery, the center is one of the only nationally known museums on a college campus. Today it is home to 21,000 works including by Rembrandt, Pablo Picasso, Georgia O’Keeffe, and Francis Bacon.</p>
+    <?php echo end_carousel_item(); ?>
+
+    <?php echo carousel_item("/assets/images/placeholders/main-placeholder.jpg"); ?>
+      <h3 class="h3">The Bridge for Laboratory Sciences</h3>
+      <p>Designed as a bridge across the Fonteyn Kill wetland, our environmentally friendly, dynamic STEM facility comprises a network of interdisciplinary laboratories that connects the integrated sciences with humanities. The state-of-the-art building was the first in the U.S. to use so much of a special, innovative type of bird-friendly glass, with a coating visible to birds but almost invisible to humans.</p>
+    <?php echo end_carousel_item(); ?>
+
+    <?php echo carousel_item("/assets/images/placeholders/main-placeholder.jpg"); ?>
+          <h3 class="h3">The Shakespeare Garden</h3>
+      <p>The second oldest garden in the United States, this tranquil space is appreciated by the Vassar community and visitors alike.</p>
+    <?php echo end_carousel_item(); ?>
+
+    <?php echo carousel_item("/assets/images/placeholders/main-placeholder.jpg"); ?>
+        <h3 class="h3">The Vassar Farm and Ecological Preserve</h3>
+        <p>This 500-acre green space comprises a multitude of habitats including streams, wetlands, ponds, forest, and old fields populated by a diversity of flora and fauna. This is an invaluable resource for Vassar faculty and students conducting scientific research.</p>
+    <?php echo end_carousel_item(); ?>
+
+<?php echo end_carousel(); ?>
+
+
+
+
+
+
+
+
+
+<?php echo end_sec_wideContent(); ?>
+
+
+<?php echo sec_wordByWord_fixed(
+    null,
+    'animate-when-content-appears space-around-image',
+    null
+); ?>
+
+<p>Vassar’s harmony is the sound of every individual coming together. It’s more than symbolic that there are 65 Steinway pianos on campus.</p>
+<!--<div class="quote-attribution">Robyn Taylor, <em>101.5 WPDH</em></div>-->
+<?php echo end_sec_wordByWord_fixed(); ?>
+
+
 <?php /*  PAGE CONTENT === */ ?>
 
 <!-- RELATED TOPICS ===  -->
@@ -70,21 +159,13 @@ $page_classes = "";
     'More in This Section',
     3,
     null,
-    'related-topics-section theme-burgundy',
+    'relatedtopics theme-burgundy',
     ''
 ); ?>
 
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-academics.php');?>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-student-life.php');?>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-diversity.php');?>
-<?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 

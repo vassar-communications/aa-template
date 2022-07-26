@@ -5,12 +5,11 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Meet the Students";
-$page_classes = "";
-
-/*  ---------------------- */
+$page_info = '{"page_title":"Meet the Students","feature_image":"/assets/images/placeholders/placeholder-banner.png"}';
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -20,28 +19,31 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-connect-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-connect-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
-
-
-
-
+<?php echo interior_page_nav() ?>
 
 <?php /*  PAGE CONTENT === */ ?>
 
+<?php echo sec_fullBleedImageColumn(
+    'Ask a Student',
+    '/assets/images/placeholders/placeholder-square.png',
+    'image-is-first theme-cream section-large-title',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>There is a lot to learn about Vassar through our many virtual and in-person visit options. If you still have questions about what life is like as a Vassar student, we encourage you to reach out! Email askastudent@vassar.edu to connect with a current Vassar student who will answer your questions about life at Vassar. We can’t guarantee which student will respond to your question, but we can guarantee that they will give you an honest answer. So go ahead, ask a student.</p>
+
+    <p><i class="fa-solid fa-envelope"></i><a class="ms-2" href="mailto:askastudent@vassar.edu">askastudent@vassar.edu</a></p>
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-visit.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply-transfer.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/admission-apply.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/connect/connect.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-student-life.php');?>
+<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
 <?php echo site_footer(); ?>

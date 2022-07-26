@@ -38,7 +38,7 @@ function site_footer() {
 
 			<div class="col-3 knockedout bg-darkestburgundy p-4">
 				<div class="h2 display-6 mb-2">Learn more.</div>
-  +        <img src="/0104_14_10_KR_0022.jpg" alt="changethisalttext" />
+          <img src="/0104_14_10_KR_0022.jpg" alt="Student raising hand in class" />
 				  <a href="https://apply.vassar.edu/register/requestinfo" class="px-0 mt-4 btn btn-link arrow">Request Info</a>
 				</div>
 		</div> <!-- row -->
@@ -85,6 +85,7 @@ function site_footer() {
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 <script src="{$project_paths['public_path']}/assets/js/main.js"></script>
+<!-- ☃ -->
 </body>
 </html>
 TMP;

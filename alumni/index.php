@@ -23,8 +23,8 @@ $page_classes = "advancement-demo";
 
 
 <?php echo sec_siteHeader_video_adv(); ?>
-<a href="" class="mx-2 btn btn-lg btn-primary arrow">Give Now</a>
-<a href="" class="mx-2 btn btn-lg btn-primary arrow">Log in</a>
+<!--<a href="" class="mx-2 btn btn-lg btn-primary arrow">Give Now</a>
+<a href="" class="mx-2 btn btn-lg btn-primary arrow">Log in</a>-->
 <?php echo end_sec_siteHeader_video(); ?>
 
 <?php echo alums_topLevelNav(); ?>

@@ -5,30 +5,33 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Group Visits";
-$page_classes = "";
+$page_info = '{
+  "page_title": "Group Visits",
+  "feature_image": "/admission/assets/images/visit/group/0100-21-10-kr-fw-arboretum-vassar-0270.jpg"
+}';
 
-/*  ---------------------- */
+/* === */
 
+$page_info = json_decode($page_info, true);
+
+/*$page_info = [
+  'page_title' => 'Group Visits',
+  'feature_image' => $admission_img_path.'visit/group/0100-21-10-kr-fw-arboretum-vassar-0270.jpg'
+];
+*/
 ?>
 
 <?php echo site_header(); ?>
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo page_partialmasthead('https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg'); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-visit-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-visit-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo interior_page_nav() ?>
 
 
 <?php /*  PAGE CONTENT === */ ?>
@@ -36,12 +39,12 @@ $page_classes = "";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/visit/group/group.jpg',
+    $admission_img_path.'visit/group/0098_15_09_KR_0019-flip.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h1 class="display-6">Vassar offers group visits to high school students and community-based organizations to provide information on the academic, residential, and student life experience.</h1>
+    <p class="intro-text">Vassar offers group visits to high school students and community-based organizations to provide information on the academic, residential, and student life experience.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -53,18 +56,33 @@ $page_classes = "";
     ''
 ); ?>
 
-<h4 class="display-4 mb-4">Schedule a group visit</h4>
+<?php echo item_iconItem(
+  'Schedule a group visit',
+  'people-group',
+  'icon-on-left'
+); ?>
 <p>Group visits can be customized to fit the needs of the group. Presentations can include topics such as choosing a major or writing a college admission essay, or Q&A sessions with current students.</p>
+<p class="mb-5">Group tours can be scheduled Monday through Friday between 9 a.m. and 5 p.m. ET, based on availability. To schedule, email <a href="">admissions@vassar.edu</a>.</p>
 
-<p class="mb-5">Group tours can be scheduled Monday through Friday between 9 a.m. and 5 p.m. ET, based on availability. To schedule, email <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>.</p>
+<?php echo cta_link(
+  'mailto:admissions@vassar.edu',
+  'Schedule a Group Tour'
+); ?>
 
-<h4 class="display-4 mb-4">Individual Opportunities</h4>
+<?php echo end_item_iconItem(); ?>
+
+
+<?php echo item_iconItem(
+  'Individual Opportunities',
+  'user',
+  'icon-on-left'
+); ?>
 <p>If you are interested in engaging with Vassar individually, we encourage you to sign up for one of our regularly scheduled virtual visit events.</p>
-<ul>
+<ul class="linked-list">
     <li><a href="/admission/visit/in-person/">In-Person Campus Visits</a></li>
     <li><a href="/admission/visit/virtual-programs/">Virtual Programs</a></li>
 </ul>
-
+<?php echo end_item_iconItem(); ?>
 
 <?php echo end_sec_regularContent(); ?>
 

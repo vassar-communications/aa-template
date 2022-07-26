@@ -1,16 +1,20 @@
 
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
-include($project_paths['main_project_root'].'/functions.php');
+include_once($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "First-Year Applicants";
-$page_classes = "";
+$page_info = '{
+  "page_title":"First-Year Applicants",
+  "page_classes":"alive",
+  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+}';
 
-/*  ---------------------- */
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -20,53 +24,37 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
+<?php echo interior_page_nav() ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
-<?php echo breadcrumbNav('theme-verylightgray'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-apply-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
-
-
-<?php echo sec_hasColumns(
-    null,
-    2,
-    null,
-    'animate-when-content-appears animation-slide-up',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row'
+<?php echo sec_fullBleedImageColumn(
+    'Information for First-Year Applicants',
+    $placeholder_img_square,
+    'image-is-first theme-cream',
+    ''
 ); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p class="intro-text mb-5">Everything you need to know to apply.</p>
 
-<?php echo item_col('equal'); ?>
-<h2 class="display-3">Information for First-Year Applicants</h2>
-<p>Everything you need to know to apply </p>
+    <?php echo deadlines('Early Decision Application deadlines'); ?>
 
-<?php echo deadlines('Early Decision Application deadlines'); ?>
+      <?php echo deadlines_item('Early Decision Round 1', 'November 15'); ?>
+      <?php echo deadlines_item('Early Decision Round 2', 'January 1'); ?>
 
-  <?php echo deadlines_item('Early Decision Round 1', 'November 15'); ?>
-  <?php echo deadlines_item('Early Decision Round 2', 'January 1'); ?>
+    <?php echo end_deadlines(); ?>
 
-<?php echo end_deadlines(); ?>
 
-<?php echo end_item_col(); ?>
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php echo item_col('equal'); ?>
-<img src="https://vassartest.chuckyatsuk.com/img/0084_16_04_KR_0013.jpg" />
-<?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
 
 <?php echo sec_regularContent(
-    null,
-    'theme-charcoal',
+    'First-Year Application Requirements',
+    'mw-inner-1',
     'checklist'
 ); ?>
-<h3 class="display-4">First-Year Application Requirements</h3>
-<ul>
+<ul class="style-checklist theme-cream">
     <li>Common Application or Coalition application</li>
     <li>$65 application fee or fee waiver
     <li>Early Decision Agreement (Early Decision Applicants ONLY)
@@ -84,29 +72,71 @@ $page_classes = "";
 
 
 <?php echo sec_regularContent(
-    null,
-    '',
+    'Optional Application Materials',
+    'theme-extralightgray',
     ''
 ); ?>
-<h3 class="display-4">Optional Application Materials</h3>
 <p>The following are not required for your application. for more information click the links below</p>
 
-<h3>Standardized Tests</h3>
-<p>Vassar does not require students to submit the SAT or ACT </p>
-<a class="fix btn btn-text" href="#">Read Vassar's standardized test policy</a>
+<?php echo item_iconItem(
+  'Standardized Tests',
+  'clipboard',
+  'icon-on-left theme-white-border'
+); ?>
+  <p>Vassar does not require students to submit the SAT or ACT </p>
 
-<h3>Your Space</h3>
-<p>This is a chance for you to show the admission committee something else about yourself. It is your space, so if you choose to complete it, send something that is a reflection of you! Past applicants have submitted poetry, craft projects, photography, short stories, videos, and more.</p>
 
-<h3>Interviews</h3>
-<p>Though not required, you may want to connect with a Vassar student or alum to learn more. These interviews are informational, not evaluative.</p>
-<a class="btn btn-text" href="/admission/apply/first-year-applicants/interviews">Learn more</a>
+  <?php echo cta_link(
+    '',
+    'Read Vassar’s standardized test policy'
+  ); ?>
 
-<h3>Music, Art, and Dance Portfolios</h3>
-<p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance</p>
-<a class="btn btn-text" href="/admission/apply/first-year-applicants/arts">Learn more</a>
+
+<?php echo end_item_iconItem(); ?>
+
+
+<?php echo item_iconItem(
+  'Your Space',
+  'face-smile',
+  'icon-on-left theme-white-border'
+); ?>
+  <p>This is a chance for you to show the admission committee something else about yourself. It is your space, so if you choose to complete it, send something that is a reflection of you! Past applicants have submitted poetry, craft projects, photography, short stories, videos, and more.</p>
+<?php echo end_item_iconItem(); ?>
+
+
+<?php echo item_iconItem(
+  'Interviews',
+  'people-arrows-left-right',
+  'icon-on-left theme-white-border'
+); ?>
+  <p>Though not required, you may want to connect with a Vassar student or alum to learn more. These interviews are informational, not evaluative.</p>
+
+  <?php echo cta_link(
+      '/admission/apply/first-year-applicants/interviews',
+      'Learn more about interviews at Vassar'
+  ); ?>
+
+
+<?php echo end_item_iconItem(); ?>
+
+<?php echo item_iconItem(
+  'Music, Art, and Dance Portfolios',
+  'star',
+  'icon-on-left theme-white-border'
+); ?>
+  <p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance</p>
+
+  <?php echo cta_link(
+    '/admission/apply/first-year-applicants/arts',
+      'Learn more about arts portfolio submissions'
+  ); ?>
+
+
+<?php echo end_item_iconItem(); ?>
 
 <?php echo end_sec_regularContent(); ?>
+
+
 
 <!-- Related Topics -->
 <?php echo relatedTopics(); ?>

@@ -46,7 +46,7 @@ $page_classes = "academics-cy academics";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg',
+    ['bg-image-url' => $admission_img_path.'explore/academics/110619_160over90_Vassar_6232.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -81,7 +81,7 @@ $page_classes = "academics-cy academics";
 <?php echo masthead_interiorPage(
   'Learning is Innovation',
   'Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.',
-  'https://vassartest.chuckyatsuk.com/img/explore/0084-19-05-ja-kumar-class-vassar-253.jpg');
+  $admission_img_path.'explore/0084-19-05-ja-kumar-class-vassar-253.jpg');
 ?>
 
 <!-- end inner page masthead -->
@@ -90,7 +90,7 @@ $page_classes = "academics-cy academics";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_7630.jpg',
+    $admission_img_path.'explore/academics/110619_160over90_Vassar_7630.jpg',
     'image-is-first theme-charcoal quad-pattern has-bg',
     'mw-100'
 ); ?>
@@ -122,7 +122,7 @@ $page_classes = "academics-cy academics";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/explore/academics/cel/0056_14_07_BL_7266.jpg',
+    $admission_img_path.'explore/academics/cel/0056_14_07_BL_7266.jpg',
     'image-is-first theme-charcoal quad-pattern has-bg',
     'mw-100'
 ); ?>
@@ -137,7 +137,7 @@ $page_classes = "academics-cy academics";
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/explore/academics/lockhart-anna-peru-abroad-1809-alo-8.jpg',
+    $admission_img_path.'explore/academics/lockhart-anna-peru-abroad-1809-alo-8.jpg',
     'theme-burgundy quad-pattern has-bg',
     'mw-100'
 ); ?>

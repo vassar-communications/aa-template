@@ -7,7 +7,7 @@ include( $project_paths['main_project_root'] . '/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "Page";
+$page_title = "Home";
 $page_tagline = "";
 $page_classes = "class1 class2";
 

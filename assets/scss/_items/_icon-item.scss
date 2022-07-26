@@ -1,10 +1,46 @@
-
+.icon-items-list {
+  margin-bottom: 1.4rem;
+}
 .icon-item {
-  --regularContent-font-size: var(--font-size-small);
+  padding: 1.4rem 0;
+
+  .vertically-center-icon & {
+    align-items: center;
+  }
+
+  .icon-container {
+      width: 4.2rem;
+      height: 3rem;
+  }
+
+  .icon-item__text {
+      width: 100%;
+  }
+
+  p {
+    --regularContent-lineHeight: 1.26;
+
+    &:only-child,
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+
+  &.small-font {
+    --regularContent-font-size: var(--font-size-small);
+  }
+
+  &:not(:last-child) {
+    border-bottom: 1px solid var(--icon-item-border-color, #aaa);
+  }
+
+  &.theme-white-border {
+    --icon-item-border-color: #fff;
+  }
 
   .the-icon {
     color: var(--icon-color, $gray-600);
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 
   &.icon-lg {
@@ -15,7 +51,7 @@
 
   &.icon-on-left {
     display: flex;
-    gap: 1.6rem;
+    gap: 1rem;
   }
 
   &.icon-red {
@@ -33,7 +69,6 @@
     .the-icon {
       display: inline-block;
       padding: 0.6rem;
-      font-size: 2rem;
       border-radius: 0.2rem;
     }
   }

@@ -34,6 +34,11 @@
 .section-title {
   color: var(--section-title-color, --color-vassar-charcoal);
   font-size: calc(1.465rem + 2.58vw);
+
+  .section-large-title & {
+    @include font-size(4.5rem);
+  }
+
   font-weight: 100;
   text-align: center;
 
@@ -43,6 +48,11 @@
   position: relative;
   text-align: center;
   margin-bottom: var(--section-title-space, 6rem);
+
+  max-width: 30ch;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.1;
 
   &:after {
     position: absolute;
@@ -54,16 +64,37 @@
   }
 
   &.animate-when-content-appears {
+    @include setup-animation-fade-in();
+
     &:after {
-      @include setup-animate-stretch-in();
+      @include setup-animation-stretch-in();
     }
 
     &.content-appeared {
+      @include animation-fade-in();
       &:after {
-        @include animate-stretch-in();
+        @include animation-stretch-in();
       }
     }
   }
+}
+
+
+//  While working on Quick Facts, I realized that the structure of
+//  the page requires sections that are more clearly sub-parts of
+//  other sections. Example I'm looking at right now is the Community
+//  page: there's an Our Campus section, and then a subsection about
+//  the weather. Both require a large, immersive treatment, but Weather
+//  is a sub-section of Our Campus; cramming both into a single row is
+//  not going to be good. So long story short: I'm adding an option to
+//  display section titles as h3s.
+//
+//  This thing launches in fifteen days. Don't @ me.
+
+h3.section-title {
+  @include font-size(2.3rem);
+  font-weight: bold;
+  font-family: var(--sansSerif);
 }
 
 .section-content {
@@ -94,3 +125,29 @@
   }
 }
 
+.wide-intro {
+  .section-intro {
+    --section-intro-width: 56rem;
+  }
+}
+
+
+.section--edge-to-edge {
+  padding-left: 0;
+  padding-right: 0;
+
+  .section-content {
+    max-width: none;
+  }
+
+  @include break(md) {
+    &-md {
+      padding-left: 0;
+      padding-right: 0;
+
+      .section-content {
+        max-width: none;
+      }
+    }
+  }
+}

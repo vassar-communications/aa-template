@@ -46,8 +46,11 @@
       grid-template-columns: repeat(2, 1fr); }
 
     .full-bleed-image-container {
-      height: max(100%, 100vh);
-      position: absolute;
+      // height: max(100%, 100vh);
+      height: 100vh;
+      // position: absolute;
+      position: sticky;
+      top: 0;
 
       img {
         position: absolute;
@@ -72,7 +75,7 @@
   @media (min-width: 1024px) {
 
     .col--text {
-      height: 100vh;
+      min-height: 100vh;
     }
   }
 
@@ -91,7 +94,7 @@
   @media (min-width: 1024px) {
 
     .col--text {
-    height: 100vh;
+    min-height: 100vh;
     }
   }
 }
@@ -100,5 +103,3 @@
 .section.section--full-bleed-image-column .section--full-bleed-image-column__content {
   max-width: 90ch;
 }
-
-

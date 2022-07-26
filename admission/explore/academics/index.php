@@ -4,12 +4,12 @@ include($project_paths['main_project_root'].'/functions.php');
  ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Explore Academics";
-$page_classes = "";
+$page_info = '{"page_title":"Explore Academics","feature_image":"https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg"}';
+/* === */
+$page_info = json_decode($page_info, true);
 
-/*  ---------------------- */
 
 ?>
 
@@ -22,12 +22,12 @@ $page_classes = "";
 
 
 <?php echo sec_fixedCenteredTitle_masthead_vid(
-    '<b class="slide-from-left">Explore</b>
+    '<b class="slide-from-left supertitle">Explore</b>
    <b class="slide-from-right">Academics</b>',
     '726089539?h=002128ec09',
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg',
+    ['bg-image-url' => $page_info['feature_image'],
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -39,15 +39,7 @@ $page_classes = "";
 
 <?php echo end_sec_fixedCenteredTitle_masthead_vid(); ?>
 
-
-
-
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-explore-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo interior_page_nav() ?>
 
 
 
@@ -58,75 +50,87 @@ $page_classes = "";
 <?php echo masthead_interiorPage(
     'Learning is Innovation',
     'Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.',
-    'https://vassartest.chuckyatsuk.com/img/explore/0084-19-05-ja-kumar-class-vassar-253.jpg');
+    $admission_img_path.'explore/0084-19-05-ja-kumar-class-vassar-253.jpg');
 ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_7630.jpg',
+    'Intensives',
+    $admission_img_path.'explore/academics/110619_160over90_Vassar_7630.jpg',
     'image-is-first theme-charcoal bg-dark quad-pattern has-bg',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Intensives</h2>
-    <span class="tagline  mb-2">Dig Deep to Explore Your Interests</span>
+    <p class="tagline">Dig Deep to Explore Your Interests</p>
     <p>Vassar’s Intensives take the individualized classroom experience further by creating even more opportunities for student-driven exploration and mentored research. Intensives are designed to promote forward-thinking, non-traditional class experiences that catalyze deeper learning.</p>
 
-    <a href="/admission/explore/academics/" class="px-0 btn btn-link arrow">Learn more about Vassar Intensives</a>
+    <?php echo cta_link(
+      '/admission/explore/academics/',
+      'Learn more about Vassar Intensives'
+    ); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/explore/academics/082-21-07-kr-caad-vassar-0065.jpg',
-    'theme-charcoal bg-dark',
+    'Research',
+    $admission_img_path.'explore/academics/082-21-07-kr-caad-vassar-0065.jpg',
+    'theme-burgundy',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Research</h2>
-    <span class="tagline  mb-2">Develop Knowledge First-Hand</span>
+    <p class="tagline">Develop Knowledge First-Hand</p>
     <p>At Vassar, you can engage in research and make contributions to your field as early as your first year. A multitude of opportunities are available, including research-based classes, paid positions in faculty laboratories, and on-campus intensive summer research programs.</p>
 
-    <a href="/admission/explore/academics/" class="px-0 btn btn-link arrow">Learn more about Research at Vassar</a>
+    <?php echo cta_link(
+      '/admission/explore/academics/',
+      'Learn more about Research at Vassar'
+    ); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/explore/academics/cel/0056_14_07_BL_7266.jpg',
-    'image-is-first theme-charcoal bg-dark',
+    'Community-Engaged Learning',
+    $admission_img_path.'explore/academics/cel/0056_14_07_BL_7266.jpg',
+    'image-is-first theme-extralightgray',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Community-Engaged Learning</h2>
-    <span class="tagline  mb-2">Gain Professional Experience While Investing In Our Community</span>
+    <p class="tagline">Gain Professional Experience While Investing In Our Community</p>
     <p>Real-world experience can take your education to the next level, so it’s no surprise that 90% of Vassar students choose to take on an internship. Through Community-Engaged Learning (CEL), you can combine your academic pursuits with hands-on work in the field while earning academic credit. </p>
 
-    <a href="/admission/explore/academics/" class="px-0 btn btn-link arrow">Learn more about CEL</a>
+    <?php echo cta_link(
+      '/admission/explore/academics/',
+      'Learn more about CEL'
+    ); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/explore/academics/lockhart-anna-peru-abroad-1809-alo-8.jpg',
+    'Study Abroad',
+    $admission_img_path.'explore/academics/lockhart-anna-peru-abroad-1809-alo-8.jpg',
     'theme-charcoal bg-dark',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Study Abroad</h2>
-    <span class="tagline  mb-2">Broaden Your Horizons</span>
-    <p>Expand your global perspective and explore <a href="test">Link on charcoal</a> new ways of thinking by spending a semester or year abroad. Vassar offers more than 130 study abroad options around the world, so no matter your interests, you can find a program that will help you reach your goals.</p>
+    <p class="tagline">Broaden Your Horizons</p>
+    <p>Expand your global perspective and explore new ways of thinking by spending a semester or year abroad. Vassar offers more than 130 study abroad options around the world, so no matter your interests, you can find a program that will help you reach your goals.</p>
 
-    <a href="/admission/explore/academics/" class="px-0 btn btn-link arrow">Learn more about Study Abroad</a>
+    <?php echo cta_link(
+      '/admission/explore/academics/',
+      'Learn more about Study Abroad'
+    ); ?>
+
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_wideContent(
     'Your Choices <span class="text-primary">=</span> Your Education',
-    '<p class="h2">Vassar’s curriculum emphasizes a multidisciplinary approach to intellectual inquiry. With more than 1,000 courses to choose from and an average class size of 17, Vassar offers a customizable curriculum to satisfy any curiosity.</p>',
+    '<p class="intro-text">Vassar’s curriculum emphasizes a multidisciplinary approach to intellectual inquiry. With more than 1,000 courses to choose from and an average class size of 17, Vassar offers a customizable curriculum to satisfy any curiosity.</p>',
     'theme-cream pb-1 hidemark',
     'mw-3 pb-5'
 ); ?>
@@ -431,21 +435,13 @@ $page_classes = "";
     'More in This Section',
     3,
     null,
-    'related-topics-section theme-burgundy',
+    'relatedtopics theme-burgundy',
     ''
 ); ?>
 
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-campus.php');?>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-student-life.php');?>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('related-topics-column d-flex'); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-outcomes.php');?>
-<?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 

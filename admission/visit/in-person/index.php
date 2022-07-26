@@ -5,39 +5,44 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "In-Person Visits";
-$page_classes = "";
+$page_info = '{
+  "page_title": "In-Person Visits",
+  "feature_image": "/admission/assets/images/visit/in-person/0073-21-06-kr-summer-vassar-0179.jpg"
+}';
 
-/*  ---------------------- */
+/* === */
+
+$page_info = json_decode($page_info, true);
 
 ?>
 
-<?php echo site_header(); ?>
+<?php
+  echo site_header();
+?>
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo page_partialmasthead('https://vassartest.chuckyatsuk.com/img/visit/in-person/0073-21-06-kr-summer-vassar-0179.jpg'); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-visit-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-visit-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
-
+<?php echo interior_page_nav() ?>
 
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg',
+     '/admission/assets/images/visit/0113-19-09-kr-families-weekend-vassar-1616.jpg',
     'image-is-first theme-cream',
     ''
-); ?>
+);
+
+// former image: visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg
+// Admission said they don't want to use this; there's a student
+// in there who they don't want to feature
+
+?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">We are excited to welcome registered visitors to our campus! To be sure that your time on campus is safe and enjoyable, please carefully review the information on this page prior to your Vassar visit.</p>
 
@@ -45,17 +50,6 @@ $page_classes = "";
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<?php echo sec_wordByWord_fixed(
-    null,
-    'animate-when-content-appears space-around-image',
-    null
-); ?>
-
-<p>“Vassar’s more than 100 buildings showcase various architectural styles, from the Gothic Thompson Memorial Library to César Pelli’s Lehman Loeb Art Center.”</p>
-<div class="quote-attribution"><em>Architectural Digest</em>, “50 Most Beautiful Campuses”</div>
-<?php echo end_sec_wordByWord_fixed(); ?>
 
 
 <?php echo sec_regularContent(
@@ -82,11 +76,21 @@ $page_classes = "";
 <?php echo end_sec_regularContent(); ?>
 
 
+<?php echo sec_wordByWord_fixed(
+    null,
+    'animate-when-content-appears space-around-image',
+    null
+); ?>
+
+<p>“Vassar’s more than 100 buildings showcase various architectural styles, from the Gothic Thompson Memorial Library to César Pelli’s Lehman Loeb Art Center.”</p>
+<div class="quote-attribution"><em>Architectural Digest</em>, “50 Most Beautiful Campuses”</div>
+<?php echo end_sec_wordByWord_fixed(); ?>
+
 
 <!-- Campus Access and Pre-Registration -->
 <?php echo sec_fullBleedImageColumn(
     'Campus Access and Pre-Registration',
-    'https://vassartest.chuckyatsuk.com/img/visit/in-person/0069-19-05-kr-spring-vassar-4221.jpeg',
+    $admission_img_path.'visit/in-person/0069-19-05-kr-spring-vassar-4221.jpeg',
     'image-is-first theme-charcoal bg-dark',
     'mw-100'
 ); ?>

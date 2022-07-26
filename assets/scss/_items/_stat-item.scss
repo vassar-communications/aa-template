@@ -1,93 +1,36 @@
-
-.stat-value {
-    font-size: 10vw;
-    font-weight: 100;
-}
-
-
-
-/*
-
-.stat-grid {
-  gap: 2vw;
-}
-.grid-sizer {
-  width: 33%;
-  height: 8rem;
-
-}
-
-
-
+// regular stat items
 
 
 .stat-item {
-//  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-//  padding: 3vw;
-  width: 30%;
-  gap: 1.4rem;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 0.6rem;
+  text-align: center;
 
-//  width: 25%;
-
-//  height: 10em;
-
-//  margin: 1%;
-
-  .the-icon {
-    font-size: 4em;
+  .theme-burgundy &,
+  .theme-dark-burgundy &,
+  .theme-charcoal &,
+  .theme-darkcoal & {
+    color: var(--section-bg-color, #333);
   }
+}
 
-//  background: #000;
+.stat-value {
+  font-family: var(--bs-font-sans-serif);
+  @include font-size(8rem);
+  font-variation-settings: "wght" 200;
+  line-height: 1;
 
-  .stat-label {
-    font-size: 1.1rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    margin-top: 0.4rem;
+  .stat-unit {
+    font-size: 70%;
+    color: #888;
   }
+}
 
-  .stat-icon {
-//    display: none;
-  }
-
-  .stat-content b {
-    display: block;
-    line-height: 1;
-  }
-
+// Homepage
+.fancy-stats-container {
   .stat-value {
-    @include font-size(6.4rem);
-    font-variation-settings: "wght" 200;
+      font-size: 10vw;
+      font-weight: 100;
   }
-
-  &.fs-1 .stat-value {
-    @include font-size(4rem);
-  }
-  &.fs-2 .stat-value {
-    @include font-size(4.4rem);
-  }
-  &.fs-3 .stat-value {
-    @include font-size(4.8rem);
-  }
-  &.fs-4 .stat-value {
-    @include font-size(5.2rem);
-  }
-  &.fs-5 .stat-value {
-    @include font-size(6rem);
-  }
-  &.fs-6 .stat-value {
-    @include font-size(7rem);
-  }
-
-
 }
-
-.w-66 {
-  width: 60%;
-}
-
-*/

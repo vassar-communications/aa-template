@@ -5,12 +5,26 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
+$page_info = '{
+  "page_title": "Visit Campus",
+  "page_classes": "visithome",
+  "feature_image": "/admission/assets/images/visit/0069-19-05-kr-spring-vassar-4632.jpg"
+}';
 
-$page_title = "Visit Campus";
-$page_classes = "visithome";
+/* === */
 
-/*  ---------------------- */
+$page_info = json_decode($page_info, true);
+
+/*
+$page_info = [
+  'page_title' => 'Visit Campus',
+  'page_classes' => 'visithome',
+  'feature_image' => $admission_img_path.'visit/0069-19-05-kr-spring-vassar-4632.jpg'
+];
+
+
+ */
 
 ?>
 
@@ -27,8 +41,8 @@ $page_classes = "visithome";
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/visit/0069-19-05-kr-spring-vassar-4632.jpg',
-        'bg-image-alt' => 'alt text',
+    ['bg-image-url' => $page_info['feature_image'],
+        'bg-image-alt' => 'Aerial view of the residential quad on Vassar Campus',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
@@ -39,53 +53,49 @@ $page_classes = "visithome";
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
-
-
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/nav-elements/admission-visit-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo interior_page_nav() ?>
 
 <?php /*  PAGE CONTENT === */ ?>
 
 
 <?php echo masthead_interiorPage(
-    'This text must change',
-    'This is only placeholder text. We need to get an intro sentence for this section.',
-    'https://vassartest.chuckyatsuk.com/img/0073-21-06-kr-summer-vassar-0165.jpg');
+    'Visiting Campus',
+    'All Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life.',
+    $admission_img_path.'visit/0070-19-05-kr-spring-library-vassar-6094.jpg');
 ?>
 
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/visit/0042-21-06-kr-reception-vassar-0130.jpg',
-    'image-is-first theme-charcoal bg-dark',
+    'Visit the Vassar Campus In Person',
+    $admission_img_path.'visit/0042-21-06-kr-reception-vassar-0130.jpg',
+    'image-is-first theme-charcoal bg-dark section-large-title',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Visit the Vassar Campus In Person </h2>
     <p>Get to know our vibrant community first-hand and learn more about the Vassar experience.</p>
 
-    <a href="/admission/visit/in-person/" class="px-0 btn btn-link arrow">Learn more and register for an in-person visit</a>
+    <?php echo cta_link(
+      '/admission/visit/in-person/',
+      'Learn more and register for an in-person visit'
+    ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/visit/0191-19-10-ali-library-drone-vassar-vb-2015.jpg',
+    'Explore Our Virtual Opportunities',
+    $admission_img_path.'visit/0191-19-10-ali-library-drone-vassar-vb-2015.jpg',
     'theme-cream',
     ''
 ); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5 border-animate">Explore Our Virtual Opportunities</h2>
+<div class="animate-when-content-appears animation-slide-up section-large-title">
     <p>Vassar offers a wide array of opportunities to virtually explore the Vassar campus and to connect with our community. </p>
 
-    <a href="/admission/visit/virtual-programs/" class="px-0 btn btn-link arrow">Explore virtual programs</a>
+    <?php echo cta_link(
+      '/admission/visit/virtual-programs/',
+      'Explore virtual programs'
+    ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -103,7 +113,7 @@ $page_classes = "visithome";
 <?php echo sec_hasColumns(
     'Need more information about visiting?',
     2,
-    'Follow the links below or email admission@vassar.edu, or ask a current Vassar student at askastudent@vassar.edu!',
+    '<p>Follow the links below or email <a href="mailto:admission@vassar.edu">admission@vassar.edu</a>, or ask a current Vassar student at <a href="mailto:askastudent@vassar.edu">askastudent@vassar.edu</a>!</p>',
     'theme-burgundy animate-when-content-appears animation-slide-up',
     ''
 ); ?>
@@ -113,8 +123,8 @@ $page_classes = "visithome";
 <?php echo item_cardWithText(
     'Group Visit Info',
     '/admission/visit/group-visits/',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/visit/0055_15_04_KR_0110.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    ['url' => $admission_img_path.'visit/0055_15_04_KR_0110.jpg', 'alt' => 'Side view of a panel discussion and audience' ],
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
 <p>Want to schedule a group visit? Interactive virtual visits can be scheduled.</p>
@@ -130,8 +140,8 @@ $page_classes = "visithome";
 <?php echo item_cardWithText(
     'Register',
     'https://apply.vassar.edu/portal/campusvisitcalendar',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/visit/Vassar_Campus_20190423_KR_9440.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    ['url' => $admission_img_path.'visit/Vassar_Campus_20190423_KR_9440.jpg', 'alt' => 'Circle of students in conversation seated on Vassar campus lawn' ],
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
 <p>Register for all on-campus tours and virtual events</p>
@@ -154,8 +164,8 @@ $page_classes = "visithome";
     'text-center',
     ''
 ); ?>
-<p>Join our mailing list to stay up to date with all things Vassar and get access to special events throughout the year.</p>
-<a href="https://apply.vassar.edu/register/requestinfo" class="btn btn-light btn-lg">Join the List</a>
+<p class="intro-text">Join our mailing list to stay up to date with all things Vassar and get access to special events throughout the year.</p>
+<a href="https://apply.vassar.edu/register/requestinfo" class="btn btn-light btn-lg mt-4">Join the List</a>
 
 
 <?php echo end_sec_regularContent(); ?>

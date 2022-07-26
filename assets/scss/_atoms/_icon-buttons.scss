@@ -38,6 +38,13 @@
 .btn.arrow::after {
   content: "→";
   margin-left: .75rem;
+  transition: 0.4s all ease;
+}
+.btn.arrow:hover,
+.btn.arrow:focus {
+  &:after {
+    box-shadow: 0 0 0.4em var(--arrow-glow, var(--section-link-hover-color, #fff));
+  }
 }
 
 .btn-link {
@@ -65,10 +72,11 @@
 
 
 
-.btn-link.arrow:hover::after, .carousel-cell:hover .arrow::after
-
-{
-  background-color: var(--section-link-color, var(--color-vassar-charcoal));
+.btn-link.arrow:hover:after,
+.carousel-cell:hover .arrow:after,
+.btn-link.arrow:focus:after,
+.carousel-cell:focus .arrow:after {
+  background-color: var(--section-link-hover-color, var(--color-vassar-charcoal));
   color: var(--section-bg-color, var(--color-vassar-cream));
-  border-color:  var(--section-link-color, var(--color-vassar-charcoal));
+  border-color:  var(--section-link-hover-color, var(--color-vassar-charcoal));
 }

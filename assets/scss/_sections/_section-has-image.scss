@@ -39,6 +39,12 @@
   }
 }
 
+.section-bg-image-top {
+  .section-bg-image {
+    object-position: top;
+  }
+}
+
 .section.has-image:not(.show-image-then-content, .sec-fixedCenteredTitle, .sec-fixedCenteredTitleMasthead) {
   .section-bg-image {
     @include bg-image-faded();

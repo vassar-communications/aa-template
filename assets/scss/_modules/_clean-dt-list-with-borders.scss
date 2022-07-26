@@ -1,0 +1,12 @@
+/*
+  Apply this class to a dl element.
+ */
+.clean-dt-list-with-borders {
+  font-size: 1.3rem;
+
+  dt:not(:first-child) {
+    border-top: 1px solid #aaa;
+    margin-top: 1rem;
+    padding-top: 1rem;
+  }
+}
