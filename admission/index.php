@@ -259,6 +259,7 @@ echo sec_fixedCenteredTitle(
         null,
         'AqDKltbh7h4',
         'youtube',
+        '',
         ['url' => '/admission/assets/images/admission-home/fav-places/110619_160over90_Vassar_5483.jpg',
             'alt' => 'asdfasdf'
         ],
@@ -269,12 +270,14 @@ echo sec_fixedCenteredTitle(
 
 
 
+
     <?php
     echo item_imageCard_videoModal(
         get_icon('vr-cardboard').'Shakespeare Garden',
         null,
         'pfJIwU-Kifg',
         'youtube',
+        '',
         ['url' => '/admission/assets/images/admission-home/fav-places/0056-21-06-kr-campus-vassar-0006-copy.jpg',
             'alt' => 'asdfasdf'
         ],
@@ -296,6 +299,7 @@ echo sec_fixedCenteredTitle(
         null,
         'lQ0Jb9u6zTY',
         'youtube',
+        '',
         ['url' => '/admission/assets/images/admission-home/fav-places/0212-18-10-kr-library-fall-vassar-3819.jpg',
             'alt' => 'asdfasdf'
         ],
@@ -312,6 +316,7 @@ echo sec_fixedCenteredTitle(
         null,
         'l9N-gTmvMgo',
         'youtube',
+        '',
         ['url' => '/admission/assets/images/admission-home/fav-places/0195-19-11-kwe-gordon-vassar-1644.jpg',
             'alt' => 'asdfasdf'
         ],
@@ -333,6 +338,7 @@ echo sec_fixedCenteredTitle(
         null,
         'Wjxz5QMAw3c',
         'youtube',
+        '',
         ['url' => '/admission/assets/images/admission-home/fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg',
             'alt' => 'asdfasdf'
         ],
@@ -347,6 +353,7 @@ echo sec_fixedCenteredTitle(
         null,
         'e2Qz73uGyLs',
         'youtube',
+        '',
         ['url' => '/admission/assets/images/admission-home/fav-places/favplaces-v2.jpg',
             'alt' => 'Student speaking while being interviewed'
         ],
@@ -399,8 +406,9 @@ All Vassar students are surrounded by an environment designed to spark something
     echo item_imageCard_videoModal(
         get_icon('play').'All about food',
         null,
-        'embed/0jdM1pZJy64',
-        null,
+        '0jdM1pZJy64',
+        'youtube',
+        '',
         ['url' => '/admission/assets/images/admission-home/video/food-1.jpg',
             'alt' => 'Smiling student being interviewed, pizza topping choices superimposed on photo to indicate the wide variety of food choices being discussed'
         ],
@@ -414,7 +422,8 @@ All Vassar students are surrounded by an environment designed to spark something
         get_icon('play').'What’s Your Take?',
         null,
         '7fjWRvjKH5E',
-        null,
+        'youtube',
+        '',
         ['url' => '/admission/assets/images/admission-home/video/words-4.jpg',
             'alt' => 'Student being interviewed'
         ],
