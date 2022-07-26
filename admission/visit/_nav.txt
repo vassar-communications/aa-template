@@ -1,3 +1,5 @@
 in-person
 virtual-programs
 group-visits
+class-visits
+on-demand
