@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/admission/visit/on-demand/alt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/libraries/modal-video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/_libraries/_modal-video.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/visit/on-demand/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/on-demand/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_temp/_cytemp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_temp/_cytemp.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/sections/content_sections/fixedCenteredTitle-masthead_vid.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/content_sections/fixedCenteredTitle-masthead_vid.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/sections/universal_sections/siteHeader_video.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/universal_sections/siteHeader_video.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_libraries/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_libraries/_all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/template-parts/header.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/template-parts/header.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -121,7 +133,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/admission/visit/in-person/index.php</url>
-          <line>72</line>
+          <line>67</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">

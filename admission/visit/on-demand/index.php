@@ -203,19 +203,23 @@ echo item_imageCard_videoModal(
 
 <?php echo item_col(); ?>
 
-<?php
-echo item_imageCard_videoModal(
-    get_icon('play').'“Unclouded Day” performed by the Vassar College Choir and Friends',
-    null,
-    'https://player.vimeo.com/video/484138020?api=1?badge=0?autoplay=1',
-    null,
-    ['url' => $admission_img_path.'admission-home/video/food-1.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
+<button href="https://github.com/appleple/modal-video" class="btn btn-red js-video-btn" data-video-id='L61p2uyiMSo'>Open Video</button>
+<script>
+    window.addEventListener('DOMContentLoaded',function(){
+        new ModalVideo(".js-video-btn");
+    });
+</script>
 
-?>
+<h3>Vimeo</h3>
+<button href="https://github.com/appleple/modal-video" class="btn btn-red js-video-vimeo-btn" data-video-id='336257407'>Open Vimeo</button>
+<script>
+    window.addEventListener('DOMContentLoaded',function(){
+        new ModalVideo(".js-video-vimeo-btn",{channel:'vimeo'});
+    });
+</script>
+
+
+
 
 <?php echo end_item_col(); ?>
 
@@ -254,9 +258,5 @@ echo item_imageCard_videoModal(
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-in-person.php');?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-group-visits.php');?>
 <?php echo end_sec_relatedTopics(); ?>
-
+x
 <?php echo site_footer(); ?>
-
-<?php
-echo item_modal_standardVideo();
-?>

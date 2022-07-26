@@ -448,49 +448,6 @@ $('#play_button').on('click', function() {
 
 
 
-/*	Pause Videos when modal closes Needs reworking
-	=================== */
-
-
-$(document).ready(function() {
-
-// Gets the video src from the data-src on each button
-
-    var $videoSrc;
-    $('.video-btn').click(function() {
-        $videoSrc = $(this).data( "src" );
-    });
-    console.log($videoSrc);
-
-
-
-
-// when the modal is opened autoplay it
-    $('#videoModal').on('shown.bs.modal', function (e) {
-
-// set the video src to autoplay
-        $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
-
-    })
-
-
-// stop playing the youtube video when I close the modal
-    $('#videoModal').on('hide.bs.modal', function (e) {
-        // stop video
-        $("#video").attr('src',$videoSrc);
-    })
-
-// document ready
-});
-
-
-
-$('body').on('hidden.bs.modal', '.modal', function () {
-    $('video').trigger('pause');
-});
-
-
-
 /*	add active class to current page
 	=================== */
 
