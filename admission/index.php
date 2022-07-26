@@ -346,7 +346,7 @@ echo sec_fixedCenteredTitle(
         'https://www.youtube.com/embed/e2Qz73uGyLs',
         null,
         ['url' => $admission_img_path.'admission-home/favplaces-v2.jpg',
-            'alt' => 'Student describing favorite place on campus'
+            'alt' => 'Student speaking while being interviewed'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -400,7 +400,7 @@ All Vassar students are surrounded by an environment designed to spark something
         'https://www.youtube.com/embed/0jdM1pZJy64',
         null,
         ['url' => $admission_img_path.'admission-home/video/food-1.jpg',
-            'alt' => 'asdfasdf'
+            'alt' => 'Smiling student being interviewed, pizza topping choices superimposed on photo to indicate the wide variety of food choices being discussed'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -409,12 +409,12 @@ All Vassar students are surrounded by an environment designed to spark something
 
     <?php
     echo item_imageCard_videoModal(
-        get_icon('play').'What\'s Your Take?',
+        get_icon('play').'What’s Your Take?',
         null,
         'https://www.youtube.com/embed/7fjWRvjKH5E',
         null,
         ['url' => $admission_img_path.'admission-home/video/words-4.jpg',
-            'alt' => 'asdfasdf'
+            'alt' => 'Student being interviewed'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -432,7 +432,7 @@ All Vassar students are surrounded by an environment designed to spark something
         'tiktok1-modal',
         null,
         ['url' => $admission_img_path.'admission-home/video/day-1.jpg',
-            'alt' => 'asdfasdf'
+            'alt' => 'Student working on a laptop in front of a window'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -444,7 +444,7 @@ All Vassar students are surrounded by an environment designed to spark something
         'tiktok2-modal',
         null,
         ['url' => $admission_img_path.'admission-home/video/dorm-a-1.jpg',
-            'alt' => 'asdfasdf'
+            'alt' => 'View of campus quad through a sunny window'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -456,7 +456,7 @@ All Vassar students are surrounded by an environment designed to spark something
         'tiktok3-modal',
         null,
         ['url' => $admission_img_path.'admission-home/video/dorm-b.jpg',
-            'alt' => 'asdfasdf'
+            'alt' => 'Decorative string lights on a dorm wall'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );

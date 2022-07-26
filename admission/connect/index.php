@@ -19,7 +19,24 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image']); ?>
+
+
+<?php echo sec_fixedCenteredTitle_masthead(
+    '<b class="slide-from-left">Connect</b>',
+    null,
+    'theme-verylightgray reveal-image',
+    'mw-4',
+    ['bg-image-url' => $page_info['feature_image'],
+        'bg-image-alt' => 'alt text',
+        'css' => '
+      --title-container-bg-beforeContent: rgba(0,0,0,0.4);
+      --section-bg-image-opacity: 0;
+      --bs-gap: 1rem;
+      ']
+); ?>
+<?php echo end_sec_fixedCenteredTitle_masthead(); ?>
+
+<?php // echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo interior_page_nav() ?>
 

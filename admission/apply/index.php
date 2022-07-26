@@ -24,12 +24,12 @@ $page_info = json_decode($page_info, true);
 <?php echo hamburger_navigation(); ?>
 
 <?php echo sec_fixedCenteredTitle_masthead(
-    'Apply',
+    '<b class="slide-from-left">Apply</b>',
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => $page_info['feature_image'],
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'Student studying on the lawn in front of Main Building',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;

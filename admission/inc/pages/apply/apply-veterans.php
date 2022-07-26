@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'For Veterans',
     '/admission/apply/veterans/',
-    ['url' => $admission_img_path.'apply/veterans/0071-19-05-ss2-posse-vassar-0645.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

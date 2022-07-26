@@ -42,7 +42,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Posse Veterans Program',
-    $admission_img_path.'apply/veterans/0071-19-05-ss2-posse-vassar-0645.jpg',
+    '/assets/images/placeholders/main-placeholder.jpg',
     'image-is-first theme-cream section-large-title',
     '',
     ['img_alt_text' => 'Graduates of the Posse Veterans Program standing in a row wearing graduation robes and caps.']
