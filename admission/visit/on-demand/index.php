@@ -75,7 +75,7 @@ echo item_imageCard_videoModal(
     '487429322',
     'vimeo',
     '',
-    ['url' => $admission_img_path.'placeholder.jpg',
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg',
         'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -95,7 +95,7 @@ echo item_imageCard_videoModal(
     '487430715',
     'vimeo',
     '',
-    ['url' => $admission_img_path.'placeholder.jpg',
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg',
         'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -118,7 +118,7 @@ echo item_imageCard_videoModal(
     '487422599',
     'vimeo',
     '',
-    ['url' => $admission_img_path.'placeholder.jpg',
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg',
         'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -145,7 +145,7 @@ echo item_imageCard_videoModal(
 <?php echo item_cardWithText(
     'Interdisciplinary Living and Learning',
     '#',
-    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -158,7 +158,7 @@ echo item_imageCard_videoModal(
 <?php echo item_cardWithText(
     'Faculty Mentored Research',
     '#',
-    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -171,7 +171,7 @@ echo item_imageCard_videoModal(
 <?php echo item_cardWithText(
     'Student Organizations',
     '#',
-    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -184,7 +184,7 @@ echo item_imageCard_videoModal(
 <?php echo item_cardWithText(
     'The Transitions Program',
     '#',
-    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -236,7 +236,7 @@ echo item_imageCard_videoModal(
     '484138020',
     'youtube',
     '',
-    ['url' => $admission_img_path.'placeholder.jpg',
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg',
         'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -256,7 +256,7 @@ echo item_imageCard_videoModal(
     '484138020',
     'youtube',
     '',
-    ['url' => $admission_img_path.'placeholder.jpg',
+    ['url' => 'placeholder',
         'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -267,7 +267,7 @@ echo item_imageCard_videoModal(
 <?php echo item_cardWithText(
     '“No Time” performed by the Vassar College Women’s Chorus',
     'xe6lj-ZM8aY',
-    ['url' => $admission_img_path.'placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
     '',
     ['hlevel' => 4]
 ); ?>
