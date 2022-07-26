@@ -43,14 +43,13 @@ $page_info = [
     ''
 ); ?>
 
-<button  class="btn btn-red js-video-btn" data-video-id='f8meSHKeTSg'>YT</button>
+<button href="#" class="btn btn-red js-video-btn" data-video-id='f8meSHKeTSg'>YT</button>
 
-<button class="btn btn-red js-video-btn" data-video-id='xe6lj-ZM8aY'>YT2</button>
+<button href="#"  class="btn btn-red js-video-btn" data-video-id='xe6lj-ZM8aY'>YT2</button>
 
-<button class="btn btn-red js-video-btn" data-video-id='487423155' data-channel="vimeo"> Vimeo</button>
+<button href="#" class="btn btn-red js-video-btn" data-video-id='487423155' data-channel="vimeo"> Vimeo</button>
 
-<h3>Vimeo 2</h3>
-<button  class="btn btn-red js-video-btn" data-video-id='487429322' data-channel="vimeo"> Vimeo 2</button>
+<button href="#"  class="btn btn-red js-video-btn" data-video-id='487429322' data-channel="vimeo"> Vimeo 2</button>
 
 
 <script>
