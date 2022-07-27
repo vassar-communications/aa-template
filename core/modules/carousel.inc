@@ -6,20 +6,21 @@ function carousel(
 ) {
 
     return <<<TMP
-<div class="featureImage-text-ticker media-carousel fade-nonselected full" id="gallery">
+<div class="featureImage-text-ticker media-carousel fade-nonselected full $classes" id="$id">
 TMP;
 }
 
 
 function carousel_item(
   $image,
-  $classes=null) {
+  $classes=null,
+  $alt_text=null) {
 
     return <<<TMP
     <div class="carousel-cell $classes">
       <div class="carousel-cell-content">
         <div class="image-container">
-          <img src="$image" />
+          <img src="$image" alt="$alt_text" />
         </div>
          <div class="figcaption pt-4">
 TMP;

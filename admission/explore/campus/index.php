@@ -47,13 +47,13 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Where Horizons Meet',
     'Vassar’s 1,000-acre campus blends timeless architecture with cutting-edge facilities.',
-    $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
+    '/admission/assets/images/explore/campus/Vassar_Campus_20190508_KR_5256.jpg');
 ?>
 
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    $placeholder_img_vertical,
+    '/admission/assets/images/explore/campus/Vassar_Postcards_20210904_KR_0122-copy.jpg',
     'image-is-first theme-dark-burgundy quad-pattern has-bg gold-icons',
     ''
 ); ?>
@@ -90,7 +90,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_wideContent(
     'Where Else But Vassar?',
-    '<p>Every Vassar student has their own cherished place on campus. Some of our favorite spaces include:</p>',
+    '<p class="intro-text">Every Vassar student has their own cherished place on campus. Some of our favorite spaces include:</p>',
     'theme-charcoal has-bg quad-pattern bg-dark section--edge-to-edge',
     ''
 ); ?>
@@ -101,23 +101,23 @@ $page_info = json_decode($page_info, true);
 
 
 
-<?php echo carousel(); ?>
-  <?php echo carousel_item("/assets/images/placeholders/main-placeholder.jpg"); ?>
+<?php echo carousel('mt-6'); ?>
+  <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0198-19-11-kwe-library-vassar-vb-5472.jpg", null, 'Students read in a spacious library reading room with a large stained-glass window behind them'); ?>
     <h3 class="h3">The Libraries</h3>
     <p>With more than 1 million volumes, the Vassar libraries hold one of the largest liberal arts collections in the country. In the Thompson Memorial Library, sit and study in the main reading room beneath the stunning Cornaro stained glass window as the sun streams through.</p>
   <?php echo end_carousel_item(); ?>
 
-  <?php echo carousel_item("/assets/images/placeholders/main-placeholder.jpg"); ?>
+  <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0114-19-05-ja-fllac-vassar-046.jpg", null, 'Students admire artwork in the Frances Lehman Loeb Art Center'); ?>
         <h3 class="h3">The Frances Lehman Loeb Art Center</h3>
       <p>Founded in 1864 as the Vassar College Art Gallery, the center is one of the only nationally known museums on a college campus. Today it is home to 21,000 works including by Rembrandt, Pablo Picasso, Georgia O’Keeffe, and Francis Bacon.</p>
     <?php echo end_carousel_item(); ?>
 
-    <?php echo carousel_item("/assets/images/placeholders/main-placeholder.jpg"); ?>
+    <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0085-21-08-kr-summer-vassar-0056.jpg", null, "A large, modern stone and glass building"); ?>
       <h3 class="h3">The Bridge for Laboratory Sciences</h3>
       <p>Designed as a bridge across the Fonteyn Kill wetland, our environmentally friendly, dynamic STEM facility comprises a network of interdisciplinary laboratories that connects the integrated sciences with humanities. The state-of-the-art building was the first in the U.S. to use so much of a special, innovative type of bird-friendly glass, with a coating visible to birds but almost invisible to humans.</p>
     <?php echo end_carousel_item(); ?>
 
-    <?php echo carousel_item("/assets/images/placeholders/main-placeholder.jpg"); ?>
+    <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0056-21-06-kr-campus-vassar-0006.jpg", null, "A stone campus path leading through a small park surrounded by trees"); ?>
           <h3 class="h3">The Shakespeare Garden</h3>
       <p>The second oldest garden in the United States, this tranquil space is appreciated by the Vassar community and visitors alike.</p>
     <?php echo end_carousel_item(); ?>
