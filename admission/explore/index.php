@@ -40,7 +40,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
-<?php echo interior_page_nav() ?>
+<?php echo interior_page_nav(); ?>
 
 <?php echo masthead_interiorPage(
     'Freedom to Discover',

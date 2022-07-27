@@ -46,7 +46,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Where Horizons Meet',
-    'Vassar’s 1,000-acre campus blends timeless architecture blended with cutting-edge facilities.',
+    'Vassar’s 1,000-acre campus blends timeless architecture with cutting-edge facilities.',
     $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
 ?>
 

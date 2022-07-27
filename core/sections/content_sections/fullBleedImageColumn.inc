@@ -25,8 +25,8 @@ function sec_fullBleedImageColumn(
 
   global $section_title;
 
-  $bob = get_extras_value('bob', $extras);
-
+ $bob = get_extras_value('bob', $extras);
+ 
   $title_classes = get_extras_value('title_classes', $extras);
   $title_level = get_extras_value('title_level', $extras);
 

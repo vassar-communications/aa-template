@@ -54,12 +54,16 @@ $page_info = [
 
 <?php echo end_sec_fixedCenteredTitle_masthead_vid(); ?>
 
-<?php echo interior_page_nav() ?>
+<?php echo interior_page_nav(); ?>
 
 <?php echo masthead_interiorPage(
     'Find Your Spark',
     'Vassar is a unique, interdisciplinary, dynamic community that celebrates the value of diversity among its students, faculty, and staff. Each individual person on our campus wonderfully enriches our learning, work, and living on campus.',
-    $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
+    $admission_img_path.'explore/student-life/0055-16-05-kr-spring-vassar-0094.jpg',
+    null,
+    null,
+    ['img_alt_text' => 'Students relax in a hammock on one of the quads']
+  );
 ?>
 
 
@@ -111,13 +115,10 @@ $page_info = [
 
 <?php echo sec_wideContent(
     null,
-    animated_statement('It’s Not Student Housing, It’s Home').'<p>Our nine historic residential houses are the heart of Vassar. You won’t find a Greek system on campus—a fact we celebrate—and 97% of students choose to live on campus.</p>',
-    'theme-charcoal bg-dark quad-pattern has-bg animate-when-content-appears mw-inner-4 px-0 text-center',
-    ''
+    animated_statement('It’s Not Student Housing, It’s Home').'<p class="intro-text">Our nine historic residential houses are the heart of Vassar. You won’t find a Greek system on campus—a fact we celebrate—and 97% of students choose to live on campus.</p>',
+    'theme-charcoal bg-dark quad-pattern has-bg animate-when-content-appears mw-inner-5 px-0 text-center',
+    'mt-6'
 ); ?>
-
-    <?php /* echo animated_statement('It’s Not Student Housing, It’s Home').'<p>Our nine historic residential houses are the heart of Vassar. You won’t find a Greek system on campus—a fact we celebrate—and 97% of students choose to live on campus.</p>'; */
-    ?>
 
   <?php echo carousel(); ?>
 
@@ -163,9 +164,10 @@ $page_info = [
 
 <?php echo sec_fullBleedImageColumn(
     'Galvanize Your Energy',
-    $admission_img_path.'placeholder.jpg',
+    '/admission/assets/images/explore/student-life/110619_160over90_Vassar_7499.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Athletes stand in a huddle']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Athletics have always been an important facet of the Vassar experience. In addition to our 27 Varsity sports, athletes of all levels have the opportunity to join an intramural team, take a yoga class, or use Vassar’s on-campus golf course. Among many offerings, club sports include Ultimate Frisbee, Quidditch, Figure Skating, and others.</p>
@@ -182,9 +184,10 @@ $page_info = [
 
 <?php echo sec_fullBleedImageColumn(
     'Part of a Bigger Whole',
-    $admission_img_path.'placeholder.jpg',
+    '/admission/assets/images/explore/student-life/Poughkeepsie_night_DSC_8551.jpg',
     '',
-    ''
+    '',
+    ['img_alt_text' => 'Downtown Poughkeepsie in early evening, with the Mid-Hudson Bridge illuminated in the background']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>The Vassar community engages with Poughkeepsie and the wider Hudson River Valley region on multiple levels. Students participate in community-based learning assignments and volunteering opportunities. Reciprocally, Vassar welcomes our neighbors to engage in campus events and explore our facilities.</p>
