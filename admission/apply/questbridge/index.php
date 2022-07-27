@@ -37,14 +37,18 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'QuestBridge',
-    '/assets/images/placeholders/main-placeholder.jpg',
+    '/admission/assets/images/apply/questbridge/Vassar_Campus_20190508_KR_5750.jpg',
     'image-is-first theme-cream section-large-title',
-    ''
+    '',
+    ['img_alt_text' => 'Students sit on the Thompson Memorial Library lawn in the late afternoon']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Vassar is a partner with QuestBridge, a program dedicated to providing higher educational opportunities to exceptional, high-achieving students from low-income communities to support their success.</p>
 
-    <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="px-0 btn btn-link arrow">Visit Questbridge.org</a>
+    <?php echo cta_link(
+      'https://www.questbridge.org/',
+      'Visit Questbridge.org'
+    ); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>

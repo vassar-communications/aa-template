@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title": "Class Visits",
-  "feature_image": "/assets/images/placeholders/placeholder-banner.png"
+  "feature_image": "/admission/assets/images/visit/class-visits/0073-19-05-ja-tugade-bridge-vassar-331.jpg"
 }';
 
 /* === */
@@ -31,7 +31,10 @@ $page_info = [
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image']); ?>
+<?php echo page_partialmasthead(
+  $page_info['feature_image'],
+  ['image_alt_text' => 'Students sit with a faculty member at a round table in the main hallway of the Bridge for Laboratory Sciences']
+); ?>
 
 <?php echo interior_page_nav() ?>
 
