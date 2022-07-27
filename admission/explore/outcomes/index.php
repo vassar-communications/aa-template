@@ -9,6 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title":"Explore Outcomes",
+  "page_navTitle":"Outcomes",
   "feature_image":"/admission/assets/images/explore/outcomes/Commencement_grads_11_JA_2.jpg"
 }';
 /* === */
@@ -45,8 +46,12 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Life After Vassar',
-    '<span class="placeholder">Vassar is committed to ensuring our students’ growth and progress from Day 1 to beyond graduation.</span>',
-    $placeholder_img_vertical);
+    'Yes, we know you have to think beyond graduation, beyond Vassar. And we are here to support you every step of the way.',
+    '/admission/assets/images/explore/outcomes/0233-17-04-kr-noyes-fair-vassar-0036.jpg',
+    null,
+    null,
+    ['img_alt_text' => 'A student holds up another student on their shoulders']
+  );
 ?>
 
 

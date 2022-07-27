@@ -362,7 +362,11 @@ else {
 
     $each_subsections_path = trim($each_subsections_path);
     $page_vars = get_page_vars($each_subsections_path);
-    $page_title = $page_vars['page_title'];
+
+    if(get_value_if_exists('page_navTitle', $page_vars, true))
+      $page_title = $page_vars['page_navTitle'];
+    else
+      $page_title = $page_vars['page_title'];
     $item_link = $page_vars['page_link'];
 
     $nav_markup .= nav_item($item_link, $page_title, $class);
@@ -437,8 +441,12 @@ function interior_page_nav() {
   '</div>';
 }
 
-function get_value_if_exists($key, $array) {
+function get_value_if_exists($key, $array, $boolean=false) {
+    if ($boolean)
+      $return_val = false;
+    else if (!$boolean)
+      $return_val = '';
     if (array_key_exists( $key, $array ) )
       return $array[$key];
-    else return '';
+    else return $return_val;
 }
