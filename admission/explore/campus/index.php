@@ -9,6 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title": "Explore Campus",
+  "page_navTitle": "Campus",
   "feature_image": "/admission/assets/images/explore/student-life/Vassar_Campus_20190508_KR_5256.jpg"
 }';
 /* === */
@@ -122,7 +123,7 @@ $page_info = json_decode($page_info, true);
       <p>The second oldest garden in the United States, this tranquil space is appreciated by the Vassar community and visitors alike.</p>
     <?php echo end_carousel_item(); ?>
 
-    <?php echo carousel_item("/assets/images/placeholders/main-placeholder.jpg"); ?>
+    <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0075_16_07_KR_0132.jpg", null, "A faculty member and student stand in the woods looking up at a tree trunk"); ?>
         <h3 class="h3">The Vassar Farm and Ecological Preserve</h3>
         <p>This 500-acre green space comprises a multitude of habitats including streams, wetlands, ponds, forest, and old fields populated by a diversity of flora and fauna. This is an invaluable resource for Vassar faculty and students conducting scientific research.</p>
     <?php echo end_carousel_item(); ?>

@@ -9,6 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title":"Explore Outcomes",
+  "page_navTitle":"Outcomes",
   "feature_image":"/admission/assets/images/explore/outcomes/Commencement_grads_11_JA_2.jpg"
 }';
 /* === */

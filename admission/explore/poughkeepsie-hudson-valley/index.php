@@ -9,6 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title":"Explore Local",
+  "page_navTitle":"Local",
   "feature_image":"/admission/assets/images/explore/hudson/Mid-Huson_Bridge_10_JGa.jpg"
 }';
 /* === */

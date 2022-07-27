@@ -8,6 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title": "Explore Student Life",
+  "page_navTitle": "Student Life",
   "feature_image": "explore/student-life/Vassar_Campus_20190508_KR_5256.jpg"
 }';
 
