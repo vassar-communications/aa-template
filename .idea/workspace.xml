@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/arts/0123_15_11_KR_0170.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/arts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/first-year-applicants/arts/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/interviews/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/first-year-applicants/interviews/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_temp/_cytemp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_temp/_cytemp.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/_nav.txt" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/_nav.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/_nav.txt" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/requirements/_nav.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/arts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/requirements/arts/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/index-prev.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/requirements/index-prev.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/requirements/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/first-year-applicants/interviews/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/requirements/interviews/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/how-to-apply/index-prev.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/how-to-apply/index-sidenav.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/how-to-apply/index-sidenav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/how-to-apply/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/how-to-apply/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/international/index-cy.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/international/index-cy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/international/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/international/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/inc/nav-elements/admission-apply-nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/nav-elements/admission-apply-nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/inc/pages/apply/apply-first-year.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/apply/apply-first-year.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sections/universal_sections/hamburgerNavigation.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/universal_sections/hamburgerNavigation.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

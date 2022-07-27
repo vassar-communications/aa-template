@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
   <p><strong>For our general admission requirements for all students, please review the following pages:</strong></p>
 
   <ul class="linked-list">
-    <li><a href="/admission/apply/first-year-applicants">First-Year Application Requirements</a></li>
+    <li><a href="/admission/apply/requirements">First-Year Application Requirements</a></li>
     <li><a href="/admission/apply/transfer">Transfer Application Requirements</a></li>
   </ul>
 

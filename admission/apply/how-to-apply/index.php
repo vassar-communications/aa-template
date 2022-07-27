@@ -34,7 +34,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 
-<p class="intro-text">Everything you need to know to apply [REVIEW THIS] An overview of all the ways to apply to Vassar.</p>
+<p class="intro-text placeholder">Everything you need to know to apply. An overview of all the ways to apply to Vassar.</p>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -55,7 +55,7 @@ $page_info = json_decode($page_info, true);
     </ul>
 
     <?php echo cta_link(
-      '/admission/apply/first-year-applicants',
+      '/admission/apply/requirements',
       'Learn more about First-Year Applications'
     ); ?>
 

@@ -51,7 +51,7 @@ $template = <<<TMP
                 <div id="admission-apply" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#admission-apply">
                     <div class="accordion-body h3 text-left px-0">
                         <div class="mb-2"> <a class="text-white" href="/admission/apply/how-to-apply/">How to Apply</a></div>
-                        <div class="mb-2"> <a class="text-white" href="/admission/apply/first-year-applicants/">First-Year Applicants</a></div>
+                        <div class="mb-2"> <a class="text-white" href="/admission/apply/requirements/">First-Year Applicants</a></div>
                         <div class="mb-2"> <a class="text-white" href="/admission/apply/transfer/">Transfer Applicants</a></div>
                         <div class="mb-2"> <a class="text-white" href="/admission/apply/international/">International Applicants</a></div>
                         <div class="mb-2"> <a class="text-white" href="/admission/apply/veterans/">For Veterans</a></div>
