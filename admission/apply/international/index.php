@@ -84,7 +84,7 @@ $page_info = json_decode($page_info, true);
                 <p>We accept the TOEFL iBT, the TOEFL PBT, and the TOEFL iBT Home Edition. We do NOT accept TOEFL Essentials.</p>
 
                 <p>Test results from the testing agency are strongly preferred, but PDFs of the TOEFL Test Taker Score Report (including your registration number and center information) will be accepted from your school counselor, if there is a financial hardship. However, test results from the testing agency will be required for enrollment.</p>
-
+                <p><a href="https://www.ets.org/toefl">Visit ets.org/toefl</a></p>
             </div>
         </div>
     </div>
@@ -99,6 +99,8 @@ $page_info = json_decode($page_info, true);
                 <p>We accept the IELTS Academic. We do NOT accept the IELTS General Training.</p>
 
                 <p>Test results from the testing agency are strongly preferred, but PDFs of the Test Report Form (including your centre number and candidate number) will be accepted from your school counselor, if there is a financial hardship. However, test results from the testing agency will be required for enrollment.</p>
+
+                <p><a href="https://www.ielts.org/">Visit ielts.org</a></p>
             </div>
         </div>
     </div>
@@ -112,6 +114,7 @@ $page_info = json_decode($page_info, true);
             <div class="accordion-body">
                 <p>We accept the Duolingo English Test (DET).</p>
                 <p>Test results MUST be submitted from Duolingo directly at the time of application.</p>
+                <p><a href="https://englishtest.duolingo.com/home">Visit englishtest.duolingo.com</a></p>
             </div>
         </div>
     </div>
