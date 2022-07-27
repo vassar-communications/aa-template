@@ -264,6 +264,18 @@ echo item_imageCard_videoModal(
 
 ?>
 
+
+<?php echo item_cardWithTextVideoModal(
+    '“No Time” performed by the Vassar College Women’s Chorus',
+    'xe6lj-ZM8aY',
+    'youtube',
+    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'The College Search During the Pandemic' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+hi hi hi
+<?php echo end_item_cardWithTextVideoModal(); ?>
+
 <?php echo item_cardWithText(
     '“No Time” performed by the Vassar College Women’s Chorus',
     'xe6lj-ZM8aY',

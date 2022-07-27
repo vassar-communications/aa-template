@@ -61,108 +61,212 @@ $page_info = [
     ''
 ); ?>
 
-<?php echo item_col(''); ?>
 
-<?php echo item_cardWithText(
+
+
+<?php echo item_cardWithTextVideoModal(
     'Late Communism in the Eastern Bloc: Can It Tell Us Anything Today?',
-    '#',
-    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    '445515683?h=866fe27c58&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/late-communism-in-the-eastern-bloc.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
 ); ?>
-
 <p>Paulina Bren, Adjunct Associate Professor of International Studies</p>
+<?php echo end_item_cardWithTextVideoModal(); ?>
 
-<?php echo end_item_cardWithText(
-    null,
-); ?>
 
-<?php echo end_item_col(); ?>
 
-<?php echo item_col(''); ?>
-
-<?php echo item_cardWithText(
+<?php echo item_cardWithTextVideoModal(
     'What Happens When You Don’t Recover from a Viral Infection?',
-    '#',
-    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    '449842635?h=be17268af3&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/what-happens-when-you-dont-recover-from-a-viral-infection.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
 ); ?>
-
 <p>David Esteban, Associate Professor of Biology and The Pauline Newman Director of Science, Technology, and Society</p>
-
-<?php echo end_item_cardWithText(
-    null,
-); ?>
-
-
-<?php echo end_item_col(); ?>
+<?php echo end_item_cardWithTextVideoModal(); ?>
 
 
 
-<?php echo item_col(''); ?>
-
-
-<?php echo item_cardWithText(
+<?php echo item_cardWithTextVideoModal(
     'The Impact of COVID-19 on the Lives of Women in Ethiopia’s Garment Industry',
-    '#',
-    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    '442151291?h=2dd7839911&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-impact-of-covid-19-on-the-lives-of-women-in-ethiopias-garment-industry.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
 ); ?>
-
 <p>Gisella A. Kagy, Assistant Professor of Economics</p>
+<?php echo end_item_cardWithTextVideoModal(); ?>
 
-<?php echo end_item_cardWithText(
-    null,
-); ?>
 
-<?php echo end_item_col(); ?>
 
-<?php echo item_col(''); ?>
-
-<?php echo item_cardWithText(
+<?php echo item_cardWithTextVideoModal(
     'Why Punish? A Conversation on Retributive Justice',
-    '#',
-    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    '441118703?h=ebb1426ff7&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/why-punish-a-conversation-on-retributive-justice.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
 ); ?>
-
 <p>Barry Lam, Associate Professor of Philosophy</p>
-<?php echo end_item_cardWithText(); ?>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col(''); ?>
+<?php echo end_item_cardWithTextVideoModal(); ?>
 
 
 
-<?php echo item_cardWithText(
+<?php echo item_cardWithTextVideoModal(
     'The White Disavowal of Racism: What It Means When the Central Park Dog-Walker, Amy Cooper, Says She’s Not a Racist',
-    '#',
-    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    '441195376?h=eda4b5bf7e&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-white-disavowal-of-racism.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
 ); ?>
 <p>Jonathon Kahn, Professor of Religion</p>
-<?php echo end_item_cardWithText(); ?>
-<?php echo end_item_col(); ?>
+<?php echo end_item_cardWithTextVideoModal(); ?>
 
 
 
-<?php echo item_col(''); ?>
-
-<?php echo item_cardWithText(
+<?php echo item_cardWithTextVideoModal(
     'Beethoven, the Eroica Symphony, and Prince Lobkowitz’s Musical Workshop',
-    '#',
-    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
-    'related-topics card--withParagraph card-has-cta-icon'
+    '442351752?h=4b3c1444b4&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-white-disavowal-of-racism.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
 ); ?>
 <p>Kathryn Libin, Associate Professor of Music</p>
-<?php echo end_item_cardWithText(); ?>
-<?php echo end_item_col(); ?>
+<?php echo end_item_cardWithTextVideoModal(); ?>
 
+
+
+
+<?php echo item_cardWithTextVideoModal(
+    'Decolonial Practice as Anti-Racist Labor: Reflections on Indigenous Minneapolis Through Poetry',
+    '447580446?h=65c49bb57f&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/decolonial-practice-as-anti-racist-labor-reflections-on-indigenous-minneapolis-through-poetry.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>Molly McGlennan, Associate Professor of English and Director of American Studies</p>
+<?php echo end_item_cardWithTextVideoModal(); ?>
+
+
+<?php echo item_cardWithTextVideoModal(
+    'Molecular Insights into Microbial Pathogens: Understanding the Inner Molecular Workings of Bacteria and Viruses',
+    '450228303?h=281c87d3ac&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/molecular-insights-into-microbial-pathogens.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>Krystle McLaughlin, Assistant Professor of Chemistry</p>
+<?php echo end_item_cardWithTextVideoModal(); ?>
+
+<?php echo item_cardWithTextVideoModal(
+    'Black Judges, Police Encounters, and the Administration of Justice',
+    '441114418?h=9bd31681e9&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/black-judges-police-encounters-and-the-administration-of-justice.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>Taneisha Means, The Class of 1951 Assistant Professor of Political Science</p>
+<?php echo end_item_cardWithTextVideoModal(); ?>
+
+<?php echo item_cardWithTextVideoModal(
+    'The Port of Santo Domingo: Climate Change and the Perils of Poverty Where the Caribbean Meets the Ozama',
+    '444515356?h=06e875d9fc&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-port-of-santo-domingo.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>Lisa Paravisini-Gebert, Randolph Distinguished Professor of Hispanic Studies and Director of Environmental Studies</p>
+<?php echo end_item_cardWithTextVideoModal(); ?>
+
+<?php echo item_cardWithTextVideoModal(
+    'The Most Beautiful of All Printed Books: William Morris’ Kelmscott Chaucer',
+    '444332664?h=c0bf8dfec7&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-most-beautiful-of-all-printed-books-william-morris-kelmscott-chaucer.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>Ron Patkus, Head of Special Collections and Adjunct Associate Professor of History on the Frederick Weyerhaeuser Chair</p>
+<?php echo end_item_cardWithTextVideoModal(); ?>
+
+<?php echo item_cardWithTextVideoModal(
+    'John Stuart Mill and the “Dismal Science”',
+    '444212755?h=6be113e12b&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/john-stuart-mill-and-the-dismal-science.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>Paul Ruud, Professor and Chair of Economics</p>
+<?php echo end_item_cardWithTextVideoModal(); ?>
+
+<?php echo item_cardWithTextVideoModal(
+    'Studying the Formation of Planets with the James Webb Space Telescope: A Look at the Beginning of Time',
+    '441121443?h=70679985bd&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/studying-formation-of-planets.jpg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>Colette Salyk, Assistant Professor of Astronomy</p>
+<?php echo end_item_cardWithTextVideoModal(); ?>
+
+<?php echo item_cardWithTextVideoModal(
+    'Coral Reefs in a Warming World: A Look at One of the Most Spectacular Ecosystems on Earth',
+    '441129632?h=9baaef4b44&
+',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/coral-reefs-in-a-warming-world.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>Jodi Schwarz, Associate Professor of Biology</p>
+<?php echo end_item_cardWithTextVideoModal(); ?>
+
+<?php echo item_cardWithTextVideoModal(
+    'What Can We Learn from a Tiny Worm? Three Short Tales of the Impact of Pesticides and Microplastics on Health',
+    '440702464?h=78fc2cae43&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/what-can-we-learn-from-a-tiny-worm.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>Kate Susman, Professor of Biology on The Jacob P. Giroud, Jr. Chair of Natural History and Associate Dean of The Faculty</p>
+<?php echo end_item_cardWithTextVideoModal(); ?>
+
+<?php echo item_cardWithTextVideoModal(
+    'Architecture Embodying Opposites: Freedom and Slavery in Southwest Nigeria (1880s–1910s)',
+    '442150603?h=1fa3c992cf&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/architecture-embodying-opposites.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>Adedoyin Teriba, Assistant Professor of Art and Urban Studies</p>
+<?php echo end_item_cardWithTextVideoModal(); ?>
+
+<?php echo item_cardWithTextVideoModal(
+    'The Climate Challenge: International Cooperation, China and Learning from the Field',
+    '446904283?h=bd1fa913d0&',
+    'vimeo',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-climate-challenge-international-cooperation-china-and-learning-from-the-field.jpeg', 'alt' => 'replacealttxt' ],
+    '',
+    ['hlevel' => 4]
+); ?>
+<p>Yu Zhou, Professor of Geography</p>
+<?php echo end_item_cardWithTextVideoModal(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
-
-
-
-
 
 <!-- Related Topics -->
 <?php echo relatedTopics(); ?>
@@ -172,3 +276,7 @@ $page_info = [
 <?php echo end_sec_relatedTopics(); ?>
 
 <?php echo site_footer(); ?>
+
+<?php
+echo item_modal_standardVideo();
+?>
