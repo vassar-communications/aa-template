@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title":"Interviews",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "feature_image":"/admission/assets/images/apply/interviews/0173_13_12_JMa_3487.jpg"
 }';
 /* === */
 $page_info = json_decode($page_info, true);
@@ -22,7 +22,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -33,7 +33,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h1 class="display-6">A conversation with one of our alumnae/i or student interviewers is an excellent way for you to learn more about Vassar and for us to learn more about you.</h1>
+    <h1 class="display-6">A conversation with one of our alumni or student interviewers is an excellent way for you to learn more about Vassar and for us to learn more about you.</h1>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -49,7 +49,8 @@ $page_info = json_decode($page_info, true);
 <?php echo item_col('equal'); ?>
 <p>We accept interview requests from current domestic first-year applicants. Interviews take place from October through early March and are informational rather than evaluative. Please note, not all students will be able to meet with an interviewer as we do not have the capacity to honor all requests. If you are not extended an interview, rest assured that it will not negatively impact your application to Vassar. Your interview request will only be processed once the Office of Admission confirms we have received your application.</p>
 
-<a href="#" class="fix btn btn-primary arrow">Register Now</a>
+<p><strong>The Interview Request Form for Fall 2023 applicants will become available in mid October</strong></p>
+<!--<a href="#" class="fix btn btn-primary arrow">Register Now</a> -->
 
 
 <?php echo end_item_col(); ?>

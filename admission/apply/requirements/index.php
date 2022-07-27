@@ -115,7 +115,7 @@ $page_info = json_decode($page_info, true);
   <p>Though not required, you may want to connect with a Vassar student or alum to learn more. These interviews are informational, not evaluative.</p>
 
   <?php echo cta_link(
-      '/admission/apply/first-year-applicants/interviews',
+      '/admission/apply/requirements/interviews',
       'Learn more about interviews at Vassar'
   ); ?>
 
@@ -130,7 +130,7 @@ $page_info = json_decode($page_info, true);
   <p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance</p>
 
   <?php echo cta_link(
-    '/admission/apply/first-year-applicants/arts',
+    '/admission/apply/requirements/arts',
       'Learn more about arts portfolio submissions'
   ); ?>
 

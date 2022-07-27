@@ -77,7 +77,7 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <p>Everything you need to know about applying to Vassar as an incoming first-year student.</p>
 
-    <a href="/admission/apply/first-year-applicants/" class="px-0 btn btn-link arrow">Learn more about applying as a first-year student</a>
+    <a href="/admission/apply/requirements/" class="px-0 btn btn-link arrow">Learn more about applying as a first-year student</a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
