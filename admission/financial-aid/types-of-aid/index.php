@@ -109,11 +109,10 @@ $page_info = json_decode($page_info, true);
             <div class="accordion-body">
                 <p>Outside funds can offer students greater financial flexibility by lessening employment obligations and/or reducing student loans.</p>
                 <p>Scholarship search resources include:</p>
-                <ul>
-                    <li><a href="https://www.fastweb.com/">FastWeb</a></li>
-                    <li><a href="https://bigfuture.collegeboard.org/pay-for-college/scholarship-search">BigFuture: The College Board’s Scholarship Search</a></li>
-                    <li><a href="http://www.collegescholarships.org/financial-aid/">CollegeScholarships.org</a></li>
-                </ul>
+               <p><a href="https://www.fastweb.com/">FastWeb</a><br/>
+                   <a href="https://bigfuture.collegeboard.org/pay-for-college/scholarship-search">BigFuture: The College Board’s Scholarship Search</a><br/>
+                    <a href="http://www.collegescholarships.org/financial-aid/">CollegeScholarships.org</a><br/>
+                </p>
             </div>
         </div>
     </div>
@@ -124,7 +123,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     'Loans and Lenders',
-    'theme-extralightgray',
+    'theme-verylightgray',
     '',
     ''
 ); ?>
@@ -132,7 +131,7 @@ $page_info = json_decode($page_info, true);
 <p>Vassar will eliminate or reduce loans in the aid awards of students from low-income households.</p>
 <p>Loans (usually from the Federal Direct Loan program) are low-interest and can be repaid over a period of 10 years when the student either graduates or leaves college.</p>
 
-<div class="accordion accordion-flush" id="loans">
+<div class="accordion theme-cream accordion-flush" id="loans">
     <div class="accordion-item">
         <div class="accordion-header" id="loans-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#loans-collapseOne" aria-expanded="false" aria-controls="loans-collapseOne">
@@ -278,7 +277,7 @@ $page_info = json_decode($page_info, true);
     <div class="accordion-item">
         <div class="accordion-header" id="loans-headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#loans-collapseTwo" aria-expanded="false" aria-controls="loans-collapseTwo">
-                <span class="placeholder">Can non-financial aid students get on campus jobs?</span>
+                <span>Can non-financial aid students get on campus jobs?</span>
             </button>
         </div>
         <div id="loans-collapseTwo" class="accordion-collapse collapse" aria-labelledby="loans-headingTwo" data-bs-parent="#loans">
@@ -290,7 +289,7 @@ $page_info = json_decode($page_info, true);
     <div class="accordion-item">
         <div class="accordion-header" id="loans-headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#loans-collapseThree" aria-expanded="false" aria-controls="loans-collapseThree">
-                <span class="placeholder">How much money can be earned with on campus work?</span>
+                <span>How much money can be earned with on campus work?</span>
             </button>
         </div>
         <div id="loans-collapseThree" class="accordion-collapse collapse" aria-labelledby="loans-headingThree" data-bs-parent="#loans">
