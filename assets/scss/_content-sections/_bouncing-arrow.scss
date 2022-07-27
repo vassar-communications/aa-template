@@ -1,0 +1,32 @@
+@keyframes bounce {
+  0% {
+    transform: translateY(0.3em); }
+  50% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(0.3em); } }
+
+
+.video-header,
+.sec-fixedCenteredTitleMasthead.show-title {
+  position: relative;
+
+  &:after {
+    position: absolute;
+    content: "\f103";
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    font-family: var(--fa-style-family,"Font Awesome 6 Free");
+    font-weight: 900;
+    color: #fff;
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 2rem;
+    opacity: 0.4;
+  }
+}

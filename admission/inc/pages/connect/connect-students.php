@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Meet the Students',
     '/admission/connect/meet-the-students/',
-    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '0236-19-05-ja-devils-vassar-0014.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
