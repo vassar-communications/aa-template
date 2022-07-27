@@ -9392,9 +9392,9 @@ h2.border-animate:after, .border-animate.h2:after {
   transition: 0.4s all ease;
 }
 
-.btn.arrow:hover:after,
-.btn.arrow:focus:after {
-  box-shadow: 0 0 0.4em var(--arrow-glow, var(--section-link-hover-color, #fff));
+.btn.btn-text.arrow:hover:after,
+.btn.btn-text.arrow:focus:after {
+  box-shadow: 0 0 0.2em var(--arrow-glow, var(--section-link-hover-color, #fff));
 }
 
 .btn-link {
@@ -9420,9 +9420,9 @@ h2.border-animate:after, .border-animate.h2:after {
 .carousel-cell:hover .arrow:after,
 .btn-link.arrow:focus:after,
 .carousel-cell:focus .arrow:after {
-  background-color: var(--section-link-hover-color, var(--color-vassar-charcoal));
+  background-color: var(--section-link-color, var(--color-vassar-charcoal));
   color: var(--section-bg-color, var(--color-vassar-cream));
-  border-color: var(--section-link-hover-color, var(--color-vassar-charcoal));
+  border-color: var(--section-link-color, var(--color-vassar-charcoal));
 }
 
 .link-icon {
@@ -14355,7 +14355,6 @@ ul.style-checklist a {
 
 /* Basic links */
 p a,
-a.btn-link,
 nav a,
 li a,
 footer a {
@@ -14363,7 +14362,6 @@ footer a {
   transition-property: color, background-color;
 }
 p a:link,
-a.btn-link:link,
 nav a:link,
 li a:link,
 footer a:link {
@@ -14371,17 +14369,12 @@ footer a:link {
   color: var(--section-link-color, var(--color-vassar-burgundy));
 }
 p a:visited,
-a.btn-link:visited,
 nav a:visited,
 li a:visited,
 footer a:visited {
   color: var(--section-link-visited-color, var(--color-vassar-burgundy));
 }
 p a:hover, p a:visited:hover, p a:focus, p a:visited:focus,
-a.btn-link:hover,
-a.btn-link:visited:hover,
-a.btn-link:focus,
-a.btn-link:visited:focus,
 nav a:hover,
 nav a:visited:hover,
 nav a:focus,
@@ -14396,6 +14389,22 @@ footer a:focus,
 footer a:visited:focus {
   background-color: var(--section-link-hover-bg-color, transparent);
   color: var(--section-link-hover-color, var(--color-vassar-burgundy));
+}
+
+a.btn-link {
+  transition: 0.4s all ease;
+  transition-property: color, background-color;
+}
+a.btn-link:link {
+  background-color: var(--section-link-bg-color, transparent);
+  color: var(--section-link-color, var(--color-vassar-burgundy));
+}
+a.btn-link:visited {
+  color: var(--section-link-visited-color, var(--color-vassar-burgundy));
+}
+a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited:focus {
+  background-color: var(--section-link-bg-color, transparent);
+  color: var(--section-link-color, var(--color-vassar-burgundy));
 }
 
 /* Section themes */
