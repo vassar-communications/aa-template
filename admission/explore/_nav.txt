@@ -2,5 +2,5 @@ academics
 campus
 diversity-inclusion
 outcomes
-poughkeepsie-hudson-valley
+local-area
 student-life

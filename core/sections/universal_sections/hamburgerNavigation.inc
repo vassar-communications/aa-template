@@ -23,7 +23,7 @@ $template = <<<TMP
   </div>
   <div><button  type="button"  class="btn btn-light btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-times"></button></div>
   </div>
-  <div class="offcanvas-body main-site-nav">
+  <div class="offcanvas-body megamenu-site-nav">
     <div class="section px-0">
         <div class="row align-items-start">
             <div class="col-md-6">

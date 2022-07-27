@@ -26,7 +26,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image']); ?>
+<?php echo page_partialmasthead(
+  $page_info['feature_image'],
+  ['image_alt_text' => 'Students sitting in a classroom']
+); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -42,10 +45,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Posse Veterans Program',
-    '/assets/images/placeholders/main-placeholder.jpg',
+    '/admission/assets/images/apply/veterans/0055_15_04_KR_0146.jpg',
     'image-is-first theme-cream section-large-title',
     '',
-    ['img_alt_text' => 'Graduates of the Posse Veterans Program standing in a row wearing graduation robes and caps.']
+    ['img_alt_text' => 'A deliberately blurred motion photo of students walking into the College Center entryway']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>This program supports veterans interested in pursuing bachelor’s degrees at top educational institutions. Those accepted into the program attend college as part of a Veterans Posse, which is a team of service veterans.</p>
@@ -57,13 +60,18 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Yellow Ribbon Program',
-    '/assets/images/placeholders/main-placeholder.jpg',
+    '/admission/assets/images/apply/veterans/0067_16_05_JA-posse-487-crop.jpg',
     'theme-burgundy has-bg quad-pattern section-large-title',
-    ''
+    '',
+    ['img_alt_text' => 'Students sitting outside ready for graduation ceremonies to start']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>The Yellow Ribbon Program is a collaboration between colleges and universities and the Veterans Administration to cover the cost of tuition and fees, under the Post-9/11 Veterans Educational Assistance Act of 2008. This program makes a Vassar education accessible to eligible veterans, regardless of socio-economic status.</p>
-    <a href="https://www.possefoundation.org/shaping-the-future/posse-veterans-program" class="btn btn-link arrow">Visit the Yellow Ribbon Program</a>
+
+    <?php echo cta_link(
+      'https://www.va.gov/education/about-gi-bill-benefits/post-9-11/yellow-ribbon-program/',
+      'Visit the Yellow Ribbon Program'
+    ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

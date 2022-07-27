@@ -104,7 +104,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Vassar is a vibrant community of global citizens</p>
+    <p>Vassar is a vibrant community of global citizens.</p>
 
     <a href="/admission/apply/international/" class="px-0 btn btn-link arrow">Information for international applicants</a>
 </div>
