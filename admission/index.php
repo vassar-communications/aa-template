@@ -74,7 +74,7 @@ $page_info = json_decode($page_info, true);
 
 
     <?php echo item_cardWithText(
-        'Applying to Vassar',
+        'Apply to Vassar',
         '/admission/apply/',
         ['url' => '/admission/assets/images/admission-home/0198-19-11-kwe-library-vassar-vb-5415.jpg', 'alt' => 'Student studying in the Thompson Memorial Library' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
@@ -98,7 +98,7 @@ $page_info = json_decode($page_info, true);
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
-    <p>[NEED SUMMARY CONTENT]</p>
+    <p>Plan your in-person or virtual visit.</p>
 
     <?php echo end_item_cardWithText(
         null,
@@ -340,7 +340,7 @@ echo sec_fixedCenteredTitle(
         'youtube',
         '',
         ['url' => '/admission/assets/images/admission-home/fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg',
-            'alt' => 'asdfasdf'
+            'alt' => 'People using the hiking path at the Vassar Ecological Preserve'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -383,7 +383,7 @@ All Vassar students are surrounded by an environment designed to spark something
     'sec-fixedCenteredTitle theme-dark-burgundy featured-video',
     'mw-4',
     ['bg-image-url' => '/admission/assets/images/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
-        'bg-image-alt' => 'replacethisalttext',
+        'bg-image-alt' => 'Large group of students seated on a lawn in front of the Thompson Memorial Library on Vassar campus',
         'css' => '
       --section-title-size: 10vw;
       /* --section-title-faded-opacity: 0.1; */
