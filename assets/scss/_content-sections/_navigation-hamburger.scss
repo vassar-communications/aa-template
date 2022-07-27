@@ -86,3 +86,8 @@ a[data-bs-toggle="collapse"] {
     @include animation-fade-in();
   }
 }
+
+
+.offcanvas {
+  z-index: 1865;
+}

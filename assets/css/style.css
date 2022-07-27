@@ -14036,6 +14036,10 @@ a[data-bs-toggle=collapse]:hover {
   animation-fill-mode: forwards;
 }
 
+.offcanvas {
+  z-index: 1865;
+}
+
 .nav--top a {
   font-size: 1.25rem;
   letter-spacing: 0.08rem;
