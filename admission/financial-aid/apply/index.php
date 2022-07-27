@@ -7,7 +7,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = '{"page_title":"Applying for Aid","feature_image":"/assets/images/placeholders/placeholder-banner.png"}';
+$page_info = '{"page_title":"Applying for Aid","feature_image":"/admission/assets/images/financial-aid/0085_16_04_KR_0008.jpg"}';
 /* === */
 $page_info = json_decode($page_info, true);
 
@@ -29,7 +29,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Student Financial Services',
-    $placeholder_img_square,
+    $admission_img_path.'financial-aid/apply/0069-19-05-kr-spring-vassar-4749.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
@@ -58,7 +58,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_col(); ?>
 
-<div class="card plain-text-card">
+<div class="card plain-text-card d-flex justify-content-between">
     <h3>FAFSA</h3>
     <p>The FAFSA must be completed to determine eligibility for all sources of federal financial aid.</p>
 
@@ -75,7 +75,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
-<div class="card plain-text-card">
+<div class="card plain-text-card d-flex justify-content-between">
     <h3>CSS Profile</h3>
     <p>The CSS Profile is required to determine eligibility for Vassar scholarship aid.</p>
 
@@ -93,7 +93,8 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_col(); ?>
 
-<div class="card plain-text-card">
+<div class="card plain-text-card d-flex justify-content-between">
+    <div>
     <h3>College Board IDOC</h3>
     <p>This is a service to submit requested documentation as part of the aid application.</p>
     <ul>
@@ -102,7 +103,10 @@ $page_info = json_decode($page_info, true);
         <li>Write your name and IDOC ID number on all documents</li>
         <li>Retain a copy of all documents you submit</li>
     </ul>
+    </div>
+    <div>
     <a href="https://pages.collegeboard.org/idoc"  class="px-0 btn btn-link arrow text-start">Visit Collegeboard IDOC</a>
+    </div>
 </div>
 
 <?php echo end_item_col(); ?>
@@ -115,17 +119,22 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_regularContent(
     'Financial Aid Application Checklists',
     '',
-    'theme-charcoal',
+    '',
     ''
 ); ?>
 
+
+
+
+
+
 <p>For detailed information regarding application requirements and deadlines, please select the appropriate checklist below.</p>
 
-<ul>
-    <li><a href="#" class="fix">U.S. Citizen or Permanent Resident</a></li>
-    <li><a href="#" class="fix">Canadian Citizen</a></li>
-    <li><a href="#" class="fix">International Student (inside US)</a></li>
-    <li><a href="#" class="fix">International Student (outside US)</a></li>
+<ul class="linked-list">
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/prospective-us-2223.pdf">U.S. Citizen or Permanent Resident (PDF)</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/prospective-canadian-2223.pdf">Canadian Citizen (PDF)</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/prospective-intl-us-2223.pdf">International Student (inside US) (PDF)</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/prospective-intl-2223.pdf">International Student (outside US) (PDF)</a></li>
 </ul>
 
 
