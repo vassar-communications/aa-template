@@ -14221,27 +14221,27 @@ ul.style-checklist.theme-cream {
 
 ul.style-checklist a {
   color: #f00;
-  text-decoration: underline;
+  border-bottom: 1px solid;
 }
 
 .style-checklist > li,
 .style-checklist.style-sub-items li {
   position: relative;
-  padding: 0.6rem 0 0.64rem 1.4rem;
+  padding: 1.2rem 0 1.2rem 2.4rem;
   list-style: none;
   border-bottom: 1px solid #ddd;
-  line-height: 1.2;
+  line-height: 1.62;
   font-size: 1.2rem;
 }
 .style-checklist > li:before,
 .style-checklist.style-sub-items li:before {
   content: "";
-  width: 1rem;
-  height: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
   border: 2px dashed #aaa;
   position: absolute;
   left: 0;
-  top: 0.8rem;
+  top: 1.6rem;
 }
 
 /*
@@ -14374,23 +14374,6 @@ li a:visited,
 footer a:visited {
   color: var(--section-link-visited-color, var(--color-vassar-burgundy));
 }
-p a:hover, p a:visited:hover, p a:focus, p a:visited:focus,
-nav a:hover,
-nav a:visited:hover,
-nav a:focus,
-nav a:visited:focus,
-li a:hover,
-li a:visited:hover,
-li a:focus,
-li a:visited:focus,
-footer a:hover,
-footer a:visited:hover,
-footer a:focus,
-footer a:visited:focus {
-  background-color: var(--section-link-hover-bg-color, transparent);
-  color: var(--section-link-hover-color, var(--color-vassar-burgundy));
-}
-
 a.btn-link {
   transition: 0.4s all ease;
   transition-property: color, background-color;
@@ -15067,12 +15050,12 @@ a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited
   --footer-badge-link-color: var(--color-vassar-dark-burgundy);
 }
 
-p a {
+p a, ul.style-checklist a {
   text-decoration: none;
   border-bottom: 1px solid #adb5bd;
 }
 
-p a:hover {
+p a:hover, ul.style-checklist a:hover {
   border-bottom: none;
 }
 
