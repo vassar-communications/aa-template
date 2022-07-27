@@ -13502,6 +13502,8 @@ html {
     width: 100%;
     position: absolute;
     object-fit: cover;
+    top: 0;
+    left: 0;
   }
 }
 /* Quote carousel */

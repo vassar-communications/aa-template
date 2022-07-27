@@ -7,7 +7,10 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = '{"page_title":"Explore Vassar","feature_image":"/assets/images/placeholders/placeholder-banner.png"}';
+$page_info = '{
+  "page_title":"Explore Vassar",
+  "feature_image":"/admission/assets/images/explore/0124_15_05_HW_8333.jpg"
+}';
 /* === */
 $page_info = json_decode($page_info, true);
 ?>
@@ -26,7 +29,7 @@ $page_info = json_decode($page_info, true);
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => $page_info['feature_image'],
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'Four students walk past a large brick building, Vassar’s Gordon Commons, in the late afternoon',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
@@ -42,7 +45,11 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Freedom to Discover',
     'Vassar’s unique community is an environment that sparks curiosity. Everyone can discover their individual path beyond the edges to make a positive impact on the world.',
-    '/assets/images/placeholders/main-placeholder.jpg');
+    '/admission/assets/images/explore/0015_15_02_CS_011.jpg',
+    null,
+    null,
+    ['img_alt_text' => 'Students jump into an icy pool as part of a challenge']
+  );
 ?>
 
 
