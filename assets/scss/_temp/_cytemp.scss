@@ -144,11 +144,16 @@
     --footer-badge-link-color: var(--color-vassar-dark-burgundy);
   }
 }
- p a {
+
+
+ p a, ul.style-checklist a {
    text-decoration: none;
    border-bottom: 1px solid  $gray-500;
  }
 
+p a:hover, ul.style-checklist a:hover {
+  border-bottom: none;
+}
 
 
  /*text buttons */

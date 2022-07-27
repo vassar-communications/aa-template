@@ -10,25 +10,26 @@ ul.style-checklist {
 
 ul.style-checklist a {
   color: #f00;
-  text-decoration: underline;
+  border-bottom: 1px solid
 }
 
 .style-checklist > li,
 .style-checklist.style-sub-items li {
   position: relative;
-  padding: 0.6rem 0 0.64rem 1.4rem;
+  padding: 1.2rem 0 1.2rem 2.4rem;
   list-style: none;
   border-bottom: 1px solid #ddd;
-  line-height: 1.2;
+  line-height: 1.62;
   font-size: 1.2rem;
 
+
   &:before {
-    content: '';
-    width: 1rem;
-    height: 1rem;
+    content: "";
+    width: 1.2rem;
+    height: 1.2rem;
     border: 2px dashed #aaa;
     position: absolute;
     left: 0;
-    top: 0.8rem;
+    top: 1.6rem;
   }
 }
