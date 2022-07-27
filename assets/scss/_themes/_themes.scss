@@ -1,7 +1,6 @@
 /* Basic links */
 
 p a,
-a.btn-link,
 nav a,
 li a,
 footer a  {
@@ -25,7 +24,28 @@ footer a  {
 }
 
 
+a.btn-link {
+  transition: 0.4s all ease;
+  transition-property: color, background-color;
 
+  &:link {
+    background-color: var(--section-link-bg-color, transparent);
+    color: var(--section-link-color, var(--color-vassar-burgundy));
+  }
+
+  &:visited {
+    color: var(--section-link-visited-color, var(--color-vassar-burgundy));
+  }
+
+  &:hover,
+  &:visited:hover,
+  &:focus,
+  &:visited:focus {
+    background-color: var(--section-link-bg-color, transparent);
+    color: var(--section-link-color, var(--color-vassar-burgundy));
+  }
+
+}
 
 /* Section themes */
 
