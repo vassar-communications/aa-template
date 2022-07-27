@@ -67,10 +67,7 @@ $page_info = json_decode($page_info, true);
     <p class="tagline">Dig Deep to Explore Your Interests</p>
     <p>Vassar’s Intensives take the individualized classroom experience further by creating even more opportunities for student-driven exploration and mentored research. Intensives are designed to promote forward-thinking, non-traditional class experiences that catalyze deeper learning.</p>
 
-    <?php echo cta_link(
-      '/admission/explore/academics/',
-      'Learn more about Vassar Intensives'
-    ); ?>
+
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -85,10 +82,13 @@ $page_info = json_decode($page_info, true);
     <p class="tagline">Develop Knowledge First-Hand</p>
     <p>At Vassar, you can engage in research and make contributions to your field as early as your first year. A multitude of opportunities are available, including research-based classes, paid positions in faculty laboratories, and on-campus intensive summer research programs.</p>
 
-    <?php echo cta_link(
-      '/admission/explore/academics/',
-      'Learn more about Research at Vassar'
-    ); ?>
+
+    <ul class="linked-list">
+        <li><a href="https://www.vassar.edu/ursi">Undergraduate Research Summer Institute</a></li>
+        <li><a href="https://www.vassar.edu/ford-scholars">Ford Scholars</a></li>
+        <li><a href="https://www.vassar.edu/creativearts/">CAAD</a> </li>
+    </ul>
+
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -105,7 +105,7 @@ $page_info = json_decode($page_info, true);
     <p>Real-world experience can take your education to the next level, so it’s no surprise that 90% of Vassar students choose to take on an internship. Through Community-Engaged Learning (CEL), you can combine your academic pursuits with hands-on work in the field while earning academic credit. </p>
 
     <?php echo cta_link(
-      '/admission/explore/academics/',
+      'https://offices.vassar.edu/community-engaged-learning/',
       'Learn more about CEL'
     ); ?>
 
@@ -123,7 +123,7 @@ $page_info = json_decode($page_info, true);
     <p>Expand your global perspective and explore new ways of thinking by spending a semester or year abroad. Vassar offers more than 130 study abroad options around the world, so no matter your interests, you can find a program that will help you reach your goals.</p>
 
     <?php echo cta_link(
-      '/admission/explore/academics/',
+      'https://offices.vassar.edu/international-programs/',
       'Learn more about Study Abroad'
     ); ?>
 

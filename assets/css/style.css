@@ -15148,6 +15148,10 @@ p a:hover, ul.style-checklist a:hover {
   background: #eeeeee;
 }
 
+.theme-burgundy .linked-list a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
 /*text buttons */
 .btn.btn-link {
   padding: 0.5rem 0 !important;
