@@ -21,6 +21,9 @@
   --animate-shrink-in-startSize: 1.1;
 
     &:after {
+      height: $partial-masthead-height;
+      background-position: center;
+
       @include setup-animate-shrink-in();
       @include animate-shrink-in();
     }

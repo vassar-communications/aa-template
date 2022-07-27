@@ -13346,6 +13346,12 @@ html {
   animation-fill-mode: forwards;
 }
 
+@media (min-aspect-ratio: 3/2) {
+  :root {
+    --partial-masthead-height: 84vh;
+  }
+}
+
 .section.section--full-bleed-image-column {
   min-height: auto;
   padding: 0;
@@ -13876,6 +13882,8 @@ This should be a section option
   left: 0;
 }
 .section--top-level-masthead .section-bg:after {
+  height: var(--partial-masthead-height, 60vw);
+  background-position: center;
   opacity: 0;
   transform: scale(var(--animate-shrink-in-startSize, 1.4));
   animation-duration: var(--animate-shrink-in-dur, 2s);
@@ -13938,7 +13946,7 @@ This should be a section option
   opacity: 0;
 }
 .partial-masthead .title-container, .partial-masthead .section-bg {
-  height: 84vh;
+  height: var(--partial-masthead-height, 60vw);
 }
 .partial-masthead .title-container {
   padding-bottom: 4vw;

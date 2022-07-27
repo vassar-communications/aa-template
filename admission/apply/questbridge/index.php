@@ -9,7 +9,7 @@ include_once($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title":"QuestBridge Students",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "feature_image":"/admission/assets/images/apply/questbridge/0003-17-01-kr-modfest-vassar-0077.jpg"
 }';
 /* === */
 $page_info = json_decode($page_info, true);
@@ -22,7 +22,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image']); ?>
+<?php echo page_partialmasthead(
+  $page_info['feature_image'],
+  ['image_alt_text' => 'Person playing violin in the Frances Lehman Loeb Art Gallery']
+); ?>
 
 <?php echo interior_page_nav() ?>
 
