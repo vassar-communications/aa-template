@@ -9,7 +9,7 @@ include_once($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title":"Applying to Vassar",
-  "feature_image":"/admission/assets/images/apply/0084_16_04_KR_0013.jpg"
+  "feature_image":"/admission/assets/images/apply/0198-19-11-kwe-library-vassar-vb-5415.jpg"
 }';
 /* === */
 $page_info = json_decode($page_info, true);

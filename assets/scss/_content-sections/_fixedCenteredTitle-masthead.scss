@@ -32,7 +32,7 @@ This should be a section option
   .section-title-container {
     transform: none;
     z-index: 10;
-    background-color: var(--title-container-bg-beforeContent, transparent);
+    background-color: var(--title-container-bg-beforeContent, #000);
 
     .section-title {
       font-family: var(--font-big-serif);

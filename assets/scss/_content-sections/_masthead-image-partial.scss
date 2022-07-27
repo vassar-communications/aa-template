@@ -1,24 +1,30 @@
 /* Partial Masthead */
 
 .partial-masthead  {
+  min-height: auto;
+
   .section__title__main {
     text-shadow: 0 0 1rem #000;
   }
   .supertitle {
-      font-size: 2rem;
-      border-bottom: 1px solid #fff;
-      display: block;
-      width: fit-content;
-      padding-bottom: 1rem;
-      text-transform: uppercase;
-      letter-spacing: 0.1rem;
+    font-size: 2rem;
+    border-bottom: 1px solid #fff;
+    display: block;
+    width: fit-content;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+  .section-bg {
+    img {
+      opacity: 0;
+    }
   }
 
-  min-height: auto;
-    .title-container, .section-bg {
-      height: 80vh;
-    }
-    .title-container{
-      padding-bottom:4vw;
-    }
+  .title-container, .section-bg {
+    height: 84vh;
+  }
+  .title-container{
+    padding-bottom:4vw;
+  }
 }
