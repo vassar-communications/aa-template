@@ -217,7 +217,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_hasColumns(); ?>
 
-
+<a id="standardized-testing"></a>
 <?php echo sec_regularContent(
     'SAT/ACT Scores',
     'gold-icons',

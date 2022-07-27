@@ -59,6 +59,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_regularContent(); ?>
 
+<a id="english-language-proficiency"></a>
 
 <?php echo sec_regularContent(
     'English Language Proficiency',
