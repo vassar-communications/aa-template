@@ -31,7 +31,7 @@ a[data-bs-toggle="collapse"] {
   .main-nav-link {
     width: 100%;
   }
-  a {
+  .nav-item > a {
     display: block;
 //    background-image: linear-gradient(to right, var(--underline-color) 0%, var(--underline-color) 100%), linear-gradient(to right, var(--underline-color-2) 0%, var(--underline-color-2) 100%);
     text-decoration: none;
