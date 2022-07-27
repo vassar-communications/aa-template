@@ -58,7 +58,7 @@ $page_info = [
 
 <?php echo masthead_interiorPage(
     'Find Your Spark',
-    '<span class="placeholder">Vassar’s community is full of character, collaboration, and vibrant diversity. People of all perspectives and backgrounds come here to learn, work, and live together in the proud tradition of a residential liberal arts college.</span>',
+    'Vassar is a unique, interdisciplinary, dynamic community that celebrates the value of diversity among its students, faculty, and staff. Each individual person on our campus wonderfully enriches our learning, work, and living on campus.',
     $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
 ?>
 
@@ -73,7 +73,9 @@ $page_info = [
         'Extracurricular activities include',
         '',
         'theme-dark-burgundy',
-); ?><div class="grid cols-4 animation-group animation-zoom-in animate-when-content-appears" style="--bs-gap: 1rem">
+); ?>
+
+<div class="grid cols-4 animation-group animation-zoom-in animate-when-content-appears" style="--bs-gap: 1rem">
 
     <?php echo item_iconButton(
         'image',
@@ -103,18 +105,61 @@ $page_info = [
         'btn-card animation-item'
     ); ?>
 
-</div><?php echo end_sec_wideContent(); ?><?php echo sec_regularContent(
+</div>
+
+<?php echo end_sec_wideContent(); ?>
+
+<?php echo sec_wideContent(
     null,
-    'theme-charcoal bg-dark quad-pattern has-bg animate-when-content-appears mw-inner-4 text-center',
+    animated_statement('It’s Not Student Housing, It’s Home').'<p>Our nine historic residential houses are the heart of Vassar. You won’t find a Greek system on campus—a fact we celebrate—and 97% of students choose to live on campus.</p>',
+    'theme-charcoal bg-dark quad-pattern has-bg animate-when-content-appears mw-inner-4 px-0 text-center',
     ''
 ); ?>
 
-<?php echo animated_statement('It’s Not Student Housing, It’s Home').'<p>Our nine historic residential houses are the heart of Vassar. You won’t find a Greek system on campus—a fact we celebrate—and 97% of students choose to live on campus.</p>';
+    <?php /* echo animated_statement('It’s Not Student Housing, It’s Home').'<p>Our nine historic residential houses are the heart of Vassar. You won’t find a Greek system on campus—a fact we celebrate—and 97% of students choose to live on campus.</p>'; */
     ?>
 
-[INSERT IMAGE GALLERY]
+  <?php echo carousel(); ?>
 
-<?php echo end_sec_regularContent(); ?>
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/0055_15_04_KR_0204.jpg'); ?>
+      <p>Cushing House</p>
+    <?php echo end_carousel_item(); ?>
+
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Davison_spring_1104_TT_9233.jpg'); ?>
+      <p>Davison House</p>
+    <?php echo end_carousel_item(); ?>
+
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Jewett_fall_1010_TT_8514.jpg'); ?>
+      <p>Jewett House</p>
+    <?php echo end_carousel_item(); ?>
+
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Josselyn_House_spring_1104_TT_9256.jpg'); ?>
+      <p>Josselyn House</p>
+    <?php echo end_carousel_item(); ?>
+
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Lathrop_spring_06_TT_03.jpg'); ?>
+      <p>Lathrop House</p>
+    <?php echo end_carousel_item(); ?>
+
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/0036-20-08-kr-campus-vassar-0053.jpg'); ?>
+      <p>Main Building</p>
+    <?php echo end_carousel_item(); ?>
+
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Noyes_spring_TT_50.jpg'); ?>
+      <p>Noyes House</p>
+    <?php echo end_carousel_item(); ?>
+
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Campus_Landscape_06_BMR_5.jpg'); ?>
+      <p>Raymond House</p>
+    <?php echo end_carousel_item(); ?>
+
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Strong_summer_06_MLB_02.jpg'); ?>
+      <p>Strong House</p>
+    <?php echo end_carousel_item(); ?>
+
+  <?php echo end_carousel(); ?>
+
+<?php echo end_sec_wideContent(); ?>
 
 <?php echo sec_fullBleedImageColumn(
     'Galvanize Your Energy',
