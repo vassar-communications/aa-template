@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Explore Diversity & Inclusion",
   "page_navTitle": "Diversity & Inclusion",
-  "feature_image":"https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg"
+  "feature_image":"/admission/assets/images/explore/diversity/0009_17_02_KR_0055.jpg"
 }';
 /* === */
 $page_info = json_decode($page_info, true);
@@ -32,7 +32,7 @@ $page_info = json_decode($page_info, true);
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => $page_info['feature_image'],
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'Students sit together at an event in Skinner Hall, a large room with stained-glass windows',
         'css' => '
         --cover-overlay-color: rgba(0,0,0,0.4);
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
