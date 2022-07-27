@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
     <p>If you have any questions, contact <a href="mailto:finaid@vassar.edu">finaid@vassar.edu</a> or visit Student Financial Services.</p>
 
     <?php echo cta_link(
-        'https://apply.vassar.edu/portal/campusvisitcalendar',
+        'https://offices.vassar.edu/student-financial-services/',
         'Visit Student Financial Services'
     ); ?>
 
