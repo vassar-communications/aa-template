@@ -48,17 +48,12 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Together We Become More',
-<<<<<<< HEAD
     'Our differences make our lives fun, interesting, and offer us the opportunity to connect with all kinds of people. We are here to provide healthy support to everyone.',
     $admission_img_path.'explore/diversity/0038_16_04_KR_0005.jpg',
     '',
     '',
     ['img_alt_text' => 'Students work with colored cloth on one of the quads']
   );
-=======
-    '<span class="placeholder">Our differences make our lives fun, interesting, and offer us the opportunity to connect with all kinds of people. We are here to provide healthy support to EVERYONE.</span>',
-    $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
->>>>>>> eeaef9ad719b7f1a16cbafcde9273b3116c0f1ee
 ?>
 
 
