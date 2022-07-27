@@ -48,7 +48,11 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Where Horizons Meet',
     'Vassar’s 1,000-acre campus blends timeless architecture with cutting-edge facilities.',
-    '/admission/assets/images/explore/campus/Vassar_Campus_20190508_KR_5256.jpg');
+    '/admission/assets/images/explore/campus/Vassar_Campus_20190508_KR_5256.jpg',
+    '',
+    '',
+    ['img_alt_text' => 'Students gather on the lawn in front of the library on a sunny day']
+  );
 ?>
 
 
@@ -56,7 +60,8 @@ $page_info = json_decode($page_info, true);
     null,
     '/admission/assets/images/explore/campus/Vassar_Postcards_20210904_KR_0122-copy.jpg',
     'image-is-first theme-dark-burgundy quad-pattern has-bg gold-icons',
-    ''
+    '',
+    ['img_alt_text' => 'A view of Gordon Commons, a large brick building with white columns']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text placeholder">On Vassar’s 1,000-acre campus, students have access to:</p>
