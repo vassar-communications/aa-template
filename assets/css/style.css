@@ -9420,9 +9420,9 @@ h2.border-animate:after, .border-animate.h2:after {
 .carousel-cell:hover .arrow:after,
 .btn-link.arrow:focus:after,
 .carousel-cell:focus .arrow:after {
-  background-color: var(--section-link-color, var(--color-vassar-charcoal));
+  background-color: var(--section-link-color, var(--color-vassar-dark-burgundy));
   color: var(--section-bg-color, var(--color-vassar-cream));
-  border-color: var(--section-link-color, var(--color-vassar-charcoal));
+  border-color: var(--section-link-color, var(--color-vassar-dark-burgundy));
 }
 
 .link-icon {
