@@ -30,9 +30,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Information for High School Counselors',
-    '/assets/images/placeholders/main-placeholder.jpg',
+    '/admission/assets/images/connect/0112-21-10-kr-bell-ringing-vassar-0033.jpg',
     'image-is-first theme-cream section-large-title',
-    ''
+    '',
+    ['img_alt_text' => 'Students ringing the bell atop Vassar College Main Building']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Vassar was built to advance the notion of what a liberal arts college can be. From day one, we’ve empowered students to explore widely, delve deeply, and investigate every new idea with an open mind. Please don’t hesitate to be in touch as you help your students explore their college options. </p>

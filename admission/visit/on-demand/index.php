@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title": "Vassar on Demand",
-  "feature_image": "/assets/images/placeholders/placeholder-banner.png"
+  "feature_image": "/admission/assets/images/visit/on-demand/0256-19-10-ja-library-lawn-vassar-vb-066.jpg"
 }';
 
 /* === */
@@ -32,7 +32,10 @@ $page_info = [
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image']); ?>
+<?php echo page_partialmasthead(
+  $page_info['feature_image'],
+  ['image_alt_text' => 'Students outside on the library lawn']
+); ?>
 
 <?php echo interior_page_nav() ?>
 
