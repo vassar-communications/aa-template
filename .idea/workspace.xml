@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/connect/0148-17-09-kr-alana-vassar-1599.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/connect/0153-19-11-kr-major-palooza-vassar-0004-crop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/connect/0214-19-09-bl-green-fest-vassar-2721.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/connect/0236-19-05-ja-devils-vassar-0014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/connect/Raymond-0204-19-11-kwe-raymond-parlor-vassar-vb-2805.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/types-of-aid/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/types-of-aid/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/connect/for-counselors/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/connect/for-counselors/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/connect/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/connect/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/connect/meet-the-students/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/connect/meet-the-students/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/diversity-inclusion/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/diversity-inclusion/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/financial-aid/_nav.txt" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/_nav.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/inc/pages/connect/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/connect/connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/inc/pages/financial-aid/financial-aid-apply.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/financial-aid/financial-aid-apply.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +94,7 @@
       <workItem from="1657086102806" duration="43548000" />
       <workItem from="1657276853319" duration="56020000" />
       <workItem from="1657765727741" duration="22691000" />
-      <workItem from="1658910269180" duration="3604000" />
+      <workItem from="1658910269180" duration="6286000" />
     </task>
     <servers />
   </component>

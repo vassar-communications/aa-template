@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Together We Become More',
-    '<span class="placeholder">We celebrate our differences and our connections and provide resources that are committed to the healthy support of EVERYONE.</span>',
+    '<span class="placeholder">Our differences make our lives fun, interesting, and offer us the opportunity to connect with all kinds of people. We are here to provide healthy support to EVERYONE.</span>',
     $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
 ?>
 
