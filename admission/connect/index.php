@@ -7,7 +7,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = '{"page_title":"Connect","feature_image":"/assets/images/placeholders/placeholder-banner.png"}';
+$page_info = '{"page_title":"Connect","feature_image":"/admission/assets/images/connect/0148-17-09-kr-alana-vassar-1599.jpg"}';
 /* === */
 $page_info = json_decode($page_info, true);
 
@@ -44,7 +44,7 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Our team is here to help you.',
     '',
-    '/assets/images/placeholders/main-placeholder.jpg');
+    $admission_img_path.'connect/0214-19-09-bl-green-fest-vassar-2721.jpg');
 ?>
 
 

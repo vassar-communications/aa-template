@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title": "For Counselors",
-  "feature_image": "/assets/images/placeholders/placeholder-banner.png"
+  "feature_image": "/admission/assets/images/connect/0153-19-11-kr-major-palooza-vassar-0004-crop.jpg"
 }';
 /* === */
 $page_info = json_decode($page_info, true);
