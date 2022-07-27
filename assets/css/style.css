@@ -15061,6 +15061,10 @@ p a:hover, ul.style-checklist a:hover {
   border-bottom: none;
 }
 
+.linked-list a:hover {
+  background: #eeeeee;
+}
+
 /*text buttons */
 .btn.btn-link {
   padding: 0.5rem 0 !important;
