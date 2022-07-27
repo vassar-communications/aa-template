@@ -12906,6 +12906,45 @@ This should be a section option
   z-index: 22;
 }
 
+a[data-bs-toggle=collapse] {
+  transition: 0.4s all ease;
+}
+a[data-bs-toggle=collapse]:hover {
+  color: #f00 !important;
+}
+
+.main-site-nav {
+  --underline-color: #f00;
+  --underline-color: #fff;
+  --underline-color-2: rgba(255,255,255,0.2);
+  --underline-color-2: #f00;
+  --underline-color-2: rgba(255,0,0,0.2);
+}
+.main-site-nav hr {
+  display: none;
+}
+.main-site-nav .main-nav-link {
+  width: 100%;
+}
+.main-site-nav a {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 0px bottom;
+  transition: background 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+  transition-property: background, color;
+  background-image: linear-gradient(to right, var(--underline-color) 0%, var(--underline-color) 100%), linear-gradient(to right, var(--underline-color-2) 0%, var(--underline-color-2) 100%);
+  background-size: 0% 1px, 100% 1px;
+  padding: 0.5rem 0;
+  opacity: 0.8;
+}
+.main-site-nav a:hover, .main-site-nav a:focus {
+  opacity: 1;
+  color: var(--section-nav-emphasis-color);
+  background-size: 100% 1px;
+}
+
 .offcanvasmain {
   z-index: 9999;
 }
@@ -12921,6 +12960,17 @@ This should be a section option
 
 .offcanvas-body::-webkit-scrollbar {
   display: none;
+}
+
+.vassar-masthead-offcanvas {
+  --animation-delay: 0.4s;
+  opacity: 0%;
+}
+.show .vassar-masthead-offcanvas {
+  animation-delay: var(--animation-delay, 0s);
+  animation-duration: var(--animation-duration, 1s);
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
 }
 
 .nav--top a {

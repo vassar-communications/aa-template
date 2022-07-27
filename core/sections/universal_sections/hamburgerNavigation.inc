@@ -23,14 +23,14 @@ $template = <<<TMP
   </div>
   <div><button  type="button"  class="btn btn-light btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-times"></button></div>
   </div>
-  <div class="offcanvas-body">
+  <div class="offcanvas-body main-site-nav">
     <div class="section px-0">
         <div class="row align-items-start">
             <div class="col-md">
-                <h6 class="tagline mb-4">Department of Admission</h6>
+                <h6 class="tagline mb-4">Office of Admission</h6>
                 <div class="nav-item d-flex justify-content-between text-light h5 display-5">
-                <a class="text-white" href="/admission/explore/">Explore Vassar</a></a><a href="#admission-explore" class="collapsed display-4 text-white" data-bs-toggle="collapse"
-                data-bs-target="#admission-explore" aria-expanded="false" aria-controls="collapseOne">+</a> 
+                <a class="text-white main-nav-link" href="/admission/explore/">Explore Vassar</a></a><a href="#admission-explore" class="collapsed display-4 text-white" data-bs-toggle="collapse"
+                data-bs-target="#admission-explore" aria-expanded="false" aria-controls="collapseOne">+</a>
                 </div>
                 <div id="admission-explore" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#explore-vassar">
                     <div class="accordion-body h3 text-left px-0">
@@ -43,10 +43,10 @@ $template = <<<TMP
                     </div>
                 </div>
                  <hr/>
-                 
+
                 <div class="nav-item d-flex justify-content-between text-light h5 display-5">
-                <a class="text-white" href="/admission/apply/">Apply</a><a href="#admission-apply" class="collapsed display-4 text-white" data-bs-toggle="collapse"
-                data-bs-target="#admission-apply" aria-expanded="false" aria-controls="collapseOne">+</a> 
+                <a class="text-white main-nav-link" href="/admission/apply/">Apply</a><a href="#admission-apply" class="collapsed display-4 text-white" data-bs-toggle="collapse"
+                data-bs-target="#admission-apply" aria-expanded="false" aria-controls="collapseOne">+</a>
                 </div>
                 <div id="admission-apply" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#admission-apply">
                     <div class="accordion-body h3 text-left px-0">
@@ -59,12 +59,12 @@ $template = <<<TMP
                         <div class="mb-2"> <a class="text-white" href="/admission/apply/financial-aid/">Financial Aid</a></div>
                     </div>
                 </div>
-                
+
                 <hr/>
-                               
+
                 <div class="nav-item d-flex justify-content-between text-light h5 display-5">
-                <a class="text-white" href="/admission/visit/">Visit</a><a href="#admission-visit" class="collapsed display-4 text-white" data-bs-toggle="collapse"
-                data-bs-target="#admission-visit" aria-expanded="false" aria-controls="collapseOne">+</a> 
+                <a class="text-white main-nav-link" href="/admission/visit/">Visit</a><a href="#admission-visit" class="collapsed display-4 text-white" data-bs-toggle="collapse"
+                data-bs-target="#admission-visit" aria-expanded="false" aria-controls="collapseOne">+</a>
                 </div>
                 <div id="admission-visit" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#admission-visit">
                     <div class="accordion-body h3 text-left px-0">
@@ -77,8 +77,8 @@ $template = <<<TMP
 
                 <hr/>
                 <div class="nav-item d-flex justify-content-between text-light h5 display-5">
-                <a class="text-white" href="/admission/financial-aid/">Financial Aid</a><a href="#admission-financialaid" class="collapsed display-4 text-white" data-bs-toggle="collapse"
-                data-bs-target="#admission-financialaid" aria-expanded="false" aria-controls="collapseOne">+</a> 
+                <a class="text-white main-nav-link" href="/admission/financial-aid/">Financial Aid</a><a href="#admission-financialaid" class="collapsed display-4 text-white" data-bs-toggle="collapse"
+                data-bs-target="#admission-financialaid" aria-expanded="false" aria-controls="collapseOne">+</a>
                 </div>
                 <div id="admission-financialaid" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#admission-financialaid">
                     <div class="accordion-body h3 text-left px-0">
@@ -89,17 +89,17 @@ $template = <<<TMP
                         <div class="mb-2"> <a class="text-white" href="/admission/financial-aid/tuition/">Tuition & Fees</a></div>
                     </div>
                 </div>
-                
+
                 <hr/>
-                
+
                 <div class="nav-item d-flex justify-content-between text-light h5 display-5">
-                    <a class="text-white" href="/admission/quick-facts/">Quick Facts</a>
+                    <a class="text-white main-nav-link" href="/admission/quick-facts/">Quick Facts</a>
                 </div>
-                
+
                 <hr/>
-                
+
                 <div class="nav-item d-flex justify-content-between text-light h5 display-5">
-                <a class="text-white" href="/admission/connect/">Connect</a></a>
+                <a class="text-white main-nav-link" href="/admission/connect/">Connect</a></a>
                 </div>
 
             </div>
@@ -107,8 +107,8 @@ $template = <<<TMP
                 <div class="bg-white p-5">
                     <h6 class="tagline mb-5 knockedout text-primary">Quick Links</h6>
                     <ul class="list-unstyled">
-                    <li><a class="text-primary" href="#">About</a></li>          
-                   <li><a class="text-primary" href="#">Acadmeics</a></li>
+                    <li><a class="text-primary" href="#">About</a></li>
+                   <li><a class="text-primary" href="#">Academics</a></li>
                    <li><a class="text-primary" href="#">Campus Life</a></li>
                    <li><a class="text-primary"href="#">Athletics</a></li>
                    <li><a class="text-primary" href="#">Arts</a></li>
@@ -119,7 +119,7 @@ $template = <<<TMP
             </div>
 
         </div>
-    </div> 
+    </div>
   </div>
 </div>
 TMP;
