@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title":"Art, Music, and Dance Portfolios",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "feature_image":"/admission/assets/images/apply/arts/0123_15_11_KR_0170.jpg"
 }';
 /* === */
 $page_info = json_decode($page_info, true);
@@ -22,7 +22,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo interior_page_nav() ?>
 

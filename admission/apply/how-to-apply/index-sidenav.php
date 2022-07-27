@@ -64,7 +64,7 @@ $page_classes = "";
                                     <li>Coalition application</li>
                                     <li>QuestBridge application</li>
                                     </ul>
-                                <p><a href="/admission/apply/first-year-applicants">Learn more about First-Year Applications</a></p>
+                                <p><a href="/admission/apply/requirements">Learn more about First-Year Applications</a></p>
 
                                 <hr class="my-5">
 

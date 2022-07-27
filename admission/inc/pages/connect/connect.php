@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Connect',
     '/admission/connect/',
-    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/admission/assets/images/connect/0148-17-09-kr-alana-vassar-1599.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

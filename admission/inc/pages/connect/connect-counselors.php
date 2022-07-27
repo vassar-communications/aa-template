@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'For Counselors',
     '/admission/connect/for-counselors/',
-    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/admission/assets/images/sitewide-cards/0153-19-11-kr-major-palooza-vassar-5436.jpg', 'alt' => 'Mentor speaking with students' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

@@ -17,20 +17,20 @@ function site_footer() {
 				<div class="pt-3"><a href="#"><i class="px-1 fa-solid fa-location-dot"></i> 124 Raymond Avenue, Poughkeepsie, New York, 12604</a></div>
 
 				<div class="pt-3 link_collection">
-					<a href="#" class="me-3">plan a visit <i class="px-1 fa-solid fa-arrow-right"></i></a>
-					<a href="#" class="me-3">news <i class="px-1 fa-solid fa-arrow-right"></i></a>
-					<a href="#" class="me-3">contact us <i class="px-1 fa-solid fa-arrow-right"></i></a>
+					<a href="/admission/visit" class="me-3">plan a visit <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					<a href="https://www.vassar.edu/news" class="me-3">news <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					<a href="/admission/connect" class="me-3">contact us <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 				</div>
 
 				<hr class="mt-4 w-75">
 
 				<div class="pt-4 link_collection">
-					<a href="#" class="me-3">about <i class="px-1 fa-solid fa-arrow-right"></i></a>
-					<a href="#" class="me-3">academics <i class="px-1 fa-solid fa-arrow-right"></i></a>
-					<a href="#" class="me-3">admission <i class="px-1 fa-solid fa-arrow-right"></i></a>
-					<a href="#" class="me-3">campus life <i class="px-1 fa-solid fa-arrow-right"></i></a>
-					<a href="#" class="me-3">community <i class="px-1 fa-solid fa-arrow-right"></i></a>
-					<a href="#" class="me-3">full sitemap <i class="px-1 fa-solid fa-arrow-right"></i></a>
+					<a href="https://www.vassar.edu/about" class="me-3">about <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					<a href="https://www.vassar.edu/academics" class="me-3">academics <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					<a href="/admission" class="me-3">admission <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					<a href="https://www.vassar.edu/campuslife" class="me-3">campus life <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					<!--<a href="#" class="me-3">community <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>-->
+					<!-- <a href="#" class="me-3">full sitemap <i class="px-1 fa-solid fa-circle-arrow-right"></i></a> -->
 				</div>
 			</div>
 
@@ -65,7 +65,7 @@ function site_footer() {
 				<a class="me-3" href="https://www.youtube.com/vassar/"><i class="fa-brands fa-youtube"></i></a>
 				<a class="me-3" href="https://www.flickr.com/photos/vassarcollegemedia/"><i class="fa-brands fa-flickr"></i></a>
 				<a class="me-3" href="https://vm.tiktok.com/ZMeYAnWtP/"><i class="fa-brands fa-tiktok"></i></a>
-				<a href="https://www.vassar.edu/social-media">Social Media Directory <i class="px-1 fa-solid fa-arrow-right"></i></a>
+				<a href="https://www.vassar.edu/social-media">Social Media Directory <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 			</div>
 		</div> <!-- row -->
 </footer>

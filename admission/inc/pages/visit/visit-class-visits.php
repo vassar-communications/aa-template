@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Class Visits',
     '/admission/visit/class-visits/',
-    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/admission/assets/images/sitewide-cards/0020_15_03_KR_0022.jpg', 'alt' => 'Student speaking in class while others listen.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

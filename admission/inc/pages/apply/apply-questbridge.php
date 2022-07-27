@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'QuestBridge Students',
     '/admission/apply/questbridge/',
-    ['url' => '/assets/images/placeholders/main-placeholder.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/admission/assets/images/sitewide-cards/Vassar_Campus_20190508_KR_5750.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

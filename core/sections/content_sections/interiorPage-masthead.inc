@@ -18,7 +18,8 @@ function masthead_interiorPage(
     null,
     $image,
     'mb-5 page-title-section masthead--interiorPage '.$section_classes,
-    'mw-100 '.$content_classes
+    'mw-100 '.$content_classes,
+    $extras
   );
 
 $mastheadMarkup .= <<<TMP

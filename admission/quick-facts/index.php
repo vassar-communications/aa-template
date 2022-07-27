@@ -7,7 +7,10 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = '{"page_title":"Quick Facts","feature_image":"/assets/images/placeholders/placeholder-banner.png"}';
+$page_info = '{
+  "page_title":"Quick Facts",
+  "feature_image":"/admission/assets/images/quick-facts/0198-19-11-kwe-library-vassar-vb-5394.jpg"
+}';
 /* === */
 $page_info = json_decode($page_info, true);
 
@@ -29,7 +32,7 @@ $page_info = json_decode($page_info, true);
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => $page_info['feature_image'],
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'Students work in a reading room of the Thompson Memorial Library',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
@@ -47,7 +50,10 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Here’s everything you need to know.',
     'Read the following for answers to the questions you might have [need copy for this]',
-    $placeholder_img_square
+    '/admission/assets/images/quick-facts/1065_Vassar College_exteriors_campus life_Oct 2019_JA.jpg',
+    null,
+    null,
+    ['img_alt_text' => 'Two students share a bike on one of the campus paths']
   );
 ?>
 
@@ -217,7 +223,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_hasColumns(); ?>
 
-
+<a id="standardized-testing"></a>
 <?php echo sec_regularContent(
     'SAT/ACT Scores',
     'gold-icons',

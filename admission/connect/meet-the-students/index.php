@@ -7,7 +7,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = '{"page_title":"Meet the Students","feature_image":"/assets/images/placeholders/placeholder-banner.png"}';
+$page_info = '{"page_title":"Meet the Students","feature_image":"/admission/assets/images/connect/Raymond-0204-19-11-kwe-raymond-parlor-vassar-vb-2805.jpg"}';
 /* === */
 $page_info = json_decode($page_info, true);
 
@@ -27,12 +27,12 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Ask a Student',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/admission/assets/images/connect/0236-19-05-ja-devils-vassar-0014.jpg',
     'image-is-first theme-cream section-large-title',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>There is a lot to learn about Vassar through our many virtual and in-person visit options. If you still have questions about what life is like as a Vassar student, we encourage you to reach out! Email askastudent@vassar.edu to connect with a current Vassar student who will answer your questions about life at Vassar. We can’t guarantee which student will respond to your question, but we can guarantee that they will give you an honest answer. So go ahead, ask a student.</p>
+    <p>There is a lot to learn about Vassar through our many virtual and in-person visit options. If you still have questions about what life is like as a Vassar student, we encourage you to reach out! Email <a href="mailto:askastudent@vassar.edu">askastudent@vassar.edu</a> to connect with a current Vassar student who will answer your questions about life at Vassar. We can’t guarantee which student will respond to your question, but we can guarantee that they will give you an honest answer. So go ahead, ask a student.</p>
 
     <p><i class="fa-solid fa-envelope"></i><a class="ms-2" href="mailto:askastudent@vassar.edu">askastudent@vassar.edu</a></p>
 </div>

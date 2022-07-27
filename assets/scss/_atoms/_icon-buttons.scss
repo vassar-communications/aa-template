@@ -40,10 +40,10 @@
   margin-left: .75rem;
   transition: 0.4s all ease;
 }
-.btn.arrow:hover,
-.btn.arrow:focus {
+.btn.btn-text.arrow:hover,
+.btn.btn-text.arrow:focus {
   &:after {
-    box-shadow: 0 0 0.4em var(--arrow-glow, var(--section-link-hover-color, #fff));
+    box-shadow: 0 0 0.2em var(--arrow-glow, var(--section-link-hover-color, #fff));
   }
 }
 
@@ -76,7 +76,7 @@
 .carousel-cell:hover .arrow:after,
 .btn-link.arrow:focus:after,
 .carousel-cell:focus .arrow:after {
-  background-color: var(--section-link-hover-color, var(--color-vassar-charcoal));
+  background-color: var(--section-link-color, var(--color-vassar-dark-burgundy));
   color: var(--section-bg-color, var(--color-vassar-cream));
-  border-color:  var(--section-link-hover-color, var(--color-vassar-charcoal));
+  border-color:  var(--section-link-color, var(--color-vassar-dark-burgundy));
 }

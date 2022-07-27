@@ -7,7 +7,11 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = '{"page_supertitle":"Quick Facts","page_title":"Academics","feature_image":"/assets/images/placeholders/placeholder-banner.png"}';
+$page_info = '{
+  "page_supertitle":"Quick Facts",
+  "page_title":"Academics",
+  "feature_image":"/admission/assets/images/quick-facts/academics/0066-19-05-kr-afrs-syedullah-vassar-4017.jpg"
+}';
 /* === */
 $page_info = json_decode($page_info, true);
 
@@ -20,7 +24,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image']); ?>
+<?php echo page_partialmasthead(
+  $page_info['feature_image'],
+  ['image_alt_text' => 'A professor speaks to a class of students']
+); ?>
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
@@ -143,7 +150,8 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Internships',
         '[NEED LINK]',
-        ['url' => $placeholder_img_vertical, 'alt' => 'replacealttext' ],
+          ['url' => '/admission/assets/images/quick-facts/academics/0212-17-07-kr-ursi-frogs-vassar-0026.jpg',
+          'alt' => 'Student and professor in a lab of terrariums' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
     ); ?>
         <p>Internship opportunities—what we call Community-Engaged Learning—are available in Poughkeepsie, Albany, and New York City. Nearly 70% of Vassar students participate in community-engaged learning for credit at some point during their Vassar careers.</p>
@@ -154,7 +162,8 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Study Abroad',
         '[NEED LINK]',
-        ['url' => $placeholder_img_vertical, 'alt' => 'replacealttext' ],
+          ['url' => '/admission/assets/images/quick-facts/academics/fotino-bryan-morocco-abroad-fba-70251.jpg',
+          'alt' => 'Students stand in front of a Moroccan building decorated with mosaic tiles' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
     ); ?>
         <p>Vassar students (usually juniors) may study abroad for one semester or for a full academic year. About 45% of our students participate in our study-away programs prior to graduation.</p>

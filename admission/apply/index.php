@@ -9,7 +9,7 @@ include_once($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title":"Applying to Vassar",
-  "feature_image":"/admission/assets/images/apply/0084_16_04_KR_0013.jpg"
+  "feature_image":"/admission/assets/images/apply/0198-19-11-kwe-library-vassar-vb-5415.jpg"
 }';
 /* === */
 $page_info = json_decode($page_info, true);
@@ -77,7 +77,7 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <p>Everything you need to know about applying to Vassar as an incoming first-year student.</p>
 
-    <a href="/admission/apply/first-year-applicants/" class="px-0 btn btn-link arrow">Learn more about applying as a first-year student</a>
+    <a href="/admission/apply/requirements/" class="px-0 btn btn-link arrow">Learn more about applying as a first-year student</a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

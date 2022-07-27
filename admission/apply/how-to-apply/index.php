@@ -9,7 +9,7 @@ include_once($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title":"How to Apply",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "feature_image":"/admission/assets/images/apply/how-to-apply/0084_16_04_KR_0013-cropped.jpg"
 }';
 /* === */
 $page_info = json_decode($page_info, true);
@@ -22,7 +22,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'A student sits on a blanket in front of Main Building on a sunny day, looking down at some papers.']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -34,7 +34,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 
-<p class="intro-text">Everything you need to know to apply [REVIEW THIS] An overview of all the ways to apply to Vassar.</p>
+<p class="intro-text placeholder">Everything you need to know to apply. An overview of all the ways to apply to Vassar.</p>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -55,7 +55,7 @@ $page_info = json_decode($page_info, true);
     </ul>
 
     <?php echo cta_link(
-      '/admission/apply/first-year-applicants',
+      '/admission/apply/requirements',
       'Learn more about First-Year Applications'
     ); ?>
 

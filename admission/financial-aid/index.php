@@ -7,7 +7,11 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = '{"page_title":"Financial Aid","page_classes":"","feature_image":"/admission/assets/images/financial-aid/0141-15-10-kr-fall-campus-vassar-0003.jpg"}';
+$page_info = '{
+  "page_title":"Financial Aid",
+  "page_classes":"",
+  "feature_image":"/admission/assets/images/financial-aid/0141-15-10-kr-fall-campus-vassar-0003.jpg"
+}';
 /* === */
 $page_info = json_decode($page_info, true);
 
@@ -46,7 +50,11 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'More than 60% of Vassar students receive financial aid.',
     'Through a generous financial aid program, Vassar meets 100% of the full demonstrated need of all admitted students for all four years. Financial aid is awarded exclusively on the basis of need as determined by the Free Application for Federal Student Aid (FAFSA) and the CSS Profile.',
-    $admission_img_path.'financial-aid/0013-22-04-kr-noyes-vassar-0040.jpg');
+    $admission_img_path.'financial-aid/0013-22-04-kr-noyes-vassar-0040.jpg',
+    null,
+    null,
+    ['img_alt_text' => 'Four students lie on a blanket spread on the grass']
+  );
 ?>
 
 

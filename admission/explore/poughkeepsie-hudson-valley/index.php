@@ -9,6 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title":"Explore Local",
+  "page_navTitle":"Local",
   "feature_image":"/admission/assets/images/explore/hudson/Mid-Huson_Bridge_10_JGa.jpg"
 }';
 /* === */
@@ -48,7 +49,11 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'The Hudson Valley',
     'Vassar is located in Poughkeepsie, NY, a historic city in the scenic Hudson Valley. The greater Poughkeepsie area is home to about 100,000 people and offers an array of opportunities for our students to explore, including a vibrant arts scene, beautiful hiking trails, and a wealth of historic sites.',
-    $admission_img_path.'explore/hudson/0206-19-11-kwe-rowing-vassar-vb-4395.jpg');
+    $admission_img_path.'explore/hudson/0206-19-11-kwe-rowing-vassar-vb-4395.jpg',
+    null,
+    null,
+    ['img_alt_text' => 'A group of students row on the Hudson River early in the morning']
+  );
 ?>
 
 

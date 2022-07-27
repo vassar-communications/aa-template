@@ -7,7 +7,11 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = '{"page_title":"Explore Diversity & Inclusion","feature_image":"https://vassartest.chuckyatsuk.com/img/explore/academics/110619_160over90_Vassar_6232.jpg"}';
+$page_info = '{
+  "page_title":"Explore Diversity & Inclusion",
+  "page_navTitle": "Diversity & Inclusion",
+  "feature_image":"/admission/assets/images/explore/diversity/0009_17_02_KR_0055.jpg"
+}';
 /* === */
 $page_info = json_decode($page_info, true);
 
@@ -28,7 +32,7 @@ $page_info = json_decode($page_info, true);
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => $page_info['feature_image'],
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'Students sit together at an event in Skinner Hall, a large room with stained-glass windows',
         'css' => '
         --cover-overlay-color: rgba(0,0,0,0.4);
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -40,12 +44,16 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
-<?php echo interior_page_nav() ?>
+<?php echo interior_page_nav(); ?>
 
 <?php echo masthead_interiorPage(
     'Together We Become More',
-    '<span class="placeholder">We celebrate our differences and our connections and provide resources that are committed to the healthy support of EVERYONE.</span>',
-    $admission_img_path.'explore/student-life/Vassar_Campus_20190508_KR_5256.jpg');
+    'Our differences make our lives fun, interesting, and offer us the opportunity to connect with all kinds of people. We are here to provide healthy support to everyone.',
+    $admission_img_path.'explore/diversity/0038_16_04_KR_0005.jpg',
+    '',
+    '',
+    ['img_alt_text' => 'Students work with colored cloth on one of the quads']
+  );
 ?>
 
 
@@ -90,9 +98,11 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Services',
-    $admission_img_path.'placeholder.jpg',
+    '/admission/assets/images/explore/diversity/0214-18-05-kr-alana-vassar-6569.jpg',
     'image-is-first theme-charcoal has-bg quad-pattern',
-    ''
+    '',
+    ['img_alt_text' => 'Students assemble in a large, well-lit room']
+
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Vassar offers many resources to ensure all students have what they need to thrive. The college’s student-centered approach includes programs such as:</p>
@@ -113,17 +123,18 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Feeding the Spirit',
-    $admission_img_path.'placeholder.jpg',
+    '/admission/assets/images/explore/diversity/0007-22-03-kr-lama-topgyal-chapel-vassar0008.jpg',
     'theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'A Buddhist monk interacts with a student']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>The Office of Religious and Spiritual Life and Contemplative Practices oversees, advises, and supports a wide range of religious and civic communities, as well as initiatives that merge Vassar’s campus with the mid-Hudson Valley community.</p>
     <p>Vassar staff members are always available for pastoral counseling and spiritual guidance, no matter where you are in your spiritual journey. </p>
 
     <?php echo cta_link(
-        'https://www.vassarathletics.com/',
-        'Learn more about Vassar Athletics'
+        'https://offices.vassar.edu/religious-and-spiritual-life/',
+        'Learn more about Religious and Spiritual Life'
     ); ?>
 
 </div>
