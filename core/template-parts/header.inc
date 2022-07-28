@@ -20,7 +20,7 @@ if ( strpos( getcwd(), 'aa-devspace.vassarspaces.net' ) ) {
   $where_it_is = 'on devspace';
 }
 else {
-  $where_it_is = 'not on devspace (probably local)';
+  $where_it_is = 'not on devspace';
 }
 
 $comment = <<<TMP
