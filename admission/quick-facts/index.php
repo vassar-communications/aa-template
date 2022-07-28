@@ -49,7 +49,8 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Here’s everything you need to know.',
-    'Read the following for answers to the questions you might have [need copy for this]',
+    '<p class="intro-text">We know you have questions. Find the answers you need below about application deadlines and decision dates, what happens after you apply, what’s required for your application and what’s optional, financial aid, and more!
+</p>',
     '/admission/assets/images/quick-facts/1065_Vassar College_exteriors_campus life_Oct 2019_JA.jpg',
     null,
     null,
@@ -61,9 +62,10 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
     'Deadlines',
     '3',
-    '<p class="intro-text">[]</p>',
+    null,
     'items-equal-height theme-cream',
-    'gap-3'
+    'gap-3',
+    ['css' => '--section-intro-width: 56rem']
 ); ?>
 
   <?php echo item_col(); ?>

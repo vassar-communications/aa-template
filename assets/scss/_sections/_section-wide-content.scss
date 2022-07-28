@@ -7,6 +7,7 @@
   .section-intro {
     max-width: 60em;
     margin: 0 auto;
+    margin-bottom: var(--lower-margin, 4rem);
     text-align: center;
   }
   .section-content {

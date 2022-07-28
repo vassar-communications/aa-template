@@ -149,7 +149,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Internships',
-        '[NEED LINK]',
+        'https://offices.vassar.edu/community-engaged-learning/',
           ['url' => '/admission/assets/images/quick-facts/academics/0212-17-07-kr-ursi-frogs-vassar-0026.jpg',
           'alt' => 'Student and professor in a lab of terrariums' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
@@ -161,7 +161,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Study Abroad',
-        '[NEED LINK]',
+        'https://offices.vassar.edu/international-programs/',
           ['url' => '/admission/assets/images/quick-facts/academics/fotino-bryan-morocco-abroad-fba-70251.jpg',
           'alt' => 'Students stand in front of a Moroccan building decorated with mosaic tiles' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'

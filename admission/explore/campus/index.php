@@ -64,7 +64,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A view of Gordon Commons, a large brick building with white columns']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text placeholder">On Vassar’s 1,000-acre campus, students have access to:</p>
+    <p class="intro-text">Vassar’s campus offers students:</p>
 
     <div class="icon-items-list vertically-center-icon">
       <?php echo item_iconItem(

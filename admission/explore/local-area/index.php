@@ -64,8 +64,8 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_wideContent(
-    'Local [CHANGE] Features',
-    '<p>Vassar is [CHANGE THIS] surrounded by ...</p>',
+    'Explore Our Surroundings',
+    '<p class="intro-text">Vassar’s location offers something for everyone—whether you’re interested in attending vibrant community events, sampling excellent food, enjoying the outdoors, or visiting unique local stores and museums.</p>',
     'theme-charcoal has-bg quad-pattern bg-dark',
     ''
 ); ?>
