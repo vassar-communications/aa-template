@@ -66,7 +66,7 @@ $page_classes = null;
 
 $comment
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="{$project_paths['public_path']}/favicon.ico" sizes="any">
 
   <link rel="stylesheet" href="https://use.typekit.net/cga8whe.css">
 
