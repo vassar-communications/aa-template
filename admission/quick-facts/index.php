@@ -49,8 +49,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Here’s everything you need to know.',
-    '<p class="intro-text">We know you have questions. Find the answers you need below about application deadlines and decision dates, what happens after you apply, what’s required for your application and what’s optional, financial aid, and more!
-</p>',
+    'We know you have questions. Find the answers you need below about application deadlines and decision dates, what happens after you apply, what’s required for your application and what’s optional, financial aid, and more!',
     '/admission/assets/images/quick-facts/1065_Vassar College_exteriors_campus life_Oct 2019_JA.jpg',
     null,
     null,
