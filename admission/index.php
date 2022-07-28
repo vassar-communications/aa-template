@@ -205,7 +205,7 @@ echo sec_fixedCenteredTitle(
 
     <?php echo flipcard_stat(
         'Student Orgs',
-        '170',
+        '150+',
         'From volunteer opportunities in our local community to mystery hikes with the Outing Club, Vassar has an organization for everyone.',
         'animation-item',
         '/admission/explore/student-life/'

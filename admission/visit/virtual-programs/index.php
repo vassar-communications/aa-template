@@ -80,11 +80,26 @@ $page_info = [
 
 <?php echo item_col(); ?>
 <p>Students wishing to preview the Vassar campus can watch this 30-minute video tour</p>
-<a href="https://apply.vassar.edu/portal/campusvisitcalendar"  class="px-0 btn btn-link arrow">Watch Video</a>
+<a href="#"  data-video-id="531201548" data-channel="vimeo" class="js-video-btn px-0 btn btn-link arrow">Watch Video</a>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
-<img src="/admission/assets/images/visit/virtual/tour-video-still.jpg" alt="Aerial view of a brick campus building, the New England Building" />
+
+<?php
+echo item_imageCard_videoModal(
+    null,
+    null,
+    '531201548',
+    'vimeo',
+    '',
+    ['url' => '/admission/assets/images/visit/virtual/tour-video-still.jpg',
+        'alt' => 'Aerial view of a brick campus building, the New England Building'
+    ],
+    'animation-item grid-item text-at-bottom text-white'
+);
+
+?>
+
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
@@ -183,3 +198,7 @@ $page_info = [
 <?php echo end_sec_relatedTopics(); ?>
 
 <?php echo site_footer(); ?>
+
+<?php
+echo item_modal_standardVideo();
+?>

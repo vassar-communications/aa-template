@@ -221,7 +221,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Pre-Law',
-        '[NEED LINK]',
+        'https://offices.vassar.edu/careers/graduate-and-law/law-school/',
         ['url' => '/admission/assets/images/quick-facts/academics/0100_16_09_KR_0090.jpg',
         'alt' => 'Graduate in audience with dramatic lighting' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
@@ -233,9 +233,9 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Pre-Med',
-        '[NEED LINK]',
+        'https://offices.vassar.edu/pre-health-advising/',
         ['url' => '/admission/assets/images/quick-facts/academics/0014-19-04-kr-chemistry-vassar-4556.jpg',
-        'alt' => 'replacealttext' ],
+        'alt' => 'A student wearing goggles looks at a test tube' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
     ); ?>
         <p>The Office for Fellowships and Pre-Health Advising provides guidance and assistance to students planning to pursue careers in medicine and other careers in the health professions.</p>
