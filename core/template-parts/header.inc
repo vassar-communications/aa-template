@@ -16,6 +16,20 @@ function site_header($extras=false) {
   global $project_paths;
   global $page_info;
 
+if ( strpos( getcwd(), 'aa-devspace.vassarspaces.net' ) ) {
+  $where_it_is = 'on devspace';
+}
+else {
+  $where_it_is = 'not on devspace (probably local)';
+}
+
+$comment = <<<TMP
+<!-- Site is $where_it_is -->
+TMP;
+
+
+
+
 //  $page_title = $page_info['page_title'];
 
 $page_title = 'Admission';
@@ -54,6 +68,8 @@ $page_classes = null;
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
+
+$comment
 
   <link rel="icon" href="/favicon.ico" sizes="any">
 

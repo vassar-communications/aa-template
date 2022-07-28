@@ -71,21 +71,14 @@ function site_footer() {
 </footer>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
-<script src="{$project_paths['public_path']}/assets/js/libraries/masonry.pkgd.min.js"></script>
 
-
-
-
-<!--
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
--->
-
-<!-- https://trvswgnr.github.io/bs5-lightbox/#videos-gallery
-<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js"></script> -->
+<!-- <script src="{$project_paths['public_path']}/assets/js/libraries/masonry.pkgd.min.js"></script> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 <script src="{$project_paths['public_path']}/assets/js/main.js"></script>
+
 <!-- ☃ -->
+
 </body>
 </html>
 TMP;

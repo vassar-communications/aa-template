@@ -2,10 +2,32 @@
 
 // I'm including all paths in one variable so they can be
 // easily imported into functions if needed
-$project_paths = array(
-  'main_project_root' => $_SERVER['DOCUMENT_ROOT'],
-  'public_path' => ''
-);
+
+
+// This is related to Morgan's scraper
+// If we're on aa-devspace, pretend the root path is /admission
+// not the site root
+
+if ( strpos( getcwd(), 'aa-devspace.vassarspaces.net' ) ) {
+  $project_paths = array(
+    'main_project_root' => $_SERVER['DOCUMENT_ROOT'].'/admission',
+    'public_path' => ''
+  );
+  $where_it_is = 'devspace';
+}
+else {
+  $project_paths = array(
+    'main_project_root' => $_SERVER['DOCUMENT_ROOT'],
+    'public_path' => ''
+  );
+  $where_it_is = 'not devspace (probably local)';
+}
+
+$comment = <<<TMP
+<!--
+Site is on $where_it_is
+-->
+TMP;
 
 //  These are just to make it easier to specify obvious placeholders
 $placeholder_img_banner = '/assets/images/placeholders/placeholder-banner.png';
