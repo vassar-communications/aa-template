@@ -9220,7 +9220,8 @@ This is a generic container element for containing a 100vh fixed-position elemen
 
 .section-title {
   color: var(--section-title-color, --color-vassar-charcoal);
-  font-size: calc(1.465rem + 2.58vw);
+  /* this was causing display issues on mobile */
+  font-size: 4.5rem;
   font-weight: 100;
   text-align: center;
   margin-top: -1em;

@@ -33,8 +33,10 @@
 
 .section-title {
   color: var(--section-title-color, --color-vassar-charcoal);
-  font-size: calc(1.465rem + 2.58vw);
 
+  /* this was causing display issues on mobile */
+  // font-size: calc(1.465rem + 2.58vw);
+font-size: 4.5rem;
   .section-large-title & {
     @include font-size(4.5rem);
   }
