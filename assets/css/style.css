@@ -8902,6 +8902,7 @@ details.open .dropdown__content .col-sm {
 }
 
 .stat-item {
+  background: #fff;
   padding: 2rem;
   border-radius: 0.6rem;
   text-align: center;
@@ -14136,6 +14137,10 @@ p a:hover, ul.style-checklist a:hover {
 .section--wide-content .section-intro {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.bg-transparent {
+  background: transparent !important;
 }
 
 /*# sourceMappingURL=style.css.map */
