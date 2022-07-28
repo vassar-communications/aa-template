@@ -131,7 +131,7 @@ $page_info = json_decode($page_info, true);
 
       <?php echo item_iconItem(
         'Academic Diversity',
-        'file-image',
+        'book-open-reader',
         'icon-on-left'
       ); ?>
           <p>Our campus is a mix of students interested in the natural sciences, social sciences, arts and humanities, as well as some interesting combinations of these disciplines.</p>
@@ -139,7 +139,7 @@ $page_info = json_decode($page_info, true);
 
       <?php echo item_iconItem(
         'Extracurricular Diversity',
-        'file-image',
+        'lightbulb',
         'icon-on-left'
       ); ?>
         <p>Extracurricular diversity is characteristic of our campus culture. A number of students are varsity athletes; others have an inclination to sing, dance, act, improvise, sculpt, film, paint, write, or otherwise create. Some do it all!</p>
@@ -147,7 +147,7 @@ $page_info = json_decode($page_info, true);
 
       <?php echo item_iconItem(
         'Political Diversity',
-        'file-image',
+        'comments',
         'icon-on-left'
       ); ?>
         <p>Politically, our campus is open-minded. Vassar students span the political spectrum. Diversity of opinion is respected, critical thought encouraged, and communication of ideas held as central to a liberal arts education.</p>
@@ -221,7 +221,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'On Campus',
-    $placeholder_img_square,
+    '/admission/assets/images/quick-facts/community/Kaleidoscope-0139_16_11_KR_0077.jpg',
     'image-is-first theme-cream',
     '',
     ['title_level' => '3']
