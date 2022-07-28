@@ -260,8 +260,8 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Dining',
-        '[NEED LINK]',
-        ['url' => $quickfacts_img_path.'0195-19-11-kwe-gordon-vassar-1644.jpg', 'alt' => 'replacealttext' ],
+        'https://vassar.cafebonappetit.com/',
+        ['url' => $quickfacts_img_path.'0195-19-11-kwe-gordon-vassar-1644.jpg', 'alt' => 'Students sit at a table in the large common area of Gordon Commons' ],
         'card--twoscols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
     ); ?>
         <p>All students are on one standardized meal plan, providing unlimited access to the main dining hall from 7 a.m. to 1 a.m., as well as expanded options at Express, the Bridge Café, the Retreat, a food truck, and cook-your-own ingredients.</p>
@@ -272,8 +272,8 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Student Organizations',
         'https://vsa.vassar.edu/',
-        ['url' => $quickfacts_img_path.'0234-17-04-kr-music-event-vassar-0007.jpg', 'alt' => 'replacealttext' ],
-        'card--twsocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
+        ['url' => $quickfacts_img_path.'0234-17-04-kr-music-event-vassar-0007.jpg', 'alt' => 'Students play music on an outdoor stage' ],
+        'card--twsocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link bg-dark'
     ); ?>
         <p>We have over 170 active student organizations, including theater groups, <em>a cappella</em> groups, student government, political organizations, and several student publications. We even have a juggling/circus troupe.</p>
     <?php echo end_item_cardWithText('Learn more about student orgs'); ?>
