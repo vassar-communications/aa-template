@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
     2,
     null,
     'animate-when-content-appears animation-slide-up theme-dark-burgundy',
-    'flex-equal align-items-center d-flex flex-md-row'
+    'flex-equal align-items-center d-flex flex-column flex-md-row'
 ); ?>
 
 <?php echo item_col('equal'); ?>

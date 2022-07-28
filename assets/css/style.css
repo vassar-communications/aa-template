@@ -14116,6 +14116,9 @@ p a:hover, ul.style-checklist a:hover {
   .section--top-level-masthead .section-bg:after {
     height: var(--partial-masthead-height, 90vw);
   }
+  ul.style-checklist {
+    padding: 1rem;
+  }
 }
 @media (max-width: 1200px) {
   .flipcards.grid.cols-4, .grid.cols-4, .commonquestions.grid.cols-3 {
