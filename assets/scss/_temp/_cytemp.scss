@@ -270,6 +270,23 @@ p a:hover, ul.style-checklist a:hover {
 /*homepage */
 
 
+@media (max-width: 1023px) {
+
+  .section--edge-to-edge .carousel-cell {
+    padding: 1rem;
+  }
+  .figcaption {
+    max-width: 100%;
+  }
+
+  .partial-masthead .title-container, .partial-masthead .section-bg {
+    height: var(--partial-masthead-height, 90vw);
+  }
+
+  .section--top-level-masthead .section-bg:after {
+    height: var(--partial-masthead-height, 90vw);
+  }
+}
 
 @media (max-width: 1200px) {
   .flipcards.grid.cols-4, .grid.cols-4 ,  .commonquestions.grid.cols-3,{
