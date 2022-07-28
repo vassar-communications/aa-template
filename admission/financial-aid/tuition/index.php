@@ -47,8 +47,8 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
-<div class="fancy-stats-container animate-when-content-appears my-5">
-    <div class="col-item stat-item item-students">
+<div class="fancy-stats-container flex-column flex-lg-row animate-when-content-appears my-5">
+    <div class="col-item  stat-item item-students">
         <div class="stat-item-fact">
             <div class="tagline">Tuition</div>
             <div class="display-2">$61,940</div>
@@ -59,7 +59,7 @@ $page_info = json_decode($page_info, true);
     </div>
 
 
-    <div class="col-item symbol-item symbol-div">
+    <div class="col-item symbol-item symbol-div d-none d-lg-block">
         <!-- ÷ -->
     </div>
 
@@ -73,7 +73,7 @@ $page_info = json_decode($page_info, true);
         </div>
     </div>
 
-    <div class="col-item symbol-item symbol-equals">
+    <div class="col-item symbol-item symbol-equals d-none d-lg-block">
         <!-- = -->
     </div>
 
