@@ -11178,6 +11178,11 @@ html {
   max-width: 90ch;
 }
 
+@media (max-width: 1023px) {
+  .masthead--interiorPage .full-bleed-image-container {
+    max-height: 60vh;
+  }
+}
 /*
   This styling builds off that for sec_fullBleedImageColumn.
 */
