@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
 <p>
     Sign up to receive updates from the Vassar Office of Admission.</p>
 
-<p class="fix">
+<p class="hey-im-broken">
     Embed Mailing List Sign-up form</p>
 
 

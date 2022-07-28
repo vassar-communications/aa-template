@@ -11,7 +11,7 @@ $faculty_icon = get_icon('chalkboard-user');
 $ratio_icon = get_icon('people-group');
 
 return <<<TMP
-<div class="fancy-stats-container animate-when-content-appears">
+<div class="fancy-stats-container animate-when-content-appears  flex-column flex-md-row">
   <div class="col-item stat-item item-students">
     <div class="stat-item-fact">
       <div class="stat-value">2,500</div>

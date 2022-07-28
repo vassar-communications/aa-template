@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/explore/academics/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/academics/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/connect/for-counselors/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/connect/for-counselors/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/quick-facts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/quick-facts/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/packages/bootstrap-scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/packages/bootstrap-scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/packages/bootstrap-scss/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/packages/bootstrap-scss/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_animations/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_animations/_all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_content-sections/_navigation-breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_content-sections/_navigation-breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_items/_flipcard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_items/_flipcard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_items/_stat-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_items/_stat-item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_layouts/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_layouts/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_libraries/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_libraries/_all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_sections/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_sections/_all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_sections/_section-word-by-word.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_sections/_section-word-by-word.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/_temp/_cytemp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_temp/_cytemp.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_themes/_themes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_themes/_themes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_variables/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_variables/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/items/imageCard_videoModal.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/items/imageCard_videoModal.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sections/content_sections/fancy-stats.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/content_sections/fancy-stats.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sections/universal_sections/siteHeader_video.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/universal_sections/siteHeader_video.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +53,7 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2AEegew7fXTDQTBuo0uikOZ4rHK" />
   <component name="ProjectLevelVcsManager">
@@ -87,6 +104,7 @@
       <workItem from="1657276853319" duration="56020000" />
       <workItem from="1657765727741" duration="22691000" />
       <workItem from="1658910269180" duration="17914000" />
+      <workItem from="1658979377387" duration="10425000" />
     </task>
     <servers />
   </component>

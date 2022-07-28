@@ -35,7 +35,7 @@ return <<<TMP
 
       <div class="title-cover">
         <h1 class="display-1">Admission</h1>
-        <div class="cover-content">
+        <div class="cover-content d-flex flex-column flex-md-row">
 TMP;
 }
 

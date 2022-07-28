@@ -197,7 +197,7 @@ $page_info = json_decode($page_info, true);
     'Optional',
     '2',
     '',
-    'theme-extralightgray has-top-border mw-inner-3',
+    'theme-extralightgray border-top mw-inner-3',
     '',
     ['title_level' => '3']
 ); ?>

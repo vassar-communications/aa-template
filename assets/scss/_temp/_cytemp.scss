@@ -1,6 +1,6 @@
 
 .fix, .fix  a, a.fix {
-  color: #2ec92e !important;
+  color: #61ff00 !important;
   font-weight: 700;
   font-style: italic;
 }
@@ -261,4 +261,33 @@ p a:hover, ul.style-checklist a:hover {
 .paused .videoplayer_icon_play {
   -webkit-transform: translate(-50%, -50%) scale(1);
   transform: translate(-50%, -50%) scale(1);
+}
+
+
+/* Let the media queries begin */
+
+/*homepage */
+
+
+
+@media (max-width: 1200px) {
+  .flipcards.grid.cols-4,   .commonquestions.grid.cols-3,{
+
+    --bs-columns: 2;
+  }
+
+
+}
+
+@media (max-width: 600px) {
+
+
+  .grid.cols-2, .grid.cols-3, .commonquestions.grid.cols-3, .flipcards.grid.cols-4 {
+    --bs-columns: 1;
+  }
+
+  .staggered-grid, .staggered-grid-reverse, .tiktok-grid{
+    grid-template-columns: 1fr;
+  }
+
 }
