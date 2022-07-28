@@ -16,12 +16,7 @@ function site_header($extras=false) {
   global $project_paths;
   global $page_info;
 
-if ( strpos( getcwd(), 'aa-devspace.vassarspaces.net' ) ) {
-  $where_it_is = 'on devspace';
-}
-else {
-  $where_it_is = 'not on devspace';
-}
+$where_it_is = $project_paths['comment'];
 
 $comment = <<<TMP
 <!-- Site is $where_it_is -->
