@@ -27,7 +27,7 @@ $template = <<<TMP
     <div class="section px-0">
         <div class="row align-items-start">
             <div class="col-md-6">
-                <h6 class="tagline mb-4">Office of Admission</h6>
+                <h6 class="tagline mb-4"><a href="/admission/">Office of Admission</a></h6>
                 <div class="nav-item d-flex justify-content-between text-light h5 display-5">
                 <a class="text-white main-nav-link" href="/admission/explore/">Explore Vassar</a></a><a href="#admission-explore" class="collapsed display-4 text-white" data-bs-toggle="collapse"
                 data-bs-target="#admission-explore" aria-expanded="false" aria-controls="collapseOne">+</a>

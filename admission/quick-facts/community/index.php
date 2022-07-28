@@ -271,7 +271,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Student Organizations',
-        '[NEED LINK]',
+        'https://vsa.vassar.edu/',
         ['url' => $quickfacts_img_path.'0234-17-04-kr-music-event-vassar-0007.jpg', 'alt' => 'replacealttext' ],
         'card--twsocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
     ); ?>

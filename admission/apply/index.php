@@ -69,7 +69,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'First-Year applicants',
+    'First-Year Applicants',
     $admission_img_path.'apply/0007_16_02_KR_0083.jpg',
     'theme-cream',
     ''
