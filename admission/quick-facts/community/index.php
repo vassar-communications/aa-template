@@ -38,6 +38,13 @@ $page_info = json_decode($page_info, true);
   grid-column: span 3;
 }
 
+
+@media (max-width: 600px) {
+    .cols-6 .section-content {
+        grid-template-columns: 1fr;
+    }
+
+}
 </style>
 
 
