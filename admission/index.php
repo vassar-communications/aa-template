@@ -158,7 +158,7 @@ echo sec_fixedCenteredTitle(
     text-align: left;">Vassar is from <span id="x-where-from">everywhere</span></h2>
    <h3 class="section-intro-text">World-class educations are built on world-wide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will study abroad while at Vassar.</h3>
 <div class="text-center mb-5">
-<a href="" class="btn btn-lg btn-light arrow">Meet Vassar</a>
+<a href="/admission/quick-facts/community/" class="btn btn-lg btn-light arrow">Meet Vassar</a>
 </div>',
 
     'sec-fixedCenteredTitle theme-charcoal-to-white xhide-image',
@@ -490,7 +490,7 @@ All Vassar students are surrounded by an environment designed to spark something
 
 
 <div class="text-center mt-3 pt-5">
-    <a href="" class="btn btn-lg btn-light arrow">Schedule a Campus Visit</a>
+    <a href="/admission/visit/in-person/" class="btn btn-lg btn-light arrow">Schedule a Campus Visit</a>
 </div>
 
 
@@ -573,8 +573,8 @@ All Vassar students are surrounded by an environment designed to spark something
 </div>
 
 <div class="text-center mt-5">
-    <a href="" class="m-2 btn btn-lg btn-light arrow">More quick facts</a>
-    <a href="" class="m-2 btn btn-lg btn-light arrow">Contact us</a>
+    <a href="/admission/quick-facts/" class="m-2 btn btn-lg btn-light arrow">More quick facts</a>
+    <a href="/admission/connect/" class="m-2 btn btn-lg btn-light arrow">Contact us</a>
 
 </div>
 
@@ -588,12 +588,7 @@ All Vassar students are surrounded by an environment designed to spark something
 <?php echo newsCarousel(); ?>
 
 
-
-
-
- <?php
- echo item_modal_standardVideo();
- ?>
+ <?php echo item_modal_standardVideo(); ?>
 
 
 
