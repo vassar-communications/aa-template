@@ -9220,8 +9220,7 @@ This is a generic container element for containing a 100vh fixed-position elemen
 
 .section-title {
   color: var(--section-title-color, --color-vassar-charcoal);
-  /* this was causing display issues on mobile */
-  font-size: 4.5rem;
+  font-size: calc(1.465rem + 2.58vw);
   font-weight: 100;
   text-align: center;
   margin-top: -1em;
@@ -14028,6 +14027,7 @@ p a:hover, ul.style-checklist a:hover {
 /*video header play pause */
 .btn.btn-link {
   padding: 0.5rem 0 !important;
+  text-align: left;
 }
 
 .btn.btn-link:active:focus, .btn.btn-link.active:focus {
@@ -14104,17 +14104,21 @@ p a:hover, ul.style-checklist a:hover {
 /* Let the media queries begin */
 /*homepage */
 @media (max-width: 1200px) {
-  .flipcards.grid.cols-4, .commonquestions.grid.cols-3 {
+  .flipcards.grid.cols-4, .grid.cols-4, .commonquestions.grid.cols-3 {
     --bs-columns: 2;
   }
 }
 @media (max-width: 600px) {
-  .grid.cols-2, .grid.cols-3, .commonquestions.grid.cols-3, .flipcards.grid.cols-4 {
+  .grid.cols-2, .grid.cols-3, .commonquestions.grid.cols-3, .flipcards.grid.cols-4, .grid.cols-4 {
     --bs-columns: 1;
   }
   .staggered-grid, .staggered-grid-reverse, .tiktok-grid {
     grid-template-columns: 1fr;
   }
+}
+.section--wide-content .section-intro {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
