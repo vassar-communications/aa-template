@@ -14,6 +14,7 @@ function sec_hasColumns(
     if( $columns == '' ) $columns = 2;
 
     $css = get_extras_value( 'css', $extras, 'style="%s"' );
+    $id = get_extras_value( 'id', $extras, 'id="%s"' );
 
     $intro_markup = false;
     if($intro) {
@@ -36,7 +37,7 @@ function sec_hasColumns(
     }
 
     return <<<TMP
-  <div class="section section-with-columns columns-$columns $section_classes" $css>
+  <div $id class="section section-with-columns columns-$columns $section_classes" $css>
     {$section_title( $title, $title_classes, $title_level )}
     {$bg_image($extras)}
     $intro_markup

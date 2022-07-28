@@ -149,7 +149,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Internships',
-        '[NEED LINK]',
+        'https://offices.vassar.edu/community-engaged-learning/',
           ['url' => '/admission/assets/images/quick-facts/academics/0212-17-07-kr-ursi-frogs-vassar-0026.jpg',
           'alt' => 'Student and professor in a lab of terrariums' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
@@ -161,7 +161,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Study Abroad',
-        '[NEED LINK]',
+        'https://offices.vassar.edu/international-programs/',
           ['url' => '/admission/assets/images/quick-facts/academics/fotino-bryan-morocco-abroad-fba-70251.jpg',
           'alt' => 'Students stand in front of a Moroccan building decorated with mosaic tiles' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
@@ -222,7 +222,8 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Pre-Law',
         '[NEED LINK]',
-        ['url' => $placeholder_img_vertical, 'alt' => 'replacealttext' ],
+        ['url' => '/admission/assets/images/quick-facts/academics/0100_16_09_KR_0090.jpg',
+        'alt' => 'Graduate in audience with dramatic lighting' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
     ); ?>
         <p>Pre-law Advising is handled by the Office of Career Development, also with faculty support. Both encourage students to come to their offices to discuss any questions they have with respect to pre-law studies and the law school application process.</p>
@@ -233,7 +234,8 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Pre-Med',
         '[NEED LINK]',
-        ['url' => $placeholder_img_vertical, 'alt' => 'replacealttext' ],
+        ['url' => '/admission/assets/images/quick-facts/academics/0014-19-04-kr-chemistry-vassar-4556.jpg',
+        'alt' => 'replacealttext' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
     ); ?>
         <p>The Office for Fellowships and Pre-Health Advising provides guidance and assistance to students planning to pursue careers in medicine and other careers in the health professions.</p>

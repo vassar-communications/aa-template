@@ -31,9 +31,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Financial Aid',
-    $placeholder_img_square,
+    '/admission/assets/images/financial-aid/0050_14_05_JA_1874.jpg',
     'image-is-first theme-cream',
-    ''
+    null,
+    ['img_alt_text' => 'Students graduating outside and throwing their caps in the air.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Through a generous financial aid program, Vassar meets 100% of the full demonstrated need of all admitted students for all four years. Financial aid is awarded exclusively on the basis of need as determined by the Free Application for Federal Student Aid (FAFSA) and the CSS Profile.</p>

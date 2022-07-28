@@ -20,14 +20,16 @@ $page_info = json_decode($page_info, true);
 
 <?php echo vassar_masthead(); ?>
 
+<?php echo hamburger_navigation(); ?>
+
 
 <!--<div class="buffer"></div>-->
 
 <?php echo sec_siteHeader_video(); ?>
 
-<a href="/admission/apply/" class="mx-2 btn btn-lg btn-primary arrow">Apply</a>
-<a href="/admission/visit/" class="mx-2 btn btn-lg btn-primary arrow">Visit</a>
-<a href="https://apply.vassar.edu/register/requestinfo" class="mx-2 btn btn-lg btn-primary arrow">Request Info</a>
+<a href="/admission/apply/" class="m-2 btn btn-lg btn-primary arrow">Apply</a>
+<a href="/admission/visit/" class="m-2  btn btn-lg btn-primary arrow">Visit</a>
+<a href="https://apply.vassar.edu/register/requestinfo" class="m-2 btn btn-lg btn-primary arrow">Request Info</a>
 
 <?php echo end_sec_siteHeader_video(); ?>
 
@@ -180,7 +182,7 @@ echo sec_fixedCenteredTitle(
 
 <?php echo row_fancyStats(); ?>
 
-<div class="d-flex animation-zoom-in animate-when-content-appears animation-group" style="gap: 2vw; --flipcard-height: 14rem">
+<div class="grid cols-4 flipcards animation-zoom-in animate-when-content-appears animation-group  flex-column flex-md-row" style="gap: 2vw; --flipcard-height: 14rem">
 
     <?php echo flipcard_stat(
         'Average Aid Award',
@@ -423,7 +425,7 @@ All Vassar students are surrounded by an environment designed to spark something
         null,
         '7fjWRvjKH5E',
         'youtube',
-        '',
+        null,
         ['url' => '/admission/assets/images/admission-home/video/words-4.jpg',
             'alt' => 'Student being interviewed'
         ],
@@ -436,42 +438,54 @@ All Vassar students are surrounded by an environment designed to spark something
 
 
 <div class="animation-group staggered-grid tiktok-grid animation-zoom-in animate-when-content-appears gap-3  mb-3">
+
     <?php
-    echo item_imageCard_modal(
+    echo item_imageCard_videoModal(
         get_icon('play').'Day in the Life',
         null,
-        'tiktok1-modal',
-        null,
+        '',
+        'custom',
+        '/admission/assets/videos/day-in-life.mp4',
         ['url' => '/admission/assets/images/admission-home/video/day-1.jpg',
             'alt' => 'Student working on a laptop in front of a window'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
+
     ?>
+
+
     <?php
-    echo item_imageCard_modal(
+    echo item_imageCard_videoModal(
         get_icon('play').'Dorm Tour',
         null,
-        'tiktok2-modal',
-        null,
+        '',
+        'custom',
+        '/admission/assets/videos/dorm-a.mp4',
         ['url' => '/admission/assets/images/admission-home/video/dorm-a-1.jpg',
             'alt' => 'View of campus quad through a sunny window'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
+
     ?>
+
     <?php
-    echo item_imageCard_modal(
+    echo item_imageCard_videoModal(
         get_icon('play').'Dorm Tour',
         null,
-        'tiktok3-modal',
-        null,
+        '',
+        'custom',
+        '/admission/assets/videos/dorm-b.mp4',
         ['url' => '/admission/assets/images/admission-home/video/dorm-b.jpg',
             'alt' => 'Decorative string lights on a dorm wall'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
+
     ?>
+
+
 </div>
 
 
@@ -512,7 +526,7 @@ All Vassar students are surrounded by an environment designed to spark something
 // visit/0216-18-10-jsu-fall-drone-vassar-R01895.jpg ?>
 
 
-<div class="grid cols-3 animation-group animation-zoom-in animate-when-content-appears" style="--bs-gap: 1rem">
+<div class="grid cols-3 commonquestions animation-group animation-zoom-in animate-when-content-appears" style="--bs-gap: 1rem">
 
     <?php echo item_iconButton(
         'house-chimney-user',
@@ -559,8 +573,8 @@ All Vassar students are surrounded by an environment designed to spark something
 </div>
 
 <div class="text-center mt-5">
-    <a href="" class="btn btn-lg btn-light arrow">More quick facts</a>
-    <a href="" class="btn btn-lg btn-light arrow">Contact us</a>
+    <a href="" class="m-2 btn btn-lg btn-light arrow">More quick facts</a>
+    <a href="" class="m-2 btn btn-lg btn-light arrow">Contact us</a>
 
 </div>
 
@@ -573,64 +587,6 @@ All Vassar students are surrounded by an environment designed to spark something
 
 <?php echo newsCarousel(); ?>
 
-
-
-
-
-
-<?php
-echo item_imageCard_modal_setup(
-    get_icon('play').'Day in the Life',
-    null,
-    'tiktok1-modal',
-    '<div class="tiktok bg-dark">
-<video class="video" width="500" height="240" controls>
-  <source src="/admission/assets/videos/day-in-life.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-</div>',
-    ['url' => '/admission/fav-places-2/studio.jpg',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-?>
-
-<?php
-echo item_imageCard_modal_setup(
-    get_icon('play').'Dorm Tour',
-    null,
-    'tiktok2-modal',
-    '<div class="tiktok bg-dark">
-<video class="video" width="500" height="240" controls poster="/admission/assets/images/admission-home/video/dorm-a-poster-lg.jpg">
-  <source src="/admission/assets/videos/dorm-a.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-</div>',
-    ['url' => '',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-?>
-
-<?php
-echo item_imageCard_modal_setup(
-    get_icon('play').'Dorm Tour',
-    null,
-    'tiktok3-modal',
-    '<div class="tiktok bg-dark">
-<video class="video" width="500" height="240" controls>
-  <source src=/admission/assets/videos/dorm-b.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-</div>',
-    ['url' => '',
-        'alt' => 'asdfasdf'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-?>
 
 
 

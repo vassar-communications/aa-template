@@ -159,7 +159,7 @@ $page_info = json_decode($page_info, true);
 <p>One of the country’s hidden gems is just off campus. Poughkeepsie and the Hudson Valley boast a variety of cultural experiences, dining, shopping, and 22 surrounding parks.</p>
 
 <?php echo cta_link(
-     '/admission/explore/poughkeepsie-hudson-valley/',
+     '/admission/explore/local-area/',
      'Explore Local'
    ); ?>
 

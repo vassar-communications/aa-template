@@ -1,16 +1,12 @@
-
 // This should contain all interior page nav styling.
 
-
-
 // Settings
-
 
 $nav-item-border-size: 2px;
 
 :root {
-  --underline-color: #f00;
-  --section-nav-emphasis-color: #{$link-red};
+  --underline-color: #{$red};
+  --section-nav-emphasis-color: #{$red};
   --nav-outline-color: #{$gold};
 }
 
@@ -37,10 +33,6 @@ $nav-item-border-size: 2px;
     margin-bottom: 4rem;
     max-width: 80rem;
   }
-
-
-
-
 
   .breadcrumb {
     padding: 1rem 0 0.8rem 0;
@@ -107,14 +99,14 @@ a.breadcrumb-link {
 
 
 .breadcrumb-link {
- --section-link-color: #333;
- --section-link-visited-color: #333;
- --section-link-hover-color: #f00;
+ --section-link-color: #{$gray-600};
+ --section-link-visited-color: #{$gray-600};
+ --section-link-hover-color: #{$red};
 
 }
 .breadcrumb-item:last-child a {
-  --section-link-color: #{$link-red};
-  --section-link-visited-color: #{$link-red};
+  --section-link-color: #{$red};
+  --section-link-visited-color: #{$red};
 }
 
 .local-nav {

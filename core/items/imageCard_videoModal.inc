@@ -5,7 +5,7 @@ function item_imageCard_VideoModal(
     $text,
     $videourl,
     $channel,
-    $content_markup,
+    $mp4url,
     $card_image_info,
     $classes='',
     $extras=null
@@ -27,7 +27,7 @@ function item_imageCard_VideoModal(
 
     return <<<TMP
     
-<button type="button" class="card card-full-image js-video-btn $classes"  data-video-id="$videourl" data-channel="$channel">
+<button type="button" class="card card-full-image js-video-btn $classes"  data-video-id="$videourl" data-video-url="$mp4url" data-channel="$channel">
   <img src="$card_image_url" class="card-img" alt="$card_image_alt">
   <div class="card-img-overlay">
     <div class="card-img-content">

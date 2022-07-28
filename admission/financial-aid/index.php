@@ -144,12 +144,15 @@ $page_info = json_decode($page_info, true);
     'mw-4'
 ); ?>
 
+  <div class="card plain-text-card text-center mw-1 mx-auto shadow-lg">
+    <h2>Aid Calculators</h2>
+    <p>Calculate your cost</p>
 
-<h2>Aid Calculators</h2>
-<p>Calculate your cost</p>
-<p>
-    <a href="/admission/financial-aid/aid-calculators/" class="px-0 btn btn-link arrow">Go to Calculators</a>
-</p>
+    <?php echo cta_link(
+      '/admission/financial-aid/forms/#calculate-your-cost',
+      'Go to Calculators'
+    ); ?>
+  </div>
 <?php echo end_sec_wideContent(); ?>
 
 <?php echo site_footer(); ?>

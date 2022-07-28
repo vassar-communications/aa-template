@@ -73,7 +73,7 @@ $page_info = [
     2,
     null,
     'theme-dark-burgundy section-large-title',
-    'd-flex align-items-center'
+    'd-flex flex-column flex-md-row align-items-center'
 ); ?>
 
 

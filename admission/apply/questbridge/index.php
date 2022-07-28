@@ -47,7 +47,7 @@ $page_info = json_decode($page_info, true);
 
     <?php echo cta_link(
       'https://www.questbridge.org/',
-      'Visit Questbridge.org'
+      'Visit QuestBridge.org'
     ); ?>
 
 </div>

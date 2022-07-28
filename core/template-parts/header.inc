@@ -16,6 +16,15 @@ function site_header($extras=false) {
   global $project_paths;
   global $page_info;
 
+$where_it_is = $project_paths['comment'];
+
+$comment = <<<TMP
+<!-- Site is $where_it_is -->
+TMP;
+
+
+
+
 //  $page_title = $page_info['page_title'];
 
 $page_title = 'Admission';
@@ -54,6 +63,8 @@ $page_classes = null;
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
+
+$comment
 
   <link rel="icon" href="/favicon.ico" sizes="any">
 

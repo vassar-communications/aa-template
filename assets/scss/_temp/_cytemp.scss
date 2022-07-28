@@ -1,6 +1,6 @@
 
 .fix, .fix  a, a.fix {
-  color: #2ec92e !important;
+  color: #61ff00 !important;
   font-weight: 700;
   font-style: italic;
 }
@@ -160,6 +160,10 @@ p a:hover, ul.style-checklist a:hover {
 }
 
 
+.theme-burgundy .linked-list a:hover {
+  background: rgba(255,255,255,0.2);
+}
+
  /*text buttons */
 
 
@@ -182,6 +186,7 @@ p a:hover, ul.style-checklist a:hover {
 
 .btn.btn-link {
   padding: 0.5rem 0!important;
+  text-align: left;
 }
 
 .btn.btn-link:active:focus, .btn.btn-link.active:focus {
@@ -257,4 +262,65 @@ p a:hover, ul.style-checklist a:hover {
 .paused .videoplayer_icon_play {
   -webkit-transform: translate(-50%, -50%) scale(1);
   transform: translate(-50%, -50%) scale(1);
+}
+
+
+/* Let the media queries begin */
+
+/*homepage */
+
+
+@media (max-width: 1023px) {
+
+  .section--edge-to-edge .carousel-cell {
+    padding: 1rem;
+  }
+  .figcaption {
+    max-width: 100%;
+  }
+
+  .partial-masthead .title-container, .partial-masthead .section-bg {
+    height: var(--partial-masthead-height, 90vw);
+  }
+
+  .section--top-level-masthead .section-bg:after {
+    height: var(--partial-masthead-height, 90vw);
+  }
+
+
+  ul.style-checklist {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .flipcards.grid.cols-4, .grid.cols-4 ,  .commonquestions.grid.cols-3,{
+
+    --bs-columns: 2;
+  }
+
+
+}
+
+@media (max-width: 600px) {
+
+
+  .grid.cols-2, .grid.cols-3, .commonquestions.grid.cols-3, .flipcards.grid.cols-4, .grid.cols-4 {
+    --bs-columns: 1;
+  }
+
+  .staggered-grid, .staggered-grid-reverse, .tiktok-grid, {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+.section--wide-content .section-intro {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.bg-transparent {
+  background: transparent!important;
 }

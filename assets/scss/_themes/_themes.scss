@@ -196,7 +196,7 @@ a.btn-link {
   }
 }
 
-
+/*CS Review Start -  Drop the rose*/
 
 .theme-rose {
   --section-bg-color: var(--color-vassar-rose);
@@ -217,6 +217,7 @@ a.btn-link {
   }
 }
 
+/*CS Review End*/
 
 .theme-black-to-white {
   background-color: #000;
@@ -266,6 +267,8 @@ a.btn-link {
 
 
 
+/*CS Review Start seems unecesssary we are only using this once on the quick facts page can be achieved with standard border class?) */
+
 .has-top-border {
   position: relative;
 
@@ -279,6 +282,12 @@ a.btn-link {
   }
 }
 
+/*CS Review End*/
+
+/*CS Review Start - Unused Class*/
+
 .gray-top-border {
   --section-top-border: #rgba(0,0,0,0.4);
 }
+
+/*CS Review End*/

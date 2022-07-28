@@ -342,22 +342,6 @@ $(document).ready(function () {
     });
 
 
-
-    $('.card-array .section-content ').masonry({
-        // options
-        itemSelector: '.card'
-        //  columnWidth: 200
-    });
-
-    $('.layout-masonry').masonry({
-        // options
-        itemSelector: '.masonry-item',
-        columnWidth: '.grid-sizer',
-        percentPosition: true,
-        gutter: 10
-
-    });
-
     const iframe = document.getElementById("main-video");
 
     if (iframe) {

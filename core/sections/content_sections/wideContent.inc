@@ -21,16 +21,19 @@ function sec_wideContent(
         $section_classes .= ' has-image';
     }
 
-    if ($intro !== null)
-        $section_classes .= ' has-intro';
+    $wrapped_intro = '';
+    if ($intro !== null) {
+      $section_classes .= ' has-intro';
+
+      $wrapped_intro = '<div class="section-intro">'.$intro.'</div>';
+
+    }
 
     return <<<TMP
     <div class="section section--wide-content $section_classes">
     {$section_title($title, $title_classes)}
     {$bg_image($extras)}
-    <div class="section-intro">
-      $intro
-    </div>
+    $wrapped_intro
     <div class="section-content $content_classes">
     TMP;
 }

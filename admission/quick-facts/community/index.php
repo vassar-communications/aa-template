@@ -38,6 +38,13 @@ $page_info = json_decode($page_info, true);
   grid-column: span 3;
 }
 
+
+@media (max-width: 600px) {
+    .cols-6 .section-content {
+        grid-template-columns: 1fr;
+    }
+
+}
 </style>
 
 
@@ -473,6 +480,7 @@ echo sec_hasColumns(
     ); ?>
   <?php echo end_item_col(); ?>
 
+<!--
   <?php echo item_col(); ?>
     <?php echo item_stat(
       'Right Now – ☀️',
@@ -480,7 +488,7 @@ echo sec_hasColumns(
       28<span class="stat-unit">°C</span>'
     ); ?>
   <?php echo end_item_col(); ?>
-
+-->
 
 
 <?php echo end_sec_hasColumns(); ?>

@@ -36,7 +36,7 @@ TMP;
   else $title_markup = null;
 
 return <<<TMP
-<div class="icon-item $classes" $css>
+<div class="icon-item d-flex flex-column flex-sm-row $classes" $css>
 $custom_styling
   <div class="icon-container">
     <i class="fa fa-$icon the-icon"></i>

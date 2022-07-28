@@ -3,7 +3,7 @@
 
 function admissionExploreHudsonCarousel () {
     return <<<TMP
- 
+
 <div class="featureImage-text-ticker media-carousel fade-nonselected full" id="gallery">
 
 <div class="carousel-cell">
@@ -13,13 +13,13 @@ function admissionExploreHudsonCarousel () {
         </div>
         <div class="figcaption pt-5">
             <h3 class="h3">Arlington</h3>
-            <p>The Arlington District of Poughkeepsie is a vibrant community in Dutchess County. It’s home to Vassar and features a rich selection of cuisine, specialty retail shops, and community events. 
+            <p>The Arlington District of Poughkeepsie is a vibrant community in Dutchess County. It’s home to Vassar and features a rich selection of cuisine, specialty retail shops, and community events.
         </p>
         </div>
     </div>
 </div>
-  
-  
+
+
 <div class="carousel-cell">
     <div class="carousel-cell-content">
         <div class="image-container">
@@ -32,7 +32,7 @@ function admissionExploreHudsonCarousel () {
         </div>
     </div>
 </div>
-  
+
 <div class="carousel-cell">
     <div class="carousel-cell-content">
         <div class="image-container">
@@ -46,8 +46,8 @@ function admissionExploreHudsonCarousel () {
     </div>
 </div>
 
-  
-  
+
+
 <div class="carousel-cell">
     <div class="carousel-cell-content">
         <div class="image-container">
@@ -60,8 +60,8 @@ function admissionExploreHudsonCarousel () {
         </div>
     </div>
 </div>
-  
-  
+
+
 <div class="carousel-cell">
     <div class="carousel-cell-content">
         <div class="image-container">
@@ -90,7 +90,7 @@ function admissionExploreHudsonCarousel () {
 <div class="carousel-cell">
     <div class="carousel-cell-content">
         <div class="image-container">
-        <img src="/assets/images/placeholders/main-placeholder.jpg" />
+        <img src="/admission/assets/images/explore/hudson/Depositphotos_357058764_XL.jpg" alt="A photo of a downtown city street with a blue sky behind the buildings" />
         </div>
         <div class="figcaption pt-5">
             <h3 class="h3">Main Mall Row</h3>
