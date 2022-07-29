@@ -6,7 +6,7 @@
   100% {
     transform: translateY(0.3em); } }
 
-
+  @media (min-aspect-ratio: 3/2) {
 .video-header,
 .sec-fixedCenteredTitleMasthead.show-title {
   position: relative;
@@ -29,4 +29,5 @@
     font-size: 2rem;
     opacity: 0.4;
   }
+}
 }

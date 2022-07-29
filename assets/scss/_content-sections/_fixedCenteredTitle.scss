@@ -173,10 +173,11 @@ This should be a section option
   .section-bg-image-container {
     .section-bg-image {
       position: absolute !important;
+      object-fit: cover;
+      height: 100vh;
     }
   }
 }
-
 
 .sec-fixedCenteredTitle {
   .section-title {

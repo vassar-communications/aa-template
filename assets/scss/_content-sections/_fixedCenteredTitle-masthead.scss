@@ -5,11 +5,30 @@ This should be a section option
  */
 
 
+// $full-masthead-height: var(--full-masthead-height);
+
+ :root {
+   --full-masthead-height: 80vw;
+
+   @media (min-aspect-ratio: 3/2) {
+     --full-masthead-height: 100vh;
+   }
+ }
+
+
 
 
 .sec-fixedCenteredTitleMasthead {
  // min-height: 100vh;
  // padding-top: 80vh;
+ height: var(--full-masthead-height);
+  .section-title-container,
+  .section-bg-image-container {
+    height: var(--full-masthead-height);
+  }
+    .section-bg-image {
+    height: var(--full-masthead-height);
+    }
 
  .supertitle {
      font-size: 2rem !important;
@@ -82,10 +101,6 @@ This should be a section option
   }
   &.show-content {
 
-    .section-bg-image {
-//      opacity: var(--section-bg-image-opacity, 0.2);
-//      filter: grayscale(100%);
-    }
     .section-title {
       opacity: var(--section-title-faded-opacity, 1);
       color: var(--section-title-faded-color, #fff);
