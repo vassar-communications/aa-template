@@ -72,3 +72,14 @@
     bottom: 0;
   }
 }
+
+
+// carousel
+.featureImage-text-ticker {
+  @include break(md, max) {
+    .carousel-cell {
+      max-width: 90%;
+      margin: 0 auto 2rem auto;
+    }
+  }
+}

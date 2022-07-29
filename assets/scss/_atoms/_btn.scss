@@ -1,0 +1,6 @@
+.btn {
+  &:hover {
+    background: var(--btn-bg-color-hover, #333);
+    color: var(--btn-text-color-hover, #fff);
+  }
+}

@@ -169,11 +169,23 @@ This should be a section option
   opacity: 0;
 }
 
-
 .is-ios {
-  .sec-fixedCenteredTitle {
-    .section-title-container {
-      position: absolute;
+  .section-bg-image-container {
+    .section-bg-image {
+      position: absolute !important;
+    }
+  }
+}
+
+
+.sec-fixedCenteredTitle {
+  .section-title {
+    @include break(md, max) {
+      padding: 4vw;
+      --section-title-size: 16vw;
+    }
+    @include break(md) {
+      --section-title-size: 8vw;
     }
   }
 }

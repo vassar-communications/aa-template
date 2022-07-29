@@ -14,14 +14,3 @@
 @import "_themes/_all";
 @import "_utilities/_all";
 @import "_temp/_all";
-
-
-.is-ios {
-  border: 3rem solid #f00 !important;
-
-  .section-bg-image-container {
-    .section-bg-image {
-      position: absolute !important;
-    }
-  }
-}
