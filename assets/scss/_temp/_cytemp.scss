@@ -146,13 +146,17 @@
 }
 
 
- p a, ul.style-checklist a {
+ p a,
+ ul.style-checklist a {
    text-decoration: none;
-   border-bottom: 1px solid  $gray-600;
+   border-bottom: 1px solid var(--link-underline-color, $gray-600);
+
  }
 
-p a:hover, ul.style-checklist a:hover {
+p a:hover,
+ul.style-checklist a:hover {
   border-bottom: none;
+  opacity: var(--link-hover-opacity, 1);
 }
 
 .linked-list a:hover {
@@ -270,7 +274,8 @@ p a:hover, ul.style-checklist a:hover {
 /*homepage */
 
 
-@media (max-width: 1023px) {
+//@media (max-width: 1023px) {
+@include break(md) {
 
   .section--edge-to-edge .carousel-cell {
     padding: 1rem;
@@ -293,7 +298,8 @@ p a:hover, ul.style-checklist a:hover {
   }
 }
 
-@media (max-width: 1200px) {
+// @media (max-width: 1200px) {
+@include break(lg) {
   .flipcards.grid.cols-4, .grid.cols-4 ,  .commonquestions.grid.cols-3,{
 
     --bs-columns: 2;
@@ -302,8 +308,8 @@ p a:hover, ul.style-checklist a:hover {
 
 }
 
-@media (max-width: 600px) {
-
+//@media (max-width: 600px) {
+@include break(sm) {
 
   .grid.cols-2, .grid.cols-3, .commonquestions.grid.cols-3, .flipcards.grid.cols-4, .grid.cols-4 {
     --bs-columns: 1;

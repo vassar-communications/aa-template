@@ -13,10 +13,10 @@ function hamburger_navigation($extras = false) {
 $template = <<<TMP
 
 <div class="hamburger-navigation">
-<button class="shadow btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">Menu <span class="pl-2 fa-solid fa-bars"></button>
+<button class="hamburger-navigation-openBtn shadow btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">Menu <span class="pl-2 fa-solid fa-bars"></button>
 </div>
 
-<div class="offcanvas offcanvas-top h-100 pt-1 section theme-dark-burgundy" tabindex="-1" id="offcanvas" aria-labelledby="offcanvas">
+<div class="offcanvas offcanvas-top h-100 pt-1 main-menu-panel theme-dark-burgundy" tabindex="-1" id="offcanvas" aria-labelledby="offcanvas">
   <div class="offcanvas-header d-flex justify-content-between mt-4">
   <div class="vassar-masthead-offcanvas">
   <a href="https://www.vassar.edu">
