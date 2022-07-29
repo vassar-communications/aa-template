@@ -55,7 +55,7 @@ $page_info = json_decode($page_info, true);
             </button>
         </div>
         <div id="grants-collapseOne" class="accordion-collapse collapse" aria-labelledby="grants-headingOne" data-bs-parent="#grants">
-            <div class="accordion-body"><p>Vassar awards $71 million annually in scholarships, funded by Vassar’s endowment, alumnae/i club fundraising, and gifts.</p></div>
+            <div class="accordion-body"><p>Vassar awards $71 million annually in scholarships, funded by Vassar’s endowment, alumni club fundraising, and gifts.</p></div>
         </div>
     </div>
     <div class="accordion-item">

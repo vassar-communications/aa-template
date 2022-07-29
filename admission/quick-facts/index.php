@@ -207,7 +207,7 @@ $page_info = json_decode($page_info, true);
       'people-arrows-left-right',
       'icon-on-left'
     ); ?>
-        <p>Off-campus interviews are available for first-year applicants. These are conducted all over the world by Vassar alumnae/i and are available from November through February. Interviews are not required, but they are a great way to learn about Vassar from a new perspective. Not having an interview will not affect your admission decision. Requests for alumnae/i interviews will not be processed until we receive your application.</p>
+        <p>Off-campus interviews are available for first-year applicants. These are conducted all over the world by Vassar alumni and are available from November through February. Interviews are not required, but they are a great way to learn about Vassar from a new perspective. Not having an interview will not affect your admission decision. Requests for alumni interviews will not be processed until we receive your application.</p>
     <?php echo end_item_iconItem(); ?>
   <?php echo end_item_col(); ?>
 
