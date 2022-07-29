@@ -12,7 +12,7 @@
 
       $settings: (
               gap: 0.1s,
-              max-items: 100,
+              max-items: 10,
       );
 
       @include sequence($settings);
