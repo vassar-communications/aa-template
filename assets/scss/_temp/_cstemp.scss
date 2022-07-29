@@ -74,6 +74,15 @@
 }
 
 
+.megamenu-cols-container {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+
+
+
+
 // carousel
 .featureImage-text-ticker {
   @include break(md, max) {

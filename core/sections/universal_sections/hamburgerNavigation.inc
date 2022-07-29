@@ -27,7 +27,7 @@ $template = <<<TMP
   </div>
   <div class="offcanvas-body megamenu-site-nav">
     <div class="">
-        <div class="row align-items-start">
+        <div class="megamenu-cols-container row align-items-start">
             <div class="col-md-6">
                 <h6 class="tagline mb-4"><a href="/admission/">Office of Admission</a></h6>
                 <div class="nav-item d-flex justify-content-between text-light h5 display-5">
@@ -84,7 +84,7 @@ $template = <<<TMP
                 </div>
                 <div id="admission-financialaid" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#admission-financialaid">
                     <div class="accordion-body h3 text-left px-0">
-                        <div class="mb-2"> <a class="text-white" href="/admission/financial-aid/apply/">Applying for Aids</a></div>
+                        <div class="mb-2"> <a class="text-white" href="/admission/financial-aid/apply/">Applying for Aid</a></div>
                         <div class="mb-2"> <a class="text-white" href="/admission/financial-aid/types-of-aid/">Types of Aid</a></div>
                         <div class="mb-2"> <a class="text-white" href="/admission/financial-aid/forms/">Forms & Resources</a></div>
                         <div class="mb-2"> <a class="text-white" href="/admission/financial-aid/tuition/">Tuition & Fees</a></div>
