@@ -126,23 +126,34 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_regularContent(); ?>
 
 
-<?php echo sec_wideContent(
-    'Vassar Contacts and Links',
-    'Contact our admission department with any veteran’s related questions or follow the links below for more information',
-    'theme-charcoal'
+
+<?php echo sec_regularContent(
+  'Vassar Contacts and Links',
+    null,
+    ''
 ); ?>
 
-    <dl class="clean-dt-list-with-borders">
-      <dt>Financial Aid</dt>
-      <dd>Ann Gitto, Associate Director of Student Financial Services</dd>
+<p class="intro-text">Feel free to contact us with any veteran-related questions.</p>
 
-    <dt>Veterans Advisor & Registrar</dt>
-      <dd>Colleen Mallet, Registrar</dd>
+<div class="contact-list">
+  <div class="staff-contact">
+      <h3>Ann Gitto</h3>
+      <p><em>Associate Director of Student Financial Services</em></p>
+      <a class="fixemaillink" href="mailto:angitto@vassar.edu">Email: angitto@vassar.edu</a>
+  </div>
 
-    <dt>Links to Information on Veterans’ Benefits</dt>
-            <dd>Post 9/11 GI Bill® Benefits<br/>
-            Yellow Ribbon Program</dd>
-      </dl>
+  <div class="staff-contact">
+      <h3>Angela Anderson, </h3>
+      <p><em>Registrar</em></p>
+      <a class="fixemaillink" href="mailto:angelaanderson@vassar.edu">Email: angelaanderson@vassar.edu</a>
+  </div>
+</div>
+
+<h3>Links to Information on Veterans’ Benefits</h3>
+
+<ul class="linked-list"><li><a href="https://www.va.gov/education/gi-bill/post-9-11/ch-33-benefit/">Post 9/11 GI Bill® Benefits</a></li>
+	<li><a href="https://www.va.gov/education/about-gi-bill-benefits/post-9-11/yellow-ribbon-program/">Yellow Ribbon Program</a></li>
+</ul>
 
 <?php echo end_sec_regularContent(); ?>
 

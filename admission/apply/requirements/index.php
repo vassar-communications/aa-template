@@ -94,18 +94,32 @@ $page_info = json_decode($page_info, true);
   <?php echo deadlines_item('Fall Transfer', 'April 1'); ?>
 <?php echo end_deadlines(); ?>
 
-<p>For students who wish to submit their scores: the latest acceptable test dates are November for Early Decision I applicants and December for Regular Decision and Early Decision II applicants. Vassar will accept self-reported SAT and ACT scores from applicants.&nbsp;Note: Enrolling students who choose to self-report testing will be required to provide official score reports in the spring. Vassar reserves the right to revoke an offer of admission if an applicant’s self-reported scores do not align with those in their official score report.</p>
+<p class="py-4">For students who wish to submit their scores: the latest acceptable test dates are November for Early Decision I applicants and December for Regular Decision and Early Decision II applicants. Vassar will accept self-reported SAT and ACT scores from applicants.
+
+  <?php echo info_card('Note', null, 'info'); ?>
+  <p>Enrolling students who choose to self-report testing will be required to provide official score reports in the spring. Vassar reserves the right to revoke an offer of admission if an applicant’s self-reported scores do not align with those in their official score report.</p>
+  <?php echo end_info_card(); ?>
+
 
   <?php accordion('policies'); ?>
-    <?php echo accordion_item('policies', );?>
+
+    <?php echo accordion_item('policies', 'SAT');?>
+<p>In assessing SAT scores, Vassar uses the highest individual subscores of the SAT from multiple test dates to create a superscore. Should students choose to submit the SAT, Vassar does not require the optional essay or the SAT II Subject Tests (see below).</p>
     <?php echo end_accordion_item();?>
+
+    <?php echo accordion_item('policies', 'ACT');?>
+<p>In assessing ACT scores, Vassar uses the highest score for each section test (subscore) from all test dates to recalculate a new composite score.</p>
+<p>Applicants choosing to submit the ACT are not required&nbsp;to submit the optional writing test.</p>
+    <?php echo end_accordion_item();?>
+
+    <?php echo accordion_item('policies', 'SAT II Subject Tests (Optional)');?>
+<p>SAT Subject Tests are&nbsp;<strong>not required</strong>, and students opting not to send Subject Tests will not be penalized. However, SAT Subject Tests will be considered if submitted as part of a testing profile. Subject Tests may enhance an applicant’s credentials, particularly for applicants from non-traditional school backgrounds (homeschooled, non-graded schools, etc.). Note that a strong score on an SAT Subject Test is also one way to fulfill Vassar’s&nbsp;<a href="https://catalogue.vassar.edu/content.php?catoid=38&amp;navoid=6763#foreign_language_proficiency">Foreign Language Proficiency requirement</a>.</p>
+    <?php echo end_accordion_item();?>
+
   <?php end_accordion(); ?>
 
 
-  <?php echo cta_link(
-    '',
-    'Read Vassar’s standardized test policy'
-  ); ?>
+  <?php // echo cta_link('','Read Vassar’s standardized test policy'); ?>
 
 
 <?php echo end_item_iconItem(); ?>

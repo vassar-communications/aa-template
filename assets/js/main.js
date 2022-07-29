@@ -289,7 +289,7 @@ $( ".split-words-container" ).each(function( index ) {
     var theSection = $(this);
 
     $.each(words, function(i, v) {
-        $(".split-words-content p", theSection).append($("<span>").text(v));
+        $(".split-words-content p", theSection).append($("<span>").html(v + '&nbsp;'));
     });
 
     console.log( index + ": " + $( this ).text() );
