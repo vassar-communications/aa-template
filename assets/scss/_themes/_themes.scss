@@ -19,7 +19,7 @@ footer a  {
   &:focus,
   &:visited:focus {
   //  background-color: var(--section-link-hover-bg-color, transparent);
-  //  color: var(--section-link-hover-color, var(--color-vassar-burgundy));
+    color: var(--section-link-hover-color, #{$red});
   }
 }
 
@@ -42,7 +42,11 @@ a.btn-link {
   &:focus,
   &:visited:focus {
     background-color: var(--section-link-bg-color, transparent);
-    color: var(--section-link-color, var(--color-vassar-burgundy));
+    color: var(--section-link-hover-color, #{$red});
+
+    &:after {
+
+    }
   }
 
 }

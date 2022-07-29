@@ -76,7 +76,7 @@
 .carousel-cell:hover .arrow:after,
 .btn-link.arrow:focus:after,
 .carousel-cell:focus .arrow:after {
-  background-color: var(--section-link-color, var(--color-vassar-dark-burgundy));
+  background-color: var(--section-link-hover-color, $red);
+  border-color: var(--section-link-hover-color, $red);
   color: var(--section-bg-color, var(--color-vassar-cream));
-  border-color:  var(--section-link-color, var(--color-vassar-dark-burgundy));
 }

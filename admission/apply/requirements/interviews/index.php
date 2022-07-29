@@ -38,36 +38,27 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-<?php echo sec_hasColumns(
-    'Information & Deadlines',
-    2,
-    null,
-    'animate-when-content-appears animation-slide-up',
-    'pt-5 flex-equal align-items-start d-flex flex-column-reverse flex-md-row'
+
+<?php echo sec_regularContent(
+  'Information & Deadlines',
+  'section-class'
 ); ?>
 
-<?php echo item_col('equal'); ?>
-<p>We accept interview requests from current domestic first-year applicants. Interviews take place from October through early March and are informational rather than evaluative. Please note, not all students will be able to meet with an interviewer as we do not have the capacity to honor all requests. If you are not extended an interview, rest assured that it will not negatively impact your application to Vassar. Your interview request will only be processed once the Office of Admission confirms we have received your application.</p>
 
-<p><strong>The Interview Request Form for Fall 2023 applicants will become available in mid October</strong></p>
-<!--<a href="#" class="fix btn btn-primary arrow">Register Now</a> -->
-
-
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('equal'); ?>
-
-<?php echo deadlines('Interview Request Deadlines'); ?>
-
-<?php echo deadlines_item('Early Decision Round 1', 'November 15, 2022'); ?>
-<?php echo deadlines_item('Early Decision Round 2', 'January 1, 2023'); ?>
-<?php echo deadlines_item('Regular Decision', 'January 7, 2023'); ?>
-<?php echo end_deadlines(); ?>
+  <?php echo deadlines('Interview Request Deadlines'); ?>
+    <?php echo deadlines_item('Early Decision Round 1', 'November 15, 2022'); ?>
+    <?php echo deadlines_item('Early Decision Round 2', 'January 1, 2023'); ?>
+    <?php echo deadlines_item('Regular Decision', 'January 7, 2023'); ?>
+  <?php echo end_deadlines(); ?>
 
 
-<?php echo end_item_col(); ?>
+  <p class="mt-5">We accept interview requests from current domestic first-year applicants. Interviews take place from October through early March and are informational rather than evaluative. Please note, not all students will be able to meet with an interviewer as we do not have the capacity to honor all requests. If you are not extended an interview, rest assured that it will not negatively impact your application to Vassar. Your interview request will only be processed once the Office of Admission confirms we have received your application.</p>
 
-<?php echo end_sec_hasColumns(); ?>
+  <p><strong>The Interview Request Form for Fall 2023 applicants will become available in mid-October.</strong></p>
+
+<?php echo end_sec_regularContent(); ?>
+
+
 
 <?php echo sec_regularContent(
         null,
