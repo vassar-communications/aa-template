@@ -462,3 +462,17 @@ var is_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
 if(is_firefox) {
   $('html').addClass('is-ff');
 }
+
+/*	esc key hides video modal
+	=================== */
+
+
+
+var elem = ".modal-video";
+
+$( document ).on( 'keydown', function ( e ) {
+    if ( e.keyCode === 27 ) { // ESC
+        $( elem ).remove();
+    }
+});
+
