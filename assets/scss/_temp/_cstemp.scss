@@ -143,3 +143,12 @@ $menu-cols-gap: 2rem;
 
 
 // homepage
+// temporary video grid adjustment
+
+.one-centered-wide-item-layout {
+    grid-template-columns: 2fr 9fr 2fr;
+}
+
+.centered-wide-item {
+	grid-column-start: 2;
+}

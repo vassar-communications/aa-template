@@ -90,9 +90,11 @@ null,
 
 <?php echo sec_fullBleedImageColumn(
     'Transfer Applicants',
-    $admission_img_path.'apply/0137_14_11_KR_0003.jpg',
+    $admission_img_path.'apply/0055-16-05-kr-spring-vassar-0011.jpg',
     'image-is-first theme-charcoal bg-dark quad-pattern has-bg',
-    ''
+    '',
+    ['img_alt_text' =>
+  'Student walking in the sun wearing earbuds and looking at phone.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. </p>

@@ -11,7 +11,7 @@ include( $project_paths['main_project_root'] . '/functions.php');
 
 $page_info = '{
   "page_title":"Vassar Admission",
-  "page_classes":"home",  
+  "page_classes":"home",
   "nav_title":"Admission"
 }';
 
@@ -337,7 +337,7 @@ echo sec_fixedCenteredTitle(
 
 </div>
 
-<div class="animation-group staggered-grid animation-zoom-in animate-when-content-appears gap-3  mb-3">
+<div class="animation-group staggered-grid animation-zoom-in animate-when-content-appears gap-3 mb-3 one-centered-wide-item-layout">
 
     <?php
     echo item_imageCard_videoModal(
@@ -349,12 +349,12 @@ echo sec_fixedCenteredTitle(
         ['url' => '/admission/assets/images/admission-home/fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg',
             'alt' => 'People using the hiking path at the Vassar Ecological Preserve'
         ],
-        'animation-item grid-item text-at-bottom text-white'
+        'animation-item grid-item text-at-bottom text-white centered-wide-item'
     );
 
     ?>
 
-    <?php
+    <?php /*
     echo item_imageCard_videoModal(
         get_icon('play').'Student Picks',
         null,
@@ -365,9 +365,7 @@ echo sec_fixedCenteredTitle(
             'alt' => 'Student speaking while being interviewed'
         ],
         'animation-item grid-item text-at-bottom text-white'
-    );
-
-    ?>
+    ); */ ?>
 
 
 </div><!-- end layout-masonry -->
