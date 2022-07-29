@@ -444,3 +444,21 @@ jQuery(function($) {
     });
 });
 
+
+
+// these guys just don't get it
+
+var is_ios = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+if(is_ios) {
+  $('html').addClass('is-ios');
+}
+
+var is_safari = navigator.userAgent.indexOf("Safari") > -1;
+if(is_safari) {
+  $('html').addClass('is-safari');
+}
+
+var is_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+if(is_firefox) {
+  $('html').addClass('is-ff');
+}

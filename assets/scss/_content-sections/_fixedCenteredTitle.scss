@@ -168,3 +168,12 @@ This should be a section option
 .fade-the-title .section-title-container {
   opacity: 0;
 }
+
+
+.is-ios {
+  .sec-fixedCenteredTitle {
+    .section-title-container {
+      position: absolute;
+    }
+  }
+}
