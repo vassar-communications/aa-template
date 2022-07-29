@@ -48,9 +48,14 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo masthead_interiorPage(
-    'Apply',
+    'Join Our Passionate Community',
     'Vassar’s open curriculum offers the freedom and flexibility to pursue your passions while discovering new interests. As there are no class requirements, you can take the courses you wish and know your classmates have chosen them as well.',
-    $admission_img_path.'explore/0084-19-05-ja-kumar-class-vassar-253.jpg');
+    $admission_img_path.'apply/0196-19-11-kwe-greenhouse-vassar-vb-6440.jpg
+',
+null,
+null,
+['img_alt_text' => 'Students researching plants in a lab']
+);
 ?>
 
 

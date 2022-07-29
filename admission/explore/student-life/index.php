@@ -185,17 +185,17 @@ $page_info = [
 
 <?php echo sec_fullBleedImageColumn(
     'Part of a Bigger Whole',
-    '/admission/assets/images/explore/student-life/Poughkeepsie_night_DSC_8551.jpg',
+    '/admission/assets/images/explore/student-life/0068_15_07_BL_7549.jpg',
     '',
     '',
-    ['img_alt_text' => 'Downtown Poughkeepsie in early evening, with the Mid-Hudson Bridge illuminated in the background']
+    ['img_alt_text' => 'An adult helps a child fingerpaint']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>The Vassar community engages with Poughkeepsie and the wider Hudson River Valley region on multiple levels. Students participate in community-based learning assignments and volunteering opportunities. Reciprocally, Vassar welcomes our neighbors to engage in campus events and explore our facilities.</p>
 
     <?php echo cta_link(
-        'https://vassargoodneighbors.wordpress.com/',
-        'Learn more about Vassar’s Good Neighbors Partnerships'
+        'https://offices.vassar.edu/civic-engagement/',
+        'Learn more about Vassar’s Community Partners'
     ); ?>
 
 </div>
