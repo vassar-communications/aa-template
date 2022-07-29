@@ -100,7 +100,9 @@
 
 
 .is-ios {
-  .section-bg-image {
-    position: absolute;
+  .section-bg-image-container {
+    .section-bg-image {
+      position: absolute;
+    }
   }
 }
