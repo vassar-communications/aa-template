@@ -33,7 +33,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h1 class="display-6">A conversation with one of our alumni or student interviewers is an excellent way for you to learn more about Vassar and for us to learn more about you.</h1>
+    <p class="intro-text">A conversation with one of our alumni or student interviewers is an excellent way for you to learn more about Vassar and for us to learn more about you.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -74,12 +74,17 @@ $page_info = json_decode($page_info, true);
     'theme-cream'
 
 ); ?>
-<?php echo item_alert(
+
+<?php echo info_card(
     'Note for International Applicants',
-    'Given the limited availability of alumnae/i and student interviewers internationally, our office will reach out to you if we are able to extend an interview. We do not accept requests for interviews from students residing overseas.',
-    'globe',
-    'alert-light alert-accent-gold'
+    '',
+    'fa-globe'
 ); ?>
+
+<p>Given the limited availability of alumnae and student interviewers internationally, our office will reach out to you if we are able to extend an interview. We do not accept requests for interviews from students residing overseas.</p>
+
+<?php echo end_info_card(); ?>
+
 <?php echo end_sec_regularContent(); ?>
 
 <?php /*  PAGE CONTENT === */ ?>

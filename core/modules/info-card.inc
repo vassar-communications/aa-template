@@ -19,11 +19,12 @@ else if ($type == 'alert') {
 }
 else {
   $icon = $type;
+  $classes .= 'alert-accent-gold';
 }
 
 return <<<TMP
   <div class="info-card alert p-4 shadow mb-5 $classes">
-    <div class="alert-header"><i class="the-icon $icon"></i>$title</div>
+    <div class="alert-header"><i class="the-icon fa $icon"></i>$title</div>
 TMP;
 
 }
