@@ -406,13 +406,13 @@ All Vassar students are surrounded by an environment designed to spark something
 
     <?php
     echo item_imageCard_videoModal(
-        get_icon('play').'All about food',
+        get_icon('play').'Art Studios',
         null,
-        '0jdM1pZJy64',
-        'youtube',
         '',
-        ['url' => '/admission/assets/images/admission-home/video/food-1.jpg',
-            'alt' => 'Smiling student being interviewed, pizza topping choices superimposed on photo to indicate the wide variety of food choices being discussed'
+        'custom',
+        '/admission/assets/videos/art-studios.mp4',
+        ['url' => '/admission/assets/images/admission-home/art-studio.jpg',
+            'alt' => 'needalttxt'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -421,12 +421,12 @@ All Vassar students are surrounded by an environment designed to spark something
 
     <?php
     echo item_imageCard_videoModal(
-        get_icon('play').'What’s Your Take?',
+        get_icon('play').'Car Camera Rigging',
         null,
-        '7fjWRvjKH5E',
-        'youtube',
-        null,
-        ['url' => '/admission/assets/images/admission-home/video/words-4.jpg',
+        '',
+        'custom',
+        '/admission/assets/videos/camera-rigging.mp4',
+        ['url' => '/admission/assets/images/admission-home/camera-rigging.jpg',
             'alt' => 'Student being interviewed'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -457,7 +457,7 @@ All Vassar students are surrounded by an environment designed to spark something
 
     <?php
     echo item_imageCard_videoModal(
-        get_icon('play').'Dorm Tour',
+        get_icon('play').'Dorm Tour: Noyes',
         null,
         '',
         'custom',
@@ -472,7 +472,7 @@ All Vassar students are surrounded by an environment designed to spark something
 
     <?php
     echo item_imageCard_videoModal(
-        get_icon('play').'Dorm Tour',
+        get_icon('play').'Dorm Tour: Town Houses',
         null,
         '',
         'custom',
