@@ -177,6 +177,9 @@ This should be a section option
       height: 100vh;
     }
   }
+  .section-title-container {
+    position: absolute !important;
+  }
 }
 
 .sec-fixedCenteredTitle {
