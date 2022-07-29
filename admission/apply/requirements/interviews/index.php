@@ -72,7 +72,7 @@ $page_info = json_decode($page_info, true);
     'fa-globe'
 ); ?>
 
-<p>Given the limited availability of alumnae and student interviewers internationally, our office will reach out to you if we are able to extend an interview. We do not accept requests for interviews from students residing overseas.</p>
+<p>Given the limited availability of alumni and student interviewers internationally, our office will reach out to you if we are able to extend an interview. We do not accept requests for interviews from students residing overseas.</p>
 
 <?php echo end_info_card(); ?>
 

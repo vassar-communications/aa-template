@@ -25,6 +25,8 @@
     }
     &:hover,
     &:focus {
+      background: var(--linkedList-link-bg-hover, $gray-200);
+
       &:after {
         margin-left: 0.4rem;
       }

@@ -56,10 +56,13 @@
   --section-link-hover-color: #fff;
 
   .linked-list {
-    --border-accent-verylight-themebased: rgba(255,255,255,0.2);
+    --border-accent-verylight-themebased: rgba(255,0,0,0.2);
+    --linkedList-link-bg-hover: rgba(255,0,0,0.2);
 
     a {
-      padding: 0.2rem 0;
+      padding: 0.1rem 0;
+      font-size: 1.2rem;
+
     }
   }
 

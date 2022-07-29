@@ -159,10 +159,6 @@ ul.style-checklist a:hover {
   opacity: var(--link-hover-opacity, 1);
 }
 
-.linked-list a:hover {
-  background: $gray-200;
-}
-
 
 .theme-burgundy .linked-list a:hover {
   background: rgba(255,255,255,0.2);
