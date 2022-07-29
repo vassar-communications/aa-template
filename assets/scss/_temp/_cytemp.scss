@@ -275,7 +275,7 @@ ul.style-checklist a:hover {
 
 
 //@media (max-width: 1023px) {
-@include break(md) {
+@include break(md, 'max') {
 
   .section--edge-to-edge .carousel-cell {
     padding: 1rem;
@@ -299,7 +299,7 @@ ul.style-checklist a:hover {
 }
 
 // @media (max-width: 1200px) {
-@include break(lg) {
+@include break(lg, 'max') {
   .flipcards.grid.cols-4, .grid.cols-4 ,  .commonquestions.grid.cols-3,{
 
     --bs-columns: 2;
@@ -309,7 +309,7 @@ ul.style-checklist a:hover {
 }
 
 //@media (max-width: 600px) {
-@include break(sm) {
+@include break(sm, 'max') {
 
   .grid.cols-2, .grid.cols-3, .commonquestions.grid.cols-3, .flipcards.grid.cols-4, .grid.cols-4 {
     --bs-columns: 1;
