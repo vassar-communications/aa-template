@@ -88,7 +88,7 @@ $comment
   <link rel="stylesheet" href="{$project_paths['public_path']}/assets/icons/fontawesome-free-6.1.1-web/css/all.min.css">
 
 
-  <link rel="stylesheet" href="{$project_paths['public_path']}/assets/css/style.php">
+  <link rel="stylesheet" href="{$project_paths['public_path']}/assets/css/style.css">
 
   <meta name="theme-color" content="#951829">
 </head>
