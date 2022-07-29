@@ -418,8 +418,10 @@ $page_info = json_decode($page_info, true);
         <h3>Vassar/Columbia BA/MPH</h3>
         <p>The BA/MPH is a dual degree program in which a student earns a BA from Vassar then goes on to an accelerated Masters program in Public Health at Columbia University Mailman School of Public Health.</p>
 
-        <p>   <a href="https://www.vassar.edu/academics/accelerated-and-dual-degree-programs" >Learn more about Accelerated and Dual Degree Programs
-            </a></p>
+        <?php echo cta_link(
+          'https://www.vassar.edu/academics/accelerated-and-dual-degree-programs',
+          'Learn more about Accelerated and Dual Degree Programs'
+        ); ?>
     </div>
     <div class="col-sm">
         <h3>Vassar/Dartmouth BA/BE</h3>

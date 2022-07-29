@@ -134,6 +134,16 @@
   }
 }
 
+.card {
+  &.card-has-cta-icon {
+    .card-body {
+      @include break(sm, 'max') {
+        padding-bottom: 3rem;
+      }
+    }
+  }
+}
+
 .card-full-image {
   --section-link-color: #fff;
   --section-link-hover-color: #fff;

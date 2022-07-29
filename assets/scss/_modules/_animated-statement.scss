@@ -5,14 +5,14 @@
 
     span {
       display: inline-block;
-      margin-right: 0.2em;
+//      margin-right: 0.2em;
       font-family: var(--font-big-serif);
       font-size: var(--h2-font-size);
       font-weight: 100;
 
       $settings: (
               gap: 0.1s,
-              max-items: 100,
+              max-items: 10,
       );
 
       @include sequence($settings);

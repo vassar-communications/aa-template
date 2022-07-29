@@ -9,7 +9,12 @@ include( $project_paths['main_project_root'] . '/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = '{"page_title":"Vassar Admission","nav_title":"Admission"}';
+$page_info = '{
+  "page_title":"Vassar Admission",
+  "page_classes":"home",  
+  "nav_title":"Admission"
+}';
+
 /* === */
 $page_info = json_decode($page_info, true);
 
@@ -158,7 +163,7 @@ echo sec_fixedCenteredTitle(
     text-align: left;">Vassar is from <span id="x-where-from">everywhere</span></h2>
    <h3 class="section-intro-text">World-class educations are built on world-wide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will study abroad while at Vassar.</h3>
 <div class="text-center mb-5">
-<a href="" class="btn btn-lg btn-light arrow">Meet Vassar</a>
+<a href="/admission/quick-facts/community/" class="btn btn-lg btn-light arrow">Meet Vassar</a>
 </div>',
 
     'sec-fixedCenteredTitle theme-charcoal-to-white xhide-image',
@@ -406,13 +411,13 @@ All Vassar students are surrounded by an environment designed to spark something
 
     <?php
     echo item_imageCard_videoModal(
-        get_icon('play').'All about food',
+        get_icon('play').'Art Studios',
         null,
-        '0jdM1pZJy64',
-        'youtube',
         '',
-        ['url' => '/admission/assets/images/admission-home/video/food-1.jpg',
-            'alt' => 'Smiling student being interviewed, pizza topping choices superimposed on photo to indicate the wide variety of food choices being discussed'
+        'custom',
+        '/admission/assets/videos/art-studios.mp4',
+        ['url' => '/admission/assets/images/admission-home/art-studio.jpg',
+            'alt' => 'needalttxt'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -421,12 +426,12 @@ All Vassar students are surrounded by an environment designed to spark something
 
     <?php
     echo item_imageCard_videoModal(
-        get_icon('play').'What’s Your Take?',
+        get_icon('play').'Car Camera Rigging',
         null,
-        '7fjWRvjKH5E',
-        'youtube',
-        null,
-        ['url' => '/admission/assets/images/admission-home/video/words-4.jpg',
+        '',
+        'custom',
+        '/admission/assets/videos/camera-rigging.mp4',
+        ['url' => '/admission/assets/images/admission-home/camera-rigging.jpg',
             'alt' => 'Student being interviewed'
         ],
         'animation-item grid-item text-at-bottom text-white'
@@ -457,7 +462,7 @@ All Vassar students are surrounded by an environment designed to spark something
 
     <?php
     echo item_imageCard_videoModal(
-        get_icon('play').'Dorm Tour',
+        get_icon('play').'Dorm Tour: Noyes',
         null,
         '',
         'custom',
@@ -472,7 +477,7 @@ All Vassar students are surrounded by an environment designed to spark something
 
     <?php
     echo item_imageCard_videoModal(
-        get_icon('play').'Dorm Tour',
+        get_icon('play').'Dorm Tour: Town Houses',
         null,
         '',
         'custom',
@@ -490,7 +495,7 @@ All Vassar students are surrounded by an environment designed to spark something
 
 
 <div class="text-center mt-3 pt-5">
-    <a href="" class="btn btn-lg btn-light arrow">Schedule a Campus Visit</a>
+    <a href="/admission/visit/in-person/" class="btn btn-lg btn-light arrow">Schedule a Campus Visit</a>
 </div>
 
 
@@ -573,8 +578,8 @@ All Vassar students are surrounded by an environment designed to spark something
 </div>
 
 <div class="text-center mt-5">
-    <a href="" class="m-2 btn btn-lg btn-light arrow">More quick facts</a>
-    <a href="" class="m-2 btn btn-lg btn-light arrow">Contact us</a>
+    <a href="/admission/quick-facts/" class="m-2 btn btn-lg btn-light arrow">More quick facts</a>
+    <a href="/admission/connect/" class="m-2 btn btn-lg btn-light arrow">Contact us</a>
 
 </div>
 
@@ -588,12 +593,7 @@ All Vassar students are surrounded by an environment designed to spark something
 <?php echo newsCarousel(); ?>
 
 
-
-
-
- <?php
- echo item_modal_standardVideo();
- ?>
+ <?php echo item_modal_standardVideo(); ?>
 
 
 

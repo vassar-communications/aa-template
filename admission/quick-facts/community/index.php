@@ -77,7 +77,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_stat(
       'Student organizations',
       '170',
-      '<a href="" class="hey-im-broken">See all our orgs</a>'
+      '<a href="https://vsa.vassar.edu/">See all our orgs <i class="fa-solid fa-arrow-right ms-1"></i></a>'
     ); ?>
   <?php echo end_item_col(); ?>
 
@@ -117,6 +117,53 @@ $page_info = json_decode($page_info, true);
 
 
 
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Diversity',
+    '/admission/assets/images/quick-facts/community/res-quad-2105-kr-vassar-0033.jpg',
+    'image-is-first theme-burgundy',
+    '',
+    ['title_level' => '3']
+); ?>
+  <div class="animate-when-content-appears animation-slide-up gold-icons">
+
+      <?php echo item_iconItem(
+        'Academic Diversity',
+        'book-open-reader',
+        'icon-on-left'
+      ); ?>
+          <p>Our campus is a mix of students interested in the natural sciences, social sciences, arts and humanities, as well as some interesting combinations of these disciplines.</p>
+      <?php echo end_item_iconItem(); ?>
+
+      <?php echo item_iconItem(
+        'Extracurricular Diversity',
+        'lightbulb',
+        'icon-on-left'
+      ); ?>
+        <p>Extracurricular diversity is characteristic of our campus culture. A number of students are varsity athletes; others have an inclination to sing, dance, act, improvise, sculpt, film, paint, write, or otherwise create. Some do it all!</p>
+      <?php echo end_item_iconItem(); ?>
+
+      <?php echo item_iconItem(
+        'Political Diversity',
+        'comments',
+        'icon-on-left'
+      ); ?>
+        <p>Politically, our campus is open-minded. Vassar students span the political spectrum. Diversity of opinion is respected, critical thought encouraged, and communication of ideas held as central to a liberal arts education.</p>
+      <?php echo end_item_iconItem(); ?>
+
+
+
+  </div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+
+
+
+<?php /*
 <?php echo sec_hasColumns(
     'Diversity',
     '3',
@@ -142,7 +189,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_cardWithText(
       'Extracurricular diversity',
       '#',
-      ['url' => $placeholder_img_square, 'alt' => 'replacealttext' ],
+      ['url' => '/admission/assets/images/quick-facts/community/0024-18-03-kr-wvkr-vassar-3503.jpg', 'alt' => 'Student on the mic at WVKR Vassar Radio' ],
       'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
   ); ?>
     <p>Extracurricular diversity is characteristic of our campus culture. A number of students are varsity athletes; others have an inclination to sing, dance, act, improvise, sculpt, film, paint, write, or otherwise create. Some do it all!</p>
@@ -161,8 +208,7 @@ $page_info = json_decode($page_info, true);
   <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
-
-
+*/ ?>
 
 <?php echo sec_regularContent(
     'Vassar Life',
@@ -175,7 +221,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'On Campus',
-    $placeholder_img_square,
+    '/admission/assets/images/quick-facts/community/Kaleidoscope-0139_16_11_KR_0077.jpg',
     'image-is-first theme-cream',
     '',
     ['title_level' => '3']
@@ -221,10 +267,12 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Off Campus',
-    $placeholder_img_square,
+    '/admission/assets/images/quick-facts/community/Hudson-Line-Courtesy-of-MTA-Metro-North-Railroad---Photo-by-Frank-English_240662ea-c662-4239-2e603bad1ee52568.jpg',
     'theme-charcoal gold-icons',
     '',
-    ['title_level' => '3']
+    ['title_level' => '3',
+    'img_alt_text' => 'Metro North train heading south to New York City'
+  ]
 ); ?>
   <div class="animate-when-content-appears animation-slide-up">
     <div class="icon-items-list">
@@ -233,7 +281,7 @@ $page_info = json_decode($page_info, true);
         'store',
         'icon-on-left'
       ); ?>
-          <p>There are many stores and restaurants within one block from campus, including Billy Bob’s BBQ, Burger Fi, The Crafted Kup, Pizzeria Bacio’s, Twisted Soul and Thai Spice.</p>
+          <p>There are many stores and restaurants within one block from campus, including Billy Bob’s BBQ, The Crafted Kup, Pizzeria Bacio’s, Twisted Soul and Thai Spice.</p>
       <?php echo end_item_iconItem(); ?>
 
       <?php echo item_iconItem(
@@ -391,10 +439,12 @@ echo sec_hasColumns(
 
 <?php echo sec_fullBleedImageColumn(
     'Tech',
-    $placeholder_img_square,
+    '/admission/assets/images/quick-facts/community/0058-21-05-kr-spring-vassar-0030.jpg',
     'theme-charcoal gold-icons',
     '',
-    ['title_level' => '3']
+    ['title_level' => '3',
+    'img_alt_text' => 'Student under a tree with a laptop and headphones'
+  ]
 ); ?>
   <div class="animate-when-content-appears animation-slide-up">
     <div class="icon-items-list">
@@ -431,13 +481,13 @@ echo sec_hasColumns(
 
 <?php echo sec_regularContent(
     null,
-    'section-class mw-inner-3 p-6',
+    'section-class mw-inner-2 p-6',
     ''
 ); ?>
   <?php echo item_cardWithText(
       'House Fellows',
-      '[NEED LINK]',
-      ['url' => $placeholder_img_wide, 'alt' => 'replacealttext' ],
+      'https://offices.vassar.edu/dean-of-the-college/house-fellows/',
+      ['url' => '/admission/assets/images/quick-facts/community/strong-misc-strong-12-ELSc.jpg', 'alt' => 'Students working on a project in a residential common space' ],
       'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
   ); ?>
       <p>The Vassar House Fellows Program has 15 faculty members and their families living alongside students in the residence halls. They serve as academic advisors and as members of the residential community who offer academic perspective and counsel.</p>

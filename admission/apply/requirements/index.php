@@ -41,10 +41,8 @@ $page_info = json_decode($page_info, true);
     <p class="intro-text mb-5">Everything you need to know to apply.</p>
 
     <?php echo deadlines('Early Decision Application deadlines'); ?>
-
       <?php echo deadlines_item('Early Decision Round 1', 'November 15'); ?>
       <?php echo deadlines_item('Early Decision Round 2', 'January 1'); ?>
-
     <?php echo end_deadlines(); ?>
 
 
@@ -58,16 +56,17 @@ $page_info = json_decode($page_info, true);
     'checklist'
 ); ?>
 <ul class="style-checklist theme-cream">
-    <li>Common Application or Coalition application</li>
+
+    <li><?php echo central_link('common-app', 'Common Application'); ?> or <?php echo central_link('coalition-app', 'Coalition Application'); ?> application</li>
     <li>$65 application fee or fee waiver
     <li>Early Decision Agreement (Early Decision Applicants ONLY)
-    <li>School Report and High School Transcript: To be completed and sent by your school counselor. Available for online completion or download through Common Application.
+    <li>School Report and High School Transcript: To be completed and sent by your school counselor. Available for online completion or download through <?php echo central_link('common-app', 'Common Application'); ?>.
     <li>Teacher Evaluations
     <li>Mid-year Grade Report Vassar requests each applicant’s most recent grade report to be sent by the school counselor.
     <li>For Early Decision I and II, Vassar requires a first quarter/trimester grade report, which should be sent as soon as it becomes available.
     <li>For Regular Decision, a mid-year report with first term grades is required when available, typically by February 1.
     <li>Students admitted during Early Decision I or II will also be asked to provide their first term grades as soon as they become available.
-    <li>TOEFL/IELTS/DET: If English is neither your first language nor the primary language of instruction in secondary schools you have attended for the last three years.
+    <li><a href="/admission/apply/international/">TOEFL/IELTS/DETM</a>: If English is neither your first language nor the primary language of instruction in secondary schools you have attended for the last three years.
     </li>
 </ul>
 
@@ -86,13 +85,41 @@ $page_info = json_decode($page_info, true);
   'clipboard',
   'icon-on-left theme-white-border'
 ); ?>
-  <p>Vassar does not require students to submit the SAT or ACT </p>
+<p>Vassar does not require students to submit the SAT or ACT for the 2020–2021, 2021–2022, and 2022–2023 admission cycles. Applicants can declare whether or not they wish to include testing with their application by logging in to the applicant status portal and completing the test optional form; the deadlines to do so are:</p>
+
+<?php echo deadlines('Early Decision Application deadlines'); ?>
+  <?php echo deadlines_item('Early Decision I', 'November 22'); ?>
+  <?php echo deadlines_item('Spring Transfer', 'November 22'); ?>
+  <?php echo deadlines_item('Regular Decision and Early Decision II', 'January 10'); ?>
+  <?php echo deadlines_item('Fall Transfer', 'April 1'); ?>
+<?php echo end_deadlines(); ?>
+
+<p class="py-4">For students who wish to submit their scores: the latest acceptable test dates are November for Early Decision I applicants and December for Regular Decision and Early Decision II applicants. Vassar will accept self-reported SAT and ACT scores from applicants.
+
+  <?php echo info_card('Note', null, 'info'); ?>
+  <p>Enrolling students who choose to self-report testing will be required to provide official score reports in the spring. Vassar reserves the right to revoke an offer of admission if an applicant’s self-reported scores do not align with those in their official score report.</p>
+  <?php echo end_info_card(); ?>
 
 
-  <?php echo cta_link(
-    '',
-    'Read Vassar’s standardized test policy'
-  ); ?>
+  <?php accordion('policies'); ?>
+
+    <?php echo accordion_item('policies', 'SAT');?>
+<p>In assessing SAT scores, Vassar uses the highest individual subscores of the SAT from multiple test dates to create a superscore. Should students choose to submit the SAT, Vassar does not require the optional essay or the SAT II Subject Tests (see below).</p>
+    <?php echo end_accordion_item();?>
+
+    <?php echo accordion_item('policies', 'ACT');?>
+<p>In assessing ACT scores, Vassar uses the highest score for each section test (subscore) from all test dates to recalculate a new composite score.</p>
+<p>Applicants choosing to submit the ACT are not required&nbsp;to submit the optional writing test.</p>
+    <?php echo end_accordion_item();?>
+
+    <?php echo accordion_item('policies', 'SAT II Subject Tests (Optional)');?>
+<p>SAT Subject Tests are&nbsp;<strong>not required</strong>, and students opting not to send Subject Tests will not be penalized. However, SAT Subject Tests will be considered if submitted as part of a testing profile. Subject Tests may enhance an applicant’s credentials, particularly for applicants from non-traditional school backgrounds (homeschooled, non-graded schools, etc.). Note that a strong score on an SAT Subject Test is also one way to fulfill Vassar’s&nbsp;<a href="https://catalogue.vassar.edu/content.php?catoid=38&amp;navoid=6763#foreign_language_proficiency">Foreign Language Proficiency requirement</a>.</p>
+    <?php echo end_accordion_item();?>
+
+  <?php end_accordion(); ?>
+
+
+  <?php // echo cta_link('','Read Vassar’s standardized test policy'); ?>
 
 
 <?php echo end_item_iconItem(); ?>

@@ -2,7 +2,8 @@
 
 
 .ticker-section {
-  --section-padding: clamp(1rem, 10%, 4rem) 0;
+//  --section-padding: clamp(1rem, 10%, 4rem) 0;
+  --section-padding: clamp(1rem, 10%, 4rem);
   text-align: center;
 
   .section-content {

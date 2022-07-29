@@ -37,6 +37,9 @@ include($project_paths['main_project_root'].'/core/partials/bg-image-tag.inc');
 include($project_paths['main_project_root'].'/core/atoms/icon.inc');
 include($project_paths['main_project_root'].'/core/atoms/cta-link.inc');
 include($project_paths['main_project_root'].'/core/atoms/cta-button.inc');
+include($project_paths['main_project_root'].'/core/atoms/phone-number.inc');
+include($project_paths['main_project_root'].'/core/atoms/centralized-links.inc');
+
 
 /* Items */
 
@@ -450,4 +453,46 @@ function get_value_if_exists($key, $array, $boolean=false) {
     if (array_key_exists( $key, $array ) )
       return $array[$key];
     else return $return_val;
+}
+
+function make_page_title() {
+  // get where we are, and figure out everything in-between
+  $current_path = get_base_path('path_to_current_doc_from_web_dir');
+//  echo $current_path;
+
+  $path_in_pieces = explode('/', $current_path);
+//  $title_trail = '';
+  $path = '';
+
+  $item_count = count( $path_in_pieces );
+
+  foreach ($path_in_pieces as &$item) {
+    if($item == '') {
+      $path = '/';
+      $page_title = 'Vassar College';
+    }
+    else {
+      $path .= $item.'/';
+      $item_info = get_page_vars($_SERVER['DOCUMENT_ROOT'].$path);
+
+      $page_title = $item_info['page_title'];
+    }
+    $title_trail[] = $page_title;
+  }
+
+//  print_r( array_reverse( $title_trail ) );
+  $title_trail = array_reverse( $title_trail );
+  $final_trail = '';
+
+  $item_counter = 0;
+  $item_delimiter = ' ← ';
+  foreach ( $title_trail as &$item ) {
+    $final_trail .= $item . $item_delimiter;
+    $item_counter++;
+
+    if( ( $item_counter + 1 ) == $item_count ) {
+      $item_delimiter = ' ';
+    }
+  }
+  return $final_trail;
 }

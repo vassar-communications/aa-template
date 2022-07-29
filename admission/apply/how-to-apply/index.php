@@ -48,10 +48,10 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <p>First-year applicants may submit in any one of the following ways:</p>
-    <ul>
-    <li>Common application</li>
-    <li>Coalition application</li>
-    <li>QuestBridge application</li>
+    <ul class="linked-list">
+    <li><?php echo central_link('common-app', 'Common application'); ?></li>
+    <li><?php echo central_link('coalition-app', 'Coalition application'); ?></li>
+    <li><a href="/admission/apply/questbridge/">QuestBridge application</a></li>
     </ul>
 
     <?php echo cta_link(
@@ -89,8 +89,9 @@ $page_info = json_decode($page_info, true);
   <p>Supplemental materials, can be uploaded through the application status portal, which is available after an application has been submitted and processed.</p>
   <p><strong>To submit documents:</strong><br/>
       Email: <a href="mailto:admappmaterials@vassar.edu">admappmaterials@vassar.edu</a><br/>
-      Fax: (845) 437-7063</p>
-  <p>Financial Aid documents should be submitted to Student Financial Services through IDOC.</p>
+
+      Fax: <?php echo phone_number('845-437-7063'); ?></p>
+  <p>Financial Aid documents should be submitted to <a href="https://offices.vassar.edu/student-financial-services/">Student Financial Services</a> through IDOC.</p>
 <?php echo end_sec_regularContent(); ?>
 
 

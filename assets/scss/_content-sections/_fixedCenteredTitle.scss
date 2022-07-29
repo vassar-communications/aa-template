@@ -168,3 +168,28 @@ This should be a section option
 .fade-the-title .section-title-container {
   opacity: 0;
 }
+
+.is-ios {
+  .section-bg-image-container {
+    .section-bg-image {
+      position: absolute !important;
+      object-fit: cover;
+      height: 100vh;
+    }
+  }
+  .section-title-container {
+    position: absolute !important;
+  }
+}
+
+.sec-fixedCenteredTitle {
+  .section-title {
+    @include break(md, max) {
+      padding: 4vw;
+      --section-title-size: 16vw;
+    }
+    @include break(md) {
+      --section-title-size: 8vw;
+    }
+  }
+}

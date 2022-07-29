@@ -19,7 +19,7 @@ footer a  {
   &:focus,
   &:visited:focus {
   //  background-color: var(--section-link-hover-bg-color, transparent);
-  //  color: var(--section-link-hover-color, var(--color-vassar-burgundy));
+    color: var(--section-link-hover-color, #{$red});
   }
 }
 
@@ -42,7 +42,11 @@ a.btn-link {
   &:focus,
   &:visited:focus {
     background-color: var(--section-link-bg-color, transparent);
-    color: var(--section-link-color, var(--color-vassar-burgundy));
+    color: var(--section-link-hover-color, #{$red});
+
+    &:after {
+
+    }
   }
 
 }
@@ -59,9 +63,13 @@ a.btn-link {
   --section-link-color: var(--color-vassar-cream);
   --section-link-visited-color: var(--color-vassar-cream);
   --section-link-hover-bg-color: #fff;
-  --section-link-hover-color: var(--color-vassar-dark-burgundy);
+  --section-link-hover-color: #faa;
 
   --intro-line-color: var(--color-vassar-cream);
+
+  --link-underline-color: rgba(255,255,255,0.2);
+  --link-underline-color: #fff;
+  --link-hover-opacity: 0.6;
 
   &.quad-pattern {
     --bg-image: url('/assets/images/Vassar_QuadGrid-white.png');
@@ -175,7 +183,7 @@ a.btn-link {
   --section-link-color: var(--color-vassar-charcoal);
   --section-link-visited-color: var(--color-vassar-charcoal);
   --section-link-hover-bg-color: var(--color-vassar-charcoal);
-  --section-link-hover-color: var(--color-vassar-cream);
+  --section-link-hover-color: var(--color-vassar-red);
 
   --intro-line-color: var(--color-vassar-burgundy);
 
@@ -287,7 +295,7 @@ a.btn-link {
 /*CS Review Start - Unused Class*/
 
 .gray-top-border {
-  --section-top-border: #rgba(0,0,0,0.4);
+  --section-top-border: rgba(0,0,0,0.4);
 }
 
 /*CS Review End*/

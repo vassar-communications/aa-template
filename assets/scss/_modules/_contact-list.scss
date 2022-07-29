@@ -1,0 +1,9 @@
+.contact-list {
+  display: grid;
+  gap: 0.8rem;
+  margin: 2rem 0;
+
+  @include break(md) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

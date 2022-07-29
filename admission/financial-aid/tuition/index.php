@@ -29,9 +29,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    $admission_img_path.'financial-aid/tuition/0137_14_11_KR_0003.jpg',
+    $admission_img_path.'financial-aid/tuition/1930_Class_Tree_08_TT_1.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Looking up the trunk of a tree with brightly colored autumn leaves']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
    <p class="intro-text">Vassar provides a high-value education and is committed to meeting 100% of the demonstrated financial need of all admitted students.</p>
@@ -96,7 +97,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_alert(
     null,
-    '<p>Students should anticipate budgeting $2,250 for books, supplies, and personal expenses, and transportation to and from the campus. Additional information can be found on the Student Financial Services website.</p>',
+    '<p>Students should anticipate budgeting $2,250 for books, supplies, personal expenses, and transportation to and from the campus. Additional information can be found on <a href="https://offices.vassar.edu/student-financial-services/">Student Financial Services</a>.</p>',
     'info-circle',
     ' text-start alert-light alert-accent-gold'
 ); ?>

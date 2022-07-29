@@ -28,10 +28,10 @@ function sec_fixedCenteredTitle_masthead(
     $css = get_extras_value( 'css', $extras, 'style="%s"' );
 
     return <<<TMP
-    <div class="section min-vh-100  sec-fixedCenteredTitleMasthead $section_classes" $css>
+    <div class="section xmin-vh-100 sec-fixedCenteredTitleMasthead $section_classes" $css>
 
       <div class="section-bg-image-container $bg_classes" $bg_css>
-        <div class="position-fixed w-100 vh-100 d-flex justify-content-center align-items-center section-title-container ">
+        <div class="position-fixed w-100 xvh-100 d-flex justify-content-center align-items-center section-title-container ">
           {$section_title($title, $title_classes)}
         </div>
         <img class="section-bg-image" src="$bg_url" alt="$bg_alt" />
