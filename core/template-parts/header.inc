@@ -11,6 +11,7 @@
  * @return string - The header markup
  */
 
+
 function site_header($extras=false) {
 
   global $project_paths;
@@ -27,7 +28,7 @@ TMP;
 
 //  $page_title = $page_info['page_title'];
 
-$page_title = get_value_if_exists('page_title', $page_info);
+$page_title = make_page_title();  //get_value_if_exists('page_title', $page_info);
 $page_classes = get_value_if_exists('page_classes', $page_info);
 
 //  $social_card_data = [
