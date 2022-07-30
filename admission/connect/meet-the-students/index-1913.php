@@ -19,7 +19,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Students visting, reading, and playing piano in a residential common area']); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo interior_page_nav() ?>
 

@@ -45,12 +45,9 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Our Team is Here to Help You.',
     '',
-    $admission_img_path.'connect/0214-19-09-bl-green-fest-vassar-2721.jpg',
-    null,
-    null,
-    ['img_alt_text' => '3 smiling students holding potted plants']
-);
+    $admission_img_path.'connect/0214-19-09-bl-green-fest-vassar-2721.jpg');
 ?>
+
 
 
 <?php echo sec_regularContent(

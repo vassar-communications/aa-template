@@ -24,7 +24,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Two people sitting and talking']); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -50,11 +50,11 @@ $page_info = json_decode($page_info, true);
 
 <h3>Submitting Application Materials</h3>
 <p>
-    Required application materials, including transcripts and letters of recommendation, may be submitted through email, fax, or mail. For faster processing, submission of documents electronically is preferred. Optional supplemental items can be uploaded through the applicant status portal, available after your application has been submitted and processed. Financial Aid documents should be submitted to Student Financial Services through Institutional Documentation Service (IDOC).
+    Required application materials, including transcripts and letters of recommendation, may be submitted through email, fax, or mail. For faster processing, submission of documents electronically is preferred. Optional supplemental items can be uploaded through the applicant status portal, available after your application has been submitted and processed. Financial Aid documents should be submitted to Student Financial Services through IDOC.
 </p>
 <p>
 <p>Email: <a href="mailto:admappmaterials@vassar.edu">admappmaterials@vassar.edu</a><br/>
-    Fax: <a href="fax:1-845-437-7063">(845) 437-7063</a>
+    Fax: (845) 437-7063
 
 </p>
 

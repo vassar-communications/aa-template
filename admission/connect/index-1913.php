@@ -27,7 +27,7 @@ $page_info = json_decode($page_info, true);
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => $page_info['feature_image'],
-        'bg-image-alt' => 'two students making peace signs',
+        'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
@@ -45,12 +45,9 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Our Team is Here to Help You.',
     '',
-    $admission_img_path.'connect/0214-19-09-bl-green-fest-vassar-2721.jpg',
-    null,
-    null,
-    ['img_alt_text' => '3 smiling students holding potted plants']
-);
+    $admission_img_path.'connect/0214-19-09-bl-green-fest-vassar-2721.jpg');
 ?>
+
 
 
 <?php echo sec_regularContent(

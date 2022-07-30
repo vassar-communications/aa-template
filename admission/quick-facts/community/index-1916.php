@@ -19,8 +19,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Two students walking through the Bridge for Laboratory Sciences
-']); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
@@ -126,10 +125,8 @@ $page_info = json_decode($page_info, true);
     '/admission/assets/images/quick-facts/community/res-quad-2105-kr-vassar-0033.jpg',
     'image-is-first theme-burgundy',
     '',
-    ['img_alt_text' => 'Group of students relaxing on lawn in the residential quad on Vassar Campus. One student in a hammock.'],
     ['title_level' => '3']
 ); ?>
-
   <div class="animate-when-content-appears animation-slide-up gold-icons">
 
       <?php echo item_iconItem(
@@ -137,7 +134,7 @@ $page_info = json_decode($page_info, true);
         'book-open-reader',
         'icon-on-left'
       ); ?>
-          <p>Our campus is a mix of students interested in the natural sciences, social sciences, arts, and humanities, as well as some interesting combinations of these disciplines.</p>
+          <p>Our campus is a mix of students interested in the natural sciences, social sciences, arts and humanities, as well as some interesting combinations of these disciplines.</p>
       <?php echo end_item_iconItem(); ?>
 
       <?php echo item_iconItem(
@@ -227,7 +224,6 @@ $page_info = json_decode($page_info, true);
     '/admission/assets/images/quick-facts/community/Kaleidoscope-0139_16_11_KR_0077.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Students on stage with international flags'],
     ['title_level' => '3']
 ); ?>
   <div class="animate-when-content-appears animation-slide-up burgundy-icons">
@@ -408,7 +404,6 @@ echo sec_hasColumns(
     $quickfacts_img_path.'THs-0144-15-05-hw-dorm-vassar-vb-3813.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Student in a dorm kitchen behind a counter cutting food'],
     ['title_level' => '3']
 ); ?>
   <div class="animate-when-content-appears animation-slide-up burgundy-icons">

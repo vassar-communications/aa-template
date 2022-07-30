@@ -315,7 +315,7 @@ $satact_info_card = info_card('Important', '', 'alert') . '<p>Applicants are adv
     'book',
     'icon-on-left'
   ); ?>
-      <p>We recommend students take four years of the five main academic core subjects: English, Math, Foreign Language, Natural Science, and History/Social Science. We seriously consider the quality of the senior year program.</p>
+      <p>We recommend students take four years of the five main academic core subjects: English, Math, Foreign Language, Natural Science and History/Social Science. We seriously consider the quality of the senior year program.</p>
   <?php echo end_item_iconItem(); ?>
 
   <?php echo item_iconItem(
@@ -323,7 +323,7 @@ $satact_info_card = info_card('Important', '', 'alert') . '<p>Applicants are adv
     'star',
     'icon-on-left'
   ); ?>
-      <p>Our typical applicants have an unweighted A- average, are within the top 10%–20% of their class, have been actively involved in extracurricular activities and have shown leadership, and other accomplishments.</p>
+      <p>Our typical applicants have an unweighted A- average, are within the top 10%–20% of their class, and have been actively involved in extracurricular activities and have shown leadership and other accomplishments.</p>
   <?php echo end_item_iconItem(); ?>
 
   <?php echo item_iconItem(

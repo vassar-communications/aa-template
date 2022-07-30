@@ -21,7 +21,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Two people walking toward a Rockefeller Hall on Vassar Campus']); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -32,8 +32,7 @@ $page_info = json_decode($page_info, true);
     null,
     $admission_img_path.'financial-aid/forms/0145-15-05-hw-campus-vassar-vb-3467-crop.jpg',
     'image-is-first theme-cream',
-    '',
-    ['img_alt_text' => 'Student laying on lawn reading in front of Thompson Library on Vassar Campus'];
+    ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Here you will find all the forms and resources you’ll need to successfully apply for financial aid.</p>
@@ -93,14 +92,14 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <ul class="linked-list">
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/2022-23-business-farm-supplement.pdf">Business/Farm Supplement (PDF)</a></li>
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/22-23-certification-of-finances.pdf">Certification of Finances (PDF)</a></li>
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/2022-23-verification-statement-dependent-student.pdf">Federal Verification Worksheet: Dependent (PDF)</a></li>
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/2022-23-verification-statement-independent-student.pdf">Federal Verification Worksheet: Independent (PDF)</a></li>
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/22-23-intl-business-supplement.pdf">International Business/Farm Supplement (PDF)</a></li>
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/non-custodial-parent-waiver-petition.pdf">Noncustodial Parent Waiver Petition (PDF)</a></li>
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/22-23-parent-non-filer-statement.pdf">Non-Tax Filer Statement: Parent (PDF)</a></li>
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/22-23-student-non-filer-statement.pdf">Non-Tax Filer Statement: Student (PDF)</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/2022-23-business-farm-supplement.pdf">Business/Farm Supplement</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/22-23-certification-of-finances.pdf">Certification of Finances</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/2022-23-verification-statement-dependent-student.pdf">Federal Verification Worksheet: Dependent</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/2022-23-verification-statement-independent-student.pdf">Federal Verification Worksheet: Independent</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/22-23-intl-business-supplement.pdf">International Business/Farm Supplement</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/non-custodial-parent-waiver-petition.pdf">Noncustodial Parent Waiver Petition</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/22-23-parent-non-filer-statement.pdf">Non-Tax Filer Statement - Parent</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/22-23-student-non-filer-statement.pdf">Non-Tax Filer Statement - Student</a></li>
 </ul>
 <?php echo end_item_iconItem(); ?>
 
@@ -112,10 +111,10 @@ $page_info = json_decode($page_info, true);
     'icon-on-left theme-white-border'
 ); ?>
 <ul class="linked-list">
-    <li><a href="https://studentaid.gov/h/apply-for-aid/fafsa">FAFSA (Vassar FAFSA Code 002895)</a></li>
-    <li><a href="https://cssprofile.collegeboard.org/">CSS / Financial Aid PROFILE (Vassar PROFILE Code 2956)</a></li>
+    <li><a href="https://www.cashcourse.org/">Fafsa (Vassar FAFSA Code 002895)</a></li>
+    <li><a href="https://www.cashcourse.org/">CSS / Financial Aid PROFILE (Vassar PROFILE Code 2956)</a></li>
     <li><a href="https://www.cashcourse.org/">Cash Course (Financial Literacy)</a></li>
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2022/03/Vassar-Fin-Aid-Award-22-23.pdf">Understanding your Financial Aid Letter (PDF)</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/04/vassar-fin-aid-award-21-v3-3-31-21.pdf">Understanding your Financial Aid Letter</a></li>
     <li><a href="https://offices.vassar.edu/student-financial-services/financial-aid/forms/computer/">Guidelines for Computer Purchases</a></li>
 </ul>
 <?php echo end_item_iconItem(); ?>

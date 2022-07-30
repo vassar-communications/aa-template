@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo masthead_interiorPage(
-    'More than 60% of Vassar Students Receive Financial Aid.',
+    'More than 60% of Vassar students receive financial aid.',
     'Through a generous financial aid program, Vassar meets 100% of the full demonstrated need of all admitted students for all four years. Financial aid is awarded exclusively on the basis of need as determined by the Free Application for Federal Student Aid (FAFSA) and the College Scholarship Service (CSS) Profile.',
     $admission_img_path.'financial-aid/0013-22-04-kr-noyes-vassar-0040.jpg',
     null,
@@ -86,8 +86,7 @@ $page_info = json_decode($page_info, true);
     'Applying for Aid',
     $admission_img_path.'financial-aid/0085_16_04_KR_0008.jpg',
     'image-is-first theme-cream has-bg',
-    '',
-    ['img_alt_text' => 'A person reading a book sitting cross-legged on a marble bench next to a tree']
+    ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Learn more about the steps required to apply for need-based financial aid.</p>
@@ -124,11 +123,10 @@ $page_info = json_decode($page_info, true);
     'Tuition & Fees',
     $admission_img_path.'financial-aid/0198-19-11-kwe-library-vassar-vb-5394.jpg',
     'image-is-first theme-extralightgray',
-    '',
-    ['img_alt_text' => 'Students sitting at a student table in the libary']
+    ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text">View a breakdown of Vassar’s tuition, housing, and dining costs, and other fees.</p>
+    <p class="intro-text">View a breakdown of Vassar’s tuition, housing and dining costs, and other fees.</p>
 
     <?php echo cta_link(
       '/admission/financial-aid/tuition/',

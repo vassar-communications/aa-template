@@ -19,7 +19,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Students visting, reading, and playing piano in a residential common area']); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -29,8 +29,7 @@ $page_info = json_decode($page_info, true);
     'Ask a Student',
     '/admission/assets/images/connect/0236-19-05-ja-devils-vassar-0014.jpg',
     'image-is-first theme-cream section-large-title',
-    '',
-    ['img_alt_text' => 'Students standing in a circle looking down at the camera and singing']);
+    ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>There is a lot to learn about Vassar through our many virtual and in-person visit options. If you still have questions about what life is like as a Vassar student, we encourage you to reach out! Email <a href="mailto:askastudent@vassar.edu">askastudent@vassar.edu</a> to connect with a current Vassar student who will answer your questions about life at Vassar. We can’t guarantee which student will respond to your question, but we can guarantee that they will give you an honest answer. So go ahead, ask a student.</p>

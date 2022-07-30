@@ -7,7 +7,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = '{"page_title":"Applying for Aid","feature_image":"/admission/assets/images/financial-aid/0038-22-06-cs-reunion-vassar-040.jpg"}';
+$page_info = '{"page_title":"Applying for Aid","feature_image":"/admission/assets/images/financial-aid/0085_16_04_KR_0008.jpg"}';
 /* === */
 $page_info = json_decode($page_info, true);
 
@@ -20,7 +20,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Large Tree Facing in front of Main Building on Vassar Campus']); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 
 <?php echo interior_page_nav() ?>
@@ -31,8 +31,7 @@ $page_info = json_decode($page_info, true);
     'Student Financial Services',
     $admission_img_path.'financial-aid/apply/0069-19-05-kr-spring-vassar-4749.jpg',
     'image-is-first theme-cream',
-    '',
-    ['img_alt_text' => 'Spring time View of the Raymond entrance from Main building.']
+    ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Applying for financial aid can be daunting, but we’re here to help you through each step.</p>
@@ -86,7 +85,7 @@ $page_info = json_decode($page_info, true);
         <?php echo labeled_list_item('Applies to', 'All students, domestic and international'); ?>
     </ul>
 
-    <p>If parents are separated/divorced, both parents will each complete their own CSS Profile application.</p>
+    <p>If parents are separated/divorced, both parents will each complete their own CSS Profile application</p>
 
     <a href="https://cssprofile.collegeboard.org/"  class="px-0 btn btn-link arrow text-start">Visit CSS Profile</a>
 </div>
