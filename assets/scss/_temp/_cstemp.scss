@@ -89,6 +89,13 @@
     position: absolute;
     right: 2vw;
     top: 2vw;
+    z-index: 100;
+
+    &:focus {
+      outline: 0;
+      box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 50%);
+      opacity: .9;
+    }
   }
   .megamenu-site-title {
     position: relative;
@@ -115,7 +122,6 @@
     color: #fff;
     opacity: 0.6;
   }
-
 }
 
 $menu-cols-gap: 4rem;
@@ -136,6 +142,10 @@ $menu-cols-gap: 4rem;
       width: calc(41.66666667% - #{$menu-cols-gap});
     }
   }
+}
+
+.megamenu-site-nav .btn-close .fa-times {
+    opacity: 0;
 }
 
 // carousel
