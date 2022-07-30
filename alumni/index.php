@@ -7,11 +7,16 @@ include( $project_paths['main_project_root'] . '/functions.php');
 
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Advancement";
-$page_classes = "advancement-demo";
-/*  ---------------------- */
+$page_info = '{
+  "page_title":"Vassar Alumni",
+  "page_classes":"advancement-demo",
+  "nav_title":"Alumni"
+}';
+
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -23,14 +28,9 @@ $page_classes = "advancement-demo";
 
 
 <?php echo sec_siteHeader_video_adv(); ?>
-<!--<a href="" class="mx-2 btn btn-lg btn-primary arrow">Give Now</a>
-<a href="" class="mx-2 btn btn-lg btn-primary arrow">Log in</a>-->
 <?php echo end_sec_siteHeader_video(); ?>
 
 <?php echo alums_topLevelNav(); ?>
-
-<?php // echo alums_topLevelNav(); ?>
-
 
 <!-- intro quote -->
 <?php echo sec_regularContent(

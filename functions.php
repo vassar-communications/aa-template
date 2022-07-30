@@ -24,6 +24,7 @@ include($project_paths['main_project_root'].'/core/template-parts/local-nav.inc'
 include($project_paths['main_project_root'].'/core/template-parts/tmpfooteralumni.inc');
 
 include($project_paths['main_project_root'].'/core/template-parts/admission-topLevelNav.inc');
+include($project_paths['main_project_root'].'/core/template-parts/alums-topLevelNav.inc');
 
 /* Partials */
 
