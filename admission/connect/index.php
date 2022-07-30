@@ -34,6 +34,7 @@ $page_info = json_decode($page_info, true);
       --bs-gap: 1rem;
       ']
 ); ?>
+
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
 <?php // echo page_partialmasthead($page_info['feature_image']); ?>

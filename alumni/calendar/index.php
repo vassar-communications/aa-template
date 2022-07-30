@@ -6,11 +6,15 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "Our Community";
-$page_classes = "";
 
-/*  ---------------------- */
+$page_info = '{
+  "page_title":"Calendar",
+  "page_classes":"",
+  "feature_image":"/assets/images/placeholder-banner.png"
+}';
 
+/* === */
+$page_info = json_decode($page_info, true);
 ?>
 
 <?php echo site_header(); ?>
@@ -42,7 +46,7 @@ $page_classes = "";
 
 <?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
+
 <?php echo toplinksNav(); ?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-calendar-nav.php');?>
 <?php echo end_sec_toplinksNav(); ?>

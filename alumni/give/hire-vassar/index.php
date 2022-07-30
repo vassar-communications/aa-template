@@ -7,10 +7,15 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "Hire Vassar";
-$page_classes = "";
 
-/*  ---------------------- */
+$page_info = '{
+  "page_title":"Hire Vassar",
+  "page_classes":"",
+  "feature_image":"/assets/images/placeholder-banner.png"
+}';
+
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -24,14 +29,7 @@ $page_classes = "";
 <?php echo page_partialmasthead('https://vassartest.chuckyatsuk.com/img/alumni/give/hire/0056_13_05_TT_1015.jpg'); ?>
 
 
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-give-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-give-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo interior_page_nav() ?>
 
 
 <?php /*  PAGE CONTENT === */ ?>

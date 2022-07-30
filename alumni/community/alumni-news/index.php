@@ -7,10 +7,14 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "Alumni News & Stories";
-$page_classes = "";
+$page_info = '{
+  "page_title":"Alumni News & Stories",
+  "page_classes":"",
+  "feature_image":"/assets/images/placeholder-banner.png"
+}';
 
-/*  ---------------------- */
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -20,17 +24,11 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
 
 
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-community-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-community-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo interior_page_nav() ?>
 
 <?php /*  PAGE CONTENT === */ ?>
 

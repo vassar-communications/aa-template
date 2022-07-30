@@ -7,11 +7,15 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "College Search 101";
-$page_classes = "";
 
-/*  ---------------------- */
+$page_info = '{
+  "page_title":"College Search 101",
+  "page_classes":"",
+  "feature_image":"/alumni/assets/img/alumni-resources/college-search/0038-22-06-cs-reunion-vassar-081.jpg"
+}';
 
+/* === */
+$page_info = json_decode($page_info, true);
 ?>
 
 <?php echo site_header(); ?>
@@ -20,31 +24,21 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
 
-
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-resources-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-resources-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo interior_page_nav() ?>
 
 <?php /*  PAGE CONTENT === */ ?>
 
 
-
-
 <?php echo sec_fullBleedImageColumn(
-    null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/resources/college-search/0036-22-06-kr-reunion-vassar-0040.jpg',
+    'College Search 101 for Vassar Families',
+    $alumni_img_path.'alumni-resources/college-search/0036-22-06-kr-reunion-vassar-0040.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h1 class="display-6">College Search 101 for Vassar Families</h1>
+
     <p>Offered annually by the Office of Advancement in association with the Office of Admission, College Search 101 is designed to familiarize Vassar alumnae/i parents and their high school juniors with the college admission process. This program provides valuable, general information to your family as your college search process begins.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
