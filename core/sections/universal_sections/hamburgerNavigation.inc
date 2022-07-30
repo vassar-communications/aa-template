@@ -30,7 +30,7 @@ $template = <<<TMP
          </a>
       </div>
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-times"></button>
-      <div class="">
+      <div class="megamenu-container">
          <div class="megamenu-cols-container row align-items-start">
             <div class="col-md-7">
                <h6 class="tagline mb-4 megamenu-site-title"><a href="/admission/">Office of Admission</a></h6>

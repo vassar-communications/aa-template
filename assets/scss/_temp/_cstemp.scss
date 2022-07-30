@@ -111,16 +111,40 @@
     --fade-direction: bottom;
     bottom: 0;
   }
+  .offcanvas-body {
+    padding: 1rem 1rem 4rem 1rem;
+  }
+  .vassar-masthead-offcanvas {
+    z-index: 110;
+    position: relative;
+    width: 10rem;
+    text-align: center;
+    margin-top: 2rem;
 
+    a {
+      display: inline-block;
+      transition: 0.4s all ease;
 
+      &:hover {
+        opacity: 0.4;
+      }
+    }
 
-  // the folowing is for making expanded menu items highlighted
+  }
+
+  .megamenu-container {
+    margin-top: 6rem;
+  }
+
+  // the following is for making expanded menu items highlighted
 
   .nav-item.d-flex {
     display: block !important;
   }
   .nav-item {
     position: relative;
+    margin-bottom: 0 !important;
+    padding-bottom: 0.5rem;
   }
   .main-nav-link {
     width: 90%;
@@ -133,7 +157,17 @@
       top: 0;
       width: 4rem;
       text-align: right;
-//      z-index: 10;
+      background-image: none;
+      transition: all ease .4s !important;
+          display: block;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: right;
+          line-height: 0;
+          padding-top: 0.2rem;
+
+          padding-right: 0.6rem;
 
       &[aria-expanded="true"] {
         background: #852841;
