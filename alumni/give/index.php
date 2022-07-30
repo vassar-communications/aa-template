@@ -23,7 +23,6 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-
 <?php echo sec_fixedCenteredTitle_masthead_vid(
     '<b class="slide-from-left">Give</b>
    <b class="slide-from-right">Back</b>',
@@ -41,10 +40,6 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <?php echo end_sec_fixedCenteredTitle_masthead_vid(); ?>
-
-
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-breadcrumb.php');?>
 
 <?php echo interior_page_nav() ?>
 

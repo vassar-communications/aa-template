@@ -49,7 +49,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo masthead_interiorPage(
-    'Reach Out to Us ',
+    'Reach Out to Us',
     '',
     '/assets/images/placeholders/placeholder-square.png');
 ?>
