@@ -134,7 +134,7 @@ $page_info = json_decode($page_info, true);
         'book-open-reader',
         'icon-on-left'
       ); ?>
-          <p>Our campus is a mix of students interested in the natural sciences, social sciences, arts, and humanities, as well as some interesting combinations of these disciplines.</p>
+          <p>Our campus is a mix of students interested in the natural sciences, social sciences, arts and humanities, as well as some interesting combinations of these disciplines.</p>
       <?php echo end_item_iconItem(); ?>
 
       <?php echo item_iconItem(
