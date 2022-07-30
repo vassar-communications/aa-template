@@ -93,20 +93,32 @@ $template = <<<TMP
                   </div>
                </div>
                <hr/>
+
                <div class="nav-item d-flex justify-content-between text-light h5 display-5">
                   <a class="text-white main-nav-link" href="/admission/quick-facts/">Quick Facts</a><a href="#admission-quickfacts" class="collapsed display-4 text-white" data-bs-toggle="collapse"
                      data-bs-target="#admission-quickfacts" aria-expanded="false" aria-controls="collapseOne">+</a>
                </div>
-               <div id="admission-quickfacts" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#admission-financialaid">
+               <div id="admission-quickfacts" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#admission-quickfacts">
                   <div class="accordion-body h3 text-left px-0">
                      <div class="mb-2"> <a class="text-white" href="/admission/quick-facts/academics">Academics</a></div>
                      <div class="mb-2"> <a class="text-white" href="/admission/quick-facts/community">Community</a></div>
                   </div>
                </div>
+
                <hr/>
+
+
                <div class="nav-item d-flex justify-content-between text-light h5 display-5">
-                  <a class="text-white main-nav-link" href="/admission/connect/">Connect</a></a>
+                  <a class="text-white main-nav-link" href="/admission/connect/">Connect</a><a href="#admission-connect" class="collapsed display-4 text-white" data-bs-toggle="collapse"
+                     data-bs-target="#admission-connect" aria-expanded="false" aria-controls="collapseOne">+</a>
                </div>
+               <div id="admission-connect" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#admission-connect">
+                  <div class="accordion-body h3 text-left px-0">
+                     <div class="mb-2"> <a class="text-white" href="/admission/connect/for-counselors">For Counselors</a></div>
+                     <div class="mb-2"> <a class="text-white" href="/admission/connect/meet-the-students">Meet the Students</a></div>
+                  </div>
+               </div>
+
             </div>
 
 
