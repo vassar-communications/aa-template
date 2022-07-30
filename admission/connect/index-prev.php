@@ -42,7 +42,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo masthead_interiorPage(
-    'Our Team is Here to Help You.',
+    'Our team is here to help you.',
     '',
     $admission_img_path.'connect/0214-19-09-bl-green-fest-vassar-2721.jpg');
 ?>
@@ -67,8 +67,8 @@ $page_info = json_decode($page_info, true);
     USA
 </p>
 <p>
-    Telephone: <a href="tel:1-845-437-7300">(845) 437-7300</a> or <a href="tel:1-800-827-7270">(800) 827-7270</a><br>
-    Fax: <a href="fax:1-845-437-7063">(845) 437-7063</a><br>
+    Telephone: (845) 437-7300 or (800) 827-7270<br>
+    Fax: (845) 437-7063<br>
     Email: <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>
 </p>
     </div>
@@ -125,7 +125,7 @@ $page_info = json_decode($page_info, true);
 <div class="staff-contact mb-5">
     <h3>Kim Lord ’06</h3>
     <p><em>Senior Associate Director of Admission</em></p>
-    <p><strong>Regional Responsibilities:</strong> Massachusetts (Eastern)<br/><strong>International Responsibilities:</strong> Europe, India</p>
+    <p><strong>Regional Responsibilities:</strong> Massachusetts (Eastern)<br/><strong>International Responsibilities: Europe, India</strong></p>
     <a class="fixemaillink" href="mailto:klord@vassar.edu">Email: klord@vassar.edu</a>
 </div>
 
