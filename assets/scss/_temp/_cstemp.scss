@@ -275,3 +275,12 @@ $menu-cols-gap: 4rem;
 .centered-wide-item {
 	grid-column-start: 2;
 }
+
+
+
+// black bg on masthead
+
+.sec-fixedCenteredTitleMasthead .section-bg-image-container,
+.section--top-level-masthead {
+  background: #000;
+}

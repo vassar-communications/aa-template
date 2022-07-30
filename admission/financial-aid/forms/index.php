@@ -7,7 +7,9 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = '{"page_title":"Forms & Resources","feature_image":"/admission/assets/images/financial-aid/forms/0177_16_09_KR_0072.jpg"}';
+$page_info = '{
+  "page_title":"Forms & Resources",
+  "feature_image":"/admission/assets/images/financial-aid/forms/0177_16_09_KR_0072.jpg"}';
 /* === */
 $page_info = json_decode($page_info, true);
 
@@ -33,7 +35,7 @@ $page_info = json_decode($page_info, true);
     $admission_img_path.'financial-aid/forms/0145-15-05-hw-campus-vassar-vb-3467-crop.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Student laying on lawn reading in front of Thompson Library on Vassar Campus'];
+    ['img_alt_text' => 'Student laying on lawn reading in front of Thompson Library on Vassar Campus']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Here you will find all the forms and resources you’ll need to successfully apply for financial aid.</p>

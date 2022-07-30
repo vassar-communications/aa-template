@@ -30,7 +30,7 @@ $page_info = json_decode($page_info, true);
     $admission_img_path.'financial-aid/0138-15-11-kr-vcdf-vassar-0110.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'A photo taken at night of the Volgelstein Center for Drama and Film, facing the north corner'];
+    ['img_alt_text' => 'A photo taken at night of the Volgelstein Center for Drama and Film, facing the north corner']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Financial aid awards typically include grants and scholarships, loans, and campus jobs. Students and their families can decide which components of the aid package are most suitable.</p>
