@@ -1,11 +1,11 @@
 <?php echo item_cardWithText(
-    'Upcoming College Events',
-    '/alumni/calendar/college-events',
+    'Fearlessly Consequential',
+    '#',
     ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-<p class="placeholder">Placeholder</p>
+<p class="placeholder">Learn more about our new campaign</p>
 
 <?php echo end_item_cardWithText(
     null,

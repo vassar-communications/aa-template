@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/calendar/calendar-on-demand.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/calendar/calendar-college-events.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/calendar/calendar.php');?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 

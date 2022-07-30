@@ -26,12 +26,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
 
 
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-resources-alumnaehouse-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
+
 
 
 <?php echo toplinksNav(); ?>
