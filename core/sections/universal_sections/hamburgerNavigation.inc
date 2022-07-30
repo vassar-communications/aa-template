@@ -116,7 +116,7 @@ $template = <<<TMP
 
             <div class="col-md-5 quick-links-col">
                <div class="">
-                  <h6 class="tagline mb-5 knockedout text-primary">Quick Links</h6>
+                  <h6 class="tagline mb-5 knockedout">Quick Links</h6>
                   <ul class="linked-list">
                      <li><a href="/about">About</a></li>
                      <li><a href="/academics">Academics</a></li>

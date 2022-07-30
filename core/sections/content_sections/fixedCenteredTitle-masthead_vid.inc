@@ -31,14 +31,14 @@ function sec_fixedCenteredTitle_masthead_vid(
     return <<<TMP
 
 
-    <div class="section min-vh-100 masthead-video-background sec-fixedCenteredTitleMasthead is-loading $section_classes" $css>
+    <div class="section min-xvh-100 masthead-video-background sec-fixedCenteredTitleMasthead is-loading $section_classes" $css>
         <button id="play_pause" class="videoplayer_button" aria-label="pause/play background video" title="pause/play background video">
             <span id="pause_button" class="videoplayer_icon videoplayer_icon_pause" aria-hidden="true"><i class="fa fa-solid fa-pause"></i></span>
             <span id="play_button" class="videoplayer_icon videoplayer_icon_play" aria-hidden="true"><i class="fa fa-solid fa-play"></i></span></span>
             <span class="videoplayer_icon_label">Pause/Play this video</span>
         </button>
       <div class="section-bg-image-container $bg_classes" $bg_css>
-        <div class="position-fixed w-100 vh-100 d-flex justify-content-center align-items-center section-title-container">
+        <div class="position-fixed w-100 xvh-100 d-flex justify-content-center align-items-center section-title-container">
 
           {$section_title($title, $title_classes)}
         </div>

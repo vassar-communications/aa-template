@@ -52,7 +52,7 @@
 
 .main-menu-panel {
   background-color: var(--section-bg-color);
-  --section-link-color: #f00;
+  --section-link-color: #fff;
   --section-link-hover-color: #fff;
 
   .linked-list {
@@ -97,20 +97,28 @@
       position: absolute;
       content: '';
       height: 3rem;
-      border-left: 2px solid #f00;
+      border-left: 2px solid rgba(255,0,0,0.4);
       width: 1px;
-      left: 0;
+      left: 1rem;
       top: calc(100% + 1.2rem);
     }
   }
   .nav-items-col {
     margin-top: 5rem;
   }
-
+  .megamenu-site-title a {
+    --section-link-color: #f00;
+    color: #fff;
+    opacity: 1;
+  }
+  .knockedout {
+    color: #fff;
+    opacity: 0.6;
+  }
 
 }
 
-$menu-cols-gap: 2rem;
+$menu-cols-gap: 4rem;
 
 .megamenu-cols-container {
   gap: $menu-cols-gap;
