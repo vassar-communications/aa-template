@@ -94,7 +94,7 @@ $template = <<<TMP
                </div>
                <hr/>
                <div class="nav-item d-flex justify-content-between text-light h5 display-5">
-                  <a class="text-white main-nav-link" href="/admission/financial-aid/">Quick Facts</a><a href="#admission-quickfacts" class="collapsed display-4 text-white" data-bs-toggle="collapse"
+                  <a class="text-white main-nav-link" href="/admission/quick-facts/">Quick Facts</a><a href="#admission-quickfacts" class="collapsed display-4 text-white" data-bs-toggle="collapse"
                      data-bs-target="#admission-quickfacts" aria-expanded="false" aria-controls="collapseOne">+</a>
                </div>
                <div id="admission-quickfacts" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#admission-financialaid">
