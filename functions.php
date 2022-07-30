@@ -12,7 +12,7 @@ $placeholder_img_wide = '/assets/images/placeholders/placeholder-wide.jpg';
 $admission_img_path = '/admission/assets/images/';
 $quickfacts_img_path = $admission_img_path.'quick-facts/';
 */
-include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 
 include($project_paths['main_project_root'].'/core/review/slugify.inc');
 
@@ -160,44 +160,11 @@ include($project_paths['main_project_root'].'/core/review/current-page.inc');
 
 
 
-
-function get_base_path($type='document_root') {
-
-  //  which server are we on?
-
-  if( strpos(getcwd(), 'vassar-staging.benaustin.com') ) {
-    $root_path = '/nfs/c08/h03/mnt/117884/domains/vassar-staging.benaustin.com/html';
-  }
-  else {
-    $root_path = $_SERVER['DOCUMENT_ROOT'];
-  }
-
-  if( $type == 'document_root' ) {
-    return $root_path;
-  }
-  if( $type == 'path_to_current_doc_from_web_dir' ) {
-    $path = str_replace($root_path, '', getcwd());
-    return $path;
-  }
-
-
-/*
-
-Problem: I based a lot of this code on the assumption that getcwd() and $_SERVER['DOCUMENT_ROOT'] return the same thing as the root of the server. That, as it turns out, was presumptuous.
-
-That's how it works on my local environment, but on the remote Ben Austin server, getcwd() returned a path that was a lot deeper than $_SERVER['DOCUMENT_ROOT']. So trying to get the base of the web directory by stripping DOCUMENT_ROOT from getcwd() via str_replace meant that the final path still had some weird sub-root stuff in it.
-
-Final decision: on servers where getcwd() and $_SERVER['DOCUMENT_ROOT'] return different root paths, hardcode the root path and use that in place of $_SERVER['DOCUMENT_ROOT'].
-
-*/
-
-}
-
-
 //  Provided a path to a page (/admission/apply), this returns all the
 //  variables for that page: title, classes, etc
 function get_page_vars($full_filepath) {
 
+  /*
   //  HACK - FIX THIS LATER
 
   // these are pages that don't currently have info
@@ -217,7 +184,7 @@ function get_page_vars($full_filepath) {
       $page_info['page_link'] = '/admission/';
       return $page_info;
     }
-
+    */
 
 
     global $project_paths;
@@ -268,8 +235,8 @@ $page_info = json_decode($page_info, true);
     $page_info['page_link'] = str_replace(get_base_path(), '', $full_filepath);
 
     return $page_info;
-  }
-  else return false;
+//  }
+//  else return false;
 }
 
 

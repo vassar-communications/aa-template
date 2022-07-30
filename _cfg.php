@@ -4,6 +4,38 @@
 // easily imported into functions if needed
 
 
+
+
+/*
+
+Problem: I based a lot of this code on the assumption that getcwd() and $_SERVER['DOCUMENT_ROOT'] return the same thing as the root of the server. That, as it turns out, was presumptuous.
+
+That's how it works on my local environment, but on the remote Ben Austin server, getcwd() returned a path that was a lot deeper than $_SERVER['DOCUMENT_ROOT']. So trying to get the base of the web directory by stripping DOCUMENT_ROOT from getcwd() via str_replace meant that the final path still had some weird sub-root stuff in it.
+
+Final decision: on servers where getcwd() and $_SERVER['DOCUMENT_ROOT'] return different root paths, hardcode the root path and use that in place of $_SERVER['DOCUMENT_ROOT'].
+
+*/
+function get_base_path($type='document_root') {
+
+  //  which server are we on?
+
+  if( strpos(getcwd(), 'vassar-staging.benaustin.com') ) {
+    $root_path = '/nfs/c08/h03/mnt/117884/domains/vassar-staging.benaustin.com/html';
+  }
+  else {
+    $root_path = $_SERVER['DOCUMENT_ROOT'];
+  }
+
+  if( $type == 'document_root' ) {
+    return $root_path;
+  }
+  if( $type == 'path_to_current_doc_from_web_dir' ) {
+    $path = str_replace($root_path, '', getcwd());
+    return $path;
+  }
+}
+
+
 // This is related to Morgan's scraper
 // If we're on aa-devspace, pretend the root path is /admission
 // not the site root
@@ -13,9 +45,15 @@ $project_paths = array(
   'public_path' => ''
 );
 
+$current_site = ltrim( get_base_path( 'path_to_current_doc_from_web_dir' ), '/');
+$current_site = explode( '/', $current_site );
+$current_site = $current_site[0];
+
+
+
 if ( strpos( getcwd(), 'aa-devspace.vassarspaces.net' ) ) {
   // on devspace, path needs to change
-  $project_paths['public_path'] = '/admission';
+  $project_paths['public_path'] = '/' . $current_site;
   $project_paths['comment'] = 'devspace';
 }
 else {

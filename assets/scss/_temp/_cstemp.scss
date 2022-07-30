@@ -92,6 +92,7 @@
     }
   }
 
+
   &:after,
   &:before {
     position: fixed;
@@ -110,6 +111,47 @@
     --fade-direction: bottom;
     bottom: 0;
   }
+
+
+
+  // the folowing is for making expanded menu items highlighted
+
+  .nav-item.d-flex {
+    display: block !important;
+  }
+  .nav-item {
+    position: relative;
+  }
+  .main-nav-link {
+    width: 90%;
+    z-index: 20;
+    margin-left: 1rem;
+
+    & + [data-bs-toggle="collapse"] {
+      position: absolute !important;
+      right: 0;
+      top: 0;
+      width: 4rem;
+      text-align: right;
+//      z-index: 10;
+
+      &[aria-expanded="true"] {
+        background: #852841;
+        width: 100%;
+      }
+    }
+  }
+
+
+  .accordion-body.h3.text-left.px-0 {
+      padding-top: 0;
+      padding: 1.3rem !important;
+      background: #852841;
+  }
+
+  // end highlighted expanded menu items
+
+
 
   .btn-close {
     position: absolute;
