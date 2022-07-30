@@ -4,12 +4,15 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
+$page_info = '{
+  "page_title":"Our Community",
+  "page_classes":"",
+  "feature_image":"/assets/images/placeholder-banner.png"
+}';
 
-$page_title = "Our Community";
-$page_classes = "";
+/* === */
+$page_info = json_decode($page_info, true);
 
-/*  ---------------------- */
 
 ?>
 

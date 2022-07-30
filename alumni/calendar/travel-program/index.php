@@ -1,7 +1,7 @@
 
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
-include_once($project_paths['main_project_root'].'/functions.php');
+include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
@@ -9,7 +9,7 @@ include_once($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title":"Travel Program",
-  "page_classes":"alive",
+  "page_classes":"",
   "feature_image":"/assets/images/placeholder-banner.png"
 }';
 

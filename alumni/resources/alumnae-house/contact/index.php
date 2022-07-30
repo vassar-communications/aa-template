@@ -7,10 +7,16 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /*  PAGE INFO ============ */
 
-$page_title = "Contact Alumnae House";
-$page_classes = "";
 
-/*  ---------------------- */
+
+$page_info = '{
+  "page_title":"Contact Alumnae House",
+  "page_classes":"",
+  "feature_image":"/assets/images/placeholder-banner.png"
+}';
+
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
