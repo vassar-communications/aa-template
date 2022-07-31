@@ -22,7 +22,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Detail of flags from different countries']); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 
 <?php echo interior_page_nav() ?>
@@ -32,11 +32,10 @@ $page_info = json_decode($page_info, true);
     'Vassar believes in building a vibrant community of global citizens.',
     $admission_img_path.'apply/international/0074_15_08_KR_0088.jpg',
     'image-is-first theme-cream',
-    '',
-    ['img_alt_text' => 'Smiling students standing arm in arm']
+    ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text">Vassar students come from more than 79 countries around the world and international students make up more than 10% of our community.</p>
+    <p>Vassar students come from more than 79 countries around the world and international students make up more than 10% of our community.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -100,7 +99,7 @@ $page_info = json_decode($page_info, true);
             <div class="accordion-body">
                 <p>We accept the IELTS Academic. We do NOT accept the IELTS General Training.</p>
 
-                <p>Test results from the testing agency are strongly preferred, but PDFs of the Test Report Form (including your center number and candidate number) will be accepted from your school counselor, if there is a financial hardship. However, test results from the testing agency will be required for enrollment.</p>
+                <p>Test results from the testing agency are strongly preferred, but PDFs of the Test Report Form (including your centre number and candidate number) will be accepted from your school counselor, if there is a financial hardship. However, test results from the testing agency will be required for enrollment.</p>
 
                 <p><a href="https://www.ielts.org/">Visit ielts.org</a></p>
             </div>

@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-    <p>Vassar offers scholarships, grants, loans, and on-campus jobs.</p>
+    <p>Vassar offers scholarships, grants, loans, and on-campus jobs</p>
 
 <?php echo end_item_cardWithText(
     null,

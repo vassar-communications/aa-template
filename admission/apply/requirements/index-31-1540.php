@@ -58,14 +58,14 @@ $page_info = json_decode($page_info, true);
 <ul class="style-checklist theme-cream">
 
     <li><?php echo central_link('common-app', 'Common Application'); ?> or <?php echo central_link('coalition-app', 'Coalition Application'); ?> application</li>
-    <li>$65 application fee or a fee waiver
+    <li>$65 application fee or fee waiver
     <li>Early Decision Agreement (Early Decision Applicants ONLY)
     <li>School Report and High School Transcript: To be completed and sent by your school counselor. Available for online completion or download through <?php echo central_link('common-app', 'Common Application'); ?>.
     <li>Teacher Evaluations
-    <li>Mid-year Grade Report Vassar requests each applicant’s most recent grade report to be sent by the school counselor.
-    <li>For Early Decision I and II: Vassar requires a first quarter/trimester grade report, which should be sent as soon as it becomes available.
-    <li>For Regular Decision: A mid-year report with first term grades is required when available, typically by February 1.
-    <li>Students admitted during Early Decision I or II will also be asked to provide their first term-grades as soon as they become available.
+    <li><strong>Mid-year Grade Report:</strong> Vassar requests each applicant’s most recent grade report to be sent by the school counselor.
+    <li>For Early Decision I and II, Vassar requires a first quarter/trimester grade report, which should be sent as soon as it becomes available.
+    <li>For Regular Decision, a mid-year report with first term grades is required when available, typically by February 1.
+    <li>Students admitted during Early Decision I or II will also be asked to provide their first term grades as soon as they become available.
     <li><a href="/admission/apply/international/">TOEFL/IELTS/DETM</a>: If English is neither your first language nor the primary language of instruction in secondary schools you have attended for the last three years.
     </li>
 </ul>
@@ -78,14 +78,14 @@ $page_info = json_decode($page_info, true);
     'theme-extralightgray',
     ''
 ); ?>
-<p>The following items are not required for your application, but you may wish to review this information anyway.</p>
+<p>The following are not required for your application. for more information click the links below</p>
 
 <?php echo item_iconItem(
   'Standardized Tests',
   'clipboard',
   'icon-on-left theme-white-border'
 ); ?>
-<p>Vassar does not require students to submit the SAT or ACT for the 2022–2023 admission cycle. Applicants can declare whether or not they wish to include testing with their application by logging in to the applicant status portal and completing the test-optional form; the deadlines to do so are:</p>
+<p>Vassar does not require students to submit the SAT or ACT for the 2020–2021, 2021–2022, and 2022–2023 admission cycles. Applicants can declare whether or not they wish to include testing with their application by logging in to the applicant status portal and completing the test optional form; the deadlines to do so are:</p>
 
 <?php echo deadlines('Early Decision Application deadlines'); ?>
   <?php echo deadlines_item('Early Decision I', 'November 22'); ?>
@@ -154,7 +154,7 @@ $page_info = json_decode($page_info, true);
   'star',
   'icon-on-left theme-white-border'
 ); ?>
-  <p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance.</p>
+  <p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance</p>
 
   <?php echo cta_link(
     '/admission/apply/requirements/arts',

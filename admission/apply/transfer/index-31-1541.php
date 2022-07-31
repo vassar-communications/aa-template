@@ -25,7 +25,7 @@ $page_info = json_decode($page_info, true);
 <?php echo hamburger_navigation(); ?>
 
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'A person sitting on the steps using a laptop outside Rockefeller Hall']); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 
 <?php echo interior_page_nav() ?>
@@ -40,8 +40,7 @@ $page_info = json_decode($page_info, true);
     'Information for Transfer Applicants',
     $admission_img_path.'apply/transfer/0198-19-11-kwe-library-vassar-vb-5289-crop.jpg',
     'image-is-first theme-cream',
-    '',
-    ['img_alt_text' => 'A person at a library study table taking notes next to a stack of four books.']
+    ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="mb-5">Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. Transfer admission is need-aware and spots are limited.</p>
@@ -65,7 +64,7 @@ $page_info = json_decode($page_info, true);
 
 
 <ul class="style-checklist theme-cream">
-    <li><a href="https://www.commonapp.org/">Common Application</a> and $65 application fee or a fee waiver request</li>
+    <li><a href="https://www.commonapp.org/">Common Application</a> and $65 application fee or fee waiver request</li>
     <li>Transcripts from all high schools attended</li>
     <li>Transcripts from all colleges attended</li>
     <li><a href="https://www.vassar.edu/sites/default/files/2021-06/Transfer%20College%20Report_BLANK.pdf">Transfer College Report (PDF)</a> To be completed by someone at your current institution with access to your academic and disciplinary record</li>
@@ -120,7 +119,7 @@ $page_info = json_decode($page_info, true);
     'arrow-right-arrow-left',
     'icon-on-left theme-white-border'
 ); ?>
-<p>Vassar offers transfer credit for courses in the liberal arts and sciences which are the approximate equivalent in content, methodology, and rigor to courses listed in the <a href="https://catalogue.vassar.edu/">Vassar Catalog</a>.</p>
+<p>Vassar offers transfer credit for courses in the liberal arts and sciences which are the approximate equivalent in content, methodology, and rigor to courses listed in the <a href="https://catalogue.vassar.edu/">Vassar Catalog</a></p>
 <p>We do not award transfer credit for:</p>
 <ul>
     <li>Physical education (excluding dance)</li>

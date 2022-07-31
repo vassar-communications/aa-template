@@ -90,7 +90,7 @@ null,
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
-  <a href="https://www.vassar.edu/sites/default/files/2021-06/Vassar-Viewbook-2020.pdf"><img loading="lazy" src="https://www.vassar.edu/sites/default/files/2021-06/viewbook-2020.jpg" alt="Cover of Vassar's 2020 Viewbook"></a>
+      <img loading="lazy" src="https://www.vassar.edu/sites/default/files/2021-06/viewbook-2020.jpg" alt="Cover of Vassar’s 2020 Viewbook">
   <p class="card-text"><a href="https://www.vassar.edu/sites/default/files/2021-06/Vassar-Viewbook-2020.pdf">Read our Viewbook</a></p>
     <?php echo end_item_col(); ?>
 
@@ -102,11 +102,10 @@ null,
     'How to Apply',
     $admission_img_path.'apply/how-to-apply/110519_160over90_Vassar_0221.jpg',
     'image-is-first theme-charcoal bg-dark quad-pattern has-bg',
-    '',
-    ['img_alt_text' => 'Two people at a table in conversation']
+    ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Learn more about Vassar’s application requirements and important deadlines.</p>
+    <p>Learn more about Vassar's application requirements and important deadlines.</p>
 
     <a href="/admission/apply/how-to-apply/" class="px-0 btn btn-link arrow">Learn more about how to apply to Vassar</a>
 </div>
@@ -116,8 +115,7 @@ null,
     'First-Year Applicants',
     $admission_img_path.'apply/0007_16_02_KR_0083.jpg',
     'theme-cream',
-    '',
-    ['img_alt_text' => 'Two people sitting at the table in the Bridge for Laboratory Sciences seating conversing in front of a book and laptop']
+    ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Everything you need to know about applying to Vassar as an incoming first-year student.</p>

@@ -38,12 +38,7 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Information for American Veterans',
     'Vassar actively seeks to enroll qualified veterans of the U.S. Armed Forces. Vassar fosters these connections through the Posse Veterans Program and the Yellow Ribbon Program, aimed at increasing enrollment of veterans at selective colleges and universities.',
-    $admission_img_path.'apply/veterans/commencement-posse-1905-ssh-002-crop.jpg',
-    null,
-    null,
-    ['img_alt_text' => 'At Commencement, President Bradley shakes hands with a graduating veteran accompanied by two young children']
-  );
-    
+    $admission_img_path.'apply/veterans/commencement-posse-1905-ssh-002-crop.jpg');
 ?>
 
 
@@ -90,12 +85,12 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo item_iconItem(
-    'Admission',
+    'Admissions',
     'ticket',
     'icon-on-left'
   ); ?>
           <p>Vassar is proud to offer an automatic application fee waiver to all service veterans.</p>
-          <p>Visit the <a href="/admission/apply/">Apply page</a>  to learn about application requirements.</p>
+          <p>Visit the Apply page  to learn about application requirements.</p>
           <p>Veterans may supplement their applications by submitting additional materials related to their military experience, including:</p>
           <ul>
               <li>AARTS transcript</li>
@@ -109,7 +104,7 @@ $page_info = json_decode($page_info, true);
     'sack-dollar',
     'icon-on-left'
   ); ?>
-      <p>As a participant in the <a href="https://www.va.gov/education/about-gi-bill-benefits/post-9-11/yellow-ribbon-program/">Yellow Ribbon Program</a>, Vassar will match funding with the U.S. Department of Veterans Affairs to cover the difference in costs between Vassar’s tuition and fees and those of the highest public in-state institution.</p>
+      <p>As a participant in the Yellow Ribbon Program, Vassar will match funding with the U.S. Department of Veterans Affairs to cover the difference in costs between Vassar’s tuition and fees and those of the highest public in-state institution.</p>
   <?php echo end_item_iconItem(); ?>
 
   <?php echo item_iconItem(
@@ -117,7 +112,7 @@ $page_info = json_decode($page_info, true);
     'house-chimney',
     'icon-on-left'
   ); ?>
-      <p>Housing options are available both on or off campus. The surrounding area offers apartment units for rent. Campus includes apartment-like housing for single juniors and seniors. The <a href="https://offices.vassar.edu/residential-life/">Office of Residential Life</a> will work with veterans to ensure that housing arrangements are appropriate to their needs.</p>
+      <p>Housing options are available both on or off campus. The surrounding area offers apartment units for rent. Campus includes apartment-like housing for single juniors and seniors. The Office of Residential Life will work with veterans to ensure that housing arrangements are appropriate to their needs.</p>
   <?php echo end_item_iconItem(); ?>
 
   <?php echo item_iconItem(
@@ -125,7 +120,7 @@ $page_info = json_decode($page_info, true);
     'person-circle-question',
     'icon-on-left'
   ); ?>
-      <p>Vassar provides advice and support through pre-major or major advisors, an advisor in the <a href="https://offices.vassar.edu/dean-of-studies/">Office of the Dean of Studies</a> dedicated to each class, and a counseling service staffed by trained professionals who help students, free of charge, with personal and academic issues.</p>
+      <p>Vassar provides advice and support through pre-major or major advisors, an advisor in the  Office of the Dean of Studies dedicated to each class, and a counseling service staffed by trained professionals who help students, free of charge, with personal and academic issues.</p>
   <?php echo end_item_iconItem(); ?>
 
 <?php echo end_sec_regularContent(); ?>
@@ -144,13 +139,13 @@ $page_info = json_decode($page_info, true);
   <div class="staff-contact">
       <h3>Ann Gitto</h3>
       <p><em>Associate Director of Student Financial Services</em></p>
-      <a class="fixemaillink" href="mailto:angitto@vassar.edu">Email: angitto@vassar.edu</a>
+      <a href="mailto:angitto@vassar.edu"><i class="fa-solid fa-envelope me-2"><b class="visually-hidden">Email</b></i>angitto@vassar.edu</a>
   </div>
 
   <div class="staff-contact">
-      <h3>Angela Anderson, </h3>
+      <h3>Angela Anderson</h3>
       <p><em>Registrar</em></p>
-      <a class="fixemaillink" href="mailto:angelaanderson@vassar.edu">Email: angelaanderson@vassar.edu</a>
+      <a href="mailto:angelaanderson@vassar.edu"><i class="fa-solid fa-envelope me-2"><b class="visually-hidden">Email</b></i>angelaanderson@vassar.edu</a>
   </div>
 </div>
 

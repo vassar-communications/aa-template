@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-    <p>See the checklist of requirements to transfer to Vassar.</p>
+    <p>See the checklist of requirements to transfer to Vassar</p>
 
 <?php echo end_item_cardWithText(
     null,

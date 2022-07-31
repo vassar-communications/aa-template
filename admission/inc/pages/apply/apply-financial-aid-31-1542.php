@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-    <p>Vassar’s financial aid program meets 100% of demonstrated need for all four years.</p>
+    <p>Vassar's financial aid program meets 100% of demonstrated need for all 4 years.</p>
 
 <?php echo end_item_cardWithText(
     null,
