@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Accommodations",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholder-banner.png"
+  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
 }';
 
 /* === */
