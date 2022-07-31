@@ -9,13 +9,18 @@
   .flipcard__value {
     margin-bottom: 2rem !important;
   }
+  .card__face {
+    padding: 1.3rem;
+  }
 }
 
 .flip-card {
   width: 100%;
-  height: var(--flipcard-height, 2rem);
-  perspective: 600px;
 
+  @media (hover: hover) {
+    height: var(--flipcard-height, 2rem);
+    perspective: 600px;
+  }
 
   .stretched-link {
     width: 100%;
@@ -26,8 +31,10 @@
   }
 
   @media (hover: none) {
+    border-radius: 1rem;
+    overflow: hidden;
     pointer-events: none;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   @media (hover: hover) {

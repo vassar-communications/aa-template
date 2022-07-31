@@ -9934,11 +9934,19 @@ details.open .dropdown__content {
   .flipcard__value {
     margin-bottom: 2rem !important;
   }
+
+  .card__face {
+    padding: 1.3rem;
+  }
 }
 .flip-card {
   width: 100%;
-  height: var(--flipcard-height, 2rem);
-  perspective: 600px;
+}
+@media (hover: hover) {
+  .flip-card {
+    height: var(--flipcard-height, 2rem);
+    perspective: 600px;
+  }
 }
 .flip-card .stretched-link {
   width: 100%;
@@ -9949,8 +9957,10 @@ details.open .dropdown__content {
 }
 @media (hover: none) {
   .flip-card {
+    border-radius: 1rem;
+    overflow: hidden;
     pointer-events: none;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 }
 @media (hover: hover) {
