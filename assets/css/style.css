@@ -14478,4 +14478,9 @@ ul.style-checklist a:hover {
   box-shadow: 0 -0.04em 0 0.12em white;
 }
 
+.home.is-ios .section-bg-image {
+  height: 100vh !important;
+  margin-top: 0;
+}
+
 /*# sourceMappingURL=style.css.map */

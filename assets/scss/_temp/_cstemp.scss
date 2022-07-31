@@ -328,3 +328,8 @@ $menu-cols-gap: 4rem;
     box-shadow: 0 -0.04em 0 0.12em rgb(255 255 255 / 100%);
   }
 }
+
+.home.is-ios .section-bg-image {
+  height: 100vh !important;
+  margin-top: 0;
+}
