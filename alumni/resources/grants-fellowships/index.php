@@ -57,16 +57,82 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Grants & Fellowships',
+    'The Ann Cornelisen Fellowship',
     '/assets/images/placeholders/placeholder-square.png',
     'image-is-first theme-cream',
     ''
 ); ?>
-<p class="intro-text">Highlighted below are a few of the grants and fellowships available to Vassar alumnae/i. For more information on these and other grants and fellowships, contact the Office for Fellowships and Pre-Health Advising.</p>
+<h6 class="tagline">for Graduating Seniors and Recent Alumni</h6>
+<p>This fellowship provides up to $18,000 to graduates who wish to study a current spoken language in any country outside of the United States, preferably in conjunction with an interest in sociology, diplomatic service, or international law. Applicants will ordinarily be enrolled in a formal foreign language program, though they need not to have studied the language previously.</p>
 
 <?php echo cta_link(
-    'https://www.vassar.edu/alums/services/grants/timeout',
-    'Learn more about the Time Out Grant'
+    'https://fellowships.vassar.edu/fellowships/graduates/cornelisen/',
+    'Learn more about the Ann Cornelisen Fellowship'
+); ?>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'The Fulbright Program',
+    '/assets/images/placeholders/placeholder-square.png',
+    'theme-dark-burgundy has-bg quad-pattern',
+    ''
+); ?>
+<p>The Fulbright U.S. Student Program is the largest U.S. exchange program offering opportunities for students and young professionals to undertake international graduate study, advanced research, university teaching, and primary and secondary school teaching worldwide. The program currently awards approximately 1,900 grants annually in all fields of study, and operates in more than 140 countries worldwide. Recipients of Fulbright awards are selected on the basis of academic or professional achievement, language preparation, and the quality and feasibility of the proposal. English Teaching Assistantships are available in more than 50 countries.</p>
+
+<?php echo cta_link(
+    'https://fellowships.vassar.edu/fellowships/graduates/fulbright/',
+    'Learn more about the Fulbright Program'
+); ?>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php echo sec_fullBleedImageColumn(
+    'The Luce Scholars Program for Internships in Asia',
+    '/assets/images/placeholders/placeholder-square.png',
+    'image-is-first theme-cream',
+    ''
+); ?>
+<p>Vassar may nominate three candidates for this scholarship, which endeavors to increase awareness of Asia among future leaders in American society by sponsoring 15-18 young Americans each year to live and work in Asia. Candidates must be American citizens who have received at least a bachelor’s degree and who would not have reached their 30th birthday by July 1st of the year they enter the program. They should have a record of high achievement, outstanding leadership ability, and clearly defined interests with evidence of potential for professional accomplishments. Those who already have significant experience in Asia or Asian studies are not eligible.</p>
+
+<?php echo cta_link(
+    'https://fellowships.vassar.edu/fellowships/graduates/luce/',
+    'Learn more about the Luce Scholars Program'
+); ?>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php echo sec_fullBleedImageColumn(
+    'The Maguire Fellowship for Study Abroad After Graduation',
+    '/assets/images/placeholders/placeholder-square.png',
+    'theme-dark-burgundy has-bg quad-pattern',
+    ''
+); ?>
+<p>Intended for recent graduates wishing to pursue their interest in the humanities abroad, this fellowship awards up to $25,000 to graduates with a well-developed proposal of study with a clear academic focus. Evidence of sufficient language skills and academic preparation to successfully undertake the proposed study must be presented as well as a clear articulation of how the Fellowship will further one’s future objectives.</p>
+
+<?php echo cta_link(
+    'https://fellowships.vassar.edu/fellowships/graduates/maguire/',
+    'Learn more about the Maguire Fellowship'
+); ?>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php echo sec_fullBleedImageColumn(
+    'The Vassar W.K. Rose Fellowship in the Creative Arts',
+    '/assets/images/placeholders/placeholder-square.png',
+    'image-is-first theme-cream',
+    ''
+); ?>
+<p>Intended to provide a worthy young artist a minimum of $45,000 and the chance to be free after college to get on with their work as an artist, the Rose Fellowship is available to artists in the fields of writing, visual arts (including film), and music composition. Applicants must have demonstrated a creative talent during undergraduate study, must not be employed by the college, must not have attained substantial recognition in their field, and be under the age of 36. This fellowship is not intended for graduate study.</p>
+
+<?php echo cta_link(
+    'https://fellowships.vassar.edu/fellowships/graduates/rose/',
+    'Learn more about the W.K. Rose Fellowship'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
