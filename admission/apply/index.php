@@ -49,7 +49,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Join Our Passionate Community',
-    'Vassar’s open curriculum offers the freedom and flexibility to pursue your passions while discovering new interests. As there are no class requirements, you can take the courses you wish and know your classmates have chosen them as well.',
+    'Vassar’s open curriculum offers the freedom and flexibility to pursue your passions while discovering new interests. As there are no class requirements, you can take the courses you wish and know your classmates have chosen them as well.
+
+    <a href="https://apply.vassar.edu/status" class="center-object btn btn-lg btn-primary arrow text-center mt-5">Check your status</a>
+    ',
     $admission_img_path.'apply/0196-19-11-kwe-greenhouse-vassar-vb-6440.jpg
 ',
 null,
@@ -111,7 +114,7 @@ null,
     'theme-cream',
     '',
     ['img_alt_text' =>
-  'A row of brightly colored international flags in front of Main Building']    
+  'A row of brightly colored international flags in front of Main Building']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Vassar is a vibrant community of global citizens.</p>
@@ -126,7 +129,7 @@ null,
     3,
     '<p>Follow the links below or email <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>, reach out to your Admission Officer, or ask a current Vassar student at <a href="mailto:askastudent@vassar.edu">askastudent@vassar.edu</a>!</p>',
     'related-topics-section theme-burgundy',
-    ''
+    'col-gap-1'
 ); ?>
 
 

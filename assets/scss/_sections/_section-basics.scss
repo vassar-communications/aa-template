@@ -151,3 +151,9 @@ h3.section-title {
     }
   }
 }
+
+
+.section.has-bg > * {
+    position: relative;
+    z-index: 100;
+}
