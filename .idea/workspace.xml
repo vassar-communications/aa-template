@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/alumnae-house/0073-21-06-kr-summer-vassar-0017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/alumnae-house/0168_16_04_TT_9843.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/alumnae-house/Alumnae_House_06_CB_08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/alumnae-house/events/0094-19-07-kr-sila-closing-vassar-0314.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/alumnae-house/events/0145-19-10-kr-fllac-light-vassar-0264.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/alumnae-house/events/Reunion_1806_CS_057.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/alumnae-house/events/Reunion_1806_CS_070.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/alumnae-house/events/Reunion_1806_CS_073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/resources/alumni-benefits/list-version.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/contact/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/contact/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/alumnae-house/accommodations/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumnae-house/accommodations/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/alumnae-house/contact/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumnae-house/contact/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/alumnae-house/events/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumnae-house/events/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/alumnae-house/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumnae-house/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/grants-fellowships/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/grants-fellowships/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/the-vassar-network/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/the-vassar-network/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/inc/pages/resources/resources-career-support.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/inc/pages/resources/resources-career-support.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/resources/alumni-benefits/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumni-benefits/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
