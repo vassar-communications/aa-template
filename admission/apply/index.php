@@ -69,16 +69,17 @@ null,
     2,
     '',
     'related-topics-section theme-cream mw-inner-2',
-    'col-gap-1'
+    'col-gap-3'
 ); ?>
 
   <?php echo item_col(); ?>
     <?php include($project_paths['main_project_root'].'/admission/inc/modules/application-deadlines.php');?>
-  <?php echo end_item_col(); ?>
 
-  <?php echo item_col(); ?>
+    <?php  // echo end_item_col(); ?>
 
-    <div class="card shadow">
+    <?php // echo item_col(); ?>
+
+    <div class="card shadow mt-5">
       <h3 class="card-header">Know the Vassar codes</h3>
         <ul class="labeled-list list-group">
             <?php echo labeled_list_item('College Board', '2956'); ?>
@@ -86,8 +87,13 @@ null,
             <?php echo labeled_list_item('TOEFL', '2956'); ?>
         </ul>
     </div>
-
   <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+      <img loading="lazy" src="https://www.vassar.edu/sites/default/files/2021-06/viewbook-2020.jpg" alt="Cover of Vassar's 2020 Viewbook">
+  <p class="card-text"><a href="https://www.vassar.edu/sites/default/files/2021-06/Vassar-Viewbook-2020.pdf">Read our Viewbook</a></p>
+    <?php echo end_item_col(); ?>
+
 
 <?php echo end_sec_hasColumns(); ?>
 
