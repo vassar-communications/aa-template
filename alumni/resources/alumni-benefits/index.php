@@ -137,12 +137,6 @@ $page_info = json_decode($page_info, true);
 
 
 
-
-
-
-<?php echo end_sec_regularContent(); ?>
-
-
 <?php echo end_sec_hasColumns(); ?>
 
 
