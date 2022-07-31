@@ -4,7 +4,7 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO === */
+/* PAGE INFO === */
 
 $page_info = '{
   "page_title":"Alumni Resources",
@@ -13,6 +13,7 @@ $page_info = '{
 }';
 
 /* === */
+
 $page_info = json_decode($page_info, true);
 
 ?>
