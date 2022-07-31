@@ -5,8 +5,7 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
-
+/* PAGE INFO === */
 
 $page_info = '{
   "page_title":"The Vassar Network",
@@ -44,4 +43,3 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo site_footer(); ?>
-

@@ -124,15 +124,18 @@ $page_info = [
   <?php echo carousel(); ?>
 
     <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/0055_15_04_KR_0204.jpg'); ?>
-      <p>Cushing House</p>
+      <h3>Cushing House</h3>
+      <p>Known for its homey atmosphere and welcoming community, Cushing features the Great Hall—a large open space used for studying and relaxing.</p>
     <?php echo end_carousel_item(); ?>
 
     <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Davison_spring_1104_TT_9233.jpg'); ?>
-      <p>Davison House</p>
+      <h3>Davison House</h3>
+      <p>Davison House is one of four Elizabethan-style houses of the residential quadrangle.</p>
     <?php echo end_carousel_item(); ?>
 
     <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Jewett_fall_1010_TT_8514.jpg'); ?>
-      <p>Jewett House</p>
+      <h3>Jewett House</h3>
+      <p>As the tenth tallest building in Poughkeepsie, the tower of Jewett House provides the best views of campus.</p>
     <?php echo end_carousel_item(); ?>
 
     <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Josselyn_House_spring_1104_TT_9256.jpg'); ?>

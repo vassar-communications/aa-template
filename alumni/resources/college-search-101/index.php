@@ -5,8 +5,7 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
-
+/* PAGE INFO === */
 
 $page_info = '{
   "page_title":"College Search 101",
@@ -85,4 +84,3 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_relatedTopics(); ?>
 
 <?php echo site_footer(); ?>
-

@@ -207,10 +207,6 @@ function get_page_vars($full_filepath) {
 
     $page_contents = explode('/* PAGE INFO === */', $page_contents);
 
-
-// echo $page_contents[1];
-
-
     $page_contents = explode('/* === */', $page_contents[1]);
 
 $page_info = $page_contents[0];
