@@ -24,13 +24,18 @@ This should be a section option
 
  // min-height: 100vh;
  // padding-top: 80vh;
- height: var(--full-masthead-height);
+// height: var(--full-masthead-height);
+
+ height: var(--full-masthead-height-image);
+
   .section-title-container,
   .section-bg-image-container {
-    height: var(--full-masthead-height);
+//    height: var(--full-masthead-height);
+ height: var(--full-masthead-height-image);
   }
     .section-bg-image {
-    height: var(--full-masthead-height);
+//    height: var(--full-masthead-height);
+ height: var(--full-masthead-height-image);
     }
 
  .supertitle {

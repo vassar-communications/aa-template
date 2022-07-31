@@ -1,3 +1,11 @@
+@media (max-aspect-ratio: 1/1) {
+  html {
+    border-top: 5.6rem solid #000;
+  }
+  .section-bg-image {
+    margin-top: 5.6rem;
+  }
+}
 
 .fix, .fix  a, a.fix {
   color: #61ff00 !important;
@@ -22,10 +30,12 @@
 /* Video Masthead Classes */
 
 :root {
-    --full-masthead-height: 56.25vw;
+    --full-masthead-height-video: 56.25vw;
+    --full-masthead-height-image: 50vh;
 
   @media (min-aspect-ratio: 1/1) {
-    --full-masthead-height: 100vh;
+    --full-masthead-height-video: 100vh;
+    --full-masthead-height-image: 100vh;
   }
 }
 
@@ -40,7 +50,7 @@
   left: 50%;
   width: 100vw;
   height: 100vh;
-  height: var(--full-masthead-height);
+  height: var(--full-masthead-height-video);
 
   transform: translate(-50%, -50%);
 }
@@ -58,17 +68,21 @@
 }
 
 :root {
-//  --full-masthead-height: 80vw;
+//  --full-masthead-height-video: 80vw;
 }
 
-.sec-fixedCenteredTitleMasthead .section-title-container,
-.sec-fixedCenteredTitleMasthead .section-bg-image-container {
-  height: var(--full-masthead-height);
+.sec-fixedCenteredTitleMasthead {
+   .section-title-container,
+   .section-bg-image-container {
+//  height: var(--full-masthead-height-video);
+    height: var(--full-masthead-height-image);
+  }
 }
+
 .masthead-video-background {
   overflow: hidden;
   width: 100vw;
-  height: var(--full-masthead-height);
+  height: var(--full-masthead-height-video);
 }
 
 

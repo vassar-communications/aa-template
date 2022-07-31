@@ -11370,7 +11370,7 @@ This should be a section option
 .is-ios .section-bg-image-container .section-bg-image {
   position: absolute !important;
   object-fit: cover;
-  height: 100vh;
+  height: var(--full-masthead-height);
 }
 .is-ios .section-title-container {
   position: absolute !important;
@@ -11404,7 +11404,7 @@ This should be a section option
 
 .sec-fixedCenteredTitleMasthead {
   --section-bg-color: #000;
-  height: var(--full-masthead-height);
+  height: var(--full-masthead-height-image);
   /* Does not seem necessary for the initial implementation of this pattern
     .section-content {
       opacity: 0;
@@ -11429,10 +11429,10 @@ This should be a section option
 }
 .sec-fixedCenteredTitleMasthead .section-title-container,
 .sec-fixedCenteredTitleMasthead .section-bg-image-container {
-  height: var(--full-masthead-height);
+  height: var(--full-masthead-height-image);
 }
 .sec-fixedCenteredTitleMasthead .section-bg-image {
-  height: var(--full-masthead-height);
+  height: var(--full-masthead-height-image);
 }
 .sec-fixedCenteredTitleMasthead .supertitle {
   font-size: 2rem !important;
@@ -13463,6 +13463,15 @@ a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited
   --column-gap: 1rem;
 }
 
+@media (max-aspect-ratio: 1/1) {
+  html {
+    border-top: 5.6rem solid #000;
+  }
+
+  .section-bg-image {
+    margin-top: 5.6rem;
+  }
+}
 .fix, .fix a, a.fix {
   color: #61ff00 !important;
   font-weight: 700;
@@ -13483,11 +13492,13 @@ a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited
 
 /* Video Masthead Classes */
 :root {
-  --full-masthead-height: 56.25vw;
+  --full-masthead-height-video: 56.25vw;
+  --full-masthead-height-image: 50vh;
 }
 @media (min-aspect-ratio: 1/1) {
   :root {
-    --full-masthead-height: 100vh;
+    --full-masthead-height-video: 100vh;
+    --full-masthead-height-image: 100vh;
   }
 }
 
@@ -13497,7 +13508,7 @@ a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited
   left: 50%;
   width: 100vw;
   height: 100vh;
-  height: var(--full-masthead-height);
+  height: var(--full-masthead-height-video);
   transform: translate(-50%, -50%);
 }
 
@@ -13515,13 +13526,13 @@ a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited
 }
 .sec-fixedCenteredTitleMasthead .section-title-container,
 .sec-fixedCenteredTitleMasthead .section-bg-image-container  {
-  height: var(--full-masthead-height);
+  height: var(--full-masthead-height-image);
 }
 
 .masthead-video-background  {
   overflow: hidden;
   width: 100vw;
-  height: var(--full-masthead-height);
+  height: var(--full-masthead-height-video);
 }
 
 /* Admission News Carousel */

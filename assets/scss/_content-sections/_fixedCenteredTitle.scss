@@ -174,7 +174,8 @@ This should be a section option
     .section-bg-image {
       position: absolute !important;
       object-fit: cover;
-      height: 100vh;
+//      height: 100vh;
+        height: var(--full-masthead-height);
     }
   }
   .section-title-container {
