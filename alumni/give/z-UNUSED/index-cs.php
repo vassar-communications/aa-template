@@ -4,7 +4,7 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
+/*  PAGE INFO === */
 
 $page_title = "Give Back";
 $page_classes = "academics-cy academics give";
