@@ -83,28 +83,28 @@ $page_info = [
 <div class="grid cols-4 animation-group animation-zoom-in animate-when-content-appears" style="--bs-gap: 1rem">
 
     <?php echo item_iconButton(
-        'image',
-        'nine a capella singing groups',
+        'microphone-lines',
+        'nine <i>a capella</i> singing groups',
         null,
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
-        'image',
+        'fire',
         'the Barefoot Fireflies fire-juggling club',
         null,
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
-        'image',
+        'users',
         'hundreds of student organizations',
         null,
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
-        'image',
+        'calendar-days',
         'thousands of campus-wide events',
         null,
         'btn-card animation-item'

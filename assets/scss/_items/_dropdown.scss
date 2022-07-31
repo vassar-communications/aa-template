@@ -96,10 +96,10 @@ details[open] {
   //  border-top: 1px solid $red;
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
 }
-
+/*
 details .dropdown__content {
   .col-sm {
-    opacity: 0;
+//    opacity: 0;
     transition: 1s all ease;
     //    transition-delay: 1s;
   }
@@ -110,6 +110,8 @@ details.open .dropdown__content {
     opacity: 1;
   }
 }
+*/
+
 
 .accordion {
   border-radius: 0.4rem;

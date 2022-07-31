@@ -1,8 +1,11 @@
+/*
 $(document).ready(function () {
     $('details').on('click', function () {
         $(this).toggleClass('open');
     });
 });
+*/
+
 
 
 // deprecate this one in favor of the new way

@@ -140,7 +140,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_dropdown('51 Majors', 'dropdown--feature bg-white shadow-sm mb-3'); ?>
 <div class="row has-dividers">
     <div class="col-sm">
-        <ul>
+        <ul class="linked-list no-first-border">
             <li><a href="https://africanastudies.vassar.edu/">Africana Studies&nbsp</a></li>
             <li><a href="https://americanstudies.vassar.edu/">American Studies</a></li>
             <li><a href="https://anthropology.vassar.edu/">Anthropology</a></li>
@@ -162,7 +162,7 @@ $page_info = json_decode($page_info, true);
         </ul>
     </div>
     <div class="col-sm">
-        <ul>
+        <ul class="linked-list no-first-border">
             <li><a href="https://education.vassar.edu/">Educational Studies</a></li>
             <li><a href="https://english.vassar.edu/">English</a></li>
             <li><a href="https://environmentalstudies.vassar.edu/">Environmental Studies</a></li>
@@ -187,7 +187,7 @@ $page_info = json_decode($page_info, true);
 
     </div>
     <div class="col-sm">
-        <ul>
+        <ul class="linked-list no-first-border">
             <li><a href="https://math.vassar.edu/">Mathematics</a></li>
             <li><a href="https://mediastudies.vassar.edu/">Media Studies</a></li>
             <li><a href="https://medievalandrenaissancestudies.vassar.edu/">Medieval &amp; Renaissance Studies</a></li>
