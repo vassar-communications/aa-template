@@ -90,7 +90,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_stat(
       null,
       '13%',
-      'students who are the first in their families to attend college'
+      'students who are first in their families to attend college'
     ); ?>
   <?php echo end_item_col(); ?>
 
