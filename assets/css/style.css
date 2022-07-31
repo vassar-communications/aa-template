@@ -9926,6 +9926,7 @@ details.open .dropdown__content {
 @media (hover: none) {
   .flipcards.grid {
     display: block !important;
+    --flipcard-height: auto;
   }
 }
 
@@ -9964,10 +9965,14 @@ details.open .dropdown__content {
 .card-content {
   color: #495057;
   width: 100%;
-  height: 100%;
   transition: transform 1s;
   transform-style: preserve-3d;
   position: relative;
+}
+@media (hover: hover) {
+  .card-content {
+    height: 100%;
+  }
 }
 
 .card__face {
@@ -14357,7 +14362,7 @@ ul.style-checklist a:hover {
   padding-bottom: 0.5rem;
 }
 .main-menu-panel .main-nav-link {
-  width: 90%;
+  width: calc(100% - 4rem);
   z-index: 20;
   margin-left: 1rem;
 }

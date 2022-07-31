@@ -1,6 +1,7 @@
 .flipcards.grid {
   @media (hover: none) {
     display: block !important;
+    --flipcard-height: auto;
   }
 }
 
@@ -45,11 +46,13 @@
 .card-content {
   color: $gray-700;
   width: 100%;
-  height: 100%;
   transition: transform 1s;
   transform-style: preserve-3d;
-//  cursor: pointer;
   position: relative;
+
+  @media (hover: hover) {
+      height: 100%;
+  }
 }
 
 .card__face {
