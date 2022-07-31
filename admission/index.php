@@ -163,7 +163,11 @@ echo sec_fixedCenteredTitle(
     text-align: left;">Vassar is from <span id="x-where-from">everywhere</span></h2>
    <h3 class="section-intro-text">World-class educations are built on world-wide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will study abroad while at Vassar.</h3>
 <div class="text-center mb-5">
-<a href="/admission/quick-facts/community/" class="btn btn-lg btn-light arrow">Meet Vassar</a>
+
+<a href="/admission/quick-facts/community/" class="btn btn-lg btn-light arrow me-4 mb-3">Meet Vassar</a>
+
+<a href="/admission/quick-facts/class-profile/" class="btn btn-lg btn-light arrow mb-3">Just the facts</a>
+
 </div>',
 
     'sec-fixedCenteredTitle theme-charcoal-to-white xhide-image',

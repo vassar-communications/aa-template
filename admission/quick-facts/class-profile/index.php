@@ -10,6 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_supertitle":"Quick Facts",
   "page_title":"Class of ’25",
+  "page_navTitle":"Class Profile",
   "feature_image":"/admission/assets/images/quick-facts/0124_16_10_TT_3100.jpg"
 }';
 /* === */
@@ -57,7 +58,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
     'Admission Results',
     '2',
-    '<p><i class="fa-solid fa-file-pdf"></i> <a href="https://www.vassar.edu/sites/default/files/2022-01/2025-profile.pdf">Full Class of 2025 Data Set (PDF)</a></p>',
+    '<p><i class="fa-solid fa-file-pdf me-2"></i> <a href="https://www.vassar.edu/sites/default/files/2022-01/2025-profile.pdf">Full Class of 2025 Data Set (PDF)</a></p>',
     'items-equal-height mw-inner-4 theme-extralightgray cols-6 animate-when-content-appears animation-group animation-fade-in pb-3',
     'gap-3'
 ); ?>
