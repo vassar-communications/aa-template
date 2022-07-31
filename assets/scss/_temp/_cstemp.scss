@@ -76,6 +76,22 @@
 
 // hamburger menu stuff
 
+@media (max-aspect-ratio: 1/1) {
+  .hamburger-navigation-openBtn {
+    background: #000;
+    border-color: #000;
+    color: #fff;
+
+    &:hover,
+    &:focus {
+      background: #fff;
+      border-color: #fff;
+      color: #000;
+    }
+  }
+}
+
+
 .main-menu-panel {
   background-color: var(--section-bg-color);
   --section-link-color: #fff;

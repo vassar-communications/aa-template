@@ -11524,7 +11524,12 @@ This should be a section option
 }
 
 .sec-fixedCenteredTitleMasthead {
-  --section-title-size: 11vw;
+  --section-title-size: 18vw;
+}
+@media screen and (min-width: 50em) {
+  .sec-fixedCenteredTitleMasthead {
+    --section-title-size: 11vw;
+  }
 }
 .sec-fixedCenteredTitleMasthead .section-title {
   text-shadow: 1em 0 1em #000;
@@ -13465,7 +13470,7 @@ a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited
 
 @media (max-aspect-ratio: 1/1) {
   .section-bg-image {
-    margin-top: 5.6rem;
+    margin-top: 5rem;
   }
 }
 .fix, .fix a, a.fix {
@@ -13807,6 +13812,18 @@ ul.style-checklist a:hover {
   background-color: #000;
 }
 
+@media (max-aspect-ratio: 1/1) {
+  .hamburger-navigation-openBtn {
+    background: #000;
+    border-color: #000;
+    color: #fff;
+  }
+  .hamburger-navigation-openBtn:hover, .hamburger-navigation-openBtn:focus {
+    background: #fff;
+    border-color: #fff;
+    color: #000;
+  }
+}
 .main-menu-panel {
   background-color: var(--section-bg-color);
   --section-link-color: #fff;
