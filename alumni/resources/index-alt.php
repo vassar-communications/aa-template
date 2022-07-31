@@ -4,7 +4,7 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
+/*  PAGE INFO === */
 
 $page_title = "Alumni Resources";
 $page_classes = "";

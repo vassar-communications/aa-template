@@ -41,7 +41,7 @@ a.btn-link {
   &:visited:hover,
   &:focus,
   &:visited:focus {
-    background-color: var(--section-link-bg-color, transparent);
+    background-color: transparent;
     color: var(--section-link-color, #{$red});
 
     &:after {

@@ -4,3 +4,10 @@
     color: var(--btn-text-color-hover, #fff);
   }
 }
+
+
+.btn-link {
+  &:hover {
+    background: transparent;
+  }
+}
