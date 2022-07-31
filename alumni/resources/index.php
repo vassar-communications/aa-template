@@ -47,11 +47,6 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
 <?php echo interior_page_nav() ?>
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 5238e4b9b7d47b46edf82edf8ba88b08a69f68f9
 
 
 <?php /*  PAGE CONTENT === */ ?>
