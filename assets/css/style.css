@@ -13223,7 +13223,7 @@ ul.style-checklist a {
 .js-video-btn {
   border-bottom-right-radius: 1.8rem;
 }
-.js-video-btn .card-body:after {
+.js-video-btn:after {
   border-color: #fff;
   position: absolute;
   content: "";
@@ -13261,7 +13261,7 @@ ul.style-checklist a {
   transform: scale(1.06);
   filter: brightness(1.2) contrast(1.2);
 }
-.js-video-btn:hover .card-body:after, .js-video-btn:focus .card-body:after {
+.js-video-btn:hover:after, .js-video-btn:focus:after {
   font-size: 2.6rem;
 }
 
@@ -14400,6 +14400,17 @@ ul.style-checklist a:hover {
   .footer-feature-module {
     margin-bottom: 2rem !important;
   }
+}
+.card-button-title {
+  margin: 0;
+  background: #000;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.2rem;
+}
+
+.js-video-btn:after {
+  background: #fff;
+  box-shadow: 0 -0.04em 0 0.12em white;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -310,3 +310,21 @@ $menu-cols-gap: 4rem;
     margin-bottom: 2rem !important;
   }
 }
+
+
+
+// video-modal buttons
+
+.card-button-title {
+  margin: 0;
+  background: #000;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.2rem;
+}
+
+.js-video-btn {
+  &:after {
+    background: #fff;
+    box-shadow: 0 -0.04em 0 0.12em rgb(255 255 255 / 100%);
+  }
+}

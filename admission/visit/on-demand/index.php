@@ -132,7 +132,7 @@ echo item_imageCard_videoModal(
     'Weekly Features',
     2,
     '<p>Hear directly from our students about some of their favorite Vassar topics! These student-designed presentations will give you the chance to learn about life at Vassar directly from the source.</p>',
-    'theme-charcoal quad-pattern has-bg',
+    'theme-charcoal xquad-pattern xhas-bg',
     ''
 ); ?>
 
@@ -212,7 +212,7 @@ echo item_imageCard_videoModal(
     'Student Performances',
     3,
     '<p>View recent live performances from Vassar students.</p>',
-    'theme-dark-burgundy',
+    'theme-extralightgray',
     ''
 ); ?>
 

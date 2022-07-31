@@ -66,20 +66,20 @@ null,
 
 <?php echo sec_hasColumns(
     null,
-    2,
+    3,
     '',
-    'related-topics-section theme-cream mw-inner-2',
+    'related-topics-section theme-cream mw-inner-4',
     'col-gap-3'
 ); ?>
 
   <?php echo item_col(); ?>
     <?php include($project_paths['main_project_root'].'/admission/inc/modules/application-deadlines.php');?>
 
-    <?php  // echo end_item_col(); ?>
+    <?php echo end_item_col(); ?>
 
-    <?php // echo item_col(); ?>
+    <?php echo item_col(); ?>
 
-    <div class="card shadow mt-5">
+    <div class="card shadow">
       <h3 class="card-header">Know the Vassar codes</h3>
         <ul class="labeled-list list-group">
             <?php echo labeled_list_item('College Board', '2956'); ?>

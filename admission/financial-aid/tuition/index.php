@@ -7,7 +7,11 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = '{"page_title":"Tuition & Fees","page_classes":"","feature_image":"/admission/assets/images/financial-aid/tuition/Vassar_Reception_20210601_KR_0173.jpg"}';
+$page_info = '{
+  "page_title":"Tuition & Fees",
+  "page_classes":"",
+  "feature_image":"/admission/assets/images/financial-aid/tuition/Vassar_Reception_20210601_KR_0173.jpg"
+}';
 /* === */
 $page_info = json_decode($page_info, true);
 
@@ -81,7 +85,7 @@ $page_info = json_decode($page_info, true);
     <div class="col-item stat-item item-ratio">
         <div class="stat-item-fact">
             <div class="tagline">Fees</div>
-            <div class="display-2">$930<span class="delimiter-colon">:</span>1</div>
+            <div class="display-2">$930</div>
             <div class="stat-label text-primary">Covering Health Insurance and Activity Fees</div>
         </div>
     </div>
@@ -154,7 +158,7 @@ $page_info = json_decode($page_info, true);
     <p>All students are required to have health insurance coverage.</p>
 
     <?php echo cta_link(
-      'https://www.vassar.edu/social-media/student-orgs',
+      'https://offices.vassar.edu/student-financial-services/',
       'Visit Student Financial Services'
     ); ?>
 
