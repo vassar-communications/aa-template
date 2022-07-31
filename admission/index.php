@@ -233,6 +233,8 @@ echo sec_fixedCenteredTitle(
 </div>
 
 
+<p class="p-4 mt-5 text-center"><i class="fa-solid fa-circle-info me-2"></i> These figures are for the <a href="https://offices.vassar.edu/institutional-research/data/2021-2022/">2021/22 academic year</a>.</p>
+
 <?php echo end_sec_fixedCenteredTitle(); ?>
 
 <!-- end stats -->
