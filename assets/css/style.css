@@ -13234,12 +13234,12 @@ ul.style-checklist a {
   color: #fff;
 }
 
-.theme-light-on-charcoal {
+.ll-theme-light-on-charcoal {
   --linkedList-link-bg-hover: #333;
   --section-link-hover-color: #fff;
   --border-accent-verylight-themebased: rgba(255,255,255,0.4);
 }
-.theme-light-on-charcoal a:hover:after {
+.ll-theme-light-on-charcoal a:hover:after {
   background: #ddd;
   color: #444;
 }
