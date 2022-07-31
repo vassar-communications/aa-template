@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-    <p>Bold thinking converges with breathtaking natural beauty.</p>
+    <p>Bold thinking converges with breathtaking natural beauty. </p>
 
 <?php echo end_item_cardWithText(
     null,
