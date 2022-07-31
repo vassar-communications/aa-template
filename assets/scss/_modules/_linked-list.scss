@@ -1,5 +1,6 @@
 .linked-list {
   padding-left: 0;
+  margin: 1rem 0;
 
   li {
     list-style: none;
@@ -24,13 +25,14 @@
       align-items: center;
       transition: 0.4s all ease;
       border-radius: 50%;
+      margin-left: 0.4rem;
     }
     &:hover,
     &:focus {
       background: var(--linkedList-link-bg-hover, $gray-200);
 
       &:after {
-        margin-left: 0.4rem;
+//        margin-left: 0.4rem;
       }
     }
   }

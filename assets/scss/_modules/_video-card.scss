@@ -1,0 +1,27 @@
+button.card.js-video-btn {
+    border-bottom-right-radius: 1.8rem;
+}
+
+button.card.js-video-btn .card-body:after {
+    border-color: #fff;
+}
+
+button.card.js-video-btn .card-body:after {
+    position: absolute;
+    content: "\f144";
+    border: 0px solid #1e1e1e;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    right: 1rem;
+    bottom: 1rem;
+    font-size: 2.2rem;
+    line-height: 0;
+    padding-bottom: 0.12rem;
+	font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #c00
+}
