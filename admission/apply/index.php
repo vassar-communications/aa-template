@@ -63,6 +63,35 @@ null,
 
 
 
+
+<?php echo sec_hasColumns(
+    null,
+    2,
+    '',
+    'related-topics-section theme-cream mw-inner-2',
+    'col-gap-1'
+); ?>
+
+  <?php echo item_col(); ?>
+    <?php include($project_paths['main_project_root'].'/admission/inc/modules/application-deadlines.php');?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+
+    <div class="card shadow">
+      <h3 class="card-header">Know the Vassar codes</h3>
+        <ul class="labeled-list list-group">
+            <?php echo labeled_list_item('College Board', '2956'); ?>
+            <?php echo labeled_list_item('ACT', '2982'); ?>
+            <?php echo labeled_list_item('TOEFL', '2956'); ?>
+        </ul>
+    </div>
+
+  <?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
 <?php echo sec_fullBleedImageColumn(
     'How to Apply',
     $admission_img_path.'apply/how-to-apply/110519_160over90_Vassar_0221.jpg',
