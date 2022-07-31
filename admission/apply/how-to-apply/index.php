@@ -49,9 +49,9 @@ $page_info = json_decode($page_info, true);
 
   <p>First-year applicants may submit in any one of the following ways:</p>
     <ul class="linked-list">
-    <li><?php echo central_link('common-app', 'Common application'); ?></li>
-    <li><?php echo central_link('coalition-app', 'Coalition application'); ?></li>
-    <li><a href="/admission/apply/questbridge/">QuestBridge application</a></li>
+    <li><?php echo central_link('common-app', 'Common Application'); ?></li>
+    <li><?php echo central_link('coalition-app', 'Coalition Application'); ?></li>
+    <li><a href="/admission/apply/questbridge/">QuestBridge Application</a></li>
     </ul>
 
     <?php echo cta_link(
@@ -68,7 +68,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-  <p>Transfer applicants can apply using the Common application.</p>
+  <p>Transfer applicants can apply using the Common Application.</p>
 
   <?php echo cta_link(
     '/admission/apply/transfer',

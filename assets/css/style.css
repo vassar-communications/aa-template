@@ -9953,14 +9953,18 @@ details.open .dropdown__content {
 }
 
 .card__face {
-  position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
   padding: 2vw;
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
   border-radius: 0.4rem;
+}
+@media (hover: hover) {
+  .card__face {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
 }
 
 .card__face--front {
@@ -9974,7 +9978,11 @@ details.open .dropdown__content {
   background: #fff;
   display: flex;
   justify-content: center;
-  transform: rotateY(180deg);
+}
+@media (hover: hover) {
+  .card__face--back {
+    transform: rotateY(180deg);
+  }
 }
 
 .flip-card .smaller {
@@ -12852,15 +12860,11 @@ ul.style-checklist a {
   color: #fff;
 }
 
-button.card.js-video-btn {
+.js-video-btn {
   border-bottom-right-radius: 1.8rem;
 }
-
-button.card.js-video-btn .card-body:after {
+.js-video-btn .card-body:after {
   border-color: #fff;
-}
-
-button.card.js-video-btn .card-body:after {
   position: absolute;
   content: "";
   border: 0px solid #1e1e1e;
@@ -12878,6 +12882,27 @@ button.card.js-video-btn .card-body:after {
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   color: #c00;
+  transition: 0.4s all ease;
+}
+
+.js-video-btn,
+.card-img-top,
+.card-title {
+  transition: 0.4s all ease;
+}
+
+.js-video-btn:hover, .js-video-btn:focus {
+  transform: scale(1.02);
+}
+.js-video-btn:hover .card-title, .js-video-btn:focus .card-title {
+  color: #c00;
+}
+.js-video-btn:hover .card-img-top, .js-video-btn:focus .card-img-top {
+  transform: scale(1.06);
+  filter: brightness(1.2) contrast(1.2);
+}
+.js-video-btn:hover .card-body:after, .js-video-btn:focus .card-body:after {
+  font-size: 2.6rem;
 }
 
 /* Basic links */
