@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-    <p>Vassar offers group visits to high school students and community-based organizations.</p>
+    <p>Vassar offers group visits to high school students and community-based organizations</p>
 
 <?php echo end_item_cardWithText(
     null,

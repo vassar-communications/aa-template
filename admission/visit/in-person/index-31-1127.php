@@ -24,7 +24,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Vogelstein Center for Drama and Film']); ?>
+<?php echo page_partialmasthead($page_info['feature_image']); ?>
 
 <?php echo hamburger_navigation(); ?>
 
@@ -35,8 +35,7 @@ $page_info = json_decode($page_info, true);
     null,
      '/admission/assets/images/visit/0113-19-09-kr-families-weekend-vassar-1616.jpg',
     'image-is-first theme-cream',
-    '',
-    ['img_alt_text' => 'Tour of the dorms on the Vassar Campus']
+    ''
 );
 
 // former image: visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg
@@ -72,7 +71,7 @@ $page_info = json_decode($page_info, true);
 
 <p>Check-in will take place outside of Kautz Admission House. Visitors arriving more than 10 minutes late will be asked to wait until the information session ends to join the tour; visitors arriving more than 10 minutes after the start of the tour will be unable to join.</p>
 
-<a href="https://www.vassar.edu/sites/default/files/2022-06/2022-admission-parking-map.pdf" class="btn btn-light">Download Parking Map <i class="mx-0 fa-solid fa-download"></i></a>
+<a class="btn btn-light">Download Parking Map <i class="mx-0 fa-solid fa-download"></i></a>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -83,7 +82,7 @@ $page_info = json_decode($page_info, true);
     null
 ); ?>
 
-<p>“Vassar’s 1,000 acres are filled with more than 100 buildings in a variety of architectural styles, from the Gothic Thompson Memorial Library to Marcel Breuer's Ferry House to César Pelli’s Lehman Loeb Art Center.”</p>
+<p>“Vassar’s more than 100 buildings showcase various architectural styles, from the Gothic Thompson Memorial Library to César Pelli’s Lehman Loeb Art Center.”</p>
 <div class="quote-attribution"><em>Architectural Digest</em>, “50 Most Beautiful Campuses”</div>
 <?php echo end_sec_wordByWord_fixed(); ?>
 
@@ -93,8 +92,7 @@ $page_info = json_decode($page_info, true);
     'Campus Access and Pre-Registration',
     $admission_img_path.'visit/in-person/0069-19-05-kr-spring-vassar-4221.jpeg',
     'image-is-first theme-charcoal bg-dark',
-    'mw-100',
-    ['img_alt_text' => 'Spring View of Raymond Entrace and tulips on Vassar Campus']
+    'mw-100'
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 

@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-    <p>Vassar offers a wide variety of options to explore our campus and community virtually.</p>
+    <p>Vassar offers a wide variety of options to explore our campus and community virtually</p>
 
 <?php echo end_item_cardWithText(
     null,

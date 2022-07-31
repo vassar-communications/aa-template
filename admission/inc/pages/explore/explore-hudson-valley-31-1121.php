@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-    <p>Vassar is part of the historic Hudson Valley.</p>
+    <p>Vassar is part of the historic Hudson Valley</p>
 
 <?php echo end_item_cardWithText(
     null,
