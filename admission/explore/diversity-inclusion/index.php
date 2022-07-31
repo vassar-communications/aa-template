@@ -105,7 +105,7 @@ $page_info = json_decode($page_info, true);
 
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Vassar offers many resources to ensure all students have what they need to thrive. The college’s student-centered approach includes programs such as:</p>
+    <p>Vassar offers many resources to ensure all students have what they need to thrive. The College’s student-centered approach includes programs such as:</p>
     <ul class="linked-list no-first-border ll-theme-light-on-charcoal">
         <li><a class="ps-0" href="https://offices.vassar.edu/alana/">The Jeh Vincent Johnson ALANA Cultural Center</a></li>
         <li><a class="ps-0" href="https://offices.vassar.edu/womens-center/">The Women’s Center</a></li>
