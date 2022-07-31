@@ -48,13 +48,12 @@ $page_info = [
     null,
     $admission_img_path.'visit/on-demand/0086-20-09-kr-library-vassar-0001.jpg',
     'image-is-first theme-cream',
-    '',
-    ['img_alt_text' => 'Thompson Library on the Vassar Campus at dusk']
+    ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <h1 class="display-6">Miss a virtual event or want to see more? Watch past events, presentations, and performances any time! This page will be updated as new events take place, so check back often to explore all that Vassar has to offer.</h1>
 
-    <!-- <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="btn btn-primary mt-5 arrow">Register Now</a> -->
+    <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="btn btn-primary mt-5 arrow">Register Now</a>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -63,9 +62,9 @@ $page_info = [
 
 
 <?php echo sec_hasColumns(
-    'Voices of Vassar',
+    'Voices of Vasssar',
     3,
-    '<p>Hear directly from our campus community about some of their favorite Vassar topics! These presentations will give you the chance to learn about life at Vassar directly </p>',
+    '<p>Hear directly from our students about some of their favorite Vassar topics! These student-designed presentations will give you the chance to learn about life at Vassar directly from the source.</p>',
     '',
     ''
 ); ?>
@@ -81,7 +80,7 @@ echo item_imageCard_videoModal(
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/the-college-search-during-the-pandemic.jpeg',
-        'alt' => 'The College Search During the Pandemic'
+        'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -96,8 +95,8 @@ echo item_imageCard_videoModal(
     '487422599',
     'vimeo',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/a-case-for-the-liberal-arts-2.jpg',
-        'alt' => 'A Case for the Liberal Arts'
+    ['url' => '/admission/assets/images/visit/video-thumbnails/a-case-for-the-liberal-arts.jpeg',
+        'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -114,7 +113,7 @@ echo item_imageCard_videoModal(
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/demystifying-financial-aid.jpeg',
-        'alt' => 'Demystifying Financial Aid'
+        'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -145,7 +144,7 @@ echo item_imageCard_videoModal(
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/interdisciplinary-living-and-learning.jpeg',
-        'alt' => 'Interdisciplinary Living and Learning'
+        'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -160,7 +159,7 @@ echo item_imageCard_videoModal(
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/faculty-mentored-research.jpeg',
-        'alt' => 'Faculty Mentored Research'
+        'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -176,7 +175,7 @@ echo item_imageCard_videoModal(
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/student-organizations.jpeg',
-        'alt' => 'Student Organizations'
+        'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -192,7 +191,7 @@ echo item_imageCard_videoModal(
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/the-transitions-program.jpeg',
-        'alt' => 'The Transitions Program'
+        'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -221,7 +220,7 @@ echo item_imageCard_videoModal(
     '“Is Love a Boy?” performed by the Vassar College Chamber Singers',
     'f8meSHKeTSg',
     'youtube',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/is-love-a-boy-performed-by-the-vassar-college-chamber-singers.jpeg', 'alt' => '“Is Love a Boy?” performed by the Vassar College Chamber Singers' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/is-love-a-boy-performed-by-the-vassar-college-chamber-singers.jpeg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -230,10 +229,10 @@ echo item_imageCard_videoModal(
 
 
 <?php echo item_cardWithTextVideoModal(
-    '“Unclouded Day” performed by the Vassar College Choir and Friends',
+    'Unclouded Day” performed by the Vassar College Choir and Friends',
     'D3JI_GKSvs8',
     'youtube',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/unclouded-day-performed-by-the-vassar-college-choir-and-friends.jpeg', 'alt' => '“Unclouded Day” performed by the Vassar College Choir and Friends' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/unclouded-day-performed-by-the-vassar-college-choir-and-friends.jpeg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -247,7 +246,7 @@ echo item_imageCard_videoModal(
     '“No Time” performed by the Vassar College Women’s Chorus',
     'xe6lj-ZM8aY',
     'youtube',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/no-time-performed-by-the-vassar-college-womens-chorus.jpeg', 'alt' => '“No Time” performed by the Vassar College Women’s Chorus' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/no-time-performed-by-the-vassar-college-womens-chorus.jpeg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
