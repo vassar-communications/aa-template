@@ -139,13 +139,13 @@ $page_info = json_decode($page_info, true);
   <div class="staff-contact">
       <h3>Ann Gitto</h3>
       <p><em>Associate Director of Student Financial Services</em></p>
-      <a class="fixemaillink" href="mailto:angitto@vassar.edu">Email: angitto@vassar.edu</a>
+      <a href="mailto:angitto@vassar.edu"><i class="fa-solid fa-envelope me-2"><b class="visually-hidden">Email</b></i>angitto@vassar.edu</a>
   </div>
 
   <div class="staff-contact">
-      <h3>Angela Anderson, </h3>
+      <h3>Angela Anderson</h3>
       <p><em>Registrar</em></p>
-      <a class="fixemaillink" href="mailto:angelaanderson@vassar.edu">Email: angelaanderson@vassar.edu</a>
+      <a href="mailto:angelaanderson@vassar.edu"><i class="fa-solid fa-envelope me-2"><b class="visually-hidden">Email</b></i>angelaanderson@vassar.edu</a>
   </div>
 </div>
 

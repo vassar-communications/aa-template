@@ -125,9 +125,9 @@ $page_info = json_decode($page_info, true);
     </div>
 </div>
 <h3 class="mt-5">Common Application</h3>
-    <p>If you are submitting the Common application go to <a href="https://vassar.slideroom.com/">vassar.slideroom.com</a>, select the program and round in which you are applying, and submit materials through that program. For example, if you are applying in Early Decision I and submitting a dance portfolio, select “Dance: Early Decision I.”</p>
+    <p>If you are submitting the Common Application go to <a href="https://vassar.slideroom.com/">vassar.slideroom.com</a>, select the program and round in which you are applying, and submit materials through that program. For example, if you are applying in Early Decision I and submitting a dance portfolio, select “Dance: Early Decision I.”</p>
 
-    <p>If you submitted the Common application and received a fee waiver, this will automatically apply to Slideroom.</p>
+    <p>If you submitted the Common Application and received a fee waiver, this will automatically apply to Slideroom.</p>
 
 <h3 class="mt-5">Coalition or QuestBridge Application</h3>
     <p>If you are submitting the Questbridge or Coalition Application go to <a href="https://vassar.slideroom.com/">vassar.slideroom.com</a>, select the “Non-Common App” option for the program and round in which you are applying and submit your materials. For example, if you are applying in Early Decision I and submitting a dance portfolio, you would click on “Dance (Non-Common App): Early Decision I.”</p>

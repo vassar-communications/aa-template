@@ -78,6 +78,10 @@ $template = <<<TMP
                      <div class="mb-2"> <a class="text-white" href="/admission/visit/in-person/">In-Person Visits</a></div>
                      <div class="mb-2"> <a class="text-white"  href="/admission/visit/virtual-programs/">Virtual Programs</a></div>
                      <div class="mb-2"> <a class="text-white"  href="/admission/visit/group-visits/">Group Visits</a></div>
+
+                     <div class="mb-2"> <a class="text-white" href="/admission/visit/class-visits/">Class Visits</a></div>
+
+                     <div class="mb-2"> <a class="text-white" href="/admission/visit/on-demand/">Vassar on Demand</a></div>
                   </div>
                </div>
                <hr/>
