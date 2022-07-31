@@ -342,7 +342,7 @@ else {
       $page_title = $page_vars['page_title'];
     $item_link = $page_vars['page_link'];
 
-    $nav_markup .= nav_item('https://www.vassar.edu'.$item_link, $page_title, $class);
+    $nav_markup .= nav_item($project_paths['final_url'].$item_link, $page_title, $class);
 
 
   }
@@ -354,6 +354,8 @@ else {
 
 
 function breadcrumb() {
+
+  global $project_paths;
 
   //  How the breadcrumb works:
   //  - If a section has children, it should appear in the breadcrumb
@@ -399,7 +401,7 @@ function breadcrumb() {
 
       $title = $item_info['page_title'];
     }
-    $breadcrumb_markup .= crumb_item('https://www.vassar.edu'.$path, $title, 'level-'.$crumb_level);
+    $breadcrumb_markup .= crumb_item($project_paths['final_url'].$path, $title, 'level-'.$crumb_level);
     $crumb_level++;
   }
   unset($item);

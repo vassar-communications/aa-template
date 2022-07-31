@@ -19,18 +19,18 @@ function site_footer() {
 				<div class="pt-3"><a href="#"><i class="px-1 fa-solid fa-location-dot"></i> 124 Raymond Avenue, Poughkeepsie, New York, 12604</a></div>
 
 				<div class="pt-2 link_collection d-flex flex-column flex-md-row">
-					<a href="https://www.vassar.edu/admission/visit" class="me-3 my-2">plan a visit <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
-					<a href="https://www.vassar.edu/news" class="me-3 my-2">news <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
-					<a href="https://www.vassar.edu/admission/connect" class="me-3 my-2">contact us <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					<a href="{$project_paths['final_url']}/admission/visit" class="me-3 my-2">plan a visit <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					<a href="{$project_paths['final_url']}/news" class="me-3 my-2">news <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					<a href="{$project_paths['final_url']}/admission/connect" class="me-3 my-2">contact us <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 				</div>
 
 				<hr class="mt-4 w-75">
 
 				<div class="pt-2  mb-4 link_collection d-flex flex-column flex-md-row">
-					<a href="https://www.vassar.edu/about" class="me-3 my-2">about <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
-					<a href="https://www.vassar.edu/academics" class="me-3 my-2">academics <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
-					<a href="https://www.vassar.edu/admission" class="me-3 my-2">admission <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
-					<a href="https://www.vassar.edu/campuslife" class="me-3 my-2">campus life <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					<a href="{$project_paths['final_url']}/about" class="me-3 my-2">about <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					<a href="{$project_paths['final_url']}/academics" class="me-3 my-2">academics <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					<a href="{$project_paths['final_url']}/admission" class="me-3 my-2">admission <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					<a href="{$project_paths['final_url']}/campuslife" class="me-3 my-2">campus life <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 					<!--<a href="#" class="me-3">community <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>-->
 					<!-- <a href="#" class="me-3">full sitemap <i class="px-1 fa-solid fa-circle-arrow-right"></i></a> -->
 				</div>

@@ -40,9 +40,12 @@ function get_base_path($type='document_root') {
 // If we're on aa-devspace, pretend the root path is /admission
 // not the site root
 
+// add https://www.vassar.edu/ to final_url when ready to launch
+
 $project_paths = array(
   'main_project_root' => $_SERVER['DOCUMENT_ROOT'],
-  'public_path' => ''
+  'public_path' => '',
+  'final_url' => '',
 );
 
 $current_site = ltrim( get_base_path( 'path_to_current_doc_from_web_dir' ), '/');
