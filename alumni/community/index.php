@@ -4,6 +4,9 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
+/* PAGE INFO === */
+
+
 $page_info = '{
   "page_title":"Our Community",
   "page_classes":"",
@@ -23,8 +26,6 @@ $page_info = json_decode($page_info, true);
 <?php echo hamburger_navigation(); ?>
 
 
-
-
 <?php echo sec_fixedCenteredTitle_masthead(
     '<b class="slide-from-left">Our</b>
    <b class="slide-from-right">Community</b>',
@@ -42,9 +43,6 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
-
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-breadcrumb.php');?>
 
 <?php echo interior_page_nav() ?>
 
