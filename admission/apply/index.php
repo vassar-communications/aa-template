@@ -106,9 +106,12 @@ null,
 
 <?php echo sec_fullBleedImageColumn(
     'International Applicants',
-    $admission_img_path.'apply/international/0074_15_08_KR_0122.jpg',
+    $admission_img_path.'apply/international/0083_15_08_TT_5415.jpg
+',
     'theme-cream',
-    ''
+    '',
+    ['img_alt_text' =>
+  'A row of brightly colored international flags in front of Main Building']    
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Vassar is a vibrant community of global citizens.</p>
