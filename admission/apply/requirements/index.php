@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     <li>Early Decision Agreement (Early Decision Applicants ONLY)
     <li>School Report and High School Transcript: To be completed and sent by your school counselor. Available for online completion or download through <?php echo central_link('common-app', 'Common Application'); ?>.
     <li>Teacher Evaluations
-    <li>Mid-year Grade Report Vassar requests each applicant’s most recent grade report to be sent by the school counselor.
+    <li><strong>Mid-year Grade Report:</strong> Vassar requests each applicant’s most recent grade report to be sent by the school counselor.
     <li>For Early Decision I and II, Vassar requires a first quarter/trimester grade report, which should be sent as soon as it becomes available.
     <li>For Regular Decision, a mid-year report with first term grades is required when available, typically by February 1.
     <li>Students admitted during Early Decision I or II will also be asked to provide their first term grades as soon as they become available.
