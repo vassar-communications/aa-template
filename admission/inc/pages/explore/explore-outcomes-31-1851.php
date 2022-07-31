@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-    <p>See how Vassar supports students from Day 1 to beyond graduation.</p>
+    <p>See how Vassar supports students from Day 1 to beyond graduation</p>
 
 
 <?php echo end_item_cardWithText(
