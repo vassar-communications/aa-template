@@ -24,13 +24,10 @@ function flipcard_stat(
 <div class="flip-card $class" $css>
   <div class="card-content">
     <div class="card__face card__face--front">
-      $link_start $link_end
       <div class="flipcard__title tagline mb-3">$title</div>
       <div class="flipcard__value">$value</div>
     </div>
     <div class="card__face card__face--back">
-      $link_start $link_end
-
       $reverse_content
     </div>
   </div>

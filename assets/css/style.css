@@ -9948,7 +9948,6 @@ details.open .dropdown__content {
   height: 100%;
   transition: transform 1s;
   transform-style: preserve-3d;
-  cursor: pointer;
   position: relative;
 }
 
