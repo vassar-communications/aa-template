@@ -208,7 +208,7 @@ $page_info = json_decode($page_info, true);
 </div>
 <?php echo end_item_dropdown(); ?>
 
-<?php echo item_dropdown('60+ Correlates (Minors)', 'dropdown--feature bg-white shadow-sm mb-3'); ?>
+<?php echo item_dropdown('63 Correlates (Minors)', 'dropdown--feature bg-white shadow-sm mb-3'); ?>
 <div class="row has-dividers">
     <div class="col-sm">
         <dl>
