@@ -162,7 +162,7 @@ null,
 
 
 <?php echo sec_hasColumns(
-    'Need more information about applying?',
+    'Need More Information About Applying?',
     3,
     '<p>Follow the links below or email <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>, reach out to your Admission Officer, or ask a current Vassar student at <a href="mailto:askastudent@vassar.edu">askastudent@vassar.edu</a>!</p>',
     'related-topics-section theme-burgundy',
