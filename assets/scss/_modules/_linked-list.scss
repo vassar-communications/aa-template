@@ -45,9 +45,26 @@
 }
 
 
+.linked-list a.ps-0 {
+  transition: 0.4s all ease;
 
+  &:hover {
+    padding-left: 0.4rem !important;
+  }
+}
 
 .linked-list a:hover:after {
     background: #951829;
     color: #fff;
+}
+
+.theme-light-on-charcoal {
+  --linkedList-link-bg-hover: #333;
+  --section-link-hover-color: #fff;
+  --border-accent-verylight-themebased: rgba(255,255,255,0.4);
+
+  a:hover:after {
+    background: #ddd;
+    color: #444;
+  }
 }

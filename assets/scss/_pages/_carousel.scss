@@ -192,7 +192,8 @@ $border-distance: 0.6rem;
       max-width: none;
     }
     .image-container {
-      width: 70% !important;
+//      width: 70% !important;
+      width: 73% !important;
       height: var(--carousel-height, 32em);
       position: relative;
     }
@@ -214,3 +215,19 @@ $border-distance: 0.6rem;
 .carousel-cell-content {
   text-align: left;
 }
+
+
+
+.carousel-cell-content {
+  box-shadow: 0 0.4rem 2rem rgba(0,0,0,0.4);
+}
+.flickity-viewport {
+  overflow: visible;
+}
+
+.carousel-cell.is-link {
+  .link--cta.stretched-link {
+    
+  }
+}
+// CTA links in carousels

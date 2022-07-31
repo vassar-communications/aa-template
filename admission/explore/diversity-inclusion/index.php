@@ -99,22 +99,22 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fullBleedImageColumn(
     'Services',
     '/admission/assets/images/explore/diversity/0214-18-05-kr-alana-vassar-6569.jpg',
-    'image-is-first theme-charcoal has-bg quad-pattern',
+    'image-is-first theme-charcoal has-bg quad-pattern light-bg-pattern-1',
     '',
     ['img_alt_text' => 'Students assemble in a large, well-lit room']
 
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Vassar offers many resources to ensure all students have what they need to thrive. The college’s student-centered approach includes programs such as:</p>
-    <ul>
-        <li>The Jeh Vincent Johnson ALANA Cultural Center</li>
-        <li>The Women’s Center</li>
-        <li>The Support, Advocacy, & Violence Prevention Office</li>
+    <ul class="linked-list no-first-border theme-light-on-charcoal">
+        <li><a class="ps-0" href="https://offices.vassar.edu/alana/">The Jeh Vincent Johnson ALANA Cultural Center</a></li>
+        <li><a class="ps-0" href="https://offices.vassar.edu/womens-center/">The Women’s Center</a></li>
+        <li><a class="ps-0" href="https://offices.vassar.edu/savp/">The Support, Advocacy, & Violence Prevention Office</a></li>
     </ul>
 
     <?php echo cta_link(
-        '#',
-        '[NEED LINK] Learn more about Student Services'
+        'https://offices.vassar.edu/student-engagement/',
+        'Learn more about Student Services'
     ); ?>
 
 </div>

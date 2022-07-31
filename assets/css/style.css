@@ -12686,7 +12686,7 @@ html {
     max-width: none;
   }
   .media-carousel .image-container {
-    width: 70% !important;
+    width: 73% !important;
     height: var(--carousel-height, 32em);
     position: relative;
   }
@@ -12703,6 +12703,14 @@ html {
 }
 .carousel-cell-content {
   text-align: left;
+}
+
+.carousel-cell-content {
+  box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.4);
+}
+
+.flickity-viewport {
+  overflow: visible;
 }
 
 /* Quote carousel */
@@ -13214,9 +13222,26 @@ ul.style-checklist a {
   border-top: none;
 }
 
+.linked-list a.ps-0 {
+  transition: 0.4s all ease;
+}
+.linked-list a.ps-0:hover {
+  padding-left: 0.4rem !important;
+}
+
 .linked-list a:hover:after {
   background: #951829;
   color: #fff;
+}
+
+.theme-light-on-charcoal {
+  --linkedList-link-bg-hover: #333;
+  --section-link-hover-color: #fff;
+  --border-accent-verylight-themebased: rgba(255,255,255,0.4);
+}
+.theme-light-on-charcoal a:hover:after {
+  background: #ddd;
+  color: #444;
 }
 
 .js-video-btn {
@@ -13520,6 +13545,10 @@ a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited
 }
 
 /*CS Review End*/
+.light-bg-pattern-1 {
+  --bg-image-opacity: 0.1 !important;
+}
+
 .buffer {
   min-height: 100vh;
   background: #eee;
