@@ -342,7 +342,7 @@ else {
       $page_title = $page_vars['page_title'];
     $item_link = $page_vars['page_link'];
 
-    $nav_markup .= nav_item($item_link, $page_title, $class);
+    $nav_markup .= nav_item('https://www.vassar.edu'.$item_link, $page_title, $class);
 
 
   }
@@ -399,7 +399,7 @@ function breadcrumb() {
 
       $title = $item_info['page_title'];
     }
-    $breadcrumb_markup .= crumb_item($path, $title, 'level-'.$crumb_level);
+    $breadcrumb_markup .= crumb_item('https://www.vassar.edu'.$path, $title, 'level-'.$crumb_level);
     $crumb_level++;
   }
   unset($item);
