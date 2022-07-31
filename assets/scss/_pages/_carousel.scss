@@ -44,7 +44,7 @@ $border-distance: 0.6rem;
     }
 
     .carousel-cell {
-      width: 66%;
+      width: 86%;
       height: 200px;
       margin-right: 10px;
      // border-radius: 5px;
@@ -182,11 +182,11 @@ $border-distance: 0.6rem;
 /* In the Media Carousel */
 @include break(lg) {
   .media-carousel {
-    --carousel-height: 33rem;
+    --carousel-height: 36rem;
     height: 37rem !important;
 
     .carousel-cell {
-      width: 70rem !important;
+//      width: 70rem !important;
     }
     .carousel-cell-content {
       max-width: none;

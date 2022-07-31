@@ -12387,7 +12387,7 @@ html {
     opacity: 0;
   }
   .featureImage-text-ticker .carousel-cell {
-    width: 66%;
+    width: 86%;
     height: 200px;
     margin-right: 10px;
     counter-increment: carousel-cell;
@@ -12497,11 +12497,8 @@ html {
 /* In the Media Carousel */
 @media screen and (min-width: 60em) {
   .media-carousel {
-    --carousel-height: 33rem;
+    --carousel-height: 36rem;
     height: 37rem !important;
-  }
-  .media-carousel .carousel-cell {
-    width: 70rem !important;
   }
   .media-carousel .carousel-cell-content {
     max-width: none;
@@ -12653,6 +12650,96 @@ html {
 .animated-statement .statement-text span:nth-child(10) {
   animation-delay: calc(0s + (0.1s * 10));
 }
+.animated-statement .statement-text span:nth-child(11) {
+  animation-delay: calc(0s + (0.1s * 11));
+}
+.animated-statement .statement-text span:nth-child(12) {
+  animation-delay: calc(0s + (0.1s * 12));
+}
+.animated-statement .statement-text span:nth-child(13) {
+  animation-delay: calc(0s + (0.1s * 13));
+}
+.animated-statement .statement-text span:nth-child(14) {
+  animation-delay: calc(0s + (0.1s * 14));
+}
+.animated-statement .statement-text span:nth-child(15) {
+  animation-delay: calc(0s + (0.1s * 15));
+}
+.animated-statement .statement-text span:nth-child(16) {
+  animation-delay: calc(0s + (0.1s * 16));
+}
+.animated-statement .statement-text span:nth-child(17) {
+  animation-delay: calc(0s + (0.1s * 17));
+}
+.animated-statement .statement-text span:nth-child(18) {
+  animation-delay: calc(0s + (0.1s * 18));
+}
+.animated-statement .statement-text span:nth-child(19) {
+  animation-delay: calc(0s + (0.1s * 19));
+}
+.animated-statement .statement-text span:nth-child(20) {
+  animation-delay: calc(0s + (0.1s * 20));
+}
+.animated-statement .statement-text span:nth-child(21) {
+  animation-delay: calc(0s + (0.1s * 21));
+}
+.animated-statement .statement-text span:nth-child(22) {
+  animation-delay: calc(0s + (0.1s * 22));
+}
+.animated-statement .statement-text span:nth-child(23) {
+  animation-delay: calc(0s + (0.1s * 23));
+}
+.animated-statement .statement-text span:nth-child(24) {
+  animation-delay: calc(0s + (0.1s * 24));
+}
+.animated-statement .statement-text span:nth-child(25) {
+  animation-delay: calc(0s + (0.1s * 25));
+}
+.animated-statement .statement-text span:nth-child(26) {
+  animation-delay: calc(0s + (0.1s * 26));
+}
+.animated-statement .statement-text span:nth-child(27) {
+  animation-delay: calc(0s + (0.1s * 27));
+}
+.animated-statement .statement-text span:nth-child(28) {
+  animation-delay: calc(0s + (0.1s * 28));
+}
+.animated-statement .statement-text span:nth-child(29) {
+  animation-delay: calc(0s + (0.1s * 29));
+}
+.animated-statement .statement-text span:nth-child(30) {
+  animation-delay: calc(0s + (0.1s * 30));
+}
+.animated-statement .statement-text span:nth-child(31) {
+  animation-delay: calc(0s + (0.1s * 31));
+}
+.animated-statement .statement-text span:nth-child(32) {
+  animation-delay: calc(0s + (0.1s * 32));
+}
+.animated-statement .statement-text span:nth-child(33) {
+  animation-delay: calc(0s + (0.1s * 33));
+}
+.animated-statement .statement-text span:nth-child(34) {
+  animation-delay: calc(0s + (0.1s * 34));
+}
+.animated-statement .statement-text span:nth-child(35) {
+  animation-delay: calc(0s + (0.1s * 35));
+}
+.animated-statement .statement-text span:nth-child(36) {
+  animation-delay: calc(0s + (0.1s * 36));
+}
+.animated-statement .statement-text span:nth-child(37) {
+  animation-delay: calc(0s + (0.1s * 37));
+}
+.animated-statement .statement-text span:nth-child(38) {
+  animation-delay: calc(0s + (0.1s * 38));
+}
+.animated-statement .statement-text span:nth-child(39) {
+  animation-delay: calc(0s + (0.1s * 39));
+}
+.animated-statement .statement-text span:nth-child(40) {
+  animation-delay: calc(0s + (0.1s * 40));
+}
 .animated-statement .statement-text span:nth-child(1) .secondary-item {
   animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 1));
 }
@@ -12682,6 +12769,96 @@ html {
 }
 .animated-statement .statement-text span:nth-child(10) .secondary-item {
   animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 10));
+}
+.animated-statement .statement-text span:nth-child(11) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 11));
+}
+.animated-statement .statement-text span:nth-child(12) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 12));
+}
+.animated-statement .statement-text span:nth-child(13) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 13));
+}
+.animated-statement .statement-text span:nth-child(14) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 14));
+}
+.animated-statement .statement-text span:nth-child(15) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 15));
+}
+.animated-statement .statement-text span:nth-child(16) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 16));
+}
+.animated-statement .statement-text span:nth-child(17) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 17));
+}
+.animated-statement .statement-text span:nth-child(18) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 18));
+}
+.animated-statement .statement-text span:nth-child(19) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 19));
+}
+.animated-statement .statement-text span:nth-child(20) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 20));
+}
+.animated-statement .statement-text span:nth-child(21) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 21));
+}
+.animated-statement .statement-text span:nth-child(22) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 22));
+}
+.animated-statement .statement-text span:nth-child(23) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 23));
+}
+.animated-statement .statement-text span:nth-child(24) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 24));
+}
+.animated-statement .statement-text span:nth-child(25) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 25));
+}
+.animated-statement .statement-text span:nth-child(26) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 26));
+}
+.animated-statement .statement-text span:nth-child(27) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 27));
+}
+.animated-statement .statement-text span:nth-child(28) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 28));
+}
+.animated-statement .statement-text span:nth-child(29) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 29));
+}
+.animated-statement .statement-text span:nth-child(30) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 30));
+}
+.animated-statement .statement-text span:nth-child(31) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 31));
+}
+.animated-statement .statement-text span:nth-child(32) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 32));
+}
+.animated-statement .statement-text span:nth-child(33) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 33));
+}
+.animated-statement .statement-text span:nth-child(34) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 34));
+}
+.animated-statement .statement-text span:nth-child(35) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 35));
+}
+.animated-statement .statement-text span:nth-child(36) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 36));
+}
+.animated-statement .statement-text span:nth-child(37) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 37));
+}
+.animated-statement .statement-text span:nth-child(38) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 38));
+}
+.animated-statement .statement-text span:nth-child(39) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 39));
+}
+.animated-statement .statement-text span:nth-child(40) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 40));
 }
 
 .content-appeared .statement-text span {
@@ -13182,6 +13359,11 @@ a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited
   padding: 2rem;
 }
 
+@media screen and (min-width: 50em) {
+  .column-count-2 {
+    column-count: 2;
+  }
+}
 .has-dividers [class|=col],
 .has-dividers [class*=col] {
   border-right: 1px solid #adb5bd;
