@@ -64,7 +64,7 @@ $page_info = json_decode($page_info, true);
     'sec-fixedCenteredTitle theme-verylightgray here-to-help',
     'mw-4',
     ['bg-image-url' => '/admission/assets/images/0145-15-05-hw-campus-vassar-vb-4747.jpg',
-        'bg-image-alt' => 'A person sits on a bench under a tree in front of the library',
+        'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
@@ -83,7 +83,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Apply to Vassar',
         '/admission/apply/',
-        ['url' => '/admission/assets/images/admission-home/0198-19-11-kwe-library-vassar-vb-5415.jpg', 'alt' => 'A person at a library study table taking notes next to a stack of four books.' ],
+        ['url' => '/admission/assets/images/admission-home/0198-19-11-kwe-library-vassar-vb-5415.jpg', 'alt' => 'Student studying in the Thompson Memorial Library' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
@@ -101,7 +101,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Visit',
         '/admission/visit/',
-        ['url' => '/admission/assets/images/admission-home/0100-21-10-kr-fw-general-vassar-0057.jpg', 'alt' => 'A family of three people walking in front of Main Building, smiling' ],
+        ['url' => '/admission/assets/images/admission-home/0100-21-10-kr-fw-general-vassar-0057.jpg', 'alt' => 'replacealttext' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
@@ -114,7 +114,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Financial Aid Information',
         '/admission/financial-aid/',
-        ['url' => '/admission/assets/images/admission-home/0177_16_09_KR_0072.jpg', 'alt' => 'Two people walking on a path in front of Rockefeller Hall' ],
+        ['url' => '/admission/assets/images/admission-home/0177_16_09_KR_0072.jpg', 'alt' => 'replacealttext' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
 
     ); ?>
@@ -129,7 +129,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Request Information',
         'https://apply.vassar.edu/register/requestinfo',
-        ['url' => '/admission/assets/images/admission-home/0065-19-05-kr-jewett-dorm-vassar-4374.jpg', 'alt' => 'A student in their dorm room sitting at a desk writing in a notebook' ],
+        ['url' => '/admission/assets/images/admission-home/0065-19-05-kr-jewett-dorm-vassar-4374.jpg', 'alt' => 'replacealttext' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
@@ -161,7 +161,7 @@ echo sec_fixedCenteredTitle(
     max-width: 40rem;
     margin: 4rem auto 2rem;
     text-align: left;">Vassar is from <span id="x-where-from">everywhere</span></h2>
-   <h3 class="section-intro-text">A world-class education is built on worldwide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will study abroad while at Vassar.</h3>
+   <h3 class="section-intro-text">World-class educations are built on world-wide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will study abroad while at Vassar.</h3>
 <div class="text-center mb-5">
 
 <a href="/admission/quick-facts/community/" class="btn btn-lg btn-light arrow me-4 mb-3">Meet Vassar</a>
@@ -175,7 +175,7 @@ echo sec_fixedCenteredTitle(
     [
         /*      'bg-image-url' => '/admission/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg', */
         'bg-image-url' => '/admission/assets/images/0141-15-10-kr-fall-campus-vassar-0034.jpg',
-        'bg-image-alt' => 'Students playing with a pile leaves on the library lawn, smiling',
+        'bg-image-alt' => 'replacethisalttext',
         'css' => '
       --section-title-size: 10vw;
       /* --section-title-faded-opacity: 0.2; */
@@ -248,11 +248,11 @@ echo sec_fixedCenteredTitle(
    <b class="slide-from-right">places.</b>',
     '<h3 class="section-intro-text">We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings that showcase classic architecture blended seamlessly with modern, cutting-edge facilities.</h3>
 
-    <p class="text-center mb-5 fst-italic fs-5">Videos with an <i class="icon fa fa-vr-cardboard mx-2"></i> icon are panoramic. Drag inside the video to look around!</p>',
+    <p class="text-center mb-5 fst-italic fs-5">Videos with a <i class="icon fa fa-vr-cardboard mx-2"></i> icon are panoramic. Drag inside the video to look around!</p>',
     'sec-fixedCenteredTitle theme-burgundy',
     'mw-4',
     ['bg-image-url' => '/admission/assets/images/admission-home/fav-places/0083-19-06-tt-shakespeare-vassar-0357.jpg',
-        'bg-image-alt' => 'Roses in the Shakespeare Garden',
+        'bg-image-alt' => 'replacethisalttext',
         'css' => '
       --section-title-size: 10vw;
       /* --section-title-faded-opacity: 0.2; */
@@ -274,7 +274,7 @@ echo sec_fixedCenteredTitle(
         'youtube',
         '',
         ['url' => '/admission/assets/images/admission-home/fav-places/110619_160over90_Vassar_5483.jpg',
-            'alt' => 'People sitting at tables and chairs in a large open space of the Bridge for Laboratory Sciences'
+            'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -292,7 +292,7 @@ echo sec_fixedCenteredTitle(
         'youtube',
         '',
         ['url' => '/admission/assets/images/admission-home/fav-places/0056-21-06-kr-campus-vassar-0006-copy.jpg',
-            'alt' => 'A stone path in the Shakespeare Garden'
+            'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -314,7 +314,7 @@ echo sec_fixedCenteredTitle(
         'youtube',
         '',
         ['url' => '/admission/assets/images/admission-home/fav-places/0212-18-10-kr-library-fall-vassar-3819.jpg',
-            'alt' => 'Front exterior view of the main library with trees in the foreground framing the building'
+            'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -331,7 +331,7 @@ echo sec_fixedCenteredTitle(
         'youtube',
         '',
         ['url' => '/admission/assets/images/admission-home/fav-places/0195-19-11-kwe-gordon-vassar-1644.jpg',
-            'alt' => 'A group of five people sitting at a table eating and conversing in the Gordon Commons dining hall'
+            'alt' => 'asdfasdf'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -421,7 +421,7 @@ All Vassar students are surrounded by an environment designed to spark something
         'custom',
         '/admission/assets/videos/art-studios.mp4',
         ['url' => '/admission/assets/images/admission-home/art-studio.jpg',
-            'alt' => 'An art studio with easels, paints, stools and carts with art materials'
+            'alt' => 'needalttxt'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
@@ -436,7 +436,7 @@ All Vassar students are surrounded by an environment designed to spark something
         'custom',
         '/admission/assets/videos/camera-rigging.mp4',
         ['url' => '/admission/assets/images/admission-home/camera-rigging.jpg',
-            'alt' => 'Videographer with camera and editing equipment outside'
+            'alt' => 'Student being interviewed'
         ],
         'animation-item grid-item text-at-bottom text-white'
     );
