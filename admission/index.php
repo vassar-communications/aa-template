@@ -594,7 +594,11 @@ All Vassar students are surrounded by an environment designed to spark something
 
 <!-- end you may be wondering -->
 
-<?php echo newsCarousel(); ?>
+<?php // echo newsCarousel();
+
+include($project_paths['main_project_root'].'/admission/inc/carousel-admission-home-news.inc');
+
+?>
 
 
  <?php echo item_modal_standardVideo(); ?>

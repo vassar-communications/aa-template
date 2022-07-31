@@ -72,3 +72,8 @@ $placeholder_img_wide = '/assets/images/placeholders/placeholder-wide.jpg';
 $admission_img_path = '/admission/assets/images/';
 $alumni_img_path = '/alumni/assets/img/';
 $quickfacts_img_path = $admission_img_path.'quick-facts/';
+
+
+
+
+$news_img_path = '/admission/assets/images/news/';

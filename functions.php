@@ -92,7 +92,7 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/wid
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle-masthead.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle-masthead_vid.inc');
-include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-admission-home-news.inc');
+
 include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-alumni-home-spotlight.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-alumni-home-media.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-admission-explore-hudson.inc');
