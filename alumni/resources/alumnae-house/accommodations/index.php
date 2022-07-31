@@ -1,12 +1,10 @@
-
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO === */
-
+/* PAGE INFO === */
 
 $page_info = '{
   "page_title":"Accommodations",
@@ -33,9 +31,9 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-give-be-a-mentor.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-give-volunteer.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/resources-vassar-network.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/resources/resources-vassar-network.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/contact/contact.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/calendar/calendar.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
 

@@ -1,4 +1,3 @@
-
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
@@ -26,22 +25,16 @@ $page_info = json_decode($page_info, true);
 
 <?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
 
-
-
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-resources-alumnaehouse-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo interior_page_nav() ?>
 
 <?php /*  PAGE CONTENT === */ ?>
 
 
-<?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-give-be-a-mentor.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-give-volunteer.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/resources-vassar-network.php');?>
-<?php echo end_sec_relatedTopics(); ?>
 
+<?php echo relatedTopics(); ?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/resources/resources-vassar-network.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/contact/contact.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/calendar/calendar.php');?>
+<?php echo end_sec_relatedTopics(); ?>
 
 <?php echo site_footer(); ?>
