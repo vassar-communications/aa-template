@@ -11,50 +11,40 @@
     'is-link'
   ); ?>
     <h3>“Minor Planet” named for Particle Physicist Sau Lan Wu ’63</h3>
-    <?php echo cta_link(
-      'https://www.vassar.edu/news/minor-planet-named-particle-physicist-sau-lan-wu-63',
-      'Read more'
-    ); ?>
+
+    <a class="stretched-link" href="https://www.vassar.edu/news/minor-planet-named-particle-physicist-sau-lan-wu-63">Read more <i class="fa-solid fa-arrow-right"></i></a>
+
   <?php echo end_carousel_item(); ?>
 
   <?php echo carousel_item( $news_img_path . 'the-overturning-of-roe-v-wade-16x9.jpg',
   'is-link'
 ); ?>
     <h3>The Overturning of Roe v. Wade</h3>
-    <?php echo cta_link(
-      'https://www.vassar.edu/news/overturning-roe-v-wade',
-      'Read more'
-    ); ?>
+    <a class="stretched-link" href="https://www.vassar.edu/news/overturning-roe-v-wade">Read more <i class="fa-solid fa-arrow-right"></i></a>
+
   <?php echo end_carousel_item(); ?>
 
   <?php echo carousel_item( $news_img_path . 'aavc-awards-2206-2x3-edit1.jpg',
   'is-link'
 ); ?>
     <h3>Five Alumni Selected for 2022 AAVC Awards</h3>
-    <?php echo cta_link(
-      'https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards',
-      'Read more'
-    ); ?>
+    <a class="stretched-link" href="https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards">Read more <i class="fa-solid fa-arrow-right"></i></a>
+
   <?php echo end_carousel_item(); ?>
 
   <?php echo carousel_item( $news_img_path . 'Pulitzer-Prizes-medal-edit1.jpeg',
   'is-link'
 ); ?>
     <h3>Ada Ferrer ’84 Wins 2022 Pulitzer Prize in History</h3>
-    <?php echo cta_link(
-      'https://www.vassar.edu/news/ada-ferrer-84-wins-2022-pulitzer-prize-history',
-      'Read more'
-    ); ?>
+    <a class="stretched-link" href="https://www.vassar.edu/news/ada-ferrer-84-wins-2022-pulitzer-prize-history">Read more <i class="fa-solid fa-arrow-right"></i></a>
+
   <?php echo end_carousel_item(); ?>
 
   <?php echo carousel_item( $news_img_path . 'olmsted-story-lead.jpeg',
   'is-link'
 ); ?>
     <h3>Exhibit Highlights Newly Revealed Olmsted Role in Campus Design</h3>
-    <?php echo cta_link(
-      'https://www.vassar.edu/news/exhibit-highlights-newly-revealed-olmsted-role-campus-design',
-      'Read more'
-    ); ?>
+    <a class="stretched-link" href="https://www.vassar.edu/news/exhibit-highlights-newly-revealed-olmsted-role-campus-design">Read more <i class="fa-solid fa-arrow-right"></i></a>
   <?php echo end_carousel_item(); ?>
 
 <?php echo end_carousel(); ?>

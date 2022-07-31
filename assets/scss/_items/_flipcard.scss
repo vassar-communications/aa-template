@@ -11,12 +11,14 @@
     left: 0;
   }
 
-  &:hover {
-    .card-content {
-      transform: rotateY(180deg);
-    }
-    .card__face--front {
-      background: $dark;
+  @media (hover: hover) {
+    &:hover {
+      .card-content {
+        transform: rotateY(180deg);
+      }
+      .card__face--front {
+        background: $dark;
+      }
     }
   }
 }

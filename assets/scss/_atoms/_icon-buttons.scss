@@ -56,7 +56,7 @@
 
 
 
-.btn-link.arrow::after {
+.btn-link.arrow:not(.stretched-link):after {
   content: "→";
   border: 1px solid;
   width: 2rem;
@@ -72,9 +72,9 @@
 
 
 
-.btn-link.arrow:hover:after,
+.btn-link.arrow:not(.stretched-link):hover:after,
 .carousel-cell:hover .arrow:after,
-.btn-link.arrow:focus:after,
+.btn-link.arrow:not(.stretched-link):focus:after,
 .carousel-cell:focus .arrow:after {
   background-color: var(--section-link-color, $red);
   border-color: var(--section-link-color, $red);
