@@ -11,7 +11,12 @@
     left: 0;
   }
 
+  @media (hover: none) {
+    pointer-events: none;
+  }
+
   @media (hover: hover) {
+
     &:hover {
       .card-content {
         transform: rotateY(180deg);

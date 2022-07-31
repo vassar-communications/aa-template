@@ -9935,6 +9935,11 @@ details.open .dropdown__content {
   top: 0;
   left: 0;
 }
+@media (hover: none) {
+  .flip-card {
+    pointer-events: none;
+  }
+}
 @media (hover: hover) {
   .flip-card:hover .card-content {
     transform: rotateY(180deg);
