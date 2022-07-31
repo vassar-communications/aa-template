@@ -9923,6 +9923,17 @@ details.open .dropdown__content {
   color: var(--section-bg-color, #fff);
 }
 
+@media (hover: none) {
+  .flipcards.grid {
+    display: block !important;
+  }
+}
+
+@media (hover: none) {
+  .flipcard__value {
+    margin-bottom: 2rem !important;
+  }
+}
 .flip-card {
   width: 100%;
   height: var(--flipcard-height, 2rem);
@@ -9938,6 +9949,7 @@ details.open .dropdown__content {
 @media (hover: none) {
   .flip-card {
     pointer-events: none;
+    margin-bottom: 1rem;
   }
 }
 @media (hover: hover) {
@@ -9963,7 +9975,11 @@ details.open .dropdown__content {
   height: 100%;
   padding: 2vw;
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
-  border-radius: 0.4rem;
+}
+@media (hover: hover) {
+  .card__face {
+    border-radius: 0.4rem;
+  }
 }
 @media (hover: hover) {
   .card__face {

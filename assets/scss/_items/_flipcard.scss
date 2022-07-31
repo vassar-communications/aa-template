@@ -1,7 +1,20 @@
+.flipcards.grid {
+  @media (hover: none) {
+    display: block !important;
+  }
+}
+
+@media (hover: none) {
+  .flipcard__value {
+    margin-bottom: 2rem !important;
+  }
+}
+
 .flip-card {
   width: 100%;
   height: var(--flipcard-height, 2rem);
   perspective: 600px;
+
 
   .stretched-link {
     width: 100%;
@@ -13,6 +26,7 @@
 
   @media (hover: none) {
     pointer-events: none;
+    margin-bottom: 1rem;
   }
 
   @media (hover: hover) {
@@ -43,7 +57,10 @@
   height: 100%;
   padding: 2vw;
   box-shadow: 0 1em 1em rgba(0,0,0,0.2);
-  border-radius: 0.4rem;
+
+  @media (hover: hover) {
+    border-radius: 0.4rem;
+  }
 
   @media (hover: hover) {
     position: absolute;
