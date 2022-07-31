@@ -13464,10 +13464,6 @@ a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited
 }
 
 @media (max-aspect-ratio: 1/1) {
-  html {
-    border-top: 5.6rem solid #000;
-  }
-
   .section-bg-image {
     margin-top: 5.6rem;
   }
