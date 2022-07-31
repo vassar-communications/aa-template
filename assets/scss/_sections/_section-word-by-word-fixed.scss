@@ -7,6 +7,11 @@
 
     .section-content {
       position: fixed;
+
+      .is-ios & {
+        position: absolute;
+      }
+
       top: 0;
       left: 20vw;
       height: 100vh;

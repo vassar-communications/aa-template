@@ -11069,6 +11069,9 @@ html {
   justify-content: center;
   text-align: center;
 }
+.is-ios .fixed-quote .section-content {
+  position: absolute;
+}
 .fixed-quote .section-content p {
   --regularContent-font-size: calc(1.425rem + 2.1vw);
 }
