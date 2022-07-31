@@ -13352,6 +13352,12 @@ ul.style-checklist a {
   font-size: 2.6rem;
 }
 
+.js-video-btn .card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Basic links */
 p a,
 nav a,
@@ -13657,6 +13663,13 @@ a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited
   display: block;
   width: fit-content;
   margin: 0 auto;
+}
+
+.img-size-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 :root {
@@ -14479,14 +14492,15 @@ ul.style-checklist a:hover {
   }
 }
 
-.one-centered-wide-item-layout {
-  grid-template-columns: 2fr 9fr 2fr;
-}
+@media screen and (min-width: 50em) {
+  .one-centered-wide-item-layout {
+    grid-template-columns: 2fr 9fr 2fr;
+  }
 
-.centered-wide-item {
-  grid-column-start: 2;
+  .centered-wide-item {
+    grid-column-start: 2;
+  }
 }
-
 .sec-fixedCenteredTitleMasthead .section-bg-image-container,
 .section--top-level-masthead {
   background: #000;
