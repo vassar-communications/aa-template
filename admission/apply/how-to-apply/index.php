@@ -92,8 +92,7 @@ $page_info = json_decode($page_info, true);
       Email: <a href="mailto:admappmaterials@vassar.edu">admappmaterials@vassar.edu</a><br/>
 
       Fax: <?php echo phone_number('845-437-7063'); ?></p>
-  <p>Financial Aid documents should be submitted to <a href="https://offices.vassar.edu/student-financial-services/">Student Financial Services</a> through Institutional Documentation Service (IDOC).
-.</p>
+  <p>Financial Aid documents should be submitted to <a href="https://offices.vassar.edu/student-financial-services/">Student Financial Services</a> through Institutional Documentation Service (IDOC).</p>
 <?php echo end_sec_regularContent(); ?>
 
 

@@ -43,7 +43,7 @@ $page_info = json_decode($page_info, true);
     null,
     ['img_alt_text' => 'At Commencement, President Bradley shakes hands with a graduating veteran accompanied by two young children']
   );
-    
+
 ?>
 
 
@@ -148,7 +148,7 @@ $page_info = json_decode($page_info, true);
   </div>
 
   <div class="staff-contact">
-      <h3>Angela Anderson, </h3>
+      <h3>Angela Anderson</h3>
       <p><em>Registrar</em></p>
       <a class="fixemaillink" href="mailto:angelaanderson@vassar.edu">Email: angelaanderson@vassar.edu</a>
   </div>
