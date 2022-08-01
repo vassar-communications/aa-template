@@ -96,7 +96,11 @@ a[data-bs-toggle="collapse"] {
 
 .megamenu-container {
   .linked-list {
-    a {
+    a,
+    a:hover,
+    a:focus,
+    a:visited:hover,
+    a:visited:focus {
       color: #fff;
     }
   }

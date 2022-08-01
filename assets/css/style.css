@@ -10770,6 +10770,20 @@ html {
   filter: blur(0) brightness(1) contrast(1);
 }
 
+@media (max-aspect-ratio: 1/1) {
+  .masthead-video-background .section-title-container {
+    height: var(--full-masthead-height-video) !important;
+  }
+
+  .masthead-video-background .section-bg-image-container {
+    height: var(--full-masthead-height-video) !important;
+  }
+
+  .masthead-video-background {
+    height: var(--full-masthead-height-video) !important;
+    margin-top: 5rem !important;
+  }
+}
 .section--wide-content.has-intro .section-title {
   margin-bottom: 1em;
 }
@@ -11773,7 +11787,7 @@ This should be a section option
 }
 
 .sec-fixedCenteredTitleMasthead {
-  --section-title-size: 18vw;
+  --section-title-size: 14vw;
 }
 @media screen and (min-width: 50em) {
   .sec-fixedCenteredTitleMasthead {
@@ -12109,6 +12123,14 @@ a[data-bs-toggle=collapse]:hover {
 
 .show.offcanvas {
   z-index: 1865;
+}
+
+.megamenu-container .linked-list a,
+.megamenu-container .linked-list a:hover,
+.megamenu-container .linked-list a:focus,
+.megamenu-container .linked-list a:visited:hover,
+.megamenu-container .linked-list a:visited:focus {
+  color: #fff;
 }
 
 .nav--top a {
@@ -13404,24 +13426,6 @@ footer a  {
   }
 }
 */
-a {
-  color: var(--section-text-color, --color-vassar-charcoal);
-}
-a.btn-link {
-  transition: 0.4s all ease;
-  transition-property: color, background-color;
-}
-a.btn-link:link {
-  background-color: var(--section-link-bg-color, transparent);
-  color: var(--section-link-color, var(--color-vassar-burgundy));
-}
-a.btn-link:visited {
-  color: var(--section-link-color, var(--color-vassar-burgundy));
-}
-a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited:focus {
-  background-color: transparent;
-  color: var(--section-link-color, #e00);
-}
 /* Section themes */
 .theme-burgundy {
   --section-bg-color: var(--color-vassar-burgundy);
@@ -13628,6 +13632,81 @@ a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited
 /*CS Review End*/
 .light-bg-pattern-1 {
   --bg-image-opacity: 0.1 !important;
+}
+
+a:not(.btn,
+.nav-link) {
+  color: var(--section-text-color, var(--color-vassar-charcoal));
+}
+a:not(.btn,
+.nav-link):link:hover, a:not(.btn,
+.nav-link):link:focus, a:not(.btn,
+.nav-link):visited:hover, a:not(.btn,
+.nav-link):visited:focus {
+  color: var(--section-text-color, var(--color-vassar-charcoal));
+}
+
+p a:not(.btn,
+.nav-link), li a:not(.btn,
+.nav-link), details a:not(.btn,
+.nav-link) {
+  color: var(--section-text-color, var(--color-vassar-charcoal));
+  border-bottom: 1px solid var(--section-text-color, var(--link-underline-color));
+  color: var(--main-bg-color, var(--backup-bg-color));
+}
+p a:not(.btn,
+.nav-link):visited, li a:not(.btn,
+.nav-link):visited, details a:not(.btn,
+.nav-link):visited {
+  border-bottom: 1px dashed var(--section-text-color, var(--link-underline-color));
+}
+p a:not(.btn,
+.nav-link):link:hover, p a:not(.btn,
+.nav-link):link:focus, p a:not(.btn,
+.nav-link):visited:hover, p a:not(.btn,
+.nav-link):visited:focus, li a:not(.btn,
+.nav-link):link:hover, li a:not(.btn,
+.nav-link):link:focus, li a:not(.btn,
+.nav-link):visited:hover, li a:not(.btn,
+.nav-link):visited:focus, details a:not(.btn,
+.nav-link):link:hover, details a:not(.btn,
+.nav-link):link:focus, details a:not(.btn,
+.nav-link):visited:hover, details a:not(.btn,
+.nav-link):visited:focus {
+  color: var(--section-text-color, var(--color-vassar-charcoal));
+  border-bottom: none;
+}
+
+a.btn-link {
+  transition: 0.4s all ease;
+  transition-property: color, background-color;
+}
+a.btn-link:link {
+  background-color: var(--section-link-bg-color, transparent);
+  color: var(--section-link-color, var(--color-vassar-burgundy));
+}
+a.btn-link:visited {
+  color: var(--section-link-color, var(--color-vassar-burgundy));
+}
+a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited:focus {
+  background-color: transparent;
+  color: var(--section-link-color, #e00);
+}
+footer a {
+  border: 1px solid transparent;
+}
+footer a:link:hover, footer a:link:focus, footer a:visited:hover, footer a:visited:focus {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/* exceptions */
+.megamenu-site-nav a:link,
+.linked-list a:link {
+  border: none;
+}
+
+.btn:link:hover, .btn:link:focus, .btn:visited:hover, .btn:visited:focus {
+  border-color: transparent;
 }
 
 .buffer {
@@ -13984,13 +14063,13 @@ a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited
   }
 }
 .fix, .fix a, a.fix {
-  color: #61ff00 !important;
+  color: #29e07e !important;
   font-weight: 700;
   font-style: italic;
 }
 
 .placeholder {
-  color: mediumpurple !important;
+  color: #772cff !important;
 }
 
 .g-col.column.equal {
@@ -14136,13 +14215,11 @@ a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited
   --footer-badge-link-color: var(--color-vassar-dark-burgundy);
 }
 
-p a,
 ul.style-checklist a {
   text-decoration: none;
   border-bottom: 1px solid var(--link-underline-color, #63666A);
 }
 
-p a:hover,
 ul.style-checklist a:hover {
   border-bottom: none;
   opacity: var(--link-hover-opacity, 1);
@@ -14286,10 +14363,6 @@ ul.style-checklist a:hover {
 }
 
 /*for the footer links for now */
-.footer a:hover {
-  color: #fff !important;
-}
-
 .btn-check:focus + .btn-light, .btn-light:focus {
   border-color: #0004ff;
 }
@@ -14538,6 +14611,10 @@ ul.style-checklist a:hover {
 .home.is-ios .section-bg-image {
   height: 100vh !important;
   margin-top: 0;
+}
+
+.bg-image-left.section--top-level-masthead .section-bg:after {
+  background-position: left !important;
 }
 
 /*# sourceMappingURL=style.css.map */
