@@ -65,6 +65,20 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+<?php echo sec_regularContent(
+    'Getting Involved with Affinity Groups',
+    'theme-burgundy',
+    ''
+); ?>
+
+<p>If you are interested in participating in affinity groups, reach out to Sharif Rosen, Associate Director for Multicultural and Affinity Engagement at   <a href="mailto:srosen@vassar.edu">srosen@vassar.edu</a> or <a href="tel:845-437-5543">(845) 437-5443</a>.</p>
+<ul class="linked-list">
+    <li><a href="#">Follow Affinity Groups on Social</a></li>
+    <li><a href="#">Become an Affinity Group Volunteer</a></li>
+</ul>
+
+<?php echo end_sec_regularContent(); ?>
+
 <?php echo sec_fullBleedImageColumn(
     'Vassar Classes',
     '/assets/images/placeholders/placeholder-square.png',
@@ -72,7 +86,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Everyone who matriculates at Vassar is a member of a Vassar Class. Classes plan reunions and mini-reunions, manage social media pages, reach out to one another about supporting the college, and enjoy each other’s updates in the Class notes section of the Vassar: The Vassar Quarterly magazine. Classes last for a lifetime and represent the largest organizing alumni community.</p>
+    <p>Everyone who matriculates at Vassar is a member of a Vassar Class. Classes plan reunions and mini-reunions, manage social media pages, reach out to one another about supporting the college, and enjoy each other’s updates in the Class notes section of the Vassar: <em>The Vassar Quarterly</em> magazine. Classes last for a lifetime and represent the largest organizing alumni community.</p>
 
     <?php echo cta_link(
         '#',
