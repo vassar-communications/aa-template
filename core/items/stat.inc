@@ -18,7 +18,7 @@ function item_stat(
     $stat_figure = get_extras_value( 'unit', $extras ) . $stat_figure;
 
   if($stat_description)
-    $stat_description = sprintf('<div>%s</div>', $stat_description);
+    $stat_description = sprintf('<p>%s</p>', $stat_description);
 
 
   if (!$heading_level) $heading_level = 3;

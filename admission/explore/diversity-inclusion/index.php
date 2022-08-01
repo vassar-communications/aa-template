@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_hasColumns(
-    'The Class of 2025 represents',
+    'The Class of 2025 Represents',
     '3',
     null,
     'items-equal-height mw-inner-4 theme-extralightgray animate-when-content-appears animation-group animation-fade-in',
