@@ -44,7 +44,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_hasColumns(
-    'Calculate your cost',
+    'Calculate Your Cost',
     2,
     null,
     'mw-inner-2 theme-extralightgray',
