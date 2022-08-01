@@ -68,7 +68,7 @@ null,
     null,
     3,
     '',
-    'related-topics-section theme-cream mw-inner-4',
+    'related-topics-section theme-cream',
     'col-gap-3'
 ); ?>
 
