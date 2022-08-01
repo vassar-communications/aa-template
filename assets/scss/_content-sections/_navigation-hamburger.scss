@@ -105,3 +105,14 @@ a[data-bs-toggle="collapse"] {
     }
   }
 }
+
+
+/* Adding in a hover state for the accordion links */
+
+.offcanvas .accordion-body a:hover {
+  border-bottom: 1px solid #fff;
+}
+.offcanvas .accordion-body a {
+  transition: border-bottom 0.4s;
+  border-bottom: 1px solid transparent;
+}
