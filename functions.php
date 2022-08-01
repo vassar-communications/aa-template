@@ -32,6 +32,7 @@ $facts['adm_total_cost'] = $facts[$current_school_year]['adm_tuition'] + $facts[
 
 $facts['adm_total_cost'] = number_format($facts['adm_total_cost']);
 
+$facts['number_of_majors'] = '50';
 
 
 

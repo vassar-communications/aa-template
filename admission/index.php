@@ -199,14 +199,16 @@ echo sec_fixedCenteredTitle(
         'More than half of Vassar students receive financial aid.
     ',
         'animation-item',
-        '/admission/financial-aid/'
+        '/admission/financial-aid/',
+        null,
+        '* 21/22 academic year'
     );
     ?>
 
     <?php echo flipcard_stat(
         'Majors',
-        '51',
-        'Choose from 48 departments and programs, 51 majors, plus the Independent Program (interdisciplinary “design your own” major).',
+        $facts['number_of_majors'],
+        'Choose from 48 departments and programs, '.$facts['number_of_majors'].' majors, plus the Independent Program (interdisciplinary “design your own” major).',
         'animation-item',
         '/admission/explore/academics/'
     );
@@ -232,8 +234,7 @@ echo sec_fixedCenteredTitle(
 
 </div>
 
-
-<p class="p-4 mt-5 text-center"><i class="fa-solid fa-circle-info me-2"></i> These figures are for the <a href="https://offices.vassar.edu/institutional-research/data/2021-2022/">2021/22 academic year</a>.</p>
+<?php /* <p class="p-4 mt-5 text-center"><i class="fa-solid fa-circle-info me-2"></i> These figures are for the <a href="https://offices.vassar.edu/institutional-research/data/2021-2022/">2021/22 academic year</a>.</p> */ ?>
 
 <?php echo end_sec_fixedCenteredTitle(); ?>
 

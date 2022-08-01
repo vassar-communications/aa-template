@@ -145,7 +145,7 @@ $page_info = json_decode($page_info, true);
     'theme-cream pb-1 hidemark',
     'mw-3 pb-5'
 ); ?>
-<?php echo item_dropdown('50 Majors', 'dropdown--feature bg-white shadow-sm mb-3'); ?>
+<?php echo item_dropdown( $facts['number_of_majors'].' Majors', 'dropdown--feature bg-white shadow-sm mb-3' ); ?>
 <div class="row has-dividers">
     <div class="col-sm">
         <ul class="linked-list no-first-border">
