@@ -192,10 +192,10 @@ This should be a section option
 
 
 .sec-fixedCenteredTitleMasthead {
-  --section-title-size: 18vw;
+  --section-title-size: 14vw;
 
   @include break(md) {
-  --section-title-size: 11vw;    
+  --section-title-size: 11vw;
   }
 
   .section-title {
