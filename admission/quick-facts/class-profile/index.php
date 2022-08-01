@@ -73,9 +73,9 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col('span-2'); ?>
     <?php echo item_stat(
-      'Admitted',
+      'Admitted (20% of applicants)',
       '2,198',
-      '<p>(20% of applicants)</p>'
+      ''
     ); ?>
   <?php echo end_item_col(); ?>
 
