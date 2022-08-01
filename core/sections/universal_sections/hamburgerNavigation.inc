@@ -47,7 +47,7 @@ $template = <<<TMP
                      <div class="mb-2"> <a class="text-white" href="/admission/explore/campus/">Campus</a></div>
                      <div class="mb-2"> <a class="text-white" href="/admission/explore/diversity-inclusion/">Diversity & Inclusion</a></div>
                      <div class="mb-2"> <a class="text-white" href="/admission/explore/outcomes/">Outcomes</a></div>
-                     <div class="mb-2"> <a class="text-white" href="/admission/explore/local-area/">Local Area</a></div>
+                     <div class="mb-2"> <a class="text-white" href="/admission/explore/beyond-campus/">Local Area</a></div>
                      <div class="mb-2"> <a class="text-white" href="/admission/explore/student-life/">Student Life</a></div>
                   </div>
                </div>

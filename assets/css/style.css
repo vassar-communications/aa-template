@@ -12111,6 +12111,10 @@ a[data-bs-toggle=collapse]:hover {
   z-index: 1865;
 }
 
+.megamenu-container .linked-list a {
+  color: #fff;
+}
+
 .nav--top a {
   font-size: 1.25rem;
   letter-spacing: 0.08rem;
@@ -13404,28 +13408,6 @@ footer a  {
   }
 }
 */
-a {
-  color: var(--section-text-color, --color-vassar-charcoal);
-  border-bottom: 1px solid var(--section-text-color, --link-underline-color);
-}
-a:visited {
-  border-bottom: 1px dashed var(--section-text-color, --link-underline-color);
-}
-a.btn-link {
-  transition: 0.4s all ease;
-  transition-property: color, background-color;
-}
-a.btn-link:link {
-  background-color: var(--section-link-bg-color, transparent);
-  color: var(--section-link-color, var(--color-vassar-burgundy));
-}
-a.btn-link:visited {
-  color: var(--section-link-color, var(--color-vassar-burgundy));
-}
-a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited:focus {
-  background-color: transparent;
-  color: var(--section-link-color, #e00);
-}
 /* Section themes */
 .theme-burgundy {
   --section-bg-color: var(--color-vassar-burgundy);
@@ -13632,6 +13614,81 @@ a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited
 /*CS Review End*/
 .light-bg-pattern-1 {
   --bg-image-opacity: 0.1 !important;
+}
+
+a:not(.btn,
+.nav-link) {
+  color: var(--section-text-color, var(--color-vassar-charcoal));
+}
+a:not(.btn,
+.nav-link):link:hover, a:not(.btn,
+.nav-link):link:focus, a:not(.btn,
+.nav-link):visited:hover, a:not(.btn,
+.nav-link):visited:focus {
+  color: var(--section-text-color, var(--color-vassar-charcoal));
+}
+
+p a:not(.btn,
+.nav-link), li a:not(.btn,
+.nav-link), details a:not(.btn,
+.nav-link) {
+  color: var(--section-text-color, var(--color-vassar-charcoal));
+  border-bottom: 1px solid var(--section-text-color, var(--link-underline-color));
+  color: var(--main-bg-color, var(--backup-bg-color));
+}
+p a:not(.btn,
+.nav-link):visited, li a:not(.btn,
+.nav-link):visited, details a:not(.btn,
+.nav-link):visited {
+  border-bottom: 1px dashed var(--section-text-color, var(--link-underline-color));
+}
+p a:not(.btn,
+.nav-link):link:hover, p a:not(.btn,
+.nav-link):link:focus, p a:not(.btn,
+.nav-link):visited:hover, p a:not(.btn,
+.nav-link):visited:focus, li a:not(.btn,
+.nav-link):link:hover, li a:not(.btn,
+.nav-link):link:focus, li a:not(.btn,
+.nav-link):visited:hover, li a:not(.btn,
+.nav-link):visited:focus, details a:not(.btn,
+.nav-link):link:hover, details a:not(.btn,
+.nav-link):link:focus, details a:not(.btn,
+.nav-link):visited:hover, details a:not(.btn,
+.nav-link):visited:focus {
+  color: var(--section-text-color, var(--color-vassar-charcoal));
+  border-bottom: none;
+}
+
+a.btn-link {
+  transition: 0.4s all ease;
+  transition-property: color, background-color;
+}
+a.btn-link:link {
+  background-color: var(--section-link-bg-color, transparent);
+  color: var(--section-link-color, var(--color-vassar-burgundy));
+}
+a.btn-link:visited {
+  color: var(--section-link-color, var(--color-vassar-burgundy));
+}
+a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited:focus {
+  background-color: transparent;
+  color: var(--section-link-color, #e00);
+}
+footer a {
+  border: 1px solid transparent;
+}
+footer a:link:hover, footer a:link:focus, footer a:visited:hover, footer a:visited:focus {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/* exceptions */
+.megamenu-site-nav a:link,
+.linked-list a:link {
+  border: none;
+}
+
+.btn:link:hover, .btn:link:focus, .btn:visited:hover, .btn:visited:focus {
+  border-color: transparent;
 }
 
 .buffer {
@@ -14288,10 +14345,6 @@ ul.style-checklist a:hover {
 }
 
 /*for the footer links for now */
-.footer a:hover {
-  color: #fff !important;
-}
-
 .btn-check:focus + .btn-light, .btn-light:focus {
   border-color: #0004ff;
 }

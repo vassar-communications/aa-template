@@ -25,54 +25,6 @@ footer a  {
 */
 
 
-// these hover states. Something's got to be done about them.
-// I think the best solution for most of these is: if they
-// don't have an underline, add one. If they do, take it
-// away. If it's a button or nav, maybe something fancier is
-// in order.
-
-a {
-  color: var(--section-text-color, --color-vassar-charcoal);
-  border-bottom: 1px solid var(--section-text-color, --link-underline-color);
-
-  &:visited {
-    border-bottom: 1px dashed var(--section-text-color, --link-underline-color);
-  }
-
-  &:hover,
-  &:focus {
-
-  }
-}
-
-
-
-a.btn-link {
-  transition: 0.4s all ease;
-  transition-property: color, background-color;
-
-  &:link {
-    background-color: var(--section-link-bg-color, transparent);
-    color: var(--section-link-color, var(--color-vassar-burgundy));
-  }
-
-  &:visited {
-    color: var(--section-link-color, var(--color-vassar-burgundy));
-  }
-
-  &:hover,
-  &:visited:hover,
-  &:focus,
-  &:visited:focus {
-    background-color: transparent;
-    color: var(--section-link-color, #{$red});
-
-    &:after {
-
-    }
-  }
-
-}
 
 /* Section themes */
 

@@ -1,0 +1,105 @@
+@mixin make-hover() {
+  &:link,
+  &:visited {
+    &:hover,
+    &:focus {
+      @content;
+    }
+  }
+}
+
+
+// these hover states. Something's got to be done about them.
+// I think the best solution for most of these is: if they
+// don't have an underline, add one. If they do, take it
+// away. If it's a button or nav, maybe something fancier is
+// in order.
+
+
+a:not(
+  .btn,
+  .nav-link
+) {
+  color: var(--section-text-color, var(--color-vassar-charcoal));
+
+  @include make-hover() {
+    color: var(--section-text-color, var(--color-vassar-charcoal));
+  }
+}
+
+
+p, li, details {
+  a:not(
+    .btn,
+    .nav-link
+  ) {
+    color: var(--section-text-color, var(--color-vassar-charcoal));
+    border-bottom: 1px solid var(--section-text-color, var(--link-underline-color));
+
+    color: var(--main-bg-color, var(--backup-bg-color));
+
+    &:visited {
+      border-bottom: 1px dashed var(--section-text-color, var(--link-underline-color));
+    }
+
+    &:link,
+    &:visited {
+      &:hover,
+      &:focus {
+        color: var(--section-text-color, var(--color-vassar-charcoal));
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+a.btn-link {
+  transition: 0.4s all ease;
+  transition-property: color, background-color;
+
+  &:link {
+    background-color: var(--section-link-bg-color, transparent);
+    color: var(--section-link-color, var(--color-vassar-burgundy));
+  }
+
+  &:visited {
+    color: var(--section-link-color, var(--color-vassar-burgundy));
+  }
+
+  &:hover,
+  &:visited:hover,
+  &:focus,
+  &:visited:focus {
+    background-color: transparent;
+    color: var(--section-link-color, #{$red});
+
+    &:after {
+
+    }
+  }
+}
+
+
+footer a {
+  border: 1px solid transparent;
+
+  @include make-hover() {
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+  }
+}
+
+
+/* exceptions */
+
+.megamenu-site-nav,
+.linked-list {
+  a:link {
+    border: none;
+  }
+}
+
+.btn {
+  @include make-hover() {
+    border-color: transparent;
+  }
+}
