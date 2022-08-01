@@ -11,7 +11,11 @@ function item_stat(
   $css = get_extras_value('css', $extras, 'style="%s"');
   $heading_level = get_extras_value('hlevel', $extras);
 
-  $stat_figure = str_ireplace('%', '<span class="stat-unit">%</span>', $stat_figure);
+  if( get_extras_value( 'format_number', $extras ) )
+    $stat_figure = number_format($stat_figure);
+
+  if( get_extras_value( 'unit', $extras ) )
+    $stat_figure = get_extras_value( 'unit', $extras ) . $stat_figure;
 
   if($stat_description)
     $stat_description = sprintf('<div>%s</div>', $stat_description);
@@ -19,6 +23,11 @@ function item_stat(
 
   if (!$heading_level) $heading_level = 3;
 $title_classes = get_extras_value( 'title_classes', $extras );
+
+$stat_figure = str_ireplace('%', '<span class="stat-unit">%</span>', $stat_figure);
+
+$stat_figure = str_ireplace('$', '<span class="stat-unit">$</span>', $stat_figure);
+
 
 
 //  Check if a bg image was specified, and

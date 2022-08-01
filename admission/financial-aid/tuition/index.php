@@ -44,54 +44,61 @@ $page_info = json_decode($page_info, true);
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php echo sec_wideContent(
+
+<?php echo sec_hasColumns(
     'Tuition and Fees Overview',
-    '<p>The total cost to attend Vassar is $78,580</p>',
-    'pb-0',
-    'mw-4 '
+    '3',
+    '<p>The total cost to attend Vassar is $'.$facts['adm_total_cost'].'</p>',
+    'mw-inner-4 theme-extralightgray',
+    'gap-3'
 ); ?>
 
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Tuition',
+      $facts[$current_school_year]['adm_tuition'],
+      'For the ' . $current_school_year . ' school year',
+      'stat-value-small',
+      [
+        'format_number' => true,
+        'unit' => '$'
+      ]
+    ); ?>
+  <?php echo end_item_col(); ?>
 
-<div class="fancy-stats-container flex-column flex-lg-row animate-when-content-appears my-5">
-    <div class="col-item  stat-item item-students">
-        <div class="stat-item-fact">
-            <div class="tagline">Tuition</div>
-            <div class="display-2">$61,940</div>
-        </div>
-        <div class="stat-item-additional">
-            <div class="stat-label text-primary">For the 2021–2022 school year</div>
-        </div>
-    </div>
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Housing and Dining',
+      $facts[$current_school_year]['adm_room_and_board'],
+      '96% of Vassar students live on campus and housing',
+      'stat-value-small',
+      [
+        'format_number' => true,
+        'unit' => '$'
+      ]
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Fees',
+      $facts[$current_school_year]['adm_fees'],
+      'Covering Health Insurance and Activity Fees',
+      'stat-value-small',
+      [
+        'format_number' => true,
+        'unit' => '$'
+      ]
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
 
 
-    <div class="col-item symbol-item symbol-div d-none d-lg-block">
-        <!-- ÷ -->
-    </div>
+<?php /* */ ?>
 
-    <div class="col-item stat-item item-faculty">
-        <div class="stat-item-fact">
-            <div class="tagline">Housing and Dining</div>
-            <div class="display-2">$15,710</div>
-        </div>
-        <div class="stat-item-additional">
-            <div class="stat-label text-primary">96% of Vassar students live on campus and housing</div>
-        </div>
-    </div>
 
-    <div class="col-item symbol-item symbol-equals d-none d-lg-block">
-        <!-- = -->
-    </div>
 
-    <div class="col-item stat-item item-ratio">
-        <div class="stat-item-fact">
-            <div class="tagline">Fees</div>
-            <div class="display-2">$930</div>
-            <div class="stat-label text-primary">Covering Health Insurance and Activity Fees</div>
-        </div>
-    </div>
-</div>
-
-<?php echo end_sec_wideContent(); ?>
 <?php echo sec_regularContent(
     null,
     'pt-0 text-center',

@@ -16,6 +16,27 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 
 include($project_paths['main_project_root'].'/core/review/slugify.inc');
 
+
+/* Facts */
+
+// These are values that might be used in several places
+// across the site, like tuition. They should be centralized.
+
+$current_school_year = '2021–2022';
+
+$facts[$current_school_year]['adm_tuition'] = 63840;
+$facts[$current_school_year]['adm_room_and_board'] = 16560;
+$facts[$current_school_year]['adm_fees'] = 960;
+
+$facts['adm_total_cost'] = $facts[$current_school_year]['adm_tuition'] + $facts[$current_school_year]['adm_room_and_board'] + $facts[$current_school_year]['adm_fees'];
+
+$facts['adm_total_cost'] = number_format($facts['adm_total_cost']);
+
+
+
+
+
+
 /* Template Parts */
 
 include($project_paths['main_project_root'].'/core/template-parts/header.inc');

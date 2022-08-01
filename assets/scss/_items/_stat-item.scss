@@ -20,12 +20,27 @@
   @include font-size(8rem);
   font-variation-settings: "wght" 200;
   line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   .stat-unit {
     font-size: 70%;
     color: #888;
   }
 }
+
+.stat-value-small {
+  .stat-value {
+    @include font-size(6rem);
+  }
+}
+.stat-value-xsmall {
+  .stat-value {
+    @include font-size(4rem);
+  }
+}
+
 
 // Homepage
 .fancy-stats-container {

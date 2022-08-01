@@ -10060,6 +10060,9 @@ details.open .dropdown__content {
   font-size: calc(1.925rem + 8.1vw);
   font-variation-settings: "wght" 200;
   line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media (min-width: 1200px) {
   .stat-value {
@@ -10069,6 +10072,24 @@ details.open .dropdown__content {
 .stat-value .stat-unit {
   font-size: 70%;
   color: #888;
+}
+
+.stat-value-small .stat-value {
+  font-size: calc(1.725rem + 5.7vw);
+}
+@media (min-width: 1200px) {
+  .stat-value-small .stat-value {
+    font-size: 6rem;
+  }
+}
+
+.stat-value-xsmall .stat-value {
+  font-size: calc(1.525rem + 3.3vw);
+}
+@media (min-width: 1200px) {
+  .stat-value-xsmall .stat-value {
+    font-size: 4rem;
+  }
 }
 
 .fancy-stats-container .stat-value {
