@@ -25,6 +25,12 @@ $page_info = json_decode($page_info, true);
 <?php echo hamburger_navigation(); ?>
 
 
+<style>
+.bg-image-left.section--top-level-masthead .section-bg:after {
+    background-position: left !important;
+}
+</style>
+
 <?php echo page_partialmasthead(
   $page_info['feature_image'],
   [
