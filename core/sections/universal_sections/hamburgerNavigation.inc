@@ -105,8 +105,13 @@ $template = <<<TMP
                </div>
                <div id="admission-quickfacts" class="accordion-collapse collapse" aria-labelledby="collapseOne" data-bs-parent="#admission-quickfacts">
                   <div class="accordion-body h3 text-left px-0">
+
                      <div class="mb-2"> <a class="text-white" href="/admission/quick-facts/academics">Academics</a></div>
+
                      <div class="mb-2"> <a class="text-white" href="/admission/quick-facts/community">Community</a></div>
+
+                     <div class="mb-2"> <a class="text-white" href="/admission/quick-facts/class-profile">Class Profile</a></div>
+
                   </div>
                </div>
 
