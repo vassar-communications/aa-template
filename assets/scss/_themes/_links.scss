@@ -31,10 +31,12 @@ a:not(
 p, li, details {
   a:not(
     .btn,
+    .breadcrumb-link,
+    .breadcrumb-item,
     .nav-link
   ) {
     color: var(--section-text-color, var(--color-vassar-charcoal));
-    border-bottom: 1px solid var(--section-text-color, var(--link-underline-color));
+    border-bottom: 1px solid var(--section-text-color, var(--color-vassar-charcoal));
 
     color: var(--main-bg-color, var(--backup-bg-color));
 
