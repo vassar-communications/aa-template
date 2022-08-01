@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
     'Tuition and Fees Overview',
     '3',
-    '<p>The total cost to attend Vassar is $'.$facts['adm_total_cost'].'</p>',
+    '<p>The total cost to attend Vassar is $'.$facts['adm_total_cost'].'.</p>',
     'mw-inner-4 theme-extralightgray',
     'gap-3'
 ); ?>
@@ -101,7 +101,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     null,
-    'pt-0 text-center',
+    'pt-0 text-center theme-extralightgray',
     '',
     ''
 ); ?>

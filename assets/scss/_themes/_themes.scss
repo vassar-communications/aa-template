@@ -1,5 +1,5 @@
 /* Basic links */
-
+/*
 p a,
 nav a,
 li a,
@@ -22,6 +22,24 @@ footer a  {
     color: var(--section-link-hover-color, #{$red});
   }
 }
+*/
+
+
+// these hover states. Something's got to be done about them.
+// I think the best solution for most of these is: if they
+// don't have an underline, add one. If they do, take it
+// away. If it's a button or nav, maybe something fancier is
+// in order.
+
+a {
+  color: var(--section-text-color, --color-vassar-charcoal);
+
+  &:hover,
+  &:focus {
+
+  }
+}
+
 
 
 a.btn-link {
