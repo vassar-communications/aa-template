@@ -86,13 +86,13 @@ $page_info = json_decode($page_info, true);
   'icon-on-left theme-white-border'
 ); ?>
 <p>Vassar does not require students to submit the SAT or ACT for the 2022–2023 admission cycle. Applicants can declare whether or not they wish to include testing with their application by logging in to the applicant status portal and completing the test optional form; the deadlines to do so are:</p>
+<ul>
+    <li>Early Decision I: <strong>November 22</strong></li>
+    <li>Spring Transfer: <strong>November 22</strong></li>
+    <li>Regular Decision and Early Decision II: <strong>January 10</strong></li>
+    <li>Fall Transfer: <strong>April 1</strong></li>
+</ul>
 
-<?php echo deadlines('Early Decision Application deadlines'); ?>
-  <?php echo deadlines_item('Early Decision I', 'November 22'); ?>
-  <?php echo deadlines_item('Spring Transfer', 'November 22'); ?>
-  <?php echo deadlines_item('Regular Decision and Early Decision II', 'January 10'); ?>
-  <?php echo deadlines_item('Fall Transfer', 'April 1'); ?>
-<?php echo end_deadlines(); ?>
 
 <p class="py-4">For students who wish to submit their scores: the latest acceptable test dates are November for Early Decision I applicants and December for Regular Decision and Early Decision II applicants. Vassar will accept self-reported SAT and ACT scores from applicants.
 

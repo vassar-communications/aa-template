@@ -58,8 +58,8 @@ $page_info = json_decode($page_info, true);
 
     <?php echo deadlines('Early Decision Application deadlines'); ?>
 
-    <?php echo deadlines_item('Early Decision Round 1', 'November 15'); ?>
-    <?php echo deadlines_item('Early Decision Round 2', 'January 1'); ?>
+    <?php echo deadlines_item('Early Decision I', 'November 15'); ?>
+    <?php echo deadlines_item('Early Decision II', 'January 1'); ?>
 
     <?php echo end_deadlines(); ?>
 
