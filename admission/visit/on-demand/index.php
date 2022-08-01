@@ -188,7 +188,7 @@ echo item_imageCard_videoModal(
 echo item_imageCard_videoModal(
     get_icon('play').'The Transitions Program',
     null,
-    'https://player.vimeo.com/video/484138020?badge=0',
+    'https://player.vimeo.com/video/484138020',
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/the-transitions-program.jpeg',
