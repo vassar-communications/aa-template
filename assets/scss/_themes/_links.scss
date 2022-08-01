@@ -34,12 +34,12 @@ p, li, details {
     .nav-link
   ) {
     color: var(--section-text-color, var(--color-vassar-charcoal));
-    border-bottom: 1px solid var(--section-text-color, var(--color-vassar-charcoal));
+    border-bottom: 1px solid var(--section-text-color, var(--link-underline-color));
 
     color: var(--main-bg-color, var(--backup-bg-color));
 
     &:visited {
-      border-bottom: 1px dashed var(--section-text-color, var(--color-vassar-charcoal));
+      border-bottom: 1px dashed var(--section-text-color, var(--link-underline-color));
     }
 
     &:link,

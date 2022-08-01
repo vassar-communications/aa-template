@@ -12645,7 +12645,7 @@ footer a  {
   --section-link-hover-color: var(--color-vassar-cream);
   --intro-line-color: var(--color-vassar-cream);
   --link-underline-color: rgba(255,255,255,0.2);
-  --link-underline-color: #000;
+  --link-underline-color: #fff;
   --link-hover-opacity: 0.6;
 }
 .theme-burgundy.quad-pattern {
@@ -12858,14 +12858,14 @@ p a:not(.btn,
 .nav-link), details a:not(.btn,
 .nav-link) {
   color: var(--section-text-color, var(--color-vassar-charcoal));
-  border-bottom: 1px solid var(--section-text-color, var(--color-vassar-charcoal));
+  border-bottom: 1px solid var(--section-text-color, var(--link-underline-color));
   color: var(--main-bg-color, var(--backup-bg-color));
 }
 p a:not(.btn,
 .nav-link):visited, li a:not(.btn,
 .nav-link):visited, details a:not(.btn,
 .nav-link):visited {
-  border-bottom: 1px dashed var(--section-text-color, var(--color-vassar-charcoal));
+  border-bottom: 1px dashed var(--section-text-color, var(--link-underline-color));
 }
 p a:not(.btn,
 .nav-link):link:hover, p a:not(.btn,
