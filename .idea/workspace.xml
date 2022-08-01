@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/visit/on-demand/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/on-demand/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_content-sections/_navigation-hamburger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_content-sections/_navigation-hamburger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_temp/_cytemp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_temp/_cytemp.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/items/imageCard_videoModal.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/items/imageCard_videoModal.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/items/modal-standardVideo.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/items/modal-standardVideo.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/template-parts/header.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/template-parts/header.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

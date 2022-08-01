@@ -270,7 +270,7 @@ echo sec_fixedCenteredTitle(
     echo item_imageCard_videoModal(
         get_icon('play').'Bridge for Laboratory Sciences',
         null,
-        'AqDKltbh7h4',
+        'https://www.youtube.com/embed/AqDKltbh7h4',
         'youtube',
         '',
         ['url' => '/admission/assets/images/admission-home/fav-places/110619_160over90_Vassar_5483.jpg',
@@ -288,7 +288,7 @@ echo sec_fixedCenteredTitle(
     echo item_imageCard_videoModal(
         get_icon('vr-cardboard').'Shakespeare Garden',
         null,
-        'pfJIwU-Kifg',
+        'https://www.youtube.com/embed/pfJIwU-Kifg',
         'youtube',
         '',
         ['url' => '/admission/assets/images/admission-home/fav-places/0056-21-06-kr-campus-vassar-0006-copy.jpg',
@@ -310,7 +310,7 @@ echo sec_fixedCenteredTitle(
     echo item_imageCard_videoModal(
         get_icon('vr-cardboard').'Thompson Memorial Library',
         null,
-        'lQ0Jb9u6zTY',
+        'https://www.youtube.com/embed/lQ0Jb9u6zTY',
         'youtube',
         '',
         ['url' => '/admission/assets/images/admission-home/fav-places/0212-18-10-kr-library-fall-vassar-3819.jpg',
@@ -327,7 +327,7 @@ echo sec_fixedCenteredTitle(
     echo item_imageCard_videoModal(
         get_icon('play').'Gordon Commons',
         null,
-        'l9N-gTmvMgo',
+        'https://www.youtube.com/embed/l9N-gTmvMgo',
         'youtube',
         '',
         ['url' => '/admission/assets/images/admission-home/fav-places/0195-19-11-kwe-gordon-vassar-1644.jpg',
@@ -349,7 +349,7 @@ echo sec_fixedCenteredTitle(
     echo item_imageCard_videoModal(
         get_icon('vr-cardboard').'The Ecological Preserve',
         null,
-        'Wjxz5QMAw3c',
+        'https://www.youtube.com/embed/Wjxz5QMAw3c',
         'youtube',
         '',
         ['url' => '/admission/assets/images/admission-home/fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg',
@@ -417,9 +417,9 @@ All Vassar students are surrounded by an environment designed to spark something
     echo item_imageCard_videoModal(
         get_icon('play').'Art Studios',
         null,
-        '',
-        'custom',
         '/admission/assets/videos/art-studios.mp4',
+        'custom',
+        '',
         ['url' => '/admission/assets/images/admission-home/art-studio.jpg',
             'alt' => 'An art studio with easels, paints, stools and carts with art materials'
         ],
@@ -432,7 +432,7 @@ All Vassar students are surrounded by an environment designed to spark something
     echo item_imageCard_videoModal(
         get_icon('play').'Car Camera Rigging',
         null,
-        '',
+        '/admission/assets/videos/camera-rigging.mp4',
         'custom',
         '/admission/assets/videos/camera-rigging.mp4',
         ['url' => '/admission/assets/images/admission-home/camera-rigging.jpg',
@@ -452,7 +452,7 @@ All Vassar students are surrounded by an environment designed to spark something
     echo item_imageCard_videoModal(
         get_icon('play').'Day in the Life',
         null,
-        '',
+        '/admission/assets/videos/day-in-life.mp4',
         'custom',
         '/admission/assets/videos/day-in-life.mp4',
         ['url' => '/admission/assets/images/admission-home/video/day-1.jpg',
@@ -468,7 +468,7 @@ All Vassar students are surrounded by an environment designed to spark something
     echo item_imageCard_videoModal(
         get_icon('play').'Dorm Tour: Noyes',
         null,
-        '',
+        '/admission/assets/videos/dorm-a.mp4',
         'custom',
         '/admission/assets/videos/dorm-a.mp4',
         ['url' => '/admission/assets/images/admission-home/video/dorm-a-1.jpg',
@@ -483,7 +483,7 @@ All Vassar students are surrounded by an environment designed to spark something
     echo item_imageCard_videoModal(
         get_icon('play').'Dorm Tour: Town Houses',
         null,
-        '',
+        '/admission/assets/videos/dorm-b.mp4',
         'custom',
         '/admission/assets/videos/dorm-b.mp4',
         ['url' => '/admission/assets/images/admission-home/video/dorm-b.jpg',

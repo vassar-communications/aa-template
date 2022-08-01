@@ -81,7 +81,6 @@ $comment
 
   <script src="{$project_paths['public_path']}/assets/js/libraries/flickity.js"></script>
   <script src="{$project_paths['public_path']}/assets/js/libraries/flickity-fade.js"></script>
-  <script src="{$project_paths['public_path']}/assets/js/libraries/modal-video.js"></script>
 
 
   <link rel="stylesheet" href="{$project_paths['public_path']}/assets/icons/fontawesome-free-6.1.1-web/css/all.min.css">

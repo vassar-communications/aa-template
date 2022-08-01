@@ -13561,6 +13561,22 @@ ul.style-checklist a:hover {
 }
 
 /*for the footer links for now */
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+
+.btn-close {
+  position: absolute;
+  right: -60px;
+  top: 0;
+}
+
 .btn-check:focus + .btn-light, .btn-light:focus {
   border-color: #0004ff;
 }
