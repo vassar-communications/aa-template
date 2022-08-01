@@ -4,7 +4,7 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
+/*  PAGE INFO === */
 
 $page_title = "Give Back";
 $page_classes = "academics-cy academics give";
@@ -60,10 +60,8 @@ $page_classes = "academics-cy academics give";
 
 <?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-give-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+
+<?php echo interior_page_nav() ?>
 
 
 

@@ -1,7 +1,7 @@
 
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
-include_once($project_paths['main_project_root'].'/functions.php');
+include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
@@ -9,7 +9,7 @@ include_once($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title":"Travel Program",
-  "page_classes":"alive",
+  "page_classes":"",
   "feature_image":"/assets/images/placeholder-banner.png"
 }';
 
@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/calendar/calendar-on-demand.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/calendar/calendar-college-events.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/calendar/calendar.php');?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 

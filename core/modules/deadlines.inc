@@ -6,7 +6,7 @@ Add option for icon next to title
 
 function deadlines($title, $icon=null, $description='', $classes=null) {
 
-  if($description !== '')
+  if($description != false)
     $description = '<p class="card-subtitle">'.$description.'</p>';
 
     return <<<TMP

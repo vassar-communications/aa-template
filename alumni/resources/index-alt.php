@@ -4,7 +4,7 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
+/*  PAGE INFO === */
 
 $page_title = "Alumni Resources";
 $page_classes = "";
@@ -42,10 +42,8 @@ $page_classes = "";
 
 <?php echo breadcrumbNav('theme-cream'); ?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-resources-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+
+
 
 
 

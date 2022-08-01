@@ -27,13 +27,14 @@ $page_info = json_decode($page_info, true);
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => $page_info['feature_image'],
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'two students making peace signs',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
       --bs-gap: 1rem;
       ']
 ); ?>
+
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
 <?php // echo page_partialmasthead($page_info['feature_image']); ?>
@@ -42,11 +43,14 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo masthead_interiorPage(
-    'Our team is here to help you.',
+    'Our Team is Here to Help You.',
     '',
-    $admission_img_path.'connect/0214-19-09-bl-green-fest-vassar-2721.jpg');
+    $admission_img_path.'connect/0214-19-09-bl-green-fest-vassar-2721.jpg',
+    null,
+    null,
+    ['img_alt_text' => '3 smiling students holding potted plants']
+);
 ?>
-
 
 
 <?php echo sec_regularContent(
@@ -67,8 +71,8 @@ $page_info = json_decode($page_info, true);
     USA
 </p>
 <p>
-    Telephone: (845) 437-7300 or (800) 827-7270<br>
-    Fax: (845) 437-7063<br>
+    Telephone: <a href="tel:1-845-437-7300">(845) 437-7300</a> or <a href="tel:1-800-827-7270">(800) 827-7270</a><br>
+    Fax: <a href="fax:1-845-437-7063">(845) 437-7063</a><br>
     Email: <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>
 </p>
     </div>
@@ -125,7 +129,7 @@ $page_info = json_decode($page_info, true);
 <div class="staff-contact mb-5">
     <h3>Kim Lord ’06</h3>
     <p><em>Senior Associate Director of Admission</em></p>
-    <p><strong>Regional Responsibilities:</strong> Massachusetts (Eastern)<br/><strong>International Responsibilities: Europe, India</strong></p>
+    <p><strong>Regional Responsibilities:</strong> Massachusetts (Eastern)<br/><strong>International Responsibilities:</strong> Europe, India</p>
     <a class="fixemaillink" href="mailto:klord@vassar.edu">Email: klord@vassar.edu</a>
 </div>
 

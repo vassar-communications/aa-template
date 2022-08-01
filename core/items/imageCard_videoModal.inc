@@ -26,17 +26,17 @@ function item_imageCard_VideoModal(
     $card_image_alt = $card_image_info['alt'];
 
     return <<<TMP
-    
-<button type="button" class="card card-full-image js-video-btn $classes"  data-video-id="$videourl" data-video-url="$mp4url" data-channel="$channel">
+
+<button type="button" class="card card-full-image video-btn js-video-btn $classes"   data-bs-toggle="modal"  data-src="$videourl" data-video-url="$mp4url" data-channel="$channel" data-bs-target="#videoModal">
   <img src="$card_image_url" class="card-img" alt="$card_image_alt">
   <div class="card-img-overlay">
     <div class="card-img-content">
-      {$card_title($title, $extras)}
-      <p class="card-text">$text</p>
+    <p class="card-button-title">$title</p>
+<!--      {$card_title($title, $extras)} -->
+<!--      <p class="card-text">$text</p> -->
     </div>
   </div>
 </button>
 
 TMP;
 }
-

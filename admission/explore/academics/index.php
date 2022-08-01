@@ -53,7 +53,11 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Learning is Innovation',
     'Vassar’s open curriculum allows you the freedom and flexibility to pursue your passions while discovering new interests. With no core classes or distribution requirements, you can choose to take the courses that most interest you and know that your classmates are fully engaged.',
-    $admission_img_path.'explore/0084-19-05-ja-kumar-class-vassar-253.jpg');
+    $admission_img_path.'explore/0084-19-05-ja-kumar-class-vassar-253.jpg',
+    null,
+    null,
+    ['img_alt_text' => 'A professor stands among students during a class']
+);
 ?>
 
 
@@ -61,7 +65,8 @@ $page_info = json_decode($page_info, true);
     'Intensives',
     $admission_img_path.'explore/academics/110619_160over90_Vassar_7630.jpg',
     'image-is-first theme-charcoal bg-dark quad-pattern has-bg',
-    ''
+    '',
+    ['img_alt_text' => 'Two people walking under the arched entrance to the Vassar Chapel']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="tagline">Dig Deep to Explore Your Interests</p>
@@ -76,7 +81,8 @@ $page_info = json_decode($page_info, true);
     'Research',
     $admission_img_path.'explore/academics/082-21-07-kr-caad-vassar-0065.jpg',
     'theme-burgundy',
-    ''
+    '',
+    ['img_alt_text' => 'People in a classroom, two people in the foreground at the laptop, and two people in the background in conversation']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="tagline">Develop Knowledge First-Hand</p>
@@ -98,7 +104,8 @@ $page_info = json_decode($page_info, true);
     'Community-Engaged Learning',
     $admission_img_path.'explore/academics/cel/0056_14_07_BL_7266.jpg',
     'image-is-first theme-extralightgray',
-    ''
+    '',
+    ['img_alt_text' => 'A student helping a child with their homework']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="tagline">Gain Professional Experience While Investing In Our Community</p>
@@ -116,7 +123,8 @@ $page_info = json_decode($page_info, true);
     'Study Abroad',
     $admission_img_path.'explore/academics/lockhart-anna-peru-abroad-1809-alo-8.jpg',
     'theme-charcoal bg-dark',
-    ''
+    '',
+    ['img_alt_text' => 'A student talking down a rope and cloth bridge in Peru']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="tagline">Broaden Your Horizons</p>
@@ -137,10 +145,10 @@ $page_info = json_decode($page_info, true);
     'theme-cream pb-1 hidemark',
     'mw-3 pb-5'
 ); ?>
-<?php echo item_dropdown('51 Majors', 'dropdown--feature bg-white shadow-sm mb-3'); ?>
+<?php echo item_dropdown( $facts['number_of_majors'].' Majors', 'dropdown--feature bg-white shadow-sm mb-3' ); ?>
 <div class="row has-dividers">
     <div class="col-sm">
-        <ul>
+        <ul class="linked-list no-first-border">
             <li><a href="https://africanastudies.vassar.edu/">Africana Studies&nbsp</a></li>
             <li><a href="https://americanstudies.vassar.edu/">American Studies</a></li>
             <li><a href="https://anthropology.vassar.edu/">Anthropology</a></li>
@@ -162,14 +170,14 @@ $page_info = json_decode($page_info, true);
         </ul>
     </div>
     <div class="col-sm">
-        <ul>
+        <ul class="linked-list no-first-border">
             <li><a href="https://education.vassar.edu/">Educational Studies</a></li>
             <li><a href="https://english.vassar.edu/">English</a></li>
             <li><a href="https://environmentalstudies.vassar.edu/">Environmental Studies</a></li>
             <li><a href="https://film.vassar.edu/">Film</a></li>
             <li><a href="https://french.vassar.edu/">French &amp; Francophone Studies</a></li>
             <li><a href="https://earthscienceandgeography.vassar.edu/geography/">Geography</a></li>
-
+            <li><a href="https://www.vassar.edu/earthscienceandgeography/geography/geography-anthropology/">Geography-Anthropology</a></li>
             <li><a href="https://german.vassar.edu/">German Studies</a></li>
             <li><a href="https://www.vassar.edu/global-nineteenth-century-studies/">Global Nineteenth-Century Studies</a></li>
 
@@ -187,7 +195,7 @@ $page_info = json_decode($page_info, true);
 
     </div>
     <div class="col-sm">
-        <ul>
+        <ul class="linked-list no-first-border">
             <li><a href="https://math.vassar.edu/">Mathematics</a></li>
             <li><a href="https://mediastudies.vassar.edu/">Media Studies</a></li>
             <li><a href="https://medievalandrenaissancestudies.vassar.edu/">Medieval &amp; Renaissance Studies</a></li>
@@ -208,7 +216,7 @@ $page_info = json_decode($page_info, true);
 </div>
 <?php echo end_item_dropdown(); ?>
 
-<?php echo item_dropdown('40 Correlates (Minors)', 'dropdown--feature bg-white shadow-sm mb-3'); ?>
+<?php echo item_dropdown('63 Correlates (Minors)', 'dropdown--feature bg-white shadow-sm mb-3'); ?>
 <div class="row has-dividers">
     <div class="col-sm">
         <dl>
@@ -262,9 +270,18 @@ $page_info = json_decode($page_info, true);
             <dd>
                 Computer Science
             </dd>
+            <dt><a href="https://computerscience.vassar.edu/">Dance</a></dt>
+            <dd>
+                Dance Performance<br>
+                Dance Studies
+            </dd>
             <dt><a href="https://earthscienceandgeography.vassar.edu/earth-science/">Earth Science</a></dt>
             <dd>
                 Earth Science
+            </dd>
+            <dt><a href="https://www.vassar.edu/earthscienceandgeography/earth-science/earth-science-society/">Earth Science and Society</a></dt>
+            <dd>
+                Climate Change
             </dd>
             <dt><a href="https://economics.vassar.edu/">Economics</a></dt>
             <dd>
@@ -289,9 +306,9 @@ $page_info = json_decode($page_info, true);
                 British and American Literary History<br>
                 Creative Writing and Literary Forms
             </dd>
-            <dt><a href="https://environmentalstudies.vassar.edu/">Environmental Studies</a></dt>
+            <dt><a href="https://environmentalstudies.vassar.edu/">Environmental Studies Program</a></dt>
             <dd>
-                Sustainability
+                Climate Change
             </dd>
             <dt><a href="https://film.vassar.edu/">Film</a></dt>
             <dd>
@@ -326,7 +343,7 @@ $page_info = json_decode($page_info, true);
             <dd>
                 History
             </dd>
-            <dt><a href="https://www.vassar.edu/internationalstudies/">International Studies</a></dt>
+            <dt><a href="https://www.vassar.edu/internationalstudies/">International Studies Program</a></dt>
             <dd>
                 Migration and Displacement Studies
             </dd>
@@ -342,9 +359,9 @@ $page_info = json_decode($page_info, true);
             <dd>
                 Jewish Studies
             </dd>
-            <dt><a href="https://latinamericanstudies.vassar.edu/">Latin American &amp; Latino/a Studies</a></dt>
+            <dt><a href="https://latinamericanstudies.vassar.edu/">Latin American &amp; Latinx Studies</a></dt>
             <dd>
-                Latin American &amp; Latino/a Studies
+            Latin American &amp; Latinx Studies
             </dd>
         </dl>
     </div>
@@ -368,7 +385,6 @@ $page_info = json_decode($page_info, true);
             </dd>
             <dt><a href="https://philosophy.vassar.edu/">Philosophy</a></dt>
             <dd>
-                Aesthetics and Philosophy of Ar<br>
                 Analytic Philosophy<br>
                 Comparative Philosophy<br>
                 Continental Philosophy<br>
@@ -416,7 +432,7 @@ $page_info = json_decode($page_info, true);
 <div class="row has-dividers">
     <div class="col-sm">
         <h3>Vassar/Columbia BA/MPH</h3>
-        <p>The BA/MPH is a dual degree program in which a student earns a BA from Vassar then goes on to an accelerated Masters program in Public Health at Columbia University Mailman School of Public Health.</p>
+        <p>The BA/MPH is a dual degree program in which a student earns a BA from Vassar and then goes on to an accelerated Masters program in Public Health at Columbia University Mailman School of Public Health.</p>
 
         <?php echo cta_link(
           'https://www.vassar.edu/academics/accelerated-and-dual-degree-programs',

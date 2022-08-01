@@ -97,3 +97,22 @@
   opacity: 1;
   filter: blur(0) brightness(1) contrast(1);
 }
+
+
+
+
+
+@media (max-aspect-ratio: 1/1) {
+  .masthead-video-background .section-title-container {
+      height: var(--full-masthead-height-video) !important;
+  }
+
+  .masthead-video-background .section-bg-image-container {
+      height: var(--full-masthead-height-video) !important;
+  }
+
+  .masthead-video-background {
+      height: var(--full-masthead-height-video) !important;
+      margin-top: 5rem !important;
+  }
+}

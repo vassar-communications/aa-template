@@ -1,12 +1,22 @@
 
+@media (max-aspect-ratio: 1/1) {
+//  html {
+//    border-top: 5.6rem solid #000;
+//  }
+  .section-bg-image {
+    margin-top: 5rem;
+  }
+}
+
+
 .fix, .fix  a, a.fix {
-  color: #61ff00 !important;
+  color: #29e07e !important;
   font-weight: 700;
   font-style: italic;
 }
 
 .placeholder {
-  color: mediumpurple!important;
+  color: #772cff !important;
 }
 
 .g-col.column.equal {
@@ -19,13 +29,22 @@
 }
 
 
-
 /* Video Masthead Classes */
 
+:root {
+    --full-masthead-height-video: 56.25vw;
+    --full-masthead-height-image: 50vh;
+
+  @media (min-aspect-ratio: 1/1) {
+    --full-masthead-height-video: 100vh;
+    --full-masthead-height-image: 100vh;
+  }
+}
+
 .masthead-video-background {
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
+//  overflow: hidden;
+//  width: 100vw;
+//  height: 100vh;
 }
 .masthead-video-background iframe {
   position: absolute;
@@ -33,6 +52,8 @@
   left: 50%;
   width: 100vw;
   height: 100vh;
+  height: var(--full-masthead-height-video);
+
   transform: translate(-50%, -50%);
 }
 @media (min-aspect-ratio: 16/9) {
@@ -47,6 +68,25 @@
     width: 177.78vh;
   }
 }
+
+:root {
+//  --full-masthead-height-video: 80vw;
+}
+
+.sec-fixedCenteredTitleMasthead {
+   .section-title-container,
+   .section-bg-image-container {
+//  height: var(--full-masthead-height-video);
+    height: var(--full-masthead-height-image);
+  }
+}
+
+.masthead-video-background {
+  overflow: hidden;
+  width: 100vw;
+  height: var(--full-masthead-height-video);
+}
+
 
 
 /* Admission News Carousel */
@@ -146,21 +186,17 @@
 }
 
 
- p a,
+// p a,
  ul.style-checklist a {
    text-decoration: none;
    border-bottom: 1px solid var(--link-underline-color, $gray-600);
 
  }
 
-p a:hover,
+// p a:hover,
 ul.style-checklist a:hover {
   border-bottom: none;
   opacity: var(--link-hover-opacity, 1);
-}
-
-.linked-list a:hover {
-  background: $gray-200;
 }
 
 
@@ -329,4 +365,46 @@ ul.style-checklist a:hover {
 
 .bg-transparent {
   background: transparent!important;
+}
+
+/*for the footer links for now */
+
+// .footer a:hover {
+  // color: #fff!important;
+// }
+
+
+
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+
+
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.btn-close {
+  position:absolute;
+  right:15px;
+  top:-65px;
+}
+
+
+#videoModal .modal-dialog {
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#videoModal .modal-content {
+  background: #000;
+}
+
+
+a.logo:hover {
+  border-bottom: none!important;
 }

@@ -7,7 +7,11 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-$page_info = '{"page_title":"Tuition & Fees","page_classes":"","feature_image":"/admission/assets/images/financial-aid/tuition/Vassar_Reception_20210601_KR_0173.jpg"}';
+$page_info = '{
+  "page_title":"Tuition & Fees",
+  "page_classes":"",
+  "feature_image":"/admission/assets/images/financial-aid/tuition/Vassar_Reception_20210601_KR_0173.jpg"
+}';
 /* === */
 $page_info = json_decode($page_info, true);
 
@@ -19,7 +23,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'A building, hanging flowers, and trees on Vassar Campus']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -40,57 +44,64 @@ $page_info = json_decode($page_info, true);
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php echo sec_wideContent(
+
+<?php echo sec_hasColumns(
     'Tuition and Fees Overview',
-    '<p>The total cost to attend Vassar is $78,580</p>',
-    'pb-0',
-    'mw-4 '
+    '3',
+    '<p>The total cost to attend Vassar is $'.$facts['adm_total_cost'].'.</p>',
+    'mw-inner-4 theme-extralightgray',
+    'gap-3'
 ); ?>
 
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Tuition',
+      $facts[$current_school_year]['adm_tuition'],
+      'For the ' . $current_school_year . ' school year',
+      'stat-value-small',
+      [
+        'format_number' => true,
+        'unit' => '$'
+      ]
+    ); ?>
+  <?php echo end_item_col(); ?>
 
-<div class="fancy-stats-container flex-column flex-lg-row animate-when-content-appears my-5">
-    <div class="col-item  stat-item item-students">
-        <div class="stat-item-fact">
-            <div class="tagline">Tuition</div>
-            <div class="display-2">$61,940</div>
-        </div>
-        <div class="stat-item-additional">
-            <div class="stat-label text-primary">For the 2021–2022 school year</div>
-        </div>
-    </div>
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Housing and Dining',
+      $facts[$current_school_year]['adm_room_and_board'],
+      '96% of Vassar students live on campus and housing',
+      'stat-value-small',
+      [
+        'format_number' => true,
+        'unit' => '$'
+      ]
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Fees',
+      $facts[$current_school_year]['adm_fees'],
+      'Covering Health Insurance and Activity Fees',
+      'stat-value-small',
+      [
+        'format_number' => true,
+        'unit' => '$'
+      ]
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
 
 
-    <div class="col-item symbol-item symbol-div d-none d-lg-block">
-        <!-- ÷ -->
-    </div>
+<?php /* */ ?>
 
-    <div class="col-item stat-item item-faculty">
-        <div class="stat-item-fact">
-            <div class="tagline">Housing and Dining</div>
-            <div class="display-2">$15,710</div>
-        </div>
-        <div class="stat-item-additional">
-            <div class="stat-label text-primary">96% of Vassar students live on campus and housing</div>
-        </div>
-    </div>
 
-    <div class="col-item symbol-item symbol-equals d-none d-lg-block">
-        <!-- = -->
-    </div>
 
-    <div class="col-item stat-item item-ratio">
-        <div class="stat-item-fact">
-            <div class="tagline">Fees</div>
-            <div class="display-2">$930<span class="delimiter-colon">:</span>1</div>
-            <div class="stat-label text-primary">Covering Health Insurance and Activity Fees</div>
-        </div>
-    </div>
-</div>
-
-<?php echo end_sec_wideContent(); ?>
 <?php echo sec_regularContent(
     null,
-    'pt-0 text-center',
+    'pt-0 text-center theme-extralightgray',
     '',
     ''
 ); ?>
@@ -110,8 +121,8 @@ $page_info = json_decode($page_info, true);
     'Room and Board',
     $admission_img_path.'financial-aid/tuition/Cushing-Dorm_Room_Series_Seven_12_HW_6.jpg',
     'image-is-first theme-charcoal',
-    ''
-); ?>
+    '',
+    ['img_alt_text' => 'Student on the floor of their dorm room reading a book']); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Students living on campus are required to participate in a <a href="http://vassar.cafebonappetit.com">college board plan</a> (also known as the meal plan). For more information about housing, visit the <a  href="https://offices.vassar.edu/residential-life/">Office of Residential Life</a>.</p>
 
@@ -127,13 +138,14 @@ $page_info = json_decode($page_info, true);
     'Student Activity Fee',
     $admission_img_path.'financial-aid/tuition/0024-18-03-kr-wvkr-vassar-3474.jpg',
     'theme-burgundy has-bg quad-pattern',
-    ''
+    '',
+    ['img_alt_text' => 'Student on air in front of  the microphone at Vassar’s radio station WVKR']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Payment of this fee is required of all matriculated students. Student activity fees comprise the budget of the Vassar Student Association (student government) and provide funding for more than 100 student organizations and campus events.</p>
 
     <?php echo cta_link(
-      '/admission/financial-aid/apply/',
+      'http://vsa.vassar.edu/',
       'Explore Student Orgs'
     ); ?>
 
@@ -146,13 +158,14 @@ $page_info = json_decode($page_info, true);
     'Student Health Insurance',
     $admission_img_path.'financial-aid/tuition/0105_14_11_TT_2826.jpg',
     'image-is-first theme-extralightgray',
-    ''
+    '',
+    ['img_alt_text' => 'Student riding away on a bicycle on Vassar Campus with Fall foliage']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>All students are required to have health insurance coverage.</p>
 
     <?php echo cta_link(
-      'https://www.vassar.edu/social-media/student-orgs',
+      'https://offices.vassar.edu/student-financial-services/',
       'Visit Student Financial Services'
     ); ?>
 

@@ -83,28 +83,28 @@ $page_info = [
 <div class="grid cols-4 animation-group animation-zoom-in animate-when-content-appears" style="--bs-gap: 1rem">
 
     <?php echo item_iconButton(
-        'image',
-        'nine a capella singing groups',
+        'microphone-lines',
+        'nine <i>a capella</i> singing groups',
         null,
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
-        'image',
+        'fire',
         'the Barefoot Fireflies fire-juggling club',
         null,
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
-        'image',
+        'users',
         'hundreds of student organizations',
         null,
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
-        'image',
+        'calendar-days',
         'thousands of campus-wide events',
         null,
         'btn-card animation-item'
@@ -123,40 +123,49 @@ $page_info = [
 
   <?php echo carousel(); ?>
 
-    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/0055_15_04_KR_0204.jpg'); ?>
-      <p>Cushing House</p>
+  <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/0055_15_04_KR_0204.jpg', null, 'A photo of a group of people walking out of and around Cushing House'); ?>
+      <h3>Cushing House</h3>
+      <p>Known for its homey atmosphere and welcoming community, Cushing features the Great Hall—a large open space used for studying and relaxing.</p>
     <?php echo end_carousel_item(); ?>
 
-    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Davison_spring_1104_TT_9233.jpg'); ?>
-      <p>Davison House</p>
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Davison_spring_1104_TT_9233.jpg', null, 'A photo from the center of the residential quad lawn facing a residence house'); ?>
+      <h3>Davison House</h3>
+      <p>Davison House is one of four Elizabethan-style houses of the residential quadrangle.</p>
     <?php echo end_carousel_item(); ?>
 
-    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Jewett_fall_1010_TT_8514.jpg'); ?>
-      <p>Jewett House</p>
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Jewett_fall_1010_TT_8514.jpg', null, 'A photo of the exterior of Jewett House facing the front entrance'); ?>
+      <h3>Milo Jewett House</h3>
+      <p>As the tenth tallest building in Poughkeepsie, the tower of Jewett House provides the best views of campus.</p>
     <?php echo end_carousel_item(); ?>
 
-    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Josselyn_House_spring_1104_TT_9256.jpg'); ?>
-      <p>Josselyn House</p>
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Josselyn_House_spring_1104_TT_9256.jpg', null, 'A photo of the exterior of Josselyn House facing the front entrance'); ?>
+      <h3>Olivia Josselyn House</h3>
+      <p>The second largest residence hall after Main Building, Josselyn House—or “Joss” as it’s commonly known—is closest to Arlington shops and restaurants adjacent to the campus.</p>
     <?php echo end_carousel_item(); ?>
 
-    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Lathrop_spring_06_TT_03.jpg'); ?>
-      <p>Lathrop House</p>
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Lathrop_spring_06_TT_03.jpg', null, 'A photo of the exterior of Strong House facing the front entrance'); ?>
+      <h3>Lathrop House</h3>
+      <p>Lathrop was famous for waging marshmallow wars on neighboring Raymond. Recently, the house fellows brokered a permanent and lasting peace over baked s’mores.</p>
     <?php echo end_carousel_item(); ?>
 
-    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/0036-20-08-kr-campus-vassar-0053.jpg'); ?>
-      <p>Main Building</p>
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/0036-20-08-kr-campus-vassar-0053.jpg', null, 'Main House'); ?>
+      <h3>Main House</h3>
+        <p>The first two floors are used for administrative offices while the upper floors constitute Main House and provide accommodations for 351 students.</p>
     <?php echo end_carousel_item(); ?>
 
-    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Noyes_spring_TT_50.jpg'); ?>
-      <p>Noyes House</p>
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Strong_summer_06_MLB_02.jpg', null, 'Strong House'); ?>
+      <h3>Strong House</h3>
+      <p>While Strong House has been labeled as all-women’s housing, it actively welcomes and celebrates our trans*, nonbinary, questioning, agender, and other gender-nonconforming residents and community members.</p>
     <?php echo end_carousel_item(); ?>
 
-    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Campus_Landscape_06_BMR_5.jpg'); ?>
-      <p>Raymond House</p>
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Noyes_spring_TT_50.jpg', null, 'A photo of the exterior of Noyes House facing the front entrance'); ?>
+      <h3>Emma Hartman Noyes House</h3>
+      <p>Noyes represents a distinctly modernist departure from the Victorian and Edwardian styles of the other residence halls.</p>
     <?php echo end_carousel_item(); ?>
 
-    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Strong_summer_06_MLB_02.jpg'); ?>
-      <p>Strong House</p>
+    <?php echo carousel_item('/admission/assets/images/explore/student-life/res-life-gallery/Campus_Landscape_06_BMR_5.jpg', null, 'Raymond House'); ?>
+      <h3>Raymond House</h3>
+      <p>One thing Raymond is famous for, aside from the marshmallow wars with Lathrop, is its annual Halloween haunted house.</p>
     <?php echo end_carousel_item(); ?>
 
   <?php echo end_carousel(); ?>

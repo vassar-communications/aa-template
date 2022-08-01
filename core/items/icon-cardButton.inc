@@ -19,7 +19,7 @@ function item_iconButton(
 <div class="icon-card $classes">
   <i class="fa fa-$icon the-icon"></i>
 
-  $label
+  <div class="icon-content">$label</div>
 </div>
 
 

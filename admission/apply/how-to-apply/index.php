@@ -30,11 +30,12 @@ $page_info = json_decode($page_info, true);
     'Applying to Vassar',
     $admission_img_path.'apply/how-to-apply/110519_160over90_Vassar_0221.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Two people at a table in conversation']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 
-<p class="intro-text placeholder">Everything you need to know to apply. An overview of all the ways to apply to Vassar.</p>
+<p class="intro-text">Whether you’re a first year or transfer applicant, find everything you need to know here about how to apply and what we look for in an applicant.</p>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -86,12 +87,12 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
   <p>Electronic submission is preferred. Application materials may also be submitted via email, fax, or mail.</p>
-  <p>Supplemental materials, can be uploaded through the application status portal, which is available after an application has been submitted and processed.</p>
+  <p>Supplemental materials can be uploaded through the application status portal, which is available after an application has been submitted and processed.</p>
   <p><strong>To submit documents:</strong><br/>
       Email: <a href="mailto:admappmaterials@vassar.edu">admappmaterials@vassar.edu</a><br/>
 
       Fax: <?php echo phone_number('845-437-7063'); ?></p>
-  <p>Financial Aid documents should be submitted to <a href="https://offices.vassar.edu/student-financial-services/">Student Financial Services</a> through IDOC.</p>
+  <p>Financial Aid documents should be submitted to <a href="https://offices.vassar.edu/student-financial-services/">Student Financial Services</a> through Institutional Documentation Service (IDOC).</p>
 <?php echo end_sec_regularContent(); ?>
 
 
@@ -124,7 +125,7 @@ $page_info = json_decode($page_info, true);
     'info'
   );
   ?>
-    <p>Students applying to Vassar during the 2020–21, 2021–22, and 2022–23 admission cycles may choose whether or not to submit SAT/ACT scores.</p>
+    <p>Students applying to Vassar during the 2022–23 admission cycle may choose whether or not to submit SAT/ACT scores.</p>
   <?php echo end_info_card(); ?>
 
 <?php echo end_sec_regularContent(); ?>

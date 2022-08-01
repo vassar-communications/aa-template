@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-    <p>We celebrate our differences and our connections</p>
+    <p>We celebrate our differences and our connections.</p>
 
 <?php echo end_item_cardWithText(
     null,

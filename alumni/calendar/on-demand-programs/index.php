@@ -5,12 +5,18 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "On-Demand Programs";
-$page_classes = "";
 
-/*  ---------------------- */
+
+$page_info = '{
+  "page_title":"On-Demand Programs",
+  "page_classes":"",
+  "feature_image":"/assets/images/placeholder-banner.png"
+}';
+
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -20,17 +26,9 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
 
-
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-calendar-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-calendar-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo interior_page_nav() ?>
 
 <?php /*  PAGE CONTENT === */ ?>
 
@@ -333,9 +331,12 @@ $page_classes = "";
 
 <?php echo relatedTopics(); ?>
 
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-calendar-events.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-calendar-college-events.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-calendar-alumni-news.php');?>
+
+
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/calendar/calendar.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/calendar/calendar-college-events.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-alumni-news.php');?>
+
 
 <?php echo end_sec_relatedTopics(); ?>
 

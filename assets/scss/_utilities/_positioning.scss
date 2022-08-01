@@ -2,3 +2,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/* hey there! */
+
+// for buttons and elements that would normally be inline
+.center-object {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}

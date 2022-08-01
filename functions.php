@@ -12,9 +12,31 @@ $placeholder_img_wide = '/assets/images/placeholders/placeholder-wide.jpg';
 $admission_img_path = '/admission/assets/images/';
 $quickfacts_img_path = $admission_img_path.'quick-facts/';
 */
-include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 
 include($project_paths['main_project_root'].'/core/review/slugify.inc');
+
+
+/* Facts */
+
+// These are values that might be used in several places
+// across the site, like tuition. They should be centralized.
+
+$current_school_year = '2022–2023';
+
+$facts[$current_school_year]['adm_tuition'] = 63840;
+$facts[$current_school_year]['adm_room_and_board'] = 16560;
+$facts[$current_school_year]['adm_fees'] = 960;
+
+$facts['adm_total_cost'] = $facts[$current_school_year]['adm_tuition'] + $facts[$current_school_year]['adm_room_and_board'] + $facts[$current_school_year]['adm_fees'];
+
+$facts['adm_total_cost'] = number_format($facts['adm_total_cost']);
+
+$facts['number_of_majors'] = '50';
+
+
+
+
 
 /* Template Parts */
 
@@ -24,6 +46,7 @@ include($project_paths['main_project_root'].'/core/template-parts/local-nav.inc'
 include($project_paths['main_project_root'].'/core/template-parts/tmpfooteralumni.inc');
 
 include($project_paths['main_project_root'].'/core/template-parts/admission-topLevelNav.inc');
+include($project_paths['main_project_root'].'/core/template-parts/alums-topLevelNav.inc');
 
 /* Partials */
 
@@ -91,7 +114,7 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/wid
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle-masthead.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle-masthead_vid.inc');
-include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-admission-home-news.inc');
+
 include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-alumni-home-spotlight.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-alumni-home-media.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-admission-explore-hudson.inc');
@@ -159,44 +182,11 @@ include($project_paths['main_project_root'].'/core/review/current-page.inc');
 
 
 
-
-function get_base_path($type='document_root') {
-
-  //  which server are we on?
-
-  if( strpos(getcwd(), 'vassar-staging.benaustin.com') ) {
-    $root_path = '/nfs/c08/h03/mnt/117884/domains/vassar-staging.benaustin.com/html';
-  }
-  else {
-    $root_path = $_SERVER['DOCUMENT_ROOT'];
-  }
-
-  if( $type == 'document_root' ) {
-    return $root_path;
-  }
-  if( $type == 'path_to_current_doc_from_web_dir' ) {
-    $path = str_replace($root_path, '', getcwd());
-    return $path;
-  }
-
-
-/*
-
-Problem: I based a lot of this code on the assumption that getcwd() and $_SERVER['DOCUMENT_ROOT'] return the same thing as the root of the server. That, as it turns out, was presumptuous.
-
-That's how it works on my local environment, but on the remote Ben Austin server, getcwd() returned a path that was a lot deeper than $_SERVER['DOCUMENT_ROOT']. So trying to get the base of the web directory by stripping DOCUMENT_ROOT from getcwd() via str_replace meant that the final path still had some weird sub-root stuff in it.
-
-Final decision: on servers where getcwd() and $_SERVER['DOCUMENT_ROOT'] return different root paths, hardcode the root path and use that in place of $_SERVER['DOCUMENT_ROOT'].
-
-*/
-
-}
-
-
 //  Provided a path to a page (/admission/apply), this returns all the
 //  variables for that page: title, classes, etc
 function get_page_vars($full_filepath) {
 
+  /*
   //  HACK - FIX THIS LATER
 
   // these are pages that don't currently have info
@@ -216,7 +206,7 @@ function get_page_vars($full_filepath) {
       $page_info['page_link'] = '/admission/';
       return $page_info;
     }
-
+    */
 
 
     global $project_paths;
@@ -238,6 +228,7 @@ function get_page_vars($full_filepath) {
     // so uh, yeah, this gets ugly.
 
     $page_contents = explode('/* PAGE INFO === */', $page_contents);
+
     $page_contents = explode('/* === */', $page_contents[1]);
 
 $page_info = $page_contents[0];
@@ -267,8 +258,8 @@ $page_info = json_decode($page_info, true);
     $page_info['page_link'] = str_replace(get_base_path(), '', $full_filepath);
 
     return $page_info;
-  }
-  else return false;
+//  }
+//  else return false;
 }
 
 
@@ -373,7 +364,7 @@ else {
       $page_title = $page_vars['page_title'];
     $item_link = $page_vars['page_link'];
 
-    $nav_markup .= nav_item($item_link, $page_title, $class);
+    $nav_markup .= nav_item($project_paths['final_url'].$item_link, $page_title, $class);
 
 
   }
@@ -385,6 +376,8 @@ else {
 
 
 function breadcrumb() {
+
+  global $project_paths;
 
   //  How the breadcrumb works:
   //  - If a section has children, it should appear in the breadcrumb
@@ -430,7 +423,7 @@ function breadcrumb() {
 
       $title = $item_info['page_title'];
     }
-    $breadcrumb_markup .= crumb_item($path, $title, 'level-'.$crumb_level);
+    $breadcrumb_markup .= crumb_item($project_paths['final_url'].$path, $title, 'level-'.$crumb_level);
     $crumb_level++;
   }
   unset($item);

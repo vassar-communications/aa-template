@@ -19,7 +19,8 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Two students walking through the Bridge for Laboratory Sciences
+']); ?>
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
@@ -125,8 +126,10 @@ $page_info = json_decode($page_info, true);
     '/admission/assets/images/quick-facts/community/res-quad-2105-kr-vassar-0033.jpg',
     'image-is-first theme-burgundy',
     '',
+    ['img_alt_text' => 'Group of students relaxing on lawn in the residential quad on Vassar Campus. One student in a hammock.'],
     ['title_level' => '3']
 ); ?>
+
   <div class="animate-when-content-appears animation-slide-up gold-icons">
 
       <?php echo item_iconItem(
@@ -134,7 +137,7 @@ $page_info = json_decode($page_info, true);
         'book-open-reader',
         'icon-on-left'
       ); ?>
-          <p>Our campus is a mix of students interested in the natural sciences, social sciences, arts and humanities, as well as some interesting combinations of these disciplines.</p>
+          <p>Our campus is a mix of students interested in the natural sciences, social sciences, arts, and humanities, as well as some interesting combinations of these disciplines.</p>
       <?php echo end_item_iconItem(); ?>
 
       <?php echo item_iconItem(
@@ -224,6 +227,7 @@ $page_info = json_decode($page_info, true);
     '/admission/assets/images/quick-facts/community/Kaleidoscope-0139_16_11_KR_0077.jpg',
     'image-is-first theme-cream',
     '',
+    ['img_alt_text' => 'Students on stage with international flags'],
     ['title_level' => '3']
 ); ?>
   <div class="animate-when-content-appears animation-slide-up burgundy-icons">
@@ -233,7 +237,7 @@ $page_info = json_decode($page_info, true);
         'face-smile',
         'icon-on-left'
       ); ?>
-          <p>Popular on-campus hangouts include late night dining at Gordon Commons, the College Center, the Food Truck, and Dorm Multi-Purpose Rooms and Parlors.</p>
+          <p>Popular on-campus hangouts include late-night dining at Gordon Commons, the College Center, the Food Truck, and Dorm Multi-Purpose Rooms and Parlors.</p>
       <?php echo end_item_iconItem(); ?>
 
       <?php echo item_iconItem(
@@ -266,7 +270,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Off Campus',
+    'Off-Campus',
     '/admission/assets/images/quick-facts/community/Hudson-Line-Courtesy-of-MTA-Metro-North-Railroad---Photo-by-Frank-English_240662ea-c662-4239-2e603bad1ee52568.jpg',
     'theme-charcoal gold-icons',
     '',
@@ -281,7 +285,7 @@ $page_info = json_decode($page_info, true);
         'store',
         'icon-on-left'
       ); ?>
-          <p>There are many stores and restaurants within one block from campus, including Billy Bob’s BBQ, The Crafted Kup, Pizzeria Bacio’s, Twisted Soul and Thai Spice.</p>
+          <p>There are many stores and restaurants within one block from campus, including Billy Bob’s BBQ, The Crafted Kup, Pizzeria Bacio’s, Twisted Soul, and Thai Spice.</p>
       <?php echo end_item_iconItem(); ?>
 
       <?php echo item_iconItem(
@@ -358,7 +362,7 @@ $housing_icon_items =
 echo sec_hasColumns(
     'Housing',
     '3',
-    '<p class="intro-text">There are no special residence halls reserved for freshmen, athletes, specific majors, etc. Students live together regardless of academic/extracurricular interest, which creates active and diverse environments in each of our residence halls.</p>
+    '<p class="intro-text">There are no special residence halls reserved for freshmen, athletes, specific majors, etc. Students live together regardless of academic/extracurricular interests, which creates active and diverse environments in each of our residence halls.</p>
 
       <div class="icon-items-list text-left vertically-center-icon mx-auto" style="max-width: 40rem; text-align: left; align-items: center;">
       '.$housing_icon_items.'
@@ -404,6 +408,7 @@ echo sec_hasColumns(
     $quickfacts_img_path.'THs-0144-15-05-hw-dorm-vassar-vb-3813.jpg',
     'image-is-first theme-cream',
     '',
+    ['img_alt_text' => 'Student in a dorm kitchen behind a counter cutting food'],
     ['title_level' => '3']
 ); ?>
   <div class="animate-when-content-appears animation-slide-up burgundy-icons">
@@ -505,10 +510,10 @@ echo sec_hasColumns(
 
 
 <?php echo sec_hasColumns(
-    'How’s the weather?',
-    '3',
+    'How’s the Weather?',
+    '2',
     '<p class="intro-text">Poughkeepsie weather is close to that of New York City, with a temperate climate and four distinct seasons.</p>
-    <p> We do get snow, but we are not located in a “snow-belt”, so moderate snow is the norm during the winter. Most students love spring and fall, and it is common to see professors hold classes outside on nice days. While you’ll need a hat, gloves, and scarf in the winter, you’ll be able to wear shorts and t-shirts at other times of the year.</p>',
+    <p> We do get snow, but we are not located in a “snowbelt”, so moderate snow is the norm during the winter. Most students love spring and fall, and it is common to see professors hold classes outside on nice days. While you’ll need a hat, gloves, and scarf in the winter, you’ll be able to wear shorts and t-shirts at other times of the year.</p>',
     'items-equal-height mw-inner-2 theme-extralightgray wide-intro burgundy-icons',
     'gap-3',
     ['title_level' => '3']
@@ -518,7 +523,9 @@ echo sec_hasColumns(
     <?php echo item_stat(
       'Average Winter Temp',
       '35<span class="stat-unit">°F</span><br>
-      2<span class="stat-unit">°C</span>'
+      2<span class="stat-unit">°C</span>',
+      '',
+      'unflex-stat-values'
     ); ?>
   <?php echo end_item_col(); ?>
 
@@ -526,7 +533,9 @@ echo sec_hasColumns(
     <?php echo item_stat(
       'Average Summer Temp',
       '80<span class="stat-unit">°F</span><br>
-      27<span class="stat-unit">°C</span>'
+      27<span class="stat-unit">°C</span>',
+      '',
+      'unflex-stat-values'
     ); ?>
   <?php echo end_item_col(); ?>
 

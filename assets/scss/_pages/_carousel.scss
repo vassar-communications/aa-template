@@ -44,7 +44,7 @@ $border-distance: 0.6rem;
     }
 
     .carousel-cell {
-      width: 66%;
+      width: 86%;
       height: 200px;
       margin-right: 10px;
      // border-radius: 5px;
@@ -182,17 +182,18 @@ $border-distance: 0.6rem;
 /* In the Media Carousel */
 @include break(lg) {
   .media-carousel {
-    --carousel-height: 33rem;
+    --carousel-height: 36rem;
     height: 37rem !important;
 
     .carousel-cell {
-      width: 70rem !important;
+//      width: 70rem !important;
     }
     .carousel-cell-content {
       max-width: none;
     }
     .image-container {
-      width: 70% !important;
+//      width: 70% !important;
+      width: 73% !important;
       height: var(--carousel-height, 32em);
       position: relative;
     }
@@ -205,7 +206,52 @@ $border-distance: 0.6rem;
       object-fit: cover;
       top: 0;
       left: 0;
-      
+
     }
   }
+}
+
+
+.carousel-cell-content {
+  box-shadow: 0 0.4rem 2rem rgba(0,0,0,0.4);
+  text-align: left;
+}
+.flickity-viewport {
+  overflow: visible;
+}
+
+// CTA links in carousels have a stretched-link class applied.
+// stretched-link requires an :after pseudo to do its magic, but
+// for CTA links, :after is already occupied
+
+.carousel-cell.is-link {
+  position:relative;
+
+  .stretched-link {
+    position: static;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    display: inline-block;
+    color: #fff;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.2rem 0.8rem;
+    border-radius: 4rem;
+
+    &:hover {
+      background: #fff !important;
+      color: #641A2B !important;
+    }
+  }
+}
+
+
+html {
+  overflow-x: hidden;
+}
+
+.featureImage-text-ticker {
+  max-width: 100vw !important;
 }

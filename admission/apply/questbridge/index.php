@@ -63,7 +63,7 @@ $page_info = json_decode($page_info, true);
 
 <p>Vassar College has been a proud QuestBridge partner college since 2007.</p>
 
-<p> If you are planning to forward your QuestBridge application to Vassar, please complete the Vassar College Selection Form for QuestBridge Applicants and the Vassar QuestBridge Writing Supplement.</p>
+<p> If you are planning to forward your QuestBridge application to Vassar, please complete the <a href="https://www.questbridge.org/college-partners/vassar-college/application_requirements">Vassar College Selection Form</a> for QuestBridge Applicants and the Vassar QuestBridge Writing Supplement.</p>
 
 <p>At this time, the Vassar QuestBridge Supplement is available only to those students who have submitted their QuestBridge applications to Vassar.</p>
 

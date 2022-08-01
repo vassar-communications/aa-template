@@ -33,6 +33,9 @@ a[data-bs-toggle="collapse"] {
   }
   .nav-item > a {
     display: block;
+
+
+
 //    background-image: linear-gradient(to right, var(--underline-color) 0%, var(--underline-color) 100%), linear-gradient(to right, var(--underline-color-2) 0%, var(--underline-color-2) 100%);
     text-decoration: none;
     position: relative;
@@ -43,7 +46,7 @@ a[data-bs-toggle="collapse"] {
     background-image: linear-gradient(to right, var(--underline-color) 0%, var(--underline-color) 100%), linear-gradient(to right, var(--underline-color-2) 0%, var(--underline-color-2) 100%);
     background-size: 0% $nav-item-border-size, 100% $nav-item-border-size;
     padding: 0.5rem 0;
-    opacity: 0.8;
+//    opacity: 0.8;
 
     &:hover,
     &:focus {
@@ -88,4 +91,28 @@ a[data-bs-toggle="collapse"] {
 }
 .show.offcanvas {
   z-index: 1865;
+}
+
+
+.megamenu-container {
+  .linked-list {
+    a,
+    a:hover,
+    a:focus,
+    a:visited:hover,
+    a:visited:focus {
+      color: #fff;
+    }
+  }
+}
+
+
+/* Adding in a hover state for the accordion links */
+
+.offcanvas .accordion-body a:hover {
+  border-bottom: 1px solid #fff;
+}
+.offcanvas .accordion-body a {
+  transition: border-bottom 0.4s;
+  border-bottom: 1px solid transparent;
 }

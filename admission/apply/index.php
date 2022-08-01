@@ -49,7 +49,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Join Our Passionate Community',
-    'Vassar’s open curriculum offers the freedom and flexibility to pursue your passions while discovering new interests. As there are no class requirements, you can take the courses you wish and know your classmates have chosen them as well.',
+    'Vassar’s open curriculum offers the freedom and flexibility to pursue your passions while discovering new interests. As there are no class requirements, you can take the courses you wish and know your classmates have chosen them as well.
+
+    <a href="https://apply.vassar.edu/status" class="center-object btn btn-lg btn-primary arrow text-center mt-5">Check your status</a>
+    ',
     $admission_img_path.'apply/0196-19-11-kwe-greenhouse-vassar-vb-6440.jpg
 ',
 null,
@@ -60,14 +63,50 @@ null,
 
 
 
+
+<?php echo sec_hasColumns(
+    null,
+    3,
+    '',
+    'related-topics-section theme-cream',
+    'col-gap-3'
+); ?>
+
+  <?php echo item_col(); ?>
+    <?php include($project_paths['main_project_root'].'/admission/inc/modules/application-deadlines.php');?>
+
+    <?php echo end_item_col(); ?>
+
+    <?php echo item_col(); ?>
+
+    <div class="card shadow">
+      <h3 class="card-header">Know the Vassar codes</h3>
+        <ul class="labeled-list list-group">
+            <?php echo labeled_list_item('College Board', '2956'); ?>
+            <?php echo labeled_list_item('ACT', '2982'); ?>
+            <?php echo labeled_list_item('TOEFL', '2956'); ?>
+        </ul>
+    </div>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+  <a href="https://www.vassar.edu/sites/default/files/2021-06/Vassar-Viewbook-2020.pdf"><img loading="lazy" src="https://www.vassar.edu/sites/default/files/2021-06/viewbook-2020.jpg" alt="Cover of Vassar's 2020 Viewbook"></a>
+  <p class="card-text"><a href="https://www.vassar.edu/sites/default/files/2021-06/Vassar-Viewbook-2020.pdf">Read our Viewbook</a></p>
+    <?php echo end_item_col(); ?>
+
+
+<?php echo end_sec_hasColumns(); ?>
+
+
 <?php echo sec_fullBleedImageColumn(
     'How to Apply',
     $admission_img_path.'apply/how-to-apply/110519_160over90_Vassar_0221.jpg',
     'image-is-first theme-charcoal bg-dark quad-pattern has-bg',
-    ''
+    '',
+    ['img_alt_text' => 'Two people at a table in conversation']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Learn more about Vassar's application requirements and important deadlines.</p>
+    <p>Learn more about Vassar’s application requirements and important deadlines.</p>
 
     <a href="/admission/apply/how-to-apply/" class="px-0 btn btn-link arrow">Learn more about how to apply to Vassar</a>
 </div>
@@ -75,9 +114,10 @@ null,
 
 <?php echo sec_fullBleedImageColumn(
     'First-Year Applicants',
-    $admission_img_path.'apply/0007_16_02_KR_0083.jpg',
+    $admission_img_path.'apply/0058-21-05-kr-spring-vassar-0030-square.jpg',
     'theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Two people sitting at the table in the Bridge for Laboratory Sciences seating conversing in front of a book and laptop']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Everything you need to know about applying to Vassar as an incoming first-year student.</p>
@@ -90,9 +130,11 @@ null,
 
 <?php echo sec_fullBleedImageColumn(
     'Transfer Applicants',
-    $admission_img_path.'apply/0137_14_11_KR_0003.jpg',
+    $admission_img_path.'apply/0055-16-05-kr-spring-vassar-0011.jpg',
     'image-is-first theme-charcoal bg-dark quad-pattern has-bg',
-    ''
+    '',
+    ['img_alt_text' =>
+  'Student walking in the sun wearing earbuds and looking at phone.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. </p>
@@ -104,9 +146,12 @@ null,
 
 <?php echo sec_fullBleedImageColumn(
     'International Applicants',
-    $admission_img_path.'apply/international/0074_15_08_KR_0122.jpg',
+    $admission_img_path.'apply/international/0083_15_08_TT_5415.jpg
+',
     'theme-cream',
-    ''
+    '',
+    ['img_alt_text' =>
+  'A row of brightly colored international flags in front of Main Building']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Vassar is a vibrant community of global citizens.</p>
@@ -117,11 +162,11 @@ null,
 
 
 <?php echo sec_hasColumns(
-    'Need more information about applying?',
+    'Need More Information About Applying?',
     3,
     '<p>Follow the links below or email <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>, reach out to your Admission Officer, or ask a current Vassar student at <a href="mailto:askastudent@vassar.edu">askastudent@vassar.edu</a>!</p>',
     'related-topics-section theme-burgundy',
-    ''
+    'col-gap-1'
 ); ?>
 
 

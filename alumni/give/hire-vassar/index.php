@@ -1,16 +1,20 @@
-
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Hire Vassar";
-$page_classes = "";
 
-/*  ---------------------- */
+$page_info = '{
+  "page_title":"Hire Vassar",
+  "page_classes":"",
+  "feature_image":"/assets/images/placeholder-banner.png"
+}';
+
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -24,14 +28,7 @@ $page_classes = "";
 <?php echo page_partialmasthead('https://vassartest.chuckyatsuk.com/img/alumni/give/hire/0056_13_05_TT_1015.jpg'); ?>
 
 
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-give-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-give-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo interior_page_nav() ?>
 
 
 <?php /*  PAGE CONTENT === */ ?>
@@ -45,7 +42,7 @@ $page_classes = "";
 <div class="animate-when-content-appears animation-slide-up">
     <h1 class="display-3 mb-4">Add Vassar Talent to your Team</h1>
     <p class="mb-3">Vassar students and alums are great candidates for internships and positions at all levels within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
-    <a href="#" class="fix px-0 btn btn-link mt-5 arrow">Information for Employers</a>
+    <a href="https://offices.vassar.edu/careers/info/employers/" class="px-0 btn btn-link mt-5 arrow">Information for Employers</a>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -59,7 +56,7 @@ $page_classes = "";
 <div class="animate-when-content-appears animation-slide-up">
     <h1 class="display-3 mb-4">Post a Job on VassarNet</h1>
     <p class="mb-3">VassarNet opens doors for students and alumni alike, connecting them to a powerful online resource to build meaningful professional relationships and find opportunities.</p>
-    <a href="#" class="fix btn btn-link px-0 mt-5 arrow">Launch VassarNet</a>
+    <a href="#" class="btn btn-link px-0 mt-5 arrow">Launch VassarNet</a>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -67,9 +64,9 @@ $page_classes = "";
 
 
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-international.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-international.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/apply/apply-international.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give-volunteer.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/resources/resources-vassar-network.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give-mentor.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
 

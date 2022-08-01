@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-    <p>Calculate an estimate of your college costs</p>
+    <p>Calculate an estimate of your college costs.</p>
 
 <?php echo end_item_cardWithText(
     null,

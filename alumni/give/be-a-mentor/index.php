@@ -1,16 +1,20 @@
-
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Be a Mentor";
-$page_classes = "";
 
-/*  ---------------------- */
+$page_info = '{
+  "page_title":"Be a Mentor",
+  "page_classes":"",
+  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+}';
+
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -20,56 +24,167 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
 
-
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-give-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
-
-
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-give-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo interior_page_nav() ?>
 
 <?php /*  PAGE CONTENT === */ ?>
 
-<?php echo sec_hasColumns(
+
+
+<?php echo sec_fullBleedImageColumn(
     null,
-    2,
-    null,
-    '',
-    'flex-equal align-items-center d-flex flex-column-reverse flex-md-row mb-5 pb-5'
+    '/assets/images/placeholders/placeholder-square.png',
+    'image-is-first theme-cream',
+    ''
 ); ?>
-
-<?php echo item_col('equal animate-when-content-appears animation-slide-up'); ?>
-
-<h2 class="pb-3 h2">Being a mentor is an extraordinary opportunity to develop positive relationships with students and help them navigate their future personally and/or professionally.</h2>
-
-<div class="alert alert-light shadow mw-2">
-    <h6 class="strong">Ready to Mentor?</h6>
+<div class="animate-when-content-appears animation-slide-up">
+    <p class="intro-text">Being a mentor is an extraordinary opportunity to develop positive relationships with students and help them navigate their future personally and professionally.</p>
     <p>Fill out the Volunteer Interest Form to learn more about mentoring opportunities!</p>
-    <a href="#" class="px-0 btn btn-link arrow">Vassar Volunteer Interest Form<i class="px-3  fa-solid fa-arrow-up-right-from-square"></i></a><br/>
+
+    <?php echo cta_link(
+        'http://connect.vassar.edu/volunteer',
+        'Vassar Volunteer Interest Form'
+    ); ?>
 
 </div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php echo end_item_col(); ?>
 
-<?php echo item_col('animate-when-content-appears animation-slide-up equal'); ?>
+<?php echo sec_fullBleedImageColumn(
+    'Sophomore Career Connections',
+    '/assets/images/placeholders/placeholder-square.png',
+    '',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>An award-winning, three-day, on-campus program designed to introduce second-year students to the vast array of career options available to liberal arts graduates. The program features industry-based alumni panels, identity at work conversations, networking opportunities, and more. 100+ alum and parent mentors return to campus every year for this event. </p>
+    <?php echo cta_link(
+        'https://www.vassar.edu/sophomore-career-connections/',
+        'More about Sophomore Career Connections'
+    ); ?>
 
-<img src="https://vassartest.chuckyatsuk.com/img/alumni/resources/Sunset_Lake_15_TT_1519.jpg" />
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php echo end_item_col(); ?>
+<?php echo sec_fullBleedImageColumn(
+    'Industry and Major Panels',
+    '/assets/images/placeholders/placeholder-square.png',
+    'image-is-first theme-cream',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>The CDO regularly organizes panels that feature a variety of industries, majors, and more, often in collaboration with student organizations and academic departments.</p>
 
-<?php echo end_sec_hasColumns(); ?>
+    <?php echo cta_link(
+        '#',
+        'More about panels'
+    ); ?>
 
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Identity at Work Meet-ups',
+    '/assets/images/placeholders/placeholder-square.png',
+    '',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>Want to share your experience navigating the workplace based on your identity (race, class, gender, sexual orientation, international student status, religion, etc.)? The CDO regularly hosts meetups designed to connect students to alums and parents around a shared identity so that they can engage in meaningful conversations about the intersection of identity and career.</p>
+
+    <?php echo cta_link(
+        '#',
+        'More about meet-Ups'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Career Chats',
+    '/assets/images/placeholders/placeholder-square.png',
+    'image-is-first theme-cream',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>For students, there is often no better inspiration for life after Vassar than to hear the stories of those who have paved the way. Consider hosting a “career chat," either virtually or on-campus. It’s a great opportunity to discuss your path and educate students about a career field, or share whatever advice or expertise you’d like to impart. </p>
+
+    <?php echo cta_link(
+        '#',
+        'More about Career Chats'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Alum and Parent-Led Workshops',
+    '/assets/images/placeholders/placeholder-square.png',
+    '',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>Do you have a skill or content-area specialty that you would like to share? Past workshops led by alumni have included sessions on design thinking, tech and case interview preparation, budgeting, professional communication, and more.</p>
+
+    <?php echo cta_link(
+        '#',
+        'More about workshops'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Employer Info Sessions',
+    '/assets/images/placeholders/placeholder-square.png',
+    'image-is-first theme-cream',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>Do you have a skill or content-area specialty that you would like to share? Past workshops led by alumni have included sessions on design thinking, tech and case interview preparation, budgeting, professional communication, and more.</p>
+
+    <?php echo cta_link(
+        '#',
+        'More about Employer Info Sessions'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Career Treks',
+    '/assets/images/placeholders/placeholder-square.png',
+    '',
+    ''
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>Are you open to hosting a group of students at your workplace? The Career Development Office hosts both individual employer site visits and industry-based career treks, bringing small groups of students to employers to experience a road trip to the real world. Past treks have featured financial services, technology, publishing, and more.</p>
+
+    <?php echo cta_link(
+        '#',
+        'Contact Career Development'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-give-be-a-mentor.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-give-volunteer.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/resources-vassar-network.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give-volunteer.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give-hire-vassar.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/resources/resources-vassarnet.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
 

@@ -27,7 +27,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Large group of students walking into a building']); ?>
 
 <?php echo hamburger_navigation(); ?>
 
@@ -41,7 +41,8 @@ $page_info = json_decode($page_info, true);
     null,
     $admission_img_path.'visit/group/0098_15_09_KR_0019-flip.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Students sitting in a class listening']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Vassar offers group visits to high school students and community-based organizations to provide information on the academic, residential, and student life experience.</p>

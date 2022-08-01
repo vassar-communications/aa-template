@@ -51,7 +51,7 @@
 
       $settings: (
               gap: 0.1s,
-              max-items: 10,
+              max-items: 40,
       );
 
       @include sequence($settings);

@@ -1,0 +1,63 @@
+.js-video-btn {
+    border-bottom-right-radius: 1.8rem;
+
+// .card-body
+//
+    &:after {
+        border-color: #fff;
+        position: absolute;
+        content: "\f144";
+        border: 0px solid #1e1e1e;
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        right: 1rem;
+        bottom: 1rem;
+        font-size: 2.2rem;
+        line-height: 0;
+        padding-bottom: 0.12rem;
+    	font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color: #c00;
+        transition: 0.4s all ease;
+    }
+}
+
+
+.js-video-btn,
+.card-img-top,
+.card-title {
+  transition: 0.4s all ease;
+}
+
+.js-video-btn {
+  &:hover,
+  &:focus {
+    transform: scale(1.02);
+
+    .card-title {
+      color: #c00;
+    }
+
+    .card-img-top {
+      transform: scale(1.06);
+      filter: brightness(1.2) contrast(1.2);
+    }
+
+    &:after {
+      font-size: 2.6rem;
+    }
+  }
+}
+
+.js-video-btn {
+  .card-img {
+//      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+}

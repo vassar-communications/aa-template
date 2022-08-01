@@ -5,12 +5,16 @@ include($project_paths['main_project_root'].'/functions.php');
 ?>
 <?php
 
-/*  PAGE INFO ============ */
+/* PAGE INFO === */
 
-$page_title = "Alumni Benefits";
-$page_classes = "";
+$page_info = '{
+  "page_title":"Alumni Benefits",
+  "page_classes":"",
+  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+}';
 
-/*  ---------------------- */
+/* === */
+$page_info = json_decode($page_info, true);
 
 ?>
 
@@ -20,27 +24,131 @@ $page_classes = "";
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
 
 
-<?php echo breadcrumbNav('theme-cream'); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-resources-breadcrumb.php');?>
-<?php echo end_sec_breadcrumbNav(); ?>
+<?php echo interior_page_nav() ?>
+
+<?php echo sec_fullBleedImageColumn(
+    'Alumni Benefits',
+    '/assets/images/placeholders/placeholder-square.png',
+    'image-is-first theme-cream',
+    'placeholder'
+); ?>
+<p class="intro-text placeholder">NEED INTRO TEXT ON THIS PAGE</p>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-<?php echo toplinksNav(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/nav-elements/alumni-resources-nav.php');?>
-<?php echo end_sec_toplinksNav(); ?>
+<?php echo sec_hasColumns(
+    'Alumni Benefits',
+    '2',
+    '<p>In addition to VassarConnects—an online community in which alumni can connect with each other and with the college through its <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=6&cid=41#/Search/Simple">Alumni Directory</a> and <a href="http://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=61">other services</a>, the following benefits are also available:</p>',
+    'theme-cream',
+    ''
+
+); ?>
+<?php echo item_cardWithText(
+    'Library',
+    '#',
+    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+); ?>
+
+<p>Once you obtain your Vassar alumni ID card, you will have to register for library privileges and get your card validated at the library circulation desk. Check library hours and/or download .pdf application for guest borrowing privileges.</p>
+
+
+<?php echo end_item_cardWithText(
+    'Library Website',
+); ?>
+
+<?php echo item_cardWithText(
+    'Fitness Center',
+    '/admission/apply/',
+    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+); ?>
+
+<p>Use of the facilities is subject to various rules with which you should familiarize yourself prior to your visit, including advanced registration of any guest you intend to bring to the fitness center. Please consult the athletics website for the latest information, as rules and policies are subject to change.</p>
+
+
+
+<?php echo end_item_cardWithText(
+    'Athletics Website?',
+); ?>
+
+
+<?php echo item_cardWithText(
+    'Vassar Alumni ID Card',
+    '/admission/apply/',
+    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+); ?>
+
+<p>Vassar alumni ID cards provide alumni with access to the college's library and fitness center.</p>
+
+
+
+<?php echo end_item_cardWithText(
+    'Request an Alumni ID',
+); ?>
+
+
+
+<?php echo item_cardWithText(
+    'Vassar Email Address',
+    '/admission/apply/',
+    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+); ?>
+<p>Alumni can obtain a Vassar-branded @alum.vassar.edu email address/account.</p>
+
+
+<?php echo end_item_cardWithText(
+    'Learn more',
+); ?>
+
+
+<?php echo item_cardWithText(
+    'VassarNet',
+    '#',
+    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+); ?>
+<p>Alumni, students, parents, faculty, and friends of Vassar can join to build their network and find Vassar-connected career networking opportunities.</p>
+
+<?php echo end_item_cardWithText(
+    'Join Vassarnet',
+); ?>
+
+
+
+<?php echo item_cardWithText(
+    'Grants & Fellowships',
+    '/alumni/resources/grants-fellowships',
+    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+); ?>
+<p>Alumni are eligible to apply for a variety of grants and fellowships.</p>
+<?php echo end_item_cardWithText(
+    'Learn more about Grants & Fellowships',
+); ?>
+
+
+
+
+<?php echo end_sec_hasColumns(); ?>
+
+
+
 
 <?php /*  PAGE CONTENT === */ ?>
 
 
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-give-be-a-mentor.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/alumni-give-volunteer.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/resources-vassar-network.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/resources/resources-vassar-network.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/contact/contact.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/calendar/calendar.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
-
 <?php echo site_footer(); ?>
-

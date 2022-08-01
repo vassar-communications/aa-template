@@ -33,7 +33,7 @@ $page_info = [
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Aerial view of the residential quad on Vassar Campus']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -41,22 +41,26 @@ $page_info = [
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo masthead_interiorPage(
-    'Explore our online resources',
-    'There are any number of good reasons why a student might not be able to travel to Vassar, but that shouldn’t stop anyone from experiencing campus. That’s why we want virtual touring to be as easy, free, complete and immersive as possible.',
-    $admission_img_path.'visit/virtual/Vassar_Campus_20190416_KR_6122.jpg'
+    'Explore Our Online Resources',
+    'There are any number of good reasons why a student might not be able to travel to Vassar, but that shouldn’t stop anyone from experiencing campus. That’s why we want virtual touring to be as easy, free, complete, and immersive as possible.',
+    $admission_img_path.'visit/virtual/Vassar_Campus_20190416_KR_6122.jpg',
+    null,
+    null,
+    ['img_alt_text' => ' Student laying on the grass studying on campus']
 );?>
 
 <?php echo sec_fullBleedImageColumn(
     'Virtual Visit Options',
     $admission_img_path.'visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2025.jpg',
     'image-is-first theme-cream section-large-title',
-    ''
+    '',
+    ['img_alt_text' => 'Aerial view of the residential quad on Vassar Campus']
 ); ?>
 
 <div class="animate-when-content-appears animation-slide-up ">
     <p class="tagline  mb-2">Virtual Information Sessions</p>
 
-      <p>Learn about academics, student life, the application process, financial aid, and ask your questions about Vassar.</p>
+      <p>Learn about academics, student life, the application process, and financial aid, and ask your questions about Vassar.</p>
     <p class="tagline  mb-2">Student Q&As</p>
         <p>Meet current students on Zoom and ask your questions about academics, involvement, and what it’s like to be a Vassar College student.</p>
 
@@ -79,8 +83,8 @@ $page_info = [
 
 
 <?php echo item_col(); ?>
-<p>Students wishing to preview the Vassar campus can watch this 30-minute video tour</p>
-<a href="#"  data-video-id="531201548" data-channel="vimeo" class="js-video-btn px-0 btn btn-link arrow">Watch Video</a>
+<p>Students wishing to preview the Vassar campus can watch this 30-minute video tour.</p>
+<a href="#"  data-src="https://player.vimeo.com/video/531201548" data-bs-toggle="modal"  data-bs-target="#videoModal" class="video-btn px-0 btn btn-link arrow">Watch Video</a>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
@@ -89,7 +93,7 @@ $page_info = [
 echo item_imageCard_videoModal(
     null,
     null,
-    '531201548',
+    'https://player.vimeo.com/video/531201548',
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/virtual/tour-video-still.jpg',
@@ -169,7 +173,8 @@ echo item_imageCard_videoModal(
     'Buildings and Belonging',
     $admission_img_path.'visit/virtual/Urban_Center_Black_Studies_SPC.jpg',
     'theme-charcoal bg-dark quad-pattern has-bg section-large-title',
-    ''
+    '',
+    ['img_alt_text' => 'Historical black and white photo of the Urban Center for Black Studies, Poughkeepsie, NY']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 <p>Buildings and Belonging is a digital tool and self-guided campus tour that celebrates, honors, and remembers the contributions of African-American community members whose presence and contributions have shaped Vassar.</p>

@@ -57,7 +57,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
   <?php echo item_stat(
-    'Student:Faculty ratio',
+    'Student: Faculty ratio',
     '8:1',
     'All classes are taught by professors, not teaching assistants or graduate student instructors.'
   ); ?>
@@ -67,7 +67,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-    'Most popular majors',
+    'Most Popular Majors',
     'animate-when-content-appears gold-icons mw-inner-4 theme-charcoal has-bg section-bg-image-top',
     '',
     ['title_level' => '3',
@@ -166,7 +166,7 @@ $page_info = json_decode($page_info, true);
           'alt' => 'Students stand in front of a Moroccan building decorated with mosaic tiles' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
     ); ?>
-        <p>Vassar students (usually juniors) may study abroad for one semester or for a full academic year. About 45% of our students participate in our study-away programs prior to graduation.</p>
+        <p>Vassar students (usually juniors) may study abroad for one semester or a full academic year. About 45% of our students participate in our study-away programs prior to graduation.</p>
     <?php echo end_item_cardWithText('Learn more about studying away '); ?>
   <?php echo end_item_col(); ?>
 
@@ -192,7 +192,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_stat(
       'Law school admit rate',
       '90%',
-      'including Yale, Stanford, NYU, Univ. of Chicago and Univ. of Pennsylvania.'
+      'including Yale, Stanford, NYU, Univ. of Chicago, and Univ. of Pennsylvania.'
     ); ?>
   <?php echo end_item_col(); ?>
 
@@ -200,7 +200,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_stat(
       'Med school admit rate',
       '85%',
-      'including Vanderbilt, Columbia, Dartmouth and Harvard'
+      'including Vanderbilt, Columbia, Dartmouth, and Harvard'
     ); ?>
   <?php echo end_item_col(); ?>
 

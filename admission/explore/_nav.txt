@@ -2,5 +2,5 @@ academics
 campus
 diversity-inclusion
 outcomes
-local-area
+beyond-campus
 student-life

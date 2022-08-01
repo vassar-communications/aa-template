@@ -22,7 +22,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Two people, one reading, and the other looking out the window']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -30,7 +30,8 @@ $page_info = json_decode($page_info, true);
     null,
    $admission_img_path.'apply/interviews/0046_16_04_KR_0008.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Students sitting on the veranda outside of the Bridge for Laboratory Sciences building studying.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">A conversation with one of our alumni or student interviewers is an excellent way for you to learn more about Vassar and for us to learn more about you.</p>
@@ -72,7 +73,7 @@ $page_info = json_decode($page_info, true);
     'fa-globe'
 ); ?>
 
-<p>Given the limited availability of alumnae and student interviewers internationally, our office will reach out to you if we are able to extend an interview. We do not accept requests for interviews from students residing overseas.</p>
+<p>Given the limited availability of alumni and student interviewers internationally, our office will reach out to you if we are able to extend an interview. We do not accept requests for interviews from students residing overseas.</p>
 
 <?php echo end_info_card(); ?>
 

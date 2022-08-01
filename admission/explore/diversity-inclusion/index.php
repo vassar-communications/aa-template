@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_hasColumns(
-    'The Class of 2025 represents',
+    'The Class of 2025 Represents',
     '3',
     null,
     'items-equal-height mw-inner-4 theme-extralightgray animate-when-content-appears animation-group animation-fade-in',
@@ -90,7 +90,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_stat(
       null,
       '13%',
-      'students who are first in their families to attend college'
+      'students who are the first in their families to attend college'
     ); ?>
   <?php echo end_item_col(); ?>
 
@@ -99,22 +99,22 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fullBleedImageColumn(
     'Services',
     '/admission/assets/images/explore/diversity/0214-18-05-kr-alana-vassar-6569.jpg',
-    'image-is-first theme-charcoal has-bg quad-pattern',
+    'image-is-first theme-charcoal has-bg quad-pattern light-bg-pattern-1',
     '',
     ['img_alt_text' => 'Students assemble in a large, well-lit room']
 
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Vassar offers many resources to ensure all students have what they need to thrive. The college’s student-centered approach includes programs such as:</p>
-    <ul>
-        <li>The Jeh Vincent Johnson ALANA Cultural Center</li>
-        <li>The Women’s Center</li>
-        <li>The Support, Advocacy, & Violence Prevention Office</li>
+    <p>Vassar offers many resources to ensure all students have what they need to thrive. The College’s student-centered approach includes programs such as:</p>
+    <ul class="linked-list no-first-border ll-theme-light-on-charcoal">
+        <li><a class="ps-0" href="https://offices.vassar.edu/alana/">The Jeh Vincent Johnson ALANA Cultural Center</a></li>
+        <li><a class="ps-0" href="https://offices.vassar.edu/womens-center/">The Women’s Center</a></li>
+        <li><a class="ps-0" href="https://offices.vassar.edu/savp/">The Support, Advocacy, & Violence Prevention Office</a></li>
     </ul>
 
     <?php echo cta_link(
-        '#',
-        '[NEED LINK] Learn more about Student Services'
+        'https://offices.vassar.edu/student-engagement/',
+        'Learn more about Student Services'
     ); ?>
 
 </div>

@@ -19,7 +19,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Exterior view of Bridge for Laboratory Sciences building on Vassar Campus']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -29,7 +29,8 @@ $page_info = json_decode($page_info, true);
     null,
     $admission_img_path.'financial-aid/0138-15-11-kr-vcdf-vassar-0110.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'A photo taken at night of the Volgelstein Center for Drama and Film, facing the north corner']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Financial aid awards typically include grants and scholarships, loans, and campus jobs. Students and their families can decide which components of the aid package are most suitable.</p>
@@ -55,7 +56,7 @@ $page_info = json_decode($page_info, true);
             </button>
         </div>
         <div id="grants-collapseOne" class="accordion-collapse collapse" aria-labelledby="grants-headingOne" data-bs-parent="#grants">
-            <div class="accordion-body"><p>Vassar awards $71 million annually in scholarships, funded by Vassar’s endowment, alumnae/i club fundraising, and gifts.</p></div>
+            <div class="accordion-body"><p>Vassar awards $71 million annually in scholarships, funded by Vassar’s endowment, alumni club fundraising, and gifts.</p></div>
         </div>
     </div>
     <div class="accordion-item">
@@ -71,14 +72,14 @@ $page_info = json_decode($page_info, true);
                     <li>Funds from the U.S. government</li>
                     <li>Eligibility is based on federal demonstrated need as determined by the FAFSA form.</li>
                 </ul>
-                <p><a href="https://studentaid.ed.gov/sa/types/grants-scholarships/pell">Learn more about Pell Grants</a></p>
+                <p><a href="https://studentaid.gov/understand-aid/types/grants/pell">Learn more about Pell Grants</a></p>
                 <p class="pt-4"><strong>Federal Supplemental Educational Opportunity Grants (FSEOG)</strong></p>
                 <ul>
                     <li>Awarded to students with exceptional financial need</li>
                     <li>Priority is given to students eligible for Pell Grants</li>
                     <li>Award amounts depend on the level of need and funding availability</li>
                 </ul>
-                <p><a href="https://studentaid.ed.gov/sa/types/grants-scholarships/fseog">Learn more about FSEOG</a></p>
+                <p><a href="https://studentaid.gov/understand-aid/types/grants/fseog">Learn more about FSEOG</a></p>
             </div>
         </div>
     </div>
@@ -176,12 +177,12 @@ $page_info = json_decode($page_info, true);
         </div>
         <div id="loans-collapseTwo" class="accordion-collapse collapse" aria-labelledby="loans-headingTwo" data-bs-parent="#loans">
             <div class="accordion-body">
-                <p><a href="https://studentaid.ed.gov/sa/types/loans/plus">Direct Parent PLUS Loans</a> are government loans made available to parents of dependent undergraduate students. To qualify, a parent:</p>
+                <p><a href="https://studentaid.gov/understand-aid/types/loans/plus/parent">Direct Parent PLUS Loans</a> are government loans made available to parents of dependent undergraduate students. To qualify, a parent:</p>
                 <ul>
                     <li>Must be a U.S. citizen or eligible non-citizen</li>
                     <li>Must not have an adverse credit history</li>
                     <li>Must undergo a credit check</li>
-                    <li>If the credit is denied, the parent may reapply with an endorser, or the student may borrow an additional subsidized loan for $4,000-$5,000.</li>
+                    <li>If the credit is denied, the parent may reapply with an endorser, or the student may borrow an additional subsidized loan for $4,000-$5,000</li>
                 </ul>
                 <p><strong>Important Information:</strong></p>
                 <ul>
@@ -204,7 +205,7 @@ $page_info = json_decode($page_info, true);
             <div class="accordion-body">
                 <p>Private student loans are non-government loans from lenders such as banks, credit unions, and state agencies. Either the parent or the student can be the primary borrower. If the student is the borrower, a co-signer is usually required.
                 </p>
-                <p><a href="https://studentaid.ed.gov/sa/types/loans/federal-vs-private">This summary of the differences</a> explains federal versus private student loans.</p>
+                <p><a href="https://studentaid.gov/understand-aid/types/loans/federal-vs-private">This summary of the differences</a> explains federal versus private student loans.</p>
                 <p>Vassar College does not endorse or recommend any particular private lender. For a sampling of lenders used by Vassar students in recent years, visit <a href="http://www.elmselect.com/?schoolId=235">ELM Select</a>.</p>
                 <p>Important Information about Private Loans:</p>
                 <ul>
@@ -226,11 +227,11 @@ $page_info = json_decode($page_info, true);
         <div id="loans-collapseFour" class="accordion-collapse collapse" aria-labelledby="loans-headingFour" data-bs-parent="#loans">
             <div class="accordion-body">
                 <ul>
-                    <li>Apply for financial aid on Vassar’s <a href="/admission/financial-aid/apply/">Apply for Aid</a> page.</li>
+                    <li>Apply for financial aid on Vassar’s <a href="/admission/financial-aid/apply/">Apply for Aid</a> page</li>
                     <li>Eligibility for all financial aid is determined by completing the <a href="http://www.fafsa.ed.gov/">Free Application for Federal Student Aid (FAFSA)</a>.</li>
-                    <li>Avoid any scholarship/grant searches that require a fee. Look for free searches like <a href="http://www.fastweb.com/">fastweb</a>.</li>
-                    <li>Visit your state’s education department website to find out what grant or state-backed loans might be available to you. Some states offer education loans for their residents that are less costly than alternative education loans from private lenders.</li>
-                    <li>Federal student and parent loans are less costly than alternative private education loans, and most of these loans require a co-signer if you want to reduce the cost of the loan. The Federal Parent Loan (PLUS) has a provision for loan forgiveness in the event that either the parent or student dies or suffers 100% disability. This is not offered by private student loans where a co-signer is required for the student.</li>
+                    <li>Avoid any scholarship/grant searches that require a fee. Look for free searches like <a href="http://www.fastweb.com/">fastweb</a></li>
+                    <li>Visit your state’s education department website to find out what grant or state-backed loans might be available to you. Some states offer education loans for their residents that are less costly than alternative education loans from private lenders</li>
+                    <li>Federal student and parent loans are less costly than alternative private education loans, and most of these loans require a co-signer if you want to reduce the cost of the loan. The Federal Parent Loan (PLUS) has a provision for loan forgiveness in the event that either the parent or student dies or suffers 100% disability. This is not offered by private student loans where a co-signer is required for the student</li>
                 </ul>
             </div>
         </div>

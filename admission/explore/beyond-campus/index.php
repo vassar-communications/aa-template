@@ -8,8 +8,8 @@ include($project_paths['main_project_root'].'/functions.php');
 /* PAGE INFO === */
 
 $page_info = '{
-  "page_title":"Explore Local",
-  "page_navTitle":"Local Area",
+  "page_title":"Explore Beyond Campus",
+  "page_navTitle":"Beyond Campus",
   "feature_image":"/admission/assets/images/explore/hudson/Mid-Huson_Bridge_10_JGa.jpg"
 }';
 /* === */
@@ -28,10 +28,10 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fixedCenteredTitle_masthead(
     '<b class="slide-from-left">
       <div class="supertitle">Explore</div>
-      <div>Local</div>
+      <div>Beyond</div>
     </b>
    <!--<b class="slide-from-right">Poughkeepsie & The Hudson Valley</b>-->
-   <b class="slide-from-right">Area</b>',
+   <b class="slide-from-right">Campus</b>',
     null,
     'theme-verylightgray reveal-image',
     'mw-4',

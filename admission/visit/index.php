@@ -61,7 +61,11 @@ $page_info = [
 <?php echo masthead_interiorPage(
     'Visiting Campus',
     'All Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life.',
-    $admission_img_path.'visit/0070-19-05-kr-spring-library-vassar-6094.jpg');
+    $admission_img_path.'visit/0070-19-05-kr-spring-library-vassar-6094.jpg',
+    null,
+    null,
+    ['img_alt_text' => 'Sunset over Thompson Library on Vassar Campus']
+    );
 ?>
 
 
@@ -70,7 +74,8 @@ $page_info = [
     'Visit the Vassar Campus In Person',
     $admission_img_path.'visit/0042-21-06-kr-reception-vassar-0130.jpg',
     'image-is-first theme-charcoal bg-dark section-large-title',
-    ''
+    '',
+    ['img_alt_text' => 'Students sitting in the Shakespeare Garden on Vassar Campus']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Get to know our vibrant community first-hand and learn more about the Vassar experience.</p>
@@ -87,7 +92,8 @@ $page_info = [
     'Explore Our Virtual Opportunities',
     $admission_img_path.'visit/0191-19-10-ali-library-drone-vassar-vb-2015.jpg',
     'theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Aerial view of Thompson Library and Vassar College campus']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up section-large-title">
     <p>Vassar offers a wide array of opportunities to virtually explore the Vassar campus and to connect with our community. </p>
@@ -144,7 +150,7 @@ $page_info = [
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-<p>Register for all on-campus tours and virtual events</p>
+<p>Register for all on-campus tours and virtual events.</p>
 
 <?php echo end_item_cardWithText(
     null,

@@ -1,8 +1,26 @@
+.flipcards.grid {
+  @media (hover: none) {
+    display: block !important;
+    --flipcard-height: auto;
+  }
+}
+
+@media (hover: none) {
+  .flipcard__value {
+    margin-bottom: 2rem !important;
+  }
+  .card__face {
+    padding: 1.3rem;
+  }
+}
+
 .flip-card {
   width: 100%;
-  height: var(--flipcard-height, 2rem);
-//  margin: 40px 0;
-  perspective: 600px;
+
+  @media (hover: hover) {
+    height: var(--flipcard-height, 2rem);
+    perspective: 600px;
+  }
 
   .stretched-link {
     width: 100%;
@@ -12,37 +30,53 @@
     left: 0;
   }
 
-  &:hover{
-    .card-content {
-      transform: rotateY(180deg);
-    }
-    .card__face--front {
-     background: $dark;
+  @media (hover: none) {
+    border-radius: 1rem;
+    overflow: hidden;
+    pointer-events: none;
+    margin-bottom: 2rem;
+  }
+
+  @media (hover: hover) {
+
+    &:hover {
+      .card-content {
+        transform: rotateY(180deg);
+      }
+      .card__face--front {
+        background: $dark;
+      }
     }
   }
 }
 
 .card-content {
   color: $gray-700;
-//  border: 1px solid $gray-500;
   width: 100%;
-  height: 100%;
   transition: transform 1s;
   transform-style: preserve-3d;
-  cursor: pointer;
   position: relative;
+
+  @media (hover: hover) {
+      height: 100%;
+  }
 }
 
 .card__face {
-  position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
   padding: 2vw;
   box-shadow: 0 1em 1em rgba(0,0,0,0.2);
-  border-radius: 0.4rem;
 
+  @media (hover: hover) {
+    border-radius: 0.4rem;
+  }
+
+  @media (hover: hover) {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
 }
 
 .card__face--front {
@@ -56,7 +90,10 @@
   background: #fff;
   display: flex;
   justify-content: center;
-  transform: rotateY(180deg);
+
+  @media (hover: hover) {
+    transform: rotateY(180deg);
+  }
 }
 
 .flip-card {
@@ -70,22 +107,16 @@
     color: $gray-400;
   }
   .flipcard__title {
-  //  text-transform: uppercase;
-  //  font-size: $h5-font-size;
-  //  font-variation-settings: "wght" 400;
-  //  letter-spacing: $letter-spacing;
     color: var(--flipcard-title-color, $burgundy);
   }
   .flipcard__value {
     font-size: 6rem;
     font-family: var(--font-big-serif);
     line-height: 0.6;
-    margin: 0;
+    margin: 0 0 2.6rem 0;
   }
 }
 
-
 .card__face.card__face--back {
     font-size: $h5-font-size;
-   // font-variation-settings: "wght" 380;
 }

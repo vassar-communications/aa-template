@@ -6,11 +6,16 @@ function flipcard_stat(
     $reverse_content,
     $class=null,
     $link=null,
-    $css=null
+    $css=null,
+    $facecard_subtext=null
 ) {
 
+  $facecard_st_markup = '';
 
     if($css) { $css = sprintf('style="%s"', $css); }
+    if($facecard_subtext) {
+      $facecard_st_markup = sprintf('<div class="flipcard__subtext">%s</div>', $facecard_subtext);
+    }
 
     $link_start = null;
     $link_end = null;
@@ -24,13 +29,11 @@ function flipcard_stat(
 <div class="flip-card $class" $css>
   <div class="card-content">
     <div class="card__face card__face--front">
-      $link_start $link_end
       <div class="flipcard__title tagline mb-3">$title</div>
       <div class="flipcard__value">$value</div>
+      $facecard_st_markup
     </div>
     <div class="card__face card__face--back">
-      $link_start $link_end
-
       $reverse_content
     </div>
   </div>
