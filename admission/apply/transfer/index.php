@@ -25,16 +25,20 @@ $page_info = json_decode($page_info, true);
 <?php echo hamburger_navigation(); ?>
 
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'A person sitting on the steps using a laptop outside Rockefeller Hall']); ?>
+<?php echo page_partialmasthead(
+  $page_info['feature_image'],
+  [
+    'image_alt_text' => 'A person sitting on the steps using a laptop outside Rockefeller Hall',
+    'classes' => 'bg-image-left'
+  ]
+);
+?>
 
 
 <?php echo interior_page_nav() ?>
 
 
 <?php /*  PAGE CONTENT === */ ?>
-
-
-
 
 <?php echo sec_fullBleedImageColumn(
     'Information for Transfer Applicants',

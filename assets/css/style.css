@@ -14609,4 +14609,8 @@ ul.style-checklist a:hover {
   margin-top: 0;
 }
 
+.bg-image-left.section--top-level-masthead .section-bg:after {
+  background-position: left !important;
+}
+
 /*# sourceMappingURL=style.css.map */

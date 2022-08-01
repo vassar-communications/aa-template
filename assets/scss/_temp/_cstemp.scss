@@ -333,3 +333,8 @@ $menu-cols-gap: 4rem;
   height: 100vh !important;
   margin-top: 0;
 }
+
+
+.bg-image-left.section--top-level-masthead .section-bg:after {
+    background-position: left !important;
+}
