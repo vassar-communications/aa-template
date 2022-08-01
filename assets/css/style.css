@@ -13627,6 +13627,10 @@ ul.style-checklist a:hover {
   background: #000;
 }
 
+a.logo:hover {
+  border-bottom: none !important;
+}
+
 .btn-check:focus + .btn-light, .btn-light:focus {
   border-color: #0004ff;
 }
