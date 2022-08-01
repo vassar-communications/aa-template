@@ -84,7 +84,7 @@ $page_info = [
 
 <?php echo item_col(); ?>
 <p>Students wishing to preview the Vassar campus can watch this 30-minute video tour.</p>
-<a href="#"  data-video-id="531201548" data-channel="vimeo" class="js-video-btn px-0 btn btn-link arrow">Watch Video</a>
+<a href="#"  data-src="https://player.vimeo.com/video/531201548" data-bs-toggle="modal"  data-bs-target="#videoModal" class="video-btn px-0 btn btn-link arrow">Watch Video</a>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
@@ -93,7 +93,7 @@ $page_info = [
 echo item_imageCard_videoModal(
     null,
     null,
-    '531201548',
+    'https://player.vimeo.com/video/531201548',
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/virtual/tour-video-still.jpg',

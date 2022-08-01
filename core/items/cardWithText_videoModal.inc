@@ -22,7 +22,7 @@ function item_cardWithTextVideoModal(
     $card_image_alt = $card_image_info['alt'];
 
     return <<<TMP
-<button type="button"  data-video-id="$videourl" data-channel="$channel"  class="card js-video-btn $classes" $css>
+<button type="button"  data-bs-toggle="modal"  data-src="$videourl" data-channel="$channel"  class="card video-btn js-video-btn $classes"  data-bs-target="#videoModal" $css>
   <img src="$card_image_url" class="card-img-top" alt="$card_image_alt">
   <div class="card-body text-start">
     {$card_title($title, $extras)}

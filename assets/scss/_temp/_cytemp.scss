@@ -372,3 +372,34 @@ ul.style-checklist a:hover {
 // .footer a:hover {
   // color: #fff!important;
 // }
+
+
+
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+
+
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.btn-close {
+  position:absolute;
+  right:15px;
+  top:-65px;
+}
+
+
+#videoModal .modal-dialog {
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#videoModal .modal-content {
+  background: #000;
+}

@@ -67,7 +67,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'Late Communism in the Eastern Bloc: Can It Tell Us Anything Today?',
-    '445515683?h=866fe27c58&',
+    'https://player.vimeo.com/video/445515683?h=866fe27c58&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/late-communism-in-the-eastern-bloc.jpeg', 'alt' => 'Late Communism in the Eastern Bloc: Can It Tell Us Anything Today?' ],
     '',
@@ -80,7 +80,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'What Happens When You Don’t Recover from a Viral Infection?',
-    '449842635?h=be17268af3&',
+    'https://player.vimeo.com/video/449842635?h=be17268af3&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/what-happens-when-you-dont-recover-from-a-viral-infection.jpeg', 'alt' => 'What Happens When You Don’t Recover from a Viral Infection?' ],
     '',
@@ -92,7 +92,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'The Impact of COVID-19 on the Lives of Women in Ethiopia’s Garment Industry',
-    '442151291?h=2dd7839911&',
+    'https://player.vimeo.com/video/442151291?h=2dd7839911&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/the-impact-of-covid-19-on-the-lives-of-women-in-ethiopias-garment-industry-2.jpg', 'alt' => 'The Impact of COVID-19 on the Lives of Women in Ethiopia’s Garment Industry' ],
     '',
@@ -105,7 +105,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'Why Punish? A Conversation on Retributive Justice',
-    '441118703?h=ebb1426ff7&',
+    'https://player.vimeo.com/video/441118703?h=ebb1426ff7&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/why-punish-a-conversation-on-retributive-justice.jpeg', 'alt' => 'Why Punish? A Conversation on Retributive Justice' ],
     '',
@@ -117,7 +117,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'The White Disavowal of Racism: What It Means When the Central Park Dog-Walker, Amy Cooper, Says She’s Not a Racist',
-    '441195376?h=eda4b5bf7e&',
+    'https://player.vimeo.com/video/441195376?h=eda4b5bf7e&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/the-white-disavowal-of-racism-2.jpg', 'alt' => 'The White Disavowal of Racism: What It Means When the Central Park Dog-Walker, Amy Cooper, Says She’s Not a Racist' ],
     '',
@@ -130,7 +130,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'Beethoven, the Eroica Symphony, and Prince Lobkowitz’s Musical Workshop',
-    '442351752?h=4b3c1444b4&',
+    'https://player.vimeo.com/video/442351752?h=4b3c1444b4&',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/Beethoven-the-Eroica-Symphony.jpg', 'alt' => 'Beethoven, the Eroica Symphony, and Prince Lobkowitz’s Musical Workshop' ],
     '',
@@ -142,7 +142,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'Decolonial Practice as Anti-Racist Labor: Reflections on Indigenous Minneapolis Through Poetry',
-    '447580446?h=65c49bb57f&',
+    'https://player.vimeo.com/video/447580446?h=65c49bb57f&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/decolonial-practice-as-anti-racist-labor-reflections-on-indigenous-minneapolis-through-poetry.jpeg', 'alt' => 'Decolonial Practice as Anti-Racist Labor: Reflections on Indigenous Minneapolis Through Poetry' ],
     '',
@@ -154,7 +154,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'Molecular Insights into Microbial Pathogens: Understanding the Inner Molecular Workings of Bacteria and Viruses',
-    '450228303?h=281c87d3ac&',
+    'https://player.vimeo.com/video/450228303?h=281c87d3ac&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/molecular-insights-into-microbial-pathogens.jpeg', 'alt' => 'Molecular Insights into Microbial Pathogens: Understanding the Inner Molecular Workings of Bacteria and Viruses' ],
     '',
@@ -165,7 +165,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'Black Judges, Police Encounters, and the Administration of Justice',
-    '441114418?h=9bd31681e9&',
+    'https://player.vimeo.com/video/441114418?h=9bd31681e9&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/black-judges-police-encounters-and-the-administration-of-justice.jpeg', 'alt' => 'Black Judges, Police Encounters, and the Administration of Justice' ],
     '',
@@ -176,7 +176,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'The Port of Santo Domingo: Climate Change and the Perils of Poverty Where the Caribbean Meets the Ozama',
-    '444515356?h=06e875d9fc&',
+    'https://player.vimeo.com/video/444515356?h=06e875d9fc&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/the-port-of-santo-domingo.jpeg', 'alt' => 'The Port of Santo Domingo: Climate Change and the Perils of Poverty Where the Caribbean Meets the Ozama' ],
     '',
@@ -187,7 +187,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'The Most Beautiful of All Printed Books: William Morris’ Kelmscott Chaucer',
-    '444332664?h=c0bf8dfec7&',
+    'https://player.vimeo.com/video/444332664?h=c0bf8dfec7&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/the-most-beautiful-of-all-printed-books-william-morris-kelmscott-chaucer.jpeg', 'alt' => 'The Most Beautiful of All Printed Books: William Morris’ Kelmscott Chaucer' ],
     '',
@@ -198,7 +198,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'John Stuart Mill and the “Dismal Science”',
-    '444212755?h=6be113e12b&',
+    'https://player.vimeo.com/video/444212755?h=6be113e12b&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/john-stuart-mill-and-the-dismal-science.jpeg', 'alt' => 'John Stuart Mill and the “Dismal Science”' ],
     '',
@@ -209,7 +209,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'Studying the Formation of Planets with the James Webb Space Telescope: A Look at the Beginning of Time',
-    '441121443?h=70679985bd&',
+    'https://player.vimeo.com/video/441121443?h=70679985bd&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/studying-formation-of-planets.jpg', 'alt' => 'Studying the Formation of Planets with the James Webb Space Telescope: A Look at the Beginning of Time' ],
     '',
@@ -220,8 +220,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'Coral Reefs in a Warming World: A Look at One of the Most Spectacular Ecosystems on Earth',
-    '441129632?h=9baaef4b44&
-',
+    'https://player.vimeo.com/video/441129632?h=9baaef4b44&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/coral-reefs-in-a-warming-world-2.jpg', 'alt' => 'Coral Reefs in a Warming World: A Look at One of the Most Spectacular Ecosystems on Earth' ],
     '',
@@ -232,7 +231,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'What Can We Learn from a Tiny Worm? Three Short Tales of the Impact of Pesticides and Microplastics on Health',
-    '440702464?h=78fc2cae43&',
+    'https://player.vimeo.com/video/440702464?h=78fc2cae43&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/what-can-we-learn-from-a-tiny-worm.jpeg', 'alt' => 'What Can We Learn from a Tiny Worm? Three Short Tales of the Impact of Pesticides and Microplastics on Health' ],
     '',
@@ -243,7 +242,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'Architecture Embodying Opposites: Freedom and Slavery in Southwest Nigeria (1880s–1910s)',
-    '442150603?h=1fa3c992cf&',
+    'https://player.vimeo.com/video/442150603?h=1fa3c992cf&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/architecture-embodying-opposites.jpeg', 'alt' => 'Architecture Embodying Opposites: Freedom and Slavery in Southwest Nigeria (1880s–1910s)' ],
     '',
@@ -254,7 +253,7 @@ $page_info = [
 
 <?php echo item_cardWithTextVideoModal(
     'The Climate Challenge: International Cooperation, China and Learning from the Field',
-    '446904283?h=bd1fa913d0&',
+    'https://player.vimeo.com/video/446904283?h=bd1fa913d0&app_id=122963',
     'vimeo',
     ['url' => '/admission/assets/images/visit/video-thumbnails/the-climate-challenge-international-cooperation-china-and-learning-from-the-field.jpeg', 'alt' => 'The Climate Challenge: International Cooperation, China and Learning from the Field' ],
     '',
