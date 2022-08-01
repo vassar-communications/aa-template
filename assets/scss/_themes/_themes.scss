@@ -33,6 +33,11 @@ footer a  {
 
 a {
   color: var(--section-text-color, --color-vassar-charcoal);
+  border-bottom: 1px solid var(--section-text-color, --link-underline-color);
+
+  &:visited {
+    border-bottom: 1px dashed var(--section-text-color, --link-underline-color);
+  }
 
   &:hover,
   &:focus {

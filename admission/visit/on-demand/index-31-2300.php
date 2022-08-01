@@ -65,7 +65,7 @@ $page_info = [
 <?php echo sec_hasColumns(
     'Voices of Vassar',
     3,
-    '<p>Hear directly from our campus community about some of their favorite Vassar topics! These presentations will give you the chance to learn about life at Vassar directly.</p>',
+    '<p>Hear directly from our campus community about some of their favorite Vassar topics! These presentations will give you the chance to learn about life at Vassar directly </p>',
     '',
     ''
 ); ?>
@@ -131,7 +131,7 @@ echo item_imageCard_videoModal(
 <?php echo sec_hasColumns(
     'Weekly Features',
     2,
-    '<p>These presentations are created by students from their own points of view.</p>',
+    '<p>Hear directly from our students about some of their favorite Vassar topics! These student-designed presentations will give you the chance to learn about life at Vassar directly from the source.</p>',
     'theme-charcoal quad-pattern has-bg',
     ''
 ); ?>

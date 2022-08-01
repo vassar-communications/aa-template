@@ -13406,6 +13406,10 @@ footer a  {
 */
 a {
   color: var(--section-text-color, --color-vassar-charcoal);
+  border-bottom: 1px solid var(--section-text-color, --link-underline-color);
+}
+a:visited {
+  border-bottom: 1px dashed var(--section-text-color, --link-underline-color);
 }
 a.btn-link {
   transition: 0.4s all ease;
@@ -14136,13 +14140,11 @@ a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited
   --footer-badge-link-color: var(--color-vassar-dark-burgundy);
 }
 
-p a,
 ul.style-checklist a {
   text-decoration: none;
   border-bottom: 1px solid var(--link-underline-color, #63666A);
 }
 
-p a:hover,
 ul.style-checklist a:hover {
   border-bottom: none;
   opacity: var(--link-hover-opacity, 1);
