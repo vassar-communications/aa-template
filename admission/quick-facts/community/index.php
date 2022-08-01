@@ -511,7 +511,7 @@ echo sec_hasColumns(
 
 <?php echo sec_hasColumns(
     'How’s the Weather?',
-    '3',
+    '2',
     '<p class="intro-text">Poughkeepsie weather is close to that of New York City, with a temperate climate and four distinct seasons.</p>
     <p> We do get snow, but we are not located in a “snowbelt”, so moderate snow is the norm during the winter. Most students love spring and fall, and it is common to see professors hold classes outside on nice days. While you’ll need a hat, gloves, and scarf in the winter, you’ll be able to wear shorts and t-shirts at other times of the year.</p>',
     'items-equal-height mw-inner-2 theme-extralightgray wide-intro burgundy-icons',
@@ -523,7 +523,9 @@ echo sec_hasColumns(
     <?php echo item_stat(
       'Average Winter Temp',
       '35<span class="stat-unit">°F</span><br>
-      2<span class="stat-unit">°C</span>'
+      2<span class="stat-unit">°C</span>',
+      '',
+      'unflex-stat-values'
     ); ?>
   <?php echo end_item_col(); ?>
 
@@ -531,7 +533,9 @@ echo sec_hasColumns(
     <?php echo item_stat(
       'Average Summer Temp',
       '80<span class="stat-unit">°F</span><br>
-      27<span class="stat-unit">°C</span>'
+      27<span class="stat-unit">°C</span>',
+      '',
+      'unflex-stat-values'
     ); ?>
   <?php echo end_item_col(); ?>
 
