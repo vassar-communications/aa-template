@@ -466,8 +466,7 @@ if(is_firefox) {
   $('html').addClass('is-ff');
 }
 
-/*	esc key hides video modal
-	=================== */
+
 
 
 
@@ -483,20 +482,15 @@ $(document).ready(function() {
     console.log($videoSrc);
 
 
-
-// when the modal is opened autoplay it
     $('#videoModal').on('shown.bs.modal', function (e) {
 
-// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-        $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
+       $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
     })
-
-
 
 // stop playing the youtube video when I close the modal
     $('#videoModal').on('hide.bs.modal', function (e) {
         // a poor man's stop video
-        $("#video").attr('src',$videoSrc);
+        $("#video").attr('src','');
     })
 
     
@@ -504,8 +498,8 @@ $(document).ready(function() {
 });
 
 
-
-
+/*	esc key hides video modal
+	=================== */
 
 var elem = ".modal-video";
 
