@@ -114,7 +114,7 @@ null,
 
 <?php echo sec_fullBleedImageColumn(
     'First-Year Applicants',
-    $admission_img_path.'apply/0007_16_02_KR_0083.jpg',
+    $admission_img_path.'apply/0058-21-05-kr-spring-vassar-0030-square.jpg',
     'theme-cream',
     '',
     ['img_alt_text' => 'Two people sitting at the table in the Bridge for Laboratory Sciences seating conversing in front of a book and laptop']

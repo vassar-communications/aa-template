@@ -10,7 +10,7 @@ include_once($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"First-Year Applicants",
   "page_classes":"alive",
-  "feature_image":"/admission/assets/images/apply/0058-21-05-kr-spring-vassar-0030.jpg"
+  "feature_image":"/admission/assets/images/apply/first-year/0046_16_04_KR_0008.jpg"
 }';
 
 /* === */
