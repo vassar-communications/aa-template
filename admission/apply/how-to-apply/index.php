@@ -31,7 +31,7 @@ $page_info = json_decode($page_info, true);
     $admission_img_path.'apply/how-to-apply/110519_160over90_Vassar_0221.jpg',
     'image-is-first theme-cream',
     '',
-    ['image_alt_text' => 'Two people at a table in conversation']
+    ['img_alt_text' => 'Two people at a table in conversation']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 
