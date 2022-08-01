@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/sitewide-cards/0113-19-09-kr-families-weekend-vassar-1616.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/sitewide-cards/0141-15-10-kr-fall-campus-vassar-0003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admission/assets/images/sitewide-cards/110619_160over90_Vassar_7630.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/apply/apply-financial-aid.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/apply/apply-financial-aid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/explore/explore-academics.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/explore/explore-academics.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/inc/pages/visit/visit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/visit/visit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/quick-facts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/quick-facts/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/inc/pages/apply/apply-first-year.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/apply/apply-first-year.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/inc/pages/apply/apply-transfer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/apply/apply-transfer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
