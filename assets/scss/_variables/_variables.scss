@@ -637,9 +637,9 @@ $btn-active-border-tint-amount:   10% !default;
 $zindex-dropdown:                   1000 !default;
 $zindex-sticky:                     1020 !default;
 $zindex-fixed:                      1030 !default;
-$zindex-modal-backdrop:             1040 !default;
+$zindex-modal-backdrop:             1890 !default;
 $zindex-offcanvas:                  1050 !default;
-$zindex-modal:                      1060 !default;
+$zindex-modal:                      1990 !default;
 $zindex-popover:                    1070 !default;
 $zindex-tooltip:                    1080 !default;
 // scss-docs-end zindex-stack
@@ -783,7 +783,7 @@ $modal-content-box-shadow-xs:       $box-shadow-sm !default;
 $modal-content-box-shadow-sm-up:    $box-shadow !default;
 
 $modal-backdrop-bg:                 $black !default;
-$modal-backdrop-opacity:            .5 !default;
+$modal-backdrop-opacity:            .75 !default;
 $modal-header-border-color:         $border-color !default;
 $modal-footer-border-color:         $modal-header-border-color !default;
 $modal-header-border-width:         $modal-content-border-width !default;
