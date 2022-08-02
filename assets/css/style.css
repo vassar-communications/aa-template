@@ -12495,6 +12495,16 @@ a[data-bs-toggle=collapse]:hover {
   --nav-outline-color: #C6AA76;
 }
 
+.main-site-nav .breadcrumb,
+.main-site-nav .nav {
+  display: block;
+}
+@media screen and (min-width: 40em) {
+  .main-site-nav .breadcrumb,
+.main-site-nav .nav {
+    display: flex;
+  }
+}
 .main-site-nav .breadcrumb-item + .breadcrumb-item::before {
   float: left;
   padding-right: 0.5rem;
@@ -14643,11 +14653,11 @@ ul.style-checklist a:hover {
 }
 
 .videoplayer_button {
-  height: 40px;
-  width: 40px;
+  height: 36px;
+  width: 36px;
   position: absolute !important;
-  bottom: 40px;
-  right: 40px;
+  bottom: 0.6rem;
+  right: 0.6rem;
   z-index: 100;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
