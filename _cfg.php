@@ -56,11 +56,13 @@ $current_site = $current_site[0];
 
 if ( strpos( getcwd(), 'aa-devspace.vassarspaces.net' ) ) {
   // on devspace, path needs to change
-  $project_paths['public_path'] = '/' . $current_site;
+  $project_paths['public_path'] = 'https://www.vassar.edu/' . $current_site;
   $project_paths['comment'] = 'devspace';
+  $project_paths['final_url'] = 'https://www.vassar.edu';
 }
 else {
   $project_paths['comment'] = 'not devspace';
+  $project_paths['final_url'] = '';
 }
 
 //  These are just to make it easier to specify obvious placeholders

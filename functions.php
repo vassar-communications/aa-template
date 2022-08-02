@@ -379,6 +379,18 @@ function breadcrumb() {
 
   global $project_paths;
 
+
+  // final_url is the root. I'd been keeping that relative (/) but
+  // Morgan's scraper needs it to be more specific.
+
+  // detect what server we're on. If it's aa-dev, final_url should
+  // be https://www.vassar.edu/. If not, it should be relative; otherwise,
+  // "Admission" in the breadcrumb trail will link to https://www.vassar.edu/admission, and anyone looking at the site will be going to a page that
+  // doesn't exist yet.
+
+
+
+
   //  How the breadcrumb works:
   //  - If a section has children, it should appear in the breadcrumb
   //  - If a section has no children (it's an endpoint page) it should
