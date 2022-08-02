@@ -227,8 +227,7 @@ $page_info = json_decode($page_info, true);
     '/admission/assets/images/quick-facts/community/Kaleidoscope-0139_16_11_KR_0077.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Students on stage with international flags'],
-    ['title_level' => '3']
+    ['title_level' => '3','img_alt_text' => 'Students on stage with international flags'],
 ); ?>
   <div class="animate-when-content-appears animation-slide-up burgundy-icons">
 
@@ -270,7 +269,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Off-Campus',
+    'Off Campus',
     '/admission/assets/images/quick-facts/community/Hudson-Line-Courtesy-of-MTA-Metro-North-Railroad---Photo-by-Frank-English_240662ea-c662-4239-2e603bad1ee52568.jpg',
     'theme-charcoal gold-icons',
     '',
@@ -408,8 +407,7 @@ echo sec_hasColumns(
     $quickfacts_img_path.'THs-0144-15-05-hw-dorm-vassar-vb-3813.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Student in a dorm kitchen behind a counter cutting food'],
-    ['title_level' => '3']
+    ['title_level' => '3','img_alt_text' => 'Student in a dorm kitchen behind a counter cutting food'],
 ); ?>
   <div class="animate-when-content-appears animation-slide-up burgundy-icons">
 
@@ -513,7 +511,7 @@ echo sec_hasColumns(
     'How’s the Weather?',
     '2',
     '<p class="intro-text">Poughkeepsie weather is close to that of New York City, with a temperate climate and four distinct seasons.</p>
-    <p> We do get snow, but we are not located in a “snowbelt”, so moderate snow is the norm during the winter. Most students love spring and fall, and it is common to see professors hold classes outside on nice days. While you’ll need a hat, gloves, and scarf in the winter, you’ll be able to wear shorts and t-shirts at other times of the year.</p>',
+    <p> We do get snow, but we are not located in a “snowbelt,” so moderate snow is the norm during the winter. Most students love spring and fall, and it is common to see professors hold classes outside on nice days. While you’ll need a hat, gloves, and scarf in the winter, you’ll be able to wear shorts and t-shirts at other times of the year.</p>',
     'items-equal-height mw-inner-2 theme-extralightgray wide-intro burgundy-icons',
     'gap-3',
     ['title_level' => '3']
