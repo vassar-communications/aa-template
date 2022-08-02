@@ -19,12 +19,17 @@
   --font-title-serif: freight-big-pro;
   --regularContent-font-size: calc(1.165rem + 0.18vw);
   --regularContent-lineHeight: 1.5;
-  --regularContent-font-weight: "wght" 360;
+  --regularContent-font-weight: "wght" 400;
   --font-icons: "Font Awesome 6 Free";
   --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
   --gradient--black-to-transparent: linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 40%, rgba(0,0,0,0.0) 60%, rgba(0,0,0,0) 100%);
   --text-shadow: 0 0 1rem rgb(0 0 0 / 40%);
   --bg-shim-background: rgba(0,0,0,0.2);
+}
+@media (min-width: 1024px) {
+  :root {
+    --regularContent-font-weight: "wght" 360;
+  }
 }
 
 html {
