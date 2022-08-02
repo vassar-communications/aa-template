@@ -40,6 +40,9 @@ $deadlines['regular-decision'] = 'January 4, 2023';
 $deadlines['spring-transfer'] = 'November 1, 2022';
 $deadlines['fall-transfer'] = 'March 15, 2023';
 
+$deadlines['portfolio-early-decision-1'] = 'November 17, 2022';
+$deadlines['portfolio-early-decision-2'] = 'January 4, 2023';
+
 
 
 /* Template Parts */
