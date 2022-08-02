@@ -15017,6 +15017,10 @@ a.logo:hover {
   background-position: right !important;
 }
 
+.bg-image-top.section--top-level-masthead .section-bg:after {
+  background-position: top !important;
+}
+
 .accordion-button {
   font-size: 1.2rem;
 }

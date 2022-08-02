@@ -24,7 +24,13 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Two people sitting and talking']); ?>
+<?php echo page_partialmasthead(
+  $page_info['feature_image'],
+  [
+    'image_alt_text' => 'Two people sitting and talking',
+    'classes' => 'bg-image-top'
+  ]
+); ?>
 
 <?php echo interior_page_nav() ?>
 
