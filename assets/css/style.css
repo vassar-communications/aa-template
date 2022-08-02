@@ -9676,8 +9676,26 @@ h2.border-animate:after, .border-animate.h2:after {
   background: transparent;
 }
 
-.hey-im-broken {
-  border: 4px solid #f0f !important;
+.link--cta {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  transition: 0.4s all ease;
+}
+.link--cta .fa-arrow-right {
+  padding: 0.4rem;
+  border-radius: 5rem;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid var(--section-link-color, var(--color-vassar-burgundy));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s all ease;
+}
+.link--cta:hover .fa-arrow-right, .link--cta:focus .fa-arrow-right {
+  background: var(--section-link-color, var(--color-vassar-burgundy));
+  color: var(--section-bg-color, #fff);
 }
 
 .btn.has-icon {
@@ -10998,7 +11016,6 @@ html {
 
 .video-header {
   background: #000;
-  transform: scale(2);
   transition: 2s all ease;
   opacity: 0;
   padding: 0;
@@ -12458,9 +12475,13 @@ a[data-bs-toggle=collapse]:hover {
 }
 
 .nav--top a {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   letter-spacing: 0.08rem;
   font-variation-settings: "wght" 500;
+}
+.nav--top a:hover, .nav--top a:focus {
+  background: #951829;
+  color: #fff;
 }
 
 :root {
@@ -14056,8 +14077,8 @@ a.btn-link:visited {
 }
 a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited:focus {
   background-color: transparent;
-  color: var(--section-link-color, #e00);
 }
+
 footer a {
   border: 1px solid transparent;
 }

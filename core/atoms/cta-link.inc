@@ -12,7 +12,10 @@ if($link_url == '')
 
 $link_css = get_extras_value( 'css', $extras, 'style="%s"' );
 $icon_markup = <<<TMP
-  <a href="$link_url" class="btn btn-link link--cta arrow $link_classes" $link_css>$link_text</a>
+  <a href="$link_url" class="btn btn-link link--cta xarrow $link_classes" $link_css>
+  <span>$link_text</span>
+  <i class="fa-solid fa-arrow-right"></i>
+  </a>
 TMP;
 
   return $icon_markup;

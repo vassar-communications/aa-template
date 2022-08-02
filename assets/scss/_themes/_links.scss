@@ -73,11 +73,7 @@ a.btn-link {
   &:focus,
   &:visited:focus {
     background-color: transparent;
-    color: var(--section-link-color, #{$red});
-
-    &:after {
-
-    }
+//    color: var(--section-link-color, #{$red});
   }
 }
 

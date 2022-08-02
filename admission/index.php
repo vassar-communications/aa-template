@@ -30,7 +30,7 @@ $page_info = json_decode($page_info, true);
 
 <!--<div class="buffer"></div>-->
 
-<?php echo sec_siteHeader_video(); ?>
+  <?php echo sec_siteHeader_video(); ?>
 
 <a href="/admission/apply/" class="m-2 btn btn-lg btn-primary arrow">Apply</a>
 <a href="/admission/visit/" class="m-2  btn btn-lg btn-primary arrow">Visit</a>
