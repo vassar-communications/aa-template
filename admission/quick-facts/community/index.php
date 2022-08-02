@@ -61,23 +61,22 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
       'Student body',
-      '2,450',
-      'from all regions of the United States and 55 foreign countries'
+      $facts['number_of_students'],
     ); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
       'Students of color',
-      '33%',
-      'in recent classes'
+      $class_stats['students_of_color'],
+      ''
     ); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
       'Student organizations',
-      '170',
+      $resources['student_orgs'],
       '<a href="https://vsa.vassar.edu/">See all our orgs <i class="fa-solid fa-arrow-right ms-1"></i></a>'
     ); ?>
   <?php echo end_item_col(); ?>
@@ -85,7 +84,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
       '',
-      '65%',
+      $class_stats['attd_public_school'],
       'attended public high schools'
     ); ?>
   <?php echo end_item_col(); ?>
@@ -93,24 +92,24 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
       '',
-      '35%',
+      $class_stats['attd_private_school'],
       'attended private/parochial schools'
     ); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
-      'Men',
-      '58%',
-      'national average for national liberal arts colleges'
+      'Male',
+      $class_stats['percentage_male'],
+      null
     ); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
-      'Women',
-      '42%',
-      'national average for national liberal arts colleges'
+      'Female',
+      $class_stats['percentage_female'],
+      null
     ); ?>
   <?php echo end_item_col(); ?>
 
@@ -126,8 +125,10 @@ $page_info = json_decode($page_info, true);
     '/admission/assets/images/quick-facts/community/res-quad-2105-kr-vassar-0033.jpg',
     'image-is-first theme-burgundy',
     '',
-    ['img_alt_text' => 'Group of students relaxing on lawn in the residential quad on Vassar Campus. One student in a hammock.'],
-    ['title_level' => '3']
+    [
+      'img_alt_text' => 'Group of students relaxing on lawn in the residential quad on Vassar Campus. One student in a hammock.',
+      'css' => '--icon-item-border-color: rgba(255,255,255,0.2)'
+    ]
 ); ?>
 
   <div class="animate-when-content-appears animation-slide-up gold-icons">
@@ -227,7 +228,11 @@ $page_info = json_decode($page_info, true);
     '/admission/assets/images/quick-facts/community/Kaleidoscope-0139_16_11_KR_0077.jpg',
     'image-is-first theme-cream',
     '',
-    ['title_level' => '3','img_alt_text' => 'Students on stage with international flags'],
+    [
+      'title_level' => '3',
+      'img_alt_text' => 'Students on stage with international flags',
+      'css' => '--icon-item-border-color: rgba(0,0,0,0.1)'
+    ],
 ); ?>
   <div class="animate-when-content-appears animation-slide-up burgundy-icons">
 
@@ -273,9 +278,11 @@ $page_info = json_decode($page_info, true);
     '/admission/assets/images/quick-facts/community/Hudson-Line-Courtesy-of-MTA-Metro-North-Railroad---Photo-by-Frank-English_240662ea-c662-4239-2e603bad1ee52568.jpg',
     'theme-charcoal gold-icons',
     '',
-    ['title_level' => '3',
-    'img_alt_text' => 'Metro North train heading south to New York City'
-  ]
+    [
+      'title_level' => '3',
+      'img_alt_text' => 'Metro North train heading south to New York City',
+      'css' => '--icon-item-border-color: rgba(255,255,255,0.1)'
+    ]
 ); ?>
   <div class="animate-when-content-appears animation-slide-up">
     <div class="icon-items-list">

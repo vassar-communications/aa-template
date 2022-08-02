@@ -1,5 +1,15 @@
 <?php
 
+function format_stat($stat_figure) {
+  $stat_figure = str_ireplace('%', '<span class="stat-unit">%</span>', $stat_figure);
+
+  $stat_figure = str_ireplace('$', '<span class="stat-unit">$</span>', $stat_figure);
+
+  $stat_figure = str_ireplace(':', '<span class="delimiter-colon">:</span>', $stat_figure);
+
+  return $stat_figure;
+}
+
 function item_stat(
   $stat_label,
   $stat_figure,
@@ -24,10 +34,7 @@ function item_stat(
   if (!$heading_level) $heading_level = 3;
 $title_classes = get_extras_value( 'title_classes', $extras );
 
-$stat_figure = str_ireplace('%', '<span class="stat-unit">%</span>', $stat_figure);
-
-$stat_figure = str_ireplace('$', '<span class="stat-unit">$</span>', $stat_figure);
-
+  $stat_figure = format_stat($stat_figure);
 
 
 //  Check if a bg image was specified, and
