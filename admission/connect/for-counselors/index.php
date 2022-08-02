@@ -57,13 +57,13 @@ $page_info = json_decode($page_info, true);
     Fax: <a href="fax:1-845-437-7063">(845) 437-7063</a>
 
 </p>
-
+<!--
 <h3>Join the Counselor Mailing List</h3>
 <p>
     Sign up to receive updates from the Vassar Office of Admission.</p>
 
 <p class="hey-im-broken">
-    Embed Mailing List Sign-up form</p>
+    Embed Mailing List Sign-up form</p>-->
 
 
 

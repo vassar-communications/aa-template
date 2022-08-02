@@ -200,7 +200,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_stat(
       'Med school admit rate',
       '85%',
-      'including Vanderbilt, Columbia, Dartmouth, and Harvard'
+      'including Vanderbilt, Columbia, Dartmouth, and Harvard.'
     ); ?>
   <?php echo end_item_col(); ?>
 
