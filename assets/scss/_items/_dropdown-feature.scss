@@ -1,4 +1,6 @@
 .dropdown--feature {
+  summary::-webkit-details-marker {display: none; }
+
   summary {
     font-size: $h2-font-size;
     position: relative;

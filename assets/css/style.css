@@ -10065,6 +10065,9 @@ details.open .dropdown__content {
   overflow: hidden;
 }
 
+.dropdown--feature summary::-webkit-details-marker {
+  display: none;
+}
 .dropdown--feature summary {
   font-size: 2rem;
   position: relative;
