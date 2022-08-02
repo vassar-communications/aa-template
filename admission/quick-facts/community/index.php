@@ -382,7 +382,7 @@ echo sec_hasColumns(
   <?php echo item_col(); ?>
     <?php echo item_stat(
       null,
-      '98%',
+      '96%',
       'of Vassar students live on campus'
     ); ?>
   <?php echo end_item_col(); ?>
