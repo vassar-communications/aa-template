@@ -50,7 +50,7 @@ $page_info = json_decode($page_info, true);
     '3',
     '<p>The total cost to attend Vassar is $'.$facts['adm_total_cost'].'.</p>',
     'mw-inner-4 theme-extralightgray',
-    'gap-3'
+    'gap-3 items-equal-height'
 ); ?>
 
   <?php echo item_col(); ?>
