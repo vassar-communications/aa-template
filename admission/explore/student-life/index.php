@@ -116,7 +116,7 @@ $page_info = [
 
 <?php echo sec_wideContent(
     null,
-    animated_statement('It’s Not Student Housing, It’s Home').'<p class="intro-text">Our nine historic residential houses are the heart of Vassar. You won’t find a Greek system on campus—a fact we celebrate—and 97% of students choose to live on campus.</p>',
+    animated_statement('It’s Not Student Housing, It’s Home').'<p class="intro-text">Our nine historic residential houses are the heart of Vassar. You won’t find a Greek system on campus—a fact we celebrate—and 96% of students choose to live on campus.</p>',
     'theme-charcoal bg-dark quad-pattern has-bg animate-when-content-appears mw-inner-5 px-0 text-center',
     'mt-6'
 ); ?>

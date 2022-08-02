@@ -65,10 +65,6 @@ $page_info = json_decode($page_info, true);
 <p>Group visits can be customized to fit the needs of the group. Presentations can include topics such as choosing a major or writing a college admission essay, or Q&A sessions with current students.</p>
 <p class="mb-5">Group tours can be scheduled Monday through Friday between 9 a.m. and 5 p.m. ET, based on availability. To schedule, email <a href="">admissions@vassar.edu</a>.</p>
 
-<?php echo cta_link(
-  'mailto:admissions@vassar.edu',
-  'Schedule a Group Tour'
-); ?>
 
 <?php echo end_item_iconItem(); ?>
 
