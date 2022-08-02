@@ -109,7 +109,7 @@ $page_info = json_decode($page_info, true);
     <?php echo end_accordion_item();?>
 
     <?php echo accordion_item('policies', 'SAT II Subject Tests (Optional)');?>
-<p>SAT Subject Tests are&nbsp;<strong>not required</strong>, and students opting not to send Subject Tests will not be penalized. However, SAT Subject Tests will be considered if submitted as part of a testing profile. Subject Tests may enhance an applicant’s credentials, particularly for applicants from non-traditional school backgrounds (homeschooled, non-graded schools, etc.). Note that a strong score on an SAT Subject Test is also one way to fulfill Vassar’s&nbsp;<a href="https://catalogue.vassar.edu/content.php?catoid=38&amp;navoid=6763#foreign_language_proficiency">Foreign Language Proficiency requirement</a>.</p>
+<p>SAT Subject Tests are&nbsp;<strong>not required</strong>, and students opting not to send Subject Tests will not be penalized. However, SAT Subject Tests will be considered if submitted as part of a testing profile. Subject Tests may enhance an applicant’s credentials, particularly for applicants from non-traditional school backgrounds (homeschooled, non-graded schools, etc.). Note that a strong score on an SAT Subject Test is also one way to fulfill Vassar’s&nbsp;<a href="https://go.vassar.edu/degree-requirements-courses-of-study">Foreign Language Proficiency requirement</a>.</p>
     <?php echo end_accordion_item();?>
 
     <?php echo accordion_item('policies', 'ACT');?>
