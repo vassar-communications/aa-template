@@ -34,14 +34,14 @@ $facts['adm_total_cost'] = number_format($facts['adm_total_cost']);
 
 $facts['number_of_majors'] = '50';
 
-$deadlines['early-decision-1'] = 'November 15, 2022';
-$deadlines['early-decision-2'] = 'January 4, 2023';
-$deadlines['regular-decision'] = 'January 4, 2023';
-$deadlines['spring-transfer'] = 'November 1, 2022';
-$deadlines['fall-transfer'] = 'March 15, 2023';
+$deadlines['early-decision-1'] = 'November 15';
+$deadlines['early-decision-2'] = 'January 4';
+$deadlines['regular-decision'] = 'January 4';
+$deadlines['spring-transfer'] = 'November 1';
+$deadlines['fall-transfer'] = 'March 15';
 
-$deadlines['portfolio-early-decision-1'] = 'November 17, 2022';
-$deadlines['portfolio-early-decision-2'] = 'January 4, 2023';
+$deadlines['portfolio-early-decision-1'] = 'November 17, 2021';
+$deadlines['portfolio-early-decision-2'] = 'January 4, 2022';
 
 
 
