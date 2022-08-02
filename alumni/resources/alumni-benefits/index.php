@@ -44,14 +44,14 @@ $page_info = json_decode($page_info, true);
     'Alumni Benefits',
     '2',
     '<p>In addition to VassarConnects—an online community in which alumni can connect with each other and with the college through its <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=6&cid=41#/Search/Simple">Alumni Directory</a> and <a href="http://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=61">other services</a>, the following benefits are also available:</p>',
-    'theme-cream',
+    'theme-dark-burgundy quad-pattern has-bg',
     ''
 
 ); ?>
 <?php echo item_cardWithText(
     'Library',
-    '#',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    'https://library.vassar.edu/',
+    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/0069-19-05-kr-spring-vassar-4173.jpg', 'alt' => 'replacealttext' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 
@@ -59,13 +59,13 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo end_item_cardWithText(
-    'Library Website',
+    '',
 ); ?>
 
 <?php echo item_cardWithText(
     'Fitness Center',
-    '/admission/apply/',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    'https://www.vassarathletics.com/facilities',
+    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/AFCtrack6.jpg', 'alt' => 'replacealttext' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 
@@ -74,14 +74,14 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo end_item_cardWithText(
-    'Athletics Website?',
+    '',
 ); ?>
 
 
 <?php echo item_cardWithText(
     'Vassar Alumni ID Card',
-    '/admission/apply/',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    'https://offices.vassar.edu/card/alumni-id-card-request/',
+    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/0138-15-11-kr-vcdf-vassar-0090.jpg', 'alt' => 'replacealttext' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 
@@ -90,35 +90,35 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo end_item_cardWithText(
-    'Request an Alumni ID',
+    '',
 ); ?>
 
 
 
 <?php echo item_cardWithText(
     'Vassar Email Address',
-    '/admission/apply/',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=429',
+    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/adlov-taylor-vq-vassar-0911-lrr-8293.jpg', 'alt' => 'replacealttext' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>Alumni can obtain a Vassar-branded @alum.vassar.edu email address/account.</p>
 
 
 <?php echo end_item_cardWithText(
-    'Learn more',
+    '',
 ); ?>
 
 
 <?php echo item_cardWithText(
     'VassarNet',
-    '#',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    'https://vassarnet.vassar.edu/',
+    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/0039-22-06-cs-reunion-vassar-347.jpg', 'alt' => 'replacealttext' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>Alumni, students, parents, faculty, and friends of Vassar can join to build their network and find Vassar-connected career networking opportunities.</p>
 
 <?php echo end_item_cardWithText(
-    'Join Vassarnet',
+    '',
 ); ?>
 
 
@@ -126,12 +126,12 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Grants & Fellowships',
     '/alumni/resources/grants-fellowships',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    ['url' =>  $alumni_img_path.'alumni-resources/alumni-benefits/Jonathan_Kaiman.jpg', 'alt' => 'replacealttext' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>Alumni are eligible to apply for a variety of grants and fellowships.</p>
 <?php echo end_item_cardWithText(
-    'Learn more about Grants & Fellowships',
+    '',
 ); ?>
 
 

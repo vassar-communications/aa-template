@@ -2,8 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/generation-vassar/1917-Field_Day_1917-VC ARCHIVE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/generation-vassar/Vassar_Library_Timelapse_Set02_20210114_KR_0233.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/generation-vassar/Vassar_Library_Timelapse_Set03_20210114_KR_0218.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/reunion/Reunion_1806_CS_073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/reunion/Reunion_Parade_180609_KR_8754.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/reunion/Reunion_Saturday_190608_CS-V815-310.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/reunion/Vassar_Reunion_4706.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/travel-program/Alaska_2013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/travel-program/Amazon_River_Cruise_Mach_Picchu_2017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/travel-program/Canadian_Rockies_2014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/travel-program/delphi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/alumni-benefits/0039-22-06-cs-reunion-vassar-347.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/alumni-benefits/0069-19-05-kr-spring-vassar-4173.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/alumni-benefits/0138-15-11-kr-vcdf-vassar-0090.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/alumni-benefits/AFCtrack6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/alumni-benefits/Jonathan_Kaiman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/alumni-benefits/adlov-taylor-vq-vassar-0911-lrr-8293.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/grants-fellowships/0006-19-01-kr-scc-career-clusters-vassar-0830.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/grants-fellowships/J_Kramer_162_HR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/grants-fellowships/Longitude_SE_dummy_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/calendar/on-demand-programs/index-abandoned.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/virtual-programs/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/virtual-programs/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/calendar/generation-vassar/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/generation-vassar/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/calendar/on-demand-programs/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/on-demand-programs/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/calendar/reunions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/reunions/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/calendar/travel-program/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/travel-program/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/give/volunteer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/volunteer/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/inc/pages/resources/resources-grants.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/inc/pages/resources/resources-grants.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/inc/pages/resources/resources-vassar-network.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/inc/pages/resources/resources-vassar-network.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/resources/alumni-benefits/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumni-benefits/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/resources/grants-fellowships/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/grants-fellowships/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/resources/the-vassar-network/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/the-vassar-network/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +116,7 @@
       <workItem from="1657765727741" duration="22691000" />
       <workItem from="1658910269180" duration="17914000" />
       <workItem from="1658979377387" duration="17153000" />
-      <workItem from="1659422829449" duration="42000" />
+      <workItem from="1659422829449" duration="13944000" />
     </task>
     <servers />
   </component>
