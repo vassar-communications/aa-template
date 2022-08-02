@@ -30,15 +30,24 @@
     padding: clamp(1rem, 10%, 4rem);
 
     .section-title {
-      text-align: left;
+      text-align: center;
+
+      @include break(md) {
+        text-align: left;
+
+      }
 
       &:after {
-        left: 0;
+        left: calc(50% - 0.5em);
+
+        @include break(md) {
+          left: 0;
+        }
       }
     }
   }
 
-  @media (min-width: 1024px) {
+        @include break(md) {
     min-height: 100vh;
     .columns  {
       display: grid;
@@ -71,7 +80,7 @@
     order: 2;
   }
 
-  @media (min-width: 1024px) {
+      @include break(md) {
 
     .col--text {
       min-height: 100vh;
@@ -90,7 +99,7 @@
     left: 0;
   }
 
-  @media (min-width: 1024px) {
+      @include break(md) {
 
     .col--text {
     min-height: 100vh;
@@ -104,7 +113,7 @@
 }
 
 
-@media (max-width: 1023px) {
+      @include break(md, max) {
   .masthead--interiorPage .full-bleed-image-container {
     max-height: 60vh;
   }
