@@ -56,7 +56,8 @@ $current_site = $current_site[0];
 
 if ( strpos( getcwd(), 'aa-devspace.vassarspaces.net' ) ) {
   // on devspace, path needs to change
-  $project_paths['public_path'] = 'https://www.vassar.edu/' . $current_site;
+//  $project_paths['public_path'] = 'https://www.vassar.edu/' . $current_site;
+  $project_paths['public_path'] = '/admission/' . $current_site;
   $project_paths['comment'] = 'devspace';
   $project_paths['final_url'] = 'https://www.vassar.edu';
 }
