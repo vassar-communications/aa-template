@@ -24,7 +24,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo page_partialmasthead(
   $page_info['feature_image'],
-  ['image_alt_text' => 'Person playing violin in the Frances Lehman Loeb Art Gallery']
+  ['image_alt_text' => 'Person playing violin in the Frances Lehman Loeb Art Gallery','classes' => 'bg-image-right']
 ); ?>
 
 <?php echo interior_page_nav() ?>
