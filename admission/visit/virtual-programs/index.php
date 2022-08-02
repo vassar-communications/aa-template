@@ -77,7 +77,7 @@ $page_info = [
     'content-classes'
 ); ?>
 
-  <p class="text-center mb-5">Students wishing to preview the Vassar campus can watch this 30-minute video tour.</p>
+  <p class="text-center mb-5">Preview the Vassar campus in this 30-minute video tour.</p>
 
   <?php echo item_imageCard_videoModal(
       null,
