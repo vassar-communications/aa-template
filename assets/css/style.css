@@ -10035,9 +10035,9 @@ button.accordion-button {
 
 button.accordion-button:hover,
 button.accordion-button:focus {
-  background: #dee2e6;
+  background: #951829;
   border-bottom: 1px solid #e00;
-  color: #951829;
+  color: #fff;
 }
 
 details[open] {
@@ -13603,6 +13603,7 @@ ul.style-checklist a {
 }
 .info-card .the-icon {
   font-size: 1.4rem;
+  margin-bottom: 0;
 }
 
 .red-alert {
@@ -13615,7 +13616,6 @@ ul.style-checklist a {
 .has-title .alert-header {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
   border-bottom: 1px solid #ddd;
   margin-bottom: 0.4rem;
   padding-bottom: 0.4rem;

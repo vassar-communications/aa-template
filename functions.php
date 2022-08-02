@@ -446,28 +446,29 @@ function breadcrumb() {
   // Sooo...
 
   $path_in_pieces = explode('/', $current_path);
-  $path = '';
+  $path = '/';
 
-  $breadcrumb_markup = '<ol class="breadcrumb">';
+  $breadcrumb_markup = '';
   $crumb_level = 1;
 
   foreach ($path_in_pieces as &$item) {
-    if($item == '') {
-      $path = '/';
-      $title = 'Home';
-    }
-    else {
+    if($item !== '') {
       $path .= $item.'/';
       $item_info = get_page_vars($_SERVER['DOCUMENT_ROOT'].$path);
 
       $title = $item_info['page_title'];
-    }
+
     $breadcrumb_markup .= crumb_item($project_paths['final_url'].$path, $title, 'level-'.$crumb_level);
     $crumb_level++;
+    }
+
   }
   unset($item);
 
-  return $breadcrumb_markup.'</ol>';
+  $home_item = crumb_item('https://www.vassar.edu', 'Home', 'level-1');
+  $breadcrumb_markup = $home_item.$breadcrumb_markup;
+
+  return '<ol class="breadcrumb">'.$breadcrumb_markup.'</ol>';
 }
 
 function interior_page_nav() {

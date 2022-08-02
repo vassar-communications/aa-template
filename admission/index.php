@@ -10,9 +10,9 @@ include( $project_paths['main_project_root'] . '/functions.php');
 /* PAGE INFO === */
 
 $page_info = '{
-  "page_title":"Vassar Admission",
+  "page_title":"Admission",
   "page_classes":"home",
-  "nav_title":"Admission"
+  "page_navTitle":"Admission"
 }';
 
 /* === */

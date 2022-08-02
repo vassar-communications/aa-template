@@ -89,9 +89,9 @@ button.accordion-button {
 }
 button.accordion-button:hover,
 button.accordion-button:focus {
-  background: $gray-300;
+  background: $burgundy;
   border-bottom: 1px solid $red;
-  color: $burgundy;
+  color: #fff;
 }
 
 details[open] {
