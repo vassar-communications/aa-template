@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
     'Our Students',
     '3',
-    '<p class="intro-text">Diverse in every sense of the word, Vassar students practice many different religions and are of different sexual orientations. Our students come from all regions of the United States and 55 foreign countries.</p>',
+    '<p class="intro-text">Diverse in every sense of the word, Vassar students practice many different religions and are of different sexual orientations. Our students come from all regions of the United States and '.$class_stats['number_of_countries'].' foreign countries.</p>',
     'items-equal-height mw-inner-3 theme-extralightgray cols-6 animate-when-content-appears animation-group animation-fade-in',
     'gap-3'
 ); ?>
