@@ -12998,6 +12998,10 @@ html {
   padding: 4rem;
 }
 
+.carousel-cell-content {
+  position: relative;
+}
+
 .featureImage-text-ticker .carousel-cell.is-selected {
   z-index: 10;
 }
@@ -13016,9 +13020,6 @@ html {
   z-index: 10;
   position: relative;
   transition: 0.4s all ease;
-}
-.featureImage-text-ticker .figcaption {
-  position: relative;
 }
 .featureImage-text-ticker .figcaption:before, .featureImage-text-ticker .figcaption:after {
   position: absolute;
@@ -13041,19 +13042,24 @@ html {
   border-top: none;
   border-left: none;
 }
-.featureImage-text-ticker .carousel-cell.is-link:hover {
+.featureImage-text-ticker .carousel-cell.is-link:hover,
+.featureImage-text-ticker .carousel-cell.is-link:focus {
   cursor: pointer;
 }
-.featureImage-text-ticker .carousel-cell.is-link:hover i.circle.fa-solid {
+.featureImage-text-ticker .carousel-cell.is-link:hover i.circle.fa-solid,
+.featureImage-text-ticker .carousel-cell.is-link:focus i.circle.fa-solid {
   background: #fff;
   color: #e00;
 }
-.featureImage-text-ticker .carousel-cell.is-link:hover .figcaption:before, .featureImage-text-ticker .carousel-cell.is-link:hover .figcaption:after {
+.featureImage-text-ticker .carousel-cell.is-link:hover .figcaption:before, .featureImage-text-ticker .carousel-cell.is-link:hover .figcaption:after,
+.featureImage-text-ticker .carousel-cell.is-link:focus .figcaption:before,
+.featureImage-text-ticker .carousel-cell.is-link:focus .figcaption:after {
   width: calc(100% - (2 * 0.6rem));
   height: calc(100% - (2 * 0.6rem));
   opacity: 1;
 }
-.featureImage-text-ticker .carousel-cell.is-link:hover img {
+.featureImage-text-ticker .carousel-cell.is-link:hover img,
+.featureImage-text-ticker .carousel-cell.is-link:focus img {
   filter: brightness(1.2);
   transform: scale(1.04);
 }
@@ -13107,7 +13113,7 @@ html {
   padding: 0.2rem 0.8rem;
   border-radius: 4rem;
 }
-.carousel-cell.is-link .stretched-link:hover {
+.carousel-cell.is-link .stretched-link:hover, .carousel-cell.is-link .stretched-link:focus {
   background: #fff !important;
   color: #641A2B !important;
 }
@@ -14982,6 +14988,10 @@ a.logo:hover {
 
 .bg-image-left.section--top-level-masthead .section-bg:after {
   background-position: left !important;
+}
+
+.bg-image-right.section--top-level-masthead .section-bg:after {
+  background-position: right !important;
 }
 
 /*# sourceMappingURL=style.css.map */

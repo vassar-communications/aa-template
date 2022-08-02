@@ -47,9 +47,9 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo deadlines('Interview Request Deadlines'); ?>
-    <?php echo deadlines_item('Early Decision Round 1', 'November 15, 2022'); ?>
-    <?php echo deadlines_item('Early Decision Round 2', 'January 1, 2023'); ?>
-    <?php echo deadlines_item('Regular Decision', 'January 7, 2023'); ?>
+    <?php echo deadlines_item('Early Decision I', $deadlines['early-decision-1']); ?>
+    <?php echo deadlines_item('Early Decision II', $deadlines['early-decision-2']); ?>
+    <?php echo deadlines_item('Regular Decision', $deadlines['regular-decision']); ?>
   <?php echo end_deadlines(); ?>
 
 

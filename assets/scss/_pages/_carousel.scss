@@ -106,7 +106,9 @@ $border-distance: 0.6rem;
   padding: 4rem;
 }
 
-
+.carousel-cell-content {
+  position: relative;
+}
 
 .featureImage-text-ticker {
   .carousel-cell.is-selected {
@@ -131,7 +133,7 @@ $border-distance: 0.6rem;
   }
 
   .figcaption {
-    position: relative;
+//    position: relative;
 
     &:before, &:after {
       position: absolute;
@@ -155,7 +157,8 @@ $border-distance: 0.6rem;
       border-left: none;
     }
   }
-  .carousel-cell.is-link:hover {
+  .carousel-cell.is-link:hover,
+  .carousel-cell.is-link:focus {
     cursor: pointer;
 
     i.circle.fa-solid {
@@ -240,7 +243,8 @@ $border-distance: 0.6rem;
     padding: 0.2rem 0.8rem;
     border-radius: 4rem;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background: #fff !important;
       color: #641A2B !important;
     }

@@ -34,6 +34,9 @@ $facts['adm_total_cost'] = number_format($facts['adm_total_cost']);
 
 $facts['number_of_majors'] = '50';
 
+$deadlines['early-decision-1'] = 'November 15, 2022';
+$deadlines['early-decision-2'] = 'January 1, 2023';
+$deadlines['regular-decision'] = 'January 7, 2023';
 
 
 
