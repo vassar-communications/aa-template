@@ -233,7 +233,7 @@ $page_info = json_decode($page_info, true);
 
       <?php echo item_iconItem(
         null,
-        'face-smile',
+        'cookie-bite',
         'icon-on-left'
       ); ?>
           <p>Popular on-campus hangouts include late-night dining at Gordon Commons, the College Center, the Food Truck, and Dorm Multi-Purpose Rooms and Parlors.</p>
