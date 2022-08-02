@@ -38,7 +38,7 @@
     background-color: rgba(0,0,0,0.1);
     border: none;
   }
-  span {
+  .dropdown-title {
     display: block;
     position: relative;
     padding-left: 2.4rem;
@@ -50,7 +50,7 @@
 }
 
 
-.dropdown--feature span {
+.dropdown--feature .dropdown-title {
   font-family: var(--font-big-serif);
   font-weight: bold;
   letter-spacing: -0.04rem;

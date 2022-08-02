@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Grants & Fellowships',
     '/alumni/resources/grants-fellowships/',
-    ['url' => 'https://vassartest.chuckyatsuk.com/img/alumni/resources/grants/time-out-awardee-bishop-joseph-tolton-89_0829.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-resources/alumni-benefits/Jonathan_Kaiman.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

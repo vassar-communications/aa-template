@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Grants & Fellowships",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-resources/grants-fellowships/Longitude_SE_dummy_20.jpg"
 }';
 
 /* === */
@@ -31,7 +31,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Grants & Fellowships',
-    '/assets/images/placeholders/placeholder-square.png',
+    $alumni_img_path.'alumni-resources/grants-fellowships/0006-19-01-kr-scc-career-clusters-vassar-0830.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
@@ -42,7 +42,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Time Out Grant',
-    '/assets/images/placeholders/placeholder-square.png',
+   $alumni_img_path.'alumni-resources/grants-fellowships/J_Kramer_162_HR.jpg',
     'theme-dark-burgundy has-bg quad-pattern',
     ''
 ); ?>
@@ -76,7 +76,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'The Fulbright Program',
-    '/assets/images/placeholders/placeholder-square.png',
+    $alumni_img_path.'alumni-resources/alumni-benefits/Jonathan_Kaiman.jpg',
     'theme-dark-burgundy has-bg quad-pattern',
     ''
 ); ?>

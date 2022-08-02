@@ -8,7 +8,7 @@ function central_link(
 ) {
 
 $linkbase = array(
-  'common-app' => 'https://apply.commonapp.org/Login?ma=278',
+  'common-app' => 'https://app.scoir.com/app/signup/1100230',
   'coalition-app' => 'https://www.mycoalition.org/public/info/vassar'
 );
 
