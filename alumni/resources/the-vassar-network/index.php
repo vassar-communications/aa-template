@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"The Vassar Network",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-resources/vassar-network/0036-22-06-kr-reunion-vassar-0148.jpg"
 }';
 
 /* === */
@@ -84,7 +84,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_iconItem(
     'Social Media Directories',
-    'image',
+    'people-group',
     'icon-on-left theme-white-border'
 ); ?>
 
@@ -100,7 +100,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_iconItem(
     'Alumni Directory',
-    'image',
+    'address-book',
     'icon-on-left theme-white-border'
 ); ?>
 <ul class="linked-list">
