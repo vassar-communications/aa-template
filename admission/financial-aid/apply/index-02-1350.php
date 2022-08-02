@@ -96,7 +96,7 @@ $page_info = json_decode($page_info, true);
 
 <div class="card plain-text-card d-flex justify-content-between">
     <div>
-    <h3>College Board Institutional Documentation Service (IDOC)</h3>
+    <h3>College Board IDOC</h3>
     <p>This is a service to submit requested documentation as part of the aid application.</p>
     <ul>
         <li>Available late October/early November; must complete CSS Profile first</li>
