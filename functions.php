@@ -31,8 +31,35 @@ $facts[$current_school_year]['adm_fees'] = 960;
 $facts['adm_total_cost'] = $facts[$current_school_year]['adm_tuition'] + $facts[$current_school_year]['adm_room_and_board'] + $facts[$current_school_year]['adm_fees'];
 
 $facts['adm_total_cost'] = number_format($facts['adm_total_cost']);
+$facts['number_of_students'] = '2,500';
+$facts['number_of_faculty'] = '355';
+$facts['student_faculty_ratio'] = '8:1';
 
 $facts['number_of_majors'] = '50';
+
+$resources['student_orgs'] = '170';
+$resources['varsity_teams'] = '27';
+
+$deadlines['early-decision-1'] = 'November 15';
+$deadlines['early-decision-2'] = 'January 4';
+$deadlines['regular-decision'] = 'January 4';
+$deadlines['spring-transfer'] = 'November 1';
+$deadlines['fall-transfer'] = 'March 15';
+
+$deadlines['portfolio-early-decision-1'] = 'November 17, 2021';
+$deadlines['portfolio-early-decision-2'] = 'January 4, 2022';
+
+$class_stats['number_of_countries'] = '22';
+$class_stats['number_of_states'] = '41';
+$class_stats['percentage_male'] = '38.4%';
+$class_stats['percentage_female'] = '61.6%';
+$class_stats['students_of_color'] = '38%';
+
+$class_stats['attd_public_school'] = '66.7%';
+$class_stats['attd_private_school'] = '24%';
+
+
+
 
 
 
@@ -379,6 +406,18 @@ function breadcrumb() {
 
   global $project_paths;
 
+
+  // final_url is the root. I'd been keeping that relative (/) but
+  // Morgan's scraper needs it to be more specific.
+
+  // detect what server we're on. If it's aa-dev, final_url should
+  // be https://www.vassar.edu/. If not, it should be relative; otherwise,
+  // "Admission" in the breadcrumb trail will link to https://www.vassar.edu/admission, and anyone looking at the site will be going to a page that
+  // doesn't exist yet.
+
+
+
+
   //  How the breadcrumb works:
   //  - If a section has children, it should appear in the breadcrumb
   //  - If a section has no children (it's an endpoint page) it should
@@ -407,28 +446,29 @@ function breadcrumb() {
   // Sooo...
 
   $path_in_pieces = explode('/', $current_path);
-  $path = '';
+  $path = '/';
 
-  $breadcrumb_markup = '<ol class="breadcrumb">';
+  $breadcrumb_markup = '';
   $crumb_level = 1;
 
   foreach ($path_in_pieces as &$item) {
-    if($item == '') {
-      $path = '/';
-      $title = 'Home';
-    }
-    else {
+    if($item !== '') {
       $path .= $item.'/';
       $item_info = get_page_vars($_SERVER['DOCUMENT_ROOT'].$path);
 
       $title = $item_info['page_title'];
-    }
+
     $breadcrumb_markup .= crumb_item($project_paths['final_url'].$path, $title, 'level-'.$crumb_level);
     $crumb_level++;
+    }
+
   }
   unset($item);
 
-  return $breadcrumb_markup.'</ol>';
+  $home_item = crumb_item('https://www.vassar.edu', 'Home', 'level-1');
+  $breadcrumb_markup = $home_item.$breadcrumb_markup;
+
+  return '<ol class="breadcrumb">'.$breadcrumb_markup.'</ol>';
 }
 
 function interior_page_nav() {

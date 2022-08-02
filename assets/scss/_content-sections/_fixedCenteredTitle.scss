@@ -169,13 +169,14 @@ This should be a section option
   opacity: 0;
 }
 
-.is-ios {
+.is-ios .section:not(.masthead-video-background) {
   .section-bg-image-container {
     .section-bg-image {
       position: absolute !important;
       object-fit: cover;
 //      height: 100vh;
-        height: var(--full-masthead-height);
+//        height: var(--full-masthead-height
+      height: 100%;
     }
   }
   .section-title-container {

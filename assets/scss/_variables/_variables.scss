@@ -103,7 +103,12 @@ $color-contrast-light:     $white !default;
   --font-title-serif: freight-big-pro;
   --regularContent-font-size: calc(1.165rem + 0.18vw);
   --regularContent-lineHeight: 1.5;
-  --regularContent-font-weight: "wght" 360;
+
+  --regularContent-font-weight: "wght" 400;
+
+  @media (min-width: 1024px) {
+    --regularContent-font-weight: "wght" 360;
+  }
 
   --font-icons: "Font Awesome 6 Free";
 

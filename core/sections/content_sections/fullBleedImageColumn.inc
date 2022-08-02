@@ -26,7 +26,7 @@ function sec_fullBleedImageColumn(
   global $section_title;
 
  $bob = get_extras_value('bob', $extras);
- 
+
   $title_classes = get_extras_value('title_classes', $extras);
   $title_level = get_extras_value('title_level', $extras);
 
@@ -36,13 +36,14 @@ function sec_fullBleedImageColumn(
 
 $image_col_classes = get_extras_value( 'image_col_classes', $extras );
 $text_col_classes = get_extras_value( 'text_col_classes', $extras );
+$section_css = get_extras_value( 'css', $extras, 'style="%s"' );
 $image_col_css = get_extras_value( 'image_col_css', $extras, 'style="%s"' );
 $text_col_css = get_extras_value( 'text_col_css', $extras, 'style="%s"' );
 
 $image_alt_text = get_extras_value( 'img_alt_text', $extras );
 
 $template = <<<TMP
-<div class="section section--full-bleed-image-column $section_classes">
+<div class="section section--full-bleed-image-column $section_classes" $section_css>
   <div class="section-content columns mw-100  $content_classes">
 
     <div class="column col-has-image animate-when-content-appears animation-fade-in $image_col_classes" $image_col_css>

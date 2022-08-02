@@ -10,9 +10,9 @@ include( $project_paths['main_project_root'] . '/functions.php');
 /* PAGE INFO === */
 
 $page_info = '{
-  "page_title":"Vassar Admission",
+  "page_title":"Admission",
   "page_classes":"home",
-  "nav_title":"Admission"
+  "page_navTitle":"Admission"
 }';
 
 /* === */
@@ -30,7 +30,7 @@ $page_info = json_decode($page_info, true);
 
 <!--<div class="buffer"></div>-->
 
-<?php echo sec_siteHeader_video(); ?>
+  <?php echo sec_siteHeader_video(); ?>
 
 <a href="/admission/apply/" class="m-2 btn btn-lg btn-primary arrow">Apply</a>
 <a href="/admission/visit/" class="m-2  btn btn-lg btn-primary arrow">Visit</a>
@@ -161,7 +161,8 @@ echo sec_fixedCenteredTitle(
     max-width: 40rem;
     margin: 4rem auto 2rem;
     text-align: left;">Vassar is from <span id="x-where-from">everywhere</span></h2>
-   <h3 class="section-intro-text">A world-class education is built on worldwide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will study abroad while at Vassar.</h3>
+   <h3 class="section-intro-text">A world-class education is built on worldwide communities. Our students come from '.$class_stats['number_of_states'].' states and '. $class_stats['number_of_countries']
+.' countries. Nearly one in ten come from foreign countries; nearly half will study abroad while at Vassar.</h3>
 <div class="text-center mb-5">
 
 <a href="/admission/quick-facts/community/" class="btn btn-lg btn-light arrow me-4 mb-3">Meet Vassar</a>
@@ -216,7 +217,7 @@ echo sec_fixedCenteredTitle(
 
     <?php echo flipcard_stat(
         'Student Orgs',
-        '150+',
+        $resources['student_orgs'],
         'From volunteer opportunities in our local community to mystery hikes with the Outing Club, Vassar has an organization for everyone.',
         'animation-item',
         '/admission/explore/student-life/'

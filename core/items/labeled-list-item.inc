@@ -13,7 +13,7 @@ else $icon_markup = '';
 return <<<TMP
   <li class=" $classes">
     $icon_markup
-    <strong class="item-label">$label <span class="visually-hidden">:</span></strong>
+    <strong class="item-label">$label<span class="visually-hidden">:</span> </strong>
     <span class="item-value">$value</span>
   </li>
 TMP;

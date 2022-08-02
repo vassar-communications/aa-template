@@ -66,16 +66,27 @@ null,
 
 <?php echo sec_hasColumns(
     null,
-    3,
+    2,
     '',
-    'related-topics-section theme-cream',
+    'related-topics-section theme-cream mw-inner-2',
     'col-gap-3'
 ); ?>
 
   <?php echo item_col(); ?>
-    <?php include($project_paths['main_project_root'].'/admission/inc/modules/application-deadlines.php');?>
-
-    <?php echo end_item_col(); ?>
+    <?php echo deadlines(
+      'Application Deadlines',
+      null,
+      null,
+      'shadow'
+    ); ?>
+        <?php echo deadlines_item('Early Decision I', $deadlines['early-decision-1']); ?>
+        <?php echo deadlines_item('Early Decision II', $deadlines['early-decision-2']); ?>
+        <?php echo deadlines_item('Regular Decision', $deadlines['regular-decision']); ?>
+        <?php echo deadlines_item('Spring Transfer', $deadlines['spring-transfer']); ?>
+        <?php echo deadlines_item('Fall Transfer', $deadlines['fall-transfer']);
+        ?>
+    <?php echo end_deadlines(); ?>
+  <?php echo end_item_col(); ?>
 
     <?php echo item_col(); ?>
 
@@ -89,10 +100,12 @@ null,
     </div>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col(); ?>
+  <?php /* echo item_col(); ?>
+
   <a href="https://www.vassar.edu/sites/default/files/2021-06/Vassar-Viewbook-2020.pdf"><img loading="lazy" src="https://www.vassar.edu/sites/default/files/2021-06/viewbook-2020.jpg" alt="Cover of Vassar's 2020 Viewbook"></a>
-  <p class="card-text"><a href="https://www.vassar.edu/sites/default/files/2021-06/Vassar-Viewbook-2020.pdf">Read our Viewbook</a></p>
-    <?php echo end_item_col(); ?>
+  <p class="card-text"><a href="https://www.vassar.edu/sites/default/files/2021-06/Vassar-Viewbook-2020.pdf">Read our Viewbook</a></p> ?>
+
+    <?php echo end_item_col(); */ ?>
 
 
 <?php echo end_sec_hasColumns(); ?>

@@ -11,6 +11,16 @@ $nav-item-border-size: 2px;
 }
 
 .main-site-nav {
+
+  .breadcrumb,
+  .nav {
+    display: block;
+
+    @include break(sm) {
+      display: flex;
+    }
+  }
+
   .breadcrumb-item + .breadcrumb-item::before {
     float: left;
     padding-right: 0.5rem;

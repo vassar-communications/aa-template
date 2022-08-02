@@ -1,7 +1,10 @@
 .section {
   background-color: var(--section-bg-color, #fff);
   color: var(--section-text-color, --color-vassar-charcoal);
-  padding: var(--section-padding, clamp(1rem, 10%, 4rem));
+//  padding: var(--section-padding, clamp(1rem, 10%, 4rem));
+
+  padding: var(--section-padding, clamp(0.2rem, 4%, 4rem));
+  @include padding-top(4.5rem);
 }
 
 
@@ -153,7 +156,7 @@ h3.section-title {
 }
 
 
-.section.has-bg > * {
+.section.has-bg .section-content {
     position: relative;
     z-index: 100;
 }

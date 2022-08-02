@@ -70,9 +70,12 @@ $page_info = json_decode($page_info, true);
     'Most Popular Majors',
     'animate-when-content-appears gold-icons mw-inner-4 theme-charcoal has-bg section-bg-image-top',
     '',
-    ['title_level' => '3',
+    [
+      'title_level' => '3',
     'bg-image-url' => $admission_img_path.'quick-facts/Class-room-HW_26A9303.jpg',
-    'bg-image-alt' => 'replacealttxt']
+    'bg-image-alt' => 'Students sitting in a classroom',
+    'css' => '--icon-item-border-color: rgba(255,255,255,0.1)'
+  ]
 ); ?>
 
   <?php echo animated_statement('English · Political Science · Psychological Science · Economics · Biology', 'text-center'); ?>
@@ -98,7 +101,7 @@ $page_info = json_decode($page_info, true);
   <?php echo cta_link(
     '/admission/explore/academics/',
     'See all our majors and minors',
-    'd-block mt-4 mx-auto'
+    'center-object mt-4'
   ); ?>
 
 <?php echo end_sec_regularContent(); ?>
@@ -143,7 +146,7 @@ $page_info = json_decode($page_info, true);
     '2',
     null,
     null,
-    'gap-3'
+    'gap-3 items-equal-height'
 ); ?>
 
   <?php echo item_col(); ?>
@@ -200,7 +203,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_stat(
       'Med school admit rate',
       '85%',
-      'including Vanderbilt, Columbia, Dartmouth, and Harvard'
+      'including Vanderbilt, Columbia, Dartmouth, and Harvard.'
     ); ?>
   <?php echo end_item_col(); ?>
 

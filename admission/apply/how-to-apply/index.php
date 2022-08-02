@@ -22,7 +22,13 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'A student sits on a blanket in front of Main Building on a sunny day, looking down at some papers.']); ?>
+<?php echo page_partialmasthead(
+  $page_info['feature_image'],
+  [
+    'image_alt_text' => 'A student sits on a blanket in front of Main Building on a sunny day, looking down at some papers.',
+    'classes' => 'bg-image-right'
+  ]
+); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -35,7 +41,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 
-<p class="intro-text">Whether you’re a first year or transfer applicant, find everything you need to know here about how to apply and what we look for in an applicant.</p>
+<p>Whether you’re a first year or transfer applicant, find everything you need to know here about how to apply and what we look for in an applicant.</p>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>

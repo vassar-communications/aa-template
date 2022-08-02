@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
     'Our Students',
     '3',
-    '<p class="intro-text">Diverse in every sense of the word, Vassar students practice many different religions and are of different sexual orientations. Our students come from all regions of the United States and 55 foreign countries.</p>',
+    '<p class="intro-text">Diverse in every sense of the word, Vassar students practice many different religions and are of different sexual orientations. Our students come from all regions of the United States and '.$class_stats['number_of_countries'].' foreign countries.</p>',
     'items-equal-height mw-inner-3 theme-extralightgray cols-6 animate-when-content-appears animation-group animation-fade-in',
     'gap-3'
 ); ?>
@@ -61,23 +61,22 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
       'Student body',
-      '2,450',
-      'from all regions of the United States and 55 foreign countries'
+      $facts['number_of_students'],
     ); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
       'Students of color',
-      '33%',
-      'in recent classes'
+      $class_stats['students_of_color'],
+      ''
     ); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
       'Student organizations',
-      '170',
+      $resources['student_orgs'],
       '<a href="https://vsa.vassar.edu/">See all our orgs <i class="fa-solid fa-arrow-right ms-1"></i></a>'
     ); ?>
   <?php echo end_item_col(); ?>
@@ -85,7 +84,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
       '',
-      '65%',
+      $class_stats['attd_public_school'],
       'attended public high schools'
     ); ?>
   <?php echo end_item_col(); ?>
@@ -93,24 +92,24 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
       '',
-      '35%',
+      $class_stats['attd_private_school'],
       'attended private/parochial schools'
     ); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
-      'Men',
-      '58%',
-      'national average for national liberal arts colleges'
+      'Male',
+      $class_stats['percentage_male'],
+      null
     ); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
-      'Women',
-      '42%',
-      'national average for national liberal arts colleges'
+      'Female',
+      $class_stats['percentage_female'],
+      null
     ); ?>
   <?php echo end_item_col(); ?>
 
@@ -126,8 +125,10 @@ $page_info = json_decode($page_info, true);
     '/admission/assets/images/quick-facts/community/res-quad-2105-kr-vassar-0033.jpg',
     'image-is-first theme-burgundy',
     '',
-    ['img_alt_text' => 'Group of students relaxing on lawn in the residential quad on Vassar Campus. One student in a hammock.'],
-    ['title_level' => '3']
+    [
+      'img_alt_text' => 'Group of students relaxing on lawn in the residential quad on Vassar Campus. One student in a hammock.',
+      'css' => '--icon-item-border-color: rgba(255,255,255,0.2)'
+    ]
 ); ?>
 
   <div class="animate-when-content-appears animation-slide-up gold-icons">
@@ -227,14 +228,17 @@ $page_info = json_decode($page_info, true);
     '/admission/assets/images/quick-facts/community/Kaleidoscope-0139_16_11_KR_0077.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Students on stage with international flags'],
-    ['title_level' => '3']
+    [
+      'title_level' => '3',
+      'img_alt_text' => 'Students on stage with international flags',
+      'css' => '--icon-item-border-color: rgba(0,0,0,0.1)'
+    ],
 ); ?>
   <div class="animate-when-content-appears animation-slide-up burgundy-icons">
 
       <?php echo item_iconItem(
         null,
-        'face-smile',
+        'cookie-bite',
         'icon-on-left'
       ); ?>
           <p>Popular on-campus hangouts include late-night dining at Gordon Commons, the College Center, the Food Truck, and Dorm Multi-Purpose Rooms and Parlors.</p>
@@ -270,13 +274,15 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Off-Campus',
+    'Off Campus',
     '/admission/assets/images/quick-facts/community/Hudson-Line-Courtesy-of-MTA-Metro-North-Railroad---Photo-by-Frank-English_240662ea-c662-4239-2e603bad1ee52568.jpg',
     'theme-charcoal gold-icons',
     '',
-    ['title_level' => '3',
-    'img_alt_text' => 'Metro North train heading south to New York City'
-  ]
+    [
+      'title_level' => '3',
+      'img_alt_text' => 'Metro North train heading south to New York City',
+      'css' => '--icon-item-border-color: rgba(255,255,255,0.1)'
+    ]
 ); ?>
   <div class="animate-when-content-appears animation-slide-up">
     <div class="icon-items-list">
@@ -408,8 +414,7 @@ echo sec_hasColumns(
     $quickfacts_img_path.'THs-0144-15-05-hw-dorm-vassar-vb-3813.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Student in a dorm kitchen behind a counter cutting food'],
-    ['title_level' => '3']
+    ['title_level' => '3','img_alt_text' => 'Student in a dorm kitchen behind a counter cutting food'],
 ); ?>
   <div class="animate-when-content-appears animation-slide-up burgundy-icons">
 
@@ -513,7 +518,7 @@ echo sec_hasColumns(
     'How’s the Weather?',
     '2',
     '<p class="intro-text">Poughkeepsie weather is close to that of New York City, with a temperate climate and four distinct seasons.</p>
-    <p> We do get snow, but we are not located in a “snowbelt”, so moderate snow is the norm during the winter. Most students love spring and fall, and it is common to see professors hold classes outside on nice days. While you’ll need a hat, gloves, and scarf in the winter, you’ll be able to wear shorts and t-shirts at other times of the year.</p>',
+    <p> We do get snow, but we are not located in a “snowbelt,” so moderate snow is the norm during the winter. Most students love spring and fall, and it is common to see professors hold classes outside on nice days. While you’ll need a hat, gloves, and scarf in the winter, you’ll be able to wear shorts and t-shirts at other times of the year.</p>',
     'items-equal-height mw-inner-2 theme-extralightgray wide-intro burgundy-icons',
     'gap-3',
     ['title_level' => '3']

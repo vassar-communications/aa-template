@@ -152,7 +152,8 @@ $page_info = json_decode($page_info, true);
 
     <?php echo cta_link(
       '/admission/financial-aid/forms/#calculate-your-cost',
-      'Go to Calculators'
+      'Go to Calculators',
+      'text-center'
     ); ?>
   </div>
 <?php echo end_sec_wideContent(); ?>
