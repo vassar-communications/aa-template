@@ -88,10 +88,11 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>Vassar does not require students to submit the SAT or ACT for the 2022–2023 admission cycle. Applicants can declare whether or not they wish to include testing with their application by logging in to the applicant status portal and completing the test optional form; the deadlines to do so are:</p>
 <ul>
-    <li>Early Decision I: <strong>November 22</strong></li>
+    <li>Early Decision I: <strong><?php echo $deadlines['early-decision-1']; ?>
+</strong></li>
     <li>Spring Transfer: <strong>November 22</strong></li>
-    <li>Regular Decision and Early Decision II: <strong>January 10</strong></li>
-    <li>Fall Transfer: <strong>April 1</strong></li>
+    <li>Regular Decision and Early Decision II: <strong><?php echo     $deadlines['early-decision-2']; ?></strong></li>
+    <li>Fall Transfer: <strong><?php echo $deadlines['fall-transfer']; ?></strong></li>
 </ul>
 
 
