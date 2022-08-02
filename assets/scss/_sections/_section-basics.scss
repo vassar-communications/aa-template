@@ -156,7 +156,7 @@ h3.section-title {
 }
 
 
-.section.has-bg > * {
+.section.has-bg .section-content {
     position: relative;
     z-index: 100;
 }
