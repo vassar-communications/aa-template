@@ -138,7 +138,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 
-<p class="intro-text">Feel free to contact us with any veteran-related questions.</p>
+<p>Feel free to contact us with any veteran-related questions.</p>
 
 <div class="contact-list">
   <div class="staff-contact">
