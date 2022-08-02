@@ -66,9 +66,9 @@ null,
 
 <?php echo sec_hasColumns(
     null,
-    3,
+    2,
     '',
-    'related-topics-section theme-cream',
+    'related-topics-section theme-cream mw-inner-2',
     'col-gap-3'
 ); ?>
 
@@ -100,10 +100,12 @@ null,
     </div>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col(); ?>
+  <?php /* echo item_col(); ?>
+
   <a href="https://www.vassar.edu/sites/default/files/2021-06/Vassar-Viewbook-2020.pdf"><img loading="lazy" src="https://www.vassar.edu/sites/default/files/2021-06/viewbook-2020.jpg" alt="Cover of Vassar's 2020 Viewbook"></a>
-  <p class="card-text"><a href="https://www.vassar.edu/sites/default/files/2021-06/Vassar-Viewbook-2020.pdf">Read our Viewbook</a></p>
-    <?php echo end_item_col(); ?>
+  <p class="card-text"><a href="https://www.vassar.edu/sites/default/files/2021-06/Vassar-Viewbook-2020.pdf">Read our Viewbook</a></p> ?>
+
+    <?php echo end_item_col(); */ ?>
 
 
 <?php echo end_sec_hasColumns(); ?>

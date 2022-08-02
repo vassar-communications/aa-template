@@ -71,42 +71,49 @@ $page_info = [
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-
-<?php echo sec_hasColumns(
+<?php echo sec_regularContent(
     'Video Campus Tour',
-    2,
-    null,
-    'theme-dark-burgundy section-large-title',
-    'd-flex flex-column flex-md-row align-items-center'
+    'theme-dark-burgundy section-large-title mw-inner-2',
+    'content-classes'
 ); ?>
 
+  <p class="text-center mb-5">Students wishing to preview the Vassar campus can watch this 30-minute video tour.</p>
+
+  <?php echo item_imageCard_videoModal(
+      null,
+      null,
+      'https://player.vimeo.com/video/531201548',
+      'vimeo',
+      '',
+      ['url' => '/admission/assets/images/visit/virtual/tour-video-still.jpg',
+          'alt' => 'Aerial view of a brick campus building, the New England Building'
+      ],
+      'animation-item grid-item text-at-bottom text-white'
+  ); ?>
+
+<?php echo end_sec_regularContent(); ?>
 
 
-<?php echo item_col(); ?>
-<p>Students wishing to preview the Vassar campus can watch this 30-minute video tour.</p>
-<a href="#"  data-src="https://player.vimeo.com/video/531201548" data-bs-toggle="modal"  data-bs-target="#videoModal" class="video-btn px-0 btn btn-link arrow">Watch Video</a>
-<?php echo end_item_col(); ?>
 
-<?php echo item_col(); ?>
 
-<?php
-echo item_imageCard_videoModal(
-    null,
-    null,
-    'https://player.vimeo.com/video/531201548',
-    'vimeo',
-    '',
-    ['url' => '/admission/assets/images/visit/virtual/tour-video-still.jpg',
-        'alt' => 'Aerial view of a brick campus building, the New England Building'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
 
-?>
 
-<?php echo end_item_col(); ?>
 
-<?php echo end_sec_hasColumns(); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <?php echo sec_hasColumns(
     'More Online Resources',

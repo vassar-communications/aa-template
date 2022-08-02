@@ -146,7 +146,7 @@ $page_info = json_decode($page_info, true);
                     <li>Available to eligible students who complete the FAFSA form</li>
                     <li>Subsidized loans <strong>do not</strong> accrue interest while the student is enrolled in school</li>
                     <li>Unsubsidized loans <strong>do</strong> accrue interest, beginning from the time the loan is disbursed</li>
-                    <li>Interest rate: 3.73% (fixed) for 2021-2022</li>
+                    <li>Interest rate: 3.73% (fixed) for 2021–2022</li>
                     <li>Origination fee: approximately 1%</li>
                     <li>Maximum annual limit: 1st year: $5,500, up to $3,500 can be subsidized; 2nd year: $6,500, up to $4,500 can be subsidized; 3rd/4th year: $7,500, up to $5,500 can be subsidized</li>
                     <li>Repayment begins: 6 months after graduating, leaving school, or dropping below half-time enrollment</li>
@@ -156,8 +156,8 @@ $page_info = json_decode($page_info, true);
                 <ul>
                     <li>Interest rate: 3.73% (fixed) for 2021–22</li>
                     <li>Origination fee: approximately 1%</li>
-                    <li>
-                        <ul>Maximum annual limit:
+                    <li>Maximum annual limit:
+                        <ul>
                             <li>1st year: $5,500, up to $3,500 of which can be subsidized</li>
                             <li>2nd year: $6,500, up to $4,500 of which can be subsidized</li>
                             <li>3rd/4th year: $7,500, up to $5,500 of which can be subsidized</li>
