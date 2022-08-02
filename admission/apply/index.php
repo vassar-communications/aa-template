@@ -121,7 +121,13 @@ null,
 <div class="animate-when-content-appears animation-slide-up">
     <p>Learn more about Vassar’s application requirements and important deadlines.</p>
 
-    <a href="/admission/apply/how-to-apply/" class="px-0 btn btn-link arrow">Learn more about how to apply to Vassar</a>
+    <?php echo cta_link(
+      '/admission/apply/how-to-apply/',
+        'Learn more about how to apply to Vassar',
+        'mt-2'
+    ); ?>
+
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -135,7 +141,12 @@ null,
 <div class="animate-when-content-appears animation-slide-up">
     <p>Everything you need to know about applying to Vassar as an incoming first-year student.</p>
 
-    <a href="/admission/apply/requirements/" class="px-0 btn btn-link arrow">Learn more about applying as a first-year student</a>
+    <?php echo cta_link(
+      '/admission/apply/requirements/',
+        'Learn more about applying as a first-year student',
+        'mt-2'
+    ); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -152,7 +163,12 @@ null,
 <div class="animate-when-content-appears animation-slide-up">
     <p>Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. </p>
 
-    <a href="/admission/apply/transfer/" class="px-0 btn btn-link arrow">Information for transfer applicants</a>
+    <?php echo cta_link(
+      '/admission/apply/transfer/',
+        'Information for transfer applicants',
+        'mt-2'
+    ); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -168,8 +184,11 @@ null,
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Vassar is a vibrant community of global citizens.</p>
-
-    <a href="/admission/apply/international/" class="px-0 btn btn-link arrow">Information for international applicants</a>
+    <?php echo cta_link(
+      '/admission/apply/international/',
+        'Information for international applicants',
+        'mt-2'
+    ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
