@@ -74,7 +74,8 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
   'https://offices.vassar.edu/student-financial-services/',
-  'Learn more at Student Financial Services'
+  'Learn more at Student Financial Services',
+    'd-flex justify-content-center'
 ); ?>
 
 
@@ -153,7 +154,7 @@ $page_info = json_decode($page_info, true);
     <?php echo cta_link(
       '/admission/financial-aid/forms/#calculate-your-cost',
       'Go to Calculators',
-      'text-center'
+      'd-flex justify-content-center'
     ); ?>
   </div>
 <?php echo end_sec_wideContent(); ?>

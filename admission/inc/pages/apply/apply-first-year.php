@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-<p>Application information and options for first-year applicants</p>
+<p>Application information and options for first-year applicants.</p>
 
 <?php echo end_item_cardWithText(
     null,

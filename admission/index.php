@@ -225,7 +225,7 @@ echo sec_fixedCenteredTitle(
     ?>
 
     <?php echo flipcard_stat(
-        'Employed Grads',
+        'Grad Placement',
         '96%',
         'Within six months of graduating, 96% of Vassar students are employed, in graduate school, or in a competitive fellowship.',
         'animation-item',
