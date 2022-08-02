@@ -14,7 +14,7 @@
     outline: none;
     padding: 1rem;
     display: block;
-    padding-left: 2em;
+//    padding-left: 2em;
     position: relative;
     cursor: pointer;
     margin-bottom: 1px;
@@ -39,29 +39,32 @@ details {
     transition: 0.4s all ease;
 
     &:before {
-      content: "+";
+      content: "\f107";
       line-height: 0;
       font-size: $h2-font-size;
       font-weight: 100;
       position: absolute;
       top: 0;
       left: 0;
-      transform: rotate(0);
-      transform-origin: center;
-      transition: 0.25s transform ease;
+//      transform: rotate(0);
+//      transform-origin: center;
+//      transition: 0.25s transform ease;
       color: var(--dropdown-closebox-openme-color, $gray-600);
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
       width: 1em;
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+
     }
     &::-webkit-details-marker {
       display: none;
     }
   }
   &[open] > summary span:before {
-    transform: rotate(45deg);
+//    transform: rotate(45deg);
   }
   &[open] {
     summary span {

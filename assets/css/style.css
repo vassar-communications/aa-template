@@ -9969,7 +9969,6 @@ h2.border-animate:after, .border-animate.h2:after {
   outline: none;
   padding: 1rem;
   display: block;
-  padding-left: 2em;
   position: relative;
   cursor: pointer;
   margin-bottom: 1px;
@@ -9996,28 +9995,24 @@ details summary span {
   transition: 0.4s all ease;
 }
 details summary span:before {
-  content: "+";
+  content: "";
   line-height: 0;
   font-size: 2rem;
   font-weight: 100;
   position: absolute;
   top: 0;
   left: 0;
-  transform: rotate(0);
-  transform-origin: center;
-  transition: 0.25s transform ease;
   color: var(--dropdown-closebox-openme-color, #63666A);
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 1em;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
 }
 details summary span::-webkit-details-marker {
   display: none;
-}
-details[open] > summary span:before {
-  transform: rotate(45deg);
 }
 details[open] summary span {
   font-variation-settings: "wght" 800;
@@ -10074,6 +10069,9 @@ details.open .dropdown__content {
   font-size: 2rem;
   position: relative;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 0.6rem 1.2rem;
 }
 .dropdown--feature summary:before {
   content: "";
@@ -10099,17 +10097,19 @@ details.open .dropdown__content {
   border: none;
 }
 .dropdown--feature span {
+  display: block;
   position: relative;
   padding-left: 2.4rem;
 }
 .dropdown--feature span:before {
-  font-size: 2.6rem;
+  font-size: 1.4rem;
 }
 
 .dropdown--feature span {
   font-family: var(--font-big-serif);
   font-weight: bold;
   letter-spacing: -0.04rem;
+  line-height: 1.2;
 }
 
 .dropdown--feature summary:before {
@@ -10123,6 +10123,20 @@ details.open .dropdown__content {
   width: 0;
 }
 
+@media screen and (max-width: 40em) {
+  .dropdown--feature summary span {
+    padding-left: 0;
+    padding: 1rem 1rem 1.8rem 1rem;
+  }
+  .dropdown--feature summary span:before {
+    bottom: 0;
+    left: calc(50% - 0.5em);
+    display: flex;
+    align-items: flex-end;
+    bottom: 1rem;
+    top: auto;
+  }
+}
 /* Inline icon button */
 /* Block-style icon button */
 .btn-card {
@@ -10629,7 +10643,13 @@ This is a generic container element for containing a 100vh fixed-position elemen
 .section {
   background-color: var(--section-bg-color, #fff);
   color: var(--section-text-color, --color-vassar-charcoal);
-  padding: var(--section-padding, clamp(1rem, 10%, 4rem));
+  padding: var(--section-padding, clamp(0.2rem, 4%, 4rem));
+  padding-top: calc(1.575rem + 3.9vw);
+}
+@media (min-width: 1200px) {
+  .section {
+    padding-top: 4.5rem;
+  }
 }
 
 .section .section-bg {
@@ -14078,15 +14098,16 @@ footer a:link:hover, footer a:link:focus, footer a:visited:hover, footer a:visit
     column-count: 2;
   }
 }
-.has-dividers [class|=col],
+@media screen and (min-width: 50em) {
+  .has-dividers [class|=col],
 .has-dividers [class*=col] {
-  border-right: 1px solid #adb5bd;
-}
-.has-dividers [class|=col]:last-child,
+    border-right: 1px solid #adb5bd;
+  }
+  .has-dividers [class|=col]:last-child,
 .has-dividers [class*=col]:last-child {
-  border-right: none;
+    border-right: none;
+  }
 }
-
 .position-center {
   margin-left: auto;
   margin-right: auto;
