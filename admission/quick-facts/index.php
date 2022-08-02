@@ -230,7 +230,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 
-<p class="intro-text">Vassar will not require students to submit the SAT or ACT for the 2020–2021, 2021–2022, and 2022–2023 admission cycles, as part of a new pilot policy. First-year applicants may choose whether or not to submit their SAT and/or ACT test scores as a reflection of their academic abilities.</p>
+<p class="intro-text">Vassar will not require students to submit the SAT or ACT for the 2022–2023 admission cycles as part of a new pilot policy. First-year applicants may choose whether or not to submit their SAT and/or ACT test scores as a reflection of their academic abilities.</p>
 
 <div class="icon-items-list">
     <?php echo item_iconItem(
