@@ -368,7 +368,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
     'Test Optional',
     '2',
-    '<p>Vassar does not require students to submit the SAT or ACT for the 2020–2021, 2021–2022, and 2022–2023 admission cycles.</p>'
+    '<p>Vassar does not require students to submit the SAT or ACT for the 2022–2023 admission cycle.</p>'
 
 . cta_link( '/admission/apply/requirements', 'Learn more' )
     ,
