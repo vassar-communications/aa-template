@@ -63,23 +63,11 @@ $page_info = json_decode($page_info, true);
   'icon-on-left'
 ); ?>
 <p>Group visits can be customized to fit the needs of the group. Presentations can include topics such as choosing a major or writing a college admission essay, or Q&A sessions with current students.</p>
-<p class="mb-5">Group tours can be scheduled Monday through Friday between 9 a.m. and 5 p.m. ET, based on availability. To schedule, email <a href="">admissions@vassar.edu</a>.</p>
+<p class="mb-5">Group tours can be scheduled Monday through Friday between 9 a.m. and 5 p.m. ET, based on availability. To schedule, email <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>.</p>
 
 
 <?php echo end_item_iconItem(); ?>
 
-
-<?php echo item_iconItem(
-  'Individual Opportunities',
-  'user',
-  'icon-on-left'
-); ?>
-<p>If you are interested in engaging with Vassar individually, we encourage you to sign up for one of our regularly scheduled virtual visit events.</p>
-<ul class="linked-list">
-    <li><a href="/admission/visit/in-person/">In-Person Campus Visits</a></li>
-    <li><a href="/admission/visit/virtual-programs/">Virtual Programs</a></li>
-</ul>
-<?php echo end_item_iconItem(); ?>
 
 <?php echo end_sec_regularContent(); ?>
 
