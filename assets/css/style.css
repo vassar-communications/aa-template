@@ -11961,12 +11961,12 @@ This should be a section option
   opacity: 0;
 }
 
-.is-ios .section-bg-image-container .section-bg-image {
+.is-ios .section:not(.masthead-video-background) .section-bg-image-container .section-bg-image {
   position: absolute !important;
   object-fit: cover;
-  height: var(--full-masthead-height);
+  height: 100%;
 }
-.is-ios .section-title-container {
+.is-ios .section:not(.masthead-video-background) .section-title-container {
   position: absolute !important;
 }
 
