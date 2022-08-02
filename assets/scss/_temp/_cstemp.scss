@@ -348,3 +348,27 @@ $menu-cols-gap: 4rem;
 .accordion-button {
     font-size: 1.2rem;
 }
+
+
+.masthead-video-background:before {
+  content: '';
+  position: absolute;
+  top: -5.5rem;
+  left: 0;
+  width: 100%;
+  height: 6rem;
+  background: $burgundy;
+}
+
+.masthead-video-background {
+    overflow: visible;
+}
+.burgundy-button {
+  .hamburger-navigation-openBtn {
+    background: $burgundy;
+    color: #fff;
+    border: transparent;
+        box-shadow: none !important;
+
+  }
+}

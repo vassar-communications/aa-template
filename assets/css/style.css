@@ -11117,7 +11117,7 @@ html {
 
   .masthead-video-background {
     height: var(--full-masthead-height-video) !important;
-    margin-top: 5rem !important;
+    margin-top: 4.4rem !important;
   }
 }
 .section--wide-content.has-intro .section-title {
@@ -15049,6 +15049,27 @@ a.logo:hover {
 
 .accordion-button {
   font-size: 1.2rem;
+}
+
+.masthead-video-background:before {
+  content: "";
+  position: absolute;
+  top: -5.5rem;
+  left: 0;
+  width: 100%;
+  height: 6rem;
+  background: #951829;
+}
+
+.masthead-video-background {
+  overflow: visible;
+}
+
+.burgundy-button .hamburger-navigation-openBtn {
+  background: #951829;
+  color: #fff;
+  border: transparent;
+  box-shadow: none !important;
 }
 
 /*# sourceMappingURL=style.css.map */

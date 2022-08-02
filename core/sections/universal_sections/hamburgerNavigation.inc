@@ -9,10 +9,10 @@
  * @param  array $extras (optional) - Reserved for future use
  * @return string $template - The rendered HTML markup
  */
-function hamburger_navigation($extras = false) {
+function hamburger_navigation($classes=false, $extras = false) {
 $template = <<<TMP
 
-<div class="hamburger-navigation">
+<div class="hamburger-navigation $classes">
    <button class="hamburger-navigation-openBtn shadow btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">Menu <span class="pl-2 fa-solid fa-bars"></button>
 </div>
 <div class="offcanvas offcanvas-top h-100 pt-1 main-menu-panel theme-dark-burgundy" tabindex="-1" id="offcanvas" aria-labelledby="offcanvas">
