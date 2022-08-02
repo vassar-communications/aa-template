@@ -1,12 +1,12 @@
-.has-dividers {
-  [class|="col"],
-  [class*="col"] {
-    border-right: 1px solid $gray-500;
+@include break(md) {
+  .has-dividers {
+    [class|="col"],
+    [class*="col"] {
+      border-right: 1px solid $gray-500;
 
-    &:last-child {
-      border-right: none;
+      &:last-child {
+        border-right: none;
+      }
     }
-  }
+  }  
 }
-
-
