@@ -108,7 +108,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_alert(
     null,
-    '<p>Students should anticipate budgeting $2,250 for books, supplies, personal expenses, and transportation to and from the campus. Additional information can be found on <a href="https://offices.vassar.edu/student-financial-services/">Student Financial Services</a>.</p>',
+    '<p>Students should anticipate budgeting $2,250 for books, supplies, personal expenses, and transportation to and from the campus. Additional information can be found on Student Financial Services.</p>',
     'info-circle',
     ' text-start alert-light alert-accent-gold'
 ); ?>
