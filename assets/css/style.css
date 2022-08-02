@@ -14445,7 +14445,7 @@ footer a:link:hover, footer a:link:focus, footer a:visited:hover, footer a:visit
 }
 
 @media (max-aspect-ratio: 1/1) {
-  .section-bg-image {
+  .section.masthead-video-background .section-bg-image {
     margin-top: 5rem;
   }
 }
