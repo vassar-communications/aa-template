@@ -215,7 +215,7 @@ $page_info = json_decode($page_info, true);
 </div>
 <?php echo end_item_dropdown(); ?>
 
-<?php echo item_dropdown('68 Correlates (Minors)', 'dropdown--feature bg-white shadow-sm mb-3'); ?>
+<?php echo item_dropdown('63 Correlates (Minors)', 'dropdown--feature bg-white shadow-sm mb-3'); ?>
 <div class="row has-dividers">
     <div class="col-sm">
     <dl>
@@ -300,6 +300,7 @@ $page_info = json_decode($page_info, true);
     <dd>
         Race, Ethnicity, and Indigeneity<br>
         Gender, Sexuality, and the Body<br>
+        Poetry and Poetics<br>
         Literary Geographies<br>
         British and American Literary History<br>
         Creative Writing and Literary Forms

@@ -99,7 +99,7 @@ $color-contrast-light:     $white !default;
   --font-size-small: 1.24rem;
   --sansSerif: 'Source Sans Variable';
   --bs-font-sans-serif: 'Source Sans Variable', system-ui, Helvetica, Arial, sans-serif;
-  --font-big-serif: freight-display-pro;
+  --font-big-serif: freight-big-pro;
   --font-title-serif: freight-big-pro;
   --regularContent-font-size: calc(1.165rem + 0.18vw);
   --regularContent-lineHeight: 1.5;
@@ -108,6 +108,7 @@ $color-contrast-light:     $white !default;
 
   @media (min-width: 1024px) {
     --regularContent-font-weight: "wght" 360;
+    --font-big-serif: freight-display-pro;
   }
 
   --font-icons: "Font Awesome 6 Free";
