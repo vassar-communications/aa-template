@@ -43,7 +43,8 @@ $deadlines['fall-transfer'] = 'March 15';
 $deadlines['portfolio-early-decision-1'] = 'November 17, 2021';
 $deadlines['portfolio-early-decision-2'] = 'January 4, 2022';
 
-
+$class_stats['number_of_countries'] = '22';
+$class_stats['number_of_states'] = '41';
 
 /* Template Parts */
 

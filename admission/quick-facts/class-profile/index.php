@@ -330,7 +330,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
     'Geographical Representation',
     '2',
-    '<p>The Class of 2025 includes students from 41 states, Washington, D.C., Puerto Rico, and 22 countries: Bangladesh, Brazil, Canada, China, Ecuador, Egypt, Greece, India, Israel, Jamaica, Japan, Mexico, Nepal, Netherlands, Nigeria, South Africa, Taiwan, Thailand, Ukraine, United Arab Emirates, United Kingdom, and Vietnam.</p>',
+    '<p>The Class of 2025 includes students from '.$class_stats['number_of_states'].' states, Washington, D.C., Puerto Rico, and '.$class_stats['number_of_countries'].' countries: Bangladesh, Brazil, Canada, China, Ecuador, Egypt, Greece, India, Israel, Jamaica, Japan, Mexico, Nepal, Netherlands, Nigeria, South Africa, Taiwan, Thailand, Ukraine, United Arab Emirates, United Kingdom, and Vietnam.</p>',
     'mw-inner-1 theme-extralightgray',
     ''
 ); ?>

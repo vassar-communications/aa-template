@@ -161,7 +161,8 @@ echo sec_fixedCenteredTitle(
     max-width: 40rem;
     margin: 4rem auto 2rem;
     text-align: left;">Vassar is from <span id="x-where-from">everywhere</span></h2>
-   <h3 class="section-intro-text">A world-class education is built on worldwide communities. Our students come from 44 states and 17 countries. Nearly one in ten come from foreign countries; nearly half will study abroad while at Vassar.</h3>
+   <h3 class="section-intro-text">A world-class education is built on worldwide communities. Our students come from '.$class_stats['number_of_states'].' states and '. $class_stats['number_of_countries']
+.' countries. Nearly one in ten come from foreign countries; nearly half will study abroad while at Vassar.</h3>
 <div class="text-center mb-5">
 
 <a href="/admission/quick-facts/community/" class="btn btn-lg btn-light arrow me-4 mb-3">Meet Vassar</a>
