@@ -144,7 +144,8 @@ $page_info = json_decode($page_info, true);
 
   <?php echo cta_link(
       '/admission/apply/requirements/interviews',
-      'Learn more about interviews at Vassar'
+      'Learn more about interviews&nbsp;at&nbsp;Vassar',
+      'mt-2'
   ); ?>
 
 
@@ -159,7 +160,8 @@ $page_info = json_decode($page_info, true);
 
   <?php echo cta_link(
     '/admission/apply/requirements/arts',
-      'Learn more about arts portfolio submissions'
+      'Learn more about arts portfolio&nbsp;submissions',
+      'mt-2'
   ); ?>
 
 
