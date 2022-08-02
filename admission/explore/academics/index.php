@@ -434,14 +434,15 @@ $page_info = json_decode($page_info, true);
         <h3>Vassar/Columbia BA/MPH</h3>
         <p>The BA/MPH is a dual degree program in which a student earns a BA from Vassar and then goes on to an accelerated Masters program in Public Health at Columbia University Mailman School of Public Health.</p>
 
-        <?php echo cta_link(
-          'https://www.vassar.edu/academics/accelerated-and-dual-degree-programs',
-          'Learn more about Accelerated and Dual Degree Programs'
-        ); ?>
+
     </div>
     <div class="col-sm">
         <h3>Vassar/Dartmouth BA/BE</h3>
         <p>Through a cooperative arrangement with the Thayer School of Engineering at Dartmouth College, Vassar students may earn both the bachelor of arts (BA) degree from Vassar and the bachelor of engineering (BE) degree from Dartmouth. </p>
+        <?php echo cta_link(
+            'https://www.vassar.edu/academics/accelerated-and-dual-degree-programs',
+            'Learn more about Accelerated and Dual Degree Programs'
+        ); ?>
     </div>
 </div>
 <?php echo end_item_dropdown(); ?>
