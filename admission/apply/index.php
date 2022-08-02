@@ -73,9 +73,20 @@ null,
 ); ?>
 
   <?php echo item_col(); ?>
-    <?php include($project_paths['main_project_root'].'/admission/inc/modules/application-deadlines.php');?>
-
-    <?php echo end_item_col(); ?>
+    <?php echo deadlines(
+      'Application Deadlines',
+      null,
+      null,
+      'shadow'
+    ); ?>
+        <?php echo deadlines_item('Early Decision I', $deadlines['early-decision-1']); ?>
+        <?php echo deadlines_item('Early Decision II', $deadlines['early-decision-2']); ?>
+        <?php echo deadlines_item('Regular Decision', $deadlines['regular-decision']); ?>
+        <?php echo deadlines_item('Spring Transfer', $deadlines['spring-transfer']); ?>
+        <?php echo deadlines_item('Fall Transfer', $deadlines['fall-transfer']);
+        ?>
+    <?php echo end_deadlines(); ?>
+  <?php echo end_item_col(); ?>
 
     <?php echo item_col(); ?>
 

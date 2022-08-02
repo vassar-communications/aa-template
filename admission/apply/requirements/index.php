@@ -40,9 +40,10 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text mb-5">Everything you need to know to apply.</p>
 
-    <?php echo deadlines('Early Decision Application deadlines'); ?>
-      <?php echo deadlines_item('Early Decision Round 1', 'November 15'); ?>
-      <?php echo deadlines_item('Early Decision Round 2', 'January 1'); ?>
+    <?php echo deadlines('Application Deadlines'); ?>
+      <?php echo deadlines_item('Early Decision I', $deadlines['early-decision-1']); ?>
+      <?php echo deadlines_item('Early Decision II', $deadlines['early-decision-2']); ?>
+      <?php echo deadlines_item('Regular Decision', $deadlines['regular-decision']); ?>
     <?php echo end_deadlines(); ?>
 
 

@@ -13561,7 +13561,7 @@ ul.style-checklist a {
 
 @media screen and (min-width: 50em) {
   .deadlines-text {
-    width: 70%;
+    width: 40%;
   }
 }
 
@@ -13571,7 +13571,7 @@ ul.style-checklist a {
 @media screen and (min-width: 50em) {
   .deadlines-date {
     text-align: right;
-    width: 30%;
+    width: 60%;
   }
 }
 

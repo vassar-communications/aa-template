@@ -24,7 +24,7 @@
 //  color: var(--color-vassar-dark-burgundy);
 
   @include break(md) {
-    width: 70%;
+    width: 40%;
   }
 }
 .deadlines-date {
@@ -32,6 +32,6 @@
 
   @include break(md) {
     text-align: right;
-    width: 30%;
+    width: 60%;
   }
 }
