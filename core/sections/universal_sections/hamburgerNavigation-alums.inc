@@ -144,6 +144,13 @@ $template = <<<TMP
                </div>
                <hr/>
 
+
+               <div class="nav-item d-flex justify-content-between text-light h5 display-5">
+                  <a class="text-white main-nav-link" href="/alumni/contact">Contact</a>
+               </div>
+
+
+
                <hr/>
 
 
