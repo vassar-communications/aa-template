@@ -91,10 +91,8 @@ $page_info = json_decode($page_info, true);
     'image',
     'icon-on-left theme-white-border'
 ); ?>
-
 <p><strong>Check-in: 3:00pm<br/>
-        Check-out: 11:00am</strong></p>
-
+        Check-out: 11:00am</strong></p
 <p>Guests under 18 years old must be accompanied by a parent or guardian.</p>
 
 <p>Alumnae House has a no pet policy.  Service animals are welcome with proper documentation.</p>
