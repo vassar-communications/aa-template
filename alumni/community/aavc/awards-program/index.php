@@ -23,7 +23,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo hamburger_navigation(); ?>
+<?php echo hamburger_navigation_alums(); ?>
 
 <?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
 
@@ -152,5 +152,5 @@ $page_info = json_decode($page_info, true);
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-alumni-news.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
-<?php echo site_footer(); ?>
+<?php echo site_footeralumni(); ?>
 
