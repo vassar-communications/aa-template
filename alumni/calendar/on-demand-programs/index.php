@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"On-Demand Program",
+  "page_title":"On-Demand Programs",
   "page_classes":"",
   "feature_image":"/assets/images/placeholders/placeholder-banner.png"
 }';
