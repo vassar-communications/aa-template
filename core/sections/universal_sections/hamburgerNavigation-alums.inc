@@ -55,9 +55,9 @@ $template = <<<TMP
 
                      <div class="mb-2"> <a class="text-white" href="/alumni/give/hire-vassar/">Be a Mentor</a></div>
 
-                     <div class="mb-2"> <a class="text-white" href="????">Fearlessly Consequential Campign</a></div>
+                     <!-- <div class="mb-2"> <a class="text-white" href="????">Fearlessly Consequential Campign</a></div> -->
 
-                     <div class="mb-2"> <a class="text-white" href="????">Sustain Vassar</a></div>
+                     <!-- <div class="mb-2"> <a class="text-white" href="????">Sustain Vassar</a></div> -->
                 </div>
                </div>
 
@@ -102,11 +102,11 @@ $template = <<<TMP
 
                      <div class="mb-2"> <a class="text-white" href="/alumni/community/notable-alumni/">Notable Alumni</a></div>
 
-                     <div class="mb-2"> <a class="text-white" href="????">Parents</a></div>
+                     <!-- <div class="mb-2"> <a class="text-white" href="????">Parents</a></div> -->
 
-                     <div class="mb-2"> <a class="text-white" href="????">Students</a></div>
+                     <!-- <div class="mb-2"> <a class="text-white" href="????">Students</a></div> -->
 
-                     <div class="mb-2"> <a class="text-white" href="????">Athletics</a></div>
+                     <!-- <div class="mb-2"> <a class="text-white" href="????">Athletics</a></div> -->
 
                   </div>
                </div>
@@ -120,11 +120,11 @@ $template = <<<TMP
                <div id="alumni-resources" class="accordion-collapse collapse" aria-labelledby="collapseOne" data-bs-parent="#alumni-resources">
                   <div class="accordion-body h3 text-left px-0">
 
-                     <div class="mb-2"> <a class="text-white" href="/alumni/resources/????/">Alumni Directory</a></div>
+                     <!-- <div class="mb-2"> <a class="text-white" href="/alumni/resources/????/">Alumni Directory</a></div> -->
 
                      <div class="mb-2"> <a class="text-white" href="/alumni/resources/the-vassar-network/">The Power of the Vassar Network</a></div>
 
-                     <div class="mb-2"> <a class="text-white" href="/alumni/resources/????/">Career Support</a></div>
+                     <!-- <div class="mb-2"> <a class="text-white" href="/alumni/resources/????/">Career Support</a></div> -->
 
                      <div class="mb-2"> <a class="text-white" href="/alumni/resources/grants-fellowships/">Grants & Fellowships</a></div>
 
@@ -138,7 +138,7 @@ $template = <<<TMP
 
                      <div class="mb-2"> <a class="text-white" href="/alumni/resources/college-search-101/">College Search 101</a></div>
 
-                     <div class="mb-2"> <a class="text-white" href="????">On-Campus Resources</a></div>
+                     <!-- <div class="mb-2"> <a class="text-white" href="????">On-Campus Resources</a></div> -->
 
                   </div>
                </div>
