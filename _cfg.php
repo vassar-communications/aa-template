@@ -22,9 +22,6 @@ function get_base_path($type='document_root') {
   if( strpos(getcwd(), 'vassar-staging.benaustin.com') ) {
     $root_path = '/nfs/c08/h03/mnt/117884/domains/vassar-staging.benaustin.com/html';
   }
-  if( strpos(getcwd(), 'vassar-dev.benaustin.com') ) {
-    $root_path = '/nfs/c08/h03/mnt/117884/domains/vassar-dev.benaustin.com/html';
-  }
   else {
     $root_path = $_SERVER['DOCUMENT_ROOT'];
   }
