@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Generation Vassar',
     '/alumni/calendar/generation-vassar/',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-calendar/generation-vassar/Vassar_Library_Timelapse_Set02_20210114_KR_0233.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

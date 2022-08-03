@@ -24,13 +24,15 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
+
+
 <?php echo sec_fixedCenteredTitle_masthead_vid(
     '<b class="slide-from-left">Give</b>
    <b class="slide-from-right">Back</b>',
     '727857417?h=67e1eace57',
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/Ad_Poster_15_TT_2266.jpg',
+    ['bg-image-url' => $page_info['feature_image'],
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
@@ -41,6 +43,8 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <?php echo end_sec_fixedCenteredTitle_masthead_vid(); ?>
+
+
 
 <?php echo interior_page_nav() ?>
 
@@ -57,7 +61,7 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'The Many Ways to Give Back',
     'Connect with the alumni community and learn how you can continue to support Vassar.',
-    'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/0002-18-01-kr-scc-estrella-vassar-0048.jpg');
+    '/alumni/assets/img/alumni-give/0002-18-01-kr-scc-estrella-vassar-0048.jpg');
 ?>
 
 
@@ -72,7 +76,7 @@ $page_info = json_decode($page_info, true);
     '',
     'theme-darkcoal bg-dark py-5 text-white ',
     'animate-when-content-appears animation-fade-in text-center',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/give/overview/Vassar_Campus_6_26_17_0078.jpg',
+    ['bg-image-url' => '/alumni/assets/img/alumni-give/Vassar_Campus_6_26_17_0078.jpg',
         'bg-image-alt' => 'replacealttxt']
 
 ); ?>
@@ -102,7 +106,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/give/volunteer/Vassar Project-11.jpg',
+    '/alumni/assets/img/alumni-give/Vassar Project-11.jpg',
     'theme-cream',
     'mw-100'
 ); ?>
@@ -118,7 +122,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675.jpg',
+    '/alumni/assets/img/alumni-give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675-crop.jpg',
     'theme-burgundy quad-pattern has-bg image-is-first',
     'mw-100'
 ); ?>
@@ -136,7 +140,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/give/hire/0006-19-01-kr-scc-reception-vassar-0956_crop.jpeg',
+    '/alumni/assets/img/alumni-give/0006-19-01-kr-scc-reception-vassar-0956_crop.jpg',
     'theme-cream',
     'mw-100'
 ); ?>

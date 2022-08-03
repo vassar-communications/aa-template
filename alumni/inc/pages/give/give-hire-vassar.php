@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Hire Vassar',
     '/alumni/give/hire-vassar/',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-give/hire/0006-19-01-kr-scc-reception-vassar-0977.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

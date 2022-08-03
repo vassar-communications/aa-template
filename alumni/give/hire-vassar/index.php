@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Hire Vassar",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-give/hire/0056_13_05_TT_1015.jpg"
 }';
 
 /* === */
@@ -25,8 +25,7 @@ $page_info = json_decode($page_info, true);
 <?php echo hamburger_navigation(); ?>
 
 
-<?php echo page_partialmasthead('https://vassartest.chuckyatsuk.com/img/alumni/give/hire/0056_13_05_TT_1015.jpg'); ?>
-
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -35,7 +34,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/give/hire/0006-19-01-kr-scc-career-clusters-vassar-0522.jpg',
+    '/alumni/assets/img/alumni-give/hire/0006-19-01-kr-scc-career-clusters-vassar-0522.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
@@ -49,7 +48,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/give/hire/0153-19-11-kr-major-palooza-vassar-5436.jpg',
+    '/alumni/assets/img/alumni-give/mentor/0153-19-11-kr-major-palooza-vassar-5436.jpg',
     'theme-cream',
     ''
 ); ?>

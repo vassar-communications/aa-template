@@ -1,5 +1,5 @@
-college-events
-generation-vassar
-on-demand-programs
 reunions
+generation-vassar
+college-events
+on-demand-programs
 travel-program

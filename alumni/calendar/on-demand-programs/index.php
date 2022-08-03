@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"On-Demand Program",
+  "page_title":"On-Demand Programs",
   "page_classes":"",
   "feature_image":"/assets/images/placeholders/placeholder-banner.png"
 }';
@@ -33,7 +33,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Missed it live? See it here.',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-calendar/on-demand/Media_Panel_Yale_Club-Bernstein-Reid-2018.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
@@ -201,7 +201,7 @@ echo item_imageCard_videoModal(
 
 <?php echo relatedTopics(); ?>
 
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give-makegift.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give.php');?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give-fearlessly-consequential.php');?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give-support-vassar.php');?>
 

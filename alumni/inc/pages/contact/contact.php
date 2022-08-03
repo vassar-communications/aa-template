@@ -1,11 +1,11 @@
 <?php echo item_cardWithText(
     'Contact Us',
     '/alumni/contact/',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-contact/0097_16_09_TT_2788.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-    <p class="placeholder">placeholder</p>
+    <p class="placeholder">Reach out to us</p>
 
 <?php echo end_item_cardWithText(
     null,

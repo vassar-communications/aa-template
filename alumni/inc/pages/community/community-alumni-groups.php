@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Alumni Groups',
     '/alumni/community/alumni-groups/',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-community/alumni-groups/0127_12_12_YEM_2814.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

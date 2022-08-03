@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Our Community',
     '/alumni/community/',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-community/Vassar_Reunion_19_BL_4968_edited.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

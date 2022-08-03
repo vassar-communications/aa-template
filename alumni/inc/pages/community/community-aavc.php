@@ -1,11 +1,11 @@
 <?php echo item_cardWithText(
     'Alumnae/i Association of Vassar',
     '/alumni/community/aavc/',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-community/aavc/Vassar Reunion_19 BL_4788_full.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-<p class="placeholder">Alumnae/i Association of Vassar</p>
+<p class="">A dynamic global network of 41,000+ members!</p>
 
 <?php echo end_item_cardWithText(
     null,

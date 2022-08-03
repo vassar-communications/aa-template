@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Alumni Groups",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-community/alumni-groups/Vassar_Reunion_2206_CS-417.jpg"
 }';
 
 /* === */
@@ -33,7 +33,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-community/alumni-groups/0127_12_12_YEM_2474.jpg',
     'theme-cream image-is-first',
     ''
 ); ?>
@@ -49,8 +49,8 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Affinity Groups',
-    '/assets/images/placeholders/placeholder-square.png',
-    'theme-burgundy',
+    '/alumni/assets/img/alumni-community/alumni-groups/Group_of_5.jpg',
+    '',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -67,22 +67,22 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     'Getting Involved with Affinity Groups',
-    'theme-burgundy',
+    '',
     ''
 ); ?>
 
 <p>If you are interested in participating in affinity groups, reach out to Sharif Rosen, Associate Director for Multicultural and Affinity Engagement at   <a href="mailto:srosen@vassar.edu">srosen@vassar.edu</a> or <a href="tel:845-437-5543">(845) 437-5443</a>.</p>
 <ul class="linked-list">
-    <li><a href="#">Follow Affinity Groups on Social</a></li>
-    <li><a href="#">Become an Affinity Group Volunteer</a></li>
+    <li><a href="https://www.vassar.edu/social-media-alumni#affinity-groups">Follow Affinity Groups on Social</a></li>
+    <li><a href="http://connect.vassar.edu/volunteer">Become an Affinity Group Volunteer</a></li>
 </ul>
 
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_fullBleedImageColumn(
     'Vassar Classes',
-    '/assets/images/placeholders/placeholder-square.png',
-    '',
+    '/alumni/assets/img/alumni-community/alumni-groups/0041-22-06-bl-reunion-vassar-6992.jpg',
+    'theme-verylightgray',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -98,14 +98,14 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     'Getting Involved with Classes',
-    '',
+    'theme-verylightgray',
     ''
 ); ?>
 
 <p>If you are interested in participating in Class activities, reach out to Diana Jedlicka at <a href="mailto:djedlicka@vassar.edu">djedlicka@vassar.edu</a> or <a href="tel:845-437-5398">(845)437-5398</a>.</p>
 <ul class="linked-list">
     <li><a href="#">Explore Upcoming Reunions</a></li>
-    <li><a href="#">Follow Classes on Social</a></li>
+    <li><a href="https://www.vassar.edu/social-media/class-by-year">Follow Classes on Social</a></li>
     <li><a href="#">Become a Class Volunteer</a></li>
 </ul>
 
@@ -117,8 +117,8 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Vassar Clubs',
-    '/assets/images/placeholders/placeholder-square.png',
-    'theme-burgundy',
+    '/alumni/assets/img/alumni-community/alumni-groups/VCNY_43745686.jpg',
+    'theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -136,13 +136,13 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     'Getting Involved with Vassar Clubs',
-    'theme-burgundy',
+    'theme-cream',
     ''
 ); ?>
 <p>If you are interested in participating in Club activities or starting a Club, reach out to Cheryl McKeever at <a href="mailto:cmckever@vassar.edu">cmckever@vassar.edu</a> or <a href="tel:845-437-5408">845-437-5408</a>.</p>
 <ul class="linked-list">
     <li><a href="#">Explore Upcoming Club Events</a></li>
-    <li><a href="#">Follow Vassar Clubs on Social</a></li>
+    <li><a href="https://www.vassar.edu/social-media-alumni#regional-clubs">Follow Vassar Clubs on Social</a></li>
     <li><a href="#">Become a Club Volunteer</a></li>
 </ul>
 <?php echo end_sec_regularContent(); ?>

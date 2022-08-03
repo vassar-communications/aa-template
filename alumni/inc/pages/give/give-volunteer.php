@@ -1,11 +1,11 @@
 <?php echo item_cardWithText(
     'Volunteer',
     '/alumni/give/volunteer/',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-give/volunteer/0009-18-01-cs-scc-vassar-144.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-<p class="placeholder">Enrich your life and the lives of others in countless ways.</p>
+<p>Enrich your life and the lives of others in countless ways.</p>
 
 <?php echo end_item_cardWithText(
     null,

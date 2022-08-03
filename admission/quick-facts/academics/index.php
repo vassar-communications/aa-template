@@ -101,7 +101,7 @@ $page_info = json_decode($page_info, true);
   <?php echo cta_link(
     '/admission/explore/academics/',
     'See all our majors and minors',
-    'center-object mt-4'
+    'center-object mt-4 d-flex'
   ); ?>
 
 <?php echo end_sec_regularContent(); ?>

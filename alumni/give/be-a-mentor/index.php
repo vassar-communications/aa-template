@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Be a Mentor",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-give/mentor/Steve_Kauderer_001-by_Diana_Liu.jpg"
 }';
 
 /* === */
@@ -34,7 +34,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675-crop.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Sophomore Career Connections',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-give/mentor/0002-20-01-kr-scc-networking-vassar-0041.jpg',
     '',
     ''
 ); ?>
@@ -69,17 +69,13 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Industry and Major Panels',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-give/mentor/0009-18-01-cs-scc-vassar-062.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>The CDO regularly organizes panels that feature a variety of industries, majors, and more, often in collaboration with student organizations and academic departments.</p>
 
-    <?php echo cta_link(
-        '#',
-        'More about panels'
-    ); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -95,10 +91,7 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <p>Want to share your experience navigating the workplace based on your identity (race, class, gender, sexual orientation, international student status, religion, etc.)? The CDO regularly hosts meetups designed to connect students to alums and parents around a shared identity so that they can engage in meaningful conversations about the intersection of identity and career.</p>
 
-    <?php echo cta_link(
-        '#',
-        'More about meet-Ups'
-    ); ?>
+
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -107,17 +100,14 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Career Chats',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-give/mentor/0153-19-11-kr-major-palooza-vassar-5436.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>For students, there is often no better inspiration for life after Vassar than to hear the stories of those who have paved the way. Consider hosting a “career chat," either virtually or on-campus. It’s a great opportunity to discuss your path and educate students about a career field, or share whatever advice or expertise you’d like to impart. </p>
 
-    <?php echo cta_link(
-        '#',
-        'More about Career Chats'
-    ); ?>
+
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -125,17 +115,13 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Alum and Parent-Led Workshops',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-give/mentor/0001-18-01-kr-scc-nixon-vassar-0021.jpg',
     '',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Do you have a skill or content-area specialty that you would like to share? Past workshops led by alumni have included sessions on design thinking, tech and case interview preparation, budgeting, professional communication, and more.</p>
 
-    <?php echo cta_link(
-        '#',
-        'More about workshops'
-    ); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -145,17 +131,12 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Employer Info Sessions',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-give/mentor/Fall_2019_Analysis_Group_Employer_Info_Session-crop.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Do you have a skill or content-area specialty that you would like to share? Past workshops led by alumni have included sessions on design thinking, tech and case interview preparation, budgeting, professional communication, and more.</p>
-
-    <?php echo cta_link(
-        '#',
-        'More about Employer Info Sessions'
-    ); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -164,7 +145,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Career Treks',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-give/mentor/2019_Career_Trek_to_Spotify-crop.jpg',
     '',
     ''
 ); ?>
@@ -172,7 +153,7 @@ $page_info = json_decode($page_info, true);
     <p>Are you open to hosting a group of students at your workplace? The Career Development Office hosts both individual employer site visits and industry-based career treks, bringing small groups of students to employers to experience a road trip to the real world. Past treks have featured financial services, technology, publishing, and more.</p>
 
     <?php echo cta_link(
-        '#',
+        'https://offices.vassar.edu/careers/contact/',
         'Contact Career Development'
     ); ?>
 

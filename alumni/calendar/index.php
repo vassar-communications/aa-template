@@ -25,16 +25,14 @@ $page_info = json_decode($page_info, true);
 <?php echo hamburger_navigation(); ?>
 
 
-
-
-<?php echo sec_fixedCenteredTitle_masthead(
+<?php echo sec_fixedCenteredTitle_masthead_vid(
     '<b class="slide-from-left">Alumni</b>
    <b class="slide-from-right">Calendar</b>',
-    null,
+    '727857392?h=9586cb06fa',
     'theme-verylightgray reveal-image',
     'mw-4',
-    ['bg-image-url' => 'https://vassartest.chuckyatsuk.com/img/alumni/community/overview/0037-19-02-kr-ifill-sherrilyn-vassar-7892.jpg',
-        'bg-image-alt' => 'replacethisalttext',
+    ['bg-image-url' => $page_info['feature_image'],
+        'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
@@ -43,7 +41,8 @@ $page_info = json_decode($page_info, true);
       ']
 ); ?>
 
-<?php echo end_sec_fixedCenteredTitle_masthead(); ?>
+<?php echo end_sec_fixedCenteredTitle_masthead_vid(); ?>
+
 
 <?php echo interior_page_nav() ?>
 

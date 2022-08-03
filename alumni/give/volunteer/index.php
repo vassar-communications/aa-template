@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Volunteer",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholder-banner.png"
+  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
 }';
 
 /* === */
@@ -33,7 +33,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Get Involved',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-give/volunteer/0009-18-01-cs-scc-vassar-144.jpg',
     'theme-cream image-is-first',
     ''
 ); ?>
