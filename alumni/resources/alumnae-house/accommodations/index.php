@@ -30,7 +30,7 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Stay at Alumnae House',
     '/assets/images/placeholders/placeholder-square.png',
     'image-is-first theme-cream',
     ''
