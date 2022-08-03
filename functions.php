@@ -120,7 +120,11 @@ include($project_paths['main_project_root'].'/core/sections/universal_sections/s
 include($project_paths['main_project_root'].'/core/sections/universal_sections/pageMasthead.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/pageTextMasthead.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/vassarMasthead.inc');
+
 include($project_paths['main_project_root'].'/core/sections/universal_sections/hamburgerNavigation.inc');
+
+include($project_paths['main_project_root'].'/core/sections/universal_sections/hamburgerNavigation-alums.inc');
+
 include($project_paths['main_project_root'].'/core/sections/universal_sections/breadcrumbNavigation.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/toplinksNavigation.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/relatedTopics.inc');
