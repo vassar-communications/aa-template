@@ -33,7 +33,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Students standing in a circle looking down at the camera and singing']);
 ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>There is a lot to learn about Vassar through our many virtual and in-person visit options. If you still have questions about what life is like as a Vassar student, we encourage you to reach out! Email <a href="mailto:askastudent@vassar.edu">askastudent@vassar.edu</a> to connect with a current Vassar student who will answer your questions about life at Vassar. We can’t guarantee which student will respond to your question, but we can guarantee that they will give you an honest answer. So go ahead, ask a student.</p>
+    <p>There is a lot to learn about Vassar through our many virtual and in-person visit options. If you still have questions about what life is like as a Vassar student, we encourage you to reach out! Email <a href="mailto:askastudent@vassar.edu">askastudent@vassar.edu</a> to connect with a current Vassar student who will answer your questions about life at Vassar. We can’t guarantee which student will respond to your question, but we can guarantee that they will give you an honest answer. So go ahead and ask a student.</p>
 
     <p><i class="fa-solid fa-envelope"></i><a class="ms-2" href="mailto:askastudent@vassar.edu">askastudent@vassar.edu</a></p>
 </div>
