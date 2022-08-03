@@ -22,7 +22,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo hamburger_navigation(); ?>
+<?php echo hamburger_navigation_alums(); ?>
 
 
 
@@ -114,4 +114,4 @@ $page_info = json_decode($page_info, true);
 
 
 
-<?php echo site_footer(); ?>
+<?php echo site_footeralumni(); ?>
