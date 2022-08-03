@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Alumni Benefits",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-resources/alumni-benefits/Vassar_Reunion_19_BL_4706.jpg"
 }';
 
 /* === */
@@ -31,7 +31,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Alumni Benefits',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-resources/alumni-benefits/reunion-1906-kr-vassar-3139.jpg',
     'image-is-first theme-cream',
     'placeholder'
 ); ?>

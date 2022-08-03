@@ -2,51 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/Vassar_11.19.17_Woodmere_Phila-151-edits.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/alumni-groups/0041-22-06-bl-reunion-vassar-6992.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/alumni-groups/0127_12_12_YEM_2467.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/alumni-groups/0127_12_12_YEM_2474.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/alumni-groups/Group_of_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/alumni-groups/VCNY_43745686.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/alumni-groups/Vassar_Reunion_2206_CS-417.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-give/0002-18-01-kr-scc-estrella-vassar-0048.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-give/0006-19-01-kr-scc-reception-vassar-0956_crop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-give/Vassar Project-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-give/Vassar_Campus_6_26_17_0078.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-give/hire/0006-19-01-kr-scc-career-clusters-vassar-0522.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-give/hire/0056_13_05_TT_1015.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-give/mentor/0001-18-01-kr-scc-nixon-vassar-0021.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-give/mentor/0002-20-01-kr-scc-networking-vassar-0041.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675-crop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-give/mentor/0009-18-01-cs-scc-vassar-062.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-give/mentor/0153-19-11-kr-major-palooza-vassar-5436.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-give/mentor/2019_Career_Trek_to_Spotify-crop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-give/mentor/Fall_2019_Analysis_Group_Employer_Info_Session-crop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-give/mentor/Steve_Kauderer_001-by_Diana_Liu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/0133-21-10-kr-night-campus-vassar-0003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/0640_Vassar_College_exteriors_campus_life_Oct_2019_JA.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-resources/Sunset_Lake_15_TT_1519.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/calendar/_nav.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/_nav.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/calendar/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/calendar/on-demand-programs/index-abandoned.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/calendar/on-demand-programs/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/on-demand-programs/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/community/_nav.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/_nav.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/community/aavc/_nav.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/aavc/_nav.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/community/alumni-groups/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/alumni-groups/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/community/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/give/be-a-mentor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/be-a-mentor/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/give/hire-vassar/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/hire-vassar/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/give/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/give/volunteer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/volunteer/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/give/z-UNUSED/index-cs-image-2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/give/z-UNUSED/index-cs-image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/give/z-UNUSED/index-cs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/give/z-UNUSED/old.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/inc/pages/resources/resources-college-search-101.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/inc/pages/resources/resources-college-search-101.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/_nav.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/_nav.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/index-alt.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/resources/alumnae-house/accommodations/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumnae-house/accommodations/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/resources/alumnae-house/contact/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumnae-house/contact/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/resources/alumnae-house/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumnae-house/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/resources/alumni-benefits/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumni-benefits/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +88,7 @@
       <workItem from="1657765727741" duration="22691000" />
       <workItem from="1658910269180" duration="17914000" />
       <workItem from="1658979377387" duration="17153000" />
-      <workItem from="1659422829449" duration="38436000" />
+      <workItem from="1659422829449" duration="41632000" />
     </task>
     <servers />
   </component>

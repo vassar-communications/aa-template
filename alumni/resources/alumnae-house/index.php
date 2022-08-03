@@ -81,7 +81,7 @@ $page_info = json_decode($page_info, true);
 <p>As the quintessential meeting place for Vassar College alumnae/i throughout the last century, Alumnae House is open to the public for catered events.</p>
 
 <?php echo cta_link(
-    '/alumni/resources/alumnae-house/event/',
+    '/alumni/resources/alumnae-house/events/',
     'Learn more about events at Alumnae House'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
