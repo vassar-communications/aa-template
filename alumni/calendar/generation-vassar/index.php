@@ -11,7 +11,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Generation Vassar",
   "page_classes":"",
-  "feature_image":"/alumni/assets/img/alumni-calendar/generation-vassar/Vassar_Library_Timelapse_Set03_20210114_KR_0218.jpg"
+  "feature_image":"/alumni/assets/img/alumni-calendar/generation-vassar/Vassar_Library_Timelapse_Set02_20210114_KR_0233.jpg"
 }';
 
 /* === */
@@ -54,7 +54,7 @@ $page_info = json_decode($page_info, true);
 <?php echo relatedTopics(); ?>
 
 
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give-makegift.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give.php');?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give-fearlessly-consequential.php');?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give-support-vassar.php');?>
 

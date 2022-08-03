@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'AAVC Awards',
     '/alumni/community/aavc/awards-program/',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-community/aavc/0114_18_09_KR_3944.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

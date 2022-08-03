@@ -51,7 +51,7 @@ $page_info = json_decode($page_info, true);
     '<h2 class="section-intro-text">The Vassar Community is filled with vibrant, eclectic, non-conformist changemakers who span more than eight decades of the lived, global experience of students, alumni, family, and friends.</h2>',
     'sec-fixedCenteredTitle theme-burgundy make-a-difference section-title-text-shadow',
     'mw-4',
-    ['bg-image-url' => '/mockups/advancement-home/assets/images/0153-19-11-kr-major-palooza-vassar-6031.jpg',
+    ['bg-image-url' => '/alumni/assets/img/alumni-give/0153-19-11-kr-major-palooza-vassar-6031.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);

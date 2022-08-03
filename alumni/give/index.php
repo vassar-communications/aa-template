@@ -118,7 +118,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    'https://vassartest.chuckyatsuk.com/img/alumni/give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675.jpg',
+    '/alumni/assets/img/alumni-give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675.jpg',
     'theme-burgundy quad-pattern has-bg image-is-first',
     'mw-100'
 ); ?>

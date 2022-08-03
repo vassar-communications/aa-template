@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Be a Mentor',
     '/alumni/give/be-a-mentor/',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
