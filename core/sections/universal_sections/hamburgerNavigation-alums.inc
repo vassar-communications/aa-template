@@ -45,19 +45,18 @@ $template = <<<TMP
                <div id="alumni-give" class="accordion-collapse collapse" aria-labelledby="collapseOne" data-bs-parent="#give-vassar">
                   <div class="accordion-body h3 text-left px-0">
 
-                     <div class="mb-2"> <a class="text-white" href="https://give.vassar.edu/">Give Now</a></div>
-
+        
                      <div class="mb-2"> <a class="text-white" href="/alumni/give/support-vassar/">Support Vassar</a></div>
-
-                     <div class="mb-2"> <a class="text-white" href="/alumni/give/volunteer/">Volunteer</a></div>
 
                      <div class="mb-2"> <a class="text-white" href="/alumni/give/be-a-mentor/">Be a Mentor</a></div>
 
-                     <div class="mb-2"> <a class="text-white" href="/alumni/give/hire-vassar/">Be a Mentor</a></div>
+                     <div class="mb-2"> <a class="text-white" href="/alumni/give/hire-vassar/">Hire Vassar</a></div>
+                     
+                     <div class="mb-2"> <a class="text-white" href="/alumni/give/volunteer/">Volunteer</a></div>
+                     
+                      <div class="mb-2"> <a class="text-white" href="https://give.vassar.edu/">Give Now</a></div>
 
-                     <!-- <div class="mb-2"> <a class="text-white" href="????">Fearlessly Consequential Campign</a></div> -->
 
-                     <!-- <div class="mb-2"> <a class="text-white" href="????">Sustain Vassar</a></div> -->
                 </div>
                </div>
 
@@ -80,7 +79,6 @@ $template = <<<TMP
 
                      <div class="mb-2"> <a class="text-white" href="/alumni/calendar/travel-program/">Travel Program</a></div>
 
-                     <div class="mb-2"> <a class="text-white" href="????">Register for an Event</a></div>
                   </div>
                </div>
 
@@ -102,11 +100,6 @@ $template = <<<TMP
 
                      <div class="mb-2"> <a class="text-white" href="/alumni/community/notable-alumni/">Notable Alumni</a></div>
 
-                     <!-- <div class="mb-2"> <a class="text-white" href="????">Parents</a></div> -->
-
-                     <!-- <div class="mb-2"> <a class="text-white" href="????">Students</a></div> -->
-
-                     <!-- <div class="mb-2"> <a class="text-white" href="????">Athletics</a></div> -->
 
                   </div>
                </div>
@@ -119,26 +112,11 @@ $template = <<<TMP
                </div>
                <div id="alumni-resources" class="accordion-collapse collapse" aria-labelledby="collapseOne" data-bs-parent="#alumni-resources">
                   <div class="accordion-body h3 text-left px-0">
-
-                     <!-- <div class="mb-2"> <a class="text-white" href="/alumni/resources/????/">Alumni Directory</a></div> -->
-
-                     <div class="mb-2"> <a class="text-white" href="/alumni/resources/the-vassar-network/">The Power of the Vassar Network</a></div>
-
-                     <!-- <div class="mb-2"> <a class="text-white" href="/alumni/resources/????/">Career Support</a></div> -->
-
-                     <div class="mb-2"> <a class="text-white" href="/alumni/resources/grants-fellowships/">Grants & Fellowships</a></div>
-
-                     <div class="mb-2"> <a class="text-white" href="/alumni/resources/alumnae-house/">Alumnae House</a></div>
-
                      <div class="mb-2"> <a class="text-white" href="/alumni/resources/alumni-benefits/">Alumni Benefits</a></div>
-
-                     <div class="mb-2"> <a class="text-white" href="????">Volunteer Resources</a></div>
-
-                     <div class="mb-2"> <a class="text-white" href="????">Update Contact Info</a></div>
-
+                     <div class="mb-2"> <a class="text-white" href="/alumni/resources/alumnae-house/">Alumnae House</a></div>
                      <div class="mb-2"> <a class="text-white" href="/alumni/resources/college-search-101/">College Search 101</a></div>
-
-                     <!-- <div class="mb-2"> <a class="text-white" href="????">On-Campus Resources</a></div> -->
+                    <div class="mb-2"> <a class="text-white" href="/alumni/resources/grants-fellowships/">Grants & Fellowships</a></div>
+                     <div class="mb-2"> <a class="text-white" href="/alumni/resources/the-vassar-network/">The Vassar Network</a></div>
 
                   </div>
                </div>

@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Alumnae/i Association of Vassar",
+  "page_title":"Alumni Association of Vassar",
   "page_classes":"",
   "feature_image":"/assets/images/placeholders/placeholder-banner.png"
 }';
