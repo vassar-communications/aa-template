@@ -427,8 +427,6 @@ function breadcrumb() {
   // doesn't exist yet.
 
 
-
-
   //  How the breadcrumb works:
   //  - If a section has children, it should appear in the breadcrumb
   //  - If a section has no children (it's an endpoint page) it should
@@ -438,13 +436,42 @@ function breadcrumb() {
   //  the breadcrumb is whether or not it has a _nav.txt file. Endpoint
   //  pages have no _nav.txt, because they have no subsections.
 
-    if (file_exists(getcwd().'/_nav.txt')) {
+
+  // Also: does the current page have any siblings?
+  // If it does, it should not appear in the breadcrumb trail.
+
+  $directory = dirname(getcwd(), 1);
+  $scanned_directory = array_diff(scandir($directory), array('..', '.', 'index.php'));
+
+  $siblings = false;
+  $path_class = '';
+
+  if( count( $scanned_directory ) >= 2 ) {
+    $siblings = true;
+  }
+
+  // what about children?
+
+  $directory = getcwd();
+  $scanned_directory = array_diff(scandir($directory), array('..', '.', 'index.php'));
+
+  $children = false;
+  $path_class = '';
+
+  if( count( $scanned_directory ) >= 2 ) {
+    $children = true;
+  }
+
+// If a section DOES NOT have children, it SHOULD NOT appear in the breadcrumb nav
+
+    if ( $children ) {
       $current_path = get_base_path('path_to_current_doc_from_web_dir');
-      $path_class = '';
+    }
+    else if ( !$children ) {
+      $current_path = get_base_path('path_to_current_doc_from_web_dir');
+      $path_class = ' no-subnav';
     }
     else {
-//      $current_path = dirname(get_base_path('path_to_current_doc_from_web_dir'), 1);
-      $path_class = ' no-subnav';
       $current_path = get_base_path('path_to_current_doc_from_web_dir');
     }
 

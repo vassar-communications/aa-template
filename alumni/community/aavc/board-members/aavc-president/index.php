@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"AAVC President and AAVC Trustee",
   "page_classes":"",
-  "feature_image":"/assets/images/placerholders/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-community/aavc/board/vachher-monica-aavc-alum-001.jpg"
 }';
 
 /* === */
