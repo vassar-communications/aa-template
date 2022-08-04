@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     'image-is-first theme-cream',
     'placeholder'
 ); ?>
-<p class="intro-text placeholder">Vassar offers a variety of benefits to the more than 41,000 alumni across the globe.</p>
+<p class="intro-text">Vassar offers a wide array of benefits to the more than 41,000 alumni across the globe.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
