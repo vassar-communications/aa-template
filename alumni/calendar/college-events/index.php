@@ -11,7 +11,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"College Events",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholder-banner.png"
+  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
 }';
 
 /* === */
@@ -31,6 +31,24 @@ $page_info = json_decode($page_info, true);
 <?php echo interior_page_nav() ?>
 
 <?php /*  PAGE CONTENT === */ ?>
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Upcoming College Events',
+    '/assets/images/placeholders/placeholder-square.png',
+    'image-is-first theme-cream',
+    ''
+); ?>
+<p>View events and activities happening on the Vassar campus.</p>
+
+<?php echo cta_link(
+    'http://vassar.edu/news/events',
+    'View events calendar'
+); ?>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
 
 
 <?php echo relatedTopics(); ?>
