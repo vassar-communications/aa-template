@@ -59,7 +59,8 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo masthead_interiorPage(
-    'The Many Ways to Give Back',
+    'Why
+Giving Back Matters',
     'Connect with the alumni community and learn how you can continue to support Vassar.',
     '/alumni/assets/img/alumni-give/0002-18-01-kr-scc-estrella-vassar-0048.jpg');
 ?>
@@ -102,6 +103,24 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo end_sec_wideContent(); ?>
+
+
+<?php echo sec_fullBleedImageColumn(
+    null,
+    '/alumni/assets/img/alumni-give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675-crop.jpg',
+    'theme-burgundy quad-pattern has-bg image-is-first',
+    'mw-100'
+); ?>
+
+
+<div class="animate-when-content-appears animation-slide-up">
+    <h2 class="display-2 border-animate mb-5 ">Make a gift</h2>
+    <p>PLACEHOLDER</p>
+
+    <a href="/alumni/give/be-a-mentor/" class="px-0 btn btn-link arrow">Explore mentorship opportunities</a>
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
 
 
 <?php echo sec_fullBleedImageColumn(
