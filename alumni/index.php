@@ -160,7 +160,7 @@ echo sec_fixedCenteredTitle(
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Alumni</b>
    <b class="slide-from-right">Spotlight</b>',
-    '<h2 class="section-intro-text">Here we shine a light on the great work being done by our staff, students, and alumni.</h2>',
+    '<h2 class="section-intro-text">Here we shine a light on the great work being done by our alumni.</h2>',
     'sec-fixedCenteredTitle theme-charcoal alums-spotlight',
     'mw-4',
     ['bg-image-url' => '/alumni/assets/img/alumni-home/0037-19-02-kr-ifill-sherrilyn-vassar-7892.jpg',
@@ -201,7 +201,7 @@ echo sec_fixedCenteredTitle(
 <?php echo inTheMediaCarousel(); ?>
 
 <div class="text-center mt-3">
-    <a href="" class="btn btn-light btn-lg arrow mb-5" style="background: #fff;">More news</a>
+    <a href="/alumni/community/alumni-news" class="btn btn-light btn-lg arrow mb-5" style="background: #fff;">More news</a>
 </div>
 
 
