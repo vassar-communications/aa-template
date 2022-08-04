@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <p>Generation Vassar is a month-long fundraising challenge that encourages friendly competition between classes in each decade. The class with the highest percentage of donors is crowned that decade’s champion. Your support at any level can affect the value of your degree, have a big impact on current students, help influence major donors and foundations, and keep tuition costs down.</p>
-<p>Join thousands of alumni spanning 9 generations who accept the Generation Vassar Challenge!</p>
+<p>Join thousands of alumni spanning nine generations who accept the Generation Vassar Challenge!</p>
 
 
 <?php echo cta_link(

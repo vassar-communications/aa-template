@@ -55,7 +55,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo masthead_interiorPage(
-    'What’s not to love?',
+    'What’s Not to Love?',
     'Vassar alumni are entitled to a whole host of services and benefits … automatically.',
     '/alumni/assets/img/alumni-resources/Sunset_Lake_15_TT_1519.jpg');
 ?>
@@ -63,7 +63,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
         'Explore Resources',
     '3',
-    '<p>Access career development opportunities; take advantage of a top-notch travel program that allows you to traverse the globe with Vassar professors knowledge about the various regions, their history and culture; and get goodies like a dedicated Vassar email and a lifetime subscription to VQ.</p>',
+    '<p>Access career development opportunities; take advantage of a top-notch travel program that allows you to traverse the globe with Vassar professors knowledgeable about the various regions, their history, and culture; and get goodies like a dedicated Vassar email address and a lifetime subscription to VQ.</p>',
     'theme-dark-burgundy quad-pattern has-bg',
     ''
 );?>
@@ -96,13 +96,13 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Alumnae House',
-    $alumni_img_path.'alumni-resources/alumnae-house/Alumnae_House_06_CB_08.jpg',
+    $alumni_img_path.'alumni-resources/alumnae-house/0050_17_06_BL_8695.jpg',
     '',
     '',
     ['img_alt_text' => 'replacethisalttext']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>With a reverence for the past and a nod towards the future, Alumnae House strives to be a welcoming home for all Vassar students and alums.</p>
+    <p>With a reverence for the past and a nod toward the future, Alumnae House strives to be a welcoming home for all Vassar students and alums.</p>
 
     <?php echo cta_link(
         '/alumni/resources/alumnae-house/',
