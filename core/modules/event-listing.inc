@@ -66,6 +66,7 @@ function event_item(
   $time,
   $description,
   $image,
+  $link=null,
   $classes=null,
   $p_classes=null
 ) {
@@ -80,7 +81,7 @@ return <<<TMP
   </div>
   <div class="event__image-container"><img class="event__image" src="$image"/></div>
   <div class="event__content-container">
-    <h3 class="event__title">$title</h3>
+    <h3 class="event__title"><a class="stretched-link" href="$link">$title</a></h3>
 
     <div class="event__time">
       <i class="fa-regular fa-clock"></i> <span>$time</span>
