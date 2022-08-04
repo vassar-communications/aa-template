@@ -10169,6 +10169,57 @@ details.open .dropdown__content {
     top: auto;
   }
 }
+.has-image .content {
+  display: flex;
+}
+
+.image-container {
+  width: 40%;
+  aspect-ratio: 1/1;
+  position: relative;
+}
+.image-container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-details {
+  padding: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  .event-details {
+    padding: 2rem;
+  }
+}
+
+.dropdown-card {
+  background: #fff;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.supertitle {
+  font-size: 1rem;
+}
+
+.dropdown-title {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  font-size: 3rem;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+/*
+.column-layout {
+}
+
+*/
 /* Inline icon button */
 /* Block-style icon button */
 .btn-card {

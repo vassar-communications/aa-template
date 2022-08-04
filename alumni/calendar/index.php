@@ -57,19 +57,39 @@ Make sure functions convert straight quotes to curly
     'Join the Fun',
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     $admission_img_path.'apply/0196-19-11-kwe-greenhouse-vassar-vb-6440.jpg
-',
-null,
-null,
-['img_alt_text' => 'Students researching plants in a lab']
+  ',
+  null,
+  null,
+  ['img_alt_text' => 'Students researching plants in a lab']
 );
 ?>
 
+<?php echo sec_regularContent(
+  null,
+  'theme-charcoal mw-inner-2'
+); ?>
 
-<?php echo sec_regularContent(); ?>
+  <?php echo expandable_event_card(
+    'Reunion 2023',
+    'June 2–4'
+  ); ?>
 
-carousel goes here
+  <?php echo end_expandable_event_card(); ?>
+
+
+  <?php echo expandable_event_card(
+    'sdfdsf',
+    'June 14',
+    [
+      'img_url' => 'https://images.unsplash.com/photo-1659425757127-ccbf96c59163?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60',
+      'img_alt_text' => 'alt text'
+    ]
+  ); ?>
+
+  <?php echo end_expandable_event_card(); ?>
 
 <?php echo end_sec_regularContent(); ?>
+
 
 
 <?php echo sec_wideContent(
@@ -112,6 +132,39 @@ carousel goes here
 <?php echo end_event_listing(); ?>
 
 <?php echo end_sec_wideContent(); ?>
+
+
+<?php echo sec_regularContent(); ?>
+
+carousel goes here
+
+<?php echo end_sec_regularContent(); ?>
+
+
+
+
+<?php echo sec_fullBleedImageColumn(
+  'Reunions',
+  'https://www.vassar.edu/sites/default/files/2021-06/20-reunion-1906-bl-vassar-4706-cropped.jpg',
+  ''
+); ?>
+
+<p>Vassar and the Alumnae/i Association (AAVC) are thrilled about the return to in person Reunions and can’t wait to welcome you and your classmates back to campus.</p>
+
+<?php echo cta_link(
+    '/reunion/',
+    'Learn more'
+); ?>
+
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+
+
+
+
 
 
 <?php echo sec_hasColumns(
@@ -168,9 +221,11 @@ carousel goes here
       </div>
     </div>
   <?php echo end_item_col(); ?>
-
-
-
 <?php echo end_sec_hasColumns(); ?>
+
+
+
+
+
 
 <?php echo site_footeralumni(); ?>
