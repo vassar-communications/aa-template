@@ -6,15 +6,31 @@
 
 <?php echo carousel(); ?>
 
+<?php echo carousel_item(
+  'https://www.vassar.edu/sites/default/files/styles/featured_news_teaser/public/2022-08/07-CommFellows-Hailey-Osika-002-16x9.jpg?itok=sywDrTe9',
+  'is-link',
+  'A grid of six faces'
+); ?>
+  <h3>Vassar Community Fellows Lend a Hand to Strengthen Local Programs</h3>
+  <a class="stretched-link" href="https://www.vassar.edu/news/vassar-community-fellows-lend-hand-strengthen-local-programs">Read more <i class="fa-solid fa-arrow-right"></i></a>
+<?php echo end_carousel_item(); ?>
+
+  <?php echo carousel_item(
+    'https://www.vassar.edu/sites/default/files/styles/featured_news_teaser/public/2022-07/trustee-collage-16x9-edit2.1.jpg?itok=6UY-MgQO',
+    'is-link',
+    'A grid of six faces'
+  ); ?>
+    <h3>Vassar Salutes Retiring Board Members</h3>
+    <a class="stretched-link" href="https://www.vassar.edu/news/minor-planet-named-particle-physicist-sau-lan-wu-63">Read more <i class="fa-solid fa-arrow-right"></i></a>
+  <?php echo end_carousel_item(); ?>
+
   <?php echo carousel_item(
     $news_img_path . '0087_12_10_ja_162.jpg',
     'is-link',
     'Particle Physicist Sau Lan Wu ’63 lecturing in a classroom'
   ); ?>
     <h3>“Minor Planet” named for Particle Physicist Sau Lan Wu ’63</h3>
-
     <a class="stretched-link" href="https://www.vassar.edu/news/minor-planet-named-particle-physicist-sau-lan-wu-63">Read more <i class="fa-solid fa-arrow-right"></i></a>
-
   <?php echo end_carousel_item(); ?>
 
   <?php echo carousel_item( $news_img_path . 'the-overturning-of-roe-v-wade-16x9.jpg',
@@ -26,14 +42,6 @@
 
   <?php echo end_carousel_item(); ?>
 
-  <?php echo carousel_item( $news_img_path . 'aavc-awards-2206-2x3-edit1.jpg',
-  'is-link',
-  'Six-panel grid displaying photographic portraits of five alumni selected for 2022 AAVC Awards'
-); ?>
-    <h3>Five Alumni Selected for 2022 AAVC Awards</h3>
-    <a class="stretched-link" href="https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards">Read more <i class="fa-solid fa-arrow-right"></i></a>
-
-  <?php echo end_carousel_item(); ?>
 
   <?php echo carousel_item( $news_img_path . 'Pulitzer-Prizes-medal-edit1.jpeg',
   'is-link',
@@ -44,7 +52,20 @@
 
   <?php echo end_carousel_item(); ?>
 
-  <?php echo carousel_item( $news_img_path . 'olmsted-story-lead.jpeg',
+
+
+  <?php /* echo carousel_item( $news_img_path . 'aavc-awards-2206-2x3-edit1.jpg',
+  'is-link',
+  'Six-panel grid displaying photographic portraits of five alumni selected for 2022 AAVC Awards'
+); ?>
+    <h3>Five Alumni Selected for 2022 AAVC Awards</h3>
+    <a class="stretched-link" href="https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards">Read more <i class="fa-solid fa-arrow-right"></i></a>
+
+  <?php echo end_carousel_item(); */ ?>
+
+
+
+  <?php /* echo carousel_item( $news_img_path . 'olmsted-story-lead.jpeg',
   'is-link',
   'Exhibition, set in Vassar’s Art Library'
 ); ?>
@@ -52,7 +73,8 @@
     <a class="stretched-link" href="https://www.vassar.edu/news/exhibit-highlights-newly-revealed-olmsted-role-campus-design">Read more <i class="fa-solid fa-arrow-right"></i></a>
   <?php echo end_carousel_item(); ?>
 
-<?php echo end_carousel(); ?>
+<?php echo end_carousel(); */ ?>
+
 
 </div>
 

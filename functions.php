@@ -485,15 +485,13 @@ function breadcrumb() {
   else $has_sibling_nav = false;
 
 
-
-// If a section DOES NOT have children, it SHOULD NOT appear in the breadcrumb nav
-
+/*
     echo getcwd().'/_nav.txt <br>';
       echo 'c '.$children.'<br>
        hn '.$has_nav.'<br>
         s '.$siblings.'<br>
         sn '.$has_sibling_nav;
-
+*/
 
 // Depending on where and what a section is, it should
 // either appear in the breadcrumb trail, and display subnav below,
