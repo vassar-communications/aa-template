@@ -17,7 +17,7 @@ function expandable_event_card(
 */
 
   if( $image_info ) {
-    $classes .= ' has-image';
+    $classes .= ' slide-has-image';
 $image_markup = <<<TMP
 <div class="image-container">
   <img src="{$image_info['img_url']}" alt="{$image_info['img_alt_text']}" />
@@ -35,13 +35,11 @@ return <<<TMP
         <div class="supertitle">$date</div>
         <div class="title">$title</div>
       </h2>
-    </div>
-  </div>
 
 TMP;
 }
 
 
 function end_expandable_event_card() {
-  return '</div>';
+  return '</div></div></div>';
 }
