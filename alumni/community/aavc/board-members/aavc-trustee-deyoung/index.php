@@ -8,9 +8,9 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"AAVC Vice President and AAVC Trustee",
+  "page_title":"AAVC Trustee",
   "page_classes":"",
-  "feature_image":"/alumni/assets/img/alumni-community/aavc/board/forman-tyrone-aavc-alum-001.jpg"
+  "feature_image":"/alumni/assets/img/alumni-community/aavc/board/deyoung-patrick-aavc-alum-001.jpg"
 }';
 
 /* === */
@@ -32,15 +32,16 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Patrick DeYoung ’18',
-    '/alumni/assets/img/alumni-community/aavc/board/forman-tyrone-aavc-alum-001.jpg',
+    '/alumni/assets/img/alumni-community/aavc/board/deyoung-patrick-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Tyrone Forman, AAVC Vice President and AAVC Trustee']
+    ['img_alt_text' => 'Patrick DeYoung ’18, AAVC Trustee']
 ); ?>
 
   <ul class="clean-list-with-borders">
+    <li>Nominating and Governance Committee Member and Ad Hoc Student and Young Alumni Engagement Committee Member</li>
     <li>(he/him/his)</li>
-    <li>Illinois</li>
+    <li>Washington</li>
     <li>Term of Service: 2022–2026</li>
   </ul>
 
