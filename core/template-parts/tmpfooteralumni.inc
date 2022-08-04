@@ -41,6 +41,10 @@ function site_footeralumni() {
 					<a href="https://www.vassar.edu/academics" class="me-3 my-2">academics <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 					<a href="{$project_paths['final_url']}/admission" class="me-3 my-2">admission <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 					<a href="https://www.vassar.edu/campuslife" class="me-3 my-2">campus life <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+				
+					<a href="https://offices.vassar.edu/security/statistics/" class="me-3 my-2">Annual Fire Safety & Security Report <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+						<a href="https://offices.vassar.edu/eoaa/" class="me-3 my-2">Title IX <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					
 					<!--<a href="#" class="me-3">community <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>-->
 					<!-- <a href="#" class="me-3">full sitemap <i class="px-1 fa-solid fa-circle-arrow-right"></i></a> -->
 				</div>
@@ -52,7 +56,7 @@ function site_footeralumni() {
 			<div class="col-3 knockedout bg-darkestburgundy p-3 my-4 shadow-lg">
 <!--				<div><span class="tagline mb-2">Give to Vassar</span></div> -->
 				<img src="/alumni/assets/img/alumni-home/0038-22-06-cs-reunion-vassar-002.jpg" />
-				  <a href="https://give.vassar.edu/" class="donate-btn px-0 mt-4 btn btn-link arrow">Make a Gift</a>
+				  <a href="https://go.vassar.edu/give" class="donate-btn px-0 mt-4 btn btn-link arrow">Make a Gift</a>
 
 </div>
 		</div> <!-- row -->

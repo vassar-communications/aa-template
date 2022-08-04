@@ -123,18 +123,4 @@ $page_info = json_decode($page_info, true);
 
 
 
-<?php echo sec_fullBleedImageColumn(
-    null,
-    '/alumni/assets/img/alumni-community/notable-alumni/0005-19-01-kr-scc-eng-gretchen-vassar-0089-crop.jpg',
-    'theme-charcoal bg-dark',
-    'mw-100'
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Notable Alumni</h2>
-    <p>Discover remarkable Vassar alumni throughout history who have made an impact in their communities and industries throughout the world.</p>
-
-    <a href="/alumni/community/notable-alumni/" class="px-0 btn btn-link arrow">Discover our alumni</a>
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
 <?php echo site_footeralumni(); ?>
