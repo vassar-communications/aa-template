@@ -84,7 +84,7 @@ function sec_eventListing( $extras = false ) {
     
 
     <div class="text-center mt-5">
-          <a href="" class="mb-5 btn btn-lg btn-light arrow">All events</a>
+          <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5161" class="mb-5 btn btn-lg btn-light arrow">All events</a>
     </div>
 
   </div>

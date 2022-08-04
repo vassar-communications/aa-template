@@ -67,7 +67,7 @@ $page_info = json_decode($page_info, true);
 
     <?php echo item_cardWithText(
         'Make a Gift',
-        '#',
+        'https://go.vassar.edu/give',
         ['url' => '/alumni/assets/img/alumni-home/Library-TT-IMG_6613.jpeg', 'alt' => 'replacealttext' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
     ); ?>
@@ -81,7 +81,7 @@ $page_info = json_decode($page_info, true);
 
     <?php echo item_cardWithText(
         'Volunteer',
-        '#',
+        '/alumni/give/volunteer/',
         ['url' => '/alumni/assets/img/alumni-home/VC-Atlanta_Becca-Marco-05_Jada-Graves-14_Juan-Acosta-02-(1).jpeg', 'alt' => 'replacealttext' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
     ); ?>
@@ -93,7 +93,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
     <?php echo item_cardWithText(
         'Be a Mentor',
-        '#',
+        '/alumni/give/be-a-mentor/',
         ['url' => '/alumni/assets/img/alumni-home/0006-19-01-kr-scc-reception-vassar-0977.jpeg', 'alt' => 'replacealttext' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
     ); ?>
@@ -200,7 +200,7 @@ echo sec_fixedCenteredTitle(
 
 <?php echo inTheMediaCarousel(); ?>
 
-<div class="text-center mt-3">
+<div class="text-center mt-5">
     <a href="/alumni/community/alumni-news" class="btn btn-light btn-lg arrow mb-5" style="background: #fff;">More news</a>
 </div>
 
