@@ -141,7 +141,7 @@ echo sec_fixedCenteredTitle(
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
       --intro-line-color: #fff;
-       /* --section-title-faded-color: var(--color-vassar-burgundy); */
+      --section-title-faded-color: var(--color-vassar-burgundy);
       --section-bg-color-after-content: #fff;
       '
     ]

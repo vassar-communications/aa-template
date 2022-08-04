@@ -8,7 +8,7 @@ function alumsCarousel() {
 	<div class="carousel-cell">
   <div class="carousel-cell-content">
     <div class="image-container">
-      <img src="/mockups/advancement-home/assets/images/sherika_sanjay_by_caleb_stein.jpg" />
+      <img src="/alumni/assets/img/alumni-home/sherika_sanjay_by_caleb_stein.jpg" />
     </div>
      <div class="figcaption pt-5">
       <h3 class="h3">Alum’s Photography Featured in the New York Times</h3>
