@@ -34,7 +34,8 @@ $page_info = json_decode($page_info, true);
     'Monica Vachher ’77',
     '/alumni/assets/img/alumni-community/aavc/board/vachher-monica-aavc-alum-001.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Monica Vachher, AAVC President and AAVC Trustee'] 
 ); ?>
 
   <ul class="clean-list-with-borders">
