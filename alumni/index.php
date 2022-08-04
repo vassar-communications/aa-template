@@ -46,9 +46,9 @@ $page_info = json_decode($page_info, true);
 
 <!-- make a difference section -->
 <?php echo sec_fixedCenteredTitle(
-    '<b class="slide-from-left">Make a difference</b>
-   <b class="slide-from-right nice-big-serif">and give back.</b>',
-    '<h2 class="section-intro-text">The Vassar Community is filled with vibrant, eclectic, non-conformist changemakers who span more than eight decades of the lived, global experience of students, alumni, family, and friends.</h2>',
+    '<b class="slide-from-left">Make a difference.</b>
+   <b class="slide-from-right nice-big-serif">Give back.</b>',
+    '<h2 class="section-intro-text">The Vassar community&#8217;s annual support of college priorities is a crucial component of what makes our world class liberal arts education possible and exceptional. Experience the joy and rewards of giving back.</h2>',
     'sec-fixedCenteredTitle theme-burgundy make-a-difference section-title-text-shadow',
     'mw-4',
     ['bg-image-url' => '/alumni/assets/img/alumni-give/0153-19-11-kr-major-palooza-vassar-6031.jpg',
@@ -69,39 +69,39 @@ $page_info = json_decode($page_info, true);
         'Make a Gift',
         '#',
         ['url' => '/alumni/assets/img/alumni-home/Library-TT-IMG_6613.jpeg', 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label'
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
     ); ?>
 
     <p>Your gift to The Vassar Fund can honor the aspect of the Vassar experience that matters most to you.</p>
 
 
     <?php echo end_item_cardWithText(
-        'Give now',
+        null,
     ); ?>
 
     <?php echo item_cardWithText(
         'Volunteer',
         '#',
         ['url' => '/alumni/assets/img/alumni-home/VC-Atlanta_Becca-Marco-05_Jada-Graves-14_Juan-Acosta-02-(1).jpeg', 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label'
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
     ); ?>
     <p>An incredible way to enrich your life and the lives of others in countless ways.</p>
 
 
     <?php echo end_item_cardWithText(
-        'Explore volunteer opportunities',
+        null,
     ); ?>
     <?php echo item_cardWithText(
         'Be a Mentor',
         '#',
         ['url' => '/alumni/assets/img/alumni-home/0006-19-01-kr-scc-reception-vassar-0977.jpeg', 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label'
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
     ); ?>
     <p>An extraordinary opportunity to develop positive relationships with students and help them navigate their future.</p>
 
 
     <?php echo end_item_cardWithText(
-        'More about mentorship',
+        null,
     ); ?>
 
 
@@ -133,7 +133,7 @@ echo sec_fixedCenteredTitle(
     'sec-fixedCenteredTitle theme-charcoal-to-white section-title-text-shadow',
     'mw-4',
     [
-        'bg-image-url' => '/mockups/advancement-home/assets/images/0227-17-04-ym-dc-johnson-brunch-vassar-0644.jpg',
+        'bg-image-url' => '/alumni/assets/img/alumni-home/0227-17-04-ym-dc-johnson-brunch-vassar-0644.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --section-title-size: 10vw;
@@ -163,7 +163,7 @@ echo sec_fixedCenteredTitle(
     '<h2 class="section-intro-text">Here we shine a light on the great work being done by our staff, students, and alumni.</h2>',
     'sec-fixedCenteredTitle theme-charcoal alums-spotlight',
     'mw-4',
-    ['bg-image-url' => '/mockups/advancement-home/assets/images/0037-19-02-kr-ifill-sherrilyn-vassar-7892.jpg',
+    ['bg-image-url' => '/alumni/assets/img/alumni-home/0037-19-02-kr-ifill-sherrilyn-vassar-7892.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --section-title-size: 10vw;
@@ -187,7 +187,7 @@ echo sec_fixedCenteredTitle(
     '<h2 class="section-intro-text mb-5 pb-5">Vassar Alumni making news.</h2>',
     'sec-fixedCenteredTitle theme-burgundy',
     'animation-fade-in animate-when-content-appears mw-4',
-    ['bg-image-url' => '/mockups/advancement-home/assets/images/0069-19-05-kr-spring-vassar-4662.jpg',
+    ['bg-image-url' => '/alumni/assets/img/alumni-home/0069-19-05-kr-spring-vassar-4662.jpg',
         'bg-image-alt' => 'alt text',
         'css' => '
       --section-title-size: 10vw;

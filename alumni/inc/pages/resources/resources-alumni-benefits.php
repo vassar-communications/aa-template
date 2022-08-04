@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-    <p class="placeholder">As a Vassar alumna/us or student, you are part of, and have access to, a network of more than 40,000 people.</p>
+    <p class="placeholder">Vassar offers a variety of benefits to the more than 41,000 alumni across the globe. </p>
 
 <?php echo end_item_cardWithText(
     null,

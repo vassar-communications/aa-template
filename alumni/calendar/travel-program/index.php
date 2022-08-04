@@ -98,15 +98,10 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_regularContent();?>
 
 
+<?php echo sec_regularContent('We’d like to hear from you!','theme-charcoal bg-dark  presentation quad-pattern has-bg','py-3 d-flex justify-content-around text-center'); ?>
 
-<?php echo sec_wideContent(
-    'We’d like to hear from you!',
-    '',
-    'theme-charcoal bg-dark  presentation quad-pattern has-bg',
-    'py-3 d-flex justify-content-around text-center'
-); ?>
 <p>As we make our plans, we look forward to hearing from you regarding destinations and trip themes you’d like to explore and faculty members you’d like to travel with. Please contact Susan Quade, Senior Associate Director of Regional and International Programs and the Vassar Travel Program, via email at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
-<?php echo end_sec_wideContent(); ?>
+<?php echo end_sec_regularContent(); ?>
 
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/calendar/calendar-on-demand.php');?>

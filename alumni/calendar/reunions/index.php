@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
     'image-is-first theme-cream',
     ''
 ); ?>
-<p>Vassar and the Alumnae/i Association (AAVC) are thrilled about the return to in person Reunions and can’t wait to welcome you and your classmates back to campus. This page will be updated periodically to provide the latest information about Reunion, which happens on campus in early June every year. Reunion registration opens in early April.</p>
+<p>Vassar and the Alumnae/i Association (AAVC) are thrilled about the return to in-person Reunions and can’t wait to welcome you and your classmates back to campus. This page will be updated periodically to provide the latest information about Reunion, which happens on campus in early June every year. Reunion registration opens in early April.</p>
 <p>If you have questions, don’t hesitate to write to: <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a> or call <a href="tel:800-443-8196">800-443-8196</a>.</p>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
