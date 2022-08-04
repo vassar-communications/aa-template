@@ -24,6 +24,8 @@ $page_info = json_decode($page_info, true);
 <?php echo hamburger_navigation_alums(); ?>
 
 
+
+
 <?php echo sec_fixedCenteredTitle_masthead(
     '<b class="slide-from-left">Contact Us</b>',
     null,
@@ -100,12 +102,32 @@ $page_info = json_decode($page_info, true);
 
             <main class="col p-5 col--text">
                 <div class="anchor" id="sec1"></div>
+
                 <h2 class="display-6 mb-5">Office of the Vice President</h2>
+
                 <div class="staff-contact mb-5">
                     <h3>Tim Kane</h3>
                     <p><em>Vice President for Advancement</em></p>
                     <p>Email: <a class="fixemaillink" href="mailto:tkane@vassar.edu" title="Contact Tim Kane" >tkane@vassar.edu</a><br/>Tel: <a class="fixemaillink" href="tel:845-437-5401">(845) 437-5401</a></p>
                 </div>
+
+                <?php
+
+                echo contact_card(
+                    'Tim Kane',
+                    'Vice President for Advancement',
+                    [
+                      'phone' => '845-437-5401',
+                      'email' => 'tkane@vassar.edu',
+                    ]
+                );
+                echo end_contact_card();
+
+                ?>
+
+
+
+
                 <div class="staff-contact mb-5">
                     <h3>Anca Nelson</h3>
                     <p><em>Special Assistant to the Vice President for Campaign Operations</em></p>

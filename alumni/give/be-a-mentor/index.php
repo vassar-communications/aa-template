@@ -84,7 +84,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Identity at Work Meet-ups',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-give/mentor/CDO_IBM_Design_Night_feat_Diego Encarnacion_4892.jpg',
     '',
     ''
 ); ?>

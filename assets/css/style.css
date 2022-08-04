@@ -15219,7 +15219,6 @@ ul#block-fixedalumsmyaccountdirectory li {
   position: fixed;
   bottom: 0;
   right: 1rem;
-  background: #fff;
   padding: 1rem 0.2rem 1.4rem 1rem;
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.3);
   z-index: 1000;
@@ -15227,6 +15226,8 @@ ul#block-fixedalumsmyaccountdirectory li {
   border-top-right-radius: 0.4rem;
   border: 1px solid #ccc;
   border-top: 1px solid #e00;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
 }
 .button-bar .btn.btn-primary {
   font-size: 1rem;
