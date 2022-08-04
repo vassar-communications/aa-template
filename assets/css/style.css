@@ -15204,4 +15204,29 @@ a.logo:hover {
   box-shadow: none !important;
 }
 
+ul#block-fixedalumsmyaccountdirectory {
+  display: flex;
+  gap: 0.8rem;
+  padding: 0;
+  margin: 0;
+}
+
+ul#block-fixedalumsmyaccountdirectory li {
+  list-style: none;
+}
+
+.button-bar {
+  position: fixed;
+  bottom: 0;
+  right: 1rem;
+  background: #fff;
+  padding: 1rem 0.2rem 1.4rem 1rem;
+  box-shadow: 0 1em 1em #000;
+  z-index: 10;
+}
+
+ul#block-fixedalumsmyaccountdirectory {
+  --regularContent-font-size: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
