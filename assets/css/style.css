@@ -15237,4 +15237,8 @@ ul#block-fixedalumsmyaccountdirectory {
   --regularContent-font-size: 1rem;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 /*# sourceMappingURL=style.css.map */
