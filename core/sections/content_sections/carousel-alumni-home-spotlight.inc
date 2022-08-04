@@ -8,7 +8,7 @@ function alumsCarousel() {
 	<div class="carousel-cell">
   <div class="carousel-cell-content">
     <div class="image-container">
-      <img src="/mockups/advancement-home/assets/images/sherika_sanjay_by_caleb_stein.jpg" />
+      <img src="/alumni/assets/img/alumni-home/sherika_sanjay_by_caleb_stein.jpg" />
     </div>
      <div class="figcaption pt-5">
       <h3 class="h3">Alum’s Photography Featured in the New York Times</h3>
@@ -25,7 +25,7 @@ function alumsCarousel() {
        <div class="figcaption pt-5">
         <h3 class="h3">Five Alumni Selected for 2022 AAVC Awards</h3>
         <p>Meet the alums whom the Alumnae/i Association of Vassar College has chosen to honor this year for their work at Vassar and beyond (clockwise from top left): Arushi Raina ’14, Jonathan Granoff ’70, Brenda Feigen ’66, Edward Pittman ’82, and Deborah Macfarlan Enright ’82.</p>
-          <a href="#" class="px-0 btn btn-link arrow">Read more</a>
+          <a href="https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards" class="px-0 btn btn-link arrow">Read more</a>
       </div>
     </div>
   </div>
@@ -38,7 +38,7 @@ function alumsCarousel() {
       <div class="figcaption pt-5">
           <h3 class="h3">Reunion 2022 Highlights!</h3>
         <p>This year’s joyous, in-person gathering drew more than 1,500 alums, friends, and family members representing classes that spanned 60 years. Catch up on the festivities! <em>Photo: Karl Rabe</em></p>
-        <a href="#" class="px-0 btn btn-link arrow">Read more</a>
+        <a href="https://www.vassar.edu/news/reunion-2022-highlights" class="px-0 btn btn-link arrow">Read more</a>
 
       </div>
     </div>
@@ -52,7 +52,7 @@ function alumsCarousel() {
  <div class="figcaption pt-5">
            <h3 class="h3">Marina Bayeva ’06: Helping Ukraine’s Displaced Animals</h3>
         <p>Since the invasion of Ukraine began, Marina Bayeva ’06 has been collecting money for shelters in her native country and coordinating rescue efforts for animals there. <em>Photo: Courtesy of the subject.</em></p>
-        <a href="#" class="px-0 btn btn-link arrow">Read more</a>
+        <a href="https://www.vassar.edu/news/marina-bayeva-06" class="px-0 btn btn-link arrow">Read more</a>
 
       </div>
     </div>

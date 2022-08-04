@@ -3,6 +3,18 @@
 // $page_info = get_page_vars(getcwd());
 
 
+function how_deep_are_we() {
+  $classes = '';
+  $the_path = ltrim( get_base_path( 'path_to_current_doc_from_web_dir' ), '/'
+);
+  $the_levels = count( explode( '/', $the_path ) );
+  if ( $the_levels > 3 )
+    $classes .= ' deep-page';
+  $classes .= ' levels-down-' . $the_levels;
+
+  return $classes;
+}
+
 
 /**
  * site_header()
@@ -30,6 +42,9 @@ TMP;
 
 $page_title = make_page_title();  //get_value_if_exists('page_title', $page_info);
 $page_classes = get_value_if_exists('page_classes', $page_info);
+
+$page_classes .= how_deep_are_we();
+
 
 //  $social_card_data = [
 //    'image' => $page_info['feature_image']

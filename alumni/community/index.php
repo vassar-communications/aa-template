@@ -23,7 +23,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo hamburger_navigation(); ?>
+<?php echo hamburger_navigation_alums(); ?>
 
 
 <?php echo sec_fixedCenteredTitle_masthead_vid(
@@ -74,10 +74,10 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Explore Vassar's extensive network of groups and clubs.</p>
+    <p>Explore Vassar&#8217;s extensive network of groups and clubs.</p>
     <?php echo cta_link(
         '/alumni/community/alumni-groups',
-        'Needs-text'
+        'Learn more about alumni groups'
     ); ?>
 </div>
 
@@ -94,7 +94,7 @@ $page_info = json_decode($page_info, true);
     <p>A dynamic global network of 41,000+ members!</p>
     <?php echo cta_link(
         '/alumni/community/aavc',
-        'Needs-text'
+        'Explore opportunities to engage in person or virtually'
     ); ?>
 </div>
 
@@ -103,7 +103,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Alumni News & Stories',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-community/blum-square.jpg',
     'theme-cream image-is-first',
     ''
 ); ?>
@@ -113,7 +113,7 @@ $page_info = json_decode($page_info, true);
 
     <?php echo cta_link(
         '/alumni/community/alumni-news',
-        'Needs-text'
+        'Learn more'
     ); ?>
 </div>
 
@@ -123,18 +123,4 @@ $page_info = json_decode($page_info, true);
 
 
 
-<?php echo sec_fullBleedImageColumn(
-    null,
-    '/alumni/assets/img/alumni-community/notable-alumni/0005-19-01-kr-scc-eng-gretchen-vassar-0089-crop.jpg',
-    'theme-charcoal bg-dark',
-    'mw-100'
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 mb-5">Notable Alumni</h2>
-    <p>Discover remarkable Vassar alumni throughout history who have made an impact in their communities and industries throughout the world.</p>
-
-    <a href="/alumni/community/notable-alumni/" class="px-0 btn btn-link arrow">Discover our alumni</a>
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-<?php echo site_footer(); ?>
+<?php echo site_footeralumni(); ?>

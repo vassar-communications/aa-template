@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Volunteer",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-give/volunteer/0009-18-01-cs-scc-vassar-144.jpg"
 }';
 
 /* === */
@@ -22,7 +22,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo hamburger_navigation(); ?>
+<?php echo hamburger_navigation_alums(); ?>
 
 <?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
 
@@ -212,5 +212,5 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_relatedTopics(); ?>
 
 
-<?php echo site_footer(); ?>
+<?php echo site_footeralumni(); ?>
 

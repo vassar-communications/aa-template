@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"On-Demand Programs",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-calendar/on-demand/661_Matthew_Vassar_statue_May_2019_JA.JPG"
 }';
 
 /* === */
@@ -22,7 +22,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo hamburger_navigation(); ?>
+<?php echo hamburger_navigation_alums(); ?>
 
 <?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
 
@@ -202,14 +202,14 @@ echo item_imageCard_videoModal(
 <?php echo relatedTopics(); ?>
 
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give-fearlessly-consequential.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give-volunteer.php');?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/give/give-support-vassar.php');?>
 
 
 <?php echo end_sec_relatedTopics(); ?>
 
 
-<?php echo site_footer(); ?>
+<?php echo site_footeralumni(); ?>
 
 <?php
 echo item_modal_standardVideo();

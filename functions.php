@@ -120,7 +120,11 @@ include($project_paths['main_project_root'].'/core/sections/universal_sections/s
 include($project_paths['main_project_root'].'/core/sections/universal_sections/pageMasthead.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/pageTextMasthead.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/vassarMasthead.inc');
+
 include($project_paths['main_project_root'].'/core/sections/universal_sections/hamburgerNavigation.inc');
+
+include($project_paths['main_project_root'].'/core/sections/universal_sections/hamburgerNavigation-alums.inc');
+
 include($project_paths['main_project_root'].'/core/sections/universal_sections/breadcrumbNavigation.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/toplinksNavigation.inc');
 include($project_paths['main_project_root'].'/core/sections/universal_sections/relatedTopics.inc');
@@ -144,6 +148,7 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/fix
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-alumni-home-spotlight.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-alumni-home-media.inc');
+include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-alumni-reunions.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-admission-explore-hudson.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-admission-explore-campus.inc');
 
@@ -161,8 +166,15 @@ include($project_paths['main_project_root'].'/core/modules/deadlines.inc');
 
 include($project_paths['main_project_root'].'/core/modules/word-selector.inc');
 include($project_paths['main_project_root'].'/core/items/flipcard-stat.inc');
+
+include($project_paths['main_project_root'].'/core/items/contact-card.inc');
+
 include($project_paths['main_project_root'].'/core/modules/vassar-is-awesome.inc');
 include($project_paths['main_project_root'].'/core/modules/info-card.inc');
+include($project_paths['main_project_root'].'/core/modules/event-listing.inc');
+
+include($project_paths['main_project_root'].'/core/modules/expandable-card.inc');
+
 
 
 /* VASSAR TEMPLATING SYSTEM  */
@@ -356,49 +368,51 @@ function local_nav($nav_file_path = null) {
     }
   }
 
-  // load the file
-  $local_nav_file = file_get_contents($nav_file_path);
+  if( file_exists( $nav_file_path ) ) {
+    // load the file
+    $local_nav_file = file_get_contents($nav_file_path);
 
-  // iterate over each line
-  $local_pages = explode(PHP_EOL, $local_nav_file);
-//  print_r($local_pages);
+    // iterate over each line
+    $local_pages = explode(PHP_EOL, $local_nav_file);
+  //  print_r($local_pages);
 
-  $nav_markup = '';
+    $nav_markup = '';
 
-  foreach ($local_pages as &$page) {
+    foreach ($local_pages as &$page) {
 
-    $here = getcwd();
+      $here = getcwd();
 
-    $each_subsections_path = $the_path_where_the_subsections_are.'/'.$page;
+      $each_subsections_path = $the_path_where_the_subsections_are.'/'.$page;
 
-    $here = trim($here);
+      $here = trim($here);
 
-    // so does the path match the page we're already on?
-    if( $each_subsections_path == $here ) {
-    $class = 'current-item';
- }
-else {
-    $class = null;
-}
-//    echo $path . ' - ' . $here . '<br>';
+      // so does the path match the page we're already on?
+      if( $each_subsections_path == $here ) {
+        $class = 'current-item';
+      }
+      else {
+        $class = null;
+      }
 
-    $each_subsections_path = trim($each_subsections_path);
-    $page_vars = get_page_vars($each_subsections_path);
+      $each_subsections_path = trim($each_subsections_path);
+      $page_vars = get_page_vars($each_subsections_path);
 
-    if(get_value_if_exists('page_navTitle', $page_vars, true))
-      $page_title = $page_vars['page_navTitle'];
-    else
-      $page_title = $page_vars['page_title'];
-    $item_link = $page_vars['page_link'];
+      if(get_value_if_exists('page_navTitle', $page_vars, true))
+        $page_title = $page_vars['page_navTitle'];
+      else
+        $page_title = $page_vars['page_title'];
+      $item_link = $page_vars['page_link'];
 
-    $nav_markup .= nav_item($project_paths['final_url'].$item_link, $page_title, $class);
+      $nav_markup .= nav_item($project_paths['final_url'].$item_link, $page_title, $class);
 
 
+    }
+    unset($page);
+
+    return '<nav class="local-section-nav"><ul class="nav">
+  '.$nav_markup.'</ul></nav>';
   }
-  unset($page);
-
-  return '<nav class="local-section-nav"><ul class="nav">
-'.$nav_markup.'</ul></nav>';
+  else return false;
 }
 
 
@@ -416,8 +430,6 @@ function breadcrumb() {
   // doesn't exist yet.
 
 
-
-
   //  How the breadcrumb works:
   //  - If a section has children, it should appear in the breadcrumb
   //  - If a section has no children (it's an endpoint page) it should
@@ -427,12 +439,43 @@ function breadcrumb() {
   //  the breadcrumb is whether or not it has a _nav.txt file. Endpoint
   //  pages have no _nav.txt, because they have no subsections.
 
-    if (file_exists(getcwd().'/_nav.txt')) {
-//      $current_path = str_replace($_SERVER['DOCUMENT_ROOT'], '', getcwd());
+
+  // Also: does the current page have any siblings?
+  // If it does, it should not appear in the breadcrumb trail.
+
+  $directory = dirname(getcwd(), 1);
+  $scanned_directory = array_diff(scandir($directory), array('..', '.', 'index.php'));
+
+  $siblings = false;
+  $path_class = '';
+
+  if( count( $scanned_directory ) >= 2 ) {
+    $siblings = true;
+  }
+
+  // what about children?
+
+  $directory = getcwd();
+  $scanned_directory = array_diff(scandir($directory), array('..', '.', 'index.php'));
+
+  $children = false;
+  $path_class = '';
+
+  if( count( $scanned_directory ) >= 2 ) {
+    $children = true;
+  }
+
+// If a section DOES NOT have children, it SHOULD NOT appear in the breadcrumb nav
+
+    if ( $children ) {
       $current_path = get_base_path('path_to_current_doc_from_web_dir');
     }
+    else if ( !$children ) {
+      $current_path = get_base_path('path_to_current_doc_from_web_dir');
+      $path_class = ' no-subnav';
+    }
     else {
-      $current_path = dirname(get_base_path('path_to_current_doc_from_web_dir'), 1);
+      $current_path = get_base_path('path_to_current_doc_from_web_dir');
     }
 
   // - Home link is simple. That's vassar.edu.
@@ -468,7 +511,7 @@ function breadcrumb() {
   $home_item = crumb_item('https://www.vassar.edu', 'Home', 'level-1');
   $breadcrumb_markup = $home_item.$breadcrumb_markup;
 
-  return '<ol class="breadcrumb">'.$breadcrumb_markup.'</ol>';
+  return '<ol class="breadcrumb '.$path_class.' ">'.$breadcrumb_markup.'</ol>';
 }
 
 function interior_page_nav() {

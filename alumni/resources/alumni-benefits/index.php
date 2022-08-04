@@ -22,7 +22,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo hamburger_navigation(); ?>
+<?php echo hamburger_navigation_alums(); ?>
 
 <?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
 
@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     'image-is-first theme-cream',
     'placeholder'
 ); ?>
-<p class="intro-text placeholder">NEED INTRO TEXT ON THIS PAGE</p>
+<p class="intro-text placeholder">Vassar offers a variety of benefits to the more than 41,000 alumni across the globe.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -64,7 +64,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Fitness Center',
-    'https://www.vassarathletics.com/facilities',
+    'https://www.vassarathletics.com/facilities/athletics-and-fitness-center/5',
     ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/AFCtrack6.jpg', 'alt' => 'replacealttext' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
@@ -151,4 +151,4 @@ $page_info = json_decode($page_info, true);
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/calendar/calendar.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
-<?php echo site_footer(); ?>
+<?php echo site_footeralumni(); ?>

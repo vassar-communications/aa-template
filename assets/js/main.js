@@ -377,6 +377,16 @@ if ($('.featureImage-text-ticker').length) {
     });
 }
 
+if ($('.large-card-carousel').length) {
+    $('.large-card-carousel').flickity({
+//		cellAlign: 'left',
+		groupCells: true,
+        wrapAround: true
+    });
+}
+
+
+
 $( window ).resize(function() {
     $( ".featureImage-text-ticker" ).each(function( index ) {
 //    $( this ).height( $( this ).find(".carousel-cell-content").height() );
