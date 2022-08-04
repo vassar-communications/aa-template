@@ -54,9 +54,9 @@ Make sure functions convert straight quotes to curly
 
 
 <?php echo masthead_interiorPage(
-    'Join the Fun',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    $admission_img_path.'apply/0196-19-11-kwe-greenhouse-vassar-vb-6440.jpg
+    'You’re Invited',
+    'Vassar alumni always have a way to stay connected. Join us for college and program reunions, special alumni events, expertly planned travel programs, and more.',
+    $alumni_img_path.'alumni-calendar/Reunion_Saturday_190608_CS-V815-319.jpg
   ',
   null,
   null,
@@ -65,7 +65,7 @@ Make sure functions convert straight quotes to curly
 ?>
 
 <?php echo sec_regularContent(
-  'You’re Invited',
+  'Get Involved',
   'theme-burgundy featured-events-grid'
 ); ?>
 

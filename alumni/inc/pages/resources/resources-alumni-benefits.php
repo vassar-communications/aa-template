@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-    <p class="placeholder">Vassar offers a variety of benefits to the more than 41,000 alumni across the globe. </p>
+    <p class="">Vassar offers a wide range of benefits to the more than 41,000 alumni across the globe. </p>
 
 <?php echo end_item_cardWithText(
     null,
