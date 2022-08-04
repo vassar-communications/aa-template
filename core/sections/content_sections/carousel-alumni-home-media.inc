@@ -9,7 +9,7 @@ function inTheMediaCarousel() {
   <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-        <img src="/mockups/advancement-home/assets/images/in-the-media/blum.jpg" />
+        <img src="/mockups-unused/advancement-home/assets/images/in-the-media/blum.jpg" />
       </div>
        <div class="figcaption pt-5">
         <small class="mb-3 d-block">June 21, 2022</small>
@@ -22,7 +22,7 @@ function inTheMediaCarousel() {
     <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-        <img src="/mockups/advancement-home/assets/images/in-the-media/ifill.jpg" />
+        <img src="/mockups-unused/advancement-home/assets/images/in-the-media/ifill.jpg" />
          </div>
       <div class="figcaption pt-5">
         <small class="mb-3 d-block">June 21, 2022</small>
@@ -36,7 +36,7 @@ function inTheMediaCarousel() {
       <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-             <img src="/mockups/advancement-home/assets/images/in-the-media/goldberg.jpg" />
+             <img src="/mockups-unused/advancement-home/assets/images/in-the-media/goldberg.jpg" />
           </div>
  <div class="figcaption pt-5">
 <small class="mb-3 d-block">July 1, 2022</small>
