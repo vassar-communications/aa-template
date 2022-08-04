@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/calendar/on-demand-programs/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/on-demand-programs/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alumni/contact/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/contact/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/contact/test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/give/volunteer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/volunteer/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/inc/pages/give/give-makegift.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/inc/pages/give/give-makegift.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/inc/pages/give/give.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/inc/pages/give/give.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/inc/pages/resources/resources-vassar-network.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/inc/pages/resources/resources-vassar-network.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/alumnae-house/accommodations/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumnae-house/accommodations/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/alumni-benefits/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumni-benefits/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +86,7 @@
       <workItem from="1657765727741" duration="22691000" />
       <workItem from="1658910269180" duration="17914000" />
       <workItem from="1658979377387" duration="17153000" />
-      <workItem from="1659422829449" duration="69375000" />
+      <workItem from="1659422829449" duration="70712000" />
     </task>
     <servers />
   </component>

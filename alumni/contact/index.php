@@ -107,17 +107,16 @@ $page_info = json_decode($page_info, true);
                     <p>Email: <a class="fixemaillink" href="mailto:tkane@vassar.edu" title="Contact Tim Kane" >tkane@vassar.edu</a><br/>Tel: <a class="fixemaillink" href="tel:845-437-5401">(845) 437-5401</a></p>
                 </div>
                 <div class="staff-contact mb-5">
-                    <h3>Tim Kane</h3>
-                    <p><em>Vice President for Advancement</em></p>
-                    <p>Email: <a class="fixemaillink" href="mailto:tkane@vassar.edu" title="Contact Tim Kane" >tkane@vassar.edu</a><br/>Tel: <a class="fixemaillink" href="tel:845-437-5401">(845) 437-5401</a></p>
+                    <h3>Anca Nelson</h3>
+                    <p><em>Special Assistant to the Vice President for Campaign Operations</em></p>
+                    <p>Email: <a class="fixemaillink" href="mailto:anelson@vassar.edu" title="Contact Anca Nelson" >anelson@vassar.edu</a>
                 </div>
-                Anca Nelson	Special Assistant to the Vice President for Campaign Operations
                 <div class="staff-contact mb-5">
-                    <h3>David Toomer</h3>
-                    <p><em>Director of Admission</em></p>
-                    <p><strong>Regional Responsibilities:</strong> District of Columbia, Maryland</p>
-                    <a class="fixemaillink" href="mailto:dtoomer@vassar.edu">Email: dtoomer@vassar.edu</a>
+                    <h3>RaeAnn Moore</h3>
+                    <p><em>Executive Assistant</em></p>
+                    <p>Email: <a class="fixemaillink" href="mailto:rmoore@vassar.edu" title="Contact RaeAnn Moore" >rmoore@vassar.edu</a><br/>Tel: <a class="fixemaillink" href="tel:845-437-5402">(845) 437-5402</a></p>
                 </div>
+
 
 
                 <hr class="my-5">
