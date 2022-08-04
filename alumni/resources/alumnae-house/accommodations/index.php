@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Accommodations",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-resources/alumnae-house/Vassar_Reunion_19_BL_4420.jpg"
 }';
 
 /* === */
@@ -31,12 +31,12 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Stay at Alumnae House',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-resources/alumnae-house/0027_14_03_TT_1436.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text placeholder">Accommodations are available for your next visit to campus.</p>
+    <p class="intro-text">Accommodations are available for your next visit to campus.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -44,7 +44,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_iconItem(
     'Private Rooms',
-    'image',
+    'key',
     'icon-on-left theme-white-border'
 ); ?>
 <p>Each private guest room features a unique decor with period furnishings and a newly renovated bathroom en suite. The private rooms include a King- or Queen-size bed, a desk, dresser, and a comfortable sitting area. Two of the private rooms are ADA-accessible.</p>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_iconItem(
     'Crego Wing Rooms',
-    'image',
+    'bed',
     'icon-on-left theme-white-border'
 ); ?>
 <p>The Crego Wing rooms are single-occupancy only with a twin-size bed, dresser, and upholstered chair.  The Crego Wing rooms share bathrooms inon the hallway. These quaint, small rooms include all the amenities found in the private rooms at very reasonable rates.</p>
@@ -61,7 +61,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_iconItem(
     'Amenities & Facilities',
-    'image',
+    'list-check',
     'icon-on-left theme-white-border'
 ); ?>
 <ul>
@@ -88,7 +88,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_iconItem(
     'Guest Policies',
-    'image',
+    'clock',
     'icon-on-left theme-white-border'
 ); ?>
 <p><strong>Check-in: 3:00pm<br/>

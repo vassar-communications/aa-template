@@ -51,7 +51,7 @@ function site_footeralumni() {
 
 			<div class="col-3 knockedout bg-darkestburgundy p-3 my-4 shadow-lg">
 <!--				<div><span class="tagline mb-2">Give to Vassar</span></div> -->
-				<img src="/assets/images/placeholders/placeholder-square.png" />
+				<img src="/alumni/assets/img/alumni-home/0038-22-06-cs-reunion-vassar-002.jpg" />
 				  <a href="https://give.vassar.edu/" class="donate-btn px-0 mt-4 btn btn-link arrow">Make a Gift</a>
 
 </div>

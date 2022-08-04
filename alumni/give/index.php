@@ -106,18 +106,18 @@ Giving Back Matters',
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
-    '/alumni/assets/img/alumni-give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675-crop.jpg',
+    'Make a Gift',
+    '/assets/images/placeholders/placeholder-square.png',
     'theme-burgundy quad-pattern has-bg image-is-first',
     'mw-100'
 ); ?>
 
 
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 border-animate mb-5 ">Make a gift</h2>
-    <p>PLACEHOLDER</p>
 
-    <a href="/alumni/give/be-a-mentor/" class="px-0 btn btn-link arrow">Explore mentorship opportunities</a>
+    <p>PLACEHOLDER NEED COPY</p>
+
+    <a href="https://give.vassar.edu" class="px-0 btn btn-link arrow">Give Now</a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

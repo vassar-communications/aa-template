@@ -19,7 +19,7 @@ function page_textmasthead( $section_classes=null,$extras = false) {
 $template = <<<TMP
 <div class="textmasthead pb-4 section d-flex flex-column-reverse text-left $section_classes">
   <div class="section__title">
-    <h1 class="section__title__main display-2 display">$page_title</h1>
+    <h1 class="section__title__main display-1 display">$page_title</h1>
   </div>
 </div>
 

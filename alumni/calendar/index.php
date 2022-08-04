@@ -73,31 +73,36 @@ Make sure functions convert straight quotes to curly
 
   <?php echo expandable_event_card(
     'Reunion 2023',
-    'June 2–4'
+    'June 2–4',
+      '',
+      'theme-cream'
   ); ?>
   <p>Believe it or not, we are getting ready to kick off the planning and fundraising for Reunion 2023! We will be welcoming classes with graduation years ending in 3 and 8, along with the Class of 2016, from June 2-4, 2023. The 50th Reunion Class of 1973 is invited to arrive a day earlier on June 1. 50th Reunion class survey coming soon. Check back here for updates as the planning gets underway!</p>
+    <a class="btn btn-link arrow" href="#">More Details</a>
   <?php echo end_expandable_event_card(); ?>
 
 
   <?php echo expandable_event_card(
-    'sdfdsf',
+    'Reunion 2023',
     'June 14',
     [
       'img_url' => 'https://images.unsplash.com/photo-1659425757127-ccbf96c59163?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60',
       'img_alt_text' => 'alt text'
-    ]
+    ],
+      'theme-cream'
   ); ?>
-
+    <p>Believe it or not, we are getting ready to kick off the planning and fundraising for Reunion 2023!</p>
+<a class="btn btn-link arrow" href="#">More Details</a>
   <?php echo end_expandable_event_card(); ?>
 
   <?php echo expandable_event_card(
     'Reunion 2023',
     'June 2–4',
     null,
-    'big-text white-border'
+    'big-text white-border theme-cream'
   ); ?>
   <p>Believe it or not, we are getting ready to kick off the planning and fundraising for Reunion 2023!</p>
-
+    <a class="btn btn-link arrow" href="#">More Details</a>
   <?php echo end_expandable_event_card(); ?>
 
 </div>
@@ -107,8 +112,8 @@ Make sure functions convert straight quotes to curly
 
 
 <?php echo sec_wideContent(
-    'Calendar',
-    '<p class="intro-text">intro text goes here</p>',
+    'Upcoming Events',
+    null,
     'theme-extralightgray'
 ); ?>
 
@@ -170,6 +175,8 @@ Make sure functions convert straight quotes to curly
   ); ?>
 
 <?php echo end_event_listing(); ?>
+
+
 
 <?php echo end_sec_wideContent(); ?>
 
