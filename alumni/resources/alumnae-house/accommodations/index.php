@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text placeholder">The quintessential meeting place for Vassar College alumnae/i throughout the last century</p>
+    <p class="intro-text placeholder">Accommodations are available for your next visit to campus.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
