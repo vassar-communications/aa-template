@@ -23,23 +23,12 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_textmasthead('theme-dark-burgundy'); ?>
 
 <?php echo interior_page_nav() ?>
 
 <?php /*  PAGE CONTENT === */ ?>
 
-
-<?php echo sec_fullBleedImageColumn(
-    null,
-    '/assets/images/placeholders/placeholder-square.png',
-    'image-is-first theme-cream',
-    ''
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text placeholder">The quintessential meeting place for Vassar College alumnae/i throughout the last century</p>
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_regularContent('Contact Information','','',); ?>
 
