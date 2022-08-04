@@ -64,7 +64,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Fitness Center',
-    'https://www.vassarathletics.com/facilities',
+    'https://www.vassarathletics.com/facilities/athletics-and-fitness-center/5',
     ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/AFCtrack6.jpg', 'alt' => 'replacealttext' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>

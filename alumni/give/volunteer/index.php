@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Volunteer",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-give/volunteer/0009-18-01-cs-scc-vassar-144.jpg"
 }';
 
 /* === */
