@@ -63,7 +63,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     'Meetings and Retreats',
-    'theme-verylightgray quad-pattern has-bg',
+    'theme-verylightgray',
     '',
     ''
 ); ?>

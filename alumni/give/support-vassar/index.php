@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Support Vassar",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-give/support/0191-19-10-ali-library-drone-vassar-vb-2017.jpg"
 }';
 
 /* === */
@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Every alum. Any amount. Every year.',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-give/support/0085-20-12-kr-reading-room-vassar-0118.jpg',
     'theme-cream image-is-first',
     ''
 ); ?>
@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Participation Gifts Add Up',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-give/support/Ad_Poster_15_TT_1683.jpg',
     'theme-dark-burgundy image-is-first',
     ''
 ); ?>
@@ -76,7 +76,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Keeping Vassar on Top',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-give/support/volleyball-V752-129.jpg',
     'theme-cream',
     ''
 ); ?>
@@ -92,7 +92,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Influencing Others',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-give/support/0002-20-01-kr-scc-maldonado-vassar-0047.jpg',
     'theme-dark-burgundy image-is-first',
     ''
 ); ?>
@@ -106,7 +106,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Preserving Vassar’s Future',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-give/support/Vassar_Campus_6_26_17_0078.jpg',
     'theme-cream',
     ''
 ); ?>
@@ -121,7 +121,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Leading by Example',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-give/support/0073-21-06-kr-summer-vassar-0183.jpg',
     'theme-dark-burgundy image-is-first',
     ''
 ); ?>
