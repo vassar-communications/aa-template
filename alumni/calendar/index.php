@@ -142,6 +142,32 @@ Make sure functions convert straight quotes to curly
     'https://connect.vassar.edu/s/1654/images/content_images/vcchicagosheffieldscoverphotogardensquare_637949414639185294.jpg'
   ); ?>
 
+  <?php echo event_item(
+    'VCNY Second Annual Afternoon Picnic with Vassar Friends Old and New!',
+    'Aug',
+    '27',
+    '12:00 p.m.',
+    'Mark your calendars and break out the picnic blankets! After a successful launch last year, we are back in Fort Greene for our second annual VCNY picnic!',
+    'https://connect.vassar.edu/s/1654/images/content_images/fort_greene_park_SQUARE_637944407651509591.jpg'
+  ); ?>
+
+  <?php echo event_item(
+    'VC Colorado Annual Barbecue for Alumni and Current Students',
+    'Aug',
+    '28',
+    '5:00 p.m.',
+    'The annual barbecue for alumni and current students is back! Please join us August 28th at 5pm MDT. The host will supply the main course. Please bring a salad, side dish or dessert. The whole family is welcome.',
+    'https://connect.vassar.edu/s/1654/images/content_images/bbq_picsquare_637946886154821482.jpg'
+  ); ?>
+
+  <?php echo event_item(
+    'VCNY and Bowery Boys Walks Tour of Brooklyn Heights and DUMBO',
+    'Sep',
+    '24',
+    '2:00 p.m.–4:00 p.m.',
+    'Join the Vassar Club of New York as we once again team up with the Bowery Boys Walks for a historical walking tour of the neighborhoods of Brooklyn Heights and DUMBO.',
+    'https://connect.vassar.edu/s/1654/images/content_images/brooklyn__the_dumbo_SQUARE_637937496981328624.jpg'
+  ); ?>
 
 <?php echo end_event_listing(); ?>
 
@@ -164,71 +190,6 @@ Make sure functions convert straight quotes to curly
 
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-
-
-
-
-
-
-
-<?php echo sec_hasColumns(
-  'And more',
-    '2',
-    null,
-    'theme-charcoal mw-inner-2'
-); ?>
-
-  <?php echo item_col(); ?>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Secondary event</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
-      </div>
-    </div>
-  <?php echo end_item_col(); ?>
-
-  <?php echo item_col(); ?>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Secondary event</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
-      </div>
-    </div>
-  <?php echo end_item_col(); ?>
-
-  <?php echo item_col(); ?>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Secondary event</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
-      </div>
-    </div>
-  <?php echo end_item_col(); ?>
-
-  <?php echo item_col(); ?>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Secondary event</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
-      </div>
-    </div>
-  <?php echo end_item_col(); ?>
-<?php echo end_sec_hasColumns(); ?>
-
 
 
 
