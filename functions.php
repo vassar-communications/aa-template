@@ -166,6 +166,9 @@ include($project_paths['main_project_root'].'/core/modules/deadlines.inc');
 
 include($project_paths['main_project_root'].'/core/modules/word-selector.inc');
 include($project_paths['main_project_root'].'/core/items/flipcard-stat.inc');
+
+include($project_paths['main_project_root'].'/core/items/contact-card.inc');
+
 include($project_paths['main_project_root'].'/core/modules/vassar-is-awesome.inc');
 include($project_paths['main_project_root'].'/core/modules/info-card.inc');
 include($project_paths['main_project_root'].'/core/modules/event-listing.inc');
