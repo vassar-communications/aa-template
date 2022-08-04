@@ -49,6 +49,7 @@ $nav-item-border-size: 2px;
 
    .breadcrumb-item {
      position: relative;
+
       &:last-child:after {
         content: "";
         width: 1rem;
@@ -129,5 +130,16 @@ a.breadcrumb-link {
 
   .current-item & {
     font-variation-settings: "wght" 666;
+  }
+}
+
+
+.no-subnav {
+  .breadcrumb-item {
+    position: relative;
+
+    &:last-child:after {
+      display: none;
+    }
   }
 }

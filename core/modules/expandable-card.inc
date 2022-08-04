@@ -5,14 +5,16 @@ function expandable_event_card(
   $date,
   $image_info = null,
   $classes = '',
-  $expandable_label = 'More',
+//  $expandable_label = 'More',
   $extras = null
 ) {
 
+/*
   $dropdown_start = '';
   if( $expandable_label ) {
     $dropdown_start = '<details><summary>' . $expandable_label . '</summary>';
   }
+*/
 
   if( $image_info ) {
     $classes .= ' has-image';
@@ -25,7 +27,7 @@ TMP;
 else $image_markup = '';
 
 return <<<TMP
-<div class="dropdown-card column-layout $classes">
+<div class="carousel-cell triptych-card dropdown-card column-layout $classes">
   <div class="content">
     $image_markup
     <div class="event-details">
@@ -35,11 +37,11 @@ return <<<TMP
       </h2>
     </div>
   </div>
-$dropdown_start
 
 TMP;
 }
 
+
 function end_expandable_event_card() {
-  return '</details></div>';
+  return '</div>';
 }

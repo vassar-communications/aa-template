@@ -364,49 +364,51 @@ function local_nav($nav_file_path = null) {
     }
   }
 
-  // load the file
-  $local_nav_file = file_get_contents($nav_file_path);
+  if( file_exists( $nav_file_path ) ) {
+    // load the file
+    $local_nav_file = file_get_contents($nav_file_path);
 
-  // iterate over each line
-  $local_pages = explode(PHP_EOL, $local_nav_file);
-//  print_r($local_pages);
+    // iterate over each line
+    $local_pages = explode(PHP_EOL, $local_nav_file);
+  //  print_r($local_pages);
 
-  $nav_markup = '';
+    $nav_markup = '';
 
-  foreach ($local_pages as &$page) {
+    foreach ($local_pages as &$page) {
 
-    $here = getcwd();
+      $here = getcwd();
 
-    $each_subsections_path = $the_path_where_the_subsections_are.'/'.$page;
+      $each_subsections_path = $the_path_where_the_subsections_are.'/'.$page;
 
-    $here = trim($here);
+      $here = trim($here);
 
-    // so does the path match the page we're already on?
-    if( $each_subsections_path == $here ) {
-    $class = 'current-item';
- }
-else {
-    $class = null;
-}
-//    echo $path . ' - ' . $here . '<br>';
+      // so does the path match the page we're already on?
+      if( $each_subsections_path == $here ) {
+        $class = 'current-item';
+      }
+      else {
+        $class = null;
+      }
 
-    $each_subsections_path = trim($each_subsections_path);
-    $page_vars = get_page_vars($each_subsections_path);
+      $each_subsections_path = trim($each_subsections_path);
+      $page_vars = get_page_vars($each_subsections_path);
 
-    if(get_value_if_exists('page_navTitle', $page_vars, true))
-      $page_title = $page_vars['page_navTitle'];
-    else
-      $page_title = $page_vars['page_title'];
-    $item_link = $page_vars['page_link'];
+      if(get_value_if_exists('page_navTitle', $page_vars, true))
+        $page_title = $page_vars['page_navTitle'];
+      else
+        $page_title = $page_vars['page_title'];
+      $item_link = $page_vars['page_link'];
 
-    $nav_markup .= nav_item($project_paths['final_url'].$item_link, $page_title, $class);
+      $nav_markup .= nav_item($project_paths['final_url'].$item_link, $page_title, $class);
 
 
+    }
+    unset($page);
+
+    return '<nav class="local-section-nav"><ul class="nav">
+  '.$nav_markup.'</ul></nav>';
   }
-  unset($page);
-
-  return '<nav class="local-section-nav"><ul class="nav">
-'.$nav_markup.'</ul></nav>';
+  else return false;
 }
 
 
@@ -436,11 +438,13 @@ function breadcrumb() {
   //  pages have no _nav.txt, because they have no subsections.
 
     if (file_exists(getcwd().'/_nav.txt')) {
-//      $current_path = str_replace($_SERVER['DOCUMENT_ROOT'], '', getcwd());
       $current_path = get_base_path('path_to_current_doc_from_web_dir');
+      $path_class = '';
     }
     else {
-      $current_path = dirname(get_base_path('path_to_current_doc_from_web_dir'), 1);
+//      $current_path = dirname(get_base_path('path_to_current_doc_from_web_dir'), 1);
+      $path_class = ' no-subnav';
+      $current_path = get_base_path('path_to_current_doc_from_web_dir');
     }
 
   // - Home link is simple. That's vassar.edu.
@@ -476,7 +480,7 @@ function breadcrumb() {
   $home_item = crumb_item('https://www.vassar.edu', 'Home', 'level-1');
   $breadcrumb_markup = $home_item.$breadcrumb_markup;
 
-  return '<ol class="breadcrumb">'.$breadcrumb_markup.'</ol>';
+  return '<ol class="breadcrumb '.$path_class.' ">'.$breadcrumb_markup.'</ol>';
 }
 
 function interior_page_nav() {

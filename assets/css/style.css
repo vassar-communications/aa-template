@@ -10169,6 +10169,35 @@ details.open .dropdown__content {
     top: auto;
   }
 }
+.section.featured-events-grid {
+  padding: 4.5rem 0 0 0;
+}
+.section.featured-events-grid .section-content {
+  max-width: none;
+  /*
+      @include break(md) {
+        display: flex;
+        gap: 0.1rem;
+      }
+      .triptych-card {
+        width: 100%;
+      }
+  */
+}
+
+.flickity-enabled:focus {
+  border: 2px solid #f00;
+}
+
+.large-card-carousel {
+  height: 30rem;
+}
+
+.carousel-cell {
+  height: 100%;
+  width: 30rem;
+}
+
 .has-image .content {
   display: flex;
 }
@@ -12665,6 +12694,13 @@ a.breadcrumb-link {
 }
 .current-item .nav-link {
   font-variation-settings: "wght" 666;
+}
+
+.no-subnav .breadcrumb-item {
+  position: relative;
+}
+.no-subnav .breadcrumb-item:last-child:after {
+  display: none;
 }
 
 /* no styles currently used */
