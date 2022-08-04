@@ -107,8 +107,8 @@ Make sure functions convert straight quotes to curly
 
 
 <?php echo sec_wideContent(
-    'Calendar',
-    '<p class="intro-text">intro text goes here</p>',
+    'Upcoming Events',
+    null,
     'theme-extralightgray'
 ); ?>
 
@@ -170,6 +170,8 @@ Make sure functions convert straight quotes to curly
   ); ?>
 
 <?php echo end_event_listing(); ?>
+
+
 
 <?php echo end_sec_wideContent(); ?>
 

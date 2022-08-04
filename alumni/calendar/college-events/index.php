@@ -11,7 +11,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"College Events",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-calendar/college-events/0317_Vassar_College_exteriors_campus_life_Oct_2019_JA.JPG"
 }';
 
 /* === */

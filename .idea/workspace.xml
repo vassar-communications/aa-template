@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/sections/content_sections/carousel-alumni-reunions.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-home/0038-22-06-cs-reunion-vassar-002.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/calendar/reunions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/reunions/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/calendar/college-events/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/college-events/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/calendar/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/resources/alumnae-house/accommodations/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumnae-house/accommodations/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/template-parts/tmpfooteralumni.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/template-parts/tmpfooteralumni.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
       <workItem from="1657765727741" duration="22691000" />
       <workItem from="1658910269180" duration="17914000" />
       <workItem from="1658979377387" duration="17153000" />
-      <workItem from="1659422829449" duration="74208000" />
+      <workItem from="1659422829449" duration="75781000" />
     </task>
     <servers />
   </component>
