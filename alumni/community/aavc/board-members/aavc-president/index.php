@@ -36,11 +36,13 @@ $page_info = json_decode($page_info, true);
     'image-is-first theme-cream',
     ''
 ); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <p class="intro">(she/her/hers)</h1>
-    <p>Pennsylvania<br/>
-        Term of Service: 2022–2026</p>
-</div>
+
+  <ul class="clean-list-with-borders">
+    <li>(she/her/hers)</li>
+    <li>Pennsylvania</li>
+    <li>Term of Service: 2022–2026</li>
+  </ul>
+
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_regularContent(
@@ -54,7 +56,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     'Professional/Community Experience',
-    null,
+    'theme-extralightgray',
     '',
     ''
 ); ?>
@@ -70,4 +72,3 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo site_footeralumni(); ?>
-

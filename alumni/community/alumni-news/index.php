@@ -39,7 +39,14 @@ $page_info = json_decode($page_info, true);
   'theme-extralightgray',
 ); ?>
 
-asdfasdfds
+<p>Vassar students with an interest in careers in the television industry gained some insight into this competitive world recently from a highly credible source.</p>
+
+<?php echo cta_link(
+  'https://www.vassar.edu/news/tv-ceo-jonathan-littman-85-offers-tips-career-success',
+  'Read more'
+); ?>
+
+
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
