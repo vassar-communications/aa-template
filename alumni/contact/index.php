@@ -124,8 +124,12 @@ $page_info = json_decode($page_info, true);
                 <div class="anchor" id="sec2"></div>
 
                 <h2 class="display-6">Advancement Services</h2>
-
-                <p>insert contact cards</p>
+                <div class="staff-contact mb-5">
+                    <h3>Mary Carole Starke</h3>
+                    <p><em>Associate Vice President for Advancement Services</em></p>
+                    <p>Email: <a class="fixemaillink" href="mailto:mastarke@vassar.edu" title="Contact Mary Carole Starke" >mastarke@vassar.edu</a><br/>Tel: <a class="fixemaillink" href="tel:845-437-5497">(845) 437-5497</a></p>
+                </div>
+                <p class="fix">insert contact cards</p>
                 <hr class="my-5">
 
 
@@ -133,49 +137,76 @@ $page_info = json_decode($page_info, true);
 
                 <h2 class="display-6">Advancement Systems and Reporting</h2>
 
-                <p>insert contact cards</p>
+                <p class="fix">insert contact cards</p>
                 <hr class="my-5">
 
                 <div class="anchor" id="sec4"></div>
 
                 <h2 class="display-6">Gifts and Records</h2>
 
-                <p>insert contact cards</p>
+                <p class="fix">insert contact cards</p>
                 <hr class="my-5">
 
                 <div class="anchor" id="sec5"></div>
 
                 <h2 class="display-6">Alumnae/i Engagement and Alumnae House</h2>
 
-                <p>insert contact cards</p>
+                <p class="fix">insert contact cards</p>
                 <hr class="my-5">
 
                 <div class="anchor" id="sec6"></div>
 
                 <h2 class="display-6">Communications</h2>
 
-                <p>insert contact cards</p>
+                <p class="fix">insert contact cards</p>
                 <hr class="my-5">
 
                 <div class="anchor" id="sec7"></div>
 
-                <h2 class="display-6">Giving</h2>
+                <h2 class="display-6 mb-5">Giving</h2>
 
-                <p>insert contact cards</p>
+                <h4>Individual Giving</h4>
+                <p class="fix">insert contact cards</p>
+
+                <hr class="my-5">
+
+                <h4>Annual Giving</h4>
+                <p class="fix">insert contact cards</p>
+
+                <hr class="my-5">
+
+                <h4>Leadership Gifts</h4>
+                <p class="fix">insert contact cards</p>
+
+                <hr class="my-5">
+
+                <h4>Gift Planning</h4>
+                <p class="fix">insert contact cards</p>
+
+                <hr class="my-5">
+
+                <h4>Parent and Family Giving</h4>
+                <p class="fix">insert contact cards</p>
+
+                <hr class="my-5">
+
+                <h4>Principal Gifts</h4>
+                <p class="fix">insert contact cards</p>
+
                 <hr class="my-5">
 
                 <div class="anchor" id="sec8"></div>
 
                 <h2 class="display-6">Prospect Development and Research</h2>
 
-                <p>insert contact cards</p>
+                <p class="fix">insert contact cards</p>
                 <hr class="my-5">
 
                 <div class="anchor" id="sec9"></div>
 
                 <h2 class="display-6">Regional and International Programs</h2>
 
-                <p>insert contact cards</p>
+                <p class="fix">insert contact cards</p>
                 <hr class="my-5">
 
             </main>
