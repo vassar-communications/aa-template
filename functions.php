@@ -440,8 +440,8 @@ function breadcrumb() {
   //  pages have no _nav.txt, because they have no subsections.
 
 
-  // Also: does the current page have any siblings?
-  // If it does, it should not appear in the breadcrumb trail.
+
+  /*  SIBLINGS */
 
   $directory = dirname(getcwd(), 1);
   $scanned_directory = array_diff(scandir($directory), array('..', '.', 'index.php'));
@@ -453,7 +453,8 @@ function breadcrumb() {
     $siblings = true;
   }
 
-  // what about children?
+
+  /*  CHILREN */
 
   $directory = getcwd();
   $scanned_directory = array_diff(scandir($directory), array('..', '.', 'index.php'));
@@ -461,22 +462,85 @@ function breadcrumb() {
   $children = false;
   $path_class = '';
 
+  echo $children;
+
   if( count( $scanned_directory ) >= 2 ) {
     $children = true;
   }
 
+
+  /* SECTION HAS ITS OWN SUBNAV */
+
+  if( file_exists ( getcwd().'/_nav.txt' ) ) {
+    $has_nav = true;
+  }
+  else $has_nav = false;
+
+
+  /* FOLDER SECTION LIVES IN HAS SUBNAV */
+
+  if( file_exists ( dirname( getcwd(), 1) .'/_nav.txt' ) ) {
+    $has_sibling_nav = true;
+  }
+  else $has_sibling_nav = false;
+
+
+
 // If a section DOES NOT have children, it SHOULD NOT appear in the breadcrumb nav
 
-    if ( $children ) {
+    echo getcwd().'/_nav.txt <br>';
+      echo 'c '.$children.'<br>
+       hn '.$has_nav.'<br>
+        s '.$siblings.'<br>
+        sn '.$has_sibling_nav;
+
+    if ( ( $children == true ) && ( $has_nav == true ) ) {
+      // has child folders, and has nav
+      // the current folder we're in is a section, so
+      // it should appear in the nav
       $current_path = get_base_path('path_to_current_doc_from_web_dir');
     }
-    else if ( !$children ) {
+
+    else if ( ( $children == true ) && ( $siblings == true ) && ( $has_nav == false ) ) {
+      // Board Members has hidden folders, and no nav
+      echo 'sdd';
+
+      $current_path = dirname(get_base_path('path_to_current_doc_from_web_dir'),1);
+//      $path_class = ' no-subnav';
+    }
+//    if asibglings but no children
+//    thats like the contact page
+
+    else if ( ( $siblings == true ) && ( $children == false ) && ( $has_sibling_nav == false ) ) {
+
+      $current_path =  get_base_path('path_to_current_doc_from_web_dir');
+      $path_class = ' no-subnav';
+
+    }
+
+
+    else if ( ( $children == false ) && ( $siblings == true ) ) {
+
+
+      $current_path = dirname(get_base_path('path_to_current_doc_from_web_dir'),1);
+//      $path_class = ' no-subnav';
+    }
+
+
+
+    else if ( $siblings == true ) {
+
+      $current_path = dirname(get_base_path('path_to_current_doc_from_web_dir'),1);
+//      $path_class = ' no-subnav';
+    }
+    else {
+
+
       $current_path = get_base_path('path_to_current_doc_from_web_dir');
       $path_class = ' no-subnav';
     }
-    else {
-      $current_path = get_base_path('path_to_current_doc_from_web_dir');
-    }
+
+
 
   // - Home link is simple. That's vassar.edu.
   // - Site link is also simple. That's whatever is right
