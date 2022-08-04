@@ -168,6 +168,9 @@ include($project_paths['main_project_root'].'/core/items/flipcard-stat.inc');
 include($project_paths['main_project_root'].'/core/modules/vassar-is-awesome.inc');
 include($project_paths['main_project_root'].'/core/modules/info-card.inc');
 
+include($project_paths['main_project_root'].'/core/modules/event-listing.inc');
+
+
 
 /* VASSAR TEMPLATING SYSTEM  */
 
