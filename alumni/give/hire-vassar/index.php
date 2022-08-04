@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Hire Vassar",
   "page_classes":"",
-  "feature_image":"/alumni/assets/img/alumni-give/hire/0056_13_05_TT_1015.jpg"
+  "feature_image":"/alumni/assets/img/alumni-give/hire/hire.jpg"
 }';
 
 /* === */
