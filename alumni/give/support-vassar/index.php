@@ -45,7 +45,7 @@ $page_info = json_decode($page_info, true);
     <p>Vassar Fund dollars are crucial to the long-term success of the College and provide an important source of flexible and spendable revenue that has an immediate impact on today’s students, faculty, and programs. The support of the alumni community helps the College remain strong and resilient throughout each year. Your philanthropic contributions support research programs, upgrades in classrooms and residence halls, tuition assistance, career education, and so much more.</p>
 
     <?php echo cta_link(
-        '#',
+        'https://go.vassar.edu/give',
         'Give Now'
     ); ?>
 
@@ -54,7 +54,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     '5 Reasons to Consider Participating',
-    'theme-dark-burgundy',
+    'theme-burgundy',
     ''
 ); ?>
 <?php echo end_sec_regularContent(); ?>
@@ -63,7 +63,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fullBleedImageColumn(
     'Participation Gifts Add Up',
     '/alumni/assets/img/alumni-give/support/Ad_Poster_15_TT_1683.jpg',
-    'theme-dark-burgundy image-is-first',
+    'theme-burgundy image-is-first',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -93,7 +93,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fullBleedImageColumn(
     'Influencing Others',
     '/alumni/assets/img/alumni-give/support/0002-20-01-kr-scc-maldonado-vassar-0047.jpg',
-    'theme-dark-burgundy image-is-first',
+    'theme-burgundy image-is-first',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">

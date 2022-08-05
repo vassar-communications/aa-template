@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/on-demand/A-Conversation-on-Public-Health-after-COVID-19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/on-demand/A-Conversation-on-Womens-Rights.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/on-demand/AAAVC-On Mattering-Reunion-Friday-190607-CS-V815-033.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/on-demand/American-Democracy-at-a-Crossroads.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/on-demand/Higher-Education-in-the-Era-of-Pandemic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/on-demand/Linda-Nochlin-00-MB.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/on-demand/The-Vassar-Classroom-Revisited-Vassar-Reunion-1906-CS-V815-006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/on-demand/Vassars-Sustainable-Future-A-Conversation.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/on-demand/Votes-for-Women.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/on-demand/header-0038-22-06-cs-reunion-vassar-006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/aavc/0038-22-06-cs-reunion-vassar-084.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/aavc/0045-19-05-kr-spring-vassar-6002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/aavc/aavc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/aavc/bylaws.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/calendar/on-demand-programs/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/on-demand-programs/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/community/aavc/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/aavc/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/give/be-a-mentor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/be-a-mentor/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/give/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/give/support-vassar/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/support-vassar/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/give/volunteer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/volunteer/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -70,7 +70,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fullBleedImageColumn(
     'Industry and Major Panels',
     '/alumni/assets/img/alumni-give/mentor/0009-18-01-cs-scc-vassar-062.jpg',
-    'image-is-first theme-cream',
+    'image-is-first theme-burgundy',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -101,7 +101,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fullBleedImageColumn(
     'Career Chats',
     '/alumni/assets/img/alumni-give/mentor/0153-19-11-kr-major-palooza-vassar-5436.jpg',
-    'image-is-first theme-cream',
+    'image-is-first theme-burgundy',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -132,7 +132,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fullBleedImageColumn(
     'Employer Info Sessions',
     '/alumni/assets/img/alumni-give/mentor/Fall_2019_Analysis_Group_Employer_Info_Session-crop.jpg',
-    'image-is-first theme-cream',
+    'image-is-first theme-burgundy',
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">

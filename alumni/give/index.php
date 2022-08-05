@@ -93,7 +93,7 @@ Giving Back Matters',
 
 <h2 class="display-2 py-5"><strong>Every</strong> alum. <strong>Any</strong> amount. <strong>Every</strong> year.</h2>
 
-<button class="btn mb-5 btn-lg btn-primary arrow">Support Vassar</button>
+<a href="/alumni/give/support-vassar" class="btn mb-5 btn-lg btn-primary arrow">Support Vassar</a>
 <!--
     <p class="animation-item">Each year, Vassar aims to enroll the most</p>
 <?php // echo vassar_is_awesome('animation-item'); ?>
@@ -116,8 +116,11 @@ Giving Back Matters',
 <div class="animate-when-content-appears animation-slide-up">
 
     <p>PLACEHOLDER NEED COPY</p>
+    <?php echo cta_link(
+        'https://give.vassar.edu',
+        'Give Now'
+    ); ?>
 
-    <a href="https://give.vassar.edu" class="px-0 btn btn-link arrow">Give Now</a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -134,8 +137,11 @@ Giving Back Matters',
 <div class="animate-when-content-appears animation-slide-up">
     <h2 class="display-2 border-animate mb-5 color-burgundy">Volunteer</h2>
     <p>Deepen relationships, expand your community, and devote time and expertise to things you care about.</p>
+    <?php echo cta_link(
+        '/alumni/give/volunteer/',
+        'Explore volunteer opportunities'
+    ); ?>
 
-    <a href="/alumni/give/volunteer/" class="px-0 btn btn-link arrow">Explore volunteer opportunities</a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -150,8 +156,11 @@ Giving Back Matters',
 <div class="animate-when-content-appears animation-slide-up">
     <h2 class="display-2 border-animate mb-5 ">Be a Mentor </h2>
     <p>Being a mentor is an extraordinary opportunity to develop positive relationships with students and help them navigate their future personally and professionally.</p>
+    <?php echo cta_link(
+        '/alumni/give/be-a-mentor/',
+        'Explore mentorship opportunities'
+    ); ?>
 
-    <a href="/alumni/give/be-a-mentor/" class="px-0 btn btn-link arrow">Explore mentorship opportunities</a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -168,8 +177,10 @@ Giving Back Matters',
 <div class="animate-when-content-appears animation-slide-up">
     <h2 class="display-2 border-animate mb-5  color-burgundy">Hire Vassar</h2>
     <p>Vassar students and alumni are great candidates for internships and positions at any level within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
-
-    <a href="/alumni/give/hire-vassar/" class="px-0 btn btn-link arrow">Information for Employers</a>
+    <?php echo cta_link(
+        '/alumni/give/hire-vassar/',
+        'Information for Employers'
+    ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -177,11 +188,11 @@ Giving Back Matters',
     '',
     '',
     'theme-charcoal bg-dark  presentation quad-pattern has-bg',
-    'mw-4 py-3 d-flex justify-content-around'
+    'mw-4 py-3 d-flex flex-column flex-md-row justify-content-around'
 ); ?>
 
 <h2 class="h2"><strong>Every Gift Matters.</strong> Explore funds and initiatives.</h2>
-<button class="btn btn-primary arrow">Make a Gift</button>
+<a href="https://go.vassar.edu/give" class="btn btn-primary arrow">Make a Gift</a>
 <?php echo end_sec_wideContent(); ?>
 
 

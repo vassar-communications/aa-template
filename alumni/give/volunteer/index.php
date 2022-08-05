@@ -65,7 +65,7 @@ $page_info = json_decode($page_info, true);
 <p>To get started, fill out the Volunteer Interest Form to indicate your interest in volunteering or find the role in the list below that best fits what you can bring to our volunteer community!</p>
 
 <?php echo cta_link(
-    '#',
+    'http://connect.vassar.edu/volunteer',
     'Volunteer Interest Form'
 ); ?>
 
@@ -86,7 +86,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>The Vassar College Alumnae/i Admissions Program (VCAAP) connects alumni volunteers with various opportunities that support the work of Vassar’s Office of Admission. VCAAP volunteers help to increase the visibility of Vassar in their local communities and provide valuable points of contact for prospective students.</p>
 <ul class="linked-list">
-    <li><a href="#">Become a VCAAP Volunteer</a></li>
+    <li><a href="https://www.vassar.edu/admissions/aap">Become a VCAAP Volunteer</a></li>
 </ul>
 
 
@@ -101,7 +101,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>Become part of the team that works in partnership with the Annual Giving team throughout the year to promote class engagement and financial support for the College. Fund chairs and class agents work with each other to inspire gifts to the Vassar Fund, providing crucial support for financial aid, student life, sustainability, and much more.</p>
 <ul class="linked-list">
-    <li><a href="#">Become a Class Fundraising Volunteer</a></li>
+    <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Class Fundraising Volunteer</a></li>
 </ul>
 
 <?php echo end_item_iconItem(); ?>
@@ -120,8 +120,8 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>Strengthen alumni communities that center shared experiences, activities, and identities, such as athletic teams, singing groups, LGBTQ+, ALANA orgs, veterans, and First Gen alums (among others).</p>
 <ul class="linked-list">
-    <li><a href="#">Learn more about Affinity Groups</a></li>
-    <li><a href="#">Become an Affinity Group Volunteer</a></li>
+    <li><a href="/alumni/community/alumni-groups/">Learn more about Affinity Groups</a></li>
+   <!-- cyreview <li><a href="#">Become an Affinity Group Volunteer</a></li> -->
 </ul>
 
 
@@ -136,8 +136,8 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>Class Leaders plan reunions and mini-reunions, administer social media groups, and help the College stay in touch with and informed about members of their class communities. Roles vary, but include event planning, outreach (general and fundraising), writing class notes for the alumni magazine, and more.</p>
 <ul class="linked-list">
-    <li><a href="#">Learn more about Vassar Classes</a></li>
-    <li><a href="#">Become a Class Volunteer</a></li>
+    <li><a href="/alumni/community/alumni-groups/">Learn more about Vassar Classes</a></li>
+    <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Class Volunteer</a></li>
 </ul>
 
 <?php echo end_item_iconItem(); ?>
@@ -149,8 +149,8 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>With more than 25 groups in the US and across the globe, Vassar Clubs provide opportunities for alumni—along with current students and their families—to build relationships across generations, nurture intellectual curiosity, support each other and the College community...and have fun while doing it! Thanks to Vassar Club volunteers, alumni can get together, wherever they live, and continue to build lasting connections beyond the College's gates.</p>
 <ul class="linked-list">
-    <li><a href="#">Learn more about Vassar Clubs</a></li>
-    <li><a href="#">Become a Club Volunteer</a></li>
+    <li><a href="/alumni/community/alumni-groups/">Learn more about Vassar Clubs</a></li>
+    <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Club Volunteer</a></li>
 </ul>
 
 <?php echo end_item_iconItem(); ?>
@@ -166,7 +166,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_iconItem(
     'Speaking/Presenting at Vassar Events',
-    'image',
+    'bullhorn',
     'icon-on-left theme-white-border'
 ); ?>
 <p>Vassar Clubs, individual classes and affinity groups all plan programs that feature alumni and parent experts. These programs can be purely educational and/or take the form of discussion-based workshops that build skills and deepen relationships. If you are interested in volunteering to lead a discussion or skills-based workshop for Vassar community members, please contact <a href="mailto:alumniengagement@vassar.edu">alumniengagement@vassar.edu</a>.</p>
@@ -181,12 +181,12 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_iconItem(
     'VassarNet Online Mentoring',
-    'image',
+    'globe',
     'icon-on-left theme-white-border'
 ); ?>
 <p>VassarNet is the College’s online platform where people at any stage of their professional life can share expertise, ask questions, and connect with one another. VassarNet users provide valuable advice and guidance to Vassar students and alumni, post job and internship opportunities for Vassar candidates, and network with thousands of members of the Vassar community.</p>
 <ul class="linked-list">
-    <li><a href="#">Join VasserNet</a></li>
+    <li><a href="https://vassarnet.vassar.edu/">Join VassarNet</a></li>
 </ul>
 
 <?php echo end_item_iconItem(); ?>
@@ -200,7 +200,7 @@ $page_info = json_decode($page_info, true);
     'mw-4 text-center'
 ); ?>
 <h2 class="h2 mb-5">Our tenets of volunteering will give you a sense of the values uplifted within our community of creative and hardworking professionals and ambassadors.</h2>
-<a href="#" class="btn btn-primary arrow">Read our best practices agreement for Vassar volunteers.</a>
+<a href="https://connect.vassar.edu/s/1654/images/gid2/editor_documents/administrative/alumnae-i_affairs/volunteer-best-practices-agreement.pdf?gid=2&pgid=61" class="btn btn-primary arrow">Read our best practices</a>
 <?php echo end_sec_wideContent(); ?>
 
 
