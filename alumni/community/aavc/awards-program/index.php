@@ -90,7 +90,7 @@ $page_info = json_decode($page_info, true);
     'Spirit of Vassar Award',
     '',
     ''); ?>
-<p>The Spirit of Vassar Award is presented to an alumna or alumnus who has demonstrated extraordinary and distinguished leadership, contribution, and commitment to serving a community in which they effect positive, transformative societal change. This contribution may have been made through the recipient's career, community work, or volunteer service. The award recognizes the values of service and civic responsibility that are fundamental to a Vassar education.</p>
+<p>The Spirit of Vassar Award is presented to an alumna or alumnus who has demonstrated extraordinary and distinguished leadership, contribution, and commitment to serving a community in which they effect positive, transformative societal change. This contribution may have been made through the recipient’s career, community work, or volunteer service. The award recognizes the values of service and civic responsibility that are fundamental to a Vassar education.</p>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -147,7 +147,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Marie Dugo Dilemani ‘11']
 ); ?>
 <h6 class="tagline">2021 Recipient</h6>
-<h1>Marie Dugo Dilemani ‘11</h1>
+<h1>Marie Dugo Dilemani ’11</h1>
 <a href="https://vimeo.com/637612799" class="btn btn-link arrow">Watch the video</a>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
