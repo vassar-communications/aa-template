@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"AAVC Board Director",
   "page_classes":"",
-  "feature_image":"/alumni/assets/img/alumni-community/aavc/board/ames-katrine-cage-aavc-alum-001.jpg"
+  "feature_image":"/alumni/assets/img/alumni-community/aavc/board/reid-chip-aavc-alum-001.jpg"
 }';
 
 /* === */
@@ -31,17 +31,17 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'Katrine “Cage” Ames ’69',
-    '/alumni/assets/img/alumni-community/aavc/board/ames-katrine-cage-aavc-alum-001.jpg',
+    'Chip Reid ’77',
+    '/alumni/assets/img/alumni-community/aavc/board/reid-chip-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Katrine “Cage” Ames']
+    ['img_alt_text' => 'Chip Reid ’77']
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Vassar Fund Committee Member and Class Engagement Committee Member</li>
-    <li>(she/her/hers)</li>
-    <li>New York</li>
+    <li>AAVC Board Director, Nominating and Governance Committee Member, and Communications Advisory Committee Member</li>
+    <li>(he/him/his)</li>
+    <li>Washington, DC</li>
     <li>Term of Service: 2020–2024</li>
   </ul>
 
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Member, Alumnae/i Recognition Committee, 2020–present; member, Class of 1969 Committee, 2020–present; Class Agent, Class of 1969, 2019–present; Reunion Co-Chair, Class of 1969, 2015–2019; Class Agent, Class of 1969, 2015; Reunion Gift Chair, Class of 1969, 2013–2014; Class Fund Co-Chair, Class of 1969, 2009–2013; reunion volunteer (created bulletin and surveys), Class of 1969, 2005–2009; Correspondent, Class of 1969, 1975–1979.</p>
+<p>Panelist, “Democracy and the Fourth Estate,” NYC Donor Recognition Event, December 2018; moderator, “The Presidency, the Press, and Accountability,” Vassar Club of DC, January 2017; Vassar College Commencement Speaker, May 2011; Class Agent, Class of 1977, 2002–2003; 2013–2014.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Freelance writer and editor, various publications, 2008–present; Program Editor, Spring for Music: Festival of North American Orchestra, 2010–2014; freelance writer and editor, Metropolitan Opera, 2010; writer, PBS documentary A Musical Odyssey in St. Petersburg, 2009; freelance editor, This Old House, 2009; Features Director, Condé Nast House & Garden, 1996–2007; on-air music commentator, National Public Radio’s Performance Today, 1990–2002; researcher, reporter, writer, and eventually Senior Editor, Newsweek, 1970–1996.</p>
+<p>National correspondent, CBS News, 2011–present; Chief White House Correspondent, CBS News, 2009–2011; Capitol Hill Correspondent, CBS News, 2007–2009; Capitol Hill Correspondent, NBC News, 2003–2007; correspondent, NBC News (Los Angeles), 2000–2003; correspondent, NBC News (Washington, DC), 1996–2000; reporter, WJLA-TV (ABC News), 1994–1996; reporter/producer, WTTG-TV (Fox News), 1990–1993; field producer, ABC News, 1988–1989; general counsel, Biden for President, 1987; associate, Kirkpatrick & Lockhart (D.C. law firm), 1986–1987; counsel, U.S. Senate Judiciary Committee, (Ranking Democrat Senator Joe Biden), 1982–1986.</p>
 <?php echo end_sec_regularContent(); ?>
 
 

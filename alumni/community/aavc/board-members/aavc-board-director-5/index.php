@@ -8,9 +8,9 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"AAVC Board Director",
+  "page_title":"Board Member",
   "page_classes":"",
-  "feature_image":"/alumni/assets/img/alumni-community/aavc/board/ames-katrine-cage-aavc-alum-001.jpg"
+  "feature_image":"/alumni/assets/img/alumni-community/aavc/board/smikle-sheryl-aavc-alum-001.jpg"
 }';
 
 /* === */
@@ -31,15 +31,15 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'Katrine “Cage” Ames ’69',
-    '/alumni/assets/img/alumni-community/aavc/board/ames-katrine-cage-aavc-alum-001.jpg',
+    'Sheryl Smikle ’81',
+    '/alumni/assets/img/alumni-community/aavc/board/smikle-sheryl-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Katrine “Cage” Ames']
+    ['img_alt_text' => 'Sheryl Smikle ’81']
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Vassar Fund Committee Member and Class Engagement Committee Member</li>
+    <li>AAVC Board Direction, Nominating and Governance Committee Member, and Alumnae House Committee Member</li>
     <li>(she/her/hers)</li>
     <li>New York</li>
     <li>Term of Service: 2020–2024</li>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Member, Alumnae/i Recognition Committee, 2020–present; member, Class of 1969 Committee, 2020–present; Class Agent, Class of 1969, 2019–present; Reunion Co-Chair, Class of 1969, 2015–2019; Class Agent, Class of 1969, 2015; Reunion Gift Chair, Class of 1969, 2013–2014; Class Fund Co-Chair, Class of 1969, 2009–2013; reunion volunteer (created bulletin and surveys), Class of 1969, 2005–2009; Correspondent, Class of 1969, 1975–1979.</p>
+<p>Vice President, Class of 1981 Committee, 2017–present; member, Campus Investor Responsibility Committee (CIRC), 2016–present; volunteer, Club Admissions Committee, 2013–2016; note writer/phoner, Vassar Fund, 1997.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Freelance writer and editor, various publications, 2008–present; Program Editor, Spring for Music: Festival of North American Orchestra, 2010–2014; freelance writer and editor, Metropolitan Opera, 2010; writer, PBS documentary A Musical Odyssey in St. Petersburg, 2009; freelance editor, This Old House, 2009; Features Director, Condé Nast House & Garden, 1996–2007; on-air music commentator, National Public Radio’s Performance Today, 1990–2002; researcher, reporter, writer, and eventually Senior Editor, Newsweek, 1970–1996.</p>
+<p>Sr. Learning Partner / Training Director-Human Resources, AIG, 2017–present; Volunteer Advisor, Florence Belsky Charitable Foundation, 2017–present; author, Congratulations, You’re A Compliance Officer! Now What?, 2019; Compliance Learning & Communications Leader, GE Capital Americas, 2012–2016; Associate Dean-Baccalaureate Studies/Director, The College of Westchester, 2006–2012; Assistant Director for Disability & Support Services, Vassar College, 2004–2011; professor, SUNY at New Paltz, 2003–2004; professor, SUNY Ulster Community College, 2003–2004; Director-Compliance, American Express TRS, 1993–2004; board member, Central Harlem Partnership, 1999; adjunct professor of ESL, Hudson County Community College, 1984–1985; Spanish teacher, NYC Board of Education, 1984–1985.</p>
 <?php echo end_sec_regularContent(); ?>
 
 

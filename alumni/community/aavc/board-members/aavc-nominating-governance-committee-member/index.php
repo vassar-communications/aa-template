@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"AAVC Board Director",
   "page_classes":"",
-  "feature_image":"/alumni/assets/img/alumni-community/aavc/board/ames-katrine-cage-aavc-alum-001.jpg"
+  "feature_image":"/alumni/assets/img/alumni-community/aavc/board/dumlao-ac-aavc-alum-002.jpg"
 }';
 
 /* === */
@@ -31,18 +31,18 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'Katrine “Cage” Ames ’69',
-    '/alumni/assets/img/alumni-community/aavc/board/ames-katrine-cage-aavc-alum-001.jpg',
+    'AC Dumlao ’13',
+    '/alumni/assets/img/alumni-community/aavc/board/dumlao-ac-aavc-alum-002.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Katrine “Cage” Ames']
+    ['img_alt_text' => 'AC Dumlao ’13']
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Vassar Fund Committee Member and Class Engagement Committee Member</li>
-    <li>(she/her/hers)</li>
+    <li>Nominating and Governance Committee Member and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</li>
+    <li>(they/them/he/him)</li>
     <li>New York</li>
-    <li>Term of Service: 2020–2024</li>
+    <li>Term of Service: 2021–2025</li>
   </ul>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Member, Alumnae/i Recognition Committee, 2020–present; member, Class of 1969 Committee, 2020–present; Class Agent, Class of 1969, 2019–present; Reunion Co-Chair, Class of 1969, 2015–2019; Class Agent, Class of 1969, 2015; Reunion Gift Chair, Class of 1969, 2013–2014; Class Fund Co-Chair, Class of 1969, 2009–2013; reunion volunteer (created bulletin and surveys), Class of 1969, 2005–2009; Correspondent, Class of 1969, 1975–1979.</p>
+<p>Volunteer consultant, Vassar Alumnae/i Census and Attitudinal Study, 2021; co-chair, LGBTQ+ Alumnae/i of Vassar Affinity Group, 2019–present; guest speaker, Vassar Asian Students’ Alliance “Brown/Round/Queer/Here” workshop, 2018; panelist, LGBTQ+ Alumnae/i “Then and Now” Reunion event, 2018.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Freelance writer and editor, various publications, 2008–present; Program Editor, Spring for Music: Festival of North American Orchestra, 2010–2014; freelance writer and editor, Metropolitan Opera, 2010; writer, PBS documentary A Musical Odyssey in St. Petersburg, 2009; freelance editor, This Old House, 2009; Features Director, Condé Nast House & Garden, 1996–2007; on-air music commentator, National Public Radio’s Performance Today, 1990–2002; researcher, reporter, writer, and eventually Senior Editor, Newsweek, 1970–1996.</p>
+<p>Chief of staff, Athlete Ally, 2021–present; program manager, Transgender Legal Defense & Education Fund (TLDEF), 2018–2021; creator/activist & educator, Call Me They, 2017–present; name change project coordinator, TLDEF, 2017–2018; youth mentor, The Center, 2017–2018; digital advertising manager, M+R Strategic Services, 2016–2017; account manager, Magnetic (acquired by Deloitte Digital), 2015–2016; sales planner, Magnetic, 2014–2015; freelance stage manager and theater director, 2013–2015; production intern, All For One Theater, 2013–2014; stage manager, Powerhouse Theater Training Program, 2013.</p>
 <?php echo end_sec_regularContent(); ?>
 
 
