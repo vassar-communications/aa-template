@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-<p>Explore Vassar's extensive network of groups and clubs.</p>
+<p>Explore Vassar’s extensive network of groups and clubs.</p>
 
 <?php echo end_item_cardWithText(
     null,
