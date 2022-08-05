@@ -25,7 +25,7 @@ $page_info = json_decode($page_info, true);
 <?php echo hamburger_navigation_alums(); ?>
 
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'alttext']); ?>
 
 
 <?php echo interior_page_nav(); ?>
@@ -35,8 +35,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
   'TV CEO Jonathan Littman ’85 Offers Career Tips to Students',
-  '/assets/images/placeholders/placeholder-square.png',
+  '/alumni/assets/img/alumni-community/CDO-career-chat-Jonathan-Littman-9422.jpg',
   'theme-extralightgray',
+  '',
+  ['img_alt_text' => 'Jonathan Littman and student standing behinde director’s chairs']
 ); ?>
 
 <p>Vassar students with an interest in careers in the television industry gained some insight into this competitive world recently from a highly credible source.</p>
