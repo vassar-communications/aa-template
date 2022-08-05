@@ -117,7 +117,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Vassar Clubs',
-    '/alumni/assets/img/alumni-community/alumni-groups/VCNY_43745686.jpg',
+    '/alumni/assets/img/alumni-community/alumni-groups/0080_16_07_BL_1377.jpg',
     'theme-cream',
     ''
 ); ?>
