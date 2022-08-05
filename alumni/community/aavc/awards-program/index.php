@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Awards Program",
   "page_classes":"",
-  "feature_image":"/alumni/assets/img/alumni-community/aavc/awards/0032-21-05-kr-spring-vassar-0078.jpg"
+  "feature_image":"/alumni/assets/img/alumni-community/aavc/awards/lead-06282020_QueerLiberationMarch_by_LeandroJusten_019.jpg"
 }';
 
 /* === */
@@ -25,7 +25,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Vassar Main Building with tulips in front']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Queer Liberation March']); ?>
 
 <?php echo interior_page_nav() ?>
 
