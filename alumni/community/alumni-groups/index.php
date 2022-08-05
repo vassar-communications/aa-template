@@ -24,7 +24,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Class of 1972 Vassar Reunion Event']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -35,7 +35,8 @@ $page_info = json_decode($page_info, true);
     null,
     '/alumni/assets/img/alumni-community/alumni-groups/0127_12_12_YEM_2474.jpg',
     'theme-cream image-is-first',
-    ''
+    '',
+    ['img_alt_text' => 'two people talkig']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Alumni have been entrepreneurial community-builders since the Alumnae/i Association (AAVC) was founded in 1871.</p>
@@ -51,7 +52,8 @@ $page_info = json_decode($page_info, true);
     'Affinity Groups',
     '/alumni/assets/img/alumni-community/alumni-groups/Group_of_5.jpg',
     '',
-    ''
+    '',
+    ['img_alt_text' => 'Group of five people in Vassar College Rainbow t-shirts']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Affinity groups strengthen alumni communities that center shared experiences, activities, and identities. These communities include athletic teams, singing groups, LGBTQ+, ALANA orgs, veterans, and First Gen alums (among others).</p>
@@ -83,10 +85,11 @@ $page_info = json_decode($page_info, true);
     'Vassar Classes',
     '/alumni/assets/img/alumni-community/alumni-groups/0041-22-06-bl-reunion-vassar-6992.jpg',
     'theme-verylightgray',
-    ''
+    '',
+    ['img_alt_text' => 'People holding up Vassar Class of 1982 Banner at Reunion']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Everyone who matriculates at Vassar is a member of a Vassar Class. Classes plan reunions and mini-reunions, manage social media pages, reach out to one another about supporting the college, and enjoy each other’s updates in the Class notes section of the Vassar: <em>The Vassar Quarterly</em> magazine. Classes last for a lifetime and represent the largest organizing alumni community.</p>
+<p>Everyone who matriculates at Vassar is a member of a Vassar Class. Classes plan reunions and mini-reunions, manage social media pages, reach out to one another about supporting the college, and enjoy each other’s updates in the Class notes section of <em>The Vassar Quarterly</em> magazine. Classes last for a lifetime and represent the largest organizing alumni community.</p>
 
     <?php echo cta_link(
         '#',
@@ -119,13 +122,14 @@ $page_info = json_decode($page_info, true);
     'Vassar Clubs',
     '/alumni/assets/img/alumni-community/alumni-groups/0080_16_07_BL_1377.jpg',
     'theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Two smiling people standing side by side, arm in arm.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Vassar Clubs serve as a catalyst to bring together the more than 41,000 Vassar alumni around the world, fostering lasting connections beyond the College's gates.</p>
+<p>Vassar Clubs serve as a catalyst to bring together the more than 41,000 Vassar alumni around the world, fostering lasting connections beyond the College’s gates.</p>
 
     <?php echo cta_link(
-        '#',
+        'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5161',
         'Explore Current Vassar Clubs'
     ); ?>
 
