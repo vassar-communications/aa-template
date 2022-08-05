@@ -31,7 +31,7 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'A dynamic global network of 41,000+ members!',
+    'A Dynamic Global Network of 41,000+ Members!',
     $alumni_img_path.'alumni-community/aavc/Vassar_Reunion_19 BL_4788.jpg',
     'image-is-first theme-cream',
     ''
