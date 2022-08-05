@@ -4,18 +4,20 @@
 // and vertical masonry.
 
 .grid {
-  display: grid;
-  gap: var(--bs-gap, 3rem);
-  grid-template-columns: repeat(var(--bs-columns, 1), 1fr);
+  @include break(md) {
+    display: grid;
+    gap: var(--bs-gap, 3rem);
+    grid-template-columns: repeat(var(--bs-columns, 1), 1fr);
 
-  &.cols-2 {
-    --bs-columns: 2;
-  }
-  &.cols-3 {
-    --bs-columns: 3;
-  }
-  &.cols-4 {
-    --bs-columns: 4;
+    &.cols-2 {
+      --bs-columns: 2;
+    }
+    &.cols-3 {
+      --bs-columns: 3;
+    }
+    &.cols-4 {
+      --bs-columns: 4;
+    }
   }
 }
 
@@ -71,4 +73,3 @@
 
   }
 }
-

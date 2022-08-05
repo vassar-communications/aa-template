@@ -375,7 +375,7 @@ $menu-cols-gap: 4rem;
 
 ul#block-fixedalumsmyaccountdirectory {
     display: flex;
-    gap: 0.6rem;
+    gap: 0.2rem;
     padding: 0;
     margin: 0;
 }
@@ -387,9 +387,9 @@ ul#block-fixedalumsmyaccountdirectory li {
 .button-bar {
   position: fixed;
   bottom: 0;
-  right: 1rem;
+  right: 0.4rem;
 //  background: #fff;
-  padding: 1rem 0.2rem 1.4rem 1rem;
+  padding: 0.4rem;
   box-shadow: 0 1em 1em rgba(0,0,0,0.3);
   z-index: 1000;
   border-top-left-radius: 0.4rem;
@@ -407,4 +407,8 @@ ul#block-fixedalumsmyaccountdirectory li {
 
 ul#block-fixedalumsmyaccountdirectory {
     --regularContent-font-size: 1rem;
+
+    a.btn {
+      border-radius: 0.4rem;
+    }
 }

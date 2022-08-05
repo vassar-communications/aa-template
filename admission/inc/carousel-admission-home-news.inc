@@ -21,7 +21,7 @@
     'A grid of six faces'
   ); ?>
     <h3>Vassar Salutes Retiring Board Members</h3>
-    <a class="stretched-link" href="https://www.vassar.edu/news/minor-planet-named-particle-physicist-sau-lan-wu-63">Read more <i class="fa-solid fa-arrow-right"></i></a>
+    <a class="stretched-link" href="https://www.vassar.edu/news/vassar-salutes-retiring-board-members">Read more <i class="fa-solid fa-arrow-right"></i></a>
   <?php echo end_carousel_item(); ?>
 
   <?php echo carousel_item(
