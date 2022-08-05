@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/aavc/awards/0032-21-05-kr-spring-vassar-0078.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/aavc/awards/0046_14_01_SS2_089.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/aavc/awards/0049_14_05_KR_0012edit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/aavc/awards/0071-19-05-ssh-kente-cloth-vassar-0168.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/aavc/awards/Marie_Dilemani_AAVC_Award_210922_KR_0046.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-community/aavc/awards/Miles-LaGrange_02.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/calendar/college-events/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/college-events/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/calendar/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/calendar/reunions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/reunions/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/contact/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/contact/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/inc/pages/contact/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/inc/pages/contact/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/alumnae-house/accommodations/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumnae-house/accommodations/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/alumnae-house/events/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumnae-house/events/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/alumni-benefits/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumni-benefits/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/grants-fellowships/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/grants-fellowships/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/resources/the-vassar-network/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/the-vassar-network/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/community/aavc/awards-program/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/aavc/awards-program/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Awards Program",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-community/aavc/awards/0032-21-05-kr-spring-vassar-0078.jpg"
 }';
 
 /* === */
@@ -51,7 +51,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-community/aavc/awards/0046_14_01_SS2_089.jpg',
     'image-is-first',
     ''
 ); ?>
@@ -73,7 +73,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-community/aavc/awards/0071-19-05-ssh-kente-cloth-vassar-0168.jpg',
     'image-is-first theme-verylightgray',
     ''
 ); ?>
@@ -93,7 +93,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-community/aavc/awards/Miles-LaGrange_02.jpg',
     'image-is-first',
     ''
 ); ?>
@@ -114,12 +114,12 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-community/aavc/awards/0049_14_05_KR_0012edit.jpg',
     'image-is-first theme-verylightgray',
     ''
 ); ?>
 <h6 class="tagline">2021 Recipient</h6>
-<h1>RACHEL KITZINGER</h1>
+<h1>Rachel Kitzinger</h1>
 <p class="intro-text">Professor Emerita of Greek and Roman Studies</p>
 <a href="#" class="btn btn-link arrow">Watch the video</a>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -136,7 +136,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-community/aavc/awards/Marie_Dilemani_AAVC_Award_210922_KR_0046.jpg',
     'image-is-first',
     ''
 ); ?>
