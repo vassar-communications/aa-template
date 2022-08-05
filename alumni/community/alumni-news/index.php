@@ -60,7 +60,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Veronica (Plaut) McDaniel ’01',
-        '#',
+        'https://www.cnn.com/videos/tv/2022/04/26/cfp-voice-of-freedom-mfd-ais-spc.cnn',
         ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
@@ -71,7 +71,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Sarah Roth ’21',
-        '#',
+        'https://www.fastcompany.com/90746616/why-tinders-background-check-is-a-major-backfire',
         ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
@@ -82,7 +82,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Karl Strovink ’95',
-        '#',
+        'https://fortune.com/2022/04/24/blue-bottle-popular-coffee-chain-didnt-lay-off-a-single-employee-during-the-pandemic/',
         ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
