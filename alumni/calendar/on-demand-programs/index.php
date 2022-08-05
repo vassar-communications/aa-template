@@ -57,7 +57,7 @@ echo item_imageCard_videoModal(
     'https://player.vimeo.com/video/615898660',
     'vimeo',
     '',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg',
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/A-Conversation-on-Public-Health-after-COVID-19.jpg',
         'alt' => 'needsalttxt'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -75,7 +75,7 @@ echo item_imageCard_videoModal(
     'https://player.vimeo.com/video/491739329',
     'vimeo',
     '',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg',
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/A-Conversation-on-Womens-Rights.jpg',
         'alt' => 'needsalttxt'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -91,7 +91,7 @@ echo item_imageCard_videoModal(
     'https://player.vimeo.com/video/467204540',
     'vimeo',
     '',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg',
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/Higher-Education-in-the-Era-of-Pandemic.jpg',
         'alt' => 'needsalttxt'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -107,7 +107,7 @@ echo item_imageCard_videoModal(
     'https://player.vimeo.com/video/463068325',
     'vimeo',
     '',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg',
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/Votes-for-Women.jpg',
         'alt' => 'needsalttxt'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -123,7 +123,7 @@ echo item_imageCard_videoModal(
     'https://player.vimeo.com/video/457908119',
     'vimeo',
     '',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg',
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/American-Democracy-at-a-Crossroads.jpg',
         'alt' => 'needsalttxt'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -138,7 +138,7 @@ echo item_imageCard_videoModal(
     'https://player.vimeo.com/video/430219097',
     'vimeo',
     '',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg',
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/Vassars-Sustainable-Future-A-Conversation.jpg',
         'alt' => 'needsalttxt'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -161,7 +161,7 @@ echo item_imageCard_videoModal(
 <?php echo item_cardWithText(
     'The Vassar Classroom Revisited',
     'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5032',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'needsalttxt' ],
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/The-Vassar-Classroom-Revisited-Vassar-Reunion-1906-CS-V815-006.jpg', 'alt' => 'needsalttxt' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
@@ -173,7 +173,7 @@ echo item_imageCard_videoModal(
 <?php echo item_cardWithText(
     'In Honor Of Linda Nochlin ’51',
     'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5032',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'needsalttxt' ],
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/Linda-Nochlin-00-MB.jpg', 'alt' => 'needsalttxt' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
@@ -185,7 +185,7 @@ echo item_imageCard_videoModal(
 <?php echo item_cardWithText(
     'AAAVC – “On Mattering”',
     'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5313',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'needsalttxt' ],
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/AAAVC-On Mattering-Reunion-Friday-190607-CS-V815-033.jpg', 'alt' => 'needsalttxt' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
