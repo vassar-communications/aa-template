@@ -13254,19 +13254,14 @@ html {
 }
 .carousel-cell.is-link .stretched-link {
   position: static;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-top: 1.2rem;
   display: inline-block;
   color: #fff;
+  line-height: 1.2;
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  padding: 0.2rem 0.8rem;
-  border-radius: 4rem;
-}
-.carousel-cell.is-link .stretched-link:hover, .carousel-cell.is-link .stretched-link:focus {
-  background: #fff !important;
-  color: #641A2B !important;
 }
 
 html {

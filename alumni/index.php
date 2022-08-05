@@ -236,7 +236,7 @@ echo sec_fixedCenteredTitle(
     ]
 ); ?>
 
-<?php echo inTheMediaCarousel(); ?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/home-blocks/carousel-alumni-home-media.inc'); ?>
 
 <div class="text-center mt-5">
     <a href="/alumni/community/alumni-news" class="btn btn-light btn-lg arrow mb-5" style="background: #fff;">More news</a>
