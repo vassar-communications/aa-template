@@ -1,6 +1,6 @@
 <?php
 
-function expandable_event_card(
+function invitation_style_card(
   $title,
   $date,
   $image_info = null,
@@ -40,6 +40,6 @@ TMP;
 }
 
 
-function end_expandable_event_card() {
+function end_invitation_style_card() {
   return '</div></div></div>';
 }

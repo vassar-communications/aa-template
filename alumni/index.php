@@ -11,7 +11,7 @@ include( $project_paths['main_project_root'] . '/functions.php');
 
 $page_info = '{
   "page_title":"Vassar Alumni",
-  "page_classes":"advancement-demo",
+  "page_classes":"advancement-demo home",
   "nav_title":"Alumni"
 }';
 
@@ -210,7 +210,9 @@ echo sec_fixedCenteredTitle(
     ]
 ); ?>
 
-<?php echo alumsCarousel(); ?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/home-blocks/carousel-alumni-home-spotlight.inc'); ?>
+
+
 
 <?php echo end_sec_fixedCenteredTitle(); ?>
 

@@ -377,9 +377,8 @@ if ($('.featureImage-text-ticker').length) {
     });
 }
 
-if ($('.large-card-carousel').length) {
-    $('.large-card-carousel').flickity({
-//		cellAlign: 'left',
+if ($('.invitation-style-carousel').length) {
+    $('.invitation-style-carousel').flickity({
 		groupCells: true,
         wrapAround: true
     });

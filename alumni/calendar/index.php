@@ -66,12 +66,12 @@ Make sure functions convert straight quotes to curly
 
 <?php echo sec_regularContent(
   'Get Involved',
-  'theme-burgundy featured-events-grid'
+  'theme-burgundy contains-carousel'
 ); ?>
 
-<div class="large-card-carousel">
+<div class="invitation-style-carousel">
 
-  <?php echo expandable_event_card(
+  <?php echo invitation_style_card(
     'Reunion 2023',
     'June 2–4',
       '',
@@ -79,10 +79,10 @@ Make sure functions convert straight quotes to curly
   ); ?>
   <p>Believe it or not, we are getting ready to kick off the planning and fundraising for Reunion 2023! We will be welcoming classes with graduation years ending in 3 and 8, along with the Class of 2016, from June 2-4, 2023. The 50th Reunion Class of 1973 is invited to arrive a day earlier on June 1. 50th Reunion class survey coming soon. Check back here for updates as the planning gets underway!</p>
     <a class="btn btn-link arrow" href="#">More Details</a>
-  <?php echo end_expandable_event_card(); ?>
+  <?php echo end_invitation_style_card(); ?>
 
 
-  <?php echo expandable_event_card(
+  <?php echo invitation_style_card(
     'Reunion 2023',
     'June 14',
     [
@@ -93,9 +93,9 @@ Make sure functions convert straight quotes to curly
   ); ?>
     <p>Believe it or not, we are getting ready to kick off the planning and fundraising for Reunion 2023!</p>
 <a class="btn btn-link arrow" href="#">More Details</a>
-  <?php echo end_expandable_event_card(); ?>
+  <?php echo end_invitation_style_card(); ?>
 
-  <?php echo expandable_event_card(
+  <?php echo invitation_style_card(
     'Reunion 2023',
     'June 2–4',
     null,
@@ -103,7 +103,7 @@ Make sure functions convert straight quotes to curly
   ); ?>
   <p>Believe it or not, we are getting ready to kick off the planning and fundraising for Reunion 2023!</p>
     <a class="btn btn-link arrow" href="#">More Details</a>
-  <?php echo end_expandable_event_card(); ?>
+  <?php echo end_invitation_style_card(); ?>
 
 </div>
 

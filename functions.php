@@ -146,7 +146,9 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/fix
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle-masthead.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/fixedCenteredTitle-masthead_vid.inc');
 
-include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-alumni-home-spotlight.inc');
+include($project_paths['main_project_root'].'/core/modules/carousel.inc');
+
+
 include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-alumni-home-media.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-alumni-reunions.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-admission-explore-hudson.inc');
@@ -158,7 +160,7 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/car
 include($project_paths['main_project_root'].'/core/modules/thumbnail-text-ticker.inc');
 
 include($project_paths['main_project_root'].'/core/modules/animated-statement.inc');
-include($project_paths['main_project_root'].'/core/modules/carousel.inc');
+
 
 include($project_paths['main_project_root'].'/core/modules/accordion.inc');
 
@@ -316,9 +318,24 @@ TMP;
 }
 
 //  Wraps data in markup, returns a breadcrumb item.
-function crumb_item($link, $title, $classes='') {
+//
+//  If this breaks:
+//  - make $link required
+//  - put link markup back in template; don't make it conditional
+//
+function crumb_item($link='', $title, $classes='') {
+
+  $link_markup_start = '<strong>';
+  $link_markup_end = '</strong>';
+
+  if( $link ) {
+    $link_markup_start = '<a class="breadcrumb-link" href="' . $link . '">';
+    $link_markup_end = '</a>';
+  }
+
+
 $breadcrumb_item_tmp = <<<TMP
-<li class="breadcrumb-item $classes"><a class="breadcrumb-link" href="$link">$title</a></li>
+<li class="breadcrumb-item $classes">$link_markup_start $title $link_markup_end</li>
 TMP;
     return $breadcrumb_item_tmp;
 }
@@ -587,21 +604,38 @@ function breadcrumb() {
   // Sooo...
 
   $path_in_pieces = explode('/', $current_path);
+
   $path = '/';
 
   $breadcrumb_markup = '';
   $crumb_level = 1;
 
   foreach ($path_in_pieces as &$item) {
+
     if($item !== '') {
       $path .= $item.'/';
       $item_info = get_page_vars($_SERVER['DOCUMENT_ROOT'].$path);
 
       $title = $item_info['page_title'];
 
-    $breadcrumb_markup .= crumb_item($project_paths['final_url'].$path, $title, 'level-'.$crumb_level);
-    $crumb_level++;
+      $item_link = $project_paths['final_url'].$path;
+
+      if ( $crumb_level == count( $path_in_pieces ) ) {
+        $item_link = '';
+      }
+
+//      echo $crumb_level . ' - ' . $item_link . "<br>";
+
+
+      // The current page in the breadcrumb should
+      // not be linked. So if the item we're on here is the
+      // current page, don't link it.
+
+      // $breadcrumb_markup .= crumb_item($project_paths['final_url'].$path, $title, 'level-'.$crumb_level);
+
+      $breadcrumb_markup .= crumb_item( $item_link, $title, 'level-'.$crumb_level );
     }
+    $crumb_level++;
 
   }
   unset($item);

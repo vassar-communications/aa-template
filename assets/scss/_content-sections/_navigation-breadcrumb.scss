@@ -96,15 +96,19 @@ $nav-item-border-size: 2px;
   }
 }
 
-
+.breadcrumb-item {
+  font-size: 1.1rem;
+  
+}
 
 li.breadcrumb-item:last-child a {
   font-weight: bold;
   font-variation-settings: "wght" 800;
+
 }
 
 a.breadcrumb-link {
-  font-size: 1.1rem;
+//  font-size: 1.1rem;
   font-variation-settings: "wght" 490;
 }
 
