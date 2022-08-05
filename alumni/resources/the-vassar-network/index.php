@@ -46,7 +46,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>Sign up for VassarNet, our online platform for professional networking and connections. Take a few minutes to complete your VassarNet profile and make yourself available as a resource for the Vassar community.</p>
 
-<p>Within the platform, you can answer questions a student or alum may have that’s within your field of expertise or expand your own network by connecting with one of the thousands of other alumni.</p>
+<p>Within the platform, you can answer questions a student or alum may have that are within your field of expertise or expand your own network by connecting with one of the thousands of other alumni.</p>
 
 <?php echo cta_link(
     'https://vassarnet.vassar.edu/',

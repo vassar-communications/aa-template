@@ -975,4 +975,4 @@ echo end_contact_card();
 <?php echo end_sec_relatedTopics(); ?>
 
 
-<?php echo site_footer(); ?>
+<?php echo site_footeralumni(); ?>
