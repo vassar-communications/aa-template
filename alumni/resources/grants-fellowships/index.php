@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     'image-is-first theme-cream',
     ''
 ); ?>
-<p class="intro-text">Highlighted below are a few of the grants and fellowships available to Vassar alumni. For more information on these and <a href="https://fellowships.vassar.edu/fellowships/graduates/index.html">other grants and fellowships</a>, contact the <a href="https://fellowships.vassar.edu/">Office for Fellowships and Pre-Health Advising</a>.</p>
+<p class="intro-text">Highlighted below are a few of the grants and fellowships available to Vassar alumni. For more information on these and <a href="https://fellowships.vassar.edu/fellowships/graduates/index.html">other grants and fellowships</a>, contact the <a href="https://offices.vassar.edu/pre-health-advising/">Office for Fellowships and Pre-Health Advising</a>.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

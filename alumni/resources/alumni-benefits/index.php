@@ -33,7 +33,7 @@ $page_info = json_decode($page_info, true);
     'Alumni Benefits',
     '/alumni/assets/img/alumni-resources/alumni-benefits/reunion-1906-kr-vassar-3139.jpg',
     'image-is-first theme-cream',
-    'placeholder'
+    ''
 ); ?>
 <p class="intro-text">Vassar offers a wide array of benefits to the more than 41,000 alumni across the globe.</p>
 

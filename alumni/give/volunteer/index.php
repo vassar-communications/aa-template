@@ -99,7 +99,7 @@ $page_info = json_decode($page_info, true);
     'image',
     'icon-on-left theme-white-border'
 ); ?>
-<p>Become part of the team that works in partnership with the Annual Giving team throughout the year to promote class engagement and financial support for the college. Fund chairs and class agents work with each other to inspire gifts to the Vassar Fund, providing crucial support for financial aid, student life, sustainability, and much more.</p>
+<p>Become part of the team that works in partnership with the Annual Giving team throughout the year to promote class engagement and financial support for the College. Fund chairs and class agents work with each other to inspire gifts to the Vassar Fund, providing crucial support for financial aid, student life, sustainability, and much more.</p>
 <ul class="linked-list">
     <li><a href="#">Become a Class Fundraising Volunteer</a></li>
 </ul>
@@ -134,7 +134,7 @@ $page_info = json_decode($page_info, true);
     'image',
     'icon-on-left theme-white-border'
 ); ?>
-<p>Class Leaders plan reunions and mini-reunions, administer social media groups, and help the college stay in touch with and informed about members of their class communities. Roles vary, but include event planning, outreach (general and fundraising), writing class notes for the alumni magazine, and more.</p>
+<p>Class Leaders plan reunions and mini-reunions, administer social media groups, and help the College stay in touch with and informed about members of their class communities. Roles vary, but include event planning, outreach (general and fundraising), writing class notes for the alumni magazine, and more.</p>
 <ul class="linked-list">
     <li><a href="#">Learn more about Vassar Classes</a></li>
     <li><a href="#">Become a Class Volunteer</a></li>
@@ -147,7 +147,7 @@ $page_info = json_decode($page_info, true);
     'image',
     'icon-on-left theme-white-border'
 ); ?>
-<p>With more than 25 groups in the US and across the globe, Vassar Clubs provide opportunities for alumni—along with current students and their families—to build relationships across generations, nurture intellectual curiosity, support each other and the college community...and have fun while doing it! Thanks to Vassar Club volunteers, alumni can get together, wherever they live, and continue to build lasting connections beyond the College's gates.</p>
+<p>With more than 25 groups in the US and across the globe, Vassar Clubs provide opportunities for alumni—along with current students and their families—to build relationships across generations, nurture intellectual curiosity, support each other and the College community...and have fun while doing it! Thanks to Vassar Club volunteers, alumni can get together, wherever they live, and continue to build lasting connections beyond the College's gates.</p>
 <ul class="linked-list">
     <li><a href="#">Learn more about Vassar Clubs</a></li>
     <li><a href="#">Become a Club Volunteer</a></li>
@@ -184,7 +184,7 @@ $page_info = json_decode($page_info, true);
     'image',
     'icon-on-left theme-white-border'
 ); ?>
-<p>VassarNet is the college’s online platform where people at any stage of their professional life can share expertise, ask questions, and connect with one another. VassarNet users provide valuable advice and guidance to Vassar students and alumni, post job and internship opportunities for Vassar candidates, and network with thousands of members of the Vassar community.</p>
+<p>VassarNet is the College’s online platform where people at any stage of their professional life can share expertise, ask questions, and connect with one another. VassarNet users provide valuable advice and guidance to Vassar students and alumni, post job and internship opportunities for Vassar candidates, and network with thousands of members of the Vassar community.</p>
 <ul class="linked-list">
     <li><a href="#">Join VasserNet</a></li>
 </ul>

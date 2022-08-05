@@ -56,14 +56,14 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'What’s Not to Love?',
-    'Vassar alumni are entitled to a whole host of services and benefits … automatically.',
+    'A whole host of services and benefits are available to Vassar alumni...automatically.',
     '/alumni/assets/img/alumni-resources/Sunset_Lake_15_TT_1519.jpg');
 ?>
 
 <?php echo sec_hasColumns(
         'Explore Resources',
     '3',
-    '<p>Access career development opportunities; take advantage of a top-notch travel program that allows you to traverse the globe with Vassar professors knowledgeable about the various regions, their history, and culture; and get goodies like a dedicated Vassar email address and a lifetime subscription to VQ.</p>',
+    '<p>Access career development opportunities; take advantage of a top-notch travel program that allows you to traverse the globe with Vassar professors knowledgeable about the various regions, their history, and culture; and get goodies like a dedicated Vassar email address and a lifetime subscription to the <em>Vassar Quarterly</em> (VQ).</p>',
     'theme-dark-burgundy quad-pattern has-bg',
     ''
 );?>
