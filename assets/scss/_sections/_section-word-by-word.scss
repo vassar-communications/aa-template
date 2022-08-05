@@ -47,7 +47,7 @@
       font-variation-settings: "wght" 240;
       font-family: var(--font-big-serif);
       display: inline-block;
-      margin-right: 0.2em;
+//      margin-right: 0.2em;
 
       $settings: (
               gap: 0.1s,
@@ -156,7 +156,7 @@
       font-variation-settings: "wght" 240;
       font-family: var(--font-big-serif);
       display: inline-block;
-      margin-right: 0.2em;
+//      margin-right: 0.2em;
       @include font-size(3rem);
 
       $settings: (

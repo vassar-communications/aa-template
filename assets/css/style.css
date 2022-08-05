@@ -11335,7 +11335,6 @@ html {
   font-variation-settings: "wght" 240;
   font-family: var(--font-big-serif);
   display: inline-block;
-  margin-right: 0.2em;
   opacity: 0%;
 }
 .sec-wordByWord p span:nth-child(1) {
@@ -11671,7 +11670,6 @@ html {
   font-variation-settings: "wght" 240;
   font-family: var(--font-big-serif);
   display: inline-block;
-  margin-right: 0.2em;
   font-size: calc(1.425rem + 2.1vw);
   opacity: 0%;
 }
@@ -12968,7 +12966,7 @@ button.card {
   color: #e00;
   letter-spacing: -0.1rem;
   font-weight: normal;
-  width: 10rem;
+  width: 10vw;
   background: #e00;
   height: 1px;
   display: inline-block;
@@ -13334,7 +13332,6 @@ html {
 
 .quotes-carousel span {
   display: inline-block;
-  margin-right: 0.23em;
   font-size: 3.6rem !important;
   color: #951829;
 }

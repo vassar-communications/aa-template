@@ -15,25 +15,28 @@
 
 /* work these headings into type base */
 
-.fancy-heading:before,
-.fancy-heading:after {
-  content: '';
-  color: $red;
-  letter-spacing: -0.1rem;
-  font-weight: normal;
-  width: 10rem;
-  background: $red;
-  height: 1px;
-  display: inline-block;
-  margin-bottom: 0.4rem;
-}
-.fancy-heading:before {
-  margin-right: 1rem;
-}
-.fancy-heading:after {
-  margin-left: 1rem;
-}
+// @include break(md) {
+  .fancy-heading:before,
+  .fancy-heading:after {
+    content: '';
+    color: $red;
+    letter-spacing: -0.1rem;
+    font-weight: normal;
+    width: 10vw;
+    background: $red;
+    height: 1px;
+    display: inline-block;
+    margin-bottom: 0.4rem;
+  }
 
+  .fancy-heading:before {
+    margin-right: 1rem;
+  }
+  .fancy-heading:after {
+    margin-left: 1rem;
+  }
+
+// }
 
 /* review this min-height class for the flickity quote fade slider */
 

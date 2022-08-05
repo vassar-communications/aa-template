@@ -41,7 +41,7 @@ $page_info = json_decode($page_info, true);
   <ul class="clean-list-with-borders">
     <li>Clubs Committee Chair</li>
     <li>(he/him/his)</li>
-    <li>United Kindom</li>
+    <li>United Kingdom</li>
     <li>Term of Service: 2022–2026</li>
   </ul>
 
