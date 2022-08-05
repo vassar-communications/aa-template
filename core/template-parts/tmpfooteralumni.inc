@@ -11,7 +11,7 @@ function site_footeralumni() {
 
 
 <div class="button-bar">
-  <ul id="block-fixedalumsmyaccountdirectory" class="clearfix menu">
+  <ul id="block-fixedalumsmyaccountdirectory">
     <li>
       <a href="https://connect.vassar.edu/s/1654/alumni/index.aspx?sid=1654&amp;gid=2&amp;pgid=95&amp;cid=271" class="btn btn-primary">My Account</a>
     </li>
@@ -40,11 +40,12 @@ function site_footeralumni() {
 					<a href="https://www.vassar.edu/about" class="me-3 my-2">about <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 					<a href="https://www.vassar.edu/academics" class="me-3 my-2">academics <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 					<a href="{$project_paths['final_url']}/admission" class="me-3 my-2">admission <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+
 					<a href="https://www.vassar.edu/campuslife" class="me-3 my-2">campus life <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
-				
+
 					<a href="https://offices.vassar.edu/security/statistics/" class="me-3 my-2">Annual Fire Safety & Security Report <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 						<a href="https://offices.vassar.edu/eoaa/" class="me-3 my-2">Title IX <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
-					
+
 					<!--<a href="#" class="me-3">community <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>-->
 					<!-- <a href="#" class="me-3">full sitemap <i class="px-1 fa-solid fa-circle-arrow-right"></i></a> -->
 				</div>

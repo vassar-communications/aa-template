@@ -11,7 +11,7 @@
  */
 function niceQuotes( $extras = false ) {
 return <<<TMP
-<h3 class="fancy-heading tagline text-center my-5">Vassar Is</h3>
+<h3 class="fancy-heading tagline text-center">Vassar Is</h3>
 
   <div class="quotes-carousel" data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": 2000, "cellAlign": "center", "contain": true, "prevNextButtons": false }'>
 

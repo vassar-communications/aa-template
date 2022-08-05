@@ -63,7 +63,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Monica Vachher ’77 (she/her/hers)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-president/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/vachher-monica-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -79,7 +79,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Brian Farkas ’10 (he/him/his)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-vice-president/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/farkas-brian-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -94,7 +94,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Tyrone Forman ’92 (he/him/his)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-vice-president-2/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/forman-tyrone-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -109,7 +109,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Patrick DeYoung ’18 (he/him/his)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-trustee-deyoung/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/deyoung-patrick-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -123,7 +123,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Seiji Hayashi ’91 (he/him/his)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-trustee-hayashi/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/hayashi-seiji-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -136,7 +136,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Natalie Nixon ’91 (she/her/hers)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-trustee-nixon/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/nixon-natalie-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -152,7 +152,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Alexandria Dempsey ’09 (she/her/hers)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-class-engagement-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/dempsey-alexandria-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -166,7 +166,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'James Estrada ’13 (he/him/his)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-alumnae-house-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/estrada-james-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -179,7 +179,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Justin Hergianto ’04 (he/him/his)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-communications-advisory-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/Justin_Hergianto-removebg-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -193,7 +193,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Anne Green ’93 (she/her/hers)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-nominating-and-governance-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/green-anne-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -208,7 +208,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Delia Cheung Hom ’00 (she/her/hers)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-ad-hoc-diversity-equity-inclusion-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -222,7 +222,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Katherine “Kat” Mills Polys ’93 (she/her/hers)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-vassar-fund-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/polys-kat-mills-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -236,7 +236,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Amy Pullman ’71 (she/her/hers)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-alumni-recognition-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/pullman-amy-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -249,7 +249,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Andrew Solum ’89 (he/him/his)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-clubs-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/solum-andrew-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -262,7 +262,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Ellie Winter ’18 (she/her/hers)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-ad-hoc-student-young-alumni-engagement-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/winter-ellie-aavc-alum-6332.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -277,7 +277,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Katrine “Cage” Ames ’69 (she/her/hers)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-vassar-fund-committee-member/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/ames-katrine-cage-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -290,7 +290,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Gail Becker ’64 (she/her/hers)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-board-director/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/becker-gail-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -304,7 +304,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Maybelle Taylor Bennett ’70 (she/her/hers)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-alumni-recognition-committee-member/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/bennett-maybelle-taylor-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -317,7 +317,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'AC Dumlao ’13 (they/them/he/him)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-nominating-governance-committee-member/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/dumlao-ac-aavc-alum-002.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -330,7 +330,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Carlos Hernandez Tellez ’14',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-board-director-2/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/tellez-carlos-hernandez-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -344,7 +344,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Peggy Ann Nagae ’73 (she/her/hers)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-board-director-3/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/nagae-peggy-ann-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -357,7 +357,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Chip Reid ’77 (he/him/his)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-board-director-4/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/reid-chip-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -370,7 +370,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Sheryl Smikle ’81 (she/her/hers)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-board-director-5/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/smikle-sheryl-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -383,7 +383,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Keith St John ’81 (he/him/his)',
-    '/alumni/community/aavc/board-members/--/',
+    '/alumni/community/aavc/board-members/aavc-board-director-6/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/st-john-keith-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>

@@ -33,7 +33,7 @@ $page_info = json_decode($page_info, true);
     'Alumni Benefits',
     '/alumni/assets/img/alumni-resources/alumni-benefits/reunion-1906-kr-vassar-3139.jpg',
     'image-is-first theme-cream',
-    'placeholder'
+    ''
 ); ?>
 <p class="intro-text">Vassar offers a wide array of benefits to the more than 41,000 alumni across the globe.</p>
 
@@ -43,7 +43,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
     'Alumni Benefits',
     '2',
-    '<p>In addition to VassarConnects—an online community in which alumni can connect with each other and with the college through its <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=6&cid=41#/Search/Simple">Alumni Directory</a> and <a href="http://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=61">other services</a>, the following benefits are also available:</p>',
+    '<p>In addition to VassarConnects—an online community in which alumni can connect with each other and with the College through its <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=6&cid=41#/Search/Simple">Alumni Directory</a> and <a href="http://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=61">other services</a>, the following benefits are also available:</p>',
     'theme-dark-burgundy quad-pattern has-bg',
     ''
 
@@ -55,7 +55,7 @@ $page_info = json_decode($page_info, true);
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 
-<p>Once you obtain your Vassar alumni ID card, you will have to register for library privileges and get your card validated at the library circulation desk. Check library hours and/or download .pdf application for guest borrowing privileges.</p>
+<p>Once you obtain your Vassar alumni ID card, you will have to register for library privileges and get your card validated at the library circulation desk. Check library hours and/or download an application for guest borrowing privileges.</p>
 
 
 <?php echo end_item_cardWithText(
@@ -85,7 +85,7 @@ $page_info = json_decode($page_info, true);
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 
-<p>Vassar alumni ID cards provide alumni with access to the college's library and fitness center.</p>
+<p>Vassar alumni ID cards provide alumni with access to the College's library and fitness center.</p>
 
 
 

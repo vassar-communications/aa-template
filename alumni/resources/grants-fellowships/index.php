@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     'image-is-first theme-cream',
     ''
 ); ?>
-<p class="intro-text">Highlighted below are a few of the grants and fellowships available to Vassar alumni. For more information on these and <a href="https://fellowships.vassar.edu/fellowships/graduates/index.html">other grants and fellowships</a>, contact the <a href="https://fellowships.vassar.edu/">Office for Fellowships and Pre-Health Advising</a>.</p>
+<p class="intro-text">Highlighted below are a few of the grants and fellowships available to Vassar alumni. For more information on these and <a href="https://fellowships.vassar.edu/fellowships/graduates/index.html">other grants and fellowships</a>, contact the <a href="https://offices.vassar.edu/pre-health-advising/">Office for Fellowships and Pre-Health Advising</a>.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -46,7 +46,7 @@ $page_info = json_decode($page_info, true);
     'theme-dark-burgundy has-bg quad-pattern',
     ''
 ); ?>
-<p>Over 30 years ago, a generous anonymous alumna established the Time Out Grant to fund projects near and dear to the hearts of fellow alumni. Vassar alumni who have reached their 40th birthday by June 30, 2022, and wish to make a career change, or take time out to pursue a long- held dream, are eligible to apply for this grant. <strong>You must be willing to take a full year off from your current endeavors and devote yourself full- time to your project.</strong> </p>
+<p>Over 30 years ago, a generous anonymous alumna established the Time Out Grant to fund projects near and dear to the hearts of fellow alumni. Vassar alumni who have reached their 40th birthday by June 30, 2022, and wish to make a career change, or take time out to pursue a long-held dream, are eligible to apply for this grant. <strong>You must be willing to take a full year off from your current endeavors and devote yourself full time to your project.</strong> </p>
 
 <?php echo cta_link(
     'https://www.vassar.edu/alums/services/grants/timeout',
@@ -130,7 +130,7 @@ $page_info = json_decode($page_info, true);
     'image-is-first theme-cream',
     ''
 ); ?>
-<p>Intended to provide a worthy young artist a minimum of $45,000 and the chance to be free after college to get on with their work as an artist, the Rose Fellowship is available to artists in the fields of writing, visual arts (including film), and music composition. Applicants must have demonstrated a creative talent during undergraduate study, must not be employed by the college, must not have attained substantial recognition in their field, and be under the age of 36. This fellowship is not intended for graduate study.</p>
+<p>Intended to provide a worthy young artist a minimum of $45,000 and the chance to be free after college to get on with their work as an artist, the Rose Fellowship is available to artists in the fields of writing, visual arts (including film), and music composition. Applicants must have demonstrated a creative talent during undergraduate study, must not be employed by the College, must not have attained substantial recognition in their field, and be under the age of 36. This fellowship is not intended for graduate study.</p>
 
 <?php echo cta_link(
     'https://fellowships.vassar.edu/fellowships/graduates/rose/',

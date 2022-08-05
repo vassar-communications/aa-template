@@ -56,7 +56,7 @@ $page_info = json_decode($page_info, true);
     'bed',
     'icon-on-left theme-white-border'
 ); ?>
-<p>The Crego Wing rooms are single-occupancy only with a twin-size bed, dresser, and upholstered chair.  The Crego Wing rooms share bathrooms inon the hallway. These quaint, small rooms include all the amenities found in the private rooms at very reasonable rates.</p>
+<p>The Crego Wing rooms are single-occupancy only with a twin-size bed, dresser, and upholstered chair.  The Crego Wing rooms share bathrooms in the hallway. These quaint, small rooms include all the amenities found in the private rooms at very reasonable rates.</p>
 <?php echo end_item_iconItem(); ?>
 
 <?php echo item_iconItem(
@@ -91,8 +91,8 @@ $page_info = json_decode($page_info, true);
     'clock',
     'icon-on-left theme-white-border'
 ); ?>
-<p><strong>Check-in: 3:00pm<br/>
-        Check-out: 11:00am</strong></p
+<p><strong>Check-in: 3:00 p.m.<br/>
+        Check-out: 11:00 a.m.</strong></p
 <p>Guests under 18 years old must be accompanied by a parent or guardian.</p>
 
 <p>Alumnae House has a no pet policy.  Service animals are welcome with proper documentation.</p>

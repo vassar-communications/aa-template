@@ -79,8 +79,8 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_regularContent('Staff Directory','','',); ?>
 
 <?php   echo end_sec_regularContent(); ?>
-<div class="container">
-    <div class="container position-relative" id="content">
+<div class="container mw-5">
+    <div class="container mw-5 position-relative" id="content">
         <div class="row mt-5">
             <aside class="col-md-3" id="left">
                 <div class="mt-5 mb-3 sticky-top" id="side">
@@ -105,131 +105,861 @@ $page_info = json_decode($page_info, true);
 
                 <h2 class="display-6 mb-5">Office of the Vice President</h2>
 
-                <div class="staff-contact mb-5">
-                    <h3>Tim Kane</h3>
-                    <p><em>Vice President for Advancement</em></p>
-                    <p>Email: <a class="fixemaillink" href="mailto:tkane@vassar.edu" title="Contact Tim Kane" >tkane@vassar.edu</a><br/>Tel: <a class="fixemaillink" href="tel:845-437-5401">(845) 437-5401</a></p>
-                </div>
 
-                <?php
+                <div class="grid cols-2" style="--bs-gap:1rem">
+<?php
+echo contact_card(
+    'Tim Kane',
+    'Vice President for Advancement',
+    [
+      'phone' => '845-437-5401',
+      'email' => 'tkane@vassar.edu',
+    ]
+);
+echo end_contact_card();
+?>
 
+<?php
+echo contact_card(
+    'Anca Nelson',
+    'Special Assistant to the Vice President for Campaign Operations',
+    [
+      'phone' => '',
+      'email' => 'anelson@vassar.edu',
+    ]
+);
+echo end_contact_card();
+?>
+
+
+<?php
+echo contact_card(
+    'RaeAnn Moore',
+    'Executive Assistant',
+    [
+      'phone' => '845-437-5402',
+      'email' => 'rmoore@vassar.edu',
+    ]
+);
+echo end_contact_card();
+?>
+</div>
+
+
+
+                <div class="anchor" id="sec2"></div>
+
+<h2 class="display-6 mt-5 mb-3">Advancement Services</h2>
+                <div class="grid cols-2" style="--bs-gap:1rem">
+<?php
                 echo contact_card(
-                    'Tim Kane',
-                    'Vice President for Advancement',
+                    'Mary Carole Starke',
+                    'Associate Vice President for Advancement Services',
                     [
-                      'phone' => '845-437-5401',
-                      'email' => 'tkane@vassar.edu',
+                      'phone' => '845-437-5497',
+                      'email' => 'mastarke@vassar.edu',
                     ]
                 );
                 echo end_contact_card();
 
-                ?>
+
+                echo contact_card(
+                    'Kara Montgomery',
+                    'Director of Advancement Project Management',
+                    [
+                      'phone' => '845-437-5493',
+                      'email' => 'kamontgomery@vassar.edu',
+                    ]
+                );
+                echo end_contact_card();
 
 
+                echo contact_card(
+                    'Danielle J. Suter',
+                    'Director of Gift, Trust and Estate Administration',
+                    [
+                      'phone' => '845-437-5498',
+                      'email' => 'dasuter@vassar.edu',
+                    ]
+                );
+                echo end_contact_card();
 
 
-                <div class="staff-contact mb-5">
-                    <h3>Anca Nelson</h3>
-                    <p><em>Special Assistant to the Vice President for Campaign Operations</em></p>
-                    <p>Email: <a class="fixemaillink" href="mailto:anelson@vassar.edu" title="Contact Anca Nelson" >anelson@vassar.edu</a>
-                </div>
-                <div class="staff-contact mb-5">
-                    <h3>RaeAnn Moore</h3>
-                    <p><em>Executive Assistant</em></p>
-                    <p>Email: <a class="fixemaillink" href="mailto:rmoore@vassar.edu" title="Contact RaeAnn Moore" >rmoore@vassar.edu</a><br/>Tel: <a class="fixemaillink" href="tel:845-437-5402">(845) 437-5402</a></p>
-                </div>
+                echo contact_card(
+                    'Jeffrey Holl',
+                    'Assistant Director of Advancement Services',
+                    [
+                      'phone' => '845-437-5466',
+                      'email' => 'jholl@vassar.edu',
+                    ]
+                );
+                echo end_contact_card();
 
 
+                echo contact_card(
+                    'Jennifer Ruedebusch',
+                    'Office Specialist',
+                    [
+                      'phone' => '845-437-5487',
+                      'email' => 'jeruedebusch@vassar.edu',
+                    ]
+                );
+                echo end_contact_card();
 
-                <hr class="my-5">
 
-                <div class="anchor" id="sec2"></div>
-
-                <h2 class="display-6">Advancement Services</h2>
-                <div class="staff-contact mb-5">
-                    <h3>Mary Carole Starke</h3>
-                    <p><em>Associate Vice President for Advancement Services</em></p>
-                    <p>Email: <a class="fixemaillink" href="mailto:mastarke@vassar.edu" title="Contact Mary Carole Starke" >mastarke@vassar.edu</a><br/>Tel: <a class="fixemaillink" href="tel:845-437-5497">(845) 437-5497</a></p>
-                </div>
-                <p class="fix">insert contact cards</p>
-                <hr class="my-5">
+                echo contact_card(
+                    'Ashley Usher',
+                    'Administrative Assistant',
+                    [
+                      'phone' => '845-437-5922',
+                      'email' => 'ausher@vassar.edu',
+                    ]
+                );
+                echo end_contact_card();
+?>
+</div>
 
 
                 <div class="anchor" id="sec3"></div>
 
-                <h2 class="display-6">Advancement Systems and Reporting</h2>
+                <h3 class="mt-5 mb-3">Advancement Systems and Reporting</h3>
+                <div class="grid cols-2" style="--bs-gap:1rem">
+<?php
 
-                <p class="fix">insert contact cards</p>
-                <hr class="my-5">
+echo contact_card(
+    'Nancy Wanzer',
+    'Director of Advancement Systems and Reporting',
+    [
+      'phone' => '845-437-5437',
+      'email' => 'nawanzer@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Judy Connolly',
+    'Assistant Director of Advancement Systems and Reporting',
+    [
+      'phone' => '845-437-7203',
+      'email' => 'jconnolly@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'James Mills',
+    'Programmer / Analyst',
+    [
+      'phone' => '845-437-5483',
+      'email' => 'jamills@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Carlos Ordonez',
+    'Programmer / Analyst',
+    [
+      'phone' => '845-437-5416',
+      'email' => 'cordonez@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+?>
+</div>
 
                 <div class="anchor" id="sec4"></div>
 
-                <h2 class="display-6">Gifts and Records</h2>
+                <h3 class="mt-5 mb-3">Gifts and Records</h3>
 
-                <p class="fix">insert contact cards</p>
-                <hr class="my-5">
+                <div class="grid cols-2" style="--bs-gap:1rem">
+<?php
+
+echo contact_card(
+    'Mary Lou Keenan',
+    'Manager of Gifts and Records',
+    [
+      'phone' => '845-437-5248',
+      'email' => 'makeenan@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Cher Pompa',
+    'Accounting Specialist',
+    [
+      'phone' => '845-437-5404',
+      'email' => 'cpompa@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'TBD',
+    'Accounting Specialist',
+    [
+      'phone' => '',
+      'email' => '',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Anita West',
+    'Data Records Specialist',
+    [
+      'phone' => '845-437-5444',
+      'email' => 'anwest@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Dashawn Greene',
+    'Data Records Assistant',
+    [
+      'phone' => '845-437-5416',
+      'email' => 'dgreene@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Lisa Paoloni',
+    'Data Records Assistant',
+    [
+      'phone' => '845-437-7420',
+      'email' => 'lpaolini@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+?>
+</div>
+
 
                 <div class="anchor" id="sec5"></div>
 
-                <h2 class="display-6">Alumnae/i Engagement and Alumnae House</h2>
+                <h2 class="display-6 mt-5 mb-3">Alumnae/i Engagement and Alumnae House</h2>
+                <div class="grid cols-2" style="--bs-gap:1rem">
+<?php
+echo contact_card(
+    'Lisa Tessler',
+    'Associate Vice President for Alumnae/i Engagement and Executive Director of AAVC',
+    [
+      'phone' => '845-437-5439',
+      'email' => 'litessler@vassar.edu',
+    ]
+);
+echo end_contact_card();
 
-                <p class="fix">insert contact cards</p>
-                <hr class="my-5">
+
+echo contact_card(
+    'Patricia Lamark',
+    'Program Administrator',
+    [
+      'phone' => '845-437-5438',
+      'email' => 'plamark@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Martha Barry ’86',
+    'Alumnae House Manager',
+    [
+      'phone' => '845-437-7150',
+      'email' => 'mabarry@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Willa Vincitore ’92',
+    'Senior Director, Alumnae/i Engagement',
+    [
+      'phone' => '845-437-5441',
+      'email' => 'wvincitore@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Diana Jedlicka',
+    'Director of Reunion and Class Programs',
+    [
+      'phone' => '845-437-5398',
+      'email' => 'djedlicka@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'TBD',
+    'Associate Director for Multicultural and Affinity Engagement',
+    [
+      'phone' => '',
+      'email' => '',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Cheryl McKeever',
+    'Associate Director of Alumnae/i Engagement',
+    [
+      'phone' => '845-437-5408',
+      'email' => 'cmckeever@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Jolee DuBois',
+    'Assistant Director for Reunion and Class Programs',
+    [
+      'phone' => '845-437-5442',
+      'email' => 'jdubois@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Naomi Pucarelli',
+    'Office Specialist',
+    [
+      'phone' => '845-437-5446',
+      'email' => 'napucarelli@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'TBD',
+    'Administrative Assistant',
+    [
+      'phone' => '',
+      'email' => '',
+    ]
+);
+echo end_contact_card();
+?>
+</div>
+
 
                 <div class="anchor" id="sec6"></div>
 
-                <h2 class="display-6">Communications</h2>
+                <h2 class="display-6 mt-5 mb-3">Communications</h2>
+                <div class="grid cols-2" style="--bs-gap:1rem">
+  <?php
+  echo contact_card(
+    'TBD',
+    'Associate Vice President for Advancement Communications',
+    [
+      'phone' => '',
+      'email' => '',
+    ]
+);
+echo end_contact_card();
 
-                <p class="fix">insert contact cards</p>
-                <hr class="my-5">
 
+echo contact_card(
+    'TBD',
+    'Senior Writer',
+    [
+      'phone' => '',
+      'email' => '',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Susan Brkich ’86',
+    'Senior Associate Director of Advancement Web Services',
+    [
+      'phone' => '845-437-5449',
+      'email' => 'subrkich@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Brian Gunning',
+    'Associate Director of Advancement Communications',
+    [
+      'phone' => '845-437-5421',
+      'email' => 'bgunning@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Kwan Man Cheng',
+    'Assistant Director of Advancement Communications',
+    [
+      'phone' => '',
+      'email' => 'kcheng@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Yolanda Johnson',
+    'Assistant Director of Advancement Web Services',
+    [
+      'phone' => '845-437-5440',
+      'email' => 'yojohnson@vassar.edu',
+    ]
+);
+echo end_contact_card();
+?>
+</div>
                 <div class="anchor" id="sec7"></div>
 
-                <h2 class="display-6 mb-5">Giving</h2>
+                <h3 class="mt-5 mb-3">Donor Relations</h3>
+                <div class="grid cols-2" style="--bs-gap:1rem">
+                <?php
+                  echo contact_card(
+                      'Kristy Grimes',
+                      'Director of Donor Relations',
+                      [
+                        'phone' => '845-437-7015',
+                        'email' => 'kgrimes@vassar.edu',
+                      ]
+                  );
+                  echo end_contact_card();
 
-                <h4>Individual Giving</h4>
-                <p class="fix">insert contact cards</p>
 
-                <hr class="my-5">
+                  echo contact_card(
+                      'May Lee',
+                      'Senior Associate Director of Donor Relations',
+                      [
+                        'phone' => '845-437-5931',
+                        'email' => 'malee@vassar.edu',
+                      ]
+                  );
+                  echo end_contact_card();
 
-                <h4>Annual Giving</h4>
-                <p class="fix">insert contact cards</p>
 
-                <hr class="my-5">
+                  echo contact_card(
+                      'Sandra Frinton',
+                      'Associate Director of Donor Relations',
+                      [
+                        'phone' => '845-437-7547',
+                        'email' => 'safrinton@vassar.edu',
+                      ]
+                  );
+                  echo end_contact_card();
 
-                <h4>Leadership Gifts</h4>
-                <p class="fix">insert contact cards</p>
 
-                <hr class="my-5">
+                  echo contact_card(
+                      'Cassandra Frake Yzaguirre',
+                      'Administrative Assistant',
+                      [
+                        'phone' => '845-437-5480',
+                        'email' => 'cfrakeyzaguirre%40vassar.edu@vassar.edu',
+                      ]
+                  );
+                  echo end_contact_card();
+?>
+</div>
+                <h2 class="display-6 mt-5 mb-3">Individual Giving</h2>
+                <div class="grid cols-2" style="--bs-gap:1rem">
+<?php
+echo contact_card(
+    'Erin Martin',
+    'Associate Vice President for Individual Giving',
+    [
+      'phone' => '845-437-5486',
+      'email' => 'erinmartin@vassar.edu',
+    ]
+);
+echo end_contact_card();
 
-                <h4>Gift Planning</h4>
-                <p class="fix">insert contact cards</p>
 
-                <hr class="my-5">
+echo contact_card(
+    'Kristen Andersen',
+    'Senior Development Officer for Principal and Leadership Gifts',
+    [
+      'phone' => '845-437-5597',
+      'email' => 'kandersen@vassar.edu',
+    ]
+);
+echo end_contact_card();
+?>
 
-                <h4>Parent and Family Giving</h4>
-                <p class="fix">insert contact cards</p>
+</div>
 
-                <hr class="my-5">
+                <h3 class="mt-5 mb-3">Annual Giving</h3>
+                <div class="grid cols-2" style="--bs-gap:1rem">
+<?php
+echo contact_card(
+    'Deborah Vanecek',
+    'Director of Annual Giving',
+    [
+      'phone' => '845-437-5494',
+      'email' => 'dvanecek@vassar.edu',
+    ]
+);
+echo end_contact_card();
 
-                <h4>Principal Gifts</h4>
-                <p class="fix">insert contact cards</p>
 
-                <hr class="my-5">
+echo contact_card(
+    'Lisa L. Lynch',
+    'Senior Associate Director of Annual Giving',
+    [
+      'phone' => '845-437-7017',
+      'email' => 'lilynch@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Wally Fisher ’12',
+    'Associate Director of Annual Giving, Volunteer &amp; Reunion',
+    [
+      'phone' => '845-437-5419',
+      'email' => 'wfisher@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Joe Mastracchio',
+    'Associate Director of &nbsp;Annual Giving,&nbsp;Volunteer &amp; Reunion',
+    [
+      'phone' => '845-437-5420',
+      'email' => 'jmastracchio@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Lane Sulzer',
+    'Associate Director of Annual Giving, Digital Engagement Officer',
+    [
+      'phone' => '',
+      'email' => 'lsulzer@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'TBD',
+    'Administrative Fellow',
+    [
+      'phone' => '',
+      'email' => '',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Tammy Carney',
+    'Office Specialist',
+    [
+      'phone' => '845-437-5496',
+      'email' => 'tcarney@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Tobias Devor',
+    'Office Specialist',
+    [
+      'phone' => '845-437-5415',
+      'email' => 'tdevor@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Sallie Moore',
+    'Administrative Assistant',
+    [
+      'phone' => '845-437-5418',
+      'email' => 'samoore@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+?>
+</div>
+
+
+
+                <h3 class="mt-5 mb-3">Leadership Gifts</h3>
+                <div class="grid cols-2" style="--bs-gap:1rem">
+<?php
+echo contact_card(
+    'Gregg McCarty',
+    'Director of Leadership Gifts',
+    [
+      'phone' => '845-(914) 227-8985',
+      'email' => 'gmccarty@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'TBD',
+    'Associate Director of Leadership Gifts',
+    [
+      'phone' => '',
+      'email' => '',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Molly Renfroe Katz',
+    'Associate Director of Leadership Gifts',
+    [
+      'phone' => '845-437-5435',
+      'email' => 'margaretkatz@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Eric Watson',
+    'Associate Director of Leadership Gifts and Athletic Initiatives',
+    [
+      'phone' => '845-437-5414',
+      'email' => 'erwatson@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'TBD',
+    'Administrative Assistant',
+    [
+      'phone' => '',
+      'email' => '',
+    ]
+);
+echo end_contact_card();
+?>
+</div>
+
+
+                <h3 class="mt-5 mb-3">Gift Planning</h3>
+                <div class="grid cols-2" style="--bs-gap:1rem">
+<?php
+echo contact_card(
+    'Alexas Orcutt',
+    'Director of Gift Planning and Strategic Initiatives',
+    [
+      'phone' => '845-437-7773',
+      'email' => 'alorcutt@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Jeremy Goldberg',
+    'Assistant Director of Gift Planning',
+    [
+      'phone' => '845-437-7902',
+      'email' => 'jeremygoldberg@vassar.edu',
+    ]
+);
+echo end_contact_card();
+?>
+</div>
+
+
+                <h3 class="mt-5 mb-3">Parent and Family Giving</h3>
+                <div class="grid cols-2" style="--bs-gap:1rem">
+<?php
+echo contact_card(
+    'Elizabeth Hoffman',
+    'Director of Parent and Family Giving',
+    [
+      'phone' => '845-437-5488',
+      'email' => 'ehoffman@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Jessica Rossi',
+    'Associate Director of Parent and Family Giving',
+    [
+      'phone' => '845-437-5243',
+      'email' => 'jerossi@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Tracey Cousar',
+    'Administrative Assistant',
+    [
+      'phone' => '845-437-5412',
+      'email' => 'trcousar@vassar.edu',
+    ]
+);
+echo end_contact_card();
+?>
+</div>
+
+
+                <h3 class="mt-5 mb-3">Principal Gifts</h3>
+                <div class="grid cols-2" style="--bs-gap:1rem">
+<?php
+echo contact_card(
+    'Cathryn S. Stevens',
+    'Principal Gifts Associate',
+    [
+      'phone' => '845-437-5492',
+      'email' => 'castevens@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'TBD',
+    'Office Specialist',
+    [
+      'phone' => '',
+      'email' => '',
+    ]
+);
+echo end_contact_card();
+
+?>
+</div>
 
                 <div class="anchor" id="sec8"></div>
 
-                <h2 class="display-6">Prospect Development and Research</h2>
+                <h3 class="mt-5 mb-3">Prospect Development and Research</h3>
+                <div class="grid cols-2" style="--bs-gap:1rem">
+<?php
+echo contact_card(
+    'Richard Horne',
+    'Director of Prospect Development and Research',
+    [
+      'phone' => '845-437-7987',
+      'email' => 'rhorne@vassar.edu',
+    ]
+);
+echo end_contact_card();
 
-                <p class="fix">insert contact cards</p>
-                <hr class="my-5">
+
+echo contact_card(
+    'Tricia Chapman',
+    'Senior Associate Director of Prospect Development and Research',
+    [
+      'phone' => '845-437-5428',
+      'email' => 'pachapman@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Sharon N. A. Parkinson',
+    'Senior Associate Director of Prospect Development and Research',
+    [
+      'phone' => '845-437-5515',
+      'email' => 'shparkinson@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'TBD',
+    'Research Specialist',
+    [
+      'phone' => '',
+      'email' => '',
+    ]
+);
+echo end_contact_card();
+?>
+</div>
+
 
                 <div class="anchor" id="sec9"></div>
 
-                <h2 class="display-6">Regional and International Programs</h2>
+                <h2 class="display-6 mt-5 mb-3">Regional and International Programs</h2>
+                <div class="grid cols-2" style="--bs-gap:1rem">
+<?php
+echo contact_card(
+    'TBD',
+    'Associate Vice President for Regional and International Programs',
+    [
+      'phone' => '',
+      'email' => '',
+    ]
+);
+echo end_contact_card();
 
-                <p class="fix">insert contact cards</p>
-                <hr class="my-5">
+
+echo contact_card(
+    'Susan Quade',
+    'Senior Associate Director of Regional and International Programs',
+    [
+      'phone' => '845-437-5453',
+      'email' => 'suquade@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'TBD',
+    'Office Specialist',
+    [
+      'phone' => '',
+      'email' => '',
+    ]
+);
+echo end_contact_card();
+?>
+</div>
+
 
             </main>
         </div>
@@ -245,4 +975,4 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_relatedTopics(); ?>
 
 
-<?php echo site_footer(); ?>
+<?php echo site_footeralumni(); ?>

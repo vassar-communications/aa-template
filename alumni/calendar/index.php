@@ -188,7 +188,7 @@ Make sure functions convert straight quotes to curly
   ''
 ); ?>
 
-<p>Vassar and the Alumnae/i Association (AAVC) are thrilled about the return to in person Reunions and can’t wait to welcome you and your classmates back to campus.</p>
+<p>Vassar and the Alumnae/i Association (AAVC) are thrilled about the return to in-person Reunions and can’t wait to welcome you and your classmates back to campus.</p>
 
 <?php echo cta_link(
     '/reunion/',

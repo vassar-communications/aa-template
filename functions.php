@@ -440,8 +440,8 @@ function breadcrumb() {
   //  pages have no _nav.txt, because they have no subsections.
 
 
-  // Also: does the current page have any siblings?
-  // If it does, it should not appear in the breadcrumb trail.
+
+  /*  SIBLINGS */
 
   $directory = dirname(getcwd(), 1);
   $scanned_directory = array_diff(scandir($directory), array('..', '.', 'index.php'));
@@ -453,7 +453,8 @@ function breadcrumb() {
     $siblings = true;
   }
 
-  // what about children?
+
+  /*  CHILREN */
 
   $directory = getcwd();
   $scanned_directory = array_diff(scandir($directory), array('..', '.', 'index.php'));
@@ -461,22 +462,119 @@ function breadcrumb() {
   $children = false;
   $path_class = '';
 
+  echo $children;
+
   if( count( $scanned_directory ) >= 2 ) {
     $children = true;
   }
 
-// If a section DOES NOT have children, it SHOULD NOT appear in the breadcrumb nav
 
-    if ( $children ) {
+  /* SECTION HAS ITS OWN SUBNAV */
+
+  if( file_exists ( getcwd().'/_nav.txt' ) ) {
+    $has_nav = true;
+  }
+  else $has_nav = false;
+
+
+  /* FOLDER SECTION LIVES IN HAS SUBNAV */
+
+  if( file_exists ( dirname( getcwd(), 1) .'/_nav.txt' ) ) {
+    $has_sibling_nav = true;
+  }
+  else $has_sibling_nav = false;
+
+
+/*
+    echo getcwd().'/_nav.txt <br>';
+      echo 'c '.$children.'<br>
+       hn '.$has_nav.'<br>
+        s '.$siblings.'<br>
+        sn '.$has_sibling_nav;
+*/
+
+// Depending on where and what a section is, it should
+// either appear in the breadcrumb trail, and display subnav below,
+// or it should *not* appear in the breadcrumb trail because it is subnav.
+
+// This is where we determine how a nav item should bne displayed
+
+
+
+    if ( ( $children == true ) && ( $has_nav == true ) ) {
+      // if the current section we're on
+      // - has children
+      // - contains its own _nav.txt file
+      //
+      // that means it's a parent section, and
+      // - it SHOULD appear in the breadcrumb trail
+      // - it is displaying subnav
+      // - it has that border at the end that connects it to the
+      //   subnav box
+      //
+      //   example: /alumni/community/aavc/
       $current_path = get_base_path('path_to_current_doc_from_web_dir');
     }
-    else if ( !$children ) {
-      $current_path = get_base_path('path_to_current_doc_from_web_dir');
+
+    else if ( ( $children == true ) && ( $siblings == true ) && ( $has_nav == false ) ) {
+      // if the current section we're on
+      // - has children
+      // - has siblings (it is in a directory with other folders)
+      // - does NOT contain its own _nav.txt file
+      //
+      // that means it's a parent section, but its children are
+      // not intended to be displayed in the nav. This is rare; the
+      // only section I can think of that's like this is aavc/board-members.
+      // - it should NOT be displayed in the breadcrumb trail, because it's
+      //   an active subnav item. Its parent should be displayed in the
+      //   breadcrumb trail. So $current_path, which is chopped up into
+      //   the items in the breadcrumb trail, should start one directory
+      //   above it. That means the last item displayed in the breadcrumb
+      //   trail will be its parent folder.
+
+      $current_path = dirname(get_base_path('path_to_current_doc_from_web_dir'),1);
+    }
+
+    else if ( ( $siblings == true ) && ( $children == false ) && ( $has_sibling_nav == false ) ) {
+      // if the current section we're on
+      // - does NOT have children
+      // - has siblings (it is in a directory with other folders)
+      // - does NOT have sibling nav (the folder that contains it does
+      //    NOT have a _nav.txt file )
+      //
+      // that means it's in the lowest level of a section, and that
+      // section does not have subnav. So this section we're on
+      // won't appear in the subnav box; it'll have to appear as
+      // the last item in the breadcrumb trail instead.
+      // - Since it's in the breadcrumb trail, we get the full path
+      //   that includes the name of this directory, to make sure
+      //   that when the path gets chopped up to generate the breadcrumb
+      //   trail, this item will appear in it
+      // - Since it has no subnav, we don't want that little border at
+      //   the end hanging off, since it doesn't connect to anything. So
+      //   apply the 'no-subnav' class to get rid of that.
+      //
+      // example: /alumni/community/aavc/board-members/aavc-president/
+
+      // it could also be any top-level section with no subsections,
+      // like Contact.
+
+      $current_path =  get_base_path('path_to_current_doc_from_web_dir');
       $path_class = ' no-subnav';
+    }
+
+    // I'm not sure if these are being used.
+    else if ( ( $children == false ) && ( $siblings == true ) ) {
+      $current_path = dirname(get_base_path('path_to_current_doc_from_web_dir'),1);
+    }
+    else if ( $siblings == true ) {
+      $current_path = dirname(get_base_path('path_to_current_doc_from_web_dir'),1);
     }
     else {
       $current_path = get_base_path('path_to_current_doc_from_web_dir');
+      $path_class = ' no-subnav';
     }
+
 
   // - Home link is simple. That's vassar.edu.
   // - Site link is also simple. That's whatever is right

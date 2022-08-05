@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-<p>Helping alumni seek their next opportunity for personal growth and professional development.</p>
+<p>Helping alumni seek their next opportunity for personal growth and professional development</p>
 
 <?php echo end_item_cardWithText(
     null,

@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Upcoming College Events',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-calendar/college-events/Reunion_Saturday_190608_CS-V815-330.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>

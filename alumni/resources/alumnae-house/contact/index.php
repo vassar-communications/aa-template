@@ -49,21 +49,21 @@ Contact Martha Barry, Alumnae House Manager<br/>
 <p><strong>Catering</strong><br/>
     Brasserie 292, Main Course and Twisted Soul are the approved caterers for Alumnae House. Their contact information is listed below.</p>
 
-<p>Please verify that the caterer you select is available to servicecater your event and that they confirms this with you.
+<p>Please verify that the caterer you select is available to service and cater your event and that they confirm this with you.</p>
 
 <p>If alcohol will be served, the caterer must obtain a temporary liquor license. Applications must be submitted to the state 21 days prior to your event.</p>
 
 <p><strong>Brasserie 292</strong><br/>
 (845) 473-0292<br/>
-    <a href="mailto:...">Email</a></p>
+    <a href="https://www.brasserie292.com/">Visit website</a></p>
 
 <p><strong>Main Course</strong><br/>
 (845) 255-2600<br/>
-    Email</p>
+    <a href="https://www.maincoursecatering.com/">Visit website</a></p>
 
 <p><strong>Twisted Soul</strong><br/>
 (845) 454-2770<br/>
-    <a href="mailto:..."> Email</a></p>
+    <a href="https://www.twistedsoulconcepts.com/">Visit website</a></p>
 <?php echo end_sec_regularContent(); ?>
 
 
