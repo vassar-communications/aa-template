@@ -14,30 +14,36 @@ $final_contact_list_markup = '';
 
   // run through contact info and generate list
   foreach ($contact_info as $key => $value) {
-    if( $key == 'phone') {
-      $icon = 'phone';
-      $phone_markup = phone_number($value);
-      $icon_markup = sprintf($icon_format, $icon);
 
-$final_contact_list_markup .= <<<TMP
-<li>$icon_markup $phone_markup</li>
-TMP;
-    }
+    if( $value !== '') {
 
-    if( $key == 'email') {
-      $icon = 'envelope';
-      $icon_markup = sprintf($icon_format, $icon);
-      $email_link = sprintf($email_format, $value);
+          if( $key == 'phone') {
+            $icon = 'phone';
+            $phone_markup = phone_number($value);
+            $icon_markup = sprintf($icon_format, $icon);
 
-$final_contact_list_markup .= <<<TMP
-<li>$icon_markup $email_link</li>
-TMP;
-    }
+      $final_contact_list_markup .= <<<TMP
+      <li>$icon_markup $phone_markup</li>
+      TMP;
 
+          }
+
+          if( $key == 'email') {
+            $icon = 'envelope';
+            $icon_markup = sprintf($icon_format, $icon);
+            $email_link = sprintf($email_format, $value);
+
+      $final_contact_list_markup .= <<<TMP
+      <li>$icon_markup $email_link</li>
+      TMP;
+          }
+
+      } // end if
+      else $final_contact_list_markup .= '';
   }
 
     return <<<TMP
-    <div class="staff-contact mb-5">
+    <div class="staff-contact">
         <h3>$name</h3>
         <p><em>$title</em></p>
         <ul class="clean-list-with-borders">
