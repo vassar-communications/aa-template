@@ -69,7 +69,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     'Getting Involved with Affinity Groups',
-    '',
+    'theme-verylightgray',
     ''
 ); ?>
 
@@ -84,7 +84,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fullBleedImageColumn(
     'Vassar Classes',
     '/alumni/assets/img/alumni-community/alumni-groups/0041-22-06-bl-reunion-vassar-6992.jpg',
-    'theme-verylightgray',
+    'theme-dark-burgundy',
     '',
     ['img_alt_text' => 'People holding up Vassar Class of 1982 Banner at Reunion']
 ); ?>
@@ -101,7 +101,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     'Getting Involved with Classes',
-    'theme-verylightgray',
+    '',
     ''
 ); ?>
 
@@ -121,7 +121,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fullBleedImageColumn(
     'Vassar Clubs',
     '/alumni/assets/img/alumni-community/alumni-groups/0080_16_07_BL_1377.jpg',
-    'theme-cream',
+    'theme-extralightgray',
     '',
     ['img_alt_text' => 'Two smiling people standing side by side, arm in arm.']
 ); ?>
@@ -159,4 +159,3 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo site_footeralumni(); ?>
-
