@@ -381,7 +381,8 @@ if ($('.invitation-style-carousel').length) {
     $('.invitation-style-carousel').flickity({
 		groupCells: true,
         wrapAround: true,
-		watchCSS: true
+		watchCSS: true,
+	    cellAlign: 'left',
     });
 }
 

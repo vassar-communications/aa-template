@@ -38,6 +38,7 @@ $carousel_appears: md;
 
       height: 40rem;
       padding: 0 1rem 4.4rem 1rem;
+      margin-left: 1.6rem;
 
       .carousel-cell {
         height: 100%;
@@ -71,6 +72,10 @@ $carousel_appears: md;
           .content {
             display: flex;
           }
+        }
+        &.white-border {
+          background: #eee;
+          border: 2rem solid #fff;
         }
       }
     }
@@ -108,7 +113,11 @@ $carousel_appears: md;
       box-shadow: var(--feature-card-box-shadow, 0 1rem 1rem rgba(100, 0, 0, 0.4));
     }
     .supertitle {
-      font-size: 1rem;
+      font-size: 1.2rem;
+      font-family: var(--bs-font-sans-serif);
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      margin-bottom: 0.4rem;
     }
     .dropdown-title {
       display: flex;
@@ -123,10 +132,4 @@ $carousel_appears: md;
       }
     }
 
-    &.dropdown-card {
-      &.white-border {
-        background: #eee;
-        border: 2rem solid #fff;
-      }
-    }
   }

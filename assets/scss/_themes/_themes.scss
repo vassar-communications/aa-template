@@ -52,7 +52,6 @@ footer a  {
   }
 }
 
-
 .theme-dark-burgundy {
   --section-bg-color: var(--color-vassar-dark-burgundy);
   --section-title-color: var(--color-vassar-cream);
@@ -268,4 +267,29 @@ footer a  {
 
 .light-bg-pattern-1 {
   --bg-image-opacity: 0.1 !important;
+}
+
+.burgundy-cta-link {
+  .fa-solid {
+    border: 2px solid var(--color-vassar-burgundy);
+    background: #fff;
+    color: var(--color-vassar-burgundy);
+  }
+
+  &:link,
+  &:visited {
+    color: var(--color-vassar-burgundy) !important;
+
+    &:hover,
+    &:focus {
+      .fa-solid {
+        border: 2px solid var(--color-vassar-burgundy);
+        background: var(--color-vassar-burgundy);
+        color: #fff;
+      }
+    }
+  }
+
+
+
 }

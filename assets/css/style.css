@@ -9763,9 +9763,7 @@ h2.border-animate:after, .border-animate.h2:after {
 }
 
 .btn-link.arrow:not(.stretched-link):hover:after,
-.carousel-cell:hover .arrow:after,
-.btn-link.arrow:not(.stretched-link):focus:after,
-.carousel-cell:focus .arrow:after {
+.btn-link.arrow:not(.stretched-link):focus:after {
   background-color: var(--section-link-color, #e00);
   border-color: var(--section-link-color, #e00);
   color: var(--section-bg-color, var(--color-vassar-cream));
@@ -10192,6 +10190,7 @@ details.open .dropdown__content {
   .invitation-style-carousel {
     height: 40rem;
     padding: 0 1rem 4.4rem 1rem;
+    margin-left: 1.6rem;
   }
   .invitation-style-carousel .carousel-cell {
     height: 100%;
@@ -10220,6 +10219,10 @@ details.open .dropdown__content {
   }
   .invitation-style-carousel .carousel-cell.column-layout .content {
     display: flex;
+  }
+  .invitation-style-carousel .carousel-cell.white-border {
+    background: #eee;
+    border: 2rem solid #fff;
   }
 }
 .invitation-style-carousel .event-details {
@@ -10256,7 +10259,11 @@ details.open .dropdown__content {
   box-shadow: var(--feature-card-box-shadow, 0 1rem 1rem rgba(100, 0, 0, 0.4));
 }
 .invitation-style-carousel .supertitle {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-family: var(--bs-font-sans-serif);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.4rem;
 }
 .invitation-style-carousel .dropdown-title {
   display: flex;
@@ -10266,10 +10273,6 @@ details.open .dropdown__content {
 }
 .invitation-style-carousel .image-container img {
   width: 100%;
-}
-.invitation-style-carousel.dropdown-card.white-border {
-  background: #eee;
-  border: 2rem solid #fff;
 }
 
 /* Inline icon button */
@@ -14080,6 +14083,20 @@ footer a  {
 /*CS Review End*/
 .light-bg-pattern-1 {
   --bg-image-opacity: 0.1 !important;
+}
+
+.burgundy-cta-link .fa-solid {
+  border: 2px solid var(--color-vassar-burgundy);
+  background: #fff;
+  color: var(--color-vassar-burgundy);
+}
+.burgundy-cta-link:link, .burgundy-cta-link:visited {
+  color: var(--color-vassar-burgundy) !important;
+}
+.burgundy-cta-link:link:hover .fa-solid, .burgundy-cta-link:link:focus .fa-solid, .burgundy-cta-link:visited:hover .fa-solid, .burgundy-cta-link:visited:focus .fa-solid {
+  border: 2px solid var(--color-vassar-burgundy);
+  background: var(--color-vassar-burgundy);
+  color: #fff;
 }
 
 a:not(.btn,
