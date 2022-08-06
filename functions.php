@@ -86,6 +86,7 @@ include($project_paths['main_project_root'].'/core/partials/bg-image-tag.inc');
 
 include($project_paths['main_project_root'].'/core/atoms/icon.inc');
 include($project_paths['main_project_root'].'/core/atoms/cta-link.inc');
+include($project_paths['main_project_root'].'/core/atoms/icon-link.inc');
 include($project_paths['main_project_root'].'/core/atoms/cta-button.inc');
 include($project_paths['main_project_root'].'/core/atoms/phone-number.inc');
 include($project_paths['main_project_root'].'/core/atoms/centralized-links.inc');

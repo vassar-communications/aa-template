@@ -117,3 +117,15 @@
     max-height: 60vh;
   }
 }
+
+
+.section.section--full-bleed-image-column {
+  &.image-has-shadow {
+    .section-content {
+      overflow: hidden;
+    }
+    .col-has-image {
+      box-shadow: 0 1rem 1rem #000;
+    }
+  }
+}
