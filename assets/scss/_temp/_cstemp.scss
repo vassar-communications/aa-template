@@ -384,31 +384,36 @@ ul#block-fixedalumsmyaccountdirectory li {
     list-style: none;
 }
 
-.button-bar {
-  position: fixed;
-  bottom: 0;
-  right: 0.4rem;
-//  background: #fff;
-  padding: 0.4rem;
-  box-shadow: 0 1em 1em rgba(0,0,0,0.3);
-  z-index: 1000;
-  border-top-left-radius: 0.4rem;
-  border-top-right-radius: 0.4rem;
-  border: 1px solid #ccc;
-  border-top: 1px solid #e00;
+@include break(md) {
 
-  background: rgba(255,255,255,0.5);
-  backdrop-filter: blur(20px);
+  .button-bar {
 
-  .btn.btn-primary {
-    font-size: 1rem;
-  }
-}
 
-ul#block-fixedalumsmyaccountdirectory {
-    --regularContent-font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    right: 0.4rem;
+  //  background: #fff;
+    padding: 0.4rem;
+    box-shadow: 0 1em 1em rgba(0,0,0,0.3);
+    z-index: 1000;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    border: 1px solid #ccc;
+    border-top: 1px solid #e00;
 
-    a.btn {
-      border-radius: 0.4rem;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(20px);
+
+    .btn.btn-primary {
+      font-size: 1rem;
     }
+  }
+
+  ul#block-fixedalumsmyaccountdirectory {
+      --regularContent-font-size: 1rem;
+
+      a.btn {
+        border-radius: 0.4rem;
+      }
+  }
 }
