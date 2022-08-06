@@ -1,15 +1,21 @@
 /* Quote carousel */
 
 .quotes-carousel {
-  height: 20vh;
+  height: 9rem;
+
+  @include break(md) {
+    height: 11rem;
+  }
 }
 .quotes-carousel .carousel-cell {
   width: 100%;
-  min-height: 10vh;
+//  min-height: 10vh;
+  height: 100%;
   margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .quotes-carousel .split-words-content p {
@@ -23,7 +29,7 @@
 .quotes-carousel span {
   display: inline-block;
 //  margin-right: 0.23em;
-  font-size: 3.6rem !important;
+  @include font-size(3.6rem);
   color: $burgundy;
 }
 

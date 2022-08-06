@@ -12998,10 +12998,6 @@ button.card {
 }
 
 /* review this min-height class for the flickity quote fade slider */
-.the-quote-ticker {
-  min-height: 70vh;
-}
-
 .fancy-card .card-text p {
   font-variation-settings: "wght" 400;
 }
@@ -13289,16 +13285,22 @@ html {
 
 /* Quote carousel */
 .quotes-carousel {
-  height: 20vh;
+  height: 9rem;
+}
+@media screen and (min-width: 50em) {
+  .quotes-carousel {
+    height: 11rem;
+  }
 }
 
 .quotes-carousel .carousel-cell {
   width: 100%;
-  min-height: 10vh;
+  height: 100%;
   margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .quotes-carousel .split-words-content p {
@@ -13311,8 +13313,13 @@ html {
 
 .quotes-carousel span {
   display: inline-block;
-  font-size: 3.6rem !important;
+  font-size: calc(1.485rem + 2.82vw);
   color: #951829;
+}
+@media (min-width: 1200px) {
+  .quotes-carousel span {
+    font-size: 3.6rem;
+  }
 }
 
 .quotes-carousel .split-words-content {
