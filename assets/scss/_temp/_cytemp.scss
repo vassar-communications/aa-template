@@ -100,7 +100,8 @@
 .admission-news-carousel.section.has-bg:after {
   --bg-image-opacity: 0.1;
 }
-.admission-news-carousel.quad-pattern.has-bg * {
+
+.admission-news-carousel.quad-pattern.has-bg  * {
   z-index: 10;
 }
 
@@ -412,4 +413,14 @@ a.logo:hover {
 
 .advancement-demo .btn-light:hover {
   background: #0e0e0e !important;
+}
+
+/* cyreview adding this class as mobile still not working */
+
+body {
+  overflow-x:clip;
+}
+
+.modal {
+  z-index: 1990!important;
 }

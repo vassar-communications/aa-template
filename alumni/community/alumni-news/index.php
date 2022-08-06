@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Alumni News & Stories",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-community/aavc/awards/lead-06282020_QueerLiberationMarch_by_LeandroJusten_019.jpg"
 }';
 
 /* === */
@@ -66,7 +66,7 @@ $page_info = json_decode($page_info, true);
         ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p class="placeholder">Veronica (Plaut) McDaniel ’01, Teacher Supervisor at Atlanta International School, talked about human trafficking awareness and action at school with CNN.</p>
+      <p>Veronica (Plaut) McDaniel ’01, Teacher Supervisor at Atlanta International School, talked about human trafficking awareness and action at school with CNN.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -77,7 +77,7 @@ $page_info = json_decode($page_info, true);
         ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p class="placeholder">Sarah Roth ’21 co-wrote a Fast Company story about the poor quality of Tinder’s background checks.</p>
+      <p>Sarah Roth ’21 co-wrote a Fast Company story about the poor quality of Tinder’s background checks.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -88,7 +88,7 @@ $page_info = json_decode($page_info, true);
         ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p class="placeholder">Karl Strovink ’95, CEO of Blue Bottle Coffee, was quoted in Fortune, Yahoo! Finance, and Coffee Talk stories about the company, which didn’t lay off any employees during the pandemic.</p>
+      <p>Karl Strovink ’95, CEO of Blue Bottle Coffee, was quoted in Fortune, Yahoo! Finance, and Coffee Talk stories about the company, which didn’t lay off any employees during the pandemic.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 

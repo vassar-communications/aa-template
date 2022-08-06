@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Awards Program",
   "page_classes":"",
-  "feature_image":"/alumni/assets/img/alumni-community/aavc/awards/lead-06282020_QueerLiberationMarch_by_LeandroJusten_019.jpg"
+  "feature_image":"/alumni/assets/img/alumni-community/aavc/awards/0032-21-05-kr-spring-vassar-0078.jpg"
 }';
 
 /* === */
@@ -134,7 +134,7 @@ $page_info = json_decode($page_info, true);
     'Young Alumni Achievement or Service Award',
     '',
     ''); ?>
-<p>The Young Alumnae/i Achievement or Service Award is presented to an alumna or alumnus recognized for either their extraordinary service to Vassar in any aspect of alumni engagement OR for their exceptional personal and professional achievement(s) within their respective field. As a graduate within the last 10 years, the recipient should be inspirational to their peers and the current student body, while exemplifying the fruits of a successful liberal arts education at Vassar.</p>
+<p>The Young Alumni Achievement or Service Award is presented to an alumna or alumnus recognized for either their extraordinary service to Vassar in any aspect of alumni engagement OR for their exceptional personal and professional achievement(s) within their respective field. As a graduate within the last 10 years, the recipient should be inspirational to their peers and the current student body, while exemplifying the fruits of a successful liberal arts education at Vassar.</p>
 
 <?php echo end_sec_regularContent(); ?>
 
