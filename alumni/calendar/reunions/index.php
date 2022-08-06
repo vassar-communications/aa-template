@@ -67,25 +67,6 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php echo sec_wideContent(
-    null,
-    null,
-    'theme-charcoal has-bg quad-pattern bg-dark',
-    ''
-); ?>
-
-
-
-
-<?php echo alumniReunionsCarousel(); ?>
-
-
-
-
-
-
-
-<?php echo end_sec_wideContent(); ?>
 
 
 <?php echo sec_regularContent('Information & Updates','theme-cream','','',); ?>
