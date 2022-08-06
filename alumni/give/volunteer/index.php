@@ -115,7 +115,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_iconItem(
     'Affinity Groups',
-    'image',
+    'users',
     'icon-on-left theme-white-border'
 ); ?>
 <p>Strengthen alumni communities that center shared experiences, activities, and identities, such as athletic teams, singing groups, LGBTQ+, ALANA orgs, veterans, and First Gen alums (among others).</p>
@@ -213,4 +213,3 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo site_footeralumni(); ?>
-

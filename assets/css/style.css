@@ -9069,10 +9069,6 @@ strong {
   font-family: var(--bs-font-sans-serif);
 }
 
-.section-content h3, .section-content .h3 {
-  margin-top: 2rem;
-}
-
 h4, .h4 {
   font-family: var(--bs-font-sans-serif);
   font-variation-settings: "wght" 700;
