@@ -78,7 +78,7 @@ $page_info = json_decode($page_info, true);
 
     <p>If you are interested in participating in Class activities, reach out to Diana Jedlicka at <a href="mailto:djedlicka@vassar.edu">djedlicka@vassar.edu</a> or <a href="tel:845-437-5398">(845)437-5398</a>.</p>
     <ul class="linked-list">
-        <li><a href="#">Explore Upcoming Reunions</a></li>
+        <li><a href="/alumni/calendar/reunions/">Explore Upcoming Reunions</a></li>
         <li><a href="https://www.vassar.edu/social-media/class-by-year">Follow Classes on Social</a></li>
         <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Class Volunteer</a></li>
     </ul>
