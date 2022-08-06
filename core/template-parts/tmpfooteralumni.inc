@@ -28,7 +28,7 @@ function site_footeralumni() {
 
 				<div class="pt-3"><a href="https://www.google.com/maps/place/Alumnae+House/@41.6908124,-73.9020119,19.45z/data=!4m8!3m7!1s0x89dd3e5703778887:0xf94de484d4157d23!5m2!4m1!1i2!8m2!3d41.6909832!4d-73.9016665"><i class="px-1 fa-solid fa-location-dot"></i> 161 College Avenue, Box 14, Poughkeepsie, New York 12603</a></div>
 
-				<div class="pt-3 link_collection">
+				<div class="pt-2 link_collection d-flex flex-column flex-md-row">
 				<a href="{$project_paths['final_url']}/admission/visit" class="me-3 my-2">plan a visit <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 					<a href="https://www.vassar.edu/news" class="me-3 my-2">news <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 					<a href="{$project_paths['final_url']}/admission/connect" class="me-3 my-2">contact us <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
@@ -36,7 +36,7 @@ function site_footeralumni() {
 
 				<hr class="mt-4 w-75">
 
-				<div class="pt-4 link_collection">
+				<div class="pt-2 link_collection d-flex flex-column flex-md-row">
 					<a href="https://www.vassar.edu/about" class="me-3 my-2">about <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 					<a href="https://www.vassar.edu/academics" class="me-3 my-2">academics <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 					<a href="{$project_paths['final_url']}/admission" class="me-3 my-2">admission <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
@@ -54,7 +54,7 @@ function site_footeralumni() {
 
 
 
-			<div class="col-3 knockedout bg-darkestburgundy p-3 my-4 shadow-lg">
+			<div class="footer-feature-module col-12 col-md-3 knockedout bg-darkestburgundy p-4">
 <!--				<div><span class="tagline mb-2">Give to Vassar</span></div> -->
 				<img src="/alumni/assets/img/alumni-home/0038-22-06-cs-reunion-vassar-002.jpg" />
 				  <a href="https://go.vassar.edu/give" class="donate-btn px-0 mt-4 btn btn-link arrow">Make a Gift</a>
@@ -70,13 +70,13 @@ function site_footeralumni() {
 </div>
 <div class="section text-light  theme-dark-burgundy  bg-darkestburgundy py-3">
 <footer class="container footer" style="padding-bottom: 6rem !important;">
-		<div class="row align-items-end py-3">
-			<div class="col text-start">
+		<div class="row flex-column flex-md-row align-items-end py-3">
+			<div class="col text-start mb-3 mb-lg-0">
 				&copy; 2022 Vassar College
 
 			</div>
 
-			<div class="col text-end link_collection">
+			<div class="col text-start link_collection">
 				<a class="me-3" href="https://www.facebook.com/vassarcollege/"><i class="fa-brands fa-facebook"></i></a>
 				<a class="me-3" href="https://twitter.com/vassar/"><i class="fa-brands fa-twitter"></i></a>
 				<a class="me-3" href="https://www.instagram.com/vassarcollege/"><i class="fa-brands fa-instagram"></i></a>
@@ -84,7 +84,7 @@ function site_footeralumni() {
 				<a class="me-3" href="https://www.youtube.com/vassar/"><i class="fa-brands fa-youtube"></i></a>
 				<a class="me-3" href="https://www.flickr.com/photos/vassarcollegemedia/"><i class="fa-brands fa-flickr"></i></a>
 				<a class="me-3" href="https://vm.tiktok.com/ZMeYAnWtP/"><i class="fa-brands fa-tiktok"></i></a>
-				<a href="https://www.vassar.edu/social-media">Social Media Directory <i class="px-1 fa-solid fa-arrow-right"></i></a>
+				<a href="https://www.vassar.edu/social-media">Social Media Directory <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 			</div>
 		</div> <!-- row -->
 </footer>
