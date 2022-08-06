@@ -20,6 +20,11 @@
 
 .quotes-carousel .split-words-content p {
   line-height: 1.16;
+
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .carousel.is-fullscreen .carousel-cell {
