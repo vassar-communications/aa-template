@@ -91,14 +91,13 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_regularContent('Information & Updates','theme-cream','','',); ?>
 
 <?php echo item_iconItem('Housing','house-chimney',''); ?>
-<p>We are excited to welcome alumni back to Vassar for in-person Reunions and want to ensure that everyone makes informed decisions about where to stay. Please be sure to note the College's Covid-19 protocols before making your travel plans and also consider your lodging needs.
+<p>We are excited to welcome alumni back to Vassar for in-person Reunions and want to ensure that everyone makes informed decisions about where to stay. Please be sure to note the College’s Covid-19 protocols before making your travel plans and also consider your lodging needs.
 </p>
 <p>We recommend you <strong>register early</strong> for on-campus housing as it is allocated on a first come, first served basis.</p>
 <p>
     <a class="btn btn-link arrow" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
         Additional On-Campus Housing Information
     </a>
-
 </p>
 <div class="collapse" id="collapseExample">
     <div class="card card-body">

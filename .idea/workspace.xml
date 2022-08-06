@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/college-events/0026-20-02-kr-bourgeois-fllac-vassar-9731.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-calendar/college-events/0118_15_12_KR_0065.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/calendar/college-events/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/college-events/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/calendar/reunions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/reunions/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/community/aavc/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/aavc/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/template-parts/tmpfooteralumni.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/template-parts/tmpfooteralumni.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/template-parts/footer.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/template-parts/footer.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
