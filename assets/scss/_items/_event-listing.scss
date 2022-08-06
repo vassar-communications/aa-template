@@ -115,7 +115,16 @@
   }
 
   .calendar {
-    position: absolute;
+    @include break(sm, max) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      font-size: 1.4rem;
+    }
+    @include break(sm) {
+      position: absolute;
+    }
     z-index: 10;
     line-height: 1.1;
     background: $red;
@@ -132,7 +141,9 @@
     text-transform: uppercase;
   }
   .event__day {
-    font-size: $h2-font-size;
+    @include break(sm) {
+      font-size: $h2-font-size;
+    }
   }
 
   .event__summary {

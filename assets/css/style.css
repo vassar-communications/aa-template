@@ -10669,7 +10669,6 @@ li {
   aspect-ratio: 1/1;
 }
 .event-listing .calendar {
-  position: absolute;
   z-index: 10;
   line-height: 1.1;
   background: #e00;
@@ -10678,14 +10677,30 @@ li {
   right: 1.2rem;
   padding: 0.6rem 0.8rem;
 }
+@media screen and (max-width: 40em) {
+  .event-listing .calendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 40em) {
+  .event-listing .calendar {
+    position: absolute;
+  }
+}
 .event-listing .calendar p {
   margin: 0;
 }
 .event-listing .event__month {
   text-transform: uppercase;
 }
-.event-listing .event__day {
-  font-size: 2rem;
+@media screen and (min-width: 40em) {
+  .event-listing .event__day {
+    font-size: 2rem;
+  }
 }
 .event-listing .event__summary {
   max-width: 36em;
@@ -14523,6 +14538,36 @@ footer a:link:hover, footer a:link:focus, footer a:visited:hover, footer a:visit
   --column-gap: 1rem;
 }
 
+@media screen and (min-width: 40em) {
+  .mb-sm-3 {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 50em) {
+  .mb-md-3 {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 60em) {
+  .mb-md-3 {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 40em) {
+  .mb-below-sm-3 {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 50em) {
+  .mb-below-md-3 {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 60em) {
+  .mb-below-md-3 {
+    margin-bottom: 1rem;
+  }
+}
 @media (max-aspect-ratio: 1/1) {
   .section.masthead-video-background .section-bg-image {
     margin-top: 5rem;

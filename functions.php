@@ -150,7 +150,8 @@ include($project_paths['main_project_root'].'/core/modules/carousel.inc');
 
 
 // include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-alumni-home-media.inc');
-include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-alumni-reunions.inc');
+
+include($project_paths['main_project_root'].'/alumni/inc/reunion/carousel-alumni-reunions.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-admission-explore-hudson.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/carousel-admission-explore-campus.inc');
 

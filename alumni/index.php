@@ -69,7 +69,7 @@ $page_info = json_decode($page_info, true);
         'Make a Gift',
         'https://go.vassar.edu/give',
         ['url' => '/alumni/assets/img/alumni-home/Library-TT-IMG_6613.jpeg', 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link mb-below-md-3'
     ); ?>
 
     <p>Your gift to The Vassar Fund can honor the aspect of the Vassar experience that matters most to you.</p>
@@ -83,7 +83,7 @@ $page_info = json_decode($page_info, true);
         'Volunteer',
         '/alumni/give/volunteer/',
         ['url' => '/alumni/assets/img/alumni-home/VC-Atlanta_Becca-Marco-05_Jada-Graves-14_Juan-Acosta-02-(1).jpeg', 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link mb-below-md-3'
     ); ?>
     <p>An incredible way to enrich your life and the lives of others in countless ways.</p>
 
@@ -95,7 +95,7 @@ $page_info = json_decode($page_info, true);
         'Be a Mentor',
         '/alumni/give/be-a-mentor/',
         ['url' => '/alumni/assets/img/alumni-home/0006-19-01-kr-scc-reception-vassar-0977.jpeg', 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link mb-below-md-3'
     ); ?>
     <p>An extraordinary opportunity to develop positive relationships with students and help them navigate their future.</p>
 
