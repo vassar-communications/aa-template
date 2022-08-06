@@ -380,7 +380,8 @@ if ($('.featureImage-text-ticker').length) {
 if ($('.invitation-style-carousel').length) {
     $('.invitation-style-carousel').flickity({
 		groupCells: true,
-        wrapAround: true
+        wrapAround: true,
+		watchCSS: true
     });
 }
 

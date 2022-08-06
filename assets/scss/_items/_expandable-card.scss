@@ -1,13 +1,18 @@
-@include break(md) {
+$carousel_appears: md;
+/* hey what */
+
+@include break($carousel_appears) {
   .invitation-style-carousel:after {
-    content: 'eee';
+    content: 'flickity';
   }
 }
 
 .section.contains-carousel {
   --section-title-space: 3rem;
 
-  padding: 4.5rem 0 0 0;
+  @include break($carousel_appears) {
+    padding: 4.5rem 0 0 0;
+  }
 
   .section-content {
     max-width: none;
@@ -29,22 +34,45 @@
 }
 
 .invitation-style-carousel {
-  height: 40rem;
-  padding: 0 1rem 4.4rem 1rem;
+  @include break($carousel_appears) {
 
-  .column-layout {
-    .content {
-      display: flex;
-    }
-  }
+      height: 40rem;
+      padding: 0 1rem 4.4rem 1rem;
 
-  .carousel-cell {
-    height: 100%;
-    width: 36rem;
-    margin: 1.4rem;
+      .carousel-cell {
+        height: 100%;
+        width: 36rem;
+        margin: 1.4rem;
 
-    .content {
-      height: 100%;
+        .content {
+          height: 100%;
+        }
+
+        &.slide-has-image {
+          width: 56rem;
+
+          .content {
+            display: flex;
+            height: 100%;
+          }
+          .event-details {
+            width: 60%;
+          }
+        }
+        &.big-text {
+          width: 44rem;
+
+          .dropdown-title {
+            font-weight: normal;
+            font-size: 6rem;
+          }
+        }
+        &.column-layout {
+          .content {
+            display: flex;
+          }
+        }
+      }
     }
 
     .event-details {
@@ -55,38 +83,17 @@
       justify-content: center;
     }
 
-    &.slide-has-image {
-      width: 56rem;
+    @include break($carousel_appears) {
+      .image-container {
+        width: 46%;
+        position: relative;
 
-      .event-details {
-        width: 60%;
-      }
-    }
-    &.big-text {
-      width: 44rem;
-
-      .dropdown-title {
-        font-weight: normal;
-        font-size: 6rem;
-      }
-    }
-
-    .slide-has-image {
-      .content {
-        display: flex;
-        height: 100%;
-      }
-    }
-
-    .image-container {
-      width: 46%;
-      position: relative;
-
-      img {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        img {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
       }
     }
 
@@ -94,7 +101,7 @@
       @include padding(2rem);
     }
 
-    &.dropdown-card {
+    .dropdown-card {
       background: #fff;
       color: #444;
       margin-bottom: 1rem;
@@ -123,4 +130,3 @@
       }
     }
   }
-}

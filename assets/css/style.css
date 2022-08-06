@@ -10164,14 +10164,19 @@ details.open .dropdown__content {
     top: auto;
   }
 }
+/* hey what */
 @media screen and (min-width: 50em) {
   .invitation-style-carousel:after {
-    content: "eee";
+    content: "flickity";
   }
 }
 .section.contains-carousel {
   --section-title-space: 3rem;
-  padding: 4.5rem 0 0 0;
+}
+@media screen and (min-width: 50em) {
+  .section.contains-carousel {
+    padding: 4.5rem 0 0 0;
+  }
 }
 .section.contains-carousel .section-content {
   max-width: none;
@@ -10183,82 +10188,86 @@ details.open .dropdown__content {
   background: #fff;
 }
 
-.invitation-style-carousel {
-  height: 40rem;
-  padding: 0 1rem 4.4rem 1rem;
+@media screen and (min-width: 50em) {
+  .invitation-style-carousel {
+    height: 40rem;
+    padding: 0 1rem 4.4rem 1rem;
+  }
+  .invitation-style-carousel .carousel-cell {
+    height: 100%;
+    width: 36rem;
+    margin: 1.4rem;
+  }
+  .invitation-style-carousel .carousel-cell .content {
+    height: 100%;
+  }
+  .invitation-style-carousel .carousel-cell.slide-has-image {
+    width: 56rem;
+  }
+  .invitation-style-carousel .carousel-cell.slide-has-image .content {
+    display: flex;
+    height: 100%;
+  }
+  .invitation-style-carousel .carousel-cell.slide-has-image .event-details {
+    width: 60%;
+  }
+  .invitation-style-carousel .carousel-cell.big-text {
+    width: 44rem;
+  }
+  .invitation-style-carousel .carousel-cell.big-text .dropdown-title {
+    font-weight: normal;
+    font-size: 6rem;
+  }
+  .invitation-style-carousel .carousel-cell.column-layout .content {
+    display: flex;
+  }
 }
-.invitation-style-carousel .column-layout .content {
-  display: flex;
-}
-.invitation-style-carousel .carousel-cell {
-  height: 100%;
-  width: 36rem;
-  margin: 1.4rem;
-}
-.invitation-style-carousel .carousel-cell .content {
-  height: 100%;
-}
-.invitation-style-carousel .carousel-cell .event-details {
+.invitation-style-carousel .event-details {
   display: flex;
   align-items: center;
   flex-flow: column;
   height: 100%;
   justify-content: center;
 }
-.invitation-style-carousel .carousel-cell.slide-has-image {
-  width: 56rem;
+@media screen and (min-width: 50em) {
+  .invitation-style-carousel .image-container {
+    width: 46%;
+    position: relative;
+  }
+  .invitation-style-carousel .image-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
-.invitation-style-carousel .carousel-cell.slide-has-image .event-details {
-  width: 60%;
-}
-.invitation-style-carousel .carousel-cell.big-text {
-  width: 44rem;
-}
-.invitation-style-carousel .carousel-cell.big-text .dropdown-title {
-  font-weight: normal;
-  font-size: 6rem;
-}
-.invitation-style-carousel .carousel-cell .slide-has-image .content {
-  display: flex;
-  height: 100%;
-}
-.invitation-style-carousel .carousel-cell .image-container {
-  width: 46%;
-  position: relative;
-}
-.invitation-style-carousel .carousel-cell .image-container img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.invitation-style-carousel .carousel-cell .event-details {
+.invitation-style-carousel .event-details {
   padding: calc(1.325rem + 0.9vw);
 }
 @media (min-width: 1200px) {
-  .invitation-style-carousel .carousel-cell .event-details {
+  .invitation-style-carousel .event-details {
     padding: 2rem;
   }
 }
-.invitation-style-carousel .carousel-cell.dropdown-card {
+.invitation-style-carousel .dropdown-card {
   background: #fff;
   color: #444;
   margin-bottom: 1rem;
   box-shadow: var(--feature-card-box-shadow, 0 1rem 1rem rgba(100, 0, 0, 0.4));
 }
-.invitation-style-carousel .carousel-cell .supertitle {
+.invitation-style-carousel .supertitle {
   font-size: 1rem;
 }
-.invitation-style-carousel .carousel-cell .dropdown-title {
+.invitation-style-carousel .dropdown-title {
   display: flex;
   align-items: center;
   flex-flow: column;
   font-size: 3rem;
 }
-.invitation-style-carousel .carousel-cell .image-container img {
+.invitation-style-carousel .image-container img {
   width: 100%;
 }
-.invitation-style-carousel .carousel-cell.dropdown-card.white-border {
+.invitation-style-carousel.dropdown-card.white-border {
   background: #eee;
   border: 2rem solid #fff;
 }
