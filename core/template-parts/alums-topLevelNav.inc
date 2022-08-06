@@ -11,7 +11,6 @@ function alums_topLevelNav() {
    <a class="nav-link animation-item" href="/alumni/community/">Our Community</a>
    <a class="nav-link animation-item" href="/alumni/resources/">Resources</a>
    <a class="nav-link animation-item" href="/alumni/contact/">Contact</a>
-   <a class="nav-link animation-item" href="#">Log In</a>
 </nav>
 
 TMP;
