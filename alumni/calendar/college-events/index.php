@@ -11,7 +11,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"College Events",
   "page_classes":"",
-  "feature_image":"/alumni/assets/img/alumni-calendar/college-events/0317_Vassar_College_exteriors_campus_life_Oct_2019_JA.JPG"
+  "feature_image":"/alumni/assets/img/alumni-calendar/college-events/0118_15_12_KR_0065.jpg"
 }';
 
 /* === */
@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Upcoming College Events',
-    '/alumni/assets/img/alumni-calendar/college-events/Reunion_Saturday_190608_CS-V815-330.jpg',
+    '/alumni/assets/img/alumni-calendar/college-events/0026-20-02-kr-bourgeois-fllac-vassar-9731.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
