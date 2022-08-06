@@ -14088,20 +14088,6 @@ footer a  {
   --bg-image-opacity: 0.1 !important;
 }
 
-.burgundy-cta-link .fa-solid {
-  border: 2px solid var(--color-vassar-burgundy);
-  background: #fff;
-  color: var(--color-vassar-burgundy);
-}
-.burgundy-cta-link:link, .burgundy-cta-link:visited {
-  color: var(--color-vassar-burgundy) !important;
-}
-.burgundy-cta-link:link:hover .fa-solid, .burgundy-cta-link:link:focus .fa-solid, .burgundy-cta-link:visited:hover .fa-solid, .burgundy-cta-link:visited:focus .fa-solid {
-  border: 2px solid var(--color-vassar-burgundy);
-  background: var(--color-vassar-burgundy);
-  color: #fff;
-}
-
 a:not(.btn,
 .nav-link) {
   color: var(--section-text-color, var(--color-vassar-charcoal));
@@ -14211,6 +14197,30 @@ footer a:link:hover, footer a:link:focus, footer a:visited:hover, footer a:visit
 
 .btn:link:hover, .btn:link:focus, .btn:visited:hover, .btn:visited:focus {
   border-color: transparent;
+}
+
+.burgundy-link {
+  font-variation-settings: "wght" 400;
+  border-bottom-color: var(--color-vassar-burgundy) !important;
+}
+.burgundy-link:link, .burgundy-link:visited {
+  color: var(--color-vassar-burgundy) !important;
+}
+.burgundy-link:link:hover, .burgundy-link:link:focus, .burgundy-link:visited:hover, .burgundy-link:visited:focus {
+  color: var(--color-vassar-burgundy) !important;
+}
+.burgundy-cta-link .fa-solid {
+  border: 2px solid var(--color-vassar-burgundy);
+  background: #fff;
+  color: var(--color-vassar-burgundy);
+}
+.burgundy-cta-link:link, .burgundy-cta-link:visited {
+  color: var(--color-vassar-burgundy) !important;
+}
+.burgundy-cta-link:link:hover .fa-solid, .burgundy-cta-link:link:focus .fa-solid, .burgundy-cta-link:visited:hover .fa-solid, .burgundy-cta-link:visited:focus .fa-solid {
+  border: 2px solid var(--color-vassar-burgundy);
+  background: var(--color-vassar-burgundy);
+  color: #fff;
 }
 
 .buffer {
