@@ -8,9 +8,10 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Alumni Association of Vassar",
+  "page_title":"Alumnae/i Association of Vassar",
+  "page_navTitle":"AAVC",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-community/aavc/0045-19-05-kr-spring-vassar-6002.jpg"
 }';
 
 /* === */
@@ -31,7 +32,7 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'A dynamic global network of 41,000+ members!',
+    'A Dynamic Global Network of 41,000+ Members!',
     $alumni_img_path.'alumni-community/aavc/Vassar_Reunion_19 BL_4788.jpg',
     'image-is-first theme-cream',
     ''
@@ -61,7 +62,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'AAVC Board of Directors',
     '/alumni/community/aavc/board-members/',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-community/aavc/aavc.png', 'alt' => 'replacealttext' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>A group of dedicated volunteers that serves the college and more than 40,000 alumni at the highest level.</p>
@@ -82,9 +83,9 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Bylaws',
-    '/alumni/community/aavc/board-members/',
-    ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
-    'fix card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link download'
+    '/alumni/community/aavc/bylaws/',
+    ['url' => '/alumni/assets/img/alumni-community/aavc/0038-22-06-cs-reunion-vassar-084.jpg', 'alt' => 'replacealttext' ],
+    'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link download'
 ); ?>
 <p>Read the Alumnae/i Association of Vassar College Bylaws</p>
 <?php echo end_item_cardWithText(

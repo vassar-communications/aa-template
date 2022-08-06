@@ -73,9 +73,9 @@
 
 
 .btn-link.arrow:not(.stretched-link):hover:after,
-.carousel-cell:hover .arrow:after,
-.btn-link.arrow:not(.stretched-link):focus:after,
-.carousel-cell:focus .arrow:after {
+// .carousel-cell:hover .arrow:after,
+.btn-link.arrow:not(.stretched-link):focus:after {
+// .carousel-cell:focus .arrow:after {
   background-color: var(--section-link-color, $red);
   border-color: var(--section-link-color, $red);
   color: var(--section-bg-color, var(--color-vassar-cream));

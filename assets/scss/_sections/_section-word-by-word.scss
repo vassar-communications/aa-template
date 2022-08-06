@@ -47,7 +47,7 @@
       font-variation-settings: "wght" 240;
       font-family: var(--font-big-serif);
       display: inline-block;
-      margin-right: 0.2em;
+//      margin-right: 0.2em;
 
       $settings: (
               gap: 0.1s,
@@ -141,38 +141,4 @@
       height: calc(100% - (2 * #{$amount-of-space}));
     }
   }
-}
-
-
-/* nice quotes */
-
-.quotes-carousel {
-  p {
-    overflow-wrap: break-word;
-    --regularContent-lineHeight: 1.2;
-
-    span {
-      font-weight: 200;
-      font-variation-settings: "wght" 240;
-      font-family: var(--font-big-serif);
-      display: inline-block;
-      margin-right: 0.2em;
-      @include font-size(3rem);
-
-      $settings: (
-              gap: 0.1s,
-              max-items: 10,
-      );
-
-      @include sequence($settings);
-      @include setup-animation-fade-in();
-    }
-  }
-
-  .is-selected {
-    span {
-      @include animation-fade-in();
-    }
-  }
-
 }

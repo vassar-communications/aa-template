@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Ad Hoc Student and Young Alumni Engagement Committee Chair",
+  "page_title":"Ad Hoc Student and Young Alumnae/i Engagement Committee Chair",
   "page_classes":"",
   "feature_image":"/alumni/assets/img/alumni-community/aavc/board/winter-ellie-aavc-alum-6332.jpg"
 }';
@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Ad Hoc Student and Young Alumni Engagement Committee Chair and Ad Hoc Diversity, Equity and Inclusion Committee Member</li>
+    <li>Ad Hoc Student and Young Alumnae/i Engagement Committee Chair and Ad Hoc Diversity, Equity and Inclusion Committee Member</li>
     <li>(she/her/hers)</li>
     <li>Rhode Island</li>
     <li>Term of Service: 2021–2025</li>

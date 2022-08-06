@@ -104,12 +104,12 @@ $color-contrast-light:     $white !default;
   --regularContent-font-size: calc(1.165rem + 0.18vw);
   --regularContent-lineHeight: 1.5;
 
-  --regularContent-font-weight: "wght" 400;
+//  --regularContent-font-weight: "wght" 400;
 
-  @media (min-width: 1024px) {
+//  @media (min-width: 1024px) {
     --regularContent-font-weight: "wght" 360;
     --font-big-serif: freight-display-pro;
-  }
+//  }
 
   --font-icons: "Font Awesome 6 Free";
 
@@ -253,7 +253,7 @@ $link-hover-color:                        shift-color($link-color, $link-shade-p
 $link-hover-decoration:                   null !default;
 
 $stretched-link-pseudo-element:           after !default;
-$stretched-link-z-index:                  1 !default;
+$stretched-link-z-index:                  10 !default;
 
 // Paragraphs
 //

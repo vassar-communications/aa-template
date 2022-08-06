@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>AAVC Board Director, Alumni Recognition Committee Member and Career Networking Committee Member</li>
+    <li>Alumnae/i Recognition Committee Member and Career Networking Committee Member</li>
     <li>(she/her/hers)</li>
     <li>Washington, D.C.</li>
     <li>Term of Service: 2021–2025</li>
@@ -53,7 +53,9 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Class agent, Class of 1970, 2018–present; member, Club Admission Committee, 1997–2009; notewriter/phoner, Annual Fund, 2005–2006; member, AAVC Nominating Committee, 2002–2005; panelist, 30th Anniversary Celebration of the Africana Studies Program at Vassar, 2001.</p>
+<p>Class agent, Class of 1970, 2018–present; member, Club Admission Committee, 1997–2009; notewriter/phoner, Annual Fund, 2005–2006; member, AAVC Nominating Committee, 2002–2005; panelist, 30th Anniversary Celebration of the Africana Studies Program at Vassar, 2001.
+
+</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

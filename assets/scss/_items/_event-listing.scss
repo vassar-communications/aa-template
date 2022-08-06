@@ -7,12 +7,15 @@
   .event {
     background: #fff;
     border-radius: 0.6rem;
-    display: flex;
     margin: 1.6rem 0;
     box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
     overflow: hidden;
     position: relative;
     transition: 0.4s all ease;
+
+    @include break(md) {
+      display: flex;
+    }
 
     &:hover {
       transform: scale(1.02);
@@ -83,6 +86,10 @@
     min-height: 14rem;
     overflow: hidden;
     background: #eee;
+
+    @include break(md, max) {
+      margin: 2rem 0 0 2.6rem;
+    }
   }
 
   .fa-clock {
@@ -108,7 +115,16 @@
   }
 
   .calendar {
-    position: absolute;
+    @include break(sm, max) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      font-size: 1.4rem;
+    }
+    @include break(sm) {
+      position: absolute;
+    }
     z-index: 10;
     line-height: 1.1;
     background: $red;
@@ -125,7 +141,9 @@
     text-transform: uppercase;
   }
   .event__day {
-    font-size: $h2-font-size;
+    @include break(sm) {
+      font-size: $h2-font-size;
+    }
   }
 
   .event__summary {

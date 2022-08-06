@@ -25,7 +25,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Queer Liberation March']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -35,7 +35,8 @@ $page_info = json_decode($page_info, true);
     null,
     $alumni_img_path.'alumni-community/aavc/0124-19-10-kr-spirit-award-vassar-0814.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Group of people at The Alumnae/i Association of Vassar College (AAVC) Awards presentation applauding Professor Robert Brigham.']
 ); ?>
 <p class="intro-text">The Alumnae/i Association of Vassar College (AAVC) Awards Program was inaugurated in 2001 to recognize alumni who have made significant contributions to the vitality and success of the College and AAVC.</p>
 
@@ -53,12 +54,13 @@ $page_info = json_decode($page_info, true);
     null,
     '/alumni/assets/img/alumni-community/aavc/awards/0046_14_01_SS2_089.jpg',
     'image-is-first',
-    ''
+    '',
+    ['img_alt_text' => 'Meryl Streep ’71, P’08, ’13']
 ); ?>
 <h6 class="tagline">2021 Recipient</h6>
 <h1>Meryl Streep ’71, P’08, ’13</h1>
 <p class="intro-text">The award presentation for Meryl Streep will be held in April 2022. Details are forthcoming.</p>
-<a href="#" class="btn btn-link arrow">Read more</a>
+<a href="https://www.vassar.edu/news/five-honored-2021-aavc-awards" class="btn btn-link arrow">Read more</a>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
@@ -75,11 +77,12 @@ $page_info = json_decode($page_info, true);
     null,
     '/alumni/assets/img/alumni-community/aavc/awards/0071-19-05-ssh-kente-cloth-vassar-0168.jpg',
     'image-is-first theme-verylightgray',
-    ''
+    '',
+    ['img_alt_text' => 'Pat Jordan ’72, P’17']
 ); ?>
 <h6 class="tagline">2021 Recipient</h6>
 <h1>Pat Jordan ’72, P’17</h1>
-<a href="#" class="btn btn-link arrow">Watch the video</a>
+<a href="https://vimeo.com/574099032" class="btn btn-link arrow">Watch the video</a>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
@@ -87,7 +90,7 @@ $page_info = json_decode($page_info, true);
     'Spirit of Vassar Award',
     '',
     ''); ?>
-<p>The Spirit of Vassar Award is presented to an alumna or alumnus who has demonstrated extraordinary and distinguished leadership, contribution, and commitment to serving a community in which they effect positive, transformative societal change. This contribution may have been made through the recipient's career, community work, or volunteer service. The award recognizes the values of service and civic responsibility that are fundamental to a Vassar education.</p>
+<p>The Spirit of Vassar Award is presented to an alumna or alumnus who has demonstrated extraordinary and distinguished leadership, contribution, and commitment to serving a community in which they effect positive, transformative societal change. This contribution may have been made through the recipient’s career, community work, or volunteer service. The award recognizes the values of service and civic responsibility that are fundamental to a Vassar education.</p>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -95,11 +98,12 @@ $page_info = json_decode($page_info, true);
     null,
     '/alumni/assets/img/alumni-community/aavc/awards/Miles-LaGrange_02.jpg',
     'image-is-first',
-    ''
+    '',
+    ['img_alt_text' => 'Judge Vicki Miles-Lagrange ’74']
 ); ?>
 <h6 class="tagline">2021 Recipient</h6>
 <h1>Judge Vicki Miles-Lagrange ’74</h1>
-<a href="#" class="btn btn-link arrow">Watch the video</a>
+<a href="https://vimeo.com/637566070" class="btn btn-link arrow">Watch the video</a>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
@@ -116,12 +120,13 @@ $page_info = json_decode($page_info, true);
     null,
     '/alumni/assets/img/alumni-community/aavc/awards/0049_14_05_KR_0012edit.jpg',
     'image-is-first theme-verylightgray',
-    ''
+    '',
+    ['img_alt_text' => 'Rachel Kitzinger']
 ); ?>
 <h6 class="tagline">2021 Recipient</h6>
 <h1>Rachel Kitzinger</h1>
 <p class="intro-text">Professor Emerita of Greek and Roman Studies</p>
-<a href="#" class="btn btn-link arrow">Watch the video</a>
+<a href="https://vimeo.com/637580661" class="btn btn-link arrow">Watch the video</a>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
@@ -129,7 +134,7 @@ $page_info = json_decode($page_info, true);
     'Young Alumni Achievement or Service Award',
     '',
     ''); ?>
-<p>The Young Alumnae/i Achievement or Service Award is presented to an alumna or alumnus recognized for either their extraordinary service to Vassar in any aspect of alumni engagement OR for their exceptional personal and professional achievement(s) within their respective field. As a graduate within the last 10 years, the recipient should be inspirational to their peers and the current student body, while exemplifying the fruits of a successful liberal arts education at Vassar.</p>
+<p>The Young Alumni Achievement or Service Award is presented to an alumna or alumnus recognized for either their extraordinary service to Vassar in any aspect of alumni engagement OR for their exceptional personal and professional achievement(s) within their respective field. As a graduate within the last 10 years, the recipient should be inspirational to their peers and the current student body, while exemplifying the fruits of a successful liberal arts education at Vassar.</p>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -138,11 +143,12 @@ $page_info = json_decode($page_info, true);
     null,
     '/alumni/assets/img/alumni-community/aavc/awards/Marie_Dilemani_AAVC_Award_210922_KR_0046.jpg',
     'image-is-first',
-    ''
+    '',
+    ['img_alt_text' => 'Marie Dugo Dilemani ‘11']
 ); ?>
 <h6 class="tagline">2021 Recipient</h6>
-<h1>Marie Dugo Dilemani ‘11</h1>
-<a href="#" class="btn btn-link arrow">Watch the video</a>
+<h1>Marie Dugo Dilemani ’11</h1>
+<a href="https://vimeo.com/637612799" class="btn btn-link arrow">Watch the video</a>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 

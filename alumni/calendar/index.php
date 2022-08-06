@@ -66,44 +66,70 @@ Make sure functions convert straight quotes to curly
 
 <?php echo sec_regularContent(
   'Get Involved',
-  'theme-burgundy featured-events-grid'
+  'theme-burgundy contains-carousel'
 ); ?>
 
-<div class="large-card-carousel">
+<div class="invitation-style-carousel">
 
-  <?php echo expandable_event_card(
+  <?php echo invitation_style_card(
     'Reunion 2023',
     'June 2–4',
       '',
-      'theme-cream'
+      ''
   ); ?>
-  <p>Believe it or not, we are getting ready to kick off the planning and fundraising for Reunion 2023! We will be welcoming classes with graduation years ending in 3 and 8, along with the Class of 2016, from June 2-4, 2023. The 50th Reunion Class of 1973 is invited to arrive a day earlier on June 1. 50th Reunion class survey coming soon. Check back here for updates as the planning gets underway!</p>
-    <a class="btn btn-link arrow" href="#">More Details</a>
-  <?php echo end_expandable_event_card(); ?>
+  <p>Believe it or not, we are getting ready to kick off the planning and fundraising for Reunion 2023! We will be welcoming classes with graduation years ending in 3 and 8, along with the Class of 2016, from June 2–4, 2023. The 50th Reunion Class of 1973 is invited to arrive a day earlier on June 1. 50th Reunion class survey coming soon. Check back here for updates as the planning gets underway!</p>
+  <?php echo end_invitation_style_card(); ?>
 
 
-  <?php echo expandable_event_card(
-    'Reunion 2023',
-    'June 14',
+
+  <?php echo invitation_style_card(
+    'Future Reunions',
+    '',
+      '',
+      'white-border white-container'
+  ); ?>
+  <p class="intro-text text-center">May 31–June 2, 2024<br />
+June 6–8, 2025</p>
+
+<p>If you have any questions, please contact us at <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a> or <?php phone_number('800-443-8196'); ?> (choose option 5).</p>
+  <?php echo end_invitation_style_card(); ?>
+
+
+
+
+  <?php echo invitation_style_card(
+    'Families Weekend',
+    'September 30–October 2',
     [
-      'img_url' => 'https://images.unsplash.com/photo-1659425757127-ccbf96c59163?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60',
+      'img_url' => 'https://www.vassar.edu/sites/default/files/2021-10/0099-21-10-kr-fw-welcome-vassar-0010.jpg',
       'img_alt_text' => 'alt text'
     ],
-      'theme-cream'
+      ''
   ); ?>
     <p>Believe it or not, we are getting ready to kick off the planning and fundraising for Reunion 2023!</p>
-<a class="btn btn-link arrow" href="#">More Details</a>
-  <?php echo end_expandable_event_card(); ?>
 
-  <?php echo expandable_event_card(
+<?php echo cta_link(
+  'https://www.vassar.edu/families/events/weekend',
+  'More Details',
+  'burgundy-cta-link'
+); ?>
+
+
+  <?php echo end_invitation_style_card(); ?>
+
+
+
+
+
+
+  <?php /* echo invitation_style_card(
     'Reunion 2023',
     'June 2–4',
     null,
     'big-text white-border theme-cream'
   ); ?>
   <p>Believe it or not, we are getting ready to kick off the planning and fundraising for Reunion 2023!</p>
-    <a class="btn btn-link arrow" href="#">More Details</a>
-  <?php echo end_expandable_event_card(); ?>
+  <?php echo end_invitation_style_card(); */ ?>
 
 </div>
 

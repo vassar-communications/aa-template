@@ -45,7 +45,7 @@ $page_info = json_decode($page_info, true);
     <p>Vassar Fund dollars are crucial to the long-term success of the College and provide an important source of flexible and spendable revenue that has an immediate impact on today’s students, faculty, and programs. The support of the alumni community helps the College remain strong and resilient throughout each year. Your philanthropic contributions support research programs, upgrades in classrooms and residence halls, tuition assistance, career education, and so much more.</p>
 
     <?php echo cta_link(
-        '#',
+        'https://go.vassar.edu/give',
         'Give Now'
     ); ?>
 
@@ -54,17 +54,19 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     '5 Reasons to Consider Participating',
-    'theme-dark-burgundy',
+    'theme-white mt-5 pt-5',
     ''
 ); ?>
 <?php echo end_sec_regularContent(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Participation Gifts Add Up',
+    '1 - Participation Gifts Add&nbsp;Up',
     '/alumni/assets/img/alumni-give/support/Ad_Poster_15_TT_1683.jpg',
-    'theme-dark-burgundy image-is-first',
-    ''
+    'theme-burgundy image-is-first',
+    '',
+    ['title_level' => '3']
+
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Annual gifts (even at very modest levels) can have just as much impact as major gifts when they are pooled together. For example, multiple gifts from many donors totaling $50,000 can have the same financial effect as the payout from a $1 million endowment gift in a given year.</p>
@@ -75,10 +77,11 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Keeping Vassar on Top',
+    '2 - Keeping Vassar on Top',
     '/alumni/assets/img/alumni-give/support/volleyball-V752-129.jpg',
     'theme-cream',
-    ''
+    '',
+    ['title_level' => '3']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Alumni participation is one factor used when evaluating and ranking colleges and universities. Rankings can affect reputation, reputation can affect enrollment, and enrollment can affect revenue from tuition. Additionally, think of a diploma as if it were a stock certificate. As the quality of the institution grows, so does the value of your degree!</p>
@@ -91,10 +94,11 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Influencing Others',
+    '3 - Influencing Others',
     '/alumni/assets/img/alumni-give/support/0002-20-01-kr-scc-maldonado-vassar-0047.jpg',
-    'theme-dark-burgundy image-is-first',
-    ''
+    'theme-charcoal has-bg quad-pattern image-is-first',
+    '',
+    ['title_level' => '3']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>People want to give to a winning cause. Your participation can influence major donors, corporations, and foundations when they’re considering their own investments. They want to give to institutions that you find worthy of supporting.</p>
@@ -105,10 +109,11 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Preserving Vassar’s Future',
+    '4 - Preserving Vassar’s Future',
     '/alumni/assets/img/alumni-give/support/Vassar_Campus_6_26_17_0078.jpg',
     'theme-cream',
-    ''
+    '',
+    ['title_level' => '3']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Alumni giving helps Vassar establish a broad and diverse base of financial support that provides a safeguard for future uncertainties. Your help is critical in protecting Vassar and its stakeholders.</p>
@@ -120,10 +125,11 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Leading by Example',
+    '5 - Leading by Example',
     '/alumni/assets/img/alumni-give/support/0073-21-06-kr-summer-vassar-0183.jpg',
     'theme-dark-burgundy image-is-first',
-    ''
+    '',
+    ['title_level' => '3']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Echoing Vassar’s commitment to philanthropy and service, your participation shows the current student body the importance of giving through programs like the Generation Vassar Challenge. Your commitment to Vassar and its future is also an important example to set for prospective students and encourages young alumni to give. Ultimately, it just feels good to continue to give back to the community that helped to shape your experience as a student.</p>
@@ -154,4 +160,3 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo site_footeralumni(); ?>
-

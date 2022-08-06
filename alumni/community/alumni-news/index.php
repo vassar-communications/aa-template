@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Alumni News & Stories",
   "page_classes":"",
-  "feature_image":"/assets/images/placeholder-banner.png"
+  "feature_image":"/alumni/assets/img/alumni-community/aavc/awards/lead-06282020_QueerLiberationMarch_by_LeandroJusten_019.jpg"
 }';
 
 /* === */
@@ -25,7 +25,7 @@ $page_info = json_decode($page_info, true);
 <?php echo hamburger_navigation_alums(); ?>
 
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'alttext']); ?>
 
 
 <?php echo interior_page_nav(); ?>
@@ -35,8 +35,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
   'TV CEO Jonathan Littman ’85 Offers Career Tips to Students',
-  '/assets/images/placeholders/placeholder-square.png',
+  '/alumni/assets/img/alumni-community/CDO-career-chat-Jonathan-Littman-9422.jpg',
   'theme-extralightgray',
+  '',
+  ['img_alt_text' => 'Jonathan Littman and student standing behinde director’s chairs']
 ); ?>
 
 <p>Vassar students with an interest in careers in the television industry gained some insight into this competitive world recently from a highly credible source.</p>
@@ -60,33 +62,33 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Veronica (Plaut) McDaniel ’01',
-        '#',
+        'https://www.cnn.com/videos/tv/2022/04/26/cfp-voice-of-freedom-mfd-ais-spc.cnn',
         ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p class="placeholder">Veronica (Plaut) McDaniel ’01, Teacher Supervisor at Atlanta International School, talked about human trafficking awareness and action at school with CNN.</p>
+      <p>Veronica (Plaut) McDaniel ’01, Teacher Supervisor at Atlanta International School, talked about human trafficking awareness and action at school with CNN.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Sarah Roth ’21',
-        '#',
+        'https://www.fastcompany.com/90746616/why-tinders-background-check-is-a-major-backfire',
         ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p class="placeholder">Sarah Roth ’21 co-wrote a Fast Company story about the poor quality of Tinder’s background checks.</p>
+      <p>Sarah Roth ’21 co-wrote a Fast Company story about the poor quality of Tinder’s background checks.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Karl Strovink ’95',
-        '#',
+        'https://fortune.com/2022/04/24/blue-bottle-popular-coffee-chain-didnt-lay-off-a-single-employee-during-the-pandemic/',
         ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p class="placeholder">Karl Strovink ’95, CEO of Blue Bottle Coffee, was quoted in Fortune, Yahoo! Finance, and Coffee Talk stories about the company, which didn’t lay off any employees during the pandemic.</p>
+      <p>Karl Strovink ’95, CEO of Blue Bottle Coffee, was quoted in Fortune, Yahoo! Finance, and Coffee Talk stories about the company, which didn’t lay off any employees during the pandemic.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
