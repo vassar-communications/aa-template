@@ -479,6 +479,7 @@ function breadcrumb() {
 
   $children = false;
   $path_class = '';
+  $item_is_linked = true;
 
   echo $children;
 
@@ -571,6 +572,7 @@ function breadcrumb() {
       // - Since it has no subnav, we don't want that little border at
       //   the end hanging off, since it doesn't connect to anything. So
       //   apply the 'no-subnav' class to get rid of that.
+      // - Also, the last item in the breadcrumb trail should not be a link
       //
       // example: /alumni/community/aavc/board-members/aavc-president/
 
@@ -579,6 +581,7 @@ function breadcrumb() {
 
       $current_path =  get_base_path('path_to_current_doc_from_web_dir');
       $path_class = ' no-subnav';
+      $item_is_linked = false;
     }
 
     // I'm not sure if these are being used.
@@ -621,9 +624,20 @@ function breadcrumb() {
 
       $item_link = $project_paths['final_url'].$path;
 
-      if ( $crumb_level == count( $path_in_pieces ) ) {
+/*
+
+  What I'm trying to do is make it so that the page you're on
+  isn't linked to. Daria asked for this. However, this is
+  proving trickier than I thought, and things that should be
+  linked aren't. So I'm abandoning this approach for now.
+
+      if ( $item_is_linked !== true ) {
         $item_link = '';
       }
+
+*/
+
+
 
 //      echo $crumb_level . ' - ' . $item_link . "<br>";
 
