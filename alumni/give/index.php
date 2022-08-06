@@ -59,16 +59,10 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo masthead_interiorPage(
-    'Why
-Giving Back Matters',
+    null,
     'Connect with the alumni community and learn how you can continue to support Vassar.',
     '/alumni/assets/img/alumni-give/0002-18-01-kr-scc-estrella-vassar-0048.jpg');
 ?>
-
-
-
-
-
 
 
 
@@ -84,7 +78,7 @@ Giving Back Matters',
 
 
 
-<p class="pt-5"><span class="text-white intro-line">Why Giving Matters</span></p>
+<p class="pt-5"><span class="text-white intro-line">Make a Gift</span></p>
 
 
 
@@ -103,26 +97,6 @@ Giving Back Matters',
 
 
 <?php echo end_sec_wideContent(); ?>
-
-
-<?php echo sec_fullBleedImageColumn(
-    'Make a Gift',
-    '/assets/images/placeholders/placeholder-square.png',
-    'theme-burgundy quad-pattern has-bg image-is-first',
-    'mw-100'
-); ?>
-
-
-<div class="animate-when-content-appears animation-slide-up">
-
-    <p>PLACEHOLDER NEED COPY</p>
-    <?php echo cta_link(
-        'https://give.vassar.edu',
-        'Give Now'
-    ); ?>
-
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 
