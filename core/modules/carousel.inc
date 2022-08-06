@@ -22,7 +22,7 @@ function carousel_item(
         <div class="image-container">
           <img src="$image" alt="$alt_text" />
         </div>
-         <div class="figcaption pt-4">
+         <div class="figcaption pt-4 listen">
 TMP;
 }
 

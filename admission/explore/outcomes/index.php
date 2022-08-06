@@ -81,7 +81,10 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>The Career Development Office helps students and alumni envision—then realize—a meaningful life after Vassar. The CDO assists students in choosing their major, offers resume and cover letter workshops, and provides networking opportunities. </p>
-    <a href="https://offices.vassar.edu/careers/" class="px-0 btn btn-link arrow">Visit the Career Development Office</a>
+    <?php echo cta_link(
+        'https://offices.vassar.edu/careers/',
+        'Visit the Career Development Office'
+    ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -94,7 +97,10 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Vassar hosts Major Palooza for sophomores to explore the value and versatility of a liberal arts degree, as well as to network with Vassar’s vast and dedicated alumni. Panels and receptions are available to all.</p>
-    <a href="https://major-palooza.vassar.edu/" class="px-0 btn btn-link arrow">Visit Major Palooza</a>
+    <?php echo cta_link(
+        'https://major-palooza.vassar.edu/',
+        'Visit Major Palooza'
+    ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -106,7 +112,10 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Vassar’s Sophomore Career Connections introduces second-year students to the extraordinary range of career options available to them. Vassar offers an extensive network of alumni and parent mentors as one of our very best career resources.</p>
-    <a href="https://www.vassar.edu/sophomore-career-connections" class="px-0 btn btn-link arrow">Visit Sophomore Career Connections</a>
+    <?php echo cta_link(
+        'https://www.vassar.edu/sophomore-career-connections',
+        'Visit Sophomore Career Connections'
+    ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
