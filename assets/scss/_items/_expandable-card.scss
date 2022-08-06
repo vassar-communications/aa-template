@@ -1,3 +1,9 @@
+@include break(md) {
+  .invitation-style-carousel:after {
+    content: 'eee';
+  }
+}
+
 .section.contains-carousel {
   --section-title-space: 3rem;
 
@@ -16,13 +22,11 @@
   }
 }
 
-
 .flickity-enabled {
   &:focus-visible {
 //    outline: 1px dashed #f00;
   }
 }
-
 
 .invitation-style-carousel {
   height: 40rem;
@@ -66,12 +70,14 @@
         font-size: 6rem;
       }
     }
+
     .slide-has-image {
       .content {
         display: flex;
         height: 100%;
       }
     }
+
     .image-container {
       width: 46%;
       position: relative;
@@ -109,7 +115,6 @@
         width: 100%;
       }
     }
-
 
     &.dropdown-card {
       &.white-border {
