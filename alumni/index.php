@@ -180,7 +180,7 @@ echo sec_fixedCenteredTitle(
     'https://connect.vassar.edu/?sid=1654&gid=2&pgid=6226&cid=10273&ecid=10273&crid=0&calpgid=5161&calcid=8471'
   ); ?>
 
-          <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5161" class="center-object mb-5 btn btn-lg btn-light arrow">All events</a>
+          <a href="/alumni/calendar/" class="center-object mb-5 btn btn-lg btn-light arrow">All events</a>
 
 <?php echo end_event_listing(); ?>
 

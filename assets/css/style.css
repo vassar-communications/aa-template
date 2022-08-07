@@ -9098,6 +9098,18 @@ Any time we need an intro paragraph, use this styling.
   font-weight: 100;
 }
 
+.intro-text {
+  font-size: calc(1.325rem + 0.9vw);
+  font-family: var(--sansSerif);
+  line-height: 1.3;
+  font-variation-settings: "wght" 340;
+}
+@media (min-width: 1200px) {
+  .intro-text {
+    font-size: 2rem;
+  }
+}
+
 /*
  * This is a generic list that other list-based patterns rely on. It removes the bullet points and adds borders between each item.
  */
@@ -10964,6 +10976,7 @@ h3.section-title, .section-title.h3 {
   }
 }
 
+.section.has-bg .section-intro,
 .section.has-bg .section-content {
   position: relative;
   z-index: 100;
@@ -11280,6 +11293,10 @@ html {
   max-width: var(--section-intro-width, 46rem);
   margin: 1rem auto 2.6rem auto;
   text-align: center;
+}
+.section-with-columns > * {
+  position: relative;
+  z-index: 10;
 }
 
 @media screen and (min-width: 50em) {
@@ -13034,6 +13051,15 @@ html {
     margin-bottom: 3rem;
   }
 }
+.carousel-cell {
+  width: 100%;
+}
+@media only screen and (min-width: 1160px) {
+  .carousel-cell {
+    width: 86%;
+  }
+}
+
 @media screen and (min-width: 60em) {
   /* disable Flickity for large devices */
   .featureImage-text-ticker {
@@ -13044,7 +13070,6 @@ html {
     opacity: 0;
   }
   .featureImage-text-ticker .carousel-cell {
-    width: 86%;
     height: 200px;
     margin-right: 10px;
     counter-increment: carousel-cell;
@@ -13669,6 +13694,31 @@ ul.style-checklist a {
   border-radius: 0.4rem;
   border-bottom: 1px solid #ccc;
 }
+@media screen and (max-width: 50em) {
+  .staff-contact {
+    margin-bottom: 1rem;
+  }
+}
+.staff-contact .contact-name {
+  margin-bottom: 0.2rem;
+}
+.staff-contact .contact-title {
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+.staff-contact .contact-links {
+  margin-bottom: 0;
+}
+.staff-contact .contact-links a {
+  font-size: 1.1rem;
+  border: none;
+  font-variation-settings: "wght" 400;
+  transition: 0.2s all ease;
+}
+.staff-contact .contact-links a:link:hover, .staff-contact .contact-links a:link:focus, .staff-contact .contact-links a:visited:hover, .staff-contact .contact-links a:visited:focus {
+  color: #d00;
+}
 
 .contact-list {
   display: grid;
@@ -13855,19 +13905,35 @@ ul.style-checklist a {
   object-fit: cover;
 }
 
-.address-card {
-  background: #fff;
-  padding: calc(1.325rem + 0.9vw);
-  width: fit-content;
-  border-radius: 0.4rem;
-  font-size: 1.2rem;
-  box-shadow: 0.1rem 0.1rem #ccc;
-  border: 1px solid #ccc;
+.page-index-side {
+  padding: 0 2rem;
 }
-@media (min-width: 1200px) {
-  .address-card {
-    padding: 2rem;
+@media screen and (max-width: 50em) {
+  .page-index-side {
+    margin-bottom: 3rem;
   }
+}
+@media screen and (min-width: 50em) {
+  .page-index-side {
+    padding: 2rem 4rem 0 0;
+  }
+}
+.page-index-side .sticky-top {
+  top: 2rem;
+}
+.page-index-side .list-group-item {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 0;
+}
+.page-index-side .nav-link {
+  padding: 0.4rem 1rem 0.4rem 0;
+  transition: 0.4s all ease;
+}
+.page-index-side .nav-link:hover {
+  background: #951829;
+  color: #fff;
+  padding: 0.4rem 0rem 0.4rem 1rem;
 }
 
 /* Basic links */

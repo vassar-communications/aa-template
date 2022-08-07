@@ -13,3 +13,10 @@ Any time we need an intro paragraph, use this styling.
   line-height: 1.16;
   font-weight: 100;
 }
+
+.intro-text {
+  @include font-size(2rem);
+  font-family: var(--sansSerif);
+  line-height: 1.3;
+  font-variation-settings: "wght" 340;
+}

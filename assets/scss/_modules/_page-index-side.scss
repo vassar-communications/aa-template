@@ -1,9 +1,29 @@
-.address-card {
-  background: #fff;
-  @include padding(2rem);
-  width: fit-content;
-  border-radius: 0.4rem;
-  font-size: 1.2rem;
-  box-shadow: 0.1rem 0.1rem #ccc;
-  border: 1px solid #ccc;
+.page-index-side {
+  padding: 0 2rem;
+
+  @include break(md, max) {
+    margin-bottom: 3rem;
+  }
+  @include break(md) {
+    padding: 2rem 4rem 0 0;
+  }
+
+  .sticky-top {
+    top: 2rem;
+  }
+  .list-group-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 0;
+  }
+  .nav-link {
+    padding: 0.4rem 1rem 0.4rem 0;
+    transition: 0.4s all ease;
+
+    &:hover {
+      background: $burgundy;
+      color: #fff;
+      padding: 0.4rem 0rem 0.4rem 1rem;
+    }
+  }
 }

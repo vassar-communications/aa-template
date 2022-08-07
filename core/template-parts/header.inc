@@ -95,6 +95,7 @@ $comment
   <script src="https://player.vimeo.com/api/player.js"></script>
 
   <script src="{$project_paths['public_path']}/assets/js/libraries/flickity.js"></script>
+
   <script src="{$project_paths['public_path']}/assets/js/libraries/flickity-fade.js"></script>
 
 

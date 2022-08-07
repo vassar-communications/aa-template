@@ -3,8 +3,14 @@
 function contact_card(
     $name,
     $title,
-    $contact_info
+    $contact_info,
+    $extras=null
 ) {
+
+  $heading = get_extras_value('title_level', $extras, 'h%s');
+
+  if( $heading == null )
+    $heading = 'h4';
 
   $icon_format = '<i class="fa fa-%s me-1"></i>';
   $email_format = '<a href="mailto:%1$s">%1$s</a>';
@@ -44,9 +50,9 @@ $final_contact_list_markup = '';
 
     return <<<TMP
     <div class="staff-contact">
-        <h3>$name</h3>
-        <p><em>$title</em></p>
-        <ul class="clean-list-with-borders">
+        <$heading class="contact-name">$name</$heading>
+        <p class="contact-title">$title</p>
+        <ul class="clean-list-with-borders contact-links">
           $final_contact_list_markup
         </ul>
 
