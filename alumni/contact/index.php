@@ -990,17 +990,8 @@ echo end_contact_card();
 <?php echo heading_with_anchor_id( 'Regional and International Programs', '3' ); ?>
 
                 <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
-<?php
-echo contact_card(
-    'TBD',
-    'Associate Vice President for Regional and International Programs',
-    [
-      'phone' => '',
-      'email' => '',
-    ]
-);
-echo end_contact_card();
 
+<?php
 
 echo contact_card(
     'Susan Quade',
