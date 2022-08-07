@@ -12,6 +12,10 @@
     margin: 1rem auto 2.6rem auto;
     text-align: center;
   }
+  & > * {
+    position: relative;
+    z-index: 10;
+  }
 }
 
 

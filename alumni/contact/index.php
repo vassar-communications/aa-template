@@ -90,16 +90,28 @@ $page_info = json_decode($page_info, true);
             <aside class="col-md-4 page-index-side" id="left">
                 <div class="sticky-top" id="side">
                     <ul class="list-group nav" id="sidenav">
-                        <li class="list-group-item nav-item mb-0"><a href="#sec1" class="nav-link pl-0">Office of the Vice President</a></li>
-                        <li class="list-group-item nav-item mb-0"><a href="#sec2" class="nav-link pl-0">Advancement Services</a></li>
-                         <li class="list-group-item nav-item mb-0"><a href="#sec3" class="nav-link pl-0">Advancement Systems and Reporting</a></li>
-                        <li class="list-group-item nav-item mb-0"><a href="#sec4" class="nav-link pl-0">Gifts and Records</a></li>
-                        <li class="list-group-item nav-item mb-0"><a href="#sec5" class="nav-link pl-0">Alumnae/i Engagement and Alumnae House</a></li>
-                        <li class="list-group-item nav-item mb-0"><a href="#sec6" class="nav-link pl-0">Communications</a></li>
-                        <li class="list-group-item nav-item mb-0"><a href="#sec7" class="nav-link pl-0">Giving</a></li>
-                        <li class="list-group-item nav-item mb-0"><a href="#sec8" class="nav-link pl-0">Prospect Development and
+                        <li class="list-group-item nav-item"><a href="#sec1" class="nav-link">Office of the Vice President</a></li>
+                        <li class="list-group-item nav-item"><a href="#sec2" class="nav-link">Advancement Services</a>
+
+<ul>
+  <li class="list-group-item nav-item"><a href="#sec3" class="nav-link">Advancement Systems and Reporting</a></li>
+ <li class="list-group-item nav-item"><a href="#sec4" class="nav-link">Gifts and Records</a></li>
+</ul>
+
+                        </li>
+
+                        <li class="list-group-item nav-item"><a href="#sec5" class="nav-link">Alumnae/i Engagement and Alumnae House</a></li>
+                        <li class="list-group-item nav-item"><a href="#sec6" class="nav-link">Communications</a>
+
+<ul>
+                          <li class="list-group-item nav-item"><a href="#sec7" class="nav-link">Giving</a></li>
+</ul>
+
+                        </li>
+                        <li class="list-group-item nav-item"><a href="#sec7" class="nav-link">Giving</a></li>
+                        <li class="list-group-item nav-item"><a href="#sec8" class="nav-link">Prospect Development and
                                 Research</a></li>
-                        <li class="list-group-item nav-item mb-0"><a href="#sec9" class="nav-link pl-0">Regional and International Programs</a></li>
+                        <li class="list-group-item nav-item"><a href="#sec9" class="nav-link">Regional and International Programs</a></li>
 
                     </ul>
                 </div>
@@ -929,6 +941,7 @@ echo end_contact_card();
                 <div class="anchor" id="sec9"></div>
 
                 <h2 class="display-6 mt-5 mb-3">Regional and International Programs</h2>
+
                 <div class="grid cols-2" style="--bs-gap: 2rem">
 <?php
 echo contact_card(

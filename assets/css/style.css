@@ -10976,6 +10976,7 @@ h3.section-title, .section-title.h3 {
   }
 }
 
+.section.has-bg .section-intro,
 .section.has-bg .section-content {
   position: relative;
   z-index: 100;
@@ -11292,6 +11293,10 @@ html {
   max-width: var(--section-intro-width, 46rem);
   margin: 1rem auto 2.6rem auto;
   text-align: center;
+}
+.section-with-columns > * {
+  position: relative;
+  z-index: 10;
 }
 
 @media screen and (min-width: 50em) {
@@ -13681,6 +13686,11 @@ ul.style-checklist a {
   border-radius: 0.4rem;
   border-bottom: 1px solid #ccc;
 }
+@media screen and (max-width: 50em) {
+  .staff-contact {
+    margin-bottom: 1rem;
+  }
+}
 .staff-contact .contact-name {
   margin-bottom: 0.2rem;
 }
@@ -13688,6 +13698,9 @@ ul.style-checklist a {
   font-style: italic;
   font-size: 1.1rem;
   line-height: 1.2;
+}
+.staff-contact .contact-links {
+  margin-bottom: 0;
 }
 .staff-contact .contact-links a {
   font-size: 1.1rem;
@@ -13887,10 +13900,18 @@ ul.style-checklist a {
 .page-index-side {
   padding: 0 2rem;
 }
+@media screen and (max-width: 50em) {
+  .page-index-side {
+    margin-bottom: 3rem;
+  }
+}
 @media screen and (min-width: 50em) {
   .page-index-side {
-    padding: 0 4rem 0 0;
+    padding: 2rem 4rem 0 0;
   }
+}
+.page-index-side .sticky-top {
+  top: 2rem;
 }
 .page-index-side .list-group-item {
   border: none;
@@ -13898,13 +13919,13 @@ ul.style-checklist a {
   padding: 0;
 }
 .page-index-side .nav-link {
-  padding: 0.4rem 0;
+  padding: 0.4rem 1rem 0.4rem 0;
   transition: 0.4s all ease;
 }
 .page-index-side .nav-link:hover {
   background: #951829;
   color: #fff;
-  padding-left: 1rem;
+  padding: 0.4rem 0rem 0.4rem 1rem;
 }
 
 /* Basic links */
