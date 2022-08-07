@@ -1,0 +1,236 @@
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
+include($project_paths['main_project_root'].'/functions.php');
+?>
+<?php
+
+/* PAGE INFO === */
+
+
+$page_info = '{
+  "page_title":"Outstanding Service to Vassar College Award",
+  "page_classes":"",
+  "feature_image":"/alumni/assets/img/alumni-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg"
+}';
+
+/* === */
+$page_info = json_decode($page_info, true);
+
+?>
+
+<?php echo site_header(); ?>
+
+<?php echo vassar_masthead(); ?>
+
+<?php echo hamburger_navigation_alums(); ?>
+
+<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+
+<?php echo interior_page_nav() ?>
+
+<?php /*  PAGE CONTENT === */ ?>
+
+<?php echo sec_regularContent(
+    'Past Recipients',
+    'theme-white',
+    ''
+); ?>
+
+<h3 class="mt-5">2021</h3>
+
+<h4>Pat Jordan ’72, P’17</h4>
+
+
+<ul class="linked-list">
+  <li>
+    <?php echo icon_link(
+      'Watch the video',
+      'https://vimeo.com/574099032',
+      'video',
+      'no-arrow'
+    ); ?>
+  </li>
+		<li><a href="https://www.vassar.edu/news/five-honored-2021-aavc-awards" title="Five Honored with 2021 AAVC Awards">Read about the recipient</a></li>
+	</ul>
+
+<h3 class="mt-5">2019</h3>
+
+<h4>Gerry Laybourne ’69, P’93</h4>
+
+
+<ul class="linked-list">
+		<li><a href="https://www.vassar.edu/stories/2019/190608-aavc-honors-gerry-laybourne-69-p93-with-outstanding-service-at-vassar-award.html">Read more about the recipient</a></li>
+	</ul>
+
+<h3 class="mt-5">2018</h3>
+
+<h4>Sally Lyman Rheinfrank ’63</h4>
+
+
+<ul class="linked-list">
+  <li>
+    <?php echo icon_link(
+      'Watch the video',
+      'https://youtu.be/3cZvoALtLm0',
+      'video',
+      'no-arrow'
+    ); ?>
+  </li>
+  <li>
+		<li><a href="https://www.vassar.edu/stories/2018/180628-aavc-awards.html">Read more about the recipient</a></li>
+	</ul>
+
+<h3 class="mt-5">2016</h3>
+
+<h4>Barbara Manfrey Vogelstein ’76</h4>
+
+
+<ul class="linked-list">
+		<li><a href="https://www.vassar.edu/news/aavc-honors-barbara-manfrey-vogelstein-76-outstanding-service">Read more about the recipient</a></li>
+	</ul>
+
+<h3 class="mt-5">2015</h3>
+
+<h4>African American Alumnae/i of Vassar College (AAAVC)</h4>
+
+
+<ul class="linked-list">
+		<li><a href="https://www.vassar.edu/vq/issues/2015/02/beyond-vassar/service-award.html">Read more about the recipient</a></li>
+		<!--<li><a href="/alums/aavc/awards/outstanding-service-award/ken-miles">Read the Acceptance Remarks by former AAAVC co-chair Kenneth Miles ’07</a></li>-->
+	</ul>
+
+<h3 class="mt-5">2013</h3>
+
+<h4>Judy Axenzow Lewittes ’63</h4>
+
+
+<ul class="linked-list">
+		<li><a href="https://www.vassar.edu/vq/issues/2013/02/vassar-today/service-award.html">Read more about the recipient</a></li>
+	</ul>
+
+<h3 class="mt-5">2011</h3>
+
+<h4>Milbrey “Missie” Rennie Taylor ’68</h4>
+
+
+<ul class="linked-list">
+		<li><a href="https://www.vassar.edu/vq/issues/2011/03/beyond-vassar/congratulations.html">Read more about the recipient</a></li>
+	</ul>
+
+<h3 class="mt-5">2010</h3>
+
+<h4>Florence “FK” Millar ’44</h4>
+
+
+<ul class="linked-list">
+  <li>
+    <?php echo icon_link(
+      'Watch the video',
+      'https://youtu.be/ukUbyCX9dss',
+      'video',
+      'no-arrow'
+    ); ?>
+  </li>
+		<li><a href="https://www.vassar.edu/vq/issues/2011/01/a-look-back/for-school-for-country.html">Read more about the recipient</a></li>
+	</ul>
+
+<h3 class="mt-5">2009</h3>
+
+<h4>Richard W. Roberts ’74</h4>
+
+
+<ul class="linked-list">
+<li>
+    <?php echo icon_link(
+      'Watch the video',
+      'https://youtu.be/ArJ4xCZXeI8',
+      'video',
+      'no-arrow'
+    ); ?>
+</li>
+		<li><a href="https://www.vassar.edu/vq/issues/2009/04/beyond-vassar/outstanding-service.html">Read more about the recipient</a></li>
+	</ul>
+
+<h3 class="mt-5">2008</h3>
+
+<h4>Fay Gambee ’62</h4>
+
+
+<ul class="linked-list">
+		<!-- <li><a href="https://www.vassar.edu/alums/aavc/awards/outstanding-service-award/fay-gambee">Read Gambee’s Acceptance Remarks</a></li> -->
+		<li><a href="https://www.vassar.edu/vq/issues/2009/01/beyond-vassar/outstanding-service.html">Read more about the recipient</a></li>
+	</ul>
+
+<h3 class="mt-5">2007</h3>
+
+<h4>Mary Pick Hines ’53</h4>
+
+
+<ul class="linked-list">
+		<li><a href="https://www.vassar.edu/vq/issues/2008/01/beyond-vassar/outstanding-service.html">Read more about the recipient</a></li>
+	</ul>
+
+<h3 class="mt-5">2006</h3>
+
+<h4>Richard Van Demark ’77</h4>
+
+
+<ul class="linked-list">
+		<li><a href="https://www.vassar.edu/vq/issues/2006/04/beyond-vassar/outstanding-service.html">Read more about the recipient</a></li>
+	</ul>
+
+<h3 class="mt-5">2005</h3>
+
+<h4>Virginia Cretella Mars ’51</h4>
+
+
+<ul class="linked-list">
+		<!--<li><a href="/alums/aavc/awards/outstanding-service-award/virginia-cretella-mars">Read Mars’&nbsp;Acceptance Remarks</a></li>-->
+		<li><a href="https://www.vassar.edu/vq/issues/2005/04/beyond-vassar/service-award-2005.html">Read more about the recipient</a></li>
+	</ul>
+
+<h3 class="mt-5">2004</h3>
+
+<h4>Kathleen Holman Langan ’46</h4>
+
+
+<ul class="linked-list">
+		<!-- <li><a href="https://www.vassar.edu/alums/aavc/awards/outstanding-service-award/kathleen-holman-langan">Read Langan’s Acceptance Remarks</a></li> -->
+		<li><a href="https://www.vassar.edu/vq/issues/2004/04/beyond-vassar/outstanding-service.html">Read more about the recipient</a></li>
+	</ul>
+
+<h3 class="mt-5">2003</h3>
+
+<h4>Eugenie Aiguier Havemeyer ’51</h4>
+
+
+<ul class="linked-list">
+		<!--<li><a href="/alums/aavc/awards/outstanding-service-award/eugenie-aiguier-havemeyer">Read Havemeyer’s Acceptance Remarks</a></li>-->
+		<li><a href="https://www.vassar.edu/vq/issues/2003/04/connecting/outstanding-service.html">Read more about the recipient</a></li>
+	</ul>
+
+<h3 class="mt-5">2002</h3>
+
+<h4>Frances Aaron Hess ’53</h4>
+
+
+<ul class="linked-list">
+		<!--<li><a href="/alums/aavc/awards/outstanding-service-award/frances-aaron-hess">Read Hess’&nbsp;Acceptance Remarks</a></li>-->
+		<li><a href="https://www.vassar.edu/vq/issues/2002/04/connecting/">Read more about the recipient</a></li>
+	</ul>
+
+<h3 class="mt-5">2001</h3>
+
+<h4>Frances Prindle Taft ’42</h4>
+
+
+<ul class="linked-list">
+		<!--<li><a href="/alums/aavc/awards/outstanding-service-award/frances-prindle-taft">Read Taft’s Acceptance Remarks</a></li>-->
+		<li><a href="https://www.vassar.edu/vq/issues/2001/04/features/aavc-awards.html">Read more about the recipient</a></li>
+	</ul>
+
+
+<?php echo end_sec_regularContent(); ?>
+
+
+<?php echo site_footeralumni(); ?>
