@@ -28,7 +28,7 @@ $page_info = json_decode($page_info, true);
 <?php echo interior_page_nav() ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'The Vassar Community is Global, Connected, and Powerful.',
+    'The Vassar community is global, connected, and powerful.',
     $alumni_img_path.'alumni-resources/vassar-network/0039-22-06-cs-reunion-vassar-403.jpg',
     'image-is-first theme-cream',
     '',
@@ -45,9 +45,9 @@ $page_info = json_decode($page_info, true);
     'theme-dark-burgundy has-bg quad-pattern',
     '',
     ['img_alt_text' => 'Two people and a networking event listening to someone off screen']
-); ?>,
+); ?>
 
-<p>Sign up for VassarNet, our online platform for professional networking and connections. Take a few minutes to complete your VassarNet profile and make yourself available as a resource for the Vassar community.</p>
+<p>Sign up for <a href="https://vassarnet.vassar.edu/">VassarNet</a>, our online platform for professional networking and connections. Take a few minutes to complete your VassarNet profile and make yourself available as a resource for the Vassar community.</p>
 
 <p>Within the platform, you can answer questions a student or alum may have that are within your field of expertise or expand your own network by connecting with one of the thousands of other alumni.</p>
 
