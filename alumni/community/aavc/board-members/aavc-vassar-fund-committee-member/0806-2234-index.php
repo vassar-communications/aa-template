@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Freelance writer and editor, various publications, 2008–present; Program Editor, Spring for Music: Festival of North American Orchestra, 2010–2014; freelance writer and editor, Metropolitan Opera, 2010; writer, PBS documentary <em>A Musical Odyssey in St. Petersburg</em>, 2009; freelance editor, <em>This Old House</em>, 2009; Features Director, <em>Condé Nast House &amp; Garden</em>, 1996–2007; on-air music commentator, National Public Radio’s <em>Performance Today</em>, 1990–2002; researcher, reporter, writer, and eventually Senior Editor, <em>Newsweek</em>, 1970–1996.</p>
+<p>Freelance writer and editor, various publications, 2008–present; Program Editor, Spring for Music: Festival of North American Orchestra, 2010–2014; freelance writer and editor, Metropolitan Opera, 2010; writer, PBS documentary A Musical Odyssey in St. Petersburg, 2009; freelance editor, This Old House, 2009; Features Director, Condé Nast House & Garden, 1996–2007; on-air music commentator, National Public Radio’s Performance Today, 1990–2002; researcher, reporter, writer, and eventually Senior Editor, Newsweek, 1970–1996.</p>
 <?php echo end_sec_regularContent(); ?>
 
 

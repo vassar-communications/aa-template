@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Vice president of growth marketing, PointsBet, 2020–present; vice president of media strategy, Americas, DAZN, January 2019–2020; head of strategy, DAZN, 2018–2019; senior director, Digital &amp; Print Marketing, ESPN, 2014–2018; vice president, Integrated Marketing, MTV, 2011–2014; associate marketing director, <em>Sports Illustrated</em>, 2006–2011; account executive, Carat USA, 2005–2006.</p>
+<p>Vice president of growth marketing, PointsBet, 2020–present; vice president of media strategy, Americas, DAZN, January 2019–2020; head of strategy, DAZN, 2018–2019; senior director, Digital & Print Marketing, ESPN, 2014–2018; vice president, Integrated Marketing, MTV, 2011–2014; associate marketing director, Sports Illustrated, 2006–2011; account executive, Carat USA, 2005–2006.</p>
 <?php echo end_sec_regularContent(); ?>
 
 
