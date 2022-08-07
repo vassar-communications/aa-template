@@ -122,7 +122,7 @@ $page_info = json_decode($page_info, true);
 <?php echo link_to_id( 'Alumnae/i Engagement and Alumnae House', 'nav-link top-level-item'); ?>
                         </li>
                         <li class="list-group-item nav-item">
-<?php echo link_to_id( 'Communications', 'nav-link top-level-item'); ?>
+<?php echo link_to_id( 'Advancement Communications', 'nav-link top-level-item'); ?>
 
 <ul>
                           <li class="list-group-item nav-item">
@@ -533,7 +533,7 @@ echo end_contact_card();
 
                 <div class="anchor" id="sec6"></div>
 
-<?php echo heading_with_anchor_id( 'Communications', '3' ); ?>
+<?php echo heading_with_anchor_id( 'Advancement Communications', '3' ); ?>
                 <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
   <?php
   echo contact_card(
