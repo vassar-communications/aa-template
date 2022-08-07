@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>President &amp; innovation strategist, Figure 8 Thinking, LLC, 2015–present; global speaker, BigSpeak, 2017–present; contributing writer, <em>Inc. Magazine</em>, 2014–present; associate professor &amp; founding director, The Strategic Design MBA Program, Jefferson University, 2001–2017; editor &amp; author, <em>Strategic Design Thinking: Innovation in Products, Services, Experiences and Beyond</em>, 2015; sourcing associate, Mast Industries, 1999–2001; commissioner, The Philadelphia Art Commission, 2017–present; board member, Leadership + Design, 2017–present; member, Advisory Council, Arts &amp; Business Council of Greater Philadelphia, 2014–2017.</p>
+<p>President & innovation strategist, Figure 8 Thinking, LLC, 2015–present; global speaker, BigSpeak, 2017–present; contributing writer, Inc. Magazine, 2014–present; associate professor & founding director, The Strategic Design MBA Program, Jefferson University, 2001–2017; editor & author, Strategic Design Thinking: Innovation in Products, Services, Experiences and Beyond, 2015; sourcing associate, Mast Industries, 1999–2001; commissioner, The Philadelphia Art Commission, 2017–present; board member, Leadership + Design, 2017–present; member, Advisory Council, Arts & Business Council of Greater Philadelphia, 2014–2017.</p>
 <?php echo end_sec_regularContent(); ?>
 
 

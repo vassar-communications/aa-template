@@ -13855,6 +13855,21 @@ ul.style-checklist a {
   object-fit: cover;
 }
 
+.address-card {
+  background: #fff;
+  padding: calc(1.325rem + 0.9vw);
+  width: fit-content;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  box-shadow: 0.1rem 0.1rem #ccc;
+  border: 1px solid #ccc;
+}
+@media (min-width: 1200px) {
+  .address-card {
+    padding: 2rem;
+  }
+}
+
 /* Basic links */
 /*
 p a,
