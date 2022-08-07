@@ -22,4 +22,22 @@ function heading_with_anchor_id(
   return $heading_markup;
 }
 
+function link_to_id(
+  $link_title,
+  $classes = null,
+  $extras = null
+) {
+
+  $link_title_id = createSlug( $link_title );
+  if( $classes ) {
+    $classes = sprintf('class="%s"', $classes);
+  }
+
+  $link_markup = <<<TMP
+    <a $classes href="#$link_title_id">$link_title</a>
+  TMP;
+
+  return $link_markup;
+}
+
 ?>

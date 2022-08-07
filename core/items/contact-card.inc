@@ -10,7 +10,7 @@ function contact_card(
   $heading = get_extras_value('title_level', $extras, 'h%s');
 
   if( $heading == null )
-    $heading = 'h4';
+    $heading = 'h5';
 
   $icon_format = '<i class="fa fa-%s me-1"></i>';
   $email_format = '<a href="mailto:%1$s">%1$s</a>';
