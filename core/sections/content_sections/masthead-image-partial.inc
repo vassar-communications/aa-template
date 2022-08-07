@@ -34,7 +34,7 @@ function page_partialmasthead($cover_url, $extras = false) {
   <div class="title-container d-flex flex-column-reverse">
     <div class="section__title">
 
-    <h1 class="section__title__main display-1">
+    <h1 class="section__title__main">
     $page_supertitle
     $page_title</h1>
     </div>

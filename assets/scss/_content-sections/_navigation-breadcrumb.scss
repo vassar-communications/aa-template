@@ -10,6 +10,16 @@ $nav-item-border-size: 2px;
   --nav-outline-color: #{$gold};
 }
 
+@include break(sm, max) {
+  .breadcrumb-item {
+    @for $i from 2 through 4 {
+      &:nth-child(#{$i}) {
+        margin-left: #{ (($i - 1) * 1 ) }rem;
+      }
+    }
+  }
+}
+
 .main-site-nav {
 
   .breadcrumb,
@@ -24,8 +34,23 @@ $nav-item-border-size: 2px;
   .breadcrumb-item + .breadcrumb-item::before {
     float: left;
     padding-right: 0.5rem;
+
+    @include break(sm, max) {
+      content: '';
+      border: 1px solid #f00;
+      height: 0.75rem;
+      margin: 0 0.3rem 0.65rem -0.5rem;
+      border-top: none;
+      border-right: none;
+      width: 0.5rem;
+      display: block;
+    }
+
+    @include break(sm) {
+      content: '\f054';
+
+    }
     color: #aaa;
-    content: '\f054';
     font-family: var(--font-icons);
     font-weight: 900;
     font-size: 0.9rem;
@@ -34,6 +59,10 @@ $nav-item-border-size: 2px;
   .breadcrumb-item {
     display: flex;
     align-items: center;
+
+    @include break(sm, max) {
+      padding-left: 0;
+    }
   }
 
   .local-section-nav {
@@ -97,8 +126,11 @@ $nav-item-border-size: 2px;
 }
 
 .breadcrumb-item {
-  font-size: 1.1rem;
-  
+  font-size: 1.2rem;
+
+  @include break(md) {
+    font-size: 1.1rem;
+  }
 }
 
 li.breadcrumb-item:last-child a {

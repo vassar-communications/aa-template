@@ -12404,6 +12404,11 @@ This should be a section option
   z-index: 20;
   padding: 16vw 8vw 8vw;
 }
+.title-container .section__title__main {
+  font-size: calc(1.725rem + 5.7vw);
+  font-weight: 400;
+  line-height: 1;
+}
 .title-container .section__title__tagline {
   margin-bottom: 0;
 }
@@ -12580,6 +12585,17 @@ a[data-bs-toggle=collapse]:hover {
   --nav-outline-color: #C6AA76;
 }
 
+@media screen and (max-width: 40em) {
+  .breadcrumb-item:nth-child(2) {
+    margin-left: 1rem;
+  }
+  .breadcrumb-item:nth-child(3) {
+    margin-left: 2rem;
+  }
+  .breadcrumb-item:nth-child(4) {
+    margin-left: 3rem;
+  }
+}
 .main-site-nav .breadcrumb,
 .main-site-nav .nav {
   display: block;
@@ -12594,14 +12610,35 @@ a[data-bs-toggle=collapse]:hover {
   float: left;
   padding-right: 0.5rem;
   color: #aaa;
-  content: "";
   font-family: var(--font-icons);
   font-weight: 900;
   font-size: 0.9rem;
 }
+@media screen and (max-width: 40em) {
+  .main-site-nav .breadcrumb-item + .breadcrumb-item::before {
+    content: "";
+    border: 1px solid #f00;
+    height: 0.75rem;
+    margin: 0 0.3rem 0.65rem -0.5rem;
+    border-top: none;
+    border-right: none;
+    width: 0.5rem;
+    display: block;
+  }
+}
+@media screen and (min-width: 40em) {
+  .main-site-nav .breadcrumb-item + .breadcrumb-item::before {
+    content: "";
+  }
+}
 .main-site-nav .breadcrumb-item {
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 40em) {
+  .main-site-nav .breadcrumb-item {
+    padding-left: 0;
+  }
 }
 .main-site-nav .local-section-nav {
   padding: 0.2rem 0.8rem 0 0.8rem;
@@ -12653,7 +12690,12 @@ a[data-bs-toggle=collapse]:hover {
 }
 
 .breadcrumb-item {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+}
+@media screen and (min-width: 50em) {
+  .breadcrumb-item {
+    font-size: 1.1rem;
+  }
 }
 
 li.breadcrumb-item:last-child a {
@@ -13997,6 +14039,7 @@ footer a  {
   --link-underline-color: rgba(255,255,255,0.2);
   --link-underline-color: #fff;
   --link-hover-opacity: 0.6;
+  --border-accent-verylight-themebased: rgba(255,255,255,0.2);
 }
 .theme-burgundy.quad-pattern {
   --bg-image: url("/assets/images/Vassar_QuadGrid-white.png");
@@ -14067,6 +14110,7 @@ footer a  {
   --section-link-hover-bg-color: var(--color-vassar-burgundy);
   --section-link-hover-color: var(--color-vassar-charcoal);
   --intro-line-color: var(--color-vassar-burgundy);
+  --border-accent-verylight-themebased: rgba(0,0,0,0.2);
 }
 .theme-cream.quad-pattern {
   --bg-image: url("/assets/images/Vassar_QuadGrid-black.png");
@@ -14090,6 +14134,7 @@ footer a  {
   --section-link-hover-bg-color: var(--color-vassar-charcoal);
   --section-link-hover-color: var(--color-vassar-red);
   --intro-line-color: var(--color-vassar-burgundy);
+  --border-accent-verylight-themebased: rgba(0,0,0,0.2);
 }
 .theme-verylightgray.quad-pattern,
 .theme-extralightgray.quad-pattern {
