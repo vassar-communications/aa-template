@@ -101,15 +101,13 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Volunteer',
     '/alumni/assets/img/alumni-give/Vassar Project-11.jpg',
-    'theme-cream',
+    'theme-cream section-large-title',
     'mw-100'
 ); ?>
 
-
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 border-animate mb-5 color-burgundy">Volunteer</h2>
     <p>Deepen relationships, expand your community, and devote time and expertise to things you care about.</p>
     <?php echo cta_link(
         '/alumni/give/volunteer/',
@@ -120,15 +118,14 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Be a Mentor',
     '/alumni/assets/img/alumni-give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675-crop.jpg',
-    'theme-burgundy quad-pattern has-bg image-is-first',
+    'theme-burgundy quad-pattern has-bg image-is-first section-large-title',
     'mw-100'
 ); ?>
 
 
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 border-animate mb-5 ">Be a Mentor </h2>
     <p>Being a mentor is an extraordinary opportunity to develop positive relationships with students and help them navigate their future personally and professionally.</p>
     <?php echo cta_link(
         '/alumni/give/be-a-mentor/',
@@ -141,15 +138,14 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    null,
+    'Hire Vassar',
     '/alumni/assets/img/alumni-give/0006-19-01-kr-scc-reception-vassar-0956_crop.jpg',
-    'theme-cream',
+    'theme-cream section-large-title',
     'mw-100'
 ); ?>
 
 
 <div class="animate-when-content-appears animation-slide-up">
-    <h2 class="display-2 border-animate mb-5  color-burgundy">Hire Vassar</h2>
     <p>Vassar students and alumni are great candidates for internships and positions at any level within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
     <?php echo cta_link(
         '/alumni/give/hire-vassar/',
@@ -159,13 +155,13 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_wideContent(
-    '',
-    '',
-    'theme-charcoal bg-dark  presentation quad-pattern has-bg',
-    'mw-4 py-3 d-flex flex-column flex-md-row justify-content-around'
+    'Every Gift Matters.',
+    null,
+    'theme-charcoal bg-dark presentation quad-pattern has-bg section-large-title',
+    'mw-4 py-3 d-flex flex-column justify-content-center flex-md-row'
 ); ?>
 
-<h2 class="h2"><strong>Every Gift Matters.</strong> Explore funds and initiatives.</h2>
+<p class="intro-text">Explore funds and initiatives.</p>
 <a href="https://go.vassar.edu/give" class="btn btn-primary arrow">Make a Gift</a>
 <?php echo end_sec_wideContent(); ?>
 
