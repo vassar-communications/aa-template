@@ -24,7 +24,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Statue of Matthew Vassar']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -35,7 +35,8 @@ $page_info = json_decode($page_info, true);
     'Missed it live? See it here.',
     '/alumni/assets/img/alumni-calendar/on-demand/Media_Panel_Yale_Club-Bernstein-Reid-2018.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Panel discussion in front of an audience']
 ); ?>
 <p>On-Demand content featuring expertise from fellow grads and Vassar faculty and researchers.</p>
 
@@ -58,7 +59,7 @@ echo item_imageCard_videoModal(
     'vimeo',
     '',
     ['url' => '/alumni/assets/img/alumni-calendar/on-demand/A-Conversation-on-Public-Health-after-COVID-19.jpg',
-        'alt' => 'needsalttxt'
+        'alt' => 'A Conversation on Public Health after COVID-19'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -76,7 +77,7 @@ echo item_imageCard_videoModal(
     'vimeo',
     '',
     ['url' => '/alumni/assets/img/alumni-calendar/on-demand/A-Conversation-on-Womens-Rights.jpg',
-        'alt' => 'needsalttxt'
+        'alt' => 'A Conversation on Women’s Rights: Present and Future'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -92,7 +93,7 @@ echo item_imageCard_videoModal(
     'vimeo',
     '',
     ['url' => '/alumni/assets/img/alumni-calendar/on-demand/Higher-Education-in-the-Era-of-Pandemic.jpg',
-        'alt' => 'needsalttxt'
+        'alt' => 'Higher Education in the Era of Pandemic'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -108,7 +109,8 @@ echo item_imageCard_videoModal(
     'vimeo',
     '',
     ['url' => '/alumni/assets/img/alumni-calendar/on-demand/Votes-for-Women.jpg',
-        'alt' => 'needsalttxt'
+        'alt' => 'Votes for Women: Vassar and the Politics of Voting Rights Past, Present, and Future
+        '
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -124,7 +126,7 @@ echo item_imageCard_videoModal(
     'vimeo',
     '',
     ['url' => '/alumni/assets/img/alumni-calendar/on-demand/American-Democracy-at-a-Crossroads.jpg',
-        'alt' => 'needsalttxt'
+        'alt' => 'American Democracy at a Crossroads'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -139,7 +141,7 @@ echo item_imageCard_videoModal(
     'vimeo',
     '',
     ['url' => '/alumni/assets/img/alumni-calendar/on-demand/Vassars-Sustainable-Future-A-Conversation.jpg',
-        'alt' => 'needsalttxt'
+        'alt' => 'Vassar’s Sustainable Future: A Conversation'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -161,7 +163,7 @@ echo item_imageCard_videoModal(
 <?php echo item_cardWithText(
     'The Vassar Classroom Revisited',
     'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5032',
-    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/The-Vassar-Classroom-Revisited-Vassar-Reunion-1906-CS-V815-006.jpg', 'alt' => 'needsalttxt' ],
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/The-Vassar-Classroom-Revisited-Vassar-Reunion-1906-CS-V815-006.jpg', 'alt' => 'The Vassar Classroom Revisited' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
@@ -172,8 +174,8 @@ echo item_imageCard_videoModal(
 
 <?php echo item_cardWithText(
     'In Honor Of Linda Nochlin ’51',
-    'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5032',
-    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/Linda-Nochlin-00-MB.jpg', 'alt' => 'needsalttxt' ],
+    'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5537',
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/Linda-Nochlin-00-MB.jpg', 'alt' => 'In Honor Of Linda Nochlin ’51' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
@@ -185,7 +187,7 @@ echo item_imageCard_videoModal(
 <?php echo item_cardWithText(
     'AAAVC – “On Mattering”',
     'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5313',
-    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/AAAVC-On Mattering-Reunion-Friday-190607-CS-V815-033.jpg', 'alt' => 'needsalttxt' ],
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/AAAVC-On Mattering-Reunion-Friday-190607-CS-V815-033.jpg', 'alt' => 'AAAVC – “On Mattering”' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
