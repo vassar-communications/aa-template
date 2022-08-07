@@ -28,12 +28,12 @@ $page_info = json_decode($page_info, true);
 <?php echo interior_page_nav() ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'The Vassar community is Global, Connected, and Powerful.',
+    'The Vassar community is global, connected, and powerful.',
     $alumni_img_path.'alumni-resources/vassar-network/0039-22-06-cs-reunion-vassar-403.jpg',
     'image-is-first theme-cream',
     ''
 ); ?>
-<p class="intro-text">Whether you’re looking to reconnect with old friends, network with others in your field, seek or post job and internship opportunities, or benefit from the guidance and advice of others, the Vassar family is here for you. Get and stay connected using the tools below.</p>
+<p>Whether you’re looking to reconnect with old friends, network with others in your field, seek or post job and internship opportunities, or benefit from the guidance and advice of others, the Vassar family is here for you. Get and stay connected using the tools below.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -62,24 +62,6 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <p>Stay connected with your fellow alums and foster lasting connections beyond the College’s gate. </p>
-
-
-
-
-<?php echo item_iconItem(
-    'Leadership Directories',
-    'image',
-    'icon-on-left theme-white-border'
-); ?>
-
-<ul class="linked-list">
-    <li><a class="tbd" href="#">Vassar Clubs</a></li>
-    <li><a class="tbd" href="#">Affinity Groups </a></li>
-    <li><a class="tbd" href="#">Class by Year</a></li>
-</ul>
-
-
-<?php echo end_item_iconItem(); ?>
 
 
 <?php echo item_iconItem(
