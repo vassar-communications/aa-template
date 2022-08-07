@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Alumnae/i Association of Vassar",
+  "page_title":"Alumnae/i Association of Vassar College",
   "page_navTitle":"AAVC",
   "page_classes":"",
   "feature_image":"/alumni/assets/img/alumni-community/aavc/0045-19-05-kr-spring-vassar-6002.jpg"
@@ -25,7 +25,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Aerial view of Vassar College campus ']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -35,7 +35,8 @@ $page_info = json_decode($page_info, true);
     'A Dynamic Global Network of 41,000+ Members!',
     $alumni_img_path.'alumni-community/aavc/Vassar_Reunion_19 BL_4788.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'AAVC members holding an AAVC banner']
 ); ?>
 <p>Since its founding 1871, the AAVC has been dedicated to connecting alumni to the College
     and to each other, sustaining lifelong relationships and shared Vassar experiences.</p>
@@ -47,7 +48,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_hasColumns(
-    'A connection with Vassar lasts for a lifetime.',
+    'A Connection with Vassar Lasts for a Lifetime.',
     '3',
     '<p>Membership in the AAVC is <em>automatic</em> for all Vassar graduates and former students enrolled as undergraduates.</p>
 

@@ -57,7 +57,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Affinity groups strengthen alumni communities that center shared experiences, activities, and identities. These communities include athletic teams, singing groups, LGBTQ+, ALANA orgs, veterans, and First Gen alums (among others).</p>
-    <p>If you are interested in participating in affinity groups, reach out to Sharif Rosen, Associate Director for Multicultural and Affinity Engagement at   <a href="mailto:srosen@vassar.edu">srosen@vassar.edu</a> or <a href="tel:845-437-5543">(845) 437-5443</a>.</p>
+    <!-- <p>If you are interested in participating in affinity groups, reach out to Sharif Rosen, Associate Director for Multicultural and Affinity Engagement at   <a href="mailto:srosen@vassar.edu">srosen@vassar.edu</a> or <a href="tel:845-437-5543">(845) 437-5443</a>.</p> -->
     <ul class="linked-list">
         <li><a href="https://www.vassar.edu/social-media-alumni#affinity-groups">Follow Affinity Groups on Social</a></li>
         <li><a href="http://connect.vassar.edu/volunteer">Become an Affinity Group Volunteer</a></li>

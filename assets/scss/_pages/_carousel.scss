@@ -36,6 +36,14 @@ $border-distance: 0.6rem;
   }
 }
 
+.carousel-cell {
+  width: 100%;
+
+  @media only screen and (min-width: 1160px) {
+    width: 86%;    
+  }
+}
+
 @include break(lg) {
   /* disable Flickity for large devices */
 
@@ -48,7 +56,6 @@ $border-distance: 0.6rem;
     }
 
     .carousel-cell {
-      width: 86%;
       height: 200px;
       margin-right: 10px;
      // border-radius: 5px;

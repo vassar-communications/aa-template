@@ -23,17 +23,18 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Two people embrace at a crowded event']); ?>
 
 <?php echo interior_page_nav() ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'The Vassar community is Global, Connected, and Powerful.',
+    'The Vassar Community is Global, Connected, and Powerful.',
     $alumni_img_path.'alumni-resources/vassar-network/0039-22-06-cs-reunion-vassar-403.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Reunion attendee in a procession raising hand in the air and smiling']
 ); ?>
-<p class="intro-text">Whether you’re looking to reconnect with old friends, network with others in your field, seek or post job and internship opportunities, or benefit from the guidance and advice of others, the Vassar family is here for you. Get and stay connected using the tools below.</p>
+<p>Whether you’re looking to reconnect with old friends, network with others in your field, seek or post job and internship opportunities, or benefit from the guidance and advice of others, the Vassar family is here for you. Get and stay connected using the tools below.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -42,8 +43,10 @@ $page_info = json_decode($page_info, true);
     'Join VassarNet',
     $alumni_img_path.'alumni-resources/vassar-network/0036-22-06-kr-reunion-vassar-0120.jpg',
     'theme-dark-burgundy has-bg quad-pattern',
-    ''
-); ?>
+    '',
+    ['img_alt_text' => 'Two people and a networking event listening to someone off screen']
+); ?>,
+
 <p>Sign up for VassarNet, our online platform for professional networking and connections. Take a few minutes to complete your VassarNet profile and make yourself available as a resource for the Vassar community.</p>
 
 <p>Within the platform, you can answer questions a student or alum may have that are within your field of expertise or expand your own network by connecting with one of the thousands of other alumni.</p>
@@ -64,24 +67,6 @@ $page_info = json_decode($page_info, true);
 <p>Stay connected with your fellow alums and foster lasting connections beyond the College’s gate. </p>
 
 
-
-
-<?php echo item_iconItem(
-    'Leadership Directories',
-    'image',
-    'icon-on-left theme-white-border'
-); ?>
-
-<ul class="linked-list">
-    <li><a class="tbd" href="#">Vassar Clubs</a></li>
-    <li><a class="tbd" href="#">Affinity Groups </a></li>
-    <li><a class="tbd" href="#">Class by Year</a></li>
-</ul>
-
-
-<?php echo end_item_iconItem(); ?>
-
-
 <?php echo item_iconItem(
     'Social Media Directories',
     'people-group',
@@ -90,8 +75,8 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
     <li><a href="https://www.vassar.edu/social-media">Vassar Social Media Directory</a></li>
-    <li><a href="https://www.vassar.edu/social-media-alumni">Vassar Clubs</a></li>
-    <li><a href="https://www.vassar.edu/social-media-alumni">Affinity Groups </a></li>
+    <li><a href="https://www.vassar.edu/social-media-alumni#regional-clubs">Vassar Clubs</a></li>
+    <li><a href="https://www.vassar.edu/social-media-alumni#affinity-groups">Affinity Groups </a></li>
     <li><a href="https://www.vassar.edu/social-media/class-by-year">Class by Year</a></li>
 </ul>
 

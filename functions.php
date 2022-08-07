@@ -89,6 +89,7 @@ include($project_paths['main_project_root'].'/core/atoms/cta-link.inc');
 include($project_paths['main_project_root'].'/core/atoms/icon-link.inc');
 include($project_paths['main_project_root'].'/core/atoms/cta-button.inc');
 include($project_paths['main_project_root'].'/core/atoms/phone-number.inc');
+include($project_paths['main_project_root'].'/core/atoms/title-with-id.inc');
 include($project_paths['main_project_root'].'/core/atoms/centralized-links.inc');
 
 
@@ -719,4 +720,60 @@ function make_page_title() {
     }
   }
   return $final_trail;
+}
+
+function local_info() {
+
+
+  // find the local directory
+  // what site are we in?
+  $current_site = what_site_are_we_on();
+
+  // and what's the root path?
+  $root_path_to_current_site = get_base_path() . '/' . $current_site;
+
+  // so the file with all our local footer info
+  // will be right here:
+  $footer_info_path = $root_path_to_current_site . '/inc/_footer-info.php';
+
+  // load the variables.
+  include( $footer_info_path );
+
+  if( !isset( $address) ) {
+    $address = array(
+      'address' => '161 College Avenue, Box 14, Poughkeepsie, New York 12603',
+      'address_link' => 'https://www.google.com/maps/place/Alumnae+House/@41.6908124,-73.9020119,19.45z/data=!4m8!3m7!1s0x89dd3e5703778887:0xf94de484d4157d23!5m2!4m1!1i2!8m2!3d41.6909832!4d-73.9016665'
+    );
+  }
+
+  $local_info['address_markup'] = footer_address_link( $address );
+
+
+  //  now for the links
+
+  $top_links_markup = '';
+
+  foreach ($top_links as $label => $link ) {
+    $top_links_markup .= <<<TMP
+			<a href="$link" class="me-3 my-2">$label <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+TMP;
+  }
+  $local_info['top_links_markup'] = $top_links_markup;
+
+  return $local_info;
+}
+
+
+
+function what_site_are_we_on() {
+  $the_path = get_base_path( 'path_to_current_doc_from_web_dir' );
+  $the_path = ltrim( $the_path, "/" );
+  $the_path = explode( '/',$the_path );
+  return $the_path[0];
+}
+
+function footer_address_link( $address ) {
+  return <<<TMP
+  <a href="{$address['address_link']}"><i class="px-1 fa-solid fa-location-dot"></i> {$address['address']}</a>
+TMP;
 }

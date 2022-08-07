@@ -24,7 +24,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Aerial view of Vassar Campus']); ?>
 
 
 
@@ -35,10 +35,11 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'Every alum. Any amount. Every year.',
+    'Every Alum. Any Amount. Every Year.',
     '/alumni/assets/img/alumni-give/support/0085-20-12-kr-reading-room-vassar-0118.jpg',
     'theme-cream image-is-first',
-    ''
+    '',
+    ['img_alt_text' => 'Interior view of Vassar College ’51 Reading Room']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
        <p class="intro-text"> A gift at any level is key to sustaining Vassar</p>
@@ -65,6 +66,7 @@ $page_info = json_decode($page_info, true);
     '/alumni/assets/img/alumni-give/support/Ad_Poster_15_TT_1683.jpg',
     'theme-burgundy image-is-first',
     '',
+    ['img_alt_text' => 'Front of Main Building at Vassar College'],
     ['title_level' => '3']
 
 ); ?>
@@ -81,6 +83,7 @@ $page_info = json_decode($page_info, true);
     '/alumni/assets/img/alumni-give/support/volleyball-V752-129.jpg',
     'theme-cream',
     '',
+    ['img_alt_text' => 'Volleyball player celebrating'],
     ['title_level' => '3']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -98,6 +101,7 @@ $page_info = json_decode($page_info, true);
     '/alumni/assets/img/alumni-give/support/0002-20-01-kr-scc-maldonado-vassar-0047.jpg',
     'theme-charcoal has-bg quad-pattern image-is-first',
     '',
+    ['img_alt_text' => 'Speaker in front of a microphone gesticulating'],
     ['title_level' => '3']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -113,6 +117,7 @@ $page_info = json_decode($page_info, true);
     '/alumni/assets/img/alumni-give/support/Vassar_Campus_6_26_17_0078.jpg',
     'theme-cream',
     '',
+    ['img_alt_text' => 'Exterior View of the The Bridge for Laboratory Sciences building on Vassar Campus'],
     ['title_level' => '3']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
@@ -129,13 +134,14 @@ $page_info = json_decode($page_info, true);
     '/alumni/assets/img/alumni-give/support/0073-21-06-kr-summer-vassar-0183.jpg',
     'theme-dark-burgundy image-is-first',
     '',
+    ['img_alt_text' => 'Plaque in front of the Shakespear Garden on Vassar Campus'],
     ['title_level' => '3']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Echoing Vassar’s commitment to philanthropy and service, your participation shows the current student body the importance of giving through programs like the Generation Vassar Challenge. Your commitment to Vassar and its future is also an important example to set for prospective students and encourages young alumni to give. Ultimately, it just feels good to continue to give back to the community that helped to shape your experience as a student.</p>
 
     <?php echo cta_link(
-        '#',
+        'https://connect.vassar.edu/s/1654/20/giving/landing.aspx?sid=1654&gid=2&pgid=5207',
         'Visit Generation Vassar'
     ); ?>
 

@@ -38,7 +38,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <section>
-<p>AAVC is governed by a&nbsp;board of directors, nominated by an independent nominating committee. The goal is to have a board of directors comprised of alumni who represent the breadth and depth of the Vassar community.&nbsp; Professional expertise and service to Vassar are among the criteria used for nominations.</p>
+<p>AAVC is governed by a&nbsp;board of directors, nominated by an independent nominating committee. The goal is to have a board of directors comprised of alumnae/i who represent the breadth and depth of the Vassar community.&nbsp; Professional expertise and service to Vassar are among the criteria used for nominations.</p>
 
 <p class="faq__indexHeader"><strong><a href=" #g1">Board Requirements</a></strong></p>
 

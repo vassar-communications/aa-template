@@ -76,37 +76,54 @@ $page_info = json_decode($page_info, true);
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php echo sec_regularContent('Staff Directory','','',); ?>
 
-<?php   echo end_sec_regularContent(); ?>
+
+<?php echo sec_regularContent(
+  'Staff Directory',
+  'mw-inner-5'
+); ?>
+
+
 <div class="container mw-5">
     <div class="container mw-5 position-relative" id="content">
         <div class="row mt-5">
-            <aside class="col-md-3" id="left">
-                <div class="mt-5 mb-3 sticky-top" id="side">
-                    <ul class="list-group nav flex-md-column flex-row justify-content-between pt-5" id="sidenav">
-                        <li class="list-group-item nav-item mb-0"><a href="#sec1" class="nav-link pl-0">Office of the Vice President</a></li>
-                        <li class="list-group-item nav-item mb-0"><a href="#sec2" class="nav-link pl-0">Advancement Services</a></li>
-                         <li class="list-group-item nav-item mb-0"><a href="#sec3" class="nav-link pl-0">Advancement Systems and Reporting</a></li>
-                        <li class="list-group-item nav-item mb-0"><a href="#sec4" class="nav-link pl-0">Gifts and Records</a></li>
-                        <li class="list-group-item nav-item mb-0"><a href="#sec5" class="nav-link pl-0">Alumnae/i Engagement and Alumnae House</a></li>
-                        <li class="list-group-item nav-item mb-0"><a href="#sec6" class="nav-link pl-0">Communications</a></li>
-                        <li class="list-group-item nav-item mb-0"><a href="#sec7" class="nav-link pl-0">Giving</a></li>
-                        <li class="list-group-item nav-item mb-0"><a href="#sec8" class="nav-link pl-0">Prospect Development and
+            <aside class="col-md-4 page-index-side" id="left">
+                <div class="sticky-top" id="side">
+                    <ul class="list-group nav" id="sidenav">
+                        <li class="list-group-item nav-item"><a href="#sec1" class="nav-link">Office of the Vice President</a></li>
+                        <li class="list-group-item nav-item"><a href="#sec2" class="nav-link">Advancement Services</a>
+
+<ul>
+  <li class="list-group-item nav-item"><a href="#sec3" class="nav-link">Advancement Systems and Reporting</a></li>
+ <li class="list-group-item nav-item"><a href="#sec4" class="nav-link">Gifts and Records</a></li>
+</ul>
+
+                        </li>
+
+                        <li class="list-group-item nav-item"><a href="#sec5" class="nav-link">Alumnae/i Engagement and Alumnae House</a></li>
+                        <li class="list-group-item nav-item"><a href="#sec6" class="nav-link">Communications</a>
+
+<ul>
+                          <li class="list-group-item nav-item"><a href="#sec7" class="nav-link">Giving</a></li>
+</ul>
+
+                        </li>
+                        <li class="list-group-item nav-item"><a href="#sec7" class="nav-link">Giving</a></li>
+                        <li class="list-group-item nav-item"><a href="#sec8" class="nav-link">Prospect Development and
                                 Research</a></li>
-                        <li class="list-group-item nav-item mb-0"><a href="#sec9" class="nav-link pl-0">Regional and International Programs</a></li>
+                        <li class="list-group-item nav-item"><a href="#sec9" class="nav-link">Regional and International Programs</a></li>
 
                     </ul>
                 </div>
             </aside>
 
-            <main class="col p-5 col--text">
+            <main class="col col-md-8 col--text">
                 <div class="anchor" id="sec1"></div>
 
                 <h2 class="display-6 mb-5">Office of the Vice President</h2>
 
 
-                <div class="grid cols-2" style="--bs-gap:1rem">
+                <div class="grid cols-2" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Tim Kane',
@@ -150,7 +167,7 @@ echo end_contact_card();
                 <div class="anchor" id="sec2"></div>
 
 <h2 class="display-6 mt-5 mb-3">Advancement Services</h2>
-                <div class="grid cols-2" style="--bs-gap:1rem">
+                <div class="grid cols-2" style="--bs-gap: 2rem">
 <?php
                 echo contact_card(
                     'Mary Carole Starke',
@@ -223,7 +240,7 @@ echo end_contact_card();
                 <div class="anchor" id="sec3"></div>
 
                 <h3 class="mt-5 mb-3">Advancement Systems and Reporting</h3>
-                <div class="grid cols-2" style="--bs-gap:1rem">
+                <div class="grid cols-2" style="--bs-gap: 2rem">
 <?php
 
 echo contact_card(
@@ -276,7 +293,7 @@ echo end_contact_card();
 
                 <h3 class="mt-5 mb-3">Gifts and Records</h3>
 
-                <div class="grid cols-2" style="--bs-gap:1rem">
+                <div class="grid cols-2" style="--bs-gap: 2rem">
 <?php
 
 echo contact_card(
@@ -351,7 +368,7 @@ echo end_contact_card();
                 <div class="anchor" id="sec5"></div>
 
                 <h2 class="display-6 mt-5 mb-3">Alumnae/i Engagement and Alumnae House</h2>
-                <div class="grid cols-2" style="--bs-gap:1rem">
+                <div class="grid cols-2" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Lisa Tessler',
@@ -468,7 +485,7 @@ echo end_contact_card();
                 <div class="anchor" id="sec6"></div>
 
                 <h2 class="display-6 mt-5 mb-3">Communications</h2>
-                <div class="grid cols-2" style="--bs-gap:1rem">
+                <div class="grid cols-2" style="--bs-gap: 2rem">
   <?php
   echo contact_card(
     'TBD',
@@ -539,7 +556,7 @@ echo end_contact_card();
                 <div class="anchor" id="sec7"></div>
 
                 <h3 class="mt-5 mb-3">Donor Relations</h3>
-                <div class="grid cols-2" style="--bs-gap:1rem">
+                <div class="grid cols-2" style="--bs-gap: 2rem">
                 <?php
                   echo contact_card(
                       'Kristy Grimes',
@@ -579,14 +596,14 @@ echo end_contact_card();
                       'Administrative Assistant',
                       [
                         'phone' => '845-437-5480',
-                        'email' => 'cfrakeyzaguirre%40vassar.edu@vassar.edu',
+                        'email' => 'cfrakeyzaguirre@vassar.edu',
                       ]
                   );
                   echo end_contact_card();
 ?>
 </div>
                 <h2 class="display-6 mt-5 mb-3">Individual Giving</h2>
-                <div class="grid cols-2" style="--bs-gap:1rem">
+                <div class="grid cols-2" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Erin Martin',
@@ -613,7 +630,7 @@ echo end_contact_card();
 </div>
 
                 <h3 class="mt-5 mb-3">Annual Giving</h3>
-                <div class="grid cols-2" style="--bs-gap:1rem">
+                <div class="grid cols-2" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Deborah Vanecek',
@@ -719,7 +736,7 @@ echo end_contact_card();
 
 
                 <h3 class="mt-5 mb-3">Leadership Gifts</h3>
-                <div class="grid cols-2" style="--bs-gap:1rem">
+                <div class="grid cols-2" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Gregg McCarty',
@@ -779,7 +796,7 @@ echo end_contact_card();
 
 
                 <h3 class="mt-5 mb-3">Gift Planning</h3>
-                <div class="grid cols-2" style="--bs-gap:1rem">
+                <div class="grid cols-2" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Alexas Orcutt',
@@ -806,7 +823,7 @@ echo end_contact_card();
 
 
                 <h3 class="mt-5 mb-3">Parent and Family Giving</h3>
-                <div class="grid cols-2" style="--bs-gap:1rem">
+                <div class="grid cols-2" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Elizabeth Hoffman',
@@ -844,7 +861,7 @@ echo end_contact_card();
 
 
                 <h3 class="mt-5 mb-3">Principal Gifts</h3>
-                <div class="grid cols-2" style="--bs-gap:1rem">
+                <div class="grid cols-2" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Cathryn S. Stevens',
@@ -873,7 +890,7 @@ echo end_contact_card();
                 <div class="anchor" id="sec8"></div>
 
                 <h3 class="mt-5 mb-3">Prospect Development and Research</h3>
-                <div class="grid cols-2" style="--bs-gap:1rem">
+                <div class="grid cols-2" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Richard Horne',
@@ -924,7 +941,8 @@ echo end_contact_card();
                 <div class="anchor" id="sec9"></div>
 
                 <h2 class="display-6 mt-5 mb-3">Regional and International Programs</h2>
-                <div class="grid cols-2" style="--bs-gap:1rem">
+
+                <div class="grid cols-2" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'TBD',
@@ -966,6 +984,7 @@ echo end_contact_card();
     </div>
 </div>
 
+<?php echo end_sec_regularContent(); ?>
 
 
 <?php echo relatedTopics(); ?>

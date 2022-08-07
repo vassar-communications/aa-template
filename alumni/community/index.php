@@ -58,7 +58,11 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Be Active. Grow.',
     'Connect with fellow community members, participate in events, sign-up for mentoring/networking opportunities, and learn about all the ways to give back to Vassar.',
-    '/alumni/assets/img/alumni-community/Vassar_11.19.17_Woodmere_Phila-151-edits.jpg');
+    '/alumni/assets/img/alumni-community/Vassar_11.19.17_Woodmere_Phila-151-edits.jpg',
+    null,
+    null,
+    ['img_alt_text' => 'Two Alumni community members talking']
+);
 ?>
 
 
@@ -71,7 +75,8 @@ $page_info = json_decode($page_info, true);
     'Alumni Groups',
     '/alumni/assets/img/alumni-community/alumni-groups/0127_12_12_YEM_2467.jpg',
     'theme-cream image-is-first',
-    ''
+    '',
+    ['img_alt_text' => 'Three Alumni community members talking']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Explore Vassar&#8217;s extensive network of groups and clubs.</p>
@@ -85,16 +90,17 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Alumnae/i Association of Vassar',
+    'Alumnae/i Association of Vassar College',
     '/alumni/assets/img/alumni-community/aavc/Vassar_Reunion_19 BL_4788.jpg',
     'theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'AAVC members holding an AAVC banner']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>A dynamic global network of 41,000+ members!</p>
     <?php echo cta_link(
         '/alumni/community/aavc',
-        'Explore opportunities to engage in person or virtually'
+        'Learn more about AAVC'
     ); ?>
 </div>
 
@@ -105,7 +111,8 @@ $page_info = json_decode($page_info, true);
     'Alumni News & Stories',
     '/alumni/assets/img/alumni-community/blum-square.jpg',
     'theme-cream image-is-first',
-    ''
+    '',
+    ['img_alt_text' => 'Vassar Alumni Jason Blum speaking into a microphone']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Read about the latest achievements from Vassar alumni.

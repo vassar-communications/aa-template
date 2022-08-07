@@ -91,7 +91,7 @@ Make sure functions convert straight quotes to curly
   <p class="intro-text text-center">May 31–June 2, 2024<br />
 June 6–8, 2025</p>
 
-<p>If you have any questions, please contact us at <a class="burgundy-link" href="mailto:reunion@vassar.edu">reunion@vassar.edu</a> or <?php phone_number('800-443-8196'); ?> (choose option 5).</p>
+<p>If you have any questions, please contact us at <a class="burgundy-link" href="mailto:reunion@vassar.edu">reunion@vassar.edu</a> or <a class="burgundy-link" href="tel:1-800-443-8196">800-443-8196</a> (choose option 5).</p>
   <?php echo end_invitation_style_card(); ?>
 
 
@@ -102,7 +102,7 @@ June 6–8, 2025</p>
     'September 30–October 2',
     [
       'img_url' => 'https://www.vassar.edu/sites/default/files/2021-10/0099-21-10-kr-fw-welcome-vassar-0010.jpg',
-      'img_alt_text' => 'alt text'
+      'img_alt_text' => 'Vassar Main entrance with banner that reads, Welcome Vassar Families'
     ],
       ''
   ); ?>
@@ -211,7 +211,8 @@ June 6–8, 2025</p>
 <?php echo sec_fullBleedImageColumn(
   'Reunions',
   'https://www.vassar.edu/sites/default/files/2021-06/20-reunion-1906-bl-vassar-4706-cropped.jpg',
-  ''
+  '',
+  ['img_alt_text' => 'Fireworks in the night sky']
 ); ?>
 
 <p>Vassar and the Alumnae/i Association (AAVC) are thrilled about the return to in-person Reunions and can’t wait to welcome you and your classmates back to campus.</p>
