@@ -91,7 +91,7 @@ Make sure functions convert straight quotes to curly
   <p class="intro-text text-center">May 31–June 2, 2024<br />
 June 6–8, 2025</p>
 
-<p>If you have any questions, please contact us at <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a> or <?php phone_number('800-443-8196'); ?> (choose option 5).</p>
+<p>If you have any questions, please contact us at <a class="burgundy-link" href="mailto:reunion@vassar.edu">reunion@vassar.edu</a> or <?php phone_number('800-443-8196'); ?> (choose option 5).</p>
   <?php echo end_invitation_style_card(); ?>
 
 

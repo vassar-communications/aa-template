@@ -101,3 +101,43 @@ footer a {
     border-color: transparent;
   }
 }
+
+
+
+.burgundy {
+  &-link {
+    font-variation-settings: "wght" 400;
+    border-bottom-color: var(--color-vassar-burgundy) !important;
+
+    &:link,
+    &:visited {
+      color: var(--color-vassar-burgundy) !important;
+
+      &:hover,
+      &:focus {
+        color: var(--color-vassar-burgundy) !important;
+      }
+    }
+  }
+  &-cta-link {
+    .fa-solid {
+      border: 2px solid var(--color-vassar-burgundy);
+      background: #fff;
+      color: var(--color-vassar-burgundy);
+    }
+
+    &:link,
+    &:visited {
+      color: var(--color-vassar-burgundy) !important;
+
+      &:hover,
+      &:focus {
+        .fa-solid {
+          border: 2px solid var(--color-vassar-burgundy);
+          background: var(--color-vassar-burgundy);
+          color: #fff;
+        }
+      }
+    }
+  }
+}

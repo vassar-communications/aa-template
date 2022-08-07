@@ -29,24 +29,29 @@ function site_footeralumni() {
 				<div class="pt-3"><a href="https://www.google.com/maps/place/Alumnae+House/@41.6908124,-73.9020119,19.45z/data=!4m8!3m7!1s0x89dd3e5703778887:0xf94de484d4157d23!5m2!4m1!1i2!8m2!3d41.6909832!4d-73.9016665"><i class="px-1 fa-solid fa-location-dot"></i> 161 College Avenue, Box 14, Poughkeepsie, New York 12603</a></div>
 
 				<div class="pt-2 link_collection d-flex flex-column flex-md-row">
-				<a href="{$project_paths['final_url']}/admission/visit" class="me-3 my-2">plan a visit <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
-					<a href="https://www.vassar.edu/news" class="me-3 my-2">news <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
-					<a href="{$project_paths['final_url']}/admission/connect" class="me-3 my-2">contact us <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+				<a href="{$project_paths['final_url']}/admission/visit" class="me-3 my-2">Plan a Visit <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+
+					<a href="https://www.vassar.edu/news" class="me-3 my-2">News <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+
+					<a href="{$project_paths['final_url']}/admission/connect" class="me-3 my-2">Contact Us <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 				</div>
 
 				<hr class="mt-4 w-75">
 
 				<div class="pt-2 link_collection d-flex flex-column flex-md-row">
-					<a href="https://www.vassar.edu/about" class="me-3 my-2">about <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
-					<a href="https://www.vassar.edu/academics" class="me-3 my-2">academics <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
-					<a href="{$project_paths['final_url']}/admission" class="me-3 my-2">admission <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					<a href="https://www.vassar.edu/about" class="me-3 my-2">About <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 
-					<a href="https://www.vassar.edu/campuslife" class="me-3 my-2">campus life <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+					<a href="https://www.vassar.edu/academics" class="me-3 my-2">Academics <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+
+					<a href="{$project_paths['final_url']}/admission" class="me-3 my-2">Admission <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+
+					<a href="https://www.vassar.edu/campuslife" class="me-3 my-2">Campus Life <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 
 					<a href="https://offices.vassar.edu/security/statistics/" class="me-3 my-2">Annual Fire Safety & Security Report <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 						<a href="https://offices.vassar.edu/eoaa/" class="me-3 my-2">Title IX <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 
-					<!--<a href="#" class="me-3">community <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>-->
+					<!--<a href="#" class="me-3">Community <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>-->
+
 					<!-- <a href="#" class="me-3">full sitemap <i class="px-1 fa-solid fa-circle-arrow-right"></i></a> -->
 				</div>
 			</div>
