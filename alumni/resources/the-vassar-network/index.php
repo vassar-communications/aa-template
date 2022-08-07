@@ -28,7 +28,7 @@ $page_info = json_decode($page_info, true);
 <?php echo interior_page_nav() ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'The Vassar community is global, connected, and powerful.',
+    'The Vassar Community is Global, Connected, and Powerful.',
     $alumni_img_path.'alumni-resources/vassar-network/0039-22-06-cs-reunion-vassar-403.jpg',
     'image-is-first theme-cream',
     '',
