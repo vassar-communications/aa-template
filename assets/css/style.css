@@ -13051,6 +13051,15 @@ html {
     margin-bottom: 3rem;
   }
 }
+.carousel-cell {
+  width: 100%;
+}
+@media only screen and (min-width: 1160px) {
+  .carousel-cell {
+    width: 86%;
+  }
+}
+
 @media screen and (min-width: 60em) {
   /* disable Flickity for large devices */
   .featureImage-text-ticker {
@@ -13061,7 +13070,6 @@ html {
     opacity: 0;
   }
   .featureImage-text-ticker .carousel-cell {
-    width: 86%;
     height: 200px;
     margin-right: 10px;
     counter-increment: carousel-cell;
