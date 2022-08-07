@@ -3,4 +3,29 @@
   padding: 2rem;
   border-radius: 0.4rem;
   border-bottom: 1px solid #ccc;
+
+  .contact-name {
+    margin-bottom: 0.2rem;
+  }
+  .contact-title {
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+  .contact-links {
+    a {
+      font-size: 1.1rem;
+      border: none;
+      font-variation-settings: "wght" 400;
+      transition: 0.2s all ease;
+
+      &:link,
+      &:visited {
+        &:hover,
+        &:focus {
+          color: #d00;
+        }
+      }
+    }
+  }
 }
