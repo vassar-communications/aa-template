@@ -47,6 +47,9 @@ $page_info = json_decode($page_info, true);
         '',
         ''); ?>
 <p>The Distinguished Achievement Award is presented to an alumna or alumnus who has reached the highest level in her or his field, including the professions, science, the arts, and public affairs. While demonstrating exceptional talent, application, creativity, and skill within a certain career, this individual must at the same time exemplify the ideals of a liberal arts education and have used her or his position of visibility, power, or leadership to better the human community and serve the wider goals of society.</p>
+<ul class="linked-list mt-4">
+    <li><a href="/alumni/community/aavc/awards-program/distinguished-achievement">See the past award recipients</a></li>
+</ul>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -69,6 +72,9 @@ $page_info = json_decode($page_info, true);
     'theme-verylightgray',
     ''); ?>
 <p>The AAVC Outstanding Service Award is presented to an alumna or /alumnus in recognition of her or his extraordinary commitment, leadership, and service in promoting the goals and highest interests of Vassar College and AAVC. The award honors outstanding contributions made over a number of years in any or all of these volunteer capacities: class, club, and committee activities; fundraising; enriching campus life; or stewardship as board members, trustees, or donors. Outstanding Service Award winners are ambassadors on behalf of Vassar College to the alumni and to the larger community.</p>
+<ul class="linked-list mt-4">
+    <li><a href="/alumni/community/aavc/awards-program/outstanding-service">See the past award recipients</a></li>
+</ul>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -91,6 +97,9 @@ $page_info = json_decode($page_info, true);
     '',
     ''); ?>
 <p>The Spirit of Vassar Award is presented to an alumna or alumnus who has demonstrated extraordinary and distinguished leadership, contribution, and commitment to serving a community in which they effect positive, transformative societal change. This contribution may have been made through the recipient’s career, community work, or volunteer service. The award recognizes the values of service and civic responsibility that are fundamental to a Vassar education.</p>
+<ul class="linked-list mt-4">
+    <li><a href="/alumni/community/aavc/awards-program/spirit-of-vassar">See the past award recipients</a></li>
+</ul>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -113,6 +122,9 @@ $page_info = json_decode($page_info, true);
     ''); ?>
 <p>The Outstanding Faculty/Staff Award is presented to a faculty or staff member who has demonstrated exemplary service, leadership, and commitment to engage with alumni and current students through a range of programs, initiatives, and activities over a period of years.
 </p>
+<ul class="linked-list mt-4">
+    <li><a href="/alumni/community/aavc/awards-program/outstanding-faculty-staff">See the past award recipients</a></li>
+</ul>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -135,6 +147,9 @@ $page_info = json_decode($page_info, true);
     '',
     ''); ?>
 <p>The Young Alumni Achievement or Service Award is presented to an alumna or alumnus recognized for either their extraordinary service to Vassar in any aspect of alumni engagement OR for their exceptional personal and professional achievement(s) within their respective field. As a graduate within the last 10 years, the recipient should be inspirational to their peers and the current student body, while exemplifying the fruits of a successful liberal arts education at Vassar.</p>
+<ul class="linked-list mt-4">
+    <li><a href="/alumni/community/aavc/awards-program/young-alum-achievement">See the past award recipients</a></li>
+</ul>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -154,13 +169,9 @@ $page_info = json_decode($page_info, true);
 
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community.php');?>
-
-<?php
-include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-alumni-groups.php');
-// include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-notable-alumni.php');?>
-
-
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-notable-alumni.php');?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-alumni-news.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
 <?php echo site_footeralumni(); ?>
+
