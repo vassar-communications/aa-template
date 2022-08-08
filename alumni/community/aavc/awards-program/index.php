@@ -31,6 +31,25 @@ $page_info = json_decode($page_info, true);
 
 <?php /*  PAGE CONTENT === */ ?>
 
+<?php /*
+<h2>Remove me</h2>
+
+<?php
+echo item_link_VideoModal(
+    get_icon('play').'American Democracy at a Crossroads',
+    null,
+    'https://player.vimeo.com/video/457908119',
+    'vimeo',
+    '',
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/American-Democracy-at-a-Crossroads.jpg',
+        'alt' => 'American Democracy at a Crossroads'
+    ],
+    'animation-item grid-item text-at-bottom text-white'
+);
+
+?>
+*/ ?>
+
 <?php echo sec_fullBleedImageColumn(
     null,
     $alumni_img_path.'alumni-community/aavc/0124-19-10-kr-spirit-award-vassar-0814.jpg',
@@ -178,5 +197,9 @@ $page_info = json_decode($page_info, true);
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-alumni-groups.php');?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-alumni-news.php');?>
 <?php echo end_sec_relatedTopics(); ?>
+
+<?php
+echo item_modal_standardVideo();
+?>
 
 <?php echo site_footeralumni(); ?>
