@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Make a difference.</b>
    <b class="slide-from-right nice-big-serif">Give back.</b>',
-    '<h2 class="section-intro-text">The Vassar community&#8217;s annual support of college priorities is a crucial component of what makes our world-class liberal arts education possible and exceptional. Experience the joy and rewards of giving back.</h2>',
+    '<p class="section-intro-text" style="max-width: 41ch;">The Vassar community&#8217;s annual support of college priorities is a crucial component of what makes our world-class liberal arts education possible and exceptional. Experience the joy and rewards of giving back.</p>',
     'sec-fixedCenteredTitle theme-burgundy make-a-difference section-title-text-shadow',
     'mw-4',
     ['bg-image-url' => '/alumni/assets/img/alumni-give/0153-19-11-kr-major-palooza-vassar-6031.jpg',
@@ -196,7 +196,7 @@ echo sec_fixedCenteredTitle(
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Alumni</b>
    <b class="slide-from-right">Spotlight</b>',
-    '<h2 class="section-intro-text">Here we shine a light on the great work being done by our alumni.</h2>',
+    '<h2 class="section-intro-text">Stories and highlights featuring alumni.</h2>',
     'sec-fixedCenteredTitle theme-charcoal alums-spotlight',
     'mw-4',
     ['bg-image-url' => '/alumni/assets/img/alumni-home/0037-19-02-kr-ifill-sherrilyn-vassar-7892.jpg',
