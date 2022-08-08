@@ -82,7 +82,7 @@ $page_info = json_decode($page_info, true);
 
 
     <ul class="linked-list mt-4">
-        <li><a href="/alumni/calendar/reunions/">Explore Upcoming Reunions</a></li>
+        <li><a href="/alumni/calendar/reunion/">Explore Upcoming Reunions</a></li>
         <li><a href="https://www.vassar.edu/social-media/class-by-year">Follow Classes on Social</a></li>
         <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Class Volunteer</a></li>
     </ul>
@@ -105,7 +105,7 @@ $page_info = json_decode($page_info, true);
 <?php /*    <p>If you are interested in participating in Club activities or starting a Club, reach out to Cheryl McKeever at <a href="mailto:cmckeever@vassar.edu">cmckeever@vassar.edu</a> or <a href="tel:845-437-5408">845-437-5408</a>.</p> */ ?>
 
     <ul class="linked-list mt-4">
-        <li><a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5161">Explore Upcoming Club Events</a></li>
+        <li><a href="/alumni/calendar/">Explore Upcoming Club Events</a></li>
         <li><a href="https://www.vassar.edu/social-media-alumni#regional-clubs">Follow Vassar Clubs on Social</a></li>
         <li><a href="http://connect.vassar.edu/volunteer">Become a Club Volunteer</a></li>
     </ul>
