@@ -41,6 +41,12 @@
   z-index: 20;
   padding: 16vw 8vw 8vw;
 
+.section__title__main {
+  font-size: calc(1.725rem + 5.7vw);
+  font-weight: 400;
+  line-height: 1;
+}
+
   .section__title__tagline {
     margin-bottom: 0;
   }

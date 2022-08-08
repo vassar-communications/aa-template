@@ -81,7 +81,15 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_regularContent(
   'Staff Directory',
   'mw-inner-5'
-); ?>
+);
+
+/*  Note that if body has an overflow:hidden, it'll break
+    sticky-top.
+*/
+
+?>
+
+
 
 
 <div class="container mw-5">
@@ -90,28 +98,68 @@ $page_info = json_decode($page_info, true);
             <aside class="col-md-4 page-index-side" id="left">
                 <div class="sticky-top" id="side">
                     <ul class="list-group nav" id="sidenav">
-                        <li class="list-group-item nav-item"><a href="#sec1" class="nav-link">Office of the Vice President</a></li>
-                        <li class="list-group-item nav-item"><a href="#sec2" class="nav-link">Advancement Services</a>
+                        <li class="list-group-item nav-item">
+
+<?php echo link_to_id( 'Office of the Vice President', 'nav-link top-level-item'); ?>
+
+</li>
+                        <li class="list-group-item nav-item">
+<?php echo link_to_id( 'Advancement Services', 'nav-link top-level-item'); ?>
 
 <ul>
-  <li class="list-group-item nav-item"><a href="#sec3" class="nav-link">Advancement Systems and Reporting</a></li>
- <li class="list-group-item nav-item"><a href="#sec4" class="nav-link">Gifts and Records</a></li>
+  <li class="list-group-item nav-item">
+
+<?php echo link_to_id( 'Advancement Systems and Reporting', 'nav-link'); ?>
+
+ <li class="list-group-item nav-item">
+   <?php echo link_to_id( 'Gifts and Records', 'nav-link'); ?>
+ </li>
 </ul>
 
                         </li>
 
-                        <li class="list-group-item nav-item"><a href="#sec5" class="nav-link">Alumnae/i Engagement and Alumnae House</a></li>
-                        <li class="list-group-item nav-item"><a href="#sec6" class="nav-link">Communications</a>
+                        <li class="list-group-item nav-item">
+<?php echo link_to_id( 'Alumnae/i Engagement and Alumnae House', 'nav-link top-level-item'); ?>
+                        </li>
+                        <li class="list-group-item nav-item">
+<?php echo link_to_id( 'Advancement Communications', 'nav-link top-level-item'); ?>
 
 <ul>
-                          <li class="list-group-item nav-item"><a href="#sec7" class="nav-link">Giving</a></li>
+                          <li class="list-group-item nav-item">
+<?php echo link_to_id( 'Donor Relations', 'nav-link'); ?>
+                          </li>
 </ul>
 
                         </li>
-                        <li class="list-group-item nav-item"><a href="#sec7" class="nav-link">Giving</a></li>
-                        <li class="list-group-item nav-item"><a href="#sec8" class="nav-link">Prospect Development and
-                                Research</a></li>
-                        <li class="list-group-item nav-item"><a href="#sec9" class="nav-link">Regional and International Programs</a></li>
+                        <li class="list-group-item nav-item">
+<?php echo link_to_id( 'Individual Giving', 'nav-link top-level-item'); ?>
+
+<ul>
+  <li class="list-group-item nav-item">
+    <?php echo link_to_id( 'Annual Giving', 'nav-link'); ?>
+  </li>
+  <li class="list-group-item nav-item">
+    <?php echo link_to_id( 'Leadership Gifts', 'nav-link'); ?>
+  </li>
+  <li class="list-group-item nav-item">
+    <?php echo link_to_id( 'Gift Planning', 'nav-link'); ?>
+  </li>
+  <li class="list-group-item nav-item">
+    <?php echo link_to_id( 'Parent and Family Giving', 'nav-link'); ?>
+  </li>
+  <li class="list-group-item nav-item">
+    <?php echo link_to_id( 'Principal Gifts', 'nav-link'); ?>
+  </li>
+  <li class="list-group-item nav-item">
+    <?php echo link_to_id( 'Prospect Development and Research', 'nav-link'); ?>
+  </li>
+
+</ul>
+                        </li>
+
+                        <li class="list-group-item nav-item">
+<?php echo link_to_id( 'Regional and International Programs', 'nav-link top-level-item'); ?>
+</li>
 
                     </ul>
                 </div>
@@ -120,10 +168,9 @@ $page_info = json_decode($page_info, true);
             <main class="col col-md-8 col--text">
                 <div class="anchor" id="sec1"></div>
 
-                <h2 class="display-6 mb-5">Office of the Vice President</h2>
+                <?php echo heading_with_anchor_id( 'Office of the Vice President', '3' ); ?>
 
-
-                <div class="grid cols-2" style="--bs-gap: 2rem">
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Tim Kane',
@@ -166,8 +213,9 @@ echo end_contact_card();
 
                 <div class="anchor" id="sec2"></div>
 
-<h2 class="display-6 mt-5 mb-3">Advancement Services</h2>
-                <div class="grid cols-2" style="--bs-gap: 2rem">
+                <?php echo heading_with_anchor_id( 'Advancement Services', '3' ); ?>
+
+                <div class="grid cols-2 mb-5 mb-5" style="--bs-gap: 2rem">
 <?php
                 echo contact_card(
                     'Mary Carole Starke',
@@ -239,8 +287,8 @@ echo end_contact_card();
 
                 <div class="anchor" id="sec3"></div>
 
-                <h3 class="mt-5 mb-3">Advancement Systems and Reporting</h3>
-                <div class="grid cols-2" style="--bs-gap: 2rem">
+                <?php echo heading_with_anchor_id( 'Advancement Systems and Reporting', '4' ); ?>
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
 
 echo contact_card(
@@ -291,9 +339,9 @@ echo end_contact_card();
 
                 <div class="anchor" id="sec4"></div>
 
-                <h3 class="mt-5 mb-3">Gifts and Records</h3>
+<?php echo heading_with_anchor_id( 'Gifts and Records', '4' ); ?>
 
-                <div class="grid cols-2" style="--bs-gap: 2rem">
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
 
 echo contact_card(
@@ -367,8 +415,9 @@ echo end_contact_card();
 
                 <div class="anchor" id="sec5"></div>
 
-                <h2 class="display-6 mt-5 mb-3">Alumnae/i Engagement and Alumnae House</h2>
-                <div class="grid cols-2" style="--bs-gap: 2rem">
+<?php echo heading_with_anchor_id( 'Alumnae/i Engagement and Alumnae House', '3' ); ?>
+
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Lisa Tessler',
@@ -484,8 +533,8 @@ echo end_contact_card();
 
                 <div class="anchor" id="sec6"></div>
 
-                <h2 class="display-6 mt-5 mb-3">Communications</h2>
-                <div class="grid cols-2" style="--bs-gap: 2rem">
+<?php echo heading_with_anchor_id( 'Advancement Communications', '3' ); ?>
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
   <?php
   echo contact_card(
     'TBD',
@@ -555,8 +604,9 @@ echo end_contact_card();
 </div>
                 <div class="anchor" id="sec7"></div>
 
-                <h3 class="mt-5 mb-3">Donor Relations</h3>
-                <div class="grid cols-2" style="--bs-gap: 2rem">
+<?php echo heading_with_anchor_id( 'Donor Relations', '4' ); ?>
+
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
                 <?php
                   echo contact_card(
                       'Kristy Grimes',
@@ -602,8 +652,9 @@ echo end_contact_card();
                   echo end_contact_card();
 ?>
 </div>
-                <h2 class="display-6 mt-5 mb-3">Individual Giving</h2>
-                <div class="grid cols-2" style="--bs-gap: 2rem">
+
+<?php echo heading_with_anchor_id( 'Individual Giving', '3' ); ?>
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Erin Martin',
@@ -629,8 +680,8 @@ echo end_contact_card();
 
 </div>
 
-                <h3 class="mt-5 mb-3">Annual Giving</h3>
-                <div class="grid cols-2" style="--bs-gap: 2rem">
+<?php echo heading_with_anchor_id( 'Annual Giving', '4' ); ?>
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Deborah Vanecek',
@@ -733,10 +784,9 @@ echo end_contact_card();
 ?>
 </div>
 
+<?php echo heading_with_anchor_id( 'Leadership Gifts', '4' ); ?>
 
-
-                <h3 class="mt-5 mb-3">Leadership Gifts</h3>
-                <div class="grid cols-2" style="--bs-gap: 2rem">
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Gregg McCarty',
@@ -794,9 +844,8 @@ echo end_contact_card();
 ?>
 </div>
 
-
-                <h3 class="mt-5 mb-3">Gift Planning</h3>
-                <div class="grid cols-2" style="--bs-gap: 2rem">
+<?php echo heading_with_anchor_id( 'Gift Planning', '4' ); ?>
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Alexas Orcutt',
@@ -821,9 +870,8 @@ echo end_contact_card();
 ?>
 </div>
 
-
-                <h3 class="mt-5 mb-3">Parent and Family Giving</h3>
-                <div class="grid cols-2" style="--bs-gap: 2rem">
+<?php echo heading_with_anchor_id( 'Parent and Family Giving', '4' ); ?>
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Elizabeth Hoffman',
@@ -859,9 +907,9 @@ echo end_contact_card();
 ?>
 </div>
 
+<?php echo heading_with_anchor_id( 'Principal Gifts', '4' ); ?>
 
-                <h3 class="mt-5 mb-3">Principal Gifts</h3>
-                <div class="grid cols-2" style="--bs-gap: 2rem">
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Cathryn S. Stevens',
@@ -888,9 +936,8 @@ echo end_contact_card();
 </div>
 
                 <div class="anchor" id="sec8"></div>
-
-                <h3 class="mt-5 mb-3">Prospect Development and Research</h3>
-                <div class="grid cols-2" style="--bs-gap: 2rem">
+<?php echo heading_with_anchor_id( 'Prospect Development and Research', '4' ); ?>
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
     'Richard Horne',
@@ -940,20 +987,11 @@ echo end_contact_card();
 
                 <div class="anchor" id="sec9"></div>
 
-                <h2 class="display-6 mt-5 mb-3">Regional and International Programs</h2>
+<?php echo heading_with_anchor_id( 'Regional and International Programs', '3' ); ?>
 
-                <div class="grid cols-2" style="--bs-gap: 2rem">
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
+
 <?php
-echo contact_card(
-    'TBD',
-    'Associate Vice President for Regional and International Programs',
-    [
-      'phone' => '',
-      'email' => '',
-    ]
-);
-echo end_contact_card();
-
 
 echo contact_card(
     'Susan Quade',

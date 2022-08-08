@@ -36,14 +36,18 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 
-<h3 class="mt-5">2021 - Meryl Streep ’81, P’08, ’13</h3>
+<h3 class="mt-5">2021</h3>
+
+<h4>Meryl Streep ’81, P’08, ’13</h4>
 
 <ul class="linked-list">
   <li><a href="https://www.vassar.edu/news/five-honored-2021-aavc-awards">Read about the recipient</a></li>
 </ul>
 
 
-<h3 class="mt-5">2020 - John Carlstrom ’81</h3>
+<h3 class="mt-5">2020</h3>
+
+<h4>John Carlstrom ’81</h4>
 
 <ul class="linked-list">
   <li>
@@ -59,7 +63,9 @@ $page_info = json_decode($page_info, true);
   </li>
 </ul>
 
-<h3 class="mt-5">2019 - Phyllis Bronfman Lambert ’48</h3>
+<h3 class="mt-5">2019</h3>
+
+<h4>Phyllis Bronfman Lambert ’48</h4>
 
 <ul class="linked-list">
   <li>
@@ -67,7 +73,9 @@ $page_info = json_decode($page_info, true);
   </li>
 </ul>
 
-<h3 class="mt-5">2018 - Lynn Povich ’65</h3>
+<h3 class="mt-5">2018</h3>
+
+<h4>Lynn Povich ’65</h4>
 
 <ul class="linked-list">
   <li>
@@ -84,7 +92,10 @@ $page_info = json_decode($page_info, true);
 </ul>
 
 
-<h3 class="mt-5">2017 - Frances “Sissy” Tarlton Farenthold ’46, P’75</h3>
+<h3 class="mt-5">2017</h3>
+
+<h4>Frances “Sissy” Tarlton Farenthold ’46, P’75</h4>
+
 <ul class="linked-list">
   <li>
     <?php echo icon_link(
@@ -99,8 +110,9 @@ $page_info = json_decode($page_info, true);
   </li>
 </ul>
 
+<h3 class="mt-5">2013</h3>
 
-<h3 class="mt-5">2013 - Rebecca Eaton ’69</h3>
+<h4>Rebecca Eaton ’69</h4>
 
 <ul class="linked-list">
   <li>
@@ -128,8 +140,9 @@ $page_info = json_decode($page_info, true);
   </li>
 </ul>
 
+<h3 class="mt-5">2009</h3>
 
-<h3 class="mt-5">2009 - Frances Sternhagen ’51</h3>
+<h4>Frances Sternhagen ’51</h4>
 
 <ul class="linked-list">
   <li>
@@ -146,7 +159,9 @@ $page_info = json_decode($page_info, true);
 </ul>
 
 
-<h3 class="mt-5">2008 - Laurie Schwab Zabin ’46</h3>
+<h3 class="mt-5">2008</h3>
+
+<h4>Laurie Schwab Zabin ’46</h4>
 
 <ul class="linked-list">
   <li>
@@ -161,33 +176,47 @@ $page_info = json_decode($page_info, true);
 </ul>
 
 
-<h3 class="mt-5">2007 - Vera Rubin ’48</h3>
+<h3 class="mt-5">2007</h3>
+
+<h4>Vera Rubin ’48</h4>
+
 <ul class="linked-list">
-<li><a href="/alums/aavc/awards/distinguished-achievement/vera-rubin">Read Rubin’s Acceptance Remarks</a></li>
+<!-- <li><a href="/alums/aavc/awards/distinguished-achievement/vera-rubin">Read Rubin’s Acceptance Remarks</a></li> -->
   	<li><a href="http://vq.vassar.edu/issues/2007/01/beyond-vassar/distinguished-achievement.html">Read more about Rubin in the Winter 2006&nbsp;<em>Vassar Quarterly</em>&nbsp;article</a></li>
 </ul>
 
-<h3 class="mt-5">2006 - Katharine Lee Reid ’63</h3>
+<h3 class="mt-5">2006</h3>
+
+<h4>Katharine Lee Reid ’63</h4>
+
 <ul class="linked-list">
   <li>
 <a href="http://vq.vassar.edu/issues/2006/01/beyond-vassar/distinguished-achievement.html">Read more about Reid in the Winter 2005&nbsp;<em>Vassar Quarterly</em>&nbsp;article</a>
   </li>
 </ul>
 
-<h3 class="mt-5">2005 - Jamshed J. Bharucha ’78</h3>
+<h3 class="mt-5">2005</h3>
+
+<h4>Jamshed J. Bharucha ’78</h4>
+
 <ul class="linked-list">
   <li>
 <a href="http://vq.vassar.edu/issues/2005/01/beyond-vassar/distinguished-achievement.html">Read more about Bharucha in the Winter 2004&nbsp;<em>Vassar Quarterly</em>&nbsp;article</a>
   </li>
 </ul>
 
-<h3 class="mt-5">2004 - Ellen May Galinsky ’64</h3>
+<h3 class="mt-5">2004</h3>
+
+<h4>Ellen May Galinsky ’64</h4>
+
 <ul class="linked-list">
-<li><a href="/alums/aavc/awards/distinguished-achievement/ellen-may-galinsky">Read Galinsky's Acceptance Remarks</a></li>
+<!-- <li><a href="/alums/aavc/awards/distinguished-achievement/ellen-may-galinsky">Read Galinsky's Acceptance Remarks</a></li> -->
     	<li><a href="http://vq.vassar.edu/issues/2004/01/connecting/distinguished-achievement.html">Read more about Galinsky in the Winter 2003&nbsp;<em>Vassar Quarterly</em>&nbsp;article</a></li>
 </ul>
 
-<h3 class="mt-5">2003 - Dr. June Jackson Christmas ’45-4</h3>
+<h3 class="mt-5">2003</h3>
+
+<h4>Dr. June Jackson Christmas ’45-4</h4>
 
 <ul class="linked-list">
   <li>
@@ -196,7 +225,9 @@ $page_info = json_decode($page_info, true);
 </ul>
 
 
-<h3 class="mt-5">2002 - Pauline Newman ’47</h3>
+<h3 class="mt-5">2002</h3>
+
+<h4>Pauline Newman ’47</h4>
 
 <ul class="linked-list">
   <li>

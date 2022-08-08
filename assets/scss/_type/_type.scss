@@ -32,20 +32,22 @@
   // text-align: center;
 }
 
-
 strong {
   font-variation-settings: "wght" 700;
 }
 
-
 .tagline {
   //font-size: calc(1.255rem + 0.06vw);
-  font-size:  $h5-font-size;
+  font-size: $h5-font-size;
   text-transform: uppercase;
   font-variation-settings: "wght" 700;
   letter-spacing: 0.1rem;
   display: block;
   font-family: var(--bs-font-sans-serif);
+}
+
+h2 {
+  font-weight: 100;
 }
 
 h4 {

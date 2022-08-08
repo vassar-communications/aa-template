@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Reunions",
+  "page_title":"Reunion",
   "page_classes":"",
   "feature_image":"/alumni/assets/img/alumni-calendar/reunion/Vassar_Reunion_4706.jpg"
 }';
@@ -59,15 +59,13 @@ $page_info = json_decode($page_info, true);
     'image-is-first',
     ''
 ); ?>
-<p>This year's 50th reunion programming will include the class of 1972. Click here to view a list of 50th reunion class programs.</p>
+<p>This year’s 50th reunion programming will include the class of 1972. Click here to view a list of 50th reunion class programs.</p>
 <?php echo cta_link(
     'https://www.vassar.edu/sites/default/files/2022-03/1972-50th%20Reunion-Schedule-and-Newsletter-Mar4.pdf',
     'See the schedule'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
-
-
 
 <?php echo sec_regularContent('Information & Updates','theme-verylightgray','','',); ?>
 
@@ -92,9 +90,9 @@ $page_info = json_decode($page_info, true);
                     <li>Are not guaranteed to be quiet.</li>
                 </ul>
 
-                <p>We regret that we are unable to guarantee single room requests. If you are attending Reunion by yourself, we encourage coordinating with friends in advance to ensure your roommate of choice. If you require a single room or a room with a private bathroom, we strongly encourage you to make reservations at one of the Hudson Valley's area hotels.</p>
+                <p>We regret that we are unable to guarantee single room requests. If you are attending Reunion by yourself, we encourage coordinating with friends in advance to ensure your roommate of choice. If you require a single room or a room with a private bathroom, we strongly encourage you to make reservations at one of the Hudson Valley’s area hotels.</p>
 
-                <p>Please Note:  Alumnae House is reserved for the 70th and 75th Reunion Classes.</p>
+                <p>Please Note: Alumnae House is reserved for the 70th and 75th Reunion Classes.</p>
 
                 <p>Also, the college performs routine maintenance (in rotation) and also houses more than 200 students during the summer months. As such, some residence halls will be “offline” every year (and unavailable for lodging or entering).</p>
             </div>

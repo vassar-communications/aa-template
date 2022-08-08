@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     'image-is-first theme-cream',
     ''
 ); ?>
-<h6 class="tagline">for Graduating Seniors and Recent Alumni</h6>
+<h6 class="tagline">For Graduating Seniors and Recent Alumni</h6>
 <p>This fellowship provides up to $18,000 to graduates who wish to study a current spoken language in any country outside of the United States, preferably in conjunction with an interest in sociology, diplomatic service, or international law. Applicants will ordinarily be enrolled in a formal foreign language program, though they need not to have studied the language previously.</p>
 
 <?php echo cta_link(
@@ -97,7 +97,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <h6 class="tagline">for Internships in Asia</h6>
-<p>Vassar may nominate three candidates for this scholarship, which endeavors to increase awareness of Asia among future leaders in American society by sponsoring 15-18 young Americans each year to live and work in Asia. Candidates must be American citizens who have received at least a bachelor’s degree and who would not have reached their 30th birthday by July 1st of the year they enter the program. They should have a record of high achievement, outstanding leadership ability, and clearly defined interests with evidence of potential for professional accomplishments. Those who already have significant experience in Asia or Asian studies are not eligible.</p>
+<p>Vassar may nominate three candidates for this scholarship, which endeavors to increase awareness of Asia among future leaders in American society by sponsoring 15–18 young Americans each year to live and work in Asia. Candidates must be American citizens who have received at least a bachelor’s degree and who would not have reached their 30th birthday by July 1st of the year they enter the program. They should have a record of high achievement, outstanding leadership ability, and clearly defined interests with evidence of potential for professional accomplishments. Those who already have significant experience in Asia or Asian studies are not eligible.</p>
 
 <?php echo cta_link(
     'https://offices.vassar.edu/fellowships/fellowships/graduates/luce/',
@@ -113,7 +113,7 @@ $page_info = json_decode($page_info, true);
     'theme-dark-burgundy has-bg quad-pattern',
     ''
 ); ?>
-<h6 class="tagline">for Study Abroad After Graduation</h6>
+<h6 class="tagline">For Study Abroad After Graduation</h6>
 <p>Intended for recent graduates wishing to pursue their interest in the humanities abroad, this fellowship awards up to $25,000 to graduates with a well-developed proposal of study with a clear academic focus. Evidence of sufficient language skills and academic preparation to successfully undertake the proposed study must be presented as well as a clear articulation of how the Fellowship will further one’s future objectives.</p>
 
 <?php echo cta_link(

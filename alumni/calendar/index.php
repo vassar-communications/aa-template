@@ -55,7 +55,7 @@ Make sure functions convert straight quotes to curly
 
 <?php echo masthead_interiorPage(
     'You’re Invited',
-    'Vassar alumni always have a way to stay connected. Join us for college and program reunions, special alumni events, expertly planned travel programs, and more.',
+    'Vassar alumni always have a way to stay connected. Join us for College programs and reunions, special alumni events, expertly planned travel programs, and more.',
     $alumni_img_path.'alumni-calendar/Reunion_Saturday_190608_CS-V815-319.jpg
   ',
   null,
