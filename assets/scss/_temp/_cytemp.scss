@@ -420,9 +420,20 @@ a.logo:hover {
 
 /* cyreview adding this class as mobile still not working */
 
-body {
-  overflow-x:hidden;
+// Wrapped the overflow in a media query because the overflow:hidden
+// is causing issues on sticky elements, notably the images in
+// full-bleed sections. Normally, if a full-bleed's content is longer
+// than the image column, the image will stick to the top of the screen
+// while the content scrolls past it. If the image doesn't stick, though,
+// there's a visible gap below it (example: https://vassar-dev.benaustin.com/alumni/resources/grants-fellowships/)
+//
+
+@include break(sm, max) {
+  body {
+    overflow-x:hidden;
+  }
 }
+
 
 .modal {
   z-index: 1990!important;

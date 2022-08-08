@@ -15134,10 +15134,11 @@ a.logo:hover {
 }
 
 /* cyreview adding this class as mobile still not working */
-body {
-  overflow-x: hidden;
+@media screen and (max-width: 40em) {
+  body {
+    overflow-x: hidden;
+  }
 }
-
 .modal {
   z-index: 1990 !important;
 }
