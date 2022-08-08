@@ -402,7 +402,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-alumni-groups.php');?>
+<?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-aavc.php');?>
 
 <?php
 include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-alumni-groups.php');

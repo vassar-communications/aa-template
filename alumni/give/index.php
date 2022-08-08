@@ -161,7 +161,7 @@ $page_info = json_decode($page_info, true);
     'mw-4 py-3 d-flex flex-column justify-content-center flex-md-row align-items-start gap-3'
 ); ?>
 
-<p class="intro-text">Explore funds and initiatives.</p>
+<p class="intro-text mb-5">Explore funds and initiatives.</p>
 <a href="https://go.vassar.edu/give" class="btn btn-primary arrow">Make a Gift</a>
 <?php echo end_sec_wideContent(); ?>
 
