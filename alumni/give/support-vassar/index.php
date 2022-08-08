@@ -149,12 +149,7 @@ $page_info = json_decode($page_info, true);
     ]
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Echoing Vassar’s commitment to philanthropy and service, your participation shows the current student body the importance of giving through programs like the Generation Vassar Challenge. Your commitment to Vassar and its future is also an important example to set for prospective students and encourages young alumni to give. Ultimately, it just feels good to continue to give back to the community that helped to shape your experience as a student.</p>
-
-    <?php echo cta_link(
-        'https://connect.vassar.edu/s/1654/20/giving/landing.aspx?sid=1654&gid=2&pgid=5207',
-        'Visit Generation Vassar'
-    ); ?>
+    <p>Echoing Vassar’s commitment to philanthropy and service, your participation shows the current student body the importance of giving through programs like the <a href="https://vassar.edu/genvc">Generation Vassar Challenge</a>. Your commitment to Vassar and its future is also an important example to set for prospective students and encourages young alumni to give. Ultimately, it just feels good to continue to give back to the community that helped to shape your experience as a student.</p>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
