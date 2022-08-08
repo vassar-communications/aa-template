@@ -12585,15 +12585,12 @@ a[data-bs-toggle=collapse]:hover {
   --nav-outline-color: #C6AA76;
 }
 
-@media screen and (max-width: 40em) {
-  .breadcrumb-item:nth-child(2) {
-    margin-left: 1rem;
-  }
-  .breadcrumb-item:nth-child(3) {
-    margin-left: 2rem;
-  }
-  .breadcrumb-item:nth-child(4) {
-    margin-left: 3rem;
+.main-site-nav {
+  padding: 2rem;
+}
+@media screen and (min-width: 40em) {
+  .main-site-nav {
+    padding: 3rem 0 3rem 4rem;
   }
 }
 .main-site-nav .breadcrumb,
@@ -12606,9 +12603,34 @@ a[data-bs-toggle=collapse]:hover {
     display: flex;
   }
 }
+.main-site-nav .breadcrumb-item {
+  padding-bottom: 1.2rem;
+  position: relative;
+}
+@media screen and (max-width: 40em) {
+  .main-site-nav .breadcrumb-item:after {
+    content: "↓";
+    position: absolute;
+    left: 0;
+    bottom: -0.1rem;
+    color: #777;
+  }
+}
 .main-site-nav .breadcrumb-item + .breadcrumb-item::before {
   float: left;
   padding-right: 0.5rem;
+  /*
+      @include break(sm, max) {
+        content: '';
+        border: 1px solid #aaa;
+        height: 0.75rem;
+        margin: 0 0.3rem 0.65rem -0.5rem;
+        border-top: none;
+        border-right: none;
+        width: 0.4rem;
+        display: block;
+      }
+  */
   color: #aaa;
   font-family: var(--font-icons);
   font-weight: 900;
@@ -12616,14 +12638,7 @@ a[data-bs-toggle=collapse]:hover {
 }
 @media screen and (max-width: 40em) {
   .main-site-nav .breadcrumb-item + .breadcrumb-item::before {
-    content: "";
-    border: 1px solid #f00;
-    height: 0.75rem;
-    margin: 0 0.3rem 0.65rem -0.5rem;
-    border-top: none;
-    border-right: none;
-    width: 0.5rem;
-    display: block;
+    display: none;
   }
 }
 @media screen and (min-width: 40em) {

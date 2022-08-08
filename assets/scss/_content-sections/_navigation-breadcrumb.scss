@@ -10,17 +10,14 @@ $nav-item-border-size: 2px;
   --nav-outline-color: #{$gold};
 }
 
-@include break(sm, max) {
-  .breadcrumb-item {
-    @for $i from 2 through 4 {
-      &:nth-child(#{$i}) {
-        margin-left: #{ (($i - 1) * 1 ) }rem;
-      }
-    }
-  }
-}
+
 
 .main-site-nav {
+  padding: 2rem;
+
+    @include break(sm) {
+      padding: 3rem 0 3rem 4rem;
+    }
 
   .breadcrumb,
   .nav {
@@ -31,20 +28,40 @@ $nav-item-border-size: 2px;
     }
   }
 
+  .breadcrumb-item {
+      padding-bottom: 1.2rem;
+      position: relative;
+  }
+
+    @include break(sm, max) {
+  .breadcrumb-item:after {
+      content: "↓";
+      position: absolute;
+      left: 0;
+      bottom: -0.1rem;
+      color: #777;
+  }
+}
   .breadcrumb-item + .breadcrumb-item::before {
     float: left;
     padding-right: 0.5rem;
 
     @include break(sm, max) {
+    display: none;
+  }
+
+/*
+    @include break(sm, max) {
       content: '';
-      border: 1px solid #f00;
+      border: 1px solid #aaa;
       height: 0.75rem;
       margin: 0 0.3rem 0.65rem -0.5rem;
       border-top: none;
       border-right: none;
-      width: 0.5rem;
+      width: 0.4rem;
       display: block;
     }
+*/
 
     @include break(sm) {
       content: '\f054';
