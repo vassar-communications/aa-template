@@ -13,6 +13,7 @@
     font-variation-settings: "wght" 400;
     display: block;
     padding: 0.4rem;
+    font-size: 1.1rem;
 
     &:not(.no-arrow):after {
       content: "→";

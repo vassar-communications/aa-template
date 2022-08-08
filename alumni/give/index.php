@@ -158,7 +158,7 @@ $page_info = json_decode($page_info, true);
     'Every Gift Matters.',
     null,
     'theme-charcoal bg-dark presentation quad-pattern has-bg section-large-title',
-    'mw-4 py-3 d-flex flex-column justify-content-center flex-md-row'
+    'mw-4 py-3 d-flex flex-column justify-content-center flex-md-row align-items-start gap-3'
 ); ?>
 
 <p class="intro-text">Explore funds and initiatives.</p>

@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Make a difference.</b>
    <b class="slide-from-right nice-big-serif">Give back.</b>',
-    '<p class="section-intro-text" style="max-width: 41ch;">The Vassar community&#8217;s annual support of college priorities is a crucial component of what makes our world-class liberal arts education possible and exceptional. Experience the joy and rewards of giving back.</p>',
+    '<p class="section-intro-text" style="max-width: 41ch;">The Vassar community&#8217;s annual support of College priorities is a crucial component of what makes our world-class liberal arts education possible and exceptional. Experience the joy and rewards of giving back.</p>',
     'sec-fixedCenteredTitle theme-burgundy make-a-difference section-title-text-shadow',
     'mw-4',
     ['bg-image-url' => '/alumni/assets/img/alumni-give/0153-19-11-kr-major-palooza-vassar-6031.jpg',
