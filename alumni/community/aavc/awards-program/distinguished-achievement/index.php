@@ -51,11 +51,10 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
   <li>
-    <?php echo icon_link(
-      'Watch the video',
-      'https://vimeo.com/508572472/432ef46727',
-      'video',
-      'no-arrow'
+    <?php echo item_link_VideoModal(
+        'Watch the video',
+        'https://player.vimeo.com/video/508572472',
+        'vimeo',
     ); ?>
   </li>
   <li>
@@ -77,13 +76,13 @@ $page_info = json_decode($page_info, true);
 
 <h4>Lynn Povich ’65</h4>
 
+
 <ul class="linked-list">
   <li>
-    <?php echo icon_link(
-      'Watch the video',
-      'https://youtu.be/UY5tKY9kVJ8',
-      'video',
-      'no-arrow'
+    <?php echo item_link_VideoModal(
+        'Watch the video',
+        'https://www.youtube.com/embed/UY5tKY9kVJ8',
+        'youtube',
     ); ?>
   </li>
   <li>
@@ -98,13 +97,13 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
   <li>
-    <?php echo icon_link(
-      'Watch the video',
-      'https://youtu.be/u44NpcIgbXM',
-      'video',
-      'no-arrow'
+    <?php echo item_link_VideoModal(
+        'Watch the video',
+        'https://www.youtube.com/embed/u44NpcIgbXM',
+        'youtube',
     ); ?>
   </li>
+
   <li>
     <a href="http://stories.vassar.edu/2017/170912-fall-convocation.html">Read more about Farenthold in the September 2017&nbsp;<em>Vassar Stories</em>&nbsp;article</a>
   </li>
@@ -146,11 +145,10 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
   <li>
-    <?php echo icon_link(
-      'Watch the video',
-      'https://youtu.be/xXuVmjduFQI',
-      'video',
-      'no-arrow'
+    <?php echo item_link_VideoModal(
+        'Watch the video',
+        'https://www.youtube.com/embed/xXuVmjduFQI',
+        'youtube',
     ); ?>
   </li>
   <li>
@@ -165,11 +163,10 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
   <li>
-    <?php echo icon_link(
-      'Watch the video',
-      'https://youtu.be/qNTLtexVkCI',
-      'video',
-      'no-arrow'
+    <?php echo item_link_VideoModal(
+        'Watch the video',
+        'https://www.youtube.com/embed/qNTLtexVkCI',
+        'youtube',
     ); ?>
   </li>
   <li><a href="http://vq.vassar.edu/issues/2008/02/features/dynamic-ideas-on-population.html">Read more about Zabin in the Spring 2008&nbsp;<em>Vassar Quarterly</em>&nbsp;article</a></li>

@@ -1,0 +1,9 @@
+.video-modal-link {
+  background: transparent;
+  border: none !important;
+  display: block;
+  width: 100%;
+  text-align: left;
+
+  @extend a;
+}

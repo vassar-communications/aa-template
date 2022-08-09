@@ -7,9 +7,10 @@
 
 // echo local_links();
 
+
 function site_footeralumni() {
     global $project_paths;
-
+    $modal_code = item_modal_standardVideo();
     $local_info = local_info();
 
 
@@ -67,7 +68,7 @@ function site_footeralumni() {
 			</div>
 
 
-
+$modal_code
 
 			<div class="footer-feature-module col-12 col-md-3 knockedout bg-darkestburgundy p-4">
 <!--				<div><span class="tagline mb-2">Give to Vassar</span></div> -->
