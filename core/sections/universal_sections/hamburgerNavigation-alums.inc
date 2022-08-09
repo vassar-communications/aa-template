@@ -45,15 +45,15 @@ $template = <<<TMP
                <div id="alumni-give" class="accordion-collapse collapse" aria-labelledby="collapseOne" data-bs-parent="#give-vassar">
                   <div class="accordion-body h3 text-left px-0">
 
-        
+
                      <div class="mb-2"> <a class="text-white" href="/alumni/give/support-vassar/">Support Vassar</a></div>
 
                      <div class="mb-2"> <a class="text-white" href="/alumni/give/be-a-mentor/">Be a Mentor</a></div>
 
                      <div class="mb-2"> <a class="text-white" href="/alumni/give/hire-vassar/">Hire Vassar</a></div>
-                     
+
                      <div class="mb-2"> <a class="text-white" href="/alumni/give/volunteer/">Volunteer</a></div>
-                     
+
                       <div class="mb-2"> <a class="text-white" href="https://give.vassar.edu/">Give Now</a></div>
 
 
@@ -69,7 +69,7 @@ $template = <<<TMP
                <div id="alumni-calendar" class="accordion-collapse collapse" aria-labelledby="collapseOne" data-bs-parent="#alumni-calendar">
                   <div class="accordion-body h3 text-left px-0">
 
-                     <div class="mb-2"> <a class="text-white" href="/alumni/calendar/reunions/">Reunions</a></div>
+                     <div class="mb-2"> <a class="text-white" href="/alumni/calendar/reunion/">Reunions</a></div>
 
                      <div class="mb-2"> <a class="text-white" href="/alumni/calendar/generation-vassar/">Generation Vassar</a></div>
 
