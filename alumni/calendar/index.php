@@ -216,7 +216,7 @@ June 6–8, 2025</p>
   ['img_alt_text' => 'Fireworks in the night sky']
 ); ?>
 
-<p>Vassar and the Alumnae/i Association (AAVC) are thrilled about the return to in-person Reunions and can’t wait to welcome you and your classmates back to campus.</p>
+<p>Vassar and the Alumnae/i Association (AAVC) are thrilled about the return to in-person reunions and can’t wait to welcome you and your classmates back to campus.</p>
 
 <?php echo cta_link(
     '/alumni/calendar/reunion/',
