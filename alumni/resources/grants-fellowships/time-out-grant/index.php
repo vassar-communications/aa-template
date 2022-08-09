@@ -38,105 +38,118 @@ $page_info = json_decode($page_info, true);
 ?>
 
 
-
-<?php echo sec_fullBleedImageColumn(
-    'Time Out Grant',
-   $alumni_img_path.'alumni-resources/grants-fellowships/J_Kramer_162_HR.jpg',
-    'theme-dark-burgundy has-bg quad-pattern',
-    ''
-); ?>
-<p>Over 30 years ago, a generous anonymous alumna established the Time Out Grant to fund projects near and dear to the hearts of fellow alumni. Vassar alumni who have reached their 40th birthday by June 30, 2022, and wish to make a career change, or take time out to pursue a long-held dream, are eligible to apply for this grant. <strong>You must be willing to take a full year off from your current endeavors and devote yourself full time to your project.</strong> </p>
-
-<?php echo cta_link(
-    'https://www.vassar.edu/alums/services/grants/timeout',
-    'Learn more about the Time Out Grant'
+<?php echo sec_regularContent(
+    null,
+    '',
+    'content_classes'
 ); ?>
 
-<?php echo end_sec_fullBleedImageColumn(); ?>
+<p>2022 recipient Irene López ’91 (depicted above) <a href="https://www.vassar.edu/news/time-out-grant-will-help-awardee-give-voice-survivors-gender-based-violence">plans to use the grant to give voice to survivors of gender-based violence in Puerto Rico</a>. The Lydia Project: Mujeres Bravas con Cámaras (Brave Women with Cameras) will train survivors to document their experiences via photography and enable them to engage in a critical reflection on the images they produce.</p>
+
+<?php echo end_sec_regularContent(); ?>
 
 
-<?php echo sec_fullBleedImageColumn(
-    'The Ann Cornelisen Fellowship',
-    '/assets/images/placeholders/placeholder-square.png',
-    'image-is-first theme-cream',
-    ''
-); ?>
-<h6 class="tagline">For Graduating Seniors and Recent Alumni</h6>
-<p>This fellowship provides up to $18,000 to graduates who wish to study a current spoken language in any country outside of the United States, preferably in conjunction with an interest in sociology, diplomatic service, or international law. Applicants will ordinarily be enrolled in a formal foreign language program, though they need not to have studied the language previously.</p>
-
-<?php echo cta_link(
-    'https://offices.vassar.edu/fellowships/fellowships/graduates/cornelisen/',
-    'Learn more about the Ann Cornelisen Fellowship'
+<?php echo sec_hasColumns(
+    'Meet some previous <br>Time Out Grant recipients',
+    '3',
+    '<p class="intro-text">Each of these Vassar graduates, and many others over the past three decades, was able to realize a dream that encompassed their own lives and the lives of others, thanks to the Time Out Grant, funded by an extraordinarily generous, anonymous Vassar alumna.</p>',
+    'theme-extralightgray',
+    'gap-3'
 ); ?>
 
-<?php echo end_sec_fullBleedImageColumn(); ?>
+  <?php echo item_cardWithText(
+      'Bishop Joseph Tolton ’89',
+      'https://www.vassar.edu/stories/2021/time-out-awardee-bishop-joseph-tolton-89.html',
+      [
+        'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2022-06/bishop-tolton-2021-card.jpg',
+        'alt' => 'asdfasdfds'
+      ],
+      'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+  ); ?>
+    <p>Pan African Young Adult Leadership Program</p>
+  <?php echo end_item_cardWithText(); ?>
+
+  <?php echo item_cardWithText(
+      'Katherine Yungmee Kim&nbsp;’93',
+      'https://www.vassar.edu/news/time-out-grant-winner-explores-legacy-koreas-division-new-book',
+      [
+        'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2022-04/katherinekim_3235-by-dahlia-simone-kim-levy-card_0.jpg',
+        'alt' => 'asdfasdfds'
+      ],
+      'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+  ); ?>
+    <p>Exploring the Legacy of Korea’s Division</p>
+  <?php echo end_item_cardWithText(); ?>
+
+  <?php echo item_cardWithText(
+      'Pablo Elliott ’00',
+      'https://www.vassar.edu/stories/2020/vassar-time-out-grant-gives-sustainable-farming-advocate-more-latitude-to-make-a-difference.html',
+      [
+        'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2021-07/time-out-eliott.jpg',
+        'alt' => 'asdfasdfds'
+      ],
+      'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+  ); ?>
+    <p>Community Farm Project Across Latitudes</p>
+  <?php echo end_item_cardWithText(); ?>
+
+
+  <?php echo item_cardWithText(
+      'Susan Yacubian Klein ’64',
+      'https://www.vassar.edu/vq/issues/2010/01/beyond-vassar/turning-handicrafts-opportunity.html',
+      [
+        'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2021-07/klein.jpg',
+        'alt' => 'asdfasdfds'
+      ],
+      'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+  ); ?>
+    <p>Turning Handicrafts into Opportunity</p>
+  <?php echo end_item_cardWithText(); ?>
+
+
+  <?php echo item_cardWithText(
+      'Jane Kramer ’78',
+      'https://www.vassar.edu/vq/issues/2010/03/beyond-vassar/dream-a-little-dream.html',
+      [
+        'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2021-07/kramer.jpg',
+        'alt' => 'asdfasdfds'
+      ],
+      'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+  ); ?>
+    <p>Enriching Lives Through Music</p>
+  <?php echo end_item_cardWithText(); ?>
+
+
+  <?php echo item_cardWithText(
+      'Kathryn Tolbert ’74',
+      'https://www.washingtonpost.com/sf/national/2016/09/22/from-hiroko-to-susie-the-untold-stories-of-japanese-war-brides/?noredirect=on&utm_term=.975bd531e220',
+      [
+        'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2021-07/tolbert-kathrynandhiroko-final.jpg',
+        'alt' => 'asdfasdfds'
+      ],
+      'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+  ); ?>
+    <p>Japanese War Brides</p>
+  <?php echo end_item_cardWithText(); ?>
+<?php echo end_sec_hasColumns(); ?>
 
 
 
-<?php echo sec_fullBleedImageColumn(
-    'The Fulbright Program',
-    $alumni_img_path.'alumni-resources/alumni-benefits/Jonathan_Kaiman.jpg',
-    'theme-dark-burgundy has-bg quad-pattern',
-    ''
+<?php echo sec_regularContent(
+    null,
+    '',
+    'content_classes'
 ); ?>
-<p>The Fulbright U.S. Student Program is the largest U.S. exchange program offering opportunities for students and young professionals to undertake international graduate study, advanced research, university teaching, and primary and secondary school teaching worldwide. The program currently awards approximately 1,900 grants annually in all fields of study, and operates in more than 140 countries worldwide. Recipients of Fulbright awards are selected on the basis of academic or professional achievement, language preparation, and the quality and feasibility of the proposal. English Teaching Assistantships are available in more than 50 countries.</p>
 
-<?php echo cta_link(
-    'https://offices.vassar.edu/fellowships/fellowships/graduates/fulbright/',
-    'Learn more about the Fulbright Program'
-); ?>
+  <p class="mb-5">Vassar alumni who have reached their 40th birthday are eligible to apply for the Time Out Grant. Proposals involving innovation and out-of-the-box thinking, with an end goal of significant change, are encouraged. Projects must be designed to span a time frame of at least twelve months. <strong>You must be willing to take a full year off from your current endeavors and devote yourself full-time to your project.</strong></p>
 
-<?php echo end_sec_fullBleedImageColumn(); ?>
+  <?php echo info_card('Application Process is Closed'); ?>
+    <p>The Time Out Grant application process is closed. The application process takes place from September to December of any given year and recipients are notified in April. Check back in September 2022 for application instructions for the 2023 Time Out Grant.</p>
+  <?php echo end_info_card(); ?>
 
 
-<?php echo sec_fullBleedImageColumn(
-    'The Luce Scholars Program',
-    '/assets/images/placeholders/placeholder-square.png',
-    'image-is-first theme-cream',
-    ''
-); ?>
-<h6 class="tagline">for Internships in Asia</h6>
-<p>Vassar may nominate three candidates for this scholarship, which endeavors to increase awareness of Asia among future leaders in American society by sponsoring 15–18 young Americans each year to live and work in Asia. Candidates must be American citizens who have received at least a bachelor’s degree and who would not have reached their 30th birthday by July 1st of the year they enter the program. They should have a record of high achievement, outstanding leadership ability, and clearly defined interests with evidence of potential for professional accomplishments. Those who already have significant experience in Asia or Asian studies are not eligible.</p>
+<?php echo end_sec_regularContent(); ?>
 
-<?php echo cta_link(
-    'https://offices.vassar.edu/fellowships/fellowships/graduates/luce/',
-    'Learn more about the Luce Scholars Program'
-); ?>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<?php echo sec_fullBleedImageColumn(
-    'The Maguire Fellowship',
-    '/assets/images/placeholders/placeholder-square.png',
-    'theme-dark-burgundy has-bg quad-pattern',
-    ''
-); ?>
-<h6 class="tagline">For Study Abroad After Graduation</h6>
-<p>Intended for recent graduates wishing to pursue their interest in the humanities abroad, this fellowship awards up to $25,000 to graduates with a well-developed proposal of study with a clear academic focus. Evidence of sufficient language skills and academic preparation to successfully undertake the proposed study must be presented as well as a clear articulation of how the Fellowship will further one’s future objectives.</p>
-
-<?php echo cta_link(
-    'https://offices.vassar.edu/fellowships/fellowships/graduates/maguire/',
-    'Learn more about the Maguire Fellowship'
-); ?>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<?php echo sec_fullBleedImageColumn(
-    'The Vassar W.K. Rose Fellowship in the Creative Arts',
-    '/assets/images/placeholders/placeholder-square.png',
-    'image-is-first theme-cream',
-    ''
-); ?>
-<p>Intended to provide a worthy young artist a minimum of $45,000 and the chance to be free after college to get on with their work as an artist, the Rose Fellowship is available to artists in the fields of writing, visual arts (including film), and music composition. Applicants must have demonstrated a creative talent during undergraduate study, must not be employed by the College, must not have attained substantial recognition in their field, and be under the age of 36. This fellowship is not intended for graduate study.</p>
-
-<?php echo cta_link(
-    'https://offices.vassar.edu/fellowships/fellowships/graduates/rose/',
-    'Learn more about the W.K. Rose Fellowship'
-); ?>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php /*  PAGE CONTENT === */ ?>
