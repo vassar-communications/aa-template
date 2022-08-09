@@ -163,3 +163,11 @@ h3.section-title {
     z-index: 100;
   }
 }
+
+
+h3.section-title {
+  &:after {
+    width: 4rem;
+    border-width: 3px;
+  }
+}

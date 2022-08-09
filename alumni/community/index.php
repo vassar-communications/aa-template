@@ -27,7 +27,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fixedCenteredTitle_masthead_vid(
-    '<b class="slide-from-left">Our</b>
+    '<b class="slide-from-left">Our&nbsp;</b>
    <b class="slide-from-right">Community</b>',
     '727857456?h=6ff0b4bfe7',
     'theme-verylightgray reveal-image',

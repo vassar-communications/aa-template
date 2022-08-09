@@ -24,10 +24,14 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-
+<style>
+b {
+  display: block !important;
+}
+</style>
 
 <?php echo sec_fixedCenteredTitle_masthead_vid(
-    '<b class="slide-from-left">Give</b>
+    '<b class="slide-from-left">Give&nbsp;</b>
    <b class="slide-from-right">Back</b>',
     '727857417?h=67e1eace57',
     'theme-verylightgray reveal-image',

@@ -31,7 +31,7 @@ Make sure functions convert straight quotes to curly
 -->
 
 <?php echo sec_fixedCenteredTitle_masthead_vid(
-    '<b class="slide-from-left">Alumni</b>
+    '<b class="slide-from-left">Alumni&nbsp;</b>
    <b class="slide-from-right">Calendar</b>',
     '727857392?h=9586cb06fa',
     'theme-verylightgray reveal-image',

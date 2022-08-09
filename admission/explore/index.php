@@ -23,7 +23,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fixedCenteredTitle_masthead(
-    '<b class="slide-from-left">Explore</b>
+    '<b class="slide-from-left">Explore&nbsp;</b>
    <b class="slide-from-right">Vassar</b>',
     null,
     'theme-verylightgray reveal-image',
