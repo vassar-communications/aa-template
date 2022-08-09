@@ -90,7 +90,15 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <h6 class="tagline">2021 Recipient</h6>
 <h1>Pat Jordan ’72, P’17</h1>
-<a href="https://vimeo.com/574099032" class="btn btn-link arrow">Watch the video</a>
+
+<p><?php echo item_link_VideoModal(
+    'Watch the video',
+    'https://player.vimeo.com/video/574099032',
+    'vimeo',
+    '',
+    'no-arrow btn-link mt-4'
+); ?></p>
+
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
@@ -115,7 +123,15 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <h6 class="tagline">2021 Recipient</h6>
 <h1>Judge Vicki Miles-Lagrange ’74</h1>
-<a href="https://vimeo.com/637566070" class="btn btn-link arrow">Watch the video</a>
+
+<p><?php echo item_link_VideoModal(
+    'Watch the video',
+    'https://player.vimeo.com/video/637566070',
+    'vimeo',
+    '',
+    'no-arrow btn-link mt-4'
+); ?></p>
+
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
@@ -142,7 +158,15 @@ $page_info = json_decode($page_info, true);
 <h6 class="tagline">2021 Recipient</h6>
 <h1>Rachel Kitzinger</h1>
 <p class="intro-text">Professor Emerita of Greek and Roman Studies</p>
-<a href="https://vimeo.com/637580661" class="btn btn-link arrow">Watch the video</a>
+
+<p><?php echo item_link_VideoModal(
+    'Watch the video',
+    'https://player.vimeo.com/video/637580661',
+    'vimeo',
+    '',
+    'no-arrow btn-link mt-4'
+); ?></p>
+
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
@@ -168,7 +192,15 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <h6 class="tagline">2021 Recipient</h6>
 <h1>Marie Dugo Dilemani ’11</h1>
-<a href="https://vimeo.com/637612799" class="btn btn-link arrow">Watch the video</a>
+
+<p><?php echo item_link_VideoModal(
+    'Watch the video',
+    'https://player.vimeo.com/video/637612799',
+    'vimeo',
+    '',
+    'no-arrow btn-link mt-4'
+); ?></p>
+
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 

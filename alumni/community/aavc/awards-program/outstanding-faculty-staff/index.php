@@ -42,11 +42,12 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
   <li>
-    <?php echo icon_link(
-      'Watch the video',
-      'https://vimeo.com/637580661',
-      'video',
-      'no-arrow'
+    <?php echo item_link_VideoModal(
+        'Watch the video',
+        'https://player.vimeo.com/video/637580661?h=2fa683eea6',
+        'vimeo',
+        '',
+        'no-arrow'
     ); ?>
   </li>
 	<li><a href="https://www.vassar.edu/news/five-honored-2021-aavc-awards" title="Five Honored with 2021 AAVC Awards">Read about the recipient</a></li>
@@ -57,11 +58,12 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
   <li>
-    <?php echo icon_link(
-      'Watch the video',
-      'https://vimeo.com/477225581',
-      'video',
-      'no-arrow'
+    <?php echo item_link_VideoModal(
+        'Watch the video',
+        'https://player.vimeo.com/video/477225581?h=553302e0ad',
+        'vimeo',
+        '',
+        'no-arrow'
     ); ?>
   </li>
 	<li><a href="https://www.vassar.edu/stories/2020/professor-emeritus-robert-pounder-honored-with-aavcs-outstanding-faculty-award.html">Read more about the recipient</a></li>
@@ -80,11 +82,12 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
   <li>
-    <?php echo icon_link(
-      'Watch the video',
-      'https://youtu.be/Vfpr1ASPPZg',
-      'video',
-      'no-arrow'
+    <?php echo item_link_VideoModal(
+        'Watch the video',
+        'https://www.youtube.com/embed/Vfpr1ASPPZg',
+        'youtube',
+        '',
+        'no-arrow'
     ); ?>
   </li>
 	<li><a href="https://www.vassar.edu/stories/2018/180628-aavc-awards.html">Read more about the recipient</a></li>
@@ -95,11 +98,12 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
   <li>
-    <?php echo icon_link(
-      'Watch the video',
-      'https://www.youtube.com/watch?v=Zl91M4N2Kzc',
-      'video',
-      'no-arrow'
+    <?php echo item_link_VideoModal(
+        'Watch the video',
+        'https://www.youtube.com/embed/Zl91M4N2Kzc',
+        'youtube',
+        '',
+        'no-arrow'
     ); ?>
   </li>
 	<li><a href="https://www.vassar.edu/news/glen-johnson-receives-inaugural-aavc-outstanding-facultystaff-award">Read more about the recipient</a></li>

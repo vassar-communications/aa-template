@@ -55,6 +55,8 @@ $page_info = json_decode($page_info, true);
         'Watch the video',
         'https://player.vimeo.com/video/508572472',
         'vimeo',
+        '',
+        'no-arrow'
     ); ?>
   </li>
   <li>
@@ -83,6 +85,8 @@ $page_info = json_decode($page_info, true);
         'Watch the video',
         'https://www.youtube.com/embed/UY5tKY9kVJ8',
         'youtube',
+        '',
+        'no-arrow'
     ); ?>
   </li>
   <li>
@@ -101,6 +105,8 @@ $page_info = json_decode($page_info, true);
         'Watch the video',
         'https://www.youtube.com/embed/u44NpcIgbXM',
         'youtube',
+        '',
+        'no-arrow'
     ); ?>
   </li>
 
@@ -149,6 +155,8 @@ $page_info = json_decode($page_info, true);
         'Watch the video',
         'https://www.youtube.com/embed/xXuVmjduFQI',
         'youtube',
+        '',
+        'no-arrow'
     ); ?>
   </li>
   <li>
@@ -167,6 +175,8 @@ $page_info = json_decode($page_info, true);
         'Watch the video',
         'https://www.youtube.com/embed/qNTLtexVkCI',
         'youtube',
+        '',
+        'no-arrow'
     ); ?>
   </li>
   <li><a href="http://vq.vassar.edu/issues/2008/02/features/dynamic-ideas-on-population.html">Read more about Zabin in the Spring 2008&nbsp;<em>Vassar Quarterly</em>&nbsp;article</a></li>
