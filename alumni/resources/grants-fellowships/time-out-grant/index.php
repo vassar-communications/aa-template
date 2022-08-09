@@ -29,6 +29,11 @@ $page_info = json_decode($page_info, true);
 
 <?php echo interior_page_nav() ?>
 
+<style>
+  .masthead--interiorPage .full-bleed-image-container img {
+    object-position: right;
+  }
+</style>
 
 <?php echo masthead_interiorPage(
     'Take Time Out to Change the World',
@@ -43,6 +48,8 @@ $page_info = json_decode($page_info, true);
     '',
     'content_classes'
 ); ?>
+
+
 
 <p>2022 recipient Irene López ’91 (depicted above) <a href="https://www.vassar.edu/news/time-out-grant-will-help-awardee-give-voice-survivors-gender-based-violence">plans to use the grant to give voice to survivors of gender-based violence in Puerto Rico</a>. The Lydia Project: Mujeres Bravas con Cámaras (Brave Women with Cameras) will train survivors to document their experiences via photography and enable them to engage in a critical reflection on the images they produce.</p>
 
