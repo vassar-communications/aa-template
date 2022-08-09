@@ -275,7 +275,7 @@ $( ".sec-wordByWord" ).each(function( index ) {
     var theSection = $(this);
 
     $.each(words, function(i, v) {
-        $(".section-content p", theSection).append($("<span>").text(v));
+        $(".section-content p", theSection).append($("<span>").html(v + '&nbsp;'));
     });
 
     console.log( index + ": " + $( this ).text() );
