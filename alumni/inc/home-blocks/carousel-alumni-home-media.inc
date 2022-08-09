@@ -8,7 +8,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   ); ?>
 
   <small class="mb-3 d-block">June 21, 2022</small>
-<p><strong>Jason Blum ’91’s</strong> $10 million gift to <strong>Vassar College</strong> was the subject of a <a href="https://variety.com/2022/film/news/jason-blum-blumhouse-vassar-college-scholarship-1235299680/"><em>Variety</em></a> story.</p>
+<p><strong>Jason Blum ’91’s</strong> $10 million gift to <strong>Vassar College</strong> was the subject of a <em>Variety</em> story.</p>
 
 <?php echo cta_link(
   'https://variety.com/2022/film/news/jason-blum-blumhouse-vassar-college-scholarship-1235299680/',
@@ -29,7 +29,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   ); ?>
 
   <small class="mb-3 d-block">June 21, 2022</small>
-  <p>The Ford Foundation has awarded a senior fellowship to <strong>Sherrilyn Ifill ’84</strong>, President and Director-Counsel Emeritus of the NAACP Legal Defense Fund, “to continue her work on strengthening American democracy,” as announced by the <a href="https://www.fordfoundation.org/news-and-stories/news-and-press/news/sherrilyn-ifill-joins-ford-foundation-as-a-senior-fellow/">foundation</a>.</p>
+  <p>The Ford Foundation has awarded a senior fellowship to <strong>Sherrilyn Ifill ’84</strong>, President and Director-Counsel Emeritus of the NAACP Legal Defense Fund, “to continue her work on strengthening American democracy,” as announced by the foundation.</p>
 
   <?php echo cta_link(
     'https://www.fordfoundation.org/news-and-stories/news-and-press/news/sherrilyn-ifill-joins-ford-foundation-as-a-senior-fellow/',
@@ -44,7 +44,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
   <?php echo carousel_item(
-    $media_carousel_path.'ifill.jpg',
+    $media_carousel_path.'goldberg.jpg',
     'is-link'
   ); ?>
 

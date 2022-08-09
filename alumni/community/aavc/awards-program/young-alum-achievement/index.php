@@ -43,11 +43,12 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
   <li>
-    <?php echo icon_link(
+    <?php echo item_link_VideoModal(
       'Watch the video',
-      'https://vimeo.com/637612799',
-      'video',
-      'no-arrow'
+        'https://player.vimeo.com/video/637612799?h=4c2b5a1293',
+        'vimeo',
+        '',
+        'no-arrow'
     ); ?>
   </li>
     <li><a href="https://www.vassar.edu/news/five-honored-2021-aavc-awards" title="Five Honored with 2021 AAVC Awards">Read about Dilemani in the Vassar news story about the 2021 AAVC Awards.</a></li>
@@ -76,11 +77,12 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
   <li>
-    <?php echo icon_link(
+    <?php echo item_link_VideoModal(
       'Watch the video',
-      'https://youtu.be/UY5tKY9kVJ8',
-      'video',
-      'no-arrow'
+        'https://www.youtube.com/embed/UY5tKY9kVJ8',
+        'youtube',
+        '',
+        'no-arrow'
     ); ?>
   </li>
     <li><a href="https://stories.vassar.edu/2018/180918-making-an-immediate-impact-in-the-world.html">Read more about Ren in the September 2018 <em>Vassar Stories</em> article.</a></li>
@@ -92,12 +94,13 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
 <li>
-    <?php echo icon_link(
-      'Watch the video',
-      'https://youtu.be/u44NpcIgbXM',
-      'video',
+  <?php echo item_link_VideoModal(
+    'Watch the video',
+      'https://www.youtube.com/embed/u44NpcIgbXM',
+      'youtube',
+      '',
       'no-arrow'
-    ); ?>
+  ); ?>
   </li>
     <li><a href="http://stories.vassar.edu/2017/170912-fall-convocation.html">Read more about O’Haire in the September 2017 <em>Vassar Stories</em> article.</a></li>
 </ul>

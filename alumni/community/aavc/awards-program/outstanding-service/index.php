@@ -43,11 +43,12 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
   <li>
-    <?php echo icon_link(
-      'Watch the video',
-      'https://vimeo.com/574099032',
-      'video',
-      'no-arrow'
+    <?php echo item_link_VideoModal(
+        'Watch the video',
+        'https://player.vimeo.com/video/574099032?h=59bf2d53a8',
+        'vimeo',
+        '',
+        'no-arrow'
     ); ?>
   </li>
 		<li><a href="https://www.vassar.edu/news/five-honored-2021-aavc-awards" title="Five Honored with 2021 AAVC Awards">Read about the recipient</a></li>
@@ -69,14 +70,14 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
   <li>
-    <?php echo icon_link(
-      'Watch the video',
-      'https://youtu.be/3cZvoALtLm0',
-      'video',
-      'no-arrow'
+    <?php echo item_link_VideoModal(
+        'Watch the video',
+        'https://www.youtube.com/embed/3cZvoALtLm0',
+        'youtube',
+        '',
+        'no-arrow'
     ); ?>
   </li>
-  <li>
 		<li><a href="https://www.vassar.edu/stories/2018/180628-aavc-awards.html">Read more about the recipient</a></li>
 	</ul>
 
@@ -124,11 +125,12 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
   <li>
-    <?php echo icon_link(
-      'Watch the video',
-      'https://youtu.be/ukUbyCX9dss',
-      'video',
-      'no-arrow'
+    <?php echo item_link_VideoModal(
+        'Watch the video',
+        'https://www.youtube.com/embed/ukUbyCX9dss',
+        'youtube',
+        '',
+        'no-arrow'
     ); ?>
   </li>
 		<li><a href="https://www.vassar.edu/vq/issues/2011/01/a-look-back/for-school-for-country.html">Read more about the recipient</a></li>
@@ -141,12 +143,13 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
 <li>
-    <?php echo icon_link(
+  <?php echo item_link_VideoModal(
       'Watch the video',
-      'https://youtu.be/ArJ4xCZXeI8',
-      'video',
+      'https://www.youtube.com/embed/ArJ4xCZXeI8',
+      'youtube',
+      '',
       'no-arrow'
-    ); ?>
+  ); ?>
 </li>
 		<li><a href="https://www.vassar.edu/vq/issues/2009/04/beyond-vassar/outstanding-service.html">Read more about the recipient</a></li>
 	</ul>

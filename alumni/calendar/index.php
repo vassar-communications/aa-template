@@ -212,13 +212,14 @@ June 6–8, 2025</p>
   'Reunions',
   'https://www.vassar.edu/sites/default/files/2021-06/20-reunion-1906-bl-vassar-4706-cropped.jpg',
   '',
+  '',
   ['img_alt_text' => 'Fireworks in the night sky']
 ); ?>
 
-<p>Vassar and the Alumnae/i Association (AAVC) are thrilled about the return to in-person Reunions and can’t wait to welcome you and your classmates back to campus.</p>
+<p>Vassar and the Alumnae/i Association (AAVC) are thrilled about the return to in-person reunions and can’t wait to welcome you and your classmates back to campus.</p>
 
 <?php echo cta_link(
-    '/reunion/',
+    '/alumni/calendar/reunion/',
     'Learn more'
 ); ?>
 

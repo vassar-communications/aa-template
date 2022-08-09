@@ -506,15 +506,15 @@ sup {
   top: -0.5em;
 }
 
-a {
+a, .video-modal-link {
   color: #951829;
   text-decoration: none;
 }
-a:hover {
+a:hover, .video-modal-link:hover {
   color: #771321;
 }
 
-a:not([href]):not([class]), a:not([href]):not([class]):hover {
+a:not([href]):not([class]), .video-modal-link:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
 }
@@ -547,7 +547,7 @@ code {
   color: #e00;
   word-wrap: break-word;
 }
-a > code {
+a > code, .video-modal-link > code {
   color: inherit;
 }
 
@@ -9799,6 +9799,14 @@ h2.border-animate:after, .border-animate.h2:after {
   margin-right: auto;
 }
 
+.video-modal-link {
+  background: transparent;
+  border: none !important;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
 /*
  * This file needs some organization, since we have a few different kinds of cards. There are fancier cards, like the feature cards with images, but then there are going to be more generic cards: deadlines, notes, etc. Right now, all that styling is wrapped up together here.
  *
@@ -10595,12 +10603,12 @@ li {
   z-index: 1049;
   background-color: var(--color-vassar-burgundy, #000);
 }
-.vassar-masthead a {
+.vassar-masthead a, .vassar-masthead .video-modal-link {
   background-color: var(--color-vassar-burgundy, #000);
   display: block;
   padding: 1rem;
 }
-.vassar-masthead a:hover {
+.vassar-masthead a:hover, .vassar-masthead .video-modal-link:hover {
   background-color: var(--color-vassar-burgundy, #adb5bd);
 }
 .vassar-masthead svg {
@@ -12495,10 +12503,10 @@ This should be a section option
   z-index: 1861;
 }
 
-a[data-bs-toggle=collapse] {
+a[data-bs-toggle=collapse], [data-bs-toggle=collapse].video-modal-link {
   transition: 0.4s all ease;
 }
-a[data-bs-toggle=collapse]:hover {
+a[data-bs-toggle=collapse]:hover, [data-bs-toggle=collapse].video-modal-link:hover {
   color: #f00 !important;
 }
 
@@ -12515,7 +12523,7 @@ a[data-bs-toggle=collapse]:hover {
 .megamenu-site-nav .main-nav-link {
   width: 100%;
 }
-.megamenu-site-nav .nav-item > a {
+.megamenu-site-nav .nav-item > a, .megamenu-site-nav .nav-item > .video-modal-link {
   display: block;
   text-decoration: none;
   position: relative;
@@ -12527,7 +12535,7 @@ a[data-bs-toggle=collapse]:hover {
   background-size: 0% 1px, 100% 1px;
   padding: 0.5rem 0;
 }
-.megamenu-site-nav .nav-item > a:hover, .megamenu-site-nav .nav-item > a:focus {
+.megamenu-site-nav .nav-item > a:hover, .megamenu-site-nav .nav-item > .video-modal-link:hover, .megamenu-site-nav .nav-item > a:focus, .megamenu-site-nav .nav-item > .video-modal-link:focus {
   opacity: 1;
   color: var(--section-nav-emphasis-color);
   background-size: 100% 1px;
@@ -12537,7 +12545,7 @@ a[data-bs-toggle=collapse]:hover {
   z-index: 9999;
 }
 
-.offcanvas a {
+.offcanvas a, .offcanvas .video-modal-link {
   text-decoration: none;
 }
 
@@ -12565,7 +12573,7 @@ a[data-bs-toggle=collapse]:hover {
   z-index: 1865;
 }
 
-.megamenu-container .linked-list a,
+.megamenu-container .linked-list a, .megamenu-container .linked-list .video-modal-link,
 .megamenu-container .linked-list a:hover,
 .megamenu-container .linked-list a:focus,
 .megamenu-container .linked-list a:visited:hover,
@@ -12574,21 +12582,21 @@ a[data-bs-toggle=collapse]:hover {
 }
 
 /* Adding in a hover state for the accordion links */
-.offcanvas .accordion-body a:hover {
+.offcanvas .accordion-body a:hover, .offcanvas .accordion-body .video-modal-link:hover {
   border-bottom: 1px solid #fff;
 }
 
-.offcanvas .accordion-body a {
+.offcanvas .accordion-body a, .offcanvas .accordion-body .video-modal-link {
   transition: border-bottom 0.4s;
   border-bottom: 1px solid transparent;
 }
 
-.nav--top a {
+.nav--top a, .nav--top .video-modal-link {
   font-size: 1.5rem;
   letter-spacing: 0.08rem;
   font-variation-settings: "wght" 500;
 }
-.nav--top a:hover, .nav--top a:focus {
+.nav--top a:hover, .nav--top .video-modal-link:hover, .nav--top a:focus, .nav--top .video-modal-link:focus {
   background: #951829;
   color: #fff;
 }
@@ -12753,12 +12761,12 @@ a[data-bs-toggle=collapse]:hover {
   }
 }
 
-li.breadcrumb-item:last-child a {
+li.breadcrumb-item:last-child a, li.breadcrumb-item:last-child .video-modal-link {
   font-weight: bold;
   font-variation-settings: "wght" 800;
 }
 
-a.breadcrumb-link {
+a.breadcrumb-link, .breadcrumb-link.video-modal-link {
   font-variation-settings: "wght" 490;
 }
 
@@ -12768,7 +12776,7 @@ a.breadcrumb-link {
   --section-link-hover-color: #e00;
 }
 
-.breadcrumb-item:last-child a {
+.breadcrumb-item:last-child a, .breadcrumb-item:last-child .video-modal-link {
   --section-link-color: #e00;
   --section-link-visited-color: #e00;
 }
@@ -13752,7 +13760,7 @@ ul.style-checklist.theme-cream {
   background: var(--color-vassar-cream);
 }
 
-ul.style-checklist a {
+ul.style-checklist a, ul.style-checklist .video-modal-link {
   color: #f00;
   border-bottom: 1px solid;
 }
@@ -13811,13 +13819,13 @@ ul.style-checklist a {
 .staff-contact .contact-links {
   margin-bottom: 0;
 }
-.staff-contact .contact-links a {
+.staff-contact .contact-links a, .staff-contact .contact-links .video-modal-link {
   font-size: 1.1rem;
   border: none;
   font-variation-settings: "wght" 400;
   transition: 0.2s all ease;
 }
-.staff-contact .contact-links a:link:hover, .staff-contact .contact-links a:link:focus, .staff-contact .contact-links a:visited:hover, .staff-contact .contact-links a:visited:focus {
+.staff-contact .contact-links a:link:hover, .staff-contact .contact-links .video-modal-link:link:hover, .staff-contact .contact-links a:link:focus, .staff-contact .contact-links .video-modal-link:link:focus, .staff-contact .contact-links a:visited:hover, .staff-contact .contact-links .video-modal-link:visited:hover, .staff-contact .contact-links a:visited:focus, .staff-contact .contact-links .video-modal-link:visited:focus {
   color: #d00;
 }
 
@@ -13907,13 +13915,14 @@ ul.style-checklist a {
   list-style: none;
   border-top: 1px solid var(--border-accent-verylight-themebased, #ddd);
 }
-.linked-list a {
+.linked-list a, .linked-list .video-modal-link {
   display: block;
   font-variation-settings: "wght" 400;
   display: block;
   padding: 0.4rem;
+  font-size: 1.1rem;
 }
-.linked-list a:not(.no-arrow):after {
+.linked-list a:not(.no-arrow):after, .linked-list .video-modal-link:not(.no-arrow):after {
   content: "→";
   width: 1.2rem;
   height: 1.2rem;
@@ -13926,21 +13935,21 @@ ul.style-checklist a {
   border-radius: 50%;
   margin-left: 0.4rem;
 }
-.linked-list a:hover, .linked-list a:focus {
+.linked-list a:hover, .linked-list .video-modal-link:hover, .linked-list a:focus, .linked-list .video-modal-link:focus {
   background: var(--linkedList-link-bg-hover, #eeeeee);
 }
 .linked-list.no-first-border li:first-child {
   border-top: none;
 }
 
-.linked-list a.ps-0 {
+.linked-list a.ps-0, .linked-list .ps-0.video-modal-link {
   transition: 0.4s all ease;
 }
-.linked-list a.ps-0:hover {
+.linked-list a.ps-0:hover, .linked-list .ps-0.video-modal-link:hover {
   padding-left: 0.4rem !important;
 }
 
-.linked-list a:hover:after {
+.linked-list a:hover:after, .linked-list .video-modal-link:hover:after {
   background: #951829;
   color: #fff;
 }
@@ -13950,7 +13959,7 @@ ul.style-checklist a {
   --section-link-hover-color: #fff;
   --border-accent-verylight-themebased: rgba(255,255,255,0.4);
 }
-.ll-theme-light-on-charcoal a:hover:after {
+.ll-theme-light-on-charcoal a:hover:after, .ll-theme-light-on-charcoal .video-modal-link:hover:after {
   background: #ddd;
   color: #444;
 }
@@ -14039,7 +14048,7 @@ ul.style-checklist a {
   padding-left: 1rem;
   border-left: 1px solid #ddd;
 }
-.page-index-side .list-group-item ul a {
+.page-index-side .list-group-item ul a, .page-index-side .list-group-item ul .video-modal-link {
   font-size: 1rem;
 }
 .page-index-side .top-level-item {
@@ -14292,13 +14301,18 @@ footer a  {
 }
 
 a:not(.btn,
+.nav-link), .video-modal-link:not(.btn,
 .nav-link) {
   color: var(--section-text-color, var(--color-vassar-charcoal));
 }
 a:not(.btn,
+.nav-link):link:hover, .video-modal-link:not(.btn,
 .nav-link):link:hover, a:not(.btn,
+.nav-link):link:focus, .video-modal-link:not(.btn,
 .nav-link):link:focus, a:not(.btn,
+.nav-link):visited:hover, .video-modal-link:not(.btn,
 .nav-link):visited:hover, a:not(.btn,
+.nav-link):visited:focus, .video-modal-link:not(.btn,
 .nav-link):visited:focus {
   color: var(--section-text-color, var(--color-vassar-charcoal));
 }
@@ -14306,10 +14320,19 @@ a:not(.btn,
 p a:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
+.nav-link), p .video-modal-link:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
 .nav-link), li a:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
+.nav-link), li .video-modal-link:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
 .nav-link), details a:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
+.nav-link), details .video-modal-link:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
 .nav-link) {
@@ -14320,10 +14343,19 @@ p a:not(.btn,
 p a:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
+.nav-link):visited, p .video-modal-link:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
 .nav-link):visited, li a:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
+.nav-link):visited, li .video-modal-link:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
 .nav-link):visited, details a:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
+.nav-link):visited, details .video-modal-link:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
 .nav-link):visited {
@@ -14332,37 +14364,73 @@ p a:not(.btn,
 p a:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
+.nav-link):link:hover, p .video-modal-link:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
 .nav-link):link:hover, p a:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
+.nav-link):link:focus, p .video-modal-link:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
 .nav-link):link:focus, p a:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
+.nav-link):visited:hover, p .video-modal-link:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
 .nav-link):visited:hover, p a:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
+.nav-link):visited:focus, p .video-modal-link:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
 .nav-link):visited:focus, li a:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
+.nav-link):link:hover, li .video-modal-link:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
 .nav-link):link:hover, li a:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
+.nav-link):link:focus, li .video-modal-link:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
 .nav-link):link:focus, li a:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
+.nav-link):visited:hover, li .video-modal-link:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
 .nav-link):visited:hover, li a:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
+.nav-link):visited:focus, li .video-modal-link:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
 .nav-link):visited:focus, details a:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
+.nav-link):link:hover, details .video-modal-link:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
 .nav-link):link:hover, details a:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
+.nav-link):link:focus, details .video-modal-link:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
 .nav-link):link:focus, details a:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
+.nav-link):visited:hover, details .video-modal-link:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
 .nav-link):visited:hover, details a:not(.btn,
+.breadcrumb-link,
+.breadcrumb-item,
+.nav-link):visited:focus, details .video-modal-link:not(.btn,
 .breadcrumb-link,
 .breadcrumb-item,
 .nav-link):visited:focus {
@@ -14370,31 +14438,32 @@ p a:not(.btn,
   border-bottom: none;
 }
 
-a.btn-link {
+a.btn-link, .btn-link.video-modal-link {
   transition: 0.4s all ease;
   transition-property: color, background-color;
 }
-a.btn-link:link {
+a.btn-link:link, .btn-link.video-modal-link:link {
   background-color: var(--section-link-bg-color, transparent);
   color: var(--section-link-color, var(--color-vassar-burgundy));
 }
-a.btn-link:visited {
+a.btn-link:visited, .btn-link.video-modal-link:visited {
   color: var(--section-link-color, var(--color-vassar-burgundy));
 }
-a.btn-link:hover, a.btn-link:visited:hover, a.btn-link:focus, a.btn-link:visited:focus {
+a.btn-link:hover, .btn-link.video-modal-link:hover, a.btn-link:visited:hover, a.btn-link:focus, .btn-link.video-modal-link:focus, a.btn-link:visited:focus {
   background-color: transparent;
 }
 
-footer a {
+footer a, footer .video-modal-link {
   border: 1px solid transparent;
 }
-footer a:link:hover, footer a:link:focus, footer a:visited:hover, footer a:visited:focus {
+footer a:link:hover, footer .video-modal-link:link:hover, footer a:link:focus, footer .video-modal-link:link:focus, footer a:visited:hover, footer .video-modal-link:visited:hover, footer a:visited:focus, footer .video-modal-link:visited:focus {
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 /* exceptions */
-.megamenu-site-nav a:link,
-.linked-list a:link {
+.megamenu-site-nav a:link, .megamenu-site-nav .video-modal-link:link,
+.linked-list a:link,
+.linked-list .video-modal-link:link {
   border: none;
 }
 
@@ -14809,7 +14878,7 @@ footer a:link:hover, footer a:link:focus, footer a:visited:hover, footer a:visit
     margin-top: 5rem;
   }
 }
-.fix, .fix a, a.fix {
+.fix, .fix a, .fix .video-modal-link, a.fix {
   color: #29e07e !important;
   font-weight: 700;
   font-style: italic;
@@ -14952,7 +15021,7 @@ footer a:link:hover, footer a:link:focus, footer a:visited:hover, footer a:visit
 .footer .border-double {
   border: 6px double var(--color-vassar-dark-burgundy);
 }
-.footer .footer-badge a {
+.footer .footer-badge a, .footer .footer-badge .video-modal-link {
   color: var(--footer-badge-link-color, #fff) !important;
 }
 .footer .badge-theme-white {
@@ -14960,17 +15029,17 @@ footer a:link:hover, footer a:link:focus, footer a:visited:hover, footer a:visit
   --footer-badge-link-color: var(--color-vassar-dark-burgundy);
 }
 
-ul.style-checklist a {
+ul.style-checklist a, ul.style-checklist .video-modal-link {
   text-decoration: none;
   border-bottom: 1px solid var(--link-underline-color, #63666A);
 }
 
-ul.style-checklist a:hover {
+ul.style-checklist a:hover, ul.style-checklist .video-modal-link:hover {
   border-bottom: none;
   opacity: var(--link-hover-opacity, 1);
 }
 
-.theme-burgundy .linked-list a:hover {
+.theme-burgundy .linked-list a:hover, .theme-burgundy .linked-list .video-modal-link:hover {
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -15138,7 +15207,7 @@ ul.style-checklist a:hover {
   background: #000;
 }
 
-a.logo:hover {
+a.logo:hover, .logo.video-modal-link:hover {
   border-bottom: none !important;
 }
 
@@ -15214,7 +15283,7 @@ a.logo:hover {
   --border-accent-verylight-themebased: rgba(255,0,0,0.2);
   --linkedList-link-bg-hover: rgba(255,0,0,0.2);
 }
-.main-menu-panel .linked-list a {
+.main-menu-panel .linked-list a, .main-menu-panel .linked-list .video-modal-link {
   padding: 0.1rem 0;
   font-size: 1.2rem;
 }
@@ -15244,11 +15313,11 @@ a.logo:hover {
   text-align: center;
   margin-top: 2rem;
 }
-.main-menu-panel .vassar-masthead-offcanvas a {
+.main-menu-panel .vassar-masthead-offcanvas a, .main-menu-panel .vassar-masthead-offcanvas .video-modal-link {
   display: inline-block;
   transition: 0.4s all ease;
 }
-.main-menu-panel .vassar-masthead-offcanvas a:hover {
+.main-menu-panel .vassar-masthead-offcanvas a:hover, .main-menu-panel .vassar-masthead-offcanvas .video-modal-link:hover {
   opacity: 0.4;
 }
 .main-menu-panel .megamenu-container {
@@ -15314,7 +15383,7 @@ a.logo:hover {
   left: 1rem;
   top: calc(100% + 1.2rem);
 }
-.main-menu-panel .megamenu-site-title a {
+.main-menu-panel .megamenu-site-title a, .main-menu-panel .megamenu-site-title .video-modal-link {
   color: #fff;
   opacity: 1;
   display: block;
@@ -15329,7 +15398,7 @@ a.logo:hover {
   padding: 0.5rem 0;
   opacity: 0.8;
 }
-.main-menu-panel .megamenu-site-title a:hover, .main-menu-panel .megamenu-site-title a:focus {
+.main-menu-panel .megamenu-site-title a:hover, .main-menu-panel .megamenu-site-title .video-modal-link:hover, .main-menu-panel .megamenu-site-title a:focus, .main-menu-panel .megamenu-site-title .video-modal-link:focus {
   background-size: 100% 1px;
 }
 .main-menu-panel .nav-items-col {
@@ -15474,7 +15543,7 @@ ul#block-fixedalumsmyaccountdirectory li {
   ul#block-fixedalumsmyaccountdirectory {
     --regularContent-font-size: 1rem;
   }
-  ul#block-fixedalumsmyaccountdirectory a.btn {
+  ul#block-fixedalumsmyaccountdirectory a.btn, ul#block-fixedalumsmyaccountdirectory .btn.video-modal-link {
     border-radius: 0.4rem;
   }
 }

@@ -158,10 +158,10 @@ $page_info = json_decode($page_info, true);
     'Every Gift Matters.',
     null,
     'theme-charcoal bg-dark presentation quad-pattern has-bg section-large-title',
-    'mw-4 py-3 d-flex flex-column justify-content-center flex-md-row'
+    'mw-4 py-3 d-flex flex-column justify-content-center flex-md-row align-items-center gap-3 mb-4'
 ); ?>
 
-<p class="intro-text">Explore funds and initiatives.</p>
+<p class="intro-text mb-0">Explore funds and initiatives.</p>
 <a href="https://go.vassar.edu/give" class="btn btn-primary arrow">Make a Gift</a>
 <?php echo end_sec_wideContent(); ?>
 
