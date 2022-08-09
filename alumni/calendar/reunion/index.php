@@ -36,17 +36,16 @@ $page_info = json_decode($page_info, true);
     'image-is-first theme-cream',
     ''
 ); ?>
-<p>Vassar and the Alumnae/i Association (AAVC) are thrilled about the return to in-person Reunions and can’t wait to welcome you and your classmates back to campus. This page will be updated periodically to provide the latest information about Reunion, which happens on campus in early June every year. Reunion registration opens in early April.</p>
+<p>Vassar and the Alumnae/i Association (AAVC) are thrilled about the return to in-person reunions and can’t wait to welcome you and your classmates back to campus. This page will be updated periodically to provide the latest information about Reunion, which happens on campus in early June every year. Reunion registration opens in early April.</p>
 <p>If you have questions, don’t hesitate to write to <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a> or call <a href="tel:800-443-8196">800-443-8196</a>.</p>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'See General Reunion Class Schedule',
+    'General Reunion Class Schedule',
     $alumni_img_path.'alumni-calendar/reunion/Reunion_Parade_180609_KR_8754.jpg',
     'theme-burgundy',
     ''
 ); ?>
-<p>Click here to view the full schedule for the upcoming reunion weekend.</p>
 <?php echo cta_link(
     'https://www.vassar.edu/sites/default/files/2022-01/Reunion-2022-Preliminary-General-Schedule.pdf',
     'See the schedule'
@@ -54,12 +53,12 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'See 50th Reunion Class Schedule',
+    '50th Reunion<br> Class Schedule',
     $alumni_img_path.'alumni-calendar/reunion/Reunion_1806_CS_073.jpg',
     'image-is-first',
     ''
 ); ?>
-<p>This year’s 50th reunion programming will include the class of 1972. Click here to view a list of 50th reunion class programs.</p>
+<p>This year’s 50th reunion programming will include the class of 1972.</p>
 <?php echo cta_link(
     'https://www.vassar.edu/sites/default/files/2022-03/1972-50th%20Reunion-Schedule-and-Newsletter-Mar4.pdf',
     'See the schedule'
