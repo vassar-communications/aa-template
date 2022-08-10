@@ -809,8 +809,15 @@ TMP;
 
   $local_footer_highlight = replace_tags_with_values( $tag_array, $local_footer_highlight );
 
-
   $local_info['local-footer-highlight'] = $local_footer_highlight;
+
+
+  // now load optional modules
+  $optional_module_path = $root_path_to_current_site . '/inc/_footer-mod-optional.php';
+  if( file_exists( $optional_module_path ) ) {
+    $local_info['local_footer_opt_module'] = file_get_contents( $optional_module_path );
+  }
+  else $local_info['local_footer_opt_module'] = '';
 
   return $local_info;
 }

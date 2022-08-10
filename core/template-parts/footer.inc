@@ -26,7 +26,7 @@ function site_footer() {
 <div class="section text-light theme-dark-burgundy py-5">
 <footer class="footer container-fluid">
 
-<!-- button bar goes here -->
+{$local_info['local_footer_opt_module']}
 
 		<div class="row row-cols-4 align-items-start">
 			<div class="col-12 col-md-8 col-lg-9 mt-5">
