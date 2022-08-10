@@ -71,7 +71,8 @@ $class_stats['attd_private_school'] = '24%';
 include($project_paths['main_project_root'].'/core/template-parts/header.inc');
 include($project_paths['main_project_root'].'/core/template-parts/footer.inc');
 include($project_paths['main_project_root'].'/core/template-parts/local-nav.inc');
-include($project_paths['main_project_root'].'/core/template-parts/tmpfooteralumni.inc');
+
+// include($project_paths['main_project_root'].'/core/template-parts/tmpfooteralumni.inc');
 
 include($project_paths['main_project_root'].'/core/template-parts/admission-topLevelNav.inc');
 include($project_paths['main_project_root'].'/core/template-parts/alums-topLevelNav.inc');
@@ -726,8 +727,40 @@ function make_page_title() {
   return $final_trail;
 }
 
+
+// Both Alums and Admission have parts of their footers that
+// are specific to that particular site. Those site-specific features
+// are stored in files in that site's /inc folder. Typically, I
+// get the file contents with file_get_contents(), put it into the
+// $local_info array, and insert it wherever in the footer it's needed.
+//
+// There might be some instances, however - and I'm thinking of the
+// footer highlight, that special box on the right - where I need to
+// insert PHP values. In this case, the image in that footer module
+// needs the value contained in $project_paths['public_path']. But since
+// this is file_get_contents(), it doesn't render the PHP.
+//
+// Solution: in any of these local files, have [[TAGS]] where dynamic
+// content will be inserted.
+//
+// Format: ['footer' => 'Footer content']
+// results in [[FOOTER]] being replaced with 'Footer content'
+
+
+function replace_tags_with_values( $tag_array, $content ) {
+  $final_markup = $content;
+
+  foreach ($tag_array as $tag => $value ) {
+    $the_tag = '[[' . $tag . ']]';
+    $final_markup = str_replace($the_tag, $value, $final_markup );
+  }
+  return $final_markup;
+}
+
+
 function local_info() {
 
+  global $project_paths;
 
   // find the local directory
   // what site are we in?
@@ -763,6 +796,22 @@ function local_info() {
 TMP;
   }
   $local_info['top_links_markup'] = $top_links_markup;
+
+
+  //  load the local nav
+  $local_info['local-nav'] = file_get_contents( $root_path_to_current_site . '/inc/_main-menu.php' );
+
+  // load the local feature
+  $local_footer_highlight = file_get_contents( $root_path_to_current_site . '/inc/_footer-highlight.php' );
+
+  // and make sure the path makes it in
+
+  $tag_array['LOCAL_PATH'] = $project_paths['public_path'];
+
+  $local_footer_highlight = replace_tags_with_values( $tag_array, $local_footer_highlight );
+
+
+  $local_info['local-footer-highlight'] = $local_footer_highlight;
 
   return $local_info;
 }

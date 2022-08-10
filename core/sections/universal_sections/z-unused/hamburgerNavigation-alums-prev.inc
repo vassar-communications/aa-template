@@ -9,8 +9,12 @@
  * @param  array $extras (optional) - Reserved for future use
  * @return string $template - The rendered HTML markup
  */
-function hamburger_navigation($classes=false, $extras = false) {
+function hamburger_navigation_alums(
+  $classes=false,
+  $extras = false) {
+
     $local_info = local_info();
+
 $template = <<<TMP
 
 <div class="hamburger-navigation $classes">
@@ -31,15 +35,17 @@ $template = <<<TMP
          </a>
       </div>
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-times"></button>
+
       <div class="megamenu-container">
          <div class="megamenu-cols-container row align-items-start">
-            <div class="col-md-7">
 
-<!-- start nav -->
+                     <div class="col-md-7">
+                     <!-- start nav -->
+
 {$local_info['local-nav']}
-<!-- end nav -->
-            </div>
 
+                     <!-- end nav -->
+                     </div>
 
 
             <div class="col-md-5 quick-links-col">
