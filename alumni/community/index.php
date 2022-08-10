@@ -68,61 +68,56 @@ $page_info = json_decode($page_info, true);
 
 <!-- end visit -->
 
-
-<?php echo sec_fullBleedImageColumn(
-    'Alumni Groups',
-    '/alumni/assets/img/alumni-community/alumni-groups/0127_12_12_YEM_2467.jpg',
-    'theme-cream image-is-first',
-    '',
-    ['img_alt_text' => 'Three Alumni community members talking']
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <p>Explore Vassar&#8217;s extensive network of groups and clubs.</p>
-    <?php echo cta_link(
-        '/alumni/community/alumni-groups',
-        'Learn more about alumni groups'
-    ); ?>
-</div>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
 <?php echo sec_fullBleedImageColumn(
     'Alumnae/i Association of Vassar College',
     '/alumni/assets/img/alumni-community/aavc/Vassar_Reunion_19 BL_4788.jpg',
-    'theme-cream',
+    'theme-burgundy',
     '',
     ['img_alt_text' => 'AAVC members holding an AAVC banner']
 ); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <p>A dynamic global network of 41,000+ members!</p>
-    <?php echo cta_link(
-        '/alumni/community/aavc',
-        'Learn more about AAVC'
-    ); ?>
-</div>
-
-
+  <div class="animate-when-content-appears animation-slide-up">
+      <p>A dynamic global network of 41,000+ members!</p>
+      <?php echo cta_link(
+          '/alumni/community/aavc',
+          'Learn more about AAVC'
+      ); ?>
+  </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
 
 <?php echo sec_fullBleedImageColumn(
     'Alumni News & Stories',
     '/alumni/assets/img/alumni-community/blum-square.jpg',
-    'theme-cream image-is-first',
+    'theme-extralightgray quad-pattern has-bg image-is-first',
     '',
     ['img_alt_text' => 'Vassar Alumni Jason Blum speaking into a microphone']
 ); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <p>Read about the latest achievements from Vassar alumni.
-    </p>
+  <div class="animate-when-content-appears animation-slide-up">
+      <p>Read about the latest achievements from Vassar alumni.
+      </p>
 
-    <?php echo cta_link(
-        '/alumni/community/alumni-news',
-        'Learn more'
-    ); ?>
-</div>
+      <?php echo cta_link(
+          '/alumni/community/alumni-news',
+          'Learn more'
+      ); ?>
+  </div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+<?php echo sec_fullBleedImageColumn(
+    'Alumni Groups',
+    '/alumni/assets/img/alumni-community/alumni-groups/0127_12_12_YEM_2467.jpg',
+    'theme-cream',
+    '',
+    ['img_alt_text' => 'Three Alumni community members talking']
+); ?>
+  <div class="animate-when-content-appears animation-slide-up">
+      <p>Explore Vassar&#8217;s extensive network of groups and clubs.</p>
+      <?php echo cta_link(
+          '/alumni/community/alumni-groups',
+          'Learn more about alumni groups'
+      ); ?>
+  </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
