@@ -9807,6 +9807,23 @@ h2.border-animate:after, .border-animate.h2:after {
   text-align: left;
 }
 
+a.link-to-top, .link-to-top.video-modal-link {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  padding: 0.1rem 0.6rem;
+  color: #400 !important;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 2rem;
+  backdrop-filter: blur(20px);
+  z-index: 1000;
+  opacity: 0;
+  transition: 1s all ease;
+}
+.show-top-link a.link-to-top, .show-top-link .link-to-top.video-modal-link {
+  opacity: 1;
+}
+
 /*
  * This file needs some organization, since we have a few different kinds of cards. There are fancier cards, like the feature cards with images, but then there are going to be more generic cards: deadlines, notes, etc. Right now, all that styling is wrapped up together here.
  *

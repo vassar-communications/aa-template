@@ -26,6 +26,8 @@ function site_footer() {
 <div class="section text-light theme-dark-burgundy py-5">
 <footer class="footer container-fluid">
 
+<a class="link-to-top" href="#top">Back to top</a>
+
 {$local_info['local_footer_opt_module']}
 
 		<div class="row row-cols-4 align-items-start">
