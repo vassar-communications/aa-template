@@ -50,7 +50,7 @@ $page_info = json_decode($page_info, true);
     'theme-charcoal bg-dark  presentation quad-pattern has-bg',
     'mw-4 text-center'
 ); ?>
-<h2 class="h2 mb-5">Visit the volunteer portal for a full list of resources.</h2>
+<h2 class="h2 mb-5">Log in to the volunteer portal for a full list of resources.</h2>
 <a href="#" class="btn btn-primary arrow">I am a Volunteer</a>
 <?php echo end_sec_wideContent(); ?>
 
