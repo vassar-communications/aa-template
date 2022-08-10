@@ -94,20 +94,20 @@ for (var i = 0; i < discreteElements.length; i++) {
     });
 }
 
-
-var waypoint = new Waypoint({
-	element: document.getElementById('top'),
-	handler: function(direction) {
-		if(direction=='down') {
-			$( 'html' ).addClass('show-top-link');
-		}
-		else if(direction=='up') {
-			$( 'html' ).removeClass('show-top-link');
-		}
-	},
-	offset: '50%'
-})
-
+if ($('#top').length) {
+	var waypoint = new Waypoint({
+		element: document.getElementById('top'),
+		handler: function(direction) {
+			if(direction=='down') {
+				$( 'html' ).addClass('show-top-link');
+			}
+			else if(direction=='up') {
+				$( 'html' ).removeClass('show-top-link');
+			}
+		},
+		offset: '50%'
+	})
+}
 
 var discreteElements = document.getElementsByClassName('sec-fixedCenteredTitleMasthead')
 for (var i = 0; i < discreteElements.length; i++) {
