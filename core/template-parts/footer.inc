@@ -23,21 +23,10 @@ function site_footer() {
 }
 </style>
 
-<div class="section text-light theme-dark-burgundy py-3">
+<div class="section text-light theme-dark-burgundy py-5">
 <footer class="footer container-fluid">
 
-
-<div class="button-bar">
-  <ul id="block-fixedalumsmyaccountdirectory">
-    <li>
-      <a href="https://connect.vassar.edu/s/1654/alumni/index.aspx?sid=1654&amp;gid=2&amp;pgid=95&amp;cid=271" class="btn btn-primary">My Account</a>
-    </li>
-    <li>
-      <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;gid=2&amp;pgid=6&amp;cid=41#/Search/Simple" class="btn btn-primary">Alumni Directory</a>
-    </li>
-  </ul>
-</div>
-
+<!-- button bar goes here -->
 
 		<div class="row row-cols-4 align-items-start">
 			<div class="col-12 col-md-8 col-lg-9 mt-5">
@@ -80,7 +69,10 @@ function site_footer() {
 				</div>
 			</div>
 
-      <div class="footer-feature-module col-12 col-md-4 col-lg-3 knockedout bg-darkestburgundy p-4">
+
+      <!-- <div class="footer-feature-module col-12 col-md-4 col-lg-3 knockedout bg-darkestburgundy p-4"> -->
+
+      <div class="footer-feature-module col-12 col-md-4 col-lg-3 knockedout p-0">
 
                 {$local_info['local-footer-highlight']}
                 </div>
