@@ -136,7 +136,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Natalie Nixon ’91 (she/her/hers)',
-    '/alumni/community/aavc/board-members/aavc-trustee-nixon/',
+    '/alumni/community/aavc/board-members/aavc-career-networking-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/nixon-natalie-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -277,7 +277,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Katrine “Cage” Ames ’69 (she/her/hers)',
-    '/alumni/community/aavc/board-members/aavc-vassar-fund-committee-member/',
+    '/alumni/community/aavc/board-members/aavc-board-director1/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/ames-katrine-cage-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -290,7 +290,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Gail Becker ’64 (she/her/hers)',
-    '/alumni/community/aavc/board-members/aavc-board-director/',
+    '/alumni/community/aavc/board-members/aavc-board-director7/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/becker-gail-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -304,7 +304,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Maybelle Taylor Bennett ’70 (she/her/hers)',
-    '/alumni/community/aavc/board-members/aavc-alumni-recognition-committee-member/',
+    '/alumni/community/aavc/board-members/aavc-board-director8/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/bennett-maybelle-taylor-aavc-alum-001.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -317,7 +317,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'AC Dumlao ’13 (they/them/he/him)',
-    '/alumni/community/aavc/board-members/aavc-nominating-governance-committee-member/',
+    '/alumni/community/aavc/board-members/aavc-board-director9/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/dumlao-ac-aavc-alum-002.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
