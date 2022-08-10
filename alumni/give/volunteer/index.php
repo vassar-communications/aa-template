@@ -47,11 +47,11 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_wideContent(
     'Already a Volunteer?',
     '',
-    'theme-charcoal bg-dark  presentation quad-pattern has-bg',
+    'theme-charcoal bg-dark presentation quad-pattern has-bg',
     'mw-4 text-center'
 ); ?>
-<h2 class="h2 mb-5">Log in to the volunteer portal for a full list of resources.</h2>
-<a href="#" class="btn btn-primary arrow">I am a Volunteer</a>
+<p class="intro-text">Log in to the volunteer portal for a full list of resources.</p>
+<a href="https://volunteers.vassarspaces.net/" class="btn btn-primary arrow mt-5">I am a Volunteer</a>
 <?php echo end_sec_wideContent(); ?>
 
 
