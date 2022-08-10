@@ -63,7 +63,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Veronica (Plaut) McDaniel ’01',
         'https://www.cnn.com/videos/tv/2022/04/26/cfp-voice-of-freedom-mfd-ais-spc.cnn',
-        ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+        ['url' => '/alumni/assets/img/alumni-community/alumni-news/cnn-logo.png', 'alt' => 'CNN Logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
       <p>Veronica (Plaut) McDaniel ’01, Teacher Supervisor at Atlanta International School, talked about human trafficking awareness and action at school with CNN.</p>
@@ -74,7 +74,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Sarah Roth ’21',
         'https://www.fastcompany.com/90746616/why-tinders-background-check-is-a-major-backfire',
-        ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+        ['url' => '/alumni/assets/img/alumni-community/alumni-news/fast-company-logo.png', 'alt' => 'Fast Company Logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
       <p>Sarah Roth ’21 co-wrote a Fast Company story about the poor quality of Tinder’s background checks.</p>
@@ -85,7 +85,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Karl Strovink ’95',
         'https://fortune.com/2022/04/24/blue-bottle-popular-coffee-chain-didnt-lay-off-a-single-employee-during-the-pandemic/',
-        ['url' => '/assets/images/placeholders/placeholder-wide.jpg', 'alt' => 'replacealttext' ],
+        ['url' => '/alumni/assets/img/alumni-community/alumni-news/fortune-logo.png', 'alt' => 'Fortune logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
       <p>Karl Strovink ’95, CEO of Blue Bottle Coffee, was quoted in Fortune, Yahoo! Finance, and Coffee Talk stories about the company, which didn’t lay off any employees during the pandemic.</p>
