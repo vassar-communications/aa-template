@@ -38,7 +38,18 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_siteHeader_video(); ?>
 
-<?php echo admission_topLevelNav(); ?>
+<?php echo make_nav_from_array(
+  [
+    'Explore' => 'explore/',
+    'Apply' => 'apply/',
+    'Visit' => 'visit/',
+    'Financial Aid' => 'financial-aid/',
+    'Quick Facts' => 'quick-facts/',
+    'Connect' => 'connect/',
+  ],
+  'admission'
+); ?>
+
 
 <!-- animated pullquote goes here -->
 <?php echo sec_regularContent(

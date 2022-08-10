@@ -30,7 +30,18 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_siteHeader_video_adv(); ?>
 <?php echo end_sec_siteHeader_video(); ?>
 
-<?php echo alums_topLevelNav(); ?>
+
+<?php echo make_nav_from_array(
+  [
+    'Give Back' => 'give/',
+    'Calendar' => 'calendar/',
+    'Our Community' => 'community/',
+    'Resources' => 'resources/',
+    'Contact' => 'contact/'
+  ],
+  'alumni'
+); ?>
+
 
 <!-- intro quote -->
 <?php echo sec_regularContent(

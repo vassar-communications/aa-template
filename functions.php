@@ -70,11 +70,11 @@ $class_stats['attd_private_school'] = '24%';
 
 include($project_paths['main_project_root'].'/core/template-parts/header.inc');
 include($project_paths['main_project_root'].'/core/template-parts/footer.inc');
-include($project_paths['main_project_root'].'/core/template-parts/local-nav.inc');
-include($project_paths['main_project_root'].'/core/template-parts/tmpfooteralumni.inc');
+// include($project_paths['main_project_root'].'/core/template-parts/local-nav.inc');
 
-include($project_paths['main_project_root'].'/core/template-parts/admission-topLevelNav.inc');
-include($project_paths['main_project_root'].'/core/template-parts/alums-topLevelNav.inc');
+// include($project_paths['main_project_root'].'/core/template-parts/tmpfooteralumni.inc');
+// include($project_paths['main_project_root'].'/core/template-parts/admission-topLevelNav.inc');
+// include($project_paths['main_project_root'].'/core/template-parts/alums-topLevelNav.inc');
 
 /* Partials */
 
@@ -726,8 +726,40 @@ function make_page_title() {
   return $final_trail;
 }
 
+
+// Both Alums and Admission have parts of their footers that
+// are specific to that particular site. Those site-specific features
+// are stored in files in that site's /inc folder. Typically, I
+// get the file contents with file_get_contents(), put it into the
+// $local_info array, and insert it wherever in the footer it's needed.
+//
+// There might be some instances, however - and I'm thinking of the
+// footer highlight, that special box on the right - where I need to
+// insert PHP values. In this case, the image in that footer module
+// needs the value contained in $project_paths['public_path']. But since
+// this is file_get_contents(), it doesn't render the PHP.
+//
+// Solution: in any of these local files, have [[TAGS]] where dynamic
+// content will be inserted.
+//
+// Format: ['footer' => 'Footer content']
+// results in [[FOOTER]] being replaced with 'Footer content'
+
+
+function replace_tags_with_values( $tag_array, $content ) {
+  $final_markup = $content;
+
+  foreach ($tag_array as $tag => $value ) {
+    $the_tag = '[[' . $tag . ']]';
+    $final_markup = str_replace($the_tag, $value, $final_markup );
+  }
+  return $final_markup;
+}
+
+
 function local_info() {
 
+  global $project_paths;
 
   // find the local directory
   // what site are we in?
@@ -764,6 +796,29 @@ TMP;
   }
   $local_info['top_links_markup'] = $top_links_markup;
 
+
+  //  load the local nav
+  $local_info['local-nav'] = file_get_contents( $root_path_to_current_site . '/inc/_main-menu.php' );
+
+  // load the local feature
+  $local_footer_highlight = file_get_contents( $root_path_to_current_site . '/inc/_footer-highlight.php' );
+
+  // and make sure the path makes it in
+
+  $tag_array['LOCAL_PATH'] = $project_paths['public_path'];
+
+  $local_footer_highlight = replace_tags_with_values( $tag_array, $local_footer_highlight );
+
+  $local_info['local-footer-highlight'] = $local_footer_highlight;
+
+
+  // now load optional modules
+  $optional_module_path = $root_path_to_current_site . '/inc/_footer-mod-optional.php';
+  if( file_exists( $optional_module_path ) ) {
+    $local_info['local_footer_opt_module'] = file_get_contents( $optional_module_path );
+  }
+  else $local_info['local_footer_opt_module'] = '';
+
   return $local_info;
 }
 
@@ -780,4 +835,21 @@ function footer_address_link( $address ) {
   return <<<TMP
   <a href="{$address['address_link']}"><i class="px-1 fa-solid fa-location-dot"></i> {$address['address']}</a>
 TMP;
+}
+
+// given an associative array of titles and URLs, this
+// generates nav markup.
+//
+// Why, you ask? Because the Admission and Alumni homepages
+// have hardcoded site nav, and it'll make things a bit easier
+// for us if they use the same code.
+
+function make_nav_from_array( $nav_array, $site_root ) {
+  $nav_markup = '<nav class="nav--top nav p-4 text-uppercase justify-content-center animation-zoom-in animate-when-content-appears animation-group">';
+
+  foreach ($nav_array as $label => $url ) {
+    $nav_markup .= '<a class="nav-link animation-item" href="/' . $site_root . '/'.$url.'">' . $label . '</a>';
+  }
+  $nav_markup .= '</nav>';
+  return $nav_markup;
 }

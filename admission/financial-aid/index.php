@@ -25,7 +25,7 @@ $page_info = json_decode($page_info, true);
 <?php echo hamburger_navigation(); ?>
 
 <?php echo sec_fixedCenteredTitle_masthead(
-    '<b class="slide-from-left">Financial</b>
+    '<b class="slide-from-left">Financial&nbsp;</b>
    <b class="slide-from-right">Aid</b>',
     null,
     'theme-verylightgray reveal-image',

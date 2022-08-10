@@ -36,7 +36,7 @@ $page_info = [
 
 
 <?php echo sec_fixedCenteredTitle_masthead(
-    '<b class="slide-from-left">Visit</b>
+    '<b class="slide-from-left">Visit&nbsp;</b>
    <b class="slide-from-right">Vassar</b>',
     null,
     'theme-verylightgray reveal-image',

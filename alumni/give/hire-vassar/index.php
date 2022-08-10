@@ -55,7 +55,7 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <h1 class="display-3 mb-4">Post a Job on VassarNet</h1>
     <p class="mb-3">VassarNet opens doors for students and alumni alike, connecting them to a powerful online resource to build meaningful professional relationships and find opportunities.</p>
-    <a href="#" class="btn btn-link px-0 mt-5 arrow">Launch VassarNet</a>
+    <a href="https://vassarnet.vassar.edu/" class="btn btn-link px-0 mt-5 arrow">Launch VassarNet</a>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>

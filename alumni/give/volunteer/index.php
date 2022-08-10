@@ -50,7 +50,7 @@ $page_info = json_decode($page_info, true);
     'theme-charcoal bg-dark  presentation quad-pattern has-bg',
     'mw-4 text-center'
 ); ?>
-<h2 class="h2 mb-5">Visit the volunteer portal for a full list of resources.</h2>
+<h2 class="h2 mb-5">Log in to the volunteer portal for a full list of resources.</h2>
 <a href="#" class="btn btn-primary arrow">I am a Volunteer</a>
 <?php echo end_sec_wideContent(); ?>
 
@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>If you want to deepen relationships, expand your community, and devote time and expertise to things you care about, you’ll find great opportunities to do so as a Vassar volunteer. It is an incredible way to enrich your life and the lives of others in countless ways.</p>
 
-<p>To get started, fill out the Volunteer Interest Form to indicate your interest in volunteering or find the role in the list below that best fits what you can bring to our volunteer community!</p>
+<p>Explore the list of volunteer roles below or complete the interest form to get started!</p>
 
 <?php echo cta_link(
     'http://connect.vassar.edu/volunteer',
@@ -74,7 +74,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-    'Recruitment & Fundraising',
+    'Admissions & Annual Giving',
     '',
     ''
 ); ?>
@@ -108,7 +108,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
-    'Community Building, Networking, & Events',
+    'Networking & Events',
     'theme-cream',
     ''
 ); ?>
@@ -159,7 +159,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
-    'Personal & Professional Assistance',
+    'Expertise & Mentoring',
     '',
     ''
 ); ?>
@@ -199,7 +199,7 @@ $page_info = json_decode($page_info, true);
     'theme-charcoal bg-dark  presentation quad-pattern has-bg',
     'mw-4 text-center'
 ); ?>
-<h2 class="h2 mb-5">Our tenets of volunteering will give you a sense of the values uplifted within our community of creative and hardworking professionals and ambassadors.</h2>
+<h2 class="h2 mb-5">Our best practices agreement will give you a sense of the values uplifted by our creative and hardworking volunteers.</h2>
 <a href="https://connect.vassar.edu/s/1654/images/gid2/editor_documents/administrative/alumnae-i_affairs/volunteer-best-practices-agreement.pdf?gid=2&pgid=61" class="btn btn-primary arrow">Read our best practices</a>
 <?php echo end_sec_wideContent(); ?>
 

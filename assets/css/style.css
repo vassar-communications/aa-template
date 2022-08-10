@@ -11008,6 +11008,11 @@ h3.section-title, .section-title.h3 {
   z-index: 100;
 }
 
+h3.section-title:after, .section-title.h3:after {
+  width: 6rem;
+  border-width: 3px;
+}
+
 @keyframes stat-fade-in {
   0% {
     opacity: 0;
