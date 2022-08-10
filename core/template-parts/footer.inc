@@ -26,8 +26,6 @@ function site_footer() {
 <div class="section text-light theme-dark-burgundy py-5">
 <footer class="footer container-fluid">
 
-<a class="link-to-top" href="#top">Back to top</a>
-
 {$local_info['local_footer_opt_module']}
 
 		<div class="row row-cols-4 align-items-start">
@@ -114,7 +112,11 @@ $modal_code
         </div>
 			</div>
 		</div> <!-- row -->
+
+
 </footer>
+<a class="link-to-top" href="#top">Back to top</a>
+
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
 <script src="{$project_paths['public_path']}/assets/js/libraries/masonry.pkgd.min.js"></script>

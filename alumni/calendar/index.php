@@ -64,7 +64,7 @@ Make sure functions convert straight quotes to curly
 );
 ?>
 
-<?php echo sec_regularContent(
+<?php /* echo sec_regularContent(
   'Get Involved',
   'theme-burgundy contains-carousel'
 ); ?>
@@ -117,23 +117,9 @@ June 6–8, 2025</p>
 
   <?php echo end_invitation_style_card(); ?>
 
-
-
-
-
-
-  <?php /* echo invitation_style_card(
-    'Reunion 2023',
-    'June 2–4',
-    null,
-    'big-text white-border theme-cream'
-  ); ?>
-  <p>Believe it or not, we are getting ready to kick off the planning and fundraising for Reunion 2023!</p>
-  <?php echo end_invitation_style_card(); */ ?>
-
 </div>
 
-<?php echo end_sec_regularContent(); ?>
+<?php echo end_sec_regularContent(); */ ?>
 
 
 

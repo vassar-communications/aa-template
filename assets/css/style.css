@@ -9807,21 +9807,28 @@ h2.border-animate:after, .border-animate.h2:after {
   text-align: left;
 }
 
-a.link-to-top, .link-to-top.video-modal-link {
+.link-to-top {
   position: fixed;
   bottom: 2rem;
   left: 50%;
   padding: 0.1rem 0.6rem;
-  color: #400 !important;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 2rem;
   backdrop-filter: blur(20px);
   z-index: 1000;
   opacity: 0;
-  transition: 1s all ease;
+  transition: 0.4s all ease;
+  border: none;
 }
-.show-top-link a.link-to-top, .show-top-link .link-to-top.video-modal-link {
+.show-top-link .link-to-top {
   opacity: 1;
+}
+.show-top-link .link-to-top:link, .show-top-link .link-to-top:visited {
+  color: #400;
+}
+.show-top-link .link-to-top:link:hover, .show-top-link .link-to-top:link:focus, .show-top-link .link-to-top:visited:hover, .show-top-link .link-to-top:visited:focus {
+  background: #333;
+  color: #eee;
 }
 
 /*

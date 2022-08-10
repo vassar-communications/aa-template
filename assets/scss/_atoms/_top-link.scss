@@ -1,17 +1,28 @@
-a.link-to-top {
+.link-to-top {
   position: fixed;
   bottom: 2rem;
   left: 50%;
   padding: 0.1rem 0.6rem;
-  color: #400 !important;
   background: rgba(255,255,255,0.6);
   border-radius: 2rem;
   backdrop-filter: blur(20px);
   z-index: 1000;
   opacity: 0;
-  transition: 1s all ease;
+  transition: 0.4s all ease;
+  border: none;
 
   .show-top-link & {
     opacity: 1;
+
+    &:link,
+    &:visited {
+      color: #400;
+
+      &:hover,
+      &:focus {
+        background: #333;
+        color: #eee;
+      }
+    }
   }
 }
