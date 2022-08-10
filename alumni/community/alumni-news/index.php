@@ -66,7 +66,7 @@ $page_info = json_decode($page_info, true);
         ['url' => '/alumni/assets/img/alumni-community/alumni-news/cnn-logo.png', 'alt' => 'CNN Logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p>Veronica (Plaut) McDaniel ’01, Teacher Supervisor at Atlanta International School, talked about human trafficking awareness and action at school with CNN.</p>
+      <p>Veronica (Plaut) McDaniel ’01, Teacher Supervisor at Atlanta International School, talked about human trafficking awareness and action at school with <em>CNN</em>.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -77,7 +77,7 @@ $page_info = json_decode($page_info, true);
         ['url' => '/alumni/assets/img/alumni-community/alumni-news/fast-company-logo.png', 'alt' => 'Fast Company Logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p>Sarah Roth ’21 co-wrote a Fast Company story about the poor quality of Tinder’s background checks.</p>
+      <p>Sarah Roth ’21 co-wrote a <em>Fast Company</em> story about the poor quality of Tinder’s background checks.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -88,7 +88,7 @@ $page_info = json_decode($page_info, true);
         ['url' => '/alumni/assets/img/alumni-community/alumni-news/fortune-logo.png', 'alt' => 'Fortune logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p>Karl Strovink ’95, CEO of Blue Bottle Coffee, was quoted in Fortune, Yahoo! Finance, and Coffee Talk stories about the company, which didn’t lay off any employees during the pandemic.</p>
+      <p>Karl Strovink ’95, CEO of Blue Bottle Coffee, was quoted in <em>Fortune</em>, <em>Yahoo!</em> <em>Finance</em>, and <em>Coffee Talk</em> stories about the company, which didn’t lay off any employees during the pandemic.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
