@@ -43,7 +43,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
     'Alumni Benefits',
     '2',
-    '<p>In addition to VassarConnects—an online community in which alumni can connect with each other and with the College through its <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=6&cid=41#/Search/Simple">Alumni Directory</a> and <a href="http://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=61">other services</a>, the following benefits are also available:</p>',
+    '<p>In addition to VassarConnects—an online community in which alumni can connect with each other and with the College through its <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=6&cid=41#/Search/Simple">Alumni Directory</a> and other services, the following benefits are also available:</p>',
     'theme-dark-burgundy quad-pattern has-bg',
     ''
 

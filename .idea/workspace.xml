@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/give/volunteer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/volunteer/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/calendar/generation-vassar/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/generation-vassar/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/community/aavc/awards-program/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/aavc/awards-program/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/community/aavc/bylaws/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/aavc/bylaws/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/community/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/give/hire-vassar/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/hire-vassar/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/resources/alumni-benefits/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/resources/alumni-benefits/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +92,7 @@
       <workItem from="1658979377387" duration="17153000" />
       <workItem from="1659422829449" duration="78899000" />
       <workItem from="1659769171721" duration="19670000" />
-      <workItem from="1660054224089" duration="2579000" />
+      <workItem from="1660054224089" duration="4435000" />
     </task>
     <servers />
   </component>
