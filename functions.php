@@ -70,12 +70,11 @@ $class_stats['attd_private_school'] = '24%';
 
 include($project_paths['main_project_root'].'/core/template-parts/header.inc');
 include($project_paths['main_project_root'].'/core/template-parts/footer.inc');
-include($project_paths['main_project_root'].'/core/template-parts/local-nav.inc');
+// include($project_paths['main_project_root'].'/core/template-parts/local-nav.inc');
 
 // include($project_paths['main_project_root'].'/core/template-parts/tmpfooteralumni.inc');
-
-include($project_paths['main_project_root'].'/core/template-parts/admission-topLevelNav.inc');
-include($project_paths['main_project_root'].'/core/template-parts/alums-topLevelNav.inc');
+// include($project_paths['main_project_root'].'/core/template-parts/admission-topLevelNav.inc');
+// include($project_paths['main_project_root'].'/core/template-parts/alums-topLevelNav.inc');
 
 /* Partials */
 
@@ -829,4 +828,21 @@ function footer_address_link( $address ) {
   return <<<TMP
   <a href="{$address['address_link']}"><i class="px-1 fa-solid fa-location-dot"></i> {$address['address']}</a>
 TMP;
+}
+
+// given an associative array of titles and URLs, this
+// generates nav markup.
+//
+// Why, you ask? Because the Admission and Alumni homepages
+// have hardcoded site nav, and it'll make things a bit easier
+// for us if they use the same code.
+
+function make_nav_from_array( $nav_array, $site_root ) {
+  $nav_markup = '<nav class="nav--top nav p-4 text-uppercase justify-content-center animation-zoom-in animate-when-content-appears animation-group">';
+
+  foreach ($nav_array as $label => $url ) {
+    $nav_markup .= '<a class="nav-link animation-item" href="/' . $site_root . '/'.$url.'">' . $label . '</a>';
+  }
+  $nav_markup .= '</nav>';
+  return $nav_markup;
 }
