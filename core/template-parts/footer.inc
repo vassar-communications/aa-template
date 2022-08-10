@@ -18,7 +18,7 @@ function site_footer() {
 
 
 <style>
-.fa-solid {
+.footer .fa-solid {
   display: none;
 }
 </style>

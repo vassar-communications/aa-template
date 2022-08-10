@@ -41,14 +41,14 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'General Reunion Class Schedule',
+    'General Reunion<br> Class Schedule',
     $alumni_img_path.'alumni-calendar/reunion/Reunion_Parade_180609_KR_8754.jpg',
     'theme-burgundy',
     ''
 ); ?>
 <?php echo cta_link(
     'https://www.vassar.edu/sites/default/files/2022-01/Reunion-2022-Preliminary-General-Schedule.pdf',
-    'See the schedule'
+    'See the Reunion 2022 schedule'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -61,7 +61,7 @@ $page_info = json_decode($page_info, true);
 <p>This year’s 50th reunion programming will include the class of 1972.</p>
 <?php echo cta_link(
     'https://www.vassar.edu/sites/default/files/2022-03/1972-50th%20Reunion-Schedule-and-Newsletter-Mar4.pdf',
-    'See the schedule'
+    'See the Reunion 2022 schedule'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>

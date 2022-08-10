@@ -50,6 +50,7 @@ $template = <<<TMP
                      <li><a href="https://www.vassar.edu/academics">Academics</a></li>
                      <li><a href="https://www.vassar.edu/campuslife">Campus Life</a></li>
                      <li><a href="https://www.vassarathletics.com/">Athletics</a></li>
+                     <li><a href="https://www.vassar.edu/families">Parents & Families</a></li>
                      <li><a href="https://www.vassar.edu/arts">Arts</a></li>
                      <li><a href="https://www.vassar.edu/sustainability">Sustainability</a></li>
                      <li><a href="https://www.vassar.edu/news">News</a></li>
