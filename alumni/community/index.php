@@ -53,11 +53,9 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 
-
-
 <?php echo masthead_interiorPage(
     'Be Active. Grow.',
-    'Connect with fellow community members, participate in events, sign-up for mentoring/networking opportunities, and learn about all the ways to give back to Vassar.',
+    'There are many ways to connect with Vassar’s global community. Explore the possibilities.',
     '/alumni/assets/img/alumni-community/Vassar_11.19.17_Woodmere_Phila-151-edits.jpg',
     null,
     null,

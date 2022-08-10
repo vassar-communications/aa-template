@@ -32,7 +32,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'AC Dumlao ’13',
-    '/alumni/assets/img/alumni-community/aavc/board/dumlao-ac-aavc-alum-002.jpg',
+    '/alumni/assets/img/alumni-community/aavc/board/AC-Dumlao_Headshot_Credit-Caitlin-Dumlao_AAVC.jpg',
     'image-is-first theme-cream',
     '',
     ['img_alt_text' => 'AC Dumlao ’13']

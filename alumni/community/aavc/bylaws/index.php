@@ -264,7 +264,7 @@ $page_info = json_decode($page_info, true);
 
 <h4>SEC. 1. METHOD.</h4>
 
-<p>The names of all nominees for Directors, Officers and Association Trustees nominated pursuant to Article XII shall be announced on the Association’s website,&nbsp;<a href="https://vassar.edu/alums">vassar.edu/alums</a>, or by any other means deemed appropriate by the Nominating &amp; Governance Committee, at least forty-five (45) days before the Annual Meeting, together with notice of the right to make independent nominations pursuant to Article XII, Sec. 2.</p>
+<p>The names of all nominees for Directors, Officers and Association Trustees nominated pursuant to Article XII shall be announced on the Association’s website,&nbsp;<a href="https://vassar.edu/alumni">vassar.edu/alumni</a>, or by any other means deemed appropriate by the Nominating &amp; Governance Committee, at least forty-five (45) days before the Annual Meeting, together with notice of the right to make independent nominations pursuant to Article XII, Sec. 2.</p>
 
 <h4>SEC. 2. VOTING.</h4>
 
@@ -275,7 +275,7 @@ $page_info = json_decode($page_info, true);
 <ol>
     <li>These Bylaws may be amended by a two-thirds vote of the Board. Notice of proposed amendments shall be given to Directors at least thirty (30) days before such vote.</li>
     <li>Any amendment(s) approved by the Board shall be ratified by a majority of the votes cast by the members of the Association during the Annual Meeting.</li>
-    <li>Notice of the proposed Bylaw changes shall be announced on the Association’s website,&nbsp;<a href="https://vassar.edu/alums">vassar.edu/alums</a>, or by any other means deemed appropriate by the Nominating &amp; Governance Committee, at least forty-five (45) days before the Annual Meeting.</li>
+    <li>Notice of the proposed Bylaw changes shall be announced on the Association’s website,&nbsp;<a href="https://vassar.edu/alumni">vassar.edu/alumni</a>, or by any other means deemed appropriate by the Nominating &amp; Governance Committee, at least forty-five (45) days before the Annual Meeting.</li>
     <li>Such amendment(s) shall take effect upon ratification at the Annual Meeting.</li>
 </ol>
 
