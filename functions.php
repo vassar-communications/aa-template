@@ -668,7 +668,7 @@ function breadcrumb() {
 }
 
 function interior_page_nav() {
-  return '<div class="section main-site-nav">'.
+  return '<div id="top" class="section main-site-nav">'.
   breadcrumb().
   local_nav().
   '</div>';

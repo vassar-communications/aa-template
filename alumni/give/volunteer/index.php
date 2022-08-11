@@ -47,11 +47,11 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_wideContent(
     'Already a Volunteer?',
     '',
-    'theme-charcoal bg-dark  presentation quad-pattern has-bg',
+    'theme-charcoal bg-dark presentation quad-pattern has-bg',
     'mw-4 text-center'
 ); ?>
-<h2 class="h2 mb-5">Log in to the volunteer portal for a full list of resources.</h2>
-<a href="#" class="btn btn-primary arrow">I am a Volunteer</a>
+<p class="intro-text">Log in to the volunteer portal for a full list of resources.</p>
+<a href="https://volunteers.vassarspaces.net/" class="btn btn-primary arrow mt-5">I am a Volunteer</a>
 <?php echo end_sec_wideContent(); ?>
 
 
@@ -61,8 +61,6 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <p>If you want to deepen relationships, expand your community, and devote time and expertise to things you care about, you’ll find great opportunities to do so as a Vassar volunteer. It is an incredible way to enrich your life and the lives of others in countless ways.</p>
-
-<p>Explore the list of volunteer roles below or complete the interest form to get started!</p>
 
 <?php echo cta_link(
     'http://connect.vassar.edu/volunteer',

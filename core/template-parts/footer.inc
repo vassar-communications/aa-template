@@ -18,7 +18,7 @@ function site_footer() {
 
 
 <style>
-.fa-solid {
+.footer .fa-solid {
   display: none;
 }
 </style>
@@ -112,7 +112,11 @@ $modal_code
         </div>
 			</div>
 		</div> <!-- row -->
+
+
 </footer>
+<a class="link-to-top" href="#top">Back to top</a>
+
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
 <script src="{$project_paths['public_path']}/assets/js/libraries/masonry.pkgd.min.js"></script>
