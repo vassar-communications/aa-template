@@ -10770,6 +10770,7 @@ li {
   margin: 0;
 }
 .event-listing .event__month {
+  text-align: center;
   text-transform: uppercase;
 }
 @media screen and (min-width: 40em) {

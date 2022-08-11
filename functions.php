@@ -938,10 +938,35 @@ function start_and_end_times($start_date, $end_date) {
 // require_once( getcwd().'/simplepie-master/autoloader.php' );
 
 
+function strip_date_from_description( $description, $dateStart, $dateEnd = false ) {
+  // here's the problem: event descriptions in the feed have the dates
+  // included in each item's description. That's kind of awkward, since
+  // we already have them elsewhere.
+  //
+  // However, there's some accessibility value to having them there, so
+  // we're going to keep them - just hide them.
 
+
+}
+
+
+/*
+  This function grabs a feed, plugs the data into the event-item
+  template, and returns the whole series of marked-up items as
+  an array.
+
+  It's worth noting that most of these template functions return
+  strings. In this case, I'm returning the feed as an array because
+  there are circumstances (like on the homepage) where we don't want
+  every item in the feed - we only want to display the most recent
+  three items. Returning the feed as an array of items makes that
+  a lot easier.
+ */
 function connect_events_feed( $feed_url ) {
   // We'll process this feed with all of the default options.
   $feed = new SimplePie();
+
+  $final_feed = array();
 
   $feed->set_cache_location( $_SERVER['DOCUMENT_ROOT'].'/core/_rss_cache/' );
   // Set the feed to process.
@@ -997,7 +1022,7 @@ function connect_events_feed( $feed_url ) {
     $event_month = date_format( date_create( $eventDate ), "M" );
     $event_day = date_format( date_create( $eventDate ), "d" );
 
-    echo <<<TMP
+    $final_feed[] = <<<TMP
     <div class="event" id="$eventID">
       <div class="calendar">
         <div class="event__month">$event_month</div>
@@ -1017,5 +1042,20 @@ function connect_events_feed( $feed_url ) {
       </div>
     </div>
     TMP;
+  }
+  return $final_feed;
+}
+
+/*
+  This function is where the feed items are actually displayed.
+  It grabs a feed, runs it through connect_events_feed(), gets
+  back the array of formatted items, and then displays however
+  many you want. Default value is null for "all of them".
+ */
+function display_feed( $feed, $number_of_items = null ) {
+  $feed = connect_events_feed( $feed );
+  $the_feed = array_slice( $feed, 0, $number_of_items );
+  foreach ( $the_feed as $item ) {
+    echo $item;
   }
 }

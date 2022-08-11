@@ -132,9 +132,7 @@ June 6–8, 2025</p>
 
 <?php echo event_listing(); ?>
 
-<?php connect_events_feed('https://connect.vassar.edu/controls/cms_v2/components/rss/rss.aspx?sid=1654&gid=2&calcid=8471&page_id=5161');
-
-?>
+<?php display_feed('https://connect.vassar.edu/controls/cms_v2/components/rss/rss.aspx?sid=1654&gid=2&calcid=8471&page_id=5161'); ?>
 
 <?php echo end_event_listing(); ?>
 
