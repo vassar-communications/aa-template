@@ -992,13 +992,16 @@ function connect_events_feed( $feed_url ) {
 
     $times = start_and_end_times( $eventDate, $endEventDate );
 
-    // print_r($eventDate);
+    // now we need to get the month and day
+
+    $event_month = date_format( date_create( $eventDate ), "M" );
+    $event_day = date_format( date_create( $eventDate ), "d" );
 
     echo <<<TMP
     <div class="event" id="$eventID">
       <div class="calendar">
-    <!--    <div class="event__month">Aug</div>
-        <div class="event__day">03</div> -->
+        <div class="event__month">$event_month</div>
+        <div class="event__day">$event_day</div>
       </div>
       <div class="event__image-container"><img class="event__image" src="{$image['link']}"></div>
       <div class="event__content-container">
