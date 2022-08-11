@@ -106,7 +106,7 @@ June 6–8, 2025</p>
     ],
       ''
   ); ?>
-    <p>We invite you to experience the richness and diversity of campus life with events offered especially for you, your family and of course your Vassar student.</p>
+    <p>Believe it or not, we are getting ready to kick off the planning and fundraising for Reunion 2023!</p>
 
 <?php echo cta_link(
   'https://www.vassar.edu/families/events/weekend',
@@ -123,13 +123,23 @@ June 6–8, 2025</p>
 
 
 
+
 <?php echo sec_wideContent(
     'Upcoming Events',
     null,
     'theme-extralightgray'
 ); ?>
 
+<?php echo event_listing(); ?>
 
+<?php connect_events_feed('https://connect.vassar.edu/controls/cms_v2/components/rss/rss.aspx?sid=1654&gid=2&calcid=8471&page_id=5161');
+
+?>
+
+<?php echo end_event_listing(); ?>
+
+
+<!--
 <?php echo event_listing(); ?>
   <?php echo event_item(
     'Vassar Club of Ohio Visits the Columbus Zoo',
@@ -188,7 +198,7 @@ June 6–8, 2025</p>
 
 <?php echo end_event_listing(); ?>
 
-
+-->
 
 <?php echo end_sec_wideContent(); ?>
 
