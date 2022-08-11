@@ -106,7 +106,7 @@ June 6–8, 2025</p>
     ],
       ''
   ); ?>
-    <p>Believe it or not, we are getting ready to kick off the planning and fundraising for Reunion 2023!</p>
+    <p>We invite you to experience the richness and diversity of campus life with events offered especially for you, your family and of course your Vassar student.</p>
 
 <?php echo cta_link(
   'https://www.vassar.edu/families/events/weekend',

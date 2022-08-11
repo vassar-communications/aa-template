@@ -58,7 +58,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>An award-winning, three-day, on-campus program designed to introduce second-year students to the vast array of career options available to liberal arts graduates. The program features industry-based alumni panels, identity at work conversations, networking opportunities, and more. 100+ alum and parent mentors return to campus every year for this event. </p>
+    <p>An award-winning, three-day, on-campus program designed to introduce second-year students to the vast array of career options available to liberal arts graduates. The program features industry-based alumni panels, identity at work conversations, networking opportunities, and more. 100+ alumni and parent mentors return to campus every year for this event. </p>
     <?php echo cta_link(
         'https://www.vassar.edu/sophomore-career-connections/',
         'More about Sophomore Career Connections'
