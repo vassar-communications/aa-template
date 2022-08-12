@@ -8,8 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title":"Contact Alumnae House",
-  "page_classes":"",
-  "feature_image":"/assets/images/placeholders/placeholder-banner.png"
+  "page_classes":""
 }';
 
 /* === */
@@ -75,4 +74,3 @@ Contact Martha Barry, Alumnae House Manager<br/>
 
 
 <?php echo site_footeralumni(); ?>
-
