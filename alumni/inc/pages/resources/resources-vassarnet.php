@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'VassarNet',
     'https://vassarnet.vassar.edu/',
-    ['url' => '/alumni/assets/img/alumni-resources/alumni-benefits/0039-22-06-cs-reunion-vassar-347.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-resources/alumni-benefits/0039-22-06-cs-reunion-vassar-347.jpg', 'alt' => 'Two AAVC Board Members walking and smiling on Vassar Campus' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
