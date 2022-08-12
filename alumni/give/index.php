@@ -69,7 +69,7 @@ b {
 ?>
 
 
-
+<?php /*
 <?php echo sec_wideContent(
     null,
     '',
@@ -79,15 +79,7 @@ b {
         'bg-image-alt' => 'replacealttxt']
 
 ); ?>
-
-
-
 <p class="pt-5"><span class="text-white intro-line">Make a Gift</span></p>
-
-
-
-
-
 
 <h2 class="display-2 py-5"><strong>Every</strong> alum. <strong>Any</strong> amount. <strong>Every</strong> year.</h2>
 
@@ -98,9 +90,54 @@ b {
     <p class="animation-item">first-year class possible.</p>
 -->
 
-
-
 <?php echo end_sec_wideContent(); ?>
+*/ ?>
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Every Gift Matters',
+    '/alumni/assets/img/alumni-give/0038-22-06-cs-reunion-vassar-051.jpg',
+    'theme-burgundy quad-pattern has-bg section-large-title image-is-first',
+    'mw-100',
+    [
+      'css' => '--bg-image-opacity: 0.16',
+      'img_alt_text' => 'A photograph of Vassar’s Thompson Memorial Library: classical architecture with large stained-glass windows.'
+    ]
+); ?>
+
+<div class="animate-when-content-appears animation-slide-up">
+    <p class="intro-text mb-5"><strong>Every</strong> alum. <strong>Any</strong> amount. <strong>Every</strong> year.</p>
+
+    <?php echo cta_link(
+        '/alumni/give/support-vassar/',
+        'Learn about why your gift matters to Vassar'
+    ); ?>
+
+    <?php echo cta_link(
+        'https://go.vassar.edu/give',
+        'Explore funds and initiatives, and make a gift'
+    ); ?>
+
+
+<?php /*
+    <ul class="linked-list">
+      <li>
+        <a class="xlarge-link" href="/alumni/give/support-vassar">Learn about why your gift matters to Vassar.</a>
+      </li>
+      <li>
+        <a class="xlarge-link" href="https://go.vassar.edu/give">Explore funds and initiatives, and make a gift.</a>
+      </li>
+    </ul>
+*/ ?>
+
+
+</div>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
 
 
 
@@ -124,7 +161,7 @@ b {
 <?php echo sec_fullBleedImageColumn(
     'Be a Mentor',
     '/alumni/assets/img/alumni-give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675-crop.jpg',
-    'theme-burgundy quad-pattern has-bg image-is-first section-large-title',
+    'theme-charcoal image-is-first section-large-title',
     'mw-100'
 ); ?>
 
@@ -158,6 +195,8 @@ b {
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
+
+<?php /*
 <?php echo sec_wideContent(
     'Every Gift Matters.',
     null,
@@ -168,6 +207,7 @@ b {
 <p class="intro-text mb-0">Explore funds and initiatives.</p>
 <a href="https://go.vassar.edu/give" class="btn btn-primary arrow">Make a Gift</a>
 <?php echo end_sec_wideContent(); ?>
+*/ ?>
 
 
 
