@@ -361,8 +361,8 @@ $page_info = json_decode($page_info, true);
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="position">Nominating and Governance Committee Member and Communications Advisory Committee Member</div>
-<div class="location">Term of Service: 2020–2024</div>
 <div class="term">Washington, DC</div>
+<div class="location">Term of Service: 2020–2024</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
