@@ -32,7 +32,7 @@ $page_info = json_decode($page_info, true);
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => $page_info['feature_image'],
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'Rockefeller Hall on Vassar Campus',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
@@ -52,7 +52,8 @@ $page_info = json_decode($page_info, true);
     'Reach Out to Us',
     '/alumni/assets/img/alumni-contact/0097_16_09_TT_2788.jpg',
     'theme-cream image-is-first',
-    ''
+    '',
+    ['img_alt_text' => 'Fountain in Sunset Lake on Vassar Campus']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <div class="address-card mb-5">
@@ -124,12 +125,6 @@ $page_info = json_decode($page_info, true);
                         <li class="list-group-item nav-item">
 <?php echo link_to_id( 'Advancement Communications', 'nav-link top-level-item'); ?>
 
-<ul>
-                          <li class="list-group-item nav-item">
-<?php echo link_to_id( 'Donor Relations', 'nav-link'); ?>
-                          </li>
-</ul>
-
                         </li>
                         <li class="list-group-item nav-item">
 <?php echo link_to_id( 'Individual Giving', 'nav-link top-level-item'); ?>
@@ -139,10 +134,13 @@ $page_info = json_decode($page_info, true);
     <?php echo link_to_id( 'Annual Giving', 'nav-link'); ?>
   </li>
   <li class="list-group-item nav-item">
-    <?php echo link_to_id( 'Leadership Gifts', 'nav-link'); ?>
+<?php echo link_to_id( 'Donor Relations', 'nav-link'); ?>
   </li>
   <li class="list-group-item nav-item">
     <?php echo link_to_id( 'Gift Planning', 'nav-link'); ?>
+  </li>
+  <li class="list-group-item nav-item">
+    <?php echo link_to_id( 'Leadership Gifts', 'nav-link'); ?>
   </li>
   <li class="list-group-item nav-item">
     <?php echo link_to_id( 'Parent and Family Giving', 'nav-link'); ?>
@@ -604,54 +602,7 @@ echo end_contact_card();
 </div>
                 <div class="anchor" id="sec7"></div>
 
-<?php echo heading_with_anchor_id( 'Donor Relations', '4' ); ?>
 
-                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
-                <?php
-                  echo contact_card(
-                      'Kristy Grimes',
-                      'Director of Donor Relations',
-                      [
-                        'phone' => '845-437-7015',
-                        'email' => 'kgrimes@vassar.edu',
-                      ]
-                  );
-                  echo end_contact_card();
-
-
-                  echo contact_card(
-                      'May Lee',
-                      'Senior Associate Director of Donor Relations',
-                      [
-                        'phone' => '845-437-5931',
-                        'email' => 'malee@vassar.edu',
-                      ]
-                  );
-                  echo end_contact_card();
-
-
-                  echo contact_card(
-                      'Sandra Frinton',
-                      'Associate Director of Donor Relations',
-                      [
-                        'phone' => '845-437-7547',
-                        'email' => 'safrinton@vassar.edu',
-                      ]
-                  );
-                  echo end_contact_card();
-
-
-                  echo contact_card(
-                      'Cassandra Frake Yzaguirre',
-                      'Administrative Assistant',
-                      [
-                        'phone' => '845-437-5480',
-                        'email' => 'cfrakeyzaguirre@vassar.edu',
-                      ]
-                  );
-                  echo end_contact_card();
-?>
-</div>
 
 <?php echo heading_with_anchor_id( 'Individual Giving', '3' ); ?>
                 <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
@@ -784,6 +735,81 @@ echo end_contact_card();
 ?>
 </div>
 
+<?php echo heading_with_anchor_id( 'Donor Relations', '4' ); ?>
+
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
+                <?php
+                  echo contact_card(
+                      'Kristy Grimes',
+                      'Director of Donor Relations',
+                      [
+                        'phone' => '845-437-7015',
+                        'email' => 'kgrimes@vassar.edu',
+                      ]
+                  );
+                  echo end_contact_card();
+
+
+                  echo contact_card(
+                      'May Lee',
+                      'Senior Associate Director of Donor Relations',
+                      [
+                        'phone' => '845-437-5931',
+                        'email' => 'malee@vassar.edu',
+                      ]
+                  );
+                  echo end_contact_card();
+
+
+                  echo contact_card(
+                      'Sandra Frinton',
+                      'Associate Director of Donor Relations',
+                      [
+                        'phone' => '845-437-7547',
+                        'email' => 'safrinton@vassar.edu',
+                      ]
+                  );
+                  echo end_contact_card();
+
+
+                  echo contact_card(
+                      'Cassandra Frake Yzaguirre',
+                      'Administrative Assistant',
+                      [
+                        'phone' => '845-437-5480',
+                        'email' => 'cfrakeyzaguirre@vassar.edu',
+                      ]
+                  );
+                  echo end_contact_card();
+?>
+</div>
+
+<?php echo heading_with_anchor_id( 'Gift Planning', '4' ); ?>
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
+<?php
+echo contact_card(
+    'Alexas Orcutt',
+    'Director of Gift Planning and Strategic Initiatives',
+    [
+      'phone' => '845-437-7773',
+      'email' => 'alorcutt@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Jeremy Goldberg',
+    'Assistant Director of Gift Planning',
+    [
+      'phone' => '845-437-7902',
+      'email' => 'jeremygoldberg@vassar.edu',
+    ]
+);
+echo end_contact_card();
+?>
+</div>
+
 <?php echo heading_with_anchor_id( 'Leadership Gifts', '4' ); ?>
 
                 <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
@@ -838,32 +864,6 @@ echo contact_card(
     [
       'phone' => '',
       'email' => '',
-    ]
-);
-echo end_contact_card();
-?>
-</div>
-
-<?php echo heading_with_anchor_id( 'Gift Planning', '4' ); ?>
-                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
-<?php
-echo contact_card(
-    'Alexas Orcutt',
-    'Director of Gift Planning and Strategic Initiatives',
-    [
-      'phone' => '845-437-7773',
-      'email' => 'alorcutt@vassar.edu',
-    ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
-    'Jeremy Goldberg',
-    'Assistant Director of Gift Planning',
-    [
-      'phone' => '845-437-7902',
-      'email' => 'jeremygoldberg@vassar.edu',
     ]
 );
 echo end_contact_card();
