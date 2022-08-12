@@ -1,18 +1,18 @@
 <?php
-$media_carousel_path = '/alumni/assets/img/homepage/carousels/in-the-media/';
+$media_carousel_path = '/alumni/assets/img/alumni-home/news-and-spotlight/';
 echo carousel( '', 'alums-media-carousel' ); ?>
 
   <?php echo carousel_item(
-    $media_carousel_path.'blum.jpg',
+    $media_carousel_path.'/2022-07-27/Shana_Nys_Dambrot.jpg',
     'is-link'
   ); ?>
 
-  <small class="mb-3 d-block">June 21, 2022</small>
-<p><strong>Jason Blum ’91’s</strong> $10 million gift to <strong>Vassar College</strong> was the subject of a <em>Variety</em> story.</p>
+  <small class="mb-3 d-block">July 27, 2022</small>
+<p>Art critic <strong>Shana Nys Dambrot ’93</strong> was awarded a $50,000 Rabkin Prize for art journalism, as announced by the Rabkin Foundation.</p>
 
 <?php echo cta_link(
-  'https://variety.com/2022/film/news/jason-blum-blumhouse-vassar-college-scholarship-1235299680/',
-  'Read more on <em>Variety</em>',
+  'https://www.rabkinfoundation.org/awards',
+  'Read more',
   'stretched-link'
 ); ?>
 
@@ -24,16 +24,16 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
   <?php echo carousel_item(
-    $media_carousel_path.'ifill.jpg',
+    $media_carousel_path.'/2022-07-18/deidre_mccalla_by_irene_young.jpg',
     'is-link'
   ); ?>
 
-  <small class="mb-3 d-block">June 21, 2022</small>
-  <p>The Ford Foundation has awarded a senior fellowship to <strong>Sherrilyn Ifill ’84</strong>, President and Director-Counsel Emeritus of the NAACP Legal Defense Fund, “to continue her work on strengthening American democracy,” as announced by the foundation.</p>
+  <small class="mb-3 d-block">July 18, 2022</small>
+  <p>Singer-songwriter <strong>Deidre McCalla ’75</strong> was featured on AcousticMusicScene.com.</p>
 
   <?php echo cta_link(
-    'https://www.fordfoundation.org/news-and-stories/news-and-press/news/sherrilyn-ifill-joins-ford-foundation-as-a-senior-fellow/',
-    'Read more at the Ford Foundation',
+    'https://acousticmusicscene.com/2022/07/11/fai-folk-radio-charts-june-2022/',
+    'Read more',
     'stretched-link'
   ); ?>
 
@@ -44,7 +44,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
   <?php echo carousel_item(
-    $media_carousel_path.'goldberg.jpg',
+    $media_carousel_path.'2022-07-07/goldberg.jpg',
     'is-link'
   ); ?>
 
