@@ -100,7 +100,10 @@ b {
     '/alumni/assets/img/alumni-give/0038-22-06-cs-reunion-vassar-051.jpg',
     'theme-burgundy quad-pattern has-bg section-large-title image-is-first',
     'mw-100',
-    ['css' => '--bg-image-opacity: 0.16']
+    [
+      'css' => '--bg-image-opacity: 0.16',
+      'img_alt_text' => 'A photograph of Vassar’s Thompson Memorial Library: classical architecture with large stained-glass windows.'
+    ]
 ); ?>
 
 <div class="animate-when-content-appears animation-slide-up">
