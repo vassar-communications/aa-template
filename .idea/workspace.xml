@@ -4,8 +4,11 @@
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alumni/calendar/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/calendar/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/community/aavc/_nav.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/aavc/_nav.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alumni/community/aavc/board-members/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/aavc/board-members/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alumni/community/aavc/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/aavc/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alumni/give/be-a-mentor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/give/be-a-mentor/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

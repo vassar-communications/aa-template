@@ -160,36 +160,9 @@ echo sec_fixedCenteredTitle(
 
 
 <?php echo event_listing(); ?>
-  <?php echo event_item(
-    'Vassar Club of Ohio Visits the Columbus Zoo',
-    'Aug',
-    '03',
-    '11:00 a.m.',
-    'The Vassar Club of Ohio is offering three opportunities to visit the Columbus Zoo this fall. On each date, the club will provide admission for 10 guests. Guests will enter together, then are free to tour the Zoo on their own.',
-    'https://connect.vassar.edu/s/1654/images/content_images/columbuszooentrance_SQUARE_637883798332743658.jpg',
-    'https://connect.vassar.edu/?sid=1654&gid=2&pgid=6172&cid=10186&ecid=10186&crid=0&calpgid=5161&calcid=8471'
-  ); ?>
-
-  <?php echo event_item(
-    'Vassar Club of San Diego Midsummer Happy Hour',
-    'Aug',
-    '03',
-    '5:30 p.m. to 7:30 p.m.',
-    'A fun evening of drinks and hors d’oeuvres and provocative conversation with San Diego-based Vassar alums at the exclusive University Club atop Symphony Towers in downtown San Diego.',
-    'https://connect.vassar.edu/s/1654/images/content_images/university_club_SQUARE_637927101169043313.jpg',
-    'https://connect.vassar.edu/?sid=1654&gid=2&pgid=6196&cid=10231&ecid=10231&crid=0&calpgid=5161&calcid=8471'
-  ); ?>
 
 
-  <?php echo event_item(
-    'Vassar Club of Chicago Summer Happy Hour!',
-    'Aug',
-    '11',
-    '6:00 p.m.',
-    'Join us for a summer happy hour and get to know fellow Chicago-area Vassar alums over a drink!',
-    'https://connect.vassar.edu/s/1654/images/content_images/vcchicagosheffieldscoverphotogardensquare_637949414639185294.jpg',
-    'https://connect.vassar.edu/?sid=1654&gid=2&pgid=6226&cid=10273&ecid=10273&crid=0&calpgid=5161&calcid=8471'
-  ); ?>
+<?php display_feed('https://connect.vassar.edu/controls/cms_v2/components/rss/rss.aspx?sid=1654&gid=2&calcid=8471&page_id=5161', '3'); ?>
 
           <a href="/alumni/calendar/" class="center-object mb-5 btn btn-lg btn-light arrow">All events</a>
 

@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Career Support',
     'https://offices.vassar.edu/careers/info/alums/',
-    ['url' => '/alumni/assets/img/alumni-resources/alumni-benefits/adlov-taylor-vq-vassar-0911-lrr-8293.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-resources/alumni-benefits/0001-20-01-kr-scc-levison-vassar-0010.jpg', 'alt' => 'replacealttext' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

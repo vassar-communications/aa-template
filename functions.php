@@ -16,6 +16,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 
 include($project_paths['main_project_root'].'/core/review/slugify.inc');
 
+require_once( $project_paths['main_project_root'].'/core/packages/simplepie-master/autoloader.php' );
 
 /* Facts */
 
@@ -116,6 +117,9 @@ include($project_paths['main_project_root'].'/core/items/link-video-modal.inc');
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/fancy-stats.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/nice-quotes.inc');
+
+include($project_paths['main_project_root'].'/core/sections/content_sections/vassar-home-news.inc');
+
 
 
 /* Sections */
@@ -852,4 +856,209 @@ function make_nav_from_array( $nav_array, $site_root ) {
   }
   $nav_markup .= '</nav>';
   return $nav_markup;
+}
+
+
+
+
+
+/*  RSS STUFF
+    =========
+
+    The following functions are specific to that Connect
+    service that Alums uses. The basic mechanics, though,
+    could be used to parse any RSS feed via SimplePie.
+
+*/
+
+function format_date( $date ) {
+  $final_date = date_format( date_create( $date ), "H:i");
+  $final_date .= ' ' . str_replace( 'm', '.m.', date_format( date_create( $date ), "a") );
+  return $final_date;
+}
+
+
+function start_and_end_times($start_date, $end_date) {
+
+  // Some events have a start and end date.
+  // Some events have the same date, but different start and end times.
+  // Some events have only a start date.
+  //
+  // Typically, it's the same date, just
+  // different times of day.
+  //
+  // In the Connect feed, both values are provided. The ones
+  // without an end date have an end date that is identical
+  // to the start date.
+  //
+  // That makes this first part easy.
+
+  if( $start_date != $end_date ) {
+    // okay, so there's an end date
+
+    // But this could mean two things:
+    // - the event occurs on the same day, with a start and end time
+    // - the event begins on one day and ends on another day.
+    // I need to know which one this is.
+
+    $start_day = date_format( date_create( $start_date ), "M d, Y");
+    $end_day = date_format( date_create( $end_date ), "M d, Y");
+
+    if( $start_day != $end_day ) {
+      // it's a multi-day. So rather than just showing the
+      // times (3:00 - 5:00), the dates need to be shown as well.
+
+      $start_day = date_format( date_create( $start_date ), "M d, Y H:i");
+      $start_day_meridiem = str_replace( 'm', '.m.', date_format( date_create( $start_date ), "a") );
+
+      $end_day = date_format( date_create( $end_date ), "M d, Y H:i");
+      $end_day_meridiem = str_replace( 'm', '.m.', date_format( date_create( $start_date ), "a") );
+
+      return $start_day . ' ' . $start_day_meridiem . ' to ' . $end_day . ' ' . $end_day_meridiem;
+    }
+    else {
+      // it has to be a day with two different times.
+      // I want just the times, not the dates, since the
+      // format I want to use is 1:00 - 4:00
+
+      $time_start = format_date( $start_date );
+      $time_end = format_date( $end_date );
+
+      return $time_start . '–' . $time_end;
+    }
+  }
+  else {
+    // no end date
+
+    return format_date( $start_date );
+  }
+}
+
+
+// echo date_stuff('10/7/2022 11:00:00 AM', '12/18/2022 11:00:00 AM');
+
+
+// require_once( getcwd().'/simplepie-master/autoloader.php' );
+
+
+function strip_date_from_description( $description, $dateStart, $dateEnd = false ) {
+  // here's the problem: event descriptions in the feed have the dates
+  // included in each item's description. That's kind of awkward, since
+  // we already have them elsewhere.
+  //
+  // However, there's some accessibility value to having them there, so
+  // we're going to keep them - just hide them.
+
+
+}
+
+
+/*
+  This function grabs a feed, plugs the data into the event-item
+  template, and returns the whole series of marked-up items as
+  an array.
+
+  It's worth noting that most of these template functions return
+  strings. In this case, I'm returning the feed as an array because
+  there are circumstances (like on the homepage) where we don't want
+  every item in the feed - we only want to display the most recent
+  three items. Returning the feed as an array of items makes that
+  a lot easier.
+ */
+function connect_events_feed( $feed_url ) {
+  // We'll process this feed with all of the default options.
+  $feed = new SimplePie();
+
+  $final_feed = array();
+
+  $feed->set_cache_location( $_SERVER['DOCUMENT_ROOT'].'/core/_rss_cache/' );
+  // Set the feed to process.
+  $feed->set_feed_url( $feed_url );
+
+  /*
+    I was having a problem earlier where the items were not appearing
+    in the order that they did on the site. Figured it out with
+    the following:
+
+    foreach ( $feed_items as $item ) {
+      echo $item->get_title().'<br>';
+      echo $item->get_date('j F Y, g:i a').'<br><hr>';
+    }
+
+    So it looks like what's happening is that the pubDate specified
+    for each item is different from EventDate. Someone
+    in Alums is ordering the events in the order that they actually
+    happen, not the order that they were added to the RSS feed.
+
+    That order is reflected in the RSS feed, but when SimplePie gets
+    ahold of it, it orders the items according to pubDate, disrupting
+    the order on the site. So this next line turns sorting off.
+   */
+   $feed->enable_order_by_date(false);
+
+
+  // Run SimplePie.
+  $feed->init();
+
+  // This makes sure that the content is sent to the browser as text/html and the UTF-8 character set (since we didn't change it).
+  $feed->handle_content_type();
+
+// print_r($feed->get_items());
+
+  $feed_items = $feed->get_items();
+
+
+  foreach ( $feed_items as $item ) {
+    $image = (array) $item->get_enclosure();
+    $eventDate = $item->get_item_tags('', 'EventDate');
+    $eventDate = $eventDate[0]['data'];
+
+    $eventID = createSlug($item->get_title());
+
+    $endEventDate = $item->get_item_tags('', 'EndEventDate');
+    $endEventDate = $endEventDate[0]['data'];
+
+    $times = start_and_end_times( $eventDate, $endEventDate );
+
+    // now we need to get the month and day
+
+    $event_month = date_format( date_create( $eventDate ), "M" );
+    $event_day = date_format( date_create( $eventDate ), "d" );
+
+    $final_feed[] = <<<TMP
+    <div class="event" id="$eventID">
+      <div class="calendar">
+        <div class="event__month">$event_month</div>
+        <div class="event__day">$event_day</div>
+      </div>
+      <div class="event__image-container"><img class="event__image" src="{$image['link']}"></div>
+      <div class="event__content-container">
+      <a class="stretched-link" href="{$item->get_permalink()}">  <h3 class="event__title">{$item->get_title()}</h3></a>
+
+        <div class="event__time">
+          <i class="fa-regular fa-clock"></i> <span>$times</span>
+        </div>
+
+        <div class="event__summary">
+          <p>{$item->get_description()}</p>
+        </div>
+      </div>
+    </div>
+    TMP;
+  }
+  return $final_feed;
+}
+
+/*
+  This function is where the feed items are actually displayed.
+  It grabs a feed, runs it through connect_events_feed(), gets
+  back the array of formatted items, and then displays however
+  many you want. Default value is null for "all of them".
+ */
+function display_feed( $feed, $number_of_items = null ) {
+  $feed = connect_events_feed( $feed );
+  $the_feed = array_slice( $feed, 0, $number_of_items );
+  foreach ( $the_feed as $item ) {
+    echo $item;
+  }
 }

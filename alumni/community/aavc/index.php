@@ -66,7 +66,7 @@ $page_info = json_decode($page_info, true);
     ['url' => '/alumni/assets/img/alumni-community/aavc/aavc.png', 'alt' => 'replacealttext' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
-<p>A group of dedicated volunteers that serves the college and more than 40,000 alumni at the highest level.</p>
+<p>A group of dedicated volunteers that serves the college and more than <?php echo $facts['number_of_alumni']; ?> alumni at the highest level.</p>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
@@ -84,7 +84,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Bylaws',
-    '/alumni/community/aavc/bylaws/',
+    '/alumni/assets/pdf/Alumnae_i_Association_of_Vassar_-_Bylaws.pdf',
     ['url' => '/alumni/assets/img/alumni-community/aavc/0038-22-06-cs-reunion-vassar-084.jpg', 'alt' => 'replacealttext' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link download'
 ); ?>
@@ -108,4 +108,3 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo site_footeralumni(); ?>
-
