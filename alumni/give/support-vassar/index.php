@@ -183,7 +183,36 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>In 2021, we saw an encouraging shift upwards as a result of the Generation Vassar participation challenge and we are so grateful that many of you answered the call. We need <strong>your</strong> help now more than ever to keep up the momentum and continue this upward trend!</p>
 
-<img class="mt-5" src="/alumni/assets/img/alumni-give/support/participation-chart.gif" alt="" />
+<img class="mt-5" src="/alumni/assets/img/alumni-give/support/participation-chart.gif" alt="A graph of the Vassar Fund alumni participation rate for each fiscal year. In the 2010 fiscal year, 42% of alumni participated.
+In the 2011 fiscal year, 43% of alumni participated.
+In the 2012 fiscal year, 41% of alumni participated.
+In the 2013 fiscal year, 41% of alumni participated.
+In the 2014 fiscal year, 32% of alumni participated.
+In the 2015 fiscal year, 32% of alumni participated.
+In the 2016 fiscal year, 24% of alumni participated.
+In the 2017 fiscal year, 26% of alumni participated.
+In the 2018 fiscal year, 28% of alumni participated.
+In the 2019 fiscal year, 27% of alumni participated.
+In the 2020 fiscal year, 20% of alumni participated.
+In the 2021 fiscal year, 25% of alumni participated." />
+
+<?php /*
+<div class="visually-hidden">
+<h3 class="code-line" data-line-start=0 data-line-end=1 ><a id="Vassar_Fund_Alumni_Participation_Rate_for_Each_Fiscal_Year_0"></a>Vassar Fund Alumni Participation Rate for Each Fiscal Year</h3>
+<p class="has-line-data" data-line-start="1" data-line-end="13">In the 2010 fiscal year, 42% of alumni participated.<br>
+In the 2011 fiscal year, 43% of alumni participated.<br>
+In the 2012 fiscal year, 41% of alumni participated.<br>
+In the 2013 fiscal year, 41% of alumni participated.<br>
+In the 2014 fiscal year, 32% of alumni participated.<br>
+In the 2015 fiscal year, 32% of alumni participated.<br>
+In the 2016 fiscal year, 24% of alumni participated.<br>
+In the 2017 fiscal year, 26% of alumni participated.<br>
+In the 2018 fiscal year, 28% of alumni participated.<br>
+In the 2019 fiscal year, 27% of alumni participated.<br>
+In the 2020 fiscal year, 20% of alumni participated.<br>
+In the 2021 fiscal year, 25% of alumni participated.</p>
+</div>
+*/ ?>
 
 <?php echo end_sec_regularContent(); ?>
 
