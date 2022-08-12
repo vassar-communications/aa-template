@@ -12981,6 +12981,15 @@ button.card {
   padding: 0;
 }
 
+.admission-news-carousel .figcaption h3, .admission-news-carousel .figcaption .h3 {
+  border-bottom: 1px solid #f00;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.admission-news-carousel .figcaption h3 span, .admission-news-carousel .figcaption .h3 span {
+  font-size: 1.6rem !important;
+}
+
 /*  spark */
 .spark-1 {
   border: 1px solid #fff;

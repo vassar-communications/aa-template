@@ -607,12 +607,19 @@ All Vassar students are surrounded by an environment designed to spark something
 
 <!-- end you may be wondering -->
 
+<div class="admission-news-carousel section section--carousel theme-charcoal px-0 quad-pattern has-bg">
+
+<h2 class="section-intro-text news-intro text-center mb-5" style="">What’s Happening at Vassar?</h2>
+
 <?php // echo newsCarousel();
 
-include($project_paths['main_project_root'].'/admission/inc/carousel-admission-home-news.inc');
+echo five_items();
+
+// include($project_paths['main_project_root'].'/admission/inc/carousel-admission-home-news.inc');
 
 ?>
 
+</div>
 
  <?php echo item_modal_standardVideo(); ?>
 

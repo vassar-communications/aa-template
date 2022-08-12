@@ -28,3 +28,17 @@ button.card {
   padding: 0;
 }
 
+
+.admission-news-carousel {
+  .figcaption {
+    h3 {
+      border-bottom: 1px solid #f00;
+      padding-bottom: 1rem;
+      margin-bottom: 1rem;
+
+      span {
+        font-size: 1.6rem !important;
+      }
+    }
+  }
+}
