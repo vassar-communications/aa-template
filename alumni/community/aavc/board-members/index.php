@@ -276,7 +276,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Katrine “Cage” Ames ’69 (she/her/hers)',
-    '/alumni/community/aavc/board-members/aavc-board-director1/',
+    '/alumni/community/aavc/board-members/aavc-board-director-1/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/ames-katrine-cage-aavc-alum-001.jpg', 'alt' => 'Katrine “Cage” Ames' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -289,7 +289,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Gail Becker ’64 (she/her/hers)',
-    '/alumni/community/aavc/board-members/aavc-board-director7/',
+    '/alumni/community/aavc/board-members/aavc-board-director-7/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/becker-gail-aavc-alum-001.jpg', 'alt' => 'Gail Becker' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -303,7 +303,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Maybelle Taylor Bennett ’70 (she/her/hers)',
-    '/alumni/community/aavc/board-members/aavc-board-director8/',
+    '/alumni/community/aavc/board-members/aavc-board-director-8/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/bennett-maybelle-taylor-aavc-alum-001.jpg', 'alt' => 'Maybelle Taylor Bennett' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -316,7 +316,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'AC Dumlao ’13 (they/them/he/him)',
-    '/alumni/community/aavc/board-members/aavc-board-director9/',
+    '/alumni/community/aavc/board-members/aavc-board-director-9/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/AC-Dumlao_Headshot_Credit-Caitlin-Dumlao_AAVC.jpg', 'alt' => 'AC Dumlao' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
