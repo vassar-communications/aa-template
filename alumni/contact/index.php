@@ -137,6 +137,9 @@ $page_info = json_decode($page_info, true);
 <?php echo link_to_id( 'Donor Relations', 'nav-link'); ?>
   </li>
   <li class="list-group-item nav-item">
+<?php echo link_to_id( 'Regional and International Programs', 'nav-link'); ?>
+</li>
+  <li class="list-group-item nav-item">
     <?php echo link_to_id( 'Gift Planning', 'nav-link'); ?>
   </li>
   <li class="list-group-item nav-item">
@@ -155,9 +158,6 @@ $page_info = json_decode($page_info, true);
 </ul>
                         </li>
 
-                        <li class="list-group-item nav-item">
-<?php echo link_to_id( 'Regional and International Programs', 'nav-link top-level-item'); ?>
-</li>
 
                     </ul>
                 </div>
@@ -784,6 +784,35 @@ echo end_contact_card();
 ?>
 </div>
 
+<?php echo heading_with_anchor_id( 'Regional and International Programs', '4' ); ?>
+
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
+
+<?php
+
+echo contact_card(
+    'Susan Quade',
+    'Senior Associate Director of Regional and International Programs',
+    [
+      'phone' => '845-437-5453',
+      'email' => 'suquade@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'TBD',
+    'Office Specialist',
+    [
+      'phone' => '',
+      'email' => '',
+    ]
+);
+echo end_contact_card();
+?>
+</div>
+
 <?php echo heading_with_anchor_id( 'Gift Planning', '4' ); ?>
                 <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
@@ -986,36 +1015,6 @@ echo end_contact_card();
 
 
                 <div class="anchor" id="sec9"></div>
-
-<?php echo heading_with_anchor_id( 'Regional and International Programs', '3' ); ?>
-
-                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
-
-<?php
-
-echo contact_card(
-    'Susan Quade',
-    'Senior Associate Director of Regional and International Programs',
-    [
-      'phone' => '845-437-5453',
-      'email' => 'suquade@vassar.edu',
-    ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
-    'TBD',
-    'Office Specialist',
-    [
-      'phone' => '',
-      'email' => '',
-    ]
-);
-echo end_contact_card();
-?>
-</div>
-
 
             </main>
         </div>
