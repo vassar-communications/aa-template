@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Alumni News & Stories',
     '/alumni/community/alumni-news/',
-    ['url' => '/alumni/assets/img/alumni-community/sierra-tobin.jpg', 'alt' => 'Sierra Tobin' ],
+    ['url' => '/alumni/assets/img/alumni-community/sierra-tobin.jpg', 'alt' => 'Sierra Tobin holding water jugs in a city alley' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

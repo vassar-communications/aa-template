@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Our Community',
     '/alumni/community/',
-    ['url' => '/alumni/assets/img/alumni-community/Vassar_Reunion_19_BL_4968_edited.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-community/Vassar_Reunion_19_BL_4968_edited.jpg', 'alt' => 'Three smiling people in an audience. Two are holding I’m a Vassar Fan! signs.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

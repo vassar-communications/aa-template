@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Contact Us',
     '/alumni/contact/',
-    ['url' => '/alumni/assets/img/alumni-contact/0097_16_09_TT_2788.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-contact/0097_16_09_TT_2788.jpg', 'alt' => 'Fountain at Sunset Lake on Vassar Campus' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
