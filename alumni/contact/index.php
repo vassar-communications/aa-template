@@ -58,8 +58,8 @@ $page_info = json_decode($page_info, true);
     <div class="address-card mb-5">
         <p>
             <strong>Office of Advancement</strong><br>
-            Vassar College, Box 14<br>
-            161 College Ave<br>
+            Vassar College<br>
+            161 College Ave, Box 14<br>
             Poughkeepsie, NY 12603<br>
             USA
         </p>
