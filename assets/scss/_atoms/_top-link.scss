@@ -9,7 +9,10 @@
   z-index: 1000;
   opacity: 0;
   transition: 0.4s all ease;
-  border: none;
+//  border: none;
+
+  border: 1px solid #fff;
+  box-shadow: 0 0.1rem 0.2rem rgb(0 0 0 / 40%);
 
   .show-top-link & {
     opacity: 1;
