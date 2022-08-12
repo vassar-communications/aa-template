@@ -1,7 +1,7 @@
 .link-to-top {
   position: fixed;
   bottom: 2rem;
-  left: 50%;
+  left: calc(50vw - 3.4rem);
   padding: 0.1rem 0.6rem;
   background: rgba(255,255,255,0.6);
   border-radius: 2rem;
