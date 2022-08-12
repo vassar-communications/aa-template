@@ -161,7 +161,8 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>In 2021, we saw an encouraging shift upwards as a result of the Generation Vassar participation challenge and we are so grateful that many of you answered the call. We need <strong>your</strong> help now more than ever to keep up the momentum and continue this upward trend!</p>
 
-<span class="fix">INSERT GRAPHIC</span>
+<img class="mt-5" src="/alumni/assets/img/alumni-give/support/participation-chart.gif" alt="" />
+
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo relatedTopics(); ?>
