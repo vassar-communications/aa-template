@@ -84,7 +84,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Bylaws',
-    '/alumni/community/aavc/bylaws/',
+    '/alumni/assets/pdf/Alumnae_i_Association_of_Vassar_-_Bylaws.pdf',
     ['url' => '/alumni/assets/img/alumni-community/aavc/0038-22-06-cs-reunion-vassar-084.jpg', 'alt' => 'replacealttext' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link download'
 ); ?>
