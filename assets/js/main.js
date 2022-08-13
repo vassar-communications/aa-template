@@ -340,6 +340,7 @@ $( ".sec-fixedCenteredTitle" ).each(function( index ) {
 
 $(document).ready(function () {
 
+	$( 'html' ).removeClass( 'no-js' ).addClass( 'js' );
 
     $('.sec-fixedCenteredTitleMasthead').addClass('show-title');
 

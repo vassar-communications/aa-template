@@ -9,6 +9,13 @@
 
 @mixin setup-animation-fade-in() {
   opacity: 0%;
+
+  .no-js & {
+    animation-name: fade-in;
+    animation-fill-mode: forwards;
+    // give JS some time to load
+    animation-delay: 1s;
+  }
 }
 @mixin animation-fade-in($applied-to-sequential-items:false) {
   //  If the animation is being applied to a sequence of items
