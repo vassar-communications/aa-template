@@ -60,10 +60,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'The Ann Cornelisen Fellowship',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-resources/grants-fellowships/110619_160over90_Vassar_4689.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'placehoder image']
+    ['img_alt_text' => 'student showing another student a page in a book']
 ); ?>
 <h6 class="tagline">For Graduating Seniors and Recent Alumni</h6>
 <p>This fellowship provides up to $18,000 to graduates who wish to study a current spoken language in any country outside of the United States, preferably in conjunction with an interest in sociology, diplomatic service, or international law. Applicants will ordinarily be enrolled in a formal foreign language program, though they need not to have studied the language previously.</p>
@@ -96,10 +96,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'The Luce Scholars Program',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-resources/grants-fellowships/luce-boat-on-river.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'placehoder image']
+    ['img_alt_text' => 'boat on a river']
 ); ?>
 <h6 class="tagline">for Internships in Asia</h6>
 <p>Vassar may nominate three candidates for this scholarship, which endeavors to increase awareness of Asia among future leaders in American society by sponsoring 15–18 young Americans each year to live and work in Asia. Candidates must be American citizens who have received at least a bachelor’s degree and who would not have reached their 30th birthday by July 1st of the year they enter the program. They should have a record of high achievement, outstanding leadership ability, and clearly defined interests with evidence of potential for professional accomplishments. Those who already have significant experience in Asia or Asian studies are not eligible.</p>
@@ -114,10 +114,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'The Maguire Fellowship',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-resources/grants-fellowships/Harry-Potter-Bridge.jpg',
     'theme-dark-burgundy has-bg quad-pattern',
     '',
-    ['img_alt_text' => 'placehoder image']
+    ['img_alt_text' => 'Student abroad standing in from of an aqueduct']
 ); ?>
 <h6 class="tagline">For Study Abroad After Graduation</h6>
 <p>Intended for recent graduates wishing to pursue their interest in the humanities abroad, this fellowship awards up to $25,000 to graduates with a well-developed proposal of study with a clear academic focus. Evidence of sufficient language skills and academic preparation to successfully undertake the proposed study must be presented as well as a clear articulation of how the Fellowship will further one’s future objectives.</p>
@@ -132,10 +132,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'The Vassar W.K. Rose Fellowship in the Creative Arts',
-    '/assets/images/placeholders/placeholder-square.png',
+    '/alumni/assets/img/alumni-resources/grants-fellowships/110619_160over90_Vassar_4784.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'placehoder image']
+    ['img_alt_text' => 'Students painting on easels in art studio']
 ); ?>
 <p>Intended to provide a worthy young artist a minimum of $45,000 and the chance to be free after college to get on with their work as an artist, the Rose Fellowship is available to artists in the fields of writing, visual arts (including film), and music composition. Applicants must have demonstrated a creative talent during undergraduate study, must not be employed by the College, must not have attained substantial recognition in their field, and be under the age of 36. This fellowship is not intended for graduate study.</p>
 
