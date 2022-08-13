@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Generation Vassar',
     '/alumni/calendar/generation-vassar/',
-    ['url' => '/alumni/assets/img/alumni-calendar/generation-vassar/Vassar_Library_Timelapse_Set02_20210114_KR_0233.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-calendar/generation-vassar/Vassar_Library_Timelapse_Set02_20210114_KR_0233.jpg', 'alt' => 'Thompson Library exterior lit in red light at night on Vassar Campus' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'On-Demand Programs',
     '/alumni/calendar/on-demand-programs',
-    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/Media_Panel_Yale_Club-Bernstein-Reid-2018.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/Media_Panel_Yale_Club-Bernstein-Reid-2018.jpg', 'alt' => 'Five seated panelists in discussion before an audience' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

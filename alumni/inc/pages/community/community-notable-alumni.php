@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Notable Alumni',
     '/alumni/community/notable-alumni/',
-    ['url' => '/alumni/assets/img/alumni-community/notable-alumni/0005-19-01-kr-scc-eng-gretchen-vassar-0089.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-community/notable-alumni/0005-19-01-kr-scc-eng-gretchen-vassar-0089.jpg', 'alt' => 'Speaker with holding a microphone giving someone a high five' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

@@ -24,7 +24,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Gathering of people dining inside Alumnae House']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -35,7 +35,8 @@ $page_info = json_decode($page_info, true);
     'Events at Alumnae House',
     $alumni_img_path.'alumni-resources/alumnae-house/events/Reunion_1806_CS_070.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Overhead view of a set table and people seated around it']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 
