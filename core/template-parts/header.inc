@@ -78,7 +78,7 @@ $page_classes .= how_deep_are_we();
   <meta property="og:title" content="$page_title">
   <meta property="og:type" content="">
   <meta property="og:url" content="">
-  <meta property="og:image" content="$feature_image">
+  <meta property="og:image" content="{$project_paths['public_path']}$feature_image">
 
 $comment
 
