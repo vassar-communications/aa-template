@@ -324,7 +324,7 @@ $page_info = json_decode($page_info, true);
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/bennett-maybelle-taylor-aavc-alum-001.jpg', 'alt' => 'Maybelle Taylor Bennett' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
-<div class="pronouns">(she/her/hers)</div>
+<div class="pronouns">(she/her/hers) </div>
 <div class="position">Alumnae/i Recognition Committee Member and Career Networking Committee Member</div>
 <div class="location">Washington, DC</div>
 <div class="term">Term of Service: 2021–2025</div>
