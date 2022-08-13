@@ -12,7 +12,8 @@ include( $project_paths['main_project_root'] . '/functions.php');
 $page_info = '{
   "page_title":"Vassar Alumni",
   "page_classes":"advancement-demo home",
-  "nav_title":"Alumni"
+  "nav_title":"Alumni",
+  "feature_image":"/alumni/assets/img/alumni-give/mentor/Steve_Kauderer_001-by_Diana_Liu.jpg"
 }';
 
 /* === */
