@@ -75,6 +75,11 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <p>Annual gifts (even at very modest levels) can have just as much impact as major gifts when they are pooled together. For example, multiple gifts from many donors totaling $50,000 can have the same financial effect as the payout from a $1 million endowment gift in a given year.</p>
 
+    <?php echo cta_link(
+        'https://securelb.imodules.com/s/1654/20/giving/form.aspx?sid=1654&gid=2&pgid=5130&cid=8405',
+        'Give'
+    ); ?>
+
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -94,6 +99,10 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <p>Alumni participation is one factor used when evaluating and ranking colleges and universities. Rankings can affect reputation, reputation can affect enrollment, and enrollment can affect revenue from tuition. Additionally, think of a diploma as if it were a stock certificate. As the quality of the institution grows, so does the value of your degree!</p>
 
+    <?php echo cta_link(
+        'https://securelb.imodules.com/s/1654/20/giving/form.aspx?sid=1654&gid=2&pgid=5130&cid=8405',
+        'Give'
+    ); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -114,6 +123,10 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <p>People want to give to a winning cause. Your participation can influence major donors, corporations, and foundations when they’re considering their own investments. They want to give to institutions that you find worthy of supporting.</p>
 
+    <?php echo cta_link(
+        'https://securelb.imodules.com/s/1654/20/giving/form.aspx?sid=1654&gid=2&pgid=5130&cid=8405',
+        'Give'
+    ); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -132,6 +145,10 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <p>Alumni giving helps Vassar establish a broad and diverse base of financial support that provides a safeguard for future uncertainties. Your help is critical in protecting Vassar and its stakeholders.</p>
 
+    <?php echo cta_link(
+        'https://securelb.imodules.com/s/1654/20/giving/form.aspx?sid=1654&gid=2&pgid=5130&cid=8405',
+        'Give'
+    ); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -151,6 +168,11 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <p>Echoing Vassar’s commitment to philanthropy and service, your participation shows the current student body the importance of giving through programs like the <a href="https://vassar.edu/genvc">Generation Vassar Challenge</a>. Your commitment to Vassar and its future is also an important example to set for prospective students and encourages young alumni to give. Ultimately, it just feels good to continue to give back to the community that helped to shape your experience as a student.</p>
 
+    <?php echo cta_link(
+        'https://securelb.imodules.com/s/1654/20/giving/form.aspx?sid=1654&gid=2&pgid=5130&cid=8405',
+        'Give'
+    ); ?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -161,7 +183,36 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>In 2021, we saw an encouraging shift upwards as a result of the Generation Vassar participation challenge and we are so grateful that many of you answered the call. We need <strong>your</strong> help now more than ever to keep up the momentum and continue this upward trend!</p>
 
-<img class="mt-5" src="/alumni/assets/img/alumni-give/support/participation-chart.gif" alt="" />
+<img class="mt-5" src="/alumni/assets/img/alumni-give/support/participation-chart.gif" alt="A graph of the Vassar Fund alumni participation rate for each fiscal year. In the 2010 fiscal year, 42% of alumni participated.
+In the 2011 fiscal year, 43% of alumni participated.
+In the 2012 fiscal year, 41% of alumni participated.
+In the 2013 fiscal year, 41% of alumni participated.
+In the 2014 fiscal year, 32% of alumni participated.
+In the 2015 fiscal year, 32% of alumni participated.
+In the 2016 fiscal year, 24% of alumni participated.
+In the 2017 fiscal year, 26% of alumni participated.
+In the 2018 fiscal year, 28% of alumni participated.
+In the 2019 fiscal year, 27% of alumni participated.
+In the 2020 fiscal year, 20% of alumni participated.
+In the 2021 fiscal year, 25% of alumni participated." />
+
+<?php /*
+<div class="visually-hidden">
+<h3 class="code-line" data-line-start=0 data-line-end=1 ><a id="Vassar_Fund_Alumni_Participation_Rate_for_Each_Fiscal_Year_0"></a>Vassar Fund Alumni Participation Rate for Each Fiscal Year</h3>
+<p class="has-line-data" data-line-start="1" data-line-end="13">In the 2010 fiscal year, 42% of alumni participated.<br>
+In the 2011 fiscal year, 43% of alumni participated.<br>
+In the 2012 fiscal year, 41% of alumni participated.<br>
+In the 2013 fiscal year, 41% of alumni participated.<br>
+In the 2014 fiscal year, 32% of alumni participated.<br>
+In the 2015 fiscal year, 32% of alumni participated.<br>
+In the 2016 fiscal year, 24% of alumni participated.<br>
+In the 2017 fiscal year, 26% of alumni participated.<br>
+In the 2018 fiscal year, 28% of alumni participated.<br>
+In the 2019 fiscal year, 27% of alumni participated.<br>
+In the 2020 fiscal year, 20% of alumni participated.<br>
+In the 2021 fiscal year, 25% of alumni participated.</p>
+</div>
+*/ ?>
 
 <?php echo end_sec_regularContent(); ?>
 

@@ -62,11 +62,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_cardWithText(
-    'Monica Vachher ’77 (she/her/hers)',
+    'Monica Vachher ’77',
     '/alumni/community/aavc/board-members/aavc-president/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/vachher-monica-aavc-alum-001.jpg', 'alt' => 'Monica Vachher' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(she/her/hers)</div>
 <div class="position">AAVC President and AAVC Trustee</div>
 <div class="location">Philadelphia</div>
 <div class="term">Term of Service: 2022–2026</div>
@@ -77,11 +78,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_cardWithText(
-    'Brian Farkas ’10 (he/him/his)',
+    'Brian Farkas ’10',
     '/alumni/community/aavc/board-members/aavc-vice-president/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/farkas-brian-aavc-alum-001.jpg', 'alt' => 'Brian Farkas' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(he/him/his)</div>
 <div class="position">AAVC Vice President and AAVC Trustee</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2022–2026</div>
@@ -91,11 +93,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_cardWithText(
-    'Tyrone Forman ’92 (he/him/his)',
+    'Tyrone Forman ’92',
     '/alumni/community/aavc/board-members/aavc-vice-president-2/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/forman-tyrone-aavc-alum-001.jpg', 'alt' => 'Tyrone Forman' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(he/him/his)</div>
 <div class="position">AAVC Vice President and AAVC Trustee</div>
 <div class="location">Illinois</div>
 <div class="term">Term of Service: 2022–2026</div>
@@ -106,11 +109,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_cardWithText(
-    'Patrick DeYoung ’18 (he/him/his)',
+    'Patrick DeYoung ’18',
     '/alumni/community/aavc/board-members/aavc-trustee-deyoung/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/deyoung-patrick-aavc-alum-001.jpg', 'alt' => 'Patrick DeYoung' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(he/him/his)</div>
 <div class="position">AAVC Trustee, Nominating and Governance Committee Member and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</div>
 <div class="location">Washington</div>
 <div class="term">Term of Service: 2022–2026</div>
@@ -121,11 +125,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_cardWithText(
-    'Seiji Hayashi ’91 (he/him/his)',
+    'Seiji Hayashi ’91',
     '/alumni/community/aavc/board-members/aavc-trustee-hayashi/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/hayashi-seiji-aavc-alum-001.jpg', 'alt' => 'Seiji Hayashi' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(he/him/his)</div>
 <div class="position">AAVC Trustee, Alumnae/i Recognition Committee Member and Career Networking Committee Member</div>
 <div class="location">Maryland</div>
 <div class="term">Term of Service: 2020–2024</div>
@@ -134,11 +139,12 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <?php echo item_cardWithText(
-    'Natalie Nixon ’91 (she/her/hers)',
+    'Natalie Nixon ’91',
     '/alumni/community/aavc/board-members/aavc-career-networking-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/nixon-natalie-aavc-alum-001.jpg', 'alt' => 'Natalie Nixon' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(she/her/hers)</div>
 <div class="position">AAVC Trustee and Career Networking Committee Chair</div>
 <div class="location">Pennsylvania</div>
 <div class="term">Term of Service: 2019–2023</div>
@@ -150,11 +156,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_cardWithText(
-    'Alexandria Dempsey ’09 (she/her/hers)',
+    'Alexandria Dempsey ’09',
     '/alumni/community/aavc/board-members/aavc-class-engagement-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/dempsey-alexandria-aavc-alum-001.jpg', 'alt' => 'Alexandria Dempsey' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(she/her/hers)</div>
 <div class="position">Class Engagement Committee Chair and Clubs Committee Member</div>
 <div class="location">California</div>
 <div class="term">Term of Service: 2020–2024</div>
@@ -164,11 +171,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_cardWithText(
-    'James Estrada ’13 (he/him/his)',
+    'James Estrada ’13',
     '/alumni/community/aavc/board-members/aavc-alumnae-house-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/estrada-james-aavc-alum-001.jpg', 'alt' => 'James Estrada' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(he/him/his)</div>
 <div class="position">Alumnae House Committee Chair and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</div>
 <div class="location">Michigan</div>
 <div class="term">Term of Service: 2021–2025</div>
@@ -177,11 +185,12 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <?php echo item_cardWithText(
-    'Justin Hergianto ’04 (he/him/his)',
+    'Justin Hergianto ’04',
     '/alumni/community/aavc/board-members/aavc-communications-advisory-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/Justin_Hergianto-removebg-aavc-alum-001.jpg', 'alt' => 'Justin Hergianto' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(he/him/his)</div>
 <div class="position">Communications Advisory Committee Chair and Career Networking Committee Member</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2021–2025</div>
@@ -191,11 +200,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_cardWithText(
-    'Anne Green ’93 (she/her/hers)',
+    'Anne Green ’93',
     '/alumni/community/aavc/board-members/aavc-nominating-and-governance-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/green-anne-aavc-alum-001.jpg', 'alt' => 'Anne Green' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(she/her/hers)</div>
 <div class="position">Nominating and Governance Committee Chair, Communications Advisory Committee Member and Ad Hoc Diversity, Equity and Inclusion Committee
 </div>
 <div class="location">New York</div>
@@ -206,11 +216,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_cardWithText(
-    'Delia Cheung Hom ’00 (she/her/hers)',
+    'Delia Cheung Hom ’00',
     '/alumni/community/aavc/board-members/aavc-ad-hoc-diversity-equity-inclusion-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg', 'alt' => 'Delia Cheung Hom' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(she/her/hers)</div>
 <div class="position">Ad Hoc Diversity, Equity and Inclusion Committee Chair and Nominating and Governance Member</div>
 <div class="location">Massachusetts</div>
 <div class="term">Term of Service: 2020–2024</div>
@@ -220,11 +231,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_cardWithText(
-    'Katherine “Kat” Mills Polys ’93 (she/her/hers)',
+    'Katherine “Kat” Mills Polys ’93',
     '/alumni/community/aavc/board-members/aavc-vassar-fund-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/polys-kat-mills-aavc-alum-001.jpg', 'alt' => 'Katherine “Kat” Mills Polys' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(she/her/hers)</div>
 <div class="position">Vassar Fund Committee Chair</div>
 <div class="location">Virginia</div>
 <div class="term">Term of Service: 2022–2026</div>
@@ -234,11 +246,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_cardWithText(
-    'Amy Pullman ’71 (she/her/hers)',
+    'Amy Pullman ’71',
     '/alumni/community/aavc/board-members/aavc-alumni-recognition-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/pullman-amy-aavc-alum-001.jpg', 'alt' => 'Amy Pullman' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(she/her/hers)</div>
 <div class="position">Alumnae/i Recognition Committee Chair</div>
 <div class="location">Virginia</div>
 <div class="term">Term of Service: 2020–2024</div>
@@ -247,11 +260,12 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <?php echo item_cardWithText(
-    'Andrew Solum ’89 (he/him/his)',
+    'Andrew Solum ’89',
     '/alumni/community/aavc/board-members/aavc-clubs-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/solum-andrew-aavc-alum-001.jpg', 'alt' => 'Andrew Solum' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(he/him/his)</div>
 <div class="position">Clubs Committee Chair</div>
 <div class="location">United Kingdom</div>
 <div class="term">Term of Service: 2022–2026</div>
@@ -260,11 +274,12 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <?php echo item_cardWithText(
-    'Ellie Winter ’18 (she/her/hers)',
+    'Ellie Winter ’18',
     '/alumni/community/aavc/board-members/aavc-ad-hoc-student-young-alumni-engagement-committee-chair/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/winter-ellie-aavc-alum-6332.jpg', 'alt' => 'Ellie Winter' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(she/her/hers)</div>
 <div class="position">Ad Hoc Student and Young Alumnae/i Engagement Committee Chair and Ad Hoc Diversity, Equity and Inclusion Committee Member</div>
 <div class="location">Rhode Island</div>
 <div class="term">Term of Service: 2021–2025</div>
@@ -275,11 +290,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_cardWithText(
-    'Katrine “Cage” Ames ’69 (she/her/hers)',
+    'Katrine “Cage” Ames ’69',
     '/alumni/community/aavc/board-members/aavc-board-director-1/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/ames-katrine-cage-aavc-alum-001.jpg', 'alt' => 'Katrine “Cage” Ames' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(she/her/hers)</div>
 <div class="position">Vassar Fund Committee Member and Class Engagement Committee Member</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2020–2024</div>
@@ -288,11 +304,12 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <?php echo item_cardWithText(
-    'Gail Becker ’64 (she/her/hers)',
+    'Gail Becker ’64',
     '/alumni/community/aavc/board-members/aavc-board-director-7/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/becker-gail-aavc-alum-001.jpg', 'alt' => 'Gail Becker' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(she/her/hers)</div>
 <div class="position">AAVC Board Director</div>
 <div class="location">New Jersey</div>
 <div class="term">Term of Service: 2022–2026</div>
@@ -302,11 +319,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_cardWithText(
-    'Maybelle Taylor Bennett ’70 (she/her/hers)',
+    'Maybelle Taylor Bennett ’70',
     '/alumni/community/aavc/board-members/aavc-board-director-8/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/bennett-maybelle-taylor-aavc-alum-001.jpg', 'alt' => 'Maybelle Taylor Bennett' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(she/her/hers) </div>
 <div class="position">Alumnae/i Recognition Committee Member and Career Networking Committee Member</div>
 <div class="location">Washington, DC</div>
 <div class="term">Term of Service: 2021–2025</div>
@@ -315,11 +333,12 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <?php echo item_cardWithText(
-    'AC Dumlao ’13 (they/them/he/him)',
+    'AC Dumlao ’13',
     '/alumni/community/aavc/board-members/aavc-board-director-9/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/AC-Dumlao_Headshot_Credit-Caitlin-Dumlao_AAVC.jpg', 'alt' => 'AC Dumlao' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(they/them/he/him)</div>
 <div class="position">Nominating and Governance Committee Member and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2021–2025</div>
@@ -342,11 +361,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_cardWithText(
-    'Peggy Ann Nagae ’73 (she/her/hers)',
+    'Peggy Ann Nagae ’73',
     '/alumni/community/aavc/board-members/aavc-board-director-3/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/nagae-peggy-ann-aavc-alum-001.jpg', 'alt' => 'Peggy Ann Nagae' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(she/her/hers)</div>
 <div class="position">AAVC Board Director</div>
 <div class="location">Oregon</div>
 <div class="term">Term of Service: 2022–2026</div>
@@ -355,11 +375,12 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <?php echo item_cardWithText(
-    'Chip Reid ’77 (he/him/his)',
+    'Chip Reid ’77',
     '/alumni/community/aavc/board-members/aavc-board-director-4/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/reid-chip-aavc-alum-001.jpg', 'alt' => 'Chip Reid' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(he/him/his)</div>
 <div class="position">Nominating and Governance Committee Member and Communications Advisory Committee Member</div>
 <div class="location">Washington, DC</div>
 <div class="term">Term of Service: 2020–2024</div>
@@ -368,11 +389,12 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <?php echo item_cardWithText(
-    'Sheryl Smikle ’81 (she/her/hers)',
+    'Sheryl Smikle ’81',
     '/alumni/community/aavc/board-members/aavc-board-director-5/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/smikle-sheryl-aavc-alum-001.jpg', 'alt' => 'Sheryl Smikle' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(she/her/hers)</div>
 <div class="position">Nominating and Governance Committee Member and Alumnae House Committee Member</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2020–2024</div>
@@ -381,11 +403,12 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <?php echo item_cardWithText(
-    'Keith St John ’81 (he/him/his)',
+    'Keith St John ’81',
     '/alumni/community/aavc/board-members/aavc-board-director-6/',
     ['url' => '/alumni/assets/img/alumni-community/aavc/board/st-john-keith-aavc-alum-001.jpg', 'alt' => 'Keith St John' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
+<div class="pronouns">(he/him/his)</div>
 <div class="position">AAVC Board Director</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2022–2026</div>

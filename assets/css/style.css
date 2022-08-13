@@ -9818,7 +9818,8 @@ h2.border-animate:after, .border-animate.h2:after {
   z-index: 1000;
   opacity: 0;
   transition: 0.4s all ease;
-  border: none;
+  border: 1px solid #fff;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.4);
 }
 .show-top-link .link-to-top {
   opacity: 1;
@@ -9829,6 +9830,14 @@ h2.border-animate:after, .border-animate.h2:after {
 .show-top-link .link-to-top:link:hover, .show-top-link .link-to-top:link:focus, .show-top-link .link-to-top:visited:hover, .show-top-link .link-to-top:visited:focus {
   background: #333;
   color: #eee;
+}
+
+.plain-card-1 {
+  background: #fff;
+  border-radius: 0.3rem;
+  padding: 1.4rem;
+  margin-bottom: 1.4rem;
+  box-shadow: 0 0.1rem 0.2rem rgba(30, 0, 0, 0.1);
 }
 
 /*
@@ -13514,6 +13523,19 @@ html {
   font-weight: 100 !important;
   text-align: center;
   color: #666;
+}
+
+.section.section--wide-content.the-quote-ticker {
+  position: relative;
+}
+.section.section--wide-content.the-quote-ticker:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: 1;
 }
 
 .address-card {

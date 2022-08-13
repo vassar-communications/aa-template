@@ -23,7 +23,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Front exterior of the Alumnae House']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -33,7 +33,8 @@ $page_info = json_decode($page_info, true);
     'Stay at Alumnae House',
     '/alumni/assets/img/alumni-resources/alumnae-house/0027_14_03_TT_1436.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Common Space inside Alumnae House']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Accommodations are available for your next visit to campus.</p>

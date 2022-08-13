@@ -38,6 +38,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_siteHeader_video(); ?>
 
+<span id="top"></span>
 <?php echo make_nav_from_array(
   [
     'Explore' => 'explore/',

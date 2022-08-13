@@ -78,3 +78,20 @@
   text-align: center;
   color: #666;
 }
+
+
+// blocks hovers over the quote ticker
+// so the carousel won't pause on hover
+.section.section--wide-content.the-quote-ticker {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    z-index: 1;
+  }
+}
