@@ -10,7 +10,8 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Be a Mentor",
   "page_classes":"",
-  "feature_image":"/alumni/assets/img/alumni-give/mentor/Steve_Kauderer_001-by_Diana_Liu.jpg"
+  "feature_image":"/alumni/assets/img/alumni-give/mentor/Steve_Kauderer_001-by_Diana_Liu.jpg",
+  "page_description": "Being a mentor is an extraordinary opportunity to develop positive relationships with students and help them navigate their future personally and professionally."
 }';
 
 /* === */
