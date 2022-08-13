@@ -24,7 +24,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Fireworks exploding over Sunset Lake on Vassar Campus']); ?>
 
 
 <?php echo interior_page_nav() ?>
@@ -33,7 +33,8 @@ $page_info = json_decode($page_info, true);
     'Alumni Benefits',
     '/alumni/assets/img/alumni-resources/alumni-benefits/reunion-1906-kr-vassar-3139.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'People seated on the lawn in front of Thompson Library on Vassar campus']
 ); ?>
 <p class="intro-text">Vassar offers a wide array of benefits to the more than 41,000 alumni across the globe.</p>
 
@@ -51,7 +52,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Library',
     'https://library.vassar.edu/',
-    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/0069-19-05-kr-spring-vassar-4173.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/0069-19-05-kr-spring-vassar-4173.jpg', 'alt' => 'Tulips in front of Thompson Library on Vassar campus' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 
@@ -65,7 +66,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Fitness Center',
     'https://www.vassarathletics.com/facilities/athletics-and-fitness-center/5',
-    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/AFCtrack6.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/AFCtrack6.jpg', 'alt' => 'Running track inside the Athletics and Fitness Center at Vassar College' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 
@@ -81,7 +82,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Vassar Alumni ID Card',
     'https://offices.vassar.edu/card/alumni-id-card-request/',
-    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/0138-15-11-kr-vcdf-vassar-0090.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/0138-15-11-kr-vcdf-vassar-0090.jpg', 'alt' => 'exterior of the Vogelstein center for drama and film' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 
@@ -98,7 +99,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Vassar Email Address',
     'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=429',
-    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/adlov-taylor-vq-vassar-0911-lrr-8293.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/adlov-taylor-vq-vassar-0911-lrr-8293.jpg', 'alt' => 'Gate on Vassar Campus' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>Alumni can obtain a Vassar-branded @alum.vassar.edu email address/account.</p>
@@ -112,7 +113,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'VassarNet',
     'https://vassarnet.vassar.edu/',
-    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/0039-22-06-cs-reunion-vassar-347.jpg', 'alt' => 'replacealttext' ],
+    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/0039-22-06-cs-reunion-vassar-347.jpg', 'alt' => 'Two board members walking and smiling on Vassar Campus' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>Alumni, students, parents, faculty, and friends of Vassar can join to build their network and find Vassar-connected career networking opportunities.</p>
@@ -126,7 +127,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Grants & Fellowships',
     '/alumni/resources/grants-fellowships',
-    ['url' =>  $alumni_img_path.'alumni-resources/alumni-benefits/Jonathan_Kaiman.jpg', 'alt' => 'replacealttext' ],
+    ['url' =>  $alumni_img_path.'alumni-resources/alumni-benefits/Jonathan_Kaiman.jpg', 'alt' => 'Two people seated with stringed instruments' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>Alumni are eligible to apply for a variety of grants and fellowships.</p>

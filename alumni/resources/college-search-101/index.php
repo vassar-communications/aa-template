@@ -23,7 +23,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Detail of Thompson Library on Vassar Campus']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -34,7 +34,8 @@ $page_info = json_decode($page_info, true);
     'College Search 101 for Vassar Families',
     $alumni_img_path.'alumni-resources/college-search/0036-22-06-kr-reunion-vassar-0040.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Two people walking in front of Rockefeller Library on Vassar Campus']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 

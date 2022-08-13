@@ -38,7 +38,10 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Take Time Out to Change the World',
     'What would you do if you had a year off to change your life while helping to change the world?',
-    $alumni_img_path.'alumni-resources/grants-fellowships/irene_lopez_dominican_republic_16x9.jpg'
+    $alumni_img_path.'alumni-resources/grants-fellowships/irene_lopez_dominican_republic_16x9.jpg',
+    null,
+    null,
+    ['img_alt_text' => 'Irene López smiling']
   );
 ?>
 
@@ -69,7 +72,7 @@ $page_info = json_decode($page_info, true);
       'https://www.vassar.edu/stories/2021/time-out-awardee-bishop-joseph-tolton-89.html',
       [
         'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2022-06/bishop-tolton-2021-card.jpg',
-        'alt' => 'asdfasdfds'
+        'alt' => 'Bishop Joseph Tolton'
       ],
       'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
   ); ?>
@@ -81,7 +84,7 @@ $page_info = json_decode($page_info, true);
       'https://www.vassar.edu/news/time-out-grant-winner-explores-legacy-koreas-division-new-book',
       [
         'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2022-04/katherinekim_3235-by-dahlia-simone-kim-levy-card_0.jpg',
-        'alt' => 'asdfasdfds'
+        'alt' => 'Katherine Yungmee Kim'
       ],
       'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
   ); ?>
@@ -93,7 +96,7 @@ $page_info = json_decode($page_info, true);
       'https://www.vassar.edu/stories/2020/vassar-time-out-grant-gives-sustainable-farming-advocate-more-latitude-to-make-a-difference.html',
       [
         'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2021-07/time-out-eliott.jpg',
-        'alt' => 'asdfasdfds'
+        'alt' => 'Pablo Elliott'
       ],
       'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
   ); ?>
@@ -106,7 +109,7 @@ $page_info = json_decode($page_info, true);
       'https://www.vassar.edu/vq/issues/2010/01/beyond-vassar/turning-handicrafts-opportunity.html',
       [
         'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2021-07/klein.jpg',
-        'alt' => 'asdfasdfds'
+        'alt' => 'Susan Yacubian Klein'
       ],
       'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
   ); ?>
@@ -119,7 +122,7 @@ $page_info = json_decode($page_info, true);
       'https://www.vassar.edu/vq/issues/2010/03/beyond-vassar/dream-a-little-dream.html',
       [
         'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2021-07/kramer.jpg',
-        'alt' => 'asdfasdfds'
+        'alt' => 'Jane Kramer'
       ],
       'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
   ); ?>
@@ -132,7 +135,7 @@ $page_info = json_decode($page_info, true);
       'https://www.washingtonpost.com/sf/national/2016/09/22/from-hiroko-to-susie-the-untold-stories-of-japanese-war-brides/?noredirect=on&utm_term=.975bd531e220',
       [
         'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2021-07/tolbert-kathrynandhiroko-final.jpg',
-        'alt' => 'asdfasdfds'
+        'alt' => 'Kathryn Tolbert'
       ],
       'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
   ); ?>
