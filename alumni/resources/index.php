@@ -105,7 +105,7 @@ $page_info = json_decode($page_info, true);
     $alumni_img_path.'alumni-resources/alumnae-house/0050_17_06_BL_8695.jpg',
     '',
     '',
-    ['img_alt_text' => 'Courtyard at Alumnea House']
+    ['img_alt_text' => 'Courtyard at Alumnae House']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>With a reverence for the past and a nod toward the future, Alumnae House strives to be a welcoming home for all Vassar students and alums.</p>
