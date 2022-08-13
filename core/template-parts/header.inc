@@ -72,7 +72,7 @@ $page_url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 <head>
   <meta charset="utf-8">
   <title>$page_title_path</title>
-  <meta name="description" content="">
+  <meta name="description" content="A description goes here">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="$page_title">
