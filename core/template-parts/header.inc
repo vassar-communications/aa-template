@@ -78,10 +78,13 @@ $page_url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
   <meta property="og:title" content="$page_title">
   <meta property="twitter:title" content="$page_title">
+  <meta name="twitter:site" content="@vassar">
+  <meta name="twitter:creator" content="@vassar">
   <meta property="og:type" content="">
   <meta property="og:description" content="$page_description">
   <meta property="twitter:description" content="$page_description">
   <meta property="og:url" content="$page_url">
+<meta name="twitter:card" content="summary_large_image" />
   <meta property="og:image" content="https://{$_SERVER['HTTP_HOST']}$feature_image">
 <meta property="twitter:image" content="https://{$_SERVER['HTTP_HOST']}$feature_image">
 
