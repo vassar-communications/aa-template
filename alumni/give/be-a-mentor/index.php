@@ -75,7 +75,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>The CDO regularly organizes panels that feature a variety of industries, majors, and more, often in collaboration with student organizations and academic departments.</p>
+    <p>The Career Development Office regularly organizes panels that feature a variety of industries, majors, and more, often in collaboration with student organizations and academic departments.</p>
 
 
 </div>
@@ -90,7 +90,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Want to share your experience navigating the workplace based on your identity (race, class, gender, sexual orientation, international student status, religion, etc.)? The CDO regularly hosts meetups designed to connect students to alums and parents around a shared identity so that they can engage in meaningful conversations about the intersection of identity and career.</p>
+    <p>Want to share your experience navigating the workplace based on your identity (race, class, gender, sexual orientation, international student status, religion, etc.)? The Career Development Office regularly hosts meetups designed to connect students to alums and parents around a shared identity so that they can engage in meaningful conversations about the intersection of identity and career.</p>
 
 
 
@@ -137,8 +137,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Do you have a skill or content-area specialty that you would like to share? Past workshops led by alumni have included sessions on design thinking, tech and case interview preparation, budgeting, professional communication, and more.</p>
-
+    <p>We welcome the opportunity to host employers for information sessions and interviews, whether on-campus or virtual. Virtual sessions and interviews may be hosted via Zoom or the platform of your choice!</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
