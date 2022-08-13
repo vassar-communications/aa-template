@@ -137,7 +137,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>We welcome the opportunity to host employers for information sessions and interviews, whether on-campus or virtual. Virtual sessions and interviews may be hosted via Zoom or the platform of your choice!</p>
+    <p>The Career Development Office welcomes the opportunity to host employers for information sessions and interviews, whether on-campus or virtual. Virtual sessions and interviews may be hosted via Zoom or the platform of your choice!</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
