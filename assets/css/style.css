@@ -13525,6 +13525,19 @@ html {
   color: #666;
 }
 
+.section.section--wide-content.the-quote-ticker {
+  position: relative;
+}
+.section.section--wide-content.the-quote-ticker:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: 1;
+}
+
 .address-card {
   background: #fff;
   padding: calc(1.325rem + 0.9vw);
