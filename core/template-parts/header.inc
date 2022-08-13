@@ -38,10 +38,12 @@ TMP;
 
 
 
-//  $page_title = $page_info['page_title'];
+$page_title = $page_info['page_title'];
 
-$page_title = make_page_title();  //get_value_if_exists('page_title', $page_info);
+$page_title_path = make_page_title();  //get_value_if_exists('page_title', $page_info);
+
 $page_classes = get_value_if_exists('page_classes', $page_info);
+$feature_image = get_value_if_exists('feature_image', $page_info);
 
 $page_classes .= how_deep_are_we();
 
@@ -69,14 +71,14 @@ $page_classes .= how_deep_are_we();
 
 <head>
   <meta charset="utf-8">
-  <title>$page_title</title>
+  <title>$page_title_path</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
+  <meta property="og:title" content="$page_title">
   <meta property="og:type" content="">
   <meta property="og:url" content="">
-  <meta property="og:image" content="">
+  <meta property="og:image" content="$feature_image">
 
 $comment
 
