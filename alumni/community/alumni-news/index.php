@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-  'TV CEO Jonathan Littman ’85 Offers Career Tips to Students',
+  'Interview with Jason Blum ’91',
   $alumni_news_images_path.'/2022-08-13/211123-media-blum.jpeg',
   'theme-extralightgray',
   '',
@@ -86,11 +86,11 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Joseph Nevins',
-        'https://fortune.com/2022/04/24/blue-bottle-popular-coffee-chain-didnt-lay-off-a-single-employee-during-the-pandemic/',
+        'https://theconversation.com/crossing-the-us-mexico-border-is-deadlier-than-ever-for-migrants-heres-why-186632',
         ['url' => $logos_path.'the-conversation.gif', 'alt' => 'The Conversation logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p><strong>Joseph Nevins</strong>, Professor of Geography, wrote a Conversation article—which was reprinted by several media outlets, including Yahoo! News— about why crossing the U.S.-Mexico border is deadlier than ever for migrants.</p>
+        <p><strong>Joseph Nevins</strong>, Professor of Geography, wrote a <em>Conversation</em> article—which was reprinted by several media outlets, including Yahoo! News— about why crossing the U.S.-Mexico border is deadlier than ever for migrants.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
