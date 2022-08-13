@@ -15,7 +15,6 @@ function how_deep_are_we() {
   return $classes;
 }
 
-
 /**
  * site_header()
  * Generates the header for a page: doctype, head, and opening body tag. Required on every page.
@@ -47,6 +46,7 @@ $feature_image = get_value_if_exists('feature_image', $page_info);
 
 $page_classes .= how_deep_are_we();
 
+$page_url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
 //  $social_card_data = [
 //    'image' => $page_info['feature_image']
@@ -77,8 +77,8 @@ $page_classes .= how_deep_are_we();
 
   <meta property="og:title" content="$page_title">
   <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="{$project_paths['public_path']}$feature_image">
+  <meta property="og:url" content="$page_url">
+  <meta property="og:image" content="https://{$_SERVER['HTTP_HOST']}$feature_image">
 
 $comment
 
