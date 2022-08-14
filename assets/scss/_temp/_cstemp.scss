@@ -327,7 +327,23 @@ $menu-cols-gap: 4rem;
 .js-video-btn {
   &:after {
     background: #fff;
-    box-shadow: 0 -0.04em 0 0.12em rgb(255 255 255 / 100%);
+//    box-shadow: 0 -0.04em 0 0.12em rgb(255 255 255 / 100%);
+  }
+}
+
+.card.card-full-image.video-btn.js-video-btn {
+	padding-bottom: 4rem;
+
+  .card-img-content {
+    min-height: 4rem;
+    display: flex;
+    width: 100%;
+    border-radius: 0 !important;
+    align-items: center;
+    background: #000;
+    padding: 0.1rem;
+    padding-right: 4rem;
+    text-align: left;
   }
 }
 
@@ -335,7 +351,6 @@ $menu-cols-gap: 4rem;
   height: 100vh !important;
   margin-top: 0;
 }
-
 
 .bg-image-left.section--top-level-masthead .section-bg:after {
     background-position: left !important;
@@ -350,7 +365,6 @@ $menu-cols-gap: 4rem;
 .accordion-button {
     font-size: 1.2rem;
 }
-
 
 .masthead-video-background:before {
   content: '';
@@ -370,8 +384,7 @@ $menu-cols-gap: 4rem;
     background: $burgundy;
     color: #fff;
     border: transparent;
-        box-shadow: none !important;
-
+    box-shadow: none !important;
   }
 }
 
@@ -444,4 +457,9 @@ ul#block-fixedalumsmyaccountdirectory li {
       background: #000;
     }
   }
+}
+
+
+button.accordion-button:focus {
+    border: 3px solid #04f;
 }
