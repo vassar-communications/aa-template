@@ -144,7 +144,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'students behind their desks in a classroom']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>The Career Development Office welcomes the opportunity to host employers for information sessions and interviews, whether on-campus or virtual. Virtual sessions and interviews may be hosted via Zoom or the platform of your choice!</p>
+    <p>Does your organization hire interns or entry-level opportunities? Consider hosting an employer information session, either virtually or on-campus, to connect current students with your employer. We can also work with you to coordinate on-campus or virtual interviews.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
