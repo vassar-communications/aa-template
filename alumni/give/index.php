@@ -65,9 +65,12 @@ b {
 <?php echo masthead_interiorPage(
     null,
     'Connect with the alumni community and learn how you can continue to support Vassar.',
-    '/alumni/assets/img/alumni-give/0002-18-01-kr-scc-estrella-vassar-0048.jpg');
+    '/alumni/assets/img/alumni-give/0002-18-01-kr-scc-estrella-vassar-0048.jpg',
+    null,
+    null,
+    ['img_alt_text' => 'speaker in front of the audience with their hands raised and smiling']    
+);
 ?>
-
 
 <?php /*
 <?php echo sec_wideContent(
@@ -145,7 +148,8 @@ b {
     'Volunteer',
     '/alumni/assets/img/alumni-give/Vassar Project-11.jpg',
     'theme-cream section-large-title',
-    'mw-100'
+    'mw-100',
+    ['img_alt_text' => 'Volunteer in a Vassar Jersey planting flowers']
 ); ?>
 
 <div class="animate-when-content-appears animation-slide-up">
@@ -162,7 +166,8 @@ b {
     'Be a Mentor',
     '/alumni/assets/img/alumni-give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675-crop.jpg',
     'theme-charcoal image-is-first section-large-title',
-    'mw-100'
+    'mw-100',
+    ['img_alt_text' => 'Seated person speaking to another person']
 ); ?>
 
 
@@ -182,7 +187,8 @@ b {
     'Hire Vassar',
     '/alumni/assets/img/alumni-give/0006-19-01-kr-scc-reception-vassar-0956_crop.jpg',
     'theme-cream section-large-title',
-    'mw-100'
+    'mw-100',
+    ['img_alt_text' => 'Person with a nametag that reads, Mario, addressing a group']
 ); ?>
 
 

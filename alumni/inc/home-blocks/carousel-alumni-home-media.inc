@@ -4,7 +4,8 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
   <?php echo carousel_item(
     $media_carousel_path.'/2022-07-27/Shana_Nys_Dambrot.jpg',
-    'is-link'
+    'is-link',
+    'Black and white photo of Shana Nys Dambrot'
   ); ?>
 
   <small class="mb-3 d-block">July 27, 2022</small>
@@ -25,7 +26,8 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
   <?php echo carousel_item(
     $media_carousel_path.'/2022-07-18/deidre_mccalla_by_irene_young.jpg',
-    'is-link'
+    'is-link',
+    'Deidre McCalla playing a guitar and singing'
   ); ?>
 
   <small class="mb-3 d-block">July 18, 2022</small>
@@ -45,7 +47,8 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
   <?php echo carousel_item(
     $media_carousel_path.'2022-07-07/goldberg.jpg',
-    'is-link'
+    'is-link',
+    'Carrie Goldberg standing in front of a desk'
   ); ?>
 
   <small class="mb-3 d-block">July 1, 2022</small>
