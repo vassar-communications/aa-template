@@ -59,7 +59,7 @@ Make sure functions convert straight quotes to curly
   ',
   null,
   null,
-  ['img_alt_text' => 'Students researching plants in a lab']
+  ['img_alt_text' => 'Two smiling Alumni standing arm in arm at a reunion event']
 );
 ?>
 
