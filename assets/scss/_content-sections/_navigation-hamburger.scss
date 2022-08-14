@@ -117,3 +117,30 @@ a[data-bs-toggle="collapse"] {
   transition: border-bottom 0.4s;
   border-bottom: 1px solid transparent;
 }
+
+
+.secondary_menu {
+//  display: flex;
+  padding-left: 0;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  .secondary_menu-item {
+    list-style: none;
+
+    a {
+      &:link,
+      &:visited {
+        color: $gold;
+//        opacity: 0.6;
+
+        &:hover,
+        &:active {
+
+        }
+      }
+      font-size: 1rem;
+      font-variation-settings: "wght" 500;
+    }
+  }
+}

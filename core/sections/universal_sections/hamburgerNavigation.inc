@@ -31,7 +31,43 @@ $template = <<<TMP
          </a>
       </div>
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><span class="fa-solid fa-times"></button>
+
       <div class="megamenu-container">
+        <div class="megamenu-cols-container row top-mini-menu-area">
+            <div class="col-6 col-md-7">
+              <ul class="secondary_menu d-md-flex">
+                <li class="secondary_menu-item">
+                  <a href="https://www.vassar.edu/together/summer-2022">Summer COVID-19 Plan</a>
+                </li>
+                <li class="secondary_menu-item">
+                  <a href="https://www.vassar.edu/campuslife">Students</a>
+                </li>
+                <li class="secondary_menu-item">
+                  <a href="https://www.vassar.edu/families">Families</a>
+                </li>
+                <li class="secondary_menu-item">
+                  <a href="https://www.vassar.edu/alums"> Alumni </a>
+                </li>
+                <li class="secondary_menu-item">
+                  <a href="https://www.vassar.edu/human-resources">Employees</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-5">
+              <ul class="secondary_menu d-md-flex">
+                <li class="secondary_menu-item">
+                  <a href="https://www.vassar.edu/admission/apply">Apply</a>
+                </li>
+                <li class="secondary_menu-item">
+                  <a href="https://www.vassar.edu/tour">Tour</a>
+                </li>
+                <li class="secondary_menu-item">
+                  <a href="https://give.vassar.edu/">Give</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+
          <div class="megamenu-cols-container row align-items-start">
             <div class="col-md-7">
 
@@ -40,22 +76,33 @@ $template = <<<TMP
 <!-- end nav -->
             </div>
 
-
-
             <div class="col-md-5 quick-links-col">
                <div class="">
-                  <h6 class="tagline mb-5 knockedout">Quick Links</h6>
+                  <h6 class="tagline mb-5 knockedout" style="color: #d2b6ba;">Vassar</h6>
                   <ul class="linked-list">
                      <li><a href="https://www.vassar.edu/about">About</a></li>
                      <li><a href="https://www.vassar.edu/academics">Academics</a></li>
+                     <li><a href="https://www.vassar.edu/admission">Admission</a></li>
                      <li><a href="https://www.vassar.edu/campuslife">Campus Life</a></li>
                      <li><a href="https://www.vassarathletics.com/">Athletics</a></li>
-                     <li><a href="https://www.vassar.edu/families">Parents & Families</a></li>
                      <li><a href="https://www.vassar.edu/arts">Arts</a></li>
                      <li><a href="https://www.vassar.edu/sustainability">Sustainability</a></li>
                      <li><a href="https://www.vassar.edu/news">News</a></li>
                   </ul>
                </div>
+
+               <form action="/search/" class="g-Search__form mt-4" method="get">
+                 <div class="input-group mb-3">
+                    <input class="g-Search__field form-control" id="g-Search__field" name="q" placeholder="Search" type="search" aria-label="Search" aria-describedby="button-addon2">
+                    <button class="icon icon-search g-Search__submit" name="submit" tabindex="0" type="submit" id="button-addon2">
+                      <svg aria-labelledby="search-title" fill="#fff" role="img" viewBox="0 0 32 32" width="16" height="16">
+                        <title id="search-title">Search button</title>
+                        <path d="M31 27.2l-7.6-6.4c-.8-.7-1.6-1-2.3-1 1.8-2.1 2.9-4.8 2.9-7.8 0-6.6-5.4-12-12-12s-12 5.4-12 12 5.4 12 12 12c3 0 5.7-1.1 7.8-2.9 0 .7.3 1.5 1 2.3l6.4 7.6c1.1 1.2 2.9 1.3 4 .2s1-2.9-.2-4zm-19-7.2c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8z"></path>
+                      </svg>
+                    </button>
+                  </div>
+               </form>
+
             </div>
          </div>
       </div>
