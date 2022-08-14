@@ -344,8 +344,11 @@ $menu-cols-gap: 4rem;
     padding: 0.1rem;
     padding-right: 4rem;
     text-align: left;
+    position: absolute;
+    bottom: 0;
   }
 }
+
 
 .home.is-ios .section-bg-image {
   height: 100vh !important;

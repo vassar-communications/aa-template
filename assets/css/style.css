@@ -15648,6 +15648,8 @@ a.logo:hover, .logo.video-modal-link:hover {
   padding: 0.1rem;
   padding-right: 4rem;
   text-align: left;
+  position: absolute;
+  bottom: 0;
 }
 
 .home.is-ios .section-bg-image {
