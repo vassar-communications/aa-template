@@ -33,7 +33,7 @@ Make sure functions convert straight quotes to curly
     '<b class="slide-from-left">Alumni&nbsp;</b>
    <b class="slide-from-right">Calendar</b>',
     '727857392?h=9586cb06fa',
-    'theme-verylightgray reveal-image',
+    'theme-verylightgray reveal-image has-image',
     'mw-4',
 
 /*    ['bg-image-url' => $page_info['feature_image'],

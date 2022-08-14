@@ -12841,7 +12841,8 @@ a[data-bs-toggle=collapse]:hover, [data-bs-toggle=collapse].video-modal-link:hov
     right: -1.4rem;
   }
 }
-.main-site-nav .nav-link {
+.main-site-nav .nav-link,
+.main-site-nav .breadcrumb-link {
   background-image: linear-gradient(to right, var(--underline-color) 0%, var(--underline-color) 100%);
   text-decoration: none;
   position: relative;
@@ -12855,12 +12856,15 @@ a[data-bs-toggle=collapse]:hover, [data-bs-toggle=collapse].video-modal-link:hov
   padding: 0.5rem 0 0.1rem 0;
 }
 @media screen and (min-width: 40em) {
-  .main-site-nav .nav-link {
+  .main-site-nav .nav-link,
+.main-site-nav .breadcrumb-link {
     padding: 0.5rem 0;
   }
 }
-.main-site-nav .nav-link:hover, .main-site-nav .nav-link:focus {
-  color: var(--section-nav-emphasis-color);
+.main-site-nav .nav-link:hover, .main-site-nav .nav-link:focus,
+.main-site-nav .breadcrumb-link:hover,
+.main-site-nav .breadcrumb-link:focus {
+  color: var(--section-nav-emphasis-color) !important;
   background-size: 100% 2px;
 }
 .main-site-nav .nav-item {
