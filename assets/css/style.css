@@ -15746,6 +15746,10 @@ ul#block-fixedalumsmyaccountdirectory li {
   background: #000;
 }
 
+button.accordion-button:focus {
+  border: 3px solid #04f;
+}
+
 html {
   overflow-x: hidden;
 }

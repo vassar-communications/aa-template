@@ -38,13 +38,13 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'Panel discussion in front of an audience']
 ); ?>
-<p>On-Demand content featuring expertise from fellow grads and Vassar faculty and researchers.</p>
+<p>On-demand content featuring expertise from fellow grads and Vassar faculty and researchers.</p>
 
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_hasColumns(
-    'On Demand Video',
+    'On-Demand Video',
     3,
     null,
     'theme-dark-burgundy quad-pattern has-bg',

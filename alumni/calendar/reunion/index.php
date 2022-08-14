@@ -72,7 +72,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_regularContent('Information & Updates','theme-verylightgray','','',); ?>
 
 <?php echo item_iconItem('Housing','house-chimney',''); ?>
-<p>We are excited to welcome alumni back to Vassar for in-person reunions and want to ensure that everyone makes informed decisions about where to stay. Please be sure to note the College’s Covid-19 protocols before making your travel plans and also consider your lodging needs.
+<p>We are excited to welcome alumni back to Vassar for in-person reunions and want to ensure that everyone makes informed decisions about where to stay. Please be sure to note the College’s COVID-19 protocols before making your travel plans and also consider your lodging needs.
 </p>
 <p>We recommend you <strong>register early</strong> for on-campus housing as it is allocated on a first come, first served basis.</p>
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
@@ -88,7 +88,7 @@ $page_info = json_decode($page_info, true);
                 <ul>
                     <li>Include twin-sized beds about half of which are lofted/raised and cannot be lowered.</li>
                     <li>Include commercial linens (two twin flat sheets, one pillow case, one light twin blanket, one towel, and one washcloth) placed on each bed. If you would like to have an extra blanket or towel, please bring them with you.</li>
-                    <li>Do <strong>NOT</strong> include air conditioning or private bathrooms.</li>
+                    <li>Does <strong>not</strong> include air conditioning or private bathrooms.</li>
                     <li>Are not guaranteed to be quiet.</li>
                 </ul>
 
@@ -96,7 +96,7 @@ $page_info = json_decode($page_info, true);
 
                 <p>Please Note: Alumnae House is reserved for the 70th and 75th Reunion Classes.</p>
 
-                <p>Also, the college performs routine maintenance (in rotation) and also houses more than 200 students during the summer months. As such, some residence halls will be “offline” every year (and unavailable for lodging or entering).</p>
+                <p>Also, the College performs routine maintenance (in rotation) and also houses more than 200 students during the summer months. As such, some residence halls will be “offline” every year (and unavailable for lodging or entering).</p>
             </div>
         </div>
     </div>
