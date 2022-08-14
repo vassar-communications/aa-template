@@ -30,7 +30,7 @@
 
     <?php echo cta_link(
       'https://www.vassar.edu/news/overturning-roe-v-wade',
-      'Watch the video',
+      'Read more',
       'stretched-link'
     ); ?>
   <?php echo end_carousel_item(); ?>
