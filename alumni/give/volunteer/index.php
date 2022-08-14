@@ -24,7 +24,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Three people seated behind a table smiling and talking']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -35,7 +35,8 @@ $page_info = json_decode($page_info, true);
     'Get Involved',
     '/alumni/assets/img/alumni-give/volunteer/0009-18-01-cs-scc-vassar-144.jpg',
     'theme-cream image-is-first',
-    ''
+    '',
+    ['img_alt_text' => 'A mentor named Darys speaking']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Thousands of alumni and parents share their time and expertise with Vassar students and fellow community members every year.</p>
@@ -167,7 +168,7 @@ $page_info = json_decode($page_info, true);
     'bullhorn',
     'icon-on-left theme-white-border'
 ); ?>
-<p>Vassar Clubs, individual classes and affinity groups all plan programs that feature alumni and parent experts. These programs can be purely educational and/or take the form of discussion-based workshops that build skills and deepen relationships. If you are interested in volunteering to lead a discussion or skills-based workshop for Vassar community members, please contact <a href="mailto:alumniengagement@vassar.edu">alumniengagement@vassar.edu</a>.</p>
+<p>Vassar Clubs, individual classes, and affinity groups all plan programs that feature alumni and parent experts. These programs can be purely educational and/or take the form of discussion-based workshops that build skills and deepen relationships. If you are interested in volunteering to lead a discussion or skills-based workshop for Vassar community members, please contact <a href="mailto:alumniengagement@vassar.edu">alumniengagement@vassar.edu</a>.</p>
 <ul class="linked-list">
     <li><a href="mailto:alumniengagement@vassar.edu">Contact Us</a></li>
 </ul>
