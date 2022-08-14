@@ -37,7 +37,8 @@ $page_info = json_decode($page_info, true);
     'Welcome Back',
     $alumni_img_path.'alumni-calendar/reunion/Reunion_Saturday_190608_CS-V815-310.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'two people walking and smiling in a large group of people']
 ); ?>
 <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled about the return to in-person reunions and can’t wait to welcome you and your classmates back to campus. This page will be updated periodically to provide the latest information about Reunion, which happens on campus in early June every year. Reunion registration opens in early April.</p>
 <p>If you have questions, don’t hesitate to write to <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a> or call <?php echo phone_number('800-443-8196'); ?></a>.</p>
@@ -47,7 +48,8 @@ $page_info = json_decode($page_info, true);
     'General Reunion<br> Class Schedule',
     $alumni_img_path.'alumni-calendar/reunion/Reunion_Parade_180609_KR_8754.jpg',
     'theme-burgundy',
-    ''
+    '',
+    ['img_alt_text' => 'a large group of people walking up a winding road on Vassar campus']
 ); ?>
 <?php echo cta_link(
     'https://www.vassar.edu/sites/default/files/2022-01/Reunion-2022-Preliminary-General-Schedule.pdf',
@@ -59,7 +61,8 @@ $page_info = json_decode($page_info, true);
     '50th Reunion<br> Class Schedule',
     $alumni_img_path.'alumni-calendar/reunion/Reunion_1806_CS_073.jpg',
     'image-is-first',
-    ''
+    '',
+    ['img_alt_text' => 'Overhead shot of people seated a round table in a large room for an event']
 ); ?>
 <p>This year’s 50th reunion programming will include the class of 1972.</p>
 <?php echo cta_link(

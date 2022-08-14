@@ -25,7 +25,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Exterior shot of Thompson Library at night on Vassar campus']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -36,7 +36,8 @@ $page_info = json_decode($page_info, true);
     'Rising to the Challenge',
     '/alumni/assets/img/alumni-calendar/generation-vassar/1917-Field_Day_1917-VC ARCHIVE.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Historical black and white photo of two people sprinting across the finish line, hands in the air']
 ); ?>
 
 
