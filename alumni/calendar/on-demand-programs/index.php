@@ -163,7 +163,7 @@ echo item_imageCard_videoModal(
 <?php echo item_cardWithText(
     'The Vassar Classroom Revisited',
     'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5032',
-    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/The-Vassar-Classroom-Revisited-Vassar-Reunion-1906-CS-V815-006.jpg', 'alt' => 'The Vassar Classroom Revisited' ],
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/The-Vassar-Classroom-Revisited-Vassar-Reunion-1906-CS-V815-006.jpg', 'alt' => 'panel discussion in a  Vassar classroom at full capacity' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
@@ -175,7 +175,7 @@ echo item_imageCard_videoModal(
 <?php echo item_cardWithText(
     'In Honor Of Linda Nochlin ’51',
     'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5537',
-    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/Linda-Nochlin-00-MB.jpg', 'alt' => 'In Honor Of Linda Nochlin ’51' ],
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/Linda-Nochlin-00-MB.jpg', 'alt' => 'Portrait of Linda Nochlin' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
@@ -187,7 +187,7 @@ echo item_imageCard_videoModal(
 <?php echo item_cardWithText(
     'AAAVC – “On Mattering”',
     'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=5313',
-    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/AAAVC-On Mattering-Reunion-Friday-190607-CS-V815-033.jpg', 'alt' => 'AAAVC – “On Mattering”' ],
+    ['url' => '/alumni/assets/img/alumni-calendar/on-demand/AAAVC-On Mattering-Reunion-Friday-190607-CS-V815-033.jpg', 'alt' => 'three people seated in desks having a discussion' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
