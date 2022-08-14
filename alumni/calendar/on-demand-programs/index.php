@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'A Conversation on Public Health after COVID-19',
+    'A Conversation on Public Health after COVID-19',
     null,
     'https://player.vimeo.com/video/615898660',
     'vimeo',
@@ -71,7 +71,7 @@ echo item_imageCard_videoModal(
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'A Conversation on Women’s Rights: Present and Future',
+    'A Conversation on Women’s Rights: Present and Future',
     null,
     'https://player.vimeo.com/video/491739329',
     'vimeo',
@@ -87,7 +87,7 @@ echo item_imageCard_videoModal(
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'Higher Education in the Era of Pandemic',
+    'Higher Education in the Era of Pandemic',
     null,
     'https://player.vimeo.com/video/467204540',
     'vimeo',
@@ -102,7 +102,7 @@ echo item_imageCard_videoModal(
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'Votes for Women: Vassar and the Politics of Voting Rights Past, Present, and Future
+    'Votes for Women: Vassar and the Politics of Voting Rights Past, Present, and Future
 ',
     null,
     'https://player.vimeo.com/video/463068325',
@@ -120,7 +120,7 @@ echo item_imageCard_videoModal(
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'American Democracy at a Crossroads',
+    'American Democracy at a Crossroads',
     null,
     'https://player.vimeo.com/video/457908119',
     'vimeo',
@@ -135,7 +135,7 @@ echo item_imageCard_videoModal(
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'Vassar’s Sustainable Future: A Conversation',
+    'Vassar’s Sustainable Future: A Conversation',
     null,
     'https://player.vimeo.com/video/430219097',
     'vimeo',

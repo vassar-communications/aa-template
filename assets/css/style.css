@@ -15629,7 +15629,21 @@ a.logo:hover, .logo.video-modal-link:hover {
 
 .js-video-btn:after {
   background: #fff;
-  box-shadow: 0 -0.04em 0 0.12em white;
+}
+
+.card.card-full-image.video-btn.js-video-btn {
+  padding-bottom: 4rem;
+}
+.card.card-full-image.video-btn.js-video-btn .card-img-content {
+  min-height: 4rem;
+  display: flex;
+  width: 100%;
+  border-radius: 0 !important;
+  align-items: center;
+  background: #000;
+  padding: 0.1rem;
+  padding-right: 4rem;
+  text-align: left;
 }
 
 .home.is-ios .section-bg-image {
