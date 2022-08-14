@@ -23,7 +23,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead(
+  $page_info['feature_image'],
+  ['image_alt_text' => 'Fireworks in the night sky']
+); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -36,8 +39,8 @@ $page_info = json_decode($page_info, true);
     'image-is-first theme-cream',
     ''
 ); ?>
-<p>Vassar and the Alumnae/i Association (AAVC) are thrilled about the return to in-person reunions and can’t wait to welcome you and your classmates back to campus. This page will be updated periodically to provide the latest information about Reunion, which happens on campus in early June every year. Reunion registration opens in early April.</p>
-<p>If you have questions, don’t hesitate to write to <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a> or call <a href="tel:800-443-8196">800-443-8196</a>.</p>
+<p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled about the return to in-person reunions and can’t wait to welcome you and your classmates back to campus. This page will be updated periodically to provide the latest information about Reunion, which happens on campus in early June every year. Reunion registration opens in early April.</p>
+<p>If you have questions, don’t hesitate to write to <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a> or call <?php echo phone_number('800-443-8196'); ?></a>.</p>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_fullBleedImageColumn(
@@ -69,7 +72,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_regularContent('Information & Updates','theme-verylightgray','','',); ?>
 
 <?php echo item_iconItem('Housing','house-chimney',''); ?>
-<p>We are excited to welcome alumni back to Vassar for in-person Reunions and want to ensure that everyone makes informed decisions about where to stay. Please be sure to note the College’s Covid-19 protocols before making your travel plans and also consider your lodging needs.
+<p>We are excited to welcome alumni back to Vassar for in-person reunions and want to ensure that everyone makes informed decisions about where to stay. Please be sure to note the College’s Covid-19 protocols before making your travel plans and also consider your lodging needs.
 </p>
 <p>We recommend you <strong>register early</strong> for on-campus housing as it is allocated on a first come, first served basis.</p>
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample">

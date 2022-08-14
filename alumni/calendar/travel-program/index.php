@@ -51,7 +51,7 @@ $page_info = json_decode($page_info, true);
 
 <p class="intro-text">Island Life in Ancient Greece:  An Aegean Odyssey</p>
 
-<h3>October 15-23, 2022</h3>
+<h3>October 15–23, 2022</h3>
 
 <h3>Vassar Host:  Barbara Olsen, Associate Professor of Greek and Roman Studies</h3>
 
@@ -82,26 +82,39 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     'https://www.vassar.edu/sites/default/files/2022-03/ILGreece_101522_Vassar_Travel_Program.pdf',
-    'Download Brochure'
+    'Download Brochure',
+    null,
+    [
+      'file_type' => 'pdf',
+      'file_size' => '1.5 MB'
+    ]
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-<?php echo sec_regularContent('Travel Insurance','theme-burgundy','');?>
+<?php echo sec_regularContent('Travel Insurance','theme-extralightgray','');?>
 <p>The Vassar Travel Program is now offering quality travel insurance to all our travelers. After much research we selected Meyer and Associates. Meyer and Associates have been in the insurance business for more than 40 years, and they come highly recommended by our peer institutions.</p>
 
 <p>Of course, the choice of whether to purchase insurance is yours, but the Vassar Travel Program wants to make sure each Vassar traveler is offered quality insurance. We believe it is very important to protect your travel investment. Meyer and Associates offers a wide range of insurance options, but we strongly urge travelers to purchase the package that offers trip cancellation coverage at the minimum.</p>
 
-<p><strong>For detailed information and to purchase travel insurance, contact <a href="https://meyerandassoc.com/">Meyer and Associates</a> or call <a href="tel:800-635-7801">(800) 635-7801</a>.</strong></p>
+<p><strong>For detailed information and to purchase travel insurance, contact <a href="https://meyerandassoc.com/">Meyer and Associates</a> or call <?php echo phone_number('800-635-7801'); ?>.</strong></p>
 
 <?php echo end_sec_regularContent();?>
 
+
+<?php /*
+
+<!-- Commenting this out, as the copy is a duplicate of the intro section - Chris -->
 
 <?php echo sec_regularContent('We’d like to hear from you!','theme-charcoal bg-dark  presentation quad-pattern has-bg','py-3 d-flex justify-content-around text-center'); ?>
 
 <p>As we make our plans, we look forward to hearing from you regarding destinations and trip themes you’d like to explore and faculty members you’d like to travel with. Please contact Susan Quade, Senior Associate Director of Regional and International Programs and the Vassar Travel Program, via email at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
 <?php echo end_sec_regularContent(); ?>
+
+*/ ?>
+
+
 
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/calendar/calendar-on-demand.php');?>
@@ -111,4 +124,3 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo site_footeralumni(); ?>
-

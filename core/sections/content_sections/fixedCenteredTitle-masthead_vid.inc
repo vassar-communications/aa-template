@@ -17,6 +17,9 @@ function sec_fixedCenteredTitle_masthead_vid(
 //    set up both the markup and the section class for it.
     global $bg_image;
 
+    $bg_classes = '';
+    $bg_css = '';
+
     if (get_extras_value('bg-image-url', $extras)) {
         $section_classes .= ' has-image';
 

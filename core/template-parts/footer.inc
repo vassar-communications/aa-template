@@ -91,7 +91,7 @@ $modal_code
 <div class="section text-light  theme-dark-burgundy  bg-darkestburgundy py-3">
 <footer class="container footer" style="padding-bottom: 6rem !important;">
 		<div class="row flex-column flex-md-row align-items-end py-3">
-			<div class="col text-start mb-3 mb-lg-0">
+			<div class="col text-start mb-3">
 				&copy; 2022 Vassar College
 
 			</div>
