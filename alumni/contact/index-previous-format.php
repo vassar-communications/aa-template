@@ -134,6 +134,9 @@ $page_info = json_decode($page_info, true);
     <?php echo link_to_id( 'Annual Giving', 'nav-link'); ?>
   </li>
   <li class="list-group-item nav-item">
+<?php echo link_to_id( 'Regional and International Programs', 'nav-link'); ?>
+</li>
+  <li class="list-group-item nav-item">
     <?php echo link_to_id( 'Gift Planning', 'nav-link'); ?>
   </li>
   <li class="list-group-item nav-item">
@@ -149,7 +152,7 @@ $page_info = json_decode($page_info, true);
     <?php echo link_to_id( 'Prospect Development and Research', 'nav-link'); ?>
   </li>
   <li class="list-group-item nav-item">
-<?php echo link_to_id( 'Stewardship, Special Events and Programs', 'nav-link'); ?>
+<?php echo link_to_id( 'Donor Relations', 'nav-link'); ?>
   </li>
 
 </ul>
@@ -733,6 +736,35 @@ echo end_contact_card();
 </div>
 
 
+<?php echo heading_with_anchor_id( 'Regional and International Programs', '4' ); ?>
+
+                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
+
+<?php
+
+echo contact_card(
+    'Susan Quade',
+    'Senior Associate Director of Regional and International Programs',
+    [
+      'phone' => '845-437-5453',
+      'email' => 'suquade@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'TBD',
+    'Office Specialist',
+    [
+      'phone' => '',
+      'email' => '',
+    ]
+);
+echo end_contact_card();
+?>
+</div>
+
 <?php echo heading_with_anchor_id( 'Gift Planning', '4' ); ?>
                 <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
@@ -933,7 +965,7 @@ echo end_contact_card();
 ?>
 </div>
 
-<?php echo heading_with_anchor_id( 'Stewardship, Special Events and Programs', '4' ); ?>
+<?php echo heading_with_anchor_id( 'Donor Relations', '4' ); ?>
 
   <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
   <?php
@@ -943,16 +975,6 @@ echo end_contact_card();
         [
           'phone' => '845-437-7015',
           'email' => 'kgrimes@vassar.edu',
-        ]
-    );
-    echo end_contact_card();
-
-    echo contact_card(
-        'Susan Quade',
-        'Senior Associate Director of Regional and International Programs',
-        [
-          'phone' => '845-437-5453',
-          'email' => 'suquade@vassar.edu',
         ]
     );
     echo end_contact_card();
@@ -989,18 +1011,7 @@ echo end_contact_card();
         ]
     );
     echo end_contact_card();
-
-echo contact_card(
-    'TBD',
-    'Office Specialist',
-    [
-      'phone' => '',
-      'email' => '',
-    ]
-);
-echo end_contact_card();
 ?>
-
 </div>
 
 

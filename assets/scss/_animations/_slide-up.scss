@@ -12,6 +12,15 @@
 @mixin setup-animation-slide-up() {
   opacity: 0;
   transform: translateY(var(--animation-slide-up-dist, 4.4rem));
+
+
+  .no-js & {
+    animation-name: slide-up;
+    animation-fill-mode: forwards;
+    // give JS some time to load
+    animation-delay: 1s;
+  }
+
 }
 @mixin animation-slide-up($applied-to-sequential-items:false) {
   //  If the animation is being applied to a sequence of items

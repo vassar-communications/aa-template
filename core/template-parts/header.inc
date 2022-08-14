@@ -15,7 +15,6 @@ function how_deep_are_we() {
   return $classes;
 }
 
-
 /**
  * site_header()
  * Generates the header for a page: doctype, head, and opening body tag. Required on every page.
@@ -38,13 +37,17 @@ TMP;
 
 
 
-//  $page_title = $page_info['page_title'];
+$page_title = $page_info['page_title'];
 
-$page_title = make_page_title();  //get_value_if_exists('page_title', $page_info);
+$page_title_path = make_page_title();  //get_value_if_exists('page_title', $page_info);
+
 $page_classes = get_value_if_exists('page_classes', $page_info);
+$feature_image = get_value_if_exists('feature_image', $page_info);
+$page_description = get_value_if_exists('page_description', $page_info);
 
 $page_classes .= how_deep_are_we();
 
+$page_url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
 //  $social_card_data = [
 //    'image' => $page_info['feature_image']
@@ -69,14 +72,21 @@ $page_classes .= how_deep_are_we();
 
 <head>
   <meta charset="utf-8">
-  <title>$page_title</title>
+  <title>$page_title_path</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
+  <meta property="og:title" content="$page_title">
+  <meta property="twitter:title" content="$page_title">
+  <meta name="twitter:site" content="@vassar">
+  <meta name="twitter:creator" content="@vassar">
   <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+  <meta property="og:description" content="$page_description">
+  <meta property="twitter:description" content="$page_description">
+  <meta property="og:url" content="$page_url">
+<meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:image" content="https://{$_SERVER['HTTP_HOST']}$feature_image">
+<meta property="twitter:image" content="https://{$_SERVER['HTTP_HOST']}$feature_image">
 
 $comment
 

@@ -219,3 +219,13 @@ This should be a section option
 .sec-fixedCenteredTitleMasthead.show-title .section-title-container {
   background: var(--cover-overlay-color, rgba(0, 0, 0, 0.2));
 }
+
+
+
+.no-js .section-title {
+  .slide-from-left,
+  .slide-from-right {
+    opacity: 1;
+    transition-delay: 1s;
+  }
+}

@@ -25,7 +25,7 @@ $page_info = json_decode($page_info, true);
 <?php echo hamburger_navigation_alums(); ?>
 
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Fall foliage and a bench on Vassar Campus']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -36,10 +36,11 @@ $page_info = json_decode($page_info, true);
     null,
     '/alumni/assets/img/alumni-give/hire/0006-19-01-kr-scc-career-clusters-vassar-0522.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Mentor named Seiji speaking to a room of people']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h1 class="display-3 mb-4">Add Vassar Talent to your Team</h1>
+    <h1 class="display-3 mb-4">Add Vassar Talent to Your Team</h1>
     <p class="mb-3">Vassar students and alums are great candidates for internships and positions at all levels within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
     <a href="https://offices.vassar.edu/careers/info/employers/" class="px-0 btn btn-link mt-5 arrow">Information for Employers</a>
 
@@ -50,7 +51,8 @@ $page_info = json_decode($page_info, true);
     null,
     '/alumni/assets/img/alumni-give/mentor/0153-19-11-kr-major-palooza-vassar-5436.jpg',
     'theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Three people seated on a couch, one talking two listening']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <h1 class="display-3 mb-4">Post a Job on VassarNet</h1>

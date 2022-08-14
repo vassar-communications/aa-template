@@ -24,7 +24,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Three people seated behind a table smiling and talking']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -35,7 +35,8 @@ $page_info = json_decode($page_info, true);
     'Get Involved',
     '/alumni/assets/img/alumni-give/volunteer/0009-18-01-cs-scc-vassar-144.jpg',
     'theme-cream image-is-first',
-    ''
+    '',
+    ['img_alt_text' => 'A mentor named Darys speaking']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Thousands of alumni and parents share their time and expertise with Vassar students and fellow community members every year.</p>
@@ -65,6 +66,19 @@ $page_info = json_decode($page_info, true);
 <?php echo cta_link(
     'http://connect.vassar.edu/volunteer',
     'Volunteer Interest Form'
+); ?>
+
+<h3 class="mt-5">Best Practices</h3>
+<p>Our best practices agreement will give you a sense of the values uplifted by our creative and hardworking volunteers.</p>
+
+<?php echo cta_link(
+    'https://connect.vassar.edu/s/1654/images/gid2/editor_documents/administrative/alumnae-i_affairs/volunteer-best-practices-agreement.pdf?gid=2&pgid=61',
+    'Read our best practices',
+    null,
+    [
+      'file_type' => 'pdf',
+      'file_size' => '137 KB'
+    ]
 ); ?>
 
 <?php echo end_sec_regularContent(); ?>
@@ -116,7 +130,7 @@ $page_info = json_decode($page_info, true);
     'users',
     'icon-on-left theme-white-border'
 ); ?>
-<p>Strengthen alumni communities that center shared experiences, activities, and identities, such as athletic teams, singing groups, LGBTQ+, ALANA orgs, veterans, and First Gen alums (among others).</p>
+<p>Strengthen alumni communities that center shared experiences, activities, and identities, such as athletic teams, singing groups, LGBTQ+, ALANA organizations, veterans, and First Gen alums (among others).</p>
 <ul class="linked-list">
     <li><a href="/alumni/community/alumni-groups/">Learn more about Affinity Groups</a></li>
    <!-- cyreview <li><a href="#">Become an Affinity Group Volunteer</a></li> -->
@@ -167,7 +181,7 @@ $page_info = json_decode($page_info, true);
     'bullhorn',
     'icon-on-left theme-white-border'
 ); ?>
-<p>Vassar Clubs, individual classes and affinity groups all plan programs that feature alumni and parent experts. These programs can be purely educational and/or take the form of discussion-based workshops that build skills and deepen relationships. If you are interested in volunteering to lead a discussion or skills-based workshop for Vassar community members, please contact <a href="mailto:alumniengagement@vassar.edu">alumniengagement@vassar.edu</a>.</p>
+<p>Vassar Clubs, individual classes, and affinity groups all plan programs that feature alumni and parent experts. These programs can be purely educational and/or take the form of discussion-based workshops that build skills and deepen relationships. If you are interested in volunteering to lead a discussion or skills-based workshop for Vassar community members, please contact <a href="mailto:alumniengagement@vassar.edu">alumniengagement@vassar.edu</a>.</p>
 <ul class="linked-list">
     <li><a href="mailto:alumniengagement@vassar.edu">Contact Us</a></li>
 </ul>
@@ -189,18 +203,6 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_item_iconItem(); ?>
 <?php echo end_sec_regularContent(); ?>
-
-
-<?php echo sec_wideContent(
-    null,
-    '',
-    'theme-charcoal bg-dark  presentation quad-pattern has-bg',
-    'mw-4 text-center'
-); ?>
-<h2 class="h2 mb-5">Our best practices agreement will give you a sense of the values uplifted by our creative and hardworking volunteers.</h2>
-<a href="https://connect.vassar.edu/s/1654/images/gid2/editor_documents/administrative/alumnae-i_affairs/volunteer-best-practices-agreement.pdf?gid=2&pgid=61" class="btn btn-primary arrow">Read our best practices</a>
-<?php echo end_sec_wideContent(); ?>
-
 
 
 <?php echo relatedTopics(); ?>

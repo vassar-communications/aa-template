@@ -12,7 +12,8 @@ include( $project_paths['main_project_root'] . '/functions.php');
 $page_info = '{
   "page_title":"Vassar Alumni",
   "page_classes":"advancement-demo home",
-  "nav_title":"Alumni"
+  "nav_title":"Alumni",
+  "feature_image":"/alumni/assets/img/alumni-give/mentor/Steve_Kauderer_001-by_Diana_Liu.jpg"
 }';
 
 /* === */
@@ -63,7 +64,7 @@ $page_info = json_decode($page_info, true);
     'sec-fixedCenteredTitle theme-burgundy make-a-difference section-title-text-shadow',
     'mw-4',
     ['bg-image-url' => '/alumni/assets/img/alumni-give/0153-19-11-kr-major-palooza-vassar-6031.jpg',
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'Seated person in front of a painting addressing a standing group',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
@@ -79,7 +80,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Make a Gift',
         'https://go.vassar.edu/give',
-        ['url' => '/alumni/assets/img/alumni-home/Library-TT-IMG_6613.jpeg', 'alt' => 'replacealttext' ],
+        ['url' => '/alumni/assets/img/alumni-home/Library-TT-IMG_6613.jpeg', 'alt' => 'Person riding a bicycle in from of Thompson Library on Vassar Campus' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link mb-below-md-3'
     ); ?>
 
@@ -93,7 +94,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Volunteer',
         '/alumni/give/volunteer/',
-        ['url' => '/alumni/assets/img/alumni-home/VC-Atlanta_Becca-Marco-05_Jada-Graves-14_Juan-Acosta-02-(1).jpeg', 'alt' => 'replacealttext' ],
+        ['url' => '/alumni/assets/img/alumni-home/VC-Atlanta_Becca-Marco-05_Jada-Graves-14_Juan-Acosta-02-(1).jpeg', 'alt' => 'Vassar people standing beside a sign that reads, Serve Your Neighbor' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link mb-below-md-3'
     ); ?>
     <p>An incredible way to enrich your life and the lives of others in countless ways.</p>
@@ -105,7 +106,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Be a Mentor',
         '/alumni/give/be-a-mentor/',
-        ['url' => '/alumni/assets/img/alumni-home/0006-19-01-kr-scc-reception-vassar-0977.jpeg', 'alt' => 'replacealttext' ],
+        ['url' => '/alumni/assets/img/alumni-home/0006-19-01-kr-scc-reception-vassar-0977.jpeg', 'alt' => 'two people speaking at a networking event' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link mb-below-md-3'
     ); ?>
     <p>An extraordinary opportunity to develop positive relationships with students and help them navigate their future.</p>
@@ -145,7 +146,7 @@ echo sec_fixedCenteredTitle(
     'mw-4',
     [
         'bg-image-url' => '/alumni/assets/img/alumni-home/0227-17-04-ym-dc-johnson-brunch-vassar-0644.jpg',
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'Group of people taking a selfie at a Vassar event',
         'css' => '
       --section-title-size: 10vw;
       /* --section-title-faded-opacity: 0.2; */
@@ -184,7 +185,7 @@ echo sec_fixedCenteredTitle(
     'sec-fixedCenteredTitle theme-charcoal alums-spotlight',
     'mw-4',
     ['bg-image-url' => '/alumni/assets/img/alumni-home/0037-19-02-kr-ifill-sherrilyn-vassar-7892.jpg',
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'Sherrilyn Ifill speaking to an audience at a Vassar event',
         'css' => '
       --section-title-size: 10vw;
       /* --section-title-faded-opacity: 0.2; */
@@ -210,7 +211,7 @@ echo sec_fixedCenteredTitle(
     'sec-fixedCenteredTitle theme-burgundy',
     'animation-fade-in animate-when-content-appears mw-4',
     ['bg-image-url' => '/alumni/assets/img/alumni-home/0069-19-05-kr-spring-vassar-4662.jpg',
-        'bg-image-alt' => 'alt text',
+        'bg-image-alt' => 'Aerial view of the Vassar residential quad',
         'css' => '
       --section-title-size: 10vw;
       /* --section-title-faded-opacity: 0.2; */

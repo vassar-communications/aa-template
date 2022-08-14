@@ -9449,6 +9449,11 @@ Any time we need an intro paragraph, use this styling.
 .animation-fade-in.animation-group .animation-item {
   opacity: 0%;
 }
+.no-js .animation-fade-in.animation-group .animation-item {
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
 .animation-fade-in.animation-group.content-appeared .animation-item {
   animation-duration: var(--animation-duration, 1s);
   animation-name: fade-in;
@@ -9456,6 +9461,11 @@ Any time we need an intro paragraph, use this styling.
 }
 .animation-fade-in:not(.has-bg).animate-when-content-appears {
   opacity: 0%;
+}
+.no-js .animation-fade-in:not(.has-bg).animate-when-content-appears {
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
 }
 .animation-fade-in:not(.has-bg).animate-when-content-appears.content-appeared {
   animation-delay: var(--animation-delay, 0s);
@@ -9466,6 +9476,11 @@ Any time we need an intro paragraph, use this styling.
 .animation-fade-in.section.has-bg.animate-when-content-appears .section-title, .animation-fade-in.section.has-bg.animate-when-content-appears .section-content {
   opacity: 0%;
 }
+.no-js .animation-fade-in.section.has-bg.animate-when-content-appears .section-title, .no-js .animation-fade-in.section.has-bg.animate-when-content-appears .section-content {
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
 .animation-fade-in.section.has-bg.animate-when-content-appears.content-appeared .section-title, .animation-fade-in.section.has-bg.animate-when-content-appears.content-appeared .section-content {
   animation-delay: var(--animation-delay, 0s);
   animation-duration: var(--animation-duration, 1s);
@@ -9475,6 +9490,11 @@ Any time we need an intro paragraph, use this styling.
 
 .secondary-item.animation-fade-in {
   opacity: 0%;
+}
+.no-js .secondary-item.animation-fade-in {
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
 }
 
 .content-appeared .secondary-item.animation-fade-in {
@@ -9569,6 +9589,11 @@ Any time we need an intro paragraph, use this styling.
     opacity: 0;
     transform: translateY(var(--animation-slide-up-dist, 4.4rem));
   }
+  .no-js .animation-slide-up.animate-when-content-appears:not(.animation-group) {
+    animation-name: slide-up;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+  }
   .animation-slide-up.animate-when-content-appears:not(.animation-group).content-appeared {
     animation-delay: var(--animation-delay, 0s);
     animation-duration: var(--animation-dur, 1s);
@@ -9578,6 +9603,11 @@ Any time we need an intro paragraph, use this styling.
   .animation-slide-up.animation-group .animation-item {
     opacity: 0;
     transform: translateY(var(--animation-slide-up-dist, 4.4rem));
+  }
+  .no-js .animation-slide-up.animation-group .animation-item {
+    animation-name: slide-up;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
   }
   .animation-slide-up.animation-group.content-appeared .animation-item {
     animation-duration: var(--animation-dur, 1s);
@@ -9714,6 +9744,15 @@ h2.border-animate:after, .border-animate.h2:after {
 .btn-link > span {
   text-align: right;
   line-height: 1.3;
+}
+
+.file-type-label {
+  text-transform: uppercase;
+  font-size: 1rem;
+  opacity: 0.7;
+}
+.file-type-label:before {
+  content: " - ";
 }
 
 .btn.has-icon {
@@ -10961,6 +11000,11 @@ This is a generic container element for containing a 100vh fixed-position elemen
 .section-title.animate-when-content-appears {
   opacity: 0%;
 }
+.no-js .section-title.animate-when-content-appears {
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
 .section-title.animate-when-content-appears:after {
   opacity: 0;
   transform: scaleX(0);
@@ -11685,6 +11729,11 @@ html {
 .sec-wordByWord p span:nth-child(40) .secondary-item {
   animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 40));
 }
+.no-js .sec-wordByWord p span {
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
 .sec-wordByWord.content-appeared {
   --initial-transforms: translateX(-2.4rem) skewX(-6deg);
   --final-opacity: 0.3;
@@ -11835,6 +11884,11 @@ html {
   --animation-delay: 1.6s;
   --animation-duration: 3s;
   opacity: 0%;
+}
+.no-js .fixed-quote .quote-attribution {
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
 }
 .fixed-quote.content-appeared .quote-attribution {
   animation-delay: var(--animation-delay, 0s);
@@ -12293,6 +12347,12 @@ This should be a section option
   background: var(--cover-overlay-color, rgba(0, 0, 0, 0.2));
 }
 
+.no-js .section-title .slide-from-left,
+.no-js .section-title .slide-from-right {
+  opacity: 1;
+  transition-delay: 1s;
+}
+
 .ticker-section {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -12601,6 +12661,11 @@ a[data-bs-toggle=collapse]:hover, [data-bs-toggle=collapse].video-modal-link:hov
   --animation-delay: 0.4s;
   opacity: 0%;
 }
+.no-js .vassar-masthead-offcanvas {
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
 .show .vassar-masthead-offcanvas {
   animation-delay: var(--animation-delay, 0s);
   animation-duration: var(--animation-duration, 1s);
@@ -12630,6 +12695,21 @@ a[data-bs-toggle=collapse]:hover, [data-bs-toggle=collapse].video-modal-link:hov
   border-bottom: 1px solid transparent;
 }
 
+.secondary_menu {
+  padding-left: 0;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.secondary_menu .secondary_menu-item {
+  list-style: none;
+}
+.secondary_menu .secondary_menu-item a, .secondary_menu .secondary_menu-item .video-modal-link {
+  font-size: 1rem;
+  font-variation-settings: "wght" 500;
+}
+.secondary_menu .secondary_menu-item a:link, .secondary_menu .secondary_menu-item .video-modal-link:link, .secondary_menu .secondary_menu-item a:visited, .secondary_menu .secondary_menu-item .video-modal-link:visited {
+  color: #C6AA76;
+}
 .nav--top a, .nav--top .video-modal-link {
   font-size: 1.5rem;
   letter-spacing: 0.08rem;
@@ -13508,6 +13588,11 @@ html {
 .quotes-carousel p span:nth-child(10) .secondary-item {
   animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 10));
 }
+.no-js .quotes-carousel p span {
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
 .quotes-carousel .is-selected span {
   animation-delay: var(--animation-delay, 0s);
   animation-duration: var(--animation-duration, 1s);
@@ -13803,6 +13888,11 @@ html {
 }
 .animated-statement .statement-text span:nth-child(40) .secondary-item {
   animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 40));
+}
+.no-js .animated-statement .statement-text span {
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
 }
 
 .content-appeared .statement-text span {
@@ -15165,6 +15255,7 @@ ul.style-checklist a:hover, ul.style-checklist .video-modal-link:hover {
   width: 100%;
   height: 100%;
   padding-top: 20%;
+  padding-top: 0.3rem;
 }
 
 .videoplayer_icon_play {
@@ -15353,7 +15444,7 @@ a.logo:hover, .logo.video-modal-link:hover {
   --linkedList-link-bg-hover: rgba(255,0,0,0.2);
 }
 .main-menu-panel .linked-list a, .main-menu-panel .linked-list .video-modal-link {
-  padding: 0.1rem 0;
+  padding: 0.23rem 0;
   font-size: 1.2rem;
 }
 .main-menu-panel:after, .main-menu-panel:before {
@@ -15373,7 +15464,7 @@ a.logo:hover, .logo.video-modal-link:hover {
   bottom: 0;
 }
 .main-menu-panel .offcanvas-body {
-  padding: 1rem 1rem 4rem 1rem;
+  padding: 1rem 1rem 8rem 1rem;
 }
 .main-menu-panel .vassar-masthead-offcanvas {
   z-index: 110;
@@ -15390,7 +15481,7 @@ a.logo:hover, .logo.video-modal-link:hover {
   opacity: 0.4;
 }
 .main-menu-panel .megamenu-container {
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 .main-menu-panel .nav-item.d-flex {
   display: block !important;
@@ -15464,7 +15555,6 @@ a.logo:hover, .logo.video-modal-link:hover {
   transition-property: background, color;
   background-image: linear-gradient(to right, #fff 0%, #fff 100%), linear-gradient(to right, transparent 0%, transparent 100%);
   background-size: 0% 1px, 100% 1px;
-  padding: 0.5rem 0;
   opacity: 0.8;
 }
 .main-menu-panel .megamenu-site-title a:hover, .main-menu-panel .megamenu-site-title .video-modal-link:hover, .main-menu-panel .megamenu-site-title a:focus, .main-menu-panel .megamenu-site-title .video-modal-link:focus {
@@ -15478,18 +15568,23 @@ a.logo:hover, .logo.video-modal-link:hover {
   opacity: 0.6;
 }
 
-.megamenu-cols-container {
-  gap: 4rem;
+.megamenu-container {
   max-width: 70rem;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 50em) {
+  .megamenu-cols-container {
+    gap: 4rem;
+  }
 }
 
 .vassar-masthead-offcanvas {
   margin: 0 auto 2rem auto;
 }
 
-@media (min-width: 768px) {
-  .main-menu-panel .quick-links-col.col-md-5 {
+@media screen and (min-width: 50em) {
+  .main-menu-panel .col-md-5 {
     flex: 0 0 auto;
     width: calc(41.66666667% - 4rem);
   }
@@ -15616,6 +15711,27 @@ ul#block-fixedalumsmyaccountdirectory li {
     border-radius: 0.4rem;
   }
 }
+.top-mini-menu-area {
+  border-bottom: 1px solid #C6AA76;
+  margin-bottom: 4rem;
+}
+
+.megamenu-cols-container .input-group {
+  display: flex;
+}
+.megamenu-cols-container .g-Search__field {
+  width: 100%;
+  padding-left: 1rem;
+}
+.megamenu-cols-container .g-Search__submit {
+  border: none;
+  padding: 0.8rem 1rem;
+  background: var(--bs-burgundy);
+}
+.megamenu-cols-container .g-Search__submit:hover {
+  background: #000;
+}
+
 html {
   overflow-x: hidden;
 }

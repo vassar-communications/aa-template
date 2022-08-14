@@ -678,13 +678,22 @@ function interior_page_nav() {
   '</div>';
 }
 
-function get_value_if_exists($key, $array, $boolean=false) {
+function get_value_if_exists(
+  $key,
+  $array,
+  $boolean=false,
+  $return_default=false
+) {
+  // $return_default is a default value to use if this is false.
     if ($boolean)
       $return_val = false;
     else if (!$boolean)
       $return_val = '';
+
     if (array_key_exists( $key, $array ) )
       return $array[$key];
+    else if ($return_default != false)
+      return $return_default;
     else return $return_val;
 }
 

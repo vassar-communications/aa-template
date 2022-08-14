@@ -12,7 +12,7 @@
   transition-property: background, color;
   background-image: linear-gradient(to right, $hover-border-color 0%, $hover-border-color 100%), linear-gradient(to right, $existing-border-color 0%, $existing-border-color 100%);
   background-size: 0% $nav-item-border-size, 100% $nav-item-border-size;
-  padding: 0.5rem 0;
+//   padding: 0.5rem 0;
   opacity: 0.8;
 
   &:hover,
@@ -102,12 +102,10 @@
     --linkedList-link-bg-hover: rgba(255,0,0,0.2);
 
     a {
-      padding: 0.1rem 0;
+      padding: 0.23rem 0;
       font-size: 1.2rem;
-
     }
   }
-
 
   &:after,
   &:before {
@@ -128,7 +126,7 @@
     bottom: 0;
   }
   .offcanvas-body {
-    padding: 1rem 1rem 4rem 1rem;
+    padding: 1rem 1rem 8rem 1rem;
   }
   .vassar-masthead-offcanvas {
     z-index: 110;
@@ -149,7 +147,7 @@
   }
 
   .megamenu-container {
-    margin-top: 6rem;
+    margin-top: 3rem;
   }
 
   // the following is for making expanded menu items highlighted
@@ -247,18 +245,22 @@
 
 $menu-cols-gap: 4rem;
 
-.megamenu-cols-container {
-  gap: $menu-cols-gap;
+.megamenu-container {
   max-width: 70rem;
   margin: 0 auto;
+}
+.megamenu-cols-container {
+  @include break(md) {
+    gap: $menu-cols-gap;
+  }
 }
 .vassar-masthead-offcanvas {
   margin: 0 auto 2rem auto;
 }
 
 .main-menu-panel {
-  @media (min-width: 768px) {
-    .quick-links-col.col-md-5 {
+  @include break(md) {
+    .col-md-5 {
       flex: 0 0 auto;
       width: calc(41.66666667% - #{$menu-cols-gap});
     }
@@ -415,5 +417,31 @@ ul#block-fixedalumsmyaccountdirectory li {
       a.btn {
         border-radius: 0.4rem;
       }
+  }
+}
+
+
+.top-mini-menu-area {
+  border-bottom: 1px solid $gold;
+  margin-bottom: 4rem;
+}
+
+
+.megamenu-cols-container {
+  .input-group {
+    display: flex;
+  }
+  .g-Search__field {
+    width: 100%;
+    padding-left: 1rem;
+  }
+  .g-Search__submit {
+    border: none;
+    padding: 0.8rem 1rem;
+    background: var(--bs-burgundy);
+
+    &:hover {
+      background: #000;
+    }
   }
 }

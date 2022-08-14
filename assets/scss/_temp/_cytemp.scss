@@ -271,6 +271,9 @@ ul.style-checklist a:hover {
   width: 100%;
   height: 100%;
   padding-top: 20%;
+
+  // fixes an issue on mobile where the icon is off-center
+  padding-top: 0.3rem;
 }
 
 
