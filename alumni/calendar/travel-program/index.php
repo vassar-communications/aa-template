@@ -24,7 +24,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Two backpackers walking on a gravel road along a lake in the Canadian Rockies']); ?>
 
 
 <?php echo interior_page_nav() ?>
@@ -36,7 +36,8 @@ $page_info = json_decode($page_info, true);
     'Updates to the Vassar Travel Program',
     $alumni_img_path.'alumni-calendar/travel-program/Amazon_River_Cruise_Mach_Picchu_2017.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Alumni group photo in front of a site at Machu Picchu']
 ); ?>
 <p>We continue to monitor the COVID-19 outbreak, as well as current political conditions in Europe, with the safety of our travelers being of utmost importance. As we make our plans, we look forward to hearing from you regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please contact Susan Quade, Senior Associate Director of Regional and International Programs and the Vassar Travel Program, via email at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>. </p>
 
@@ -62,7 +63,8 @@ $page_info = json_decode($page_info, true);
     null,
     $alumni_img_path.'alumni-calendar/travel-program/delphi.jpg',
     '',
-    ''
+    '',
+    ['img_alt_text' => 'Greek ruins']
 ); ?>
 
 <p>Cruise Athens aboard the Five-Star small ship Le Bougainville. The ship has 92 elegant suites and staterooms, all with private balconies. A few tour highlights:</p>
