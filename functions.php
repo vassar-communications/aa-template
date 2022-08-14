@@ -881,13 +881,13 @@ function make_nav_from_array( $nav_array, $site_root ) {
 */
 
 function format_date( $date ) {
-  $final_date = date_format( date_create( $date ), "H:i");
+  $final_date = date_format( date_create( $date ), "g:i");
   $final_date .= ' ' . str_replace( 'm', '.m.', date_format( date_create( $date ), "a") );
   return $final_date;
 }
 
 
-function start_and_end_times($start_date, $end_date) {
+function start_and_end_times($start_date, $end_date, $desc_format=false) {
 
   // Some events have a start and end date.
   // Some events have the same date, but different start and end times.
@@ -901,6 +901,19 @@ function start_and_end_times($start_date, $end_date) {
   // to the start date.
   //
   // That makes this first part easy.
+
+
+  // A note about desc_format: this is a bit of a hack.
+  // Here's the problem: event descriptions in the feed have the dates
+  // included in each item's description. That's kind of awkward, since
+  // we already have them elsewhere. So I need to hide them in the event
+  // description. In order to do that, I have to find them first. If
+  // $desc_format is true, the date returned is in the format displayed
+  // in the description, so I can easily find and replace it.
+  //
+  // However, there's some accessibility value to having them there, so
+  // we're going to keep them - just hide them.
+
 
   if( $start_date != $end_date ) {
     // okay, so there's an end date
@@ -917,13 +930,18 @@ function start_and_end_times($start_date, $end_date) {
       // it's a multi-day. So rather than just showing the
       // times (3:00 - 5:00), the dates need to be shown as well.
 
-      $start_day = date_format( date_create( $start_date ), "M d, Y H:i");
+      $start_day = date_format( date_create( $start_date ), "M d, Y g:i");
       $start_day_meridiem = str_replace( 'm', '.m.', date_format( date_create( $start_date ), "a") );
 
-      $end_day = date_format( date_create( $end_date ), "M d, Y H:i");
+      $end_day = date_format( date_create( $end_date ), "M d, Y g:i");
       $end_day_meridiem = str_replace( 'm', '.m.', date_format( date_create( $start_date ), "a") );
 
-      return $start_day . ' ' . $start_day_meridiem . ' to ' . $end_day . ' ' . $end_day_meridiem;
+      if( $desc_format ) {
+        $start_day_df = date_format( date_create( $start_date ), "n/j/Y g:i A");
+        $end_day_df = date_format( date_create( $end_date ), "n/j/Y g:i A");
+        return "<span>Date:</span> ".$start_day_df.' to '.$end_day_df;
+      }
+      else return $start_day . ' ' . $start_day_meridiem . ' to ' . $end_day . ' ' . $end_day_meridiem;
     }
     else {
       // it has to be a day with two different times.
@@ -933,13 +951,21 @@ function start_and_end_times($start_date, $end_date) {
       $time_start = format_date( $start_date );
       $time_end = format_date( $end_date );
 
-      return $time_start . '–' . $time_end;
+      if( $desc_format ) {
+        $the_day_df =
+        $start_time_df = date_format( date_create( $start_date ), "n/j/Y g:i A");
+        $end_time_df = date_format( date_create( $end_date ), "g:i A");
+        return "<span>Date:</span> ".$start_time_df.' to '.$end_time_df;
+      }
+      else return $time_start . '–' . $time_end;
     }
   }
   else {
     // no end date
-
-    return format_date( $start_date );
+    if( $desc_format ) {
+        return "<span>Date:</span> ".date_format( date_create( $start_date ), "n/j/Y g:i A");
+    }
+    else return format_date( $start_date );
   }
 }
 
@@ -948,19 +974,6 @@ function start_and_end_times($start_date, $end_date) {
 
 
 // require_once( getcwd().'/simplepie-master/autoloader.php' );
-
-
-function strip_date_from_description( $description, $dateStart, $dateEnd = false ) {
-  // here's the problem: event descriptions in the feed have the dates
-  // included in each item's description. That's kind of awkward, since
-  // we already have them elsewhere.
-  //
-  // However, there's some accessibility value to having them there, so
-  // we're going to keep them - just hide them.
-
-
-}
-
 
 /*
   This function grabs a feed, plugs the data into the event-item
@@ -1027,7 +1040,18 @@ function connect_events_feed( $feed_url ) {
     $endEventDate = $item->get_item_tags('', 'EndEventDate');
     $endEventDate = $endEventDate[0]['data'];
 
+    // These are the dates/times that are being displayed.
     $times = start_and_end_times( $eventDate, $endEventDate );
+
+
+    // But we also need to get the dates and times as they're
+    // displayed in the item description, so we can hide them.
+    $time_to_hide = start_and_end_times( $eventDate, $endEventDate, true );
+
+
+    // And speaking of the item description
+    $item_desc = $item->get_description();
+    $item_desc = str_replace($time_to_hide, '<span class="visually-hidden">'.$time_to_hide.'</span>', $item_desc);
 
     // now we need to get the month and day
 
@@ -1049,7 +1073,7 @@ function connect_events_feed( $feed_url ) {
         </div>
 
         <div class="event__summary">
-          <p>{$item->get_description()}</p>
+          <p>$item_desc</p>
         </div>
       </div>
     </div>
