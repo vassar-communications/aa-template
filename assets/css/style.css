@@ -10767,6 +10767,7 @@ li {
   min-height: 14rem;
   overflow: hidden;
   background: #eee;
+  padding: 1rem;
 }
 @media screen and (max-width: 50em) {
   .event-listing .event__image-container {
@@ -10785,11 +10786,7 @@ li {
   font-variation-settings: "wght" 500;
 }
 .event-listing img.event__image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  aspect-ratio: 1/1;
+  border-radius: 0.2rem;
 }
 .event-listing .calendar {
   z-index: 10;
@@ -15450,6 +15447,10 @@ a.logo:hover, .logo.video-modal-link:hover {
 .main-menu-panel .linked-list a, .main-menu-panel .linked-list .video-modal-link {
   padding: 0.23rem 0;
   font-size: 1.2rem;
+}
+.main-menu-panel .linked-list a:hover:after, .main-menu-panel .linked-list .video-modal-link:hover:after, .main-menu-panel .linked-list a:focus:after, .main-menu-panel .linked-list .video-modal-link:focus:after {
+  background: #fff;
+  color: #951829;
 }
 .main-menu-panel:after, .main-menu-panel:before {
   position: fixed;

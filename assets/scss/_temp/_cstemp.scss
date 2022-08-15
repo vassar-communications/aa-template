@@ -104,6 +104,14 @@
     a {
       padding: 0.23rem 0;
       font-size: 1.2rem;
+
+      &:hover,
+      &:focus {
+        &:after {
+          background: #fff;
+          color: #951829;
+        }
+      }
     }
   }
 
