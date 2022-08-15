@@ -171,10 +171,10 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-    'Young Alumni Achievement or Service Award',
+    'Young Alumnae/i Achievement or Service Award',
     '',
     ''); ?>
-<p>The Young Alumni Achievement or Service Award is presented to an alumna or alumnus recognized for either their extraordinary service to Vassar in any aspect of alumni engagement OR for their exceptional personal and professional achievement(s) within their respective field. As a graduate within the last 10 years, the recipient should be inspirational to their peers and the current student body, while exemplifying the fruits of a successful liberal arts education at Vassar.</p>
+<p>The Young Alumnae/i Achievement or Service Award is presented to an alumna or alumnus recognized for either their extraordinary service to Vassar in any aspect of alumni engagement OR for their exceptional personal and professional achievement(s) within their respective field. As a graduate within the last 10 years, the recipient should be inspirational to their peers and the current student body, while exemplifying the fruits of a successful liberal arts education at Vassar.</p>
 <?php echo cta_link(
     '/alumni/community/aavc/awards-program/young-alum-achievement',
      'See past award recipients'
