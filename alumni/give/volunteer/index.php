@@ -51,7 +51,7 @@ $page_info = json_decode($page_info, true);
     'theme-charcoal bg-dark presentation quad-pattern has-bg',
     'mw-4 text-center'
 ); ?>
-<p class="intro-text">Log in to the volunteer portal for a full list of resources.</p>
+<p class="intro-text">Find all the resources you need on our volunteer portal.</p>
 <a href="https://volunteers.vassarspaces.net/" class="btn btn-primary arrow mt-5">I am a Volunteer</a>
 <?php echo end_sec_wideContent(); ?>
 
