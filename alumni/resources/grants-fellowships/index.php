@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'Adult with a flute watching a child play a flute']
 ); ?>
-<p>Over 30 years ago, a generous anonymous alumna established the Time Out Grant to fund projects near and dear to the hearts of fellow alumni. Vassar alumni who have reached their 40th birthday by June 30, 2022, and wish to make a career change, or take time out to pursue a long-held dream, are eligible to apply for this grant. <strong>You must be willing to take a full year off from your current endeavors and devote yourself full time to your project.</strong> </p>
+<p>Over 30 years ago, a generous anonymous alumna established the Time Out Grant to fund projects near and dear to the hearts of fellow alumni. Vassar alumni who have reached their 40th birthday by June 30, 2022, and wish to make a career change, or take time out to pursue a long-held dream, are eligible to apply for this grant. <strong>You must be willing to take a full year off from your current endeavors and devote yourself full-time to your project.</strong> </p>
 
 <?php echo cta_link(
     'time-out-grant',

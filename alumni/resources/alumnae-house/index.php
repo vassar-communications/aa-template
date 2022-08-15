@@ -54,7 +54,7 @@ $page_info = json_decode($page_info, true);
 
 <p>A classic example of American-Tudor style architecture, Alumnae House is filled with impressive artwork, period furniture, Vassar memorabilia, cozy reading nooks, and working fireplaces. The living room is majestic with its hand-painted ceiling and Violet Oakley Triptych. The walnut-paneled dining room features an inlaid ceiling and musician’s gallery, while the Pub showcases murals by Anne Cleveland. The library contains a complete set of Vassar yearbooks, books about Vassar, and books authored by Vassar alumni.</p>
 
-<p>With a reverence for the past and a nod towards the future, Alumnae House strives to be a welcoming home for all Vassar students and alums.
+<p>With a reverence for the past and a nod towards the future, Alumnae House strives to be a welcoming home for all Vassar students and alumni.
 </p>
 <?php echo end_sec_regularContent(); ?>
 
