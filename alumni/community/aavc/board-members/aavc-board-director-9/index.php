@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"AAVC Board Director",
   "page_classes":"",
-  "feature_image":"/alumni/assets/img/alumni-community/aavc/board/dumlao-ac-aavc-alum-002.jpg"
+  "feature_image":"/alumni/assets/img/alumni-community/aavc/board/AC-Dumlao_Headshot_Credit-AC-Dumlao_AAVC.jpg"
 }';
 
 /* === */
