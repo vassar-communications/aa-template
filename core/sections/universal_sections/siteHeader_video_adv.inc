@@ -1,23 +1,6 @@
 
 <?php
 
-if( isset( $_GET["masthead"] ) ) {
-  $masthead_style = $_GET["masthead"];
-
-  if( $masthead_style == 'new-title') {
-
-  }
-  else if( $masthead_style == 'tagline') {
-
-  }
-  else if( $masthead_style == 'alumnaei') {
-
-  }
-}
-else {
-
-}
-
 
 /* Sometimes the animation isn't visible. What seems to be happening is that the script thinks the Vimeo video has loaded before it actually appears in the embed, so it starts playing the animation.
 
@@ -33,9 +16,45 @@ function sec_siteHeader_video_adv(
     $extras=null
 ) {
 
+    $title_styling = '';
+
     global $section_title;
 
     $title_classes = get_extras_value('title_classes', $extras);
+
+
+    if( isset( $_GET["masthead"] ) ) {
+      $masthead_style = $_GET["masthead"];
+
+      if( $masthead_style == 'new-title') {
+        $title_markup = '<h1 class="display-1">Vassar <span class="small-stuff">for a</span>  Lifetime</h1>';
+        $title_styling = '
+        <style>
+          span.small-stuff {
+              display: block;
+              font-size: 3rem;
+              text-transform: uppercase;
+              font-weight: bold;
+              font-style: italic;
+              letter-spacing: 0.4rem;
+          }
+          h1.display-1 {
+              text-align: center;
+          }
+        </style>
+        ';
+      }
+      else if( $masthead_style == 'tagline') {
+
+      }
+      else if( $masthead_style == 'alumnaei') {
+
+      }
+    }
+    else {
+      $title_markup = 'Alumni';
+    }
+
 
 
 //  Check if a bg image was specified, and
@@ -52,6 +71,8 @@ function sec_siteHeader_video_adv(
 
   <script src="https://player.vimeo.com/api/player.js"></script>
 
+$title_styling
+
     <div class="advancement-home section video-header is-loading $section_classes">
      <button id="play_pause" class="videoplayer_button" aria-label="pause/play background video" title="pause/play background video">
             <span id="pause_button" class="videoplayer_icon videoplayer_icon_pause" aria-hidden="true"><i class="fa fa-solid fa-pause"></i></span>
@@ -63,7 +84,7 @@ function sec_siteHeader_video_adv(
       </div>
 
       <div class="title-cover">
-        <h1 class="display-1">Alumni</h1>
+        <h1 class="display-1">$title_markup</h1>
         <div class="cover-content">
 TMP;
 }
