@@ -90,7 +90,7 @@ $page_info = json_decode($page_info, true);
         ['url' => $logos_path.'the-conversation.gif', 'alt' => 'The Conversation logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p><strong>Joseph Nevins</strong>, Professor of Geography, wrote a <em>Conversation</em> article—which was reprinted by several media outlets, including Yahoo! News— about why crossing the U.S.-Mexico border is deadlier than ever for migrants.</p>
+        <p><strong>Joseph Nevins</strong>, Professor of Geography, wrote a <em>Conversation</em> article—which was reprinted by several media outlets, including Yahoo! News—about why crossing the U.S.-Mexico border is deadlier than ever for migrants.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
