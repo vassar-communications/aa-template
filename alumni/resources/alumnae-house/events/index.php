@@ -42,7 +42,7 @@ $page_info = json_decode($page_info, true);
 
     <p class="">Alumnae House has served as the quintessential meeting place for Vassar College alumni throughout the last century, and  is open to the public for catered events. The iconic building offers an array of stylish settings and services for small to large gatherings, special occasions, and meetings.</p>
 
-    <p>To reserve space or for more information, contact Martha Barry, Alumnae House Manager, at <a href="tel:(845) 437-7150">(845) 437-7150</a> or <a href="mailto:mabarry@vassar.edu">mabarry@vassar.edu</a>.</p>
+    <p>To reserve space or for more information, contact Martha Barry, Alumnae House Manager, at <?php echo phone_number('845-437-7150'); ?> or <a href="mailto:mabarry@vassar.edu">mabarry@vassar.edu</a>.</p>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -58,7 +58,7 @@ $page_info = json_decode($page_info, true);
 <p>All guest rooms may be blocked by the couple for the entire weekend, making Alumnae House a convenient home-base for the wedding party and their families.</p>
 <p>Select one of our award-winning caterers for all of your food and beverage needs. Alumnae House provides basic china, flatware, glassware, linens, tables, and chairs. Special or custom items may be obtained through your caterer. The caterers are given full access to the Alumnae House kitchen.</p>
 <p>The Alumnae House manager and staff will work with you to plan the wedding of your dreams and make your special day memorable. We can also assist with planning your rehearsal dinner, welcoming reception, or brunch after the wedding.</p>
-<p>To inquire about hosting a wedding reception at Alumnae House, please contact Martha Barry, Alumnae House Manager, at <a href="tel:(845) 437-7150">(845) 437-7150</a> or <a href="mailto:mabarry@vassar.edu">mabarry@vassar.edu</a>.</p>
+<p>To inquire about hosting a wedding reception at Alumnae House, please contact Martha Barry, Alumnae House Manager, at <?php echo phone_number('845-437-7150'); ?> or <a href="mailto:mabarry@vassar.edu">mabarry@vassar.edu</a>.</p>
 </p>
 <?php echo end_sec_regularContent(); ?>
 
@@ -75,7 +75,7 @@ $page_info = json_decode($page_info, true);
 
 <p>If you are planning a retreat over multiple days, Alumnae House has 20 guest rooms that may be reserved for your business or organization.</p>
 
-<p>To inquire about having a meeting or retreat at Alumnae House, please contact Martha Barry, Alumnae House Manager, at <a href="tel:(845) 437-7150">(845) 437-7150</a> or <a href="mailto:mabarry@vassar.edu">mabarry@vassar.edu</a>.</p>
+<p>To inquire about having a meeting or retreat at Alumnae House, please contact Martha Barry, Alumnae House Manager, at <?php echo phone_number('845-437-7150'); ?> or <a href="mailto:mabarry@vassar.edu">mabarry@vassar.edu</a>.</p>
 
 </p>
 <?php echo end_sec_regularContent(); ?>
@@ -94,10 +94,9 @@ $page_info = json_decode($page_info, true);
 
 <p>The Living Room, with its stunning triptych, grand piano, and period furnishings, provides ample space for all types of gatherings. The walnut-paneled Dining Room seats up to 100 guests with a variety of table configurations. A lush garden terrace is available during the warmer months, while our wood-burning fireplaces create a warm and welcoming ambiance when it’s cold outside. The Pub and Library are smaller rooms suitable for intimate gatherings. Individual or multiple rooms may be reserved to meet your specific needs.</p>
 
-<p>Tables, chairs, linens, a projector and screen, podium, mic and speaker, white boards, and easels are included with the site fee. Select one of our award-winning caterers for all of your food and beverage needs.</p>
+<p>Tables, chairs, linens, a projector and screen, podium, mic and speaker, whiteboards, and easels are included with the site fee. Select one of our award-winning caterers for all of your food and beverage needs.</p>
 
-<p>To inquire about hosting an event at Alumnae House, please contact Martha Barry, Alumnae House Manager, at <a href="tel:(845) 437-7150">(845) 437-7150</a> or <a href="mailto:mabarry@vassar.edu">mabarry@vassar.edu</a>.</p>
-
+<p>To inquire about hosting an event at Alumnae House, please contact Martha Barry, Alumnae House Manager, at <?php echo phone_number('845-437-7150'); ?> or <a href="mailto:mabarry@vassar.edu">mabarry@vassar.edu</a>.</p>
 
 
 
@@ -113,4 +112,3 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo site_footeralumni(); ?>
-

@@ -108,7 +108,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Courtyard at Alumnae House']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>With a reverence for the past and a nod toward the future, Alumnae House strives to be a welcoming home for all Vassar students and alums.</p>
+    <p>With a reverence for the past and a nod toward the future, Alumnae House strives to be a welcoming home for all Vassar students and alumni.</p>
 
     <?php echo cta_link(
         '/alumni/resources/alumnae-house/',

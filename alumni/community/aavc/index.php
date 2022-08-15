@@ -43,7 +43,7 @@ $page_info = json_decode($page_info, true);
 
     <p>Through class, regional, affinity, career, and educational programming, the AAVC partners
     with the Office of Advancement to offer a robust array of opportunities for all alumni to
-    engage, both in -person and virtually.</p>
+    engage, both in-person and virtually.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -66,7 +66,7 @@ $page_info = json_decode($page_info, true);
     ['url' => '/alumni/assets/img/alumni-community/aavc/aavc.png', 'alt' => 'replacealttext' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
-<p>A group of dedicated volunteers that serves the college and more than <?php echo $facts['number_of_alumni']; ?> alumni at the highest level.</p>
+<p>A group of dedicated volunteers that serves the College and more than <?php echo $facts['number_of_alumni']; ?> alumni at the highest level.</p>
 <?php echo end_item_cardWithText(
     null,
 ); ?>

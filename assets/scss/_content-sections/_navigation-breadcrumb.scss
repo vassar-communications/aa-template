@@ -129,7 +129,8 @@ $nav-item-border-size: 2px;
     }
   }
 
-  .nav-link {
+  .nav-link,
+  .breadcrumb-link {
     background-image: linear-gradient(to right, var(--underline-color) 0%, var(--underline-color) 100%);
     text-decoration: none;
     position: relative;
@@ -148,7 +149,7 @@ $nav-item-border-size: 2px;
 
     &:hover,
     &:focus {
-      color: var(--section-nav-emphasis-color);
+      color: var(--section-nav-emphasis-color) !important;
       background-size: 100% $nav-item-border-size;
     }
   }

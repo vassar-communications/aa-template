@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 
-    <p class="">Celebrating its 100th anniversary in 2024, Alumnae House was gifted to Vassar College by sisters Blanche Ferry Hooker, class of 1894, and Queene Ferry Coonley, class of 1896. They intended it to be a center for the activities of the alumnae of the College, but more importantly wanted all alumnae to have a welcoming space that they could call home when returning to campus. They hoped each houseguest would depart saying, “It is well for us to have been here.”</p>
+    <p class="">Celebrating its 100th anniversary in 2024, Alumnae House was gifted to Vassar College by sisters Blanche Ferry Hooker, class of 1894, and Queene Ferry Coonley, class of 1896. They intended it to be a center for the activities of the alumni of the College, but more importantly wanted all alumni to have a welcoming space that they could call home when returning to campus. They hoped each houseguest would depart saying, “It is well for us to have been here.”</p>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -54,7 +54,7 @@ $page_info = json_decode($page_info, true);
 
 <p>A classic example of American-Tudor style architecture, Alumnae House is filled with impressive artwork, period furniture, Vassar memorabilia, cozy reading nooks, and working fireplaces. The living room is majestic with its hand-painted ceiling and Violet Oakley Triptych. The walnut-paneled dining room features an inlaid ceiling and musician’s gallery, while the Pub showcases murals by Anne Cleveland. The library contains a complete set of Vassar yearbooks, books about Vassar, and books authored by Vassar alumni.</p>
 
-<p>With a reverence for the past and a nod towards the future, Alumnae House strives to be a welcoming home for all Vassar students and alums.
+<p>With a reverence for the past and a nod towards the future, Alumnae House strives to be a welcoming home for all Vassar students and alumni.
 </p>
 <?php echo end_sec_regularContent(); ?>
 
@@ -65,7 +65,7 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'Exterior Front of the Alumnae House in the snow']
 ); ?>
-<p>Accomodations are available for your next visit.</p>
+<p>Accommodations are available for your next visit.</p>
 
 <?php echo cta_link(
     '/alumni/resources/alumnae-house/accommodations/',

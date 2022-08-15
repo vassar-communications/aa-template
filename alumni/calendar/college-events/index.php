@@ -26,7 +26,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'needsalttxt']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Large group of people attending an event in the Vassar Chapel']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -38,7 +38,8 @@ $page_info = json_decode($page_info, true);
     'Upcoming College Events',
     '/alumni/assets/img/alumni-calendar/college-events/0026-20-02-kr-bourgeois-fllac-vassar-9731.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'Two people looking at artwork on a wall']
 ); ?>
 <p>View events and activities happening on the Vassar campus.</p>
 

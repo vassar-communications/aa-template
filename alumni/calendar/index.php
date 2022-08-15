@@ -9,8 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title":"Calendar",
-  "page_classes":"",
-  "feature_image":"/assets/images/placeholder-banner.png"
+  "page_classes":""
 }';
 
 /* === */
@@ -34,16 +33,16 @@ Make sure functions convert straight quotes to curly
     '<b class="slide-from-left">Alumni&nbsp;</b>
    <b class="slide-from-right">Calendar</b>',
     '727857392?h=9586cb06fa',
-    'theme-verylightgray reveal-image',
+    'theme-verylightgray reveal-image has-image',
     'mw-4',
-    ['bg-image-url' => $page_info['feature_image'],
+
+/*    ['bg-image-url' => $page_info['feature_image'],
         'bg-image-alt' => 'alt text',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
-      /* --section-title-faded-color: #444; */
       --bs-gap: 1rem;
-      ']
+      '] */
 ); ?>
 
 <?php echo end_sec_fixedCenteredTitle_masthead_vid(); ?>
@@ -60,7 +59,7 @@ Make sure functions convert straight quotes to curly
   ',
   null,
   null,
-  ['img_alt_text' => 'Students researching plants in a lab']
+  ['img_alt_text' => 'Two smiling Alumni standing arm in arm at a reunion event']
 );
 ?>
 
@@ -137,7 +136,7 @@ June 6–8, 2025</p>
 <?php echo end_event_listing(); ?>
 
 
-<!--
+<?php /*
 <?php echo event_listing(); ?>
   <?php echo event_item(
     'Vassar Club of Ohio Visits the Columbus Zoo',
@@ -196,7 +195,7 @@ June 6–8, 2025</p>
 
 <?php echo end_event_listing(); ?>
 
--->
+*/ ?>
 
 <?php echo end_sec_wideContent(); ?>
 
@@ -210,7 +209,7 @@ June 6–8, 2025</p>
   ['img_alt_text' => 'Fireworks in the night sky']
 ); ?>
 
-<p>Vassar and the Alumnae/i Association (AAVC) are thrilled about the return to in-person reunions and can’t wait to welcome you and your classmates back to campus.</p>
+<p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled about the return to in-person reunions and can’t wait to welcome you and your classmates back to campus.</p>
 
 <?php echo cta_link(
     '/alumni/calendar/reunion/',
