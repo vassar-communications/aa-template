@@ -335,7 +335,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'AC Dumlao ’13',
     '/alumni/community/aavc/board-members/aavc-board-director-9/',
-    ['url' => '/alumni/assets/img/alumni-community/aavc/board/AC-Dumlao_Headshot_Credit-Caitlin-Dumlao_AAVC.jpg', 'alt' => 'AC Dumlao' ],
+    ['url' => '/alumni/assets/img/alumni-community/aavc/board/AC-Dumlao_Headshot_Credit-AC-Dumlao_AAVC.jpg', 'alt' => 'AC Dumlao' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(they/them/he/him)</div>
