@@ -85,8 +85,11 @@
     width: 14rem;
     min-height: 14rem;
     overflow: hidden;
-    background: #eee;
+//    background: #eee;
     padding: 1rem;
+
+    background: #faf7f9;
+    border: 4px solid #fff;
 
     @include break(md, max) {
       margin: 2rem 0 0 2.6rem;

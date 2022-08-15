@@ -2,6 +2,30 @@
 $media_carousel_path = '/alumni/assets/img/alumni-home/news-and-spotlight/';
 echo carousel( '', 'alums-media-carousel' ); ?>
 
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2022-08-13/211123-media-blum.jpeg',
+    'is-link',
+    'A headshot of Jason Blum ’91, a white, middle-aged man with short brown hair.'
+  ); ?>
+
+  <small class="mb-3 d-block">August 6, 2022</small>
+  <p><strong>Jason Blum ’91,</strong> CEO and Founder of Blumhouse Productions, talked with <em>Deadline</em> about his upcoming projects.</p>
+
+  <?php echo cta_link(
+  'https://deadline.com/2022/08/jason-blum-exorcist-remake-locarno-1235086504/',
+  'Read more',
+  'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
+
   <?php echo carousel_item(
     $media_carousel_path.'/2022-07-27/Shana_Nys_Dambrot.jpg',
     'is-link',
@@ -16,7 +40,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   'Read more',
   'stretched-link'
 ); ?>
-
 
   <?php echo end_carousel_item(); ?>
 
