@@ -64,7 +64,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Stay connected with your fellow alums and foster lasting connections beyond the College’s gate. </p>
+<p>Stay connected with your fellow alumni and foster lasting connections beyond the College’s gate. </p>
 
 
 <?php echo item_iconItem(
