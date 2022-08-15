@@ -471,7 +471,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Katherine Cerino-Jones',
-    'Associate Director for Multicultural and Affinity Engagement',
+    'Administrative Assistant',
     [
       'phone' => '845-437-7172',
       'email' => 'kcerinojones@vassar.edu',
@@ -515,7 +515,7 @@ echo end_contact_card();
 
 echo contact_card(
     'TBD',
-    'Administrative Assistant',
+    'Director for Multicultural and Affinity Engagement',
     [
       'phone' => '',
       'email' => '',
@@ -579,7 +579,7 @@ echo contact_card(
     'Kwan Man Cheng',
     'Assistant Director of Advancement Communications',
     [
-      'phone' => '',
+      'phone' => '845-437-5501',
       'email' => 'kcheng@vassar.edu',
     ]
 );
@@ -933,7 +933,7 @@ echo end_contact_card();
 ?>
 </div>
 
-<?php echo heading_with_anchor_id( 'Stewardship, Special Events and Programs', '4' ); ?>
+<?php echo heading_with_anchor_id( 'Stewardship, Special Events, and Programs', '4' ); ?>
 
   <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
   <?php
