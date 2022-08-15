@@ -149,7 +149,7 @@ $page_info = json_decode($page_info, true);
     <?php echo link_to_id( 'Prospect Development and Research', 'nav-link'); ?>
   </li>
   <li class="list-group-item nav-item">
-<?php echo link_to_id( 'Stewardship, Special Events and Programs', 'nav-link'); ?>
+<?php echo link_to_id( 'Stewardship, Special Events, and Programs', 'nav-link'); ?>
   </li>
 
 </ul>
@@ -767,12 +767,11 @@ echo contact_card(
     'Gregg McCarty',
     'Director of Leadership Gifts',
     [
-      'phone' => '845-(914) 227-8985',
+      'phone' => '914-227-8985',
       'email' => 'gmccarty@vassar.edu',
     ]
 );
 echo end_contact_card();
-
 
 echo contact_card(
     'TBD',

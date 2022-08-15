@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-    <p>Here's how to reach out to us.</p>
+    <p>Here’s how to reach out to us.</p>
 
 <?php echo end_item_cardWithText(
     null,

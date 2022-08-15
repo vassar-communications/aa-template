@@ -86,7 +86,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-    'Admissions & Annual Giving',
+    'Admission & Annual Giving',
     '',
     ''
 ); ?>
@@ -96,7 +96,7 @@ $page_info = json_decode($page_info, true);
     'handshake',
     'icon-on-left theme-white-border'
 ); ?>
-<p>The Vassar College Alumnae/i Admissions Program (VCAAP) connects alumni volunteers with various opportunities that support the work of Vassar’s Office of Admission. VCAAP volunteers help to increase the visibility of Vassar in their local communities and provide valuable points of contact for prospective students.</p>
+<p>The Vassar College Alumnae/i Admission Program (VCAAP) connects alumni volunteers with various opportunities that support the work of Vassar’s Office of Admission. VCAAP volunteers help to increase the visibility of Vassar in their local communities and provide valuable points of contact for prospective students.</p>
 <ul class="linked-list">
     <li><a href="https://apply.vassar.edu/portal/vcaap">Become a VCAAP Volunteer</a></li>
 </ul>
