@@ -72,20 +72,52 @@
   h1, .cover-content {
     transition: 2s all ease;
   }
-  h1 {
+  h1:not(.multipart) {
     opacity: 0;
     transform: translateX(-50%);
   }
+
+
+  h1.multipart {
+    .title-part {
+      transition: 2s all ease;
+      display: block;
+    }
+    .slide-from-left {
+      opacity: 0;
+      transform: translateX(-50%);
+    }
+    .slide-from-right {
+      opacity: 0;
+      transform: translateX(50%);
+    }
+  }
+
   .cover-content {
     opacity: 0;
     transform: translateX(50%);
+  }
+  .small-stuff {
+    opacity: 0;
+    transition: 2s all ease;
+    transition-delay: 1s;
   }
 
   &.is-loaded {
     transform: scale(1);
     opacity: 1;
 
-    h1,
+    h1.multipart {
+      .title-part {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      .small-stuff {
+        opacity: 1;
+      }
+    }
+
+    h1:not(.multipart),
     .cover-content {
       opacity: 1;
       transform: translateX(0);

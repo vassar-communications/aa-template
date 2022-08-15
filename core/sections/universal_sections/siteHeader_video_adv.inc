@@ -27,7 +27,15 @@ function sec_siteHeader_video_adv(
       $masthead_style = $_GET["masthead"];
 
       if( $masthead_style == 'new-title') {
-        $title_markup = '<h1 class="display-1">Vassar <span class="small-stuff">for a</span>  Lifetime</h1>';
+        $title_markup = '
+        <h1 class="display-1 multipart">
+          <span class="title-part slide-from-left">Vassar</span>
+          <span class="title-part slide-from-right">
+            <span class="small-stuff">for a</span>
+              Lifetime
+            </span>
+        </h1>';
+
         $title_styling = '
         <style>
           span.small-stuff {
@@ -45,10 +53,32 @@ function sec_siteHeader_video_adv(
         ';
       }
       else if( $masthead_style == 'tagline') {
+        $title_markup = '
+        <h1 class="display-1 multipart">
+          <span class="title-part slide-from-left">Alumni</span>
+          <span class="title-part slide-from-right">
+            <span class="small-stuff">Vassar for a Lifetime</span>
+            </span>
+        </h1>';
 
+        $title_styling = '
+        <style>
+          span.small-stuff {
+              display: block;
+              font-size: 3rem;
+              text-transform: uppercase;
+              font-weight: bold;
+              font-style: italic;
+              letter-spacing: 0.4rem;
+          }
+          h1.display-1 {
+              text-align: center;
+          }
+        </style>
+        ';
       }
       else if( $masthead_style == 'alumnaei') {
-
+        $title_markup = 'Alumnae/i';
       }
     }
     else {
