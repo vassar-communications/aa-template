@@ -22,160 +22,6 @@ function sec_siteHeader_video_adv(
 
     $title_classes = get_extras_value('title_classes', $extras);
 
-
-    if( isset( $_GET["masthead"] ) ) {
-      $masthead_style = $_GET["masthead"];
-
-      if( $masthead_style == 'new-title') {
-        $title_markup = '
-        <h1 class="display-1 multipart">
-          <span class="title-part slide-from-left">Vassar</span>
-          <span class="title-part slide-from-right">
-            <span class="small-stuff">for a</span>
-              Lifetime
-            </span>
-        </h1>';
-
-        $title_styling = '
-        <style>
-          span.small-stuff {
-              display: block;
-              font-size: 3rem;
-              text-transform: uppercase;
-              font-weight: bold;
-              font-style: italic;
-              letter-spacing: 0.4rem;
-          }
-          h1.display-1 {
-              text-align: center;
-          }
-        </style>
-        ';
-      }
-
-      else if( $masthead_style == 'new-title-one-animation') {
-        $title_markup = '
-        <h1 class="display-1">
-          <span class="d-block">Vassar</span>
-          <span class="d-block">
-            <span class="small-stuff">for a</span>
-              Lifetime
-            </span>
-        </h1>';
-
-        $title_styling = '
-        <style>
-          span.small-stuff {
-              display: block;
-              font-size: 3rem;
-              text-transform: uppercase;
-              font-weight: bold;
-              font-style: italic;
-              letter-spacing: 0.4rem;
-          }
-          h1.display-1 {
-              text-align: center;
-          }
-        </style>
-        ';
-      }
-
-      else if( $masthead_style == 'tagline') {
-        $title_markup = '
-        <h1 class="display-1 multipart">
-          <span class="title-part slide-from-left">Alumni</span>
-          <span class="title-part slide-from-right">
-            <span class="small-stuff">Vassar for a Lifetime</span>
-            </span>
-        </h1>';
-
-        $title_styling = '
-        <style>
-          span.small-stuff {
-              display: block;
-              font-size: 3rem;
-              text-transform: uppercase;
-              font-weight: bold;
-              font-style: italic;
-              letter-spacing: 0.4rem;
-          }
-          .slide-from-right {
-            line-height: 1;
-          }
-          h1.display-1 {
-              text-align: center;
-          }
-        </style>
-        ';
-      }
-      else if( $masthead_style == 'tagline-2') {
-        $title_markup = '
-        <h1 class="display-1 multipart">
-          <span class="title-part slide-from-left">Alumnae/i</span>
-          <span class="title-part slide-from-right">
-            <span class="small-stuff">Vassar for a Lifetime</span>
-            </span>
-        </h1>';
-
-        $title_styling = '
-        <style>
-          span.small-stuff {
-              display: block;
-              font-size: 3rem;
-              text-transform: uppercase;
-              font-weight: bold;
-              font-style: italic;
-              letter-spacing: 0.4rem;
-          }
-          .slide-from-right {
-            line-height: 1;
-          }
-          h1.display-1 {
-              text-align: center;
-          }
-        </style>
-        ';
-      }
-
-      else if( $masthead_style == 'tagline-2-one-animation') {
-        $title_markup = '
-        <h1 class="display-1">
-          <span class="d-block">Alumnae/i</span>
-          <span class="d-block">
-            <span class="small-stuff">Vassar for a Lifetime</span>
-            </span>
-        </h1>';
-
-        $title_styling = '
-        <style>
-          span.small-stuff {
-              display: block;
-              font-size: 3rem;
-              text-transform: uppercase;
-              font-weight: bold;
-              font-style: italic;
-              letter-spacing: 0.4rem;
-          }
-          .slide-from-right {
-            line-height: 1;
-          }
-          h1.display-1 {
-              text-align: center;
-          }
-        </style>
-        ';
-      }
-
-      else if( $masthead_style == 'alumnaei') {
-        $title_markup = 'Alumnae/i';
-      }
-    }
-    else {
-      $title_markup = 'Alumni';
-    }
-
-
-
 //  Check if a bg image was specified, and
 //    set up both the markup and the section class for it.
     global $bg_image;
@@ -191,7 +37,6 @@ function sec_siteHeader_video_adv(
   <script src="https://player.vimeo.com/api/player.js"></script>
 
 $title_styling
-
     <div class="advancement-home section video-header is-loading $section_classes">
      <button id="play_pause" class="videoplayer_button" aria-label="pause/play background video" title="pause/play background video">
             <span id="pause_button" class="videoplayer_icon videoplayer_icon_pause" aria-hidden="true"><i class="fa fa-solid fa-pause"></i></span>
@@ -203,7 +48,9 @@ $title_styling
       </div>
 
       <div class="title-cover">
-        <h1 class="display-1">$title_markup</h1>
+        <h1 class="display-1">
+          Vassar <span class="small-stuff">for a</span> Lifetime
+        </h1>
         <div class="cover-content">
 TMP;
 }

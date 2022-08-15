@@ -11279,6 +11279,22 @@ html {
   opacity: 0;
   padding: 0;
   overflow: hidden;
+  /*
+    h1.multipart {
+      .title-part {
+        transition: 2s all ease;
+        display: block;
+      }
+      .slide-from-left {
+        opacity: 0;
+        transform: translateX(-50%);
+      }
+      .slide-from-right {
+        opacity: 0;
+        transform: translateX(50%);
+      }
+    }
+  */
   /*  .small-stuff {
       opacity: 0;
       transition: 2s all ease;
@@ -11347,38 +11363,27 @@ html {
   opacity: 0;
   transform: translateX(-50%);
 }
-.video-header h1.multipart .title-part, .video-header .multipart.h1 .title-part {
-  transition: 2s all ease;
-  display: block;
-}
-.video-header h1.multipart .slide-from-left, .video-header .multipart.h1 .slide-from-left {
-  opacity: 0;
-  transform: translateX(-50%);
-}
-.video-header h1.multipart .slide-from-right, .video-header .multipart.h1 .slide-from-right {
-  opacity: 0;
-  transform: translateX(50%);
-}
 .video-header .cover-content {
   opacity: 0;
   transform: translateX(50%);
 }
-* .video-header.is-loaded {
+.video-header.is-loaded {
   transform: scale(1);
   opacity: 1;
-}
-* .video-header.is-loaded h1.multipart, * .video-header.is-loaded .multipart.h1 {
+  /*
+      h1.multipart {
+        .title-part {
+          opacity: 1;
+          transform: translateX(0);
+        }
+
   /*      .small-stuff {
           opacity: 1;
         }
   */
 }
-* .video-header.is-loaded h1.multipart .title-part, * .video-header.is-loaded .multipart.h1 .title-part {
-  opacity: 1;
-  transform: translateX(0);
-}
-* .video-header.is-loaded h1:not(.multipart), * .video-header.is-loaded .h1:not(.multipart),
-* .video-header.is-loaded .cover-content {
+.video-header.is-loaded h1:not(.multipart), .video-header.is-loaded .h1:not(.multipart),
+.video-header.is-loaded .cover-content {
   opacity: 1;
   transform: translateX(0);
 }
@@ -11402,6 +11407,29 @@ html {
     margin-top: 4.4rem !important;
   }
 }
+.small-stuff {
+  font-size: 0.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.4rem;
+  display: block;
+}
+
+@media screen and (min-width: 50em) {
+  span.small-stuff {
+    display: inline-block;
+    transform: translateY(-1vw);
+  }
+}
+.slide-from-right {
+  line-height: 1;
+}
+
+h1.display-1, .display-1.h1 {
+  text-align: center;
+}
+
 .section--wide-content.has-intro .section-title {
   margin-bottom: 1em;
 }

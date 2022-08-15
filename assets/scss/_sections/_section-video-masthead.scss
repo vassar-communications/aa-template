@@ -77,7 +77,7 @@
     transform: translateX(-50%);
   }
 
-
+/*
   h1.multipart {
     .title-part {
       transition: 2s all ease;
@@ -92,6 +92,7 @@
       transform: translateX(50%);
     }
   }
+*/
 
   .cover-content {
     opacity: 0;
@@ -104,11 +105,12 @@
     transition-delay: 1s;
   }
 */
-*
+
   &.is-loaded {
     transform: scale(1);
     opacity: 1;
 
+/*
     h1.multipart {
       .title-part {
         opacity: 1;
@@ -120,7 +122,7 @@
       }
 */
 
-    }
+  //  }
 
     h1:not(.multipart),
     .cover-content {
@@ -152,4 +154,27 @@
       height: var(--full-masthead-height-video) !important;
       margin-top: 4.4rem !important;
   }
+}
+
+
+
+.small-stuff {
+  font-size: 0.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.4rem;
+  display: block;
+}
+@include break(md) {
+  span.small-stuff {
+    display: inline-block;
+    transform: translateY(-1vw);
+  }
+}
+.slide-from-right {
+  line-height: 1;
+}
+h1.display-1 {
+    text-align: center;
 }
