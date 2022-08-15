@@ -43,7 +43,7 @@ $page_info = json_decode($page_info, true);
 
     <p>Through class, regional, affinity, career, and educational programming, the AAVC partners
     with the Office of Advancement to offer a robust array of opportunities for all alumni to
-    engage, both in -person and virtually.</p>
+    engage, both in-person and virtually.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
