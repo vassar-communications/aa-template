@@ -66,7 +66,7 @@ $page_info = json_decode($page_info, true);
     ['url' => '/alumni/assets/img/alumni-community/aavc/aavc.png', 'alt' => 'replacealttext' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
-<p>A group of dedicated volunteers that serves the college and more than <?php echo $facts['number_of_alumni']; ?> alumni at the highest level.</p>
+<p>A group of dedicated volunteers that serves the College and more than <?php echo $facts['number_of_alumni']; ?> alumni at the highest level.</p>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
