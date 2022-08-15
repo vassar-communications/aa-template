@@ -80,7 +80,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Make a Gift',
         'https://go.vassar.edu/give',
-        ['url' => '/alumni/assets/img/alumni-home/Library-TT-IMG_6613.jpeg', 'alt' => 'Person riding a bicycle in from of Thompson Library on Vassar Campus' ],
+        ['url' => '/alumni/assets/img/alumni-home/Library-TT-IMG_6613.jpg', 'alt' => 'Person riding a bicycle in from of Thompson Library on Vassar Campus' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link mb-below-md-3'
     ); ?>
 
@@ -94,7 +94,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Volunteer',
         '/alumni/give/volunteer/',
-        ['url' => '/alumni/assets/img/alumni-home/VC-Atlanta_Becca-Marco-05_Jada-Graves-14_Juan-Acosta-02-(1).jpeg', 'alt' => 'Vassar people standing beside a sign that reads, Serve Your Neighbor' ],
+        ['url' => '/alumni/assets/img/alumni-home/VC-Atlanta_Becca-Marco-05_Jada-Graves-14_Juan-Acosta-02-(1).jpg', 'alt' => 'Vassar people standing beside a sign that reads, Serve Your Neighbor' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link mb-below-md-3'
     ); ?>
     <p>An incredible way to enrich your life and the lives of others in countless ways.</p>
@@ -106,7 +106,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Be a Mentor',
         '/alumni/give/be-a-mentor/',
-        ['url' => '/alumni/assets/img/alumni-home/0006-19-01-kr-scc-reception-vassar-0977.jpeg', 'alt' => 'two people speaking at a networking event' ],
+        ['url' => '/alumni/assets/img/alumni-home/0006-19-01-kr-scc-reception-vassar-0977.jpg', 'alt' => 'two people speaking at a networking event' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link mb-below-md-3'
     ); ?>
     <p>An extraordinary opportunity to develop positive relationships with students and help them navigate their future.</p>
