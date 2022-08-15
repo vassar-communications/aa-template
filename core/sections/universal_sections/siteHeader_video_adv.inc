@@ -108,6 +108,34 @@ function sec_siteHeader_video_adv(
         </style>
         ';
       }
+      else if( $masthead_style == 'tagline-2') {
+        $title_markup = '
+        <h1 class="display-1 multipart">
+          <span class="title-part slide-from-left">Alumnae/i</span>
+          <span class="title-part slide-from-right">
+            <span class="small-stuff">Vassar for a Lifetime</span>
+            </span>
+        </h1>';
+
+        $title_styling = '
+        <style>
+          span.small-stuff {
+              display: block;
+              font-size: 3rem;
+              text-transform: uppercase;
+              font-weight: bold;
+              font-style: italic;
+              letter-spacing: 0.4rem;
+          }
+          .slide-from-right {
+            line-height: 1;
+          }
+          h1.display-1 {
+              text-align: center;
+          }
+        </style>
+        ';
+      }
       else if( $masthead_style == 'alumnaei') {
         $title_markup = 'Alumnae/i';
       }
