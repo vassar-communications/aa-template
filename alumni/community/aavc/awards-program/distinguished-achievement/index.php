@@ -60,7 +60,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
   </li>
   <li>
-    <a href="https://read.nxtbook.com/vassar/vq/summer_fall_2020/the_aavc_announces_annual_awa.html#">Read more about Carlstrom in the Summer/Fall 2020&nbsp;<em>VQ</em>&nbsp;magazine</a>
+    <a href="https://read.nxtbook.com/vassar/vq/summer_fall_2020/the_aavc_announces_annual_awa.html#">Read more about Carlstrom in the Summer/Fall 2020&nbsp;<em>Vassar Quarterly</em>&nbsp;magazine</a>
   </li>
 </ul>
 
