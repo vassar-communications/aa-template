@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"On-Demand Programs",
   "page_classes":"",
-  "feature_image":"/alumni/assets/img/alumni-calendar/on-demand/661_Matthew_Vassar_statue_May_2019_JA.JPG"
+  "feature_image":"/alumni/assets/img/alumni-calendar/on-demand/661_Matthew_Vassar_statue_May_2019_JA.jpg"
 }';
 
 /* === */
