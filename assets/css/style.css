@@ -11337,19 +11337,43 @@ html {
 .video-header h1, .video-header .h1, .video-header .cover-content {
   transition: 2s all ease;
 }
-.video-header h1, .video-header .h1 {
+.video-header h1:not(.multipart), .video-header .h1:not(.multipart) {
   opacity: 0;
   transform: translateX(-50%);
+}
+.video-header h1.multipart .title-part, .video-header .multipart.h1 .title-part {
+  transition: 2s all ease;
+  display: block;
+}
+.video-header h1.multipart .slide-from-left, .video-header .multipart.h1 .slide-from-left {
+  opacity: 0;
+  transform: translateX(-50%);
+}
+.video-header h1.multipart .slide-from-right, .video-header .multipart.h1 .slide-from-right {
+  opacity: 0;
+  transform: translateX(50%);
 }
 .video-header .cover-content {
   opacity: 0;
   transform: translateX(50%);
 }
+.video-header .small-stuff {
+  opacity: 0;
+  transition: 2s all ease;
+  transition-delay: 1s;
+}
 .video-header.is-loaded {
   transform: scale(1);
   opacity: 1;
 }
-.video-header.is-loaded h1, .video-header.is-loaded .h1,
+.video-header.is-loaded h1.multipart .title-part, .video-header.is-loaded .multipart.h1 .title-part {
+  opacity: 1;
+  transform: translateX(0);
+}
+.video-header.is-loaded h1.multipart .small-stuff, .video-header.is-loaded .multipart.h1 .small-stuff {
+  opacity: 1;
+}
+.video-header.is-loaded h1:not(.multipart), .video-header.is-loaded .h1:not(.multipart),
 .video-header.is-loaded .cover-content {
   opacity: 1;
   transform: translateX(0);
