@@ -91,7 +91,7 @@ $template = <<<TMP
                   </ul>
                </div>
 
-               <form action="/search/" class="g-Search__form mt-4" method="get">
+               <form action="https://www.vassar.edu/search/" class="g-Search__form mt-4" method="get">
                  <div class="input-group mb-3">
                     <input class="g-Search__field form-control" id="g-Search__field" name="q" placeholder="Search" type="search" aria-label="Search" aria-describedby="button-addon2">
                     <button class="icon icon-search g-Search__submit" name="submit" tabindex="0" type="submit" id="button-addon2">
