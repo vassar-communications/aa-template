@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/assets/img/alumni-home/0006-19-01-kr-scc-reception-vassar-0977.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-home/0006-19-01-kr-scc-reception-vassar-0977.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/assets/img/alumni-home/0037-19-02-kr-ifill-sherrilyn-vassar-7892.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/assets/img/alumni-home/0069-19-05-kr-spring-vassar-4662.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/assets/img/alumni-home/0153-19-11-kr-major-palooza-vassar-6031.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-home/0153-19-11-kr-major-palooza-vassar-6031.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/assets/img/alumni-home/0227-17-04-ym-dc-johnson-brunch-vassar-0644.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/assets/img/alumni-home/Library-TT-IMG_6613.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-home/Library-TT-IMG_6613.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/assets/img/alumni-home/VC-Atlanta_Becca-Marco-05_Jada-Graves-14_Juan-Acosta-02-(1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-home/VC-Atlanta_Becca-Marco-05_Jada-Graves-14_Juan-Acosta-02-(1).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/assets/img/alumni-home/news-and-spotlight/2022-08-13/211123-media-blum.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/assets/img/alumni-home/news-and-spotlight/2022-08-13/211123-media-blum.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/community/alumni-news/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/community/alumni-news/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/inc/home-blocks/carousel-alumni-home-media.inc" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/inc/home-blocks/carousel-alumni-home-media.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alumni/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alumni/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
