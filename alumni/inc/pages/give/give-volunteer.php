@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Volunteer',
     '/alumni/give/volunteer/',
-    ['url' => '/alumni/assets/img/alumni-give/volunteer/feeding-south-florida.jpg', 'alt' => 'Volunteers at a south Florida food bank' ],
+    ['url' => '/alumni/assets/img/alumni-give/volunteer/VC-South-Florida_Diane-Robinson-91_Nicky-Zarchen-17_Sam-Thypin-Bermeo-11.jpg', 'alt' => 'Volunteers at a south Florida food bank' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
