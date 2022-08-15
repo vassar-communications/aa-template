@@ -76,6 +76,7 @@ $page_url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<!--
   <meta property="og:title" content="$page_title">
   <meta property="twitter:title" content="$page_title">
   <meta name="twitter:site" content="@vassar">
@@ -87,6 +88,8 @@ $page_url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:image" content="https://{$_SERVER['HTTP_HOST']}$feature_image">
 <meta property="twitter:image" content="https://{$_SERVER['HTTP_HOST']}$feature_image">
+-->
+
 
 $comment
 
