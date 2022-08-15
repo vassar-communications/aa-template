@@ -25,7 +25,12 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Professor addressing a class']); ?>
+<?php echo page_partialmasthead(
+  $page_info['feature_image'],
+  [
+    'image_alt_text' => 'Professor addressing a class',
+    'css' => '--bg-shim-background: rgba(0,0,0,0)'
+  ]); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -38,7 +43,9 @@ $page_info = json_decode($page_info, true);
     '/alumni/assets/img/alumni-give/mentor/0006-19-01-kr-scc-career-clusters-vassar-0675-crop.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Person with nametag that reads, Noah, speaking to another person']
+    [
+      'img_alt_text' => 'Person with nametag that reads, Noah, speaking to another person'
+    ]
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Being a mentor is an extraordinary opportunity to develop positive relationships with students and help them navigate their future personally and professionally.</p>

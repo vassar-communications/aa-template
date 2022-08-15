@@ -15256,7 +15256,9 @@ ul.style-checklist a:hover, ul.style-checklist .video-modal-link:hover {
   opacity: var(--link-hover-opacity, 1);
 }
 
-.theme-burgundy .linked-list a:hover, .theme-burgundy .linked-list .video-modal-link:hover {
+.theme-burgundy .linked-list a:hover, .theme-burgundy .linked-list .video-modal-link:hover,
+.theme-burgundy .linked-list a:focus,
+.theme-burgundy .linked-list .video-modal-link:focus {
   background: rgba(255, 255, 255, 0.2);
 }
 

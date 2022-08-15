@@ -88,7 +88,7 @@ $page_info = json_decode($page_info, true);
     ['url' => '/alumni/assets/img/alumni-community/aavc/0038-22-06-cs-reunion-vassar-084.jpg', 'alt' => 'replacealttext' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link download'
 ); ?>
-<p>Read the Alumnae/i Association of Vassar College Bylaws</p>
+<p>Read the Alumnae/i Association of Vassar College Bylaws (PDF)</p>
 <?php echo end_item_cardWithText(
     null,
 ); ?>

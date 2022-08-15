@@ -86,7 +86,7 @@ $page_info = json_decode($page_info, true);
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 
-<p>Vassar alumni ID cards provide alumni with access to the College's library and fitness center.</p>
+<p>Vassar alumni ID cards provide alumni with access to the College’s library and fitness center.</p>
 
 
 

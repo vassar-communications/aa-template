@@ -37,12 +37,12 @@ $page_info = json_decode($page_info, true);
 
 <p><strong>Guest Room Reservations and General Information</strong><br/>
 Contact Guest Services<br/>
-(845) 437-7100<br/>
+<?php echo phone_number('845-437-7100'); ?><br/>
     <a href="mailto:alumnaehouse@vassar.edu">alumnaehouse@vassar.edu</a></p>
 
 <p><strong>Event Space Planning and Manager</strong><br/>
 Contact Martha Barry, Alumnae House Manager<br/>
-(845) 437-7150<br/>
+<?php echo phone_number('845-437-7150'); ?><br/>
     <a href="mailto:mabarry@vassar.edu">mabarry@vassar.edu</a></p>
 
 <p><strong>Catering</strong><br/>
@@ -53,15 +53,15 @@ Contact Martha Barry, Alumnae House Manager<br/>
 <p>If alcohol will be served, the caterer must obtain a temporary liquor license. Applications must be submitted to the state 21 days prior to your event.</p>
 
 <p><strong>Brasserie 292</strong><br/>
-(845) 473-0292<br/>
+<?php echo phone_number('845-473-0292'); ?><br/>
     <a href="https://www.brasserie292.com/">Visit website</a></p>
 
 <p><strong>Main Course</strong><br/>
-(845) 255-2600<br/>
+<?php echo phone_number('845-255-2600'); ?><br/>
     <a href="https://www.maincoursecatering.com/">Visit website</a></p>
 
 <p><strong>Twisted Soul</strong><br/>
-(845) 454-2770<br/>
+<?php echo phone_number('845-454-2770'); ?><br/>
     <a href="https://www.twistedsoulconcepts.com/">Visit website</a></p>
 <?php echo end_sec_regularContent(); ?>
 

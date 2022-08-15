@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <?php echo cta_link(
     'https://www.vassar.edu/sites/default/files/2022-01/Reunion-2022-Preliminary-General-Schedule.pdf',
-    'See the Reunion 2022 schedule'
+    'See the Reunion 2022 schedule (PDF)'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -67,7 +67,7 @@ $page_info = json_decode($page_info, true);
 <p>This year’s 50th reunion programming will include the class of 1972.</p>
 <?php echo cta_link(
     'https://www.vassar.edu/sites/default/files/2022-03/1972-50th%20Reunion-Schedule-and-Newsletter-Mar4.pdf',
-    'See the Reunion 2022 schedule'
+    'See the Reunion 2022 schedule (PDF)'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
