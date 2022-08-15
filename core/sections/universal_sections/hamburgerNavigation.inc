@@ -37,7 +37,7 @@ $template = <<<TMP
             <div class="col-6 col-md-7">
               <ul class="secondary_menu d-md-flex">
                 <li class="secondary_menu-item">
-                  <a href="https://www.vassar.edu/together/summer-2022">Summer COVID-19 Plan</a>
+                  <a href="https://www.vassar.edu/together/fall-2022">Fall COVID-19 Plan</a>
                 </li>
                 <li class="secondary_menu-item">
                   <a href="https://www.vassar.edu/campuslife">Students</a>
@@ -46,7 +46,7 @@ $template = <<<TMP
                   <a href="https://www.vassar.edu/families">Families</a>
                 </li>
                 <li class="secondary_menu-item">
-                  <a href="https://www.vassar.edu/alums"> Alumni </a>
+                  <a href="https://www.vassar.edu/alumni"> Alumni </a>
                 </li>
                 <li class="secondary_menu-item">
                   <a href="https://www.vassar.edu/human-resources">Employees</a>
