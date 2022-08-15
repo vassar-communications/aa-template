@@ -64,7 +64,11 @@ if ( strpos( getcwd(), 'aa-devspace.vassarspaces.net' ) ) {
 //  $project_paths['public_path'] = 'https://www.vassar.edu/' . $current_site;
   $project_paths['public_path'] = '/' . $current_site; // '/admission/' . $current_site;
   $project_paths['comment'] = 'devspace';
-  $project_paths['final_url'] = 'https://www.vassar.edu';
+//  $project_paths['final_url'] = 'https://www.vassar.edu';
+
+  $project_paths['final_url'] = 'https://aa-devspace.vassarspaces.net';
+
+
 }
 else {
   $project_paths['comment'] = 'not devspace';
