@@ -97,12 +97,14 @@
     opacity: 0;
     transform: translateX(50%);
   }
-  .small-stuff {
+
+/*  .small-stuff {
     opacity: 0;
     transition: 2s all ease;
     transition-delay: 1s;
   }
-
+*/
+*
   &.is-loaded {
     transform: scale(1);
     opacity: 1;
@@ -112,9 +114,12 @@
         opacity: 1;
         transform: translateX(0);
       }
-      .small-stuff {
+
+/*      .small-stuff {
         opacity: 1;
       }
+*/
+
     }
 
     h1:not(.multipart),

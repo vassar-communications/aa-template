@@ -71,6 +71,9 @@ function sec_siteHeader_video_adv(
               font-style: italic;
               letter-spacing: 0.4rem;
           }
+          .slide-from-right {
+            line-height: 1;
+          }
           h1.display-1 {
               text-align: center;
           }
