@@ -145,6 +145,13 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Does your organization hire interns or entry-level opportunities? Consider hosting an employer information session, either virtually or on-campus, to connect current students with your employer. We can also work with you to coordinate on-campus or virtual interviews.</p>
+
+    <?php echo cta_link(
+      'https://offices.vassar.edu/careers/info/employers/',
+      'More information for employers'
+    ); ?>
+
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -161,8 +168,8 @@ $page_info = json_decode($page_info, true);
     <p>Are you open to hosting a group of students at your workplace? The Career Development Office hosts both individual employer site visits and industry-based career treks, bringing small groups of students to employers to experience a road trip to the real world. Past treks have featured financial services, technology, publishing, and more.</p>
 
     <?php echo cta_link(
-        'https://offices.vassar.edu/careers/contact/',
-        'Contact Career Development'
+      'https://offices.vassar.edu/careers/contact/',
+      'Contact Career Development'
     ); ?>
 
 </div>
