@@ -166,6 +166,42 @@ function sec_siteHeader_video_adv(
         ';
       }
 
+      else if( $masthead_style == 'all-on-one-line') {
+        $title_markup = '
+        <h1 class="display-1">
+          Vassar <span class="small-stuff">for a</span> Lifetime
+        </h1>';
+
+        $title_styling = '
+        <style>
+          span.small-stuff {
+              font-size: 0.3em;
+              text-transform: uppercase;
+              font-weight: bold;
+              font-style: italic;
+              letter-spacing: 0.4rem;
+              display: block;
+          }
+
+@media (min-width: 1200px) {
+  span.small-stuff {
+    display: inline-block;
+    transform: translateY(-1vw);
+
+  }
+}
+
+          .slide-from-right {
+            line-height: 1;
+          }
+          h1.display-1 {
+              text-align: center;
+          }
+        </style>
+        ';
+      }
+
+
       else if( $masthead_style == 'alumnaei') {
         $title_markup = 'Alumnae/i';
       }
