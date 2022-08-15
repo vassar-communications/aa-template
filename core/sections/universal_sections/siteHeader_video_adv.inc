@@ -52,6 +52,34 @@ function sec_siteHeader_video_adv(
         </style>
         ';
       }
+
+      else if( $masthead_style == 'new-title-one-animation') {
+        $title_markup = '
+        <h1 class="display-1">
+          <span class="d-block">Vassar</span>
+          <span class="d-block">
+            <span class="small-stuff">for a</span>
+              Lifetime
+            </span>
+        </h1>';
+
+        $title_styling = '
+        <style>
+          span.small-stuff {
+              display: block;
+              font-size: 3rem;
+              text-transform: uppercase;
+              font-weight: bold;
+              font-style: italic;
+              letter-spacing: 0.4rem;
+          }
+          h1.display-1 {
+              text-align: center;
+          }
+        </style>
+        ';
+      }
+
       else if( $masthead_style == 'tagline') {
         $title_markup = '
         <h1 class="display-1 multipart">
