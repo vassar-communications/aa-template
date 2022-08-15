@@ -37,7 +37,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
   'Interview with Jason Blum ’91',
-  $alumni_news_images_path.'/2022-08-13/211123-media-blum.jpeg',
+  $alumni_news_images_path.'/2022-08-13/211123-media-blum.jpg',
   'theme-extralightgray',
   '',
   ['img_alt_text' => 'A headshot of Jason Blum ’91, a white, middle-aged man with short brown hair.']

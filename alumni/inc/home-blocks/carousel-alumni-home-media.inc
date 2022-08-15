@@ -5,7 +5,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2022-08-13/211123-media-blum.jpeg',
+    $media_carousel_path.'/2022-08-13/211123-media-blum.jpg',
     'is-link',
     'A headshot of Jason Blum ’91, a white, middle-aged man with short brown hair.'
   ); ?>
