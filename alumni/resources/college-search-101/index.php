@@ -54,12 +54,12 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_alert(
     'Announcement',
-    'Dates for the Fall 2022 program have not yet been determined. Please check back in Summer 2022.',
+    'Dates for the Fall 2022 program have not yet been determined. Please check back soon.',
     'info-circle',
     'alert-light alert-accent-gold'
 ); ?>
 
-<h4 class="display-4 mb-4">Overview</h4>
+<h3>Overview</h3>
 <p>Here are some of the program highlights registered participants may expect during the session:</p>
 
 <ul>
