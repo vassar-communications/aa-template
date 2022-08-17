@@ -63,7 +63,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'AAVC Board of Directors',
     '/alumni/community/aavc/board-members/',
-    ['url' => '/alumni/assets/img/alumni-community/aavc/aavc.png', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-community/aavc/aavc.png', 'alt' => 'Alumnae/i Association of Vassar College wordmark' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>A group of dedicated volunteers that serves the College and more than <?php echo $facts['number_of_alumni']; ?> alumni at the highest level.</p>
@@ -74,7 +74,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Awards Program',
     '/alumni/community/aavc/awards-program/',
-    ['url' => '/alumni/assets/img/alumni-community/aavc/0114_18_09_KR_3944.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-community/aavc/0114_18_09_KR_3944.jpg', 'alt' => 'An alumni awardee holding an award flanked by two AAVC Board members' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>Recognizing alumni who have made significant contributions to the vitality and success of the College and AAVC.</p>
@@ -85,7 +85,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Bylaws',
     '/alumni/assets/pdf/Alumnae_i_Association_of_Vassar_-_Bylaws.pdf',
-    ['url' => '/alumni/assets/img/alumni-community/aavc/0038-22-06-cs-reunion-vassar-084.jpg', 'alt' => 'replacealttext' ],
+    ['url' => '/alumni/assets/img/alumni-community/aavc/0038-22-06-cs-reunion-vassar-084.jpg', 'alt' => 'Exterior view of the front of a residential hall on Vassar Campus' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link download'
 ); ?>
 <p>Read the Alumnae/i Association of Vassar College Bylaws (PDF)</p>

@@ -468,17 +468,15 @@ echo contact_card(
 );
 echo end_contact_card();
 
-
 echo contact_card(
-    'Katherine Cerino-Jones',
-    'Administrative Assistant',
+    'TBD',
+    'Director for Multicultural and Affinity Engagement',
     [
-      'phone' => '845-437-7172',
-      'email' => 'kcerinojones@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
-
 
 echo contact_card(
     'Cheryl McKeever',
@@ -512,16 +510,17 @@ echo contact_card(
 );
 echo end_contact_card();
 
-
 echo contact_card(
-    'TBD',
-    'Director for Multicultural and Affinity Engagement',
+    'Katherine Cerino-Jones',
+    'Administrative Assistant',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-7172',
+      'email' => 'kcerinojones@vassar.edu',
     ]
 );
 echo end_contact_card();
+
+
 ?>
 </div>
 

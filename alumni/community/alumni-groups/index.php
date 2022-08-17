@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'two people talkig']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text">Alumni have been entrepreneurial community-builders since the Alumnae/i Association (AAVC) was founded in 1871.</p>
+    <p class="intro-text">Alumni have been entrepreneurial community builders since the Alumnae/i Association (AAVC) was founded in 1871.</p>
     <p>Most everyone is familiar with <em>Classes</em>, which focus on building and maintaining community between classmates and peers. <em>Vassar Clubs</em> focus on building communities where people live and work, while <em>Affinity Groups</em> focus on strengthening ties among alums who share identities or undergraduate activities, such as athletic teams and singing groups.</p>
 
 
