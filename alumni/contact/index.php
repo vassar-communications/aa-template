@@ -862,7 +862,7 @@ echo contact_card(
     'Cathryn S. Stevens',
     'Principal Gifts Associate',
     [
-      'phone' => '845-437-5492',
+      'phone' => '845-437-5391',
       'email' => 'castevens@vassar.edu',
     ]
 );
