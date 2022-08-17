@@ -612,13 +612,88 @@ All Vassar students are surrounded by an environment designed to spark something
 
 <h2 class="section-intro-text news-intro text-center mb-5" style="">What’s Happening at Vassar?</h2>
 
-<?php // echo newsCarousel();
+<?php // echo five_items(); ?>
 
-echo five_items();
+<!-- start carousel -->
 
-// include($project_paths['main_project_root'].'/admission/inc/carousel-admission-home-news.inc');
+<div class="featureImage-text-ticker media-carousel fade-nonselected full " id="">
+   <div class="carousel-cell is-link">
+      <div class="carousel-cell-content">
+         <div class="image-container">
+            <img src="https://www.vassar.edu//sites/default/files/2022-08/shutterstock_1905256927-1x1.jpg?itok=uxumeiml" alt="" />
+         </div>
+         <div class="figcaption pt-4 listen">
+            <h3>
+               <a href="https://www.vassar.edu/news/vassar-joins-32-peer-institutions-in-filing-amicus-brief-with-us-supreme-court" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">Vassar Joins 32 Peer Institutions in Filing an Amicus Brief with U.S. Supreme Court in Support of the Harvard and University of North Carolina Affirmative Action Cases </span>
+               </a>
+            </h3>
+            <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
+         </div>
+      </div>
+   </div>
+   <div class="carousel-cell is-link">
+      <div class="carousel-cell-content">
+         <div class="image-container">
+            <img src="https://www.vassar.edu//sites/default/files/2022-08/kolcun-carissa-ford-2207-bsu-5626-16x9.jpg?itok=iivWhp0M" alt="" />
+         </div>
+         <div class="figcaption pt-4 listen">
+            <h3>
+               <a href="https://www.vassar.edu/news/student-becomes-art-curator-ford-scholar" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">Student Becomes Art Curator as a Ford Scholar</span>
+               </a>
+            </h3>
+            <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
+         </div>
+      </div>
+   </div>
+   <div class="carousel-cell is-link">
+      <div class="carousel-cell-content">
+         <div class="image-container">
+            <img src="https://www.vassar.edu//sites/default/files/2022-08/0096-22-07-kr-beckman-vassar-0080-16x9.jpg?itok=fTwRbGLQ" alt="" />
+         </div>
+         <div class="figcaption pt-4 listen">
+            <h3>
+               <a href="https://www.vassar.edu/news/new-grant-program-funds-student-medical-research-projects" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">New Grant Program Funds Student Medical Research Projects</span>
+               </a>
+            </h3>
+            <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
+         </div>
+      </div>
+   </div>
+   <div class="carousel-cell is-link">
+      <div class="carousel-cell-content">
+         <div class="image-container">
+            <img src="https://www.vassar.edu//sites/default/files/2022-08/07-CommFellows-Hailey-Osika-002-16x9.jpg?itok=AO9bfQDX" alt="" />
+         </div>
+         <div class="figcaption pt-4 listen">
+            <h3>
+               <a href="https://www.vassar.edu/news/vassar-community-fellows-lend-hand-strengthen-local-programs" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">Vassar Community Fellows Lend a Hand to Strengthen Local Programs</span>
+               </a>
+            </h3>
+            <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
+         </div>
+      </div>
+   </div>
+   <div class="carousel-cell is-link">
+      <div class="carousel-cell-content">
+         <div class="image-container">
+            <img src="https://www.vassar.edu//sites/default/files/2022-08/0093-22-07-bl-symposium-vassar-3816-16x9.jpg?itok=Vgc6rXoz" alt="" />
+         </div>
+         <div class="figcaption pt-4 listen">
+            <h3>
+               <a href="https://www.vassar.edu/news/students-rise-grand-challenge-equalizing-stem-education" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">Students Rise to the Grand Challenge of Equalizing STEM Education</span>
+               </a>
+            </h3>
+            <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
+         </div>
+      </div>
+   </div>
+</div>
 
-?>
+<!-- end carousel -->
+
+
+
+
 
 </div>
 
