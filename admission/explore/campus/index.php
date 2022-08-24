@@ -47,7 +47,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Where Horizons Meet',
-    'Vassar’s 1,000-acre campus blends timeless architecture with cutting-edge facilities.',
+    'Vassar’s 1,000-acre campus inspires bold thinking and an appreciation for natural beauty.',
     '/admission/assets/images/explore/campus/Vassar_Campus_20190508_KR_5256.jpg',
     '',
     '',
@@ -80,7 +80,7 @@ $page_info = json_decode($page_info, true);
         'tree',
         'icon-on-left'
       ); ?>
-          <p>Spaces that inspire bold thinking as well as an appreciation for natural beauty.</p>
+          <p>A historic arboretum and over 400 acres of Ecological Preserve.</p>
       <?php echo end_item_iconItem(); ?>
 
       <?php echo item_iconItem(
@@ -88,7 +88,7 @@ $page_info = json_decode($page_info, true);
         'people-roof',
         'icon-on-left'
       ); ?>
-          <p>A safe and inclusive environment where, no matter who you are, together we can become more.</p>
+          <p>A safe and inclusive environment where you will find support and community.</p>
       <?php echo end_item_iconItem(); ?>
     </div>
 </div>
@@ -110,12 +110,12 @@ $page_info = json_decode($page_info, true);
 <?php echo carousel('mt-6'); ?>
   <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0198-19-11-kwe-library-vassar-vb-5472.jpg", null, 'Students read in a spacious library reading room with a large stained-glass window behind them'); ?>
     <h3 class="h3">The Libraries</h3>
-    <p>With more than 1 million volumes, the Vassar libraries hold one of the largest liberal arts collections in the country. In the Thompson Memorial Library, sit and study in the main reading room beneath the stunning Cornaro stained glass window as the sun streams through.</p>
+    <p>With over 1 million volumes and vast online offerings, the Vassar libraries fuse rich collections with expert help, inspiring spaces, and facilities that support a wide range of activities, from quiet study to small group projects and collaborative work.</p>
   <?php echo end_carousel_item(); ?>
 
   <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0114-19-05-ja-fllac-vassar-046.jpg", null, 'Students admire artwork in the Frances Lehman Loeb Art Center'); ?>
         <h3 class="h3">The Frances Lehman Loeb Art Center</h3>
-      <p>Founded in 1864 as the Vassar College Art Gallery, the center is one of the only nationally known museums on a college campus. Today it is home to 21,000 works including by Rembrandt, Pablo Picasso, Georgia O’Keeffe, and Francis Bacon.</p>
+      <p>Founded in 1864 as the Vassar College Art gallery, the Loeb was the first art museum to be part of a college’s original plan. Today it is home to 21,000 works including by Rembrandt, Pablo Picasso, Georgia O’Keeffe, and Francis Bacon.</p>
     <?php echo end_carousel_item(); ?>
 
     <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0085-21-08-kr-summer-vassar-0056.jpg", null, "A large, modern stone and glass building"); ?>
@@ -125,12 +125,12 @@ $page_info = json_decode($page_info, true);
 
     <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0056-21-06-kr-campus-vassar-0006.jpg", null, "A stone campus path leading through a small park surrounded by trees"); ?>
           <h3 class="h3">The Shakespeare Garden</h3>
-      <p>The second oldest garden in the United States, this tranquil space is appreciated by the Vassar community and visitors alike.</p>
+      <p>The second oldest Shakespeare Garden in the United States, this tranquil space is appreciated by the Vassar community and visitors alike.</p>
     <?php echo end_carousel_item(); ?>
 
     <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0075_16_07_KR_0132.jpg", null, "A faculty member and student stand in the woods looking up at a tree trunk"); ?>
         <h3 class="h3">The Vassar Farm and Ecological Preserve</h3>
-        <p>This 500-acre green space comprises a multitude of habitats including streams, wetlands, ponds, forest, and old fields populated by a diversity of flora and fauna. This is an invaluable resource for Vassar faculty and students conducting scientific research.</p>
+        <p>This 415-acre green space comprises a multitude of habitats including streams, wetlands, ponds, forest, and old fields populated by a diversity of flora and fauna. This is an invaluable resource for Vassar faculty and students conducting scientific research.</p>
     <?php echo end_carousel_item(); ?>
 
 <?php echo end_carousel(); ?>

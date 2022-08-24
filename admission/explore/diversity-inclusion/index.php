@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Together We Become More',
-    'Our differences make our lives fun, interesting, and offer us the opportunity to connect with all kinds of people. We are here to provide healthy support to everyone.',
+    'Our differences strengthen our community and offer us the opportunity to connect with all kinds of people.',
     $admission_img_path.'explore/diversity/0038_16_04_KR_0005.jpg',
     '',
     '',

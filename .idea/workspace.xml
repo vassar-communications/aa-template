@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/_nav.txt" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/_nav.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/campus/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/campus/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/diversity-inclusion/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/diversity-inclusion/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/outcomes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/outcomes/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/student-life/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/student-life/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/inc/pages/explore/explore-outcomes.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/explore/explore-outcomes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sections/content_sections/carousel-admission-explore-campus.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/content_sections/carousel-admission-explore-campus.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sections/content_sections/carousel-admission-explore-hudson.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/content_sections/carousel-admission-explore-hudson.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +99,7 @@
       <workItem from="1660054224089" duration="5161000" />
       <workItem from="1660189955686" duration="1381000" />
       <workItem from="1660388592375" duration="3705000" />
+      <workItem from="1661316233468" duration="4537000" />
     </task>
     <servers />
   </component>

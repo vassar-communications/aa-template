@@ -1,6 +1,6 @@
 academics
-campus
+student-life
 diversity-inclusion
 outcomes
+campus
 beyond-campus
-student-life

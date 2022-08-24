@@ -59,7 +59,7 @@ $page_info = [
 
 <?php echo masthead_interiorPage(
     'Find Your Spark',
-    'Vassar is a unique, interdisciplinary, dynamic community that celebrates the value of diversity among its students, faculty, and staff. Each individual person on our campus wonderfully enriches our learning, work, and living on campus.',
+    'Vassar is a unique, interdisciplinary, dynamic community that celebrates the value of diversity among its students, faculty, and staff. Each individual person on our campus enriches our learning, work, and living on campus.',
     $admission_img_path.'explore/student-life/0055-16-05-kr-spring-vassar-0094.jpg',
     null,
     null,
@@ -121,7 +121,7 @@ $page_info = [
       'mx-auto',
       null,
       ['css' => 'max-width: 40rem']
-      ).'<p class="intro-text">Our nine historic residential houses are the heart of Vassar. You won’t find a Greek system on campus—a fact we celebrate—and 96% of students choose to live on campus.</p>',
+      ).'<p class="intro-text">Our nine historic residential houses are the heart of Vassar. Residential life is student-led, empowering you to contribute to the vibrant culture of our campus while making lifelong connections with students of all class years, majors, backgrounds, and interests.</p>',
     'theme-charcoal bg-dark quad-pattern has-bg animate-when-content-appears mw-inner-5 px-0 text-center',
     'mt-6'
 ); ?>
@@ -185,7 +185,7 @@ $page_info = [
     ['img_alt_text' => 'Athletes stand in a huddle']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Athletics have always been an important facet of the Vassar experience. In addition to our 27 Varsity sports, athletes of all levels have the opportunity to join an intramural team, take a yoga class, or use Vassar’s on-campus golf course. Among many offerings, club sports include Ultimate Frisbee, Quidditch, Figure Skating, and others.</p>
+    <p>Athletics have always been an important facet of the Vassar experience. In addition to our 23 NCAA Division III varsity teams and four varsity club teams, we offer a robust range of activities for the entire community. Join an intramural team, take a yoga class, hit the gym at the Athletic and Fitness Center, or play a round on Vassar’s on-campus golf course.</p>
 
     <?php echo cta_link(
         'https://www.vassarathletics.com/',
@@ -205,7 +205,7 @@ $page_info = [
     ['img_alt_text' => 'An adult helps a child fingerpaint']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>The Vassar community engages with Poughkeepsie and the wider Hudson River Valley region on multiple levels. Students participate in community-based learning assignments and volunteering opportunities. Reciprocally, Vassar welcomes our neighbors to engage in campus events and explore our facilities.</p>
+    <p>The Vassar community engages with Poughkeepsie and the wider Hudson River Valley region on multiple levels. Students participate in community-based learning assignments and volunteering opportunities. Reciprocally, Vassar welcomes our neighbors to engage in campus events and explore our campus.</p>
 
     <?php echo cta_link(
         'https://offices.vassar.edu/civic-engagement/',
