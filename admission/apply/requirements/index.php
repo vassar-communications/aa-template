@@ -59,15 +59,15 @@ $page_info = json_decode($page_info, true);
 <ul class="style-checklist theme-cream">
 
     <li><?php echo central_link('common-app', 'Common Application'); ?> or <?php echo central_link('coalition-app', 'Coalition Application'); ?></li>
-    <li>$65 application fee or a fee waiver
-    <li>Early Decision Agreement (Early Decision Applicants ONLY)
-    <li>School Report and High School Transcript: To be completed and sent by your school counselor. Available for online completion or download through <?php echo central_link('common-app', 'Common Application'); ?>.
-    <li>Teacher Evaluations
-    <li>Mid-year Grade Report: Vassar requests each applicant’s most recent grade report to be sent by the school counselor.
-    <li>For Early Decision I and II: Vassar requires a first quarter/trimester grade report, which should be sent as soon as it becomes available.
-    <li>For Regular Decision: A mid-year report with first-term grades is required when available, typically by February 1.
-    <li>Students admitted during Early Decision I or II will also be asked to provide their first-term grades as soon as they become available.
-    <li><a href="/admission/apply/international/">TOEFL/IELTS/DETM</a>: If English is neither your first language nor the primary language of instruction in secondary schools you have attended for the last three years.
+    <li>$65 application fee or a fee waiver</li>
+    <li>Early Decision Agreement (Early Decision Applicants ONLY)</li>
+    <li>School Report and High School Transcript: To be completed and sent by your school counselor. Available for online completion or download through <?php echo central_link('common-app', 'Common Application'); ?>.</li>
+    <li>A Teacher Evaluation</li>
+    <li>Mid-year Grade Report: Vassar requests each applicant’s most recent grade report to be sent by the school counselor.</li>
+    <li>For Early Decision I and II: Vassar requires a first quarter/trimester grade report, which should be sent as soon as it becomes available.</li>
+    <li>For Regular Decision: A mid-year report with first-term grades is required when available, typically by February 1.</li>
+    <li>Students admitted during Early Decision I or II will also be asked to provide their first-term grades as soon as they become available.</li>
+    <li><a href="/admission/apply/international/">TOEFL/IELTS/DuoLingo</a>: If English is neither your first language nor the primary language of instruction in secondary schools you have attended for the last three years.
     </li>
 </ul>
 
@@ -79,7 +79,6 @@ $page_info = json_decode($page_info, true);
     'theme-extralightgray',
     ''
 ); ?>
-<p>The following items are not required for your application, but you may wish to review this information anyway.</p>
 
 <?php echo item_iconItem(
   'Standardized Tests',
@@ -90,37 +89,18 @@ $page_info = json_decode($page_info, true);
 <ul>
     <li>Early Decision I: <strong>November 22</strong></li>
     <li>Spring Transfer: <strong>November 22</strong></li>
-    <li>Regular Decision and Early Decision II: <strong>January 10</strong></li>
+    <li>Regular Decision and Early Decision II: <strong>January 9</strong></li>
     <li>Fall Transfer: <strong>April 1</strong></li>
 </ul>
 
 
-<p class="py-4">For students who wish to submit their scores: the latest acceptable test dates are November for Early Decision I applicants and December for Regular Decision and Early Decision II applicants. Vassar will accept self-reported SAT and ACT scores from applicants.
+<p class="py-4">For students who wish to submit their scores: the latest acceptable test dates are November for Early Decision I applicants and December for Regular Decision and Early Decision II applicants. Vassar will accept self-reported SAT and ACT scores; we superscore, which means we will look at your highest section scores if you’ve taken a test more than once.
 
   <?php echo info_card('Note', null, 'info'); ?>
   <p>Enrolling students who choose to self-report testing will be required to provide official score reports in the spring. Vassar reserves the right to revoke an offer of admission if an applicant’s self-reported scores do not align with those in their official score report.</p>
   <?php echo end_info_card(); ?>
 
 
-  <?php accordion('policies'); ?>
-
-    <?php echo accordion_item('policies', 'SAT');?>
-<p>In assessing SAT scores, Vassar uses the highest individual subscores of the SAT from multiple test dates to create a superscore. Should students choose to submit the SAT, Vassar does not require the optional essay or the SAT II Subject Tests (see below).</p>
-    <?php echo end_accordion_item();?>
-
-    <?php echo accordion_item('policies', 'SAT II Subject Tests (Optional)');?>
-<p>SAT Subject Tests are&nbsp;<strong>not required</strong>, and students opting not to send Subject Tests will not be penalized. However, SAT Subject Tests will be considered if submitted as part of a testing profile. Subject Tests may enhance an applicant’s credentials, particularly for applicants from non-traditional school backgrounds (homeschooled, non-graded schools, etc.). Note that a strong score on an SAT Subject Test is also one way to fulfill Vassar’s&nbsp;<a href="https://go.vassar.edu/degree-requirements-courses-of-study">Foreign Language Proficiency requirement</a>.</p>
-    <?php echo end_accordion_item();?>
-
-    <?php echo accordion_item('policies', 'ACT');?>
-<p>In assessing ACT scores, Vassar uses the highest score for each section test (subscore) from all test dates to recalculate a new composite score.</p>
-<p>Applicants choosing to submit the ACT are not required&nbsp;to submit the optional writing test.</p>
-    <?php echo end_accordion_item();?>
-
-  <?php end_accordion(); ?>
-
-
-  <?php // echo cta_link('','Read Vassar’s standardized test policy'); ?>
 
 
 <?php echo end_item_iconItem(); ?>
@@ -136,11 +116,11 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_iconItem(
-  'Interviews',
-  'people-arrows-left-right',
+  'Informational Interviews',
+  'comments',
   'icon-on-left theme-white-border'
 ); ?>
-  <p>Though not required, you may want to connect with a Vassar student or alum to learn more. These interviews are informational, not evaluative.</p>
+  <p>After applying, you may request an informational interview with an alumnus to learn more about the Vassar experience. These interviews are not evaluative and are not a required part of the application process.</p>
 
   <?php echo cta_link(
       '/admission/apply/requirements/interviews',
@@ -156,7 +136,7 @@ $page_info = json_decode($page_info, true);
   'star',
   'icon-on-left theme-white-border'
 ); ?>
-  <p>An optional opportunity for first-year applicants to share a well-developed talent or accomplishment in music, art, or dance.</p>
+  <p>If you have a well-developed talent or significant accomplishment in music, art, or dance, you may submit a portfolio to be evaluated by our faculty.</p>
 
   <?php echo cta_link(
     '/admission/apply/requirements/arts',
