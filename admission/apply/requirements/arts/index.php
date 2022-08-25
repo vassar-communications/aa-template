@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 /* PAGE INFO === */
 
 $page_info = '{
-  "page_title":"Art, Music, and Dance Portfolios",
+  "page_title":"Music, Art and Dance Portfolios",
   "feature_image":"/admission/assets/images/apply/arts/0123_15_11_KR_0170.jpg"
 }';
 /* === */
@@ -65,7 +65,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo deadlines_item('Early Decision I', $deadlines['portfolio-early-decision-1']); ?>
 <?php echo deadlines_item('Early Decision II', $deadlines['portfolio-early-decision-2']); ?>
-<?php echo deadlines_item('Regular Decision', $deadlines['regular-decision']); ?>
+<?php echo deadlines_item('Regular Decision',  $deadlines['portfolio-early-decision-2']); ?>
 <?php echo end_deadlines(); ?>
 
 <?php echo end_item_col(); ?>
@@ -135,8 +135,8 @@ $page_info = json_decode($page_info, true);
 
     <p>If you submitted the Questbridge or Coalition Application and require a Slideroom fee waiver, please email <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a> to make that request.</p>
 
-<h3 class="mt-5">Questions about art, music, and dance portfolios?</h3>
-    <p>Please email Melanie Poston at <a href="mailto:mposton@vassar.edu">mposton@vassar.edu</a>.</p>
+<h3 class="mt-5">Questions about music, art, and dance portfolios?</h3>
+    <p>Please email Joanne Narrido at <a href="mailto:jnarrido@vassar.edu">jnarrido@vassar.edu</a>.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <!-- Related Topics -->

@@ -87,19 +87,6 @@ function admissionExploreHudsonCarousel () {
     </div>
 </div>
 
-<div class="carousel-cell">
-    <div class="carousel-cell-content">
-        <div class="image-container">
-        <img src="/admission/assets/images/explore/hudson/Depositphotos_357058764_XL.jpg" alt="A photo of a downtown city street with a blue sky behind the buildings" />
-        </div>
-        <div class="figcaption pt-5">
-            <h3 class="h3">Main Mall Row</h3>
-            <p>This group of 1870s Renaissance Revival storefronts sits along Poughkeepsie’s Main Street, which is on the National Register of Historic Places. </p>
-        </div>
-    </div>
-</div>
-
-
 
 
 <div class="carousel-cell">

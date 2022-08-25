@@ -512,7 +512,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Katherine Cerino-Jones',
-    'Administrative Assistant',
+    'Office Specialist',
     [
       'phone' => '845-437-7172',
       'email' => 'kcerinojones@vassar.edu',
@@ -678,8 +678,18 @@ echo contact_card(
     'Lane Sulzer',
     'Associate Director of Annual Giving, Digital Engagement Officer',
     [
-      'phone' => '',
+      'phone' => '845-437-7898',
       'email' => 'lsulzer@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+echo contact_card(
+    'Rori-An Chuck ’19',
+    'Assistant Director of Annual Giving, Student Education & Young Alumnae/i Philanthropy',
+    [
+      'phone' => '845-437-7890',
+      'email' => 'rochuck@vassar.edu',
     ]
 );
 echo end_contact_card();
@@ -807,7 +817,7 @@ echo end_contact_card();
 
 echo contact_card(
     'TBD',
-    'Administrative Assistant',
+    'Office Specialist',
     [
       'phone' => '',
       'email' => '',
@@ -844,7 +854,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Tracey Cousar',
-    'Administrative Assistant',
+    'Office Specialist',
     [
       'phone' => '845-437-5412',
       'email' => 'trcousar@vassar.edu',

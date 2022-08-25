@@ -71,7 +71,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Your college journey</b>
-   <b class="slide-from-right nice-big-serif">begins here.</b>',
+   <b class="slide-from-right nice-big-serif">begins here</b>',
     '<p class="section-intro-text">Our Admission team is here to help you with:</p>',
     'sec-fixedCenteredTitle theme-verylightgray here-to-help',
     'mw-4',
@@ -99,7 +99,7 @@ $page_info = json_decode($page_info, true);
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
-    <p>What’s required / How to apply / Important Deadlines / Tuition</p>
+    <p>View our application requirements and deadlines.</p>
 
 
     <?php echo end_item_cardWithText(
@@ -117,7 +117,7 @@ $page_info = json_decode($page_info, true);
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
-    <p>Plan your in-person or virtual visit.</p>
+    <p>Explore on-campus and virtual visit options.</p>
 
     <?php echo end_item_cardWithText(
         null,
@@ -131,7 +131,7 @@ $page_info = json_decode($page_info, true);
 
     ); ?>
 
-    <p>Early and regular decision / Transferring to Vassar</p>
+    <p>Learn about our generous need-based financial aid and costs.</p>
 
     <?php echo end_item_cardWithText(
         null,
@@ -145,7 +145,7 @@ $page_info = json_decode($page_info, true);
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
-    <p>Get Vassar’s newsletter and other information about Vassar.</p>
+    <p>Join the mailing list and stay up to date with Vassar.</p>
 
 
     <?php echo end_item_cardWithText(
@@ -167,7 +167,7 @@ $page_info = json_decode($page_info, true);
 
 echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">This is</b>
-   <b class="slide-from-right">Vassar.</b>',
+   <b class="slide-from-right">Vassar</b>',
     '<h2 class="section-intro-text" style="font-size: 3rem; font-weight: 100; font-size: 4rem;
     font-weight: 100;
     max-width: 40rem;
@@ -179,7 +179,7 @@ echo sec_fixedCenteredTitle(
 
 <a href="/admission/quick-facts/community/" class="btn btn-lg btn-light arrow me-4 mb-3">Meet Vassar</a>
 
-<a href="/admission/quick-facts/class-profile/" class="btn btn-lg btn-light arrow mb-3">Just the facts</a>
+<a href="/admission/quick-facts/class-profile/" class="btn btn-lg btn-light arrow mb-3">Class Profile</a>
 
 </div>',
 
@@ -259,8 +259,8 @@ echo sec_fixedCenteredTitle(
 
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Our favorite</b>
-   <b class="slide-from-right">places.</b>',
-    '<h3 class="section-intro-text">We are extremely proud of our 1,000-acre campus. The Vassar campus has buildings that showcase classic architecture blended seamlessly with modern, cutting-edge facilities.</h3>
+   <b class="slide-from-right">places</b>',
+    '<h3 class="section-intro-text">Vassar is extremely proud of our 1,000-acre campus, where classic architecture blends seamlessly with modern, cutting-edge facilities.</h3>
 
     <p class="text-center mb-5 fst-italic fs-5">Videos with an <i class="icon fa fa-vr-cardboard mx-2"></i> icon are panoramic. Drag inside the video to look around!</p>',
     'sec-fixedCenteredTitle theme-burgundy',
@@ -398,10 +398,10 @@ echo sec_fixedCenteredTitle(
 <!-- visit -->
 
 <?php echo sec_fixedCenteredTitle(
-    '<b class="slide-from-left">Visit before</b>
-   <b class="slide-from-right">you visit.</b>',
+    '<b class="slide-from-left">Experience Vassar</b>
+   <b class="slide-from-right">for Yourself</b>',
     '<h3 class="section-intro-text">
-All Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life. Explore virtual visiting opportunities today and learn more about in-person visits.
+Vassar students are surrounded by an environment designed to spark something amazing — a place where greatness can spring to life. Explore on campus and virtual visit opportunities and get to know Vassar first-hand.
    </h3>
 
    <p class="text-center mb-5 fs-5">See the Vassar campus through the eyes of our students:</p>',
@@ -551,12 +551,6 @@ All Vassar students are surrounded by an environment designed to spark something
 
 <div class="grid cols-3 commonquestions animation-group animation-zoom-in animate-when-content-appears" style="--bs-gap: 1rem">
 
-    <?php echo item_iconButton(
-        'house-chimney-user',
-        'Housing is guaranteed for all four years.',
-        'vassar.edu',
-        'btn-card animation-item'
-    ); ?>
 
     <?php echo item_iconButton(
         'clipboard-check',
@@ -567,28 +561,35 @@ All Vassar students are surrounded by an environment designed to spark something
 
     <?php echo item_iconButton(
         'coins',
-        'Vassar meets all demonstrated financial need for all four years.',
+        'Vassar meets 100% of demonstrated financial need.',
         'vassar.edu',
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
-        'car',
-        'Students are allowed to have cars on campus.',
+        'house-chimney-user',
+        'Housing is guaranteed for all four years.',
         'vassar.edu',
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
-        'people-arrows-left-right',
-        'Interviews aren’t required, but they’re informative.',
+        'globe',
+        'Vassar offers more than 130 study abroad programs.',
         'vassar.edu',
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
-        'passport',
-        'Undocumented/DACA-mented applicants welcome.',
+        'seedling',
+        'We are committed to being carbon neutral by 2030.',
+        'vassar.edu',
+        'btn-card animation-item'
+    ); ?>
+
+    <?php echo item_iconButton(
+        'question',
+        'Vassar does not use demonstrated interest in the admission process.',
         'vassar.edu',
         'btn-card animation-item'
     ); ?>

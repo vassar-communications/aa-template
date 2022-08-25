@@ -30,7 +30,7 @@ function admissionExploreCampusCarousel () {
       </div>
        <div class="figcaption pt-5">
             <h3 class="h3">The Frances Lehman Loeb Art Center</h3>
-            <p>Founded in 1864 as the Vassar College Art Gallery, the center is one of the only nationally known museums on a college campus. Today it is home to 21,000 works including by Rembrandt, Pablo Picasso, Georgia O’Keeffe, and Francis Bacon.
+            <p>Founded in 1864 as the Vassar College Art gallery, the Loeb was the first art museum to be part of a college’s original plan. Today it is home to 21,000 works including by Rembrandt, Pablo Picasso, Georgia O’Keeffe, and Francis Bacon.
 </p>
       </div>
     </div>

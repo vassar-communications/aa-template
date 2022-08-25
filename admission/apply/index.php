@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo masthead_interiorPage(
-    'Join Our Passionate Community',
+    'Join Our Community',
     'Vassar’s open curriculum offers the freedom and flexibility to pursue your passions while discovering new interests. As there are no class requirements, you can take the courses you wish and know your classmates have chosen them as well.
 
     <a href="https://apply.vassar.edu/status" class="center-object btn btn-lg btn-primary arrow text-center mt-5">Check your status</a>
@@ -183,7 +183,7 @@ null,
   'A row of brightly colored international flags in front of Main Building']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Vassar is a vibrant community of global citizens.</p>
+    <p>Vassar is a vibrant community of global citizens. Learn more about the application process for international students.</p>
     <?php echo cta_link(
       '/admission/apply/international/',
         'Information for international applicants',

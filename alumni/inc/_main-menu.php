@@ -57,7 +57,7 @@
         <div id="alumni-community" class="accordion-collapse collapse" aria-labelledby="collapseOne" data-bs-parent="#alumni-community">
            <div class="accordion-body h3 text-left px-0">
 
-              <div class="mb-2"> <a class="text-white" href="/alumni/community/aavc/">Alumni Association of Vassar</a></div>
+              <div class="mb-2"> <a class="text-white" href="/alumni/community/aavc/">Alumnae/i Association of Vassar</a></div>
 
               <div class="mb-2"> <a class="text-white" href="/alumni/community/alumni-news/">Alumni News and Stories</a></div>
 

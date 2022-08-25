@@ -46,7 +46,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Life After Vassar',
-    'Yes, we know you have to think beyond graduation, beyond Vassar. And we are here to support you every step of the way.',
+    'From day one, you will be part of a community that is committed to supporting your growth and success.',
     '/admission/assets/images/explore/outcomes/2022-cap-toss.jpg',
     null,
     null,
@@ -67,7 +67,7 @@ $page_info = json_decode($page_info, true);
     null
 ); ?>
 
-<?php echo animated_statement('Within six months of graduating, 96% of Vassar students are employed, in graduate school, or in a competitive fellowship.'); ?>
+<?php echo animated_statement('Within six months of graduating, 93% of Vassar students are employed, in graduate school, or in a competitive fellowship.'); ?>
 
 <?php echo end_sec_regularContent(); ?>
 

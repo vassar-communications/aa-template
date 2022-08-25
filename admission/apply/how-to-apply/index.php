@@ -41,14 +41,14 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 
-<p>Whether you’re a first year or transfer applicant, find everything you need to know here about how to apply and what we look for in an applicant.</p>
+<p>Whether you’re a first-year or transfer applicant, find everything you need to know here about how to apply and what we look for in an applicant.</p>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_regularContent(
-    'First Year Applicants',
+    'First-Year Applicants',
     null,
     '',
     ''
@@ -56,9 +56,9 @@ $page_info = json_decode($page_info, true);
 
   <p>First-year applicants may submit in any one of the following ways:</p>
     <ul class="linked-list">
-    <li><?php echo central_link('common-app', 'Common application'); ?></li>
-    <li><?php echo central_link('coalition-app', 'Coalition application'); ?></li>
-    <li><a href="/admission/apply/questbridge/">QuestBridge application</a></li>
+    <li><?php echo central_link('common-app', 'Common Application'); ?></li>
+    <li><?php echo central_link('coalition-app', 'Coalition Application'); ?></li>
+    <li><a href="/admission/apply/questbridge/">QuestBridge Application</a></li>
     </ul>
 
     <?php echo cta_link(
@@ -113,16 +113,16 @@ $page_info = json_decode($page_info, true);
       <li>Academic performance, as demonstrated in high school</li>
       <li>Personal strengths, motivation, and potential as evidenced in essays, recommendations, and community involvement</li>
   </ul>
-  <p>Vassar recommends that prospective applicants applying from high school elect four years of:
+  <p>Vassar recommends that prospective applicants applying from high school take four years of:
   </p>
   <ul>
       <li>English</li>
       <li>Mathematics</li>
-      <li>Laboratory science</li>
+      <li>Science</li>
       <li>History or social science</li>
-      <li>Foreign language</li>
+      <li>A language other than English</li>
   </ul>
-  <p>It is also recommended that applicants take a substantial portion of their work in enriched, accelerated, or honors courses or in Advanced Placement or International Baccalaureate programs when these options are available.</p>
+  <p>Applicants should take a substantial portion of their work in Advanced Placement, International Baccalaureate, or the highest level of coursework available in their school.</p>
   <p>Special attention is given to the academic breadth, depth, and rigor of candidates’ junior and senior year programs.</p>
 
   <?php echo info_card(

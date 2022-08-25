@@ -8,8 +8,8 @@ function central_link(
 ) {
 
 $linkbase = array(
-  'common-app' => 'https://app.scoir.com/app/signup/1100230',
-  'coalition-app' => 'https://www.mycoalition.org/public/info/vassar'
+  'common-app' => 'https://apply.commonapp.org/login?ma=278',
+  'coalition-app' => 'https://app.scoir.com/app/signup/1100230'
 );
 
 $link_url = $linkbase[$link_key];
