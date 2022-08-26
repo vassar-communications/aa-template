@@ -1,0 +1,92 @@
+<html>
+
+<head>
+  <title>Demo of news RSS retrieval and Formatting</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="/alumni/assets/js/libraries/flickity.js"></script>
+  <script src="/alumni/assets/js/libraries/flickity-fade.js"></script>
+  <link rel="stylesheet" href="/alumni/assets/icons/fontawesome-free-6.1.1-web/css/all.min.css">
+  <link rel="stylesheet" href="/alumni/assets/css/style.css">
+</head>
+
+<body>
+  <h1>Demo of news RSS retrieval and Formatting</h1>
+
+  <div class="section sec-fixedCenteredTitle theme-burgundy has-image show-title show-content" style="
+      --section-title-size: 10vw;
+      /* --section-title-faded-opacity: 0.2; */
+      --title-container-bg-beforeContent: rgba(0,0,0,0.4);
+      --section-bg-image-opacity: 0;
+      ">
+    <!--<div class="section-bg-image-container ">
+      <div class="section-title-container">
+        <h2 class="section-title animate-when-content-appears content-appeared"><b class="slide-from-left">In The</b>
+          <b class="slide-from-right">Media</b>
+        </h2>
+      </div>
+      <img class="section-bg-image" src="/alumni/assets/img/alumni-home/0069-19-05-kr-spring-vassar-4662.jpg"
+        alt="Aerial view of the Vassar residential quad">
+    </div>-->
+    <div class="section-content animation-fade-in animate-when-content-appears mw-4 content-appeared">
+      <h2 class="section-intro-text mb-5 pb-5">Vassar Alumni making news.</h2>
+
+
+      <div id="newsRSS_target">
+        <p>Fallback content here!</p>
+      </div>
+
+
+    </div>
+  </div>
+
+  <script>
+    function parseRSS(urlIN, callback) {
+      $.ajax({
+        url: urlIN,
+        dataType: 'json',
+        success: function (data) {
+          //console.log(data);
+          //callback(data);
+          markup = '';
+          for (let i = 0; i < data.length; i++) {
+            var itemMarkup = `
+      <div class="carousel-cell is-link">
+        <div class="carousel-cell-content">
+         <div class="image-container">
+            <img src="${data[i]['image_16_9_l']}" alt="" />
+         </div>
+         <div class="figcaption pt-4 listen">
+            <h3>
+               <a href="${data[i]['path']}" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">${data[i]['title']}</span>
+               </a>
+            </h3>
+            <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
+         </div>
+      </div>
+     </div>
+`.trim();
+            markup += itemMarkup;
+          }
+          if (markup.length !== 0) {
+            markup = '<div class="featureImage-text-ticker media-carousel full">' + markup + '</div>';
+            $('#newsRSS_target').replaceWith(markup);
+//Coped from https://github.com/vassar-communications/aa-template/blob/main/assets/js/main.js, Line 377
+            $('.featureImage-text-ticker').flickity({
+              contain: true,
+              selectedAttraction: 0.009,
+              friction: 0.2,
+              pageDots: false,
+              autoPlay: 7400,
+              wrapAround: true,
+              watchCSS: true
+            });
+          }
+        }
+      });
+    }
+    parseRSS('https://www.vassar.edu/news/rss/511');
+  </script>
+
+</body>
+
+</html>

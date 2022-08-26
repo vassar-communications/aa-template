@@ -54,26 +54,24 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_alert(
     'Announcement',
-    'Dates for the Fall 2022 program have not yet been determined. Please check back soon.',
+    'This year’s College Search 101 program will be offered virtually on Sunday, November 13, 2022. Registration information will be sent via broadcast email in September.',
     'info-circle',
     'alert-light alert-accent-gold'
 ); ?>
 
 <h3>Overview</h3>
+
 <p>Here are some of the program highlights registered participants may expect during the session:</p>
 
 <ul>
-    <li>Meet with Vassar College admissions professionals who will share advice about what to look for in a college, and where to start.</li>
-    <li>Attend valuable information sessions on financial aid and college athletics.</li>
-    <li>High school juniors will meet with current Vassar students for an open discussion about college life.</li>
+  <li>Hear from Vassar College admissions professionals who will share advice about navigating the college search process, and how to evaluate schools that are right for you.</li>
+  <li>Attend valuable information sessions on financial aid and College athletics.</li>
+  <li>Meet current Vassar students for an open discussion about College life (for high school juniors only).</li>
 </ul>
 
+<p>Please note: this program provides a broad overview into the college search process from an insider’s perspective. It is not about admission to Vassar; the program is neither a feeder program nor does participation influence admission decisions at the College.</p>
 
 
-
-<p>This program provides a broad overview into the college search process from an insider's perspective. It is not about admission to Vassar; the program is neither a feeder program nor does participation influence admission decisions at the college.</p>
-
-<p>Due to space limitations and our desire to accommodate the most appropriate audience, participation in program activities is limited to the alumna/us and their high school junior, and one additional adult guest.</p>
 
 
 <?php echo end_sec_regularContent(); ?>

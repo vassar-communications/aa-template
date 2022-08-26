@@ -694,7 +694,7 @@ echo contact_card(
 );
 echo end_contact_card();
 
-
+/*
 echo contact_card(
     'TBD',
     'Administrative Fellow',
@@ -704,7 +704,7 @@ echo contact_card(
     ]
 );
 echo end_contact_card();
-
+*/
 
 echo contact_card(
     'Tammy Carney',
