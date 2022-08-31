@@ -123,4 +123,22 @@ $page_info = json_decode($page_info, true);
 
 
 
+<?php echo sec_fullBleedImageColumn(
+    'Vassar Quarterly',
+    '/alumni/assets/img/alumni-community/vq-logo.gif',
+    'theme-cream image-is-first',
+    '',
+    ['img_alt_text' => 'VQ logo']
+); ?>
+  <div class="animate-when-content-appears animation-slide-up">
+      <?php echo cta_link(
+          'https://www.vassar.edu/vq',
+          'Read the <em>Vassar Quarterly</em>'
+      ); ?>
+  </div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+
 <?php echo site_footeralumni(); ?>
