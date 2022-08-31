@@ -165,7 +165,7 @@ echo sec_fixedCenteredTitle(
 
 <?php display_feed('https://connect.vassar.edu/controls/cms_v2/components/rss/rss.aspx?sid=1654&gid=2&calcid=8471&page_id=5161', '3'); ?>
 
-          <a href="/alumni/calendar/" class="center-object mb-5 btn btn-lg btn-light arrow">All events</a>
+          <a href="/alumni/calendar/#events" class="center-object mb-5 btn btn-lg btn-light arrow">All events</a>
 
 <?php echo end_event_listing(); ?>
 

@@ -11,7 +11,7 @@ function sec_wideContent(
     global $section_title;
 
     $title_classes = get_extras_value('title_classes', $extras);
-
+    $sec_id = get_extras_value( 'id', $extras, 'id="%s"' );
 
 //  Check if a bg image was specified, and
 //    set up both the markup and the section class for it.
@@ -30,7 +30,7 @@ function sec_wideContent(
     }
 
     return <<<TMP
-    <div class="section section--wide-content $section_classes">
+    <div class="section section--wide-content $section_classes" $sec_id>
     {$section_title($title, $title_classes)}
     {$bg_image($extras)}
     $wrapped_intro

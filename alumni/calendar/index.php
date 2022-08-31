@@ -126,7 +126,11 @@ June 6–8, 2025</p>
 <?php echo sec_wideContent(
     'Upcoming Events',
     null,
-    'theme-extralightgray'
+    'theme-extralightgray',
+    null,
+    [
+      'id' => 'events'
+    ]
 ); ?>
 
 <?php echo event_listing(); ?>
