@@ -14281,6 +14281,37 @@ ul.style-checklist a, ul.style-checklist .video-modal-link {
   padding: 0.4rem 0rem 0.4rem 1rem;
 }
 
+.schedule .schedule-item {
+  margin: 1rem 0 0 0;
+}
+.schedule .schedule-col-agenda li {
+  list-style: none;
+  margin-bottom: 0.4rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #ddd;
+}
+.schedule .schedule-col-agenda ul {
+  padding: 0;
+}
+@media screen and (min-width: 50em) {
+  .schedule .schedule-item {
+    display: flex;
+    gap: 4rem;
+    margin: 3rem 0;
+  }
+  .schedule .schedule-col-title {
+    width: 30%;
+  }
+  .schedule .schedule-col-agenda {
+    width: 70%;
+  }
+}
+.schedule .schedule-item-title {
+  font-size: 1.6rem;
+  position: sticky;
+  top: 3rem;
+}
+
 /* Basic links */
 /*
 p a,

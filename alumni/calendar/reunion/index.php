@@ -40,9 +40,116 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'two people walking and smiling in a large group of people']
 ); ?>
-<p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled about the return to in-person reunions and can’t wait to welcome you and your classmates back to campus. This page will be updated periodically to provide the latest information about Reunion, which happens on campus in early June every year. Reunion registration opens in early April.</p>
-<p>If you have questions, don’t hesitate to write to <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a> or call <?php echo phone_number('800-443-8196'); ?></a>.</p>
+<p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 3s and 8s on campus for Reunion, June 2–4, 2023 (the 50th Reunion class arrives on June 1). Please help us prepare for your arrival by expressing your interest to attend.</p>
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+<?php echo sec_hasColumns(
+    'Choose the class with whom you are reuning',
+    '2',
+    '<p>Reunion Registration will open in early April. This page continues to be updated periodically. Be sure to check back! If you have any questions, please call ' . phone_number('800-443-8196') . ', option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>',
+    'items-equal-height mw-inner-1',
+    'gap-3'
+); ?>
+
+  <?php echo item_col(); ?>
+    <ul class="linked-list">
+        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6250&amp;gid=2&amp;cid=10326&amp;ecid=10326&amp;post_id=0" class="btn btn-link  ">
+
+      <span>Class of 2018 Reunion Interest Form  </span>
+
+      </a></li>
+        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6283&amp;gid=2&amp;cid=10375&amp;ecid=10375&amp;post_id=0" class="btn btn-link  ">
+
+      <span>Class of 2016 Reunion Interest Form  </span>
+
+      </a></li>
+        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6277&amp;gid=2&amp;cid=10362&amp;ecid=10362&amp;post_id=0" class="btn btn-link  ">
+
+      <span>Class of 2013 Reunion Interest Form  </span>
+
+      </a></li>
+        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6274&amp;gid=2&amp;cid=10358&amp;ecid=10358&amp;post_id=0" class="btn btn-link  ">
+
+      <span>Class of 2008 Reunion Interest Form  </span>
+
+      </a></li>
+        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6271&amp;gid=2&amp;cid=10354&amp;ecid=10354&amp;post_id=0" class="btn btn-link  ">
+
+      <span>Class of 2003 Reunion Interest Form  </span>
+
+      </a></li>
+        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6241&amp;gid=2&amp;cid=10314&amp;ecid=10314&amp;post_id=0" class="btn btn-link  ">
+
+      <span>Class of 1998 Reunion Interest Form  </span>
+
+      </a></li>
+        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6268&amp;gid=2&amp;cid=10350&amp;ecid=10350&amp;post_id=0" class="btn btn-link  ">
+
+      <span>Class of 1993 Reunion Interest Form  </span>
+
+      </a></li>
+    </ul>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <ul class="linked-list">
+        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6265&amp;gid=2&amp;cid=10346&amp;ecid=10346&amp;post_id=0" class="btn btn-link  ">
+
+      <span>Class of 1988 Reunion Interest Form  </span>
+
+      </a></li>
+        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6262&amp;gid=2&amp;cid=10342&amp;ecid=10342&amp;post_id=0" class="btn btn-link  ">
+
+      <span>Class of 1983 Reunion Interest Form  </span>
+
+      </a></li>
+        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6259&amp;gid=2&amp;cid=10338&amp;ecid=10338&amp;post_id=0" class="btn btn-link  ">
+
+      <span>Class of 1978 Reunion Interest Form  </span>
+
+      </a></li>
+        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6214&amp;gid=2&amp;cid=10257&amp;ecid=10257&amp;post_id=0" class="btn btn-link  ">
+
+      <span>Class of 1973 Reunion Interest Form  </span>
+
+      </a></li>
+        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6256&amp;gid=2&amp;cid=10334&amp;ecid=10334&amp;post_id=0" class="btn btn-link  ">
+
+      <span>Class of 1968 Reunion Interest Form  </span>
+
+      </a></li>
+        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6253&amp;gid=2&amp;cid=10330&amp;ecid=10330&amp;post_id=0" class="btn btn-link  ">
+
+      <span>Class of 1963 Reunion Interest Form  </span>
+
+      </a></li>
+        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6244&amp;gid=2&amp;cid=10318&amp;ecid=10318&amp;post_id=0" class="btn btn-link  ">
+
+      <span>Class of 1958 Reunion Interest Form  </span>
+
+      </a></li>
+    </ul>
+  <?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+<?php echo sec_regularContent(
+  null,
+  'pt-0',
+  'text-center'
+); ?>
+
+  <h3>Future Reunion Dates</h3>
+
+  <p>May 31–June 1, 2024<br>
+  June 6–8, 2025</p>
+
+
+
+<?php echo end_sec_regularContent(); ?>
+
 
 <?php echo sec_fullBleedImageColumn(
     'General Reunion<br> Class Schedule',
@@ -52,8 +159,8 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'a large group of people walking up a winding road on Vassar campus']
 ); ?>
 <?php echo cta_link(
-    'https://www.vassar.edu/sites/default/files/2022-01/Reunion-2022-Preliminary-General-Schedule.pdf',
-    'See the Reunion 2022 schedule (PDF)'
+    '/alumni/calendar/reunion/schedule/',
+    'See the Reunion 2022 schedule'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -64,19 +171,18 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'Overhead shot of people seated a round table in a large room for an event']
 ); ?>
-<p>This year’s 50th reunion programming will include the class of 1972.</p>
-<?php echo cta_link(
-    'https://www.vassar.edu/sites/default/files/2022-03/1972-50th%20Reunion-Schedule-and-Newsletter-Mar4.pdf',
-    'See the Reunion 2022 schedule (PDF)'
-); ?>
+
+<p>Enjoy the campus a day early with programming designed especially for the 50th Reunion class.</p>
+
+<p>Be sure to check back for more specific details coming soon, but expect to be able to check in on Thursday, June 1 at 2:00 p.m. Please refer to <a href="/alumni/calendar/reunion/schedule/">the General Reunion Schedule</a> for an idea of what to expect that weekend.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_regularContent('Information & Updates','theme-verylightgray','','',); ?>
 
 <?php echo item_iconItem('Housing','house-chimney',''); ?>
-<p>We are excited to welcome alumni back to Vassar for in-person reunions and want to ensure that everyone makes informed decisions about where to stay. Please be sure to note the College’s COVID-19 protocols before making your travel plans and also consider your lodging needs.
-</p>
+<p>We are excited to welcome alumni back to Vassar for in-person reunions and want to ensure that everyone makes informed decisions about where to stay.</p>
+
 <p>We recommend you <strong>register early</strong> for on-campus housing as it is allocated on a first come, first served basis.</p>
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
     <div class="accordion-item">
