@@ -45,8 +45,8 @@ return <<<TMP
 
   <div class="col-item stat-item bg-transparent item-ratio">
     <div class="stat-item-fact">
-      <div class="stat-value">{$facts['student_faculty_ratio']}</div>
-      <div class="stat-label text-primary">$ratio_icon Student to faculty ratio</div>
+      <div class="stat-value">{$facts['average_class_size']}</div>
+      <div class="stat-label text-primary">$ratio_icon Average class size</div>
     </div>
   </div>
 </div>

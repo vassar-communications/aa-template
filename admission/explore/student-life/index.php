@@ -84,29 +84,29 @@ $page_info = [
 
     <?php echo item_iconButton(
         'microphone-lines',
-        'nine <i>a capella</i> singing groups',
-        null,
+        'A variety of performance groups',
+        'https://www.vassar.edu/arts',
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
-        'fire',
-        'the Barefoot Fireflies fire-juggling club',
-        null,
+        'volleyball',
+        'Club and intramural sports',
+        'https://www.vassarathletics.com/',
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
         'users',
-        'hundreds of student organizations',
-        null,
+        '150+ student organizations',
+        'https://vsa.vassar.edu/',
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
         'calendar-days',
-        'thousands of campus-wide events',
-        null,
+        'Thousands of campus-wide events',
+        'https://www.vassar.edu/news/events',
         'btn-card animation-item'
     ); ?>
 

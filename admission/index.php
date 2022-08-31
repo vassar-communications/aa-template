@@ -61,9 +61,10 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
-<p class="animation-item"><span class="intro-line">A Vassar education opens minds and doors.</span></p>
+<!--<p class="animation-item"><span class="intro-line">A Vassar education opens minds and doors.</span></p> -->
 
-<p class="animation-item">Each year, Vassar aims to enroll the most <strong>interesting</strong>, <strong>talented</strong>, and <strong>diverse</strong> first-year class possible.</p>
+ <p class="animation-item"> Vassar is home to a diverse community of <strong>passionate</strong> and <strong>engaged</strong> students who embrace the shared value of learning from each other&#39;s differences.
+     <!--Each year, Vassar aims to enroll the most <strong>interesting</strong>, <strong>talented</strong>, and <strong>diverse</strong> first-year class possible.--></p>
 
 
 <?php echo end_sec_regularContent(); ?>
@@ -72,7 +73,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Your college journey</b>
    <b class="slide-from-right nice-big-serif">begins here</b>',
-    '<p class="section-intro-text">Our Admission team is here to help you with:</p>',
+    null,
     'sec-fixedCenteredTitle theme-verylightgray here-to-help',
     'mw-4',
     ['bg-image-url' => '/admission/assets/images/0145-15-05-hw-campus-vassar-vb-4747.jpg',
@@ -173,8 +174,8 @@ echo sec_fixedCenteredTitle(
     max-width: 40rem;
     margin: 4rem auto 2rem;
     text-align: left;">Vassar is from <span id="x-where-from">everywhere</span></h2>
-   <h3 class="section-intro-text">A world-class education is built on worldwide communities. Our students come from '.$class_stats['number_of_states'].' states and '. $class_stats['number_of_countries']
-.' countries. Nearly one in ten come from foreign countries; nearly half will study abroad while at Vassar.</h3>
+   <h3 class="section-intro-text">A world-class education is built on worldwide communities. Our students come from all 50 states and '. $class_stats['number_of_countries_all']
+.' countries. They represent a wide range of backgrounds, experiences, and aspirations, forming a vibrant community that will prepare you to lead in an increasingly diverse and interconnected world.</h3>
 <div class="text-center mb-5">
 
 <a href="/admission/quick-facts/community/" class="btn btn-lg btn-light arrow me-4 mb-3">Meet Vassar</a>
@@ -207,30 +208,28 @@ echo sec_fixedCenteredTitle(
 <div class="grid cols-4 flipcards animation-zoom-in animate-when-content-appears animation-group  flex-column flex-md-row" style="gap: 2vw; --flipcard-height: 14rem">
 
     <?php echo flipcard_stat(
-        'Average Aid Award',
-        '<span class="dollar">$</span>54<span class="smaller">K</span>',
-        'More than half of Vassar students receive financial aid.
-    ',
+        'Students Receiving Financial Aid',
+        '65%',
+        'The average financial aid award is $54K',
         'animation-item',
         '/admission/financial-aid/',
-        null,
-        '* 21/22 academic year'
+        null
     );
     ?>
 
     <?php echo flipcard_stat(
-        'Majors',
-        $facts['number_of_majors'],
-        'Choose from 48 departments and programs, '.$facts['number_of_majors'].' majors, plus the Independent Program (interdisciplinary “design your own” major).',
+        'Students of Color',
+        $class_stats['students_of_color_2'],
+        'Vassar students come from a wide range of backgrounds and experiences.',
         'animation-item',
         '/admission/explore/academics/'
     );
     ?>
 
     <?php echo flipcard_stat(
-        'Student Orgs',
-        $resources['student_orgs'],
-        'From volunteer opportunities in our local community to mystery hikes with the Outing Club, Vassar has an organization for everyone.',
+        'First-Generation Students',
+        '15%',
+        'Vassar’s Transitions Program is designed to support first-generation, low-income, and undocumented students.',
         'animation-item',
         '/admission/explore/student-life/'
     );
@@ -238,7 +237,7 @@ echo sec_fixedCenteredTitle(
 
     <?php echo flipcard_stat(
         'Grad Placement',
-        '96%',
+        '93%',
         'Within six months of graduating, 96% of Vassar students are employed, in graduate school, or in a competitive fellowship.',
         'animation-item',
         '/admission/explore/outcomes/'
@@ -588,7 +587,7 @@ Vassar students are surrounded by an environment designed to spark something ama
     ); ?>
 
     <?php echo item_iconButton(
-        'question',
+        'scale-balanced',
         'Vassar does not use demonstrated interest in the admission process.',
         'vassar.edu',
         'btn-card animation-item'

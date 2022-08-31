@@ -35,6 +35,7 @@ $facts['adm_total_cost'] = number_format($facts['adm_total_cost']);
 $facts['number_of_students'] = '2,500';
 $facts['number_of_faculty'] = '355';
 $facts['student_faculty_ratio'] = '8:1';
+$facts['average_class_size'] = '17';
 
 $facts['number_of_majors'] = '50';
 $facts['number_of_alumni'] = '41,000';
@@ -52,10 +53,12 @@ $deadlines['portfolio-early-decision-1'] = 'November 17, 2022';
 $deadlines['portfolio-early-decision-2'] = 'January 7, 2023';
 
 $class_stats['number_of_countries'] = '22';
+$class_stats['number_of_countries_all'] = '79';
 $class_stats['number_of_states'] = '41';
 $class_stats['percentage_male'] = '38.4%';
 $class_stats['percentage_female'] = '61.6%';
 $class_stats['students_of_color'] = '38%';
+$class_stats['students_of_color_2'] = '35%';
 
 $class_stats['attd_public_school'] = '66.7%';
 $class_stats['attd_private_school'] = '24%';
