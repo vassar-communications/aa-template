@@ -83,7 +83,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <p>“One of the nicest areas in Poughkeepsie to stroll, shop, and get a bite to eat is the Vassar College area.”</p>
-<div class="quote-attribution">Robyn Taylor, <em>101.5 WPDH</em></div>
+<div class="quote-attribution">Robyn Taylor, DJ, <em>101.5 WPDH</em></div>
 <?php echo end_sec_wordByWord_fixed(); ?>
 
 

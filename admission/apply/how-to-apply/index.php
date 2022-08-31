@@ -75,7 +75,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-  <p>Transfer applicants can apply using the Common application.</p>
+  <p>Transfer applicants can apply using the Common Application.</p>
 
   <?php echo cta_link(
     '/admission/apply/transfer',
@@ -127,12 +127,20 @@ $page_info = json_decode($page_info, true);
 
   <?php echo info_card(
     'Optional SAT/ACT Scores',
-    null,
+    'mt-5',
     'info'
   );
   ?>
-    <p>Students applying to Vassar during the 2022–23 admission cycle may choose whether or not to submit SAT/ACT scores.</p>
+    <p class="mb-4">Students applying to Vassar during the 2022–23 admission cycle may choose whether or not to submit SAT/ACT scores.</p>
+<h5>Know the Vassar codes</h5>
+<ul class="labeled-list list-group">
+    <?php echo labeled_list_item('College Board', '2956'); ?>
+    <?php echo labeled_list_item('ACT', '2982'); ?>
+    <?php echo labeled_list_item('TOEFL', '2956'); ?>
+</ul>
   <?php echo end_info_card(); ?>
+
+
 
 <?php echo end_sec_regularContent(); ?>
 

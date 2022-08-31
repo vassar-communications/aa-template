@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     '',
     ['img_alt_text' => 'Students work with colored cloth on one of the quads']
-  );
+);
 ?>
 
 
@@ -70,29 +70,29 @@ $page_info = json_decode($page_info, true);
     ['css' => '--sequential-animation-item-gap: 0.2s']
 ); ?>
 
-  <?php echo item_col('animation-item'); ?>
-    <?php echo item_stat(
-      null,
-      '2,500',
-      'students from all 50 states and 79 countries'
-    ); ?>
-  <?php echo end_item_col(); ?>
+<?php echo item_col('animation-item'); ?>
+<?php echo item_stat(
+    null,
+    '2,500',
+    'students from all 50 states and 79 countries'
+); ?>
+<?php echo end_item_col(); ?>
 
-  <?php echo item_col('animation-item'); ?>
-    <?php echo item_stat(
-      null,
-      '35%',
-      'students of color'
-    ); ?>
-  <?php echo end_item_col(); ?>
+<?php echo item_col('animation-item'); ?>
+<?php echo item_stat(
+    null,
+    '35%',
+    'students of color'
+); ?>
+<?php echo end_item_col(); ?>
 
-  <?php echo item_col('animation-item'); ?>
-    <?php echo item_stat(
-      null,
-      '15%',
-      'students who are the first in their families to attend college'
-    ); ?>
-  <?php echo end_item_col(); ?>
+<?php echo item_col('animation-item'); ?>
+<?php echo item_stat(
+    null,
+    '15%',
+    'students who are the first in their families to attend college'
+); ?>
+<?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
@@ -121,6 +121,26 @@ $page_info = json_decode($page_info, true);
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Feeding the Spirit',
+    '/admission/assets/images/explore/diversity/0007-22-03-kr-lama-topgyal-chapel-vassar0008.jpg',
+    'theme-cream',
+    '',
+    ['img_alt_text' => 'A Buddhist monk interacts with a student']
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>The Office of Religious and Spiritual Life and Contemplative Practices oversees, advises, and supports a wide range of religious and civic communities, as well as initiatives that merge Vassar’s campus with the mid-Hudson Valley community.</p>
+    <p>Vassar staff members are always available for pastoral counseling and spiritual guidance, no matter where you are in your spiritual journey. </p>
+
+    <?php echo cta_link(
+        'https://offices.vassar.edu/religious-and-spiritual-life/',
+        'Learn more about Religious and Spiritual Life'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 

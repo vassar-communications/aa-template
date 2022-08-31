@@ -49,7 +49,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Join Our Community',
-    'Vassar’s open curriculum offers the freedom and flexibility to pursue your passions while discovering new interests. As there are no class requirements, you can take the courses you wish and know your classmates have chosen them as well.
+    'Join a diverse community of trailblazers, change-makers, and innovators, where you will be supported in pursuing your goals and discovering new passions.
 
     <a href="https://apply.vassar.edu/status" class="center-object btn btn-lg btn-primary arrow text-center mt-5">Check your status</a>
     ',
@@ -66,9 +66,9 @@ null,
 
 <?php echo sec_hasColumns(
     null,
-    2,
+    1,
     '',
-    'related-topics-section theme-cream mw-inner-2',
+    'related-topics-section theme-cream mw-inner-1',
     'col-gap-3'
 ); ?>
 
@@ -88,17 +88,6 @@ null,
     <?php echo end_deadlines(); ?>
   <?php echo end_item_col(); ?>
 
-    <?php echo item_col(); ?>
-
-    <div class="card shadow">
-      <h3 class="card-header">Know the Vassar codes</h3>
-        <ul class="labeled-list list-group">
-            <?php echo labeled_list_item('College Board', '2956'); ?>
-            <?php echo labeled_list_item('ACT', '2982'); ?>
-            <?php echo labeled_list_item('TOEFL', '2956'); ?>
-        </ul>
-    </div>
-  <?php echo end_item_col(); ?>
 
   <?php /* echo item_col(); ?>
 
