@@ -40,15 +40,15 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'two people walking and smiling in a large group of people']
 ); ?>
-<p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 3s and 8s on campus for Reunion, June 2–4, 2023 (the 50th Reunion class arrives on June 1). Please help us prepare for your arrival by expressing your interest to attend.</p>
+<p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 3s and 8s on campus for Reunion, June 2–4, 2023 (the 50th Reunion class arrives on June 1). Please help us prepare for your arrival by expressing your interest to attend below.</p>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 
 <?php echo sec_hasColumns(
-    'Choose the class with whom you are reuning',
+    'Express Your Interest in Attending',
     '2',
-    '<p>Reunion Registration will open in early April. This page continues to be updated periodically. Be sure to check back! If you have any questions, please call ' . phone_number('800-443-8196') . ', option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>',
+    null,
     'items-equal-height mw-inner-1',
     'gap-3'
 ); ?>
@@ -138,8 +138,10 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_regularContent(
   null,
   'pt-0',
-  'text-center'
+  ''
 ); ?>
+
+    <p>Reunion Registration will open in early April. This page continues to be updated periodically. Be sure to check back! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
 
   <h3>Future Reunion Dates</h3>
 
@@ -160,7 +162,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <?php echo cta_link(
     '/alumni/calendar/reunion/schedule/',
-    'See the Reunion 2022 schedule'
+    'See the Reunion 2023 schedule'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
