@@ -1,0 +1,34 @@
+.schedule {
+  .schedule-item {
+    margin: 1rem 0 0 0;
+  }
+  .schedule-col-agenda {
+    li {
+      list-style: none;
+      margin-bottom: 0.4rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid #ddd;
+    }
+    ul {
+      padding: 0;
+    }
+  }
+  @include break(md) {
+    .schedule-item {
+      display: flex;
+      gap: 4rem;
+      margin: 3rem 0;
+    }
+    .schedule-col-title {
+      width: 30%;
+    }
+    .schedule-col-agenda {
+      width: 70%;
+    }
+  }
+  .schedule-item-title {
+    font-size: 1.6rem;
+    position: sticky;
+    top: 3rem;
+  }
+}
