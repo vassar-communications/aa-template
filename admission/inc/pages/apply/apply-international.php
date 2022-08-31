@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-    <p>Vassar is a vibrant community of global citizens.</p>
+    <p>Vassar is a vibrant community of global citizens. Learn more about the application process for international students.</p>
 
 <?php echo end_item_cardWithText(
     null,

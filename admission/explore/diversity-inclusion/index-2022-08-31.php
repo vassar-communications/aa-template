@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     '',
     ['img_alt_text' => 'Students work with colored cloth on one of the quads']
-  );
+);
 ?>
 
 
@@ -70,29 +70,29 @@ $page_info = json_decode($page_info, true);
     ['css' => '--sequential-animation-item-gap: 0.2s']
 ); ?>
 
-  <?php echo item_col('animation-item'); ?>
-    <?php echo item_stat(
-      null,
-      '2,500',
-      'students from all 50 states and 79 countries'
-    ); ?>
-  <?php echo end_item_col(); ?>
+<?php echo item_col('animation-item'); ?>
+<?php echo item_stat(
+    null,
+    '2,500',
+    'students from all 50 states and 79 countries'
+); ?>
+<?php echo end_item_col(); ?>
 
-  <?php echo item_col('animation-item'); ?>
-    <?php echo item_stat(
-      null,
-      '35%',
-      'students of color'
-    ); ?>
-  <?php echo end_item_col(); ?>
+<?php echo item_col('animation-item'); ?>
+<?php echo item_stat(
+    null,
+    '35%',
+    'students of color'
+); ?>
+<?php echo end_item_col(); ?>
 
-  <?php echo item_col('animation-item'); ?>
-    <?php echo item_stat(
-      null,
-      '15%',
-      'students who are the first in their families to attend college'
-    ); ?>
-  <?php echo end_item_col(); ?>
+<?php echo item_col('animation-item'); ?>
+<?php echo item_stat(
+    null,
+    '15%',
+    'students who are the first in their families to attend college'
+); ?>
+<?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
@@ -105,9 +105,8 @@ $page_info = json_decode($page_info, true);
 
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Vassar offers many resources to ensure all students have what they need to thrive. Our student-centered approach includes programs and centers designed to support students in their personal and intellectual development.</p>
+    <p>Vassar offers many resources to ensure all students have what they need to thrive. The College’s student-centered approach includes programs such as:</p>
     <ul class="linked-list no-first-border ll-theme-light-on-charcoal">
-        <li><a class="ps-0"  href="https://offices.vassar.edu/religious-and-spiritual-life/">The Office of Religious and Spiritual Life and Contemplative Practices </a></li>
         <li><a class="ps-0" href="https://offices.vassar.edu/alana/">The Jeh Vincent Johnson ALANA Cultural Center</a></li>
         <li><a class="ps-0" href="https://offices.vassar.edu/womens-center/">The Women’s Center</a></li>
         <li><a class="ps-0" href="https://offices.vassar.edu/savp/">The Support, Advocacy, & Violence Prevention Office</a></li>
@@ -115,13 +114,31 @@ $page_info = json_decode($page_info, true);
 
     <?php echo cta_link(
         'https://offices.vassar.edu/student-engagement/',
-        'Learn more about Student Growth and Engagement '
+        'Learn more about Student Services'
     ); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+<?php echo sec_fullBleedImageColumn(
+    'Feeding the Spirit',
+    '/admission/assets/images/explore/diversity/0007-22-03-kr-lama-topgyal-chapel-vassar0008.jpg',
+    'theme-cream',
+    '',
+    ['img_alt_text' => 'A Buddhist monk interacts with a student']
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>The Office of Religious and Spiritual Life and Contemplative Practices oversees, advises, and supports a wide range of religious and civic communities, as well as initiatives that merge Vassar’s campus with the mid-Hudson Valley community.</p>
+    <p>Vassar staff members are always available for pastoral counseling and spiritual guidance, no matter where you are in your spiritual journey. </p>
+
+    <?php echo cta_link(
+        'https://offices.vassar.edu/religious-and-spiritual-life/',
+        'Learn more about Religious and Spiritual Life'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <!-- RELATED TOPICS ===  -->

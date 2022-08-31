@@ -57,7 +57,7 @@ $page_info = json_decode($page_info, true);
     'checklist'
 ); ?>
 <ul class="style-checklist theme-cream">
-
+<h3 class="mb-4">Application Checklist</h3>
     <li><?php echo central_link('common-app', 'Common Application'); ?> or <?php echo central_link('coalition-app', 'Coalition Application'); ?></li>
     <li>$65 application fee or a fee waiver</li>
     <li>Early Decision Agreement (Early Decision Applicants ONLY)</li>
@@ -111,7 +111,7 @@ $page_info = json_decode($page_info, true);
   'face-smile',
   'icon-on-left theme-white-border'
 ); ?>
-  <p>This is a chance for you to show the admission committee something else about yourself. It is your space, so if you choose to complete it, send something that is a reflection of you! Past applicants have submitted poetry, craft projects, photography, short stories, videos, and more.</p>
+<p>Your Space is your opportunity to allow the Committee on Admission to learn something about you that you have not addressed in another section of the application.  For example, in the past, applicants have shared poetry, short stories, cartoons, digital images of art projects, photography, and collages, and/or links to videos, and short films. It is your space, so if you choose to complete it, send something that is a reflection of you! <strong>Your Space is entirely optional.</strong></p>
 <?php echo end_item_iconItem(); ?>
 
 

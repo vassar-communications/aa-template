@@ -437,11 +437,13 @@ $page_info = json_decode($page_info, true);
     <div class="col-sm">
         <h3>Vassar/Dartmouth BA/BE</h3>
         <p>Through a cooperative arrangement with the Thayer School of Engineering at Dartmouth College, Vassar students may earn both the bachelor of arts (BA) degree from Vassar and the bachelor of engineering (BE) degree from Dartmouth. </p>
-        <?php echo cta_link(
-            'https://www.vassar.edu/academics/accelerated-and-dual-degree-programs',
-            'Learn more about Accelerated and Dual Degree Programs'
-        ); ?>
     </div>
+</div>
+<div class="d-flex justify-content-center">
+<?php echo cta_link(
+    'https://www.vassar.edu/academics/accelerated-and-dual-degree-programs',
+    'Learn more about Accelerated and Dual Degree Programs'
+); ?>
 </div>
 <?php echo end_item_dropdown(); ?>
 <?php echo end_sec_wideContent(); ?>
