@@ -46,7 +46,7 @@ $page_info = json_decode($page_info, true);
         <li>Alumnae/i College Lectures</li>
         <li>Vassar Farm Tours</li>
         <li>Faculty Reception</li>
-        <li>All Class Picnic dinner</li>
+        <li>All Class Picnic Dinner</li>
         <li>The Mug</li>
         <li>Fireworks!</li>
       </ul>
@@ -62,11 +62,11 @@ $page_info = json_decode($page_info, true);
         <li>Hour with the President</li>
         <li>Parade</li>
         <li>Celebrate Vassar</li>
-        <li>Alumnae/i College lectures</li>
-        <li>Family fun on the quad lawn</li>
+        <li>Alumnae/i College Lectures</li>
+        <li>Family Fun on the Quad Lawn</li>
         <li>Affinity Receptions and Donor Loyalty Reception</li>
         <li>Tours of the Loeb and Class Trees</li>
-        <li>Private Class dinners</li>
+        <li>Private Class Dinners</li>
         <li>All Class Dance Party</li>
       </ul>
     </div>
