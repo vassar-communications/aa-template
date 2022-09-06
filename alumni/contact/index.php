@@ -70,8 +70,19 @@ $page_info = json_decode($page_info, true);
         </p>
     </div>
 
+
+    <div class="address-card mb-5">
+      <p><strong>Alumnae House, the Inn at Vassar College</strong><br>
+          161 College Avenue<br>
+          Poughkeepsie, NY 12603</p>
+
+          <p>Telephone: <a href="tel:8454377100" class="">(845) 437-7100</a><br>
+              Email: <a href="mailto:alumnaehouse@vassar.edu">alumnaehouse@vassar.edu</a></p>
+    </div>
+
+
+
     <div class="d-grid gap-2">
-    <a href="/alumni/resources/alumnae-house/contact" class="btn btn-link  arrow">Contact Alumnae House</a>
     <a href="https://offices.vassar.edu/registrar/" class="btn btn-link arrow">Contact the Registrar</a>
     </div>
 </div>
