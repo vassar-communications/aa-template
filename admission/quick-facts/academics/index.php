@@ -67,7 +67,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-    'Most Popular Majors',
+    null,
     'animate-when-content-appears gold-icons mw-inner-4 theme-charcoal has-bg section-bg-image-top',
     '',
     [
@@ -78,7 +78,7 @@ $page_info = json_decode($page_info, true);
   ]
 ); ?>
 
-  <?php echo animated_statement('English · Political Science · Psychological Science · Economics · Biology', 'text-center'); ?>
+  <?php echo animated_statement('Vassar offers 50 majors and 68 correlates (minors).', 'text-center'); ?>
 
   <div class="icon-items-list mw-1 mt-5 mx-auto">
     <?php echo item_iconItem(
@@ -86,7 +86,7 @@ $page_info = json_decode($page_info, true);
       'graduation-cap',
       'icon-on-left'
     ); ?>
-        <p>Vassar does not have a core curriculum, so students are able to complete a double major within four years.</p>
+        <p>Vassar’s open curriculum offers the freedom and flexibility to pursue your passions while discovering new interests. There are no general education requirements, so you can take the courses that most interest you and know your classmates have chosen them as well.</p>
     <?php echo end_item_iconItem(); ?>
 
     <?php echo item_iconItem(
@@ -111,38 +111,17 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
     'Credit',
     '3',
-    '<p class="intro-text">Vassar awards credit for scores of 4 or 5 on the AP exams and for scores of 5, 6, or 7 on IB Higher Level exams. A maximum of 2 units of pre-matriculation examination-based credits will be awarded.</p>',
+    '<p class="intro-text">Vassar awards credit for scores of 4 or 5 on select AP exams and for scores of 5, 6, or 7 on select IB Higher Level exams. A maximum of 2 units of pre-matriculation examination-based credits can be awarded.</p>',
     'items-equal-height mw-inner-2 theme-cream',
     'gap-3'
 ); ?>
 
-  <?php echo item_col(); ?>
-    <?php echo item_stat(
-      'AP score',
-      '4, 5'
-    ); ?>
-  <?php echo end_item_col(); ?>
-
-  <?php echo item_col(); ?>
-    <?php echo item_stat(
-      'IB Higher Level score',
-      '5–7'
-    ); ?>
-  <?php echo end_item_col(); ?>
-
-  <?php echo item_col(); ?>
-    <?php echo item_stat(
-      'Max credits awarded',
-      '2',
-      'units'
-    ); ?>
-  <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
 
 <?php echo sec_hasColumns(
-    'Learning in the Community',
+    'Learning in the Community and Beyond',
     '2',
     null,
     null,
@@ -151,13 +130,13 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Internships',
+        'Community-Engaged Learning',
         'https://offices.vassar.edu/community-engaged-learning/',
           ['url' => '/admission/assets/images/quick-facts/academics/0212-17-07-kr-ursi-frogs-vassar-0026.jpg',
           'alt' => 'Student and professor in a lab of terrariums' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
     ); ?>
-        <p>Internship opportunities—what we call Community-Engaged Learning—are available in Poughkeepsie, Albany, and New York City. Nearly 70% of Vassar students participate in community-engaged learning for credit at some point during their Vassar careers.</p>
+        <p>Real-world experience can take your education to the next level. Vassar’s Office of Community-Engaged Learning helps students apply their academic knowledge to gain meaningful work experience through internships in the local community, New York City, Albany, and beyond.</p>
     <?php echo end_item_cardWithText('Learn more'); ?>
   <?php echo end_item_col(); ?>
 
@@ -186,7 +165,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_stat(
       'Six months after graduating',
-      '96%',
+      '93%',
       'are employed, in school, or pursuing a fellowship/volunteer experience.'
     ); ?>
   <?php echo end_item_col(); ?>
@@ -194,16 +173,14 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_stat(
       'Law school admit rate',
-      '90%',
-      'including Yale, Stanford, NYU, Univ. of Chicago, and Univ. of Pennsylvania.'
+      '88%'
     ); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
       'Med school admit rate',
-      '85%',
-      'including Vanderbilt, Columbia, Dartmouth, and Harvard.'
+      '88%'
     ); ?>
   <?php echo end_item_col(); ?>
 

@@ -60,7 +60,7 @@ $page_info = [
 
 <?php echo masthead_interiorPage(
     'Visiting Campus',
-    'All Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life.',
+    'Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life.',
     $admission_img_path.'visit/0070-19-05-kr-spring-library-vassar-6094.jpg',
     null,
     null,
@@ -71,7 +71,7 @@ $page_info = [
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Visit the Vassar Campus In Person',
+    'Visit the Vassar Campus',
     $admission_img_path.'visit/0042-21-06-kr-reception-vassar-0130.jpg',
     'image-is-first theme-charcoal bg-dark section-large-title',
     '',
@@ -82,7 +82,7 @@ $page_info = [
 
     <?php echo cta_link(
       '/admission/visit/in-person/',
-      'Learn more and register for an in-person visit'
+      'Learn more and register for an on campus visit'
     ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -119,7 +119,7 @@ $page_info = [
 <?php echo sec_hasColumns(
     'Need more information about visiting?',
     2,
-    '<p>Follow the links below or email <a href="mailto:admission@vassar.edu">admission@vassar.edu</a>, or ask a current Vassar student at <a href="mailto:askastudent@vassar.edu">askastudent@vassar.edu</a>!</p>',
+    '<p>Follow the links below or email <a href="mailto:admission@vassar.edu">admission@vassar.edu</a>, or ask a current Vassar student at <a href="mailto:askastudent@vassar.edu">askastudent@vassar.edu</a>.</p>',
     'theme-burgundy animate-when-content-appears animation-slide-up',
     ''
 ); ?>
@@ -127,13 +127,13 @@ $page_info = [
 <?php echo item_col(); ?>
 
 <?php echo item_cardWithText(
-    'Group Visit Info',
+    'Group Visit Information',
     '/admission/visit/group-visits/',
     ['url' => $admission_img_path.'visit/0055_15_04_KR_0110.jpg', 'alt' => 'Side view of a panel discussion and audience' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-<p>Want to schedule a group visit? Interactive virtual visits can be scheduled.</p>
+<p>Learn more about on campus and virtual Group Visit options.</p>
 
 <?php echo end_item_cardWithText(
     null,
@@ -144,13 +144,13 @@ $page_info = [
 <?php echo item_col(); ?>
 
 <?php echo item_cardWithText(
-    'Register',
+    'Schedule a Visit',
     'https://apply.vassar.edu/portal/campusvisitcalendar',
     ['url' => $admission_img_path.'visit/Vassar_Campus_20190423_KR_9440.jpg', 'alt' => 'Circle of students in conversation seated on Vassar campus lawn' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-<p>Register for all on-campus tours and virtual events.</p>
+<p>View the on campus and virtual visit calendar and register now.</p>
 
 <?php echo end_item_cardWithText(
     null,

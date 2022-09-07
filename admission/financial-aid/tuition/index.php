@@ -70,7 +70,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_stat(
       'Housing and Dining',
       $facts[$current_school_year]['adm_room_and_board'],
-      '96% of Vassar students live on campus and housing',
+      null,
       'stat-value-small',
       [
         'format_number' => true,
@@ -83,7 +83,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_stat(
       'Fees',
       $facts[$current_school_year]['adm_fees'],
-      'Covering Health Insurance and Activity Fees',
+      null,
       'stat-value-small',
       [
         'format_number' => true,
@@ -108,7 +108,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_alert(
     null,
-    '<p>Students should anticipate budgeting $2,250 for books, supplies, personal expenses, and transportation to and from the campus. Additional information can be found on Student Financial Services.</p>',
+    '<p>Students should anticipate budgeting $2,250 for books, supplies, personal expenses, and transportation to and from the campus. Additional information can be found on the Student Financial Services website.</p>',
     'info-circle',
     ' text-start alert-light alert-accent-gold'
 ); ?>
@@ -118,7 +118,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Room and Board',
+    'Housing and Dining',
     $admission_img_path.'financial-aid/tuition/Cushing-Dorm_Room_Series_Seven_12_HW_6.jpg',
     'image-is-first theme-charcoal',
     '',
@@ -162,7 +162,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Student riding away on a bicycle on Vassar Campus with Fall foliage']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>All students are required to have health insurance coverage.</p>
+    <p>All students are required to have health insurance. Health insurance is available through the College, or you may request a waiver if you already have coverage.</p>
 
     <?php echo cta_link(
       'https://offices.vassar.edu/student-financial-services/',
