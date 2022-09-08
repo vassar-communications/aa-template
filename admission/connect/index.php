@@ -45,10 +45,10 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Our Team is Here to Help You.',
     '',
-    $admission_img_path.'connect/0214-19-09-bl-green-fest-vassar-2721.jpg',
+    $admission_img_path.'/connect/adm-open-house-0055_15_04_KR_0014-crop.jpg',
     null,
     null,
-    ['img_alt_text' => '3 smiling students holding potted plants']
+    ['img_alt_text' => 'two people seated at a table eating and listening while a third seated person speaks']
 );
 ?>
 
