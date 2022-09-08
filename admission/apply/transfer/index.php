@@ -54,12 +54,12 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A person at a library study table taking notes next to a stack of four books.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p class="mb-5">Students who have earned a high school diploma or GED and have enrolled at a college or university are welcome to apply as a transfer applicant. Transfer admission is need-aware and spots are limited.</p>
+    <p class="mb-5">If you have earned a high school diploma or GED and have enrolled at a college or university, you will be considered a transfer applicant. Transfer admission is need-aware and spots are limited.</p>
 
-    <?php echo deadlines('Early Decision Application deadlines'); ?>
+    <?php echo deadlines('Transfer Application Deadlines'); ?>
 
-    <?php echo deadlines_item('Early Decision I', 'November 15'); ?>
-    <?php echo deadlines_item('Early Decision II', 'January 1'); ?>
+    <?php echo deadlines_item('Fall Transfer', 'March 15'); ?>
+    <?php echo deadlines_item('Spring Transfer', 'November 1'); ?>
 
     <?php echo end_deadlines(); ?>
 
@@ -81,8 +81,8 @@ $page_info = json_decode($page_info, true);
     <li><a href="https://www.vassar.edu/sites/default/files/2021-06/Transfer%20College%20Report_BLANK.pdf">Transfer College Report (PDF)</a> To be completed by someone at your current institution with access to your academic and disciplinary record</li>
     <li><a href="https://www.vassar.edu/sites/default/files/2021-06/TR%20Academic%20Evaluation.pdf">Transfer Academic Evaluation (PDF)</a> with a letter of recommendation from a college instructor. You may submit an additional recommendation from a second college instructor, high school counselor or teacher, or employer.</li>
     <li>Transfer Mid-Term Grade Report if you are currently enrolled in college</li>
-    <li>(Optional) <a href="/admission/quick-facts#standardized-testing">Standardized Testing</a>: We will accept the ACT and the SAT</li>
-    <li> <a href="/admission/apply/international#english-language-proficiency">TOEFL/IELTS/DET</a>: Required if English is neither your first language nor the primary language of instruction for the last three years of your education</li>
+    <li>(Optional) <a href="/admission/quick-facts#standardized-testing">Standardized Testing</a>: Students applying during the 2022-2023 cycle may choose whether or not to submit SAT/ACT scores.</li>
+    <li> <a href="/admission/apply/international#english-language-proficiency">TOEFL/IELTS/Duolingo</a>: Required if English is neither your first language nor the primary language of instruction for the last three years of your education</li>
 </ul>
 <?php echo end_sec_regularContent(); ?>
 
@@ -109,7 +109,7 @@ $page_info = json_decode($page_info, true);
     'envelope-open-text',
     'icon-on-left theme-white-border'
 ); ?>
-<p>Transfer applicants for the spring semester are notified of their admission decision in mid-December; applicants for the fall are notified in early May. Admitted transfer applicants are expected to respond and enroll within two weeks of notification.</p>
+<p>Transfer applicants for the spring semester are notified of their admission decision in mid-December; applicants for the fall are notified in early May.</p>
 
 <?php echo end_item_iconItem(); ?>
 
@@ -119,7 +119,7 @@ $page_info = json_decode($page_info, true);
     'coins',
     'icon-on-left theme-white-border'
 ); ?>
-<p>Although Vassar meets the full demonstrated need of all admitted students who apply for financial aid at the time of their admission application, limited financial resources are designated for transfer students, and the applicant pool is highly competitive. International transfer students are not eligible for financial aid.</p>
+<p>Although Vassar meets the full demonstrated need of all admitted students who apply for financial aid at the time of their admission application, limited financial resources are available for transfer students, and the applicant pool is highly competitive. International transfer students are not eligible for financial aid.</p>
 
 <?php echo end_item_iconItem(); ?>
 

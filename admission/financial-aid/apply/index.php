@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Spring time View of the Raymond entrance from Main building.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text">Applying for financial aid can be daunting, but we’re here to help you through each step.</p>
+    <p class="intro-text">We’re here to help you through each step as you navigate the financial aid process.</p>
 
     <p>If you have any questions, contact <a href="mailto:finaid@vassar.edu">finaid@vassar.edu</a> or visit Student Financial Services.</p>
 
@@ -52,7 +52,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
     'Apply for Financial Aid',
     '3',
-    '<p class="intro-text">To be considered for financial aid, you must complete the following items by the advertised deadlines:</p>',
+    '<p class="intro-text">To be considered for financial aid, you must complete the following items by the posted deadlines:</p>',
     'items-equal-height',
     'gap-3'
 ); ?>
@@ -61,7 +61,7 @@ $page_info = json_decode($page_info, true);
 
 <div class="card plain-text-card d-flex justify-content-between">
     <h3>FAFSA</h3>
-    <p>The FAFSA must be completed to determine eligibility for all sources of federal financial aid.</p>
+    <p>The Free Application for Federal Student Aid (FAFSA) must be completed to determine eligibility for all sources of federal financial aid.</p>
 
     <ul class="labeled-list">
         <?php echo labeled_list_item('Vassar code', '002895'); ?>
@@ -70,7 +70,7 @@ $page_info = json_decode($page_info, true);
     </ul>
 
     <p>Once completed, review the Student Aid Report (SAR) sent to you by the Department of Education for accuracy. If necessary, correct any errors and resubmit.</p>
-    <a href="https://studentaid.gov/h/apply-for-aid/fafsa"  class="px-0 btn btn-link arrow text-start">Visit FAFSA.ORG</a>
+    <a href="https://studentaid.gov/h/apply-for-aid/fafsa"  class="px-0 btn btn-link arrow text-start">Visit FAFSA.org</a>
 </div>
 
 <?php echo end_item_col(); ?>
@@ -78,7 +78,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_col(); ?>
 <div class="card plain-text-card d-flex justify-content-between">
     <h3>CSS Profile</h3>
-    <p>The CSS Profile is required to determine eligibility for Vassar scholarship aid.</p>
+    <p>The College Scholarship Service Profile (CSS Profile) is required to determine eligibility for Vassar scholarship aid.</p>
 
     <ul class="labeled-list">
         <?php echo labeled_list_item('Vassar code', '2956'); ?>
@@ -96,8 +96,8 @@ $page_info = json_decode($page_info, true);
 
 <div class="card plain-text-card d-flex justify-content-between">
     <div>
-    <h3>College Board Institutional Documentation Service (IDOC)</h3>
-    <p>This is a service to submit requested documentation as part of the aid application.</p>
+    <h3>IDOC</h3>
+    <p>Through the College Board Institutional Documentation Service (IDOC), you can submit requested documentation as part of the aid application.</p>
     <ul>
         <li>Available late October/early November; must complete CSS Profile first</li>
         <li>IDOC will email instructions once you become eligible for service</li>
@@ -129,7 +129,7 @@ $page_info = json_decode($page_info, true);
 
 
 
-<p>For detailed information regarding application requirements and deadlines, please select the appropriate checklist below.</p>
+<p>For detailed information regarding financial aid application requirements and deadlines, please select the appropriate checklist below.</p>
 
 <ul class="linked-list">
     <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/prospective-us-2223.pdf">U.S. Citizen or Permanent Resident (PDF)</a></li>

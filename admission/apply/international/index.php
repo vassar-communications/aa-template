@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Smiling students standing arm in arm']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Vassar students come from more than 79 countries around the world and international students make up more than 10% of our community.</p>
+    <p>Vassar students come from more than 79 countries around the world.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -68,8 +68,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 
-    <p>If English is either your native or heritage language, or the primary language of instruction in the secondary school(s) you have attended for the last three years, you do not need to submit English language proficiency exam results.</p>
-    <p>For all other applicants, we require one of the following tests, without exceptions, as proof of language proficiency:</p>
+    <p>If English is not the primary language of instruction in the secondary school(s) you have attended for the last three years, you must submit English language proficiency exam results.</p>
 
 <p><strong>Click on the exam type below for complete details:</strong></p>
 
@@ -85,7 +84,7 @@ $page_info = json_decode($page_info, true);
             <div class="accordion-body">
                 <p>We accept the TOEFL iBT, the TOEFL PBT, and the TOEFL iBT Home Edition. We do NOT accept TOEFL Essentials.</p>
 
-                <p>Test results from the testing agency are strongly preferred, but PDFs of the TOEFL Test Taker Score Report (including your registration number and center information) will be accepted from your school counselor, if there is a financial hardship. However, test results from the testing agency will be required for enrollment.</p>
+                <p>Test results from the testing agency are strongly preferred. If there is a financial hardship, PDFs of the TOEFL Test Taker Score Report (including your registration number and center information) will be accepted from your school counselor. Test results from the testing agency will be required for enrollment.</p>
                 <p><a href="https://www.ets.org/toefl">Visit ets.org/toefl</a></p>
             </div>
         </div>
@@ -100,7 +99,7 @@ $page_info = json_decode($page_info, true);
             <div class="accordion-body">
                 <p>We accept the IELTS Academic. We do NOT accept the IELTS General Training.</p>
 
-                <p>Test results from the testing agency are strongly preferred, but PDFs of the Test Report Form (including your center number and candidate number) will be accepted from your school counselor, if there is a financial hardship. However, test results from the testing agency will be required for enrollment.</p>
+                <p>Test results from the testing agency are strongly preferred. If there is a financial hardship, PDFs of the Test Report Form (including your center number and candidate number) will be accepted from your school counselor. Test results from the testing agency will be required for enrollment.</p>
 
                 <p><a href="https://www.ielts.org/">Visit ielts.org</a></p>
             </div>
@@ -109,7 +108,7 @@ $page_info = json_decode($page_info, true);
     <div class="accordion-item">
         <div class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#elp-collapseThree" aria-expanded="false" aria-controls="elp-collapseThree">
-                Duolingo
+                Duolingo English Test
             </button>
         </div>
         <div id="elp-collapseThree" class="accordion-collapse collapse" aria-labelledby="elp-headingThree" data-bs-parent="#elp">
@@ -135,7 +134,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 
-  <p>We have students who apply from dozens of different countries each year and receive academic records in a variety of formats. In general, your transcript should be a complete record of your coursework and grades from each marking period of secondary school, which is certified by your school. If you have taken required national/international exams during secondary school (ie. GCSE, IB MYP, CBSE board exams), these results should be included with your transcript. Any terminal high school exams (ie. A levels, IB exams, French bacc, CBSE) will be required for enrollment.</p>
+  <p>Students apply from dozens of different countries each year and we receive academic records in a variety of formats. In general, your transcript should be a complete record of your coursework and grades from each marking period of secondary school, which is certified by your school. If you have taken required national/international exams during secondary school (ie. GCSE, IB MYP, CBSE board exams), these results should be included with your transcript. Any terminal high school exams (ie. A levels, IB exams, French bacc, CBSE) will be required for enrollment.</p>
 
   <p>Additionally, all of your supporting documents should be in English. If your school does not provide a transcript in English, we need both a certified copy of the original transcript and a translated copy in English. The translation should be completed by an agency, but can be done by a school official or English teacher, if an agency translation presents a financial hardship. Also, if your recommendations are translated from the language of instruction to English, please provide a signed copy of the original as well as the translation.</p>
 
@@ -143,7 +142,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-    'Interviews',
+    'International Interviews',
     null,
     ''
 ); ?>
@@ -160,17 +159,17 @@ $page_info = json_decode($page_info, true);
     'theme-burgundy has-bg quad-pattern',
     ''
 ); ?>
-  <p>Vassar meets the full demonstrated financial need of all students for all four years, but we are need-aware when reviewing applications from international students. Students who are neither U.S. citizens nor permanent residents who wish to be considered for financial aid at any time during their four years at Vassar must apply at the same time that they apply for admission. Those students admitted without financial aid in the first year are not eligible to receive Vassar funding during their years at the college. Financial aid is not available for international transfer applicants.</p>
+  <p>Vassar meets the full demonstrated need of all admitted students who apply for financial aid at the time of their admission application. We are need-aware when reviewing applications from international students. Students who are neither U.S. citizens nor permanent residents who wish to be considered for financial aid at any time during their years at Vassar must apply for aid at the same time that they apply for admission. Students admitted without financial aid in the first year are not eligible to receive Vassar funding during their years at the College. Financial aid is not available for international transfer applicants.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
-    'U.S. Citizens/Permanent Resident Attending School Abroad',
+    'U.S. Citizens/Permanent Residents Attending School Abroad',
     'theme-extralightgray',
     ''
 ); ?>
   <p>If you are a U.S. citizen or U.S. permanent resident attending school outside of the United States, your admission decision will be made without regard to your financial situation, but your application will be reviewed in the context of the international school you attend.</p>
 
-  <p>If English is not your first language or the language of instruction for your past three years of secondary school, we still require you to submit English proficiency exam results.</p>
+  <p>If English is not the language of instruction for your past three years of secondary school, we still require you to submit English proficiency exam results.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

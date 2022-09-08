@@ -49,11 +49,10 @@ $page_info = json_decode($page_info, true);
 </style>
 
 
-
 <?php echo sec_hasColumns(
     'Our Students',
     '3',
-    '<p class="intro-text">Diverse in every sense of the word, Vassar students practice many different religions and are of different sexual orientations. Our students come from all regions of the United States and '.$class_stats['number_of_countries'].' foreign countries.</p>',
+    '<p class="intro-text">At Vassar, you&#8217;ll be encouraged to collaborate across differences and to celebrate the diversity of backgrounds and experiences that make up our community. Here, your voice will be valued and you will be empowered to make a difference.</p>',
     'items-equal-height mw-inner-3 theme-extralightgray cols-6 animate-when-content-appears animation-group animation-fade-in',
     'gap-3'
 ); ?>
@@ -219,7 +218,6 @@ $page_info = json_decode($page_info, true);
     'section-class',
     ''
 ); ?>
-    <p class="intro-text">Vassar is not a commuter campus or a suitcase school, as approximately 90% of students stay on campus every weekend.</p>
 <?php echo end_sec_regularContent(); ?>
 
 
@@ -241,7 +239,7 @@ $page_info = json_decode($page_info, true);
         'cookie-bite',
         'icon-on-left'
       ); ?>
-          <p>Popular on-campus hangouts include late-night dining at Gordon Commons, the College Center, the Food Truck, and Dorm Multi-Purpose Rooms and Parlors.</p>
+          <p>Popular on-campus hangouts include late-night dining at Gordon Commons, the College Center, Sunset Lake, and the Residential Houses’ common spaces.</p>
       <?php echo end_item_iconItem(); ?>
 
       <?php echo item_iconItem(
@@ -257,7 +255,7 @@ $page_info = json_decode($page_info, true);
         'masks-theater',
         'icon-on-left'
       ); ?>
-          <p>Each weekend, students have the opportunity to attend <em>a cappella</em> concerts, drama productions, lectures, dance recitals, and athletic events.</p>
+          <p>Each weekend, students have the opportunity to attend student music concerts, drama productions, lectures, dance recitals, and athletic events.</p>
       <?php echo end_item_iconItem(); ?>
 
       <?php echo item_iconItem(
@@ -265,7 +263,7 @@ $page_info = json_decode($page_info, true);
         'mug-saucer',
         'icon-on-left'
       ); ?>
-          <p>Student-run organizations and residence houses plan numerous social activities. These can range from afternoon tea in the Rose Parlor to comedy shows, dances, movies, and study breaks.</p>
+          <p>Student-run organizations and residential houses plan numerous social activities. These can range from comedy shows, dances, movies, study breaks, afternoon tea in the Rose Parlor.</p>
       <?php echo end_item_iconItem(); ?>
 
   </div>
@@ -299,7 +297,7 @@ $page_info = json_decode($page_info, true);
         'arrow-right-to-city',
         'icon-on-left'
       ); ?>
-          <p>Students typically go to New York City one to two weekends per semester.</p>
+          <p>New York City is easily accessible by commuter train. Many students choose to visit the City a few times per semester.</p>
       <?php echo end_item_iconItem(); ?>
     </div>
   </div>
@@ -322,7 +320,7 @@ $page_info = json_decode($page_info, true);
         ['url' => $quickfacts_img_path.'0195-19-11-kwe-gordon-vassar-1644.jpg', 'alt' => 'Students sit at a table in the large common area of Gordon Commons' ],
         'card--twoscols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
     ); ?>
-        <p>All students are on one standardized meal plan, providing unlimited access to the main dining hall from 7 a.m. to 1 a.m., as well as expanded options at Express, the Bridge Café, the Retreat, a food truck, and cook-your-own ingredients.</p>
+        <p>All students are on an all-you-care-to-eat meal plan, providing unlimited access to the main dining hall from 7 a.m. to 1 a.m., as well as expanded options at Express, the Bridge Café, the Retreat, a food truck, and cook-your-own ingredients.</p>
     <?php echo end_item_cardWithText('Learn more about campus dining'); ?>
   <?php echo end_item_col(); ?>
 
@@ -368,7 +366,7 @@ $housing_icon_items =
 echo sec_hasColumns(
     'Housing',
     '3',
-    '<p class="intro-text">There are no special residence halls reserved for freshmen, athletes, specific majors, etc. Students live together regardless of academic/extracurricular interests, which creates active and diverse environments in each of our residence halls.</p>
+    '<p class="intro-text">Residential Houses are open to students of all majors and class years, with no themed housing or first-year housing. Students live together regardless of academic or extracurricular interests, which creates active and diverse environments in each of our residence halls.</p>
 
       <div class="icon-items-list text-left vertically-center-icon mx-auto" style="max-width: 40rem; text-align: left; align-items: center;">
       '.$housing_icon_items.'
@@ -382,7 +380,7 @@ echo sec_hasColumns(
   <?php echo item_col(); ?>
     <?php echo item_stat(
       null,
-      '96%',
+      '97%',
       'of Vassar students live on campus'
     ); ?>
   <?php echo end_item_col(); ?>
@@ -410,7 +408,7 @@ echo sec_hasColumns(
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Dorms',
+    'Residential Life',
     $quickfacts_img_path.'THs-0144-15-05-hw-dorm-vassar-vb-3813.jpg',
     'image-is-first theme-cream',
     '',
@@ -423,7 +421,7 @@ echo sec_hasColumns(
         'venus-mars',
         'icon-on-left'
       ); ?>
-          <p>Eight dorms are coed, and one is for students who have, can, or will identify as female only. The coed residence halls have both men and women living on the same floor.</p>
+          <p>While Vassar’s residential houses welcome students of all genders, Strong House actively welcomes and celebrates trans*, nonbinary, questioning, agender, and other gender-nonconforming residents and community members.</p>
       <?php echo end_item_iconItem(); ?>
 
       <?php echo item_iconItem(
@@ -431,7 +429,7 @@ echo sec_hasColumns(
         'building',
         'icon-on-left'
       ); ?>
-          <p>The Town Houses, Terrace Apartments, and South Commons offer apartment-style living accommodations for upperclassmen.</p>
+          <p>The Town Houses, Terrace Apartments, and South Commons offer apartment-style living accommodations for juniors and seniors.</p>
       <?php echo end_item_iconItem(); ?>
 
       <?php echo item_iconItem(
@@ -439,7 +437,7 @@ echo sec_hasColumns(
         'heart',
         'icon-on-left'
       ); ?>
-          <p>There are wellness corridors (quiet, substance-free housing) located within each residence hall.</p>
+          <p>Wellness Corridors provide an option for quiet, substance-free housing within the residential houses.</p>
       <?php echo end_item_iconItem(); ?>
 
   </div>
@@ -517,7 +515,7 @@ echo sec_hasColumns(
 <?php echo sec_hasColumns(
     'How’s the Weather?',
     '2',
-    '<p class="intro-text">Poughkeepsie weather is close to that of New York City, with a temperate climate and four distinct seasons.</p>
+    '<p class="intro-text">Poughkeepsie weather is close to that of New York City, with four distinct seasons.</p>
     <p> We do get snow, but we are not located in a “snowbelt,” so moderate snow is the norm during the winter. Most students love spring and fall, and it is common to see professors hold classes outside on nice days. While you’ll need a hat, gloves, and scarf in the winter, you’ll be able to wear shorts and t-shirts at other times of the year.</p>',
     'items-equal-height mw-inner-2 theme-extralightgray wide-intro burgundy-icons',
     'gap-3',

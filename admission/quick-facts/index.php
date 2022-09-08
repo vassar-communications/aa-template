@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Here’s everything you need to know.',
-    'We know you have questions. Find the answers you need below about application deadlines and decision dates, what happens after you apply, what’s required for your application and what’s optional, financial aid, and more!',
+    'We know you have questions. Find the answers you need below about application deadlines and decision dates, what happens after you apply, financial aid, and more!',
     '/admission/assets/images/quick-facts/1065_Vassar College_exteriors_campus life_Oct 2019_JA.jpg',
     null,
     null,
@@ -76,14 +76,14 @@ $page_info = json_decode($page_info, true);
 <?php echo item_col(); ?>
 <?php echo deadlines('Early Decision Round II'); ?>
 <?php echo deadlines_item('Applications Due', 'January 1'); ?>
-<?php echo deadlines_item('You’ll hear back around', 'Late January or early February'); ?>
+<?php echo deadlines_item('You’ll hear back around', 'Early February'); ?>
 <?php echo end_deadlines(); ?>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
 <?php echo deadlines('Regular Decision'); ?>
 <?php echo deadlines_item('Applications Due', 'January 1'); ?>
-<?php echo deadlines_item('You’ll hear back around', 'Late March'); ?>
+<?php echo deadlines_item('You’ll hear back around', 'End of March'); ?>
 <?php echo end_deadlines(); ?>
 <?php echo end_item_col(); ?>
 
@@ -337,9 +337,6 @@ echo sec_hasColumns(
 <h3>Additional Information</h3>
 
 <?php echo accordion('useful-info'); ?>
-<?php echo accordion_item('useful-info', 'QuestBridge applicants'); ?>
-<p>QuestBridge applicants are given all the same considerations as any first-year applicant to Vassar College. Additional information on QuestBridge at Vassar is available at our <a href="https://www.questbridge.org/vassar-college/faq">QuestBridge FAQ</a>.</p>
-<?php echo end_accordion_item(); ?>
 
 <?php echo accordion_item('useful-info', 'Taking a gap year'); ?>
 <p>Admitted first-year students may defer entry to Vassar for one year with the permission of the Office of Admission. Students who are taking a gap year must confirm their intent to enroll at Vassar by submitting the <strong>Candidate’s Reply Card and the required enrollment deposit by May 1</strong>, and must complete the Deferral Request Form, available on the Admitted Students website, <strong>no later than May 22</strong>. If deferred status is approved, a formal letter stating the conditions under which the deferral has been granted will be sent to the student. Students who may be offered admission to Vassar from the wait list after May 1 are not eligible to request a deferral of admission.</p>
