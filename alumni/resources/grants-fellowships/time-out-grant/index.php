@@ -151,10 +151,8 @@ $page_info = json_decode($page_info, true);
     'content_classes'
 ); ?>
 
-  <p class="mb-5">Vassar alumni who have reached their 40th birthday are eligible to apply for the Time Out Grant. Proposals involving innovation and out-of-the-box thinking, with an end goal of significant change, are encouraged. Projects must be designed to span a time frame of at least twelve months. <strong>You must be willing to take a full year off from your current endeavors and devote yourself full-time to your project.</strong></p>
-
-  <?php echo info_card('Application Process is Closed'); ?>
-    <p>The Time Out Grant application process is closed. The application process takes place from September to December of any given year and recipients are notified in April. Check back in September 2022 for application instructions for the 2023 Time Out Grant.</p>
+  <?php echo info_card(); ?>
+    <p>The Time Out Grant is hitting the pause button. The application process is planned to re-open in August 2023.</p>
   <?php echo end_info_card(); ?>
 
 

@@ -48,11 +48,11 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'Adult with a flute watching a child play a flute']
 ); ?>
-<p>Over 30 years ago, a generous anonymous alumna established the Time Out Grant to fund projects near and dear to the hearts of fellow alumni. Vassar alumni who have reached their 40th birthday by June 30, 2022, and wish to make a career change, or take time out to pursue a long-held dream, are eligible to apply for this grant. <strong>You must be willing to take a full year off from your current endeavors and devote yourself full-time to your project.</strong> </p>
+<p>Over 30 years ago, a generous anonymous alumna established the Time Out Grant to fund projects near and dear to the hearts of fellow alumni. Through the decades, Vassar graduates have used this opportunity to step out of their comfort zone and create groundbreaking change. The Time Out Grant is putting the concept of upending the status quo into practice and taking a year off of its own. The application process is planned to re-open in August 2023.</p>
 
 <?php echo cta_link(
     'time-out-grant',
-    'Learn more about the Time Out Grant'
+    'Previous Time Out Grant Recipients'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>

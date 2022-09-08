@@ -43,7 +43,7 @@ $page_info = json_decode($page_info, true);
     </div>
     <div class="schedule-col-agenda">
       <ul>
-        <li>Alumnae/i College Lectures</li>
+        <li>Alumni College Lectures</li>
         <li>Vassar Farm Tours</li>
         <li>Faculty Reception</li>
         <li>All Class Picnic Dinner</li>
@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
         <li>Hour with the President</li>
         <li>Parade</li>
         <li>Celebrate Vassar</li>
-        <li>Alumnae/i College Lectures</li>
+        <li>Alumni College Lectures</li>
         <li>Family Fun on the Quad Lawn</li>
         <li>Affinity Receptions and Donor Loyalty Reception</li>
         <li>Tours of the Loeb and Class Trees</li>

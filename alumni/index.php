@@ -162,8 +162,11 @@ echo sec_fixedCenteredTitle(
 
 <?php echo event_listing(); ?>
 
+<div class="events" id="alumnicalendarRSS_target" data-item-limit="3">
+  <p class="text-center">There was a problem loading the events. Please make sure JavaScript is enabled on your browser.</p>
+</div>
 
-<?php display_feed('https://connect.vassar.edu/controls/cms_v2/components/rss/rss.aspx?sid=1654&gid=2&calcid=8471&page_id=5161', '3'); ?>
+<?php // display_feed('https://connect.vassar.edu/controls/cms_v2/components/rss/rss.aspx?sid=1654&gid=2&calcid=8471&page_id=5161', '3'); ?>
 
           <a href="/alumni/calendar/#events" class="center-object mb-5 btn btn-lg btn-light arrow">All events</a>
 
