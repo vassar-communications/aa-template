@@ -532,3 +532,128 @@ $( document ).on( 'keydown', function ( e ) {
         $( elem ).remove();
     }
 });
+
+
+
+/*	ALUMS CALENDAR FEED
+	by Morgan
+	=================== */
+
+
+
+ function getFeedItemLimit() {
+ 	if( $("#alumnicalendarRSS_target").length ) {
+
+		var attr = $("#alumnicalendarRSS_target").attr('data-item-limit');
+
+		if (typeof attr !== 'undefined' && attr !== false) {
+	 		return (attr - 1);
+	 		// this will be used in a loop where the first item is 0
+	 		// so the attribute value needs to be one less
+		}
+		else {
+			return 1000;
+		}
+ 	}
+ 	else return null;
+ }
+
+
+ function strToDate(eventDate){
+      const EventDTArr = eventDate.split(" ");
+      var EventDate = EventDTArr[0];
+      var EventTime = EventDTArr[1]
+      const EventTimeArr = EventTime.split(":");
+      var Hours = parseInt(EventTimeArr[0]);
+      var Minutes = parseInt(EventTimeArr[1]);
+      var EventTimeAMPM = EventDTArr[2]
+      EventDate = EventDate.replace(/(^[\d]{1}\/)/i, '0$1');
+      EventDate = EventDate.replace(/\/([\d]{1})\//i, '/0$1/');
+      EventDate = EventDate.replace(/^([\d]{2})\/([\d]{2})\/([\d]{4})/i, '$3-$1-$2');
+      if(Hours == 12) Hours = 0;
+      if(EventTimeAMPM == 'PM') Hours = Hours + 12;
+      if(Hours < 10) Hours = '0'+Hours;
+      if(Minutes < 10) Minutes = '0'+Minutes;
+      var timeStr = 'T'+Hours+':'+Minutes+':00';
+      const date = new Date(EventDate+timeStr);
+      return date;
+    }
+
+    function parseRSS(urlIN, callback) {
+		getFeedItemLimit();
+
+      $.ajax({
+        url: urlIN,
+        dataType: 'xml',
+        success: function (data) {
+          console.log("Success");
+          console.log(data);
+          //callback(data);
+          markup = '';
+          $(data).find("item").each(function(i, item){
+            const el = $(this);
+            var title = el.find("title").text();
+            var description = el.find("description").text();
+            description = description.replace(/(.*[\d]{1,2}:[\d]{2}[\s]+(?:a|p)\.?m\.?[\s]+)/i, '<span class="visually-hidden">$1</span>');
+            var link = el.find("link").text();
+            var image = el.find("enclosure").attr("url");
+            const start_date = strToDate(el.find("EventDate").text());
+            const end_date = strToDate(el.find("EndEventDate").text());
+            var start_month_str = start_date.toLocaleString('en-US', {month: 'short'});
+            var start_day_str = start_date.getDate();
+            var end_month_str = end_date.toLocaleString('en-US', {month: 'short'});
+            var end_day_str = end_date.getDate();
+            if( (start_month_str == end_month_str) && (start_day_str == end_day_str) ){
+              var start_time = start_date.toLocaleTimeString('en-us', { hour: 'numeric',minute: '2-digit'}) ;
+              var end_time = end_date.toLocaleTimeString('en-us', { hour: 'numeric',minute: '2-digit'}) ;
+              if( start_time == end_time){
+                var event_time = start_time;
+              }else{
+                var event_time = start_time +'–'+ end_time;
+              }
+            }else{
+              var event_time = start_date.toLocaleDateString('en-us', { month:"short", day:"numeric", year:"numeric", time:"numeric", hour: 'numeric',minute: '2-digit'}) +' to '+end_date.toLocaleDateString('en-us', { month:"short", day:"numeric", year:"numeric", time:"numeric", hour: 'numeric',minute: '2-digit'}) ;
+            }
+            event_time = event_time.replace(/AM/gi,'a.m.').replace(/PM/gi,'p.m.');
+            var itemMarkup = `
+            <div class="event" id="">
+  <div class="calendar">
+    <div class="event__month">${start_month_str}</div>
+    <div class="event__day">${start_day_str}</div>
+  </div>
+  <div class="event__image-container"><img class="event__image" src="${image}"></div>
+  <div class="event__content-container">
+  <a class="stretched-link" href="${link}">  <h3 class="event__title">${title}</h3></a>
+    <div class="event__time">
+      <i class="fa-regular fa-clock"></i> <span>${event_time}</span>
+    </div>
+    <div class="event__summary"><p>${description}</p></div>
+  </div>
+</div>
+`.trim();
+            markup += itemMarkup;
+
+		return i < getFeedItemLimit();
+
+          }); // end each
+          if (markup.length !== 0) {
+//            markup = '<div class="featureImage-text-ticker media-carousel full">' + markup + '</div>';
+            $('#alumnicalendarRSS_target').replaceWith(markup);
+          }
+        },
+      });
+    }
+    parseRSS('https://connect.vassar.edu/controls/cms_v2/components/rss/rss.aspx?sid=1654&gid=2&calcid=8471&page_id=5161');
+
+
+
+
+
+
+
+
+
+
+
+
+

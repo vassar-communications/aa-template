@@ -42,7 +42,7 @@ $page_info = [
 
 <?php echo masthead_interiorPage(
     'Explore Our Online Resources',
-    'There are any number of good reasons why a student might not be able to travel to Vassar, but that shouldn’t stop anyone from experiencing campus. That’s why we want virtual touring to be as easy, free, complete, and immersive as possible.',
+    'If you are unable to make it to campus for an in-person visit, you can still get to know Vassar online through our virtual visit programming.',
     $admission_img_path.'visit/virtual/Vassar_Campus_20190416_KR_6122.jpg',
     null,
     null,
@@ -139,7 +139,7 @@ $page_info = [
 
 
 <?php echo item_cardWithText(
-    'Classroom Visits',
+    'Sample Classes',
     '/admission/visit/class-visits/',
     ['url' => $admission_img_path.'visit/virtual/110519_160over90_Vassar_0348.jpg', 'alt' => 'Professor referring to chalk board in front of students' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'

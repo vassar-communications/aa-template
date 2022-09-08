@@ -3,6 +3,67 @@
   echo carousel( '', 'alums-carousel' );
 ?>
 
+
+
+
+<?php
+// On return
+// Finish this: https://servicedesk.vassar.edu/incidents/97817517-alumni-page-update
+// Ask Morgan why that image wasn't scraped
+
+?>
+
+
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2022-09-08/spotlight/Raina-0111-22-08-kr-convocation-vassar-0188.jpg',
+  'is-link',
+  'Three people smile at the camera while standing in the Vassar chapel: a large, well-lit, stone-walled space'
+); ?>
+  <h3 class="h3">Convocation 2022</h3>
+  <p>Arushi Raina ’14 (center), pictured with AAVC President Monica Vachher ’77 (left) and Stephanie Goldberg ’14, was presented with the Young Alumnae/i Achievement Award.</p>
+
+  <p><em>Photo: Karl Rabe</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/convocation-2022',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2022-09-08/spotlight/Maccabiah-Games-22-002-horizontal-crop.jpg',
+  'is-link',
+  'A young man stands with his parents in the middle of a volleyball court, smiling at the camera'
+); ?>
+  <h3 class="h3">Brewers Past and Present Represent USA at Maccabiah Games in Israel</h3>
+  <p>Former Brewers volleyball player Jake Kaplan ’22 (center), pictured with his parents, was one of three Vassar-affiliated athletes to compete.</p>
+
+  <p><em>Photo: Courtesy of the subject</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/brewers-past-and-present-represent-usa-maccabiah-games-israel',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
+
+
+
+
+
+
   <?php echo carousel_item(
     $alums_spotlight_itm_path.'/2022-07-27/trustees-collage-16x12-edit2.jpg',
     'is-link',
@@ -22,7 +83,7 @@
 
 
 
-  <?php echo carousel_item(
+  <?php /* echo carousel_item(
     $alums_spotlight_itm_path.'/2022-07-18/roe-v-wade-protest-16x12.jpg',
     'is-link',
     'Pro choice protestors holding up signs outside of the Supreme Court'
@@ -35,7 +96,7 @@
       'Read more',
       'stretched-link'
     ); ?>
-  <?php echo end_carousel_item(); ?>
+  <?php echo end_carousel_item(); */ ?>
 
 
 
@@ -97,7 +158,7 @@
 
 
 
-    <?php echo carousel_item(
+    <?php /* echo carousel_item(
       'https://www.vassar.edu/sites/default/files/2022-06/alum_spotlight_marina_bayeva.jpg',
       'is-link',
       'Marina Bayeva hugging a dog on a rocky outcrop on a mountainside'
@@ -111,7 +172,7 @@
          'stretched-link'
        ); ?>
 
-    <?php echo end_carousel_item(); ?>
+    <?php echo end_carousel_item(); */ ?>
 
 
 

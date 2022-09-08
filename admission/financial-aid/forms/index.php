@@ -38,7 +38,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Student laying on lawn reading in front of Thompson Library on Vassar Campus']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text">Here you will find all the forms and resources you’ll need to successfully apply for financial aid.</p>
+    <p class="intro-text">On this page, you will find information about Vassar’s financial aid calculators, links to important financial aid forms, and additional resources that may be helpful as you learn more about applying for aid.</p>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -86,8 +86,16 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 
-
-
+<?php echo item_iconItem(
+    'Aid Applications',
+    'coins',
+    'icon-on-left theme-white-border'
+); ?>
+<ul class="linked-list">
+    <li><a href="https://studentaid.gov/h/apply-for-aid/fafsa">FAFSA (Vassar FAFSA Code 002895)</a></li>
+    <li><a href="https://cssprofile.collegeboard.org/">CSS / Financial Aid PROFILE (Vassar PROFILE Code 2956)</a></li>
+</ul>
+<?php echo end_item_iconItem(); ?>
 <?php echo item_iconItem(
     'Forms',
     'file-pen',
@@ -114,8 +122,6 @@ $page_info = json_decode($page_info, true);
     'icon-on-left theme-white-border'
 ); ?>
 <ul class="linked-list">
-    <li><a href="https://studentaid.gov/h/apply-for-aid/fafsa">FAFSA (Vassar FAFSA Code 002895)</a></li>
-    <li><a href="https://cssprofile.collegeboard.org/">CSS / Financial Aid PROFILE (Vassar PROFILE Code 2956)</a></li>
     <li><a href="https://www.cashcourse.org/">Cash Course (Financial Literacy)</a></li>
     <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2022/03/Vassar-Fin-Aid-Award-22-23.pdf">Understanding your Financial Aid Letter (PDF)</a></li>
     <li><a href="https://offices.vassar.edu/student-financial-services/financial-aid/forms/computer/">Guidelines for Computer Purchases</a></li>

@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 /* PAGE INFO === */
 
 $page_info = '{
-  "page_title": "In-Person Visits",
+  "page_title": "On Campus Visits",
   "feature_image": "/admission/assets/images/visit/in-person/0073-21-06-kr-summer-vassar-0179.jpg"
 }';
 
@@ -52,6 +52,41 @@ $page_info = json_decode($page_info, true);
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
+<?php echo sec_regularContent(
+    'Visitor Health and Safety Policies',
+    '',
+    '',
+    ''
+); ?>
+
+<?php echo item_alert(
+    'Mask Policy',
+    'All visitors must wear a mask when indoors. The information session and guided tour will include entry into campus buildings, so please have a mask with you during your visit.',
+    'mask-face',
+    'alert-light alert-accent-gold'
+); ?>
+
+<h3>Proof of COVID-19 Vaccination or Negative Test</h3>
+<p>We require all campus visitors to show proof of full vaccination against COVID-19. This requirement includes the booster shot, which is in keeping with Vassar’s requirement that all students and employees have a COVID-19 booster. Visitors who are not fully vaccinated, including those who have not yet received the booster, must present a negative COVID-19 test upon check-in.</p>
+
+<p>Visitors not in compliance will be turned away. This policy applies to all visitors, including those who are ineligible to receive the booster.</p>
+
+
+<h3>Acceptable proof of vaccination or COVID-19 testing includes:</h3>
+<ul>
+    <li>Official vaccination card including the booster shot</li>
+    <li>NY Excelsior Pass App with vaccination record or record of a negative PCR test within 72 hours of the visit</li>
+    <li>A SMART Health Card with vaccination record or record of a negative PCR test within 72 hours of the visit</li>
+    <li>Paper record of a negative PCR test with the date/time being no greater than 72 hours prior to your visit</li>
+    <li>A negative rapid antigen test taken immediately before the visit (you will need to bring your own rapid test kit; please note that most rapid tests take 15-20 minutes to display a result)</li>
+</ul>
+
+<p>Regardless of your vaccination status or COVID-19 test results, if you are feeling sick, we ask that you stay home.</p>
+
+
+
+<?php echo end_sec_regularContent(); ?>
+
 
 <?php echo sec_regularContent(
     'Arrival and Check-In',
@@ -61,16 +96,11 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
-<?php echo item_alert(
-    'Mask Policy',
-    'All visitors must wear a mask when indoors. The information session and guided tour will include entry into campus buildings, so please have a mask with you during your visit.',
-    'mask-face',
-    'alert-light alert-accent-gold'
-); ?>
+<p>Visitor parking can be found in the North Parking Lot or South Parking Lot; additionally, a small number of visitor spaces are available on Main Campus Drive and in front of Kautz House. We recommend arriving on campus at least 20 minutes prior to the start of your visit in order to secure parking and make your way to the check-in location.</p>
 
-<p>Parking is available in the North Parking Lot and South Parking Lot. A small number of parking spaces can also be found on Main Campus Drive and along the back of Main Circle in front of Kautz House. We recommend arriving on campus 20 minutes prior to the start of your visit in order to secure parking and make your way to the check-in location.</p>
+<p>Check-in will open 30 minutes prior to the start of the visit and will take place at the Kautz Admission House. Check-in will close 20 minutes after the start of the visit session. Guests arriving after check-in has closed will be unable to join the tour.</p>
 
-<p>Check-in will take place outside of Kautz Admission House. Visitors arriving more than 10 minutes late will be asked to wait until the information session ends to join the tour; visitors arriving more than 10 minutes after the start of the tour will be unable to join.</p>
+<p>Pets are not permitted in the Information Session or Campus Tour; service animals are welcome.</p>
 
 <a href="https://www.vassar.edu/sites/default/files/2022-06/2022-admission-parking-map.pdf" class="btn btn-light">Download Parking Map <i class="mx-0 fa-solid fa-download"></i></a>
 
@@ -103,40 +133,6 @@ $page_info = json_decode($page_info, true);
     <?php echo end_sec_fullBleedImageColumn(); ?>
     <!-- End Campus Access and Pre-Registration -->
 
-
-    <?php echo sec_regularContent(
-        'Visitor Health and Safety Policies',
-        'theme-cream',
-        '',
-        ''
-    ); ?>
-    <?php echo item_alert(
-        'Please note',
-        ' Admission Office staff will only be available during regularly scheduled visits to speak with registered visitors. All campus buildings, including the Kautz Admission House, remain closed to the general public. The guided tour includes entry into some campus buildings, but visitors will not be permitted to enter buildings separate from the tour. Please refrain from bringing pets along for the Information Session or Tour; service animals are welcome.',
-        'info-circle',
-        'alert-light alert-accent-gold'
-    ); ?>
-
-    <h3>Proof of COVID-19 Vaccination or Negative Test</h3>
-      <p>We require all campus visitors to show proof of full vaccination against COVID-19. This requirement includes the booster shot, which is in keeping with the spring term campus requirement that all students and employees have a COVID-19 booster. Visitors who are not fully vaccinated, including those who have not yet received the booster, must present a negative COVID-19 test upon check-in.</p>
-
-    <p>Visitors not in compliance will be turned away. This policy applies to all visitors, including those who are ineligible to receive the booster.</p>
-
-
-    <h3>Acceptable proof of vaccination or COVID-19 testing includes:</h3>
-    <ul>
-        <li>Official vaccination card including the booster shot</li>
-        <li>NY Excelsior Pass App with vaccination record or record of a negative PCR test within 72 hours of the visit</li>
-        <li>A SMART Health Card with vaccination record or record of a negative PCR test within 72 hours of the visit</li>
-        <li>Paper record of a negative PCR test with the date/time being no greater than 72 hours prior to your visit</li>
-        <li>A negative rapid antigen test taken immediately before the visit (you will need to bring your own rapid test kit; please note that most rapid tests take 15-20 minutes to display a result)</li>
-    </ul>
-
-    <p>Regardless of your vaccination status or COVID-19 test results, if you are feeling sick, we ask that you stay home.</p>
-
-
-
-    <?php echo end_sec_regularContent(); ?>
 
 
 

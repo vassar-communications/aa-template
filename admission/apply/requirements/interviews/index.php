@@ -68,7 +68,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <?php echo info_card(
-    'Note for International Applicants',
+    'Note for International and Overseas Applicants',
     '',
     'fa-globe'
 ); ?>

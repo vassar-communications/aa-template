@@ -48,8 +48,8 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo masthead_interiorPage(
-    'More than 60% of Vassar Students Receive Financial Aid.',
-    'Through a generous financial aid program, Vassar meets 100% of the full demonstrated need of all admitted students for all four years. Financial aid is awarded exclusively on the basis of need as determined by the Free Application for Federal Student Aid (FAFSA) and the College Scholarship Service (CSS) Profile.',
+    'Vassar meets 100% of the full demonstrated need of all admitted students for all four years.',
+    'Financial aid is awarded exclusively on the basis of need as determined by the Free Application for Federal Student Aid (FAFSA) and the College Scholarship Service (CSS) Profile. Around two thirds of Vassar students receive financial aid.',
     $admission_img_path.'financial-aid/0013-22-04-kr-noyes-vassar-0040.jpg',
     null,
     null,
@@ -68,9 +68,9 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
-<?php echo animated_statement('Applying for financial aid does not limit—or impact—an applicant’s chances of admission.', 'mb-4'); ?>
+<?php echo animated_statement('Vassar is committed to making education accessible. First-year applicants who are U.S. citizens or permanent residents will be considered for admission without regard to their financial situation.', 'mb-4'); ?>
 
-<p class="position-center" style="max-width: 80ch">Admission decisions are made without regard to any student’s financial situation. Vassar is committed to making education accessible to all eligible students.</p>
+<p class="position-center" style="max-width: 80ch">While we are need-aware for international first-year applicants and transfer applicants, we meet 100% of the demonstrated financial need of all admitted students who apply for financial aid at the time of application to Vassar.</p>
 
 <?php echo cta_link(
   'https://offices.vassar.edu/student-financial-services/',
@@ -81,7 +81,24 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_wideContent(); ?>
 
+<?php echo sec_wideContent(
+    null,
+    null,
+    'theme-cream',
+    'mw-4'
+); ?>
 
+<div class="card plain-text-card text-center mw-1 mx-auto shadow-lg">
+    <h2>Aid Calculators</h2>
+    <p>Use Vassar’s MyinTuition Calculator and Net Price Calculator to estimate your financial aid.</p>
+
+    <?php echo cta_link(
+        '/admission/financial-aid/forms/#calculate-your-cost',
+        'Go to Calculators',
+        'd-flex justify-content-center'
+    ); ?>
+</div>
+<?php echo end_sec_wideContent(); ?>
 
 <?php echo sec_fullBleedImageColumn(
     'Applying for Aid',
@@ -140,23 +157,6 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-<?php echo sec_wideContent(
-    null,
-    null,
-    'theme-cream',
-    'mw-4'
-); ?>
 
-  <div class="card plain-text-card text-center mw-1 mx-auto shadow-lg">
-    <h2>Aid Calculators</h2>
-    <p>Calculate your cost</p>
-
-    <?php echo cta_link(
-      '/admission/financial-aid/forms/#calculate-your-cost',
-      'Go to Calculators',
-      'd-flex justify-content-center'
-    ); ?>
-  </div>
-<?php echo end_sec_wideContent(); ?>
 
 <?php echo site_footer(); ?>

@@ -45,10 +45,10 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Our Team is Here to Help You.',
     '',
-    $admission_img_path.'connect/0214-19-09-bl-green-fest-vassar-2721.jpg',
+    $admission_img_path.'/connect/adm-open-house-0055_15_04_KR_0014-crop.jpg',
     null,
     null,
-    ['img_alt_text' => '3 smiling students holding potted plants']
+    ['img_alt_text' => 'two people seated at a table eating and listening while a third seated person speaks']
 );
 ?>
 
@@ -73,7 +73,7 @@ $page_info = json_decode($page_info, true);
 <p>
     Telephone: <a href="tel:1-845-437-7300">(845) 437-7300</a> or <a href="tel:1-800-827-7270">(800) 827-7270</a><br>
     Fax: <a href="fax:1-845-437-7063">(845) 437-7063</a><br>
-    Email: <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>
+    Email: <a href="mailto:admission@vassar.edu">admission@vassar.edu</a>
 </p>
     </div>
 
@@ -93,94 +93,101 @@ $page_info = json_decode($page_info, true);
 <p class="mb-5">Browse our staff directory below to find the admission counselor for your area.</p>
 <div class="staff-contact mb-5">
     <h3>Sonya K. Smith</h3>
-    <p><em>Dean of Admission and Student Financial Services</em></p>
+    <p><em>Vice President and Dean of Admission and Student Financial Services</em></p>
     <a class="fixemaillink" href="mailto:sonyasmith@vassar.edu">Email: sonyasmith@vassar.edu</a>
 </div>
 
 <div class="staff-contact mb-5">
     <h3>David Toomer</h3>
     <p><em>Director of Admission</em></p>
-    <p><strong>Regional Responsibilities:</strong> District of Columbia, Maryland</p>
+    <p><strong>Regional Responsibilities:</strong> District of Columbia</p>
     <a class="fixemaillink" href="mailto:dtoomer@vassar.edu">Email: dtoomer@vassar.edu</a>
 </div>
 
+<div class="staff-contact mb-5">
+    <h3>Justin Ao</h3>
+    <p><em>Admission Counselor</em></p>
+    <p><strong>Regional Responsibilities:</strong> Alaska, Idaho, Iowa, Kansas, Missouri, Montana, Nebraska, North Dakota, Oklahoma, Oregon, Pennsylvania, South Dakota, Washington, Wyoming, U.S. Territories of American Samoa, Guam, the Northern Mariana Islands<br/><strong>International Responsibilities:</strong> Oceania</p>
+    <a class="fixemaillink" href="mailto:jao@vassar.edu">Email: jao@vassar.edu</a>
+</div>
 
 <div class="staff-contact mb-5">
     <h3>Breanna Conwell</h3>
     <p><em>Admission Counselor</em></p>
-    <p><strong>Regional Responsibilities:</strong> Alabama, Arkansas, Delaware, Georgia, Kentucky, Louisiana, Maine, Mississippi, New Hampshire, Rhode Island, Tennessee, Texas, Vermont, West Virginia</p>
+    <p><strong>Regional Responsibilities:</strong> Alabama, Arkansas, Georgia, Kentucky, Louisiana, Mississippi, North Carolina, South Carolina, Tennessee, Virginia, West Virginia<br/><strong>International Responsibilities:</strong> East Asia, Canada</p>
     <a class="fixemaillink" href="mailto:bconwell@vassar.edu">Email: bconwell@vassar.edu</a>
+</div>
+
+<div class="staff-contact mb-5">
+    <h3>Kyle Doyle</h3>
+    <p><em>Senior Assistant Director of Admission</em></p>
+    <p><strong>Regional Responsibilities:</strong> Florida<br/><strong>International Responsibilities:</strong> Central Asia, South Asia</p>
+    <a class="fixemaillink" href="mailto:kdoyle@vassar.edu">Email: kdoyle@vassar.edu</a>
 </div>
 
 <div class="staff-contact mb-5">
     <h3>James Gallagher</h3>
     <p><em>Admission Counselor</em></p>
-    <p><strong>Regional Responsibilities:</strong> New York (Brooklyn), Alaska, Florida, Idaho, Iowa, Kansas, Michigan, Missouri, Montana, Nebraska, North Dakota, Ohio, Oklahoma, South Dakota, Wyoming, U.S. Territories of American Samoa, Guam, the Northern Mariana Islands</p>
+    <p><strong>Regional Responsibilities:</strong> Massachusetts (Eastern), New York (Brooklyn)<br/><strong>International Responsibilities:</strong> Middle East, Southeast Asia</p>
     <a class="fixemaillink" href="mailto:jgallagher@vassar.edu">Email: jgallagher@vassar.edu</a>
 </div>
 
 <div class="staff-contact mb-5">
     <h3>Siena Howenstein</h3>
     <p><em>Admission Counselor</em></p>
-    <p><strong>Regional Responsibilities:</strong> New York (Upstate), New Jersey (Northern), Massachusetts (Western)</p>
+    <p><strong>Regional Responsibilities:</strong> Delaware, Maryland, Massachusetts (Western), New Jersey (Northern), New York (Upstate)</p>
     <a class="fixemaillink" href="mailto:showenstein@vassar.edu">Email: showenstein@vassar.edu</a>
 </div>
 
 <div class="staff-contact mb-5">
     <h3>Kim Lord ’06</h3>
     <p><em>Senior Associate Director of Admission</em></p>
-    <p><strong>Regional Responsibilities:</strong> Massachusetts (Eastern)<br/><strong>International Responsibilities:</strong> Europe, India</p>
+    <p><strong>Regional Responsibilities:</strong> New York (Manhattan)<br/><strong>International Responsibilities:</strong> Europe</p>
     <a class="fixemaillink" href="mailto:klord@vassar.edu">Email: klord@vassar.edu</a>
 </div>
 
-
 <div class="staff-contact mb-5">
-    <h3>Kamil Lungu</h3>
-    <p><em>Admission Counselor</em></p>
-    <p><strong>Regional Responsibilities:</strong> New York (Manhattan)<br/><strong>International Responsibilities:</strong> Central Asia, Middle East, Southeast Asia</p>
-    <a class="fixemaillink" href="mailto:klungu@vassar.edu">Email: klungu@vassar.edu</a>
+    <h3>Colleen Mallet</h3>
+    <p><em>Director of Veteran Students Outreach and Support</em></p>
+    <p><strong>Regional Responsibilities:</strong> U.S. Veterans</p>
+    <a class="fixemaillink" href="mailto:comallet@vassar.edu">Email: comallet@vassar.edu</a>
 </div>
 
 <div class="staff-contact mb-5">
     <h3>Joanne Narrido</h3>
     <p><em>Admission Counselor</em></p>
-    <p><strong>Regional Responsibilities:</strong> New York (Central Hudson, Long Island, Rockland, Staten Island, Westchester), Virginia</p>
+    <p><strong>Regional Responsibilities:</strong> Indiana, Michigan, Minnesota, New York (Central Hudson, Long Island, Rockland County, Staten Island, Westchester County), Ohio, Wisconsin</p>
     <a class="fixemaillink" href="mailto:jnarrido@vassar.edu">Email: jnarrido@vassar.edu</a>
 </div>
 
 <div class="staff-contact mb-5">
     <h3>Melanie Poston</h3>
     <p><em>Associate Director of Admission</em></p>
-    <p><strong>Regional Responsibilities:</strong> Arizona, Colorado, Connecticut, Nevada, New Mexico, North Carolina, South Carolina, Utah</p>
+    <p><strong>Regional Responsibilities:</strong> Arizona, Colorado, Connecticut, Hawai’i, Illinois, Nevada, New Mexico, Utah</p>
     <a class="fixemaillink" href="mailto:mposton@vassar.edu">Email: mposton@vassar.edu</a>
 </div>
 
 <div class="staff-contact mb-5">
     <h3>Juan Ramirez</h3>
     <p><em>Admission Counselor</em></p>
-    <p><strong>Regional Responsibilities:</strong> New York (Bronx, Queens), Illinois, Indiana, Minnesota, Puerto Rico, Wisconsin<br/><strong>International Responsibilities:</strong> Canada, Caribbean, Central America, Mexico, South America</p>
+    <p><strong>Regional Responsibilities:</strong> New York (Bronx, Queens), Puerto Rico, Virgin Islands<br/><strong>International Responsibilities:</strong> Africa, Caribbean, Central America, Mexico, South America</p>
     <a class="fixemaillink" href="mailto:juanramirez@vassar.edu">Email: juanramirez@vassar.edu</a>
 </div>
 
 <div class="staff-contact mb-5">
     <h3>Samuel Short ’16</h3>
     <p><em>Admission Counselor</em></p>
-    <p><strong>Regional Responsibilities:</strong> New Jersey (Central and Southern), California (Northern), Pennsylvania</p>
+    <p><strong>Regional Responsibilities:</strong> California (Northern), Maine, New Hampshire, New Jersey (Central and Southern), Rhode Island, Vermont</p>
     <a class="fixemaillink" href="mailto:samshort@vassar.edu">Email: samshort@vassar.edu</a>
 </div>
 
 <div class="staff-contact mb-5">
     <h3>Kathleen Vital-Herne</h3>
     <p><em>Senior Assistant Director of Admission</em></p>
-    <p><strong>Regional Responsibilities:</strong> California (Southern)<br/><strong>International Responsibilities:</strong> Africa</p>
+    <p><strong>Regional Responsibilities:</strong> California (Southern), Texas</p>
     <a class="fixemaillink" href="mailto:kvitalherne@vassar.edu">Email: kvitalherne@vassar.edu</a>
 </div>
 
-<div class="staff-contact mb-5">
-    <h3>Admission Officer</h3>
-    <p><strong>Regional Responsibilities:</strong> Hawai’i, Oregon, Washington<br/><strong>International Responsibilities:</strong> Australia, East and South Asia (minus India), Papua New Guinea, New Zealand</p>
-    <a class="fixemaillink" href="mailto:admission@vassar.edu">Email: admission@vassar.edu</a>
-</div>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo relatedTopics(); ?>

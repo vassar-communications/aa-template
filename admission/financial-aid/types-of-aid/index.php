@@ -56,7 +56,7 @@ $page_info = json_decode($page_info, true);
             </button>
         </div>
         <div id="grants-collapseOne" class="accordion-collapse collapse" aria-labelledby="grants-headingOne" data-bs-parent="#grants">
-            <div class="accordion-body"><p>Vassar awards $71 million annually in scholarships, funded by Vassar’s endowment, alumni club fundraising, and gifts.</p></div>
+            <div class="accordion-body"><p>Vassar awards $72 million annually in scholarships, funded by Vassar’s endowment, fundraising, and gifts.</p></div>
         </div>
     </div>
     <div class="accordion-item">
@@ -96,7 +96,8 @@ $page_info = json_decode($page_info, true);
                     <li>Eligibility is based on New York State net taxable income</li>
                 </ul>
                 <p><a href="https://www.hesc.ny.gov/pay-for-college/apply-for-financial-aid/nys-tap.html">Learn more about TAP</a></p>
-                <p class="pt-4">Please check with your home state’s higher education assistance office for more information on grant options.</p>
+                <p class="pt-4"><strong>States Other Than New York</strong></p>
+                <p>Please check with your home state’s higher education aid office for more information on grant options.</p>
             </div>
         </div>
     </div>
@@ -122,15 +123,78 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_regularContent(); ?>
 
 
+
+
+
 <?php echo sec_regularContent(
-    'Loans and Lenders',
+    'Campus Jobs',
     'theme-verylightgray',
     '',
     ''
 ); ?>
 
+<p>All financial aid recipients receive an allocation for either Federal Work-Study (federally funded) or Institutional Employment (Vassar-supplied employment funds).</p>
+
+<p>Students with work-study awards receive priority in the job registration process. These awards may also apply for off-campus community service work-study (CSWS).</p>
+
+
+<div class="accordion accordion-flush my-5" id="loans">
+    <div class="accordion-item">
+        <div class="accordion-header" id="loans-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#loans-collapseOne" aria-expanded="false" aria-controls="loans-collapseOne">
+                What types of on campus jobs are available?
+            </button>
+        </div>
+        <div id="loans-collapseOne" class="accordion-collapse collapse" aria-labelledby="loans-headingOne" data-bs-parent="#loans">
+            <div class="accordion-body">
+                <p>More than 1,600 students work on campus during the academic year. Many departments around campus hire students for a range of positions, from answering phones to providing tech support to conducting research and much more.</p>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <div class="accordion-header" id="loans-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#loans-collapseTwo" aria-expanded="false" aria-controls="loans-collapseTwo">
+                <span>Can non-financial aid students get on campus jobs?</span>
+            </button>
+        </div>
+        <div id="loans-collapseTwo" class="accordion-collapse collapse" aria-labelledby="loans-headingTwo" data-bs-parent="#loans">
+            <div class="accordion-body">
+                <p>After the first month of each semester, remaining jobs are made available to non-financial aid students.</p>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <div class="accordion-header" id="loans-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#loans-collapseThree" aria-expanded="false" aria-controls="loans-collapseThree">
+                <span>How much money can be earned with on campus work?</span>
+            </button>
+        </div>
+        <div id="loans-collapseThree" class="accordion-collapse collapse" aria-labelledby="loans-headingThree" data-bs-parent="#loans">
+            <div class="accordion-body">
+                <p>Students can earn up to $3,000 during the academic year, and most students work an average of seven hours per week.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<?php echo cta_link(
+    'https://offices.vassar.edu/student-employment/',
+    'Learn more about campus jobs at Student Employment'
+); ?>
+
+<?php echo end_sec_regularContent(); ?>
+
+<?php echo sec_regularContent(
+    'Loans and Lenders',
+    '',
+    '',
+    ''
+); ?>
+
 <p>Vassar will eliminate or reduce loans in the aid awards of students from low-income households.</p>
-<p>Loans (usually from the Federal Direct Loan program) are low-interest and can be repaid over a period of 10 years when the student either graduates or leaves college.</p>
 
 <div class="accordion theme-cream accordion-flush" id="loans">
     <div class="accordion-item">
@@ -202,7 +266,7 @@ $page_info = json_decode($page_info, true);
                 </p>
                 <p><a href="https://studentaid.gov/understand-aid/types/loans/federal-vs-private">This summary of the differences</a> explains federal versus private student loans.</p>
                 <p>Vassar College does not endorse or recommend any particular private lender. For a sampling of lenders used by Vassar students in recent years, visit <a href="http://www.elmselect.com/?schoolId=235">ELM Select</a>.</p>
-                <p>Important Information about Private Loans:</p>
+                <p><strong>Important Information:</strong></p>
                 <ul>
                     <li>Interest rate: varies. A comparison of interest rates (prime rate versus 3 month Libor) can be found at <a href="http://www.forecasts.org/interest-rate/">Financial Forecast Center</a></li>
                     <li>Origination fee: varies</li>
@@ -234,77 +298,6 @@ $page_info = json_decode($page_info, true);
 </div>
 
 <?php echo end_sec_regularContent(); ?>
-
-
-<?php echo sec_regularContent(
-    'Campus Employment',
-    null,
-    '',
-    ''
-); ?>
-
-<p>All financial aid recipients receive an allocation for either Federal Work-Study (federally funded) or Institutional Employment (Vassar-supplied employment funds).</p>
-
-<p>Students with work-study awards receive priority in the job registration process. These awards may also apply for off-campus community service work-study (CSWS).</p>
-
-
-<div class="accordion accordion-flush my-5" id="loans">
-    <div class="accordion-item">
-        <div class="accordion-header" id="loans-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#loans-collapseOne" aria-expanded="false" aria-controls="loans-collapseOne">
-                What types of on campus jobs are available?
-            </button>
-        </div>
-        <div id="loans-collapseOne" class="accordion-collapse collapse" aria-labelledby="loans-headingOne" data-bs-parent="#loans">
-            <div class="accordion-body">
-                <p><strong>Jobs on campus include:</strong></p>
-                <ul>
-                    <li>Library work</li>
-                    <li>Administrative and academic office work</li>
-                    <li>Computer center services</li>
-                    <li>Faculty internships</li>
-                </ul>
-
-
-
-            </div>
-        </div>
-    </div>
-    <div class="accordion-item">
-        <div class="accordion-header" id="loans-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#loans-collapseTwo" aria-expanded="false" aria-controls="loans-collapseTwo">
-                <span>Can non-financial aid students get on campus jobs?</span>
-            </button>
-        </div>
-        <div id="loans-collapseTwo" class="accordion-collapse collapse" aria-labelledby="loans-headingTwo" data-bs-parent="#loans">
-            <div class="accordion-body">
-                <p>After the first month of each semester, remaining jobs are made available to non-financial aid students.</p>
-            </div>
-        </div>
-    </div>
-    <div class="accordion-item">
-        <div class="accordion-header" id="loans-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#loans-collapseThree" aria-expanded="false" aria-controls="loans-collapseThree">
-                <span>How much money can be earned with on campus work?</span>
-            </button>
-        </div>
-        <div id="loans-collapseThree" class="accordion-collapse collapse" aria-labelledby="loans-headingThree" data-bs-parent="#loans">
-            <div class="accordion-body">
-                <p>Students may work an average of eight hours per week, and can anticipate earning about $3,000 during the academic year.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<?php echo cta_link(
-    'https://offices.vassar.edu/student-employment/',
-    'Learn more about campus jobs at Student Employment'
-); ?>
-
-<?php echo end_sec_regularContent(); ?>
-
-
 
 <!-- Related Topics -->
 <?php echo relatedTopics(); ?>

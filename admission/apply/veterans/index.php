@@ -37,7 +37,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Information for American Veterans',
-    'Vassar actively seeks to enroll qualified veterans of the U.S. Armed Forces. Vassar fosters these connections through the Posse Veterans Program and the Yellow Ribbon Program, aimed at increasing enrollment of veterans at selective colleges and universities.',
+    'Vassar actively seeks to enroll qualified veterans of the U.S. Armed Forces. Vassar fosters these connections through the Vassar Veterans Initiative, Service to School, and the Yellow Ribbon Program.',
     $admission_img_path.'apply/veterans/commencement-posse-1905-ssh-002-crop.jpg',
     null,
     null,
@@ -49,16 +49,16 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Posse Veterans Program',
+    'Vassar Veterans Initiative',
     '/admission/assets/images/apply/veterans/0055_15_04_KR_0146.jpg',
     'image-is-first theme-cream section-large-title',
     '',
     ['img_alt_text' => 'A deliberately blurred motion photo of students walking into the College Center entryway']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>This program supports veterans interested in pursuing bachelor’s degrees at top educational institutions. Those accepted into the program attend college as part of a Veterans Posse, which is a team of service veterans.</p>
-    <p><a href="https://www.vassar.edu/vq/issues/2013/03/vassar-today/call-of-duty.html">The first 10 participants</a> joined the Vassar community in Fall 2013, attending tuition-free through a combination of scholarship aid and GI Bill® benefits.</p>
-    <a href="https://www.possefoundation.org/shaping-the-future/posse-veterans-program" class="btn btn-link arrow">Visit the Posse Veterans Program</a>
+    <p>The Vassar Veterans Initiative (VassarVets) is designed to expand Vassar’s outreach to U.S. military servicemembers and veterans. Through VassarVets, we support veteran students’ success at Vassar by providing assistance navigating the admission process, specialized advising, and opportunities to build community on campus.</p>
+        <p>In 2012, Vassar led the way as the first institution of higher education in the nation to partner with The Posse Foundation to recruit veterans for enrollment. In 2022 with the establishment of VassarVets, we have expanded our support of student veterans beyond Posse.</p>
+    <a href="https://www.vassar.edu/news/vassar-announces-launch-vassar-veterans-initiative" class="btn btn-link arrow">Learn more about the Vassar Veterans Initiative</a>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -142,16 +142,11 @@ $page_info = json_decode($page_info, true);
 
 <div class="contact-list">
   <div class="staff-contact">
-      <h3>Ann Gitto</h3>
-      <p><em>Associate Director of Student Financial Services</em></p>
-      <a class="fixemaillink" href="mailto:angitto@vassar.edu">Email: angitto@vassar.edu</a>
+      <h3>Colleen Mallet</h3>
+      <p><em>Director of Veteran Students Outreach and Support</em></p>
+      <a class="fixemaillink" href="mailto:comallet@vassar.edu">Email: comallet@vassar.edu</a>
   </div>
 
-  <div class="staff-contact">
-      <h3>Angela Anderson</h3>
-      <p><em>Registrar</em></p>
-      <a class="fixemaillink" href="mailto:angelaanderson@vassar.edu">Email: angelaanderson@vassar.edu</a>
-  </div>
 </div>
 
 <h3>Links to Information on Veterans’ Benefits</h3>
