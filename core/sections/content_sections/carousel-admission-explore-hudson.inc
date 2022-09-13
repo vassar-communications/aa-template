@@ -65,7 +65,7 @@ function admissionExploreHudsonCarousel () {
 <div class="carousel-cell">
     <div class="carousel-cell-content">
         <div class="image-container">
-        <img src="/admission/assets/images/explore/hudson/Springwood_06_TT_09.jpg" />
+        <img src="/admission/assets/images/explore/hudson/Depositphotos_53747507_XL.jpg" />
         </div>
         <div class="figcaption pt-5">
             <h3 class="h3">Franklin D. Roosevelt Residence & The Presidential Library Museum</h3>

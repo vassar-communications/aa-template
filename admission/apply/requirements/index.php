@@ -33,9 +33,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Information for First-Year Applicants',
-    '/admission/assets/images/apply/first-year/0134-17-09-kr-fw-campus-vassar-7798.jpg',
+    '/admission/assets/images/apply/first-year/0149-19-11-kr-chemistry-vassar-4650.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'needsalttxt']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text mb-5">Everything you need to know to apply.</p>

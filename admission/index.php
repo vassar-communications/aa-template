@@ -96,7 +96,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Apply to Vassar',
         '/admission/apply/',
-        ['url' => '/admission/assets/images/admission-home/0198-19-11-kwe-library-vassar-vb-5415.jpg', 'alt' => 'A person at a library study table taking notes next to a stack of four books.' ],
+        ['url' => '/admission/assets/images/admission-home/0198-19-11-kwe-library-vassar-vb-5289.jpg', 'alt' => 'needsalttxt' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
@@ -142,7 +142,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Request Information',
         'https://apply.vassar.edu/register/requestinfo',
-        ['url' => '/admission/assets/images/admission-home/0065-19-05-kr-jewett-dorm-vassar-4374.jpg', 'alt' => 'A student in their dorm room sitting at a desk writing in a notebook' ],
+        ['url' => '/admission/assets/images/admission-home/570_Library_Vassar_May 2019_JA.jpg', 'alt' => 'needsalttxt' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 

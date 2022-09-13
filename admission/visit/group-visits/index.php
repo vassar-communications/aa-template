@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title": "Group Visits",
-  "feature_image": "/admission/assets/images/visit/group/0100-21-10-kr-fw-arboretum-vassar-0270.jpg"
+  "feature_image": "/admission/assets/images/visit/group/adlov-admissions-vq-vassar-0911-lrr-8500.jpg"
 }';
 
 /* === */

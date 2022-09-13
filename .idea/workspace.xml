@@ -2,25 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/0149-19-11-kr-chemistry-vassar-4643.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/first-year/0149-19-11-kr-chemistry-vassar-4650.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/apply/veterans/0027-22-05-ali-commencement-vassar-255.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/connect/res-quad-2105-kr-vassar-0033-crop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/connect/res-quad-2105-kr-vassar-0033.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/campus/slideshow/0037-22-06-kr-reunion-vassar-0226.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/diversity/0203_17_04_KR_0097-2x3-crop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/hudson/Depositphotos_53747507_XL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/explore/outing-club-18-ig-6908.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/sitewide-cards/0070-21-06-kr-tour-vassar-0053.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/group/adlov-admissions-vq-vassar-0911-lrr-8500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/in-person/0070-21-06-kr-tour-vassar-0053.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/international/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/international/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/requirements/interviews/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/requirements/interviews/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/index-31-1539.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/index-31-1539.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/requirements/arts/index-31-1540.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/requirements/arts/index-31-1540.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/requirements/arts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/requirements/arts/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/requirements/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/requirements/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admission/apply/transfer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/transfer/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admission/apply/veterans/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/veterans/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/connect/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/connect/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/apply/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/apply/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/forms/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/forms/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/tuition/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/tuition/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/types-of-aid/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/types-of-aid/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/quick-facts/academics/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/quick-facts/academics/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/quick-facts/community/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/quick-facts/community/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/quick-facts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/quick-facts/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/_nav.txt" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/_nav.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/connect/index-1913.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/connect/index-1913.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/connect/index-1914.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/connect/index-1914.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/connect/index-prev.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/connect/index-prev.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/connect/meet-the-students/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/connect/meet-the-students/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/campus/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/campus/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/diversity-inclusion/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/diversity-inclusion/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/explore/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/explore/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/inc/_footer-highlight.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/_footer-highlight.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/inc/pages/connect/connect-students.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/connect/connect-students.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/inc/pages/visit/visit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/inc/pages/visit/visit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/visit/group-visits/index-2229.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/group-visits/index-2229.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/visit/group-visits/index-31-1126.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/group-visits/index-31-1126.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admission/visit/group-visits/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/group-visits/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admission/visit/in-person/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/in-person/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/visit/virtual-programs/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/virtual-programs/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sections/content_sections/carousel-admission-explore-hudson.inc" beforeDir="false" afterPath="$PROJECT_DIR$/core/sections/content_sections/carousel-admission-explore-hudson.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +127,9 @@
       <workItem from="1661316233468" duration="6508000" />
       <workItem from="1661384818746" duration="631000" />
       <workItem from="1661937135284" duration="8780000" />
-      <workItem from="1662542239961" duration="4637000" />
+      <workItem from="1662542239961" duration="5501000" />
+      <workItem from="1662675717335" duration="601000" />
+      <workItem from="1662926424429" duration="4154000" />
     </task>
     <servers />
   </component>

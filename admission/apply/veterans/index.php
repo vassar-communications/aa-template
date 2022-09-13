@@ -38,10 +38,10 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Information for American Veterans',
     'Vassar actively seeks to enroll qualified veterans of the U.S. Armed Forces. Vassar fosters these connections through the Vassar Veterans Initiative, Service to School, and the Yellow Ribbon Program.',
-    $admission_img_path.'apply/veterans/commencement-posse-1905-ssh-002-crop.jpg',
+    $admission_img_path.'apply/veterans/0027-22-05-ali-commencement-vassar-255.jpg',
     null,
     null,
-    ['img_alt_text' => 'At Commencement, President Bradley shakes hands with a graduating veteran accompanied by two young children']
+    ['img_alt_text' => 'needsalttxt']
   );
 
 ?>

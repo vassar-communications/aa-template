@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Information for Transfer Applicants',
-    $admission_img_path.'apply/transfer/0198-19-11-kwe-library-vassar-vb-5289-crop.jpg',
+    $admission_img_path.'apply/transfer/0198-19-11-kwe-library-vassar-vb-5415-crop.jpg',
     'image-is-first theme-cream',
     '',
     ['img_alt_text' => 'A person at a library study table taking notes next to a stack of four books.']

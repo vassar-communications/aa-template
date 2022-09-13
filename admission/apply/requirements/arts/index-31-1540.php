@@ -132,7 +132,7 @@ $page_info = json_decode($page_info, true);
 <h3 class="mt-5">Coalition or QuestBridge Application</h3>
     <p>If you are submitting the Questbridge or Coalition Application go to <a href="https://vassar.slideroom.com/">vassar.slideroom.com</a>, select the “Non-Common App” option for the program and round in which you are applying and submit your materials. For example, if you are applying in Early Decision I and submitting a dance portfolio, you would click on “Dance (Non-Common App): Early Decision I.”</p>
 
-    <p>If you submitted the Questbridge or Coalition application and require a Slideroom fee waiver, please email <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a> to make that request.</p>
+    <p>If you submitted the Questbridge or Coalition application and require a Slideroom fee waiver, please email <a href="mailto:admission@vassar.edu">admission@vassar.edu</a> to make that request.</p>
 
 <h3 class="mt-5">Questions about art, music, and dance portfolios?</h3>
     <p>Please email Melanie Poston at <a href="mailto:mposton@vassar.edu">mposton@vassar.edu</a></p>
