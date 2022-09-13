@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Looking up the trunk of a tree with brightly colored autumn leaves']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-   <p class="intro-text">Vassar provides a high-value education and is committed to meeting 100% of the demonstrated financial need of all admitted students.</p>
+   <p class="intro-text">Around two thirds of Vassar students receive financial aid and the average Vassar scholarship award is $51,508. We are committed to making a Vassar education affordable by meeting 100% of the demonstrated financial need of all admitted students.</p>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
