@@ -195,7 +195,7 @@ $page_info = json_decode($page_info, true);
 
 <p><?php echo item_link_VideoModal(
     'Watch the video',
-    'https://player.vimeo.com/745469490',
+    'https://player.vimeo.com/video/745469490',
     'vimeo',
     '',
     'no-arrow btn-link mt-4'
