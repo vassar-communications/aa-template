@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title": "On Campus Visits",
-  "feature_image": "/admission/assets/images/visit/in-person/0073-21-06-kr-summer-vassar-0179.jpg"
+  "feature_image": "/admission/assets/images/visit/in-person/0070-21-06-kr-tour-vassar-0053-crop.jpg"
 }';
 
 /* === */
