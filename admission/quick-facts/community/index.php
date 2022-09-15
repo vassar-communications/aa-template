@@ -74,9 +74,9 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
-      'Student organizations',
-      $resources['student_orgs'],
-      '<a href="https://vsa.vassar.edu/">See all our orgs <i class="fa-solid fa-arrow-right ms-1"></i></a>'
+      'First Generation Students',
+      '14%',
+      ''
     ); ?>
   <?php echo end_item_col(); ?>
 
@@ -115,103 +115,6 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_hasColumns(); ?>
 
 
-
-
-
-
-<?php echo sec_fullBleedImageColumn(
-    'Diversity',
-    '/admission/assets/images/quick-facts/community/res-quad-2105-kr-vassar-0033.jpg',
-    'image-is-first theme-burgundy',
-    '',
-    [
-      'img_alt_text' => 'Group of students relaxing on lawn in the residential quad on Vassar Campus. One student in a hammock.',
-      'css' => '--icon-item-border-color: rgba(255,255,255,0.2)'
-    ]
-); ?>
-
-  <div class="animate-when-content-appears animation-slide-up gold-icons">
-
-      <?php echo item_iconItem(
-        'Academic Diversity',
-        'book-open-reader',
-        'icon-on-left'
-      ); ?>
-          <p>Our campus is a mix of students interested in the natural sciences, social sciences, arts, and humanities, as well as some interesting combinations of these disciplines.</p>
-      <?php echo end_item_iconItem(); ?>
-
-      <?php echo item_iconItem(
-        'Extracurricular Diversity',
-        'lightbulb',
-        'icon-on-left'
-      ); ?>
-        <p>Extracurricular diversity is characteristic of our campus culture. A number of students are varsity athletes; others have an inclination to sing, dance, act, improvise, sculpt, film, paint, write, or otherwise create. Some do it all!</p>
-      <?php echo end_item_iconItem(); ?>
-
-      <?php echo item_iconItem(
-        'Political Diversity',
-        'comments',
-        'icon-on-left'
-      ); ?>
-        <p>Politically, our campus is open-minded. Vassar students span the political spectrum. Diversity of opinion is respected, critical thought encouraged, and communication of ideas held as central to a liberal arts education.</p>
-      <?php echo end_item_iconItem(); ?>
-
-
-
-  </div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-
-
-
-
-<?php /*
-<?php echo sec_hasColumns(
-    'Diversity',
-    '3',
-    null,
-    'items-equal-height mw-inner-4 theme-extralightgray',
-    'gap-3',
-    ['title_level' => '3']
-); ?>
-
-  <?php echo item_col(); ?>
-    <?php echo item_cardWithText(
-        'Academic diversity',
-        '#',
-        ['url' => $quickfacts_img_path.'110619_160over90_Vassar_4608.jpg'
-, 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
-    ); ?>
-      <p>Our campus is a mix of students interested in the natural sciences, social sciences, arts and humanities, as well as some interesting combinations of these disciplines.</p>
-      <?php echo end_item_cardWithText('See all our majors and minors'); ?>
-  <?php echo end_item_col(); ?>
-
-  <?php echo item_col(); ?>
-  <?php echo item_cardWithText(
-      'Extracurricular diversity',
-      '#',
-      ['url' => '/admission/assets/images/quick-facts/community/0024-18-03-kr-wvkr-vassar-3503.jpg', 'alt' => 'Student on the mic at WVKR Vassar Radio' ],
-      'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
-  ); ?>
-    <p>Extracurricular diversity is characteristic of our campus culture. A number of students are varsity athletes; others have an inclination to sing, dance, act, improvise, sculpt, film, paint, write, or otherwise create. Some do it all!</p>
-    <?php echo end_item_cardWithText('See all our student organizations'); ?>
-  <?php echo end_item_col(); ?>
-
-  <?php echo item_col(); ?>
-    <?php echo item_cardWithText(
-        'Political diversity',
-        '#',
-        ['url' => $placeholder_img_square, 'alt' => 'replacealttext' ],
-        'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
-    ); ?>
-      <p>Politically, our campus is open-minded. Vassar students span the political spectrum. Diversity of opinion is respected, critical thought encouraged, and communication of ideas held as central to a liberal arts education.</p>
-      <?php echo end_item_cardWithText('[Related Link]'); ?>
-  <?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
-*/ ?>
 
 <?php echo sec_regularContent(
     'Vassar Life',
@@ -331,7 +234,7 @@ $page_info = json_decode($page_info, true);
         ['url' => $quickfacts_img_path.'0234-17-04-kr-music-event-vassar-0007.jpg', 'alt' => 'Students play music on an outdoor stage' ],
         'card--twsocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link bg-dark'
     ); ?>
-        <p>We have over 170 active student organizations, including theater groups, <em>a cappella</em> groups, student government, political organizations, and several student publications. We even have a juggling/circus troupe.</p>
+        <p>We have over 170 active student organizations, including affinity groups, theater groups, <em>a cappella</em> groups, student government, political organizations, and several student publications. We even have a juggling/circus troupe.</p>
     <?php echo end_item_cardWithText('Learn more about student orgs'); ?>
   <?php echo end_item_col(); ?>
 
@@ -508,7 +411,7 @@ echo sec_hasColumns(
     'section-class mw-inner-2',
     ''
 ); ?>
-  <p class="intro-text">Our campus is 1,000 acres and is maintained as an arboretum with over 200 species of trees. The campus includes the Vassar Farm and Ecological Preserve, a nine-hole golf course, Sunset Lake, the Shakespeare Garden, an astronomical observatory, and the Frances Lehman Loeb Art Center.</p>
+<p class="intro-text">Our campus is 1,000 acres and is maintained as an arboretum with over 200 species of trees. The campus includes the <a href="https://www.vassar.edu/farm">Vassar Farm and Ecological Preserve</a>, a nine-hole golf course, Sunset Lake, the Shakespeare Garden, an <a href="https://www.vassar.edu/physicsandastronomy/facilities/observatory.html">observatory</a>, and the <a href="https://www.vassar.edu/theloeb">Frances Lehman Loeb Art Center</a>.</p>
 <?php echo end_sec_regularContent(); ?>
 
 

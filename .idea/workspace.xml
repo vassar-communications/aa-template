@@ -3,9 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/apply/requirements/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/requirements/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/tuition/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/tuition/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/financial-aid/types-of-aid/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/types-of-aid/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/how-to-apply/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/how-to-apply/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/international/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/international/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/requirements/interviews/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/requirements/interviews/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/apply/transfer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/apply/transfer/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/connect/for-counselors/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/connect/for-counselors/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/financial-aid/apply/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/apply/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/financial-aid/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/financial-aid/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/quick-facts/community/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/quick-facts/community/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/quick-facts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/quick-facts/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/visit/group-visits/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/group-visits/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/visit/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +106,8 @@
       <workItem from="1661937135284" duration="8780000" />
       <workItem from="1662542239961" duration="5501000" />
       <workItem from="1662675717335" duration="601000" />
-      <workItem from="1662926424429" duration="6248000" />
+      <workItem from="1662926424429" duration="6907000" />
+      <workItem from="1663178283818" duration="7019000" />
     </task>
     <servers />
   </component>

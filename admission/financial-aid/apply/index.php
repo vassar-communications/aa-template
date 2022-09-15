@@ -115,7 +115,41 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_hasColumns(); ?>
 
 
+<?php echo sec_hasColumns(
+    null,
+    1,
+    '',
+    'related-topics-section theme-cream mw-inner-1',
+    'col-gap-3'
+); ?>
 
+<?php echo item_col(); ?>
+<?php echo deadlines(
+    'Financial Aid Deadlines',
+    null,
+    null,
+    'shadow'
+); ?>
+<?php echo deadlines_item('Early Decision I', $deadlines['finaid-early-decision-1']); ?>
+<?php echo deadlines_item('Early Decision II', $deadlines['finaid-early-decision-2']); ?>
+<?php echo deadlines_item('Regular Decision', $deadlines['finaid-regular-decision']); ?>
+<?php echo deadlines_item('Fall Transfer', $deadlines['finaid-fall-transfer']); ?>
+<?php echo deadlines_item('Spring Transfer', $deadlines['finaid-spring-transfer']); ?>
+<?php echo deadlines_item('Returning Students', $deadlines['finaid-returning']); ?>
+
+<?php echo end_deadlines(); ?>
+<?php echo end_item_col(); ?>
+
+
+<?php /* echo item_col(); ?>
+
+  <a href="https://www.vassar.edu/sites/default/files/2021-06/Vassar-Viewbook-2020.pdf"><img loading="lazy" src="https://www.vassar.edu/sites/default/files/2021-06/viewbook-2020.jpg" alt="Cover of Vassar's 2020 Viewbook"></a>
+  <p class="card-text"><a href="https://www.vassar.edu/sites/default/files/2021-06/Vassar-Viewbook-2020.pdf">Read our Viewbook</a></p> ?>
+
+    <?php echo end_item_col(); */ ?>
+
+
+<?php echo end_sec_hasColumns(); ?>
 
 <?php echo sec_regularContent(
     'Financial Aid Application Checklists',

@@ -102,6 +102,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_regularContent(); ?>
 
 
+<div id="selectioncriteria"></div>
 <?php echo sec_regularContent(
     'Selection Criteria',
     null,
@@ -141,6 +142,21 @@ $page_info = json_decode($page_info, true);
   <?php echo end_info_card(); ?>
 
 
+
+<?php echo info_card(
+    'Fee Waiver',
+    '',
+    'info'
+); ?>
+
+<p>If the application fee poses a financial hardship, a fee waiver can be requested on the Common Application or the Coalition Application. Fee waivers are automatically offered to students who participated in the Vassar View program, QuestBridge Finalists, Veterans, and International applicants who are unable to use a credit card to pay the application fee.</p>
+
+<ul>
+    <li>If you apply via the Common Application, under the Vassar College Member-Specific section you will be asked “Do you intend to use one of these school-specific fee waivers?” Please select “Yes, I will be using a Vassar fee waiver.”</li>
+    <li>If you apply via the Coalition Application, use the fee waiver code: Vassar Fee Waiver.</li>
+</ul>
+
+<?php echo end_info_card(); ?>
 
 <?php echo end_sec_regularContent(); ?>
 
