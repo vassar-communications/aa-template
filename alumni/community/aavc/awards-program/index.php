@@ -185,23 +185,26 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alumni/assets/img/alumni-community/aavc/awards/Marie_Dilemani_AAVC_Award_210922_KR_0046.jpg',
+    '/alumni/assets/img/alumni-community/aavc/awards/arushi-raina.jpg',
     'image-is-first',
     '',
-    ['img_alt_text' => 'Marie Dugo Dilemani ‘11']
+    ['img_alt_text' => 'A person with short black hair stands at a wooden podium, speaking into a microphone.']
 ); ?>
-<h6 class="tagline">2021 Recipient</h6>
-<h1>Marie Dugo Dilemani ’11</h1>
+<h6 class="tagline">2022 Recipient</h6>
+<h1>Arushi Raina ’14</h1>
 
 <p><?php echo item_link_VideoModal(
     'Watch the video',
-    'https://player.vimeo.com/video/637612799',
+    'https://player.vimeo.com/745469490',
     'vimeo',
     '',
     'no-arrow btn-link mt-4'
 ); ?></p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
 
 
 <?php echo relatedTopics(); ?>

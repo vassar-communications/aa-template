@@ -30,6 +30,23 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 
+<?php echo sec_regularContent(
+  null,
+  'p-2'
+); ?>
+
+<?php echo info_card(
+  'Construction Alert',
+  'classes',
+  'alert'); ?>
+
+<p>The entrance from College Ave to Alumnae House is currently closed to accommodate construction activities. The Fulton Ave entrance is available to access the Alumnae House during the construction project.</p>
+
+<?php echo end_info_card(); ?>
+
+<?php echo end_sec_regularContent(); ?>
+
+
 <?php echo sec_fullBleedImageColumn(
     null,
     $alumni_img_path.'alumni-resources/alumnae-house/Alumnae_House_06_CB_08.jpg',

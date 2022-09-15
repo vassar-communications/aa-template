@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d924b95-5def-449a-bcdb-85d851cabf4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/admission/quick-facts/index-091522.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admission/assets/images/visit/in-person/0070-21-06-kr-tour-vassar-0053-crop.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission/quick-facts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/quick-facts/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/visit/in-person/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admission/visit/in-person/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,7 @@
       <workItem from="1662542239961" duration="5501000" />
       <workItem from="1662675717335" duration="601000" />
       <workItem from="1662926424429" duration="6907000" />
-      <workItem from="1663178283818" duration="8044000" />
+      <workItem from="1663178283818" duration="9358000" />
     </task>
     <servers />
   </component>

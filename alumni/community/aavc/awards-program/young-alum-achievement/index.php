@@ -37,6 +37,30 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
+
+<h3 class="mt-5">2022</h3>
+
+<h4>Arushi Raina ’14</h4>
+
+<ul class="linked-list">
+  <li>
+    <?php echo item_link_VideoModal(
+      'Watch a video of Arushi Raina ’14’s award acceptance remarks',
+        'https://player.vimeo.com/video/745469490',
+        'vimeo',
+        '',
+        'no-arrow'
+    ); ?>
+  </li>
+    <li><a href="https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards">Read about Raina in the Vassar news story about the 2022 AAVC Awards</a></li>
+    <li><a href="https://www.vassar.edu/news/convocation-2022">Read more about Raina in the Vassar news story about Convocation 2022</a></li>
+</ul>
+
+
+
+
+
+
 <h3 class="mt-5">2021</h3>
 
 <h4>Marie Dugo Dilemani ’11</h4>
@@ -44,15 +68,15 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-      'Watch the video',
+      'Watch a video of Marie Dugo Dilemani ’11’s award acceptance remarks',
         'https://player.vimeo.com/video/637612799?h=4c2b5a1293',
         'vimeo',
         '',
         'no-arrow'
     ); ?>
   </li>
-    <li><a href="https://www.vassar.edu/news/five-honored-2021-aavc-awards" title="Five Honored with 2021 AAVC Awards">Read about Dilemani in the Vassar news story about the 2021 AAVC Awards.</a></li>
-    <li><a href="https://www.vassar.edu/news/convocation-brings-campus-community-together-again" title="Convocation Brings the Campus Community Together Again">Read more about Dilemani in the Vassar news story about Convocation 2021.</a></li>
+    <li><a href="https://www.vassar.edu/news/five-honored-2021-aavc-awards" title="Five Honored with 2021 AAVC Awards">Read about Dilemani in the Vassar news story about the 2021 AAVC Awards</a></li>
+    <li><a href="https://www.vassar.edu/news/convocation-brings-campus-community-together-again" title="Convocation Brings the Campus Community Together Again">Read more about Dilemani in the Vassar news story about Convocation 2021</a></li>
 </ul>
 
 <h3 class="mt-5">2020</h3>
@@ -68,7 +92,7 @@ $page_info = json_decode($page_info, true);
 <h4>Jacob Adelgren ’15, Alejandro Dinsmore ’15, Matthew Griffiths ’17, Casey Hancock ’16, and Harris Gordon ’15—founders of the immersive technology company eevo.</h4>
 
 <ul class="linked-list">
-    <li><a href="https://stories.vassar.edu/2019/190911-aavc-honors-six-alumnaei-during-convocation.html">Read more about the founders of eevo in the September 2019 <em>Vassar Stories</em> article.</a></li>
+    <li><a href="https://stories.vassar.edu/2019/190911-aavc-honors-six-alumnaei-during-convocation.html">Read more about the founders of eevo in the September 2019 <em>Vassar Stories</em> article</a></li>
 </ul>
 
 <h3 class="mt-5">2018</h3>
@@ -78,7 +102,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-      'Watch the video',
+      'Watch a video of Xiaoyuan Ren ’13’s award acceptance remarks',
         'https://www.youtube.com/embed/UY5tKY9kVJ8',
         'youtube',
         '',
@@ -95,7 +119,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
 <li>
   <?php echo item_link_VideoModal(
-    'Watch the video',
+    'Watch a video of Marguerite O’Haire ’08’s award acceptance remarks',
       'https://www.youtube.com/embed/u44NpcIgbXM',
       'youtube',
       '',

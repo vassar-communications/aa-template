@@ -78,6 +78,8 @@ $page_info = json_decode($page_info, true);
 
           <p>Telephone: <a href="tel:8454377100" class="">(845) 437-7100</a><br>
               Email: <a href="mailto:alumnaehouse@vassar.edu">alumnaehouse@vassar.edu</a></p>
+
+          <p> <?php echo cta_link('https://www.vassar.edu/alumni/resources/alumnae-house/', 'Learn more about Alumnae House'); ?> </p>
     </div>
 
 
@@ -460,7 +462,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Willa Vincitore ’92',
-    'Senior Director, Alumnae/i Engagement',
+    'Assistant Vice President for Alumnae/i Engagement',
     [
       'phone' => '845-437-5441',
       'email' => 'wvincitore@vassar.edu',
@@ -542,11 +544,11 @@ echo end_contact_card();
                 <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
   <?php
   echo contact_card(
-    'TBD',
+    'Janine Gwinn',
     'Associate Vice President for Advancement Communications',
     [
       'phone' => '',
-      'email' => '',
+      'email' => 'jgwinn@vassar.edu',
     ]
 );
 echo end_contact_card();
@@ -958,7 +960,7 @@ echo end_contact_card();
   <?php
     echo contact_card(
         'Kristy Grimes',
-        'Director of Donor Relations',
+        'Director of Stewardship, Special Events, and Programs for Advancement',
         [
           'phone' => '845-437-7015',
           'email' => 'kgrimes@vassar.edu',
