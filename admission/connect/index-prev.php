@@ -69,7 +69,7 @@ $page_info = json_decode($page_info, true);
 <p>
     Telephone: (845) 437-7300 or (800) 827-7270<br>
     Fax: (845) 437-7063<br>
-    Email: <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>
+    Email: <a href="mailto:admission@vassar.edu">admission@vassar.edu</a>
 </p>
     </div>
 

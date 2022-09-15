@@ -70,7 +70,7 @@ $page_info = json_decode($page_info, true);
 <p>
     Telephone: <a href="tel:1-845-437-7300">(845) 437-7300</a> or <a href="tel:1-800-827-7270">(800) 827-7270</a><br>
     Fax: <a href="fax:1-845-437-7063">(845) 437-7063</a><br>
-    Email: <a href="mailto:admissions@vassar.edu">admissions@vassar.edu</a>
+    Email: <a href="mailto:admission@vassar.edu">admission@vassar.edu</a>
 </p>
     </div>
 

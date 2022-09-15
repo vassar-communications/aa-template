@@ -45,10 +45,10 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Freedom to Discover',
     'Vassar’s unique community is an environment that sparks curiosity. Everyone can discover their individual path beyond the edges to make a positive impact on the world.',
-    '/admission/assets/images/explore/0015_15_02_CS_011.jpg',
+    '/admission/assets/images/explore/outing-club-18-ig-6908.jpg',
     null,
     null,
-    ['img_alt_text' => 'Students jump into an icy pool as part of a challenge']
+    ['img_alt_text' => 'needsalttxt']
   );
 ?>
 

@@ -159,7 +159,7 @@ $page_info = json_decode($page_info, true);
     'theme-burgundy has-bg quad-pattern',
     ''
 ); ?>
-  <p>Vassar meets the full demonstrated need of all admitted students who apply for financial aid at the time of their admission application. We are need-aware when reviewing applications from international students. Students who are neither U.S. citizens nor permanent residents who wish to be considered for financial aid at any time during their years at Vassar must apply for aid at the same time that they apply for admission. Students admitted without financial aid in the first year are not eligible to receive Vassar funding during their years at the College. Financial aid is not available for international transfer applicants.</p>
+  <p>Vassar meets the full demonstrated need of all admitted students who apply for financial aid at the time of their admission application. We are need aware when reviewing applications from international students. Students who are neither U.S. citizens nor permanent residents who wish to be considered for financial aid at any time during their years at Vassar must apply for aid at the same time that they apply for admission. Students admitted without financial aid in the first year are not eligible to receive Vassar funding during their years at the College. Financial aid is not available for international transfer applicants.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

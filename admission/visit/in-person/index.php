@@ -33,10 +33,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-     '/admission/assets/images/visit/0113-19-09-kr-families-weekend-vassar-1616.jpg',
+     '/admission/assets/images/visit/in-person/0070-21-06-kr-tour-vassar-0053.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Tour of the dorms on the Vassar Campus']
+    ['img_alt_text' => 'needsalttxt']
 );
 
 // former image: visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg

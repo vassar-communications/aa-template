@@ -49,7 +49,7 @@ $page_info = json_decode($page_info, true);
   <?php echo deadlines('Interview Request Deadlines'); ?>
     <?php echo deadlines_item('Early Decision I', $deadlines['early-decision-1']); ?>
     <?php echo deadlines_item('Early Decision II', $deadlines['early-decision-2']); ?>
-    <?php echo deadlines_item('Regular Decision', $deadlines['regular-decision']); ?>
+    <?php echo deadlines_item('Regular Decision', $deadlines['regular-decision-interview']); ?>
   <?php echo end_deadlines(); ?>
 
 

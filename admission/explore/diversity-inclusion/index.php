@@ -49,10 +49,10 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Together We Become More',
     'Our differences strengthen our community and offer us the opportunity to connect with all kinds of people.',
-    $admission_img_path.'explore/diversity/0038_16_04_KR_0005.jpg',
+    $admission_img_path.'explore/diversity/0203_17_04_KR_0097-2x3-crop.jpg',
     '',
     '',
-    ['img_alt_text' => 'Students work with colored cloth on one of the quads']
+    ['img_alt_text' => 'needsalttxt']
   );
 ?>
 

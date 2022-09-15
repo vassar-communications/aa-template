@@ -33,9 +33,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Information for First-Year Applicants',
-    '/admission/assets/images/apply/first-year/0134-17-09-kr-fw-campus-vassar-7798.jpg',
+    '/admission/assets/images/apply/first-year/0149-19-11-kr-chemistry-vassar-4650.jpg',
     'image-is-first theme-cream',
-    ''
+    '',
+    ['img_alt_text' => 'needsalttxt']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text mb-5">Everything you need to know to apply.</p>
@@ -63,9 +64,7 @@ $page_info = json_decode($page_info, true);
     <li>Early Decision Agreement (Early Decision Applicants ONLY)</li>
     <li>School Report and High School Transcript: To be completed and sent by your school counselor. Available for online completion or download through <?php echo central_link('common-app', 'Common Application'); ?>.</li>
     <li>A Teacher Evaluation</li>
-    <li>Mid-year Grade Report: Vassar requests each applicant’s most recent grade report to be sent by the school counselor.</li>
-    <li>For Early Decision I and II: Vassar requires a first quarter/trimester grade report, which should be sent as soon as it becomes available.</li>
-    <li>For Regular Decision: A mid-year report with first-term grades is required when available, typically by February 1.</li>
+    <li>Mid-year Report: Your school counselor or another school official must submit your mid-year grades to us. Early Decision applicants should also submit a fall progress report.</li>
     <li>Students admitted during Early Decision I or II will also be asked to provide their first-term grades as soon as they become available.</li>
     <li><a href="/admission/apply/international/">TOEFL/IELTS/DuoLingo</a>: If English is neither your first language nor the primary language of instruction in secondary schools you have attended for the last three years.
     </li>

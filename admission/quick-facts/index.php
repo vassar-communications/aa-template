@@ -139,7 +139,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_hasColumns(
     'Required',
-    '2',
+    '1',
     '',
     'theme-extralightgray',
     '',
@@ -170,23 +170,6 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_item_col(); ?>
 
-<?php echo item_col(); ?>
-<?php echo info_card(
-    'Fee Waiver',
-    '',
-    'info'
-); ?>
-
-<p>If the application fee poses a financial hardship, a fee waiver can be requested on the Common Application or the Coalition Application. Fee waivers are automatically offered to students who participated in the Vassar View program, QuestBridge Finalists, Veterans, and International applicants who are unable to use a credit card to pay the application fee.</p>
-
-<ul>
-    <li>If you apply via the Common Application, under the Vassar College Member-Specific section you will be asked “Do you intend to use one of these school-specific fee waivers?” Please select “Yes, I will be using a Vassar fee waiver.”</li>
-    <li>If you apply via the Coalition Application, use the fee waiver code: Vassar Fee Waiver.</li>
-</ul>
-
-<?php echo end_info_card(); ?>
-
-<?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
@@ -339,12 +322,22 @@ echo sec_hasColumns(
 <?php echo accordion('useful-info'); ?>
 
 <?php echo accordion_item('useful-info', 'Taking a gap year'); ?>
-<p>Admitted first-year students may defer entry to Vassar for one year with the permission of the Office of Admission. Students who are taking a gap year must confirm their intent to enroll at Vassar by submitting the <strong>Candidate’s Reply Card and the required enrollment deposit by May 1</strong>, and must complete the Deferral Request Form, available on the Admitted Students website, <strong>no later than May 22</strong>. If deferred status is approved, a formal letter stating the conditions under which the deferral has been granted will be sent to the student. Students who may be offered admission to Vassar from the wait list after May 1 are not eligible to request a deferral of admission.</p>
+<p>Students who are taking a gap year must confirm their intent to enroll at Vassar by submitting the Candidate’s Reply Card and the required enrollment deposit by May 1, and must complete the Deferral Request Form by the deadline listed on the Admitted Students website. If deferred status is approved, a formal letter stating the conditions under which the deferral has been granted will be sent to the student. Transfer students and students offered admission to Vassar from the wait list are ineligible to request a deferral of admission.</p>
 <?php echo end_accordion_item(); ?>
 
 <?php echo accordion_item('useful-info', 'Undocumented students'); ?>
 <p>Vassar College considers applications submitted by undocumented or DACA-mented students for the first-year class with the same consideration given to any other applicants when reviewing their application. Although funding is limited, the College is committed to meeting the full, demonstrated financial need of undocumented or DACA students admitted to Vassar following the same procedures Vassar uses to grant aid to accepted international students.</p>
 <?php echo end_accordion_item(); ?>
+
+<?php echo accordion_item('useful-info', 'Fee Waiver'); ?>
+<p>If the application fee poses a financial hardship, a fee waiver can be requested on the Common Application or the Coalition Application. Fee waivers are automatically offered to students who participated in the Vassar View program, QuestBridge Finalists, Veterans, and International applicants who are unable to use a credit card to pay the application fee.</p>
+
+<ul>
+    <li>If you apply via the Common Application, under the Vassar College Member-Specific section you will be asked “Do you intend to use one of these school-specific fee waivers?” Please select “Yes, I will be using a Vassar fee waiver.”</li>
+    <li>If you apply via the Coalition Application, use the fee waiver code: Vassar Fee Waiver.</li>
+</ul>
+<?php echo end_accordion_item(); ?>
+
 
 <?php echo end_accordion(); ?>
 

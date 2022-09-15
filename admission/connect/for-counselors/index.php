@@ -76,6 +76,65 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_regularContent(); ?>
 
+<?php echo sec_regularContent(
+    null,
+    'theme-cream',
+    '',
+    ''
+); ?>
+
+<?php echo item_iconItem(
+    'Resources for Counselors',
+    'circle-info',
+    'icon-on-left theme-white-border'
+); ?>
+<ul class="linked-list">
+    <li><a href="/admission/quick-facts/class-profile">Class Profile</a></li>
+    <li><a href="/admission/apply/requirements">First-Year Application Requirements</a></li>
+    <li><a href="/admission/apply/how-to-apply#selectioncriteria">Selection Criteria</a></li>
+    <li><a href="/admission/financial-aid/">Financial Aid</a></li>
+    <li><a href="/admission/explore/diversity-inclusion/">Diversity and Inclusion</a></li>
+    <li><a href="https://www.vassar.edu/news">Vassar News and Events</a></li>
+</ul>
+<?php echo end_item_iconItem(); ?>
+
+<?php echo end_sec_regularContent(); ?>
+
+
+<?php echo sec_hasColumns(
+    null,
+    1,
+    '',
+    'related-topics-section theme-dark-burgundy  has-bg quad-pattern mw-inner-1',
+    'col-gap-3'
+); ?>
+
+<?php echo item_col(); ?>
+<?php echo deadlines(
+    'Application Deadlines',
+    null,
+    null,
+    'shadow'
+); ?>
+<?php echo deadlines_item('Early Decision I', $deadlines['early-decision-1']); ?>
+<?php echo deadlines_item('Early Decision II', $deadlines['early-decision-2']); ?>
+<?php echo deadlines_item('Regular Decision', $deadlines['regular-decision']); ?>
+<?php echo deadlines_item('Spring Transfer', $deadlines['spring-transfer']); ?>
+<?php echo deadlines_item('Fall Transfer', $deadlines['fall-transfer']);
+?>
+<?php echo end_deadlines(); ?>
+<?php echo end_item_col(); ?>
+
+
+<?php /* echo item_col(); ?>
+
+  <a href="https://www.vassar.edu/sites/default/files/2021-06/Vassar-Viewbook-2020.pdf"><img loading="lazy" src="https://www.vassar.edu/sites/default/files/2021-06/viewbook-2020.jpg" alt="Cover of Vassar's 2020 Viewbook"></a>
+  <p class="card-text"><a href="https://www.vassar.edu/sites/default/files/2021-06/Vassar-Viewbook-2020.pdf">Read our Viewbook</a></p> ?>
+
+    <?php echo end_item_col(); */ ?>
+
+
+<?php echo end_sec_hasColumns(); ?>
 
 
 <?php /*  PAGE CONTENT === */ ?>

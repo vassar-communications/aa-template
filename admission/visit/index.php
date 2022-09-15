@@ -60,7 +60,9 @@ $page_info = [
 
 <?php echo masthead_interiorPage(
     'Visiting Campus',
-    'Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life.',
+    'Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life.  
+
+<a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="center-object btn btn-lg btn-primary arrow text-center mt-5">Register Now</a>',
     $admission_img_path.'visit/0070-19-05-kr-spring-library-vassar-6094.jpg',
     null,
     null,
@@ -82,7 +84,7 @@ $page_info = [
 
     <?php echo cta_link(
       '/admission/visit/in-person/',
-      'Learn more and register for an on campus visit'
+      'Learn more and register for an on-campus visit'
     ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -133,7 +135,7 @@ $page_info = [
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-<p>Learn more about on campus and virtual Group Visit options.</p>
+<p>Learn more about on-campus and virtual Group Visit options.</p>
 
 <?php echo end_item_cardWithText(
     null,
@@ -150,7 +152,7 @@ $page_info = [
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-<p>View the on campus and virtual visit calendar and register now.</p>
+<p>View the on-campus and virtual visit calendar and register now.</p>
 
 <?php echo end_item_cardWithText(
     null,

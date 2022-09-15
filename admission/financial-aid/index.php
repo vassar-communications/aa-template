@@ -70,7 +70,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo animated_statement('Vassar is committed to making education accessible. First-year applicants who are U.S. citizens or permanent residents will be considered for admission without regard to their financial situation.', 'mb-4'); ?>
 
-<p class="position-center" style="max-width: 80ch">While we are need-aware for international first-year applicants and transfer applicants, we meet 100% of the demonstrated financial need of all admitted students who apply for financial aid at the time of application to Vassar.</p>
+<p class="position-center" style="max-width: 80ch">While we are need aware for international first-year applicants and transfer applicants, we meet 100% of the demonstrated financial need of all admitted students who apply for financial aid at the time of application to Vassar.</p>
 
 <?php echo cta_link(
   'https://offices.vassar.edu/student-financial-services/',
