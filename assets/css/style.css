@@ -10533,7 +10533,7 @@ details.open .dropdown__content {
 .card__face {
   width: 100%;
   height: 100%;
-  padding: 2vw;
+  padding: 1.4rem;
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
 }
 @media (hover: hover) {

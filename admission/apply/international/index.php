@@ -64,7 +64,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     'English Language Proficiency',
-    '',
+    'theme-extralightgray',
     ''
 ); ?>
 
