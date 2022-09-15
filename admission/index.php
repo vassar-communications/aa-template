@@ -63,7 +63,7 @@ $page_info = json_decode($page_info, true);
 
 <!--<p class="animation-item"><span class="intro-line">A Vassar education opens minds and doors.</span></p> -->
 
- <p class="animation-item"> Vassar is home to a diverse community of <strong>passionate</strong> and <strong>engaged</strong> students who embrace the shared value of learning from each other&#39;s differences.
+ <p class="animation-item"> Vassar is home to a diverse community of <strong>passionate</strong> and <strong>engaged</strong> students who embrace the shared value of learning from each other’s differences.
      <!--Each year, Vassar aims to enroll the most <strong>interesting</strong>, <strong>talented</strong>, and <strong>diverse</strong> first-year class possible.--></p>
 
 
