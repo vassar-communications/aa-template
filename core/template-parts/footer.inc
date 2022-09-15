@@ -55,7 +55,7 @@ function site_footer() {
 
   					<a href="https://www.vassar.edu/campuslife" class="me-3 my-2">Campus Life <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 
-  					<a href="https://offices.vassar.edu/security/statistics/" class="me-3 my-2">Annual Fire Safety & Security Report <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+  					<a href="https://offices.vassar.edu/security/statistics/" class="me-3 my-2">Annual Fire Campus Safety Report <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 
   					<a href="https://offices.vassar.edu/eoaa/" class="me-3 my-2">Title IX <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 

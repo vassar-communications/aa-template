@@ -49,6 +49,42 @@ $page_info = json_decode($page_info, true);
     ''
 
 ); ?>
+
+
+
+
+
+<?php echo item_cardWithText(
+    'Vassar Alumni ID Card',
+    'https://offices.vassar.edu/card/alumni-id-card-request/',
+    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/0138-15-11-kr-vcdf-vassar-0090.jpg', 'alt' => 'exterior of the Vogelstein center for drama and film' ],
+    'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+); ?>
+
+  <p>Vassar alumni ID cards provide alumni with access to the College’s library and fitness center.</p>
+
+<?php echo end_item_cardWithText(
+    '',
+); ?>
+
+<?php echo item_cardWithText(
+    'Vassar Email Address',
+    'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=429',
+    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/adlov-taylor-vq-vassar-0911-lrr-8293.jpg', 'alt' => 'Gate on Vassar Campus' ],
+    'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
+); ?>
+
+  <p>Alumni can obtain a Vassar-branded @alum.vassar.edu email address/account.</p>
+
+<?php echo end_item_cardWithText(
+    '',
+); ?>
+
+
+
+
+
+
 <?php echo item_cardWithText(
     'Library',
     'https://library.vassar.edu/',
@@ -72,43 +108,9 @@ $page_info = json_decode($page_info, true);
 
 <p>Use of the facilities is subject to various rules with which you should familiarize yourself prior to your visit, including advanced registration of any guest you intend to bring to the fitness center. Please consult the athletics website for the latest information, as rules and policies are subject to change.</p>
 
-
-
 <?php echo end_item_cardWithText(
     '',
 ); ?>
-
-
-<?php echo item_cardWithText(
-    'Vassar Alumni ID Card',
-    'https://offices.vassar.edu/card/alumni-id-card-request/',
-    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/0138-15-11-kr-vcdf-vassar-0090.jpg', 'alt' => 'exterior of the Vogelstein center for drama and film' ],
-    'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
-); ?>
-
-<p>Vassar alumni ID cards provide alumni with access to the College’s library and fitness center.</p>
-
-
-
-<?php echo end_item_cardWithText(
-    '',
-); ?>
-
-
-
-<?php echo item_cardWithText(
-    'Vassar Email Address',
-    'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=429',
-    ['url' => $alumni_img_path.'alumni-resources/alumni-benefits/adlov-taylor-vq-vassar-0911-lrr-8293.jpg', 'alt' => 'Gate on Vassar Campus' ],
-    'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
-); ?>
-<p>Alumni can obtain a Vassar-branded @alum.vassar.edu email address/account.</p>
-
-
-<?php echo end_item_cardWithText(
-    '',
-); ?>
-
 
 <?php echo item_cardWithText(
     'VassarNet',
