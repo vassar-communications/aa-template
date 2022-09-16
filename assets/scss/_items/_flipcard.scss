@@ -1,3 +1,13 @@
+.flip-card {
+  .card__face.card__face--front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
 .flipcards.grid {
   @media (hover: none) {
     display: block !important;
@@ -16,6 +26,12 @@
 
 .flip-card {
   width: 100%;
+
+  .fact-subtext {
+    margin-bottom: -2.4rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
 
   @media (hover: hover) {
     height: var(--flipcard-height, 2rem);
@@ -109,6 +125,8 @@
   }
   .flipcard__title {
     color: var(--flipcard-title-color, $burgundy);
+    font-size: 1.1rem;
+    line-height: 1.1;
   }
   .flipcard__value {
     font-size: 6rem;

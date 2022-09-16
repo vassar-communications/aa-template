@@ -236,9 +236,9 @@ echo sec_fixedCenteredTitle(
     ?>
 
     <?php echo flipcard_stat(
-        'Grad Placement',
-        '93%',
-        'Within six months of graduating, 96% of Vassar students are employed, in graduate school, or in a competitive fellowship.',
+        'Post-Grad Outcomes',
+        '93% <p class="fact-subtext">employed/in school</p>',
+        'The Career Development Office helps students pursue their post-graduation goals.',
         'animation-item',
         '/admission/explore/outcomes/'
     );
