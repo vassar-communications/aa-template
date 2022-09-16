@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
     '/admission/assets/images/apply/first-year/0149-19-11-kr-chemistry-vassar-4650.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'needsalttxt']
+    ['img_alt_text' => 'A photo taken from the side, showing a student sitting in a classroom with other students, looking straight ahead.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text mb-5">Everything you need to know to apply.</p>

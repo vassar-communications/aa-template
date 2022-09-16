@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
     '/admission/assets/images/explore/outing-club-18-ig-6908.jpg',
     null,
     null,
-    ['img_alt_text' => 'needsalttxt']
+    ['img_alt_text' => 'A group of students sit on a rocky open area on top of a mountain, overlooking the fog-covered Hudson River.']
   );
 ?>
 

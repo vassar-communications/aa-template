@@ -291,7 +291,7 @@ $page_info = json_decode($page_info, true);
             <div class="accordion-body">
                 <ul>
                     <li>Apply for financial aid on Vassar’s <a href="/admission/financial-aid/apply/">Apply for Aid</a> page</li>
-                    <li>Eligibility for all financial aid is determined by completing the <a href="http://www.fafsa.ed.gov/">Free Application for Federal Student Aid (FAFSA)</a>.</li>
+                    <li>Eligibility for all financial aid is determined by completing the <a href="https://studentaid.gov/h/apply-for-aid/fafsa">Free Application for Federal Student Aid (FAFSA)</a>.</li>
                     <li>Avoid any scholarship/grant searches that require a fee. Look for free searches like <a href="http://www.fastweb.com/">fastweb</a></li>
                     <li>Visit your state’s education department website to find out what grant or state-backed loans might be available to you. Some states offer education loans for their residents that are less costly than alternative education loans from private lenders</li>
                     <li>Federal student and parent loans are less costly than alternative private education loans, and most of these loans require a co-signer if you want to reduce the cost of the loan. The Federal Parent Loan (PLUS) has a provision for loan forgiveness in the event that either the parent or student dies or suffers 100% disability. This is not offered by private student loans where a co-signer is required for the student</li>

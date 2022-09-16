@@ -98,7 +98,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Apply to Vassar',
         '/admission/apply/',
-        ['url' => '/admission/assets/images/admission-home/0198-19-11-kwe-library-vassar-vb-5289.jpg', 'alt' => 'needsalttxt' ],
+        ['url' => '/admission/assets/images/admission-home/0198-19-11-kwe-library-vassar-vb-5289.jpg', 'alt' => 'A student with dark hair and a beard sits at a long table, focusing on papers.' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
@@ -144,7 +144,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Request Information',
         'https://apply.vassar.edu/register/requestinfo',
-        ['url' => '/admission/assets/images/admission-home/570_Library_Vassar_May 2019_JA.jpg', 'alt' => 'needsalttxt' ],
+        ['url' => '/admission/assets/images/admission-home/570_Library_Vassar_May 2019_JA.jpg', 'alt' => 'A student wearing a gray Vassar sweatshirt sits at a table and works on a laptop.' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label bg-dark card-is-link'
     ); ?>
 
@@ -404,7 +404,7 @@ echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">Experience Vassar</b>
    <b class="slide-from-right">for Yourself</b>',
     '<h3 class="section-intro-text">
-Vassar students are surrounded by an environment designed to spark something amazing — a place where greatness can spring to life. Explore on campus and virtual visit opportunities and get to know Vassar first-hand.
+Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life. Explore on-campus and virtual visit opportunities and get to know Vassar first-hand.
    </h3>
 
    <p class="text-center mb-5 fs-5">See the Vassar campus through the eyes of our students:</p>',

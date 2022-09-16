@@ -60,7 +60,7 @@ $page_info = [
 
 <?php echo masthead_interiorPage(
     'Visiting Campus',
-    'Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life.  
+    'Vassar students are surrounded by an environment designed to spark something amazing—a place where greatness can spring to life.
 
 <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="center-object btn btn-lg btn-primary arrow text-center mt-5">Register Now</a>',
     $admission_img_path.'visit/0070-19-05-kr-spring-library-vassar-6094.jpg',
@@ -121,7 +121,7 @@ $page_info = [
 <?php echo sec_hasColumns(
     'Need more information about visiting?',
     2,
-    '<p>Follow the links below or email <a href="mailto:admission@vassar.edu">admission@vassar.edu</a>, or ask a current Vassar student at <a href="mailto:askastudent@vassar.edu">askastudent@vassar.edu</a>.</p>',
+    '<p>Follow the links below or <a href="mailto:admissions@vassar.edu">email us</a>, or <a href="mailto:askastudent@vassar.edu">ask a current Vassar student</a>.</p>',
     'theme-burgundy animate-when-content-appears animation-slide-up',
     ''
 ); ?>

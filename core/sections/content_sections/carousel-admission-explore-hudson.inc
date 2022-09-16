@@ -9,7 +9,7 @@ function admissionExploreHudsonCarousel () {
 <div class="carousel-cell">
     <div class="carousel-cell-content">
         <div class="image-container">
-        <img src="/admission/assets/images/explore/hudson/0073-21-06-kr-summer-vassar-0064.jpg" />
+        <img src="/admission/assets/images/explore/hudson/0073-21-06-kr-summer-vassar-0064.jpg" alt="An ornate metal clock stands in the middle of a traffic island, with small stores on both sides." />
         </div>
         <div class="figcaption pt-5">
             <h3 class="h3">Arlington</h3>
@@ -23,7 +23,7 @@ function admissionExploreHudsonCarousel () {
 <div class="carousel-cell">
     <div class="carousel-cell-content">
         <div class="image-container">
-        <img src="/admission/assets/images/explore/hudson/0195-16-10-kr-farm-market-vassar-0017.jpg" />
+        <img src="/admission/assets/images/explore/hudson/0195-16-10-kr-farm-market-vassar-0017.jpg" alt="A person places fruit on a large table, under a large, outdoor tent." />
         </div>
         <div class="figcaption pt-5">
             <h3 class="h3">Arlington Farmers’ Market</h3>
@@ -36,7 +36,7 @@ function admissionExploreHudsonCarousel () {
 <div class="carousel-cell">
     <div class="carousel-cell-content">
         <div class="image-container">
-        <img src="/admission/assets/images/explore/hudson/PM_20190530_Bocuse_311.jpg" />
+        <img src="/admission/assets/images/explore/hudson/PM_20190530_Bocuse_311.jpg" alt="A person wearing white cooking clothes carefully assembles a fancy salad." />
         </div>
         <div class="figcaption pt-5">
             <h3 class="h3">The Culinary Institute of America</h3>
@@ -51,7 +51,7 @@ function admissionExploreHudsonCarousel () {
 <div class="carousel-cell">
     <div class="carousel-cell-content">
         <div class="image-container">
-        <img src="/admission/assets/images/explore/hudson/Dia_Beacon_10_RBa1.jpg" />
+        <img src="/admission/assets/images/explore/hudson/Dia_Beacon_10_RBa1.jpg" alt="A series of giant, circular metal sculptures sit in a large art gallery." />
         </div>
         <div class="figcaption pt-5">
             <h3 class="h3">Dia: Beacon Art Museum</h3>
@@ -65,7 +65,7 @@ function admissionExploreHudsonCarousel () {
 <div class="carousel-cell">
     <div class="carousel-cell-content">
         <div class="image-container">
-        <img src="/admission/assets/images/explore/hudson/Depositphotos_53747507_XL.jpg" />
+        <img src="/admission/assets/images/explore/hudson/Depositphotos_53747507_XL.jpg" alt="Two metal figures, sculptures of Franklin and Eleanor Roosevelt, sit in a large, outdoor space." />
         </div>
         <div class="figcaption pt-5">
             <h3 class="h3">Franklin D. Roosevelt Residence & The Presidential Library Museum</h3>
@@ -77,7 +77,7 @@ function admissionExploreHudsonCarousel () {
 <div class="carousel-cell">
     <div class="carousel-cell-content">
         <div class="image-container">
-        <img src="/admission/assets/images/explore/hudson/0072-21-06-kr-mohonk-vassar-0066.jpg" />
+        <img src="/admission/assets/images/explore/hudson/0072-21-06-kr-mohonk-vassar-0066.jpg" alt="A view from a mountaintop out over a vast open space, with blue sky and forest-covered mountains below and in the distance." />
         </div>
         <div class="figcaption pt-5">
             <h3 class="h3">The Gunks</h3>
@@ -92,7 +92,7 @@ function admissionExploreHudsonCarousel () {
 <div class="carousel-cell">
     <div class="carousel-cell-content">
         <div class="image-container">
-        <img src="/admission/assets/images/explore/hudson/Storm_King_07_TT_166-crop.jpg" />
+        <img src="/admission/assets/images/explore/hudson/Storm_King_07_TT_166-crop.jpg" alt="A large, abstract sculpture made of curved metal sits in the middle of a natural area during the fall, with orange trees behind it." />
         </div>
         <div class="figcaption pt-5">
             <h3 class="h3">Storm King Art Center</h3>
@@ -105,7 +105,7 @@ function admissionExploreHudsonCarousel () {
 <div class="carousel-cell">
     <div class="carousel-cell-content">
         <div class="image-container">
-        <img src="/admission/assets/images/explore/hudson/0148-18-11-kr-walkway-vassar-5527.jpg" />
+        <img src="/admission/assets/images/explore/hudson/0148-18-11-kr-walkway-vassar-5527.jpg" alt="Two students facing away from the viewer wheel their bikes along a long concrete pathway on a bridge overlooking the Hudson river." />
         </div>
         <div class="figcaption pt-5">
             <h3 class="h3">Walkway Over the Hudson</h3>
