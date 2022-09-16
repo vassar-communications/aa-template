@@ -16,6 +16,28 @@
 
 
 <?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2022-09-16/spotlight/ifill_alum_spotlight_220915.jpg',
+  'is-link',
+  'Three people smile at the camera while standing in the Vassar chapel: a large, well-lit, stone-walled space'
+); ?>
+  <h3 class="h3">Meeting the Urgency of the Moment</h3>
+  <p>Honored by the American Bar Association, Sherrilyn Ifill ’84 implored legal colleagues to help save American democracy.</p>
+
+  <p><em>Photo: Courtesy of the American Bar Association</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/meeting-urgency-moment',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
+<?php echo carousel_item(
   $alums_spotlight_itm_path.'/2022-09-08/spotlight/Raina-0111-22-08-kr-convocation-vassar-0188.jpg',
   'is-link',
   'Three people smile at the camera while standing in the Vassar chapel: a large, well-lit, stone-walled space'

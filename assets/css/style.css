@@ -10468,6 +10468,13 @@ details.open .dropdown__content {
   color: var(--section-bg-color, #fff);
 }
 
+.flip-card .card__face.card__face--front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (hover: none) {
   .flipcards.grid {
     display: block !important;
@@ -10486,6 +10493,11 @@ details.open .dropdown__content {
 }
 .flip-card {
   width: 100%;
+}
+.flip-card .fact-subtext {
+  margin-bottom: -2.4rem;
+  font-size: 1rem;
+  margin-top: 2rem;
 }
 @media (hover: hover) {
   .flip-card {
@@ -10578,6 +10590,8 @@ details.open .dropdown__content {
 }
 .flip-card .flipcard__title {
   color: var(--flipcard-title-color, #951829);
+  font-size: 1.1rem;
+  line-height: 1.1;
 }
 .flip-card .flipcard__value {
   font-size: 6rem;

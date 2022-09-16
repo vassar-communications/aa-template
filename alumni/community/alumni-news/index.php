@@ -36,17 +36,17 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-  'Interview with Jason Blum ’91',
-  $alumni_news_images_path.'/2022-08-13/211123-media-blum.jpg',
+  'Victor Ray ’07',
+  $alumni_news_images_path.'/2022-09-16/in-the-media/Victor_Ray_cr_Jill_Tobin_University_of_Iowa.jpg',
   'theme-extralightgray',
   '',
-  ['img_alt_text' => 'A headshot of Jason Blum ’91, a white, middle-aged man with short brown hair.']
+  ['img_alt_text' => 'A headshot of Victor Ray ’07, a man with a shaved head, wearing a blue suit and looking at the camera.']
 ); ?>
 
-<p>Jason Blum ’91, CEO and Founder of Blumhouse Productions, talked with <em><a href="https://deadline.com/2022/08/jason-blum-exorcist-remake-locarno-1235086504/">Deadline</a></em> about his upcoming projects.</p>
+<p>Author Victor Ray ’07, author of <em>On Critical Race Theory: Why It Matters & Why You Should Care</em>, co-wrote a <em><a href="https://www.nytimes.com/2022/09/01/opinion/us-school-citizenship.html">New York Times</a></em> guest essay, “School Is for Making Citizens.”</p>
 
 <?php echo cta_link(
-  'https://deadline.com/2022/08/jason-blum-exorcist-remake-locarno-1235086504/',
+  'https://www.nytimes.com/2022/09/01/opinion/us-school-citizenship.html',
   'Read more'
 ); ?>
 
@@ -63,34 +63,34 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Leonard Steinhorn ’77',
-        'https://www.washingtonpost.com/made-by-history/2022/07/26/fundamental-flaw-make-america-great-again/',
-        ['url' => $logos_path.'washington-post.jpg', 'alt' => 'Washington Post logo' ],
+        'David Ambroz ’02',
+        'https://www.newsweek.com/i-grew-homeless-starving-18-years-later-beat-odds-1739087',
+        ['url' => $logos_path.'newsweek-logo.gif', 'alt' => 'Newsweek logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p><strong>Leonard Steinhorn ’77,</strong> Professor of Communication and Affiliate Professor of History at American University and a CBS News political analyst, wrote a <em>Washington Post</em> op-ed, “The fundamental flaw in ‘Make America Great Again.’”</p>
+      <p><strong>David Ambroz ’02</strong>, author, Fostermore co-founder, and Head of Community Engagement in the West at Amazon, wrote a <em>Newsweek</em> article about how he went from a homeless child to a high-level executive.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Urvashi Vaid ’79',
-        'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01393-9/fulltext',
-        ['url' => $logos_path.'the-lancet.gif', 'alt' => 'The Lancet logo' ],
+        'Casey Katims ’10',
+        'https://www.msn.com/en-us/news/politics/edmonds-native-directs-us-climate-alliance/ar-AA11OrGx',
+        ['url' => $logos_path.'msn-logo.gif', 'alt' => 'Microsoft Network (MSN) logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p>LGBTQ and health activist <strong>Urvashi Vaid ’79</strong> was remembered by <em>The Lancet</em>.</p>
+      <p><strong>Casey Katims ’10</strong>, Executive Director of the U.S. Climate Alliance, talked about his organization’s work to reduce greenhouse gas emissions in an MSN article.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Joseph Nevins',
-        'https://theconversation.com/crossing-the-us-mexico-border-is-deadlier-than-ever-for-migrants-heres-why-186632',
-        ['url' => $logos_path.'the-conversation.gif', 'alt' => 'The Conversation logo' ],
+        'Elizabeth Sporkin ’78 and Jan Freeman ’79',
+        'https://www.marketwatch.com/story/want-a-happier-retirement-longtime-friendships-can-a-source-of-joy-11662005096',
+        ['url' => $logos_path.'marketwatch-logo.gif', 'alt' => 'MarketWatch logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p><strong>Joseph Nevins</strong>, Professor of Geography, wrote a <em>Conversation</em> article—which was reprinted by several media outlets, including Yahoo! News—about why crossing the U.S.-Mexico border is deadlier than ever for migrants.</p>
+        <p><strong>Elizabeth Sporkin ’78 and Jan Freeman ’79</strong> were mentioned in a MarketWatch story about the importance of longtime friendship to finding happiness in retirement.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -107,58 +107,32 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
 
   <div class="other-news-item plain-card-1">
-    <p><b>Vassar College</b> was mentioned in <a href="https://www.poughkeepsiejournal.com/story/entertainment/2022/08/05/mary-marvel-at-vassar-how-a-superhero-came-to-poughkeepsie-school/65392908007/"><i>Poughkeepsie Journal</i></a> and <a href="https://bleedingcool.com/comics/mary-marvel-attends-vassar-college-in-new-champion-of-shazam-preview/">Bleeding Cool</a> stories about the comic book character Mary Marvel attending the College.</p>
+    <p><strong>Shoshanah Bewlay ’92</strong>, the Executive Director of the New York State Committee on Open Government, talked about her work and the work of her organization on PBS’s <em><a href="https://www.pbs.org/video/shoshanah-bewlay-extended-interview-adjh5c/">Connect NY</a></em>.</p>
   </div>
 
   <div class="other-news-item plain-card-1">
-    <p><b>Joseph Nevins</b>, Professor of Geography, wrote a <a href="https://theconversation.com/crossing-the-us-mexico-border-is-deadlier-than-ever-for-migrants-heres-why-186632">Conversation</a> article—which was reprinted by several media outlets, including <a href="https://news.yahoo.com/crossing-us-mexico-border-deadlier-122318725.html">Yahoo! News</a>— about why crossing the U.S.-Mexico border is deadlier than ever for migrants.</p>
+    <p><strong>Karen Petersen ’76</strong> was the featured American poet in the current issue of <em><a href="https://thehighwindowpress.com/category/the-voice-of-america/">The High Window</a></em>.</p>
   </div>
 
-  <div class="other-news-item plain-card-1">
-    <p>Artist <b>Phoebe Legere ’81</b>, Founder and President of the Foundation for New American Art, talked with the <a href="https://thevillagesun.com/phoebe-legere-colors-kids-lives-with-art-and-music-through-her-foundation"><i>Village Sun</i></a> about the foundation’s Festival of Possibilities.&nbsp;</p>
-  </div>
+    <div class="other-news-item plain-card-1">
+      <p>Computer pioneer Rear Admiral <strong>Grace Hopper</strong>, class of 1928, was the subject of an <em><a href="https://www.theengineer.co.uk/content/in-depth/late-great-engineers-grace-hopper-english-speaking">Engineer</a></em> story.</p>
+    </div>
 
-  <div class="other-news-item plain-card-1">
-    <p><b>Gerald Simons ’25</b> wrote an <a href="https://entomologytoday.org/2022/08/04/hyflex-insects-student-learning-community-engagement/"><i>Entomology Today</i></a> article about HyFlex learning during COVID.&nbsp;</p>
-  </div>
-
-  <div class="other-news-item plain-card-1">
-    <p><a href="https://www.broadwayworld.com/central-new-york/article/Photos-First-Look-at-Andre-Braugher-and-Michele-Pawk-in-TELL-THEM-IM-STILL-YOUNG-20220728">Broadwayworld.com</a> wrote about <i>Tell Them I’m Still Young</i>, a play featuring Andre Braugher and Michele Pawk performed at Vassar’s <b>Powerhouse Theater</b>.</p>
-  </div>
-
-  <div class="other-news-item plain-card-1">
-    <p>In honor of her birthday, astronomer <b>Maria Mitchell</b>, Vassar’s first professor, was the subject of an <a href="https://www.itechpost.com/articles/112613/20220801/maria-mitchell-birth-anniversary-what-know-who-discovered-miss-s.htm">iTechPost</a> story.</p>
-  </div>
-
-  <div class="other-news-item plain-card-1">
-    <p><b>Aaron Bendich ’16</b> discussed his collection of more than 1,000 Jewish records, his radio show, and his album label, <i>Borscht Beat</i>, with <a href="https://hyperallergic.com/751093/dancing-to-the-borscht-beat/"><i>Hyperallergic</i></a>.</p>
-  </div>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <div class="other-news-item plain-card-1">
-        <p><b>Lillian Meredith ’07</b> will be directing a full staged production of <i>The Winter’s Tale</i> for the West Kortright Centre’s Young People’s Theater Arts Workshop, as noted by <a href="https://www.hudsonvalley360.com/artsandlife/thescene/shakespeare-in-the-valley-7-29-7-30/article_9aac4dfb-1d18-5b21-a8aa-32478e3957a5.html">Hudson Valley 360</a>.</p>
-      </div>
+      <p><strong>Maurice F. Edelson ’85</strong> was named Executive Vice President and Chief Legal Officer of WWE, as noted by <a href="https://www.marketscreener.com/quote/stock/WORLD-WRESTLING-ENTERTAIN-14926/news/WWE-R-Names-Dan-Ventrelle-EVP-Talent-Maurice-F-Edelson-EVP-Chief-Legal-Officer-41731467/">MarketScreener</a>.</p>
+    </div>
 
-      <div class="other-news-item plain-card-1">
-        <p><b>Colette Fletcher-Hoppe ’15</b>, who is earning her PhD in marine and environmental biology at USC, is a NOAA Sea Grant 2023 Knauss finalist, as announced by <a href="https://dornsife.usc.edu/uscseagrant/2023-usc-sea-grant-knauss-fellowship-finalists/">USC Dornsife</a>.</p>
-      </div>
+    <div class="other-news-item plain-card-1">
+      <p><strong>Russ Cohen ’78</strong> and his knowledge of wild edible plants was the subject of a <em><a href="https://www.wanderer.com/features/learning-how-to-forage/">Wanderer</a></em> story.</p>
+    </div>
 
-      <div class="other-news-item plain-card-1">
-        <p><b>Edith Clarke</b>, class of 1908 and the first woman to be professionally employed as an electrical engineer in the United States, was the subject of an <a href="https://www.msn.com/en-us/news/us/educators-in-idaho-us-have-responsibility-to-counter-gender-discrimination-in-stem/ar-AA109cDG">MSN</a> story.</p>
-      </div>
+    <div class="other-news-item plain-card-1">
+      <p><strong>B. David Naidu ’90</strong> was honored with the Summit Municipal Democratic Committee’s Spirit of Summit Award, as noted by <a href="https://www.tapinto.net/towns/summit/categories/press-releases/articles/smdc-s-spirit-of-summit-award-dinner-set-for-sept-18">Tap into Summit</a>.</p>
+    </div>
 
-      <div class="other-news-item plain-card-1">
-        <p><b>Hilary L. Hageman ’90</b> was appointed Executive Vice President, General Counsel, and Corporate Secretary of Science Applications International Corp., as noted by <a href="https://www.marketscreener.com/quote/stock/SCIENCE-APPLICATIONS-INTE-14285747/news/Science-Applications-International-Corporation-Announces-Management-Changes-41140921/"><i>MarketScreener</i></a>.</p>
-      </div>
-
-      <div class="other-news-item plain-card-1">
-        <p>Playwright<b> juliany taveras ’16</b> was commissioned by the Atlantic Theater Company to create a one-act play as part of the company’s First Gen MixFest, as noted by <a href="https://www.broadwayworld.com/off-broadway/article/Atlantic-Theater-Company-to-Present-FIRST-GEN-MIXFEST-Featuring-Work-by-Ngozi-Anyanwu-Roger-Q-Mason-More-20220728">Broadwayworld.com</a>.</p>
-      </div>
-
-      <div class="other-news-item plain-card-1">
-        <p><b>Yaniv Segal ’03</b> spoke to the <a href="https://www.salina.com/story/entertainment/2022/07/24/salina-symphony-2022-23-season-features-nutcracker-beethoven-carmen/10115086002/"><i>Salina Journal</i></a> about plans for his inaugural season as Music Director and Conductor of the Salina Symphony.</p>
-      </div>
   <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
