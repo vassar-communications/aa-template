@@ -547,7 +547,7 @@ echo end_contact_card();
     'Janine Gwinn',
     'Associate Vice President for Advancement Communications',
     [
-      'phone' => '',
+      'phone' => '845-437-5472',
       'email' => 'jgwinn@vassar.edu',
     ]
 );
