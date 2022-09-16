@@ -21,56 +21,6 @@ $page_info = json_decode($page_info, true);
 ?>
 
 
-<script>
-  function parseRSS(urlIN, callback) {
-    $.ajax({
-      url: urlIN,
-      dataType: 'json',
-      success: function (data) {
-        //console.log(data);
-        //callback(data);
-        markup = '';
-        for (let i = 0; i < data.length; i++) {
-          var itemMarkup = `
-    <div class="carousel-cell is-link">
-      <div class="carousel-cell-content">
-       <div class="image-container">
-          <img src="${data[i]['image_16_9_l']}" alt="" />
-       </div>
-       <div class="figcaption pt-4 listen">
-          <h3>
-             <a href="${data[i]['path']}" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">${data[i]['title']}</span>
-             </a>
-          </h3>
-          <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
-       </div>
-    </div>
-   </div>
-`.trim();
-          markup += itemMarkup;
-        }
-        if (markup.length !== 0) {
-          markup = '<div class="featureImage-text-ticker media-carousel full">' + markup + '</div>';
-          $('#newsRSS_target').replaceWith(markup);
-//Coped from https://github.com/vassar-communications/aa-template/blob/main/assets/js/main.js, Line 377
-          $('.featureImage-text-ticker').flickity({
-            contain: true,
-            selectedAttraction: 0.009,
-            friction: 0.2,
-            pageDots: false,
-            autoPlay: 7400,
-            wrapAround: true,
-            watchCSS: true
-          });
-        }
-      }
-    });
-  }
-  parseRSS('https://www.vassar.edu/news/rss/511');
-</script>
-
-
-
 
 
 <?php echo site_header(); ?>
@@ -665,6 +615,59 @@ Vassar students are surrounded by an environment designed to spark something ama
 <div class="admission-news-carousel section section--carousel theme-charcoal px-0 quad-pattern has-bg">
 
 <h2 class="section-intro-text news-intro text-center mb-5" style="">What’s Happening at Vassar?</h2>
+
+
+<script>
+  function parseRSS(urlIN, callback) {
+    $.ajax({
+      url: urlIN,
+      dataType: 'json',
+      success: function (data) {
+        //console.log(data);
+        //callback(data);
+        markup = '';
+
+//        for (let i = 0; i < data.length; i++) {
+        for (let i = 0; i < 5; i++) {
+          var itemMarkup = `
+    <div class="carousel-cell is-link">
+      <div class="carousel-cell-content">
+       <div class="image-container">
+          <img src="${data[i]['image_16_9_l']}" alt="" />
+       </div>
+       <div class="figcaption pt-4 listen">
+          <h3>
+             <a href="${data[i]['path']}" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">${data[i]['title']}</span>
+             </a>
+          </h3>
+          <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
+       </div>
+    </div>
+   </div>
+`.trim();
+          markup += itemMarkup;
+
+        }
+        if (markup.length !== 0) {
+          markup = '<div class="featureImage-text-ticker media-carousel full">' + markup + '</div>';
+          $('#newsRSS_target').replaceWith(markup);
+//Coped from https://github.com/vassar-communications/aa-template/blob/main/assets/js/main.js, Line 377
+          $('.featureImage-text-ticker').flickity({
+            contain: true,
+            selectedAttraction: 0.009,
+            friction: 0.2,
+            pageDots: false,
+            autoPlay: 7400,
+            wrapAround: true,
+            watchCSS: true
+          });
+        }
+      }
+    });
+  }
+  parseRSS('https://www.vassar.edu/news/rss/511');
+</script>
+
 
 <div id="newsRSS_target">
   <p>Fallback content here!</p>
