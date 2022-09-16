@@ -237,8 +237,8 @@ echo sec_fixedCenteredTitle(
 
     <?php echo flipcard_stat(
         'Post-Grad Outcomes',
-        '93% <p class="fact-subtext">employed/in school</p>',
-        'The Career Development Office helps students pursue their post-graduation goals.',
+        '93% <p class="fact-subtext">employed or in school</p>',
+        'The Career Development Office helps students pursue their post-graduation goals of employment, graduate school, or competitive fellowship.',
         'animation-item',
         '/admission/explore/outcomes/'
     );
