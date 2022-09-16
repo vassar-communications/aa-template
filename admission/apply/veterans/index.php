@@ -41,7 +41,7 @@ $page_info = json_decode($page_info, true);
     $admission_img_path.'apply/veterans/0027-22-05-ali-commencement-vassar-255.jpg',
     null,
     null,
-    ['img_alt_text' => 'needsalttxt']
+    ['img_alt_text' => 'A graduate with sunglasses and dark facial hair wears a black robe with a bright, multicolored scarf, and shakes hand with President Bradley, who is wearing a blue robe and a black cap.']
   );
 
 ?>

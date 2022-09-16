@@ -312,10 +312,10 @@ echo sec_hasColumns(
 
 <?php echo sec_fullBleedImageColumn(
     'Residential Life',
-    $quickfacts_img_path.'THs-0144-15-05-hw-dorm-vassar-vb-3813.jpg',
+    $quickfacts_img_path.'Davison-26A5737.jpg',
     'image-is-first theme-cream',
     '',
-    ['title_level' => '3','img_alt_text' => 'Student in a dorm kitchen behind a counter cutting food'],
+    ['title_level' => '3','img_alt_text' => 'A student sits on a window sill between large, wood-framed windows, in a well-lit room. The student is looking at the camera.'],
 ); ?>
   <div class="animate-when-content-appears animation-slide-up burgundy-icons">
 

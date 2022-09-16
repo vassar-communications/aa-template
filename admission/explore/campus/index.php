@@ -123,7 +123,7 @@ $page_info = json_decode($page_info, true);
       <p>Designed as a bridge across the Fonteyn Kill wetland, our environmentally friendly, dynamic STEM facility comprises a network of interdisciplinary laboratories that connects the integrated sciences with humanities. The state-of-the-art building was the first in the U.S. to use so much of a special, innovative type of bird-friendly glass, with a coating visible to birds but almost invisible to humans.</p>
     <?php echo end_carousel_item(); ?>
 
-    <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0037-22-06-kr-reunion-vassar-0226.jpg", null, "needsalttxt"); ?>
+    <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0037-22-06-kr-reunion-vassar-0226.jpg", null, "A large, open garden area with several stone statues and brick buildings in the background."); ?>
           <h3 class="h3">The Shakespeare Garden</h3>
       <p>The second oldest Shakespeare Garden in the United States, this tranquil space is appreciated by the Vassar community and visitors alike.</p>
     <?php echo end_carousel_item(); ?>

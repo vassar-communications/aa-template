@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
     $admission_img_path.'/connect/adm-open-house-0055_15_04_KR_0014-crop.jpg',
     null,
     null,
-    ['img_alt_text' => 'two people seated at a table eating and listening while a third seated person speaks']
+    ['img_alt_text' => 'Two people seated at a table eating and listening while a third seated person speaks.']
 );
 ?>
 

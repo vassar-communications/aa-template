@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_title": "On Campus Visits",
-  "feature_image": "/admission/assets/images/visit/in-person/0070-21-06-kr-tour-vassar-0053-crop.jpg"
+  "feature_image": "/admission/assets/images/visit/in-person/0045-19-05-kr-spring-vassar-6002.jpg"
 }';
 
 /* === */
@@ -24,7 +24,9 @@ $page_info = json_decode($page_info, true);
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Vogelstein Center for Drama and Film']); ?>
+<?php // An aerial view of one of Vassar’s quads: large green lawns and people walking on campus paths; ?>
+
+<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Aerial view of Jewett House, a tall brick building surrounded by trees.']); ?>
 
 <?php echo hamburger_navigation(); ?>
 
@@ -36,7 +38,7 @@ $page_info = json_decode($page_info, true);
      '/admission/assets/images/visit/in-person/0070-21-06-kr-tour-vassar-0053.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'needsalttxt']
+    ['img_alt_text' => 'An aerial view of one of Vassar’s quads: large green lawns and people walking on campus paths.']
 );
 
 // former image: visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg

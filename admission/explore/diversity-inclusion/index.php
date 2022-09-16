@@ -52,7 +52,7 @@ $page_info = json_decode($page_info, true);
     $admission_img_path.'explore/diversity/0203_17_04_KR_0097-2x3-crop.jpg',
     '',
     '',
-    ['img_alt_text' => 'needsalttxt']
+    ['img_alt_text' => 'Three students toss colorful Holi powder in the air.']
   );
 ?>
 

@@ -68,7 +68,7 @@ $page_url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
     $template = <<<TMP
 <!doctype html>
-<html class="no-js $page_classes" lang="">
+<html class="no-js $page_classes" lang="en">
 
 <head>
   <meta charset="utf-8">

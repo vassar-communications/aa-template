@@ -27,7 +27,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo vassar_masthead(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Large group of students walking into a building']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'A group of people walk towards the Thompson Memorial Library, a stone building with large glass windows, on a fall day.']); ?>
 
 <?php echo hamburger_navigation(); ?>
 
@@ -63,7 +63,7 @@ $page_info = json_decode($page_info, true);
   'icon-on-left'
 ); ?>
 <p>Group visits are offered to groups of 5 to 30 high school students (with at least one adult chaperone for every 10 students), and can be customized to fit the needs of the group. Visits may include general information about Vassar, presentations about topics such as choosing a major or writing the college essay, or a Q&A session with current students.</p>
-<p class="mb-5">Group visits can be scheduled Monday through Friday between 9am and 5pm ET, based on availability. To request an on campus or virtual group visit, please complete the <a href="https://apply.vassar.edu/portal/group_tour">Group Visit Inquiry Form.</a></p>
+<p class="mb-5">Group visits can be scheduled Monday through Friday between 9 a.m. and 5 p.m. ET, based on availability. To request an on campus or virtual group visit, please complete the <a href="https://apply.vassar.edu/portal/group_tour">Group Visit Inquiry Form.</a></p>
 
 
 <?php echo end_item_iconItem(); ?>
