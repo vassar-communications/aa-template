@@ -3,11 +3,50 @@ $media_carousel_path = '/alumni/assets/img/alumni-home/news-and-spotlight/';
 echo carousel( '', 'alums-media-carousel' ); ?>
 
 
+<?php echo carousel_item(
+    $media_carousel_path.'/2022-09-16/in-the-media/Victor_Ray_cr_Jill_Tobin_University_of_Iowa.jpg',
+    'is-link',
+    'A headshot of Victor Ray ’07, a man with a shaved head, wearing a blue suit and looking at the camera.'
+  ); ?>
+
+  <small class="mb-3 d-block">September 16, 2022</small>
+  <p>Author <strong>Victor Ray ’07</strong>, author of <em>On Critical Race Theory: Why It Matters & Why You Should Care</em>, co-wrote a <em>New York Times</em> guest essay, “School Is for Making Citizens.”</p>
+  <p><em>Photo: Jill Tobin, University of Iowa</em></p>
+  <?php echo cta_link(
+  'https://www.nytimes.com/2022/09/01/opinion/us-school-citizenship.html',
+  'Read more',
+  'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
 
 <?php echo carousel_item(
     $media_carousel_path.'/2022-08-13/211123-media-blum.jpg',
     'is-link',
-    'A headshot of Jason Blum ’91, a white, middle-aged man with short brown hair.'
+    'A headshot of Jason Blum ’91, a person with short brown hair.'
+  ); ?>
+
+  <small class="mb-3 d-block">August 6, 2022</small>
+  <p><strong>Jason Blum ’91,</strong> CEO and Founder of Blumhouse Productions, talked with <em>Deadline</em> about his upcoming projects.</p>
+
+  <?php echo cta_link(
+  'https://deadline.com/2022/08/jason-blum-exorcist-remake-locarno-1235086504/',
+  'Read more',
+  'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2022-08-13/211123-media-blum.jpg',
+    'is-link',
+    'A headshot of Jason Blum ’91, a person with short brown hair.'
   ); ?>
 
   <small class="mb-3 d-block">August 6, 2022</small>
