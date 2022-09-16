@@ -77,10 +77,11 @@ $page_info = json_decode($page_info, true);
     'Career Development',
     $admission_img_path.'explore/outcomes/110619_160over90_Vassar_4689.jpg',
     'image-is-first theme-burgundy quad-pattern has-bg',
-    ''
+    '',
+    ['img_alt_text' => 'A student with dark hair and a mustache sits at a desk in a classroom, next to a giant map of the world.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>The Career Development Office helps students and alumni envision—then realize—a meaningful life after Vassar. The CDO assists students in choosing their major, offers resume and cover letter workshops, and provides networking opportunities. </p>
+    <p>The Career Development Office helps students and alumni envision—then realize—a meaningful life after Vassar. The CDO assists students in choosing their major, offers resume and cover letter workshops, and provides networking opportunities.</p>
     <?php echo cta_link(
         'https://offices.vassar.edu/careers/',
         'Visit the Career Development Office'

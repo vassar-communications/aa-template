@@ -21,6 +21,58 @@ $page_info = json_decode($page_info, true);
 ?>
 
 
+<script>
+  function parseRSS(urlIN, callback) {
+    $.ajax({
+      url: urlIN,
+      dataType: 'json',
+      success: function (data) {
+        //console.log(data);
+        //callback(data);
+        markup = '';
+        for (let i = 0; i < data.length; i++) {
+          var itemMarkup = `
+    <div class="carousel-cell is-link">
+      <div class="carousel-cell-content">
+       <div class="image-container">
+          <img src="${data[i]['image_16_9_l']}" alt="" />
+       </div>
+       <div class="figcaption pt-4 listen">
+          <h3>
+             <a href="${data[i]['path']}" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">${data[i]['title']}</span>
+             </a>
+          </h3>
+          <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
+       </div>
+    </div>
+   </div>
+`.trim();
+          markup += itemMarkup;
+        }
+        if (markup.length !== 0) {
+          markup = '<div class="featureImage-text-ticker media-carousel full">' + markup + '</div>';
+          $('#newsRSS_target').replaceWith(markup);
+//Coped from https://github.com/vassar-communications/aa-template/blob/main/assets/js/main.js, Line 377
+          $('.featureImage-text-ticker').flickity({
+            contain: true,
+            selectedAttraction: 0.009,
+            friction: 0.2,
+            pageDots: false,
+            autoPlay: 7400,
+            wrapAround: true,
+            watchCSS: true
+          });
+        }
+      }
+    });
+  }
+  parseRSS('https://www.vassar.edu/news/rss/511');
+</script>
+
+
+
+
+
 <?php echo site_header(); ?>
 
 <?php echo vassar_masthead(); ?>
@@ -356,7 +408,7 @@ echo sec_fixedCenteredTitle(
 
 </div>
 
-<div class="animation-group staggered-grid animation-zoom-in animate-when-content-appears gap-3 mb-3 one-centered-wide-item-layout">
+<div class="animation-group staggered-grid animation-zoom-in animate-when-content-appears gap-3 mb-3 x-one-centered-wide-item-layout">
 
     <?php
     echo item_imageCard_videoModal(
@@ -368,23 +420,25 @@ echo sec_fixedCenteredTitle(
         ['url' => '/admission/assets/images/admission-home/fav-places/farm-ramble-walking-Tour-1709-sal-1.jpg',
             'alt' => 'People using the hiking path at the Vassar Ecological Preserve'
         ],
-        'animation-item grid-item text-at-bottom text-white centered-wide-item'
+        'animation-item grid-item text-at-bottom text-white x-centered-wide-item'
     );
 
     ?>
 
-    <?php /*
+    <?php
     echo item_imageCard_videoModal(
-        get_icon('play').'Student Picks',
+        get_icon('play').'Frances Lehman Loeb Art Center',
         null,
-        'e2Qz73uGyLs',
-        'youtube',
+        'https://player.vimeo.com/video/737107801?h=f7ee6872d5',
+        'vimeo',
         '',
-        ['url' => '/admission/assets/images/admission-home/fav-places/favplaces-v2.jpg',
-            'alt' => 'Student speaking while being interviewed'
+        ['url' => '/admission/assets/images/admission-home/fav-places/110619_160over90_Vassar_7685.jpg',
+            'alt' => 'Two students stand in a large art gallery, looking at a small sculpture made of wire and colored metal.'
         ],
         'animation-item grid-item text-at-bottom text-white'
-    ); */ ?>
+    ); ?>
+
+
 
 
 </div><!-- end layout-masonry -->
@@ -612,10 +666,17 @@ Vassar students are surrounded by an environment designed to spark something ama
 
 <h2 class="section-intro-text news-intro text-center mb-5" style="">What’s Happening at Vassar?</h2>
 
+<div id="newsRSS_target">
+  <p>Fallback content here!</p>
+</div>
+
+
+
 <?php // echo five_items(); ?>
 
 <!-- start carousel -->
 
+<!--
 <div class="featureImage-text-ticker media-carousel fade-nonselected full " id="">
    <div class="carousel-cell is-link">
       <div class="carousel-cell-content">
@@ -690,7 +751,6 @@ Vassar students are surrounded by an environment designed to spark something ama
 </div>
 
 <!-- end carousel -->
-
 
 
 

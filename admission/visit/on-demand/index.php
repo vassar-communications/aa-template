@@ -52,7 +52,7 @@ $page_info = [
     ['img_alt_text' => 'Thompson Library on the Vassar Campus at dusk']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h1 class="display-6">Miss a virtual event or want to see more? Watch past events, presentations, and performances any time! This page will be updated as new events take place, so check back often to explore all that Vassar has to offer.</h1>
+    <p class="intro-text">Miss a virtual event or want to see more? Watch past events, presentations, and performances any time! This page will be updated as new events take place, so check back often to explore all that Vassar has to offer.</p>
 
     <!-- <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="btn btn-primary mt-5 arrow">Register Now</a> -->
 
