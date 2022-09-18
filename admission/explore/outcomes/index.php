@@ -94,7 +94,10 @@ $page_info = json_decode($page_info, true);
     'Major Palooza',
     $admission_img_path.'explore/outcomes/0153-19-11-kr-major-palooza-vassar-5360-crop.jpg',
     ' theme-charcoal',
-    ''
+    '',
+    [
+      'img_alt_text' => 'Three people talk in a crowded room.'
+    ]
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Vassar hosts Major Palooza for sophomores to explore the value and versatility of a liberal arts degree, as well as to network with Vassar’s vast and dedicated alumni. Panels and receptions are available to all.</p>
@@ -109,7 +112,10 @@ $page_info = json_decode($page_info, true);
     'Connections',
     $admission_img_path.'explore/outcomes/0002-18-01-kr-scc-estrella-vassar-0048.jpg',
     'image-is-first theme-extralightgray quad-pattern has-bg',
-    ''
+    '',
+    [
+      'img_alt_text' => 'A roomful of people wave at the viewer.'
+    ]
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Vassar’s Sophomore Career Connections introduces second-year students to the extraordinary range of career options available to them. Vassar offers an extensive network of alumni and parent mentors as one of our very best career resources.</p>
