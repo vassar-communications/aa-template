@@ -49,7 +49,10 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">We are excited to welcome registered visitors to our campus! To be sure that your time on campus is safe and enjoyable, please carefully review the information on this page prior to your Vassar visit.</p>
 
-    <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="btn btn-primary mt-5 arrow">Register Now</a>
+<?php echo cta_link(
+    'https://apply.vassar.edu/portal/campusvisitcalendar',
+    'View the Calendar and Register'
+); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>

@@ -51,7 +51,7 @@ $page_info = json_decode($page_info, true);
     $admission_img_path.'apply/transfer/0198-19-11-kwe-library-vassar-vb-5415-crop.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'A person at a library study table taking notes next to a stack of four books.']
+    ['img_alt_text' => 'A person at a library study table taking notes.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="mb-5">If you have earned a high school diploma or GED and have enrolled at a college or university, you will be considered a transfer applicant. Transfer admission is need aware and spots are limited.</p>

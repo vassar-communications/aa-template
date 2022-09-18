@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Meet the Students',
     '/admission/connect/meet-the-students/',
-    ['url' => '/admission/assets/images/connect/res-quad-2105-kr-vassar-0033.jpg', 'alt' => 'needalttxt' ],
+    ['url' => '/admission/assets/images/connect/res-quad-2105-kr-vassar-0033.jpg', 'alt' => 'Three students relaxing on a green lawn under a tree.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
