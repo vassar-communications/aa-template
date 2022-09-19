@@ -89,7 +89,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col('animation-item'); ?>
     <?php echo item_stat(
       null,
-      '15%',
+      '14%',
       'students who are the first in their families to attend college'
     ); ?>
   <?php echo end_item_col(); ?>
