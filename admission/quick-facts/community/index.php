@@ -57,14 +57,14 @@ $page_info = json_decode($page_info, true);
     'gap-3'
 ); ?>
 
-  <?php echo item_col('span-1 animation-item'); ?>
+  <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
       'Student body',
       $facts['number_of_students'],
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col('span-1 animation-item'); ?>
+  <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
       'Students of color',
       $class_stats['students_of_color'],
@@ -72,7 +72,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col('span-1 animation-item'); ?>
+  <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
       'First Generation Students',
       '14%',
@@ -80,7 +80,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col('span-1 animation-item'); ?>
+  <?php /* echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
       '',
       $class_stats['attd_public_school'],
@@ -94,10 +94,9 @@ $page_info = json_decode($page_info, true);
       $class_stats['attd_private_school'],
       'attended private/parochial schools'
     ); ?>
-  <?php echo end_item_col(); ?>
+  <?php echo end_item_col(); */ ?>
 
-
-  <?php echo item_col('span-1 animation-item'); ?>
+  <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
       '',
       $class_stats['languages_spoken'],
@@ -106,8 +105,24 @@ $page_info = json_decode($page_info, true);
   <?php echo end_item_col(); ?>
 
 
+<style>
 
-  <?php echo item_col('span-2 animation-item'); ?>
+.cta-full-row {
+  grid-column: span 6;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+</style>
+
+  <?php echo cta_link(
+    '/admission/explore/diversity-inclusion/',
+    'Learn More About Diversity and Inclusion',
+    'cta-full-row'
+  ); ?>
+
+
+  <?php /* echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
       'Male',
       $class_stats['percentage_male'],
@@ -121,7 +136,7 @@ $page_info = json_decode($page_info, true);
       $class_stats['percentage_female'],
       null
     ); ?>
-  <?php echo end_item_col(); ?>
+  <?php echo end_item_col(); */ ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
