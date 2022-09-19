@@ -29,16 +29,17 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <style>
-.cols-6 .section-content {
-  grid-template-columns: repeat(6, 1fr);
+@media (min-width: 50em) {
+  .cols-6 .section-content {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .span-1 {
+    grid-column: span 2;
+  }
+  .span-2 {
+    grid-column: span 3;
+  }
 }
-.span-1 {
-  grid-column: span 2;
-}
-.span-2 {
-  grid-column: span 3;
-}
-
 
 @media (max-width: 600px) {
     .cols-6 .section-content {
@@ -72,7 +73,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col('span-2 animation-item'); ?>
+  <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
       'First Generation Students',
       '14%',
@@ -96,11 +97,20 @@ $page_info = json_decode($page_info, true);
     ); ?>
   <?php echo end_item_col(); */ ?>
 
-  <?php echo item_col('span-2 animation-item'); ?>
+  <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
-      '',
+      'Pell Grant Eligible',
+      '18%',
+      ''
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+
+  <?php echo item_col('span-1 animation-item'); ?>
+    <?php echo item_stat(
+      'Languages spoken',
       $class_stats['languages_spoken'],
-      'languages spoken by the Class of 2025'
+      'by the Class of 2025'
     ); ?>
   <?php echo end_item_col(); ?>
 

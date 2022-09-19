@@ -1,10 +1,20 @@
 .section-with-columns {
   --section-title-space: 3.4rem;
 
+  .g-col {
+    margin-bottom: 1rem;
+
+    @include break(md) {
+      margin-bottom: 0;
+    }
+  }
+
   .section-content {
-    display: grid;
-    gap: var(--column-gap, 3rem);
-    grid-template-columns: repeat(var(--cols, 1), 1fr);
+    @include break(md) {
+      display: grid;
+      gap: var(--column-gap, 3rem);
+      grid-template-columns: repeat(var(--cols, 1), 1fr);
+    }
     max-width: var(--cols-mw, 60rem);
   }
   .section-intro {

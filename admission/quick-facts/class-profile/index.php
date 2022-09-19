@@ -127,7 +127,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_stat(
       'Languages Spoken',
-      '43'
+      $class_stats['languages_spoken']
     ); ?>
   <?php echo end_item_col(); ?>
 
@@ -163,7 +163,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_stat(
       '',
-      '13%',
+      $class_stats['1st-gen-students'],
 '<p>first generation to college</p>'
     ); ?>
   <?php echo end_item_col(); ?>
@@ -239,8 +239,8 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_stat(
       'Identifying as students of color',
-      '38%',
-''
+      $class_stats['students_of_color'],
+      ''
     ); ?>
   <?php echo end_item_col(); ?>
 
