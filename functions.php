@@ -67,10 +67,17 @@ $class_stats['number_of_states'] = '41';
 $class_stats['percentage_male'] = '38.4%';
 $class_stats['percentage_female'] = '61.6%';
 $class_stats['students_of_color'] = '36%';
+
+$class_stats['languages_spoken'] = '42';
+
+// where is this being used?
 $class_stats['students_of_color_2'] = '35%';
 
 $class_stats['attd_public_school'] = '66.7%';
 $class_stats['attd_private_school'] = '24%';
+
+
+$class_stats['1st-gen-students'] = '14%';
 
 
 

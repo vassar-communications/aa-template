@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_hasColumns(
-    'The Class of 2025 Represents',
+    'The Vassar Community Represents',
     '3',
     null,
     'items-equal-height mw-inner-4 theme-extralightgray animate-when-content-appears animation-group animation-fade-in',
@@ -81,7 +81,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col('animation-item'); ?>
     <?php echo item_stat(
       null,
-      '35%',
+      $class_stats['students_of_color'],
       'students of color'
     ); ?>
   <?php echo end_item_col(); ?>
@@ -89,7 +89,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col('animation-item'); ?>
     <?php echo item_stat(
       null,
-      '14%',
+      $class_stats['1st-gen-students'],
       'students who are the first in their families to attend college'
     ); ?>
   <?php echo end_item_col(); ?>

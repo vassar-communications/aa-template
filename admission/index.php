@@ -221,7 +221,7 @@ echo sec_fixedCenteredTitle(
 
     <?php echo flipcard_stat(
         'Students of Color',
-        $class_stats['students_of_color_2'],
+        $class_stats['students_of_color'],
         'Vassar students come from a wide range of backgrounds and experiences.',
         'animation-item',
         '/admission/explore/academics/'
@@ -230,7 +230,7 @@ echo sec_fixedCenteredTitle(
 
     <?php echo flipcard_stat(
         'First-Generation Students',
-        '15%',
+        $class_stats['1st-gen-students'],
         'Vassar’s Transitions Program is designed to support first-generation, low-income, and undocumented students.',
         'animation-item',
         '/admission/explore/student-life/'
