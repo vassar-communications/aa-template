@@ -11460,11 +11460,23 @@ h1.display-1, .display-1.h1 {
 .section-with-columns {
   --section-title-space: 3.4rem;
 }
+.section-with-columns .g-col {
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 50em) {
+  .section-with-columns .g-col {
+    margin-bottom: 0;
+  }
+}
 .section-with-columns .section-content {
-  display: grid;
-  gap: var(--column-gap, 3rem);
-  grid-template-columns: repeat(var(--cols, 1), 1fr);
   max-width: var(--cols-mw, 60rem);
+}
+@media screen and (min-width: 50em) {
+  .section-with-columns .section-content {
+    display: grid;
+    gap: var(--column-gap, 3rem);
+    grid-template-columns: repeat(var(--cols, 1), 1fr);
+  }
 }
 .section-with-columns .section-intro {
   max-width: var(--section-intro-width, 46rem);
