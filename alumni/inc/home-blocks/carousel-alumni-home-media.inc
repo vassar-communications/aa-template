@@ -10,7 +10,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   ); ?>
 
   <small class="mb-3 d-block">September 16, 2022</small>
-  <p>Author <strong>Victor Ray ’07</strong>, author of <em>On Critical Race Theory: Why It Matters & Why You Should Care</em>, co-wrote a <em>New York Times</em> guest essay, “School Is for Making Citizens.”</p>
+  <p><strong>Victor Ray ’07</strong>, author of <em>On Critical Race Theory: Why It Matters & Why You Should Care</em>, co-wrote a <em>New York Times</em> guest essay, “School Is for Making Citizens.”</p>
   <p><em>Photo: Jill Tobin, University of Iowa</em></p>
   <?php echo cta_link(
   'https://www.nytimes.com/2022/09/01/opinion/us-school-citizenship.html',

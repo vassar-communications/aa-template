@@ -12148,6 +12148,7 @@ This should be a section option
   color: #fff;
   font-size: var(--section-title-size, 8vw);
   letter-spacing: -0.01em;
+  word-spacing: 1rem;
   transition: text-shadow 0.4s ease;
   transition-property: text-shadow, opacity;
   will-change: text-shadow;
