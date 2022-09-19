@@ -43,7 +43,7 @@ $page_info = json_decode($page_info, true);
   ['img_alt_text' => 'A headshot of Victor Ray ’07, a man with a shaved head, wearing a blue suit and looking at the camera.']
 ); ?>
 
-<p>Author Victor Ray ’07, author of <em>On Critical Race Theory: Why It Matters & Why You Should Care</em>, co-wrote a <em><a href="https://www.nytimes.com/2022/09/01/opinion/us-school-citizenship.html">New York Times</a></em> guest essay, “School Is for Making Citizens.”</p>
+<p>Victor Ray ’07, author of <em>On Critical Race Theory: Why It Matters & Why You Should Care</em>, co-wrote a <em><a href="https://www.nytimes.com/2022/09/01/opinion/us-school-citizenship.html">New York Times</a></em> guest essay, “School Is for Making Citizens.”</p>
   <p><em>Photo: Jill Tobin, University of Iowa</em></p>
 <?php echo cta_link(
   'https://www.nytimes.com/2022/09/01/opinion/us-school-citizenship.html',

@@ -38,7 +38,7 @@ $page_info = json_decode($page_info, true);
      '/admission/assets/images/visit/in-person/0070-21-06-kr-tour-vassar-0053.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'An aerial view of one of Vassar’s quads: large green lawns and people walking on campus paths.']
+    ['img_alt_text' => 'A tour guide leading a group of people.']
 );
 
 // former image: visit/in-person/0070-21-06-kr-tour-vassar-0016.jpg
