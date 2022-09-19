@@ -80,7 +80,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col('span-2 animation-item'); ?>
+  <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
       '',
       $class_stats['attd_public_school'],
@@ -88,13 +88,24 @@ $page_info = json_decode($page_info, true);
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col('span-2 animation-item'); ?>
+  <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
       '',
       $class_stats['attd_private_school'],
       'attended private/parochial schools'
     ); ?>
   <?php echo end_item_col(); ?>
+
+
+  <?php echo item_col('span-1 animation-item'); ?>
+    <?php echo item_stat(
+      '',
+      $class_stats['languages_spoken'],
+      'languages spoken by the Class of 2025'
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+
 
   <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
