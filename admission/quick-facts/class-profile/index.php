@@ -65,43 +65,43 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col('span-2'); ?>
     <?php echo item_stat(
-      'Applications reviewed',
+      'Applications',
       '10,884',
 ''
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col('span-2'); ?>
+  <?php /* echo item_col('span-2'); ?>
     <?php echo item_stat(
       'Admitted (20% of applicants)',
       '2,198',
       ''
     ); ?>
-  <?php echo end_item_col(); ?>
+  <?php echo end_item_col(); */ ?>
 
   <?php echo item_col('span-1'); ?>
     <?php echo item_stat(
-      'Matriculated',
+      'First-Year Class',
       '679',
 ''
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col('span-1'); ?>
+  <?php /* echo item_col('span-1'); ?>
     <?php echo item_stat(
       'Female',
       '61.6%',
       ''
     ); ?>
-  <?php echo end_item_col(); ?>
+  <?php echo end_item_col(); */ ?>
 
-  <?php echo item_col('span-1'); ?>
+  <?php /* echo item_col('span-1'); ?>
     <?php echo item_stat(
       'Male',
       '38.4%',
       ''
     ); ?>
-  <?php echo end_item_col(); ?>
+  <?php echo end_item_col(); */ ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
@@ -116,20 +116,20 @@ $page_info = json_decode($page_info, true);
     ['title_level' => '3']
 ); ?>
 
-  <?php echo item_col(); ?>
+  <?php /* echo item_col(); ?>
     <?php echo item_stat(
       'Mean GPA, unweighted',
       '3.9',
       '<p>on a 4.0 unweighted scale</p>'
     ); ?>
-  <?php echo end_item_col(); ?>
+  <?php echo end_item_col(); */ ?>
 
-  <?php echo item_col(); ?>
+  <?php /* echo item_col(); ?>
     <?php echo item_stat(
       'Languages Spoken',
       $class_stats['languages_spoken']
     ); ?>
-  <?php echo end_item_col(); ?>
+  <?php echo end_item_col(); */ ?>
 
 
 <?php echo end_sec_hasColumns(); ?>
@@ -137,7 +137,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_hasColumns(
-    'Financial Aid & Background',
+    'Financial Aid',
     '2',
     null,
     'items-equal-height mw-inner-2 theme-burgundy animate-when-content-appears animation-group animation-fade-in',
@@ -160,21 +160,21 @@ $page_info = json_decode($page_info, true);
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col(); ?>
+  <?php /* echo item_col(); ?>
     <?php echo item_stat(
       '',
       $class_stats['1st-gen-students'],
 '<p>first generation to college</p>'
     ); ?>
-  <?php echo end_item_col(); ?>
+  <?php echo end_item_col(); */ ?>
 
-  <?php echo item_col(); ?>
+  <?php /* echo item_col(); ?>
     <?php echo item_stat(
       '',
       '3%',
       '<p>Vassar legacy (parent)</p>'
     ); ?>
-  <?php echo end_item_col(); ?>
+  <?php echo end_item_col(); */ ?>
 
 <?php echo end_sec_hasColumns(); ?>
 
@@ -182,7 +182,7 @@ $page_info = json_decode($page_info, true);
 
 
 
-<?php echo sec_hasColumns(
+<?php /* echo sec_hasColumns(
     'High School Type',
     '2',
     null,
@@ -222,23 +222,44 @@ $page_info = json_decode($page_info, true);
     ); ?>
   <?php echo end_item_col(); ?>
 
-<?php echo end_sec_hasColumns(); ?>
+<?php echo end_sec_hasColumns(); */ ?>
 
 
 
+<style>
 
+.g-col.column {
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: calc(50% - ((var(--size) * 0.4) / 2));
+  width: min(calc(var(--size, 1rem) * 0.4), 20rem);
+  height: min(calc(var(--size, 1rem) * 0.4), 20rem) !important;
+  background: #f00;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.stats-no-bg .stat-item {
+  background: none;
+}
+
+</style>
 
 <?php echo sec_hasColumns(
     'Racial/Ethnic Diversity',
     '3',
     '<p>US Citizens & Permanent Residents Only. (Categories do not add up to 100% because the total reflects all categories selected by a student.)</p>',
-    'items-equal-height mw-inner-3 theme-burgundy has-bg quad-pattern animate-when-content-appears animation-group animation-fade-in',
+    'items-equal-height mw-inner-3 xtheme-burgundy has-bg quad-pattern animate-when-content-appears stats-no-bg animation-group animation-fade-in',
     'gap-3'
 ); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      'Identifying as students of color',
+      '<div class="circle" style="--size: 36vw"></div> Identifying as students of color',
       $class_stats['students_of_color'],
       ''
     ); ?>
@@ -246,7 +267,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      'Asian/Pacific Islander',
+      '<div class="circle" style="--size: 21vw"></div> Asian/Pacific Islander',
       '21%',
       ''
     ); ?>
@@ -254,7 +275,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      'African American/Black',
+      '<div class="circle" style="--size: 8vw"></div> African American/Black',
       '8%',
 ''
     ); ?>
@@ -262,15 +283,15 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      'Latinx',
-      '13%',
+      '<div class="circle" style="--size: 67vw; top: auto; bottom: 0"></div> White',
+      '67%',
       ''
     ); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      'Native American',
+      '<div class="circle" style="--size: 1vw"></div> Native American',
       '1%',
       ''
     ); ?>
@@ -278,18 +299,17 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      'White',
-      '67%',
+      '<div class="circle" style="--size: 13vw"></div> Latinx',
+      '13%',
       ''
     ); ?>
   <?php echo end_item_col(); ?>
-<?php echo end_sec_hasColumns(); ?>
+
+  <?php echo end_sec_hasColumns(); ?>
 
 
 
-
-
-<?php echo sec_hasColumns(
+<?php /* echo sec_hasColumns(
     'International Students',
     '3',
     '',
@@ -297,7 +317,7 @@ $page_info = json_decode($page_info, true);
     'gap-3'
 ); ?>
 
-  <?php echo item_col(); ?>
+  <?php /* echo item_col(); ?>
     <?php echo item_stat(
       'International Citizens',
       '5.7%',
@@ -311,16 +331,16 @@ $page_info = json_decode($page_info, true);
       '8.2%',
       ''
     ); ?>
-  <?php echo end_item_col(); ?>
+  <?php echo end_item_col(); */ ?>
 
-  <?php echo item_col(); ?>
+  <?php /* echo item_col(); ?>
     <?php echo item_stat(
-      'Students holding non-US citizenship',
+      'International students, including dual citizens',
       '13.9%',
 ''
     ); ?>
-  <?php echo end_item_col(); ?>
-<?php echo end_sec_hasColumns(); ?>
+  <?php echo end_item_col();  ?>
+<?php echo end_sec_hasColumns(); */ ?>
 
 
 
@@ -329,10 +349,11 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_hasColumns(
     'Geographical Representation',
-    '2',
-    '<p>The Class of 2025 includes students from '.$class_stats['number_of_states'].' states, Washington, D.C., Puerto Rico, and '.$class_stats['number_of_countries'].' countries: Bangladesh, Brazil, Canada, China, Ecuador, Egypt, Greece, India, Israel, Jamaica, Japan, Mexico, Nepal, Netherlands, Nigeria, South Africa, Taiwan, Thailand, Ukraine, United Arab Emirates, United Kingdom, and Vietnam.</p>',
-    'mw-inner-1 theme-extralightgray',
-    ''
+    '3',
+    '<p class="intro-text">Vassar is from <span id="x-where-from">everywhere</span></p>
+    <p>The Class of 2025 includes students from '.$class_stats['number_of_states'].' states, Washington, D.C., Puerto Rico, and '.$class_stats['number_of_countries'].' countries: Bangladesh, Brazil, Canada, China, Ecuador, Egypt, Greece, India, Israel, Jamaica, Japan, Mexico, Nepal, Netherlands, Nigeria, South Africa, Taiwan, Thailand, Ukraine, United Arab Emirates, United Kingdom, and Vietnam.</p>',
+    'mw-inner-3 theme-extralightgray',
+    'gap-3'
 ); ?>
 
 <?php echo item_col(); ?>
@@ -342,6 +363,16 @@ $page_info = json_decode($page_info, true);
 ''
   ); ?>
 <?php echo end_item_col(); ?>
+
+<?php echo item_col(); ?>
+  <?php echo item_stat(
+    'International students, including dual citizens',
+    '13.9%',
+''
+  ); ?>
+<?php echo end_item_col(); ?>
+
+
 
   <?php echo item_col(); ?>
   <h3>Top States</h3>
@@ -365,7 +396,7 @@ $page_info = json_decode($page_info, true);
 
 
 
-<?php echo sec_hasColumns(
+<?php /* echo sec_hasColumns(
     'Test Optional',
     '2',
     '<p>Vassar does not require students to submit the SAT or ACT for the 2022–2023 admission cycle.</p>'
@@ -452,7 +483,7 @@ $page_info = json_decode($page_info, true);
     ''
   ); ?>
   <?php echo end_item_col(); ?>
-<?php echo end_sec_hasColumns(); ?>
+<?php echo end_sec_hasColumns(); */ ?>
 
 
 
