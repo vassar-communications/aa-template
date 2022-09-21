@@ -54,6 +54,7 @@ $page_info = json_decode($page_info, true);
 </style>
 
 
+<!--
 
 <?php echo sec_hasColumns(
     'Admission Results',
@@ -105,6 +106,40 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_hasColumns(); ?>
 
+-->
+
+
+<?php echo sec_imageThenContent(
+  'Admission Results',
+  null,
+  'vh-100 show-image-then-content mw-inner-2',
+  'content-classes gap-3',
+  [
+    'bg-image-url' => '/admission/assets/images/quick-facts/Move-In-Day_-cheer-1808-KR_1780.jpg'
+    ]
+); ?>
+
+<p><i class="fa-solid fa-file-pdf me-2"></i> <a href="https://www.vassar.edu/sites/default/files/2022-01/2025-profile.pdf">Full Class of 2025 Data Set (PDF)</a></p>
+
+  <div class="row">
+    <?php echo item_col('col-md-6'); ?>
+      <?php echo item_stat(
+        'Applications',
+        '10,884',
+    ''
+      ); ?>
+    <?php echo end_item_col(); ?>
+
+    <?php echo item_col('col-md-6'); ?>
+      <?php echo item_stat(
+        'First-Year Class',
+        '679',
+    ''
+      ); ?>
+    <?php echo end_item_col(); ?>
+  </div>
+
+<?php echo end_sec_imageThenContent(); ?>
 
 
 <?php echo sec_hasColumns(
@@ -235,10 +270,12 @@ $page_info = json_decode($page_info, true);
 .circle {
   position: absolute;
   top: 0;
-  left: calc(50% - ((var(--size) * 0.4) / 2));
-  width: min(calc(var(--size, 1rem) * 0.4), 20rem);
-  height: min(calc(var(--size, 1rem) * 0.4), 20rem) !important;
-  background: #f00;
+  left: min( calc(50% - ((var(--size) * 0.4rem) / 2), calc(50% - ((var(--size) * 0.4vw) / 2) ) ) );
+
+  width: min( calc(var(--size) * 0.4rem), calc(var(--size) * 0.4vw) );
+  height: min( calc(var(--size) * 0.4rem), calc(var(--size) * 0.4vw) ) !important;
+
+  background: rgba(255,0,0,0.4);
   border-radius: 50%;
   z-index: -1;
 }
@@ -259,7 +296,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      '<div class="circle" style="--size: 36vw"></div> Identifying as students of color',
+      '<div class="circle" style="--size: 36"></div> Identifying as students of color',
       $class_stats['students_of_color'],
       ''
     ); ?>
@@ -267,7 +304,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      '<div class="circle" style="--size: 21vw"></div> Asian/Pacific Islander',
+      '<div class="circle" style="--size: 21"></div> Asian/Pacific Islander',
       '21%',
       ''
     ); ?>
@@ -275,7 +312,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      '<div class="circle" style="--size: 8vw"></div> African American/Black',
+      '<div class="circle" style="--size: 8"></div> African American/Black',
       '8%',
 ''
     ); ?>
@@ -283,7 +320,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      '<div class="circle" style="--size: 67vw; top: auto; bottom: 0"></div> White',
+      '<div class="circle" style="--size: 67; top: auto; bottom: 0"></div> White',
       '67%',
       ''
     ); ?>
@@ -291,7 +328,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      '<div class="circle" style="--size: 1vw"></div> Native American',
+      '<div class="circle" style="--size: 1"></div> Native American',
       '1%',
       ''
     ); ?>
@@ -299,13 +336,17 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      '<div class="circle" style="--size: 13vw"></div> Latinx',
+      '<div class="circle" style="--size: 13"></div> Latinx',
       '13%',
       ''
     ); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo end_sec_hasColumns(); ?>
+
+
+
+
 
 
 
@@ -345,13 +386,23 @@ $page_info = json_decode($page_info, true);
 
 
 
-
+<?php
+  echo word_cycler(
+    'where-from',
+    '
+      "is from 41 states",
+      "is from 22 countries",
+      "speaks 42 languages",
+      "went to 44 schools abroad"
+    '
+);
+?>
 
 <?php echo sec_hasColumns(
-    'Geographical Representation',
+  'Vassar <span id="where-from">everywhere</span>',
+//    'Geographical Representation',
     '3',
-    '<p class="intro-text">Vassar is from <span id="x-where-from">everywhere</span></p>
-    <p>The Class of 2025 includes students from '.$class_stats['number_of_states'].' states, Washington, D.C., Puerto Rico, and '.$class_stats['number_of_countries'].' countries: Bangladesh, Brazil, Canada, China, Ecuador, Egypt, Greece, India, Israel, Jamaica, Japan, Mexico, Nepal, Netherlands, Nigeria, South Africa, Taiwan, Thailand, Ukraine, United Arab Emirates, United Kingdom, and Vietnam.</p>',
+    '<p>The Class of 2025 includes students from '.$class_stats['number_of_states'].' states, Washington, D.C., Puerto Rico, and '.$class_stats['number_of_countries'].' countries: Bangladesh, Brazil, Canada, China, Ecuador, Egypt, Greece, India, Israel, Jamaica, Japan, Mexico, Nepal, Netherlands, Nigeria, South Africa, Taiwan, Thailand, Ukraine, United Arab Emirates, United Kingdom, and Vietnam.</p>',
     'mw-inner-3 theme-extralightgray',
     'gap-3'
 ); ?>

@@ -1,10 +1,10 @@
 <?php
 
-function word_cycler($word_selector_id) {
+function word_cycler($word_selector_id, $list) {
 
-    $speed = 1600;
+    $speed = 2600;
 
-    $list = '
+/*    $list = '
     "New York",
     "Egypt",
     "Nigeria",
@@ -17,6 +17,7 @@ function word_cycler($word_selector_id) {
     "Ohio",
     "Japan"
   ';
+*/
 
     return <<<TMP
 <style>

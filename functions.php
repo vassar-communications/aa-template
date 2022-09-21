@@ -139,6 +139,10 @@ include($project_paths['main_project_root'].'/core/sections/content_sections/nic
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/vassar-home-news.inc');
 
+include($project_paths['main_project_root'].'/core/sections/content_sections/imageThenContent.inc');
+
+
+
 
 
 /* Sections */
