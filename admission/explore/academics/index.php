@@ -61,83 +61,6 @@ $page_info = json_decode($page_info, true);
 ?>
 
 
-<?php echo sec_fullBleedImageColumn(
-    'Intensives',
-    $admission_img_path.'explore/academics/110619_160over90_Vassar_7630.jpg',
-    'image-is-first theme-charcoal bg-dark quad-pattern has-bg',
-    '',
-    ['img_alt_text' => 'Two people walking under the arched entrance to the Vassar Chapel']
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <p class="tagline">Dig Deep to Explore Your Interests</p>
-    <p>Vassar’s Intensives take the individualized classroom experience further by creating even more opportunities for student-driven exploration and mentored research. Intensives are designed to promote forward-thinking, non-traditional class experiences that catalyze deeper learning.</p>
-
-
-
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-<?php echo sec_fullBleedImageColumn(
-    'Research',
-    $admission_img_path.'explore/academics/082-21-07-kr-caad-vassar-0065.jpg',
-    'theme-burgundy',
-    '',
-    ['img_alt_text' => 'People in a classroom, two people in the foreground at the laptop, and two people in the background in conversation']
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <p class="tagline">Develop Knowledge First-Hand</p>
-    <p>At Vassar, you can engage in research and make contributions to your field as early as your first year. A multitude of opportunities are available, including research-based classes, paid positions in faculty laboratories, and on-campus intensive summer research programs.</p>
-
-
-    <ul class="linked-list">
-        <li><a href="https://www.vassar.edu/ursi">Undergraduate Research Summer Institute</a></li>
-        <li><a href="https://www.vassar.edu/ford-scholars">Ford Scholars</a></li>
-        <li><a href="https://www.vassar.edu/creativearts/">CAAD</a> </li>
-    </ul>
-
-
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<?php echo sec_fullBleedImageColumn(
-    'Community-Engaged Learning',
-    $admission_img_path.'explore/academics/cel/0056_14_07_BL_7266.jpg',
-    'image-is-first theme-extralightgray',
-    '',
-    ['img_alt_text' => 'A student helping a child with their homework']
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <p class="tagline">Gain Professional Experience While Investing In Our Community</p>
-    <p>Real-world experience can take your education to the next level, so it’s no surprise that 90% of Vassar students choose to take on an internship. Through Community-Engaged Learning (CEL), you can combine your academic pursuits with hands-on work in the field while earning academic credit. </p>
-
-    <?php echo cta_link(
-      'https://offices.vassar.edu/community-engaged-learning/',
-      'Learn more about CEL'
-    ); ?>
-
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-<?php echo sec_fullBleedImageColumn(
-    'Study Abroad',
-    $admission_img_path.'explore/academics/lockhart-anna-peru-abroad-1809-alo-8.jpg',
-    'theme-charcoal bg-dark',
-    '',
-    ['img_alt_text' => 'A student talking down a rope and cloth bridge in Peru']
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <p class="tagline">Broaden Your Horizons</p>
-    <p>Expand your global perspective and explore new ways of thinking by spending a semester or year abroad. Vassar offers more than 130 study abroad options around the world, so no matter your interests, you can find a program that will help you reach your goals.</p>
-
-    <?php echo cta_link(
-      'https://offices.vassar.edu/international-programs/',
-      'Learn more about Study Abroad'
-    ); ?>
-
-
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_wideContent(
     'Your Choices <span class="text-primary">=</span> Your Education',
@@ -439,6 +362,7 @@ $page_info = json_decode($page_info, true);
         <p>Through a cooperative arrangement with the Thayer School of Engineering at Dartmouth College, Vassar students may earn both the bachelor of arts (BA) degree from Vassar and the bachelor of engineering (BE) degree from Dartmouth. </p>
     </div>
 </div>
+
 <div class="d-flex justify-content-center">
 <?php echo cta_link(
     'https://www.vassar.edu/academics/accelerated-and-dual-degree-programs',
@@ -447,6 +371,91 @@ $page_info = json_decode($page_info, true);
 </div>
 <?php echo end_item_dropdown(); ?>
 <?php echo end_sec_wideContent(); ?>
+
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Intensives',
+    $admission_img_path.'explore/academics/110619_160over90_Vassar_7630.jpg',
+    'image-is-first theme-charcoal bg-dark quad-pattern has-bg',
+    '',
+    ['img_alt_text' => 'Two people walking under the arched entrance to the Vassar Chapel']
+); ?>
+  <div class="animate-when-content-appears animation-slide-up">
+      <p class="tagline">Dig Deep to Explore Your Interests</p>
+      <p>Vassar’s Intensives take the individualized classroom experience further by creating even more opportunities for student-driven exploration and mentored research. Intensives are designed to promote forward-thinking, non-traditional class experiences that catalyze deeper learning.</p>
+  </div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Research',
+    $admission_img_path.'explore/academics/082-21-07-kr-caad-vassar-0065.jpg',
+    'theme-burgundy',
+    '',
+    ['img_alt_text' => 'People in a classroom, two people in the foreground at the laptop, and two people in the background in conversation']
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p class="tagline">Develop Knowledge First-Hand</p>
+    <p>At Vassar, you can engage in research and make contributions to your field as early as your first year. A multitude of opportunities are available, including research-based classes, paid positions in faculty laboratories, and on-campus intensive summer research programs.</p>
+
+
+    <ul class="linked-list">
+        <li><a href="https://www.vassar.edu/ursi">Undergraduate Research Summer Institute</a></li>
+        <li><a href="https://www.vassar.edu/ford-scholars">Ford Scholars</a></li>
+        <li><a href="https://www.vassar.edu/creativearts/">CAAD</a> </li>
+    </ul>
+
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Community-Engaged Learning',
+    $admission_img_path.'explore/academics/cel/0056_14_07_BL_7266.jpg',
+    'image-is-first theme-extralightgray',
+    '',
+    ['img_alt_text' => 'A student helping a child with their homework']
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p class="tagline">Gain Professional Experience While Investing In Our Community</p>
+    <p>Real-world experience can take your education to the next level, so it’s no surprise that 90% of Vassar students choose to take on an internship. Through Community-Engaged Learning (CEL), you can combine your academic pursuits with hands-on work in the field while earning academic credit. </p>
+
+    <?php echo cta_link(
+      'https://offices.vassar.edu/community-engaged-learning/',
+      'Learn more about CEL'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+<?php echo sec_fullBleedImageColumn(
+    'Study Abroad',
+    $admission_img_path.'explore/academics/lockhart-anna-peru-abroad-1809-alo-8.jpg',
+    'theme-charcoal bg-dark',
+    '',
+    ['img_alt_text' => 'A student talking down a rope and cloth bridge in Peru']
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p class="tagline">Broaden Your Horizons</p>
+    <p>Expand your global perspective and explore new ways of thinking by spending a semester or year abroad. Vassar offers more than 130 study abroad options around the world, so no matter your interests, you can find a program that will help you reach your goals.</p>
+
+    <?php echo cta_link(
+      'https://offices.vassar.edu/international-programs/',
+      'Learn more about Study Abroad'
+    ); ?>
+
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
 
 
 

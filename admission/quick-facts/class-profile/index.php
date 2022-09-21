@@ -296,7 +296,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      '<div class="circle" style="--size: 36"></div> Identifying as students of color',
+      '<div class="circle" style="--size: 36; left: 0"></div> Identifying as students of color',
       $class_stats['students_of_color'],
       ''
     ); ?>
@@ -320,7 +320,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      '<div class="circle" style="--size: 67; top: auto; bottom: 0"></div> White',
+      '<div class="circle" style="--size: 67; top: auto; bottom: 0; left: 0"></div> White',
       '67%',
       ''
     ); ?>
