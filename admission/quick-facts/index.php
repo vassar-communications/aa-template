@@ -357,11 +357,11 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Tech',
-    '/admission/assets/images/quick-facts/community/0058-21-05-kr-spring-vassar-0030.jpg',
+    '/admission/assets/images/quick-facts/Raymond-0204-19-11-kwe-raymond-parlor-vassar-vb-2828.jpg',
     'theme-charcoal gold-icons',
     '',
     ['title_level' => '3',
-    'img_alt_text' => 'Student under a tree with a laptop and headphones'
+    'img_alt_text' => 'A student sits in a large room working at a laptop'
   ]
 ); ?>
   <div class="animate-when-content-appears animation-slide-up">
