@@ -178,11 +178,11 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
   'LGBTQ+ Center',
-  '/assets/images/placeholders/placeholder-portrait.jpg',
+  '/admission/assets/images/explore/diversity/lgbtq-center-vassar-2209-dsw-3007-crop.jpg',
   'theme-burgundy',
   '',
   [
-    'img_alt_text' => 'PLACEHOLDER',
+    'img_alt_text' => 'Person on a couch with laptop in a sunlit lounge with books, rainbow flags, posters, chairs and coffee tables.',
     'title_level' => '3'
   ]
 ); ?>
@@ -204,11 +204,11 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
   'Women’s Center',
-  '/assets/images/placeholders/placeholder-portrait.jpg',
+  '/admission/assets/images/explore/diversity/0084_14_10_KR_0087-crop.jpg',
   'image-is-first',
   '',
   [
-    'img_alt_text' => 'PLACEHOLDER',
+    'img_alt_text' => 'Group of 12 seated people sitting in front of and listening to a seated person speaking and gesticulating with their arms and hands',
     'title_level' => '3'
   ]
 ); ?>
@@ -230,11 +230,11 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
   'Transitions Program',
-  '/assets/images/placeholders/placeholder-portrait.jpg',
+  '/admission/assets/images/explore/diversity/0097-22-08-kr-transitions-vassar-0002-crop.jpg',
   'theme-darkcoal has-bg quad-pattern light-bg-pattern-1',
   '',
   [
-    'img_alt_text' => 'PLACEHOLDER',
+    'img_alt_text' => 'Three people at the entrance to Vassar College Main Building holding signs that read, Welcome to Vassar and You Belong Here. Two people are wearing face masks and one is not and smiling.',
     'title_level' => '3'
   ]
 ); ?>
