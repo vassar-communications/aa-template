@@ -49,10 +49,10 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Together We Become More',
     'Our differences strengthen our community and offer us the opportunity to connect with all kinds of people.',
-    $admission_img_path.'explore/diversity/0203_17_04_KR_0097-2x3-crop.jpg',
+    $admission_img_path.'explore/diversity/1397_Vassar-College_exteriors-campus-life_Oct-2019_JA-crop.jpg',
     '',
     '',
-    ['img_alt_text' => 'Three students toss colorful Holi powder in the air.']
+    ['img_alt_text' => 'Evening sunlight shines on four people smiling and laughing in front of Sunset Lake on Vassar Campus.']
   );
 ?>
 
