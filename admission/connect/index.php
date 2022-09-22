@@ -45,10 +45,10 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Our Team is Here to Help You.',
     '',
-    $admission_img_path.'/connect/adm-open-house-0055_15_04_KR_0014-crop.jpg',
+    $admission_img_path.'/connect/kautz-house-2105-tsa-V866-040-crop.jpg',
     null,
     null,
-    ['img_alt_text' => 'Two people seated at a table eating and listening while a third seated person speaks.']
+    ['img_alt_text' => 'Brightly sunlit sidewalk with colorful planted and hanging flowers leading to the entrance of Kautz House on Vassar Campus.']
 );
 ?>
 
