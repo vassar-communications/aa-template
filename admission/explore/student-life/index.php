@@ -84,7 +84,7 @@ $page_info = [
 
     <?php echo item_iconButton(
         'microphone-lines',
-        'A variety of performance groups',
+        'A vibrant srts scene',
         'https://www.vassar.edu/arts',
         'btn-card animation-item'
     ); ?>
