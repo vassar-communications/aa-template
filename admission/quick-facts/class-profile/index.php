@@ -43,6 +43,9 @@ $page_info = json_decode($page_info, true);
 .span-2 {
   grid-column: span 3;
 }
+.span-6 {
+  grid-column: span 6;
+}
 
 
 @media (max-width: 600px) {
@@ -290,56 +293,61 @@ $page_info = json_decode($page_info, true);
     'Racial/Ethnic Diversity',
     '3',
     '<p>US Citizens & Permanent Residents Only. (Categories do not add up to 100% because the total reflects all categories selected by a student.)</p>',
-    'items-equal-height mw-inner-3 xtheme-burgundy has-bg quad-pattern animate-when-content-appears stats-no-bg animation-group animation-fade-in',
+    'items-equal-height mw-inner-1 xtheme-burgundy has-bg quad-pattern animate-when-content-appears stats-no-bg animation-group animation-fade-in cols-6',
     'gap-3'
 ); ?>
 
-  <?php echo item_col(); ?>
+  <?php /* echo item_col(); ?>
     <?php echo item_stat(
-      '<div class="circle" style="--size: 36; left: 0"></div> Identifying as students of color',
+      '<!--<div class="circle" style="--size: 36; left: 0"></div>--> Identifying as students of color',
       $class_stats['students_of_color'],
       ''
     ); ?>
-  <?php echo end_item_col(); ?>
+  <?php echo end_item_col(); */ ?>
 
-  <?php echo item_col(); ?>
+  <?php echo item_col('span-1'); ?>
     <?php echo item_stat(
-      '<div class="circle" style="--size: 21"></div> Asian/Pacific Islander',
+      '<!--<div class="circle" style="--size: 21"></div>-->Asian/Pacific Islander',
       '21%',
       ''
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col(); ?>
+  <?php echo item_col('span-1'); ?>
     <?php echo item_stat(
-      '<div class="circle" style="--size: 8"></div> African American/Black',
+      '<!--<div class="circle" style="--size: 8"></div> -->African American/Black',
       '8%',
 ''
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col(); ?>
+  <?php echo item_col('span-1'); ?>
     <?php echo item_stat(
-      '<div class="circle" style="--size: 67; top: auto; bottom: 0; left: 0"></div> White',
+      '<!--<div class="circle" style="--size: 67; top: auto; bottom: 0; left: 0"></div>-->White',
       '67%',
       ''
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col(); ?>
+  <?php echo item_col('span-2'); ?>
     <?php echo item_stat(
-      '<div class="circle" style="--size: 1"></div> Native American',
+      '<!--<div class="circle" style="--size: 1"></div> -->Native American',
       '1%',
       ''
     ); ?>
   <?php echo end_item_col(); ?>
 
-  <?php echo item_col(); ?>
+  <?php echo item_col('span-2'); ?>
     <?php echo item_stat(
-      '<div class="circle" style="--size: 13"></div> Latinx',
+      '<!--<div class="circle" style="--size: 13"></div> -->Latinx',
       '13%',
       ''
     ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col('span-6'); ?>
+
+    <p><strong><?php echo $class_stats['students_of_color']; ?> identify as students of color.</strong></p>
   <?php echo end_item_col(); ?>
 
   <?php echo end_sec_hasColumns(); ?>
