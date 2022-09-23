@@ -125,32 +125,6 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-
-
-<?php echo sec_fullBleedImageColumn(
-  'Office of Religious and Spiritual Life and Contemplative Practices',
-  '/admission/assets/images/explore/diversity/0007-22-03-kr-lama-topgyal-chapel-vassar0008.jpg',
-  'theme-extralightgray',
-  '',
-  [
-    'img_alt_text' => 'Two people wearing red robes exchange a small glass blue Buddha figurine',
-    'title_level' => '3'
-  ]
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <p><strong>Feeding the Spirit.</strong> The Office of Religious and Spiritual Life and Contemplative Practices oversees, advises, and supports a wide range of religious and civic communities, as well as initiatives that merge Vassar’s campus with the mid-Hudson Valley community. Vassar staff members are always available for pastoral counseling and spiritual guidance, no matter where you are in your spiritual journey.</p>
-
-    <?php echo cta_link(
-        'https://offices.vassar.edu/religious-and-spiritual-life/',
-        'Learn more about Religious and Spiritual Life'
-    ); ?>
-
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-
-
 <?php echo sec_fullBleedImageColumn(
   'Jeh Vincent Johnson ALANA Cultural Center',
   '/admission/assets/images/explore/diversity/0101_14_10_KR_0108.jpg',
@@ -252,11 +226,33 @@ $page_info = json_decode($page_info, true);
 
 
 
+<?php echo sec_fullBleedImageColumn(
+  'Office of Religious and Spiritual Life and Contemplative Practices',
+  '/admission/assets/images/explore/diversity/0007-22-03-kr-lama-topgyal-chapel-vassar0008.jpg',
+  'image-is-first theme-extralightgray',
+  '',
+  [
+    'img_alt_text' => 'Two people wearing red robes exchange a small glass blue Buddha figurine',
+    'title_level' => '3'
+  ]
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p><strong>Feeding the Spirit.</strong> The Office of Religious and Spiritual Life and Contemplative Practices oversees, advises, and supports a wide range of religious and civic communities, as well as initiatives that merge Vassar’s campus with the mid-Hudson Valley community. Vassar staff members are always available for pastoral counseling and spiritual guidance, no matter where you are in your spiritual journey.</p>
+
+    <?php echo cta_link(
+        'https://offices.vassar.edu/religious-and-spiritual-life/',
+        'Learn more about Religious and Spiritual Life'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
 
 <?php echo sec_fullBleedImageColumn(
   'Office of International Services',
   '/admission/assets/images/explore/diversity/Kaleidoscope-0139_16_11_KR_0002.jpg',
-  'image-is-first theme-charcoal has-bg quad-pattern light-bg-pattern-1',
+  'theme-charcoal has-bg quad-pattern light-bg-pattern-1',
   '',
   [
     'img_alt_text' => 'People stand in a line while food is served in a large room with flags of different countries',
@@ -275,6 +271,14 @@ $page_info = json_decode($page_info, true);
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
+
+<?php echo sec_wideContent(
+    'Our Philosophy of Engaged Pluralism',
+    '<p class="intro-text">Engaged pluralism is rooted in the conviction that collaborating across differences is necessary for social transformation and critical for the well-being of any community and its members. Vassar’s diverse community inspires positive change through open inquiry, deep dives into society’s most difficult challenges, and collaborative problem solving, and we believe it’s our differences that make us stronger.</p>',
+    'theme-cream pb-1 hidemark',
+    'mw-3 pb-5'
+); ?>
+<?php echo end_sec_wideContent(); ?>
 
 
 <!-- RELATED TOPICS ===  -->
