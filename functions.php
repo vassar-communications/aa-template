@@ -136,6 +136,8 @@ include($project_paths['main_project_root'].'/core/items/link-video-modal.inc');
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/fancy-stats.inc');
 include($project_paths['main_project_root'].'/core/sections/content_sections/nice-quotes.inc');
+include($project_paths['main_project_root'].'/core/sections/content_sections/facts-ticker.inc');
+
 
 include($project_paths['main_project_root'].'/core/sections/content_sections/vassar-home-news.inc');
 
