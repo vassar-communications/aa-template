@@ -126,6 +126,76 @@ $page_info = json_decode($page_info, true);
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
+<?php echo sec_hasColumns(
+  'After Vassar',
+  '3',
+  '<p class="intro-text">Vassar opens doors. Vassar students have a high rate of acceptance into both law and medical school. Two-thirds of Vassar students ultimately pursue advanced studies.</p>',
+  'items-equal-height mw-inner-3 theme-dark-burgundy has-bg quad-pattern',
+  'gap-3',
+); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Six months after graduating',
+      '93%',
+      'are employed, in school, or pursuing a fellowship/volunteer experience.'
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Law school admit rate',
+      '88%'
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Med school admit rate',
+      '88%'
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
+
+
+
+<?php echo sec_hasColumns(
+    null,
+    '2',
+    null,
+    'pt-0 items-equal-height mw-inner-5 theme-dark-burgundy has-bg quad-pattern',
+    'gap-3'
+); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_cardWithText(
+        'Pre-Law',
+        'https://offices.vassar.edu/careers/graduate-and-law/law-school/',
+        ['url' => '/admission/assets/images/quick-facts/academics/0100_16_09_KR_0090.jpg',
+        'alt' => 'Graduate in audience with dramatic lighting' ],
+        'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
+    ); ?>
+        <p>Pre-law Advising is handled by the Office of Career Development, also with faculty support. Both encourage students to come to their offices to discuss any questions they have with respect to pre-law studies and the law school application process.</p>
+    <?php echo end_item_cardWithText('Learn more'); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_cardWithText(
+        'Pre-Med',
+        'https://offices.vassar.edu/pre-health-advising/',
+        ['url' => '/admission/assets/images/quick-facts/academics/0014-19-04-kr-chemistry-vassar-4556.jpg',
+        'alt' => 'A student wearing goggles looks at a test tube' ],
+        'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
+    ); ?>
+        <p>The Office for Fellowships and Pre-Health Advising provides guidance and assistance to students planning to pursue careers in medicine and other careers in the health professions.</p>
+    <?php echo end_item_cardWithText('Learn more'); ?>
+  <?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
 <!-- RELATED TOPICS ===  -->
 
 <?php echo sec_hasColumns(
