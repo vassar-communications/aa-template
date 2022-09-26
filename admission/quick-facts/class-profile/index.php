@@ -255,24 +255,65 @@ $page_info = json_decode($page_info, true);
 
 <p>The Class of 2025 includes students from <?php echo $class_stats['number_of_states']; ?> states, Washington, D.C., Puerto Rico, and <?php echo $class_stats['number_of_countries']; ?> countries: Bangladesh, Brazil, Canada, China, Ecuador, Egypt, Greece, India, Israel, Jamaica, Japan, Mexico, Nepal, Netherlands, Nigeria, South Africa, Taiwan, Thailand, Ukraine, United Arab Emirates, United Kingdom, and Vietnam.</p>
 
-  <?php echo item_col(); ?>
-  <h3>Top States</h3>
-  <ol class="column-count-2">
+<?php echo end_sec_regularContent(); ?>
+
+
+
+
+<?php echo sec_regularContent(
+    'Top States',
+    'theme-cream mw-inner-3 pb-6',
+    'content_classes',
+    null
+); ?>
+
+<style>
+
+  .states {
+    padding-left: 0;
+  }
+
+  .states li::before {
+    content: counter(inst);
+    background: #f00;
+    width: 2.2rem;
+    height: 2.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-variation-settings: "wght" 600;
+    color: #fff;
+    border-radius: 3rem;
+  }
+
+  .states li {
+    counter-increment: inst;
+    list-style: none;
+    display: inline;
+    margin-right: 2rem;
+    font-size: 2.2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+</style>
+
+  <ol class="states text-center">
   	<li>New York</li>
   	<li>California</li>
   	<li>Massachusetts</li>
   	<li>New Jersey</li>
   	<li>Connecticut</li>
   	<li>Pennsylvania</li>
-  	<li>Florida<br>Texas</li>
+  	<li>Florida, Texas</li>
   	<li>Maryland</li>
-  	<li>Illinois<br>Washington</li>
+  	<li>Illinois, Washington</li>
   </ol>
 
-  <?php echo end_item_col(); ?>
-
 <?php echo end_sec_regularContent(); ?>
-
 
 
 
