@@ -209,7 +209,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_stat(
       'Six months after graduating',
-      '93%',
+      $after_vassar['six_months_out'],
       '<p class="fs-6">are employed, in school, or pursuing a fellowship/volunteer experience.</p>'
     ); ?>
   <?php echo end_item_col(); ?>
@@ -217,14 +217,14 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_stat(
       'Law school admit rate',
-      '88%'
+      $after_vassar['law_school_admit_rate']
     ); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
       'Med school admit rate',
-      '88%'
+      $after_vassar['med_school_admit_rate']
     ); ?>
   <?php echo end_item_col(); ?>
 
@@ -261,7 +261,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
       'Students of color',
-      $class_stats['students_of_color'],
+      '36%', // $class_stats['students_of_color'],
       ''
     ); ?>
   <?php echo end_item_col(); ?>

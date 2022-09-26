@@ -128,31 +128,31 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_hasColumns(
   'After Vassar',
-  '3',
+  '2',
   '<p class="intro-text">Vassar opens doors. Vassar students have a high rate of acceptance into both law and medical school. Two-thirds of Vassar students ultimately pursue advanced studies.</p>',
-  'items-equal-height mw-inner-3 theme-dark-burgundy has-bg quad-pattern',
+  'items-equal-height mw-inner-2 theme-dark-burgundy has-bg quad-pattern',
   'gap-3',
 ); ?>
 
-  <?php echo item_col(); ?>
+  <?php /* echo item_col(); ?>
     <?php echo item_stat(
       'Six months after graduating',
-      '93%',
-      'are employed, in school, or pursuing a fellowship/volunteer experience.'
+      $after_vassar['six_months_out'],
+      '<p class="fs-6">are employed, in school, or pursuing a fellowship/volunteer experience.</p>'
     ); ?>
-  <?php echo end_item_col(); ?>
+  <?php echo end_item_col(); */ ?>
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
       'Law school admit rate',
-      '88%'
+      $after_vassar['law_school_admit_rate']
     ); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
       'Med school admit rate',
-      '88%'
+      $after_vassar['med_school_admit_rate']
     ); ?>
   <?php echo end_item_col(); ?>
 

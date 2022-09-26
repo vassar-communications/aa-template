@@ -10395,6 +10395,7 @@ details.open .dropdown__content {
   font-size: 1.2rem;
   padding: calc(1.305rem + 0.66vw) calc(1.325rem + 0.9vw);
   border-radius: 0.4rem;
+  transition: 0.4s all ease;
 }
 @media (min-width: 1200px) {
   .btn-card {
@@ -10402,8 +10403,7 @@ details.open .dropdown__content {
   }
 }
 .btn-card:hover {
-  --section-link-hover-bg-color: var(--color-vassar-red);
-  --section-link-hover-color: #fff;
+  background-color: var(--color-vassar-red);
 }
 .btn-card .the-icon {
   font-size: 3rem;
