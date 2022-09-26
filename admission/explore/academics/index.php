@@ -384,7 +384,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
   <div class="animate-when-content-appears animation-slide-up">
       <p class="tagline">Dig Deep to Explore Your Interests</p>
-      <p>Vassar’s Intensives take the individualized classroom experience further by creating even more opportunities for student-driven exploration and mentored research. Intensives are designed to promote forward-thinking, non-traditional class experiences that catalyze deeper learning.</br>Examine some of the most pressing issues of our time through Intensives like The <em>Climate Fight</em> and <em>Exile, Migration, and Community</em>, take a deep dive into the mourning rituals of 19th century Britain in <em>History and Politics of Grief</em>, or work on collaborative programming projects in <em>Applications of Artificial Intelligence</em>.</p>
+      <p>Vassar’s Intensives take the individualized classroom experience further by creating even more opportunities for student-driven exploration and mentored research. Intensives are designed to promote forward-thinking, non-traditional class experiences that catalyze deeper learning.</p><p>Examine some of the most pressing issues of our time through Intensives like The <em>Climate Fight</em> and <em>Exile, Migration, and Community</em>, take a deep dive into the mourning rituals of 19th century Britain in <em>History and Politics of Grief</em>, or work on collaborative programming projects in <em>Applications of Artificial Intelligence</em>.</p>
   </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
