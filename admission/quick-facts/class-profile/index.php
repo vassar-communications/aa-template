@@ -175,7 +175,7 @@ $page_info = json_decode($page_info, true);
   'show-image-then-content mw-inner-2',
   'content-classes gap-3',
   [
-    'bg-image-url' => '/admission/assets/images/quick-facts/Move-In-Day_-cheer-1808-KR_1780.jpg'
+    'bg-image-url' => '/admission/assets/images/quick-facts/Vassar-Class-2108-BL-4581-edit1-crop.jpg'
     ]
 ); ?>
 

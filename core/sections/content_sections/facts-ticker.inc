@@ -1,3 +1,5 @@
+
+
 <?php
 
 /**
@@ -11,9 +13,28 @@
  */
 function factsTicker( $extras = false ) {
 return <<<TMP
+
+<style>
+/* Normally, when carousels are clicked, they pause indefinitely.
+This blocks click events (but not hover events). */
+.quotes-carousel {
+    position: relative;
+}
+.quotes-carousel:after {
+    position: absolute;
+    content: '';
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
+    z-index: 1000;
+}
+</style>
+
+
 <h3 class="fancy-heading tagline text-center">The Class of 2025</h3>
 
-  <div class="quotes-carousel" data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": 2000, "cellAlign": "center", "contain": true, "prevNextButtons": false }'>
+  <div class="quotes-carousel" data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": 3000, "cellAlign": "center", "contain": true, "prevNextButtons": false }'>
 
     <div class="carousel-cell split-words-container">
       <div class="split-words-content">
