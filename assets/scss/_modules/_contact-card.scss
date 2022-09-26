@@ -8,6 +8,18 @@
     margin-bottom: 1rem;
   }
 
+  h3 {
+    a {
+      &:hover,
+      &:visited:hover,
+      &:focus,
+      &:active       {
+        --section-text-color: var(--color-vassar-burgundy);
+        border-bottom: 1px solid var(--color-vassar-burgundy);
+      }
+    }
+  }
+
   .contact-name {
     margin-bottom: 0.2rem;
   }

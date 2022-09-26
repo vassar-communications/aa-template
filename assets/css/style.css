@@ -14044,6 +14044,10 @@ ul.style-checklist a, ul.style-checklist .video-modal-link {
     margin-bottom: 1rem;
   }
 }
+.staff-contact h3 a:hover, .staff-contact .h3 a:hover, .staff-contact h3 .video-modal-link:hover, .staff-contact .h3 .video-modal-link:hover, .staff-contact h3 a:visited:hover, .staff-contact h3 a:focus, .staff-contact .h3 a:focus, .staff-contact h3 .video-modal-link:focus, .staff-contact .h3 .video-modal-link:focus, .staff-contact h3 a:active, .staff-contact .h3 a:active, .staff-contact h3 .video-modal-link:active, .staff-contact .h3 .video-modal-link:active {
+  --section-text-color: var(--color-vassar-burgundy);
+  border-bottom: 1px solid var(--color-vassar-burgundy);
+}
 .staff-contact .contact-name {
   margin-bottom: 0.2rem;
 }
