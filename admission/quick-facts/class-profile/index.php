@@ -293,9 +293,9 @@ $page_info = json_decode($page_info, true);
   	<li>New Jersey</li>
   	<li>Connecticut</li>
   	<li>Pennsylvania</li>
-  	<li>Florida, Texas</li>
+  	<li>Florida and Texas</li>
   	<li>Maryland</li>
-  	<li>Illinois, Washington</li>
+  	<li>Illinois and Washington</li>
   </ol>
 
 <?php echo end_sec_regularContent(); ?>
