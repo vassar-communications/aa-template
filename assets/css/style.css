@@ -10904,6 +10904,28 @@ li {
   width: 60%;
 }
 
+@media screen and (min-width: 50em) {
+  .cols-6 .section-content,
+.cols-6.row {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .span-1 {
+    grid-column: span 2;
+  }
+
+  .span-2 {
+    grid-column: span 3;
+  }
+
+  .span-6 {
+    grid-column: span 6;
+  }
+
+  .cols-6 .section-content {
+    grid-template-columns: 1fr;
+  }
+}
 /*
 This is a generic container element for containing a 100vh fixed-position element. You'd use it as follows:
 

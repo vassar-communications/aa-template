@@ -34,27 +34,7 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <style>
-.cols-6 .section-content,
-.cols-6.row {
-  grid-template-columns: repeat(6, 1fr);
-}
-.span-1 {
-  grid-column: span 2;
-}
-.span-2 {
-  grid-column: span 3;
-}
-.span-6 {
-  grid-column: span 6;
-}
 
-
-@media (max-width: 600px) {
-    .cols-6 .section-content {
-        grid-template-columns: 1fr;
-    }
-
-}
 </style>
 
 

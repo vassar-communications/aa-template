@@ -73,3 +73,25 @@
 
   }
 }
+
+
+
+
+@include break(md) {
+  .cols-6 .section-content,
+  .cols-6.row {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .span-1 {
+    grid-column: span 2;
+  }
+  .span-2 {
+    grid-column: span 3;
+  }
+  .span-6 {
+    grid-column: span 6;
+  }
+  .cols-6 .section-content {
+    grid-template-columns: 1fr;
+  }
+}
