@@ -115,12 +115,11 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_hasColumns(); ?>
 
 
-<?php echo sec_hasColumns(
+<?php echo sec_regularContent(
     null,
-    1,
+    'theme-cream',
     '',
-    'related-topics-section theme-cream mw-inner-1',
-    'col-gap-3'
+    ''
 ); ?>
 
 <?php echo item_col(); ?>
@@ -149,7 +148,7 @@ $page_info = json_decode($page_info, true);
     <?php echo end_item_col(); */ ?>
 
 
-<?php echo end_sec_hasColumns(); ?>
+<?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
     'Financial Aid Application Checklists',

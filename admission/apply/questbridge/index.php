@@ -8,7 +8,7 @@ include_once($project_paths['main_project_root'].'/functions.php');
 /* PAGE INFO === */
 
 $page_info = '{
-  "page_title":"QuestBridge Students",
+  "page_title":"QuestBridge Finalists",
   "feature_image":"/admission/assets/images/apply/questbridge/0003-17-01-kr-modfest-vassar-0077.jpg"
 }';
 /* === */

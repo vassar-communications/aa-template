@@ -7,7 +7,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 $page_info = '{
-  "page_title": "Visit Campus",
+  "page_title": "Visit",
   "page_classes": "visithome",
   "feature_image": "/admission/assets/images/visit/0069-19-05-kr-spring-vassar-4632.jpg"
 }';

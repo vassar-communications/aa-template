@@ -88,7 +88,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     'Submitting Application Materials',
-    'theme-extralightgray',
+    'theme-cream',
     '',
     ''
 ); ?>
@@ -141,24 +141,77 @@ $page_info = json_decode($page_info, true);
 </ul>
   <?php echo end_info_card(); ?>
 
+<?php echo end_sec_regularContent(); ?>
 
 
-<?php echo info_card(
-    'Fee Waiver',
-    '',
-    'info'
+
+
+<?php echo sec_regularContent(
+    'After You’ve Applied',
+    'red-icons theme-extralightgray',
+    ''
 ); ?>
 
-<p>If the application fee poses a financial hardship, a fee waiver can be requested on the Common Application or the Coalition Application. Fee waivers are automatically offered to students who participated in the Vassar View program, QuestBridge Finalists, Veterans, and International applicants who are unable to use a credit card to pay the application fee.</p>
+  <div class="icon-items-list">
+      <?php echo item_iconItem(
+          null,
+          'list-check',
+          'icon-on-left'
+      ); ?>
+      <p>Within 5 days of receiving your application, we will send you an email with your Applicant ID and directions on how to access an online checklist for your application.</p>
+      <?php echo end_item_iconItem(); ?>
 
-<ul>
-    <li>If you apply via the Common Application, under the Vassar College Member-Specific section you will be asked “Do you intend to use one of these school-specific fee waivers?” Please select “Yes, I will be using a Vassar fee waiver.”</li>
-    <li>If you apply via the Coalition Application, use the fee waiver code: Vassar Fee Waiver.</li>
-</ul>
+      <?php echo item_iconItem(
+          null,
+          'clock',
+          'icon-on-left'
+      ); ?>
+      <p>Adding all supporting documents to our system may take a few weeks. If there are items missing from your application, you will be notified before decision release for your specified application round.</p>
+      <?php echo end_item_iconItem(); ?>
 
-<?php echo end_info_card(); ?>
+      <?php echo item_iconItem(
+          null,
+          'check',
+          'icon-on-left'
+      ); ?>
+      <p>Students will be able to check their admission decision online on the same website you used to check the status of your application. Vassar does not release admission decisions via telephone.</p>
+      <?php echo end_item_iconItem(); ?>
+  </div>
+
+  <h3>Additional Information</h3>
+
+  <?php echo accordion('useful-info'); ?>
+
+    <?php echo accordion_item('useful-info', 'Fee Waivers'); ?>
+      <p>If the application fee poses a financial hardship, a fee waiver can be requested on the Common Application or the Coalition Application. Fee waivers are automatically offered to applicants who are QuestBridge Finalists and U.S. Military Veterans.</p>
+
+      <ul>
+        <li>If you apply via the <?php echo central_link('common-app', 'Common Application'); ?>, under the Vassar College Member-Specific section you will be asked “Do you intend to use one of these school-specific fee waivers?” Please select “Yes, I will be using a Vassar fee waiver.”</li>
+        <li>If you apply via the <?php echo central_link('coalition-app', 'Coalition Application'); ?>, use the fee waiver code: <code>Vassar Fee Waiver</code>.</li>
+      </ul>
+
+    <?php echo end_accordion_item(); ?>
+
+    <?php echo accordion_item('useful-info', 'Undocumented students'); ?>
+      <p>Vassar College considers applications submitted by undocumented or DACA-mented students for the first-year class with the same consideration given to any other applicants when reviewing their application. Although funding is limited, the College is committed to meeting the full, demonstrated financial need of undocumented or DACA students admitted to Vassar following the same procedures Vassar uses to grant aid to accepted international students.</p>
+    <?php echo end_accordion_item(); ?>
+
+    <?php echo accordion_item('useful-info', 'AP and IB Credit'); ?>
+      <p>Vassar awards credit for scores of 4 or 5 on select AP exams and for scores of 5, 6, or 7 on select IB Higher Level exams. A maximum of 2 units of pre-matriculation examination-based credits can be awarded.</p>
+    <?php echo end_accordion_item(); ?>
+
+    <?php echo accordion_item('useful-info', 'Taking a Gap Year'); ?>
+      <p>Students who are taking a gap year must confirm their intent to enroll at Vassar by submitting the Candidate’s Reply Card and the required enrollment deposit by May 1, and must complete the Deferral Request Form by the deadline listed on the Admitted Students website. If deferred status is approved, a formal letter stating the conditions under which the deferral has been granted will be sent to the student. Transfer students and students offered admission to Vassar from the wait list are ineligible to request a deferral of admission.</p>
+    <?php echo end_accordion_item(); ?>
+
+  <?php echo end_accordion(); ?>
 
 <?php echo end_sec_regularContent(); ?>
+
+
+
+
+
 
 
 

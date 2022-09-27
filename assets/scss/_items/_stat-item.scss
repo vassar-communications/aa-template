@@ -13,6 +13,11 @@
   .theme-darkcoal & {
     color: var(--section-bg-color, #333);
   }
+  .theme-burgundy-stats & {
+    .stat-value {
+      color: var(--color-vassar-burgundy);
+    }
+  }
 }
 
 .stat-value {

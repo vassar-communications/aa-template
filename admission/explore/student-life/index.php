@@ -84,7 +84,7 @@ $page_info = [
 
     <?php echo item_iconButton(
         'microphone-lines',
-        'A variety of performance groups',
+        'A vibrant arts scene',
         'https://www.vassar.edu/arts',
         'btn-card animation-item'
     ); ?>
@@ -99,7 +99,7 @@ $page_info = [
     <?php echo item_iconButton(
         'users',
         '150+ student organizations',
-        'https://vsa.vassar.edu/',
+        'https://vsa.vassar.edu/orgs/',
         'btn-card animation-item'
     ); ?>
 
@@ -178,9 +178,45 @@ $page_info = [
 <?php echo end_sec_wideContent(); ?>
 
 <?php echo sec_fullBleedImageColumn(
+    'Dorms',
+    $quickfacts_img_path.'THs-0144-15-05-hw-dorm-vassar-vb-3813.jpg',
+    'image-is-first theme-cream',
+    '',
+    ['title_level' => '3']
+); ?>
+  <div class="animate-when-content-appears animation-slide-up burgundy-icons">
+
+      <?php echo item_iconItem(
+        null,
+        'building',
+        'icon-on-left'
+      ); ?>
+          <p>The Town Houses, Terrace Apartments, and South Commons offer apartment-style living accommodations for juniors and seniors.</p>
+      <?php echo end_item_iconItem(); ?>
+
+      <?php echo item_iconItem(
+        null,
+        'heart',
+        'icon-on-left'
+      ); ?>
+          <p>Wellness Corridors provide an option for quiet, substance-free housing within the residential houses.</p>
+      <?php echo end_item_iconItem(); ?>
+
+      <?php echo item_iconItem(
+        null,
+        'fa fa-users the-icon',
+        'icon-on-left'
+      ); ?>
+          <p>The Vassar House Fellows Program has 15 faculty members and their families living alongside students in the residence halls. They serve as academic advisors and as members of the residential community who offer academic perspective and counsel.</p>
+      <?php echo end_item_iconItem(); ?>
+
+  </div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+<?php echo sec_fullBleedImageColumn(
     'Galvanize Your Energy',
     '/admission/assets/images/explore/student-life/110619_160over90_Vassar_7499.jpg',
-    'image-is-first theme-cream',
+    'theme-cream',
     '',
     ['img_alt_text' => 'Athletes stand in a huddle']
 ); ?>
@@ -195,12 +231,74 @@ $page_info = [
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-
-
 <?php echo sec_fullBleedImageColumn(
+    'A Thriving Campus Community',
+    '/admission/assets/images/quick-facts/community/Kaleidoscope-0139_16_11_KR_0077.jpg',
+    'image-is-first theme-cream',
+    '',
+    [
+      'title_level' => '3',
+      'img_alt_text' => 'Students on stage with international flags',
+      'css' => '--icon-item-border-color: rgba(0,0,0,0.1)'
+    ],
+); ?>
+  <div class="animate-when-content-appears animation-slide-up burgundy-icons">
+
+      <?php echo item_iconItem(
+        null,
+        'cookie-bite',
+        'icon-on-left'
+      ); ?>
+          <p>Popular on-campus hangouts include late-night dining at Gordon Commons, the College Center, Sunset Lake, and the Residential Houses’ common spaces.</p>
+      <?php echo end_item_iconItem(); ?>
+
+      <?php echo item_iconItem(
+        null,
+        'users',
+        'icon-on-left'
+      ); ?>
+          <p>Throughout the year, nationally known speakers, writers, and musicians appear on campus.</p>
+      <?php echo end_item_iconItem(); ?>
+
+      <?php echo item_iconItem(
+        null,
+        'masks-theater',
+        'icon-on-left'
+      ); ?>
+          <p>Each weekend, students have the opportunity to attend student music concerts, drama productions, lectures, dance recitals, and athletic events.</p>
+      <?php echo end_item_iconItem(); ?>
+
+      <?php echo item_iconItem(
+        null,
+        'mug-saucer',
+        'icon-on-left'
+      ); ?>
+          <p>Student-run organizations and residential houses plan numerous social activities. These can range from comedy shows, dances, and movies, to study breaks or afternoon tea in the Rose Parlor.</p>
+      <?php echo end_item_iconItem(); ?>
+
+  </div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+<?php echo sec_regularContent(
+    null,
+    'section-class mw-inner-2 p-6',
+    ''
+); ?>
+
+<?php echo item_cardWithText(
+        'Dining',
+        'https://vassar.cafebonappetit.com/',
+        ['url' => $quickfacts_img_path.'0195-19-11-kwe-gordon-vassar-1644.jpg', 'alt' => 'Students sit at a table in the large common area of Gordon Commons' ],
+        'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
+    ); ?>
+        <p>All students are on an all-you-care-to-eat meal plan, providing unlimited access to the main dining hall from 7 a.m. to 1 a.m., as well as expanded options at Express, the Bridge Café, the Retreat, a food truck, and cook-your-own ingredients.</p>
+    <?php echo end_item_cardWithText('Learn more about campus dining'); ?>
+<?php echo end_sec_regularContent(); ?>
+
+<?php /* echo sec_fullBleedImageColumn(
     'Part of a Bigger Whole',
     '/admission/assets/images/explore/student-life/0068_15_07_BL_7549.jpg',
-    '',
+    'image-is-first',
     '',
     ['img_alt_text' => 'An adult helps a child fingerpaint']
 ); ?>
@@ -213,7 +311,7 @@ $page_info = [
     ); ?>
 
 </div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
+<?php echo end_sec_fullBleedImageColumn(); */ ?>
 
 
 
