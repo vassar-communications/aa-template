@@ -10613,6 +10613,9 @@ details.open .dropdown__content {
 .theme-burgundy .stat-item, .theme-dark-burgundy .stat-item, .theme-charcoal .stat-item, .theme-darkcoal .stat-item {
   color: var(--section-bg-color, #333);
 }
+.theme-burgundy-stats .stat-item .stat-value {
+  color: var(--color-vassar-burgundy);
+}
 
 .stat-value {
   font-family: var(--bs-font-sans-serif);

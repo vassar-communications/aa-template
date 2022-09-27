@@ -180,7 +180,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <div class="d-grid cols-6 gap-3">
-    <?php echo item_col('span-1 theme-burgundy'); ?>
+    <?php echo item_col('span-1 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         '<!--<div class="circle" style="--size: 21"></div>-->Asian/Pacific Islander',
         '21%',
@@ -188,7 +188,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
     <?php echo end_item_col(); ?>
 
-    <?php echo item_col('span-1 theme-burgundy'); ?>
+    <?php echo item_col('span-1 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         '<!--<div class="circle" style="--size: 8"></div> -->African American/Black',
         '8%',
@@ -196,7 +196,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
     <?php echo end_item_col(); ?>
 
-    <?php echo item_col('span-1 theme-burgundy'); ?>
+    <?php echo item_col('span-1 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         '<!--<div class="circle" style="--size: 67; top: auto; bottom: 0; left: 0"></div>-->White',
         '67%',
@@ -204,7 +204,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
     <?php echo end_item_col(); ?>
 
-    <?php echo item_col('span-2 theme-burgundy'); ?>
+    <?php echo item_col('span-2 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         '<!--<div class="circle" style="--size: 1"></div> -->Native American',
         '1%',
@@ -212,7 +212,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
     <?php echo end_item_col(); ?>
 
-    <?php echo item_col('span-2 theme-burgundy'); ?>
+    <?php echo item_col('span-2 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         '<!--<div class="circle" style="--size: 13"></div> -->Latinx',
         '13%',
@@ -220,7 +220,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
     <?php echo end_item_col(); ?>
 
-    <?php echo item_col('span-6 theme-burgundy'); ?>
+    <?php echo item_col('span-6 theme-burgundy-stats'); ?>
 
       <p><strong><?php echo $class_stats['students_of_color']; ?> identify as students of color.</strong></p>
     <?php echo end_item_col(); ?>
