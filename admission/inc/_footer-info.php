@@ -7,6 +7,6 @@ $address = array(
 
 $top_links = array(
   'Plan a Visit' => '/admission/visit/',
-  'News' => '/admission/news/',
+  'News' => 'https://www.vassar.edu/news/',
   'Contact Us' => '/admission/connect/'
 );
