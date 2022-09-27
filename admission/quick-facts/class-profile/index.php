@@ -72,7 +72,7 @@ $page_info = json_decode($page_info, true);
 <p><i class="fa-solid fa-file-pdf me-2"></i> <a href="https://www.vassar.edu/sites/default/files/2022-01/2025-profile.pdf">Full Class of 2025 Data Set (PDF)</a></p>
 
   <div class="row">
-    <?php echo item_col('col-md-6 theme-burgundy'); ?>
+    <?php echo item_col('col-md-6 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         'Applications',
         '10,884',
@@ -80,7 +80,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
     <?php echo end_item_col(); ?>
 
-    <?php echo item_col('col-md-6 theme-burgundy'); ?>
+    <?php echo item_col('col-md-6 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         'First-Year Class',
         '679',
