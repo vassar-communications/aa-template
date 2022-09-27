@@ -71,6 +71,11 @@ $page_info = json_decode($page_info, true);
 
 <p><i class="fa-solid fa-file-pdf me-2"></i> <a href="https://www.vassar.edu/sites/default/files/2022-01/2025-profile.pdf">Full Class of 2025 Data Set (PDF)</a></p>
 
+<!--
+<p><i class="fa-solid fa-file me-2"></i> <a href="2025-profile.rtf">Full Class of 2025 Data Set (RTF)</a></p>
+-->
+
+
   <div class="row">
     <?php echo item_col('col-md-6 theme-burgundy-stats'); ?>
       <?php echo item_stat(
@@ -222,7 +227,7 @@ $page_info = json_decode($page_info, true);
 
     <?php echo item_col('span-6 theme-burgundy-stats'); ?>
 
-      <p><strong><?php echo $class_stats['students_of_color']; ?> identify as students of color.</strong></p>
+      <p class="stat-item"><strong><?php echo $class_stats['students_of_color']; ?> identify as students of color.</strong></p>
     <?php echo end_item_col(); ?>
   </div>
 <?php echo end_sec_imageThenContent(); ?>
