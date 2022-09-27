@@ -72,7 +72,7 @@ $page_info = json_decode($page_info, true);
 <p><i class="fa-solid fa-file-pdf me-2"></i> <a href="https://www.vassar.edu/sites/default/files/2022-01/2025-profile.pdf">Full Class of 2025 Data Set (PDF)</a></p>
 
   <div class="row">
-    <?php echo item_col('col-md-6'); ?>
+    <?php echo item_col('col-md-6 theme-burgundy'); ?>
       <?php echo item_stat(
         'Applications',
         '10,884',
@@ -80,7 +80,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
     <?php echo end_item_col(); ?>
 
-    <?php echo item_col('col-md-6'); ?>
+    <?php echo item_col('col-md-6 theme-burgundy'); ?>
       <?php echo item_stat(
         'First-Year Class',
         '679',
@@ -180,7 +180,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <div class="d-grid cols-6 gap-3">
-    <?php echo item_col('span-1'); ?>
+    <?php echo item_col('span-1 theme-burgundy'); ?>
       <?php echo item_stat(
         '<!--<div class="circle" style="--size: 21"></div>-->Asian/Pacific Islander',
         '21%',
@@ -188,7 +188,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
     <?php echo end_item_col(); ?>
 
-    <?php echo item_col('span-1'); ?>
+    <?php echo item_col('span-1 theme-burgundy'); ?>
       <?php echo item_stat(
         '<!--<div class="circle" style="--size: 8"></div> -->African American/Black',
         '8%',
@@ -196,7 +196,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
     <?php echo end_item_col(); ?>
 
-    <?php echo item_col('span-1'); ?>
+    <?php echo item_col('span-1 theme-burgundy'); ?>
       <?php echo item_stat(
         '<!--<div class="circle" style="--size: 67; top: auto; bottom: 0; left: 0"></div>-->White',
         '67%',
@@ -204,7 +204,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
     <?php echo end_item_col(); ?>
 
-    <?php echo item_col('span-2'); ?>
+    <?php echo item_col('span-2 theme-burgundy'); ?>
       <?php echo item_stat(
         '<!--<div class="circle" style="--size: 1"></div> -->Native American',
         '1%',
@@ -212,7 +212,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
     <?php echo end_item_col(); ?>
 
-    <?php echo item_col('span-2'); ?>
+    <?php echo item_col('span-2 theme-burgundy'); ?>
       <?php echo item_stat(
         '<!--<div class="circle" style="--size: 13"></div> -->Latinx',
         '13%',
@@ -220,7 +220,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
     <?php echo end_item_col(); ?>
 
-    <?php echo item_col('span-6'); ?>
+    <?php echo item_col('span-6 theme-burgundy'); ?>
 
       <p><strong><?php echo $class_stats['students_of_color']; ?> identify as students of color.</strong></p>
     <?php echo end_item_col(); ?>
