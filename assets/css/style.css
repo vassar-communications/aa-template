@@ -10634,7 +10634,6 @@ a.btn-card:hover, .btn-card.video-modal-link:hover {
 }
 .stat-value .stat-unit {
   font-size: 70%;
-  color: #888;
 }
 
 .stat-value-small .stat-value {
@@ -14079,6 +14078,13 @@ ul.style-checklist a, ul.style-checklist .video-modal-link {
   .staff-contact {
     margin-bottom: 1rem;
   }
+}
+.staff-contact h3 a:before, .staff-contact .h3 a:before, .staff-contact h3 .video-modal-link:before, .staff-contact .h3 .video-modal-link:before {
+  margin-right: 1rem;
+  content: "";
+  font-family: var(--fa-style-family, "Font Awesome 6 Free");
+  font-weight: var(--fa-style, 900);
+  font-size: 1.4rem;
 }
 .staff-contact h3 a:hover, .staff-contact .h3 a:hover, .staff-contact h3 .video-modal-link:hover, .staff-contact .h3 .video-modal-link:hover, .staff-contact h3 a:visited:hover, .staff-contact h3 a:focus, .staff-contact .h3 a:focus, .staff-contact h3 .video-modal-link:focus, .staff-contact .h3 .video-modal-link:focus, .staff-contact h3 a:active, .staff-contact .h3 a:active, .staff-contact h3 .video-modal-link:active, .staff-contact .h3 .video-modal-link:active {
   --section-text-color: var(--color-vassar-burgundy);

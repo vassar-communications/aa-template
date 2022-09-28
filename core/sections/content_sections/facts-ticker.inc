@@ -66,12 +66,6 @@ This blocks click events (but not hover events). */
       </div>
     </div>
 
-    <div class="carousel-cell split-words-container">
-      <div class="split-words-content">
-        <p>is 8.2% dual citizens</p>
-      </div>
-    </div>
-
   </div>
 TMP;
 
