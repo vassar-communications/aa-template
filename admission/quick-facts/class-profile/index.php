@@ -192,7 +192,7 @@ $page_info = json_decode($page_info, true);
 
 
 
-<?php echo sec_regularContent(
+<?php /* echo sec_regularContent(
     'Top States',
     'theme-cream mw-inner-3 pb-6',
     'content_classes',
@@ -245,7 +245,7 @@ $page_info = json_decode($page_info, true);
   	<li>Illinois and Washington</li>
   </ol>
 
-<?php echo end_sec_regularContent(); ?>
+<?php echo end_sec_regularContent(); */ ?>
 
 
 
