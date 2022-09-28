@@ -4,6 +4,11 @@
 // and vertical masonry.
 
 .grid {
+  @include break(md, 'max') {
+    & > * {
+      margin-bottom: 1rem;
+    }
+  }
   @include break(md) {
     display: grid;
     gap: var(--bs-gap, 3rem);

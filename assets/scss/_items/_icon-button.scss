@@ -22,11 +22,10 @@
   border-radius: 0.4rem;
   transition: 0.4s all ease;
 
-  &:hover {
-    background-color: var(--color-vassar-red);
-  }
-
   .the-icon {
     font-size: 3rem;
   }
+}
+a.btn-card:hover {
+  background-color: var(--color-vassar-red);
 }

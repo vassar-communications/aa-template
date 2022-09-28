@@ -3,7 +3,7 @@
 function item_iconButton(
     $icon,
     $label,
-    $link,
+    $link=null,
     $classes=null,
     $extras=null
 ) {
@@ -14,13 +14,21 @@ function item_iconButton(
     $heading_level = get_extras_value('hlevel', $extras);
     if (!$heading_level) $heading_level = 3;
 
+    $link_attr = '';
+    $btn_tag = 'div';
+
+    if( $link ) {
+      $btn_tag = 'a';
+      $link_attr = 'href="'.$link.'"';
+    }
+
     return <<<TMP
 
-<a class="icon-card $classes" href="$link">
+<$btn_tag class="icon-card $classes" $link_attr>
   <i class="fa fa-$icon the-icon"></i>
 
   <div class="icon-content">$label</div>
-</a>
+</$btn_tag>
 
 
 TMP;

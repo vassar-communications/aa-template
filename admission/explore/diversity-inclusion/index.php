@@ -99,7 +99,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fullBleedImageColumn(
     'Resources',
     '/admission/assets/images/explore/diversity/0214-18-05-kr-alana-vassar-6569.jpg',
-    'image-is-first has-bg quad-pattern light-bg-pattern-1',
+    'has-bg quad-pattern light-bg-pattern-1',
     '',
     ['img_alt_text' => 'Students assemble in a large, well-lit room']
 

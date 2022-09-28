@@ -3,9 +3,23 @@
   margin-right: auto;
 }
 
+.position-left-md {
+  @include break(md) {
+    margin-left: unset;
+    margin-right: unset;
+  }
+}
+
+
 // for buttons and elements that would normally be inline
 .center-object {
   display: block;
   width: fit-content;
   margin: 0 auto;
+}
+
+.text-left-md {
+  @include break(md) {
+    text-align: left !important;
+  }
 }
