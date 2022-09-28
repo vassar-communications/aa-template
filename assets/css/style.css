@@ -13550,7 +13550,7 @@ html {
     height: 37rem !important;
   }
   .media-carousel .carousel-cell-content {
-    max-width: none;
+    max-width: 78rem;
   }
   .media-carousel .image-container {
     width: 73% !important;

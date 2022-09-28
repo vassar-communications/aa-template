@@ -40,7 +40,7 @@ $border-distance: 0.6rem;
   width: 100%;
 
   @media only screen and (min-width: 1160px) {
-    width: 86%;    
+    width: 86%;
   }
 }
 
@@ -206,7 +206,7 @@ $border-distance: 0.6rem;
 //      width: 70rem !important;
     }
     .carousel-cell-content {
-      max-width: none;
+      max-width: 78rem;
     }
     .image-container {
 //      width: 70% !important;
