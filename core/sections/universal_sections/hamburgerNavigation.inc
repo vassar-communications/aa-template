@@ -56,7 +56,7 @@ $template = <<<TMP
             <div class="col-6 col-md-5">
               <ul class="secondary_menu d-md-flex">
                 <li class="secondary_menu-item">
-                  <a href="https://www.vassar.edu/admissions/apply">Apply</a>
+                  <a href="https://www.vassar.edu/admission/apply">Apply</a>
                 </li>
                 <li class="secondary_menu-item">
                   <a href="https://www.vassar.edu/tour">Tour</a>
@@ -82,7 +82,7 @@ $template = <<<TMP
                   <ul class="linked-list">
                      <li><a href="https://www.vassar.edu/about">About</a></li>
                      <li><a href="https://www.vassar.edu/academics">Academics</a></li>
-                     <li><a href="https://www.vassar.edu/admissions">Admission</a></li>
+                     <li><a href="https://www.vassar.edu/admission">Admission</a></li>
                      <li><a href="https://www.vassar.edu/campuslife">Campus Life</a></li>
                      <li><a href="https://www.vassarathletics.com/">Athletics</a></li>
                      <li><a href="https://www.vassar.edu/arts">Arts</a></li>
