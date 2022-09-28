@@ -179,10 +179,10 @@ $page_info = [
 
 <?php echo sec_fullBleedImageColumn(
     'Dorms',
-    $quickfacts_img_path.'THs-0144-15-05-hw-dorm-vassar-vb-3813.jpg',
+    '/admission/assets/images/explore/student-life/0144-15-05-hw-dorm-vassar-vb-7912-crop.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Image to support the Dorm section on this website'],
+    ['img_alt_text' => 'Two students talking in a dorm room. One standing and the other seated at a table with a laptop.'],
     ['title_level' => '3']
 ); ?>
   <div class="animate-when-content-appears animation-slide-up burgundy-icons">
