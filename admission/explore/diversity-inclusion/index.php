@@ -127,11 +127,11 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
   'Jeh Vincent Johnson ALANA Cultural Center',
-  '/admission/assets/images/explore/diversity/0101_14_10_KR_0108.jpg',
+  '/admission/assets/images/explore/diversity/0148-17-09-kr-alana-vassar-4978.jpg',
   'image-is-first theme-charcoal has-bg quad-pattern light-bg-pattern-1',
   '',
   [
-    'img_alt_text' => 'Three people talk together in a room',
+    'img_alt_text' => 'Four smiling people in front of an outdoor ALANA event with ballons in the background. One person is sipping a drink from a straw and two others are holding cotton candy.',
     'title_level' => '3'
   ]
 ); ?>
