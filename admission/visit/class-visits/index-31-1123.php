@@ -68,7 +68,7 @@ $page_info = [
     'Late Communism in the Eastern Bloc: Can It Tell Us Anything Today?',
     '445515683?h=866fe27c58&',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/late-communism-in-the-eastern-bloc.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/late-communism-in-the-eastern-bloc.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -81,7 +81,7 @@ $page_info = [
     'What Happens When You Don’t Recover from a Viral Infection?',
     '449842635?h=be17268af3&',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/what-happens-when-you-dont-recover-from-a-viral-infection.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/what-happens-when-you-dont-recover-from-a-viral-infection.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -94,7 +94,7 @@ $page_info = [
     'The Impact of COVID-19 on the Lives of Women in Ethiopia’s Garment Industry',
     '442151291?h=2dd7839911&',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/the-impact-of-covid-19-on-the-lives-of-women-in-ethiopias-garment-industry.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-impact-of-covid-19-on-the-lives-of-women-in-ethiopias-garment-industry.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -107,7 +107,7 @@ $page_info = [
     'Why Punish? A Conversation on Retributive Justice',
     '441118703?h=ebb1426ff7&',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/why-punish-a-conversation-on-retributive-justice.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/why-punish-a-conversation-on-retributive-justice.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -120,7 +120,7 @@ $page_info = [
     'The White Disavowal of Racism: What It Means When the Central Park Dog-Walker, Amy Cooper, Says She’s Not a Racist',
     '441195376?h=eda4b5bf7e&',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/the-white-disavowal-of-racism.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-white-disavowal-of-racism.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -133,7 +133,7 @@ $page_info = [
     'Beethoven, the Eroica Symphony, and Prince Lobkowitz’s Musical Workshop',
     '442351752?h=4b3c1444b4&',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/the-white-disavowal-of-racism.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-white-disavowal-of-racism.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -147,7 +147,7 @@ $page_info = [
     'Decolonial Practice as Anti-Racist Labor: Reflections on Indigenous Minneapolis Through Poetry',
     '447580446?h=65c49bb57f&',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/decolonial-practice-as-anti-racist-labor-reflections-on-indigenous-minneapolis-through-poetry.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/decolonial-practice-as-anti-racist-labor-reflections-on-indigenous-minneapolis-through-poetry.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -159,7 +159,7 @@ $page_info = [
     'Molecular Insights into Microbial Pathogens: Understanding the Inner Molecular Workings of Bacteria and Viruses',
     '450228303?h=281c87d3ac&',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/molecular-insights-into-microbial-pathogens.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/molecular-insights-into-microbial-pathogens.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -170,7 +170,7 @@ $page_info = [
     'Black Judges, Police Encounters, and the Administration of Justice',
     '441114418?h=9bd31681e9&',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/black-judges-police-encounters-and-the-administration-of-justice.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/black-judges-police-encounters-and-the-administration-of-justice.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -181,7 +181,7 @@ $page_info = [
     'The Port of Santo Domingo: Climate Change and the Perils of Poverty Where the Caribbean Meets the Ozama',
     '444515356?h=06e875d9fc&',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/the-port-of-santo-domingo.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-port-of-santo-domingo.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -192,7 +192,7 @@ $page_info = [
     'The Most Beautiful of All Printed Books: William Morris’ Kelmscott Chaucer',
     '444332664?h=c0bf8dfec7&',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/the-most-beautiful-of-all-printed-books-william-morris-kelmscott-chaucer.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-most-beautiful-of-all-printed-books-william-morris-kelmscott-chaucer.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -203,7 +203,7 @@ $page_info = [
     'John Stuart Mill and the “Dismal Science”',
     '444212755?h=6be113e12b&',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/john-stuart-mill-and-the-dismal-science.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/john-stuart-mill-and-the-dismal-science.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -226,7 +226,7 @@ $page_info = [
     '441129632?h=9baaef4b44&
 ',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/coral-reefs-in-a-warming-world.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/coral-reefs-in-a-warming-world.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -237,7 +237,7 @@ $page_info = [
     'What Can We Learn from a Tiny Worm? Three Short Tales of the Impact of Pesticides and Microplastics on Health',
     '440702464?h=78fc2cae43&',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/what-can-we-learn-from-a-tiny-worm.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/what-can-we-learn-from-a-tiny-worm.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -248,7 +248,7 @@ $page_info = [
     'Architecture Embodying Opposites: Freedom and Slavery in Southwest Nigeria (1880s–1910s)',
     '442150603?h=1fa3c992cf&',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/architecture-embodying-opposites.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/architecture-embodying-opposites.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -259,7 +259,7 @@ $page_info = [
     'The Climate Challenge: International Cooperation, China and Learning from the Field',
     '446904283?h=bd1fa913d0&',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/the-climate-challenge-international-cooperation-china-and-learning-from-the-field.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-climate-challenge-international-cooperation-china-and-learning-from-the-field.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
