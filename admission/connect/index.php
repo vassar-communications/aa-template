@@ -135,7 +135,7 @@ $page_info = json_decode($page_info, true);
 <div class="staff-contact mb-5">
     <h3><a class="fixemaillink" href="mailto:showenstein@vassar.edu">Siena Howenstein</a></h3>
     <p><em>Admission Counselor</em></p>
-    <p><strong>Regional Responsibilities:</strong> California, Delaware, Maryland, Massachusetts (Western), New Jersey (Northern), New York (Upstate)</p>
+    <p><strong>Regional Responsibilities:</strong> California (Southern), Delaware, Maryland, Massachusetts (Western), New Jersey (Northern), New York (Upstate)</p>
     <!-- <a class="fixemaillink" href="mailto:showenstein@vassar.edu">Email: showenstein@vassar.edu</a> -->
 </div>
 

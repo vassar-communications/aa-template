@@ -77,10 +77,11 @@ $page_info = [
     'content-classes'
 ); ?>
 
-  <p class="text-center mb-5">Preview the Vassar campus in this 30-minute video tour.</p>
+
+<?php /*  <p class="text-center mb-5">Preview the Vassar campus in this 30-minute video tour.</p> */ ?>
 
   <?php echo item_imageCard_videoModal(
-      null,
+      'Preview the Vassar campus in this 30-minute video tour.',
       null,
       'https://player.vimeo.com/video/531201548',
       'vimeo',

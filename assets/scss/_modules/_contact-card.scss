@@ -10,6 +10,14 @@
 
   h3 {
     a {
+      &:before {
+        margin-right: 1rem;
+        content: "\f0e0";
+        font-family: var(--fa-style-family,"Font Awesome 6 Free");
+        font-weight: var(--fa-style,900);
+        font-size: 1.4rem;
+      }
+
       &:hover,
       &:visited:hover,
       &:focus,
