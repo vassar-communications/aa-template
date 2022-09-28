@@ -434,7 +434,7 @@ Vassar students are surrounded by an environment designed to spark something ama
         null,
         '/admission/assets/videos/art-studios.mp4',
         'custom',
-        '',
+        '/admission/assets/videos/art-studios.mp4',
         ['url' => '/admission/assets/images/admission-home/art-studio.jpg',
             'alt' => 'An art studio with easels, paints, stools and carts with art materials'
         ],
