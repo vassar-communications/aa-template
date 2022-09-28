@@ -171,16 +171,14 @@ $page_info = json_decode($page_info, true);
 echo sec_fixedCenteredTitle(
     '<b class="slide-from-left">This is</b>
    <b class="slide-from-right">Vassar</b>',
-    '<h2 class="section-intro-text" style="font-size: 3rem; font-weight: 100; font-size: 4rem;
+    '<!--<h2 class="section-intro-text" style="font-size: 3rem; font-weight: 100; font-size: 4rem;
     font-weight: 100;
     max-width: 40rem;
     margin: 4rem auto 2rem;
-    text-align: left;">Vassar is from <span id="x-where-from">everywhere</span></h2>
-   <h3 class="section-intro-text">A world-class education is built on worldwide communities. Our students come from all 50 states and '. $class_stats['number_of_countries_all']
-.' countries. They represent a wide range of backgrounds, experiences, and aspirations, forming a vibrant community that will prepare you to lead in an increasingly diverse and interconnected world.</h3>
+    text-align: left;">Vassar is from <span id="x-where-from">everywhere</span></h2>-->
+   <p class="section-intro-text"><strong>Vassar is from everywhere.</strong> A world-class education is built on worldwide communities. Our students come from all 50 states and '. $class_stats['number_of_countries_all']
+.' countries. They represent a wide range of backgrounds, experiences, and aspirations, forming a vibrant community that will prepare you to lead in an increasingly diverse and interconnected world.</p>
 <div class="text-center mb-5">
-
-<a href="/admission/quick-facts/community/" class="btn btn-lg btn-light arrow me-4 mb-3">Meet Vassar</a>
 
 <a href="/admission/quick-facts/class-profile/" class="btn btn-lg btn-light arrow mb-3">Class Profile</a>
 
@@ -558,42 +556,42 @@ Vassar students are surrounded by an environment designed to spark something ama
     <?php echo item_iconButton(
         'clipboard-check',
         'Vassar does not currently require SAT or ACT scores.',
-        'vassar.edu',
+        null,
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
         'coins',
         'Vassar meets 100% of demonstrated financial need.',
-        'vassar.edu',
+        null,
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
         'house-chimney-user',
         'Housing is guaranteed for all four years.',
-        'vassar.edu',
+        null,
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
         'globe',
         'Vassar offers more than 130 study abroad programs.',
-        'vassar.edu',
+        null,
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
         'seedling',
         'We are committed to being carbon neutral by 2030.',
-        'vassar.edu',
+        null,
         'btn-card animation-item'
     ); ?>
 
     <?php echo item_iconButton(
         'scale-balanced',
         'Vassar does not use demonstrated interest in the admission process.',
-        'vassar.edu',
+        null,
         'btn-card animation-item'
     ); ?>
 
@@ -668,96 +666,9 @@ Vassar students are surrounded by an environment designed to spark something ama
   parseRSS('https://www.vassar.edu/news/rss/511');
 </script>
 
-
-<div id="newsRSS_target">
-  <p>Fallback content here!</p>
-</div>
-
-
-
-<?php // echo five_items(); ?>
-
-<!-- start carousel -->
-
-<!--
-<div class="featureImage-text-ticker media-carousel fade-nonselected full " id="">
-   <div class="carousel-cell is-link">
-      <div class="carousel-cell-content">
-         <div class="image-container">
-            <img src="https://www.vassar.edu//sites/default/files/2022-08/shutterstock_1905256927-1x1.jpg?itok=uxumeiml" alt="" />
-         </div>
-         <div class="figcaption pt-4 listen">
-            <h3>
-               <a href="https://www.vassar.edu/news/vassar-joins-32-peer-institutions-in-filing-amicus-brief-with-us-supreme-court" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">Vassar Joins 32 Peer Institutions in Filing an Amicus Brief with U.S. Supreme Court in Support of the Harvard and University of North Carolina Affirmative Action Cases </span>
-               </a>
-            </h3>
-            <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
-         </div>
-      </div>
-   </div>
-   <div class="carousel-cell is-link">
-      <div class="carousel-cell-content">
-         <div class="image-container">
-            <img src="https://www.vassar.edu//sites/default/files/2022-08/kolcun-carissa-ford-2207-bsu-5626-16x9.jpg?itok=iivWhp0M" alt="" />
-         </div>
-         <div class="figcaption pt-4 listen">
-            <h3>
-               <a href="https://www.vassar.edu/news/student-becomes-art-curator-ford-scholar" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">Student Becomes Art Curator as a Ford Scholar</span>
-               </a>
-            </h3>
-            <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
-         </div>
-      </div>
-   </div>
-   <div class="carousel-cell is-link">
-      <div class="carousel-cell-content">
-         <div class="image-container">
-            <img src="https://www.vassar.edu//sites/default/files/2022-08/0096-22-07-kr-beckman-vassar-0080-16x9.jpg?itok=fTwRbGLQ" alt="" />
-         </div>
-         <div class="figcaption pt-4 listen">
-            <h3>
-               <a href="https://www.vassar.edu/news/new-grant-program-funds-student-medical-research-projects" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">New Grant Program Funds Student Medical Research Projects</span>
-               </a>
-            </h3>
-            <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
-         </div>
-      </div>
-   </div>
-   <div class="carousel-cell is-link">
-      <div class="carousel-cell-content">
-         <div class="image-container">
-            <img src="https://www.vassar.edu//sites/default/files/2022-08/07-CommFellows-Hailey-Osika-002-16x9.jpg?itok=AO9bfQDX" alt="" />
-         </div>
-         <div class="figcaption pt-4 listen">
-            <h3>
-               <a href="https://www.vassar.edu/news/vassar-community-fellows-lend-hand-strengthen-local-programs" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">Vassar Community Fellows Lend a Hand to Strengthen Local Programs</span>
-               </a>
-            </h3>
-            <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
-         </div>
-      </div>
-   </div>
-   <div class="carousel-cell is-link">
-      <div class="carousel-cell-content">
-         <div class="image-container">
-            <img src="https://www.vassar.edu//sites/default/files/2022-08/0093-22-07-bl-symposium-vassar-3816-16x9.jpg?itok=Vgc6rXoz" alt="" />
-         </div>
-         <div class="figcaption pt-4 listen">
-            <h3>
-               <a href="https://www.vassar.edu/news/students-rise-grand-challenge-equalizing-stem-education" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">Students Rise to the Grand Challenge of Equalizing STEM Education</span>
-               </a>
-            </h3>
-            <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
-         </div>
-      </div>
-   </div>
-</div>
-
-<!-- end carousel -->
-
-
-
-
+  <div id="newsRSS_target">
+    <p>News could not be loaded. Please make sure JavaScript is enabled in your browser.</p>
+  </div>
 </div>
 
  <?php echo item_modal_standardVideo(); ?>

@@ -10402,11 +10402,12 @@ details.open .dropdown__content {
     padding: 1.8rem 2rem;
   }
 }
-.btn-card:hover {
-  background-color: var(--color-vassar-red);
-}
 .btn-card .the-icon {
   font-size: 3rem;
+}
+
+a.btn-card:hover, .btn-card.video-modal-link:hover {
+  background-color: var(--color-vassar-red);
 }
 
 .icon-items-list {
@@ -10848,6 +10849,11 @@ li {
   margin: 0;
 }
 
+@media screen and (max-width: 50em) {
+  .grid > * {
+    margin-bottom: 1rem;
+  }
+}
 @media screen and (min-width: 50em) {
   .grid {
     display: grid;
@@ -11012,7 +11018,7 @@ This is a generic container element for containing a 100vh fixed-position elemen
   padding-top: 1em;
   position: relative;
   text-align: center;
-  margin-bottom: var(--section-title-space, 6rem);
+  margin-bottom: var(--section-title-space, 3rem);
   max-width: 30ch;
   margin-left: auto;
   margin-right: auto;
@@ -12142,13 +12148,18 @@ h1.display-1, .display-1.h1 {
 }
 .section.masthead--interiorPage .section-intro {
   color: #63666A;
-  font-size: 2.25rem;
+  font-size: calc(1.35rem + 1.2vw);
   --regularContent-lineHeight: 1.3;
   background-image: url("/assets/images/spark.gif");
   background-repeat: no-repeat;
   background-position: bottom center;
   padding-bottom: 7rem;
   background-size: 7rem;
+}
+@media (min-width: 1200px) {
+  .section.masthead--interiorPage .section-intro {
+    font-size: 2.25rem;
+  }
 }
 
 /*
@@ -14840,10 +14851,23 @@ footer a:link:hover, footer .video-modal-link:link:hover, footer a:link:focus, f
   margin-right: auto;
 }
 
+@media screen and (min-width: 50em) {
+  .position-left-md {
+    margin-left: unset;
+    margin-right: unset;
+  }
+}
+
 .center-object {
   display: block;
   width: fit-content;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 50em) {
+  .text-left-md {
+    text-align: left !important;
+  }
 }
 
 .img-size-cover {
@@ -15766,11 +15790,6 @@ a.logo:hover, .logo.video-modal-link:hover {
   background: #000;
 }
 
-@media screen and (max-width: 50em) {
-  .footer-feature-module {
-    margin-bottom: 2rem !important;
-  }
-}
 .card-button-title {
   margin: 0;
   background: #000;
