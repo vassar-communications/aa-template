@@ -51,7 +51,7 @@ function site_footer() {
 
   					<a href="https://www.vassar.edu/academics" class="me-3 my-2">Academics <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 
-  					<a href="https://www.vassar.edu/admissions" class="me-3 my-2">Admission <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+  					<a href="https://www.vassar.edu/admission" class="me-3 my-2">Admission <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 
   					<a href="https://www.vassar.edu/campuslife" class="me-3 my-2">Campus Life <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 
