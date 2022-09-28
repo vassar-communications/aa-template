@@ -187,7 +187,7 @@ $page_info = json_decode($page_info, true);
 
       <ul>
         <li>If you apply via the <?php echo central_link('common-app', 'Common Application'); ?>, under the Vassar College Member-Specific section you will be asked “Do you intend to use one of these school-specific fee waivers?” Please select “Yes, I will be using a Vassar fee waiver.”</li>
-        <li>If you apply via the <?php echo central_link('coalition-app', 'Coalition Application'); ?>, use the fee waiver code: <code>Vassar Fee Waiver</code>.</li>
+        <li>If you apply via the <?php echo central_link('coalition-app', 'Coalition Application'); ?>, use the fee waiver code: <em>Vassar Fee Waiver</em>.</li>
       </ul>
 
     <?php echo end_accordion_item(); ?>
