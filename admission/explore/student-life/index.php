@@ -182,6 +182,7 @@ $page_info = [
     $quickfacts_img_path.'THs-0144-15-05-hw-dorm-vassar-vb-3813.jpg',
     'image-is-first theme-cream',
     '',
+    ['img_alt_text' => 'Image to support the Dorm section on this website'],
     ['title_level' => '3']
 ); ?>
   <div class="animate-when-content-appears animation-slide-up burgundy-icons">
