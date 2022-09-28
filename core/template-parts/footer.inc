@@ -91,7 +91,6 @@ $modal_code
 <div class="section text-light  theme-dark-burgundy  bg-darkestburgundy py-3">
 <footer class="container footer" style="padding-bottom: 6rem !important;">
 		<div class="row flex-column flex-md-row align-items-end py-3">
-      <div class="row">
         <div class="col text-start mb-3 mb-lg-0">
   				<a class="me-3" href="https://www.facebook.com/vassarcollege/"><i class="fa-brands fa-facebook"></i></a>
   				<a class="me-3" href="https://twitter.com/vassar/"><i class="fa-brands fa-twitter"></i></a>
@@ -100,14 +99,10 @@ $modal_code
   				<a class="me-3" href="https://www.youtube.com/vassar/"><i class="fa-brands fa-youtube"></i></a>
   				<a class="me-3" href="https://www.flickr.com/photos/vassarcollegemedia/"><i class="fa-brands fa-flickr"></i></a>
   				<a class="me-3" href="https://vm.tiktok.com/ZMeYAnWtP/"><i class="fa-brands fa-tiktok"></i></a>
-  				<a href="https://www.vassar.edu/social-media">Social Media Directory <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
+  				<a href="https://www.vassar.edu/social-media">Social&nbsp;Media&nbsp;Directory <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
 			</div>
 
-		</div> <!-- row -->
-
-    <p>
-      &copy; 2022 Vassar College
-    </p>
+    <p class="fs-6 mt-3">&copy; 2022 Vassar College</p>
 
 
 </footer>
