@@ -43,7 +43,7 @@
   <?php echo end_carousel_item(); ?>
 
 
-  <?php echo carousel_item( $news_img_path . 'Pulitzer-Prizes-medal-edit1.jpeg',
+  <?php echo carousel_item( $news_img_path . 'Pulitzer-Prizes-medal-edit1.jpg',
   'is-link',
   'Both sides of the Pulitzer Prize medallion with the text "2022 Pulitzer Prizes" underneath'
 ); ?>
@@ -65,7 +65,7 @@
 
 
 
-  <?php /* echo carousel_item( $news_img_path . 'olmsted-story-lead.jpeg',
+  <?php /* echo carousel_item( $news_img_path . 'olmsted-story-lead.jpg',
   'is-link',
   'Exhibition, set in Vassar’s Art Library'
 ); ?>
@@ -104,7 +104,7 @@ function newsCarousel() {
     <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-        <img src="/admission/assets/images/news/Pulitzer-Prizes-medal-edit1.jpeg" />
+        <img src="/admission/assets/images/news/Pulitzer-Prizes-medal-edit1.jpg" />
          </div>
       <div class="figcaption p-4">
           <h3 class="h3">Ada Ferrer ’84 Wins 2022 Pulitzer Prize in History</h3>
@@ -120,7 +120,7 @@ function newsCarousel() {
       <div class="carousel-cell">
     <div class="carousel-cell-content">
       <div class="image-container">
-             <img src="/admission/assets/images/news/olmsted-story-lead.jpeg" />
+             <img src="/admission/assets/images/news/olmsted-story-lead.jpg" />
           </div>
  <div class="figcaption p-4">
            <h3 class="h3">Exhibit Highlights Newly Revealed Olmsted Role in Campus Design</h3>

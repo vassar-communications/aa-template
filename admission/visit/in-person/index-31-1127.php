@@ -90,7 +90,7 @@ $page_info = json_decode($page_info, true);
 <!-- Campus Access and Pre-Registration -->
 <?php echo sec_fullBleedImageColumn(
     'Campus Access and Pre-Registration',
-    $admission_img_path.'visit/in-person/0069-19-05-kr-spring-vassar-4221.jpeg',
+    $admission_img_path.'visit/in-person/0069-19-05-kr-spring-vassar-4221.jpg',
     'image-is-first theme-charcoal bg-dark',
     'mw-100'
 ); ?>

@@ -69,7 +69,7 @@ $page_info = [
     'Late Communism in the Eastern Bloc: Can It Tell Us Anything Today?',
     'https://player.vimeo.com/video/445515683?h=866fe27c58&app_id=122963',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/late-communism-in-the-eastern-bloc.jpeg', 'alt' => 'Late Communism in the Eastern Bloc: Can It Tell Us Anything Today?' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/late-communism-in-the-eastern-bloc.jpg', 'alt' => 'Late Communism in the Eastern Bloc: Can It Tell Us Anything Today?' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -82,7 +82,7 @@ $page_info = [
     'What Happens When You Don’t Recover from a Viral Infection?',
     'https://player.vimeo.com/video/449842635?h=be17268af3&app_id=122963',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/what-happens-when-you-dont-recover-from-a-viral-infection.jpeg', 'alt' => 'What Happens When You Don’t Recover from a Viral Infection?' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/what-happens-when-you-dont-recover-from-a-viral-infection.jpg', 'alt' => 'What Happens When You Don’t Recover from a Viral Infection?' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -107,7 +107,7 @@ $page_info = [
     'Why Punish? A Conversation on Retributive Justice',
     'https://player.vimeo.com/video/441118703?h=ebb1426ff7&app_id=122963',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/why-punish-a-conversation-on-retributive-justice.jpeg', 'alt' => 'Why Punish? A Conversation on Retributive Justice' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/why-punish-a-conversation-on-retributive-justice.jpg', 'alt' => 'Why Punish? A Conversation on Retributive Justice' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -144,7 +144,7 @@ $page_info = [
     'Decolonial Practice as Anti-Racist Labor: Reflections on Indigenous Minneapolis Through Poetry',
     'https://player.vimeo.com/video/447580446?h=65c49bb57f&app_id=122963',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/decolonial-practice-as-anti-racist-labor-reflections-on-indigenous-minneapolis-through-poetry.jpeg', 'alt' => 'Decolonial Practice as Anti-Racist Labor: Reflections on Indigenous Minneapolis Through Poetry' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/decolonial-practice-as-anti-racist-labor-reflections-on-indigenous-minneapolis-through-poetry.jpg', 'alt' => 'Decolonial Practice as Anti-Racist Labor: Reflections on Indigenous Minneapolis Through Poetry' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -156,7 +156,7 @@ $page_info = [
     'Molecular Insights into Microbial Pathogens: Understanding the Inner Molecular Workings of Bacteria and Viruses',
     'https://player.vimeo.com/video/450228303?h=281c87d3ac&app_id=122963',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/molecular-insights-into-microbial-pathogens.jpeg', 'alt' => 'Molecular Insights into Microbial Pathogens: Understanding the Inner Molecular Workings of Bacteria and Viruses' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/molecular-insights-into-microbial-pathogens.jpg', 'alt' => 'Molecular Insights into Microbial Pathogens: Understanding the Inner Molecular Workings of Bacteria and Viruses' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -167,7 +167,7 @@ $page_info = [
     'Black Judges, Police Encounters, and the Administration of Justice',
     'https://player.vimeo.com/video/441114418?h=9bd31681e9&app_id=122963',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/black-judges-police-encounters-and-the-administration-of-justice.jpeg', 'alt' => 'Black Judges, Police Encounters, and the Administration of Justice' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/black-judges-police-encounters-and-the-administration-of-justice.jpg', 'alt' => 'Black Judges, Police Encounters, and the Administration of Justice' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -178,7 +178,7 @@ $page_info = [
     'The Port of Santo Domingo: Climate Change and the Perils of Poverty Where the Caribbean Meets the Ozama',
     'https://player.vimeo.com/video/444515356?h=06e875d9fc&app_id=122963',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/the-port-of-santo-domingo.jpeg', 'alt' => 'The Port of Santo Domingo: Climate Change and the Perils of Poverty Where the Caribbean Meets the Ozama' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-port-of-santo-domingo.jpg', 'alt' => 'The Port of Santo Domingo: Climate Change and the Perils of Poverty Where the Caribbean Meets the Ozama' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -189,7 +189,7 @@ $page_info = [
     'The Most Beautiful of All Printed Books: William Morris’ Kelmscott Chaucer',
     'https://player.vimeo.com/video/444332664?h=c0bf8dfec7&app_id=122963',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/the-most-beautiful-of-all-printed-books-william-morris-kelmscott-chaucer.jpeg', 'alt' => 'The Most Beautiful of All Printed Books: William Morris’ Kelmscott Chaucer' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-most-beautiful-of-all-printed-books-william-morris-kelmscott-chaucer.jpg', 'alt' => 'The Most Beautiful of All Printed Books: William Morris’ Kelmscott Chaucer' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -200,7 +200,7 @@ $page_info = [
     'John Stuart Mill and the “Dismal Science”',
     'https://player.vimeo.com/video/444212755?h=6be113e12b&app_id=122963',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/john-stuart-mill-and-the-dismal-science.jpeg', 'alt' => 'John Stuart Mill and the “Dismal Science”' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/john-stuart-mill-and-the-dismal-science.jpg', 'alt' => 'John Stuart Mill and the “Dismal Science”' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -233,7 +233,7 @@ $page_info = [
     'What Can We Learn from a Tiny Worm? Three Short Tales of the Impact of Pesticides and Microplastics on Health',
     'https://player.vimeo.com/video/440702464?h=78fc2cae43&app_id=122963',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/what-can-we-learn-from-a-tiny-worm.jpeg', 'alt' => 'What Can We Learn from a Tiny Worm? Three Short Tales of the Impact of Pesticides and Microplastics on Health' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/what-can-we-learn-from-a-tiny-worm.jpg', 'alt' => 'What Can We Learn from a Tiny Worm? Three Short Tales of the Impact of Pesticides and Microplastics on Health' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -244,7 +244,7 @@ $page_info = [
     'Architecture Embodying Opposites: Freedom and Slavery in Southwest Nigeria (1880s–1910s)',
     'https://player.vimeo.com/video/442150603?h=1fa3c992cf&app_id=122963',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/architecture-embodying-opposites.jpeg', 'alt' => 'Architecture Embodying Opposites: Freedom and Slavery in Southwest Nigeria (1880s–1910s)' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/architecture-embodying-opposites.jpg', 'alt' => 'Architecture Embodying Opposites: Freedom and Slavery in Southwest Nigeria (1880s–1910s)' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -255,7 +255,7 @@ $page_info = [
     'The Climate Challenge: International Cooperation, China and Learning from the Field',
     'https://player.vimeo.com/video/446904283?h=bd1fa913d0&app_id=122963',
     'vimeo',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/the-climate-challenge-international-cooperation-china-and-learning-from-the-field.jpeg', 'alt' => 'The Climate Challenge: International Cooperation, China and Learning from the Field' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-climate-challenge-international-cooperation-china-and-learning-from-the-field.jpg', 'alt' => 'The Climate Challenge: International Cooperation, China and Learning from the Field' ],
     '',
     ['hlevel' => 4]
 ); ?>

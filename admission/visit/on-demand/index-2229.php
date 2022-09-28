@@ -79,7 +79,7 @@ echo item_imageCard_videoModal(
     '487429322',
     'vimeo',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/the-college-search-during-the-pandemic.jpeg',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-college-search-during-the-pandemic.jpg',
         'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -95,7 +95,7 @@ echo item_imageCard_videoModal(
     '487422599',
     'vimeo',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/a-case-for-the-liberal-arts.jpeg',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/a-case-for-the-liberal-arts.jpg',
         'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -112,7 +112,7 @@ echo item_imageCard_videoModal(
     '487430715',
     'vimeo',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/demystifying-financial-aid.jpeg',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/demystifying-financial-aid.jpg',
         'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -143,7 +143,7 @@ echo item_imageCard_videoModal(
     '487419997',
     'vimeo',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/interdisciplinary-living-and-learning.jpeg',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/interdisciplinary-living-and-learning.jpg',
         'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -158,7 +158,7 @@ echo item_imageCard_videoModal(
     '487418026',
     'vimeo',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/faculty-mentored-research.jpeg',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/faculty-mentored-research.jpg',
         'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -174,7 +174,7 @@ echo item_imageCard_videoModal(
     '486530538',
     'vimeo',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/student-organizations.jpeg',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/student-organizations.jpg',
         'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -190,7 +190,7 @@ echo item_imageCard_videoModal(
     '484138020',
     'vimeo',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/the-transitions-program.jpeg',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-transitions-program.jpg',
         'alt' => 'asdfasdf'
     ],
     'animation-item grid-item text-at-bottom text-white'
@@ -220,7 +220,7 @@ echo item_imageCard_videoModal(
     '“Is Love a Boy?” performed by the Vassar College Chamber Singers',
     'f8meSHKeTSg',
     'youtube',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/is-love-a-boy-performed-by-the-vassar-college-chamber-singers.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/is-love-a-boy-performed-by-the-vassar-college-chamber-singers.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -232,7 +232,7 @@ echo item_imageCard_videoModal(
     'Unclouded Day” performed by the Vassar College Choir and Friends',
     'D3JI_GKSvs8',
     'youtube',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/unclouded-day-performed-by-the-vassar-college-choir-and-friends.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/unclouded-day-performed-by-the-vassar-college-choir-and-friends.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
@@ -246,7 +246,7 @@ echo item_imageCard_videoModal(
     '“No Time” performed by the Vassar College Women’s Chorus',
     'xe6lj-ZM8aY',
     'youtube',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/no-time-performed-by-the-vassar-college-womens-chorus.jpeg', 'alt' => 'replacealttxt' ],
+    ['url' => '/admission/assets/images/visit/video-thumbnails/no-time-performed-by-the-vassar-college-womens-chorus.jpg', 'alt' => 'replacealttxt' ],
     '',
     ['hlevel' => 4]
 ); ?>
