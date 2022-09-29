@@ -1,5 +1,10 @@
 .relatedtopics {
   .section-content {
-    --column-gap: 1rem;    
+    --column-gap: 1rem;
+  }
+  .card {
+    @include break(md, max) {
+      margin-bottom: 1rem;
+    }
   }
 }
