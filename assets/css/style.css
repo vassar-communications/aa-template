@@ -11544,6 +11544,12 @@ h1.display-1, .display-1.h1 {
   }
 }
 
+@media screen and (max-width: 50em) {
+  .section-with-columns .section-content > * {
+    margin-bottom: 1rem;
+  }
+}
+
 @keyframes wbw-image-shrink-in {
   from {
     opacity: 0;
