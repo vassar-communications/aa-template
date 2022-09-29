@@ -77,9 +77,9 @@ $template = <<<TMP
 <!-- end nav -->
             </div>
 
-            <div class="col-md-5 quick-links-col">
+            <div class="col-md-5 quick-links-col mt-5 mt-md-0 px-4 px-md-2">
                <div class="">
-                  <h6 class="tagline mb-5 knockedout" style="color: #d2b6ba;">Vassar</h6>
+                  <h6 class="tagline mb-3 knockedout" style="color: #d2b6ba;">Vassar</h6>
                   <ul class="linked-list">
                      <li><a href="https://www.vassar.edu/about">About</a></li>
                      <li><a href="https://www.vassar.edu/academics">Academics</a></li>

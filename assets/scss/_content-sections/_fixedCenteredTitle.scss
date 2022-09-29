@@ -185,6 +185,15 @@ This should be a section option
   }
 }
 
+// Right now, the fixed-position-with-title pattern and the
+// scroll-in-large-photo sections share a lot of the same code. They
+// need to be two entirely different modules. Do this afterwards.
+
+.is-ios .section:not(.masthead-video-background).content-scrolls-in .section-title-container {
+  position: relative !important;
+}
+
+
 .sec-fixedCenteredTitle {
   .section-title {
     @include break(md, max) {
