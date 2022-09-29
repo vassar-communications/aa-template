@@ -42,7 +42,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_imageThenContent(
   'Admission Results',
   null,
-  'vh-100 show-image-then-content mw-inner-2',
+  'vh-100 show-image-then-content mw-inner-2 content-scrolls-in',
   'content-classes gap-3',
   [
     'bg-image-url' => '/admission/assets/images/quick-facts/Move-In-Day_-cheer-1808-KR_1780.jpg'
@@ -95,7 +95,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_imageThenContent(
   'Racial/Ethnic Diversity',
   '<p>Categories do not add up to 100% because totals reflect all categories selected by an applicant.</p>',
-  'show-image-then-content mw-inner-2',
+  'show-image-then-content mw-inner-2 content-scrolls-in',
   'content-classes gap-3',
   [
     'bg-image-url' => '/admission/assets/images/quick-facts/Vassar-Class-2108-BL-4581-edit1-crop.jpg'

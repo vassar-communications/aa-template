@@ -12302,6 +12302,10 @@ This should be a section option
   position: absolute !important;
 }
 
+.is-ios .section:not(.masthead-video-background).content-scrolls-in .section-title-container {
+  position: relative !important;
+}
+
 @media screen and (max-width: 50em) {
   .sec-fixedCenteredTitle .section-title {
     padding: 4vw;
