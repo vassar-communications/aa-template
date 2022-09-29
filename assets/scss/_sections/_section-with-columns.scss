@@ -56,3 +56,11 @@
     }
   }
 }
+
+
+
+.section-with-columns .section-content > * {
+  @include break(md, max) {
+    margin-bottom: 1rem;
+  }
+}
