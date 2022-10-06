@@ -165,10 +165,10 @@ $page_info = json_decode($page_info, true);
 <p>For detailed information regarding financial aid application requirements and deadlines, please select the appropriate checklist below.</p>
 
 <ul class="linked-list">
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/prospective-us-2223.pdf">U.S. Citizen or Permanent Resident (PDF)</a></li>
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/prospective-canadian-2223.pdf">Canadian Citizen (PDF)</a></li>
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/prospective-intl-us-2223.pdf">International Student (inside US) (PDF)</a></li>
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2021/09/prospective-intl-2223.pdf">International Student (outside US) (PDF)</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2022/10/Prospective_US_2324.pdf">U.S. Citizen or Permanent Resident (PDF)</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2022/10/Prospective_Canadian_2223.pdf">Canadian Citizen (PDF)</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2022/10/Prospective_IntlUS_2324.pdf">International Student (inside US) (PDF)</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2022/10/Prospective_Intl_2324.pdf">International Student (outside US) (PDF)</a></li>
 </ul>
 
 
