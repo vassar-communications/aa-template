@@ -36,14 +36,15 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-  'David Ambroz ’02',
-  $alumni_news_images_path.'/2022-10-12/in-the-media/david_ambroz.jpg',
+  'Victor Ray ’07',
+  $alumni_news_images_path.'/2022-09-16/in-the-media/Victor_Ray_cr_Jill_Tobin_University_of_Iowa.jpg',
   'theme-extralightgray',
   '',
-  ['img_alt_text' => 'A headshot of David Ambroz']
+  ['img_alt_text' => 'A headshot of Victor Ray ’07, a man with a shaved head, wearing a blue suit and looking at the camera.']
 ); ?>
 
-<p>David Ambroz ’02 spoke to <a href="https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood">NPR</a> about surviving on the streets of New York City as a homeless child and about his new memoir, <em>A Place Called Home</em>.</p>
+<p>Victor Ray ’07, author of <em>On Critical Race Theory: Why It Matters & Why You Should Care</em>, co-wrote a <em><a href="https://www.nytimes.com/2022/09/01/opinion/us-school-citizenship.html">New York Times</a></em> guest essay, “School Is for Making Citizens.”</p>
+  <p><em>Photo: Jill Tobin, University of Iowa</em></p>
 <?php echo cta_link(
   'https://www.nytimes.com/2022/09/01/opinion/us-school-citizenship.html',
   'Read more'
@@ -95,7 +96,6 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_hasColumns(); ?>
 
-
 <?php echo sec_hasColumns(
   null,
   '2',
@@ -119,8 +119,9 @@ $page_info = json_decode($page_info, true);
     </div>
 
     <div class="other-news-item plain-card-1">
-        <p><strong>Mariya Abdulkaf ’15</strong> was named Supervising Audience Editor of the <em>New York Times</em> Video Department, as noted by the <a href="https://www.nytco.com/press/mariya-abdulkaf-joins-the-video-department/">NYT</a>.</p>
+        <p>Author and leader of the School Garden Support Organization <strong>Whitney Cohen ’99</strong> of Life Lab will be the keynote speaker at a conference on school and youth gardening, as noted in a <a href="https://www.dispatch.com/story/lifestyle/home-garden/2022/10/08/school-garden-conference-to-take-place-oct-28-on-osu-campus/69539851007/"><em>Columbus Dispatch</em> article</a>.</p>
     </div>
+
 
   <!-- <div class="other-news-item plain-card-1">
     <p><strong>Shoshanah Bewlay ’92</strong>, the Executive Director of the New York State Committee on Open Government, talked about her work and the work of her organization on PBS’s <em><a href="https://www.pbs.org/video/shoshanah-bewlay-extended-interview-adjh5c/">Connect NY</a></em>.</p>
@@ -138,12 +139,9 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-    <div class="other-news-item plain-card-1">
-        <p>Author and leader of the School Garden Support Organization <strong>Whitney Cohen ’99</strong> of Life Lab will be the keynote speaker at a conference on school and youth gardening, as noted in a <a href="https://www.dispatch.com/story/lifestyle/home-garden/2022/10/08/school-garden-conference-to-take-place-oct-28-on-osu-campus/69539851007/"><em>Columbus Dispatch</em></a> article.</p>
-    </div>
 
     <div class="other-news-item plain-card-1">
-        <p><strong>Frederick Deknatel ’08</strong>, Executive Editorof<em> Democracy in Exile</em>, wrote a chapter on reconstruction in Syria in the recently published <em>Cultural Heritage and Mass Atrocities</em>, as noted by <a href="https://www.getty.edu/publications/cultural-heritage-mass-atrocities/part-2/12-deknatel/">Getty</a>.</p>
+        <p><strong>Frederick Deknatel ’08</strong>, Executive Editor of <em> Democracy in Exile</em>, wrote a chapter on reconstruction in Syria in the recently published <em>Cultural Heritage and Mass Atrocities</em>, as noted by <a href="https://www.getty.edu/publications/cultural-heritage-mass-atrocities/part-2/12-deknatel/">Getty</a>.</p>
     </div>
 
     <div class="other-news-item plain-card-1">
