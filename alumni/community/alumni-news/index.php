@@ -118,9 +118,11 @@ $page_info = json_decode($page_info, true);
         <p>Attorney <strong>Carrie Goldberg ’99</strong> was quoted in an <a href="https://www.npr.org/2022/10/09/1127686507/amazon-suicide-teenagers-poison">NPR</a> story about a lawsuit against Amazon for allegedly selling suicide kits to teenagers.</p>
     </div>
 
+<?php /*
     <div class="other-news-item plain-card-1">
         <p><strong>Mariya Abdulkaf ’15</strong> was named Supervising Audience Editor of the <em>New York Times</em> Video Department, as noted by the <a href="https://www.nytco.com/press/mariya-abdulkaf-joins-the-video-department/">NYT</a>.</p>
     </div>
+*/ ?>
 
   <!-- <div class="other-news-item plain-card-1">
     <p><strong>Shoshanah Bewlay ’92</strong>, the Executive Director of the New York State Committee on Open Government, talked about her work and the work of her organization on PBS’s <em><a href="https://www.pbs.org/video/shoshanah-bewlay-extended-interview-adjh5c/">Connect NY</a></em>.</p>
@@ -143,12 +145,14 @@ $page_info = json_decode($page_info, true);
     </div>
 
     <div class="other-news-item plain-card-1">
-        <p><strong>Frederick Deknatel ’08</strong>, Executive Editorof<em> Democracy in Exile</em>, wrote a chapter on reconstruction in Syria in the recently published <em>Cultural Heritage and Mass Atrocities</em>, as noted by <a href="https://www.getty.edu/publications/cultural-heritage-mass-atrocities/part-2/12-deknatel/">Getty</a>.</p>
+        <p><strong>Frederick Deknatel ’08</strong>, Executive Editor of<em> Democracy in Exile</em>, wrote a chapter on reconstruction in Syria in the recently published <em>Cultural Heritage and Mass Atrocities</em>, as noted by <a href="https://www.getty.edu/publications/cultural-heritage-mass-atrocities/part-2/12-deknatel/">Getty</a>.</p>
     </div>
 
+<?php /*
     <div class="other-news-item plain-card-1">
         <p><strong>Whitney W. Donhauser ’89</strong>, former Director and President of the Museum of the City of New York, was named Deputy Director and Chief Advancement Officer at the Metropolitan Museum of Art, as noted by <a href="https://thecitylife.org/2022/10/05/the-metropolitan-museum-of-art-appoints-whitney-w-donhauser-as-deputy-director-and-chief-advancement-officer/">TheCityLife.org</a>.</p>
     </div>
+*/ ?>
 
     <div class="other-news-item plain-card-1">
         <p>The work of photographer <strong>Caleb Stein ’17</strong> was the subject of an <a href="https://www.argonautnews.com/arts_and_events/take-me-to-the-river/article_29cd5c3c-3f6f-11ed-93b0-83989b23b8d1.html"><em>Argonaut</em></a> story.</p>
