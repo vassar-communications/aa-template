@@ -43,9 +43,9 @@ $page_info = json_decode($page_info, true);
   ['img_alt_text' => 'A headshot of David Ambroz']
 ); ?>
 
-<p>David Ambroz ’02 spoke to <a href="https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood">NPR</a> about surviving on the streets of New York City as a homeless child and about his new memoir, <em>A Place Called Home</em>.</p>
+<p><a href="https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood">David Ambroz ’02 spoke to NPR</a> about surviving on the streets of New York City as a homeless child and about his new memoir, <em>A Place Called Home</em>.</p>
 <?php echo cta_link(
-  'https://www.nytimes.com/2022/09/01/opinion/us-school-citizenship.html',
+  'https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood',
   'Read more'
 ); ?>
 
@@ -62,12 +62,14 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'David Ambroz ’02',
-        'https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood',
+        'Carrie Goldberg ’99',
+        'https://www.npr.org/2022/10/09/1127686507/amazon-suicide-teenagers-poison',
         ['url' => $logos_path.'npr.gif', 'alt' => 'NPR logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p><strong>David Ambroz ’02</strong> spoke to NPR about surviving on the streets of New York City as a homeless child and about his new memoir, <em>A Place Called Home</em>.</p>
+
+        <p>Attorney <strong>Carrie Goldberg ’99</strong> was quoted in an NPR story about a lawsuit against Amazon for allegedly selling suicide kits to teenagers.</p>
+
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -107,15 +109,17 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
 
     <div class="other-news-item plain-card-1">
-        <p>Filmmaker <strong>Noah Baumbach ’91</strong> talked about his latest film, an adaptation of Don DeLillo’s <em>White Noise</em>, as noted in <a href="https://www.yahoo.com/entertainment/noah-baumbach-ambitious-white-noise-130007170.html">Yahoo! Entertainment</a>.</p>
+        <p><a href="https://www.yahoo.com/entertainment/noah-baumbach-ambitious-white-noise-130007170.html">Filmmaker <strong>Noah Baumbach ’91</strong> talked about his latest film</a>, an adaptation of Don DeLillo’s <em>White Noise</em>, as noted in Yahoo! Entertainment.</p>
     </div>
 
     <div class="other-news-item plain-card-1">
-        <p>The <a href="https://loyolamaroon.com/10035929/briefs/loyola-grapples-with-unexpected-passing-of-college-of-business-professor/"><em>Maroon</em></a> remembered accomplished professor <strong>Iris Mack ’78</strong>, who was the first Black woman to teach applied mathematics at the MIT Sloan School of Management.</p>
+        <p><a href="https://loyolamaroon.com/10035929/briefs/loyola-grapples-with-unexpected-passing-of-college-of-business-professor/">The  <em>Maroon</em> remembered accomplished professor <strong>Iris Mack ’78</strong></a>, who was the first Black woman to teach applied mathematics at the MIT Sloan School of Management.</p>
     </div>
 
     <div class="other-news-item plain-card-1">
-        <p>Attorney <strong>Carrie Goldberg ’99</strong> was quoted in an <a href="https://www.npr.org/2022/10/09/1127686507/amazon-suicide-teenagers-poison">NPR</a> story about a lawsuit against Amazon for allegedly selling suicide kits to teenagers.</p>
+<p><a href="https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood"><strong>David Ambroz ’02</strong> spoke to NPR</a> about surviving on the streets of New York City as a homeless child and about his new memoir, <em>A Place Called Home</em>.</p>
+
+
     </div>
 
 <?php /*
@@ -141,11 +145,11 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
 
     <div class="other-news-item plain-card-1">
-        <p>Author and leader of the School Garden Support Organization <strong>Whitney Cohen ’99</strong> of Life Lab will be the keynote speaker at a conference on school and youth gardening, as noted in a <a href="https://www.dispatch.com/story/lifestyle/home-garden/2022/10/08/school-garden-conference-to-take-place-oct-28-on-osu-campus/69539851007/"><em>Columbus Dispatch</em></a> article.</p>
+        <p>Author and leader of the School Garden Support Organization <a href="https://www.dispatch.com/story/lifestyle/home-garden/2022/10/08/school-garden-conference-to-take-place-oct-28-on-osu-campus/69539851007/"><strong>Whitney Cohen ’99</strong> of Life Lab will be the keynote speaker</a> at a conference on school and youth gardening, as noted in a <em>Columbus Dispatch</em> article.</p>
     </div>
 
     <div class="other-news-item plain-card-1">
-        <p><strong>Frederick Deknatel ’08</strong>, Executive Editor of<em> Democracy in Exile</em>, wrote a chapter on reconstruction in Syria in the recently published <em>Cultural Heritage and Mass Atrocities</em>, as noted by <a href="https://www.getty.edu/publications/cultural-heritage-mass-atrocities/part-2/12-deknatel/">Getty</a>.</p>
+        <p><a href="https://www.getty.edu/publications/cultural-heritage-mass-atrocities/part-2/12-deknatel/"><strong>Frederick Deknatel ’08</strong>, Executive Editor of<em> Democracy in Exile</em>, wrote a chapter on reconstruction in Syria</a> in the recently published <em>Cultural Heritage and Mass Atrocities</em>, as noted by Getty.</p>
     </div>
 
 <?php /*
@@ -155,7 +159,7 @@ $page_info = json_decode($page_info, true);
 */ ?>
 
     <div class="other-news-item plain-card-1">
-        <p>The work of photographer <strong>Caleb Stein ’17</strong> was the subject of an <a href="https://www.argonautnews.com/arts_and_events/take-me-to-the-river/article_29cd5c3c-3f6f-11ed-93b0-83989b23b8d1.html"><em>Argonaut</em></a> story.</p>
+        <p><a href="https://www.argonautnews.com/arts_and_events/take-me-to-the-river/article_29cd5c3c-3f6f-11ed-93b0-83989b23b8d1.html">The work of photographer <strong>Caleb Stein ’17</strong></a> was the subject of an <em>Argonaut</em> story.</p>
     </div>
 
     <!-- <div class="other-news-item plain-card-1">
