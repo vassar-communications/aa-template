@@ -3,7 +3,7 @@ $media_carousel_path = '/alumni/assets/img/alumni-home/news-and-spotlight/';
 echo carousel( '', 'alums-media-carousel' ); ?>
 
 <?php echo carousel_item(
-    $media_carousel_path.'david_ambroz_02.jpg',
+    $media_carousel_path.'/2022-10-12/in-the-media/david_ambroz_02.jpg',
     'is-link',
     'A headshot of David Ambroz looking at the camera.'
   ); ?>

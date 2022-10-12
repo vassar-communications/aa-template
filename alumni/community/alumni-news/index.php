@@ -36,15 +36,14 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-  'Victor Ray ’07',
-  $alumni_news_images_path.'/2022-09-16/in-the-media/Victor_Ray_cr_Jill_Tobin_University_of_Iowa.jpg',
+  'David Ambroz ’02',
+  $alumni_news_images_path.'/2022-10-12/in-the-media/david_ambroz.jpg',
   'theme-extralightgray',
   '',
-  ['img_alt_text' => 'A headshot of Victor Ray ’07, a man with a shaved head, wearing a blue suit and looking at the camera.']
+  ['img_alt_text' => 'A headshot of David Ambroz']
 ); ?>
 
-<p>Victor Ray ’07, author of <em>On Critical Race Theory: Why It Matters & Why You Should Care</em>, co-wrote a <em><a href="https://www.nytimes.com/2022/09/01/opinion/us-school-citizenship.html">New York Times</a></em> guest essay, “School Is for Making Citizens.”</p>
-  <p><em>Photo: Jill Tobin, University of Iowa</em></p>
+<p>David Ambroz ’02 spoke to <a href="https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood">NPR</a> about surviving on the streets of New York City as a homeless child and about his new memoir, <em>A Place Called Home</em>.</p>
 <?php echo cta_link(
   'https://www.nytimes.com/2022/09/01/opinion/us-school-citizenship.html',
   'Read more'
@@ -105,10 +104,6 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <?php echo item_col(); ?>
-
-  <div class="other-news-item plain-card-1">
-        <p><strong>David Ambroz ’02</strong> spoke to <a href="https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood">NPR</a> about surviving on the streets of New York City as a homeless child and about his new memoir, <em>A Place Called Home</em>.</p>
-    </div>
 
     <div class="other-news-item plain-card-1">
         <p>Filmmaker <strong>Noah Baumbach ’91</strong> talked about his latest film, an adaptation of Don DeLillo’s <em>White Noise</em>, as noted in <a href="https://www.yahoo.com/entertainment/noah-baumbach-ambitious-white-noise-130007170.html">Yahoo! Entertainment</a>.</p>

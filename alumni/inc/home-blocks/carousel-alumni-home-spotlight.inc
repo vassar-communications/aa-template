@@ -15,7 +15,7 @@
 
 
 <?php echo carousel_item(
-  $alums_spotlight_itm_path.'vassar_feigen_20220929_kr_0074-compressed.jpg',
+  $alums_spotlight_itm_path.'/2022-10-12/spotlight/vassar_feigen_20220929_kr_0074-compressed.jpg',
   'is-link',
   'Photo of Amy Pullman ’71 (left) and Monica Vachher ’77 (right), and Brenda Feigen holding an award (center) and smiling with the others.'
 ); ?>
