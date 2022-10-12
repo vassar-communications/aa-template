@@ -14,6 +14,25 @@
 ?>
 
 
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'vassar_feigen_20220929_kr_0074-compressed.jpg',
+  'is-link',
+  'Photo of Amy Pullman ’71 (left) and Monica Vachher ’77 (right), and Brenda Feigen holding an award (center) and smiling with the others.'
+); ?>
+  <h3 class="h3">Feminist Legend Brenda Feigen ’66 Receives Spirit of Vassar Award</h3>
+  <p>Before accepting the award from Amy Pullman ’71 (left) and Monica Vachher ’77 (right), Feigen (center) spoke at the College and told students to embrace activism.</p>
+
+  <p><em>Photo: Karl Rabe</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/feminist-legend-brenda-feigen-66-accepts-spirit-vassar-award-tells-students-embrace-activism',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
 
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2022-09-16/spotlight/ifill_alum_spotlight_220915.jpg',
@@ -78,33 +97,6 @@
 
 
 
-
-
-
-
-
-
-
-
-  <?php echo carousel_item(
-    $alums_spotlight_itm_path.'/2022-07-27/trustees-collage-16x12-edit2.jpg',
-    'is-link',
-    'photo collage of retiring AAVC trustees'
-  ); ?>
-    <h3 class="h3">Vassar Salutes Retiring Trustees</h3>
-    <p>Five members of the Board of Trustees retired this summer (clockwise from top left): Steve Hankins ’85, P’13,’17, Geraldine Bond Laybourne ’69, P’93, Philip Jefferson ’83, Maryellen Herringer ’65, and Missie Rennie Taylor ’68. Learn about them and the new trustees—as well as the new AAVC board members.
-</p>
-
-    <?php echo cta_link(
-      'https://www.vassar.edu/news/vassar-salutes-retiring-board-members',
-      'Read more',
-      'stretched-link'
-    ); ?>
-
-  <?php echo end_carousel_item(); ?>
-
-
-
   <?php /* echo carousel_item(
     $alums_spotlight_itm_path.'/2022-07-18/roe-v-wade-protest-16x12.jpg',
     'is-link',
@@ -137,27 +129,6 @@
       ); ?>
 
     <?php echo end_carousel_item(); ?>
-
-
-
-
-    <?php echo carousel_item(
-      'https://www.vassar.edu/sites/default/files/2022-06/AAVC_awards_16x12.jpg',
-      'is-link',
-      'Photo collage of Five Alumni'
-    ); ?>
-    <h3 class="h3">Five Alumni Selected for 2022 AAVC Awards</h3>
-    <p>Meet the alums whom the Alumnae/i Association of Vassar College has chosen to honor this year for their work at Vassar and beyond (clockwise from top left): Arushi Raina ’14, Jonathan Granoff ’70, Brenda Feigen ’66, Edward Pittman ’82, and Deborah Macfarlan Enright ’82.</p>
-
-    <?php echo cta_link(
-      'https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards',
-      'Read more',
-      'stretched-link'
-    ); ?>
-
-    <?php echo end_carousel_item(); ?>
-
-
 
 
 

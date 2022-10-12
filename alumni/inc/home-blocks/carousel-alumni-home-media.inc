@@ -2,6 +2,22 @@
 $media_carousel_path = '/alumni/assets/img/alumni-home/news-and-spotlight/';
 echo carousel( '', 'alums-media-carousel' ); ?>
 
+<?php echo carousel_item(
+    $media_carousel_path.'david_ambroz_02.jpg',
+    'is-link',
+    'A headshot of David Ambroz looking at the camera.'
+  ); ?>
+  <small class="mb-3 d-block">September 16, 2022</small>
+  <p><strong>David Ambroz ’02</strong> spoke to NPR about surviving on the streets of New York City as a homeless child and about his new memoir, <em>A Place Called Home</em>.</p>
+  <?php echo cta_link(
+  'https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood',
+  'Read more',
+  'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
 
 <?php echo carousel_item(
     $media_carousel_path.'/2022-09-16/in-the-media/Victor_Ray_cr_Jill_Tobin_University_of_Iowa.jpg',
@@ -52,23 +68,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
       <?php echo cta_link(
         'https://msmagazine.com/2022/08/16/urvashi-vaid/',
-        'Read more',
-        'stretched-link'
-      ); ?>
-
-  <?php echo end_carousel_item(); ?>
-
-  <?php echo carousel_item(
-    $media_carousel_path.'/2022-09-08/in-the-media/dan_bucatinsky_by_don_roos.jpg',
-    'is-link',
-    'A portrait of a person with short, dark-brown hair, wearing glasses and a dark gray sweater and smiling at the camera'
-  ); ?>
-
-      <small class="mb-3 d-block">July 8, 2022</small>
-      <p>Actor and producer <strong>Dan Bucatinsky ’87</strong> talked with <em>TV Insider</em> about his work on multiple shows, including <em>Who Do You Think You Are?</em> Photo: <em>Don Roos</em></p>
-
-      <?php echo cta_link(
-        'https://www.tvinsider.com/1051353/dan-bucatinsky-who-do-you-think-you-are-return-preview/',
         'Read more',
         'stretched-link'
       ); ?>
