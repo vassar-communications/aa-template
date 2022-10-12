@@ -117,10 +117,9 @@ $page_info = json_decode($page_info, true);
     </div>
 
     <div class="other-news-item plain-card-1">
-<p><a href="https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood"><strong>David Ambroz ’02</strong> spoke to NPR</a> about surviving on the streets of New York City as a homeless child and about his new memoir, <em>A Place Called Home</em>.</p>
-
-
+        <p>Author and leader of the School Garden Support Organization <a href="https://www.dispatch.com/story/lifestyle/home-garden/2022/10/08/school-garden-conference-to-take-place-oct-28-on-osu-campus/69539851007/"><strong>Whitney Cohen ’99</strong> of Life Lab will be the keynote speaker</a> at a conference on school and youth gardening, as noted in a <em>Columbus Dispatch</em> article.</p>
     </div>
+
 
 <?php /*
     <div class="other-news-item plain-card-1">
@@ -143,10 +142,6 @@ $page_info = json_decode($page_info, true);
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
-
-    <div class="other-news-item plain-card-1">
-        <p>Author and leader of the School Garden Support Organization <a href="https://www.dispatch.com/story/lifestyle/home-garden/2022/10/08/school-garden-conference-to-take-place-oct-28-on-osu-campus/69539851007/"><strong>Whitney Cohen ’99</strong> of Life Lab will be the keynote speaker</a> at a conference on school and youth gardening, as noted in a <em>Columbus Dispatch</em> article.</p>
-    </div>
 
     <div class="other-news-item plain-card-1">
         <p><a href="https://www.getty.edu/publications/cultural-heritage-mass-atrocities/part-2/12-deknatel/"><strong>Frederick Deknatel ’08</strong>, Executive Editor of<em> Democracy in Exile</em>, wrote a chapter on reconstruction in Syria</a> in the recently published <em>Cultural Heritage and Mass Atrocities</em>, as noted by Getty.</p>
