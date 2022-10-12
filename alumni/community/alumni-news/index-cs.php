@@ -36,16 +36,17 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-  'David Ambroz ’02',
-  $alumni_news_images_path.'/2022-10-12/in-the-media/david_ambroz.jpg',
+  'Victor Ray ’07',
+  $alumni_news_images_path.'/2022-09-16/in-the-media/Victor_Ray_cr_Jill_Tobin_University_of_Iowa.jpg',
   'theme-extralightgray',
   '',
-  ['img_alt_text' => 'A headshot of David Ambroz']
+  ['img_alt_text' => 'A headshot of Victor Ray ’07, a man with a shaved head, wearing a blue suit and looking at the camera.']
 ); ?>
 
-<p><a href="https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood">David Ambroz ’02 spoke to NPR</a> about surviving on the streets of New York City as a homeless child and about his new memoir, <em>A Place Called Home</em>.</p>
+<p>Victor Ray ’07, author of <em>On Critical Race Theory: Why It Matters & Why You Should Care</em>, co-wrote a <em><a href="https://www.nytimes.com/2022/09/01/opinion/us-school-citizenship.html">New York Times</a></em> guest essay, “School Is for Making Citizens.”</p>
+  <p><em>Photo: Jill Tobin, University of Iowa</em></p>
 <?php echo cta_link(
-  'https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood',
+  'https://www.nytimes.com/2022/09/01/opinion/us-school-citizenship.html',
   'Read more'
 ); ?>
 
@@ -62,14 +63,12 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Carrie Goldberg ’99',
-        'https://www.npr.org/2022/10/09/1127686507/amazon-suicide-teenagers-poison',
+        'David Ambroz ’02',
+        'https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood',
         ['url' => $logos_path.'npr.gif', 'alt' => 'NPR logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-
-        <p>Attorney <strong>Carrie Goldberg ’99</strong> was quoted in an NPR story about a lawsuit against Amazon for allegedly selling suicide kits to teenagers.</p>
-
+      <p><strong>David Ambroz ’02</strong> spoke to NPR about surviving on the streets of New York City as a homeless child and about his new memoir, <em>A Place Called Home</em>.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -97,7 +96,6 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_hasColumns(); ?>
 
-
 <?php echo sec_hasColumns(
   null,
   '2',
@@ -109,24 +107,21 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
 
     <div class="other-news-item plain-card-1">
-        <p><a href="https://www.yahoo.com/entertainment/noah-baumbach-ambitious-white-noise-130007170.html">Filmmaker <strong>Noah Baumbach ’91</strong> talked about his latest film</a>, an adaptation of Don DeLillo’s <em>White Noise</em>, as noted in Yahoo! Entertainment.</p>
+        <p>Filmmaker <strong>Noah Baumbach ’91</strong> talked about his latest film, an adaptation of Don DeLillo’s <em>White Noise</em>, as noted in <a href="https://www.yahoo.com/entertainment/noah-baumbach-ambitious-white-noise-130007170.html">Yahoo! Entertainment</a>.</p>
     </div>
 
     <div class="other-news-item plain-card-1">
-        <p><a href="https://loyolamaroon.com/10035929/briefs/loyola-grapples-with-unexpected-passing-of-college-of-business-professor/">The  <em>Maroon</em> remembered accomplished professor <strong>Iris Mack ’78</strong></a>, who was the first Black woman to teach applied mathematics at the MIT Sloan School of Management.</p>
+        <p>The <a href="https://loyolamaroon.com/10035929/briefs/loyola-grapples-with-unexpected-passing-of-college-of-business-professor/"><em>Maroon</em></a> remembered accomplished professor <strong>Iris Mack ’78</strong>, who was the first Black woman to teach applied mathematics at the MIT Sloan School of Management.</p>
     </div>
 
     <div class="other-news-item plain-card-1">
-<p><a href="https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood"><strong>David Ambroz ’02</strong> spoke to NPR</a> about surviving on the streets of New York City as a homeless child and about his new memoir, <em>A Place Called Home</em>.</p>
-
-
+        <p>Attorney <strong>Carrie Goldberg ’99</strong> was quoted in an <a href="https://www.npr.org/2022/10/09/1127686507/amazon-suicide-teenagers-poison">NPR</a> story about a lawsuit against Amazon for allegedly selling suicide kits to teenagers.</p>
     </div>
 
-<?php /*
     <div class="other-news-item plain-card-1">
-        <p><strong>Mariya Abdulkaf ’15</strong> was named Supervising Audience Editor of the <em>New York Times</em> Video Department, as noted by the <a href="https://www.nytco.com/press/mariya-abdulkaf-joins-the-video-department/">NYT</a>.</p>
+        <p>Author and leader of the School Garden Support Organization <strong>Whitney Cohen ’99</strong> of Life Lab will be the keynote speaker at a conference on school and youth gardening, as noted in a <a href="https://www.dispatch.com/story/lifestyle/home-garden/2022/10/08/school-garden-conference-to-take-place-oct-28-on-osu-campus/69539851007/"><em>Columbus Dispatch</em> article</a>.</p>
     </div>
-*/ ?>
+
 
   <!-- <div class="other-news-item plain-card-1">
     <p><strong>Shoshanah Bewlay ’92</strong>, the Executive Director of the New York State Committee on Open Government, talked about her work and the work of her organization on PBS’s <em><a href="https://www.pbs.org/video/shoshanah-bewlay-extended-interview-adjh5c/">Connect NY</a></em>.</p>
@@ -144,22 +139,17 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-    <div class="other-news-item plain-card-1">
-        <p>Author and leader of the School Garden Support Organization <a href="https://www.dispatch.com/story/lifestyle/home-garden/2022/10/08/school-garden-conference-to-take-place-oct-28-on-osu-campus/69539851007/"><strong>Whitney Cohen ’99</strong> of Life Lab will be the keynote speaker</a> at a conference on school and youth gardening, as noted in a <em>Columbus Dispatch</em> article.</p>
-    </div>
 
     <div class="other-news-item plain-card-1">
-        <p><a href="https://www.getty.edu/publications/cultural-heritage-mass-atrocities/part-2/12-deknatel/"><strong>Frederick Deknatel ’08</strong>, Executive Editor of<em> Democracy in Exile</em>, wrote a chapter on reconstruction in Syria</a> in the recently published <em>Cultural Heritage and Mass Atrocities</em>, as noted by Getty.</p>
+        <p><strong>Frederick Deknatel ’08</strong>, Executive Editor of <em> Democracy in Exile</em>, wrote a chapter on reconstruction in Syria in the recently published <em>Cultural Heritage and Mass Atrocities</em>, as noted by <a href="https://www.getty.edu/publications/cultural-heritage-mass-atrocities/part-2/12-deknatel/">Getty</a>.</p>
     </div>
 
-<?php /*
     <div class="other-news-item plain-card-1">
         <p><strong>Whitney W. Donhauser ’89</strong>, former Director and President of the Museum of the City of New York, was named Deputy Director and Chief Advancement Officer at the Metropolitan Museum of Art, as noted by <a href="https://thecitylife.org/2022/10/05/the-metropolitan-museum-of-art-appoints-whitney-w-donhauser-as-deputy-director-and-chief-advancement-officer/">TheCityLife.org</a>.</p>
     </div>
-*/ ?>
 
     <div class="other-news-item plain-card-1">
-        <p><a href="https://www.argonautnews.com/arts_and_events/take-me-to-the-river/article_29cd5c3c-3f6f-11ed-93b0-83989b23b8d1.html">The work of photographer <strong>Caleb Stein ’17</strong></a> was the subject of an <em>Argonaut</em> story.</p>
+        <p>The work of photographer <strong>Caleb Stein ’17</strong> was the subject of an <a href="https://www.argonautnews.com/arts_and_events/take-me-to-the-river/article_29cd5c3c-3f6f-11ed-93b0-83989b23b8d1.html"><em>Argonaut</em></a> story.</p>
     </div>
 
     <!-- <div class="other-news-item plain-card-1">
