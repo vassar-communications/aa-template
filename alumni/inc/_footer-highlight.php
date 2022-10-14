@@ -1,3 +1,4 @@
-<!--				<div><span class="tagline mb-2">Give to Vassar</span></div> -->
-  <img src="/alumni/assets/img/alumni-home/0038-22-06-cs-reunion-vassar-002.jpg" alt="Thompson Library on Vassar Campus. This is a large, stone building with stained-glass windows."/>
-    <a href="https://go.vassar.edu/give" class="donate-btn px-0 mt-4 btn btn-link arrow">Make a Gift</a>
+<a href="https://campaign.vassar.edu/" class="donate-btn footer-feature-module__link">
+  <span class="feature-image-container">
+  <img src="https://www.vassar.edu/sites/default/files/2022-10/2022-campaign-logo.gif" alt="A Vassar College logo is encircled by the text 'Fearlessly Consequential: A Campaign for Our Collective Future'"></span>
+  <span class="module-link__label btn-link arrow-no-circle">Learn more about our comprehensive campaign</span></a>

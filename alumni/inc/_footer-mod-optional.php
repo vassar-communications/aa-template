@@ -1,3 +1,18 @@
+<style>
+
+@media screen and (max-width: 50em) {
+  #block-fixedalumsmyaccountdirectory {
+    align-items: center;
+    gap: 0.6rem !important;
+    justify-content: center;
+  }
+  .button-bar {
+    margin-bottom: 3rem;
+  }
+}
+
+</style>
+
 <div class="button-bar">
   <ul id="block-fixedalumsmyaccountdirectory">
     <li>

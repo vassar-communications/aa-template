@@ -68,7 +68,7 @@ b {
     '/alumni/assets/img/alumni-give/0002-18-01-kr-scc-estrella-vassar-0048.jpg',
     null,
     null,
-    ['img_alt_text' => 'speaker in front of the audience with their hands raised and smiling']    
+    ['img_alt_text' => 'speaker in front of the audience with their hands raised and smiling']
 );
 ?>
 
@@ -99,6 +99,30 @@ b {
 
 
 <?php echo sec_fullBleedImageColumn(
+    'Fearlessly Consequential',
+    '/alumni/assets/img/alumni-give/0046-22-05-kr-bell-ringing-vassar-0004-crop-1.jpg',
+    'theme-burgundy quad-pattern has-bg section-large-title image-is-first',
+    'mw-100',
+    [
+      'css' => '--bg-image-opacity: 0.16',
+      'img_alt_text' => 'Four students stand on the roof of a building, ringing a large iron bell.'
+    ]
+); ?>
+
+<div class="animate-when-content-appears animation-slide-up">
+    <p class="intro-text mb-5">Your gift to Vassar can make a difference.</p>
+
+    <?php echo cta_link(
+      'http://campaign.vassar.edu/',
+      'Learn more about our new campaign'
+    ); ?>
+
+</div>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php /* echo sec_fullBleedImageColumn(
     'Every Gift Matters',
     '/alumni/assets/img/alumni-give/0038-22-06-cs-reunion-vassar-051.jpg',
     'theme-burgundy quad-pattern has-bg section-large-title image-is-first',
@@ -123,21 +147,10 @@ b {
     ); ?>
 
 
-<?php /*
-    <ul class="linked-list">
-      <li>
-        <a class="xlarge-link" href="/alumni/give/support-vassar">Learn about why your gift matters to Vassar.</a>
-      </li>
-      <li>
-        <a class="xlarge-link" href="https://go.vassar.edu/give">Explore funds and initiatives, and make a gift.</a>
-      </li>
-    </ul>
-*/ ?>
-
 
 </div>
 
-<?php echo end_sec_fullBleedImageColumn(); ?>
+<?php echo end_sec_fullBleedImageColumn();  */ ?>
 
 
 

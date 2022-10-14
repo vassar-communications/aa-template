@@ -63,7 +63,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <h6 class="tagline">2021 Recipient</h6>
 <h1>Meryl Streep ’71, P’08, ’13</h1>
-<p class="intro-text">The award presentation for Meryl Streep will be held in October 2022. Details are forthcoming.</p>
+<p class="intro-text">The award presentation for Meryl Streep was held on October 13, 2022. A recording of the event will be available soon.</p>
 <a href="https://www.vassar.edu/news/five-honored-2021-aavc-awards" class="btn btn-link arrow">Read more</a>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
