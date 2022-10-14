@@ -755,9 +755,9 @@ function local_info() {
     );
   }
 
-  $local_info['address_markup'] = footer_address_link( $address );
+//  $local_info['address_markup'] = footer_address_link( $address );
 
-//  $local_info['address_markup'] = footer_address_link_v2( $address );
+  $local_info['address_markup'] = footer_address_link_v2( $address );
 
   //  now for the links
 
