@@ -110,10 +110,10 @@ echo item_imageCard_videoModal(
 echo item_imageCard_videoModal(
     get_icon('play').'Demystifying Financial Aid',
     null,
-    'https://player.vimeo.com/video/487430715?badge=0',
+    'https://player.vimeo.com/video/761423179?h=20cf09ebd9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
     'vimeo',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/demystifying-financial-aid.jpg',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/demystifying-financial-aid-2022.jpg',
         'alt' => 'Demystifying Financial Aid'
     ],
     'animation-item grid-item text-at-bottom text-white'

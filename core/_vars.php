@@ -48,8 +48,9 @@ $class_stats['number_of_countries_all'] = '79';
 $class_stats['number_of_states'] = '41';
 $class_stats['percentage_male'] = '38.4%';
 $class_stats['percentage_female'] = '61.6%';
-$class_stats['students_of_color'] = '38%';
+$class_stats['students_of_color'] = '36%';
 $class_stats['languages_spoken'] = '42';
+$class_stats['students_receiving_finaid'] = '63%';
 
 // where is this being used?
 $class_stats['students_of_color_2'] = '35%';
