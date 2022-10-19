@@ -55,7 +55,12 @@ $page_info = json_decode($page_info, true);
 
   <p class="mt-5">We accept interview requests from current domestic first-year applicants. Interviews take place from October through early March and are informational rather than evaluative. Please note, not all students will be able to meet with an interviewer as we do not have the capacity to honor all requests. If you are not extended an interview, rest assured that it will not negatively impact your application to Vassar. Your interview request will only be processed once the Office of Admission confirms we have received your application.</p>
 
-  <p><strong>The Interview Request Form for Fall 2023 applicants will become available in mid-October.</strong></p>
+  <?php echo cta_link(
+    'https://apply.vassar.edu/register/alumnirequest',
+    'Request an Interview'
+  );
+  ?>
+  <p>To access the Interview Request Form, you will need to log in with the credentials used for your Applicant Status Portal.</p>
 
 <?php echo end_sec_regularContent(); ?>
 
