@@ -131,5 +131,6 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_regularContent(); ?>
 
+<?php // echo item_modal_standardVideo(); ?>
 
 <?php echo site_footeralumni(); ?>

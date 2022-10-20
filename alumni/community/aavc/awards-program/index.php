@@ -214,8 +214,6 @@ $page_info = json_decode($page_info, true);
 <?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-alumni-news.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
-<?php
-echo item_modal_standardVideo();
-?>
+<?php // echo item_modal_standardVideo(); ?>
 
 <?php echo site_footeralumni(); ?>
