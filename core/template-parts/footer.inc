@@ -331,6 +331,8 @@ function site_footer() {
 
   </div>
 
+$modal_code
+
   <a class="link-to-top" href="#top">Back to top</a>
 
 </footer>
