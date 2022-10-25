@@ -44,7 +44,11 @@
           } catch (e) { }
         }
       };
-xhttp.open("GET", "/alerts/rest.php?_format=json&t="+ Math.floor(new Date()/1000), true);
+
+var url = "/alerts/rest.php?_format=json&t="+ Math.floor(new Date()/1000);
+xhttp.open("GET", url), true);
+
+// xhttp.open("GET", "/alerts/rest.php?_format=json&t="+ Math.floor(new Date()/1000), true);
 
 //      xhttp.open("GET", "/alerts/rest?_format=json&t="+ Math.floor(new Date()/1000), true);
 
