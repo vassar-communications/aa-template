@@ -45,8 +45,15 @@
         }
       };
 
-var url = "/alerts/rest.php?_format=json&t="+ Math.floor(new Date()/1000);
-xhttp.open("GET", url), true);
+
+      var url = "/alerts/rest?_format=json&t="+ Math.floor(new Date()/1000);
+      var method = "GET";
+      xhttp.open(method, url, true);
+
+
+
+// var url = "/alerts/rest.php?_format=json&t="+ Math.floor(new Date()/1000);
+//xhttp.open("GET", url), true);
 
 // xhttp.open("GET", "/alerts/rest.php?_format=json&t="+ Math.floor(new Date()/1000), true);
 
