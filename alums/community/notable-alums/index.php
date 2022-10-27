@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Notable Alumni",
+  "page_title":"Notable Alums",
   "page_classes":"",
   "feature_image":"/assets/images/placeholder-banner.png"
 }';
@@ -36,10 +36,9 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-aavc-awards.php');?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-alumni-news.php');?>
+<?php include($project_paths['main_project_root'].'/alums/inc/pages/community/community.php');?>
+<?php include($project_paths['main_project_root'].'/alums/inc/pages/community/community-aavc-awards.php');?>
+<?php include($project_paths['main_project_root'].'/alums/inc/pages/community/community-alums-news.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
-<?php echo site_footeralumni(); ?>
-
+<?php echo site_footeralums(); ?>

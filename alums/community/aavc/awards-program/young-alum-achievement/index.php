@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Young Alumnae/i Achievement or Service Award",
   "page_classes":"",
-  "feature_image":"/alumni/assets/img/alumni-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg"
+  "feature_image":"/alums/assets/img/alums-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg"
 }';
 
 /* === */
@@ -52,7 +52,7 @@ $page_info = json_decode($page_info, true);
         'no-arrow'
     ); ?>
   </li>
-    <li><a href="https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards">Read about Raina in the Vassar news story about the 2022 AAVC Awards</a></li>
+    <li><a href="https://www.vassar.edu/news/five-alums-selected-2022-aavc-awards">Read about Raina in the Vassar news story about the 2022 AAVC Awards</a></li>
     <li><a href="https://www.vassar.edu/news/convocation-2022">Read more about Raina in the Vassar news story about Convocation 2022</a></li>
 </ul>
 
@@ -133,4 +133,4 @@ $page_info = json_decode($page_info, true);
 
 <?php // echo item_modal_standardVideo(); ?>
 
-<?php echo site_footeralumni(); ?>
+<?php echo site_footeralums(); ?>
