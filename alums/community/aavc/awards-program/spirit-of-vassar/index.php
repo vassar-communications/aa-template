@@ -158,7 +158,7 @@ $page_info = json_decode($page_info, true);
   ); ?>
     </li>
     <li><a href="https://vq.vassar.edu/issues/2015/02/beyond-vassar/spirit-of-vassar.html">Read more about Malone in the Summer 2015 <em>Vassar, the Alumnae/i Quarterly</em> article.</a></li>
-	<li><a href="https://www.vassar.edu/news/2015-spirit-vassar-award-linda-malone-75">Read more about Malone in the May 2015 <em>Vassar Alumnae/i</em> feature article.</a></li>
+	<li><a href="https://www.vassar.edu/news/2015-spirit-vassar-award-linda-malone-75">Read more about Malone in the May 2015 feature article.</a></li>
 </ul>
 
 <h3 class="mt-5">2014</h3>
@@ -168,7 +168,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
     <!-- <li><a href="/alums/aavc/awards/spirit-of-vassar/leah-johnson-wilcox">Read Wilcox’s Acceptance Remarks</a></li> -->
 	<li><a href="http://vq.vassar.edu/issues/2014/03/vassar-today/spirit-of-vassar-award.html">Read more about Wilcox in the Fall 2014 <em>Vassar, the Alumnae/i Quarterly</em> article</a></li>
-	<li><a href="https://www.vassar.edu/news/spirit-vassar-award-leah-johnson-wilcox-69">Read more about Wilcox in the July 2014 <em>Vassar Alumnae/i</em> feature article.</a></li>
+	<li><a href="https://www.vassar.edu/news/spirit-vassar-award-leah-johnson-wilcox-69">Read more about Wilcox in the July 2014 feature article.</a></li>
 </ul>
 
 <h3 class="mt-5">2012</h3>
@@ -190,10 +190,10 @@ $page_info = json_decode($page_info, true);
 <h3 class="mt-5">2011</h3>
 
 <h4>Former Living AAVC Presidents</h4>
+<p>Awarded to Frances Prindle Taft ’42, Kathleen Holman Langan ’46, Joan Andrews Watters ’50, Frances Aaron Hess ’53, Billie Davis Gaines ’58, Susan McCallum Bledsoe ’64, Joan Strashinsky Kjelleren ’71, Paula Madison ’74, and Margaret Daly Johnson ’84</p>
 
 <ul class="linked-list">
-    <li>Awarded to Frances Prindle Taft ’42, Kathleen Holman Langan ’46, Joan Andrews Watters ’50, Frances Aaron Hess ’53, Billie Davis Gaines ’58, Susan McCallum Bledsoe ’64, Joan Strashinsky Kjelleren ’71, Paula Madison ’74, and Margaret Daly Johnson ’84<br>
-    <a href="http://vq.vassar.edu/issues/2011/03/beyond-vassar/the-irrepressible-spirit-of-vassar.html">Read more about the AAVC Presidents in the Fall 2011 <em>Vassar, the Alumnae/i Quarterly</em> article.</a></li>
+    <li><a href="http://vq.vassar.edu/issues/2011/03/beyond-vassar/the-irrepressible-spirit-of-vassar.html">Read more about the AAVC Presidents in the Fall 2011 <em>Vassar, the Alumnae/i Quarterly</em> article.</a></li>
 </ul>
 
 <h3 class="mt-5">2010</h3>
