@@ -31,14 +31,14 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community.php');?>
+<?php include($project_paths['main_project_root'].'/alums/inc/pages/community/community.php');?>
 
 <?php
-include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-alumni-groups.php');
-// include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-notable-alumni.php');?>
+include($project_paths['main_project_root'].'/alums/inc/pages/community/community-alums-groups.php');
+// include($project_paths['main_project_root'].'/alums/inc/pages/community/community-notable-alums.php');?>
 
-<?php include($project_paths['main_project_root'].'/alumni/inc/pages/community/community-alumni-news.php');?>
+<?php include($project_paths['main_project_root'].'/alums/inc/pages/community/community-alums-news.php');?>
 <?php echo end_sec_relatedTopics(); ?>
 
 
-<?php echo site_footeralumni(); ?>
+<?php echo site_footeralums(); ?>
