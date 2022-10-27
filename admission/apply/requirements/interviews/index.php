@@ -34,7 +34,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Students sitting on the veranda outside of the Bridge for Laboratory Sciences building studying.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text">A conversation with one of our alumni or student interviewers is an excellent way for you to learn more about Vassar and for us to learn more about you.</p>
+    <p class="intro-text">A conversation with one of our alums or student interviewers is an excellent way for you to learn more about Vassar and for us to learn more about you.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -78,7 +78,7 @@ $page_info = json_decode($page_info, true);
     'fa-globe'
 ); ?>
 
-<p>Given the limited availability of alumni and student interviewers internationally, our office will reach out to you if we are able to extend an interview. We do not accept requests for interviews from students residing overseas.</p>
+<p>Given the limited availability of alum and student interviewers internationally, our office will reach out to you if we are able to extend an interview. We do not accept requests for interviews from students residing overseas.</p>
 
 <?php echo end_info_card(); ?>
 
