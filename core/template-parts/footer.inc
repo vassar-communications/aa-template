@@ -252,12 +252,6 @@ function site_footer() {
 
                 {$local_info['top_links_markup']}
 
-
-        <!--
-        <div class="pt-2 link-collection footer-row">
-          <a href="/alumni/community/" class="me-3 my-2">Community <i class="px-1 fa-solid fa-circle-arrow-right"></i></a> <a href="/alumni/calendar/" class="me-3 my-2">Calendar <i class="px-1 fa-solid fa-circle-arrow-right"></i></a> <a href="/alumni/contact/" class="me-3 my-2">Contact <i class="px-1 fa-solid fa-circle-arrow-right"></i></a>
-        </div>
--->
         <hr>
 
         <div class="pt-2 link_collection">
@@ -363,6 +357,6 @@ TMP;
 
 
 
-function site_footeralumni() {
+function site_footeralums() {
   return site_footer();
 }
