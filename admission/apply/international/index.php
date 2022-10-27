@@ -149,7 +149,7 @@ $page_info = json_decode($page_info, true);
 
   <p>We recommend that applicants who submit the TOEFL/IELTS also complete an interview as an additional way to demonstrate English language proficiency; students who submit Duolingo will have the interview portion of the exam reviewed as part of their application.</p>
 
-  <p>Vassar also accepts interviews from <a href="https://initialview.com/">InitialView</a> and <a href="https://www.vericant.com/">Vericant</a>. While international applicants can’t request alumni or student interviews, if we have interviewers in your area, we will reach out to you to set up an interview.</p>
+  <p>Vassar also accepts interviews from <a href="https://initialview.com/">InitialView</a> and <a href="https://www.vericant.com/">Vericant</a>. While international applicants can’t request alum or student interviews, if we have interviewers in your area, we will reach out to you to set up an interview.</p>
 
 <?php echo end_sec_regularContent(); ?>
 

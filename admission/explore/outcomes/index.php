@@ -81,7 +81,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A student with dark hair and a mustache sits at a desk in a classroom, next to a giant map of the world.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>The Career Development Office helps students and alumni envision—then realize—a meaningful life after Vassar. The CDO assists students in choosing their major, offers resume and cover letter workshops, and provides networking opportunities.</p>
+    <p>The Career Development Office helps students and alums envision—then realize—a meaningful life after Vassar. The CDO assists students in choosing their major, offers resume and cover letter workshops, and provides networking opportunities.</p>
     <?php echo cta_link(
         'https://offices.vassar.edu/careers/',
         'Visit the Career Development Office'
@@ -100,7 +100,7 @@ $page_info = json_decode($page_info, true);
     ]
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Vassar hosts Major Palooza for sophomores to explore the value and versatility of a liberal arts degree, as well as to network with Vassar’s vast and dedicated alumni. Panels and receptions are available to all.</p>
+    <p>Vassar hosts Major Palooza for sophomores to explore the value and versatility of a liberal arts degree, as well as to network with Vassar’s vast and dedicated alums. Panels and receptions are available to all.</p>
     <?php echo cta_link(
         'https://major-palooza.vassar.edu/',
         'Visit Major Palooza'
@@ -118,7 +118,7 @@ $page_info = json_decode($page_info, true);
     ]
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Vassar’s Sophomore Career Connections introduces second-year students to the extraordinary range of career options available to them. Vassar offers an extensive network of alumni and parent mentors as one of our very best career resources.</p>
+    <p>Vassar’s Sophomore Career Connections introduces second-year students to the extraordinary range of career options available to them. Vassar offers an extensive network of alum and parent mentors as one of our very best career resources.</p>
     <?php echo cta_link(
         'https://www.vassar.edu/sophomore-career-connections',
         'Visit Sophomore Career Connections'

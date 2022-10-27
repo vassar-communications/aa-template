@@ -20,7 +20,7 @@ $facts['student_faculty_ratio'] = '8:1';
 $facts['average_class_size'] = '17';
 
 $facts['number_of_majors'] = '50';
-$facts['number_of_alumni'] = '41,000';
+$facts['number_of_alums'] = '41,000';
 
 $resources['student_orgs'] = '170';
 $resources['varsity_teams'] = '27';

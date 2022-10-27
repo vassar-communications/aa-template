@@ -47,7 +47,7 @@ $template = <<<TMP
                   <a href="https://www.vassar.edu/families">Families</a>
                 </li>
                 <li class="secondary_menu-item">
-                  <a href="https://www.vassar.edu/alumni"> Alumni </a>
+                  <a href="https://www.vassar.edu/alums"> Alums </a>
                 </li>
                 <li class="secondary_menu-item">
                   <a href="https://www.vassar.edu/human-resources">Employees</a>
