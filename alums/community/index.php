@@ -97,7 +97,7 @@ $page_info = json_decode($page_info, true);
       </p>
 
       <?php echo cta_link(
-          '/alums/community/alums-news',
+          '/alums/community/alum-news',
           'Learn more'
       ); ?>
   </div>
