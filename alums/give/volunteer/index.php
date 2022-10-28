@@ -181,9 +181,9 @@ $page_info = json_decode($page_info, true);
     'bullhorn',
     'icon-on-left theme-white-border'
 ); ?>
-<p>Vassar Clubs, individual classes, and affinity groups all plan programs that feature alums and parent experts. These programs can be purely educational and/or take the form of discussion-based workshops that build skills and deepen relationships. If you are interested in volunteering to lead a discussion or skills-based workshop for Vassar community members, please contact <a href="mailto:alumniengagement@vassar.edu">alumniengagement@vassar.edu</a>.</p>
+<p>Vassar Clubs, individual classes, and affinity groups all plan programs that feature alums and parent experts. These programs can be purely educational and/or take the form of discussion-based workshops that build skills and deepen relationships. If you are interested in volunteering to lead a discussion or skills-based workshop for Vassar community members, please contact <a href="mailto:alumengagement@vassar.edu">alumengagement@vassar.edu</a>.</p>
 <ul class="linked-list">
-    <li><a href="mailto:alumniengagement@vassar.edu">Contact Us</a></li>
+    <li><a href="mailto:alumengagement@vassar.edu">Contact Us</a></li>
 </ul>
 
 
