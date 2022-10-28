@@ -76,7 +76,7 @@ $page_info = json_decode($page_info, true);
     <p>Annual gifts (even at very modest levels) can have just as much impact as major gifts when they are pooled together. For example, multiple gifts from many donors totaling $50,000 can have the same financial effect as the payout from a $1 million endowment gift in a given year.</p>
 
     <?php echo cta_link(
-        'https://securelb.imodules.com/s/1654/20/giving/form.aspx?sid=1654&gid=2&pgid=5130&cid=8405',
+        'https://www.givecampus.com/i22tit',
         'Give'
     ); ?>
 
@@ -100,7 +100,7 @@ $page_info = json_decode($page_info, true);
     <p>Alum participation is one factor used when evaluating and ranking colleges and universities. Rankings can affect reputation, reputation can affect enrollment, and enrollment can affect revenue from tuition. Additionally, think of a diploma as if it were a stock certificate. As the quality of the institution grows, so does the value of your degree!</p>
 
     <?php echo cta_link(
-        'https://securelb.imodules.com/s/1654/20/giving/form.aspx?sid=1654&gid=2&pgid=5130&cid=8405',
+        'https://www.givecampus.com/i22tit',
         'Give'
     ); ?>
 
@@ -124,7 +124,7 @@ $page_info = json_decode($page_info, true);
     <p>People want to give to a winning cause. Your participation can influence major donors, corporations, and foundations when they’re considering their own investments. They want to give to institutions that you find worthy of supporting.</p>
 
     <?php echo cta_link(
-        'https://securelb.imodules.com/s/1654/20/giving/form.aspx?sid=1654&gid=2&pgid=5130&cid=8405',
+        'https://www.givecampus.com/i22tit',
         'Give'
     ); ?>
 
@@ -146,7 +146,7 @@ $page_info = json_decode($page_info, true);
     <p>Alums giving helps Vassar establish a broad and diverse base of financial support that provides a safeguard for future uncertainties. Your help is critical in protecting Vassar and its stakeholders.</p>
 
     <?php echo cta_link(
-        'https://securelb.imodules.com/s/1654/20/giving/form.aspx?sid=1654&gid=2&pgid=5130&cid=8405',
+        'https://www.givecampus.com/i22tit',
         'Give'
     ); ?>
 
@@ -169,7 +169,7 @@ $page_info = json_decode($page_info, true);
     <p>Echoing Vassar’s commitment to philanthropy and service, your participation shows the current student body the importance of giving through programs like the <a href="https://vassar.edu/genvc">Generation Vassar Challenge</a>. Your commitment to Vassar and its future is also an important example to set for prospective students and encourages young alums to give. Ultimately, it just feels good to continue to give back to the community that helped to shape your experience as a student.</p>
 
     <?php echo cta_link(
-        'https://securelb.imodules.com/s/1654/20/giving/form.aspx?sid=1654&gid=2&pgid=5130&cid=8405',
+        'https://www.givecampus.com/i22tit',
         'Give'
     ); ?>
 
