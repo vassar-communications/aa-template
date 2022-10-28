@@ -137,7 +137,7 @@ June 6–8, 2025</p>
 
 <?php // display_feed('https://connect.vassar.edu/controls/cms_v2/components/rss/rss.aspx?sid=1654&gid=2&calcid=8471&page_id=5161'); ?>
 
-<div class="events" id="alumscalendarRSS_target">
+<div class="events" id="alumnicalendarRSS_target">
   <p class="text-center">There was a problem loading the events. Please make sure JavaScript is enabled on your browser.</p>
 </div>
 
