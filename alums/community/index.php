@@ -106,7 +106,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Alum Groups',
-    '/alums/assets/img/alums-community/alums-groups/0127_12_12_YEM_2467.jpg',
+    '/alums/assets/img/alums-community/alum-groups/0127_12_12_YEM_2467.jpg',
     'theme-cream',
     '',
     ['img_alt_text' => 'Three Alum community members talking']

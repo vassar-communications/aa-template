@@ -227,7 +227,7 @@ echo sec_fixedCenteredTitle(
 <?php include($project_paths['main_project_root'].'/alums/inc/home-blocks/carousel-alums-home-media.inc'); ?>
 
 <div class="text-center mt-5">
-    <a href="/alums/community/alums-news" class="btn btn-light btn-lg arrow mb-5" style="background: #fff;">More news</a>
+    <a href="/alums/community/alum-news" class="btn btn-light btn-lg arrow mb-5" style="background: #fff;">More news</a>
 </div>
 
 
