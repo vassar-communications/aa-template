@@ -162,7 +162,7 @@ echo sec_fixedCenteredTitle(
 
 <?php echo event_listing(); ?>
 
-<div class="events" id="alumscalendarRSS_target" data-item-limit="3">
+<div class="events" id="alumnicalendarRSS_target" data-item-limit="3">
   <p class="text-center">There was a problem loading the events. Please make sure JavaScript is enabled on your browser.</p>
 </div>
 
