@@ -482,14 +482,15 @@ echo contact_card(
 echo end_contact_card();
 
 echo contact_card(
-    'TBD',
+    'Sharon N. A. Parkinson',
     'Director for Multicultural and Affinity Engagement',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-5515',
+      'email' => 'shparkinson@vassar.edu',
     ]
 );
 echo end_contact_card();
+
 
 echo contact_card(
     'Cheryl McKeever',
@@ -855,11 +856,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Jessica Rossi',
+    'TBD',
     'Associate Director of Parent and Family Giving',
     [
-      'phone' => '845-437-5243',
-      'email' => 'jerossi@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
@@ -932,11 +933,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Sharon N. A. Parkinson',
+    'TBD',
     'Senior Associate Director of Prospect Development and Research',
     [
-      'phone' => '845-437-5515',
-      'email' => 'shparkinson@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
@@ -970,10 +971,20 @@ echo end_contact_card();
 
     echo contact_card(
         'Susan Quade',
-        'Senior Associate Director of Regional and International Programs',
+        'Senior Associate Director of Special Events and Programs',
         [
           'phone' => '845-437-5453',
           'email' => 'suquade@vassar.edu',
+        ]
+    );
+    echo end_contact_card();
+
+    echo contact_card(
+        'Jessica Rossi',
+        'Senior Associate Director of Special Events and Programs',
+        [
+          'phone' => '845-437-5243',
+          'email' => 'jerossi@vassar.edu',
         ]
     );
     echo end_contact_card();
