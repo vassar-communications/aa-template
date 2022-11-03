@@ -15,6 +15,42 @@
 
 
 <?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2022-11-03/spotlight/meryl-news-story.jpg',
+  'is-link',
+  'Meryl Streep smiling and standing on a stage with two others holding an Award'
+); ?>
+  <h3 class="h3">Meryl Streep ’71, P’08,13 Returns to Vassar to Accept AAVC Award</h3>
+  <p>The beloved performer walked into the Chapel to jubilant cheers, then accepted the AAVC Distinguished Achievement Award from classmate Amy Pullman ’71 (left) and AAVC President Monica Vachher ’77.</p>
+
+  <p><em> Photo: Karl Rabe</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/meryl-streep-accepts-aavc-distinguished-achievement-award',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2022-11-03/in-the-media/Bell-Ringing-19x9.jpg',
+  'is-link',
+  'People seated outside in an audience smiling and waving and ringing bells.'
+); ?>
+  <h3 class="h3">Vassar Launches “Fearlessly Consequential” Campaign</h3>
+  <p>About 200 alums returned to campus to help ring in the fund-raising effort. Many more tuned in online.</p>
+
+  <p><em> Photo: Karl Rabe</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/vassar-rings-in-fearlessly-consequential-fund-raising-campaign',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+<?php echo carousel_item(
   $alums_spotlight_itm_path.'/2022-10-12/spotlight/vassar_feigen_20220929_kr_0074-compressed.jpg',
   'is-link',
   'Photo of Amy Pullman ’71 (left) and Monica Vachher ’77 (right), and Brenda Feigen holding an award (center) and smiling with the others.'
@@ -73,100 +109,6 @@
   ); ?>
 
 <?php echo end_carousel_item(); ?>
-
-
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2022-09-08/spotlight/Maccabiah-Games-22-002-horizontal-crop.jpg',
-  'is-link',
-  'A young man stands with his parents in the middle of a volleyball court, smiling at the camera'
-); ?>
-  <h3 class="h3">Brewers Past and Present Represent USA at Maccabiah Games in Israel</h3>
-  <p>Former Brewers volleyball player Jake Kaplan ’22 (center), pictured with his parents, was one of three Vassar-affiliated athletes to compete.</p>
-
-  <p><em>Photo: Courtesy of the subject</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/brewers-past-and-present-represent-usa-maccabiah-games-israel',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
-
-
-  <?php /* echo carousel_item(
-    $alums_spotlight_itm_path.'/2022-07-18/roe-v-wade-protest-16x12.jpg',
-    'is-link',
-    'Pro choice protestors holding up signs outside of the Supreme Court'
-  ); ?>
-    <h3 class="h3">The Overturning of <em>Roe v. Wade</em></h3>
-    <p>Vassar professors hosted a webinar to discuss the recent U.S. Supreme Court decision, putting the loss of abortion rights in historical context and looking to the future. <em>Photo: Ian Hutchinson</em></p>
-
-    <?php echo cta_link(
-      'https://www.vassar.edu/news/overturning-roe-v-wade',
-      'Read more',
-      'stretched-link'
-    ); ?>
-  <?php echo end_carousel_item(); */ ?>
-
-
-
-  <?php echo carousel_item(
-      '/alums/assets/img/alums-home/sherika_sanjay_by_caleb_stein.jpg',
-      'is-link',
-      'Black and white photograph of two people in an embrace up to their necks in a river'
-    ); ?>
-      <h3 class="h3">Alum’s Photography Featured in the New York Times</h3>
-      <p>Photographer Caleb Stein ’17 and Amitava Kumar, Professor of English on the Helen D. Lockwood Chair, collaborated on “An Ode to the Queen City of the Hudson,” an opinion piece in the <em>New York Times</em>. Photo by Caleb Stein ’17</p>
-
-      <?php echo cta_link(
-        'https://www.nytimes.com/2022/07/03/opinion/poughkeepsie-watering-holes-hudson-valley.html?fbclid=IwAR1ZNtwsdT1FOnR2yBvUdF_2g3M2Dc29qHMAuU08Hgt2P1Jmm9SvzH3M75U',
-        'Read more',
-        'stretched-link'
-      ); ?>
-
-    <?php echo end_carousel_item(); ?>
-
-
-
-    <?php echo carousel_item(
-      'https://www.vassar.edu/sites/default/files/2022-06/alum_spotlight_reunion2022.jpg',
-      'is-link',
-      'Marching musicians in the Class of 1972 parade on Vassar Campus'
-    ); ?>
-    <h3 class="h3">Reunion 2022 Highlights!</h3>
-  <p>This year’s joyous, in-person gathering drew more than 1,500 alums, friends, and family members representing classes that spanned 60 years. Catch up on the festivities! <em>Photo: Karl Rabe</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/reunion-2022-highlights',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-    <?php echo end_carousel_item(); ?>
-
-
-
-
-    <?php /* echo carousel_item(
-      'https://www.vassar.edu/sites/default/files/2022-06/alum_spotlight_marina_bayeva.jpg',
-      'is-link',
-      'Marina Bayeva hugging a dog on a rocky outcrop on a mountainside'
-    ); ?>
-          <h3 class="h3">Marina Bayeva ’06: Helping Ukraine’s Displaced Animals</h3>
-       <p>Since the invasion of Ukraine began, Marina Bayeva ’06 has been collecting money for shelters in her native country and coordinating rescue efforts for animals there. <em>Photo: Courtesy of the subject.</em></p>
-
-       <?php echo cta_link(
-         'https://www.vassar.edu/news/marina-bayeva-06',
-         'Read more',
-         'stretched-link'
-       ); ?>
-
-    <?php echo end_carousel_item(); */ ?>
-
 
 
 <?php echo end_carousel(); ?>
