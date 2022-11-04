@@ -2,6 +2,23 @@
 $media_carousel_path = '/alums/assets/img/alums-home/news-and-spotlight/';
 echo carousel( '', 'alums-media-carousel' ); ?>
 
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2022-11-03/in-the-media/Leah_Goodridge_by_Laura_Merrill.jpeg',
+    'is-link',
+    'A headshot of Leah Goodridge'
+  ); ?>
+
+  <p>Leah Goodridge ’04, Managing Attorney for Housing Policy at Mobilization for Justice, Inc., received a Diversity Champion award from the New York City Bar Association and recently spoke on the association’s podcast, <em><a href="https://www.nycbar.org/media-listing/media/detail/professionalism-as-a-racial-construct-podcast">Building Belonging</a></em>, about professionalism as a racial construct.</p><p><em>Photo: Laura Merrill</em></p>
+  <?php echo cta_link(
+  'https://www.nycbar.org/media-listing/media/detail/professionalism-as-a-racial-construct-podcast',
+  'Read more',
+  'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
 <?php echo carousel_item(
     $media_carousel_path.'/2022-10-12/in-the-media/david_ambroz_02.jpg',
     'is-link',
@@ -16,7 +33,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   ); ?>
 
 <?php echo end_carousel_item(); ?>
-
 
 
 <?php echo carousel_item(

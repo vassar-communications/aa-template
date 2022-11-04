@@ -34,21 +34,19 @@ $page_info = json_decode($page_info, true);
 
 <?php /*  PAGE CONTENT === */ ?>
 
-
 <?php echo sec_fullBleedImageColumn(
-  'David Ambroz ’02',
-  $alums_news_images_path.'/2022-10-12/in-the-media/david_ambroz.jpg',
+  'Leah Goodridge ’04',
+  $alums_news_images_path.'/2022-11-04/in-the-media/Leah_Goodridge_by_Laura_Merrill.jpeg',
   'theme-extralightgray',
   '',
-  ['img_alt_text' => 'A headshot of David Ambroz']
+  ['img_alt_text' => 'A headshot of Leah Goodridge']
 ); ?>
 
-<p><a href="https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood">David Ambroz ’02 spoke to NPR</a> about surviving on the streets of New York City as a homeless child and about his new memoir, <em>A Place Called Home</em>.</p>
+<p>Leah Goodridge ’04, Managing Attorney for Housing Policy at Mobilization for Justice, Inc., received a Diversity Champion award from the New York City Bar Association and recently spoke on the association’s podcast, <em><a href="https://www.nycbar.org/media-listing/media/detail/professionalism-as-a-racial-construct-podcast">Building Belonging</a></em>, about professionalism as a racial construct.</p><p><em>Photo: Laura Merrill</em></p>
 <?php echo cta_link(
-  'https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood',
+  'https://www.nycbar.org/media-listing/media/detail/professionalism-as-a-racial-construct-podcast',
   'Read more'
 ); ?>
-
 
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -62,36 +60,38 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Carrie Goldberg ’99',
-        'https://www.npr.org/2022/10/09/1127686507/amazon-suicide-teenagers-poison',
-        ['url' => $logos_path.'npr.gif', 'alt' => 'NPR logo' ],
+        'Jason Blum ’91',
+        'https://www.youtube.com/watch?v=M6KWSCOFpfM&list=PLZ1f3amS4y1dgEJv1dDNtnZg1MnpjxI49&index=2',
+        ['url' => $logos_path.'james-cordon.png', 'alt' => 'Late Late Show with James Corden logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
 
-        <p>Attorney <strong>Carrie Goldberg ’99</strong> was quoted in an NPR story about a lawsuit against Amazon for allegedly selling suicide kits to teenagers.</p>
+        <p>Blumhouse CEO and Founder <stong>Jason Blum ’91</strong> talked about the latest Halloween film with Jamie Lee Curtis on the <em>Late Late Show with James Corden</em>.</p>
 
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Mariya Abdulkaf ’15',
-        'https://www.nytco.com/press/mariya-abdulkaf-joins-the-video-department/',
+        'Morgan Monaco ’06',
+        'https://www.nytimes.com/2022/10/18/nyregion/prospect-park-alliance-morgan-monaco.html',
         ['url' => $logos_path.'newyorktimes.gif', 'alt' => 'The New York Times logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p><strong>Mariya Abdulkaf ’15</strong> was named Supervising Audience Editor of the <em>New York Times</em> Video Department, as noted by the <em>NYT</em>.</p>
+      <p><strong>Morgan Monaco ’06</strong> was appointed President of the Prospect Park Alliance, as noted by the <em>New York Times.</em></p>
+      
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
+
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Whitney W. Donhauser ’89',
-        'https://thecitylife.org/2022/10/05/the-metropolitan-museum-of-art-appoints-whitney-w-donhauser-as-deputy-director-and-chief-advancement-officer/',
-        ['url' => $logos_path.'the-met.gif', 'alt' => 'The Met logo' ],
+        'Zachary Wagner ’07',
+        'https://www.bizjournals.com/washington/potmsearch/detail/submission/6521337/Zachary_Wagner',
+        ['url' => $logos_path.'washington-business-journal.png', 'alt' => 'The Met logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p><strong>Whitney W. Donhauser ’89</strong>, former Director and President of the Museum of the City of New York, was named Deputy Director and Chief Advancement Officer at the Metropolitan Museum of Art, as noted by TheCityLife.org.</p>
+        <p><stong>Zachary Wagner ’07</strong> was named Chief Product Officer at StraighterLine, as noted by the <em>Washington Business Journal</em>.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -109,65 +109,44 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
 
     <div class="other-news-item plain-card-1">
-        <p><a href="https://www.yahoo.com/entertainment/noah-baumbach-ambitious-white-noise-130007170.html">Filmmaker <strong>Noah Baumbach ’91</strong> talked about his latest film</a>, an adaptation of Don DeLillo’s <em>White Noise</em>, as noted in Yahoo! Entertainment.</p>
+        <p><strong>Meryl Streep ’71, P’08,’13</strong> was mentioned in a <a href="https://www.news10.com/news/ny-news/meryl-streep-visits-vassar-to-receive-honorable-award/">News10</a> story about the actor’s recent visit to campus to accept the AAVC Distinguished Achievement Award.</p>
     </div>
 
     <div class="other-news-item plain-card-1">
-        <p><a href="https://loyolamaroon.com/10035929/briefs/loyola-grapples-with-unexpected-passing-of-college-of-business-professor/">The  <em>Maroon</em> remembered accomplished professor <strong>Iris Mack ’78</strong></a>, who was the first Black woman to teach applied mathematics at the MIT Sloan School of Management.</p>
+        <p><strong>Dr. Ebony Boulware ’91</strong> was named Dean of Wake Forest University School of Medicine and Chief Science Officer of Atrium Health, as noted by <a href="https://www.prnewswire.com/news-releases/renowned-physician-researcher-and-educator-dr-ebony-boulware-named-dean-of-wake-forest-university-school-of-medicine-and-chief-science-officer-of-atrium-health-301650420.html">PR Newswire</a>.</p>
     </div>
 
     <div class="other-news-item plain-card-1">
-        <p>Author and leader of the School Garden Support Organization <a href="https://www.dispatch.com/story/lifestyle/home-garden/2022/10/08/school-garden-conference-to-take-place-oct-28-on-osu-campus/69539851007/"><strong>Whitney Cohen ’99</strong> of Life Lab will be the keynote speaker</a> at a conference on school and youth gardening, as noted in a <em>Columbus Dispatch</em> article.</p>
+        <p><strong>Erica Weiner-Amachi ’03</strong>, a teacher, participated in a Jeopardy! “Second Chance” competition, as noted by <a href="https://www.phillyvoice.com/philadelphia-teacher-jeopardy-second-chance-competition-erica-weiner-amachi/"><em>Philly Voice</em></a>.</p>
     </div>
 
-
-<?php /*
     <div class="other-news-item plain-card-1">
-        <p><strong>Mariya Abdulkaf ’15</strong> was named Supervising Audience Editor of the <em>New York Times</em> Video Department, as noted by the <a href="https://www.nytco.com/press/mariya-abdulkaf-joins-the-video-department/">NYT</a>.</p>
+        <p><strong>Michaela Coplen ’18</strong> was named a <a href="https://www.marshallscholarship.org/scholars/scholar-profiles/michaela-coplen">Marshall Scholar</a>, which will allow her to pursue an MPhil in International Relations at the University of Oxford.</p>
     </div>
-*/ ?>
-
-  <!-- <div class="other-news-item plain-card-1">
-    <p><strong>Shoshanah Bewlay ’92</strong>, the Executive Director of the New York State Committee on Open Government, talked about her work and the work of her organization on PBS’s <em><a href="https://www.pbs.org/video/shoshanah-bewlay-extended-interview-adjh5c/">Connect NY</a></em>.</p>
-  </div>
-
-  <div class="other-news-item plain-card-1">
-    <p><strong>Karen Petersen ’76</strong> was the featured American poet in the current issue of <em><a href="https://thehighwindowpress.com/category/the-voice-of-america/">The High Window</a></em>.</p>
-  </div>
 
     <div class="other-news-item plain-card-1">
-      <p>Computer pioneer Rear Admiral <strong>Grace Hopper</strong>, class of 1928, was the subject of an <em><a href="https://www.theengineer.co.uk/content/in-depth/late-great-engineers-grace-hopper-english-speaking">Engineer</a></em> story.</p>
-    </div> -->
+        <p><strong>Victoria Abut ’18</strong>, a student at Harvard Law School, wrote a <a href="https://www.corporatecomplianceinsights.com/brazil-election-corruption/">Corporate Compliance Insights</a> article about corruption in Brazilian politics.</p>
+    </div>
 
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
 
     <div class="other-news-item plain-card-1">
-        <p><a href="https://www.getty.edu/publications/cultural-heritage-mass-atrocities/part-2/12-deknatel/"><strong>Frederick Deknatel ’08</strong>, Executive Editor of<em> Democracy in Exile</em>, wrote a chapter on reconstruction in Syria</a> in the recently published <em>Cultural Heritage and Mass Atrocities</em>, as noted by Getty.</p>
-    </div>
-
-<?php /*
-    <div class="other-news-item plain-card-1">
-        <p><strong>Whitney W. Donhauser ’89</strong>, former Director and President of the Museum of the City of New York, was named Deputy Director and Chief Advancement Officer at the Metropolitan Museum of Art, as noted by <a href="https://thecitylife.org/2022/10/05/the-metropolitan-museum-of-art-appoints-whitney-w-donhauser-as-deputy-director-and-chief-advancement-officer/">TheCityLife.org</a>.</p>
-    </div>
-*/ ?>
-
-    <div class="other-news-item plain-card-1">
-        <p><a href="https://www.argonautnews.com/arts_and_events/take-me-to-the-river/article_29cd5c3c-3f6f-11ed-93b0-83989b23b8d1.html">The work of photographer <strong>Caleb Stein ’17</strong></a> was the subject of an <em>Argonaut</em> story.</p>
-    </div>
-
-    <!-- <div class="other-news-item plain-card-1">
-      <p><strong>Maurice F. Edelson ’85</strong> was named Executive Vice President and Chief Legal Officer of WWE, as noted by <a href="https://www.marketscreener.com/quote/stock/WORLD-WRESTLING-ENTERTAIN-14926/news/WWE-R-Names-Dan-Ventrelle-EVP-Talent-Maurice-F-Edelson-EVP-Chief-Legal-Officer-41731467/">MarketScreener</a>.</p>
+        <p><strong>Theresa “Terri” O’Shea ’76</strong>, former AAVC Executive Director, was remembered in the <a href="https://www.poughkeepsiejournal.com/obituaries/pjo072595"><em>Poughkeepsie Journal</em></a>.</p>
     </div>
 
     <div class="other-news-item plain-card-1">
-      <p><strong>Russ Cohen ’78</strong> and his knowledge of wild edible plants was the subject of a <em><a href="https://www.wanderer.com/features/learning-how-to-forage/">Wanderer</a></em> story.</p>
+        <p><strong>Yanajaha Kafi Moragne-Patterson ’06</strong>, Senior Program Director of College and Career Success at the University of Chicago Inclusive Economy Lab, will serve as a member of the Illinois Torture Inquiry and Relief Commission, as noted by <a href="https://www.myradiolink.com/2022/10/17/gov-pritzker-announces-four-appointments-to-boards-and-commissions-2/">myradiolink.com</a>.</p>
     </div>
 
     <div class="other-news-item plain-card-1">
-      <p><strong>B. David Naidu ’90</strong> was honored with the Summit Municipal Democratic Committee’s Spirit of Summit Award, as noted by <a href="https://www.tapinto.net/towns/summit/categories/press-releases/articles/smdc-s-spirit-of-summit-award-dinner-set-for-sept-18">Tap into Summit</a>.</p>
-    </div> -->
+        <p><strong>Dr. Cathy Drennan ’85</strong>, a professor of chemistry and biology at MIT, was the recipient of the American Society for Biochemistry and Molecular Biology 2023 William C. Rose Award, as noted by <a href="https://www.asbmb.org/asbmb-today/people/102422/drennan-makes-science-fun-and-accessible">ASBMB</a>.</p>
+    </div>
+
+    <div class="other-news-item plain-card-1">
+        <p><strong>Taylor Gee ’23</strong> was quoted in a <a href="https://www.nytimes.com/2022/10/22/style/ny-sheep-wool-festival.html"><em>New York Times</em></a> article about young knitters attending the New York State Sheep and Wool Festival.</p>
+    </div>
 
   <?php echo end_item_col(); ?>
 
