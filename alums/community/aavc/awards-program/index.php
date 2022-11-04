@@ -135,19 +135,17 @@ $page_info = json_decode($page_info, true);
 <h6 class="tagline">2022 Recipient</h6>
 <h1>Brenda Feigen ’66</h1>
 
-<!--
 <p><?php echo item_link_VideoModal(
     'Watch the video',
-    'https://player.vimeo.com/video/637566070',
+    'https://player.vimeo.com/video/759562549',
     'vimeo',
     '',
     'no-arrow btn-link mt-4'
 ); ?></p>
--->
-<?php echo cta_link(
+<!-- <?php echo cta_link(
     'https://www.vassar.edu/news/feminist-legend-brenda-feigen-66-accepts-spirit-vassar-award-tells-students-embrace-activism',
      'Read more'
-); ?>
+); ?> -->
 
 
 
