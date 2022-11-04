@@ -2,6 +2,23 @@
 $media_carousel_path = '/alums/assets/img/alums-home/news-and-spotlight/';
 echo carousel( '', 'alums-media-carousel' ); ?>
 
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2022-11-03/in-the-media/Leah_Goodridge_by_Laura_Merrill.jpeg',
+    'is-link',
+    'A headshot of Leah Goodridge'
+  ); ?>
+
+  <p>Leah Goodridge ’04, Managing Attorney for Housing Policy at Mobilization for Justice, Inc., received a Diversity Champion award from the New York City Bar Association and recently spoke on the association’s podcast, <em><a href="https://www.nycbar.org/media-listing/media/detail/professionalism-as-a-racial-construct-podcast">Building Belonging</a></em>, about professionalism as a racial construct.</p><p><em>Photo: Laura Merrill</em></p>
+  <?php echo cta_link(
+  'https://www.nycbar.org/media-listing/media/detail/professionalism-as-a-racial-construct-podcast',
+  'Read more',
+  'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
 <?php echo carousel_item(
     $media_carousel_path.'/2022-10-12/in-the-media/david_ambroz_02.jpg',
     'is-link',
@@ -16,7 +33,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   ); ?>
 
 <?php echo end_carousel_item(); ?>
-
 
 
 <?php echo carousel_item(
@@ -35,26 +51,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   ); ?>
 
 <?php echo end_carousel_item(); ?>
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2022-08-13/211123-media-blum.jpg',
-    'is-link',
-    'A headshot of Jason Blum ’91, a person with short brown hair.'
-  ); ?>
-
-  <small class="mb-3 d-block">August 6, 2022</small>
-  <p><strong>Jason Blum ’91,</strong> CEO and Founder of Blumhouse Productions, talked with <em>Deadline</em> about his upcoming projects.</p>
-
-  <?php echo cta_link(
-  'https://deadline.com/2022/08/jason-blum-exorcist-remake-locarno-1235086504/',
-  'Read more',
-  'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
-
 
 
   <?php echo carousel_item(
