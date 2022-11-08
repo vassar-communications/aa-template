@@ -52,7 +52,7 @@ $page_info = json_decode($page_info, true);
         'no-arrow'
     ); ?>
   </li>
-    <li><a href="https://www.vassar.edu/news/five-alums-selected-2022-aavc-awards">Read about Raina in the Vassar news story about the 2022 AAVC Awards</a></li>
+    <!-- <li><a href="https://www.vassar.edu/news/five-alums-selected-2022-aavc-awards">Read about Raina in the Vassar news story about the 2022 AAVC Awards</a></li> -->
     <li><a href="https://www.vassar.edu/news/convocation-2022">Read more about Raina in the Vassar news story about Convocation 2022</a></li>
 </ul>
 
@@ -75,7 +75,7 @@ $page_info = json_decode($page_info, true);
         'no-arrow'
     ); ?>
   </li>
-    <li><a href="https://www.vassar.edu/news/five-honored-2021-aavc-awards" title="Five Honored with 2021 AAVC Awards">Read about Dilemani in the Vassar news story about the 2021 AAVC Awards</a></li>
+    <!-- <li><a href="https://www.vassar.edu/news/five-honored-2021-aavc-awards" title="Five Honored with 2021 AAVC Awards">Read about Dilemani in the Vassar news story about the 2021 AAVC Awards</a></li> -->
     <li><a href="https://www.vassar.edu/news/convocation-brings-campus-community-together-again" title="Convocation Brings the Campus Community Together Again">Read more about Dilemani in the Vassar news story about Convocation 2021</a></li>
 </ul>
 
