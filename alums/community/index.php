@@ -73,7 +73,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/Vassar_Reunion_19 BL_4788.jpg',
     'theme-burgundy',
     '',
-    ['img_alt_text' => 'AAVC members holding an AAVC banner']
+    ['img_alt_text' => 'Image of AAVC members holding an AAVC banner.']
 ); ?>
   <div class="animate-when-content-appears animation-slide-up">
       <p>A dynamic global network of 41,000+ members!</p>
