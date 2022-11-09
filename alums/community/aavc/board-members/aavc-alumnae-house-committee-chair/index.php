@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Director of innovation, The Sound, 2022–present; operations manager–medically tailored meals, Relish Works, 2021–2022; innovation project lead–design strategy, Relish Works, 2018–present; founder & artist, Dreaming Collective, 2015–present; marketing specialist–innovation consulting, Gensler, 2017–2018; Latin America marketing specialist, Gensler, 2015–2017; marketing manager, Studio Hillier, 2014–2015; research assistant, Interboro Partners, 2012; marketing and sales, Adirondack Creamery, 2007–2012.</p>
+<p>Associate Director, Latinx Innovation, Planned Parenthood Federation of America, August 2022–present; Director of innovation, The Sound, February 2022–June 2022; operations manager–medically tailored meals, Relish Works, 2021–2022; innovation project lead–design strategy, Relish Works, 2018–present; founder & artist, Dreaming Collective, 2015–present; marketing specialist–innovation consulting, Gensler, 2017–2018; Latin America marketing specialist, Gensler, 2015–2017; marketing manager, Studio Hillier, 2014–2015; research assistant, Interboro Partners, 2012; marketing and sales, Adirondack Creamery, 2007–2012.</p>
 <?php echo end_sec_regularContent(); ?>
 
 

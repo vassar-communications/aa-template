@@ -483,7 +483,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Sharon N. A. Parkinson',
-    'Director for Multicultural and Affinity Engagement',
+    'Director of Multicultural and Affinity Engagement',
     [
       'phone' => '845-437-5515',
       'email' => 'shparkinson@vassar.edu',
@@ -934,7 +934,7 @@ echo end_contact_card();
 
 echo contact_card(
     'TBD',
-    'Senior Associate Director of Prospect Development and Research',
+    'Assistant Director',
     [
       'phone' => '',
       'email' => '',
@@ -945,7 +945,7 @@ echo end_contact_card();
 
 echo contact_card(
     'TBD',
-    'Research Specialist',
+    'Research Analyst',
     [
       'phone' => '',
       'email' => '',
