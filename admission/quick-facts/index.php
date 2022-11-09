@@ -269,7 +269,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
       'First Generation Students',
-      '14%',
+      $class_stats['1st-gen-students'],
       ''
     ); ?>
   <?php echo end_item_col(); ?>
@@ -287,7 +287,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_stat(
       'Languages spoken',
       $class_stats['languages_spoken'],
-      '<p class="fs-6">by the Class of 2025</p>'
+      '<p class="fs-6">by the Class of 2026</p>'
     ); ?>
   <?php echo end_item_col(); ?>
 

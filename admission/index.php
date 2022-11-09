@@ -176,7 +176,7 @@ echo sec_fixedCenteredTitle(
     max-width: 40rem;
     margin: 4rem auto 2rem;
     text-align: left;">Vassar is from <span id="x-where-from">everywhere</span></h2>-->
-   <p class="section-intro-text"><strong>Vassar is from everywhere.</strong> A world-class education is built on worldwide communities. Our students come from all 50 states and '. $class_stats['number_of_countries_all']
+   <p class="section-intro-text"><strong>Vassar is from everywhere.</strong> A world-class education is built on worldwide communities. Our students come from '.$class_stats['number_of_states'].' states and '. $class_stats['number_of_countries']
 .' countries. They represent a wide range of backgrounds, experiences, and aspirations, forming a vibrant community that will prepare you to lead in an increasingly diverse and interconnected world.</p>
 <div class="text-center mb-5">
 

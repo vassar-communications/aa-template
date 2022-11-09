@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Smiling students standing arm in arm']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Vassar students come from more than 79 countries around the world.</p>
+    <p>Vassar students come from more than 50 countries around the world.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
