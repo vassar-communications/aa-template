@@ -42,15 +42,15 @@ $page_info = json_decode($page_info, true);
 <h4>Brenda Feigen ’66</h4>
 
 <ul class="linked-list">
-<!--  <li>
+<li>
     <?php echo item_link_VideoModal(
         'Watch the video',
-        'https://player.vimeo.com/video/637566070?h=f27101b9db',
+        'https://player.vimeo.com/video/759562549',
         'vimeo',
         '',
         'no-arrow'
     ); ?>
-  </li> -->
+  </li>
   <li><a href="https://www.vassar.edu/news/feminist-legend-brenda-feigen-66-accepts-spirit-vassar-award-tells-students-embrace-activism">Read about the recipient in the Vassar news story.</a></li>
 </ul>
 

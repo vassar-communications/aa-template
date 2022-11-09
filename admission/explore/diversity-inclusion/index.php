@@ -73,8 +73,8 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col('animation-item'); ?>
     <?php echo item_stat(
       null,
-      '2,500',
-      'students from all 50 states and 79 countries'
+      $facts['number_of_students'],
+      'students from all 50 states and '.$class_stats['number_of_countries_all'].' countries'
     ); ?>
   <?php echo end_item_col(); ?>
 

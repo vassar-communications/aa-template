@@ -142,10 +142,10 @@ $page_info = json_decode($page_info, true);
     '',
     'no-arrow btn-link mt-4'
 ); ?></p>
-<!-- <?php echo cta_link(
+<?php echo cta_link(
     'https://www.vassar.edu/news/feminist-legend-brenda-feigen-66-accepts-spirit-vassar-award-tells-students-embrace-activism',
      'Read more'
-); ?> -->
+); ?>
 
 
 
@@ -226,6 +226,10 @@ $page_info = json_decode($page_info, true);
     '',
     'no-arrow btn-link mt-4'
 ); ?></p>
+<?php echo cta_link(
+    'https://www.vassar.edu/news/convocation-2022',
+     'Read more'
+); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

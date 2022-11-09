@@ -5,7 +5,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2022-11-03/in-the-media/Leah_Goodridge_by_Laura_Merrill.jpeg',
+    $media_carousel_path.'/2022-11-03/in-the-media/Leah_Goodridge_by_Laura_Merrill.jpg',
     'is-link',
     'A headshot of Leah Goodridge'
   ); ?>

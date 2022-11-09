@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
   'Leah Goodridge ’04',
-  $alums_news_images_path.'/2022-11-04/in-the-media/Leah_Goodridge_by_Laura_Merrill.jpeg',
+  $alums_news_images_path.'/2022-11-04/in-the-media/Leah_Goodridge_by_Laura_Merrill.jpg',
   'theme-extralightgray',
   '',
   ['img_alt_text' => 'A headshot of Leah Goodridge']
