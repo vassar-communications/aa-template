@@ -136,7 +136,8 @@ $page_info = json_decode($page_info, true);
     <p>If you submitted the QuestBridge or Coalition Application and require a Slideroom fee waiver, please <a href="mailto:admission@vassar.edu">email Admission</a> to make that request.</p>
 
 <h3 class="mt-5">Questions about music, art, and dance portfolios?</h3>
-    <p>Please <a href="mailto:jnarrido@vassar.edu">email Joanne Narrido</a>.</p>
+    <p>Please <a href="mailto:jgallagher@vassar.edu">email James Gallagher</a>.</p>
+
 <?php echo end_sec_regularContent(); ?>
 
 <!-- Related Topics -->
