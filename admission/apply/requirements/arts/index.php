@@ -138,7 +138,7 @@ $page_info = json_decode($page_info, true);
 <h3 class="mt-5">Questions about music, art, and dance portfolios?</h3>
     <p>Please <a href="mailto:jgallagher@vassar.edu">email James Gallagher</a>.</p>
 
-<?php echo end_sec_regularContent(); ?>
+ <?php echo end_sec_regularContent(); ?>
 
 <!-- Related Topics -->
 <?php echo relatedTopics(); ?>
