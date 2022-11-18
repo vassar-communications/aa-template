@@ -60,7 +60,7 @@ $template = <<<TMP
                   <a href="https://www.vassar.edu/admission/apply">Apply</a>
                 </li>
                 <li class="secondary_menu-item">
-                  <a href="https://www.vassar.edu/tour">Tour</a>
+                  <a href="https://www.vassar.edu/visit">Visit</a>
                 </li>
                 <li class="secondary_menu-item">
                   <a href="https://give.vassar.edu/">Give</a>
