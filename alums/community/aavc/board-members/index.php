@@ -177,7 +177,7 @@ $page_info = json_decode($page_info, true);
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">Alumnae House Committee Chair and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</div>
+<div class="position">Alumnae House Committee Chair, Vassar Fund Committee Member and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</div>
 <div class="location">Michigan</div>
 <div class="term">Term of Service: 2021–2025</div>
 <?php echo end_item_cardWithText(
@@ -206,7 +206,7 @@ $page_info = json_decode($page_info, true);
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">Nominating and Governance Committee Chair, Communications Advisory Committee Member and Ad Hoc Diversity, Equity and Inclusion Committee
+<div class="position">Nominating and Governance Committee Chair, Communications Advisory Committee Member and Ad Hoc Diversity, Equity and Inclusion Committee Member
 </div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2020–2024</div>
