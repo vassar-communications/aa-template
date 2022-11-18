@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Alumnae House Committee Chair and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</li>
+    <li>Alumnae House Committee Chair, Vassar Fund Committee Member and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</li>
     <li>(he/him/his)</li>
     <li>Michigan</li>
     <li>Term of Service: 2021–2025</li>
