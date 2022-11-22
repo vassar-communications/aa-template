@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Young Alumnae/i Achievement or Service Award",
+  "page_title":"Young Alum Achievement or Service Award",
   "page_classes":"",
   "feature_image":"/alums/assets/img/alums-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg"
 }';

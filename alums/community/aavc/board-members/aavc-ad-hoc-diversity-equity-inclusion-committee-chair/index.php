@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Vice President, Zervas Elementary School Parent Teacher Organization, 2019–present; co-founder, Asian American Women’s Political Initiative, State House Fellowship Program, 2009–present; Director, Asian American Center, Northeastern University, 2006–2019; member of the board of directors, Asian Sisters Participating in Reaching Excellence, 2009–2010; associate, The Partnership’s Early Career Associates Program, 2008.</p>
+<p>Chief Programs Officer, Asian American Women’s Political Initiative, 2022–present; member of the board of directors, Newton Schools Foundation, 2021–present; Vice President, Zervas Elementary School Parent Teacher Organization, 2019–present; co-founder, Asian American Women’s Political Initiative, State House Fellowship Program, 2009–present; Director, Asian American Center, Northeastern University, 2006–2019; member of the board of directors, Asian Sisters Participating in Reaching Excellence, 2009–2010; associate, The Partnership’s Early Career Associates Program, 2008.</p>
 <?php echo end_sec_regularContent(); ?>
 
 
