@@ -678,11 +678,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Joe Mastracchio',
+    'TBD',
     'Associate Director of &nbsp;Annual Giving,&nbsp;Volunteer &amp; Reunion',
     [
-      'phone' => '845-437-5420',
-      'email' => 'jmastracchio@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
@@ -796,16 +796,6 @@ echo contact_card(
 );
 echo end_contact_card();
 
-echo contact_card(
-    'TBD',
-    'Associate Director of Leadership Gifts',
-    [
-      'phone' => '',
-      'email' => '',
-    ]
-);
-echo end_contact_card();
-
 
 echo contact_card(
     'Molly Renfroe Katz',
@@ -828,6 +818,15 @@ echo contact_card(
 );
 echo end_contact_card();
 
+echo contact_card(
+    'Joe Mastracchio',
+    'Assistant Director of Leadership Gifts',
+    [
+      'phone' => '845-437-5420',
+      'email' => 'jmastracchio@vassar.edu',
+    ]
+);
+echo end_contact_card();
 
 echo contact_card(
     'TBD',
@@ -1013,11 +1012,11 @@ echo end_contact_card();
 
 
     echo contact_card(
-        'Cassandra Frake Yzaguirre',
+        'TBD',
         'Administrative Assistant',
         [
-          'phone' => '845-437-5480',
-          'email' => 'cfrakeyzaguirre@vassar.edu',
+          'phone' => '',
+          'email' => '',
         ]
     );
     echo end_contact_card();

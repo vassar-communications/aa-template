@@ -46,7 +46,7 @@ $page_info = json_decode($page_info, true);
         'Distinguished Achievement Award',
         '',
         ''); ?>
-<p>The Distinguished Achievement Award is presented to an alumna or alumnus who has reached the highest level in her or his field, including the professions, science, the arts, and public affairs. While demonstrating exceptional talent, application, creativity, and skill within a certain career, this individual must at the same time exemplify the ideals of a liberal arts education and have used her or his position of visibility, power, or leadership to better the human community and serve the wider goals of society.</p>
+<p>The Distinguished Achievement Award is presented to an alum who has reached the highest level in their field, including the professions, science, the arts, and public affairs. While demonstrating exceptional talent, application, creativity, and skill within a certain career, this individual must at the same time exemplify the ideals of a liberal arts education and have used their position of visibility, power, or leadership to better the human community and serve the wider goals of society.</p>
 <?php echo cta_link(
     '/alums/community/aavc/awards-program/distinguished-achievement',
      'See past award recipients'
@@ -72,7 +72,7 @@ $page_info = json_decode($page_info, true);
     'Outstanding Service to Vassar College Award',
     'theme-verylightgray',
     ''); ?>
-<p>The AAVC Outstanding Service Award is presented to an alumna or alumnus in recognition of her or his extraordinary commitment, leadership, and service in promoting the goals and highest interests of Vassar College and AAVC. The award honors outstanding contributions made over a number of years in any or all of these volunteer capacities: class, club, and committee activities; fundraising; enriching campus life; or stewardship as board members, trustees, or donors. Outstanding Service Award winners are ambassadors on behalf of Vassar College to the alums and to the larger community.</p>
+<p>The AAVC Outstanding Service Award is presented to an alum in recognition of their extraordinary commitment, leadership, and service in promoting the goals and highest interests of Vassar College and AAVC. The award honors outstanding contributions made over a number of years in any or all of these volunteer capacities: class, club, and committee activities; fundraising; enriching campus life; or stewardship as board members, trustees, or donors. Outstanding Service Award winners are ambassadors on behalf of Vassar College to the alums and to the larger community.</p>
 <?php echo cta_link(
     '/alums/community/aavc/awards-program/outstanding-service',
      'See past award recipients'
@@ -116,7 +116,7 @@ $page_info = json_decode($page_info, true);
     'Spirit of Vassar Award',
     '',
     ''); ?>
-<p>The Spirit of Vassar Award is presented to an alumna or alumnus who has demonstrated extraordinary and distinguished leadership, contribution, and commitment to serving a community in which they effect positive, transformative societal change. This contribution may have been made through the recipient’s career, community work, or volunteer service. The award recognizes the values of service and civic responsibility that are fundamental to a Vassar education.</p>
+<p>The Spirit of Vassar Award is presented to an alum who has demonstrated extraordinary and distinguished leadership, contribution, and commitment to serving a community in which they effect positive, transformative societal change. This contribution may have been made through the recipient’s career, community work, or volunteer service. The award recognizes the values of service and civic responsibility that are fundamental to a Vassar education.</p>
 
 <?php echo cta_link(
     '/alums/community/aavc/awards-program/spirit-of-vassar',
@@ -197,10 +197,10 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-    'Young Alumnae/i Achievement or Service Award',
+    'Young Alum Achievement or Service Award',
     '',
     ''); ?>
-<p>The Young Alumnae/i Achievement or Service Award is presented to an alumna or alumnus recognized for either their extraordinary service to Vassar in any aspect of alums engagement OR for their exceptional personal and professional achievement(s) within their respective field. As a graduate within the last 10 years, the recipient should be inspirational to their peers and the current student body, while exemplifying the fruits of a successful liberal arts education at Vassar.</p>
+<p>The Young Alum Achievement or Service Award is presented to an alum recognized for either their extraordinary service to Vassar in any aspect of engagement OR for their exceptional personal and professional achievement(s) within their respective field. As a graduate within the last 10 years, the recipient should be inspirational to their peers and the current student body, while exemplifying the fruits of a successful liberal arts education at Vassar.</p>
 <?php echo cta_link(
     '/alums/community/aavc/awards-program/young-alum-achievement',
      'See past award recipients'
