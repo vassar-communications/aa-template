@@ -375,11 +375,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'TBD',
+    'Ahmed Siddiqui',
     'Accounting Specialist',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-7789',
+      'email' => 'asiddiqui@vassar.edu',
     ]
 );
 echo end_contact_card();
@@ -554,18 +554,6 @@ echo end_contact_card();
 );
 echo end_contact_card();
 
-
-echo contact_card(
-    'TBD',
-    'Senior Writer',
-    [
-      'phone' => '',
-      'email' => '',
-    ]
-);
-echo end_contact_card();
-
-
 echo contact_card(
     'Susan Brkich ’86',
     'Senior Associate Director of Advancement Web Services',
@@ -605,6 +593,16 @@ echo contact_card(
     [
       'phone' => '845-437-5440',
       'email' => 'yojohnson@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+echo contact_card(
+    'TBD',
+    'Assistant Director of Advancement Communications Content',
+    [
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
@@ -824,6 +822,16 @@ echo contact_card(
     [
       'phone' => '845-437-5420',
       'email' => 'jmastracchio@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+echo contact_card(
+    'Nancy Reimer John ’79',
+    'Leadership Gifts Officer',
+    [
+      'phone' => '',
+      'email' => 'njohn@vassar.edu',
     ]
 );
 echo end_contact_card();
