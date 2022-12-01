@@ -440,7 +440,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Patricia Lamark',
-    'Program Administrator',
+    'Program Associate',
     [
       'phone' => '845-437-5438',
       'email' => 'plamark@vassar.edu',
