@@ -118,7 +118,7 @@ $page_info = json_decode($page_info, true);
     null
 ); ?>
 
-<p>“Vassar’s 1,000 acres are filled with more than 100 buildings in a variety of architectural styles, from the Gothic Thompson Memorial Library to Marcel Breuer's Ferry House to César Pelli’s Lehman Loeb Art Center.”</p>
+<p>“Vassar’s 1,000 acres are filled with more than 100 buildings in a variety of architectural styles, from the Gothic Thompson Memorial Library to Marcel Breuer’s Ferry House to César Pelli’s Lehman Loeb Art Center.”</p>
 <div class="quote-attribution"><em>Architectural Digest</em>, “50 Most Beautiful Campuses”</div>
 <?php echo end_sec_wordByWord_fixed(); ?>
 
