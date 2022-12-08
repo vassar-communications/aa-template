@@ -837,11 +837,11 @@ echo contact_card(
 echo end_contact_card();
 
 echo contact_card(
-    'TBD',
+    'Brianna Evans',
     'Office Specialist',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-5485',
+      'email' => 'briannaevans@vassar.edu',
     ]
 );
 echo end_contact_card();
