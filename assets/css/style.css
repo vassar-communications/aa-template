@@ -9755,6 +9755,11 @@ h2.border-animate:after, .border-animate.h2:after {
   content: " - ";
 }
 
+.link--cta.style-large span {
+  letter-spacing: normal;
+  font-size: 1.4rem;
+}
+
 .btn.has-icon {
   display: inline-flex;
   align-items: center;
