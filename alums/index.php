@@ -52,10 +52,11 @@ $page_info = json_decode($page_info, true);
     ['css' => '--sequential-animation-item-gap: 0.3s;']
 ); ?>
 <p class="animation-item">With <strong>41,000+ alums</strong> around the<br> globe, Vassar’s <strong>powerful network</strong><br> is never out of reach.</p>
-<p class="center-object">
+<p class="center-object mt-3">
     <?php echo cta_link(
         '/alums/community/aavc/',
-        'Learn more about the AAVC'
+        'Learn more about the AAVC',
+        'style-large'
     ); ?>
 </p>
 
