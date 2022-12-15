@@ -13694,6 +13694,36 @@ html {
 .quotes-carousel p span:nth-child(10) {
   animation-delay: calc(0s + (0.1s * 10));
 }
+.quotes-carousel p span:nth-child(11) {
+  animation-delay: calc(0s + (0.1s * 11));
+}
+.quotes-carousel p span:nth-child(12) {
+  animation-delay: calc(0s + (0.1s * 12));
+}
+.quotes-carousel p span:nth-child(13) {
+  animation-delay: calc(0s + (0.1s * 13));
+}
+.quotes-carousel p span:nth-child(14) {
+  animation-delay: calc(0s + (0.1s * 14));
+}
+.quotes-carousel p span:nth-child(15) {
+  animation-delay: calc(0s + (0.1s * 15));
+}
+.quotes-carousel p span:nth-child(16) {
+  animation-delay: calc(0s + (0.1s * 16));
+}
+.quotes-carousel p span:nth-child(17) {
+  animation-delay: calc(0s + (0.1s * 17));
+}
+.quotes-carousel p span:nth-child(18) {
+  animation-delay: calc(0s + (0.1s * 18));
+}
+.quotes-carousel p span:nth-child(19) {
+  animation-delay: calc(0s + (0.1s * 19));
+}
+.quotes-carousel p span:nth-child(20) {
+  animation-delay: calc(0s + (0.1s * 20));
+}
 .quotes-carousel p span:nth-child(1) .secondary-item {
   animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 1));
 }
@@ -13723,6 +13753,36 @@ html {
 }
 .quotes-carousel p span:nth-child(10) .secondary-item {
   animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 10));
+}
+.quotes-carousel p span:nth-child(11) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 11));
+}
+.quotes-carousel p span:nth-child(12) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 12));
+}
+.quotes-carousel p span:nth-child(13) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 13));
+}
+.quotes-carousel p span:nth-child(14) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 14));
+}
+.quotes-carousel p span:nth-child(15) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 15));
+}
+.quotes-carousel p span:nth-child(16) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 16));
+}
+.quotes-carousel p span:nth-child(17) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 17));
+}
+.quotes-carousel p span:nth-child(18) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 18));
+}
+.quotes-carousel p span:nth-child(19) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 19));
+}
+.quotes-carousel p span:nth-child(20) .secondary-item {
+  animation-delay: calc(0s + var(--secondary-item-delay, 0.1s) + (0.1s * 20));
 }
 .no-js .quotes-carousel p span {
   animation-name: fade-in;

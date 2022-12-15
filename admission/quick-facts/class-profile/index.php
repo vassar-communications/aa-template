@@ -49,11 +49,9 @@ $page_info = json_decode($page_info, true);
     ]
 ); ?>
 
-<!-- <p><i class="fa-solid fa-file-pdf me-2"></i> <a href="https://www.vassar.edu/sites/default/files/2022-01/2025-profile.pdf">Full Class of 2025 Profile (PDF)</a></p> -->
+<p><i class="fa-solid fa-file-pdf me-2"></i> <a href="2026-Class-Profile.pdf">Class of 2026 Profile (PDF)</a></p>
 
-<!--
-<p><i class="fa-solid fa-file me-2"></i> <a href="2025-profile.rtf">Full Class of 2025 Data Set (RTF)</a></p>
--->
+<p class="mb-4"><i class="fa-solid fa-file me-2"></i> <a href="2026-Class-Profile.rtf">Class of 2026 Profile (RTF)</a></p>
 
 
   <div class="row">
