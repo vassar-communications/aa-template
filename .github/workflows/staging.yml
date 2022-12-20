@@ -14,6 +14,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: s117884.gridserver.com
-        username: ${{ secrets.dev_username }}
-        password: ${{ secrets.ftp_password }}
+        server: aa-staging.vassarspaces.net
+        username: ${{ secrets.staging_username }}
+        password: ${{ secrets.staging_ftp_password }}
