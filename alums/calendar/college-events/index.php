@@ -7,7 +7,6 @@ include($project_paths['main_project_root'].'/functions.php');
 
 /* PAGE INFO === */
 
-
 $page_info = '{
   "page_title":"College Events",
   "page_classes":"",
@@ -21,6 +20,8 @@ $page_info = json_decode($page_info, true);
 ?>
 
 <?php echo site_header(); ?>
+
+<!-- test -->
 
 <?php echo vassar_masthead(); ?>
 
