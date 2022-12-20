@@ -25,6 +25,8 @@ $page_info = json_decode($page_info, true);
 
 <!-- test 2 -->
 
+<!-- test 3 -->
+
 <?php echo vassar_masthead(); ?>
 
 <?php echo hamburger_navigation_alums(); ?>
