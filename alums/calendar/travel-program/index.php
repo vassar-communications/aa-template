@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'Alums group photo in front of a site at Machu Picchu']
 ); ?>
-<p>We continue to monitor the COVID-19 outbreak, as well as current political conditions in Europe, with the safety of our travelers being of utmost importance. As we make our plans, we look forward to hearing from you regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please <a href="mailto:suquade@vassar.edu">contact Susan Quade</a>, Senior Associate Director of Regional and International Programs and the Vassar Travel Program</a>. </p>
+<p>We continue to monitor the COVID-19 outbreak, as well as current political conditions in Europe, with the safety of our travelers being of utmost importance. As we make our plans, we look forward to hearing from you regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please <a href="mailto:suquade@vassar.edu">contact Susan Quade</a>, Senior Associate Director of Special Events and Programs and the Vassar Travel Program</a>. </p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
 
 
 
-<?php echo sec_regularContent('Upcoming Trips','','text-center');?>
+<?php echo sec_regularContent('Recent Trip','','text-center');?>
 
 <p class="intro-text">Island Life in Ancient Greece:  An Aegean Odyssey</p>
 

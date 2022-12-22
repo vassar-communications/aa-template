@@ -68,6 +68,8 @@ $page_info = json_decode($page_info, true);
             Telephone: <a href="tel:1-800-443-8196">(800) 443-8196</a> or <a href="tel:1-845-437-5400">(845) 437-5400</a><br>
             Email: <a href="mailto:advancement@vassar.edu">advancement@vassar.edu</a>
         </p>
+
+          <p> <?php echo cta_link('https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=1144&cid=2123&post_id=0', 'Update your contact information online'); ?> </p>
     </div>
 
 
@@ -830,7 +832,7 @@ echo contact_card(
     'Nancy Reimer John ’79',
     'Leadership Gifts Officer',
     [
-      'phone' => '',
+      'phone' => '845-437-5431',
       'email' => 'njohn@vassar.edu',
     ]
 );
