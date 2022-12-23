@@ -76,7 +76,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Alum Directory',
-    'https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3&cid=40&returnurl=https%3a%2f%2fconnect.vassar.edu%2fs%2f1654%2f2%2f16%2finterior-ai.aspx%3fsid%3d1654%26gid%3d2%26pgid%3d6%26cid%3d41#/Search/Simple',
+    'https://connect.vassar.edu/s/1654/22/interior.aspx?sid=1654&gid=2&pgid=6&cid=41#/Search/Simple',
     ['url' => '/alums/assets/img/alums-resources/0640_Vassar_College_exteriors_campus_life_Oct_2019_JA.jpg', 'alt' => 'Group of people sitting on a circular bench on Vassar Campus' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
