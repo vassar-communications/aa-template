@@ -100,12 +100,12 @@ b {
 
 <?php echo sec_fullBleedImageColumn(
     'Fearlessly Consequential',
-    '/alums/assets/img/alums-give/0046-22-05-kr-bell-ringing-vassar-0004-crop-1.jpg',
+    '/alums/assets/img/alums-give/0049_13_04_BL_9876-cropped.jpg',
     'theme-burgundy quad-pattern has-bg section-large-title image-is-first',
     'mw-100',
     [
       'css' => '--bg-image-opacity: 0.16',
-      'img_alt_text' => 'Four students stand on the roof of a building, ringing a large iron bell.'
+      'img_alt_text' => 'Five students under an arched ceiling smiling at the camera.'
     ]
 ); ?>
 

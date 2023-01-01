@@ -68,6 +68,8 @@ $page_info = json_decode($page_info, true);
             Telephone: <a href="tel:1-800-443-8196">(800) 443-8196</a> or <a href="tel:1-845-437-5400">(845) 437-5400</a><br>
             Email: <a href="mailto:advancement@vassar.edu">advancement@vassar.edu</a>
         </p>
+
+          <p> <?php echo cta_link('https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=1144&cid=2123&post_id=0', 'Update your contact information online'); ?> </p>
     </div>
 
 
@@ -375,11 +377,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'TBD',
+    'Ahmed Siddiqui',
     'Accounting Specialist',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-7789',
+      'email' => 'asiddiqui@vassar.edu',
     ]
 );
 echo end_contact_card();
@@ -440,7 +442,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Patricia Lamark',
-    'Program Administrator',
+    'Program Associate',
     [
       'phone' => '845-437-5438',
       'email' => 'plamark@vassar.edu',
@@ -554,18 +556,6 @@ echo end_contact_card();
 );
 echo end_contact_card();
 
-
-echo contact_card(
-    'TBD',
-    'Senior Writer',
-    [
-      'phone' => '',
-      'email' => '',
-    ]
-);
-echo end_contact_card();
-
-
 echo contact_card(
     'Susan Brkich ’86',
     'Senior Associate Director of Advancement Web Services',
@@ -605,6 +595,16 @@ echo contact_card(
     [
       'phone' => '845-437-5440',
       'email' => 'yojohnson@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+echo contact_card(
+    'TBD',
+    'Assistant Director of Advancement Communications Content',
+    [
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
@@ -678,11 +678,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Joe Mastracchio',
+    'TBD',
     'Associate Director of &nbsp;Annual Giving,&nbsp;Volunteer &amp; Reunion',
     [
-      'phone' => '845-437-5420',
-      'email' => 'jmastracchio@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
@@ -796,16 +796,6 @@ echo contact_card(
 );
 echo end_contact_card();
 
-echo contact_card(
-    'TBD',
-    'Associate Director of Leadership Gifts',
-    [
-      'phone' => '',
-      'email' => '',
-    ]
-);
-echo end_contact_card();
-
 
 echo contact_card(
     'Molly Renfroe Katz',
@@ -828,13 +818,32 @@ echo contact_card(
 );
 echo end_contact_card();
 
+echo contact_card(
+    'Joe Mastracchio',
+    'Assistant Director of Leadership Gifts',
+    [
+      'phone' => '845-437-5420',
+      'email' => 'jmastracchio@vassar.edu',
+    ]
+);
+echo end_contact_card();
 
 echo contact_card(
-    'TBD',
+    'Nancy Reimer John ’79',
+    'Leadership Gifts Officer',
+    [
+      'phone' => '845-437-5431',
+      'email' => 'njohn@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+echo contact_card(
+    'Brianna Evans',
     'Office Specialist',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-5485',
+      'email' => 'briannaevans@vassar.edu',
     ]
 );
 echo end_contact_card();
@@ -1013,11 +1022,11 @@ echo end_contact_card();
 
 
     echo contact_card(
-        'Cassandra Frake Yzaguirre',
+        'TBD',
         'Administrative Assistant',
         [
-          'phone' => '845-437-5480',
-          'email' => 'cfrakeyzaguirre@vassar.edu',
+          'phone' => '',
+          'email' => '',
         ]
     );
     echo end_contact_card();
