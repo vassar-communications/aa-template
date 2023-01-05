@@ -153,14 +153,12 @@ $page_info = json_decode($page_info, true);
     <!-- <a class="fixemaillink" href="mailto:comallet@vassar.edu">Email: comallet@vassar.edu</a> -->
 </div>
 
-<?php /*
 <div class="staff-contact mb-5">
-    <h3><a class="fixemaillink" href="mailto:jnarrido@vassar.edu">Joanne Narrido</a></h3>
-    <p><em>Admission Counselor</em></p>
-    <p><strong>Regional Responsibilities:</strong> Indiana, Michigan, Minnesota, New York (Central Hudson, Long Island, Rockland County, Staten Island, Westchester County), Ohio, Wisconsin</p>
-    <!-- <a class="fixemaillink" href="mailto:jnarrido@vassar.edu">Email: jnarrido@vassar.edu</a> -->
+    <h3><a class="fixemaillink" href="mailto:jmandart@vassar.edu">Jaclyn Mandart</a></h3>
+    <p><em>Associate Director of Admission</em></p>
+    <p><strong>Regional Responsibilities:</strong> New York (Manhattan)</p>
+    <p><strong>International Responsibilities:</strong> Europe</p>
 </div>
-*/ ?>
 
 <div class="staff-contact mb-5">
     <h3><a class="fixemaillink" href="mailto:mposton@vassar.edu">Melanie Poston</a></h3>
