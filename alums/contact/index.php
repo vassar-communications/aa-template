@@ -228,11 +228,11 @@ echo end_contact_card();
                 <div class="grid cols-2 mb-5 mb-5" style="--bs-gap: 2rem">
 <?php
                 echo contact_card(
-                    'Mary Carole Starke',
+                    'TBD',
                     'Associate Vice President for Advancement Services',
                     [
-                      'phone' => '845-437-5497',
-                      'email' => 'mastarke@vassar.edu',
+                      'phone' => '',
+                      'email' => '',
                     ]
                 );
                 echo end_contact_card();
@@ -377,11 +377,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Ahmed Siddiqui',
+    'TBD',
     'Accounting Specialist',
     [
-      'phone' => '845-437-7789',
-      'email' => 'asiddiqui@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();

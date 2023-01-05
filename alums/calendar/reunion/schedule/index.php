@@ -58,7 +58,6 @@ $page_info = json_decode($page_info, true);
     </div>
     <div class="schedule-col-agenda">
       <ul>
-        <li>AAVC Spirit of Vassar Award Ceremony</li>
         <li>Hour with the President</li>
         <li>Parade</li>
         <li>Celebrate Vassar</li>
