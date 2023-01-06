@@ -558,7 +558,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Susan Brkich ’86',
-    'Senior Associate Director of Advancement Web Services',
+    'Senior Associate Director of Advancement Communications',
     [
       'phone' => '845-437-5449',
       'email' => 'subrkich@vassar.edu',
@@ -591,7 +591,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Yolanda Johnson',
-    'Assistant Director of Advancement Web Services',
+    'Assistant Director of Advancement Communications – Digital',
     [
       'phone' => '845-437-5440',
       'email' => 'yojohnson@vassar.edu',
