@@ -5,88 +5,71 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2022-11-03/in-the-media/Leah_Goodridge_by_Laura_Merrill.jpg',
+    $media_carousel_path.'/2023-01-09/in-the-media/jason_blum_91_getty_images.jpg',
     'is-link',
-    'A headshot of Leah Goodridge'
+    'A person with short dark hair and a blue jacket smiles at the camera'
   ); ?>
 
-  <p>Leah Goodridge ’04, Managing Attorney for Housing Policy at Mobilization for Justice, Inc., received a Diversity Champion award from the New York City Bar Association and recently spoke on the association’s podcast, <em><a href="https://www.nycbar.org/media-listing/media/detail/professionalism-as-a-racial-construct-podcast">Building Belonging</a></em>, about professionalism as a racial construct.</p><p><em>Photo: Laura Merrill</em></p>
+  <p>Jason Blum ’91, Founder and CEO of Blumhouse Productions, is in advanced talks about merging his company with producer James Wan’s company, Atomic Monster, as noted by the <em>New York Times</em>.</p>
+  <p><em>Photo: Laura Merrill</em></p>
   <?php echo cta_link(
-  'https://www.nycbar.org/media-listing/media/detail/professionalism-as-a-racial-construct-podcast',
+  'https://www.nytimes.com/2022/11/16/business/jason-blum-james-wan-merger.html',
   'Read more',
   'stretched-link'
   ); ?>
-
 <?php echo end_carousel_item(); ?>
 
-<?php echo carousel_item(
-    $media_carousel_path.'/2022-10-12/in-the-media/david_ambroz_02.jpg',
-    'is-link',
-    'A headshot of David Ambroz looking at the camera.'
-  ); ?>
-  <small class="mb-3 d-block">September 16, 2022</small>
-  <p><strong>David Ambroz ’02</strong> spoke to NPR about surviving on the streets of New York City as a homeless child and about his new memoir, <em>A Place Called Home</em>.</p>
-  <?php echo cta_link(
-  'https://www.npr.org/2022/09/13/1122621426/a-place-called-home-is-a-vivid-story-of-author-david-ambrozs-childhood',
-  'Read more',
-  'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
 
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2022-09-16/in-the-media/Victor_Ray_cr_Jill_Tobin_University_of_Iowa.jpg',
+    $media_carousel_path.'/2023-01-09/in-the-media/Amanda_Jones_10_by_Lee_Harcourt.jpg',
     'is-link',
-    'A headshot of Victor Ray ’07, a man with a shaved head, wearing a blue suit and looking at the camera.'
+    'A person with short dark hair and a tank top with jewelry smiles at the camera'
   ); ?>
 
-  <small class="mb-3 d-block">September 16, 2022</small>
-  <p><strong>Victor Ray ’07</strong>, author of <em>On Critical Race Theory: Why It Matters & Why You Should Care</em>, co-wrote a <em>New York Times</em> guest essay, “School Is for Making Citizens.”</p>
-  <p><em>Photo: Jill Tobin, University of Iowa</em></p>
+  <p>Emmy-nominated composer Amanda Jones ’10 spoke about her work with National Geographic TV’s <em>Super/Natural</em> series on <em>The Big Score</em>—detailing how she utilized a vast array of instruments to bring a spectacular universe of animals to life.</p>
+  <p><em>Photo: Lee Harcourt</em></p>
   <?php echo cta_link(
-  'https://www.nytimes.com/2022/09/01/opinion/us-school-citizenship.html',
+  'https://www.youtube.com/watch?v=HmWEC8t8jhQ',
   'Read more',
   'stretched-link'
   ); ?>
-
 <?php echo end_carousel_item(); ?>
 
 
-  <?php echo carousel_item(
-    $media_carousel_path.'/2022-09-08/in-the-media/urvashi_vaid_by_john_abbott.jpg',
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2023-01-09/in-the-media/Mike_Schmidt_by_Brent_Weisberg.jpg',
     'is-link',
-    'A portrait of a person with black hair, wearing a dark suit coat and smiling at the camera'
+    'A person with short brown hair and facial hair smiles at the camera. The person is wearing a dark blue-gray suit.'
   ); ?>
 
-      <small class="mb-3 d-block">August 16, 2022</small>
-      <p><strong>Urvashi Vaid ’79</strong>, a pioneering LGBTQ+ activist who died in May, was the subject of a <em>Ms.</em> magazine article. Photo: <em>John Abbott</em></p>
-
-      <?php echo cta_link(
-        'https://msmagazine.com/2022/08/16/urvashi-vaid/',
-        'Read more',
-        'stretched-link'
-      ); ?>
-
-  <?php echo end_carousel_item(); ?>
+  <p>Mike Schmidt ’03, Multnomah County District Attorney, was the subject of a <em>Portland Monthly</em> feature story.</p>
+  <p><em>Photo: Brent Weisberg</em></p>
+  <?php echo cta_link(
+  'https://www.pdxmonthly.com/news-and-city-life/2022/12/mike-schmidt-multnomah-county-district-attorney-da-portland',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
 
 
-      <?php echo carousel_item(
-        $media_carousel_path.'/2022-09-08/in-the-media/sasha_velour_via_shutterstock.jpg',
-        'is-link',
-        'A portrait of a person with a shaved head, red lips, and long eyelashes, wearing blue jewelry and smiling at the camera'
-      ); ?>
 
-          <small class="mb-3 d-block">August 10, 2022</small>
-          <p>Sasha Velour ’09, a performer, writer, and winner of RuPaul’s Drag Race, was the subject of a Provincetown Magazine article.</p>
 
-          <?php echo cta_link(
-            'https://provincetownmagazine.com/index.php/2022/08/10/a-rose-by-any-other-name/',
-            'Read more',
-            'stretched-link'
-          ); ?>
+<?php echo carousel_item(
+    $media_carousel_path.'/2023-01-09/in-the-media/0211-19-02-kr-tugade-app-vassar-54410-crop.jpg',
+    'is-link',
+    'A person with long dark hair smiles at the camera.'
+  ); ?>
 
-      <?php echo end_carousel_item(); ?>
+  <p>Michele Tugade ’95, Professor of Psychological Science on the William R. Kenan Jr. Chair, was quoted in a <em>HuffPost</em> article about depression and anxiety during the holidays.</p>
+  <p><em>Photo: Karl Rabe</em></p>
+  <?php echo cta_link(
+  'https://www.huffpost.com/entry/holidays-feel-exhausting_l_638e4faae4b07530543d0e62',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
 
 
 
