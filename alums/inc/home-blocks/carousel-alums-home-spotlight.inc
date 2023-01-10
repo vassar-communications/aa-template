@@ -84,7 +84,7 @@
   'A person with long brown hair and a sports visor hits a tennis ball'
 ); ?>
   <h3 class="h3">Innovative Tennis Complex Will Transform the Student-Athlete Experience</h3>
-  <p>Vassar College will build a $2.5 million tennis center on a site known as Ballantine Field, President Elizabeth Bradley announced.</p>
+  <p>Vassar College will build a $2.5 million tennis center on a site known as Ballintine Field, President Elizabeth Bradley announced.</p>
 
   <p><em>Photo: Stockton Photo, Inc</em></p>
 
