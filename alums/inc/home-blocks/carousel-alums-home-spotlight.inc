@@ -22,7 +22,7 @@
   'A person with short graying hair and a beard smiles at the camera. The person is wearing a black jacket and standing in a room with lamps visible in the background.'
 ); ?>
   <h3 class="h3">David Ambroz ’02: From Foster Child to Champion of Change</h3>
-  <p>David Ambroz ’02 spent much of his childhood wandering the streets with his mentally ill mother, begging for food and bathing in public restrooms.</p>
+  <p>David Ambroz ’02 spent much of his childhood wandering the streets with his mentally ill mother, begging for food and bathing in public restrooms. He is now an Amazon executive, a child welfare advocate, and the author of a new memoir.</p>
 
   <p><em> Photo: Karl Rabe</em></p>
 
