@@ -57,13 +57,13 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2023-01-09/in-the-media/0211-19-02-kr-tugade-app-vassar-54410-crop.jpg',
+    $media_carousel_path.'/2023-01-09/in-the-media/0112_18_09_KAr_0216_edit2.jpg',
     'is-link',
     'A person with long dark hair smiles at the camera.'
   ); ?>
 
   <p>Michele Tugade ’95, Professor of Psychological Science on the William R. Kenan Jr. Chair, was quoted in a <em>HuffPost</em> article about depression and anxiety during the holidays.</p>
-  <p><em>Photo: Karl Rabe</em></p>
+  <p><em>Photo: Kevin Arce ’20</em></p>
   <?php echo cta_link(
   'https://www.huffpost.com/entry/holidays-feel-exhausting_l_638e4faae4b07530543d0e62',
   'Read more',
