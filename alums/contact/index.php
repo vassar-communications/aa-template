@@ -953,11 +953,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'TBD',
+    'Mary Callaghan',
     'Research Analyst',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-5413',
+      'email' => 'mcallaghan@vassar.edu',
     ]
 );
 echo end_contact_card();
