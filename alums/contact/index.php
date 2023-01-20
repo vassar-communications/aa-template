@@ -240,7 +240,7 @@ echo end_contact_card();
 
                 echo contact_card(
                     'Kara Montgomery',
-                    'Director of Advancement Project Management',
+                    'Director of Gifts, Records, and Data Management',
                     [
                       'phone' => '845-437-5493',
                       'email' => 'kamontgomery@vassar.edu',
@@ -355,11 +355,11 @@ echo end_contact_card();
 <?php
 
 echo contact_card(
-    'Mary Lou Keenan',
+    'TBD',
     'Manager of Gifts and Records',
     [
-      'phone' => '845-437-5248',
-      'email' => 'makeenan@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
