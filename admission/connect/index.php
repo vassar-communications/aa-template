@@ -107,7 +107,7 @@ $page_info = json_decode($page_info, true);
 <div class="staff-contact mb-5">
     <h3><a class="fixemaillink" href="mailto:jao@vassar.edu">Justin Ao</a></h3>
     <p><em>Admission Counselor</em></p>
-    <p><strong>Regional Responsibilities:</strong> Alaska, Idaho, Iowa, Kansas, Missouri, Montana, Nebraska, North Dakota, Oklahoma, Oregon, Pennsylvania, South Dakota, Texas, Washington, Wyoming, U.S. Territories of American Samoa, Guam, the Northern Mariana Islands<br/><strong>International Responsibilities:</strong> Oceania</p>
+    <p><strong>Regional Responsibilities:</strong> Alaska, Idaho, Iowa, Kansas, Missouri, Montana, Nebraska, New York (Rockland County, Westchester County), North Dakota, Oklahoma, Oregon, Pennsylvania, South Dakota, Texas, Washington, Wyoming, U.S. Territories of American Samoa, Guam, the Northern Mariana Islands<br/><strong>International Responsibilities:</strong> Oceania</p>
     <!-- <a class="fixemaillink" href="mailto:jao@vassar.edu">Email: jao@vassar.edu</a> -->
 </div>
 
@@ -121,7 +121,7 @@ $page_info = json_decode($page_info, true);
 <div class="staff-contact mb-5">
     <h3><a class="fixemaillink" href="mailto:kdoyle@vassar.edu">Kyle Doyle</a></h3>
     <p><em>Senior Assistant Director of Admission</em></p>
-    <p><strong>Regional Responsibilities:</strong> Florida, New York (Central Hudson, Westchester County, Rockland County)<br/><strong>International Responsibilities:</strong> Central Asia, Europe, South Asia</p>
+    <p><strong>Regional Responsibilities:</strong> Florida<br/><strong>International Responsibilities:</strong> Central Asia, Europe, South Asia</p>
     <!-- <a class="fixemaillink" href="mailto:kdoyle@vassar.edu">Email: kdoyle@vassar.edu</a> -->
 </div>
 
@@ -163,7 +163,7 @@ $page_info = json_decode($page_info, true);
 <div class="staff-contact mb-5">
     <h3><a class="fixemaillink" href="mailto:mposton@vassar.edu">Melanie Poston</a></h3>
     <p><em>Associate Director of Admission</em></p>
-    <p><strong>Regional Responsibilities:</strong> Arizona, Colorado, Connecticut, Hawai’i, Illinois, Nevada, New Mexico, Utah</p>
+    <p><strong>Regional Responsibilities:</strong> Arizona, Colorado, Connecticut, Hawai’i, Illinois, Nevada, New Mexico, New York (Central Hudson Valley), Utah</p>
     <!-- <a class="fixemaillink" href="mailto:mposton@vassar.edu">Email: mposton@vassar.edu</a> -->
 </div>
 
