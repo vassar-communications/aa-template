@@ -35,16 +35,16 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-  'Amanda Jones ’10',
-  $alums_news_images_path.'/2023-01-09/Amanda_Jones_10_by_Lee_Harcourt.jpg',
+  'Carrie Goldberg ’99',
+  $alums_news_images_path.'/2023-01-27/carrie_goldberg_SS2_22.jpg',
   'theme-extralightgray',
   '',
-  ['img_alt_text' => 'A person with short dark hair and a tank top with jewelry smiles at the camera']
+  ['img_alt_text' => 'A person with long, brown hair, red lipstick, and a dark suit smiles at the camera']
 ); ?>
 
-<p>Emmy-nominated composer Amanda Jones ’10 spoke about her work with National Geographic TV’s <em>Super/Natural</em> series on <em><a href="https://www.youtube.com/watch?v=HmWEC8t8jhQ&ab_channel=hollywoodrecords">The Big Score</a></em>—detailing how she utilized a vast array of instruments to bring a spectacular universe of animals to life.</p><p><em>Photo: Lee Harcourt</em></p>
+<p>Lawyer <strong>Carrie Goldberg ’99</strong> was interviewed by <a href="https://slate.com/news-and-politics/2023/01/adult-survivors-act-new-york-sexual-assault-carrie-goldberg.html"><em>Slate</em></a> about a new law in New York that will help victims of sexual assault by allowing them to seek compensation in civil court many years later.</p><p><em>Photo: Samuel Stuart</em></p>
 <?php echo cta_link(
-  'https://www.youtube.com/watch?v=HmWEC8t8jhQ&ab_channel=hollywoodrecords',
+  'https://slate.com/news-and-politics/2023/01/adult-survivors-act-new-york-sexual-assault-carrie-goldberg.html',
   'Read more'
 ); ?>
 
@@ -60,24 +60,24 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Michael Wolff ’75',
-        'https://www.nytimes.com/2022/11/15/opinion/donald-trump-campaign-chaos.html',
-        ['url' => $logos_path.'newyorktimes.gif', 'alt' => 'The New York Times logo' ],
+        'Leah Goodridge ’04',
+        'https://www.forbes.com/sites/janicegassam/2022/12/31/legal-scholar-leah-goodridge-unpacks-how-professionalism-is-used-as-a-tool-for-racism/',
+        ['url' => $logos_path.'forbes.gif', 'alt' => 'Forbes logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
 
-        <p>Author <strong>Michael Wolff ’75</strong> wrote a <em>New York Times</em> guest essay, “The Chaos Inside Donald Trump’s Mind.”</p>
+        <p>Tenants’ rights attorney and New York City Planning Commission member <strong>Leah Goodridge ’04</strong> talked about the use of “professionalism” as a tool for racism in a <em>Forbes</em> article.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Carrie Goldberg ’99',
-        'https://www.motherjones.com/politics/2022/11/the-internet-is-full-of-predators-omegle-lets-you-meet-them/',
-        ['url' => $logos_path.'mother-jones.gif', 'alt' => 'Mother Jones logo' ],
+        'Sherrilyn Ifill ’84',
+        'https://www.nybooks.com/online/2023/01/07/a-trusted-guide-sherrilyn-ifill/',
+        ['url' => $logos_path.'new-york-review-of-books.gif', 'alt' => 'New York Review of Books logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p>Lawyer <strong>Carrie Goldberg ’99</strong> was quoted in <em>Mother Jones</em> about online predators and the chat platform Omegle, which is the focus of a lawsuit.</p>
+      <p><strong>Sherrilyn Ifill ’84</strong>, Ford Foundation Senior Fellow and former President and Director-Counsel of the NAACP Legal Defense Fund, talked with the <em>New York Review of Books</em> about affirmative action cases before the Supreme Court and the article she wrote for the Review, “When Diversity Matters.”</p>
 
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
@@ -85,12 +85,12 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'David Ambroz ’02',
-        'https://www.hrc.org/news/this-national-adoption-month-david-ambroz-reflects-on-his-experiences-as-a-queer-youth-in-foster-care-to-galvanize-prospective-families',
-        ['url' => $logos_path.'human-rights-campaign.gif', 'alt' => 'The Human Rights Campaign logo' ],
+        'Meena Miriam Yust ’06',
+        'https://www.commondreams.org/opinion/seals-navigate-with-stars',
+        ['url' => $logos_path.'common-dreams.gif', 'alt' => 'Common Dreams logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p><strong>David Ambroz ’02</strong>, author of <em>A Place Called Home</em> and co-founder of FosterMore.org, talked with the Human Rights Campaign about his experiences.</p>
+        <p><strong>Meena Miriam Yust ’06</strong>, a lawyer, wrote a <em>Common Dreams</em> article, “Seals, Satellites, and Dung Beetles—What Links Them?” which looks at the potential damage of low Earth orbit satellites.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -108,13 +108,14 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
 
     <div class="other-news-item plain-card-1">
-        <p><strong>Sherrilyn Ifill ’84</strong>, former President and Director-Counsel of the NAACP Legal Defense and Educational Fund and current Senior Fellow at the Ford Foundation, received the New York Bar Association Gold Medal Award—the highest honor bestowed by the association—as announced by the <a href="https://nysba.org/2023presidentialgala/">NYSBA</a>.</p>
+        <p><a href="https://www.wusa9.com/article/news/politics/maryland-wes-moore-cabinet-appointments/65-2511f3ae-89a6-4d34-9def-8cbd78edd0b1"><strong>Rafael López ’93</strong> was named Maryland Secretary of Human Services</a>, as noted by WUSA9.</p>
     </div>
 
     <div class="other-news-item plain-card-1">
-        <p><strong>Jason Blum ’91</strong>, Founder and CEO of Blumhouse Productions, is in advanced talks about merging his company with producer James Wan’s company, Atomic Monster, as noted by the <a href="https://www.nytimes.com/2022/11/16/business/jason-blum-james-wan-merger.html"><em>New York Times</em></a>.</p>
+        <p><a href="https://thejewishnews.com/2023/01/09/noted-conductor-to-perform-in-metro-detroit/">Conductor and Chicago Opera Theater Music Director <strong>Lidiya Yankovskaya ’08</strong> was interviewed by the <em>Detroit Jewish News</em>.</a></p>
     </div>
 
+<!--
     <div class="other-news-item plain-card-1">
         <p><strong>Michele Tugade ’95,</strong> Professor of Psychological Science on the William R. Kenan Jr. Chair, was quoted in a <a href="https://www.huffpost.com/entry/holidays-feel-exhausting_l_638e4faae4b07530543d0e62"><em>Huff Post</em></a> article about depression and anxiety during the holidays.</p>
     </div>
@@ -146,15 +147,16 @@ $page_info = json_decode($page_info, true);
     <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><strong>Tom Facchine ’11</strong>, Imam and Director of Religious Affairs of Utica Masjid and Imam of Hamilton College, talked about masculine modesty in Islam on the MM Podcast, as noted by <a href="https://muslimmatters.org/2022/12/13/podcast-beyond-the-matrix-masculinity-modesty-in-islam/">Muslim Matters</a>.</p></div>
 
     <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5">A collaboration between multimedia artists <strong>Andrea Orejarena ’17</strong> and <strong>Caleb Stein ’17</strong>, which culminated in the book Long Time No See and other mediums of expression, was the subject of a <em><a href="https://www.1854.photography/2022/11/long-time-no-see-andrea-orejarena-caleb-stein-vietnam-agent-orange/">British Journal of Photography</a></em> article.</p></div>
-
+-->
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
 
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><strong>Chris Deutsch ’97</strong>, Founder and Managing Partner of the angel investment firm Lofty Ventures, talked with <em><a href="https://www.chicagobusiness.com/private-intelligence/chicago-angel-investor-chris-deutsch-talks-lofty-ventures-private-intelligence">Crain’s Chicago Business</a></em> about his work.</p></div>
+    <div class="other-news-item plain-card-1"><p><a href="https://tntribune.com/local-theatre-company-amplifies-southern-voices/"><strong>Estefanía Fadul ’10</strong> will direct Nayna Agrawal’s <em>Dharma</em> at Studio Tenn</a>, as noted in a <em>Tennessee Tribune</em> story about the play.</p></div>
 
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><strong>Andrew L. Russell ’96</strong>, Professor of History and Dean of the College of Arts and Sciences at SUNY Polytechnic Institute, was appointed Officer In Charge of the institute, as noted by the <em><a href="https://romesentinel.com/stories/new-officer-in-charge-named-at-suny-poly,154468">Daily Sentinel</a></em>.</p></div>
+    <div class="other-news-item plain-card-1"><p><a href="https://medicine.uiowa.edu/md/student-support/opportunities-growth/writing-and-humanities-program/creative-writing-contest">Dr. <strong>Marygrace Elson ’78</strong>, who recently retired from the University of Iowa Carver College of Medicine, wrote the poem <em>Emerita</em>, which won the college’s faculty poetry award</a> and was included in its 2022 Creative Writing Anthology.</p></div>
 
+<!--
     <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><strong>Quinn Kennedy ’93</strong> wrote a <em><a href="https://www.psychologytoday.com/us/blog/aging-and-mindfulness/202212/aging-and-mindfulness">Psychology Today</a></em> article about aging and mindfulness which included research from Nina Smiley ’73 and Michele Tugade ’95.</p></div>
 
     <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15">Self-taught botanist <strong>Margaret Oldenburg</strong>, class of 1915, was the subject of a <em><a href="https://www.mprnews.org/story/2022/11/28/margaret-oldenburg-canadian-arctic-flora-collection-university-minnesota-climate-change">MPR News</a></em> article.</p></div>
@@ -174,7 +176,7 @@ $page_info = json_decode($page_info, true);
     <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="30" data-line-end="31"><strong>Bruce Mendelsohn ’90</strong> was honored at the Worcester Jewish Community Center Veteran’s Day Tribute and spoke to <a href="https://spectrumnews1.com/ma/worcester/news/2022/11/13/jcc-veterans-day-111322">Spectrum News 1</a> about the importance of the event.</p></div>
 
     <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><strong>Sarah Karmon ’97</strong> was named Executive Director of the Harvard Alumni Association, as noted by the <em><a href="https://news.harvard.edu/gazette/story/2022/12/sarah-karmon-named-new-haa-executive-director/">Harvard Gazette</a></em>.</p></div>
-
+-->
   <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>

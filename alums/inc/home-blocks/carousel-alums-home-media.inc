@@ -5,6 +5,50 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 <?php echo carousel_item(
+    $media_carousel_path.'/2023-01-27/in-the-media/carrie_goldberg_SS2_22.jpg',
+    'is-link',
+    'A person with long, brown hair, red lipstick, and a dark suit smiles at the camera'
+  ); ?>
+
+  <p>Lawyer Carrie Goldberg ’99 was interviewed by <em>Slate</em> about a new law in New York that will help victims of sexual assault.</p>
+  <p><em>Photo: Samuel Stuart</em></p>
+  <?php echo cta_link(
+  'https://slate.com/news-and-politics/2023/01/adult-survivors-act-new-york-sexual-assault-carrie-goldberg.html',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2023-01-27/in-the-media/leah_goodridge_by_laura_merrill.jpg',
+    'is-link',
+    'A person with long, brown hair, red lipstick, and a dark suit smiles at the camera'
+  ); ?>
+
+  <p>Tenants’ rights attorney and New York City Planning Commission member Leah Goodridge ’04 unpacks how professionalism is used as a tool for racism in <em>Forbes</em>.</p>
+  <p><em>Photo: Laura Merrill</em></p>
+  <?php echo cta_link(
+  'https://www.forbes.com/sites/janicegassam/2022/12/31/legal-scholar-leah-goodridge-unpacks-how-professionalism-is-used-as-a-tool-for-racism/',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php echo carousel_item(
     $media_carousel_path.'/2023-01-09/in-the-media/jason_blum_91_getty_images.jpg',
     'is-link',
     'A person with short dark hair and a blue jacket smiles at the camera'
