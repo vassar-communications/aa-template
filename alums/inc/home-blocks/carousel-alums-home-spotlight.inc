@@ -5,13 +5,50 @@
 
 
 
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2023-01-27/spotlight/rha-vassar_scc_20230114_kr_0053-crop.jpg',
+  'is-link',
+  'A person with long, curly, crimson hair stands in a wood-paneled room, holding a microphone and smiling at the camera.'
+); ?>
+  <h3 class="h3">Second-Year Students Explore “Where Joy and Fulfillment Lives” at Sophomore Career Connections</h3>
+  <p>Renowned soul coach Rha Goddess ’89 (pictured) gave the keynote address at the ninth annual event.</p>
 
-<?php
-// On return
-// Finish this: https://servicedesk.vassar.edu/incidents/97817517-alums-page-update
-// Ask Morgan why that image wasn't scraped
+  <p><em>Photo: Karl Rabe</em></p>
 
-?>
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/second-year-students-explore-where-joy-and-fulfillment-lives-sophomore-career-connections',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2023-01-27/spotlight/Kenauk-Institute_08.jpg',
+  'is-link',
+  'A person with long, curly, crimson hair stands in a wood-paneled room, holding a microphone and smiling at the camera.'
+); ?>
+  <h3 class="h3">Trustee and Spouse Fund New Environmental Fellowship</h3>
+  <p>A gift from Patrick and Tamar Smith Pichette ’86 will support a two-year conservation fellowship for an alum who will work at a Canadian wilderness preserve and then at the Preserve at Vassar.</p>
+
+  <p><em>Photo: Courtesy of the Kenauk Institute</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/trustee-and-spouse-fund-new-environmental-fellowship',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
+
+
+
 
 
 
@@ -28,27 +65,6 @@
 
   <?php echo cta_link(
     'https://www.vassar.edu/news/david-ambroz-02-foster-child-champion-change',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
-
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-01-09/spotlight/Ph.f7.16-Johnson-Jeh-1.jpg',
-  'is-link',
-  'A black-and-white photo of two people in a room, holding an architectural model. Jeh Johnson is a black man with short, graying hair and is wearing a white, button-down shirt.'
-); ?>
-  <h3 class="h3">ALANA Cultural Center Rededicated in Honor of Its Architect—Jeh Vincent Johnson</h3>
-  <p>Speakers say the late architect and Senior Lecturer was an inspiration and mentor to many.</p>
-
-  <p><em>Photo: Vassar Archives and Special Collections</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/alana-cultural-center-rededicated-honor-its-architect-jeh-vincent-johnson',
     'Read more',
     'stretched-link'
   ); ?>
@@ -97,25 +113,6 @@
 <?php echo end_carousel_item(); ?>
 
 
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2022-11-03/spotlight/meryl-news-story.jpg',
-  'is-link',
-  'Meryl Streep smiling and standing on a stage with two others holding an Award'
-); ?>
-  <h3 class="h3">Meryl Streep ’71, P’08, ’13 Returns to Vassar to Accept AAVC Award</h3>
-  <p>The beloved performer walked into the Chapel to jubilant cheers, then accepted the AAVC Distinguished Achievement Award from classmate Amy Pullman ’71 (left) and AAVC President Monica Vachher ’77.</p>
-
-  <p><em> Photo: Karl Rabe</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/meryl-streep-accepts-aavc-distinguished-achievement-award',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2022-11-03/in-the-media/Bell-Ringing-19x9.jpg',
   'is-link',
@@ -134,65 +131,5 @@
 
 <?php echo end_carousel_item(); ?>
 
-<?php /*
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2022-10-12/spotlight/vassar_feigen_20220929_kr_0074-compressed.jpg',
-  'is-link',
-  'Photo of Amy Pullman ’71 (left) and Monica Vachher ’77 (right), and Brenda Feigen holding an award (center) and smiling with the others.'
-); ?>
-  <h3 class="h3">Feminist Legend Brenda Feigen ’66 Receives Spirit of Vassar Award</h3>
-  <p>Before accepting the award from Amy Pullman ’71 (left) and Monica Vachher ’77 (right), Feigen (center) spoke at the College and told students to embrace activism.</p>
-
-  <p><em>Photo: Karl Rabe</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/feminist-legend-brenda-feigen-66-accepts-spirit-vassar-award-tells-students-embrace-activism',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2022-09-16/spotlight/ifill_alum_spotlight_220915.jpg',
-  'is-link',
-  'Three people smile at the camera while standing in the Vassar chapel: a large, well-lit, stone-walled space'
-); ?>
-  <h3 class="h3">Meeting the Urgency of the Moment</h3>
-  <p>Honored by the American Bar Association, Sherrilyn Ifill ’84 implored legal colleagues to help save American democracy.</p>
-
-  <p><em>Photo: Courtesy of the American Bar Association</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/meeting-urgency-moment',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
-
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2022-09-08/spotlight/Raina-0111-22-08-kr-convocation-vassar-0188.jpg',
-  'is-link',
-  'Three people smile at the camera while standing in the Vassar chapel: a large, well-lit, stone-walled space'
-); ?>
-  <h3 class="h3">Convocation 2022</h3>
-  <p>Arushi Raina ’14 (center), pictured with AAVC President Monica Vachher ’77 (left) and Stephanie Goldberg ’14, was presented with the Young Alumnae/i Achievement Award.</p>
-
-  <p><em>Photo: Karl Rabe</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/convocation-2022',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-*/ ?>
 
 <?php echo end_carousel(); ?>
