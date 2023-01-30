@@ -121,14 +121,14 @@ $page_info = json_decode($page_info, true);
 <div class="staff-contact mb-5">
     <h3><a class="fixemaillink" href="mailto:kdoyle@vassar.edu">Kyle Doyle</a></h3>
     <p><em>Senior Assistant Director of Admission</em></p>
-    <p><strong>Regional Responsibilities:</strong> Florida<br/><strong>International Responsibilities:</strong> Central Asia, Europe, South Asia</p>
+    <p><strong>Regional Responsibilities:</strong> Florida<br/><strong>International Responsibilities:</strong> Central Asia, South Asia</p>
     <!-- <a class="fixemaillink" href="mailto:kdoyle@vassar.edu">Email: kdoyle@vassar.edu</a> -->
 </div>
 
 <div class="staff-contact mb-5">
     <h3><a class="fixemaillink" href="mailto:jgallagher@vassar.edu">James Gallagher</a></h3>
     <p><em>Admission Counselor</em></p>
-    <p><strong>Regional Responsibilities:</strong> Massachusetts (Eastern), New York (Brooklyn, Manhattan)<br/><strong>International Responsibilities:</strong> Middle East, Southeast Asia</p>
+    <p><strong>Regional Responsibilities:</strong> Massachusetts (Eastern), New York (Brooklyn)<br/><strong>International Responsibilities:</strong> Middle East, Southeast Asia</p>
     <!-- <a class="fixemaillink" href="mailto:jgallagher@vassar.edu">Email: jgallagher@vassar.edu</a> -->
 </div>
 
