@@ -10,7 +10,7 @@
   'is-link',
   'A person with long, curly, crimson hair stands in a wood-paneled room, holding a microphone and smiling at the camera.'
 ); ?>
-  <h3 class="h3">Second-Year Students Explore “Where Joy and Fulfillment Lives” at Sophomore Career Connections</h3>
+  <h3 class="h3">Second-Year Students Explore ‘Where Joy and Fulfillment Lives’ at Sophomore Career Connections</h3>
   <p>Renowned soul coach Rha Goddess ’89 (pictured) gave the keynote address at the ninth annual event.</p>
 
   <p><em>Photo: Karl Rabe</em></p>
