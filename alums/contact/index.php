@@ -822,7 +822,7 @@ echo contact_card(
     'Joe Mastracchio',
     'Assistant Director of Leadership Gifts',
     [
-      'phone' => '845-437-5420',
+      'phone' => '845-437-5433',
       'email' => 'jmastracchio@vassar.edu',
     ]
 );

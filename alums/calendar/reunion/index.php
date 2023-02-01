@@ -40,10 +40,11 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'two people walking and smiling in a large group of people']
 ); ?>
-<p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 3s and 8s on campus for Reunion, June 2–4, 2023 (the 50th Reunion class arrives on June 1). Please help us prepare for your arrival by expressing your interest to attend below.</p>
+<p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 3s and 8s on campus for Reunion, June 2–4, 2023 (the 50th Reunion class arrives on June 1).</p>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+<?php /* Hiding this section as of February 1st =====
 
 <?php echo sec_hasColumns(
     'Express Your Interest in Attending',
@@ -135,9 +136,11 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_hasColumns(); ?>
 
+===End hiding section */ ?>
+
 <?php echo sec_regularContent(
   null,
-  'pt-0',
+  '',
   ''
 ); ?>
 
@@ -145,7 +148,7 @@ $page_info = json_decode($page_info, true);
 
   <h3>Future Reunion Dates</h3>
 
-  <p>May 31–June 1, 2024<br>
+  <p>May 31–June 2, 2024<br>
   June 6–8, 2025</p>
 
 
