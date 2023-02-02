@@ -42,7 +42,7 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <h1 class="display-3 mb-4">Add Vassar Talent to Your Team</h1>
     <p class="mb-3">Vassar students and alums are great candidates for internships and positions at all levels within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
-    <a href="https://offices.vassar.edu/careers/info/employers/" class="px-0 btn btn-link mt-5 arrow">Information for Employers</a>
+    <a href="https://offices.vassar.edu/career-education/info/employers/" class="px-0 btn btn-link mt-5 arrow">Information for Employers</a>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
