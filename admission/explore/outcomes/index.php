@@ -74,17 +74,17 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Career Development',
+    'Career Education',
     $admission_img_path.'explore/outcomes/110619_160over90_Vassar_4689.jpg',
     'image-is-first theme-burgundy quad-pattern has-bg',
     '',
     ['img_alt_text' => 'A student with dark hair and a mustache sits at a desk in a classroom, next to a giant map of the world.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>The Career Development Office helps students and alums envision—then realize—a meaningful life after Vassar. The CDO assists students in choosing their major, offers resume and cover letter workshops, and provides networking opportunities.</p>
+    <p>The Center for Career Education helps students and alums envision—then realize—a meaningful life after Vassar. The CCE assists students in choosing their major, offers resume and cover letter workshops, and provides networking opportunities.</p>
     <?php echo cta_link(
-        'https://offices.vassar.edu/careers/',
-        'Visit the Career Development Office'
+        'https://offices.vassar.edu/career-education/',
+        'Visit the Center for Career Education'
     ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -173,12 +173,12 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Pre-Law',
-        'https://offices.vassar.edu/careers/graduate-and-law/law-school/',
+        'https://offices.vassar.edu/career-education/graduate-and-law/law-school/',
         ['url' => '/admission/assets/images/quick-facts/academics/0100_16_09_KR_0090.jpg',
         'alt' => 'Graduate in audience with dramatic lighting' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
     ); ?>
-        <p>Pre-law Advising is handled by the Office of Career Development, also with faculty support. Both encourage students to come to their offices to discuss any questions they have with respect to pre-law studies and the law school application process.</p>
+        <p>Pre-law Advising is handled by the Center for Career Education, also with faculty support. Both encourage students to come to their offices to discuss any questions they have with respect to pre-law studies and the law school application process.</p>
     <?php echo end_item_cardWithText('Learn more'); ?>
   <?php echo end_item_col(); ?>
 
