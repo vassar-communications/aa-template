@@ -44,15 +44,15 @@ $page_info = json_decode($page_info, true);
 
 
 <ul class="linked-list">
-<!--  <li>
+  <li>
     <?php echo item_link_VideoModal(
         'Watch the video',
-        'https://player.vimeo.com/video/574099032?h=59bf2d53a8',
+        'https://player.vimeo.com/video/788023992',
         'vimeo',
         '',
         'no-arrow'
     ); ?>
-  </li> -->
+  </li>
 		<li><a href="https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards">Read about the recipient</a></li>
 	</ul>
 

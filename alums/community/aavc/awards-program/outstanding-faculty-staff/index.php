@@ -42,16 +42,15 @@ $page_info = json_decode($page_info, true);
 <h4>Edward Pittman ’82, Senior Associate Dean of the College (Retired)</h4>
 
 <ul class="linked-list">
-  <!--
   <li>
     <?php echo item_link_VideoModal(
         'Watch the video',
-        'https://player.vimeo.com/video/637580661?h=2fa683eea6',
+        'https://player.vimeo.com/video/788004126',
         'vimeo',
         '',
         'no-arrow'
     ); ?>
-  </li>-->
+  </li>
 
 	<li><a href="https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards">Read about the recipient</a></li>
 </ul>
