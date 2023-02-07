@@ -91,15 +91,14 @@ $page_info = json_decode($page_info, true);
 <h6 class="tagline">2022 Recipient</h6>
 <h1>Deborah Macfarlan Enright ’82</h1>
 
-<!--
+
 <p><?php echo item_link_VideoModal(
     'Watch the video',
-    'https://player.vimeo.com/video/574099032',
+    'https://player.vimeo.com/video/788023992',
     'vimeo',
     '',
     'no-arrow btn-link mt-4'
 ); ?></p>
--->
 
 <?php echo cta_link(
     'https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards',
@@ -177,15 +176,13 @@ $page_info = json_decode($page_info, true);
 <h1>Edward Pittman ’82</h1>
 <p class="intro-text">Senior Associate Dean of the College (Retired)</p>
 
-<!--
 <p><?php echo item_link_VideoModal(
     'Watch the video',
-    'https://player.vimeo.com/video/637580661',
+    'https://player.vimeo.com/video/788004126',
     'vimeo',
     '',
     'no-arrow btn-link mt-4'
 ); ?></p>
--->
 
 <?php echo cta_link(
     'https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards',
