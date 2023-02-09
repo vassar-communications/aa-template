@@ -41,7 +41,16 @@ $page_info = json_decode($page_info, true);
 <h4>Meryl Streep ’81, P’08, ’13</h4>
 
 <ul class="linked-list">
-  <li><a href="https://www.vassar.edu/news/meryl-streep-accepts-aavc-distinguished-achievement-award">Read about the recipient</a></li>
+  <li>
+    <?php echo item_link_VideoModal(
+        'Watch the video',
+        'https://player.vimeo.com/video/759696598',
+        'vimeo',
+        '',
+        'no-arrow'
+    ); ?>
+  </li>
+  <li><a href="https://www.vassar.edu/news/meryl-streep-accepts-aavc-distinguished-achievement-award">Read more about Streep in the October 2022 <em>Vassar Stories</em> article</a></li>
 </ul>
 
 

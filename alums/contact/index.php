@@ -903,11 +903,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'TBD',
+    'Monika Kort',
     'Office Specialist',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-5350',
+      'email' => 'mkort@vassar.edu',
     ]
 );
 echo end_contact_card();

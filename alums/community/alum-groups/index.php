@@ -74,7 +74,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'People holding up Vassar Class of 1982 Banner at Reunion']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-<p>Everyone who matriculates at Vassar is a member of a Vassar Class. Classes plan reunions and mini-reunions, manage social media pages, reach out to one another about supporting the college, and enjoy each other’s updates in the Class notes section of <em>The Vassar Quarterly</em> magazine. Classes last for a lifetime and represent the largest organizing alums community.</p>
+<p>Everyone who matriculates at Vassar is a member of a Vassar Class. Classes plan reunions and mini-reunions, manage social media pages, reach out to one another about supporting the college, and enjoy each other’s updates in the Class notes section of the <em>Vassar Quarterly</em> magazine. Classes last for a lifetime and represent the largest organizing alums community.</p>
 
 <?php /*
     <p>If you are interested in participating in Class activities, reach out to Diana Jedlicka at <a href="mailto:djedlicka@vassar.edu">djedlicka@vassar.edu</a> or <?php echo phone_number('845-437-5398'); ?>.</p>
