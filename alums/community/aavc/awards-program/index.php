@@ -56,15 +56,28 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-community/aavc/awards/0046_14_01_SS2_089.jpg',
+    '/alums/assets/img/alums-community/aavc/awards/Vassar_Streep_20221013_KR_0063-square.jpg',
     'image-is-first',
     '',
     ['img_alt_text' => 'Meryl Streep ’71, P’08, ’13']
 ); ?>
 <h6 class="tagline">2021 Recipient</h6>
 <h1>Meryl Streep ’71, P’08, ’13</h1>
-<p class="intro-text">The award presentation for Meryl Streep was held on October 13, 2022. A recording of the event will be available soon.</p>
-<a href="https://www.vassar.edu/news/meryl-streep-accepts-aavc-distinguished-achievement-award" class="btn btn-link arrow">Read more</a>
+
+<p><?php echo item_link_VideoModal(
+    'Watch the video',
+    'https://player.vimeo.com/video/759696598',
+    'vimeo',
+    '',
+    'no-arrow btn-link mt-4'
+); ?></p>
+
+<?php echo cta_link(
+    'https://www.vassar.edu/news/meryl-streep-accepts-aavc-distinguished-achievement-award',
+     'Read more'
+); ?>
+
+
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
