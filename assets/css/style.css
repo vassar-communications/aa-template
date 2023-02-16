@@ -9031,19 +9031,40 @@ progress {
     display: none !important;
   }
 }
+/*
+@font-face{
+  font-family: 'Source Sans Variable';
+  font-weight: 200 900;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('https://assets.codepen.io/49012/SourceSansVariable-Roman.ttf.woff2') format('woff2'),
+  url('https://assets.codepen.io/49012/SourceSansVariable-Roman.ttf.woff') format('woff'),
+  url('https://assets.codepen.io/49012/SourceSansVariable-Roman.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Source Sans Variable';
+  font-weight: 200 900;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf.woff2') format('woff2'),
+  url('https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf.woff') format('woff'),
+  url('https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf') format('truetype');
+}
+*/
 @font-face {
   font-family: "Source Sans Variable";
   font-weight: 200 900;
   font-style: normal;
   font-stretch: normal;
-  src: url("https://assets.codepen.io/49012/SourceSansVariable-Roman.ttf.woff2") format("woff2"), url("https://assets.codepen.io/49012/SourceSansVariable-Roman.ttf.woff") format("woff"), url("https://assets.codepen.io/49012/SourceSansVariable-Roman.ttf") format("truetype");
+  src: url("../fonts/WOFF2/VAR/SourceSansVariable-Roman.ttf.woff2") format("woff2"), url("../fonts/WOFF/VAR/SourceSansVariable-Roman.ttf.woff") format("woff"), url("../fonts/VAR/SourceSansVariable-Roman.ttf") format("truetype");
 }
 @font-face {
   font-family: "Source Sans Variable";
   font-weight: 200 900;
   font-style: italic;
   font-stretch: normal;
-  src: url("https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf.woff2") format("woff2"), url("https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf.woff") format("woff"), url("https://assets.codepen.io/49012/SourceSansVariable-Italic.ttf") format("truetype");
+  src: url("../fonts/WOFF2/VAR/SourceSansVariable-Italic.ttf.woff2") format("woff2"), url("../fonts/WOFF/VAR/SourceSansVariable-Italic.ttf.woff") format("woff"), url("../fonts/VAR/SourceSansVariable-Italic.ttf") format("truetype");
 }
 .intro-line {
   font-size: 1.25rem;
@@ -10099,7 +10120,7 @@ h2.border-animate:after, .border-animate.h2:after {
   color: #333;
 }
 
-.item-dropdown summary, details summary {
+.item-dropdown summary, details.dropdown--basic summary {
   border: 1px solid transparent;
   outline: none;
   padding: 1rem;
@@ -10111,25 +10132,25 @@ h2.border-animate:after, .border-animate.h2:after {
   font-variation-settings: "wght" 340;
 }
 @media (min-width: 1200px) {
-  .item-dropdown summary, details summary {
+  .item-dropdown summary, details.dropdown--basic summary {
     font-size: 1.6rem;
   }
 }
-.item-dropdown summary:focus, details summary:focus {
+.item-dropdown summary:focus, details.dropdown--basic summary:focus {
   border-color: #0e0e0e;
 }
 
-details {
+details.dropdown--basic {
   margin-left: 1rem;
   margin-right: 1rem;
 }
-details:not(:last-of-type) {
+details.dropdown--basic:not(:last-of-type) {
   border-bottom: 1px solid var(--dropdown-border-color, #dee2e6);
 }
-details summary span {
+details.dropdown--basic summary span {
   transition: 0.4s all ease;
 }
-details summary span:before {
+details.dropdown--basic summary span:before {
   content: "";
   line-height: 0;
   font-size: 2.25rem;
@@ -10146,10 +10167,10 @@ details summary span:before {
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
 }
-details summary span::-webkit-details-marker {
+details.dropdown--basic summary span::-webkit-details-marker {
   display: none;
 }
-details[open] summary span {
+details.dropdown--basic[open] summary span {
   font-variation-settings: "wght" 800;
   font-size: 2.25rem;
 }
@@ -10159,7 +10180,7 @@ details[open] summary span {
   padding: 0 2rem 1.6rem 2rem;
 }
 
-details[open] summary span:before {
+details[open].dropdown--basic summary span:before {
   color: var(--dropdown-closebox-closeme-color, #e00);
   font-weight: bold;
 }
@@ -10175,7 +10196,7 @@ button.accordion-button:focus {
   color: #fff;
 }
 
-details[open] {
+details[open].dropdown--basic {
   background: #eeeeee;
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
 }
@@ -10202,6 +10223,34 @@ details.open .dropdown__content {
 
 .dropdown--feature summary::-webkit-details-marker {
   display: none;
+}
+.dropdown--feature summary span {
+  transition: 0.4s all ease;
+}
+.dropdown--feature summary span:before {
+  content: "";
+  line-height: 0;
+  font-size: 2.25rem;
+  font-weight: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--dropdown-closebox-openme-color, #63666A);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1em;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+.dropdown--feature[open] summary span {
+  font-variation-settings: "wght" 800;
+  font-size: 2.25rem;
+}
+.dropdown--feature[open] summary span:before {
+  color: var(--dropdown-closebox-closeme-color, #e00);
+  font-weight: bold;
 }
 .dropdown--feature summary {
   font-size: 2.25rem;
@@ -14467,6 +14516,44 @@ ul.style-checklist a, ul.style-checklist .video-modal-link {
   font-size: 1.6rem;
   position: sticky;
   top: 3rem;
+}
+
+.schedule-item__content {
+  padding-left: 2rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.schedule-item {
+  padding: 0.4rem;
+  border-bottom: 1px solid #eee;
+}
+.schedule-item summary {
+  display: grid;
+  grid-template-columns: 2rem 1fr 3fr;
+  position: relative;
+}
+.schedule-item summary:before {
+  font-size: 1.2rem;
+  content: "+";
+  display: block;
+  width: 1.2rem;
+  height: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  transition: 0.1s all linear;
+  font-weight: normal;
+}
+.schedule-item summary:hover {
+  cursor: pointer;
+}
+.schedule-item[open] summary {
+  font-weight: bold;
+}
+.schedule-item[open] summary:before {
+  transform: rotate(45deg);
 }
 
 /* Basic links */

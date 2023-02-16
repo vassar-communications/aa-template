@@ -1,0 +1,41 @@
+.schedule-item__content {
+  padding-left: 2rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+.schedule-item {
+  padding: 0.4rem;
+  border-bottom: 1px solid #eee;
+
+  summary {
+    display: grid;
+    grid-template-columns: 2rem 1fr 3fr;
+    position: relative;
+
+    &:before {
+      $size: 1.2rem;
+      font-size: $size;
+      content: '+';
+      display: block;
+      width: $size;
+      height: $size;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      line-height: 0;
+      transition: 0.1s all linear;
+      font-weight: normal;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &[open] summary {
+    font-weight: bold;
+
+    &:before {
+      transform: rotate(45deg);
+    }
+  }
+}
