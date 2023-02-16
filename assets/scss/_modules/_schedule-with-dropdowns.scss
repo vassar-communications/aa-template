@@ -3,17 +3,41 @@
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
 }
+
 .schedule-item {
-  padding: 0.4rem;
-  border-bottom: 1px solid #eee;
+//  padding: 0.4rem;
+
+
+  padding: 0;
+  border-top: 1px solid #eee;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &[open]:hover {
+    cursor: unset;
+  }
+
+  .schedule-item__title {
+    transition: 0.1s all linear;
+  }
 
   summary {
     display: grid;
     grid-template-columns: 2rem 1fr 3fr;
     position: relative;
 
+    font-family: var(--sansSerif);
+    font-size: var(--regularContent-font-size);
+    font-variation-settings: var(--regularContent-font-weight);
+    line-height: var(--regularContent-lineHeight);
+
+padding: 0.8rem;
+
+//    transition: 0.4s all ease;
+
     &:before {
-      $size: 1.2rem;
+      $size: calc(1.8rem + 0.18vw);
       font-size: $size;
       content: '+';
       display: block;
@@ -24,18 +48,62 @@
       align-items: center;
       line-height: 0;
       transition: 0.1s all linear;
-      font-weight: normal;
+      font-variation-settings: "wght" 200;
     }
 
     &:hover {
       cursor: pointer;
+
+      &:before {
+        font-variation-settings: "wght" 700;
+        color: var(--bs-red);
+      }
     }
   }
-  &[open] summary {
-    font-weight: bold;
 
-    &:before {
-      transform: rotate(45deg);
+  &[open] {
+    background: var(--color-vassar-verylightgray);
+    border-color: #666;
+//    margin-bottom: 2px;
+
+    .schedule-item__title {
+      font-variation-settings: "wght" 460;
     }
+
+    summary {
+      &:before {
+        transform: rotate(45deg);
+        font-variation-settings: "wght" 700;
+        color: var(--bs-red);
+      }
+      &:hover {
+        &:before {
+          color: #222;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+h3.schedule-item__heading {
+  background: #fff;
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+  margin: 0;
+  padding: 0.8rem 0.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+
+details.schedule-item[open] {
+  .schedule-item__time,
+  .schedule-item__title {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.2rem;    
   }
 }

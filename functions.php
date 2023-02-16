@@ -52,6 +52,7 @@ include($project_paths['main_project_root'].'/core/atoms/centralized-links.inc')
 /* Items */
 
 include($project_paths['main_project_root'].'/core/items/dropdown.inc');
+include($project_paths['main_project_root'].'/core/items/dropdown-schedule.inc');
 include($project_paths['main_project_root'].'/core/items/stat.inc');
 include($project_paths['main_project_root'].'/core/items/alert.inc');
 include($project_paths['main_project_root'].'/core/items/iconItem.inc');

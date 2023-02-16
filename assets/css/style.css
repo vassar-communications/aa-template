@@ -14525,35 +14525,78 @@ ul.style-checklist a, ul.style-checklist .video-modal-link {
 }
 
 .schedule-item {
-  padding: 0.4rem;
-  border-bottom: 1px solid #eee;
+  padding: 0;
+  border-top: 1px solid #eee;
+}
+.schedule-item:hover {
+  cursor: pointer;
+}
+.schedule-item[open]:hover {
+  cursor: unset;
+}
+.schedule-item .schedule-item__title {
+  transition: 0.1s all linear;
 }
 .schedule-item summary {
   display: grid;
   grid-template-columns: 2rem 1fr 3fr;
   position: relative;
+  font-family: var(--sansSerif);
+  font-size: var(--regularContent-font-size);
+  font-variation-settings: var(--regularContent-font-weight);
+  line-height: var(--regularContent-lineHeight);
+  padding: 0.8rem;
 }
 .schedule-item summary:before {
-  font-size: 1.2rem;
+  font-size: calc(1.8rem + 0.18vw);
   content: "+";
   display: block;
-  width: 1.2rem;
-  height: 1.2rem;
+  width: calc(1.8rem + 0.18vw);
+  height: calc(1.8rem + 0.18vw);
   display: flex;
   justify-content: center;
   align-items: center;
   line-height: 0;
   transition: 0.1s all linear;
-  font-weight: normal;
+  font-variation-settings: "wght" 200;
 }
 .schedule-item summary:hover {
   cursor: pointer;
 }
-.schedule-item[open] summary {
-  font-weight: bold;
+.schedule-item summary:hover:before {
+  font-variation-settings: "wght" 700;
+  color: var(--bs-red);
+}
+.schedule-item[open] {
+  background: var(--color-vassar-verylightgray);
+  border-color: #666;
+}
+.schedule-item[open] .schedule-item__title {
+  font-variation-settings: "wght" 460;
 }
 .schedule-item[open] summary:before {
   transform: rotate(45deg);
+  font-variation-settings: "wght" 700;
+  color: var(--bs-red);
+}
+.schedule-item[open] summary:hover:before {
+  color: #222;
+}
+
+h3.schedule-item__heading, .schedule-item__heading.h3 {
+  background: #fff;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 0.8rem 0.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+details.schedule-item[open] .schedule-item__time,
+details.schedule-item[open] .schedule-item__title {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.2rem;
 }
 
 /* Basic links */
