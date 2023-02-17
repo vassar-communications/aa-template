@@ -22,15 +22,27 @@ $formatted_location = '';
 
   $css = get_extras_value('css', $extras, 'style="%s"');
 
-return <<<TMP
-<details class="schedule-item $classes" $css>
-  <summary>
-    <span class="schedule-item__time">$time</span>
-    <span class="schedule-item__title">$title</span>
-  </summary>
-  <div class="schedule-item__content">
-$formatted_location
-TMP;
+  if( get_extras_value('noContent', $extras) ) {
+    return <<<TMP
+    <div class="schedule-item schedule-item--noContent $classes" $css>
+      <p class="schedule-item__header">
+        <span class="schedule-item__time">$time</span>
+        <span class="schedule-item__title">$title</span>
+      </p>
+    </div>
+    TMP;
+  }
+  else {
+    return <<<TMP
+    <details class="schedule-item schedule-item--hasContent $classes" $css>
+      <summary class="schedule-item__header">
+        <span class="schedule-item__time">$time</span>
+        <span class="schedule-item__title"><span>$title</span></span>
+      </summary>
+      <div class="schedule-item__content">
+    $formatted_location
+    TMP;
+  }
 }
 
 

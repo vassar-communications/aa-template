@@ -45,7 +45,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-      'Watch a video of Arushi Raina ’14’s award acceptance remarks',
+      'Watch Raina’s award acceptance remarks',
         'https://player.vimeo.com/video/745469490',
         'vimeo',
         '',
@@ -68,7 +68,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-      'Watch a video of Marie Dugo Dilemani ’11’s award acceptance remarks',
+      'WatchDilemani’s award acceptance remarks',
         'https://player.vimeo.com/video/637612799?h=4c2b5a1293',
         'vimeo',
         '',
@@ -102,14 +102,14 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-      'Watch a video of Xiaoyuan Ren ’13’s award acceptance remarks',
+      'Watch Ren’s award acceptance remarks',
         'https://www.youtube.com/embed/UY5tKY9kVJ8',
         'youtube',
         '',
         'no-arrow'
     ); ?>
   </li>
-    <li><a href="https://stories.vassar.edu/2018/180918-making-an-immediate-impact-in-the-world.html">Read more about Ren in the September 2018 <em>Vassar Stories</em> article.</a></li>
+    <li><a href="https://stories.vassar.edu/2018/180918-making-an-immediate-impact-in-the-world.html">Read more about Ren in the September 2018 <em>Vassar Stories</em> article</a></li>
 </ul>
 
 <h3 class="mt-5">2017</h3>
@@ -119,14 +119,14 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
 <li>
   <?php echo item_link_VideoModal(
-    'Watch a video of Marguerite O’Haire ’08’s award acceptance remarks',
+    'Watch O’Haire’s award acceptance remarks',
       'https://www.youtube.com/embed/u44NpcIgbXM',
       'youtube',
       '',
       'no-arrow'
   ); ?>
   </li>
-    <li><a href="http://stories.vassar.edu/2017/170912-fall-convocation.html">Read more about O’Haire in the September 2017 <em>Vassar Stories</em> article.</a></li>
+    <li><a href="http://stories.vassar.edu/2017/170912-fall-convocation.html">Read more about O’Haire in the September 2017 <em>Vassar Stories</em> article</a></li>
 </ul>
 
 <?php echo end_sec_regularContent(); ?>

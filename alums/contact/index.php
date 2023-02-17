@@ -261,17 +261,6 @@ echo end_contact_card();
 
 
                 echo contact_card(
-                    'Jeffrey Holl',
-                    'Assistant Director of Advancement Services',
-                    [
-                      'phone' => '845-437-5466',
-                      'email' => 'jholl@vassar.edu',
-                    ]
-                );
-                echo end_contact_card();
-
-
-                echo contact_card(
                     'Jennifer Ruedebusch',
                     'Office Specialist',
                     [
@@ -320,6 +309,17 @@ echo contact_card(
       'email' => 'jconnolly@vassar.edu',
     ]
 );
+echo end_contact_card();
+
+
+echo contact_card(
+    'Jeffrey Holl',
+       'Assistant Director of Advancement Services',
+     [
+   'phone' => '845-437-5466',
+      'email' => 'jholl@vassar.edu',
+     ]
+    );
 echo end_contact_card();
 
 
@@ -590,21 +590,22 @@ echo end_contact_card();
 
 
 echo contact_card(
+    'Heather Clark',
+    'Assistant Director of Advancement Communications Content',
+    [
+      'phone' => '',
+      'email' => 'heatherclark@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
     'Yolanda Johnson',
     'Assistant Director of Advancement Communications – Digital',
     [
       'phone' => '845-437-5440',
       'email' => 'yojohnson@vassar.edu',
-    ]
-);
-echo end_contact_card();
-
-echo contact_card(
-    'TBD',
-    'Assistant Director of Advancement Communications Content',
-    [
-      'phone' => '',
-      'email' => '',
     ]
 );
 echo end_contact_card();

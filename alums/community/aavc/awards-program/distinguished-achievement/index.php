@@ -43,7 +43,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-        'Watch the video',
+        'Watch Streep’s acceptance remarks',
         'https://player.vimeo.com/video/759696598',
         'vimeo',
         '',
@@ -61,7 +61,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-        'Watch the video',
+        'Watch a fireside chat conversation with Carlstrom',
         'https://player.vimeo.com/video/508572472',
         'vimeo',
         '',
@@ -69,7 +69,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
   </li>
   <li>
-    <a href="https://read.nxtbook.com/vassar/vq/summer_fall_2020/the_aavc_announces_annual_awa.html#">Read more about Carlstrom in the Summer/Fall 2020&nbsp;<em>Vassar Quarterly</em>&nbsp;magazine</a>
+    <a href="https://read.nxtbook.com/vassar/vq/summer_fall_2020/the_aavc_announces_annual_awa.html#">Read more about Carlstrom in the Summer/Fall 2020&nbsp;<em>VQ</em>&nbsp;article</a>
   </li>
 </ul>
 
@@ -91,7 +91,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-        'Watch the video',
+        'Watch Povich’s acceptance remarks',
         'https://www.youtube.com/embed/UY5tKY9kVJ8',
         'youtube',
         '',
@@ -111,7 +111,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-        'Watch the video',
+        'Watch Farenthold’s acceptance remarks',
         'https://www.youtube.com/embed/u44NpcIgbXM',
         'youtube',
         '',
@@ -163,7 +163,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-        'Watch the video',
+        'Watch Sternhagen’s acceptance remarks',
         'https://www.youtube.com/embed/xXuVmjduFQI',
         'youtube',
         '',
@@ -183,7 +183,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-        'Watch the video',
+        'Watch a lecture by Zabin',
         'https://www.youtube.com/embed/qNTLtexVkCI',
         'youtube',
         '',
