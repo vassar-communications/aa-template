@@ -82,7 +82,7 @@ $page_info = json_decode($page_info, true);
 <p>All AAVC Board members are expected to support the Vassar Fund. While the amount of a board member’s gift is entirely discretionary, 100 percent participation by the board is extremely important.</p>
 
 <h3 id="g2">Position Descriptions</h3>
-<h4 id="  g2q1">AAVC President and AAVC Trustee</h4>
+<h4 id="g2q1">AAVC President and AAVC Trustee</h4>
 <p>The President of the AAVC is the chief elected officer and chair of the AAVC Board. In this capacity, the President serves as an AAVC Trustee, and also serves on the Executive Committee of the Vassar College Board of Trustees. The President provides strategic leadership for the AAVC, including in policy making and in establishing goals and directions. The President also serves as the key liaison between the AAVC and Vassar College.</p>
 <p>In addition to presiding at all meetings of the AAVC Board, the President serves ex officio on all board committees and any ad hoc committees established for specific purposes. The President also presides at the Annual Meeting of the AAVC in June.</p>
 <p>In fulfilling his/her role, the President is assisted by the Vice President for Operations and the Vice President for Strategic Planning of the AAVC Board, as well as by the Associate Vice President and Executive Director of the AAVC.</p>
