@@ -23,13 +23,17 @@
     padding: 0.8rem;
     margin: 0;
 
+    /*
     &:before {
       content: '';
     }
+    */
+
   }
 
   &[open] {
     background: var(--color-vassar-verylightgray);
+    background: var(--color-vassar-cream);
     border-color: #666;
 //    margin-bottom: 2px;
 
@@ -73,10 +77,13 @@
   .schedule-item__header {
     grid-template-columns: 2rem 2fr 4fr;
 
+/*
     &:before {
       $size: calc(1.8rem + 0.18vw);
       font-size: $size;
-      content: '+';
+      content: "\f05a";
+      font-family: "Font Awesome 6 Free";
+      font-weight: 400;
       display: block;
       width: $size;
       height: $size;
@@ -87,10 +94,14 @@
       transition: 0.1s all linear;
       font-variation-settings: "wght" 200;
     }
-
+*/
     &:hover {
       cursor: pointer;
       background: #eee;
+
+      .schedule-item__icon {
+        color: #f00;
+      }
 
       .schedule-item__title span  {
         border-color: #333;
@@ -104,7 +115,11 @@
   }
 }
 
-
+.schedule-item[open]:hover {
+  .schedule-item__header {
+    background: var(--color-vassar-cream);
+  }
+}
 
 
 h3.schedule-item__heading {
@@ -133,4 +148,12 @@ details > summary {
 
 details > summary::-webkit-details-marker {
     display: none;
+}
+
+
+
+.schedule-item__icon {
+  display: block;
+  padding-top: 0.3rem;
+  color: var(--color-vassar-burgundy);
 }
