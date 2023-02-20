@@ -1,7 +1,7 @@
 on:
   push:
     branches: 
-      - staging
+      - dev
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -14,6 +14,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp.aa-staging.vassarspaces.net
-        username: ${{ secrets.staging_username }}
-        password: ${{ secrets.staging_ftp_password }}
+        server: ftp.summer-immersion.vassarspaces.net
+        username: ${{ secrets.vassar_user }}
+        password: ${{ secrets.vassar_pass }}
