@@ -14487,6 +14487,7 @@ ul.style-checklist a, ul.style-checklist .video-modal-link {
   padding: 0.4rem 0rem 0.4rem 1rem;
 }
 
+/* */
 .pres-member {
   display: grid;
   grid-template-columns: 1fr 6fr;
@@ -14542,6 +14543,7 @@ ul.style-checklist a, ul.style-checklist .video-modal-link {
   top: 3rem;
 }
 
+/* */
 .schedule-item__content {
   padding-left: 2rem;
   padding-top: 0.6rem;
