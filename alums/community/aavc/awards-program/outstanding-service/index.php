@@ -46,7 +46,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-        'Watch the video',
+        'Watch Enright’s acceptance remarks',
         'https://player.vimeo.com/video/788023992',
         'vimeo',
         '',
@@ -128,7 +128,7 @@ $page_info = json_decode($page_info, true);
 
 
 <ul class="linked-list">
-		<li><a href="https://www.vassar.edu/vq/issues/2013/02/vassar-today/service-award.html">Read more about Lewittes in the Spring/Summer 2013&nbsp;<em>VQy</em>&nbsp;article</a></li>
+		<li><a href="https://www.vassar.edu/vq/issues/2013/02/vassar-today/service-award.html">Read more about Lewittes in the Spring/Summer 2013&nbsp;<em>VQ</em>&nbsp;article</a></li>
 	</ul>
 
 <h3 class="mt-5">2011</h3>
