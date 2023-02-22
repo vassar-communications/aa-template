@@ -59,14 +59,14 @@ $current_site = $current_site[0];
 
 
 
-if ( strpos( getcwd(), 'aa-devspace.vassarspaces.net' ) ) {
-  // on devspace, path needs to change
+if ( strpos( getcwd(), 'aa-staging.vassarspaces.net' ) ) {
+  // on staging, path needs to change
 //  $project_paths['public_path'] = 'https://www.vassar.edu/' . $current_site;
   $project_paths['public_path'] = '/' . $current_site; // '/admission/' . $current_site;
-  $project_paths['comment'] = 'devspace';
+  $project_paths['comment'] = 'staging';
 //  $project_paths['final_url'] = 'https://www.vassar.edu';
 
-  $project_paths['final_url'] = 'https://aa-devspace.vassarspaces.net';
+  $project_paths['final_url'] = 'https://aa-staging.vassarspaces.net';
 
 
 }
