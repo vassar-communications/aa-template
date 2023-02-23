@@ -657,7 +657,7 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Lisa L. Lynch',
+    'Lisa Lynch',
     'Senior Associate Director of Annual Giving',
     [
       'phone' => '845-437-7017',
@@ -679,17 +679,6 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'TBD',
-    'Associate Director of &nbsp;Annual Giving,&nbsp;Volunteer &amp; Reunion',
-    [
-      'phone' => '',
-      'email' => '',
-    ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
     'Lane Sulzer',
     'Associate Director of Annual Giving, Digital Engagement Officer',
     [
@@ -705,6 +694,17 @@ echo contact_card(
     [
       'phone' => '845-437-7890',
       'email' => 'rochuck@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Joe Vayas',
+    'Assistant Director of &nbsp;Annual Giving,&nbsp;Volunteer &amp; Reunion',
+    [
+      'phone' => '',
+      'email' => 'jvayas@vassar.edu',
     ]
 );
 echo end_contact_card();
