@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>National correspondent, CBS News, 2011–present; Chief White House Correspondent, CBS News, 2009–2011; Capitol Hill Correspondent, CBS News, 2007–2009; Capitol Hill Correspondent, NBC News, 2003–2007; correspondent, NBC News (Los Angeles), 2000–2003; correspondent, NBC News (Washington, DC), 1996–2000; reporter, WJLA-TV (ABC News), 1994–1996; reporter/producer, WTTG-TV (Fox News), 1990–1993; field producer, ABC News, 1988–1989; general counsel, Biden for President, 1987; associate, Kirkpatrick & Lockhart (D.C. law firm), 1986–1987; counsel, U.S. Senate Judiciary Committee, (Ranking Democrat Senator Joe Biden), 1982–1986.</p>
+<p>National correspondent, CBS News, 2011–2021; Chief White House Correspondent, CBS News, 2009–2011; Capitol Hill Correspondent, CBS News, 2007–2009; Capitol Hill Correspondent, NBC News, 2003–2007; correspondent, NBC News (Los Angeles), 2000–2003; correspondent, NBC News (Washington, DC), 1996–2000; reporter, WJLA-TV (ABC News), 1994–1996; reporter/producer, WTTG-TV (Fox News), 1990–1993; field producer, ABC News, 1988–1989; general counsel, Biden for President, 1987; associate, Kirkpatrick & Lockhart (D.C. law firm), 1986–1987; counsel, U.S. Senate Judiciary Committee, (Ranking Democrat Senator Joe Biden), 1982–1986.</p>
 <?php echo end_sec_regularContent(); ?>
 
 
