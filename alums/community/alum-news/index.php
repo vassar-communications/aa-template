@@ -35,16 +35,16 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-  'Carrie Goldberg ’99',
-  $alums_news_images_path.'/2023-01-27/carrie_goldberg_SS2_22.jpg',
+  'Dr. June Jackson Christmas ’45–4',
+  $alums_news_images_path.'/2023-03-02/June_Jackson_Christmas_KR.jpg',
   'theme-extralightgray',
   '',
-  ['img_alt_text' => 'A person with long, brown hair, red lipstick, and a dark suit smiles at the camera']
+  ['img_alt_text' => 'A close-up photo of a person with short, black, curly hair and purple-framed eyeglasses, speaking to another person who is mostly out of the photo']
 ); ?>
 
-<p>Lawyer <strong>Carrie Goldberg ’99</strong> was interviewed by <a href="https://slate.com/news-and-politics/2023/01/adult-survivors-act-new-york-sexual-assault-carrie-goldberg.html"><em>Slate</em></a> about a new law in New York that will help victims of sexual assault by allowing them to seek compensation in civil court many years later.</p><p><em>Photo: Samuel Stuart</em></p>
+<p>Dr. <strong>June Jackson Christmas ’45-4</strong> was lauded as “a gift to Black mental health” in <a href="https://theblackwallsttimes.com/2023/02/15/dr-june-jackson-christmas-is-a-gift-to-black-mental-health/">a <em>Black Wall Street Times</em> profile</a>.</p><p><em>Photo: Karl Rabe</em></p>
 <?php echo cta_link(
-  'https://slate.com/news-and-politics/2023/01/adult-survivors-act-new-york-sexual-assault-carrie-goldberg.html',
+  'https://theblackwallsttimes.com/2023/02/15/dr-june-jackson-christmas-is-a-gift-to-black-mental-health/',
   'Read more'
 ); ?>
 
@@ -60,24 +60,24 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Leah Goodridge ’04',
-        'https://www.forbes.com/sites/janicegassam/2022/12/31/legal-scholar-leah-goodridge-unpacks-how-professionalism-is-used-as-a-tool-for-racism/',
-        ['url' => $logos_path.'forbes.gif', 'alt' => 'Forbes logo' ],
+        'Emma Kantor ’12',
+        'https://www.nytimes.com/2023/02/21/magazine/closing-credits-movies.html',
+        ['url' => $logos_path.'nyt-mag.gif', 'alt' => 'New York Times Magazine logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
 
-        <p>Tenants’ rights attorney and New York City Planning Commission member <strong>Leah Goodridge ’04</strong> talked about the use of “professionalism” as a tool for racism in a <em>Forbes</em> article.</p>
+        <p><strong>Emma Kantor ’12</strong> wrote a <em>New York Times Magazine</em> article about the importance of watching the end credits of films.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Sherrilyn Ifill ’84',
-        'https://www.nybooks.com/online/2023/01/07/a-trusted-guide-sherrilyn-ifill/',
-        ['url' => $logos_path.'new-york-review-of-books.gif', 'alt' => 'New York Review of Books logo' ],
+        'Carrie Goldberg ’99',
+        'https://www.cnbc.com/2023/01/25/snapchats-role-in-fentanyl-crisis-probed-during-house-roundtable.html',
+        ['url' => $logos_path.'cnbc.gif', 'alt' => 'CNBC logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p><strong>Sherrilyn Ifill ’84</strong>, Ford Foundation Senior Fellow and former President and Director-Counsel of the NAACP Legal Defense Fund, talked with the <em>New York Review of Books</em> about affirmative action cases before the Supreme Court and the article she wrote for the Review, “When Diversity Matters.”</p>
+      <p>Lawyer <strong>Carrie Goldberg ’99</strong> talked with CNBC about the role of big tech, including Snapchat, in fentanyl sales.</p>
 
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
@@ -85,12 +85,12 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Meena Miriam Yust ’06',
-        'https://www.commondreams.org/opinion/seals-navigate-with-stars',
-        ['url' => $logos_path.'common-dreams.gif', 'alt' => 'Common Dreams logo' ],
+        'Mira Lehr ’56',
+        'https://www.nytimes.com/2023/02/02/arts/mira-lehr-dead.html',
+        ['url' => $logos_path.'newyorktimes.gif', 'alt' => 'New York Times logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p><strong>Meena Miriam Yust ’06</strong>, a lawyer, wrote a <em>Common Dreams</em> article, “Seals, Satellites, and Dung Beetles—What Links Them?” which looks at the potential damage of low Earth orbit satellites.</p>
+        <p>Artist <strong>Mira Lehr ’56<strong> was remembered by the <em>New York Times</em>.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -107,76 +107,76 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-    <div class="other-news-item plain-card-1">
-        <p><a href="https://www.wusa9.com/article/news/politics/maryland-wes-moore-cabinet-appointments/65-2511f3ae-89a6-4d34-9def-8cbd78edd0b1"><strong>Rafael López ’93</strong> was named Maryland Secretary of Human Services</a>, as noted by WUSA9.</p>
-    </div>
-
-    <div class="other-news-item plain-card-1">
-        <p><a href="https://thejewishnews.com/2023/01/09/noted-conductor-to-perform-in-metro-detroit/">Conductor and Chicago Opera Theater Music Director <strong>Lidiya Yankovskaya ’08</strong> was interviewed by the <em>Detroit Jewish News</em>.</a></p>
-    </div>
-
-<!--
-    <div class="other-news-item plain-card-1">
-        <p><strong>Michele Tugade ’95,</strong> Professor of Psychological Science on the William R. Kenan Jr. Chair, was quoted in a <a href="https://www.huffpost.com/entry/holidays-feel-exhausting_l_638e4faae4b07530543d0e62"><em>Huff Post</em></a> article about depression and anxiety during the holidays.</p>
-    </div>
-
-    <div class="other-news-item plain-card-1">
-        <p><strong>Mike Schmidt ’03,</strong> Multnomah County District Attorney, was the subject of a <a href="https://www.pdxmonthly.com/news-and-city-life/2022/12/mike-schmidt-multnomah-county-district-attorney-da-portland"></em>Portland Monthly</em></a> feature story.</p>
-    </div>
-
-    <div class="other-news-item plain-card-1">
-        <p>Tony Award-winning set designer <strong>Beowulf Boritt ’93</strong> talked with <a href="https://playbill.com/article/how-set-designer-beowulf-boritt-learned-to-embrace-the-weird"><em>Playbill</em></a> about his work and inspiration.</p>
-    </div>
-
-    <div class="other-news-item plain-card-1">
-        <p>The work of renowned astronomer <strong>Vera Rubin ’48</strong> and the observatory named after her were the subjects of an <a href="https://astronomy.com/magazine/news/2022/11/how-vera-rubin-and-nancy-grace-roman-transformed-astronomy"><em>Astronomy</em></a> magazine article.</p>
-    </div>
-
-    <div class="other-news-item plain-card-1">
-        <p><strong>Judge Tamiko Amaker ’90</strong> was appointed acting Chief Administrative Judge of the New York State court system, the first Black woman in this role, as noted by the <a href="https://brooklyneagle.com/articles/2022/11/14/whats-news-breaking-monday-november-14-2022/"><em>Brooklyn Eagle</em></a>.</p>
-    </div>
-
-    <div class="other-news-item plain-card-1">
-        <p><strong>Taylor Gee ’23</strong> was quoted in a <a href="https://www.nytimes.com/2022/10/22/style/ny-sheep-wool-festival.html"><em>New York Times</em></a> article about young knitters attending the New York State Sheep and Wool Festival.</p>
-    </div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="0" data-line-end="1"><a href="https://www.youtube.com/watch?v=DA8F7j0_7S4&amp;feature=youtu.be"><strong>Sherrilyn Ifill ’84</strong> spoke to the <em>Daily Show</em></a> about her tenure as President and Director-Counsel of the NAACP Legal Defense Fund.</p></div>
 
 
-    <div class="other-news-item plain-card-1">
-    <p class="has-line-data" data-line-start="0" data-line-end="1"><strong>Steve Reilly ’09</strong>, a Pulitzer Prize finalist and investigative reporter at Grid, was elected to the board of the <a href="https://www.press.org/newsroom/eileen-oreilly-elected-116th-national-press-club-president">National Press Club</a> for a three-year term, as noted by the club.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://www.msnbc.com/morning-joe/watch/virginia-house-compromises-and-passes-gun-related-bill-163501125588"><strong>Alfonso Lopez ’92</strong>, 49th District House of Delegates member in the Virginia General Assembly, talked on MSNBC’s <em>Morning Joe</em></a> about bipartisan gun safety legislation he sponsored.</p></div>
 
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><strong>Tom Facchine ’11</strong>, Imam and Director of Religious Affairs of Utica Masjid and Imam of Hamilton College, talked about masculine modesty in Islam on the MM Podcast, as noted by <a href="https://muslimmatters.org/2022/12/13/podcast-beyond-the-matrix-masculinity-modesty-in-islam/">Muslim Matters</a>.</p></div>
 
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5">A collaboration between multimedia artists <strong>Andrea Orejarena ’17</strong> and <strong>Caleb Stein ’17</strong>, which culminated in the book Long Time No See and other mediums of expression, was the subject of a <em><a href="https://www.1854.photography/2022/11/long-time-no-see-andrea-orejarena-caleb-stein-vietnam-agent-orange/">British Journal of Photography</a></em> article.</p></div>
--->
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><a href="https://www.emmys.com/news/foundation-news/foundation-board-2301"><strong>Paula Williams Madison ’74</strong>, Chairman and CEO of Madison Media Management, was named to the Television Academy Foundation Board of Directors</a>.</p></div>
+
+
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://www.screendaily.com/features/i-was-all-in-netflix-germany-exec-talks-all-quiet-on-the-western-front/5179381.article"><strong>Sasha Bühler ’89</strong>, Director of International Original Film at Netflix, was quoted in a <em>Screen Daily</em> story</a> about the Oscar-nominated film <em>All Quiet on the Western Front</em>, which she greenlit.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://www.vogue.com/article/the-value-of-expanded-authorship-in-caleb-stein-and-andrea-orejarenas-new-book">The new book <em>Long Time No See</em>, co-created by artists <strong>Caleb Stein ’17</strong> and <strong>Andrea Orejarena ’17</strong>, was the subject of a <em>Vogue</em> story</a>.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><a href="https://www.thedailybeast.com/pences-classified-docs-are-a-new-headache-for-ag-merrick-garland">Lawyer <strong>Shanlon “Shan” Wu ’80</strong> wrote a <em>Daily Beast</em> article</a> about Attorney General Merrick Garland and the classified documents found in former Vice President Mike Pence’s home.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><a href="https://www.cnn.com/2023/01/15/us/mlk-i-have-a-dream-speech-blake-cec/index.html"><strong>Leonard Steinhorn ’77</strong>, Professor of Communication and Affiliate Professor of History at American University and CBS News Political Analyst, was quoted in a CNN article</a> about the Rev. Martin Luther King Jr.’s “I Have a Dream” speech.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.earlymusicamerica.org/web-articles/reflections-on-walking-black-in-the-field-of-historical-performance"><strong>Patricia Ann Neely ’75</strong>, Managing Director and viola player with Abendmusik, and a member of <em>Early Music America’s</em> Board of Directors, wrote an <em>Early Music America</em> article</a>, “Reflections on Walking Black in the Field of Historical Performance.”</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><a href="https://historyofyesterday.com/vera-rubin-proving-the-existence-of-dark-matter/">Renowned astronomer <strong>Vera Rubin ’48</strong> and her work on dark matter was the subject of a <em>History of Yesterday</em> article</a>.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><a href="https://www.aspentimes.com/news/explores-director-of-programming-jeff-bernstein-by-the-book/"><strong>Jeff Bernstein ’77</strong>, Explore Booksellers’ Director of Programming, was the subject of an <em>Aspen Times</em> story</a>.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21"><a href="https://www.sfgate.com/news/article/norwalk-hill-sisters-suffragettes-plaque-17751719.php">Three women’s suffrage pioneers and sisters, <strong>Clara Hill</strong>, class of 1895, <strong>Helena Hill</strong>, class of 1902, and <strong>Elsie Hill</strong>, class of 1906, were honored with a plaque</a> along the Norwalk River Valley Trail, as noted by <em>San Francisco Gate</em>.</p></div>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
 
-    <div class="other-news-item plain-card-1"><p><a href="https://tntribune.com/local-theatre-company-amplifies-southern-voices/"><strong>Estefanía Fadul ’10</strong> will direct Nayna Agrawal’s <em>Dharma</em> at Studio Tenn</a>, as noted in a <em>Tennessee Tribune</em> story about the play.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><a href="https://wwd.com/eye/people/patrick-and-victor-demarcheliers-photography-is-in-focus-in-new-show-1235523762/">The work of photographer <strong>Victor Demarchelier ’06</strong>, on display at the Staley-Wise Gallery in New York, was the subject of a <em>Women’s Wear Daily</em> story.</a></p></div>
 
-    <div class="other-news-item plain-card-1"><p><a href="https://medicine.uiowa.edu/md/student-support/opportunities-growth/writing-and-humanities-program/creative-writing-contest">Dr. <strong>Marygrace Elson ’78</strong>, who recently retired from the University of Iowa Carver College of Medicine, wrote the poem <em>Emerita</em>, which won the college’s faculty poetry award</a> and was included in its 2022 Creative Writing Anthology.</p></div>
 
-<!--
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><strong>Quinn Kennedy ’93</strong> wrote a <em><a href="https://www.psychologytoday.com/us/blog/aging-and-mindfulness/202212/aging-and-mindfulness">Psychology Today</a></em> article about aging and mindfulness which included research from Nina Smiley ’73 and Michele Tugade ’95.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="24" data-line-end="25"><a href="https://www.bard.edu/news/theresa-law-joins-bard-college-faculty-as-assistant-professor-of-computer-science-in-the-division-of-science-mathematics-and-computing-2023-02-06"><strong>Theresa Law ’18</strong> joined Bard College as Assistant Professor of Computer Science</a>, as noted by the college.</p></div>
 
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15">Self-taught botanist <strong>Margaret Oldenburg</strong>, class of 1915, was the subject of a <em><a href="https://www.mprnews.org/story/2022/11/28/margaret-oldenburg-canadian-arctic-flora-collection-university-minnesota-climate-change">MPR News</a></em> article.</p></div>
 
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17">The <a href="https://www.facebook.com/MidcoSports/videos/661582082346553/">Midco Sports</a> network featured former Brewers soccer standout and Special Forces Staff Sergeant <strong>Robb Rolfing ’00</strong>, who was killed while serving in Iraq in 2007.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27">Student Conservation Association founder <a href="https://www.benningtonbanner.com/vermont-outside-in-by-gordon-dossett-liz-putnam-and-100-000-volunteers/article_5b6f7726-a184-11ed-be21-47f3da33157f.html"><strong>Elizabeth Cushman Titus Putnam ’55</strong> was the subject of a <em>Bennington Banner</em> article</a>.</p></div>
 
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19">The work of <strong>Abigail Baird ’91</strong>, Professor of Psychological Science on the Arnhold Family Chair, regarding the adolescent brain was included in <em><a href="https://www.bloomberg.com/opinion/articles/2022-11-14/gen-z-really-does-have-it-harder-than-millennials?srnd=opinion">Bloomberg</a></em> and <em><a href="https://www.washingtonpost.com/business/gen-z-really-does-have-it-harder-than-millennials/2022/11/14/fc833ae8-6413-11ed-b08c-3ce222607059_story.html">Washington Post</a></em> articles about the issues facing Gen Z.</p></div>
 
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21"><strong>Karen Petersen ’76</strong> has won the Wil Mills Poetry Award, judged by Annie Finch, for her chapbook, <em>Trembling</em>, as noted by <a href="https://www.wcupa.edu/arts-humanities/poetry/contestAwards.aspx">West Chester University</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="28" data-line-end="29"><em>A Cheerleader’s Guide to Spiritual Enlightenment: A Memoir in Essays</em> by <strong>MB Caschetta ’88</strong> was reviewed in <a href="https://www.kirkusreviews.com/book-reviews/mb-caschetta/cheerleaders-guide-spiritual-enlightenment/"><em>Kirkus</em></a> and <a href="https://hippocampusmagazine.com/2022/11/review-a-cheerleaders-guide-to-spiritual-enlightenment-a-memoir-in-essays-by-mb-caschetta/"><em>Hippocampus Magazine</em></a>.</p></div>
 
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><strong>Jonathan Feingold ’07</strong>, Associate Professor at Boston University School of Law, co-wrote a <em><a href="https://www.bostonglobe.com/2022/10/25/opinion/party-attacking-affirmative-action-just-made-case-it/">Boston Globe</a></em> op-ed about the affirmative action cases before the Supreme Court. Feingold also wrote an <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4179822">amicus brief</a> and spoke with <em><a href="https://www.bu.edu/articles/2022/will-the-supreme-court-end-affirmative-action/">BU Today</a></em> about the case.</p></div>
 
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27"><strong>Connie Kehoe ’69</strong>, who was inducted into the Westchester County Senior Hall of Fame, was the subject of a <em><a href="https://www.rivertownsenterprise.net/irvington/kehoe-recognized-among-hall-of-fame-class/article_edac0b48-725b-11ed-abde-ab6ced8178be.html">Rivertowns Enterprise</a></em> story.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="30" data-line-end="31">Producer, director, and Emmy Award-winner <a href="https://news.amomama.com/300151-zoe-jackson-has-emmy-win-her-name-is-now.html"><strong>Zoe Jackson ’04</strong> was the subject of an <em>Amo Mama</em> article</a>.</p></div>
 
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="28" data-line-end="29"><strong>Katherine “Gig” Babson ’69</strong> spoke with the <a href="https://theswellesleyreport.com/2022/11/wellesley-black-lab-pup-becomes-a-local-literary-sensation/">Swellesley Report</a> about her new picture book, Tails with Gig.</p></div>
 
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="30" data-line-end="31"><strong>Bruce Mendelsohn ’90</strong> was honored at the Worcester Jewish Community Center Veteran’s Day Tribute and spoke to <a href="https://spectrumnews1.com/ma/worcester/news/2022/11/13/jcc-veterans-day-111322">Spectrum News 1</a> about the importance of the event.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="32" data-line-end="33"><a href="https://jadedibispress.com/product/11808/">A novel by author <strong>Natasha Gordon-Chipembere ’92</strong>, <em>Finding La Negrita</em>, was praised by several authors and professors</a>, as noted by Jaded Ibis Press.</p></div>
 
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><strong>Sarah Karmon ’97</strong> was named Executive Director of the Harvard Alumni Association, as noted by the <em><a href="https://news.harvard.edu/gazette/story/2022/12/sarah-karmon-named-new-haa-executive-director/">Harvard Gazette</a></em>.</p></div>
--->
+
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="34" data-line-end="35">A discussion on the inner workings of the brain by Cornell University Dean of Faculty and Human Ecology Professor <a href="https://www.royalgazette.com/health/news/article/20230130/bermudian-scientist-to-give-talk-on-workings-of-the-brain/"><strong>Eve De Rosa ’91</strong> was the subject of a <em>Royal Gazette</em> story</a>.</p></div>
+
+
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="36" data-line-end="37"><a href="https://www.silive.com/entertainment/2023/01/jcc-association-of-north-america-recognizes-jcc-of-staten-islands-chief-of-communications-inside-out.html"><strong>Allison Cohen ’11</strong>, Chief of Communications and External Affairs at the Joan and Alan Bernikow Jewish Community Center, received the Martin Pear Israel Fellowship</a> by the JCC Association of North America, as noted in a <a href="http://SILive.com">SILive.com</a> story.</p></div>
+
+
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="38" data-line-end="39"><a href="https://www.aaas.org/news/four-chemists-receive-2023-marion-milligan-mason-award"><strong>Marion Milligan Tuttle Mason</strong>, class of 1949, was mentioned in an article about the recent recipients of the Mason Award for women in chemical sciences</a>, which Mason created with a gift to the American Association for the Advance of Science.</p></div>
+
+
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="40" data-line-end="41"><a href="https://www.uvm.edu/news/extension/dr-ike-leslie-joins-uvm-extension"><strong>Isaac “Ike” Leslie ’10</strong> joined the University of Vermont as a Community Development Specialist</a>, as noted by UVM.</p></div>
+
+
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="42" data-line-end="43"><a href="https://nuggetnews.com/Content/Health/HEALTH/Article/Build-a-memory-palace-with-a-healthy-brain/117/221/32940"><strong>Scott Crabtree ’88</strong> discussed memory at his most recent Science of Happiness workshop</a>, as noted by the <em>Nugget Newspaper</em>.</p></div>
+
+
   <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
