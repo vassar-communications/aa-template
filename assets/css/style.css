@@ -14664,10 +14664,6 @@ details > summary::-webkit-details-marker {
   color: var(--color-vassar-burgundy);
 }
 
-.node--type-alert {
-  --section-text-color: #fff;
-}
-
 /* Basic links */
 /*
 p a,

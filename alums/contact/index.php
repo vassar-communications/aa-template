@@ -780,17 +780,6 @@ echo contact_card(
     ]
 );
 echo end_contact_card();
-
-echo contact_card(
-    'Amber Davidson',
-    'Office Specialist',
-    [
-      'phone' => '845-437-5461',
-      'email' => 'adavidson@vassar.edu',
-    ]
-);
-echo end_contact_card();
-
 ?>
 </div>
 
@@ -1034,21 +1023,21 @@ echo end_contact_card();
 
 
     echo contact_card(
-        'Allyce Braddy',
-        'Office Specialist',
+        'TBD',
+        'Administrative Assistant',
         [
           'phone' => '',
-          'email' => 'albraddy@vassar.edu',
+          'email' => '',
         ]
     );
     echo end_contact_card();
 
 echo contact_card(
-    'Lilly Scrimmager',
+    'TBD',
     'Office Specialist',
     [
-      'phone' => '845-437-5480',
-      'email' => 'lscrimmager@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();

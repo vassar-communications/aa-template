@@ -49,7 +49,7 @@ $page_info = json_decode($page_info, true);
 <p>The Distinguished Achievement Award is presented to an alum who has reached the highest level in their field, including the professions, science, the arts, and public affairs. While demonstrating exceptional talent, application, creativity, and skill within a certain career, this individual must at the same time exemplify the ideals of a liberal arts education and have used their position of visibility, power, or leadership to better the human community and serve the wider goals of society.</p>
 <?php echo cta_link(
     '/alums/community/aavc/awards-program/distinguished-achievement',
-     'See past Distinguished Achievement Award recipients'
+     'See past award recipients'
 ); ?>
 
 <?php echo end_sec_regularContent(); ?>
@@ -59,13 +59,13 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/awards/Vassar_Streep_20221013_KR_0063-square.jpg',
     'image-is-first',
     '',
-    ['img_alt_text' => 'Meryl Streep smiling and holding her Distinguished Achievement Award']
+    ['img_alt_text' => 'Meryl Streep ’71, P’08, ’13']
 ); ?>
 <h6 class="tagline">2021 Recipient</h6>
 <h1>Meryl Streep ’71, P’08, ’13</h1>
 
 <p><?php echo item_link_VideoModal(
-    'Watch the Meryl Streep video',
+    'Watch the video',
     'https://player.vimeo.com/video/759696598',
     'vimeo',
     '',
@@ -74,7 +74,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     'https://www.vassar.edu/news/meryl-streep-accepts-aavc-distinguished-achievement-award',
-     'Read more about Meryl Streep'
+     'Read more'
 ); ?>
 
 
@@ -88,7 +88,7 @@ $page_info = json_decode($page_info, true);
 <p>The AAVC Outstanding Service Award is presented to an alum in recognition of their extraordinary commitment, leadership, and service in promoting the goals and highest interests of Vassar College and AAVC. The award honors outstanding contributions made over a number of years in any or all of these volunteer capacities: class, club, and committee activities; fundraising; enriching campus life; or stewardship as board members, trustees, or donors. Outstanding Service Award winners are ambassadors on behalf of Vassar College to the alums and to the larger community.</p>
 <?php echo cta_link(
     '/alums/community/aavc/awards-program/outstanding-service',
-     'See past AAVC Outstanding Service Award recipients'
+     'See past award recipients'
 ); ?>
 
 <?php echo end_sec_regularContent(); ?>
@@ -106,7 +106,7 @@ $page_info = json_decode($page_info, true);
 
 
 <p><?php echo item_link_VideoModal(
-    'Watch the Deborah Macfarlan Enright video',
+    'Watch the video',
     'https://player.vimeo.com/video/788023992',
     'vimeo',
     '',
@@ -115,7 +115,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     'https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards',
-     'Read more about Deborah Macfarlan Enright'
+     'Read more'
 ); ?>
 
 
@@ -132,7 +132,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     '/alums/community/aavc/awards-program/spirit-of-vassar',
-     'See past Spirit of Vassar Award recipients'
+     'See past award recipients'
 ); ?>
 
 <?php echo end_sec_regularContent(); ?>
@@ -142,13 +142,13 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/awards/Vassar_Feigen_20220929_KR_0074.jpg',
     'image-is-first',
     '',
-    ['img_alt_text' => 'Three women of various ages stand together, smiling at the camera.']
+    ['img_alt_text' => 'Three people stand together, smiling at the camera.']
 ); ?>
 <h6 class="tagline">2022 Recipient</h6>
 <h1>Brenda Feigen ’66</h1>
 
 <p><?php echo item_link_VideoModal(
-    'Watch the Brenda Feigen video',
+    'Watch the video',
     'https://player.vimeo.com/video/759562549',
     'vimeo',
     '',
@@ -156,7 +156,7 @@ $page_info = json_decode($page_info, true);
 ); ?></p>
 <?php echo cta_link(
     'https://www.vassar.edu/news/feminist-legend-brenda-feigen-66-accepts-spirit-vassar-award-tells-students-embrace-activism',
-     'Read more about Brenda Feigen'
+     'Read more'
 ); ?>
 
 
@@ -173,7 +173,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     '/alums/community/aavc/awards-program/outstanding-faculty-staff',
-     'See past Outstanding Faculty/Staff Award recipients'
+     'See past award recipients'
 ); ?>
 
 <?php echo end_sec_regularContent(); ?>
@@ -190,7 +190,7 @@ $page_info = json_decode($page_info, true);
 <p class="intro-text">Senior Associate Dean of the College (Retired)</p>
 
 <p><?php echo item_link_VideoModal(
-    'Watch the Edward Pittman video',
+    'Watch the video',
     'https://player.vimeo.com/video/788004126',
     'vimeo',
     '',
@@ -199,7 +199,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     'https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards',
-     'Read more about Edward Pittman'
+     'Read more'
 ); ?>
 
 
@@ -213,7 +213,7 @@ $page_info = json_decode($page_info, true);
 <p>The Young Alum Achievement or Service Award is presented to an alum recognized for either their extraordinary service to Vassar in any aspect of engagement OR for their exceptional personal and professional achievement(s) within their respective field. As a graduate within the last 10 years, the recipient should be inspirational to their peers and the current student body, while exemplifying the fruits of a successful liberal arts education at Vassar.</p>
 <?php echo cta_link(
     '/alums/community/aavc/awards-program/young-alum-achievement',
-     'See past Young Alum Achievement or Service Award recipients'
+     'See past award recipients'
 ); ?>
 
 <?php echo end_sec_regularContent(); ?>
@@ -230,7 +230,7 @@ $page_info = json_decode($page_info, true);
 <h1>Arushi Raina ’14</h1>
 
 <p><?php echo item_link_VideoModal(
-    'Watch the Arushi Raina video',
+    'Watch the video',
     'https://player.vimeo.com/video/745469490',
     'vimeo',
     '',
@@ -238,7 +238,7 @@ $page_info = json_decode($page_info, true);
 ); ?></p>
 <?php echo cta_link(
     'https://www.vassar.edu/news/convocation-2022',
-     'Read more about Arushi Raina'
+     'Read more'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
