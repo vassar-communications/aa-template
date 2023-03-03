@@ -183,7 +183,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>In 2021, we saw an encouraging shift upwards as a result of the Generation Vassar participation challenge and we are so grateful that many of you answered the call. We need <strong>your</strong> help now more than ever to keep up the momentum and continue this upward trend!</p>
 
-<img class="mt-5" src="/alums/assets/img/alums-give/support/participation-chart.gif" alt="A graph of the Vassar Fund alums participation rate for each fiscal year. In the 2010 fiscal year, 42% of alums participated.
+<img class="mt-5" src="/alums/assets/img/alums-give/support/participation-chart.jpg" alt="A graph of the Vassar Fund alums participation rate for each fiscal year. In the 2010 fiscal year, 42% of alums participated.
 In the 2011 fiscal year, 43% of alums participated.
 In the 2012 fiscal year, 41% of alums participated.
 In the 2013 fiscal year, 41% of alums participated.
@@ -194,7 +194,9 @@ In the 2017 fiscal year, 26% of alums participated.
 In the 2018 fiscal year, 28% of alums participated.
 In the 2019 fiscal year, 27% of alums participated.
 In the 2020 fiscal year, 20% of alums participated.
-In the 2021 fiscal year, 25% of alums participated." />
+In the 2021 fiscal year, 25% of alums participated.
+In the 2022 fiscal year, 25% of alums participated.
+In the 2023 fiscal year, 27% of alums are expected to participate." />
 
 
 <?php echo end_sec_regularContent(); ?>
