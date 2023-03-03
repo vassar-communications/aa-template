@@ -5,117 +5,94 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2023-01-27/in-the-media/carrie_goldberg_SS2_22.jpg',
+    $media_carousel_path.'/2023-03-02/in-the-media/June_Jackson_Christmas_KR.jpg',
     'is-link',
-    'A person with long, brown hair, red lipstick, and a dark suit smiles at the camera'
+    'A close-up photo of a person with short, black, curly hair and purple-framed eyeglasses, speaking to another person who is mostly out of the photo'
   ); ?>
 
-  <p>Lawyer Carrie Goldberg ’99 was interviewed by <em>Slate</em> about a new law in New York that will help victims of sexual assault.</p>
-  <p><em>Photo: Samuel Stuart</em></p>
+  <p>Dr. June Jackson Christmas ’45-4 was lauded as “a gift to Black mental health” in a <em>Black Wall Street Times</em> profile.</p>
+  <p><em>Photo: Karl Rabe</em></p>
   <?php echo cta_link(
-  'https://slate.com/news-and-politics/2023/01/adult-survivors-act-new-york-sexual-assault-carrie-goldberg.html',
+  'https://theblackwallsttimes.com/2023/02/15/dr-june-jackson-christmas-is-a-gift-to-black-mental-health/',
   'Read more',
   'stretched-link'
   ); ?>
 <?php echo end_carousel_item(); ?>
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2023-01-27/in-the-media/leah_goodridge_by_laura_merrill.jpg',
+    $media_carousel_path.'/2023-03-02/in-the-media/alfonso_lopez_courtesy_of.jpg',
     'is-link',
-    'A person with long, brown hair, red lipstick, and a dark suit smiles at the camera'
+    'A close-up photo of a clean-shaven person with short brown hair and a striped button-down shirt, looking at the camera'
   ); ?>
 
-  <p>Tenants’ rights attorney and New York City Planning Commission member Leah Goodridge ’04 unpacks how professionalism is used as a tool for racism in <em>Forbes</em>.</p>
-  <p><em>Photo: Laura Merrill</em></p>
+  <p>Alfonso Lopez ’92, 49th District House of Delegates member in the Virginia General Assembly, talked on MSNBC’s <em>Morning Joe</em> about bipartisan gun safety legislation he sponsored.</p>
+  <p><em>Photo: Courtesy of the subject</em></p>
   <?php echo cta_link(
-  'https://www.forbes.com/sites/janicegassam/2022/12/31/legal-scholar-leah-goodridge-unpacks-how-professionalism-is-used-as-a-tool-for-racism/',
+  'https://www.msnbc.com/morning-joe/watch/virginia-house-compromises-and-passes-gun-related-bill-163501125588',
   'Read more',
   'stretched-link'
   ); ?>
 <?php echo end_carousel_item(); ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2023-01-09/in-the-media/jason_blum_91_getty_images.jpg',
+    $media_carousel_path.'/2023-03-02/in-the-media/mira_lehr_courtesy_of.jpg',
     'is-link',
-    'A person with short dark hair and a blue jacket smiles at the camera'
+    'A person with shoulder-length black hair sits in an armchair, looking at the camera. A brown dog is at their feet.'
   ); ?>
 
-  <p>Jason Blum ’91, Founder and CEO of Blumhouse Productions, is in advanced talks about merging his company with producer James Wan’s company, Atomic Monster, as noted by the <em>New York Times</em>.</p>
-  <p><em>Photo: Laura Merrill</em></p>
+  <p>Artist Mira Lehr ’56 was remembered by the <em>New York Times</em>.</p>
+  <p><em>Photo: Courtesy of the subject</em></p>
   <?php echo cta_link(
-  'https://www.nytimes.com/2022/11/16/business/jason-blum-james-wan-merger.html',
+  'https://www.nytimes.com/2023/02/02/arts/mira-lehr-dead.html',
   'Read more',
   'stretched-link'
   ); ?>
 <?php echo end_carousel_item(); ?>
-
-
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2023-01-09/in-the-media/Amanda_Jones_10_by_Lee_Harcourt.jpg',
+    $media_carousel_path.'/2023-03-02/in-the-media/Paula_Williams_Madison_KR.jpg',
     'is-link',
-    'A person with short dark hair and a tank top with jewelry smiles at the camera'
+    'A closeup photo of a person with brown, curly hair and black eyeglasses, holding a hand up while speaking.'
   ); ?>
 
-  <p>Emmy-nominated composer Amanda Jones ’10 spoke about her work with National Geographic TV’s <em>Super/Natural</em> series on <em>The Big Score</em>—detailing how she utilized a vast array of instruments to bring a spectacular universe of animals to life.</p>
-  <p><em>Photo: Lee Harcourt</em></p>
+  <p>Paula Williams Madison ’74, Chairman and CEO of Madison Media Management, was named to the Television Academy Foundation Board of Directors.</p>
+  <p><em>Photo: Karl Rabe</em></p>
   <?php echo cta_link(
-  'https://www.youtube.com/watch?v=HmWEC8t8jhQ',
+  'https://www.emmys.com/news/foundation-news/foundation-board-2301',
   'Read more',
   'stretched-link'
   ); ?>
 <?php echo end_carousel_item(); ?>
-
-
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2023-01-09/in-the-media/Mike_Schmidt_by_Brent_Weisberg.jpg',
+    $media_carousel_path.'/2023-03-02/in-the-media/Ifill_courtesy_American_Bar_Assn.jpg',
     'is-link',
-    'A person with short brown hair and facial hair smiles at the camera. The person is wearing a dark blue-gray suit.'
+    'A closeup photo of a person with long, black, braided hair, smiling while standing at a podium. A partially visible sign on the podium has the word "Fairmont".'
   ); ?>
 
-  <p>Mike Schmidt ’03, Multnomah County District Attorney, was the subject of a <em>Portland Monthly</em> feature story.</p>
-  <p><em>Photo: Brent Weisberg</em></p>
+  <p>Sherrilyn Ifill ’84 spoke to the <em>Daily Show</em> about her tenure as President and Director-Counsel of the NAACP Legal Defense Fund.</p>
+  <p><em>Photo: Courtesy of the American Bar Association</em></p>
   <?php echo cta_link(
-  'https://www.pdxmonthly.com/news-and-city-life/2022/12/mike-schmidt-multnomah-county-district-attorney-da-portland',
+  'https://www.youtube.com/watch?v=DA8F7j0_7S4',
   'Read more',
   'stretched-link'
   ); ?>
 <?php echo end_carousel_item(); ?>
-
-
-
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2023-01-09/in-the-media/0112_18_09_KAr_0216_edit2.jpg',
+    $media_carousel_path.'/2023-03-02/in-the-media/wu-shanlon-cnn.jpg',
     'is-link',
-    'A person with long dark hair smiles at the camera.'
+    'A closeup photo of a person with short, straight, black hair, wearing a black suit and tie and smiling at the camera.'
   ); ?>
 
-  <p>Michele Tugade ’95, Professor of Psychological Science on the William R. Kenan Jr. Chair, was quoted in a <em>HuffPost</em> article about depression and anxiety during the holidays.</p>
-  <p><em>Photo: Kevin Arce ’20</em></p>
+  <p>Lawyer Shanlon “Shan” Wu ’80 wrote a <em>Daily Beast</em> article about Attorney General Merrick Garland and the classified documents found in former Vice President Mike Pence’s home.</p>
+  <p><em>Photo: Courtesy of CNN</em></p>
   <?php echo cta_link(
-  'https://www.huffpost.com/entry/holidays-feel-exhausting_l_638e4faae4b07530543d0e62',
+  'https://www.thedailybeast.com/pences-classified-docs-are-a-new-headache-for-ag-merrick-garland',
   'Read more',
   'stretched-link'
   ); ?>
 <?php echo end_carousel_item(); ?>
-
-
 
 
 <?php echo end_carousel(); ?>
