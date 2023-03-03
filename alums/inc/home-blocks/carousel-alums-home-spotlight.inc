@@ -1,3 +1,13 @@
+<style>
+
+.carousel-cell .figcaption p {
+    line-height: 1.3;
+}
+.carousel-cell .figcaption h3 {
+  line-height: 1.1;
+}
+</style>
+
 <?php
   $alums_spotlight_itm_path = '/alums/assets/img/alums-home/news-and-spotlight/';
   echo carousel( '', 'alums-carousel' );
@@ -9,8 +19,8 @@
   'is-link',
   'Two people stand in a room of a house. One person has shoulder-length gray hair and a pink sweater, the other has shoulder-length gray hair and a brown sweater.'
 ); ?>
-  <h3 class="h3">Alum Donates World War II Vassar Victory Keepsakes to Special Collections</h3>
-  <p>Seventy-eight years after Elizabeth “Betty” Gatchell ’45 (left) christened a ship named after the College, the champagne bottle used for the christening and the commemorative pin she received from the Navy that day are now preserved as part of Vassar’s history.</p>
+  <h3 class="h3">Alum Donates World War II Keepsakes to Special Collections</h3>
+  <p>78 years after Elizabeth “Betty” Gatchell ’45 (left) christened a ship named for the College, the champagne bottle and commemorative pin she received from the Navy that day are preserved as part of Vassar’s history.</p>
 
   <p><em>Photo: Courtesy of Katherine Bouton ’69</em></p>
 
@@ -27,7 +37,7 @@
   'is-link',
   'A large group of students stands in a big room, watching a performance happening off-camera.'
 ); ?>
-  <h3 class="h3">Mug Denizens of the ’80s Fund Major Renovation of the Beloved Hangout</h3>
+  <h3 class="h3">Mug Denizens of the ’80s Fund Major Renovation</h3>
   <p>Vassar’s beloved campus hangout, The Mug, has been part of the College’s culture since it opened in 1975. Last year, two alums who frequented the place when it was an often raucous bar provided the funding for a long overdue renovation.</p>
 
   <p><em>Photo: Karl Rabe</em></p>
