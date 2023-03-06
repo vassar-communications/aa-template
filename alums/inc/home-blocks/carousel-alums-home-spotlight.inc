@@ -20,7 +20,7 @@
   'Two people stand in a room of a house. One person has shoulder-length gray hair and a pink sweater, the other has shoulder-length gray hair and a brown sweater.'
 ); ?>
   <h3 class="h3">Alum Donates World War II Keepsakes to Special Collections</h3>
-  <p>78 years after Elizabeth “Betty” Gatchell ’45 (left) christened a ship named for the College, the champagne bottle and commemorative pin she received from the Navy that day are preserved as part of Vassar’s history.</p>
+  <p>Nearly eight decades after Elizabeth “Betty” Gatchell ’45 (left) christened the <em>Vassar Victory</em>, a ship named after the College, the broken champagne bottle she used and other memorabilia from that day have been preserved as part of Vassar’s history.</p>
 
   <p><em>Photo: Courtesy of Katherine Bouton ’69</em></p>
 
