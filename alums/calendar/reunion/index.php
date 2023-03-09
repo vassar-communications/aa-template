@@ -193,10 +193,39 @@ $page_info = json_decode($page_info, true);
     <div class="accordion-item">
         <div class="accordion-header" id="flush-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                Additional On-Campus Housing Information
+                Reunion 2023 Dorm Headquarters
             </button>
         </div>
         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <p><strong>1958:</strong> Jewett House<br />
+<strong>1963:</strong> Jewett House<br />
+<strong>1968:</strong> Jewett House<br />
+<strong>1973:</strong> Davison House<br />
+<strong>1978:</strong> Josselyn House<br />
+<strong>1983:</strong> Josselyn House<br />
+<strong>1988:</strong> Strong House<br />
+<strong>1993:</strong> Cushing House<br />
+<strong>1998:</strong> Cushing House<br />
+<strong>2003:</strong> Raymond House<br />
+<strong>2008:</strong> Raymond House<br />
+<strong>2013:</strong> TownHouses<br />
+<strong>2016:</strong> Lathrop House<br />
+<strong>2018:</strong> Noyes House</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="accordion accordion-flush mt-3" id="accordionFlushExample2">
+    <div class="accordion-item">
+        <div class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Additional On-Campus Housing Information
+            </button>
+        </div>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
             <div class="accordion-body">
                 <p><strong>Residence Hall rooms:</strong></p>
                 <ul>

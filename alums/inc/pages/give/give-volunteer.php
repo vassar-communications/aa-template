@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Volunteer',
     '/alums/give/volunteer/',
-    ['url' => '/alums/assets/img/alums-give/volunteer/VC-South-Florida_Diane-Robinson-91_Nicky-Zarchen-17_Sam-Thypin-Bermeo-11.jpg', 'alt' => 'Volunteers at a south Florida food bank' ],
+    ['url' => '/alums/assets/img/alums-give/volunteer/0087-18-05-kr-sparrow-vassar-1554-edited.jpg', 'alt' => 'A group of Vassar volunteers food prepping in the Sparrow’s Nest kitchen for families impacted by cancer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
