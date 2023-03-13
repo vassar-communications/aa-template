@@ -351,21 +351,20 @@ $(document).ready(function () {
         else if(direction=='up') {
             $(this[0,'element']).parent().removeClass('fade-the-title');
         }
-
-
     }, {
         offset: '66%'
     });
 
 
+	/* CS 20230313
     const iframe = document.getElementById("main-video");
 
     if (iframe) {
         iframe.addEventListener("load", function () {
-//    alert("Finish");
             $('.video-header').removeClass('is-loading').addClass('is-loaded');
         });
     }
+	*/
 
 
 });
