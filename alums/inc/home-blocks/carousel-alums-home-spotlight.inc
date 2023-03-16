@@ -1,7 +1,59 @@
+<style>
+
+.carousel-cell .figcaption p {
+    line-height: 1.3;
+}
+.carousel-cell .figcaption h3 {
+  line-height: 1.1;
+}
+</style>
+
 <?php
   $alums_spotlight_itm_path = '/alums/assets/img/alums-home/news-and-spotlight/';
   echo carousel( '', 'alums-carousel' );
 ?>
+
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2023-03-02/spotlight/01-Pin-Pic-Mom-Katherine.jpg',
+  'is-link',
+  'Two people stand in a room of a house. One person has shoulder-length gray hair and a pink sweater, the other has shoulder-length gray hair and a brown sweater.'
+); ?>
+  <h3 class="h3">Alum Donates World War II Keepsakes to Special Collections</h3>
+  <p>Nearly eight decades after Elizabeth “Betty” Gatchell ’45 (left) christened the <em>Vassar Victory</em>, a ship named after the College, the broken champagne bottle she used and other memorabilia from that day have been preserved as part of Vassar’s history.</p>
+
+  <p><em>Photo: Courtesy of Katherine Bouton ’69</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/alum-donates-world-war-ii-vassar-victory-keepsakes-to-special-collections',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2023-03-02/spotlight/mug_2023_kr_047-compressed.jpg',
+  'is-link',
+  'A large group of students stands in a big room, watching a performance happening off-camera.'
+); ?>
+  <h3 class="h3">Mug Denizens of the ’80s Fund Major Renovation</h3>
+  <p>Vassar’s beloved campus hangout, The Mug, has been part of the College’s culture since it opened in 1975. Last year, two alums who frequented the place when it was an often raucous bar provided the funding for a long overdue renovation.</p>
+
+  <p><em>Photo: Karl Rabe</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/mug-denizens-80s-fund-major-renovation-beloved-hangout',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
 
 
 
@@ -36,35 +88,6 @@
 
   <?php echo cta_link(
     'https://www.vassar.edu/news/trustee-and-spouse-fund-new-environmental-fellowship',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
-
-
-
-
-
-
-
-
-
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-01-09/spotlight/Vassar_David_Ambroz_20221111_KR_0031-crop-square.jpg',
-  'is-link',
-  'A person with short graying hair and a beard smiles at the camera. The person is wearing a black jacket and standing in a room with lamps visible in the background.'
-); ?>
-  <h3 class="h3">David Ambroz ’02: From Foster Child to Champion of Change</h3>
-  <p>David Ambroz ’02 spent much of his childhood wandering the streets with his mentally ill mother, begging for food and bathing in public restrooms. He is now an Amazon executive, a child welfare advocate, and the author of a new memoir.</p>
-
-  <p><em> Photo: Karl Rabe</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/david-ambroz-02-foster-child-champion-change',
     'Read more',
     'stretched-link'
   ); ?>
@@ -112,24 +135,6 @@
 
 <?php echo end_carousel_item(); ?>
 
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2022-11-03/in-the-media/Bell-Ringing-19x9.jpg',
-  'is-link',
-  'People seated outside in an audience smiling and waving and ringing bells.'
-); ?>
-  <h3 class="h3">Vassar Launches “Fearlessly Consequential” Campaign</h3>
-  <p>About 200 alums returned to campus to help ring in the fund-raising effort. Many more tuned in online.</p>
-
-  <p><em> Photo: Karl Rabe</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/vassar-rings-in-fearlessly-consequential-fund-raising-campaign',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
 
 
 <?php echo end_carousel(); ?>

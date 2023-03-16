@@ -14564,6 +14564,12 @@ ul.style-checklist a, ul.style-checklist .video-modal-link {
   font-variation-settings: "wght" 700;
 }
 
+.pres-member__name {
+  margin-bottom: 0.2rem;
+  font-family: var(--bs-font-sans-serif);
+  font-variation-settings: "wght" 700;
+}
+
 .pres-member__image {
   height: 0;
   overflow: hidden;
@@ -14783,6 +14789,10 @@ details > summary::-webkit-details-marker {
   display: block;
   padding-top: 0.3rem;
   color: var(--color-vassar-burgundy);
+}
+
+.node--type-alert {
+  --section-text-color: #fff;
 }
 
 /* Basic links */

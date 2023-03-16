@@ -657,7 +657,7 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Lisa L. Lynch',
+    'Lisa Lynch',
     'Senior Associate Director of Annual Giving',
     [
       'phone' => '845-437-7017',
@@ -679,17 +679,6 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'TBD',
-    'Associate Director of &nbsp;Annual Giving,&nbsp;Volunteer &amp; Reunion',
-    [
-      'phone' => '',
-      'email' => '',
-    ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
     'Lane Sulzer',
     'Associate Director of Annual Giving, Digital Engagement Officer',
     [
@@ -705,6 +694,17 @@ echo contact_card(
     [
       'phone' => '845-437-7890',
       'email' => 'rochuck@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Joe Vayas',
+    'Assistant Director of &nbsp;Annual Giving,&nbsp;Volunteer &amp; Reunion',
+    [
+      'phone' => '',
+      'email' => 'jvayas@vassar.edu',
     ]
 );
 echo end_contact_card();
@@ -780,6 +780,17 @@ echo contact_card(
     ]
 );
 echo end_contact_card();
+
+echo contact_card(
+    'Amber Davidson',
+    'Office Specialist',
+    [
+      'phone' => '845-437-5461',
+      'email' => 'adavidson@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
 ?>
 </div>
 
@@ -866,22 +877,22 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'TBD',
-    'Associate Director of Parent and Family Giving',
+    'Tracey Cousar',
+    'Assistant Director of Parent and Family Giving',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-5412',
+      'email' => 'trcousar@vassar.edu',
     ]
 );
 echo end_contact_card();
 
 
 echo contact_card(
-    'Tracey Cousar',
+    'TBD',
     'Office Specialist',
     [
-      'phone' => '845-437-5412',
-      'email' => 'trcousar@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
@@ -1023,21 +1034,21 @@ echo end_contact_card();
 
 
     echo contact_card(
-        'TBD',
-        'Administrative Assistant',
+        'Allyce Braddy',
+        'Office Specialist',
         [
           'phone' => '',
-          'email' => '',
+          'email' => 'albraddy@vassar.edu',
         ]
     );
     echo end_contact_card();
 
 echo contact_card(
-    'TBD',
+    'Lilly Scrimmager',
     'Office Specialist',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-5480',
+      'email' => 'lscrimmager@vassar.edu',
     ]
 );
 echo end_contact_card();

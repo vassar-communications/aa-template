@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'Alums group photo in front of a site at Machu Picchu']
 ); ?>
-<p>We continue to monitor the COVID-19 outbreak, as well as current political conditions in Europe, with the safety of our travelers being of utmost importance. As we make our plans, we look forward to hearing from you regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please <a href="mailto:suquade@vassar.edu">contact Susan Quade</a>, Senior Associate Director of Special Events and Programs and the Vassar Travel Program</a>. </p>
+<p>As we make plans for future Vassar Travel Programs, we look forward to hearing from you regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please contact <a href="mailto:suquade@vassar.edu">Susan Quade</a>, Senior Associate Director of Special Events and Programs and the Vassar Travel Program</a>. </p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -48,27 +48,30 @@ $page_info = json_decode($page_info, true);
 
 
 
-<?php echo sec_regularContent('Recent Trip','','text-center');?>
+<?php echo sec_regularContent('Upcoming Trip','','text-center');?>
 
-<p class="intro-text">Island Life in Ancient Greece:  An Aegean Odyssey</p>
+<p class="intro-text">Imperial Treasures:<br />Art and Music in Dresden and Prague</p>
 
-<h3>October 15–23, 2022</h3>
+<h3>June 8-18, 2023</h3>
 
-<h3>Vassar Host:  Barbara Olsen, Associate Professor of Greek and Roman Studies</h3>
+<h3>Vassar Hosts:  Kathryn Libin, Professor of Music<br />
+T. Barton Thurber, The Anne Hendricks Bass Director of the Frances Lehman Loeb Art Center and Lecturer in Art
+</h3>
 
 
 <?php echo end_sec_regularContent();?>
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    $alums_img_path.'alums-calendar/travel-program/delphi.jpg',
+    $alums_img_path.'alums-calendar/travel-program/Dresden-image2-web.jpg',
     '',
     '',
-    ['img_alt_text' => 'Greek ruins']
+    ['img_alt_text' => 'Dresden in the evening along the water. Photo by Oliver Guhr.']
 ); ?>
 
-<p>Cruise Athens aboard the Five-Star small ship Le Bougainville. The ship has 92 elegant suites and staterooms, all with private balconies. A few tour highlights:</p>
+<p>This small tour, limited to 20 people, will study the art and music of two extraordinary European cities with two of Vassar’s finest scholars. Both Bart and Kathryn have studied and lived in Europe for many years and it is through their scholarship and expertise that we are able to offer this personal exploration of both cities.</p>
 
+<!--
 <ul>
     <li>Uniquely created seven-night cruise itinerary</li>
     <li>Visit up to eight UNESCO World Heritage sites showcasing the culture and architecture of Ancient Greece.</li>
@@ -79,18 +82,31 @@ $page_info = json_decode($page_info, true);
     <li>Athens Pre-Program Option and Delphi and Thebes Post-Program Option.</li>
 </ul>
 <p>Your host, Barbara Olsen, is a Classics scholar. She specializes in Greek history and archaeology, especially in the study of women in the ancient world.</p>
-
+-->
 
 
 <?php echo cta_link(
-    'https://www.vassar.edu/sites/default/files/2022-03/ILGreece_101522_Vassar_Travel_Program.pdf',
+    'https://www.vassar.edu/sites/default/files/2023-03/VASSAR-Dresden-Prague-2023-Brochure.pdf',
     'Download Brochure',
     null,
     [
       'file_type' => 'pdf',
-      'file_size' => '1.5 MB'
+      'file_size' => '1.6 MB'
     ]
 ); ?>
+
+<?php echo cta_link(
+    'https://www.vassar.edu/sites/default/files/2023-03/VASSAR-Dresden-Registration-Form.pdf',
+    'Download Registration Form',
+    null,
+    [
+      'file_type' => 'pdf',
+      'file_size' => '106 KB'
+    ]
+); ?>
+
+<p>&nbsp;</p>
+<p><em>Photo by Oliver Guhr</em></p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
