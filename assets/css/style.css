@@ -14519,8 +14519,12 @@ ul.style-checklist a, ul.style-checklist .video-modal-link {
 
 .pres-member-list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 1rem;
+}
+@media screen and (min-width: 50em) {
+  .pres-member-list {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .presentation-content p {
@@ -14546,7 +14550,18 @@ ul.style-checklist a, ul.style-checklist .video-modal-link {
 .pres-member.has-image {
   display: grid;
   gap: 0.6rem;
-  grid-template-columns: 1fr 6fr;
+  grid-template-columns: 1fr 5fr;
+}
+@media screen and (min-width: 50em) {
+  .pres-member.has-image {
+    grid-template-columns: 1fr 4fr;
+  }
+}
+
+.pres-member__name {
+  margin-bottom: 0.2rem;
+  font-family: var(--bs-font-sans-serif);
+  font-variation-settings: "wght" 700;
 }
 
 .pres-member__name {
