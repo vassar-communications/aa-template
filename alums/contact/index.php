@@ -877,22 +877,22 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'TBD',
-    'Associate Director of Parent and Family Giving',
+    'Tracey Cousar',
+    'Assistant Director of Parent and Family Giving',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-5412',
+      'email' => 'trcousar@vassar.edu',
     ]
 );
 echo end_contact_card();
 
 
 echo contact_card(
-    'Tracey Cousar',
+    'TBD',
     'Office Specialist',
     [
-      'phone' => '845-437-5412',
-      'email' => 'trcousar@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
