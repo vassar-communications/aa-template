@@ -185,6 +185,13 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent('Information & Updates','theme-verylightgray','','',); ?>
 
+
+<?php echo item_iconItem('New This Year!','star',''); ?>
+<p>Ever visit campus and wish you had an ID card for access to the College’s library and fitness center?</p>
+<p>If you would like to get an Alum ID card during Reunion, please submit the <a href="https://offices.vassar.edu/card/alum-id-card-request/">Alum ID Card Request Form</a> by <strong>May 17, 2023</strong>. The Card Office will make sure everything is ready for you to get your Alum ID card at Reunion. Alum ID cards are only issued in person at Vassar’s Service Desk located in the College Center, North Atrium, as a photo must be taken for the card.  The Service Desk will be open during Reunion on Friday, June 2, from 8:30 a.m.–5:00 p.m. and Saturday, June 3, from 12:00 p.m.–5:00 p.m. For more information, contact the Card Office at <a href="tel:+18454513333">(845) 451-3333</a>.</p>
+
+<?php echo end_item_iconItem(); ?>
+
 <?php echo item_iconItem('Housing','house-chimney',''); ?>
 <p>We are excited to welcome alums back to Vassar for in-person reunions and want to ensure that everyone makes informed decisions about where to stay.</p>
 
@@ -246,14 +253,15 @@ $page_info = json_decode($page_info, true);
 </div>
 
 
-
-
-
-
 <?php echo end_item_iconItem(); ?>
 
-<?php echo item_iconItem('COVID Protocols','shield-virus',''); ?>
-<p>Given the ever-changing protocols coming from local, state, and federal agencies, it is difficult to say for sure what the future requirements will be. Look for updates here beginning April 1, 2023.</p>
+<?php echo item_iconItem('Health Acknowledgement','shield-virus',''); ?>
+<p>At this time, we recommend all Reunion registrants will consider the following upon arrival at Reunion:</p>
+<ul>
+    <li>My guests and I understand that COVID-19 is an extremely contagious virus and spreads easily through person-to-person contact and we know we are taking risks by attending in-person events.</li>
+    <li>My guests and I acknowledge that it is safer to wear a mask around others in close proximity. If my guests or I become symptomatic or test positive at any time during the event, we agree that we will leave campus and follow up with our primary health care providers or seek treatment at a medical facility in the local community.</li>
+    <li>My guests and I will not attend if we are not feeling well.</li>
+</ul>
 <?php echo end_item_iconItem(); ?>
 
 <?php echo end_sec_regularContent(); ?>
