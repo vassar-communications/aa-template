@@ -23,9 +23,12 @@
   margin: 0;
 }
 .pres-member-list {
-    display: grid;
+  display: grid;
+  gap: 1rem;
+
+  @include break(md) {
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+  }
 }
 .presentation-content p {
     line-height: 1.36;
@@ -50,7 +53,11 @@
   &.has-image {
     display: grid;
     gap: 0.6rem;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 5fr;
+
+    @include break(md) {
+      grid-template-columns: 1fr 4fr;
+    }
   }
 }
 .pres-member__name {
@@ -82,7 +89,7 @@
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;  
+  letter-spacing: 0.1rem;
 }
 
 .presentation-item .event__time {
