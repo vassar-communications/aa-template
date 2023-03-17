@@ -33,7 +33,10 @@ $page_info = json_decode($page_info, true);
 
 
 
-<?php echo sec_regularContent(); ?>
+<?php echo sec_regularContent(
+  null,
+  'pt-0'
+); ?>
 
 <ul class="linked-list">
   <li><a href="#thursday">Thursday, June 1</a></li>
@@ -241,7 +244,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
     'Susan Shiva Theater behind the ALANA center'
   ); ?>
   <p>Adults only, brought to you by the class of 2003 along with alums from QCVC (Queer Coalition of Vassar College); CHOICE (Campus Health Organization for Information, Contraception, and Education); and SQUIRM, a Vassar College student publication dedicated to exploring sex in literary and artistic forms.</p>
-  <p>After the fireworks comes the afterglow! Join us for an uplifting celebration of sexual expression featuring readings, burlesque, and art from a multigenerational group of alumni performers. Coffee and dessert will be served.</p>
+  <p>After the fireworks comes the afterglow! Join us for an uplifting celebration of sexual expression featuring readings, burlesque, and art from a multigenerational group of alum performers. Coffee and dessert will be served.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -264,11 +267,17 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
   <?php echo schedule_item_dropdown(
     '7–9 a.m.',
-    'Breakfast',
-    'Available at Gordon Commons (formerly ACDC)'
+    'Continental Breakfast (included)',
+    'Davison Tent'
   ); ?>
-  <p>Pay at the door (credit/debit). Continental Breakfast (included)<br>
-		Davison Tent</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '7–9 a.m.',
+    'Breakfast: Gordon Commons (formerly ACDC)',
+    'Gordon Commons'
+  ); ?>
+  <p>Pay at the door (credit/debit).</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -349,7 +358,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
   <?php echo schedule_item_dropdown(
     '2:30–4:30 p.m.',
-    'Alumnae/i Author Meet and Greet',
+    'Alum Author Meet and Greet',
     'Vassar College Store (aka, the Juliet), Raymond Avenue'
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -383,7 +392,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
   <?php echo schedule_item_dropdown(
     '2:30–4:30 p.m.',
-    'Alumnae/i Author Meet and Greet',
+    'Alum Author Meet and Greet',
     'Vassar College Store (aka, the Juliet), Raymond Avenue'
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
