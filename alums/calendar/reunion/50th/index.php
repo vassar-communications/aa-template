@@ -281,7 +281,6 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
   <?php echo end_schedule_item_dropdown(); ?>
 
 
-
   <?php echo schedule_item_dropdown(
     '9 a.m.–10 p.m.',
     'Reunion Information Center is open',
