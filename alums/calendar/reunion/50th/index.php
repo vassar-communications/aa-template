@@ -1,0 +1,515 @@
+<?php
+/* */
+include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
+include($project_paths['main_project_root'].'/functions.php');
+?>
+<?php
+
+/* PAGE INFO === */
+
+
+$page_info = '{
+  "page_title":"50th Reunion Class Schedule",
+  "page_classes":"",
+  "feature_image":"/alums/assets/img/alums-calendar/reunion/Vassar_Reunion_4706.jpg"
+}';
+
+/* === */
+$page_info = json_decode($page_info, true);
+?>
+
+<?php echo site_header(); ?>
+
+<?php echo vassar_masthead(); ?>
+
+<?php echo hamburger_navigation_alums(); ?>
+
+<?php echo page_textmasthead('theme-dark-burgundy'); ?>
+
+<?php echo interior_page_nav() ?>
+
+<?php /*  PAGE CONTENT === */ ?>
+
+
+
+
+<?php echo sec_regularContent(); ?>
+
+<ul class="linked-list">
+  <li><a href="#thursday">Thursday, June 1</a></li>
+  <li><a href="#friday">Friday, June 2</a></li>
+  <li><a href="#saturday">Saturday, June 3</a></li>
+  <li><a href="#sunday">Sunday, June 4</a></li>
+</ul>
+
+
+  <h3 id="thursday" class="schedule-item__heading">Thursday, June 1</h3>
+
+  <?php echo schedule_item_dropdown(
+    '9 a.m.–12 p.m.',
+    'Set up MPR and Davison lobby',
+    null,
+    null,
+    ['noContent' => true]
+  ); ?>
+
+  <?php echo schedule_item_dropdown(
+    '2 p.m.',
+    'Registration opens in Davison lobby',
+    'Davison lobby'
+  ); ?>
+    <p>Light refreshments available in the parlor (lemonade or iced tea, water,
+cookies)</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '4 p.m.',
+    'Informal Campus walk led by current students and their perspective of
+campus',
+    null,
+    null,
+    ['noContent' => true]
+  ); ?>
+
+  <?php echo schedule_item_dropdown(
+    '6 p.m.',
+    'Cocktail Reception',
+    'Alumnae House Terrace and Lobby',
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '6:30 p.m.',
+    'President Bradley arrives to welcome the 50th Reunion class',
+    null,
+    null,
+    ['noContent' => true]
+  ); ?>
+
+  <?php echo schedule_item_dropdown(
+    '7 p.m.',
+    'Buffet Dinner',
+    'Alumnae House Dining and Living Room',
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '9 p.m.',
+    'Coffee and conversation following dinner',
+    null,
+    null,
+    ['noContent' => true]
+  ); ?>
+
+  <?php echo schedule_item_dropdown(
+    '10 p.m.',
+    'Hospitality',
+    'Davison multipurpose room, Davison Parlor',
+  ); ?>
+  <p>Demitasse in the Davison Parlor</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <h3 id="friday" class="schedule-item__heading">Friday, June 2</h3>
+
+  <?php echo schedule_item_dropdown(
+    '8 a.m.–10 a.m.',
+    'Continental breakfast',
+    'Davison tent',
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '9 a.m.',
+    '“What I’ve Been Up to for the Last Half a Century”',
+    'Davison tent',
+  ); ?>
+  <p>Roundtable discussions featuring classmates.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '11 a.m.',
+    'Presentation and Tour by James Russiello ’06, NYC Landmarks Preservation
+Commission staff',
+    'Rockefeller 200',
+  ); ?>
+  <p>The Historic Campus of Vassar College features the founding of Vassar and its early buildings in the context of the architectural development in the US.  Followed by a walking tour highlighting the buildings in the Quad, Main Building, Ferry House, and the Avery now known as the Vogelstein Center for Drama and Film.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '12 p.m.',
+    'Off Site lunch at the Culinary Institute of America - reservations required',
+    null
+  ); ?>
+  <p>Off Site lunch at the Culinary Institute of America at the Bocuse Room
+followed by a tour of the CIA and then a stop at the Walkway over the Hudson before heading back to campus. <strong>Advance reservations required</strong>.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '12:30 p.m.',
+    'Picnic lunch',
+    'Sunset lake tent'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '3–4 p.m.',
+    'College Lectures - <span style="color: #f0f">MORE CONTENT NEEDED</span>'
+  ); ?>
+  <p style="color: #f0f">(See page XX for detailed descriptions.)</p>
+
+  <h4>Ageless Aging: Resilience, Cognitive Health and Mindfulness</h4>
+    <p><strong>Location:</strong> Rockefeller 300</p>
+
+  <h4>Campus Capital Projects: What’s Happening and Upcoming?</h4>
+    <p><strong>Location:</strong> Rockefeller 200</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '3–4 p.m.',
+    'Tours'
+  ); ?>
+<h4>The <a href="https://www.vassar.edu/preserve">Vassar Preserve</a> and <a href="https://offices.vassar.edu/environmental-cooperative/">Environmental Cooperative</a></h4>
+<p><em>Shuttles depart from Main Circle</em></p>
+
+<h4>Walking Tour of the Vassar College Arboretum</h4>
+<p><em>Meet at the entrance to Main in front of Main Circle.</em></p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '5–6 p.m.',
+    'Matthew Vassar Legacy Society Reception (by invitation)',
+    'The President’s House Terrace'
+  ); ?>
+  <p>With gratitude for and in recognition of those who have provided for the College’s future through a planned gift or estate commitment.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '5-7 p.m.',
+    'The Loeb All-Class Welcome Reception.'
+  ); ?>
+  <p>Refreshments served.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '5:30–6:45 p.m.',
+    'Shabbat Services',
+    'The Bayit (51 Collegeview Avenue, North Gate)'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '6–7 p.m.',
+    'Faculty Reception',
+    'President’s lawn tent'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '6 p.m.',
+    'Night Owls Rehearsal',
+    'Rockefeller 200'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '6–9 p.m.',
+    'Co-Class President Doris Schumacher McMorrow’s traditional dinner',
+    'Gordon Commons, 2nd floor (UpCDC)'
+  ); ?>
+  <p>Drinks and dancing with music provided by DJ Steven Colvin and Company</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '9:30 p.m.',
+    'Fireworks over Sunset Lake',
+    'Sunset Lake'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '10 p.m.–12 a.m.',
+    'The Afterglow Salon: A Sober, Safe, & Inclusive Social Space',
+    'Susan Shiva Theater behind the ALANA center'
+  ); ?>
+  <p>Adults only, brought to you by the class of 2003 along with alums from QCVC (Queer Coalition of Vassar College); CHOICE (Campus Health Organization for Information, Contraception, and Education); and SQUIRM, a Vassar College student publication dedicated to exploring sex in literary and artistic forms.</p>
+  <p>After the fireworks comes the afterglow! Join us for an uplifting celebration of sexual expression featuring readings, burlesque, and art from a multigenerational group of alumni performers. Coffee and dessert will be served.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '10 p.m.–12 a.m.',
+    'Hospitality',
+    'Davison multipurpose room'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '10 p.m.–12 a.m.',
+    'Join us at the “Mug” for music from the 80s and 90s.',
+    'Lower level, College Center'
+  ); ?>
+  <p>Don’t forget to wait in line. Everyone 21 and older are welcome. Cash bar, DJ, and dancing.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <h3 id="saturday" class="schedule-item__heading">Saturday, June 3</h3>
+
+  <?php echo schedule_item_dropdown(
+    '7–9 a.m.',
+    'Breakfast',
+    'Available at Gordon Commons (formerly ACDC)'
+  ); ?>
+  <p>Pay at the door (credit/debit). Continental Breakfast (included)<br>
+		Davison Tent</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '9 a.m.–10 p.m.',
+    'Reunion Information Center is open',
+    'Main Building Lobby'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '9–10 a.m.',
+    'President’s Hour',
+    'The Chapel'
+  ); ?>
+  <p>Remarks by Vassar’s 11th President, Elizabeth Howe Bradley</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '10:15 a.m.',
+    'Line Up for Parade of Classes',
+    'The Chapel'
+  ); ?>
+  <p>Line starts with 1953 at the chapel along the path and road ending with 2018. Look for your class banner along the parade route. Golf carts will be available.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '10:45 a.m.',
+    'Parade of Classes'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '11:15-12:15 a.m.',
+    'Celebrate Vassar',
+    'Noyes Circle Tent'
+  ); ?>
+  <p>Alums from the 5th to the 75th reunion classes, guests, and children gather together to celebrate extraordinary volunteers and gifts, and our shared Vassar legacy. Remarks by Monica Vachher ’77, AAVC President, and Kat Mills Polys ’93, Vassar Fund Committee Chair.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '12:30–1:30 p.m.',
+    'Lunch and class meeting',
+    'Bridge Building'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '2–3 p.m.',
+    'Lecture: Is a Multiracial Inclusive Democracy Possible in the United States?',
+    'Rockefeller 300'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '2–3 p.m.',
+    'Tour',
+    'Meet at the entrance to Main in front of Main Circle'
+  ); ?>
+    <h4>Walking Tour of the Vassar College Arboretum</h4>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '2–4 p.m.',
+    'Vassar Devils & Angels Ice Cream Tent',
+    'Quad Lawn'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '2:30–4:30 p.m.',
+    'Alumnae/i Author Meet and Greet',
+    'Vassar College Store (aka, the Juliet), Raymond Avenue'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '3:30–4:30 p.m.',
+    'Lecture: The First Federal Summer Theatre: Training Ground for a ‘New Imaginative Theatre',
+    'Rockefeller 200'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '3:30–4:30 p.m.',
+    'Tours'
+  ); ?>
+    <h4>Pedagogy and Place: The Legacy of Vassar’s Landscape</h4>
+    <p><strong>Location:</strong> Meet in front of Rockefeller Hall</p>
+
+    <h4>Campus Projects: View What’s New</h4>
+    <p><strong>Location:</strong> Meet in Main Circle</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '3–5 p.m.',
+    'Affinity Receptions',
+    'Main Building, 2nd floor'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '2:30–4:30 p.m.',
+    'Alumnae/i Author Meet and Greet',
+    'Vassar College Store (aka, the Juliet), Raymond Avenue'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '3:30–5 p.m.',
+    'Annual Ferry House Mini-Reunion at Reunion',
+    'Outdoor patio (weather permitting)'
+  ); ?>
+  <p>Calling all Ferries for an informal reception with light refreshments.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '5:30–6:30 p.m.',
+    '1861 Loyalty Society Reception (by invitation)',
+    'Thompson Memorial Library lawn tent'
+  ); ?>
+  <p>With gratitude for and in recognition of a vital group of donors who have included Vassar among their annual giving priorities.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '5 p.m.',
+    'Night Owls Concert',
+    'Taylor 102'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '6:30 p.m.',
+    'Cocktail Reception',
+    'Rose Parlor, Main Building'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '7 p.m.',
+    'Dinner',
+    'Villard Room, Main Building'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '10–12 a.m.',
+    'Hospitality',
+    'Davison multi purpose room'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '10 p.m.–1 a.m.',
+    'All Class After Party on Noyes Circle'
+  ); ?>
+  <p>Cash bar, DJ, and dancing to a multigenerational playlist.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+
+  <h3 id="sunday" class="schedule-item__heading">Sunday, June 4</h3>
+
+    <?php echo schedule_item_dropdown(
+      '7 a.m.–12 p.m.',
+      'Breakfast/Brunch',
+      'Gordon Commons'
+    ); ?>
+    <p>Pay at the door (credit/debit).</p>
+    <?php echo end_schedule_item_dropdown(); ?>
+
+    <?php echo schedule_item_dropdown(
+      '8 a.m.–10 a.m.',
+      'Farewell Continental Breakfast	(included)',
+      'Davison tent'
+    ); ?>
+    <?php echo end_schedule_item_dropdown(); ?>
+
+    <?php echo schedule_item_dropdown(
+      '8 a.m.–1 p.m.',
+      'Reunion Information Center is open',
+      'Main Building Lobby'
+    ); ?>
+    <?php echo end_schedule_item_dropdown(); ?>
+
+    <?php echo schedule_item_dropdown(
+      '8:45 a.m.',
+      'Choir Rehearsal',
+      'The Chapel'
+    ); ?>
+    <?php echo end_schedule_item_dropdown(); ?>
+
+    <?php echo schedule_item_dropdown(
+      '9 a.m.',
+      'Fun Run with Cross-Country Coach Ron Stonitsch',
+      'Meet in front of the Athletic and Fitness Center'
+    ); ?>
+    <?php echo end_schedule_item_dropdown(); ?>
+
+    <?php echo schedule_item_dropdown(
+      '10–11 a.m.',
+      'Service of Remembrance: An Inter-Religious Memorial Service Celebrating the Lives of Vassar Alumnae and Alumni',
+      'The Chapel'
+    ); ?>
+    <p>An inter-religious service drawing upon religious and humanist traditions to honor and celebrate the women and men of our reuning classes who have died since last reunions, as well as faculty, administrators, and staff who have died in the past year. This year’s speaker is Keri Bertino ’02, a writer and teacher in the MFA Writing Program at Columbia University’s School of the Arts. The Alumnae/i Choir will sing, directed by Gail Archer, College Organist.</p>
+    <?php echo end_schedule_item_dropdown(); ?>
+
+    <?php echo schedule_item_dropdown(
+      '1 p.m.',
+      'Reunion Adjourns/Check-Out'
+    ); ?>
+    <p>Please return room keys to Guest Services Coordinators in residence halls.</p>
+    <?php echo end_schedule_item_dropdown(); ?>
+
+    <?php echo schedule_item_dropdown(
+      '1 p.m.',
+      'NYC charter bus departs from Main Circle.'
+    ); ?>
+    <?php echo end_schedule_item_dropdown(); ?>
+
+
+<?php echo end_sec_regularContent(); ?>
+
+
+<?php echo relatedTopics(); ?>
+
+<?php include($project_paths['main_project_root'].'/alums/inc/pages/give/give.php');?>
+<?php include($project_paths['main_project_root'].'/alums/inc/pages/give/give-volunteer.php');?>
+<?php include($project_paths['main_project_root'].'/alums/inc/pages/calendar/calendar.php');?>
+<?php echo end_sec_relatedTopics(); ?>
+
+
+<?php echo site_footeralums(); ?>
