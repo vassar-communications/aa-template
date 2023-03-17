@@ -1,4 +1,5 @@
 <?php
+/* */
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
 ?>
@@ -36,8 +37,13 @@ $page_info = json_decode($page_info, true);
 
 <p class="intro-text">[other content goes here]</p>
 
+<ul class="linked-list">
+  <li><a href="#friday">Friday, June 2</a></li>
+  <li><a href="#saturday">Saturday, June 3</a></li>
+  <li><a href="#sunday">Sunday, June 4</a></li>
+</ul>
 
-  <h3 class="schedule-item__heading">Friday, June 2</h3>
+  <h3 id="friday" class="schedule-item__heading">Friday, June 2</h3>
 
 
   <?php echo schedule_item_dropdown(
@@ -181,7 +187,7 @@ $page_info = json_decode($page_info, true);
   <?php echo end_schedule_item_dropdown(); ?>
 
 
-  <h3 class="schedule-item__heading">Saturday, June 3</h3>
+  <h3 id="saturday" class="schedule-item__heading">Saturday, June 3</h3>
 
   <?php echo schedule_item_dropdown(
     '7–9 a.m.',
@@ -401,7 +407,7 @@ $page_info = json_decode($page_info, true);
       <?php echo end_schedule_item_dropdown(); ?>
 
 
-  <h3 class="schedule-item__heading">Sunday, June 4</h3>
+  <h3 id="sunday" class="schedule-item__heading">Sunday, June 4</h3>
 
 
   <?php echo schedule_item_dropdown(
