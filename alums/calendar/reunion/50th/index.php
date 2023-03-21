@@ -390,9 +390,6 @@ affiliations at affinity receptions for alum-athletes and African American, Inte
   ); ?>
 <h4><a href="LINK">Pedagogy and Place: The Legacy of Vassar’s Landscape</a></h4>
 <p><strong>Location:</strong> Meet in front of Rockefeller Hall</p>
-
-<h4><a href="LINK">Campus Projects: View What’s New</a></h4>
-<p><strong>Location:</strong> Meet in Main Circle</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
