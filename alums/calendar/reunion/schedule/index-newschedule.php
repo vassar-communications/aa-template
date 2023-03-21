@@ -160,9 +160,11 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '9:30 p.m.',
-    'Fireworks over Sunset Lake'
+    'Fireworks over Sunset Lake',
+    null,
+    null,
+    ['noContent' => true]
   ); ?>
-   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     '10 p.m.–12 a.m.',
@@ -209,9 +211,11 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '9 a.m.–11 p.m.',
-    'Residence houses open for check-in'
+    'Residence houses open for check-in',
+    null,
+    null,
+    ['noContent' => true]
   ); ?>
-   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     '9–10 a.m.',
@@ -232,9 +236,11 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '10:45 a.m.',
-    'Parade of Classes'
+    'Parade of Classes',
+    null,
+    null,
+    ['noContent' => true]
   ); ?>
-   <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
@@ -300,14 +306,23 @@ $page_info = json_decode($page_info, true);
     <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
+    '3–5 p.m.',
+    'Affinity Receptions',
+    'Main Building, 2nd floor'
+  ); ?>
+  <p>Connect with other alums and campus administrators with shared identities and 
+affiliations at affinity receptions for alum-athletes and African American, International, Latinx, LGBTQIA+, Transitions/first-generation, and alums affiliated with Religious and Spiritual Life and WVKR.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
     '3:30–4:30 p.m.',
     'Lectures and Panels'
   ); ?>
-  <h4><a href="LINK">The First Federal Summer Theatre: Training Ground for a ‘New Imaginative Theatre’</a></h4>
-<p><strong>Location:</strong> Rockefeller 200</p>
-
-  <h4><a href="LINK">Screening the Screens: The Allure and Hazards of Social Media</a></h4>
+  <h4><a href="LINK">Social Media: A Conversation About its Origins, Power and Impact</a></h4>
 <p><strong>Location:</strong> Rockefeller 300</p>
+
+  <h4><a href="LINK">Hallie Flanagan and the 1937 Federal Summer Theater Conference at Vassar</a></h4>
+<p><strong>Location:</strong> Rockefeller 200</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -319,16 +334,6 @@ $page_info = json_decode($page_info, true);
 
 <h4><a href="LINK">Campus Projects: View What’s New</a></h4>
 <p><strong>Location:</strong> Meet in Main Circle</p>
-  <?php echo end_schedule_item_dropdown(); ?>
-
-
-  <?php echo schedule_item_dropdown(
-    '3–5 p.m.',
-    'Affinity Receptions',
-    'Main Building, 2nd floor'
-  ); ?>
-  <p>Connect with other alums and campus administrators with shared identities and 
-affiliations at affinity receptions for alum-athletes and African American, International, Latinx, LGBTQIA+, Transitions/first-generation, and alums affiliated with Religious and Spiritual Life and WVKR.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -350,7 +355,7 @@ Exploring Queer Spaces, Cracks, and Holes.',
   <?php echo end_schedule_item_dropdown(); ?>
 
     <?php echo schedule_item_dropdown(
-      '5 p.m',
+      '5 p.m.',
       'Night Owls Concert',
       'Taylor 102'
     ); ?>
@@ -415,7 +420,7 @@ Exploring Queer Spaces, Cracks, and Holes.',
 
 
   <?php echo schedule_item_dropdown(
-    '8 a.m.–1 p.m',
+    '8 a.m.–1 p.m.',
     'Reunion Information Center is open',
     'Main Building Lobby'
   ); ?>
@@ -439,7 +444,7 @@ Exploring Queer Spaces, Cracks, and Holes.',
 
 
   <?php echo schedule_item_dropdown(
-    '9 a.m',
+    '9 a.m.',
     'Fun Run with Cross-Country Coach Ron Stonitsch'
   ); ?>
   <p>Meet in front of the Athletic and Fitness Center</p>
@@ -457,7 +462,7 @@ Exploring Queer Spaces, Cracks, and Holes.',
 
 
   <?php echo schedule_item_dropdown(
-    '1 p.m',
+    '1 p.m.',
     'Reunion Adjourns/Check-Out'
   ); ?>
   <p>Please return room keys to Guest Services Coordinators in residence houses.</p>
@@ -465,10 +470,12 @@ Exploring Queer Spaces, Cracks, and Holes.',
 
 
   <?php echo schedule_item_dropdown(
-    '1 p.m',
-    'NYC charter bus departs from Main Circle'
+    '1 p.m.',
+    'NYC charter bus departs from Main Circle',
+    null,
+    null,
+    ['noContent' => true]
   ); ?>
-   <?php echo end_schedule_item_dropdown(); ?>
 
 <?php echo end_sec_regularContent(); ?>
 
