@@ -107,7 +107,7 @@ campus',
   <?php echo schedule_item_dropdown(
     '10 p.m.',
     'Hospitality',
-    'Davison multipurpose room, Davison Parlor',
+    'Davison multipurpose room and Davison Parlor',
   ); ?>
   <p>Demitasse in the Davison Parlor</p>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -116,16 +116,16 @@ campus',
   <h3 id="friday" class="schedule-item__heading">Friday, June 2</h3>
 
   <?php echo schedule_item_dropdown(
-    '8 a.m.–10 a.m.',
+    '8–10 a.m.',
     'Continental breakfast',
-    'Davison tent',
+    'Davison Tent',
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     '9 a.m.',
     '“What I’ve Been Up to for the Last Half a Century”',
-    'Davison tent',
+    'Davison Tent',
   ); ?>
   <p>Roundtable discussions featuring classmates.</p>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -136,51 +136,48 @@ campus',
 Commission staff',
     'Rockefeller 200',
   ); ?>
-  <p>The Historic Campus of Vassar College features the founding of Vassar and its early buildings in the context of the architectural development in the US.  Followed by a walking tour highlighting the buildings in the Quad, Main Building, Ferry House, and the Avery now known as the Vogelstein Center for Drama and Film.</p>
+  <p>The Historic Campus of Vassar College features the founding of Vassar and its early buildings in the context of the architectural development in the US.  Followed by a walking tour highlighting the buildings in the Quad, Main Building, Ferry House, and Avery (now known as the Vogelstein Center for Drama and Film).</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     '12 p.m.',
-    'Off Site lunch at the Culinary Institute of America - reservations required',
+    'Off Site Lunch at the Culinary Institute of America - reservations required',
     null
   ); ?>
-  <p>Off Site lunch at the Culinary Institute of America at the Bocuse Room
+  <p>Off site lunch at the Culinary Institute of America at the Bocuse Room
 followed by a tour of the CIA and then a stop at the Walkway over the Hudson before heading back to campus. <strong>Advance reservations required</strong>.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     '12:30 p.m.',
-    'Picnic lunch',
-    'Sunset lake tent'
+    'Picnic Lunch',
+    'Sunset Lake Tent'
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
     '3–4 p.m.',
-    'College Lectures - <span style="color: #f0f">MORE CONTENT NEEDED</span>'
+    'Lectures and Panels'
   ); ?>
-  <p style="color: #f0f">(See page XX for detailed descriptions.)</p>
-
-  <h4>Ageless Aging: Resilience, Cognitive Health and Mindfulness</h4>
-    <p><strong>Location:</strong> Rockefeller 300</p>
-
-  <h4>Campus Capital Projects: What’s Happening and Upcoming?</h4>
-    <p><strong>Location:</strong> Rockefeller 200</p>
+      <h4><a href="LINK">Ageless Aging: Resilience, Cognitive Health and Mindfulness</a></h4>
+      <p><strong>Location:</strong> Rockefeller 300</p>
+      <h4><a href="LINK">Campus Capital Projects: What’s Happening and Upcoming?</a></h4>
+      <p><strong>Location:</strong> Rockefeller 200</p>
   <?php echo end_schedule_item_dropdown(); ?>
-
 
   <?php echo schedule_item_dropdown(
     '3–4 p.m.',
     'Tours'
   ); ?>
-<h4>The <a href="https://www.vassar.edu/preserve">Vassar Preserve</a> and <a href="https://offices.vassar.edu/environmental-cooperative/">Environmental Cooperative</a></h4>
-<p><em>Shuttles depart from Main Circle</em></p>
 
-<h4>Walking Tour of the Vassar College Arboretum</h4>
-<p><em>Meet at the entrance to Main in front of Main Circle.</em></p>
+<h4><a href="LINK">The Vassar Preserve and Environmental Cooperative</a></h4>
+<p><strong>Location:</strong> Shuttles depart from Main Circle</p>
+
+<h4><a href="LINK">Walking Tour of the Vassar College Arboretum</a></h4>
+<p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
+
   <?php echo end_schedule_item_dropdown(); ?>
-
 
   <?php echo schedule_item_dropdown(
     '5–6 p.m.',
@@ -193,7 +190,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
   <?php echo schedule_item_dropdown(
     '5-7 p.m.',
-    'The Loeb All-Class Welcome Reception.'
+    'The Loeb All-Class Welcome Reception'
   ); ?>
   <p>Refreshments served.</p>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -225,10 +222,10 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
   <?php echo schedule_item_dropdown(
     '6–9 p.m.',
-    'Co-Class President Doris Schumacher McMorrow’s traditional dinner',
+    'Co-Class President Doris Schumacher McMorrow’s Traditional Dinner, Drinks and Dancing',
     'Gordon Commons, 2nd floor (UpCDC)'
   ); ?>
-  <p>Drinks and dancing with music provided by DJ Steven Colvin and Company</p>
+  <p>With music provided by DJ Steven Colvin and Company</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -244,7 +241,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
     'Susan Shiva Theater behind the ALANA center'
   ); ?>
   <p>Adults only, brought to you by the class of 2003 along with alums from QCVC (Queer Coalition of Vassar College); CHOICE (Campus Health Organization for Information, Contraception, and Education); and SQUIRM, a Vassar College student publication dedicated to exploring sex in literary and artistic forms.</p>
-  <p>After the fireworks comes the afterglow! Join us for an uplifting celebration of sexual expression featuring readings, burlesque, and art from a multigenerational group of alum performers. Coffee and dessert will be served.</p>
+  <p>After the fireworks comes the afterglow! Join us for an uplifting celebration of sexual expression featuring readings, burlesque, and art from a multigenerational group of alum performers. <em>Coffee and dessert will be served</em>.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -256,10 +253,10 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
   <?php echo schedule_item_dropdown(
     '10 p.m.–12 a.m.',
-    'Join us at the “Mug” for music from the 80s and 90s.',
+    '“The Mug”',
     'Lower level, College Center'
   ); ?>
-  <p>Don’t forget to wait in line. Everyone 21 and older are welcome. Cash bar, DJ, and dancing.</p>
+  <p>Join us at the “Mug” for music from the 80’s and 90’s. Don’t forget to wait in line. Everyone 21 and older are welcome. Cash bar, DJ, and dancing.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -300,10 +297,9 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
   <?php echo schedule_item_dropdown(
     '10:15 a.m.',
-    'Line Up for Parade of Classes',
-    'The Chapel'
+    'Parade of Classes Line-Up'
   ); ?>
-  <p>Line starts with 1953 at the chapel along the path and road ending with 2018. Look for your class banner along the parade route. Golf carts will be available.</p>
+  <p>Line up for Parade of Classes (line starts with 1953 at the chapel along the path and road, ending with 2018). Look for your class banner along the parade route. Golf carts will be available.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -325,7 +321,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
   <?php echo schedule_item_dropdown(
     '12:30–1:30 p.m.',
-    'Lunch and class meeting',
+    'Lunch and Class Meeting',
     'Bridge Building'
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -333,18 +329,23 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
   <?php echo schedule_item_dropdown(
     '2–3 p.m.',
-    'Lecture: Is a Multiracial Inclusive Democracy Possible in the United States?',
-    'Rockefeller 300'
+    'Lectures and Panels'
   ); ?>
+
+  <h4><a href="LINK">Is a Multiracial Inclusive Democracy Possible in the United States?</a></h4>
+<p><strong>Location:</strong> Rockefeller 300</p>
+
+  <h4><a href="LINK">Financial Wellness for Young Professionals</a></h4>
+<p><strong>Location:</strong> Rockefeller 200</p>
   <?php echo end_schedule_item_dropdown(); ?>
-
-
+  
   <?php echo schedule_item_dropdown(
     '2–3 p.m.',
-    'Tour',
-    'Meet at the entrance to Main in front of Main Circle'
+    'Tour'
   ); ?>
-    <h4>Walking Tour of the Vassar College Arboretum</h4>
+
+<h4><a href="LINK">Walking Tour of the Vassar College Arboretum</a></h4>
+<p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -363,38 +364,32 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
 
-
-  <?php echo schedule_item_dropdown(
-    '3:30–4:30 p.m.',
-    'Lecture: The First Federal Summer Theatre: Training Ground for a ‘New Imaginative Theatre',
-    'Rockefeller 200'
-  ); ?>
-  <?php echo end_schedule_item_dropdown(); ?>
-
-
-  <?php echo schedule_item_dropdown(
-    '3:30–4:30 p.m.',
-    'Tours'
-  ); ?>
-    <h4>Pedagogy and Place: The Legacy of Vassar’s Landscape</h4>
-    <p><strong>Location:</strong> Meet in front of Rockefeller Hall</p>
-
-    <h4>Campus Projects: View What’s New</h4>
-    <p><strong>Location:</strong> Meet in Main Circle</p>
-  <?php echo end_schedule_item_dropdown(); ?>
-
   <?php echo schedule_item_dropdown(
     '3–5 p.m.',
     'Affinity Receptions',
     'Main Building, 2nd floor'
   ); ?>
+  <p>Connect with other alums and campus administrators with shared identities and 
+affiliations at affinity receptions for alum-athletes and African American, International, Latinx, LGBTQIA+, Transitions/first-generation, and alums affiliated with Religious and Spiritual Life and WVKR.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
-    '2:30–4:30 p.m.',
-    'Alum Author Meet and Greet',
-    'Vassar College Store (aka, the Juliet), Raymond Avenue'
+    '3:30–4:30 p.m.',
+    'Lectures and Panels'
   ); ?>
+  <h4><a href="LINK">Social Media: A Conversation About its Origins, Power and Impact</a></h4>
+<p><strong>Location:</strong> Rockefeller 300</p>
+
+  <h4><a href="LINK">Hallie Flanagan and the 1937 Federal Summer Theater Conference at Vassar</a></h4>
+<p><strong>Location:</strong> Rockefeller 200</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '3:30–4:30 p.m.',
+    'Tours'
+  ); ?>
+<h4><a href="LINK">Pedagogy and Place: The Legacy of Vassar’s Landscape</a></h4>
+<p><strong>Location:</strong> Meet in front of Rockefeller Hall</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -406,18 +401,18 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
+    '5 p.m.',
+    'Night Owls Concert',
+    'Taylor 102'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
     '5:30–6:30 p.m.',
     '1861 Loyalty Society Reception (by invitation)',
     'Thompson Memorial Library lawn tent'
   ); ?>
   <p>With gratitude for and in recognition of a vital group of donors who have included Vassar among their annual giving priorities.</p>
-  <?php echo end_schedule_item_dropdown(); ?>
-
-  <?php echo schedule_item_dropdown(
-    '5 p.m.',
-    'Night Owls Concert',
-    'Taylor 102'
-  ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -435,9 +430,9 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
-    '10–12 a.m.',
+    '10 p.m.–12 a.m.',
     'Hospitality',
-    'Davison multi purpose room'
+    'Davison multipurpose room'
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -447,7 +442,6 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
   ); ?>
   <p>Cash bar, DJ, and dancing to a multigenerational playlist.</p>
   <?php echo end_schedule_item_dropdown(); ?>
-
 
 
   <h3 id="sunday" class="schedule-item__heading">Sunday, June 4</h3>
@@ -462,8 +456,8 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
     <?php echo schedule_item_dropdown(
       '8 a.m.–10 a.m.',
-      'Farewell Continental Breakfast	(included)',
-      'Davison tent'
+      'Farewell Continental Breakfast (included)',
+      'Davison Tent'
     ); ?>
     <?php echo end_schedule_item_dropdown(); ?>
 
@@ -500,12 +494,12 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
       '1 p.m.',
       'Reunion Adjourns/Check-Out'
     ); ?>
-    <p>Please return room keys to Guest Services Coordinators in residence halls.</p>
+    <p>Please return room keys to Guest Services Coordinators in residence houses.</p>
     <?php echo end_schedule_item_dropdown(); ?>
 
     <?php echo schedule_item_dropdown(
       '1 p.m.',
-      'NYC charter bus departs from Main Circle.'
+      'NYC charter bus departs from Main Circle'
     ); ?>
     <?php echo end_schedule_item_dropdown(); ?>
 
