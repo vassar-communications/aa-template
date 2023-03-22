@@ -50,13 +50,15 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent('Upcoming Trip','','text-center');?>
 
+<p><strong>Our tour is almost full! Two places are still available. Please contact The Grand Tour at <?php echo phone_number('800-727-2995'); ?> to make your reservation.</strong></p>
+
 <p class="intro-text">Imperial Treasures:<br />Art and Music in Dresden and Prague</p>
 
-<h3>June 8-18, 2023</h3>
+<p><strong>June 8–18, 2023<strong></p>
 
-<h3>Vassar Hosts:  Kathryn Libin, Professor of Music<br />
-T. Barton Thurber, The Anne Hendricks Bass Director of the Frances Lehman Loeb Art Center and Lecturer in Art
-</h3>
+<p><strong>Vassar Hosts:  Kathryn Libin, Professor of Music<br />
+T. Barton Thurber, The Anne Hendricks Bass Director of the Frances Lehman Loeb Art Center and Lecturer in Art</strong>
+</p>
 
 
 <?php echo end_sec_regularContent();?>
