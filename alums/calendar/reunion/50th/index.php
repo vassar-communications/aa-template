@@ -141,6 +141,7 @@ Commission staff',
     'Rockefeller 200',
   ); ?>
   <p>The Historic Campus of Vassar College features the founding of Vassar and its early buildings in the context of the architectural development in the U.S. Followed by a walking tour highlighting the buildings in the Quad, Main Building, Ferry House, and Avery (now known as the Vogelstein Center for Drama and Film).</p>
+
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -162,6 +163,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
   <?php echo schedule_item_dropdown(
     '3–4 p.m.',
+
     'Lectures and panels'
   ); ?>
       <h4><a href="LINK">Ageless Aging: Resilience, Cognitive Health, and Mindfulness</a></h4>
@@ -176,11 +178,11 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
   ); ?>
 
 <h4><a href="LINK">The Vassar Preserve and Environmental Cooperative</a></h4>
+
 <p><strong>Location:</strong> Shuttles depart from Main Circle.</p>
 
 <h4><a href="LINK">Walking Tour of the Vassar College Arboretum</a></h4>
 <p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
-
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
