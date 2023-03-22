@@ -66,9 +66,9 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '3–4 p.m.',
-    'Lectures and Panels'
+    'Lectures and panels'
   ); ?>
-      <h4><a href="LINK">Ageless Aging: Resilience, Cognitive Health and Mindfulness</a></h4>
+      <h4><a href="LINK">Ageless Aging: Resilience, Cognitive Health, and Mindfulness</a></h4>
       <p><strong>Location:</strong> Rockefeller 300</p>
       <h4><a href="LINK">Campus Capital Projects: What’s Happening and Upcoming?</a></h4>
       <p><strong>Location:</strong> Rockefeller 200</p>
@@ -80,7 +80,7 @@ $page_info = json_decode($page_info, true);
   ); ?>
 
 <h4><a href="LINK">The Vassar Preserve and Environmental Cooperative</a></h4>
-<p><strong>Location:</strong> Shuttles depart from Main Circle</p>
+<p><strong>Location:</strong> Shuttles depart from Main Circle.</p>
 
 <h4><a href="LINK">Walking Tour of the Vassar College Arboretum</a></h4>
 <p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
@@ -89,12 +89,12 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '4–5 p.m.',
-    'Class of 1958 – Art Lecture and Self-Guided Tour',
+    'Class of 1958—Art Lecture and Self-Guided Tour',
     'Taylor 203'
   ); ?>
 
     <p><strong>Bart Thurber, The Anne Hendricks Bass Director of the Frances Lehman Loeb Art Center and Lecturer in Art</strong></p>
-    <p>The Latest Developments at the Frances Lehman Loeb Art Center.  Followed by a self-guided tour.
+    <p>The latest developments at the Frances Lehman Loeb Art Center.  Followed by a self-guided tour.
 </p>
 
   <?php echo end_schedule_item_dropdown(); ?>
@@ -109,7 +109,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '5–6 p.m.',
-    'Class of 1983 – Welcome reception',
+    'Class of 1983–Welcome reception',
     'The Vassar Barns'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
@@ -123,28 +123,28 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '5:30–6:45 p.m.',
-    'Shabbat Services',
+    'Shabbat services',
     'The Bayit (51 Collegeview Avenue, North Gate)'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     '6 p.m.',
-    'Night Owls Rehearsal',
+    'Night Owls rehearsal',
     'Rockefeller 200'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     '6–7 p.m.',
-    'Faculty Reception',
+    'Faculty reception',
     'President’s lawn Tent'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     '7–9 p.m.',
-    'Picnic Dinner'
+    'Picnic dinner'
   ); ?>
 <p><strong>Classes of 1953, 1958, 1963, 1968:</strong> 2nd floor Main Building</p>
 <p><strong>Classes of 1978, 1983, 1988, 1993, 1998, 2003, 2008, 2013, 2016, 2018:</strong> Noyes Tent</p>
@@ -248,7 +248,7 @@ $page_info = json_decode($page_info, true);
     'Celebrate Vassar',
     'Noyes Circle Tent'
   ); ?>
-  <p>Alums from the 5th to the 75th reunion classes, guests, and children gather together to celebrate extraordinary volunteers and gifts, and our shared Vassar legacy. Remarks by Monica Vachher ’77, AAVC President, and Kat Mills Polys ’93, Vassar Fund Committee Chair.</p>
+  <p>Alums from the 5th to the 75th reunion classes, guests, and children gather together to celebrate extraordinary volunteers, gifts, and our shared Vassar legacy. Remarks by Monica Vachher ’77, AAVC President, and Kat Mills Polys ’93, Vassar Fund Committee Chair.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -256,15 +256,15 @@ $page_info = json_decode($page_info, true);
     '12:30–1:30 p.m.',
     'Class Luncheons'
   ); ?>
-<p><strong>Classes of 1953, and 1958:</strong> The Aula</p>
+<p><strong>Classes of 1953 and 1958:</strong> The Aula</p>
 <p><strong>Class of 1963 and 1968:</strong> Main Building, Villard Room</p>
-<p><strong>Classes of 1978, 1983, 1988, 1993, 1998, 2003, 2008, 2013, 2016, 2018:</strong> Gordon Commons</p>
+<p><strong>Classes of 1978, 1983, 1988, 1993, 1998, 2003, 2008, 2013, 2016, and 2018:</strong> Gordon Commons</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
     '2–3 p.m.',
-    'Lectures and Panels'
+    'Lectures and panels'
   ); ?>
 
   <h4><a href="LINK">Is a Multiracial Inclusive Democracy Possible in the United States?</a></h4>
@@ -292,7 +292,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '2–4 p.m.',
-    'Family Activities on the Quad lawn'
+    'Family activities on the Quad lawn'
   ); ?>
     <p>Bubble bus, bouncy castles</p>
 		<p>A Day in the Park, The Wimpfheimer</p>
@@ -300,14 +300,14 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '2:30–4:30 p.m.',
-    'Alum Author Meet and Greet',
+    'Alum author meet and greet',
     'Vassar College Store (aka, the Juliet), Raymond Avenue'
   ); ?>
     <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     '3–5 p.m.',
-    'Affinity Receptions',
+    'Affinity receptions',
     'Main Building, 2nd floor'
   ); ?>
   <p>Connect with other alums and campus administrators with shared identities and 
@@ -316,9 +316,9 @@ affiliations at affinity receptions for alum-athletes and African American, Inte
 
   <?php echo schedule_item_dropdown(
     '3:30–4:30 p.m.',
-    'Lectures and Panels'
+    'Lectures and panels'
   ); ?>
-  <h4><a href="LINK">Social Media: A Conversation About its Origins, Power and Impact</a></h4>
+  <h4><a href="LINK">The Promise and Peril of Social Media</a></h4>
 <p><strong>Location:</strong> Rockefeller 300</p>
 
   <h4><a href="LINK">Hallie Flanagan and the 1937 Federal Summer Theater Conference at Vassar</a></h4>
@@ -371,7 +371,7 @@ Exploring Queer Spaces, Cracks, and Holes.',
 
     <?php echo schedule_item_dropdown(
       '6:30–9:30 p.m.',
-      'Class Dinners',
+      'Class dinners',
       null
     ); ?>
       <p><strong>1953 and 1958:</strong> Alumnae House Dining Room</p>
@@ -393,14 +393,14 @@ Exploring Queer Spaces, Cracks, and Holes.',
       '10 p.m–12 a.m.',
       'Hospitalities'
     ); ?>
-    <p><strong>Classes of 1958, 1963, 1968:</strong> Jewett House</p>
-    <p><strong>Classes of 1973:</strong> Davison House</p>
+    <p><strong>Classes of 1958, 1963, and 1968:</strong> Jewett House</p>
+    <p><strong>Class of 1973:</strong> Davison House</p>
     <?php echo end_schedule_item_dropdown(); ?>
 
 
       <?php echo schedule_item_dropdown(
         '10 p.m–1 a.m.',
-        'All Class After Party on Noyes Circle'
+        'All-class after party on Noyes Circle'
       ); ?>
       <p>Cash bar, DJ, and dancing to a multigenerational playlist.</p>
       <?php echo end_schedule_item_dropdown(); ?>
@@ -411,7 +411,7 @@ Exploring Queer Spaces, Cracks, and Holes.',
 
   <?php echo schedule_item_dropdown(
     '7 a.m–12 p.m.',
-    'Breakfast/Brunch',
+    'Breakfast/brunch',
     'Gordon Commons'
   ); ?>
   <p>Pay at the door (credit/debit).</p>
@@ -429,7 +429,7 @@ Exploring Queer Spaces, Cracks, and Holes.',
 
   <?php echo schedule_item_dropdown(
     '8:45 a.m.',
-    'Choir Rehearsal',
+    'Choir rehearsal',
     'The Chapel'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
@@ -463,7 +463,7 @@ Exploring Queer Spaces, Cracks, and Holes.',
 
   <?php echo schedule_item_dropdown(
     '1 p.m.',
-    'Reunion Adjourns/Check-Out'
+    'Reunion adjourns/check-out'
   ); ?>
   <p>Please return room keys to Guest Services Coordinators in residence houses.</p>
   <?php echo end_schedule_item_dropdown(); ?>
