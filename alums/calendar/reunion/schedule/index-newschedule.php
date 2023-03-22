@@ -59,7 +59,7 @@ $page_info = json_decode($page_info, true);
     'Residence houses open for check-in'
   ); ?>
 
-    <p>Dorm rooms are available after 2 p.m.</p>
+    <p>Dorm rooms are available after 2 p.m. <a href="https://www.vassar.edu/alums/calendar/reunion#flush-headingOne">Find your Dorm Headquarters</a>.</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -211,12 +211,13 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '9 a.m.–11 p.m.',
-    'Residence houses open for check-in',
-    null,
-    null,
-    ['noContent' => true]
+    'Residence houses open for check-in'
   ); ?>
 
+    <p><a href="https://www.vassar.edu/alums/calendar/reunion#flush-headingOne">Find your Dorm Headquarters</a>.</p>
+
+  <?php echo end_schedule_item_dropdown(); ?>
+    
   <?php echo schedule_item_dropdown(
     '9–10 a.m.',
     'President’s Hour',
