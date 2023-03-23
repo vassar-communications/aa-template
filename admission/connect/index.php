@@ -111,10 +111,26 @@ $page_info = json_decode($page_info, true);
     <!-- <a class="fixemaillink" href="mailto:jao@vassar.edu">Email: jao@vassar.edu</a> -->
 </div>
 
+
 <div class="staff-contact mb-5">
-    <h3><a class="fixemaillink" href="mailto:bconwell@vassar.edu">Breanna Conwell</a></h3>
+    <h3><a class="fixemaillink" href="mailto:jao@vassar.edu">Justin Ao</a></h3>
     <p><em>Admission Counselor</em></p>
-    <p><strong>Regional Responsibilities:</strong> Alabama, Arkansas, Georgia, Kentucky, Louisiana, Mississippi, North Carolina, South Carolina, Tennessee, Virginia, West Virginia<br/><strong>International Responsibilities:</strong> East Asia, Canada</p>
+    <p><strong>Regional Responsibilities:</strong> Alaska, Idaho, Iowa, Kansas, Missouri, Montana, Nebraska, New York (Rockland County, Westchester County), North Dakota, Oklahoma, Oregon, Pennsylvania, South Dakota, Texas, Washington, Wyoming, U.S. Territories of American Samoa, Guam, the Northern Mariana Islands<br/><strong>International Responsibilities:</strong> Oceania</p>
+    <!-- <a class="fixemaillink" href="mailto:jao@vassar.edu">Email: jao@vassar.edu</a> -->
+</div>
+
+<div class="staff-contact mb-5">
+    <h3><a class="fixemaillink" href="mailto:rcarman@vassar.edu">Roshen Carman</a></h3>
+    <p><em>Admission Counselor</em></p>
+    <p><strong>Regional Responsibilities:</strong> Indiana, Michigan, Minnesota, New York (Long Island, Staten Island), Ohio, Wisconsin</p>
+    <!-- <a class="fixemaillink" href="mailto:bconwell@vassar.edu">Email: bconwell@vassar.edu</a> -->
+</div>
+
+
+<div class="staff-contact mb-5">
+    <h3><a class="fixemaillink" href="mailto:admissions@vassar.edu">Breanna Conwell</a></h3>
+    <p><em>Admission Counselor</em></p>
+    <p><strong>Regional Responsibilities:</strong> Alabama, Arkansas, Georgia, Kentucky, Louisiana, Mississippi, North Carolina, South Carolina, Tennessee, Virginia, West Virginia<br><strong>International Responsibilities:</strong> East Asia, Canada</p>
     <!-- <a class="fixemaillink" href="mailto:bconwell@vassar.edu">Email: bconwell@vassar.edu</a> -->
 </div>
 
@@ -135,7 +151,7 @@ $page_info = json_decode($page_info, true);
 <div class="staff-contact mb-5">
     <h3><a class="fixemaillink" href="mailto:showenstein@vassar.edu">Siena Howenstein</a></h3>
     <p><em>Admission Counselor</em></p>
-    <p><strong>Regional Responsibilities:</strong> California (Southern), Delaware, Maryland, Massachusetts (Western), New Jersey (Northern), New York (Long Island, Staten Island, Upstate)</p>
+    <p><strong>Regional Responsibilities:</strong> California (Southern), Delaware, Maryland, Massachusetts (Western), New Jersey (Northern), New York (Upstate)</p>
     <!-- <a class="fixemaillink" href="mailto:showenstein@vassar.edu">Email: showenstein@vassar.edu</a> -->
 </div>
 
@@ -170,7 +186,7 @@ $page_info = json_decode($page_info, true);
 <div class="staff-contact mb-5">
     <h3><a class="fixemaillink" href="mailto:juanramirez@vassar.edu">Juan Ramirez</a></h3>
     <p><em>Admission Counselor</em></p>
-    <p><strong>Regional Responsibilities:</strong> Indiana, Michigan, Minnesota, New York (Bronx, Queens), Ohio, Puerto Rico, Virgin Islands, Wisconsin<br/><strong>International Responsibilities:</strong> Africa, Caribbean, Central America, Mexico, South America</p>
+    <p><strong>Regional Responsibilities:</strong> New York (Bronx, Queens), Puerto Rico, Virgin Islands<br/><strong>International Responsibilities:</strong> Africa, Caribbean, Central America, Mexico, South America</p>
     <!-- <a class="fixemaillink" href="mailto:juanramirez@vassar.edu">Email: juanramirez@vassar.edu</a> -->
 </div>
 
