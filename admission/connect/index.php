@@ -113,13 +113,6 @@ $page_info = json_decode($page_info, true);
 
 
 <div class="staff-contact mb-5">
-    <h3><a class="fixemaillink" href="mailto:jao@vassar.edu">Justin Ao</a></h3>
-    <p><em>Admission Counselor</em></p>
-    <p><strong>Regional Responsibilities:</strong> Alaska, Idaho, Iowa, Kansas, Missouri, Montana, Nebraska, New York (Rockland County, Westchester County), North Dakota, Oklahoma, Oregon, Pennsylvania, South Dakota, Texas, Washington, Wyoming, U.S. Territories of American Samoa, Guam, the Northern Mariana Islands<br/><strong>International Responsibilities:</strong> Oceania</p>
-    <!-- <a class="fixemaillink" href="mailto:jao@vassar.edu">Email: jao@vassar.edu</a> -->
-</div>
-
-<div class="staff-contact mb-5">
     <h3><a class="fixemaillink" href="mailto:rcarman@vassar.edu">Roshen Carman</a></h3>
     <p><em>Admission Counselor</em></p>
     <p><strong>Regional Responsibilities:</strong> Indiana, Michigan, Minnesota, New York (Long Island, Staten Island), Ohio, Wisconsin</p>
