@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 <h3 class="schedule-item__heading">Friday, June 2</h3>
 
   <?php echo presentation_item(
-    'Ageless Aging: Resilience, Cognitive Health and Mindfulness',
+    'Ageless Aging: Resilience, Cognitive Health, and Mindfulness',
     'Rockefeller Hall, Room 300 and zoom for virtual attendees',
     '3:00 p.m.'
   ); ?>
@@ -130,6 +130,78 @@ $page_info = json_decode($page_info, true);
 <h3 class="schedule-item__heading">Saturday, June 3</h3>
 
 <?php echo presentation_item(
+  'Is a Multiracial Inclusive Democracy Possible in the United States?',
+  'Rockefeller Hall, Room 300',
+  '2:00 p.m.'
+); ?>
+  <?php echo presentation_content(); ?>
+    <p>Those who wrote the Constitution did not conceptualize "We the People" as multiracial and inclusive. Every student of history knows this. As the demographics, power and politics of the US change, we are seeing White Nationalism emerge from the shadows into being an openly championed segment of US politics and daily life. Are we at risk of becoming the next Apartheid state? Instead of a democracy, will we be ruled by the Authoritarian Few or an Oligarchy?</p>
+  <?php echo end_presentation_content(); ?>
+
+  <?php echo presentation_member_list('Presenter'); ?>
+    <?php echo presentation_member(
+      'Peggy Nagae ’73',
+      'https://www.linkedin.com/in/peggy-nagae-75ba402/',
+      'Attorney and Consultant',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/Peggy-2020.jpg',
+      'ALT TEXT HERE'
+    ); ?>
+    <?php echo presentation_member(
+      'Keith St. John ’81',
+      'https://www.linkedin.com/in/keith-st-john-045b29a9/',
+      'General Counsel, NYS Commission on Ethics and Lobbying in Govt',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/keith-st-john.jpg',
+      'ALT TEXT HERE'
+    ); ?>
+    <?php echo presentation_member(
+      'Richard Born',
+      'https://www.vassar.edu/faculty/born',
+      'Professor of Political Science at Vassar College',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/richard-born.jpg',
+      'ALT TEXT HERE'
+    ); ?>
+    <?php echo presentation_member(
+      'Mallory Whiteduck',
+      'https://www.vassar.edu/faculty/mwhiteduck',
+      'Assistant Professor of Political Science at Vassar College',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/mallory-whiteduck.jpg',
+      'ALT TEXT HERE'
+    ); ?>
+  <?php echo end_presentation_member_list(); ?>
+<?php echo end_presentation_item(); ?>
+
+
+
+<?php echo presentation_item(
+  'Financial Wellness for Young Professionals',
+  'Rockefeller Hall, Room 200',
+  '2:00 p.m.'
+); ?>
+  <?php echo presentation_content(); ?>
+    <p>Juggling student loans, credit cards, rent, groceries and more? Tired of living paycheck to paycheck? Join former SCC mentors and finance professionals Caroline Sarles ’13 and Gleny Ramirez ’03 for an informative discussion about how to move from basic survival to building assets and greater financial stability.</p>
+  <?php echo end_presentation_content(); ?>
+
+  <?php echo presentation_member_list('Presenter'); ?>
+    <?php echo presentation_member(
+      'Caroline Sarles ’13, CFP',
+      'https://www.linkedin.com/in/sarles-caroline/',
+      'Senior Marketing and Client Service Manager at Martin Investment Management, LLC',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/sarles.jpg',
+      'ALT TEXT HERE'
+    ); ?>
+    <?php echo presentation_member(
+      'Gleny Ramirez ’03',
+      'https://www.linkedin.com/in/gleny-ramirez/',
+      'Senior Paralegal at VanEck',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/ramirez.jpg',
+      'ALT TEXT HERE'
+    ); ?>
+  <?php echo end_presentation_member_list(); ?>
+<?php echo end_presentation_item(); ?>
+
+
+
+<?php echo presentation_item(
   'Walking Tour of the Vassar College Arboretum',
   'Meet at the entrance to Main in front of Main Circle.',
   '2:00 p.m.'
@@ -148,6 +220,42 @@ $page_info = json_decode($page_info, true);
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
+
+
+<?php echo presentation_item(
+  'The Promise and Peril of Social Media',
+  'Rockefeller Hall, Room 300',
+  '3:30 p.m.'
+); ?>
+  <?php echo presentation_content(); ?>
+    <p>Join us for a nuanced conversation about how social media engages and influences our emotional, social, and cultural lives. We will discuss mental health, belonging needs, and the contextual origins of our hyper-connected world.</p>
+  <?php echo end_presentation_content(); ?>
+
+  <?php echo presentation_member_list('Presenter'); ?>
+    <?php echo presentation_member(
+      'John Andrews',
+      'https://www.vassar.edu/faculty/jandrews',
+      'Visiting Assistant Professor of Sociology',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/john-andrews.jpg',
+      'ALT TEXT HERE'
+    ); ?>
+    <?php echo presentation_member(
+      'Dara Greenwood',
+      'https://www.vassar.edu/faculty/dagreenwood',
+      'Associate Professor of Psychological Studies and Director of Media Studies',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/dara-greenwood.jpg',
+      'ALT TEXT HERE'
+    ); ?>
+    <?php echo presentation_member(
+      'Anton Hart ’83',
+      'https://as.nyu.edu/faculty/anton-hart.html',
+      'FABP, FIPA, Psychoanalyst and Faculty Member at Multiple Institutions',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/anton-hart.jpg',
+      'ALT TEXT HERE'
+    ); ?>
+  <?php echo end_presentation_member_list(); ?>
+<?php echo end_presentation_item(); ?>
+
 
 
 <?php echo presentation_item(
