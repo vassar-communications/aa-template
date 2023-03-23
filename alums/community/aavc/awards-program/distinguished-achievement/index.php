@@ -38,7 +38,7 @@ $page_info = json_decode($page_info, true);
 
 <h3 class="mt-5">2021</h3>
 
-<h4>Meryl Streep ’81, P’08, ’13</h4>
+<h4>Meryl Streep ’71, P’08, ’13</h4>
 
 <ul class="linked-list">
   <li>
