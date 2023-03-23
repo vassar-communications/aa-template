@@ -266,6 +266,74 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_regularContent(); ?>
 
+
+
+
+<?php echo sec_hasColumns(
+    'Campus Facilities Hours and Services',
+    '2',
+    null,
+    'mw-inner-1',
+    'gap-3'
+); ?>
+
+  <?php echo item_col(); ?>
+
+<h3>Athletic and Fitness Center (Margie Smith)</h3>
+<ul>
+  <li>Friday: 7:00 a.m.–8:00 p.m.</li>
+  <li>Saturday:	10:00 a.m.–6:00 p.m.</li>
+  <li>Sunday: 	10:00 a.m.–6:00 p.m.</li>
+</ul>
+  <p><em>We intend to have the pool open, pending lifeguard availability, so basically pool open swim is TBD for now.</em></p>
+
+  <h3>Thompson Memorial Library including the Art Library (Amanda Burdine)</h3>
+  <ul>
+    <li>Friday: 8:30 a.m.–4:30 p.m.</li>
+    <li>Saturday:	8:30 a.m.–5:00 p.m.  	</li>
+    <li>Sunday: 	8:30 a.m.–12:00 p.m.  </li>
+  </ul>
+
+  <h3>Music Library (Amanda Burdine)</h3>
+  <ul>
+    <li>Friday: 1:00–4:00 p.m.</li>
+    <li>Saturday:	10:00 a.m.–4:00 p.m.</li>
+  </ul>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+
+    <h3>Frances Lehman Loeb Art Center (Francine Brown)</h3>
+    <ul>
+      <li>Friday:		10:00 a.m.–7:00 p.m.	</li>
+      <li>Saturday:	9:00 a.m.–5:00 p.m.	</li>
+      <li>Sunday: 	9:00 a.m.–5:00 p.m.	</li>
+    </ul>
+
+    <h3>A. Scott Warthin Museum of Geology & Natural History, Ely Hall (Rick Jones)</h3>
+    <ul>
+      <li>Friday: 		8:30 a.m.–5:00 p.m.	</li>
+      <li>Saturday:	2:00–4:00 p.m.	</li>
+    </ul>
+
+    <h3>Vassar College Store, Juliet, Raymond Avenue (Steve Glasgow)</h3>
+    <ul>
+      <li>Thursday: 10:00 a.m.–6:00 p.m.</li>
+      <li>Friday:		10:00 a.m.–6:00 p.m</li>
+      <li>Saturday:	11:00 a.m.–6:00 p.m.<br>
+        <em>Author Meet and Greet, 2:30–4:30 p.m.</em>
+      </li>
+      <li>Sunday: 10:00 a.m.–2:00 p.m. <br>
+        <em>Ring sales will be available from 10 a.m.–1 p.m.</em>
+      </li>
+    </ul>
+  <?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
+
+
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/alums/inc/pages/give/give.php');?>
 <?php include($project_paths['main_project_root'].'/alums/inc/pages/give/give-volunteer.php');?>

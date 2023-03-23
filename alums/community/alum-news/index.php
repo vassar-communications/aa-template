@@ -34,7 +34,7 @@ $page_info = json_decode($page_info, true);
 
 <?php /*  PAGE CONTENT === */ ?>
 
-<?php echo sec_fullBleedImageColumn(
+<?php /* echo sec_fullBleedImageColumn(
   'Dr. June Jackson Christmas ’45–4',
   $alums_news_images_path.'/2023-03-02/June_Jackson_Christmas_KR.jpg',
   'theme-extralightgray',
@@ -48,8 +48,8 @@ $page_info = json_decode($page_info, true);
   'Read more'
 ); ?>
 
+<?php echo end_sec_fullBleedImageColumn(); */ ?>
 
-<?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_hasColumns(
   null,
