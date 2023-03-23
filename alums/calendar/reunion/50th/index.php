@@ -40,8 +40,6 @@ $page_info = json_decode($page_info, true);
 
 <p class="intro-text">2023 50th Reunion Schedule</p>
 <p>Use one of these links to go directly to the activities for that day:</p>
-
-
 <ul class="linked-list">
   <li><a href="#thursday">Thursday, June 1</a></li>
   <li><a href="#friday">Friday, June 2</a></li>
@@ -141,7 +139,6 @@ Commission staff',
     'Rockefeller 200',
   ); ?>
   <p>The Historic Campus of Vassar College features the founding of Vassar and its early buildings in the context of the architectural development in the U.S. Followed by a walking tour highlighting the buildings in the Quad, Main Building, Ferry House, and Avery (now known as the Vogelstein Center for Drama and Film).</p>
-
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -163,7 +160,6 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
   <?php echo schedule_item_dropdown(
     '3–4 p.m.',
-
     'Lectures and panels'
   ); ?>
       <h4><a href="LINK">Ageless Aging: Resilience, Cognitive Health, and Mindfulness</a></h4>
@@ -176,7 +172,6 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
     '3–4 p.m.',
     'Tours'
   ); ?>
-
 <h4><a href="LINK">The Vassar Preserve and Environmental Cooperative</a></h4>
 
 <p><strong>Location:</strong> Shuttles depart from Main Circle.</p>
@@ -370,6 +365,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
     'Vassar College Store (aka, the Juliet), Raymond Avenue'
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
+
 
   <?php echo schedule_item_dropdown(
     '3–5 p.m.',
