@@ -366,10 +366,6 @@ $(document).ready(function () {
     }
 	*/
 
-    // note that this only applies to the video headers on the Admission
-    // and Alums homepages. I wasn't hiding the video headers on subpages.
-	*/
-
 
 });
 
