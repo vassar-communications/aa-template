@@ -257,6 +257,42 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo presentation_item(
+  'The Promise and Peril of Social Media',
+  'Rockefeller Hall, Room 300',
+  '3:30 p.m.'
+); ?>
+  <?php echo presentation_content(); ?>
+    <p>Join us for a nuanced conversation about how social media engages and influences our emotional, social, and cultural lives. We will discuss mental health, belonging needs, and the contextual origins of our hyper-connected world.</p>
+  <?php echo end_presentation_content(); ?>
+
+  <?php echo presentation_member_list('Presenter'); ?>
+    <?php echo presentation_member(
+      'John Andrews',
+      'https://www.vassar.edu/faculty/jandrews',
+      'Visiting Assistant Professor of Sociology',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/john-andrews.jpg',
+      'ALT TEXT HERE'
+    ); ?>
+    <?php echo presentation_member(
+      'Dara Greenwood',
+      'https://www.vassar.edu/faculty/dagreenwood',
+      'Associate Professor of Psychological Studies and Director of Media Studies',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/dara-greenwood.jpg',
+      'ALT TEXT HERE'
+    ); ?>
+    <?php echo presentation_member(
+      'Anton Hart ’83',
+      'https://as.nyu.edu/faculty/anton-hart.html',
+      'FABP, FIPA, Psychoanalyst and Faculty Member at Multiple Institutions',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/anton-hart.jpg',
+      'ALT TEXT HERE'
+    ); ?>
+  <?php echo end_presentation_member_list(); ?>
+<?php echo end_presentation_item(); ?>
+
+
+
+<?php echo presentation_item(
   'Hallie Flanagan and the 1937 Federal Summer Theater Conference at Vassar',
   'Rockefeller Hall, Room 200',
   '3:30 p.m.'
