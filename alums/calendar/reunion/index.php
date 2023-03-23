@@ -40,103 +40,10 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'two people walking and smiling in a large group of people']
 ); ?>
-<p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 3s and 8s on campus for Reunion, June 2–4, 2023 (the 50th Reunion class arrives on June 1).</p>
+
+  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 3s and 8s on campus for Reunion, June 2–4, 2023 (the 50th Reunion class arrives on June 1).</p>
+
 <?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<?php /* Hiding this section as of February 1st =====
-
-<?php echo sec_hasColumns(
-    'Express Your Interest in Attending',
-    '2',
-    null,
-    'items-equal-height mw-inner-1',
-    'gap-3'
-); ?>
-
-  <?php echo item_col(); ?>
-    <ul class="linked-list">
-        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6250&amp;gid=2&amp;cid=10326&amp;ecid=10326&amp;post_id=0" class="btn btn-link  ">
-
-      <span>Class of 2018 Reunion Interest Form  </span>
-
-      </a></li>
-        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6283&amp;gid=2&amp;cid=10375&amp;ecid=10375&amp;post_id=0" class="btn btn-link  ">
-
-      <span>Class of 2016 Reunion Interest Form  </span>
-
-      </a></li>
-        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6277&amp;gid=2&amp;cid=10362&amp;ecid=10362&amp;post_id=0" class="btn btn-link  ">
-
-      <span>Class of 2013 Reunion Interest Form  </span>
-
-      </a></li>
-        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6274&amp;gid=2&amp;cid=10358&amp;ecid=10358&amp;post_id=0" class="btn btn-link  ">
-
-      <span>Class of 2008 Reunion Interest Form  </span>
-
-      </a></li>
-        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6271&amp;gid=2&amp;cid=10354&amp;ecid=10354&amp;post_id=0" class="btn btn-link  ">
-
-      <span>Class of 2003 Reunion Interest Form  </span>
-
-      </a></li>
-        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6241&amp;gid=2&amp;cid=10314&amp;ecid=10314&amp;post_id=0" class="btn btn-link  ">
-
-      <span>Class of 1998 Reunion Interest Form  </span>
-
-      </a></li>
-        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6268&amp;gid=2&amp;cid=10350&amp;ecid=10350&amp;post_id=0" class="btn btn-link  ">
-
-      <span>Class of 1993 Reunion Interest Form  </span>
-
-      </a></li>
-    </ul>
-  <?php echo end_item_col(); ?>
-
-  <?php echo item_col(); ?>
-    <ul class="linked-list">
-        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6265&amp;gid=2&amp;cid=10346&amp;ecid=10346&amp;post_id=0" class="btn btn-link  ">
-
-      <span>Class of 1988 Reunion Interest Form  </span>
-
-      </a></li>
-        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6262&amp;gid=2&amp;cid=10342&amp;ecid=10342&amp;post_id=0" class="btn btn-link  ">
-
-      <span>Class of 1983 Reunion Interest Form  </span>
-
-      </a></li>
-        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6259&amp;gid=2&amp;cid=10338&amp;ecid=10338&amp;post_id=0" class="btn btn-link  ">
-
-      <span>Class of 1978 Reunion Interest Form  </span>
-
-      </a></li>
-        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6214&amp;gid=2&amp;cid=10257&amp;ecid=10257&amp;post_id=0" class="btn btn-link  ">
-
-      <span>Class of 1973 Reunion Interest Form  </span>
-
-      </a></li>
-        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6256&amp;gid=2&amp;cid=10334&amp;ecid=10334&amp;post_id=0" class="btn btn-link  ">
-
-      <span>Class of 1968 Reunion Interest Form  </span>
-
-      </a></li>
-        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6253&amp;gid=2&amp;cid=10330&amp;ecid=10330&amp;post_id=0" class="btn btn-link  ">
-
-      <span>Class of 1963 Reunion Interest Form  </span>
-
-      </a></li>
-        <li>  <a href="https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&amp;pgid=6244&amp;gid=2&amp;cid=10318&amp;ecid=10318&amp;post_id=0" class="btn btn-link  ">
-
-      <span>Class of 1958 Reunion Interest Form  </span>
-
-      </a></li>
-    </ul>
-  <?php echo end_item_col(); ?>
-
-<?php echo end_sec_hasColumns(); ?>
-
-===End hiding section */ ?>
 
 <?php echo sec_regularContent(
   null,
@@ -179,7 +86,7 @@ $page_info = json_decode($page_info, true);
 
 <p>Enjoy the campus a day early with programming designed especially for the 50th Reunion class.</p>
 
-<p>Be sure to check back for more specific details coming soon, but expect to be able to check in on Thursday, June 1 at 2:00 p.m. Please refer to <a href="/alums/calendar/reunion/schedule/">the General Reunion Schedule</a> for an idea of what to expect that weekend.</p>
+<p>Be sure to check back for more specific details coming soon, but expect to be able to check in on Thursday, June 1 at 2 p.m. Please refer to <a href="/alums/calendar/reunion/schedule/">the General Reunion Schedule</a> for an idea of what to expect that weekend.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -188,7 +95,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_iconItem('New This Year!','star',''); ?>
 <p>Ever visit campus and wish you had an ID card for access to the College’s library and fitness center?</p>
-<p>If you would like to get an Alum ID card during Reunion, please submit the <a href="https://offices.vassar.edu/card/alum-id-card-request/">Alum ID Card Request Form</a> by <strong>May 17, 2023</strong>. The Card Office will make sure everything is ready for you to get your Alum ID card at Reunion. Alum ID cards are only issued in person at Vassar’s Service Desk located in the College Center, North Atrium, as a photo must be taken for the card.  The Service Desk will be open during Reunion on Friday, June 2, from 8:30 a.m.–5:00 p.m. and Saturday, June 3, from 12:00 p.m.–5:00 p.m. For more information, contact the Card Office at <a href="tel:+18454513333">(845) 451-3333</a>.</p>
+<p>If you would like to get an Alum ID card during Reunion, please submit the <a href="https://offices.vassar.edu/card/alum-id-card-request/">Alum ID Card Request Form</a> by <strong>May 17, 2023</strong>. The Card Office will make sure everything is ready for you to get your Alum ID card at Reunion. Alum ID cards are only issued in person at Vassar’s Service Desk located in the College Center, North Atrium, as a photo must be taken for the card.  The Service Desk will be open during Reunion on Friday, June 2, from 8:30 a.m.–5 p.m. and Saturday, June 3, from 12 p.m.–5 p.m. For more information, contact the Card Office at <a href="tel:+18454513333">(845) 451-3333</a>.</p>
 
 <?php echo end_item_iconItem(); ?>
 
@@ -279,54 +186,63 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-<h3>Athletic and Fitness Center (Margie Smith)</h3>
+<h3>Athletic and Fitness Center</h3>
 <ul>
-  <li>Friday: 7:00 a.m.–8:00 p.m.</li>
-  <li>Saturday:	10:00 a.m.–6:00 p.m.</li>
-  <li>Sunday: 	10:00 a.m.–6:00 p.m.</li>
+  <li>Friday: 7 a.m.–8 p.m.</li>
+  <li>Saturday:	10 a.m.–6 p.m.</li>
+  <li>Sunday: 	10 a.m.–6 p.m.</li>
 </ul>
   <p><em>We intend to have the pool open, pending lifeguard availability, so basically pool open swim is TBD for now.</em></p>
 
-  <h3>Thompson Memorial Library including the Art Library (Amanda Burdine)</h3>
+  <h3>Thompson Memorial Library including the Art Library</h3>
   <ul>
     <li>Friday: 8:30 a.m.–4:30 p.m.</li>
-    <li>Saturday:	8:30 a.m.–5:00 p.m.  	</li>
-    <li>Sunday: 	8:30 a.m.–12:00 p.m.  </li>
+    <li>Saturday:	8:30 a.m.–5 p.m.  	</li>
+    <li>Sunday: 	8:30 a.m.–12 p.m.  </li>
   </ul>
 
-  <h3>Music Library (Amanda Burdine)</h3>
+  <h3>Music Library</h3>
   <ul>
-    <li>Friday: 1:00–4:00 p.m.</li>
-    <li>Saturday:	10:00 a.m.–4:00 p.m.</li>
+    <li>Friday: 1–4 p.m.</li>
+    <li>Saturday:	10 a.m.–4 p.m.</li>
   </ul>
+
+  <h3>Frances Lehman Loeb Art Center</h3>
+  <ul>
+    <li>Friday:		10 a.m.–7 p.m.	</li>
+    <li>Saturday:	9 a.m.–5 p.m.	</li>
+    <li>Sunday: 	9 a.m.–5 p.m.	</li>
+  </ul>
+
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
 
-    <h3>Frances Lehman Loeb Art Center (Francine Brown)</h3>
+    <h3>A. Scott Warthin Museum of Geology & Natural History, Ely Hall</h3>
     <ul>
-      <li>Friday:		10:00 a.m.–7:00 p.m.	</li>
-      <li>Saturday:	9:00 a.m.–5:00 p.m.	</li>
-      <li>Sunday: 	9:00 a.m.–5:00 p.m.	</li>
+      <li>Friday: 		8:30 a.m.–5 p.m.	</li>
+      <li>Saturday:	2–4 p.m.	</li>
     </ul>
 
-    <h3>A. Scott Warthin Museum of Geology & Natural History, Ely Hall (Rick Jones)</h3>
+    <h3>Vassar College Store, Juliet, Raymond Avenue</h3>
     <ul>
-      <li>Friday: 		8:30 a.m.–5:00 p.m.	</li>
-      <li>Saturday:	2:00–4:00 p.m.	</li>
-    </ul>
-
-    <h3>Vassar College Store, Juliet, Raymond Avenue (Steve Glasgow)</h3>
-    <ul>
-      <li>Thursday: 10:00 a.m.–6:00 p.m.</li>
-      <li>Friday:		10:00 a.m.–6:00 p.m</li>
-      <li>Saturday:	11:00 a.m.–6:00 p.m.<br>
+      <li>Thursday: 10 a.m.–6 p.m.</li>
+      <li>Friday:		10 a.m.–6 p.m</li>
+      <li>Saturday:	11 a.m.–6 p.m.<br>
         <em>Author Meet and Greet, 2:30–4:30 p.m.</em>
       </li>
-      <li>Sunday: 10:00 a.m.–2:00 p.m. <br>
+      <li>Sunday: 10 a.m.–2 p.m. <br>
         <em>Ring sales will be available from 10 a.m.–1 p.m.</em>
       </li>
     </ul>
+
+
+    <h3>Shabbat Services at The Bayit (51 Collegeview Avenue, North Gate)</h3>
+
+    <ul>
+      <li>Friday:		5:30–6:45 p.m.</li>
+    </ul>
+
   <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
