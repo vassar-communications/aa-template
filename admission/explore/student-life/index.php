@@ -98,7 +98,7 @@ $page_info = [
 
     <?php echo item_iconButton(
         'users',
-        '150+ student organizations',
+        '165+ student organizations',
         'https://vsa.vassar.edu/orgs/',
         'btn-card animation-item'
     ); ?>
