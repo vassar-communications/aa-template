@@ -34,13 +34,11 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(); ?>
 
-<p class="intro-text">[intro content goes here]</p>
-
 <h3 class="schedule-item__heading">Friday, June 2</h3>
 
   <?php echo presentation_item(
     'Ageless Aging: Resilience, Cognitive Health, and Mindfulness',
-    'Rockefeller Hall, Room 300 and zoom for virtual attendees',
+    'Rockefeller Hall, Room 300 and Zoom for virtual attendees',
     '3:00 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
@@ -53,21 +51,21 @@ $page_info = json_decode($page_info, true);
         'https://www.linkedin.com/in/quinn-kennedy-qkconsulting/',
         'Director of Aging Research at NeuroFit',
         '/alums/assets/img/alums-calendar/reunion/2023-lectures/QuinnKennedy_PhotoTakenBy_IanMartin.jpg',
-        'ALT TEXT HERE'
+        'A black and white photo of a person with short, straight hair and a black jacket, smiling at the camera'
       ); ?>
       <?php echo presentation_member(
         'Nina Smiley ’73',
         'https://www.linkedin.com/in/nina-smiley-2439435/',
         'Director of Mindfulness Programming at Mohonk Mountain House',
         '/alums/assets/img/alums-calendar/reunion/2023-lectures/Nina-Smiley.jpg',
-        'ALT TEXT HERE'
+        'A photo of a person with short, straight, brown hair and a blue jacket, smiling at the camera'
       ); ?>
       <?php echo presentation_member(
         'Michele Tugade ’95',
         'https://www.vassar.edu/faculty/mitugade',
         'William R. Kenan, Jr. Endowed Chair and Professor of Psychological Science at Vassar College',
         '/alums/assets/img/alums-calendar/reunion/2023-lectures/mitugade_72.jpg',
-        'ALT TEXT HERE'
+        'A photo of a person with long, black hair and a dark blue dress, smiling at the camera'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -89,14 +87,14 @@ $page_info = json_decode($page_info, true);
         'https://www.vassar.edu/faculty/begemann',
         'Dean of Strategic Planning and Academic Resources',
         '/alums/assets/img/alums-calendar/reunion/2023-lectures/begemann.jpg',
-        'ALT TEXT HERE'
+        'A photo of a person with short, straight, brown hair; glasses; and a black shirt, smiling at the camera'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
 
   <?php echo presentation_item(
     'Tour of the <a href="https://www.vassar.edu/preserve">Vassar Preserve</a> and <a href="https://offices.vassar.edu/environmental-cooperative/">Environmental Cooperative</a>',
-    'Shuttles depart from Main Circle',
+    'Shuttles depart from Main Circle.',
     '3:00 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
@@ -120,7 +118,7 @@ $page_info = json_decode($page_info, true);
         'https://www.vassar.edu/faculty/emeriti/schlessman',
         'Emeritus Professor of Biology',
         '/alums/assets/img/alums-calendar/reunion/2023-lectures/schlessman.jpg',
-        'ALT TEXT HERE'
+        'A photo of a person with a black baseball cap, a tan shirt, and a thin gray beard, smiling at the camera'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -135,7 +133,7 @@ $page_info = json_decode($page_info, true);
   '2:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Those who wrote the Constitution did not conceptualize "We the People" as multiracial and inclusive. Every student of history knows this. As the demographics, power and politics of the US change, we are seeing White Nationalism emerge from the shadows into being an openly championed segment of US politics and daily life. Are we at risk of becoming the next Apartheid state? Instead of a democracy, will we be ruled by the Authoritarian Few or an Oligarchy?</p>
+    <p>Those who wrote the Constitution did not conceptualize “We the People” as multiracial and inclusive. Every student of history knows this. As the demographics, power and politics of the US change, we are seeing White Nationalism emerge from the shadows into being an openly championed segment of US politics and daily life. Are we at risk of becoming the next Apartheid state? Instead of a democracy, will we be ruled by the Authoritarian Few or an Oligarchy?</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenter'); ?>
@@ -144,28 +142,28 @@ $page_info = json_decode($page_info, true);
       'https://www.linkedin.com/in/peggy-nagae-75ba402/',
       'Attorney and Consultant',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/Peggy-2020.jpg',
-      'ALT TEXT HERE'
+      'A photo of a person with long, straight, brown hair and a red dress, smiling at the camera'
     ); ?>
     <?php echo presentation_member(
       'Keith St. John ’81',
       'https://www.linkedin.com/in/keith-st-john-045b29a9/',
       'General Counsel, NYS Commission on Ethics and Lobbying in Govt',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/keith-st-john.jpg',
-      'ALT TEXT HERE'
+      'A photo of a person with a long gray beard and a white shirt with a black tie, smiling at the camera'
     ); ?>
     <?php echo presentation_member(
       'Richard Born',
       'https://www.vassar.edu/faculty/born',
       'Professor of Political Science at Vassar College',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/richard-born.jpg',
-      'ALT TEXT HERE'
+      'A photo of a person with short, straight, gray hair, glasses, and a white shirt, smiling at the camera'
     ); ?>
     <?php echo presentation_member(
       'Mallory Whiteduck',
       'https://www.vassar.edu/faculty/mwhiteduck',
       'Assistant Professor of Political Science at Vassar College',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/mallory-whiteduck.jpg',
-      'ALT TEXT HERE'
+      'A photo of a person with long, straight, brown hair and a green shirt, smiling at the camera'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
@@ -187,14 +185,14 @@ $page_info = json_decode($page_info, true);
       'https://www.linkedin.com/in/sarles-caroline/',
       'Senior Marketing and Client Service Manager at Martin Investment Management, LLC',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/sarles.jpg',
-      'ALT TEXT HERE'
+      'A photo of a person with long, straight, brown hair, smiling at the camera'
     ); ?>
     <?php echo presentation_member(
       'Gleny Ramirez ’03',
       'https://www.linkedin.com/in/gleny-ramirez/',
       'Senior Paralegal at VanEck',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/ramirez.jpg',
-      'ALT TEXT HERE'
+      'A photo of a person with long, straight, brown hair, smiling at the camera'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
@@ -216,10 +214,46 @@ $page_info = json_decode($page_info, true);
       'https://www.vassar.edu/faculty/emeriti/schlessman',
       'Emeritus Professor of Biology',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/schlessman.jpg',
-      'ALT TEXT HERE'
+      'A photo of a person with a long gray beard and a white shirt with a black tie, smiling at the camera'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
+
+
+<?php echo presentation_item(
+  'The Promise and Peril of Social Media',
+  'Rockefeller Hall, Room 300',
+  '3:30 p.m.'
+); ?>
+  <?php echo presentation_content(); ?>
+    <p>Join us for a nuanced conversation about how social media engages and influences our emotional, social, and cultural lives. We will discuss mental health, belonging needs, and the contextual origins of our hyper-connected world.</p>
+  <?php echo end_presentation_content(); ?>
+
+  <?php echo presentation_member_list('Presenter'); ?>
+    <?php echo presentation_member(
+      'John Andrews',
+      'https://www.vassar.edu/faculty/jandrews',
+      'Visiting Assistant Professor of Sociology',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/john-andrews.jpg',
+      'A photo of a person with short, straight gray hair, smiling at the camera'
+    ); ?>
+    <?php echo presentation_member(
+      'Dara Greenwood',
+      'https://www.vassar.edu/faculty/dagreenwood',
+      'Associate Professor of Psychological Studies and Director of Media Studies',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/dara-greenwood.jpg',
+      'A photo of a person with long, straight, brown hair, smiling at the camera'
+    ); ?>
+    <?php echo presentation_member(
+      'Anton Hart ’83',
+      'https://as.nyu.edu/faculty/anton-hart.html',
+      'FABP, FIPA, Psychoanalyst and Faculty Member at Multiple Institutions',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/anton-hart.jpg',
+      'A photo of a person with short, dark-gray hair, looking at the camera'
+    ); ?>
+  <?php echo end_presentation_member_list(); ?>
+<?php echo end_presentation_item(); ?>
+
 
 
 <?php echo presentation_item(
@@ -264,7 +298,7 @@ $page_info = json_decode($page_info, true);
   '3:30 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p><a href="https://vcencyclopedia.vassar.edu/faculty/prominent-faculty/hallie-flanagan-davis/">Hallie Flanagan Davis</a>, founder of the Vassar Experimental Theater and Director of the WPA Federal Theatre Project, brought theater professionals and academics to the Vassar campus in the summer of 1937 to introduce them to innovative technologies and emerging modern drama theories, to workshop a Living Newspaper production on the housing crisis in America, and to foster the development of “a new, imaginative theater” in America. Herman Daniel Farrell III (Class of 1983, Drama major) a University Research Professor at the University of Kentucky will discuss his recent research that will be published this year in <a href="https://sup.sorbonne-universite.fr/catalogue/collections/e-theatrum-mundi-0"><em>e-Theatrum Mundi</em></a>, Sorbonne University Press, Paris, France.</p>
+    <p><a href="https://vcencyclopedia.vassar.edu/faculty/prominent-faculty/hallie-flanagan-davis/">Hallie Flanagan Davis</a>, founder of the Vassar Experimental Theater and Director of the WPA Federal Theatre Project, brought theater professionals and academics to the Vassar campus in the summer of 1937 to introduce them to innovative technologies and emerging modern drama theories, to workshop a Living Newspaper production on the housing crisis in America, and to foster the development of “a new, imaginative theater” in America. Herman Daniel Farrell III ‘83 (Drama major), a University Research Professor at the University of Kentucky will discuss his recent research that will be published this year in <a href="https://sup.sorbonne-universite.fr/catalogue/collections/e-theatrum-mundi-0"><em>e-Theatrum Mundi</em></a>, Sorbonne University Press, Paris, France.</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenter'); ?>
@@ -273,7 +307,7 @@ $page_info = json_decode($page_info, true);
       'https://finearts.uky.edu/theatre-dance/faculty-staff/herman-d-farrell-iii',
       'University Research Professor, University of Kentucky',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/farrell.jpg',
-      'ALT TEXT HERE'
+      'A photo of a person with a short gray beard, looking at the camera'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
@@ -295,7 +329,7 @@ $page_info = json_decode($page_info, true);
       'https://www.arch.virginia.edu/people/karen-van-lengen',
       'William Kenan Professor of Architecture, University of Virginia',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/van-lengen.jpg',
-      'ALT TEXT HERE'
+      'A black and white photo of a person with long, straight hair, smiling at the camera'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
