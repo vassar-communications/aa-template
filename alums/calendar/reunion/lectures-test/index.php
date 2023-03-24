@@ -95,7 +95,10 @@ $page_info = json_decode($page_info, true);
   <?php echo presentation_item(
     'Tour of the <a href="https://www.vassar.edu/preserve">Vassar Preserve</a> and <a href="https://offices.vassar.edu/environmental-cooperative/">Environmental Cooperative</a>',
     'Shuttles depart from Main Circle.',
-    '3:00 p.m.'
+    '3:00 p.m.',
+    null,
+    '4',
+    ['alternate_id' => 'vassar-preserve-environmental-cooperative']
   ); ?>
     <?php echo presentation_content(); ?>
       <p>Conservation, sustainability and an exploration of the natural world are all core values at Vassar. Explore one of the College’s greatest gems on this guided walking tour (weather permitting). Sensible shoes and long pants are strongly suggested.</p>
@@ -255,50 +258,13 @@ $page_info = json_decode($page_info, true);
 <?php echo end_presentation_item(); ?>
 
 
-
-<?php echo presentation_item(
-  'The Promise and Peril of Social Media',
-  'Rockefeller Hall, Room 300',
-  '3:30 p.m.'
-); ?>
-  <?php echo presentation_content(); ?>
-    <p>Join us for a nuanced conversation about how social media engages and influences our emotional, social, and cultural lives. We will discuss mental health, belonging needs, and the contextual origins of our hyper-connected world.</p>
-  <?php echo end_presentation_content(); ?>
-
-  <?php echo presentation_member_list('Presenter'); ?>
-    <?php echo presentation_member(
-      'John Andrews',
-      'https://www.vassar.edu/faculty/jandrews',
-      'Visiting Assistant Professor of Sociology',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/john-andrews.jpg',
-      'ALT TEXT HERE'
-    ); ?>
-    <?php echo presentation_member(
-      'Dara Greenwood',
-      'https://www.vassar.edu/faculty/dagreenwood',
-      'Associate Professor of Psychological Studies and Director of Media Studies',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/dara-greenwood.jpg',
-      'ALT TEXT HERE'
-    ); ?>
-    <?php echo presentation_member(
-      'Anton Hart ’83',
-      'https://as.nyu.edu/faculty/anton-hart.html',
-      'FABP, FIPA, Psychoanalyst and Faculty Member at Multiple Institutions',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/anton-hart.jpg',
-      'ALT TEXT HERE'
-    ); ?>
-  <?php echo end_presentation_member_list(); ?>
-<?php echo end_presentation_item(); ?>
-
-
-
 <?php echo presentation_item(
   'Hallie Flanagan and the 1937 Federal Summer Theater Conference at Vassar',
   'Rockefeller Hall, Room 200',
   '3:30 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p><a href="https://vcencyclopedia.vassar.edu/faculty/prominent-faculty/hallie-flanagan-davis/">Hallie Flanagan Davis</a>, founder of the Vassar Experimental Theater and Director of the WPA Federal Theatre Project, brought theater professionals and academics to the Vassar campus in the summer of 1937 to introduce them to innovative technologies and emerging modern drama theories, to workshop a Living Newspaper production on the housing crisis in America, and to foster the development of “a new, imaginative theater” in America. Herman Daniel Farrell III ‘83 (Drama major), a University Research Professor at the University of Kentucky will discuss his recent research that will be published this year in <a href="https://sup.sorbonne-universite.fr/catalogue/collections/e-theatrum-mundi-0"><em>e-Theatrum Mundi</em></a>, Sorbonne University Press, Paris, France.</p>
+    <p><a href="https://vcencyclopedia.vassar.edu/faculty/prominent-faculty/hallie-flanagan-davis/">Hallie Flanagan Davis</a>, founder of the Vassar Experimental Theater and Director of the WPA Federal Theatre Project, brought theater professionals and academics to the Vassar campus in the summer of 1937 to introduce them to innovative technologies and emerging modern drama theories, to workshop a Living Newspaper production on the housing crisis in America, and to foster the development of “a new, imaginative theater” in America. Herman Daniel Farrell III ’83 (Drama major), a University Research Professor at the University of Kentucky will discuss his recent research that will be published this year in <a href="https://sup.sorbonne-universite.fr/catalogue/collections/e-theatrum-mundi-0"><em>e-Theatrum Mundi</em></a>, Sorbonne University Press, Paris, France.</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenter'); ?>

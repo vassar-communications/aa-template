@@ -5,11 +5,19 @@ function presentation_item(
   $location,
   $time,
   $classes='',
-  $title_tag_level = '4'
+  $title_tag_level = '4',
+  $extras=null
 ) {
 
+
+  $id_modifier = get_extras_value('id_modifier', $extras);
+  $alternate_id = get_extras_value('alternate_id', $extras);
+
+  if( $alternate_id ) $item_id = $alternate_id;
+  else $item_id = createSlug($title);
+
 return <<<TMP
-<div class="presentation-item $classes">
+<div class="presentation-item $classes" id="$item_id$id_modifier">
 <h$title_tag_level class="presentation-title">$title</h$title_tag_level>
 
   <div class="presentation-meta-container">

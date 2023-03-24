@@ -68,9 +68,9 @@ $page_info = json_decode($page_info, true);
     '3–4 p.m.',
     'Lectures and panels'
   ); ?>
-      <h4><a href="LINK">Ageless Aging: Resilience, Cognitive Health, and Mindfulness</a></h4>
+      <h4><a href="../lectures/#ageless-aging-resilience-cognitive-health-and-mindfulness">Ageless Aging: Resilience, Cognitive Health, and Mindfulness</a></h4>
       <p><strong>Location:</strong> Rockefeller 300</p>
-      <h4><a href="LINK">Campus Capital Projects: What’s Happening and Upcoming?</a></h4>
+      <h4><a href="../lectures/#campus-capital-projects-whats-happening-and-upcoming">Campus Capital Projects: What’s Happening and Upcoming?</a></h4>
       <p><strong>Location:</strong> Rockefeller 200</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -79,10 +79,10 @@ $page_info = json_decode($page_info, true);
     'Tours'
   ); ?>
 
-<h4><a href="LINK">The Vassar Preserve and Environmental Cooperative</a></h4>
+<h4><a href="../lectures/#vassar-preserve-environmental-cooperative">The Vassar Preserve and Environmental Cooperative</a></h4>
 <p><strong>Location:</strong> Shuttles depart from Main Circle.</p>
 
-<h4><a href="LINK">Walking Tour of the Vassar College Arboretum</a></h4>
+<h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum">Walking Tour of the Vassar College Arboretum</a></h4>
 <p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
@@ -217,7 +217,7 @@ $page_info = json_decode($page_info, true);
     <p><a href="https://www.vassar.edu/alums/calendar/reunion#flush-headingOne">Find your Dorm Headquarters</a>.</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
-    
+
   <?php echo schedule_item_dropdown(
     '9–10 a.m.',
     'President’s Hour',
@@ -268,19 +268,19 @@ $page_info = json_decode($page_info, true);
     'Lectures and panels'
   ); ?>
 
-  <h4><a href="LINK">Is a Multiracial Inclusive Democracy Possible in the United States?</a></h4>
+  <h4><a href="../lectures/#is-a-multiracial-inclusive-democracy-possible-in-the-united-states">Is a Multiracial Inclusive Democracy Possible in the United States?</a></h4>
 <p><strong>Location:</strong> Rockefeller 300</p>
 
-  <h4><a href="LINK">Financial Wellness for Young Professionals</a></h4>
+  <h4><a href="../lectures/#financial-wellness-for-young-professionals">Financial Wellness for Young Professionals</a></h4>
 <p><strong>Location:</strong> Rockefeller 200</p>
   <?php echo end_schedule_item_dropdown(); ?>
-  
+
   <?php echo schedule_item_dropdown(
     '2–3 p.m.',
     'Tour'
   ); ?>
 
-<h4><a href="LINK">Walking Tour of the Vassar College Arboretum</a></h4>
+<h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum">Walking Tour of the Vassar College Arboretum</a></h4>
 <p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -311,7 +311,7 @@ $page_info = json_decode($page_info, true);
     'Affinity receptions',
     'Main Building, 2nd floor'
   ); ?>
-  <p>Connect with other alums and campus administrators with shared identities and 
+  <p>Connect with other alums and campus administrators with shared identities and
 affiliations at affinity receptions for alum-athletes and African American, International, Latinx, LGBTQIA+, Transitions/first-generation, and alums affiliated with Religious and Spiritual Life and WVKR.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -319,10 +319,10 @@ affiliations at affinity receptions for alum-athletes and African American, Inte
     '3:30–4:30 p.m.',
     'Lectures and panels'
   ); ?>
-  <h4><a href="LINK">The Promise and Peril of Social Media</a></h4>
+  <h4><a href="../lectures/#the-promise-and-peril-of-social-media">The Promise and Peril of Social Media</a></h4>
 <p><strong>Location:</strong> Rockefeller 300</p>
 
-  <h4><a href="LINK">Hallie Flanagan and the 1937 Federal Summer Theater Conference at Vassar</a></h4>
+  <h4><a href="../lectures/#hallie-flanagan-and-the-1937-federal-summer-theater-conference-at-vassar">Hallie Flanagan and the 1937 Federal Summer Theater Conference at Vassar</a></h4>
 <p><strong>Location:</strong> Rockefeller 200</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -330,10 +330,10 @@ affiliations at affinity receptions for alum-athletes and African American, Inte
     '3:30–4:30 p.m.',
     'Tours'
   ); ?>
-<h4><a href="LINK">Pedagogy and Place: The Legacy of Vassar’s Landscape</a></h4>
+<h4><a href="../lectures/#pedagogy-and-place-the-legacy-of-vassars-landscape">Pedagogy and Place: The Legacy of Vassar’s Landscape</a></h4>
 <p><strong>Location:</strong> Meet in front of Rockefeller Hall</p>
 
-<h4><a href="LINK">Campus Projects: View What’s New</a></h4>
+<h4><a href="../lectures/#">Campus Projects: View What’s New</a></h4>
 <p><strong>Location:</strong> Meet in Main Circle</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -348,7 +348,7 @@ affiliations at affinity receptions for alum-athletes and African American, Inte
 
   <?php echo schedule_item_dropdown(
     '5 p.m.',
-    'Class of 2013, Zachary Zane brings you <em>Boyslut: A Memoir and Manifesto</em>. 
+    'Class of 2013, Zachary Zane brings you <em>Boyslut: A Memoir and Manifesto</em>.
 Exploring Queer Spaces, Cracks, and Holes.',
     'Rockefeller 210'
   ); ?>
