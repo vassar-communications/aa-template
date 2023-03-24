@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(); ?>
 
-<p class="intro-text">2023 Reunion General Schedule</p>
+<p class="intro-text">Reunion General Schedule</p>
 <p>Use one of these links to go directly to the activities for that day:</p>
 
 <ul class="linked-list">

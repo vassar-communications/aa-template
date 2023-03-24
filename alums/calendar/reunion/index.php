@@ -72,7 +72,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <?php echo cta_link(
     '/alums/calendar/reunion/schedule/',
-    'See the Reunion 2023 schedule'
+    'See the Reunion schedule'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -84,9 +84,13 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Overhead shot of people seated a round table in a large room for an event']
 ); ?>
 
-<p>Enjoy the campus a day early with programming designed especially for the 50th Reunion class.</p>
+<p>Enjoy the campus a day early with programming designed especially for the 50th Reunion class. Check-in will open on Thursday, June 1 at 2:00 p.m.</p>
 
-<p>Be sure to check back for more specific details coming soon, but expect to be able to check in on Thursday, June 1 at 2 p.m. Please refer to <a href="/alums/calendar/reunion/schedule/">the General Reunion Schedule</a> for an idea of what to expect that weekend.</p>
+<?php echo cta_link(
+    '50th/',
+    'See the 50th Reunion Schedule'
+); ?>
+
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -181,7 +185,7 @@ $page_info = json_decode($page_info, true);
     '2',
     null,
     'mw-inner-1',
-    'gap-3'
+    'gap-5'
 ); ?>
 
   <?php echo item_col(); ?>
@@ -192,7 +196,7 @@ $page_info = json_decode($page_info, true);
   <li>Saturday:	10 a.m.–6 p.m.</li>
   <li>Sunday: 	10 a.m.–6 p.m.</li>
 </ul>
-  <p><em>We intend to have the pool open, pending lifeguard availability, so basically pool open swim is TBD for now.</em></p>
+  <p><em>We intend to have the pool open, pending lifeguard availability. Please check back for more information.</em></p>
 
   <h3>Thompson Memorial Library including the Art Library</h3>
   <ul>

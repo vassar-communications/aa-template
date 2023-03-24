@@ -38,7 +38,7 @@ $page_info = json_decode($page_info, true);
   'pt-0'
 ); ?>
 
-<p class="intro-text">2023 50th Reunion Schedule</p>
+<p class="intro-text">50th Reunion Schedule</p>
 <p>Use one of these links to go directly to the activities for that day:</p>
 <ul class="linked-list">
   <li><a href="#thursday">Thursday, June 1</a></li>
@@ -363,6 +363,9 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 <h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum-2">Walking Tour of the Vassar College Arboretum</a></h4>
 <p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
   <?php echo end_schedule_item_dropdown(); ?>
+
+
+
 
 
 
