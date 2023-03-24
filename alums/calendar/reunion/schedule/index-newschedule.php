@@ -386,7 +386,6 @@ Exploring Queer Spaces, Cracks, and Holes.',
    <?php echo end_schedule_item_dropdown(); ?>
 
 
-
     <?php echo schedule_item_dropdown(
       '6:30–9:30 p.m.',
       'Class dinners',
