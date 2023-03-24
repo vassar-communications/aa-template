@@ -228,7 +228,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '10:15 a.m.',
+    '10 a.m.',
     'Parade of Classes Line-Up'
   ); ?>
   <p>Line up for Parade of Classes (line starts with 1953 at the chapel along the path and road, ending with 2018). Look for your class banner along the parade route. Golf carts will be available.</p>
@@ -236,7 +236,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '10:45 a.m.',
+    '10:30 a.m.',
     'Parade of Classes',
     null,
     null,
@@ -245,7 +245,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '11:15 a.m.–12:15 p.m.',
+    '11 a.m.–12 p.m.',
     'Celebrate Vassar',
     'Noyes Circle Tent'
   ); ?>
@@ -254,13 +254,23 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '12:30–1:30 p.m.',
+    '12–1 p.m.',
     'Class Luncheons'
   ); ?>
 <p><strong>Classes of 1953 and 1958:</strong> The Aula</p>
 <p><strong>Class of 1963 and 1968:</strong> Main Building, Villard Room</p>
 <p><strong>Classes of 1978, 1983, 1988, 1993, 1998, 2003, 2008, 2013, 2016, and 2018:</strong> Gordon Commons</p>
   <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '1 p.m.',
+    'Class of 1968 Memorial Service',
+    'Chicago Hall, entrance across from the Library',
+    null,
+    null,
+    ['noContent' => true]
+  ); ?>
 
 
   <?php echo schedule_item_dropdown(
@@ -369,6 +379,16 @@ Exploring Queer Spaces, Cracks, and Holes.',
   ); ?>
   <p>With gratitude for and in recognition of a vital group of donors who have included Vassar among their annual giving priorities.</p>
   <?php echo end_schedule_item_dropdown(); ?>
+  
+    <?php echo schedule_item_dropdown(
+    '6 p.m.',
+    'Class of 1968 Photo',
+    'Meet in front of Rockefeller Hall entrance.',
+    null,
+    null,
+    ['noContent' => true]
+  ); ?>
+
 
     <?php echo schedule_item_dropdown(
       '6:30–9:30 p.m.',
