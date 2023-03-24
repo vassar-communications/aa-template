@@ -366,9 +366,6 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
 
 
-
-
-
   <?php echo schedule_item_dropdown(
     '2–4 p.m.',
     'Vassar Devils & Angels Ice Cream Tent',
