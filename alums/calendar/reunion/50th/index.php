@@ -38,7 +38,7 @@ $page_info = json_decode($page_info, true);
   'pt-0'
 ); ?>
 
-<p class="intro-text">2023 50th Reunion Schedule</p>
+<p class="intro-text">50th Reunion Schedule</p>
 <p>Use one of these links to go directly to the activities for that day:</p>
 <ul class="linked-list">
   <li><a href="#thursday">Thursday, June 1</a></li>
@@ -366,6 +366,9 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
 
 
+
+
+
   <?php echo schedule_item_dropdown(
     '2–4 p.m.',
     'Vassar Devils & Angels Ice Cream Tent',
@@ -414,6 +417,11 @@ affiliations at affinity receptions for alum-athletes and African American, Inte
 
 
   <?php echo end_schedule_item_dropdown(); ?>
+
+
+
+
+
 
 
   <?php echo schedule_item_dropdown(
