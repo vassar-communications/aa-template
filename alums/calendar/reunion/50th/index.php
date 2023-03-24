@@ -366,21 +366,6 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
 
 
-
-
-  <?php echo schedule_item_dropdown(
-    '3:30 p.m.',
-    'Tour'
-  ); ?>
-
-<h4><a href="../lectures/#campus-projects-view-whats-new">Campus Projects: View What’s New</a></h4>
-<p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
-  <?php echo end_schedule_item_dropdown(); ?>
-
-
-
-
-
   <?php echo schedule_item_dropdown(
     '2–4 p.m.',
     'Vassar Devils & Angels Ice Cream Tent',
@@ -424,6 +409,22 @@ affiliations at affinity receptions for alum-athletes and African American, Inte
 <h4><a href="../lectures/#pedagogy-and-place-the-legacy-of-vassars-landscape">Pedagogy and Place: The Legacy of Vassar’s Landscape</a></h4>
 <p><strong>Location:</strong> Meet in front of Rockefeller Hall</p>
   <?php echo end_schedule_item_dropdown(); ?>
+
+
+
+
+
+    <?php echo schedule_item_dropdown(
+      '3:30 p.m.',
+      'Tour'
+    ); ?>
+
+  <h4><a href="../lectures/#campus-projects-view-whats-new">Campus Projects: View What’s New</a></h4>
+  <p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
+    <?php echo end_schedule_item_dropdown(); ?>
+
+
+
 
   <?php echo schedule_item_dropdown(
     '3:30–5 p.m.',
