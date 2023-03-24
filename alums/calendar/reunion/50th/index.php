@@ -419,11 +419,6 @@ affiliations at affinity receptions for alum-athletes and African American, Inte
   <?php echo end_schedule_item_dropdown(); ?>
 
 
-
-
-
-
-
   <?php echo schedule_item_dropdown(
     '3:30–5 p.m.',
     'Annual Ferry House Mini-Reunion at Reunion',
