@@ -298,10 +298,6 @@ $page_info = json_decode($page_info, true);
 
 
 
-
-
-
-
   <?php echo schedule_item_dropdown(
     '2–4 p.m.',
     'Vassar Devils & Angels Ice Cream Tent',
