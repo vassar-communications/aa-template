@@ -14494,6 +14494,7 @@ ul.style-checklist a, ul.style-checklist .video-modal-link {
   padding: calc(1.325rem + 0.9vw);
   position: relative;
   z-index: 4;
+  scroll-margin-top: 3rem;
 }
 @media (min-width: 1200px) {
   .presentation-item {
@@ -14556,12 +14557,6 @@ ul.style-checklist a, ul.style-checklist .video-modal-link {
   .pres-member.has-image {
     grid-template-columns: 1fr 4fr;
   }
-}
-
-.pres-member__name {
-  margin-bottom: 0.2rem;
-  font-family: var(--bs-font-sans-serif);
-  font-variation-settings: "wght" 700;
 }
 
 .pres-member__name {
@@ -14791,8 +14786,15 @@ details > summary::-webkit-details-marker {
   color: var(--color-vassar-burgundy);
 }
 
-.node--type-alert {
-  --section-text-color: #fff;
+.node--type-alert a, .node--type-alert .video-modal-link,
+.node--type-alert a:visited {
+  color: #fff;
+}
+
+.node--type-alert a:hover, .node--type-alert .video-modal-link:hover,
+.node--type-alert a:focus,
+.node--type-alert .video-modal-link:focus {
+  text-decoration: none;
 }
 
 /* Basic links */

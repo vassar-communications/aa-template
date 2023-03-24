@@ -321,12 +321,21 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
   <?php echo end_schedule_item_dropdown(); ?>
 
 
+
+
+
+
   <?php echo schedule_item_dropdown(
     '12–1 p.m.',
     'Lunch and Class Meeting',
     'Bridge Building'
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
+
+
+
+
+
 
 
   <?php echo schedule_item_dropdown(
@@ -341,14 +350,35 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 <p><strong>Location:</strong> Rockefeller 200</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
+
+
+
+
+
   <?php echo schedule_item_dropdown(
     '2–3 p.m.',
     'Tour'
   ); ?>
 
-<h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum">Walking Tour of the Vassar College Arboretum</a></h4>
+<h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum-2">Walking Tour of the Vassar College Arboretum</a></h4>
 <p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
   <?php echo end_schedule_item_dropdown(); ?>
+
+
+
+
+
+  <?php echo schedule_item_dropdown(
+    '3:30 p.m.',
+    'Tour'
+  ); ?>
+
+<h4><a href="../lectures/#campus-projects-view-whats-new">Campus Projects: View What’s New</a></h4>
+<p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+
 
 
   <?php echo schedule_item_dropdown(

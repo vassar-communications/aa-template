@@ -205,7 +205,12 @@ $page_info = json_decode($page_info, true);
 <?php echo presentation_item(
   'Walking Tour of the Vassar College Arboretum',
   'Meet at the entrance to Main in front of Main Circle.',
-  '2:00 p.m.'
+  '2:00 p.m.',
+  null,
+  '4',
+  [
+    'id_modifier' => '-2'
+  ]
 ); ?>
   <?php echo presentation_content(); ?>
     <p>Enjoy a leisurely walk, discover fascinating fun facts about trees, and learn about the increasing importance of campus trees for our efforts to be more sustainable and achieve carbon neutrality. Our itinerary will include visits to the reuning classes’ class trees. Please wear comfortable walking shoes and dress for the weather.</p>
