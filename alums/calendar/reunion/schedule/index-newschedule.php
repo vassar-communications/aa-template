@@ -266,11 +266,9 @@ $page_info = json_decode($page_info, true);
   <?php echo schedule_item_dropdown(
     '1 p.m.',
     'Class of 1968 Memorial Service',
-    'Chicago Hall, entrance across from the Library',
-    null,
-    null,
-    ['noContent' => true]
+    'Chicago Hall, entrance across from the Library'
   ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
@@ -383,11 +381,9 @@ Exploring Queer Spaces, Cracks, and Holes.',
     <?php echo schedule_item_dropdown(
     '6 p.m.',
     'Class of 1968 Photo',
-    'Meet in front of Rockefeller Hall entrance.',
-    null,
-    null,
-    ['noContent' => true]
+    'Meet in front of Rockefeller Hall entrance.'
   ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
 
 
     <?php echo schedule_item_dropdown(
