@@ -251,7 +251,6 @@ $page_info = json_decode($page_info, true);
 
 
 
-
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/alums/inc/pages/give/give.php');?>
 <?php include($project_paths['main_project_root'].'/alums/inc/pages/give/give-volunteer.php');?>
