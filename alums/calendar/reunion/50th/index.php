@@ -75,6 +75,7 @@ campus.',
  ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
 
+
   <?php echo schedule_item_dropdown(
     '6 p.m.',
     'Cocktail reception',
