@@ -163,6 +163,15 @@ $page_info = json_decode($page_info, true);
     </div>
 </div>
 
+<?php echo end_item_iconItem(); ?>
+
+<?php echo item_iconItem('Important to Know','circle-exclamation',''); ?>
+<ul>
+    <li><a href="https://www.vassar.edu/smokefree/">Vassar is a smoke-free campus</a>.</li>
+    <li>All bathrooms are gender-neutral, unless otherwise noted.</li>
+    <li>Loop technology for hearing assistance is available in the 1951 Reading Room in Thompson Library and Rockefeller Hall, Auditorium 300.</li>
+    <li>No password needed to connect to Vassar Public Wi-Fi.</li>
+</ul>
 
 <?php echo end_item_iconItem(); ?>
 
@@ -174,6 +183,15 @@ $page_info = json_decode($page_info, true);
     <li>My guests and I will not attend if we are not feeling well.</li>
 </ul>
 <?php echo end_item_iconItem(); ?>
+
+<?php echo item_iconItem('In Case of Emergency','kit-medical',''); ?>
+<ul>
+    <li>For non-medical emergencies, call Vassar Security: <a href="tel:+18454377333">(845) 437-7333</a>.</li>
+    <li>Medical emergencies, dial 911.</li>
+    <li>Poughkeepsie Hospitals: <a href="https://www.nuvancehealth.org/locations/vassar-brothers-medical-center">Vassar Brothers Medical Center</a> and <a href="https://www.midhudsonregional.org/">MidHudson Regional Hospital</a>.</li>
+</ul>
+<?php echo end_item_iconItem(); ?>
+
 
 <?php echo end_sec_regularContent(); ?>
 
