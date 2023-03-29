@@ -60,24 +60,12 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Emma Kantor ’12',
-        'https://www.nytimes.com/2023/02/21/magazine/closing-credits-movies.html',
-        ['url' => $logos_path.'nyt-mag.gif', 'alt' => 'New York Times Magazine logo' ],
+        'Dr. Zoe Adams ’15',
+        'https://www.guernicamag.com/doctors-not-dealers/',
+        ['url' => $logos_path.'guernica.gif', 'alt' => 'Guernica logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-
-        <p><strong>Emma Kantor ’12</strong> wrote a <em>New York Times Magazine</em> article about the importance of watching the end credits of films.</p>
-    <?php echo end_item_cardWithText(); ?>
-  <?php echo end_item_col(); ?>
-
-  <?php echo item_col(); ?>
-    <?php echo item_cardWithText(
-        'Carrie Goldberg ’99',
-        'https://www.cnbc.com/2023/01/25/snapchats-role-in-fentanyl-crisis-probed-during-house-roundtable.html',
-        ['url' => $logos_path.'cnbc.gif', 'alt' => 'CNBC logo' ],
-        'related-topics card--withParagraph card-has-cta-icon card-is-link'
-    ); ?>
-      <p>Lawyer <strong>Carrie Goldberg ’99</strong> talked with CNBC about the role of big tech, including Snapchat, in fentanyl sales.</p>
+      <p><strong>Dr. Zoe Adams ’15</strong> wrote a <em>Guernica</em> article, “Doctors, Not Dealers: Punishment, not care, characterizes opioid addiction treatment.”</p>
 
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
@@ -85,12 +73,24 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Mira Lehr ’56',
-        'https://www.nytimes.com/2023/02/02/arts/mira-lehr-dead.html',
-        ['url' => $logos_path.'newyorktimes.gif', 'alt' => 'New York Times logo' ],
+        'Mary McCarthy ’33',
+        'https://www.msn.com/en-us/lifestyle/parenting/the-15-best-books-about-friendship-to-read-alongside-your-bestie/ss-AA18yq27#image=4',
+        ['url' => $logos_path.'msn-logo.gif', 'alt' => 'MSN logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p>Artist <strong>Mira Lehr ’56<strong> was remembered by the <em>New York Times</em>.</p>
+
+        <p><em>The Group</em> by <strong>Mary McCarthy</strong>, class of 1933, was one of the books included in an MSN story, “The 15 Best Books About Friendship to Read Alongside Your Bestie.”</p>
+    <?php echo end_item_cardWithText(); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_cardWithText(
+        'Kara Voght ’11',
+        'https://www.washingtonpost.com/pr/2023/03/16/kara-voght-joins-post-political-reporter-style/',
+        ['url' => $logos_path.'washington-post.jpg', 'alt' => 'Washington Post logo' ],
+        'related-topics card--withParagraph card-has-cta-icon card-is-link'
+    ); ?>
+        <p><strong>Kara Voght ’11</strong> joined the <em>Washington Post</em> as a political reporter, as noted by the newspaper in an article.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -107,58 +107,57 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="0" data-line-end="1"><a href="https://www.youtube.com/watch?v=DA8F7j0_7S4&amp;feature=youtu.be"><strong>Sherrilyn Ifill ’84</strong> spoke to the <em>Daily Show</em></a> about her tenure as President and Director-Counsel of the NAACP Legal Defense Fund.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="0" data-line-end="1"><a href="https://dailyvoice.com/new-york/ulster-sullivan/lifestyle/hudson-valley-resident-co-produced-oscar-favorite-for-picture-of-year/858600/"><strong>Jon Read ’09</strong>, a Co-Producer of the Oscar-winning film <em>Everything Everywhere All at Once</em>, was featured in a <em>Daily Voice</em> story</a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://www.msnbc.com/morning-joe/watch/virginia-house-compromises-and-passes-gun-related-bill-163501125588"><strong>Alfonso Lopez ’92</strong>, 49th District House of Delegates member in the Virginia General Assembly, talked on MSNBC’s <em>Morning Joe</em></a> about bipartisan gun safety legislation he sponsored.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://news.yahoo.com/trio-tenacious-heroines-celebrate-womens-093614814.html"><em>The Gilded Years</em>, a novel by <strong>Karin Tanabe ’02</strong>, was one of three books recommended to celebrate Women’s History Month</a> in a Yahoo! News story.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><a href="https://www.emmys.com/news/foundation-news/foundation-board-2301"><strong>Paula Williams Madison ’74</strong>, Chairman and CEO of Madison Media Management, was named to the Television Academy Foundation Board of Directors</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><a href="https://www.bizjournals.com/sanfrancisco/news/2023/03/10/nik-dehejia-oakland-zoo-ceo.html">Oakland Zoo CEO <strong>Nik Dehejia ’94</strong> and his work to improve the zoo was the subject of a <em>San Francisco Business Times</em> story</a>.</p></div>
 
 
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://playbill.com/article/estefania-fadul-and-graeme-gillis-named-co-artistic-directors-of-ensemble-studio-theatre"><strong>Estefanía Fadul ’10</strong> was named Co-Artistic Director of the Ensemble Studio Theatre</a>, as noted by <em>Playbill</em>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://www.screendaily.com/features/i-was-all-in-netflix-germany-exec-talks-all-quiet-on-the-western-front/5179381.article"><strong>Sasha Bühler ’89</strong>, Director of International Original Film at Netflix, was quoted in a <em>Screen Daily</em> story</a> about the Oscar-nominated film <em>All Quiet on the Western Front</em>, which she greenlit.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://www.lifewire.com/top-women-in-technology-7113051"><strong>Rear Admiral Grace Hopper</strong>, class of 1928, was named one of the five top women in technology by Lifewire</a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://www.vogue.com/article/the-value-of-expanded-authorship-in-caleb-stein-and-andrea-orejarenas-new-book">The new book <em>Long Time No See</em>, co-created by artists <strong>Caleb Stein ’17</strong> and <strong>Andrea Orejarena ’17</strong>, was the subject of a <em>Vogue</em> story</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11">Author and <em>Town & Country</em> Editor-in-Chief <a href="https://www.townandcountrymag.com/style/jewelry-and-watches/a42923706/bulgari-serpenti-75-anniversary/"><strong>Stellene Volandes ’93</strong> wrote a <em>Town & Country</em> article</a> about the Bulgari Serpenti.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><a href="https://www.thedailybeast.com/pences-classified-docs-are-a-new-headache-for-ag-merrick-garland">Lawyer <strong>Shanlon “Shan” Wu ’80</strong> wrote a <em>Daily Beast</em> article</a> about Attorney General Merrick Garland and the classified documents found in former Vice President Mike Pence’s home.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13">Attorney, reporter, and author <a href="https://www.middletownpress.com/news/article/former-ct-reporter-author-elisabeth-petry-17812900.php"><strong>Elisabeth Petry ’70</strong>, daughter of famed author Ann Petry, was remembered by the <em>Middletown Press</em></a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><a href="https://www.cnn.com/2023/01/15/us/mlk-i-have-a-dream-speech-blake-cec/index.html"><strong>Leonard Steinhorn ’77</strong>, Professor of Communication and Affiliate Professor of History at American University and CBS News Political Analyst, was quoted in a CNN article</a> about the Rev. Martin Luther King Jr.’s “I Have a Dream” speech.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.yahoo.com/entertainment/american-cinematheque-adds-jason-blum-214735339.html"><strong>Jason Blum ’91</strong>, Founder and CEO of Blumhouse Productions, was named to the American Cinematheque Board of Directors</a>, as noted by Yahoo! Entertainment.</p></div>
 
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.earlymusicamerica.org/web-articles/reflections-on-walking-black-in-the-field-of-historical-performance"><strong>Patricia Ann Neely ’75</strong>, Managing Director and viola player with Abendmusik, and a member of <em>Early Music America’s</em> Board of Directors, wrote an <em>Early Music America</em> article</a>, “Reflections on Walking Black in the Field of Historical Performance.”</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><a href="https://historyofyesterday.com/vera-rubin-proving-the-existence-of-dark-matter/">Renowned astronomer <strong>Vera Rubin ’48</strong> and her work on dark matter was the subject of a <em>History of Yesterday</em> article</a>.</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><a href="https://www.aspentimes.com/news/explores-director-of-programming-jeff-bernstein-by-the-book/"><strong>Jeff Bernstein ’77</strong>, Explore Booksellers’ Director of Programming, was the subject of an <em>Aspen Times</em> story</a>.</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21"><a href="https://www.sfgate.com/news/article/norwalk-hill-sisters-suffragettes-plaque-17751719.php">Three women’s suffrage pioneers and sisters, <strong>Clara Hill</strong>, class of 1895, <strong>Helena Hill</strong>, class of 1902, and <strong>Elsie Hill</strong>, class of 1906, were honored with a plaque</a> along the Norwalk River Valley Trail, as noted by <em>San Francisco Gate</em>.</p></div>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><a href="https://wwd.com/eye/people/patrick-and-victor-demarcheliers-photography-is-in-focus-in-new-show-1235523762/">The work of photographer <strong>Victor Demarchelier ’06</strong>, on display at the Staley-Wise Gallery in New York, was the subject of a <em>Women’s Wear Daily</em> story.</a></p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><a href="https://www.cbc.ca/listen/live-radio/1-63-the-current/clip/15972552-renowned-canadian-architect-phyllis-lambert-build-better-cities">Architect <strong>Phyllis Lambert ’48</strong> appeared on the podcast <em>The Current with Matt Galloway</em></a> to talk about how to build better cities.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="24" data-line-end="25"><a href="https://www.bard.edu/news/theresa-law-joins-bard-college-faculty-as-assistant-professor-of-computer-science-in-the-division-of-science-mathematics-and-computing-2023-02-06"><strong>Theresa Law ’18</strong> joined Bard College as Assistant Professor of Computer Science</a>, as noted by the college.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><a href="https://www.iheart.com/podcast/stuff-you-missed-in-history-cl-21124503/episode/ellen-swallow-richards-109624462/"><strong>Ellen Swallow Richards</strong>, class of 1870, was mentioned in an iHeartRadio podcast</a>, <em>Stuff You Missed in History Class</em>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27">Student Conservation Association founder <a href="https://www.benningtonbanner.com/vermont-outside-in-by-gordon-dossett-liz-putnam-and-100-000-volunteers/article_5b6f7726-a184-11ed-be21-47f3da33157f.html"><strong>Elizabeth Cushman Titus Putnam ’55</strong> was the subject of a <em>Bennington Banner</em> article</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21"><a href="https://pca.st/ibv0q6ds"><strong>Andrew Zolli ’95</strong> and his reporting on the relationship between technology and emotion was the subject of the WNYC Studios <em>Radiolab</em> podcast episode “The Trust Engineers.”</a></p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="28" data-line-end="29"><em>A Cheerleader’s Guide to Spiritual Enlightenment: A Memoir in Essays</em> by <strong>MB Caschetta ’88</strong> was reviewed in <a href="https://www.kirkusreviews.com/book-reviews/mb-caschetta/cheerleaders-guide-spiritual-enlightenment/"><em>Kirkus</em></a> and <a href="https://hippocampusmagazine.com/2022/11/review-a-cheerleaders-guide-to-spiritual-enlightenment-a-memoir-in-essays-by-mb-caschetta/"><em>Hippocampus Magazine</em></a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><a href="https://www.tapinto.net/towns/summit/categories/news/articles/summit-democrats-announce-2023-slate-of-candidates"><strong>David Naidu ’90</strong>, a law firm partner and former Summit Common Council member, is running for mayor of Summit, N.J.</a>, as noted by Tap Into Summit.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="30" data-line-end="31">Producer, director, and Emmy Award-winner <a href="https://news.amomama.com/300151-zoe-jackson-has-emmy-win-her-name-is-now.html"><strong>Zoe Jackson ’04</strong> was the subject of an <em>Amo Mama</em> article</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="24" data-line-end="25"><a href="https://www.kiplinger.com/personal-finance/disney-plus-scam-emails"><strong>Ben Demers ’08</strong>, Audience Engagement Manager at Kiplinger.com, wrote a <em>Kiplinger</em> article</a> about a new email scam.</p></div>
 
 
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27"><a href="https://finance.yahoo.com/news/lincoln-financial-group-names-heather-170000046.html"><strong>Heather Deichler ’02</strong> was named Senior Vice President of Group Benefit Product and Underwriting at Lincoln Financial Group</a>, as noted by Yahoo! Finance.</p></div>
+
+
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="28" data-line-end="29"><a href="https://talkingbiznews.com/media-news/bloomberg-hires-reinicke-to-cover-markets/"><strong>Carmen Reinicke ’14</strong> joined Bloomberg News as a reporter on the equities team</a>, as noted by TalkingBizNews.com.</p></div>
+
+
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="30" data-line-end="31"><a href="https://www.noozhawk.com/tessa-kaganoff-elected-to-scholarship-foundation-board/"><strong>Tessa Kaganoff ’88</strong> joined the Board of Directors for the Scholarship Foundation of Santa Barbara</a>, as noted by <em>Noozhawk</em>.</p></div>
+
+<!--
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="32" data-line-end="33"><a href="https://jadedibispress.com/product/11808/">A novel by author <strong>Natasha Gordon-Chipembere ’92</strong>, <em>Finding La Negrita</em>, was praised by several authors and professors</a>, as noted by Jaded Ibis Press.</p></div>
 
 
@@ -175,7 +174,7 @@ $page_info = json_decode($page_info, true);
 
 
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="42" data-line-end="43"><a href="https://nuggetnews.com/Content/Health/HEALTH/Article/Build-a-memory-palace-with-a-healthy-brain/117/221/32940"><strong>Scott Crabtree ’88</strong> discussed memory at his most recent Science of Happiness workshop</a>, as noted by the <em>Nugget Newspaper</em>.</p></div>
-
+-->
 
   <?php echo end_item_col(); ?>
 
