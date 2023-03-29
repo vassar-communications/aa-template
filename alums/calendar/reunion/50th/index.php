@@ -71,10 +71,9 @@ cookies).</p>
     '4 p.m.',
     'Informal campus walk led by current students and their perspective of
 campus.',
-    null,
-    null,
-    ['noContent' => true]
-  ); ?>
+    'Meet in front of Davison House.',
+ ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     '6 p.m.',
@@ -322,19 +321,12 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
 
 
-
-
-
   <?php echo schedule_item_dropdown(
     '12–1 p.m.',
     'Lunch and Class Meeting',
     'Bridge Building'
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
-
-
-
-
 
 
 
@@ -352,9 +344,6 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
 
 
-
-
-
   <?php echo schedule_item_dropdown(
     '2–3 p.m.',
     'Tour'
@@ -363,9 +352,6 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 <h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum-2">Walking Tour of the Vassar College Arboretum</a></h4>
 <p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
   <?php echo end_schedule_item_dropdown(); ?>
-
-
-
 
 
 
