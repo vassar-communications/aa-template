@@ -172,8 +172,8 @@ $page_info = json_decode($page_info, true);
     <li>Loop technology for hearing assistance is available in the 1951 Reading Room in Thompson Library and Rockefeller Hall, Auditorium 300.</li>
     <li>No password needed to connect to Vassar Public Wi-Fi.</li>
 </ul>
-<?php echo end_item_iconItem(); ?>
 
+<?php echo end_item_iconItem(); ?>
 
 <?php echo item_iconItem('Health Acknowledgement','shield-virus',''); ?>
 <p>At this time, we recommend all Reunion registrants will consider the following upon arrival at Reunion:</p>
