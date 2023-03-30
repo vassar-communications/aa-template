@@ -15,6 +15,26 @@
 
 
 <?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2023-03-30/spotlight/Hamburg_KR.jpg',
+  'is-link',
+  'Three people stand together, smiling at the camera. Leftmost person has long gray hair and a red dress; center person has short curly black hair and a purple dress; rightmost person has long brown hair and a gray-white jacket.'
+); ?>
+  <h3 class="h3">2023 Commencement Speaker Announced</h3>
+  <p>Public health expert Dr. Margaret Hamburg (pictured right) will address the graduates on May 21. She is the daughter of Dr. Beatrix Hamburg ’44 (far left, with Dr. June Jackson Christmas ’45-4).</p>
+
+  <p><em>Photo: Karl Rabe</em></p>
+
+  <?php echo cta_link(
+    'https://miscellanynews.org/2023/03/17/news/dr-margaret-hamburg-to-speak-at-159th-commencement/',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+<?php echo carousel_item(
   $alums_spotlight_itm_path.'/2023-03-02/spotlight/01-Pin-Pic-Mom-Katherine.jpg',
   'is-link',
   'Two people stand in a room of a house. One person has shoulder-length gray hair and a pink sweater, the other has shoulder-length gray hair and a brown sweater.'
@@ -95,25 +115,6 @@
 <?php echo end_carousel_item(); ?>
 
 
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-01-09/spotlight/Leslie-Chihuly-83_exhibition_1510-JA_413.jpg',
-  'is-link',
-  'A person wearing a leather jacket and skirt stands in a large room, surrounded by illuminated glass sculptures.'
-); ?>
-  <h3 class="h3">Chihuly Gift Spans Health, Wellness, and Art</h3>
-  <p>As Vassar launches its largest fundraising effort in history, Trustee Leslie Jackson Chihuly ’83 is giving the campaign an early boost with a series of gifts totaling more than $2 million.</p>
-
-  <p><em>Photo: John Abbott</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/chihuly-gift-spans-health-wellness-and-art',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
 
 
 

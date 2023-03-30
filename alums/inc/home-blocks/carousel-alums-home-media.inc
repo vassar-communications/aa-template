@@ -4,6 +4,25 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2023-03-30/in-the-media/jon_read_by_allison_rose_carter.jpg',
+    'is-link',
+    'A close-up photo of a person with short, dark hair. The person is wearing a tuxedo and holding a golden Oscar statue.'
+  ); ?>
+
+  <p>Jon Read ’09, a Co-Producer of the Oscar-winning film <em>Everything Everywhere All at Once</em>, was featured in a <em>Daily Voice</em> story.</p>
+  <p><em>Photo: Allison Rose Carter</em></p>
+  <?php echo cta_link(
+  'https://dailyvoice.com/new-york/ulster-sullivan/lifestyle/hudson-valley-resident-co-produced-oscar-favorite-for-picture-of-year/858600/',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+
+
 <?php echo carousel_item(
     $media_carousel_path.'/2023-03-02/in-the-media/June_Jackson_Christmas_KR.jpg',
     'is-link',
@@ -49,20 +68,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   ); ?>
 <?php echo end_carousel_item(); ?>
 
-<?php echo carousel_item(
-    $media_carousel_path.'/2023-03-02/in-the-media/Paula_Williams_Madison_KR.jpg',
-    'is-link',
-    'A closeup photo of a person with brown, curly hair and black eyeglasses, holding a hand up while speaking.'
-  ); ?>
 
-  <p>Paula Williams Madison ’74, Chairman and CEO of Madison Media Management, was named to the Television Academy Foundation Board of Directors.</p>
-  <p><em>Photo: Karl Rabe</em></p>
-  <?php echo cta_link(
-  'https://www.emmys.com/news/foundation-news/foundation-board-2301',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
 
 <?php echo carousel_item(
     $media_carousel_path.'/2023-03-02/in-the-media/Ifill_courtesy_American_Bar_Assn.jpg',
@@ -79,20 +85,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   ); ?>
 <?php echo end_carousel_item(); ?>
 
-<?php echo carousel_item(
-    $media_carousel_path.'/2023-03-02/in-the-media/wu-shanlon-cnn.jpg',
-    'is-link',
-    'A closeup photo of a person with short, straight, black hair, wearing a black suit and tie and smiling at the camera.'
-  ); ?>
-
-  <p>Lawyer Shanlon “Shan” Wu ’80 wrote a <em>Daily Beast</em> article about Attorney General Merrick Garland and the classified documents found in former Vice President Mike Pence’s home.</p>
-  <p><em>Photo: Courtesy of CNN</em></p>
-  <?php echo cta_link(
-  'https://www.thedailybeast.com/pences-classified-docs-are-a-new-headache-for-ag-merrick-garland',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
 
 
 <?php echo end_carousel(); ?>
