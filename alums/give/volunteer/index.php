@@ -64,7 +64,7 @@ $page_info = json_decode($page_info, true);
 <p>If you want to deepen relationships, expand your community, and devote time and expertise to things you care about, you’ll find great opportunities to do so as a Vassar volunteer. It is an incredible way to enrich your life and the lives of others in countless ways.</p>
 
 <?php echo cta_link(
-    'http://connect.vassar.edu/volunteer',
+    'https://connect.vassar.edu/volunteer',
     'Volunteer Interest Form'
 ); ?>
 
