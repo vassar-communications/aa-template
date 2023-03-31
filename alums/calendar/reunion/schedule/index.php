@@ -58,9 +58,7 @@ $page_info = json_decode($page_info, true);
     '9 a.m.–11 p.m.',
     'Residence houses open for check-in'
   ); ?>
-
-    <p>Dorm rooms are available after 2 p.m. <a href="https://www.vassar.edu/alums/calendar/reunion#flush-headingOne">Find your Dorm Headquarters</a>.</p>
-
+    <p>Dorm rooms are available after 2 p.m. <a href="../#flush-headingTwo">Find your Dorm Headquarters</a>.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -112,6 +110,7 @@ $page_info = json_decode($page_info, true);
     'Class of 1983–Welcome reception',
     'The Vassar Barns'
   ); ?>
+  <p>Meet in front of Main Circle for a van shuttle.</p>
    <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -174,7 +173,7 @@ $page_info = json_decode($page_info, true);
 
   <p>Adults only, brought to you by the class of 2003 along with alums from QCVC (Queer Coalition of Vassar College); CHOICE (Campus Health Organization for Information, Contraception, and Education); and SQUIRM, a Vassar College student publication dedicated to exploring sex in literary and artistic forms.</p>
 
-<p>After the fireworks comes the afterglow! Join us for an uplifting celebration of sexual expression featuring readings, burlesque, and art from a multigenerational group of alum performers. <em>Coffee and dessert will be served</em>.</p>
+<p>After the fireworks comes the afterglow! Join us for a warm, welcoming erotic salon featuring a sultry dancefloor, sweet treats and co-creative erotic art stations. Please contact <a href="mailto:chrismaxwellrose@gmail.com">Chris Maxwell Rose ’03</a> with any questions or to participate. <em>Coffee and dessert will be served</em>.</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -297,6 +296,14 @@ $page_info = json_decode($page_info, true);
   <?php echo end_schedule_item_dropdown(); ?>
 
 
+  <?php echo schedule_item_dropdown(
+    '2–3 p.m.',
+    'Frances Lehman Loeb Art Center Curatorial Tours',
+    'The Loeb'
+  ); ?>
+  <p>More information coming soon.</p>
+    <?php echo end_schedule_item_dropdown(); ?>
+
 
   <?php echo schedule_item_dropdown(
     '2–4 p.m.',
@@ -314,6 +321,14 @@ $page_info = json_decode($page_info, true);
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
+    '2–4 p.m.',
+    'Frances Lehman Loeb Art Center',
+    'Hildegard Krause Baker, class of 1911, Sculpture Garden'
+  ); ?>
+    <p>Enjoy afternoon iced tea and refreshments.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
     '2:30–4:30 p.m.',
     'Alum author meet and greet',
     'Vassar College Store (aka, the Juliet), Raymond Avenue'
@@ -321,12 +336,19 @@ $page_info = json_decode($page_info, true);
     <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
+    '3–4 p.m.',
+    'Frances Lehman Loeb Art Center Curatorial Tours',
+    'The Loeb'
+  ); ?>
+  <p>More information coming soon.</p>
+    <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
     '3–5 p.m.',
     'Affinity receptions',
-    'Main Building, 2nd floor'
+    'Main Building, 2nd floor and President’s lawn Tent'
   ); ?>
-  <p>Connect with other alums and campus administrators with shared identities and
-affiliations at affinity receptions for alum-athletes and African American, International, Latinx, LGBTQIA+, Transitions/first-generation, and alums affiliated with Religious and Spiritual Life and WVKR.</p>
+  <p>Join your fellow alums with whom you share identities and affiliations at the affinity receptions. Gatherings will include alum-athletes (President’s lawn Tent) and African American, International, Latinx, LGBTQIA+, Transitions/first-generation, and alums affiliated with Religious and Spiritual Life and WVKR.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(

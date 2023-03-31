@@ -41,7 +41,9 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'two people walking and smiling in a large group of people']
 ); ?>
 
-  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 3s and 8s on campus for Reunion, June 2–4, 2023 (the 50th Reunion class arrives on June 1).</p>
+  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 3s and 8s on campus for Reunion, June 2–4, 2023 (the 50th Reunion class arrives on June 1). Registration is now open!</p>
+<a href="https://reunionregistration.vassar.edu" class="btn btn-primary arrow mt-5">Register for Reunion</a></br>
+<a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who’s Coming to Reunion</a>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -51,7 +53,8 @@ $page_info = json_decode($page_info, true);
   ''
 ); ?>
 
-    <p>Reunion Registration will open on April 3, 2023. This page continues to be updated periodically. Be sure to check back! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
+    <p>Reunion registration will close on May 19, 2023. Schedules and additional information for the weekend can be found below. This page continues to be updated periodically. Be sure to check back! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
+
 
   <h3>Future Reunion Dates</h3>
 
@@ -106,15 +109,40 @@ $page_info = json_decode($page_info, true);
 <?php echo item_iconItem('Housing','house-chimney',''); ?>
 <p>We are excited to welcome alums back to Vassar for in-person reunions and want to ensure that everyone makes informed decisions about where to stay.</p>
 
-<p>We recommend you <strong>register early</strong> for on-campus housing as it is allocated on a first come, first served basis. If you prefer the creature comforts of home, <a href="https://www.vassar.edu/visit/community/lodging">search area hotels</a>.</p>
+<p>We recommend you <strong>register early</strong> for on-campus housing as it is allocated on a first come, first served basis. If you prefer the creature comforts of home, <a href="https://www.vassar.edu/visit/community/lodging">search area hotels</a>. The following area hotels have rooms specifically reserved for Reunion.</p>
+
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
     <div class="accordion-item">
         <div class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                Reunion 2023 Dorm Headquarters
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseONe">
+                Hotels with Rooms Reserved For Reunion
             </button>
         </div>
         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <p><strong>Holiday Inn Express</strong></br>
+                    2750 South Rd</br>
+                    Poughkeepsie NY 12601</br>
+                    (845) 473-1151</br>
+                    <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/poughkeepsie/pouny/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-US-_-POUNY">Book a room at the Holiday Inn Express online with code CVR</a></p>
+                    <p><strong>Quality Inn</strong> (walking distance from the college)</br>
+                    536 Haight Ave</br>
+                    Poughkeepsie NY 12603</br>
+                    (845) 454-1010</br>
+                    <a href=" https://www.choicehotels.com/reservations/groups/RO40F0">Book a room at the Quality Inn online (group rate already applied)</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="accordion accordion-flush mt-3" id="accordionFlushExample2">
+    <div class="accordion-item">
+        <div class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Reunion 2023 Dorm Headquarters
+            </button>
+        </div>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
             <div class="accordion-body">
                 <p><strong>1958:</strong> Jewett House<br />
 <strong>1963:</strong> Jewett House<br />
@@ -136,14 +164,14 @@ $page_info = json_decode($page_info, true);
 </div>
 
 
-<div class="accordion accordion-flush mt-3" id="accordionFlushExample2">
+<div class="accordion accordion-flush mt-3" id="accordionFlushExample3">
     <div class="accordion-item">
-        <div class="accordion-header" id="flush-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        <div class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                 Additional On-Campus Housing Information
             </button>
         </div>
-        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample3">
             <div class="accordion-body">
                 <p><strong>Residence Hall rooms:</strong></p>
                 <ul>
@@ -172,6 +200,8 @@ $page_info = json_decode($page_info, true);
     <li>Loop technology for hearing assistance is available in the 1951 Reading Room in Thompson Library and Rockefeller Hall, Auditorium 300.</li>
     <li>No password needed to connect to Vassar Public Wi-Fi.</li>
 </ul>
+<?php echo end_item_iconItem(); ?>
+
 
 <?php echo end_item_iconItem(); ?>
 
