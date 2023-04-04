@@ -3,7 +3,7 @@
 <?php
 
 /* */
-
+//Comment
 /*
 //  These are just to make it easier to specify obvious placeholders
 $placeholder_img_banner = '/assets/images/placeholders/placeholder-banner.png';
