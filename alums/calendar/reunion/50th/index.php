@@ -380,7 +380,6 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
-
     '2:30–4:30 p.m.',
     'Alum author meet and greet',
     'Vassar College Store (aka, the Juliet), Raymond Avenue'
@@ -394,6 +393,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
   ); ?>
   <p>More information coming soon.</p>
     <?php echo end_schedule_item_dropdown(); ?>
+
 
   <?php echo schedule_item_dropdown(
     '3–5 p.m.',

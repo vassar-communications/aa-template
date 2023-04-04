@@ -55,7 +55,6 @@ $page_info = json_decode($page_info, true);
 
     <p>Reunion registration will close on May 19, 2023. Schedules and additional information for the weekend can be found below. This page continues to be updated periodically. Be sure to check back! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
 
-
   <h3>Future Reunion Dates</h3>
 
   <p>May 31–June 2, 2024<br>
@@ -202,8 +201,6 @@ $page_info = json_decode($page_info, true);
 </ul>
 <?php echo end_item_iconItem(); ?>
 
-
-<?php echo end_item_iconItem(); ?>
 
 <?php echo item_iconItem('Health Acknowledgement','shield-virus',''); ?>
 <p>At this time, we recommend all Reunion registrants will consider the following upon arrival at Reunion:</p>

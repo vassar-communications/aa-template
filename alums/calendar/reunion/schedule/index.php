@@ -58,7 +58,9 @@ $page_info = json_decode($page_info, true);
     '9 a.m.–11 p.m.',
     'Residence houses open for check-in'
   ); ?>
+
     <p>Dorm rooms are available after 2 p.m. <a href="../#flush-headingTwo">Find your Dorm Headquarters</a>.</p>
+
   <?php echo end_schedule_item_dropdown(); ?>
 
 
