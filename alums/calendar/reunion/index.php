@@ -96,6 +96,8 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
+<div id="information-updates"></div>
+
 <?php echo sec_regularContent('Information & Updates','theme-verylightgray','','',); ?>
 
 
@@ -222,6 +224,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_regularContent(); ?>
 
+<div id="campus-facilities"></div>
 
 <?php echo sec_hasColumns(
     'Campus Facilities Hours and Services',
