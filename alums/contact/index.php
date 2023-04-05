@@ -904,11 +904,11 @@ echo end_contact_card();
                 <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
-    'Cathryn S. Stevens',
+    'TBD',
     'Principal Gifts Associate',
     [
-      'phone' => '845-437-5391',
-      'email' => 'castevens@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
@@ -954,11 +954,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'TBD',
+    'Cathryn S. Stevens',
     'Assistant Director',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-5391',
+      'email' => 'castevens@vassar.edu',
     ]
 );
 echo end_contact_card();

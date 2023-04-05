@@ -49,7 +49,7 @@ $page_info = json_decode($page_info, true);
       <?php echo presentation_member(
         'Quinn Kennedy ’93',
         'https://www.linkedin.com/in/quinn-kennedy-qkconsulting/',
-        'Director of Aging Research at NeuroFit',
+        'Director of Aging Research at neuroFit',
         '/alums/assets/img/alums-calendar/reunion/2023-lectures/QuinnKennedy_PhotoTakenBy_IanMartin.jpg',
         'A black and white photo of a person with short, straight hair and a black jacket, smiling at the camera'
       ); ?>
@@ -64,8 +64,8 @@ $page_info = json_decode($page_info, true);
         'Michele Tugade ’95',
         'https://www.vassar.edu/faculty/mitugade',
         'William R. Kenan, Jr. Endowed Chair and Professor of Psychological Science at Vassar College',
-        '/alums/assets/img/alums-calendar/reunion/2023-lectures/mitugade_72.jpg',
-        'A photo of a person with long, black hair and a dark blue dress, smiling at the camera'
+        '/alums/assets/img/alums-calendar/reunion/2023-lectures/tugade-2022.jpg',
+        'A photo of a person with long, black hair and a pink dress, smiling at the camera'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -143,7 +143,7 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_member(
       'Peggy Nagae ’73',
       'https://www.linkedin.com/in/peggy-nagae-75ba402/',
-      'Attorney and Consultant',
+      'Attorney and Owner, Peggy Nagae Consulting',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/Peggy-2020.jpg',
       'A photo of a person with long, straight, brown hair and a red dress, smiling at the camera'
     ); ?>
@@ -158,8 +158,8 @@ $page_info = json_decode($page_info, true);
       'Richard Born',
       'https://www.vassar.edu/faculty/born',
       'Professor of Political Science at Vassar College',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/richard-born.jpg',
-      'A photo of a person with short, straight, gray hair, glasses, and a white shirt, smiling at the camera'
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/born-richard-230330.jpg',
+      'A photo of a person with short, wavy, gray hair, glasses, and a blue sweater over a yellow shirt with a collar, looking at the camera'
     ); ?>
     <?php echo presentation_member(
       'Mallory Whiteduck',

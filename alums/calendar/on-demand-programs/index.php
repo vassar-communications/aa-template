@@ -47,7 +47,7 @@ $page_info = json_decode($page_info, true);
     'On-Demand Video',
     3,
     null,
-    'theme-dark-burgundy quad-pattern has-bg',
+    'theme-extralightgray quad-pattern has-bg',
     ''
 ); ?>
 
@@ -150,7 +150,7 @@ echo item_imageCard_videoModal(
 
 <?php echo end_sec_hasColumns(); ?>
 
-
+<!--removed upon request on april 5, 2023
 <?php echo sec_hasColumns(
     'Video Series',
     3,
@@ -196,9 +196,8 @@ echo item_imageCard_videoModal(
 ); ?>
 
 
-
-
 <?php echo end_sec_hasColumns(); ?>
+-->
 
 
 <?php echo relatedTopics(); ?>

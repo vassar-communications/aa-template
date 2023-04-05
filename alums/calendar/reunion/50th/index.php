@@ -329,6 +329,13 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
   <?php echo end_schedule_item_dropdown(); ?>
 
 
+  <?php echo schedule_item_dropdown(
+    '1:15 p.m.',
+    'Class memorial service following lunch',
+    'Class tree – North of Main building across from the Aula parking lot'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
 
   <?php echo schedule_item_dropdown(
     '2–3 p.m.',
@@ -524,7 +531,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
       'The Chapel'
     ); ?>
   <h4>An Inter-Religious Memorial Service Celebrating the Lives of Vassar Alumnae and Alumni</h4>
-    <p>An inter-religious service drawing upon religious and humanist traditions to honor and celebrate the women and men of our reuning classes who have died since last reunions, as well as faculty, administrators, and staff who have died in the past year. This year’s speaker is Keri Bertino ’02, a writer and teacher in the MFA Writing Program at Columbia University’s School of the Arts. The Alumnae/i Choir will sing, directed by Gail Archer, College Organist.</p>
+    <p>An inter-religious service drawing upon religious and humanist traditions to honor and celebrate the women and men of our reuning classes who have died since last reunions, as well as faculty, administrators, and staff who have died in the past year. Rabbi Susan Berman Stone ’78, Director of Spiritual Care at Hillcrest Hospital in Cleveland and former Director of Religious Activities and Chaplaincy Services at Vassar College, will give the memorial address. The Alumnae/i Choir will sing, directed by Gail Archer, College Organist.</p>
     <?php echo end_schedule_item_dropdown(); ?>
 
     <?php echo schedule_item_dropdown(

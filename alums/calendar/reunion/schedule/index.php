@@ -504,7 +504,7 @@ Exploring Queer Spaces, Cracks, and Holes.',
     'Chapel'
   ); ?>
   <h4>An Inter-Religious Memorial Service Celebrating the Lives of Vassar Alumnae and Alumni</h4>
-<p>An inter-religious service drawing upon religious and humanist traditions to honor and celebrate the women and men of our reuning classes who have died since last reunions, as well as faculty, administrators, and staff who have died in the past year. This year’s speaker is Keri Bertino ’02, a writer and teacher in the MFA Writing Program at Columbia University’s School of the Arts. The Alumnae/i Choir will sing, directed by Gail Archer, College Organist.</p>
+<p>An inter-religious service drawing upon religious and humanist traditions to honor and celebrate the women and men of our reuning classes who have died since last reunions, as well as faculty, administrators, and staff who have died in the past year. Rabbi Susan Berman Stone ’78, Director of Spiritual Care at Hillcrest Hospital in Cleveland and former Director of Religious Activities and Chaplaincy Services at Vassar College, will give the memorial address. The Alumnae/i Choir will sing, directed by Gail Archer, College Organist.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
