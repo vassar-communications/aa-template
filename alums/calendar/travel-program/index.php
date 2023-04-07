@@ -50,7 +50,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent('Upcoming Trip','','text-center');?>
 
-<p><strong>OUR TOUR IS NOW SOLD OUT.<br />To be placed on a waitlist, please call The Grand Tour at <?php echo phone_number('800-727-2995'); ?>.</strong></p>
+<p>There are two places currently available on this tour (shared hotel accommodation). For details please contact The Grand Tour at <?php echo phone_number('800-727-2995'); ?>.</p>
 
 <p class="intro-text">Imperial Treasures:<br />Art and Music in Dresden and Prague</p>
 
