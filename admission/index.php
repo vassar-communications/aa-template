@@ -543,7 +543,7 @@ Vassar students are surrounded by an environment designed to spark something ama
 
     <?php echo item_iconButton(
         'clipboard-check',
-        'Vassar does not currently require SAT or ACT scores.',
+        'Vassar does not require SAT or ACT scores.',
         null,
         'btn-card animation-item'
     ); ?>
