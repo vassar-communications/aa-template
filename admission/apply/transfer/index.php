@@ -81,7 +81,7 @@ $page_info = json_decode($page_info, true);
     <li><a href="https://www.vassar.edu/sites/default/files/2021-06/Transfer%20College%20Report_BLANK.pdf">Transfer College Report (PDF)</a> To be completed by someone at your current institution with access to your academic and disciplinary record</li>
     <li><a href="https://www.vassar.edu/sites/default/files/2021-06/TR%20Academic%20Evaluation.pdf">Transfer Academic Evaluation (PDF)</a> with a letter of recommendation from a college instructor. You may submit an additional recommendation from a second college instructor, high school counselor or teacher, or employer.</li>
     <li>Transfer Mid-Term Grade Report if you are currently enrolled in college</li>
-    <li>(Optional) <a href="/admission/quick-facts#standardized-testing">Standardized Testing</a>: Students applying during the 2022–2023 cycle may choose whether or not to submit SAT/ACT scores.</li>
+    <li>(Optional) <a href="/admission/quick-facts#standardized-testing">Standardized Testing</a>: Applicants may choose whether or not to submit SAT/ACT scores.</li>
     <li> <a href="/admission/apply/international#english-language-proficiency">TOEFL/IELTS/Duolingo</a>: Required if English is neither your first language nor the primary language of instruction for the last three years of your education</li>
 </ul>
 <?php echo end_sec_regularContent(); ?>
