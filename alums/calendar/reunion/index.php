@@ -96,6 +96,27 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
+
+<?php echo sec_fullBleedImageColumn(
+    'Lectures, Panels, and Tours',
+    $alums_img_path.'alums-calendar/reunion/52129387193_a6f8dcfc89_k.jpg',
+    '',
+    '',
+    ['img_alt_text' => 'A person wearing a mask speaks in front of a projector screen at the front of a sunlit classroom with a hardwood floor. The classroom is filled with visiting alums.']
+); ?>
+
+<p>Explore this year’s lifelong learning opportunities through Reunion’s lectures, panels and tours!</p>
+
+<?php echo cta_link(
+    '/alums/calendar/reunion/lectures/',
+    'Learn more about Lectures, Panels, and Tours'
+); ?>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+
+
 <div id="information-updates"></div>
 
 <?php echo sec_regularContent('Information & Updates','theme-verylightgray','','',); ?>
