@@ -604,6 +604,10 @@ Vassar students are surrounded by an environment designed to spark something ama
 
 
 <script>
+
+  // note: news items without a specified image
+  // will *not* show up in the carousel.
+
   function parseRSS(urlIN, callback) {
     $.ajax({
       url: urlIN,
@@ -651,7 +655,7 @@ Vassar students are surrounded by an environment designed to spark something ama
       }
     });
   }
-  parseRSS('https://www.vassar.edu/news/rss/511');
+  parseRSS('https://www.vassar.edu/news/rss/511/421+426+411');
 </script>
 
   <div id="newsRSS_target">
