@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Board Members",
+  "page_title":"AAVC Board Members",
   "page_classes":"",
   "feature_image":"/assets/images/placeholder-banner.png"
 }';
@@ -166,10 +166,11 @@ ul.inline-list-links li a {
 
 <?php echo sec_wideContent(
     null,
-    '',
-    'theme-cream',
+    null,
+    'theme-cream pt-3',
     ''
 ); ?>
+
 
 <a id="board-members"></a>
 
