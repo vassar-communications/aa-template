@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Board Members",
+  "page_title":"AAVC Board Members",
   "page_classes":"",
   "feature_image":"/assets/images/placeholder-banner.png"
 }';
@@ -30,6 +30,126 @@ $page_info = json_decode($page_info, true);
 
 <?php /*  PAGE CONTENT === */ ?>
 
+
+<style>
+
+@media screen and (min-width: 40em) {
+
+ul.inline-list-links {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 2rem auto;
+    gap: 1rem;
+}
+}
+ul.inline-list-links li {
+    list-style: none;
+    margin: 0.4rem 0;
+}
+ul.inline-list-links li a {
+    font-variation-settings: "wght" 600;
+}
+
+</style>
+
+<ul class="inline-list-links">
+  <li><a href="#board-slate">2023 Board Slate</a></li>
+  <li><a href="#board-of-directors">Board of Directors</a></li>
+  <li><a href="#board-members">Current AAVC Board Members</a></li>
+
+</ul>
+
+
+<?php echo sec_regularContent(
+    '2023 Board Slate',
+    'theme-cream',
+    ''
+); ?>
+<a id="board-slate"></a>
+<p>The Nominating and Governance Committee is pleased to present the slate of nominees for open board positions for 2023–2027:</p>
+
+<ul class="linked-list mb-5">
+    <li><a href="#delia-cheung-hom">Delia Cheung Hom ’00</a></li>
+    <li><a href="#alisa-swire">Alisa Swire ’84</a></li>
+  </ul>
+
+
+<div>
+
+<div id="delia-cheung-hom" style="clear: both; padding-bottom: 2rem; overflow: hidden">
+
+  <h3 class="mb-4">AAVC Trustee</h3>
+
+
+<div class="col-12 col-md-4 col-lg-3 align-left me-4">
+  <img src="https://www.vassar.edu/alums/assets/img/alums-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg" alt="A person with long straight dark hair and glasses smiles at the camera." />
+</div>
+
+<ul class="clean-list-with-borders">
+    <li><strong>Delia Cheung Hom ’00</strong></li>
+    <li>(she/her/hers)</li>
+    <li>Massachusetts</li>
+    <li><strong>Term of Service:</strong> 2023–2027</li>
+  </ul>
+</div>
+
+<h4>Additional Vassar Volunteer Experience</h4>
+
+<p>Chair, AAVC Ad Hoc Diversity, Equity, & Inclusion Committee, 2022–present, and member, 2020–2022; director, AAVC Board of Directors, 2018–present; member, AAVC Nominating and Governance Committee, 2018–present; chair, AAVC Alumnae House Committee, 2020–2022, and member, 2019–2020; member, AAVC Ad Hoc Student and Young Alumnae/i Engagement Committee, 2018–2020; presenter, Alumnae/i College, Reunion 2017; volunteer, Admission Phoner Program, 2014; volunteer, Admissions Activities, 2014; member, Lei Ceremony Planning Committee, Asian Pacific Alumnae/i of Vassar College (APAVC), 2009–2011; chair, Asian Pacific Alumnae/i of Vassar College, 2003–2011; webmaster, Asian Pacific Alumnae/i of Vassar College, 2006–2011; volunteer, Club Admission Committee, 2009–2010; volunteer, Career Advisor Program, 2004–2006; co-president, Asian Pacific Alumnae/i of Vassar College, 2002–2003.</p>
+
+
+
+<h4>Professional/Community Experience</h4>
+
+<p>Chief Programs Officer, Asian American Women’s Political Initiative, 2022–present; member of the board of directors, Newton Schools Foundation, 2021–present; Vice President, Zervas Elementary School Parent Teacher Organization, 2019–present; co-founder, Asian American Women’s Political Initiative, State House Fellowship Program, 2009; Director, Asian American Center, Northeastern University, 2006–2019; member of the board of directors, Asian Sisters Participating in Reaching Excellence, 2009–2010; associate, The Partnership’s Early Career Associates Program, 2008.</p>
+
+
+</div>
+
+
+
+
+
+<div id="alisa-swire" style="clear: both; padding-bottom: 2rem; overflow: hidden" class="mt-6">
+
+  <h3 class="mb-4">AAVC Board Director</h3>
+
+
+<div class="col-12 col-md-4 col-lg-3 align-left me-4">
+  <img src="/alums/assets/img/alums-community/aavc/board/alisa-swire.jpg" alt="A person with long straight brown hair and a gray coat smiles at the camera." />
+</div>
+
+<ul class="clean-list-with-borders">
+    <li><strong>Alisa Swire ’84</strong></li>
+    <li>(she/her/hers)</li>
+    <li>New York</li>
+    <li><strong>Term of Service:</strong> 2023–2027</li>
+  </ul>
+</div>
+
+<h4>Additional Vassar Volunteer Experience</h4>
+
+<p>Vice-chair, Alumnae House Committee, 2022–present, and member, 2019–2022; Club Admission Committee chair, 2008–16, and member, 2006–present; program chair, Vassar Club of the Hudson Valley, 2022 and vice president, 2020–2022; member, Advisory Council for the Consortium on Forced Migration, Vassar College, 2018–2020; notewriter or phoner, Class of 1984, 1997–1998.</p>
+
+
+
+<h4>Professional/Community Experience</h4>
+
+<p>Board of Directors, Board Secretary and Chair of the Governance and Nominations Committee, Hudson Valley Credit Union, 2022–present;  Pro Bono Attorney, My Sister’s Place, 2022; Legal Advisor and Director, Conversations Unbound, 2017–2020; Director and Chair of the Finance Committee, Poughkeepsie Day School, 2019–20; Refugee Resettlement Coordinator, Greater Newburgh Interfaith Council, 2016–18; Vice President, General Counsel and Corporate Secretary, Johnson Outdoors Inc., 2001–2016; Director, Mergers & Acquisitions, Walmart International, Wal-Mart Stores Inc, 1999–2001; Director, Corporate Development, Case Corporation, 1996–1999; Senior Tax Counsel, Case Corporation, 1994–1996; lecturer, Golden Gate University, 1992–1994; associate, corporate tax, Shearman & Sterling LLP, 1988–1992.</p>
+
+
+</div>
+
+
+
+
+<?php echo end_sec_regularContent(); ?>
+
+
+
+
+<a id="board-of-directors"></a>
 <?php echo sec_regularContent(
     'Board of Directors',
     '',
@@ -46,10 +166,13 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_wideContent(
     null,
-    '',
-    'theme-cream',
+    null,
+    'theme-cream pt-3',
     ''
 ); ?>
+
+
+<a id="board-members"></a>
 
 <?php echo sec_hasColumns(
     'Current AAVC Board Members',
@@ -58,7 +181,6 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-
 
 
 <?php echo item_cardWithText(
@@ -417,7 +539,11 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
-
+<style>
+.align-left {
+  float: left;
+}
+</style>
 
 <?php echo end_sec_hasColumns(); ?>
 <?php echo end_sec_wideContent(); ?>
