@@ -46,8 +46,8 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_wideContent(
     null,
-    '',
-    'theme-cream',
+    null,
+    'theme-cream pt-3',
     ''
 ); ?>
 
