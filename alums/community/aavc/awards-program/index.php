@@ -56,25 +56,26 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-community/aavc/awards/Vassar_Streep_20221013_KR_0063-square.jpg',
+    '/alums/assets/img/alums-community/aavc/awards/0002-23-03-kr-granoff-jonathan-vassar-0090.jpg',
     'image-is-first',
     '',
-    ['img_alt_text' => 'Meryl Streep smiling and holding her Distinguished Achievement Award']
+    ['img_alt_text' => 'Three people stand in a room, smiling and looking at the camera. One person has mid-length gray hair and glasses; one person has a shaved head, short gray beard, and no glasses; and one person has long brown hair and a dark jacket.']
 ); ?>
-<h6 class="tagline">2021 Recipient</h6>
-<h1>Meryl Streep ’71, P’08, ’13</h1>
+<h6 class="tagline">2022 Recipient</h6>
+<h1>Jonathan Granoff ’70</h1>
+
 
 <p><?php echo item_link_VideoModal(
-    'Watch the Meryl Streep video',
-    'https://player.vimeo.com/video/759696598',
+    'Watch the Jonathan Granoff video',
+    'https://player.vimeo.com/video/813544020',
     'vimeo',
     '',
     'no-arrow btn-link mt-4'
 ); ?></p>
 
 <?php echo cta_link(
-    'https://www.vassar.edu/news/meryl-streep-accepts-aavc-distinguished-achievement-award',
-     'Read more about Meryl Streep'
+    'https://www.vassar.edu/news/peace-and-anti-nuclear-activist-jonathan-granoff-70-receives-aavc-distinguished-achievement',
+     'Read more about Jonathan Granoff'
 ); ?>
 
 
