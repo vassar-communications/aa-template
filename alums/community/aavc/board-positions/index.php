@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Board Positions",
+  "page_title":"AAVC Board Positions",
   "page_classes":"",
   "feature_image":"/assets/images/placerholders/placeholder-banner.png"
 }';
