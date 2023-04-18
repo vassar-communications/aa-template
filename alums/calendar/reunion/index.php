@@ -105,7 +105,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A person wearing a mask speaks in front of a projector screen at the front of a sunlit classroom with a hardwood floor. The classroom is filled with visiting alums.']
 ); ?>
 
-<p>Explore this year’s lifelong learning opportunities through Reunion’s lectures, panels and tours!</p>
+<p>Explore this year’s lifelong learning opportunities through lectures, panels, and tours at Reunion!</p>
 
 <?php echo cta_link(
     '/alums/calendar/reunion/lectures/',
