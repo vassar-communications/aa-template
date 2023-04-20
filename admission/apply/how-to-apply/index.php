@@ -132,7 +132,7 @@ $page_info = json_decode($page_info, true);
     'info'
   );
   ?>
-    <p class="mb-4">Students applying to Vassar during the 2022–23 admission cycle may choose whether or not to submit SAT/ACT scores.</p>
+    <p class="mb-4">Students applying to Vassar may choose whether or not to submit SAT/ACT scores.</p>
 <h5>Know the Vassar codes</h5>
 <ul class="labeled-list list-group">
     <?php echo labeled_list_item('College Board', '2956'); ?>
