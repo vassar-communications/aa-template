@@ -248,7 +248,7 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_member(
       'Dara Greenwood',
       'https://www.vassar.edu/faculty/dagreenwood',
-      'Associate Professor of Psychological Studies and Director of Media Studies',
+      'Associate Professor of Psychological Science and Director of Media Studies',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/dara-greenwood.jpg',
       'A photo of a person with long, straight, brown hair, smiling at the camera'
     ); ?>
