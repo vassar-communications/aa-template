@@ -60,12 +60,12 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Dr. Zoe Adams ’15',
-        'https://www.guernicamag.com/doctors-not-dealers/',
-        ['url' => $logos_path.'guernica.gif', 'alt' => 'Guernica logo' ],
+        'Daphne Kalotay ’92',
+        'https://www.nytimes.com/2023/04/16/opinion/second-and-third-generation-storytellers-are-telling-the-story-of-the-holocaust-now.html',
+        ['url' => $logos_path.'newyorktimes.gif', 'alt' => 'New York Times logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p><strong>Dr. Zoe Adams ’15</strong> wrote a <em>Guernica</em> article, “Doctors, Not Dealers: Punishment, not care, characterizes opioid addiction treatment.”</p>
+      <p><strong>Daphne Kalotay ’92</strong> wrote a <em>New York Times</em> guest essay, “What Holocaust Storytellers Like Me Know About ‘Secondhand Smoke.’”</p>
 
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
@@ -107,55 +107,31 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="0" data-line-end="1"><a href="https://dailyvoice.com/new-york/ulster-sullivan/lifestyle/hudson-valley-resident-co-produced-oscar-favorite-for-picture-of-year/858600/"><strong>Jon Read ’09</strong>, a Co-Producer of the Oscar-winning film <em>Everything Everywhere All at Once</em>, was featured in a <em>Daily Voice</em> story</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="0" data-line-end="1"><a href="https://abcnews.go.com/Entertainment/wireStory/amina-luqman-dawsons-freewater-wins-john-newbery-medal-96765422"><em>Freewater</em>, a middle-grade novel about a secret community of formerly enslaved people authored by <strong>Amina Luqman-Dawson ’97</strong>, has won the John Newbery Medal for best children’s book of the year, as noted by ABC News</a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://news.yahoo.com/trio-tenacious-heroines-celebrate-womens-093614814.html"><em>The Gilded Years</em>, a novel by <strong>Karin Tanabe ’02</strong>, was one of three books recommended to celebrate Women’s History Month</a> in a Yahoo! News story.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://thegoaspotlight.com/films-by-jonas-cuaron-the-director-of-chupa/">The work of director and screenwriter <strong>Jonás Cuarón ’05</strong> was the subject of a Goa Spotlight story</a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><a href="https://www.bizjournals.com/sanfrancisco/news/2023/03/10/nik-dehejia-oakland-zoo-ceo.html">Oakland Zoo CEO <strong>Nik Dehejia ’94</strong> and his work to improve the zoo was the subject of a <em>San Francisco Business Times</em> story</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5">Renowned astronomer and dark matter pioneer <a href="https://www.scientificamerican.com/video/vera-rubin-lives-on-in-lives-of-the-women-she-helped-in-astronomy/"><strong>Vera Rubin ’48</strong> was the subject of a <em>Scientific American</em> story</a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://playbill.com/article/estefania-fadul-and-graeme-gillis-named-co-artistic-directors-of-ensemble-studio-theatre"><strong>Estefanía Fadul ’10</strong> was named Co-Artistic Director of the Ensemble Studio Theatre</a>, as noted by <em>Playbill</em>.</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://www.lifewire.com/top-women-in-technology-7113051"><strong>Rear Admiral Grace Hopper</strong>, class of 1928, was named one of the five top women in technology by Lifewire</a>.</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11">Author and <em>Town & Country</em> Editor-in-Chief <a href="https://www.townandcountrymag.com/style/jewelry-and-watches/a42923706/bulgari-serpenti-75-anniversary/"><strong>Stellene Volandes ’93</strong> wrote a <em>Town & Country</em> article</a> about the Bulgari Serpenti.</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13">Attorney, reporter, and author <a href="https://www.middletownpress.com/news/article/former-ct-reporter-author-elisabeth-petry-17812900.php"><strong>Elisabeth Petry ’70</strong>, daughter of famed author Ann Petry, was remembered by the <em>Middletown Press</em></a>.</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.yahoo.com/entertainment/american-cinematheque-adds-jason-blum-214735339.html"><strong>Jason Blum ’91</strong>, Founder and CEO of Blumhouse Productions, was named to the American Cinematheque Board of Directors</a>, as noted by Yahoo! Entertainment.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="28" data-line-end="29"><a href="https://talkingbiznews.com/media-news/bloomberg-hires-reinicke-to-cover-markets/"><strong>Carmen Reinicke ’14</strong> joined Bloomberg News as a reporter on the equities team, as noted by TalkingBizNews.com</a>.</p></div>
 
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><a href="https://www.cbc.ca/listen/live-radio/1-63-the-current/clip/15972552-renowned-canadian-architect-phyllis-lambert-build-better-cities">Architect <strong>Phyllis Lambert ’48</strong> appeared on the podcast <em>The Current with Matt Galloway</em></a> to talk about how to build better cities.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7">Attorney and author <a href="https://www.wusa9.com/video/news/local/brain-cancer-survivor-shares-story-of-hope-belief/65-e21312e3-39aa-4860-93cb-a1c845d7278e"><strong>Karen Roberts Turner ’86</strong> shared her story about surviving brain cancer on WUSA9</a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><a href="https://www.iheart.com/podcast/stuff-you-missed-in-history-cl-21124503/episode/ellen-swallow-richards-109624462/"><strong>Ellen Swallow Richards</strong>, class of 1870, was mentioned in an iHeartRadio podcast</a>, <em>Stuff You Missed in History Class</em>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://www.yahoo.com/lifestyle/inner-circle-acknowledges-simon-rabinowitz-182600237.html"><strong>Dr. Simon S. Rabinowitz ’75</strong> was named a Most Trusted Professional in the Medical Field for his contributions as a pediatric gastroenterologist, educator, and scientist by The Inner Circle, as noted in a Yahoo! Life article</a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21"><a href="https://pca.st/ibv0q6ds"><strong>Andrew Zolli ’95</strong> and his reporting on the relationship between technology and emotion was the subject of the WNYC Studios <em>Radiolab</em> podcast episode “The Trust Engineers.”</a></p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27"><a href="https://finance.yahoo.com/news/lincoln-financial-group-names-heather-170000046.html"><strong>Heather Deichler ’02</strong> was named Senior Vice President of Group Benefit Product and Underwriting at Lincoln Financial Group, as noted by Yahoo! Finance</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><a href="https://www.tapinto.net/towns/summit/categories/news/articles/summit-democrats-announce-2023-slate-of-candidates"><strong>David Naidu ’90</strong>, a law firm partner and former Summit Common Council member, is running for mayor of Summit, N.J.</a>, as noted by Tap Into Summit.</p></div>
-
-
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="24" data-line-end="25"><a href="https://www.kiplinger.com/personal-finance/disney-plus-scam-emails"><strong>Ben Demers ’08</strong>, Audience Engagement Manager at Kiplinger.com, wrote a <em>Kiplinger</em> article</a> about a new email scam.</p></div>
-
-
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27"><a href="https://finance.yahoo.com/news/lincoln-financial-group-names-heather-170000046.html"><strong>Heather Deichler ’02</strong> was named Senior Vice President of Group Benefit Product and Underwriting at Lincoln Financial Group</a>, as noted by Yahoo! Finance.</p></div>
-
-
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="28" data-line-end="29"><a href="https://talkingbiznews.com/media-news/bloomberg-hires-reinicke-to-cover-markets/"><strong>Carmen Reinicke ’14</strong> joined Bloomberg News as a reporter on the equities team</a>, as noted by TalkingBizNews.com.</p></div>
-
-
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="30" data-line-end="31"><a href="https://www.noozhawk.com/tessa-kaganoff-elected-to-scholarship-foundation-board/"><strong>Tessa Kaganoff ’88</strong> joined the Board of Directors for the Scholarship Foundation of Santa Barbara</a>, as noted by <em>Noozhawk</em>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="30" data-line-end="31"><a href="https://www.noozhawk.com/tessa-kaganoff-elected-to-scholarship-foundation-board/"><strong>Tessa Kaganoff ’88</strong> joined the Board of Directors for the Scholarship Foundation of Santa Barbara, as noted by <em>Noozhawk</em></a>.</p></div>
 
 <!--
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="32" data-line-end="33"><a href="https://jadedibispress.com/product/11808/">A novel by author <strong>Natasha Gordon-Chipembere ’92</strong>, <em>Finding La Negrita</em>, was praised by several authors and professors</a>, as noted by Jaded Ibis Press.</p></div>
