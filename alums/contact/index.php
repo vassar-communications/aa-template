@@ -568,11 +568,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Brian Gunning',
+    'TBD',
     'Associate Director of Advancement Communications',
     [
-      'phone' => '845-437-5421',
-      'email' => 'bgunning@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
