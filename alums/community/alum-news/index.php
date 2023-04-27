@@ -73,24 +73,24 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Mary McCarthy ’33',
-        'https://www.msn.com/en-us/lifestyle/parenting/the-15-best-books-about-friendship-to-read-alongside-your-bestie/ss-AA18yq27#image=4',
-        ['url' => $logos_path.'msn-logo.gif', 'alt' => 'MSN logo' ],
+        'Amina Luqman-Dawson&nbsp;’97',
+        'https://abcnews.go.com/Entertainment/wireStory/amina-luqman-dawsons-freewater-wins-john-newbery-medal-96765422',
+        ['url' => $logos_path.'abc_news_logo.jpg', 'alt' => 'ABC News logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
 
-        <p><em>The Group</em> by <strong>Mary McCarthy</strong>, class of 1933, was one of the books included in an MSN story, “The 15 Best Books About Friendship to Read Alongside Your Bestie.”</p>
+        <p><em>Freewater</em>, a middle-grade novel about a secret community of formerly enslaved people authored by <strong>Amina Luqman-Dawson ’97</strong>, has won the John Newbery Medal for best children’s book of the year, as noted by ABC News.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Kara Voght ’11',
-        'https://www.washingtonpost.com/pr/2023/03/16/kara-voght-joins-post-political-reporter-style/',
-        ['url' => $logos_path.'washington-post.jpg', 'alt' => 'Washington Post logo' ],
+        'Vera Rubin ’48',
+        'https://www.scientificamerican.com/video/vera-rubin-lives-on-in-lives-of-the-women-she-helped-in-astronomy/',
+        ['url' => $logos_path.'Scientific_American_logo.jpg', 'alt' => 'Scientific American logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p><strong>Kara Voght ’11</strong> joined the <em>Washington Post</em> as a political reporter, as noted by the newspaper in an article.</p>
+        <p><strong>Vera Rubin ’48</strong> was the subject of a <em>Scientific American</em> story.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -107,13 +107,10 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="0" data-line-end="1"><a href="https://abcnews.go.com/Entertainment/wireStory/amina-luqman-dawsons-freewater-wins-john-newbery-medal-96765422"><em>Freewater</em>, a middle-grade novel about a secret community of formerly enslaved people authored by <strong>Amina Luqman-Dawson ’97</strong>, has won the John Newbery Medal for best children’s book of the year, as noted by ABC News</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://www.yahoo.com/lifestyle/inner-circle-acknowledges-simon-rabinowitz-182600237.html"><strong>Dr. Simon S. Rabinowitz ’75</strong> was named a Most Trusted Professional in the Medical Field for his contributions as a pediatric gastroenterologist, educator, and scientist by The Inner Circle, as noted in a Yahoo! Life article</a>.</p></div>
 
 
 <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://thegoaspotlight.com/films-by-jonas-cuaron-the-director-of-chupa/">The work of director and screenwriter <strong>Jonás Cuarón ’05</strong> was the subject of a Goa Spotlight story</a>.</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5">Renowned astronomer and dark matter pioneer <a href="https://www.scientificamerican.com/video/vera-rubin-lives-on-in-lives-of-the-women-she-helped-in-astronomy/"><strong>Vera Rubin ’48</strong> was the subject of a <em>Scientific American</em> story</a>.</p></div>
 
 
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="28" data-line-end="29"><a href="https://talkingbiznews.com/media-news/bloomberg-hires-reinicke-to-cover-markets/"><strong>Carmen Reinicke ’14</strong> joined Bloomberg News as a reporter on the equities team, as noted by TalkingBizNews.com</a>.</p></div>
@@ -123,9 +120,6 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
 
 <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7">Attorney and author <a href="https://www.wusa9.com/video/news/local/brain-cancer-survivor-shares-story-of-hope-belief/65-e21312e3-39aa-4860-93cb-a1c845d7278e"><strong>Karen Roberts Turner ’86</strong> shared her story about surviving brain cancer on WUSA9</a>.</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://www.yahoo.com/lifestyle/inner-circle-acknowledges-simon-rabinowitz-182600237.html"><strong>Dr. Simon S. Rabinowitz ’75</strong> was named a Most Trusted Professional in the Medical Field for his contributions as a pediatric gastroenterologist, educator, and scientist by The Inner Circle, as noted in a Yahoo! Life article</a>.</p></div>
 
 
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27"><a href="https://finance.yahoo.com/news/lincoln-financial-group-names-heather-170000046.html"><strong>Heather Deichler ’02</strong> was named Senior Vice President of Group Benefit Product and Underwriting at Lincoln Financial Group, as noted by Yahoo! Finance</a>.</p></div>
