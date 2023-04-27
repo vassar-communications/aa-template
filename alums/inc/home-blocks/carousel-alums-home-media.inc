@@ -6,6 +6,58 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 <?php echo carousel_item(
+    $media_carousel_path.'/2023-04-27/in-the-media/Amina_Luqman-Dawson_by_Matt_Mendelsohn.jpg',
+    'is-link',
+    'A person with close-cropped, dark hair and a light knitted sweater stands in a grassy meadow, smiling at the camera.'
+  ); ?>
+
+  <p>Amina Luqman-Dawson ’97 won the John Newbery Medal for best children’s book of the year, as noted by ABC News.</p>
+  <p><em>Photo: Matt Mendelsohn</em></p>
+  <?php echo cta_link(
+  'https://abcnews.go.com/Entertainment/wireStory/amina-luqman-dawsons-freewater-wins-john-newbery-medal-96765422',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2023-04-27/in-the-media/Daphne_Kalotay_courtesy_of.jpg',
+    'is-link',
+    'A person with long brown hair and glasses looks at the camera.'
+  ); ?>
+
+  <p>Daphne Kalotay ’92 wrote a <em>New York Times</em> guest essay, “What Holocaust Storytellers Like Me Know About ‘Secondhand Smoke.’”</p>
+  <p><em>Photo: Courtesy of the subject</em></p>
+  <?php echo cta_link(
+  'https://www.nytimes.com/2023/04/16/opinion/second-and-third-generation-storytellers-are-telling-the-story-of-the-holocaust-now.html',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2023-04-27/in-the-media/Karen_Roberts-Turner-courtesy_of.jpg',
+    'is-link',
+    'A person with close-cropped, graying hair and a patterned white sweater stands in a colorfully decorated room, smiling at the camera.'
+  ); ?>
+
+  <p>Attorney and author Karen Roberts Turner ’86 shared her story about surviving brain cancer on WUSA9.</p>
+  <p><em>Photo: Courtesy of the subject</em></p>
+  <?php echo cta_link(
+  'https://www.wusa9.com/video/news/local/brain-cancer-survivor-shares-story-of-hope-belief/65-e21312e3-39aa-4860-93cb-a1c845d7278e',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
+<?php echo carousel_item(
     $media_carousel_path.'/2023-03-30/in-the-media/jon_read_by_allison_rose_carter.jpg',
     'is-link',
     'A close-up photo of a person with short, dark hair. The person is wearing a tuxedo and holding a golden Oscar statue.'
