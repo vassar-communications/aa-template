@@ -90,7 +90,7 @@ $page_info = json_decode($page_info, true);
         ['url' => $logos_path.'Scientific_American_logo.jpg', 'alt' => 'Scientific American logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p><strong>Vera Rubin ’48</strong> was the subject of a <em>Scientific American</em> story.</p>
+        <p>Renowned astronomer and dark matter pioneer <strong>Vera Rubin ’48</strong> was the subject of a <em>Scientific American</em> story.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
