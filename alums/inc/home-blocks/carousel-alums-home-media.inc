@@ -105,37 +105,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   ); ?>
 <?php echo end_carousel_item(); ?>
 
-<?php echo carousel_item(
-    $media_carousel_path.'/2023-03-02/in-the-media/mira_lehr_courtesy_of.jpg',
-    'is-link',
-    'A person with shoulder-length black hair sits in an armchair, looking at the camera. A brown dog is at their feet.'
-  ); ?>
 
-  <p>Artist Mira Lehr ’56 was remembered by the <em>New York Times</em>.</p>
-  <p><em>Photo: Courtesy of the subject</em></p>
-  <?php echo cta_link(
-  'https://www.nytimes.com/2023/02/02/arts/mira-lehr-dead.html',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
-
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2023-03-02/in-the-media/Ifill_courtesy_American_Bar_Assn.jpg',
-    'is-link',
-    'A closeup photo of a person with long, black, braided hair, smiling while standing at a podium. A partially visible sign on the podium has the word "Fairmont".'
-  ); ?>
-
-  <p>Sherrilyn Ifill ’84 spoke to the <em>Daily Show</em> about her tenure as President and Director-Counsel of the NAACP Legal Defense Fund.</p>
-  <p><em>Photo: Courtesy of the American Bar Association</em></p>
-  <?php echo cta_link(
-  'https://www.youtube.com/watch?v=DA8F7j0_7S4',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
 
 
 
