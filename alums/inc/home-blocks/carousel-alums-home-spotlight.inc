@@ -15,42 +15,64 @@
 
 
 <?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-03-30/spotlight/Hamburg_KR.jpg',
+  $alums_spotlight_itm_path.'/2023-04-27/spotlight/0002-23-03-kr-granoff-jonathan-vassar-0090-hp-slide.jpg',
   'is-link',
-  'Three people stand together, smiling at the camera. Leftmost person has long gray hair and a red dress; center person has short curly black hair and a purple dress; rightmost person has long brown hair and a gray-white jacket.'
+  'Three people stand in a room, smiling and looking at the camera. One person has mid-length gray hair and glasses; one person has a shaved head, short gray beard, and no glasses; and one person has long brown hair and a dark jacket.'
 ); ?>
-  <h3 class="h3">2023 Commencement Speaker Announced</h3>
-  <p>Public health expert Dr. Margaret Hamburg (pictured right) will address the graduates on May 21. She is the daughter of Dr. Beatrix Hamburg ’44 (far left, with Dr. June Jackson Christmas ’45-4).</p>
+  <h3 class="h3">Peace and Anti-Nuclear Activist Jonathan Granoff ’70 Receives AAVC Distinguished Achievement Award</h3>
+  <p>Granoff (center) accepted the award from Amy Pullman ’71 (left), Chair of the AAVC Alumnae/i Recognition Committee, and AAVC President Monica Vachher ’77 (right).</p>
 
   <p><em>Photo: Karl Rabe</em></p>
 
   <?php echo cta_link(
-    'https://miscellanynews.org/2023/03/17/news/dr-margaret-hamburg-to-speak-at-159th-commencement/',
+    'https://www.vassar.edu/news/peace-and-anti-nuclear-activist-jonathan-granoff-70-receives-aavc-distinguished-achievement',
     'Read more',
     'stretched-link'
   ); ?>
 
 <?php echo end_carousel_item(); ?>
+
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2023-04-27/spotlight/entrepreneurship-program-2304-gaw-005.jpg',
+  'is-link',
+  'Three people sit at a table, in front of a microphone. One person has a tan shirt, glasses, and long, dark, curly hair; one person has a white shirt and long straight hair; and one person has a blue shirt and long brown hair.'
+); ?>
+  <h3 class="h3">Vassar Innovation and Entrepreneurship Forum Offers Guidance to Budding Innovators</h3>
+  <p>Panelists included (left to right) Julian Aguilar ’23, Johnson Lin ’21, and Arielle Lapiano ’96.</p>
+
+  <p><em>Photo: Grace Adams Ward ’24</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/vassar-innovation-and-entrepreneurship-forum-offers-guidance-to-budding-innovators',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
 
 
 
 <?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-03-02/spotlight/01-Pin-Pic-Mom-Katherine.jpg',
+  $alums_spotlight_itm_path.'/2023-04-27/spotlight/0006-23-04-gaw-humphrey-shay-vassar-005-16x9.jpg',
   'is-link',
-  'Two people stand in a room of a house. One person has shoulder-length gray hair and a pink sweater, the other has shoulder-length gray hair and a brown sweater.'
+  'A person with long auburn hair and glasses pushed up smiles at the camera in a natural setting.'
 ); ?>
-  <h3 class="h3">Alum Donates World War II Keepsakes to Special Collections</h3>
-  <p>Nearly eight decades after Elizabeth “Betty” Gatchell ’45 (left) christened the <em>Vassar Victory</em>, a ship named after the College, the broken champagne bottle she used and other memorabilia from that day have been preserved as part of Vassar’s history.</p>
+  <h3 class="h3">Alum Becomes Vassar’s First General Counsel</h3>
+  <p>Shay Humphrey ’91 (pictured) assumed the post on April 3.</p>
 
-  <p><em>Photo: Courtesy of Katherine Bouton ’69</em></p>
+  <p><em>Photo: Grace Adams Ward ’24</em></p>
 
   <?php echo cta_link(
-    'https://www.vassar.edu/news/alum-donates-world-war-ii-vassar-victory-keepsakes-to-special-collections',
+    'https://www.vassar.edu/news/alum-assumes-post-vassars-first-general-counsel',
     'Read more',
     'stretched-link'
   ); ?>
 
 <?php echo end_carousel_item(); ?>
+
+
 
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2023-03-02/spotlight/mug_2023_kr_047-compressed.jpg',
@@ -71,29 +93,6 @@
 <?php echo end_carousel_item(); ?>
 
 
-
-
-
-
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-01-27/spotlight/rha-vassar_scc_20230114_kr_0053-crop.jpg',
-  'is-link',
-  'A person with long, curly, crimson hair stands in a wood-paneled room, holding a microphone and smiling at the camera.'
-); ?>
-  <h3 class="h3">Second-Year Students Explore ‘Where Joy and Fulfillment Lives’ at Sophomore Career Connections</h3>
-  <p>Renowned soul coach Rha Goddess ’89 (pictured) gave the keynote address at the ninth annual event.</p>
-
-  <p><em>Photo: Karl Rabe</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/second-year-students-explore-where-joy-and-fulfillment-lives-sophomore-career-connections',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
 
 
 <?php echo carousel_item(
