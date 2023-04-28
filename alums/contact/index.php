@@ -50,10 +50,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Reach Out to Us',
-    '/alums/assets/img/alums-contact/0097_16_09_TT_2788.jpg',
+    '/alums/assets/img/alums-contact/659_Matthew-Vassar-statue_May-2019_JA.jpg',
     'theme-cream image-is-first',
     '',
-    ['img_alt_text' => 'Fountain in Sunset Lake on Vassar Campus']
+    ['img_alt_text' => 'A black metal statue of Matthew Vassar stands in a grassy area with pink trees, visible in the background. The statue is in profile, wearing a cloak and carrying a cane.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <div class="address-card mb-5">
