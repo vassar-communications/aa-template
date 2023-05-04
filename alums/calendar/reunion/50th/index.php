@@ -51,14 +51,6 @@ $page_info = json_decode($page_info, true);
   <h3 id="thursday" class="schedule-item__heading">Thursday, June 1</h3>
 
   <?php echo schedule_item_dropdown(
-    '9 a.m.–12 p.m.',
-    'Set up MPR and Davison lobby',
-    null,
-    null,
-    ['noContent' => true]
-  ); ?>
-
-  <?php echo schedule_item_dropdown(
     '2 p.m.',
     'Registration opens in Davison lobby',
     'Davison lobby'
@@ -209,6 +201,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
     'Faculty reception',
     'President’s lawn tent'
   ); ?>
+  <p><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6710&cid=11232&fid=11231">See the list of faculty attendees</a></p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -408,6 +401,14 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
     'Main Building, 2nd floor and President’s lawn Tent'
   ); ?>
   <p>Join your fellow alums with whom you share identities and affiliations at the affinity receptions. Gatherings will include alum-athletes (President’s lawn Tent) and African American, International, Latinx, LGBTQIA+, Transitions/first-generation, and alums affiliated with Religious and Spiritual Life and WVKR.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '3–5 p.m.',
+    'Department open houses'
+  ); ?>
+  <p><strong>Education:</strong> Maria Mitchell Observatory</p>
+  <p><strong>History:</strong> Swift Hall</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
