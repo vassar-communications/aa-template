@@ -141,6 +141,7 @@ $page_info = json_decode($page_info, true);
     'Faculty reception',
     'President’s lawn Tent'
   ); ?>
+  <p><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6710&cid=11232&fid=11231">See the list of faculty attendees</a></p>
    <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -273,6 +274,22 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
+    '1:15 p.m.',
+    'Class of 1963 – Informal dedication of new class tree',
+    'Near Gordon Commons and 1963’s North Gate'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '1:15 p.m.',
+    'Class of 1988 Memorial Service',
+    'Class tree located west of Rockefeller Hall'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
     '2–3 p.m.',
     'Lectures and panels'
   ); ?>
@@ -283,9 +300,6 @@ $page_info = json_decode($page_info, true);
   <h4><a href="../lectures/#financial-wellness-for-young-professionals">Financial Wellness for Young Professionals</a></h4>
 <p><strong>Location:</strong> Rockefeller 200</p>
   <?php echo end_schedule_item_dropdown(); ?>
-
-
-
 
 
   <?php echo schedule_item_dropdown(
@@ -354,6 +368,14 @@ $page_info = json_decode($page_info, true);
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
+    '3–5 p.m.',
+    'Department open houses'
+  ); ?>
+  <p><strong>Education:</strong> Maria Mitchell Observatory</p>
+  <p><strong>History:</strong> Swift Hall</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
     '3:30–4:30 p.m.',
     'Lectures and panels'
   ); ?>
@@ -386,6 +408,14 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '5 p.m.',
+    'Class of 1988 Author Meet and Greet',
+    'Strong House Multipurpose room'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '5 p.m.',
     'Class of 2013, Zachary Zane brings you <em>Boyslut: A Memoir and Manifesto</em>.
 Exploring Queer Spaces, Cracks, and Holes.',
     'Rockefeller 210'
@@ -410,7 +440,7 @@ Exploring Queer Spaces, Cracks, and Holes.',
 
     <?php echo schedule_item_dropdown(
     '6 p.m.',
-    'Class of 1968 Photo',
+    'Class of 1968 and Class of 1963 Photos',
     'Meet in front of Rockefeller Hall entrance.'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
@@ -421,7 +451,7 @@ Exploring Queer Spaces, Cracks, and Holes.',
       'Class dinners',
       null
     ); ?>
-      <p><strong>1953 and 1958:</strong> Alumnae House Dining Room</p>
+      <p><strong>1953 and 1958:</strong> Alumnae House Dining Room<br />(Note: 1958 will take a class photo at 7 p.m.)</p>
   		<p><strong>1963:</strong> Reading Room 133, Thompson Library</p>
   		<p><strong>1968:</strong> 1951 Reading Room, Thompson Library (2nd floor)</p>
   		<p><strong>1978:</strong> Aula</p>
@@ -435,6 +465,16 @@ Exploring Queer Spaces, Cracks, and Holes.',
   		<p><strong>2016 and 2018:</strong> Noyes Tent</p>
     <?php echo end_schedule_item_dropdown(); ?>
 
+
+  <?php echo schedule_item_dropdown(
+    '8 p.m.',
+    'Class of 1993 presents:  Movie night – <em>Jess Plus None</em> – a Vassar alum’s feature film debut!',
+    'Blodgett Theater'
+  ); ?>
+  <p><em>This film has not been rated – language, sexual situations</em></p>
+
+<p>Mandy Steckelberg-Fabian ’93 shares her directorial feature film debut, <em>Jess Plus None</em>, a lively and laugh-out-loud comedy that takes the setting of a pressure-cooker off-the-grid wedding in the woods to examine the truth and struggles of what it takes to sustain long-lasting adult friendships, as well as the universal trials of finding love in the modern age. Starring Abby Miller, Rory O’Malley, Marielle Scott, Matt Walsh.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
 
     <?php echo schedule_item_dropdown(
       '10 p.m–12 a.m.',

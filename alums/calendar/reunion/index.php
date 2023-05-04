@@ -215,11 +215,19 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_item_iconItem(); ?>
 
+<?php echo item_iconItem('New York City Bus','bus',''); ?>
+<h4>Friday, June 2: Depart from NYC (Bryant Park) at 12 p.m.</h4>
+<h4>Sunday, June 4: Depart from Vassar (Main Circle) at 1 p.m.</h4>
+<p>The Vassar Club of New York will be on hand to greet you on Friday on the south side of 42nd Street between 5th and 6th Avenues, in front of Bryant Park, as shown in the Google Map below.</p>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; margin-bottom: 20px; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 20px; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3022.34973581112!2d-73.98570558727074!3d40.754331934902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDQ1JzE1LjYiTiA3M8KwNTgnNTkuMyJX!5e0!3m2!1sen!2sus!4v1682952585698!5m2!1sen!2sus' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div>
+<?php echo end_item_iconItem(); ?>
+
+
 <?php echo item_iconItem('Important to Know','circle-exclamation',''); ?>
 <ul>
     <li><a href="https://www.vassar.edu/smokefree/">Vassar is a smoke-free campus</a>.</li>
     <li>All bathrooms are gender-neutral, unless otherwise noted.</li>
-    <li>Loop technology for hearing assistance is available in the 1951 Reading Room in Thompson Library and Rockefeller Hall, Auditorium 300.</li>
+    <li>Loop technology for hearing assistance is available in the 1951 Reading Room in Thompson Library and Rockefeller Hall, Auditorium 300.  FM system capability available in the Chapel.</li>
     <li>No password needed to connect to Vassar Public Wi-Fi.</li>
 </ul>
 <?php echo end_item_iconItem(); ?>
@@ -261,48 +269,55 @@ $page_info = json_decode($page_info, true);
 <ul>
   <li>Friday: 7 a.m.–8 p.m.</li>
   <li>Saturday:	10 a.m.–6 p.m.</li>
-  <li>Sunday: 	10 a.m.–6 p.m.</li>
+  <li>Sunday: 10 a.m.–6 p.m.</li>
 </ul>
   <p><em>We intend to have the pool open, pending lifeguard availability. Please check back for more information.</em></p>
+
+  <h3>Street Eats food truck, outside Gordon Commons</h3>
+  <ul>
+    <li>Saturday: 7:30 a.m.–11 a.m.</li>
+    <li>Sunday: 7:30 a.m.–11 a.m.</li>
+  </ul>
+  <p><em>Coffee, light continental selections</em></p>
 
   <h3>Thompson Memorial Library including the Art Library</h3>
   <ul>
     <li>Friday: 8:30 a.m.–4:30 p.m.</li>
-    <li>Saturday:	8:30 a.m.–5 p.m.  	</li>
-    <li>Sunday: 	8:30 a.m.–12 p.m.  </li>
+    <li>Saturday: 8:30 a.m.–5 p.m.</li>
+    <li>Sunday: 8:30 a.m.–12 p.m.</li>
   </ul>
 
   <h3>Music Library</h3>
   <ul>
     <li>Friday: 1–4 p.m.</li>
-    <li>Saturday:	10 a.m.–4 p.m.</li>
-  </ul>
-
-  <h3>Frances Lehman Loeb Art Center</h3>
-  <ul>
-    <li>Friday:		10 a.m.–7 p.m.	</li>
-    <li>Saturday:	9 a.m.–5 p.m.	</li>
-    <li>Sunday: 	9 a.m.–5 p.m.	</li>
+    <li>Saturday: 10 a.m.–4 p.m.</li>
   </ul>
 
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
 
+  <h3>Frances Lehman Loeb Art Center</h3>
+  <ul>
+    <li>Friday: 10 a.m.–7 p.m.	</li>
+    <li>Saturday: 9 a.m.–5 p.m.	</li>
+    <li>Sunday: 9 a.m.–5 p.m.	</li>
+  </ul>
+
     <h3>A. Scott Warthin Museum of Geology & Natural History, Ely Hall</h3>
     <ul>
-      <li>Friday: 		8:30 a.m.–5 p.m.	</li>
-      <li>Saturday:	2–4 p.m.	</li>
+      <li>Friday: 8:30 a.m.–5 p.m.</li>
+      <li>Saturday: 2–4 p.m.</li>
     </ul>
 
     <h3>Vassar College Store, Juliet, Raymond Avenue</h3>
     <ul>
       <li>Thursday: 10 a.m.–6 p.m.</li>
-      <li>Friday:		10 a.m.–6 p.m</li>
-      <li>Saturday:	11 a.m.–6 p.m.<br>
+      <li>Friday: 10 a.m.–6 p.m</li>
+      <li>Saturday: 11 a.m.–6 p.m.<br>
         <em>Author Meet and Greet, 2:30–4:30 p.m.</em>
       </li>
-      <li>Sunday: 10 a.m.–2 p.m. <br>
+      <li>Sunday: 10 a.m.–2 p.m.<br>
         <em>Ring sales will be available from 10 a.m.–1 p.m.</em>
       </li>
     </ul>
@@ -311,7 +326,7 @@ $page_info = json_decode($page_info, true);
     <h3>Shabbat Services at The Bayit (51 Collegeview Avenue, North Gate)</h3>
 
     <ul>
-      <li>Friday:		5:30–6:45 p.m.</li>
+      <li>Friday: 5:30–6:45 p.m.</li>
     </ul>
 
   <?php echo end_item_col(); ?>

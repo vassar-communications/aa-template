@@ -38,7 +38,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo presentation_item(
     'Ageless Aging: Resilience, Cognitive Health, and Mindfulness',
-    'Rockefeller Hall, Room 300 and Zoom for virtual attendees',
+    'Rockefeller Hall, Room 300',
     '3:00 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
@@ -123,6 +123,13 @@ $page_info = json_decode($page_info, true);
         '/alums/assets/img/alums-calendar/reunion/2023-lectures/schlessman.jpg',
         'A photo of a person with a black baseball cap, a tan shirt, and a thin gray beard, smiling at the camera'
       ); ?>
+      <?php echo presentation_member(
+        'Laura Graceffa ’87',
+        null,
+        null,
+        '/alums/assets/img/alums-calendar/reunion/2023-lectures/Laura_Graceffa.jpg',
+        'A photo of a person with short dark gray hair, smiling at the camera'
+      ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
 
@@ -179,7 +186,7 @@ $page_info = json_decode($page_info, true);
   '2:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Juggling student loans, credit cards, rent, groceries and more? Tired of living paycheck to paycheck? Join former SCC mentors and finance professionals Caroline Sarles ’13 and Gleny Ramirez ’03 for an informative discussion about how to move from basic survival to building assets and greater financial stability.</p>
+    <p>Juggling student loans, credit cards, rent, groceries and more? Tired of living paycheck to paycheck? Join former SCC mentor and finance professional Caroline Sarles ’13 for an informative discussion about how to move from basic survival to building assets and greater financial stability.</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenter'); ?>
@@ -188,13 +195,6 @@ $page_info = json_decode($page_info, true);
       'https://www.linkedin.com/in/sarles-caroline/',
       'Senior Marketing and Client Service Manager at Martin Investment Management, LLC',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/sarles.jpg',
-      'A photo of a person with long, straight, brown hair, smiling at the camera'
-    ); ?>
-    <?php echo presentation_member(
-      'Gleny Ramirez ’03',
-      'https://www.linkedin.com/in/gleny-ramirez/',
-      'Senior Paralegal at VanEck',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/ramirez.jpg',
       'A photo of a person with long, straight, brown hair, smiling at the camera'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
@@ -224,6 +224,13 @@ $page_info = json_decode($page_info, true);
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/schlessman.jpg',
       'A photo of a person with a long gray beard and a white shirt with a black tie, smiling at the camera'
     ); ?>
+      <?php echo presentation_member(
+        'Laura Graceffa ’87',
+        null,
+        null,
+        '/alums/assets/img/alums-calendar/reunion/2023-lectures/Laura_Graceffa.jpg',
+        'A photo of a person with short dark gray hair, smiling at the camera'
+      ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
 
@@ -319,7 +326,9 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_member(
       'Bryan Corrigan',
       'https://www.linkedin.com/in/bryan-corrigan-ra-leed-ap-05630612/',
-      'Vassar Project Manager'
+      'Vassar Project Manager',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/Bryan_Corrigan.jpg',
+      'A photo of a person with very short grayish hair and glasses in a blue checked shirt, smiling at the camera'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
