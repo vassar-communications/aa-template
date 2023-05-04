@@ -568,22 +568,22 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'TBD',
-    'Associate Director of Advancement Communications',
+    'Kwan Man Cheng',
+    'Assistant Director of Advancement Communications',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-5501',
+      'email' => 'kcheng@vassar.edu',
     ]
 );
 echo end_contact_card();
 
 
 echo contact_card(
-    'Kwan Man Cheng',
+    'TBD',
     'Assistant Director of Advancement Communications',
     [
-      'phone' => '845-437-5501',
-      'email' => 'kcheng@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
@@ -701,10 +701,20 @@ echo end_contact_card();
 
 echo contact_card(
     'Joe Vayas',
-    'Assistant Director of &nbsp;Annual Giving,&nbsp;Volunteer &amp; Reunion',
+    'Assistant Director of Annual Giving, Volunteer &amp; Reunion',
+    [
+      'phone' => '845-437-5379',
+      'email' => 'jvayas@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+echo contact_card(
+    'TBD',
+    'Assistant Director of Annual Giving, Digital Engagement Officer',
     [
       'phone' => '',
-      'email' => 'jvayas@vassar.edu',
+      'email' => '',
     ]
 );
 echo end_contact_card();
