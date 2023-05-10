@@ -38,11 +38,12 @@ $page_info = json_decode($page_info, true);
 
   <?php echo presentation_item(
     'Ageless Aging: Resilience, Cognitive Health, and Mindfulness',
-    'Rockefeller Hall, Room 300',
+    'Rockefeller Hall, Room 300 (also available virtually)',
     '3:00 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Join us for an interactive experience that will teach you strategies for effective coping, the benefits of mindfulness for your cognitive health, and how to practice mindfulness in minutes in real life.</p>
+      <p>Join us for an interactive experience that will teach you strategies for effective coping, the benefits of mindfulness for your cognitive health, and how to practice mindfulness in minutes in real life.<br>
+      <a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6784&content_id=6216">To participate virtually in this program, please register</a>.</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Panelists'); ?>
@@ -139,11 +140,12 @@ $page_info = json_decode($page_info, true);
 
 <?php echo presentation_item(
   'Is a Multiracial Inclusive Democracy Possible in the United States?',
-  'Rockefeller Hall, Room 300',
+  'Rockefeller Hall, Room 300 (also available virtually)',
   '2:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Those who wrote the Constitution did not conceptualize “We the People” as multiracial and inclusive. Every student of history knows this. As the demographics, power and politics of the US change, we are seeing White Nationalism emerge from the shadows into being an openly championed segment of US politics and daily life. Are we at risk of becoming the next Apartheid state? Instead of a democracy, will we be ruled by the Authoritarian Few or an Oligarchy?</p>
+    <p>Those who wrote the Constitution did not conceptualize “We the People” as multiracial and inclusive. Every student of history knows this. As the demographics, power and politics of the US change, we are seeing White Nationalism emerge from the shadows into being an openly championed segment of US politics and daily life. Are we at risk of becoming the next Apartheid state? Instead of a democracy, will we be ruled by the Authoritarian Few or an Oligarchy?<br>
+    <a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6784&content_id=6216">To participate virtually in this program, please register</a>.</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenter'); ?>
@@ -186,7 +188,7 @@ $page_info = json_decode($page_info, true);
   '2:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Juggling student loans, credit cards, rent, groceries and more? Tired of living paycheck to paycheck? Join former SCC mentor and finance professional Caroline Sarles ’13 for an informative discussion about how to move from basic survival to building assets and greater financial stability.</p>
+    <p>Juggling student loans, credit cards, rent, groceries and more? Tired of living paycheck to paycheck? Join former SCC mentors and finance professionals Caroline Sarles ’13 and Marisa Rothstein ’08 for an informative discussion about how to move from basic survival to building assets and greater financial stability.</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenter'); ?>
@@ -196,6 +198,13 @@ $page_info = json_decode($page_info, true);
       'Senior Marketing and Client Service Manager at Martin Investment Management, LLC',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/sarles.jpg',
       'A photo of a person with long, straight, brown hair, smiling at the camera'
+    ); ?>
+    <?php echo presentation_member(
+      'Marisa Rothstein ’08, JD, CFP, AEP',
+      'https://www.linkedin.com/in/attorneycfp/',
+      'Personal Financial Advisor at Siena Private Wealth',
+      '/alums/assets/img/alums-calendar/reunion/2023-lectures/Marisa-Rothstein.jpg',
+      'A photo of a person with curly shoulder-length brown hair, smiling at the camera'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
@@ -237,11 +246,12 @@ $page_info = json_decode($page_info, true);
 
 <?php echo presentation_item(
   'The Promise and Peril of Social Media',
-  'Rockefeller Hall, Room 300',
+  'Rockefeller Hall, Room 300 (also available virtually)',
   '3:30 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Join us for a nuanced conversation about how social media engages and influences our emotional, social, and cultural lives. We will discuss mental health, belonging needs, and the contextual origins of our hyper-connected world.</p>
+    <p>Join us for a nuanced conversation about how social media engages and influences our emotional, social, and cultural lives. We will discuss mental health, belonging needs, and the contextual origins of our hyper-connected world.<br>
+    <a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6784&content_id=6216">To participate virtually in this program, please register</a>.</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenter'); ?>
@@ -298,7 +308,7 @@ $page_info = json_decode($page_info, true);
   '3:30 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>This walking tour will visit several key landscape and building sites that demonstrate the unusual manner in which Vassar’s campus structure and design have emerged. Its interactive relationship with the emerging curriculum created a unique story that has shaped the spirit of the College and its graduates for many years.</p>
+    <p>This walking tour, led by Karen Van Lengen ’73, will visit several key landscape and building sites that demonstrate the unusual manner in which Vassar’s campus structure and design have emerged. Its interactive relationship with the emerging curriculum created a unique story that has shaped the spirit of the College and its graduates for many years.</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenter'); ?>
