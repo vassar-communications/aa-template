@@ -33,7 +33,10 @@ $page_info = json_decode($page_info, true);
 
 
 
-<?php echo sec_regularContent(); ?>
+<?php echo sec_regularContent(
+  null,
+  'pt-0'
+); ?>
 
 <p class="intro-text">Reunion General Schedule</p>
 <p>Use one of these links to go directly to the activities for that day:</p>
