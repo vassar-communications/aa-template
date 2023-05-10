@@ -154,7 +154,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
     'Lectures and panels'
   ); ?>
       <h4><a href="../lectures/#ageless-aging-resilience-cognitive-health-and-mindfulness">Ageless Aging: Resilience, Cognitive Health, and Mindfulness</a></h4>
-      <p><strong>Location:</strong> Rockefeller 300</p>
+      <p><strong>Location:</strong> Rockefeller 300 (also available virtually)</p>
       <h4><a href="../lectures/#campus-capital-projects-whats-happening-and-upcoming">Campus Capital Projects: What’s Happening and Upcoming?</a></h4>
       <p><strong>Location:</strong> Rockefeller 200</p>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -257,14 +257,14 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
   <h3 id="saturday" class="schedule-item__heading">Saturday, June 3</h3>
 
   <?php echo schedule_item_dropdown(
-    '7–9 a.m.',
+    '7:30–9 a.m.',
     'Continental breakfast (included)',
     'Davison Tent'
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
-    '7–9 a.m.',
+    '7:30–9 a.m.',
     'Breakfast: Gordon Commons (formerly ACDC)',
     'Gordon Commons'
   ); ?>
@@ -336,7 +336,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
   ); ?>
 
   <h4><a href="../lectures/#is-a-multiracial-inclusive-democracy-possible-in-the-united-states">Is a Multiracial Inclusive Democracy Possible in the United States?</a></h4>
-<p><strong>Location:</strong> Rockefeller 300</p>
+<p><strong>Location:</strong> Rockefeller 300 (also available virtually)</p>
 
   <h4><a href="../lectures/#financial-wellness-for-young-professionals">Financial Wellness for Young Professionals</a></h4>
 <p><strong>Location:</strong> Rockefeller 200</p>
@@ -359,7 +359,13 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
     'Frances Lehman Loeb Art Center Curatorial Tours',
     'The Loeb'
   ); ?>
-  <p>More information coming soon.</p>
+  <p><strong>Tour of <em>Body Matters</em>, with John Murphy, The Phillip and Lynn Straus Curator of Prints and Drawings, and Ian Shelley ’22</strong></p>
+
+<p>How would Vassar students curate an exhibition at the Loeb? How would they perceive and remix the idea of a permanent art collection? Our newest temporary exhibition, organized by six Vassar students, attempts to answer these very questions. Curator John Murphy and Ian Shelley ’22 will discuss <em>Body Matters</em>, a collaborative curatorial project that broadly explores how bodies move through art, space, and time in our galleries.</p>
+
+<p><strong>Tour of <em>Hairy Leg</em>, with Jessica Brier, Curator of Photography</strong></p>
+
+<p>Jessica Brier, Curator of Photography, will offer a tour of the exhibition <em>The Hairy Leg Or What To Do Wrong</em>, a collaboration with Judy Linn in honor of her retirement from teaching photography at Vassar College for almost 25 years. Linn was invited to select photographs from the Loeb Art Center’s permanent collection, including works by Diane Arbus, Sid Grossman, Helen Levitt, Barbara Morgan, and many others. The exhibition tells a story of photography as a tool for breaking its own rules.</p>
     <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -391,7 +397,13 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
     'Frances Lehman Loeb Art Center Curatorial Tours',
     'The Loeb'
   ); ?>
-  <p>More information coming soon.</p>
+  <p><strong>Tour of <em>Body Matters</em>, with John Murphy, The Phillip and Lynn Straus Curator of Prints and Drawings, and Ian Shelley ’22</strong></p>
+
+<p>How would Vassar students curate an exhibition at the Loeb? How would they perceive and remix the idea of a permanent art collection? Our newest temporary exhibition, organized by six Vassar students, attempts to answer these very questions. Curator John Murphy and Ian Shelley ’22 will discuss <em>Body Matters</em>, a collaborative curatorial project that broadly explores how bodies move through art, space, and time in our galleries.</p>
+
+<p><strong>Tour of <em>Hairy Leg</em>, with Jessica Brier, Curator of Photography</strong></p>
+
+<p>Jessica Brier, Curator of Photography, will offer a tour of the exhibition <em>The Hairy Leg Or What To Do Wrong</em>, a collaboration with Judy Linn in honor of her retirement from teaching photography at Vassar College for almost 25 years. Linn was invited to select photographs from the Loeb Art Center’s permanent collection, including works by Diane Arbus, Sid Grossman, Helen Levitt, Barbara Morgan, and many others. The exhibition tells a story of photography as a tool for breaking its own rules.</p>
     <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -416,7 +428,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
     'Lectures and panels'
   ); ?>
   <h4><a href="../lectures/#the-promise-and-peril-of-social-media">The Promise and Peril of Social Media</a></h4>
-<p><strong>Location:</strong> Rockefeller 300</p>
+<p><strong>Location:</strong> Rockefeller 300 (also available virtually)</p>
 
   <h4><a href="../lectures/#hallie-flanagan-and-the-1937-federal-summer-theater-conference-at-vassar">Hallie Flanagan and the 1937 Federal Summer Theater Conference at Vassar</a></h4>
 <p><strong>Location:</strong> Rockefeller 200</p>
@@ -491,7 +503,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
   <h3 id="sunday" class="schedule-item__heading">Sunday, June 4</h3>
 
     <?php echo schedule_item_dropdown(
-      '7 a.m.–12 p.m.',
+      '7:30 a.m.–12 p.m.',
       'Breakfast/brunch',
       'Gordon Commons'
     ); ?>
