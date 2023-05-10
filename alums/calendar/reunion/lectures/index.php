@@ -188,7 +188,7 @@ $page_info = json_decode($page_info, true);
   '2:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Juggling student loans, credit cards, rent, groceries and more? Tired of living paycheck to paycheck? Join former SCC mentors and finance professionals Caroline Sarles ’13 and Marisa Rothstein ’08 for an informative discussion about how to move from basic survival to building assets and greater financial stability.</p>
+    <p>Juggling student loans, credit cards, rent, groceries and more? Tired of living paycheck to paycheck? Join finance professionals Caroline Sarles ’13 and Marisa Rothstein ’08 for an informative discussion about how to move from basic survival to building assets and greater financial stability.</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenter'); ?>
