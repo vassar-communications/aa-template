@@ -172,6 +172,17 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
+    '3–4 p.m.',
+    'Labyrinth Walk and Pratt House Open House',
+    'Pratt House'
+  ); ?>
+
+    <p>Come experience the new labyrinth on campus and get a tour of Pratt House, the new hub for Religious and Spiritual Life and Contemplative Practices (RSLCP) at the College. The labyrinth tour and introduction to walking meditation will be hosted by Professor Carolyn Palmer (Department of Psychology), and the Open House will be hosted by Saba Ali, Advisor for Muslim Student Life; Rabbi Bryan Mann, Rachlin Director for Jewish Student Life and Assistant Director, RSLCP; and Rev. Sam Speers, Associate Dean of the College for RSLCP. Refreshments will be served. Please note, the labyrinth at Pratt is one of two labyrinths now at the college; we also encourage you to check out the Willow Grove Labyrinth on the Vassar Farm.</p>
+
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
     '5–6 p.m.',
     'Matthew Vassar Legacy Society Reception (by invitation)',
     'The President’s House Terrace'
@@ -412,7 +423,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
     'Affinity receptions',
     'Main Building, 2nd floor and President’s lawn Tent'
   ); ?>
-  <p>Join your fellow alums with whom you share identities and affiliations at the affinity receptions. Gatherings will include alum-athletes (President’s lawn Tent) and African American, International, Latinx, LGBTQIA+, Transitions/first-generation, and alums affiliated with Religious and Spiritual Life and WVKR.</p>
+  <p>Join your fellow alums with whom you share identities and affiliations at the affinity receptions. Gatherings will include alum-athletes (President’s lawn Tent) and African American, International, Latinx, LGBTQIA+, Transitions/first-generation, and WVKR.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
