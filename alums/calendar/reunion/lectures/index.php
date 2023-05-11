@@ -193,14 +193,14 @@ $page_info = json_decode($page_info, true);
 
   <?php echo presentation_member_list('Presenter'); ?>
     <?php echo presentation_member(
-      'Caroline Sarles ’13, CFP',
+      'Caroline Sarles ’13, CFP&reg;',
       'https://www.linkedin.com/in/sarles-caroline/',
       'Senior Marketing and Client Service Manager at Martin Investment Management, LLC',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/sarles.jpg',
       'A photo of a person with long, straight, brown hair, smiling at the camera'
     ); ?>
     <?php echo presentation_member(
-      'Marisa Rothstein ’08, JD, CFP, AEP',
+      'Marisa Rothstein ’08, JD, CFP&reg;, AEP&reg;',
       'https://www.linkedin.com/in/attorneycfp/',
       'Personal Financial Advisor at Siena Private Wealth',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/Marisa-Rothstein.jpg',
