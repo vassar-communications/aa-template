@@ -7,9 +7,9 @@
 
 $current_school_year = '2022–2023';
 
-$facts[$current_school_year]['adm_tuition'] = 63840;
-$facts[$current_school_year]['adm_room_and_board'] = 16560;
-$facts[$current_school_year]['adm_fees'] = 960;
+$facts[$current_school_year]['adm_tuition'] = 66870;
+$facts[$current_school_year]['adm_room_and_board'] = 17415;
+$facts[$current_school_year]['adm_fees'] = 935;
 
 $facts['adm_total_cost'] = $facts[$current_school_year]['adm_tuition'] + $facts[$current_school_year]['adm_room_and_board'] + $facts[$current_school_year]['adm_fees'];
 
