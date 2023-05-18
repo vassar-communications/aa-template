@@ -442,9 +442,19 @@ This intentional reflection time will be led by Lea Seigen Shinraku&nbsp;’93</
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
+    '4 p.m.',
+    'Class of 1993 presents:  Movie night—<em>Jess Plus None</em>—a Vassar alum’s feature film debut!',
+    'Blodgett Theater'
+  ); ?>
+  <p><em>This film has not been rated—language, sexual situations</em></p>
+
+<p>Mandy Steckelberg-Fabian ’93 shares her directorial feature film debut, <em>Jess Plus None</em>, a lively and laugh-out-loud comedy that takes the setting of a pressure-cooker off-the-grid wedding in the woods to examine the truth and struggles of what it takes to sustain long-lasting adult friendships, as well as the universal trials of finding love in the modern age. Starring Abby Miller, Rory O’Malley, Marielle Scott, Matt Walsh.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
     '5 p.m.',
     'Class of 1988 Author Meet and Greet',
-    'Strong House Multipurpose room'
+    'Rockefeller 212'
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -502,11 +512,11 @@ Exploring Queer Spaces, Cracks, and Holes.',
 
 
   <?php echo schedule_item_dropdown(
-    '8 p.m.',
-    'Class of 1993 presents:  Movie night – <em>Jess Plus None</em> – a Vassar alum’s feature film debut!',
+    '8:30 p.m.',
+    'Class of 1993 presents:  Movie night—<em>Jess Plus None</em>—a Vassar alum’s feature film debut!',
     'Blodgett Theater'
   ); ?>
-  <p><em>This film has not been rated – language, sexual situations</em></p>
+  <p><em>This film has not been rated—language, sexual situations</em></p>
 
 <p>Mandy Steckelberg-Fabian ’93 shares her directorial feature film debut, <em>Jess Plus None</em>, a lively and laugh-out-loud comedy that takes the setting of a pressure-cooker off-the-grid wedding in the woods to examine the truth and struggles of what it takes to sustain long-lasting adult friendships, as well as the universal trials of finding love in the modern age. Starring Abby Miller, Rory O’Malley, Marielle Scott, Matt Walsh.</p>
   <?php echo end_schedule_item_dropdown(); ?>
