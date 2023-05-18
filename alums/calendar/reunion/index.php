@@ -41,8 +41,8 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'two people walking and smiling in a large group of people']
 ); ?>
 
-  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 3s and 8s on campus for Reunion, June 2–4, 2023 (the 50th Reunion class arrives on June 1). Registration is now open!</p>
-<a href="https://reunionregistration.vassar.edu" class="btn btn-primary arrow mt-5">Register for Reunion</a></br>
+  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 3s and 8s on campus for Reunion, <strong>June 2–4, 2023</strong> (the 50th Reunion class arrives on June 1). Registration is now closed as we prepare campus for everyone's arrival.   See you all soon!</p>
+  <p>Share your Reunion joy on your favorite social media platform: <strong>#VCReunion23</strong></p>
 <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who’s Coming to Reunion</a>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
   ''
 ); ?>
 
-    <p>Reunion registration will close on May 19, 2023. Schedules and additional information for the weekend can be found below. This page continues to be updated periodically. Be sure to check back! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
+    <p>Schedules and additional information for the weekend can be found below. This site continues to be updated periodically. Be sure to check back! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
 
   <h3>Future Reunion Dates</h3>
 
@@ -177,7 +177,7 @@ $page_info = json_decode($page_info, true);
 <strong>1998:</strong> Cushing House<br />
 <strong>2003:</strong> Raymond House<br />
 <strong>2008:</strong> Raymond House<br />
-<strong>2013:</strong> TownHouses<br />
+<strong>2013:</strong> TownHouse 164<br />
 <strong>2016:</strong> Lathrop House<br />
 <strong>2018:</strong> Noyes House</p>
             </div>
