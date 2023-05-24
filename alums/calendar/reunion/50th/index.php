@@ -208,19 +208,19 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
 
 
   <?php echo schedule_item_dropdown(
+    '6 p.m.',
+    'Night Owls rehearsal',
+    'Rockefeller 200'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
     '6–7 p.m.',
     'Faculty reception',
     'President’s lawn tent'
   ); ?>
   <p><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6710&cid=11232&fid=11231">See the list of faculty attendees</a></p>
-  <?php echo end_schedule_item_dropdown(); ?>
-
-
-  <?php echo schedule_item_dropdown(
-    '6 p.m.',
-    'Night Owls rehearsal',
-    'Rockefeller 200'
-  ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
 
 

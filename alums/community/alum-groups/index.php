@@ -47,6 +47,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+<div id="affinity"></div>
 
 <?php echo sec_fullBleedImageColumn(
     'Affinity Groups',
