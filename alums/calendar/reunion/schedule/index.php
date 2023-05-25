@@ -104,7 +104,7 @@ $page_info = json_decode($page_info, true);
   <?php echo schedule_item_dropdown(
     '4–5 p.m.',
     'Class of 1958—Art Lecture and Self-Guided Tour',
-    'Taylor 203'
+    'The Loeb Seminar room. Enter through the main entrance of the Loeb.'
   ); ?>
 
     <p><strong>Bart Thurber, The Anne Hendricks Bass Director of the Frances Lehman Loeb Art Center and Lecturer in Art</strong></p>
@@ -456,6 +456,7 @@ This intentional reflection time will be led by Lea Seigen Shinraku&nbsp;’93</
     'Class of 1988 Author Meet and Greet',
     'Rockefeller 212'
   ); ?>
+  <p><a href="../../../assets/pdf/Class_of_1988_Presents_Readings_and_Discusson.pdf">Learn more about the readings and discussion</a>.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 

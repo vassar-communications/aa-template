@@ -123,10 +123,60 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_iconItem('New This Year!','star',''); ?>
+<h4>Vassar Mobile App for Reunion</h4>
+<p>Did you know that Vassar has a mobile app? It now has a “Reunion” persona to access Reunion schedules and notifications. Get the app and choose “Reunion” from the initial “Choose Your Experience” screen to get started:</p>
+<ul>
+    <li><a href="https://go.vassar.edu/vassarmobile-iOS">Download for iOS</a></li>
+    <li><a href="https://go.vassar.edu/vassarmobile-google">Download for Android</a></li>
+</ul>
+<p>Already have the app and use the “Alum” persona? Tap on the person icon in the upper right corner of the app, then tap on “My Role” to switch to the Reunion persona for the weekend.</p>
+<h4>Alum ID Card</h4>
 <p>Ever visit campus and wish you had an ID card for access to the College’s library and fitness center?</p>
-<p>If you would like to get an Alum ID card during Reunion, please submit the <a href="https://offices.vassar.edu/card/alum-id-card-request/">Alum ID Card Request Form</a> by <strong>May 17, 2023</strong>. The Card Office will make sure everything is ready for you to get your Alum ID card at Reunion. Alum ID cards are only issued in person at Vassar’s Service Desk located in the College Center, North Atrium, as a photo must be taken for the card.  The Service Desk will be open during Reunion on Friday, June 2, from 8:30 a.m.–5 p.m. and Saturday, June 3, from 12 p.m.–5 p.m. For more information, contact the Card Office at <a href="tel:+18454513333">(845) 451-3333</a>.</p>
+<p>If you would like to get an Alum ID card during Reunion, please submit the <a href="https://offices.vassar.edu/card/alum-id-card-request/">Alum ID Card Request Form</a> by <strong>May 17, 2023</strong>. The Card Office will make sure everything is ready for you to get your Alum ID card at Reunion. Alum ID cards are only issued in person at Vassar’s Service Desk located in the College Center, North Atrium, as a photo must be taken for the card.  The Service Desk will be open during Reunion on Friday, June 2, from 8:30 a.m.–5&nbsp;p.m. and Saturday, June 3, from 12 p.m.–5 p.m. For more information, contact the Card Office at <a href="tel:+18454513333">(845) 451-3333</a>.</p>
 
 <?php echo end_item_iconItem(); ?>
+
+
+<?php echo item_iconItem('In Case of Emergency','triangle-exclamation',''); ?>
+
+<?php echo info_card(
+  '',
+  'mt-4 '); ?>
+
+  <p>In the event of a severe weather emergency or an active threat of violence on campus, the College could send out a Rave alert to notify the campus community of such a threat. To receive emergency Rave text alerts during Reunion weekend, text <strong>VCREUNION</strong> to <strong>226787</strong>.</p>
+
+<style>.alert-header { display: none; }</style>
+
+<?php echo end_info_card(); ?>
+
+<p><strong>The safety of our guests, faculty, students and staff is our highest priority. In the event of an emergency, please:</strong></p>
+<ul>
+    <li>remain calm,</li>
+    <li>listen for announcements,</li>
+    <li>evacuate to a safe location, if necessary.</li>
+</ul>
+
+<p><strong>Emergency numbers:</strong></p>
+<ul>
+    <li>For non-medical emergencies, call Vassar Security: <a href="tel:+18454377333">(845) 437-7333</a></li>
+    <li>Medical emergencies/fire/police: <a href="tel:1-911">911</a></li>
+    <li>Police: <a href="tel:+18454853666">(845) 485-3666</a></li>
+    <li>Sheriff: <a href="tel:+18454863800">(845) 486-3800</a></li>
+    <li>State Police: <a href="tel:+18456777300">(845) 677-7300</a></li>
+</ul>
+<p><strong>Poughkeepsie Hospitals:</strong></p>
+<ul>
+     <li><a href="https://www.nuvancehealth.org/locations/vassar-brothers-medical-center">Vassar Brothers Medical Center</a></li>
+     <li><a href="https://www.midhudsonregional.org/">MidHudson Regional Hospital</a></li>
+</ul>
+<p><strong>Weather-related emergencies:</strong></p>
+<ul>
+    <li>In the event of lightning or tornado watches/warnings, outdoor events will be moved indoors. Follow the instructions of event staff.</li>
+    <li>If you are outdoors, move indoors. Do not seek shelter under a tent or tree in the event of lightning or tornado watches/warnings.</li>
+</ul>
+<p><a href="https://offices.vassar.edu/campus-safety/procedures/">Read Vassar’s complete emergency procedures</a>.</p>
+<?php echo end_item_iconItem(); ?>
+
 
 <?php echo item_iconItem('Housing','house-chimney',''); ?>
 <p>We are excited to welcome alums back to Vassar for in-person reunions and want to ensure that everyone makes informed decisions about where to stay.</p>
@@ -223,7 +273,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_item_iconItem(); ?>
 
 
-<?php echo item_iconItem('Important to Know','circle-exclamation',''); ?>
+<?php echo item_iconItem('Important to Know','circle-info',''); ?>
 <ul>
     <li><a href="https://www.vassar.edu/smokefree/">Vassar is a smoke-free campus</a>.</li>
     <li>All bathrooms are gender-neutral, unless otherwise noted.</li>
@@ -239,14 +289,6 @@ $page_info = json_decode($page_info, true);
     <li>My guests and I understand that COVID-19 is an extremely contagious virus and spreads easily through person-to-person contact and we know we are taking risks by attending in-person events.</li>
     <li>My guests and I acknowledge that it is safer to wear a mask around others in close proximity. If my guests or I become symptomatic or test positive at any time during the event, we agree that we will leave campus and follow up with our primary health care providers or seek treatment at a medical facility in the local community.</li>
     <li>My guests and I will not attend if we are not feeling well.</li>
-</ul>
-<?php echo end_item_iconItem(); ?>
-
-<?php echo item_iconItem('In Case of Emergency','kit-medical',''); ?>
-<ul>
-    <li>For non-medical emergencies, call Vassar Security: <a href="tel:+18454377333">(845) 437-7333</a>.</li>
-    <li>Medical emergencies, dial 911.</li>
-    <li>Poughkeepsie Hospitals: <a href="https://www.nuvancehealth.org/locations/vassar-brothers-medical-center">Vassar Brothers Medical Center</a> and <a href="https://www.midhudsonregional.org/">MidHudson Regional Hospital</a>.</li>
 </ul>
 <?php echo end_item_iconItem(); ?>
 

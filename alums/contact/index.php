@@ -689,17 +689,6 @@ echo contact_card(
 echo end_contact_card();
 
 echo contact_card(
-    'Rori-An Chuck ’19',
-    'Assistant Director of Annual Giving, Student Education & Young Alumnae/i Philanthropy',
-    [
-      'phone' => '845-437-7890',
-      'email' => 'rochuck@vassar.edu',
-    ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
     'Joe Vayas',
     'Assistant Director of Annual Giving, Volunteer &amp; Reunion',
     [
@@ -708,6 +697,17 @@ echo contact_card(
     ]
 );
 echo end_contact_card();
+
+echo contact_card(
+    'TBD',
+    'Assistant Director of Annual Giving, Student Education & Young Alumnae/i Philanthropy',
+    [
+      'phone' => '',
+      'email' => '',
+    ]
+);
+echo end_contact_card();
+
 
 echo contact_card(
     'TBD',
@@ -1043,16 +1043,6 @@ echo end_contact_card();
     echo end_contact_card();
 
 
-    echo contact_card(
-        'Allyce Braddy',
-        'Office Specialist',
-        [
-          'phone' => '',
-          'email' => 'albraddy@vassar.edu',
-        ]
-    );
-    echo end_contact_card();
-
 echo contact_card(
     'Lilly Scrimmager',
     'Office Specialist',
@@ -1062,6 +1052,17 @@ echo contact_card(
     ]
 );
 echo end_contact_card();
+
+    echo contact_card(
+        'TBD',
+        'Office Specialist',
+        [
+          'phone' => '',
+          'email' => '',
+        ]
+    );
+    echo end_contact_card();
+
 ?>
 
 </div>
