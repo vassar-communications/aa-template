@@ -140,10 +140,12 @@ $page_info = json_decode($page_info, true);
 <?php echo item_iconItem('In Case of Emergency','triangle-exclamation',''); ?>
 
 <?php echo info_card(
-  null,
-  'mt-4'); ?>
+  '',
+  'mt-4 '); ?>
 
   <p>In the event of a severe weather emergency or an active threat of violence on campus, the College could send out a Rave alert to notify the campus community of such a threat. To receive emergency Rave text alerts during Reunion weekend, text <strong>VCREUNION</strong> to <strong>226787</strong>.</p>
+
+<style>.alert-header { display: none; }</style>
 
 <?php echo end_info_card(); ?>
 
@@ -271,7 +273,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_item_iconItem(); ?>
 
 
-<?php echo item_iconItem('Important to Know','circle-exclamation',''); ?>
+<?php echo item_iconItem('Important to Know','circle-info',''); ?>
 <ul>
     <li><a href="https://www.vassar.edu/smokefree/">Vassar is a smoke-free campus</a>.</li>
     <li>All bathrooms are gender-neutral, unless otherwise noted.</li>
