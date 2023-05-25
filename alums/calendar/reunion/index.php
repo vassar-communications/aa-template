@@ -137,12 +137,11 @@ $page_info = json_decode($page_info, true);
 <?php echo end_item_iconItem(); ?>
 
 
-<?php echo item_iconItem('In Case of Emergency','kit-medical',''); ?>
+<?php echo item_iconItem('In Case of Emergency','triangle-exclamation',''); ?>
 
 <?php echo info_card(
   null,
-  'mt-4',
-  'alert'); ?>
+  'mt-4'); ?>
 
   <p>In the event of a severe weather emergency or an active threat of violence on campus, the College could send out a Rave alert to notify the campus community of such a threat. To receive emergency Rave text alerts during Reunion weekend, text <strong>VCREUNION</strong> to <strong>226787</strong>.</p>
 
