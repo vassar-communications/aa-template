@@ -265,7 +265,7 @@ $page_info = json_decode($page_info, true);
     'Celebrate Vassar',
     'Noyes Circle Tent'
   ); ?>
-  <p>Alums from the 5th to the 75th reunion classes, guests, and children gather together to celebrate extraordinary volunteers, gifts, and our shared Vassar legacy. Remarks by Monica Vachher ’77, AAVC President, and Kat Mills Polys ’93, Vassar Fund Committee Chair.</p>
+  <p>Alums from the 5th to the 70th reunion classes, guests, and children gather together to celebrate extraordinary volunteers, gifts, and our shared Vassar legacy. Remarks by James Estrada ’13, AAVC Board Member, President Bradley, Monica Vachher ’77, AAVC President, and Kat Mills Polys ’93, Vassar Fund Committee Chair.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
