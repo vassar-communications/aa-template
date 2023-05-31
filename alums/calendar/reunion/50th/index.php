@@ -75,14 +75,6 @@ campus.',
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
-    '6:30 p.m.',
-    'President Bradley arrives to welcome the 50th Reunion class',
-    null,
-    null,
-    ['noContent' => true]
-  ); ?>
-
-  <?php echo schedule_item_dropdown(
     '7 p.m.',
     'Buffet dinner',
     'Alumnae House Dining and Living Room',
@@ -114,6 +106,13 @@ campus.',
     'Davison Tent',
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '9 a.m.–10 p.m.',
+    'Reunion Information Center is open',
+    'Main Building Lobby'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     '9 a.m.',
@@ -320,7 +319,7 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
     'Celebrate Vassar',
     'Noyes Circle Tent'
   ); ?>
-  <p>Alums from the 5th to the 75th reunion classes, guests, and children gather together to celebrate extraordinary volunteers, gifts, and our shared Vassar legacy. Remarks by Monica Vachher ’77, AAVC President, and Kat Mills Polys ’93, Vassar Fund Committee Chair.</p>
+  <p>Alums from the 5th to the 70th reunion classes, guests, and children gather together to celebrate extraordinary volunteers, gifts, and our shared Vassar legacy. Remarks by James Estrada ’13, AAVC Board Member, President Bradley, Monica Vachher ’77, AAVC President, and Kat Mills Polys ’93, Vassar Fund Committee Chair.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -332,6 +331,14 @@ followed by a tour of the CIA and then a stop at the Walkway over the Hudson bef
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
 
+
+  <?php echo schedule_item_dropdown(
+    '12:45 p.m.',
+    'President Bradley arrives to congratulate the 50th Reunion Class on their milestone reunion',
+    null,
+    null,
+    ['noContent' => true]
+  ); ?>
 
   <?php echo schedule_item_dropdown(
     '1:15 p.m.',
