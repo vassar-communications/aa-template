@@ -57,7 +57,7 @@ $page_info = json_decode($page_info, true);
 
     <p><strong>Onsite Reunion Information Center</strong><br>Need a parking pass or campus map? Have a question about the schedule? Lost or found something? Stop by the Reunion Information Center for all your Reunion questions. Or call: <a href="tel:+18454377601">(845) 437-7601</a>.<br>
     <em>Located in the lobby of Main Building.</em><br>
-    <strong>Open:</strong> Friday 9 a.m.–10 p.m., Saturday 9 a.m.–10 p.m., and Sunday 8 a.m.–1 p.m.</p>
+    <strong>Open:</strong> Friday 9 a.m.–10 p.m., Saturday 9 a.m.–10 p.m., and Sunday 8 a.m.–1&nbsp;p.m.</p>
     <p><a href="#campus-facilities">See also Campus Facilities Hours and Services</a>.</p>
 
   <h3>Future Reunion Dates</h3>
