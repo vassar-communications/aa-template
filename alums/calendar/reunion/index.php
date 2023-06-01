@@ -41,7 +41,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'two people walking and smiling in a large group of people']
 ); ?>
 
-  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 3s and 8s on campus for Reunion, <strong>June 2–4, 2023</strong> (the 50th Reunion class arrives on June 1). Registration is now closed as we prepare campus for everyone's arrival.   See you all soon!</p>
+  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 3s and 8s on campus for Reunion this weekend, <strong>June 2–4, 2023</strong> (the 50th Reunion class arrived on June 1).</p>
   <p>Share your Reunion joy on your favorite social media platform: <strong>#VCReunion23</strong></p>
 <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who’s Coming to Reunion</a>
 
@@ -53,7 +53,12 @@ $page_info = json_decode($page_info, true);
   ''
 ); ?>
 
-    <p>Schedules and additional information for the weekend can be found below. This site continues to be updated periodically. Be sure to check back! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
+    <p>Schedules and additional information for the weekend can be found below. If you have any questions <strong>before you arrive</strong>, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
+
+    <p><strong>Onsite Reunion Information Center</strong><br>Need a parking pass or campus map? Have a question about the schedule? Lost or found something? Stop by the Reunion Information Center for all your Reunion questions. Or call: <a href="tel:+18454377601">(845) 437-7601</a>.<br>
+    <em>Located in the lobby of Main Building.</em><br>
+    <strong>Open:</strong> Friday 9 a.m.–10 p.m., Saturday 9 a.m.–10 p.m., and Sunday 8 a.m.–1&nbsp;p.m.</p>
+    <p><a href="#campus-facilities">See also Campus Facilities Hours and Services</a>.</p>
 
   <h3>Future Reunion Dates</h3>
 
