@@ -67,7 +67,7 @@ ul.inline-list-links li a {
     ''
 ); ?>
 <a id="board-slate"></a>
-<p>The Nominating and Governance Committee is pleased to present the slate of nominees for open board positions for 2023–2027:</p>
+<p>The 2023 slate of nominees for the AAVC Board was ratified at the Annual Meeting of the AAVC at Reunion on June 3, 2023:</p>
 
 <ul class="linked-list mb-5">
     <li><a href="#delia-cheung-hom">Delia Cheung Hom ’00</a></li>
