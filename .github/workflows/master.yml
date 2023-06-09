@@ -17,3 +17,4 @@ jobs:
         server: ftp.aa-staging.vassarspaces.net
         username: ${{ secrets.staging_username }}
         password: ${{ secrets.staging_ftp_password }}
+        protocol: ftps

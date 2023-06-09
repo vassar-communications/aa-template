@@ -14,23 +14,106 @@
 ?>
 
 
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-04-27/spotlight/0002-23-03-kr-granoff-jonathan-vassar-0090-hp-slide.jpg',
-  'is-link',
-  'Three people stand in a room, smiling and looking at the camera. One person has mid-length gray hair and glasses; one person has a shaved head, short gray beard, and no glasses; and one person has long brown hair and a dark jacket.'
-); ?>
-  <h3 class="h3">Peace and Anti-Nuclear Activist Jonathan Granoff ’70 Receives AAVC Distinguished Achievement Award</h3>
-  <p>Granoff (center) accepted the award from Amy Pullman ’71 (left), Chair of the AAVC Alumnae/i Recognition Committee, and AAVC President Monica Vachher ’77 (right).</p>
 
-  <p><em>Photo: Karl Rabe</em></p>
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2023-06-09/spotlight/0037-23-05-kma-trustee-dinner-vassar-0859.jpg',
+  'is-link',
+  'Four people, formally dressed, stand in a room smiling at the camera.'
+); ?>
+  <h3 class="h3">Vassar Says Thank You and Farewell to Three Retiring Trustees</h3>
+  <p>Three Vassar College trustees who are retiring from the board this year were lauded for their service at a dinner May 19 at the Culinary Institute of America in Hyde Park, NY.</p>
+  <p><em>Photo: Kelly Marsh</em></p>
 
   <?php echo cta_link(
-    'https://www.vassar.edu/news/peace-and-anti-nuclear-activist-jonathan-granoff-70-receives-aavc-distinguished-achievement',
+    'https://www.vassar.edu/news/vassar-says-thank-you-and-farewell-3-retiring-trustees',
     'Read more',
     'stretched-link'
   ); ?>
 
 <?php echo end_carousel_item(); ?>
+
+
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2023-06-09/spotlight/hamburg-vassar_commencement_20230521_initial_selects_kr_036-lightened.jpg',
+  'is-link',
+  'Two people in formal academic garb—robes and hats—smile at the camera. The person on the left has long brown hair, glasses, and a black robe; the person on the right has long gray hair and a blue robe.'
+); ?>
+  <h3 class="h3">Despite Pandemic-Imposed Interruptions, the Class of 2023 Persisted</h3>
+  <p>More than 620 proud members of the class graduated on May 21.</p>
+
+  <p><em>Photo: Karl Rabe</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/despite-pandemic-imposed-interruptions-class-2023-persisted',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2023-06-09/spotlight/00014-23-04-apu-velour-sasha-vassar-5.jpg',
+  'is-link',
+  'A person wearing a costume that looks like a blue armchair. Their face is at the center of the armchair back.'
+); ?>
+  <h3 class="h3">Drag Artist Sasha Velour ’09 Offers a Breathtaking Performance—and Slice of Personal History</h3>
+  <p>The winner of <em>RuPaul’s Drag Race</em>, Season 9, thrilled a packed audience with a performance during a tour to promote her new memoir.</p>
+
+  <p><em>Photo: Allyse Pulliam</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/drag-artist-sasha-velour-09-offers-breathtaking-performance-and-slice-personal-history',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2023-06-09/spotlight/diane-robinson-film-screening-2304-gaw-005.jpg',
+  'is-link',
+  'A formally dressed person in a flowered dress stands in front of a wooden podium, speaking to a room. The audiences is unseen.'
+); ?>
+  <h3 class="h3"><em>The Young Vote</em>, a Documentary by Diane Robinson ’91, Examines Barriers to Civic Engagement</h3>
+  <p>In 2016—a pivotal election year that saw Donald Trump ascend to the presidency—only 39 percent of eligible voters between the ages of 18 and 21 voted in the presidential election.</p>
+
+  <p><em>Photo: Grace Adams Ward ’24</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/young-vote-documentary-diane-robinson-91-examines-barriers-civic-engagement',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2023-06-09/spotlight/vassar-serves_uk-23-2-cropped.jpg',
+  'is-link',
+  'A group of people standing together on a gravel road in a wooded area holding a Vassar banner'
+); ?>
+  <h3 class="h3">Alums Aid Local Conservation Efforts for “Vassar Serves” Week</h3>
+  <p>When Vassar alums are called upon to find ways to make the world a better place, they always respond.</p>
+
+  <p><em>Photo: Vassar Clubs</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/alums-aid-local-conservation-efforts-vassar-serves-week',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
 
 
 <?php echo carousel_item(
@@ -73,67 +156,6 @@
 <?php echo end_carousel_item(); ?>
 
 
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-03-02/spotlight/mug_2023_kr_047-compressed.jpg',
-  'is-link',
-  'A large group of students stands in a big room, watching a performance happening off-camera.'
-); ?>
-  <h3 class="h3">Mug Denizens of the ’80s Fund Major Renovation</h3>
-  <p>Vassar’s beloved campus hangout, The Mug, has been part of the College’s culture since it opened in 1975. Last year, two alums who frequented the place when it was an often raucous bar provided the funding for a long overdue renovation.</p>
-
-  <p><em>Photo: Karl Rabe</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/mug-denizens-80s-fund-major-renovation-beloved-hangout',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
-
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-01-27/spotlight/Kenauk-Institute_08.jpg',
-  'is-link',
-  'A person with long, curly, crimson hair stands in a wood-paneled room, holding a microphone and smiling at the camera.'
-); ?>
-  <h3 class="h3">Trustee and Spouse Fund New Environmental Fellowship</h3>
-  <p>A gift from Patrick and Tamar Smith Pichette ’86 will support a two-year conservation fellowship for an alum who will work at a Canadian wilderness preserve and then at the Preserve at Vassar.</p>
-
-  <p><em>Photo: Courtesy of the Kenauk Institute</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/trustee-and-spouse-fund-new-environmental-fellowship',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
-
-
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-01-09/spotlight/Marcy-Dowd-1x1.jpg',
-  'is-link',
-  'A person with long brown hair and a sports visor hits a tennis ball'
-); ?>
-  <h3 class="h3">Innovative Tennis Complex Will Transform the Student-Athlete Experience</h3>
-  <p>Vassar College will build a $2.5 million tennis center on a site known as Ballintine Field, President Elizabeth Bradley announced.</p>
-
-  <p><em>Photo: Stockton Photo, Inc</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/innovative-tennis-complex-will-transform-student-athlete-experience',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
 
 
 
