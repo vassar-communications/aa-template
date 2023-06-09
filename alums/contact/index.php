@@ -631,7 +631,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Kristen Andersen',
-    'Senior Development Officer for Principal and Leadership Gifts',
+    'Senior Associate Director of Principal Gifts',
     [
       'phone' => '845-437-5597',
       'email' => 'kandersen@vassar.edu',
@@ -719,17 +719,17 @@ echo contact_card(
 );
 echo end_contact_card();
 
-/*
+
 echo contact_card(
-    'TBD',
+    'Chase Engel ’23',
     'Administrative Fellow',
     [
       'phone' => '',
-      'email' => '',
+      'email' => 'cengel@vassar.edu',
     ]
 );
 echo end_contact_card();
-*/
+
 
 echo contact_card(
     'Tammy Carney',

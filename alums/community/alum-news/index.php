@@ -60,37 +60,37 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
+        'AC Dumlao ’13',
+        'https://www.nycpride.org/news-press-media/grand-marshals-announced-for-2023-nyc-pride-march',
+        ['url' => $logos_path.'NYC-Pride-logo.png', 'alt' => 'New York City Pride logo' ],
+        'related-topics card--withParagraph card-has-cta-icon card-is-link'
+    ); ?>
+      <p>NYC Pride announced that <strong>AC Dumlao&nbsp;’13</strong> will serve as a Grand Marshal for the 2023 New York City Pride March.</p>
+
+    <?php echo end_item_cardWithText(); ?>
+  <?php echo end_item_col(); ?>
+
+
+  <?php echo item_col(); ?>
+    <?php echo item_cardWithText(
         'Daphne Kalotay ’92',
-        'https://www.nytimes.com/2023/04/16/opinion/second-and-third-generation-storytellers-are-telling-the-story-of-the-holocaust-now.html',
+        'https://www.nytimes.com/2023/04/28/books/review/the-last-catastrophe-allegra-hyde-the-archivists-daphne-kalotay-the-house-of-love-and-prayer-tova-reich.html',
         ['url' => $logos_path.'newyorktimes.gif', 'alt' => 'New York Times logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p><strong>Daphne Kalotay ’92</strong> wrote a <em>New York Times</em> guest essay, “What Holocaust Storytellers Like Me Know About ‘Secondhand Smoke.’”</p>
 
-    <?php echo end_item_cardWithText(); ?>
-  <?php echo end_item_col(); ?>
-
-
-  <?php echo item_col(); ?>
-    <?php echo item_cardWithText(
-        'Amina Luqman-Dawson&nbsp;’97',
-        'https://abcnews.go.com/Entertainment/wireStory/amina-luqman-dawsons-freewater-wins-john-newbery-medal-96765422',
-        ['url' => $logos_path.'abc_news_logo.jpg', 'alt' => 'ABC News logo' ],
-        'related-topics card--withParagraph card-has-cta-icon card-is-link'
-    ); ?>
-
-        <p><em>Freewater</em>, a middle-grade novel about a secret community of formerly enslaved people authored by <strong>Amina Luqman-Dawson ’97</strong>, has won the John Newbery Medal for best children’s book of the year, as noted by ABC News.</p>
+        <p><em>The Archivists</em>, a collection of stories by <strong>Daphne Kalotay ’92</strong>, was included in the <em>New York Times’s</em> The Shortlist.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Vera Rubin ’48',
-        'https://www.scientificamerican.com/video/vera-rubin-lives-on-in-lives-of-the-women-she-helped-in-astronomy/',
-        ['url' => $logos_path.'Scientific_American_logo.jpg', 'alt' => 'Scientific American logo' ],
+        'Elisa Strauss ’98',
+        'https://variety.com/2023/tv/news/gordon-ramsays-food-stars-contestants-fox-1235575554/',
+        ['url' => $logos_path.'Variety-logo.png', 'alt' => 'Variety logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p>Renowned astronomer and dark matter pioneer <strong>Vera Rubin ’48</strong> was the subject of a <em>Scientific American</em> story.</p>
+        <p>Confetti Cakes owner and cake designer <strong>Elisa Strauss ’98</strong> will be featured on the premiere season of <em>Gordon Ramsay’s Food Stars</em>, as noted by <em>Variety</em>.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -107,44 +107,51 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://www.yahoo.com/lifestyle/inner-circle-acknowledges-simon-rabinowitz-182600237.html"><strong>Dr. Simon S. Rabinowitz ’75</strong> was named a Most Trusted Professional in the Medical Field for his contributions as a pediatric gastroenterologist, educator, and scientist by The Inner Circle, as noted in a Yahoo! Life article</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://www.msn.com/en-us/news/crime/building-prison-cells-over-homes-in-central-appalachia/ar-AA1aM9lJ"><strong>Judah Schept ’01</strong>, author and professor in the School of Justice Studies at Eastern Kentucky University, was a guest on the Everywhere Radio podcast in an episode titled, “‘Building Prison Cells Over Homes’ in Central Appalachia,”</a> as noted by the <em>Daily Yonder</em>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://thegoaspotlight.com/films-by-jonas-cuaron-the-director-of-chupa/">The work of director and screenwriter <strong>Jonás Cuarón ’05</strong> was the subject of a Goa Spotlight story</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><a href="https://www.whitehouse.gov/briefing-room/statements-releases/2023/05/12/president-biden-announces-nominees-to-the-federal-reserve-board-of-governors/"><strong>Philip Jefferson ’83</strong>,  a member of the Federal Reserve Board of Governors, was nominated Vice Chair of the board, as noted by the White House</a> and numerous media outlets.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="28" data-line-end="29"><a href="https://talkingbiznews.com/media-news/bloomberg-hires-reinicke-to-cover-markets/"><strong>Carmen Reinicke ’14</strong> joined Bloomberg News as a reporter on the equities team, as noted by TalkingBizNews.com</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://news.mit.edu/2023/five-mit-elected-national-academy-sciences-2023-0511"><strong>Catherine Drennan ’85</strong>, Professor of Biology and Chemistry at MIT, was elected to the National Academy of Sciences, as noted by MIT News</a>.</p></div>
+
+
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9">Filmmaker and producer <a href="https://news.olemiss.edu/cannon-hersey-to-deliver-journalism-school-commencement-address/"><strong>Cannon Hersey ’99</strong> gave the Commencement address for the University of Mississippi School of Journalism and New Media, as noted by Ole Miss</a>.</p></div>
+
+  
+    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11">Award-winning author <a href="https://www.saturdayeveningpost.com/2023/04/the-culling/"><strong>Dawn Hathaway ’91</strong> wrote a <em>Saturday Evening Post</em> contemporary fiction story, <em>The Culling</em></a>.</p></div>
+
+
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><a href="http://www.nasonline.org/programs/awards/2023-awards/Monje.html"><strong>Michelle Monje ’98</strong>, a physician and research scientist at Stanford University School of Medicine, received the 2023 Richard Lounsbery Award, as noted by the National Academy of Sciences</a>.</p></div>
+
+  
+    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.thebody.com/article/eviction-act-violence-interview-leah-goodridge"><strong>Leah Goodridge ’04</strong>, Managing Attorney for Housing Policy at Mobilization for Justice, discussed the affordable housing crisis and evictions in an interview with <em>The Body</em></a>.</p></div>
+
 
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7">Attorney and author <a href="https://www.wusa9.com/video/news/local/brain-cancer-survivor-shares-story-of-hope-belief/65-e21312e3-39aa-4860-93cb-a1c845d7278e"><strong>Karen Roberts Turner ’86</strong> shared her story about surviving brain cancer on WUSA9</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><a href="https://www.fingerlakesdailynews.com/local/cayuga/auburn-entrepreneur-named-woman-of-distinction"><strong>Melody Smith Johnson ’85, P’14</strong>, an entrepreneur and founder of the Beverly L. Smith Empowerment Initiative, was the recipient of a New York State Senate’s annual Women of Distinction Award, as noted by FingerLakesDailyNews.com</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27"><a href="https://finance.yahoo.com/news/lincoln-financial-group-names-heather-170000046.html"><strong>Heather Deichler ’02</strong> was named Senior Vice President of Group Benefit Product and Underwriting at Lincoln Financial Group, as noted by Yahoo! Finance</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><a href="https://www.ornl.gov/news/cooper-appointed-does-basic-energy-sciences-advisory-committee"><strong>Dr. Valentino “Tino” Cooper ’00</strong>, a scientist at the Department of Energy’s Oak Ridge National Laboratory, was appointed to the DOE’s Basic Energy Science Advisory Committee, as announced by the laboratory</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="30" data-line-end="31"><a href="https://www.noozhawk.com/tessa-kaganoff-elected-to-scholarship-foundation-board/"><strong>Tessa Kaganoff ’88</strong> joined the Board of Directors for the Scholarship Foundation of Santa Barbara, as noted by <em>Noozhawk</em></a>.</p></div>
-
-<!--
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="32" data-line-end="33"><a href="https://jadedibispress.com/product/11808/">A novel by author <strong>Natasha Gordon-Chipembere ’92</strong>, <em>Finding La Negrita</em>, was praised by several authors and professors</a>, as noted by Jaded Ibis Press.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21"><a href="https://finance.yahoo.com/news/tessera-therapeutics-names-cynthia-m-120000695.html"><strong>Cynthia Patton ’83</strong> was named General Counsel and Secretary of Tessera Therapeutics, a biotechnology company, as noted by Yahoo! Finance</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="34" data-line-end="35">A discussion on the inner workings of the brain by Cornell University Dean of Faculty and Human Ecology Professor <a href="https://www.royalgazette.com/health/news/article/20230130/bermudian-scientist-to-give-talk-on-workings-of-the-brain/"><strong>Eve De Rosa ’91</strong> was the subject of a <em>Royal Gazette</em> story</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><a href="https://www.actionnewsnow.com/news/pvs-eugene-lee-ready-to-ace-competition-at-vassar-college/article_ae5b235c-f514-11ed-afd6-1b7bb368b3f3.html"><strong>Eugene Lee ’27</strong>,  a high school champion tennis player who committed to Vassar, was the subject of an Action News Now story</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="36" data-line-end="37"><a href="https://www.silive.com/entertainment/2023/01/jcc-association-of-north-america-recognizes-jcc-of-staten-islands-chief-of-communications-inside-out.html"><strong>Allison Cohen ’11</strong>, Chief of Communications and External Affairs at the Joan and Alan Bernikow Jewish Community Center, received the Martin Pear Israel Fellowship</a> by the JCC Association of North America, as noted in a <a href="http://SILive.com">SILive.com</a> story.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="24" data-line-end="25">Lawyer <a href="https://governor.maryland.gov/press/pages/Governor_Moore_Appoints_Montgomery_County_Leaders_Who_Will_Recommend_Judicial_Appointments.aspx"><strong>Carolyn Demougeot ’11</strong> was named to Maryland Governor Wes Moore’s Montgomery County Trial Courts Judicial Nominating Commission, as noted by the Maryland state government</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="38" data-line-end="39"><a href="https://www.aaas.org/news/four-chemists-receive-2023-marion-milligan-mason-award"><strong>Marion Milligan Tuttle Mason</strong>, class of 1949, was mentioned in an article about the recent recipients of the Mason Award for women in chemical sciences</a>, which Mason created with a gift to the American Association for the Advance of Science.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27">South Carolina <a href="https://www.heraldonline.com/latest-news/article275477881.html">Judge <strong>Alison Lee ’79</strong> announced her retirement from the bench, as noted by <em>The Herald</em></a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="40" data-line-end="41"><a href="https://www.uvm.edu/news/extension/dr-ike-leslie-joins-uvm-extension"><strong>Isaac “Ike” Leslie ’10</strong> joined the University of Vermont as a Community Development Specialist</a>, as noted by UVM.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="28" data-line-end="29"><a href="https://www.chipchick.com/2023/05/she-was-one-of-the-very-first-female-chemists-in-america-and-she-was-also-the-very-first-woman-to-be-accepted-into-mit.html">Engineer and chemist <strong> Ellen Swallow Richards, class of 1870</strong>, the first woman admitted into the Massachusetts Institute of Technology, was the subject of a Chip Chick story</a>.</p></div>
 
-
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="42" data-line-end="43"><a href="https://nuggetnews.com/Content/Health/HEALTH/Article/Build-a-memory-palace-with-a-healthy-brain/117/221/32940"><strong>Scott Crabtree ’88</strong> discussed memory at his most recent Science of Happiness workshop</a>, as noted by the <em>Nugget Newspaper</em>.</p></div>
--->
 
   <?php echo end_item_col(); ?>
 
