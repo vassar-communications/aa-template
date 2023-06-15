@@ -42,7 +42,11 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) were thrilled to welcome you and your classmates back to campus. We enjoyed seeing alums from the classes ending in 3s and 8s on campus for Reunion.</p>
-  <p>Stay tuned for photos from Reunion, coming soon. You can still share your Reunion joy on your favorite social media platform: <strong>#VCReunion23</strong></p>
+  
+    <ul class="linked-list mt-4">
+        <li><a href="https://www.flickr.com/photos/vassarcollegemedia/sets/72177720308893162/">View photos from Reunion 2023</a></li>
+        <li><a href="https://www.flickr.com/photos/vassarcollegemedia/collections/72157683898719825/">View photos from in-person Reunions held since 2012</a></li>
+    </ul>  
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -65,7 +69,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_regularContent(); ?>
 
-<!--hiding content until needed for 2024
+<?php /* --hiding content until needed for 2024--
 
 <?php echo sec_fullBleedImageColumn(
     'General Reunion<br> Class Schedule',
@@ -376,7 +380,7 @@ $page_info = json_decode($page_info, true);
   <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
--->
+*/ ?>
 
 
 <?php echo relatedTopics(); ?>
