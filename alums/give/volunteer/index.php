@@ -126,14 +126,14 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <?php echo item_iconItem(
-    'Affinity Groups',
+    'Multicultural and Affinity Groups',
     'users',
     'icon-on-left theme-white-border'
 ); ?>
 <p>Strengthen alum communities that center shared experiences, activities, and identities, such as athletic teams, singing groups, LGBTQ+, ALANA organizations, veterans, and First Gen alums (among others).</p>
 <ul class="linked-list">
-    <li><a href="/alums/community/alum-groups/">Learn more about Affinity Groups</a></li>
-   <!-- cyreview <li><a href="#">Become an Affinity Group Volunteer</a></li> -->
+    <li><a href="/alums/community/alum-groups/">Learn more about Multicultural and Affinity Groups</a></li>
+    <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Multicultural and Affinity Group Volunteer</a></li>
 </ul>
 
 
