@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Reunion",
   "page_classes":"",
-  "feature_image":"/alums/assets/img/alums-calendar/reunion/Vassar_Reunion_4706.jpg"
+  "feature_image":"/alums/assets/img/alums-calendar/reunion/Reunion-52958347891_0100510494_k.jpg"
 }';
 
 /* === */
@@ -35,10 +35,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Thank You!',
-    $alums_img_path.'alums-calendar/reunion/Reunion_Saturday_190608_CS-V815-310.jpg',
+    $alums_img_path.'alums-calendar/reunion/Reunion-52960367243_97df9164f3_k.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'two people walking and smiling in a large group of people']
+    ['img_alt_text' => 'a large group of people walking along a campus road, with some banners displaying class years']
 ); ?>
 
   <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) were thrilled to welcome you and your classmates back to campus. We enjoyed seeing alums from the classes ending in 3s and 8s on campus for Reunion.</p>
