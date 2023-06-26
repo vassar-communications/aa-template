@@ -15,18 +15,54 @@
 
 
 
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2023-06-26/spotlight/1973-Reunion-Celebrate-230603-KR-0013.jpg',
+  'is-link',
+  'A crowd of people on a green field. Some people stand and clap on the stage. Next to the stage, three people hold a cloth banner that says "Vassar, 1973" in crimson lettering.'
+); ?>
+  <h3 class="h3">Reunion 2023—Full of Joy and Laughter</h3>
+  <p>The first weekend of June was a particularly joyous one for Vassar as the College welcomed back more than 1,200 alums from near and far for Reunion. While always a blast, this year’s festivities seemed extra jubilant as classmates rushed in for the tight hugs long denied during earlier pandemic years.</p>
+  <p><em>Photo: Karl Rabe</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/reunion-2023-full-joy-and-laughter',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
 
 <?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-06-09/spotlight/0037-23-05-kma-trustee-dinner-vassar-0859.jpg',
+  $alums_spotlight_itm_path.'/2023-06-26/spotlight/baird-0045-23-06-kr-reunion-aavc-vassar-0061-compressed.jpg',
   'is-link',
-  'Four people, formally dressed, stand in a room smiling at the camera.'
+  'A grid: two rows of three squares each. Most squares are a close-up photographic portrait of a person. First row, left to right: a person with short gray hair, a dark blue suit coat, and a prominent dotted bowtie; a person with mid-length gray hair and a green shirt; and a person with short, dark hair, a dark gray suit coat, and a maroon tie. Second row: a person with long, black hair, a pink shirt, and glasses; a box  that is not a portrait and contains the letters "AAVC" on a burgundy background; and a person with short curly dark hair and a blue gray scarf.'
 ); ?>
-  <h3 class="h3">Vassar Says Thank You and Farewell to Three Retiring Trustees</h3>
-  <p>Three Vassar College trustees who are retiring from the board this year were lauded for their service at a dinner May 19 at the Culinary Institute of America in Hyde Park, NY.</p>
+  <h3 class="h3">AAVC Announces 2023 Honorees</h3>
+  <p>The Alumnae/i Association of Vassar College (AAVC) has selected five alums to honor for their impact on the College, their communities, and the larger world. Two of these awards were given at Reunion 2023 in early June. The other three will be presented in the coming academic year.</p>
+  <p><em>Photo: Tamar Thibodeau</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/aavc-announces-2023-honorees',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2023-06-26/spotlight/kma-bartlett-dede-vassar-0640.jpg',
+  'is-link',
+  'A person with long brown hair, a patterned dress, and large pearl necklace stands in a large, brightly lit room.'
+); ?>
+  <h3 class="h3">A Sustainable, Vibrant, and Collaborative Environment
+</h3>
+  <p>Vassar’s new Dede Thompson Bartlett Center for Admission and Career Education promises to be a space that supports students from their first days at the College through post-graduate success.</p>
   <p><em>Photo: Kelly Marsh</em></p>
 
   <?php echo cta_link(
-    'https://www.vassar.edu/news/vassar-says-thank-you-and-farewell-3-retiring-trustees',
+    'https://www.vassar.edu/news/sustainable-vibrant-and-collaborative-environment',
     'Read more',
     'stretched-link'
   ); ?>
@@ -108,47 +144,6 @@
 
   <?php echo cta_link(
     'https://www.vassar.edu/news/alums-aid-local-conservation-efforts-vassar-serves-week',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-04-27/spotlight/entrepreneurship-program-2304-gaw-005.jpg',
-  'is-link',
-  'Three people sit at a table, in front of a microphone. One person has a tan shirt, glasses, and long, dark, curly hair; one person has a white shirt and long straight hair; and one person has a blue shirt and long brown hair.'
-); ?>
-  <h3 class="h3">Vassar Innovation and Entrepreneurship Forum Offers Guidance to Budding Innovators</h3>
-  <p>Panelists included (left to right) Julian Aguilar ’23, Johnson Lin ’21, and Arielle Lapiano ’96.</p>
-
-  <p><em>Photo: Grace Adams Ward ’24</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/vassar-innovation-and-entrepreneurship-forum-offers-guidance-to-budding-innovators',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
-
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-04-27/spotlight/0006-23-04-gaw-humphrey-shay-vassar-005-16x9.jpg',
-  'is-link',
-  'A person with long auburn hair and glasses pushed up smiles at the camera in a natural setting.'
-); ?>
-  <h3 class="h3">Alum Becomes Vassar’s First General Counsel</h3>
-  <p>Shay Humphrey ’91 (pictured) assumed the post on April 3.</p>
-
-  <p><em>Photo: Grace Adams Ward ’24</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/alum-assumes-post-vassars-first-general-counsel',
     'Read more',
     'stretched-link'
   ); ?>
