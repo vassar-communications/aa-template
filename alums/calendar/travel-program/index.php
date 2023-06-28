@@ -48,9 +48,7 @@ $page_info = json_decode($page_info, true);
 
 
 
-<?php echo sec_regularContent('Upcoming Trip','','text-center');?>
-
-<p>There are two places currently available on this tour (shared hotel accommodation). For details please contact The Grand Tour at <?php echo phone_number('800-727-2995'); ?>.</p>
+<?php echo sec_regularContent('Recent Trip','','text-center');?>
 
 <p class="intro-text">Imperial Treasures:<br />Art and Music in Dresden and Prague</p>
 
@@ -71,9 +69,9 @@ T. Barton Thurber, The Anne Hendricks Bass Director of the Frances Lehman Loeb A
     ['img_alt_text' => 'Dresden in the evening along the water. Photo by Oliver Guhr.']
 ); ?>
 
-<p>This small tour, limited to 20 people, will study the art and music of two extraordinary European cities with two of Vassar’s finest scholars. Both Bart and Kathryn have studied and lived in Europe for many years and it is through their scholarship and expertise that we are able to offer this personal exploration of both cities.</p>
+<p>This small tour, limited to 20 people, studied the art and music of two extraordinary European cities with two of Vassar’s finest scholars. Both Bart and Kathryn have studied and lived in Europe for many years and it is through their scholarship and expertise that we were able to offer this personal exploration of both cities.</p>
 
-<!--
+ <?php /*
 <ul>
     <li>Uniquely created seven-night cruise itinerary</li>
     <li>Visit up to eight UNESCO World Heritage sites showcasing the culture and architecture of Ancient Greece.</li>
@@ -84,7 +82,7 @@ T. Barton Thurber, The Anne Hendricks Bass Director of the Frances Lehman Loeb A
     <li>Athens Pre-Program Option and Delphi and Thebes Post-Program Option.</li>
 </ul>
 <p>Your host, Barbara Olsen, is a Classics scholar. She specializes in Greek history and archaeology, especially in the study of women in the ancient world.</p>
--->
+ */ ?>
 
 
 <?php echo cta_link(
@@ -97,6 +95,7 @@ T. Barton Thurber, The Anne Hendricks Bass Director of the Frances Lehman Loeb A
     ]
 ); ?>
 
+ <?php /*
 <?php echo cta_link(
     'https://www.vassar.edu/sites/default/files/2023-03/VASSAR-Dresden-Registration-Form.pdf',
     'Download Registration Form',
@@ -106,6 +105,7 @@ T. Barton Thurber, The Anne Hendricks Bass Director of the Frances Lehman Loeb A
       'file_size' => '106 KB'
     ]
 ); ?>
+ */ ?>
 
 <p>&nbsp;</p>
 <p><em>Photo by Oliver Guhr</em></p>

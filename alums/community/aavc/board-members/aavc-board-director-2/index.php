@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"AAVC Board Director",
   "page_classes":"",
-  "feature_image":"/alums/assets/img/alums-community/aavc/board/tellez-carlos-hernandez-aavc-alum-001.jpg"
+  "feature_image":"/alums/assets/img/alums-community/aavc/board/alisa-swire.jpg"
 }';
 
 /* === */
@@ -31,17 +31,18 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'Carlos Hernandez Tellez ’14',
-    '/alums/assets/img/alums-community/aavc/board/tellez-carlos-hernandez-aavc-alum-001.jpg',
+    'Alisa Swire ’84',
+    '/alums/assets/img/alums-community/aavc/board/alisa-swire.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Carlos Hernandez Tellez ’14']
+    ['img_alt_text' => 'Alisa Swire ’84']
 ); ?>
 
   <ul class="clean-list-with-borders">
     <li>AAVC Board Director</li>
-    <li>Brazil</li>
-    <li>Term of Service: 2022–2026</li>
+    <li>(she/her/hers)</li>
+    <li>New York</li>
+    <li>Term of Service: 2023–2027</li>
   </ul>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -52,9 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Chair, Club Admission Committee, 2018–present; member, Club Admission Committee, 2017–2018.
-
-</p>
+<p>Vice-chair, Alumnae House Committee, 2022–present, and member, 2019–2022; Club Admission Committee chair, 2008–16, and member, 2006–present; program chair, Vassar Club of the Hudson Valley, 2022 and vice president, 2020–2022; member, Advisory Council for the Consortium on Forced Migration, Vassar College, 2018–2020; notewriter or phoner, Class of 1984, 1997–1998.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
@@ -63,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>UX Research Manager @ Growth, Nubank, March 2022–present; member, Anti-Racism, Diversity, Equity and Inclusion (ARDEI) Steering Group of the UWC International Board, 2021–present; Chair of the National Committee, UWC Brazil, 2020–present; Design Mentor, adplist.org, 2020–2021; São Paulo Community Garden, 2020; Field Researcher, Laboratorio de Educação, 2019; Senior Service Designer & Researcher, Fjord, Part of Accenture Interactive, 2017–2019; Project Associate, PLANE—SITE, 2016–2017; Design Research Fellow, Harvard University, 2015; board member, Poughkeepsie Farm Project, 2011–2014; Student Docent & Multimedia Assistant, Frances Lehman Loeb Art Center, 2011–2014; Latin American and Caribbean Laboratory Intern, Columbia University Graduate School of Architecture, Planning & Preservation, 2012; Development Intern, Urban Design Forum, 2012; Design Research Intern, Interboro Partners, 2013; Community Fellow, Poughkeepsie Farm Project, 2011; Diver and Underwater Photographer, LPCUWC Marine Research Unit, 2008–2010; Project Coordinator, Playground People, 2010.</p>
+<p>Board of Directors, Board Secretary and Chair of the Governance and Nominations Committee, Hudson Valley Credit Union, 2022–present;  Pro Bono Attorney, My Sister’s Place, 2022; Legal Advisor and Director, Conversations Unbound, 2017–2020; Director and Chair of the Finance Committee, Poughkeepsie Day School, 2019–20; Refugee Resettlement Coordinator, Greater Newburgh Interfaith Council, 2016–18; Vice President, General Counsel and Corporate Secretary, Johnson Outdoors Inc., 2001–2016; Director, Mergers & Acquisitions, Walmart International, Wal-Mart Stores Inc, 1999–2001; Director, Corporate Development, Case Corporation, 1996–1999; Senior Tax Counsel, Case Corporation, 1994–1996; lecturer, Golden Gate University, 1992–1994; associate, corporate tax, Shearman & Sterling LLP, 1988–1992.</p>
 <?php echo end_sec_regularContent(); ?>
 
 
