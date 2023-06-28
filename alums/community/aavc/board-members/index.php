@@ -31,6 +31,8 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 
+ <?php /*hiding slate and extra internal nav until 2024
+
 <style>
 
 @media screen and (min-width: 40em) {
@@ -107,12 +109,11 @@ ul.inline-list-links li a {
 
 </div>
 
-
-
-
+<div>
 
 <div id="alisa-swire" style="clear: both; padding-bottom: 2rem; overflow: hidden" class="mt-6">
-
+ 
+ 
   <h3 class="mb-4">AAVC Board Director</h3>
 
 
@@ -142,12 +143,10 @@ ul.inline-list-links li a {
 </div>
 
 
-
-
 <?php echo end_sec_regularContent(); ?>
 
 
-
+ end board slate hide*/ ?>
 
 <a id="board-of-directors"></a>
 <?php echo sec_regularContent(
@@ -259,21 +258,20 @@ ul.inline-list-links li a {
     null,
 ); ?>
 
+
 <?php echo item_cardWithText(
-    'Natalie Nixon ’91',
-    '/alums/community/aavc/board-members/aavc-career-networking-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/nixon-natalie-aavc-alum-001.jpg', 'alt' => 'Natalie Nixon' ],
+    'Delia Cheung Hom ’00',
+    '/alums/community/aavc/board-members/aavc-ad-hoc-diversity-equity-inclusion-committee-chair/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg', 'alt' => 'Delia Cheung Hom' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">AAVC Trustee and Career Networking Committee Chair</div>
-<div class="location">Pennsylvania</div>
-<div class="term">Term of Service: 2019–2023</div>
+<div class="position">AAVC Trustee, Ad Hoc Diversity, Equity and Inclusion Committee Chair and Nominating and Governance Member</div>
+<div class="location">Massachusetts</div>
+<div class="term">Term of Service: 2023–2027</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
-
-
 
 
 <?php echo item_cardWithText(
@@ -337,15 +335,14 @@ ul.inline-list-links li a {
 
 
 <?php echo item_cardWithText(
-    'Delia Cheung Hom ’00',
-    '/alums/community/aavc/board-members/aavc-ad-hoc-diversity-equity-inclusion-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg', 'alt' => 'Delia Cheung Hom' ],
+    'Carlos Hernandez Tellez ’14',
+    '/alums/community/aavc/board-members/aavc-career-networking-committee-chair/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/tellez-carlos-hernandez-aavc-alum-001.jpg', 'alt' => 'Carlos Hernandez Tellez' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
-<div class="pronouns">(she/her/hers)</div>
-<div class="position">Ad Hoc Diversity, Equity and Inclusion Committee Chair and Nominating and Governance Member</div>
-<div class="location">Massachusetts</div>
-<div class="term">Term of Service: 2020–2024</div>
+<div class="position">Career Networking Committee Chair</div>
+<div class="location">Brazil</div>
+<div class="term">Term of Service: 2022–2026</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
@@ -409,7 +406,6 @@ ul.inline-list-links li a {
 ); ?>
 
 
-
 <?php echo item_cardWithText(
     'Katrine “Cage” Ames ’69',
     '/alums/community/aavc/board-members/aavc-board-director-1/',
@@ -468,20 +464,6 @@ ul.inline-list-links li a {
 ); ?>
 
 <?php echo item_cardWithText(
-    'Carlos Hernandez Tellez ’14',
-    '/alums/community/aavc/board-members/aavc-board-director-2/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/tellez-carlos-hernandez-aavc-alum-001.jpg', 'alt' => 'Carlos Hernandez Tellez' ],
-    'related-topics card--withParagraph card-has-cta-icon card-is-link'
-); ?>
-<div class="position">AAVC Board Director</div>
-<div class="location">Brazil</div>
-<div class="term">Term of Service: 2022–2026</div>
-<?php echo end_item_cardWithText(
-    null,
-); ?>
-
-
-<?php echo item_cardWithText(
     'Peggy Ann Nagae ’73',
     '/alums/community/aavc/board-members/aavc-board-director-3/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/nagae-peggy-ann-aavc-alum-001.jpg', 'alt' => 'Peggy Ann Nagae' ],
@@ -533,6 +515,20 @@ ul.inline-list-links li a {
 <div class="position">AAVC Board Director</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2022–2026</div>
+<?php echo end_item_cardWithText(
+    null,
+); ?>
+
+<?php echo item_cardWithText(
+    'Alisa Swire ’84',
+    '/alums/community/aavc/board-members/aavc-board-director-2/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/alisa-swire.jpg', 'alt' => 'Alisa Swire' ],
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
+); ?>
+<div class="pronouns">(she/her/hers)</div>
+<div class="position">AAVC Board Director</div>
+<div class="location">New York</div>
+<div class="term">Term of Service: 2023–2027</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
