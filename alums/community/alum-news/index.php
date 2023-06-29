@@ -60,12 +60,12 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'AC Dumlao ’13',
-        'https://www.nycpride.org/news-press-media/grand-marshals-announced-for-2023-nyc-pride-march',
-        ['url' => $logos_path.'NYC-Pride-logo.png', 'alt' => 'New York City Pride logo' ],
+        'Sasha Velour ’09',
+        'https://www.newyorker.com/culture/cover-story/cover-story-2023-06-12',
+        ['url' => $logos_path.'New-Yorker-logo.png', 'alt' => 'The New Yorker logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p>NYC Pride announced that <strong>AC Dumlao&nbsp;’13</strong> will serve as a Grand Marshal for the 2023 New York City Pride March.</p>
+      <p>Drag artist and author <strong>Sasha Velour ’09</strong> was the subject of a cover story in the <em>New Yorker</em>.</p>
 
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
@@ -73,24 +73,24 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Daphne Kalotay ’92',
-        'https://www.nytimes.com/2023/04/28/books/review/the-last-catastrophe-allegra-hyde-the-archivists-daphne-kalotay-the-house-of-love-and-prayer-tova-reich.html',
-        ['url' => $logos_path.'newyorktimes.gif', 'alt' => 'New York Times logo' ],
+        'Dr. Jonathan Howard ’97',
+        'https://www.latimes.com/business/story/2023-05-23/column-these-experts-sold-the-u-s-on-a-disastrous-covid-plan-and-never-paid-a-professional-price',
+        ['url' => $logos_path.'LA-Times-logo.png', 'alt' => 'Los Angeles Times logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-
-        <p><em>The Archivists</em>, a collection of stories by <strong>Daphne Kalotay ’92</strong>, was included in the <em>New York Times’s</em> The Shortlist.</p>
+        <p>The book <em>We Want them Infected</em> by <strong>Dr. Jonathan Howard ’97</strong> was the subject of a <em>Los Angeles Times</em> column about how pseudoscience derailed efforts to fight COVID-19.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
+
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Elisa Strauss ’98',
-        'https://variety.com/2023/tv/news/gordon-ramsays-food-stars-contestants-fox-1235575554/',
-        ['url' => $logos_path.'Variety-logo.png', 'alt' => 'Variety logo' ],
+        'Melody Smith Johnson ’85',
+        'https://auburnpub.com/news/local/govt-and-politics/auburn-woman-honored-with-ny-senate-women-of-distinction-award/article_e9aff5a8-f4d9-11ed-baed-0b6fd388721c.html',
+        ['url' => $logos_path.'auburnpub-dotcom-logo.png', 'alt' => 'auburnpub.com logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p>Confetti Cakes owner and cake designer <strong>Elisa Strauss ’98</strong> will be featured on the premiere season of <em>Gordon Ramsay’s Food Stars</em>, as noted by <em>Variety</em>.</p>
+        <p>Entrepreneur <strong>Melody Smith Johnson ’85</strong> received the New York State Senate’s Women of Distinction Award, as noted by auburnpub.com.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -107,50 +107,29 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://www.msn.com/en-us/news/crime/building-prison-cells-over-homes-in-central-appalachia/ar-AA1aM9lJ"><strong>Judah Schept ’01</strong>, author and professor in the School of Justice Studies at Eastern Kentucky University, was a guest on the Everywhere Radio podcast in an episode titled, “‘Building Prison Cells Over Homes’ in Central Appalachia,”</a> as noted by the <em>Daily Yonder</em>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://www.broadwayworld.com/article/Video-Beowulf-Boritt-Celebrates-Tony-Win-for-Best-Scenic-Design-of-a-Musical-20230613">Set designer <strong>Beowulf Boritt ’93</strong> won the Tony Award for his work on <em>New York, New York</em>, as noted by many media outlets, including BroadwayWorld.com</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><a href="https://www.whitehouse.gov/briefing-room/statements-releases/2023/05/12/president-biden-announces-nominees-to-the-federal-reserve-board-of-governors/"><strong>Philip Jefferson ’83</strong>,  a member of the Federal Reserve Board of Governors, was nominated Vice Chair of the board, as noted by the White House</a> and numerous media outlets.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><a href="https://www.baltimoresun.com/opinion/hall-of-fame/bs-ed-hof-sherrilyn-ifill-20230609-h4unsfgdtvcphmsj3qhg5hlpw4-story.html">Lawyer and author <strong>Sherrilyn Ifill ’84</strong>, who led the NAACP Legal Defense and Educational Fund for a decade, is a <em>Baltimore Sun</em> 2023 Business and Civic Hall of Fame honoree</a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://news.mit.edu/2023/five-mit-elected-national-academy-sciences-2023-0511"><strong>Catherine Drennan ’85</strong>, Professor of Biology and Chemistry at MIT, was elected to the National Academy of Sciences, as noted by MIT News</a>.</p></div>
-
-
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9">Filmmaker and producer <a href="https://news.olemiss.edu/cannon-hersey-to-deliver-journalism-school-commencement-address/"><strong>Cannon Hersey ’99</strong> gave the Commencement address for the University of Mississippi School of Journalism and New Media, as noted by Ole Miss</a>.</p></div>
-
-  
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11">Award-winning author <a href="https://www.saturdayeveningpost.com/2023/04/the-culling/"><strong>Dawn Hathaway ’91</strong> wrote a <em>Saturday Evening Post</em> contemporary fiction story, <em>The Culling</em></a>.</p></div>
-
-
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><a href="http://www.nasonline.org/programs/awards/2023-awards/Monje.html"><strong>Michelle Monje ’98</strong>, a physician and research scientist at Stanford University School of Medicine, received the 2023 Richard Lounsbery Award, as noted by the National Academy of Sciences</a>.</p></div>
-
-  
-    <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.thebody.com/article/eviction-act-violence-interview-leah-goodridge"><strong>Leah Goodridge ’04</strong>, Managing Attorney for Housing Policy at Mobilization for Justice, discussed the affordable housing crisis and evictions in an interview with <em>The Body</em></a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://variety.com/2023/tv/news/amy-entelis-cnn-chris-licht-exit-1235636139/"><strong>Amy Entelis ’71</strong>, CNN Worldwide Executive VP for Talent and Content Development, is one of three CNN executives taking the reins at the network after the departure of CEO Chris Licht, as noted by <em>Variety</em></a>.</p></div>
 
 
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><a href="https://www.fingerlakesdailynews.com/local/cayuga/auburn-entrepreneur-named-woman-of-distinction"><strong>Melody Smith Johnson ’85, P’14</strong>, an entrepreneur and founder of the Beverly L. Smith Empowerment Initiative, was the recipient of a New York State Senate’s annual Women of Distinction Award, as noted by FingerLakesDailyNews.com</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="9"><a href="https://deadline.com/2023/06/noah-baumbach-memoir-knopf-1235408485/">Oscar-nominated filmmaker <strong>Noah Baumbach ’91</strong> is writing a memoir, as noted in <em>Deadline</em></a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><a href="https://www.ornl.gov/news/cooper-appointed-does-basic-energy-sciences-advisory-committee"><strong>Dr. Valentino “Tino” Cooper ’00</strong>, a scientist at the Department of Energy’s Oak Ridge National Laboratory, was appointed to the DOE’s Basic Energy Science Advisory Committee, as announced by the laboratory</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="11"><a href="https://www.nytimes.com/2023/05/30/dining/glace-ice-cream-upper-east-side.html"><em>The Migrant Chef: The Life and Times of Lalo García</em>, written by <strong>Laura Tillman ’07</strong>, was reviewed by <em>New York Times</em> columnist Florence Fabricant</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21"><a href="https://finance.yahoo.com/news/tessera-therapeutics-names-cynthia-m-120000695.html"><strong>Cynthia Patton ’83</strong> was named General Counsel and Secretary of Tessera Therapeutics, a biotechnology company, as noted by Yahoo! Finance</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="13"><a href="https://www.ajc.com/things-to-do/food-and-recipes/cookbook-review-egg-rolls-and-sweet-tea-by-natalie-keng/SWVAPMJXP5FKXDHSSHHV5DLCCY/">The cookbook <em>Egg Rolls & Sweet Tea</em> by <strong>Natalie Keng ’90</strong> was the subject of an <em>Atlanta Journal-Constitution</em> review</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><a href="https://www.actionnewsnow.com/news/pvs-eugene-lee-ready-to-ace-competition-at-vassar-college/article_ae5b235c-f514-11ed-afd6-1b7bb368b3f3.html"><strong>Eugene Lee ’27</strong>,  a high school champion tennis player who committed to Vassar, was the subject of an Action News Now story</a>.</p></div>
-
-
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="24" data-line-end="25">Lawyer <a href="https://governor.maryland.gov/press/pages/Governor_Moore_Appoints_Montgomery_County_Leaders_Who_Will_Recommend_Judicial_Appointments.aspx"><strong>Carolyn Demougeot ’11</strong> was named to Maryland Governor Wes Moore’s Montgomery County Trial Courts Judicial Nominating Commission, as noted by the Maryland state government</a>.</p></div>
-
-
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27">South Carolina <a href="https://www.heraldonline.com/latest-news/article275477881.html">Judge <strong>Alison Lee ’79</strong> announced her retirement from the bench, as noted by <em>The Herald</em></a>.</p></div>
-
-
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="28" data-line-end="29"><a href="https://www.chipchick.com/2023/05/she-was-one-of-the-very-first-female-chemists-in-america-and-she-was-also-the-very-first-woman-to-be-accepted-into-mit.html">Engineer and chemist <strong> Ellen Swallow Richards, class of 1870</strong>, the first woman admitted into the Massachusetts Institute of Technology, was the subject of a Chip Chick story</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="15"><a href="https://tourismquest.com/2023/06/12/grand-marshals-announced-for-2023-nyc-pride-march/"><strong>AC Dumlao ’13</strong>, Chief of Staff at Athlete Ally, was named one of the grand marshals of the New York City Pride Parade, as noted by Tourism Quest</a>.</p></div>
 
 
   <?php echo end_item_col(); ?>
