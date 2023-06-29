@@ -18,7 +18,7 @@
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2023-06-26/spotlight/1973-Reunion-Celebrate-230603-KR-0013.jpg',
   'is-link',
-  'A crowd of people on a green field. Some people stand and clap on the stage. Next to the stage, three people hold a cloth banner that says "Vassar, 1973" in crimson lettering.'
+  'A crowd of people on a green field. Some people stand and clap on the stage. Next to the stage, three people hold a cloth banner that says “Vassar, 1973” in crimson lettering.'
 ); ?>
   <h3 class="h3">Reunion 2023—Full of Joy and Laughter</h3>
   <p>The first weekend of June was a particularly joyous one for Vassar as the College welcomed back more than 1,200 alums from near and far for Reunion. While always a blast, this year’s festivities seemed extra jubilant as classmates rushed in for the tight hugs long denied during earlier pandemic years.</p>
