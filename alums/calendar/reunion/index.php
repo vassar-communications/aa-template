@@ -63,7 +63,8 @@ $page_info = json_decode($page_info, true);
   <h3>Future Reunion Dates</h3>
 
   <p>May 31–June 2, 2024<br>
-  June 6–8, 2025</p>
+  June 6–8, 2025<br>
+  June 5–7, 2026</p>
 
 
 
