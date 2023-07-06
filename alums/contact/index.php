@@ -196,9 +196,9 @@ echo end_contact_card();
 <?php
 echo contact_card(
     'Anca Nelson',
-    'Special Assistant to the Vice President for Campaign Operations',
+    'Associate Director of Advancement for Campaign Operations',
     [
-      'phone' => '',
+      'phone' => '845-437-5806',
       'email' => 'anelson@vassar.edu',
     ]
 );
@@ -496,7 +496,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Cheryl McKeever',
-    'Associate Director of Alumnae/i Engagement',
+    'Senior Associate Director of Alumnae/i Engagement',
     [
       'phone' => '845-437-5408',
       'email' => 'cmckeever@vassar.edu',
@@ -569,7 +569,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Kwan Man Cheng',
-    'Assistant Director of Advancement Communications',
+    'Associate Director of Advancement Communications',
     [
       'phone' => '845-437-5501',
       'email' => 'kcheng@vassar.edu',
@@ -577,13 +577,12 @@ echo contact_card(
 );
 echo end_contact_card();
 
-
 echo contact_card(
-    'TBD',
-    'Assistant Director of Advancement Communications',
+    'Yolanda Johnson',
+    'Associate Director of Advancement Communications – Digital',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-5440',
+      'email' => 'yojohnson@vassar.edu',
     ]
 );
 echo end_contact_card();
@@ -601,14 +600,15 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Yolanda Johnson',
-    'Assistant Director of Advancement Communications – Digital',
+    'Andrew Salisbury',
+    'Assistant Director of Advancement Communications',
     [
-      'phone' => '845-437-5440',
-      'email' => 'yojohnson@vassar.edu',
+      'phone' => '',
+      'email' => 'asalisbury@vassar.edu',
     ]
 );
 echo end_contact_card();
+
 ?>
 </div>
                 <div class="anchor" id="sec7"></div>
@@ -689,6 +689,17 @@ echo contact_card(
 echo end_contact_card();
 
 echo contact_card(
+    'Tammy Carney',
+    'Assistant Director of Annual Giving, Production',
+    [
+      'phone' => '845-437-5496',
+      'email' => 'tcarney@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
     'Joe Vayas',
     'Assistant Director of Annual Giving, Volunteer &amp; Reunion',
     [
@@ -726,17 +737,6 @@ echo contact_card(
     [
       'phone' => '',
       'email' => 'cengel@vassar.edu',
-    ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
-    'Tammy Carney',
-    'Office Specialist',
-    [
-      'phone' => '845-437-5496',
-      'email' => 'tcarney@vassar.edu',
     ]
 );
 echo end_contact_card();
@@ -898,11 +898,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'TBD',
+    'Becca Chuney',
     'Office Specialist',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-5443',
+      'email' => 'rchuney@vassar.edu',
     ]
 );
 echo end_contact_card();
