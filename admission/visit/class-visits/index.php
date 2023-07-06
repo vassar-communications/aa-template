@@ -136,7 +136,7 @@ $page_info = [
     '',
     ['hlevel' => 4]
 ); ?>
-<p>Kathryn Libin, Associate Professor of Music</p>
+<p>Kathryn Libin, Professor of Music</p>
 <?php echo end_item_cardWithTextVideoModal(); ?>
 
 
