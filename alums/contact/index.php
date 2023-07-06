@@ -592,7 +592,7 @@ echo contact_card(
     'Heather Clark',
     'Assistant Director of Advancement Communications Content',
     [
-      'phone' => '',
+      'phone' => '845-437-5861',
       'email' => 'heatherclark@vassar.edu',
     ]
 );
