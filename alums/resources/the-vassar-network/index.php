@@ -76,6 +76,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
     <li><a href="https://www.vassar.edu/social-media">Vassar Social Media Directory</a></li>
     <li><a href="https://www.vassar.edu/social-media-alums#regional-clubs">Vassar Clubs</a></li>
+    <li><a href="https://www.vassar.edu/social-media-alums/#affinity-groups">Vassar Multicultural and Affinity Groups</a></li>
 </ul>
 
 <?php echo end_item_iconItem(); ?>
