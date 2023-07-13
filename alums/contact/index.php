@@ -603,7 +603,7 @@ echo contact_card(
     'Andrew Salisbury',
     'Assistant Director of Advancement Communications',
     [
-      'phone' => '',
+      'phone' => '845-437-5421',
       'email' => 'asalisbury@vassar.edu',
     ]
 );
@@ -700,6 +700,17 @@ echo end_contact_card();
 
 
 echo contact_card(
+    'Karolina Gomez',
+    'Assistant Director of Annual Giving, Digital Engagement Officer',
+    [
+      'phone' => '845-437-7884',
+      'email' => 'kgomez@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
     'Joe Vayas',
     'Assistant Director of Annual Giving, Volunteer &amp; Reunion',
     [
@@ -712,17 +723,6 @@ echo end_contact_card();
 echo contact_card(
     'TBD',
     'Assistant Director of Annual Giving, Student Education & Young Alumnae/i Philanthropy',
-    [
-      'phone' => '',
-      'email' => '',
-    ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
-    'TBD',
-    'Assistant Director of Annual Giving, Digital Engagement Officer',
     [
       'phone' => '',
       'email' => '',
