@@ -404,7 +404,7 @@ $page_info = json_decode($page_info, true);
     'section-class mw-inner-2',
     ''
 ); ?>
-<p class="intro-text">Our campus is 1,000 acres and is maintained as an arboretum with over 200 species of trees. The campus includes the <a href="https://www.vassar.edu/farm">Vassar Farm and Ecological Preserve</a>, a nine-hole golf course, Sunset Lake, the Shakespeare Garden, an <a href="https://www.vassar.edu/physicsandastronomy/facilities/observatory.html">observatory</a>, and the <a href="https://www.vassar.edu/theloeb">Frances Lehman Loeb Art Center</a>.</p>
+<p class="intro-text">Our campus is 1,000 acres and is maintained as an arboretum with over 200 species of trees. The campus includes the <a href="https://www.vassar.edu/farm">Vassar Farm and Ecological Preserve</a>, a nine-hole golf course, Sunset Lake, the Shakespeare Garden, an <a href="https://www.vassar.edu/physics-and-astronomy/astronomy/class-1951-observatory">observatory</a>, and the <a href="https://www.vassar.edu/theloeb">Frances Lehman Loeb Art Center</a>.</p>
 <?php echo end_sec_regularContent(); ?>
 
 
