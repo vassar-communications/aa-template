@@ -72,13 +72,8 @@ $page_info = json_decode($page_info, true);
 <p>Our best practices agreement will give you a sense of the values uplifted by our creative and hardworking volunteers.</p>
 
 <?php echo cta_link(
-    'https://connect.vassar.edu/s/1654/images/gid2/editor_documents/administrative/alumnae-i_affairs/volunteer-best-practices-agreement.pdf?gid=2&pgid=61',
-    'Read our best practices',
-    null,
-    [
-      'file_type' => 'pdf',
-      'file_size' => '137 KB'
-    ]
+    'https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=1723&cid=3035&post_id=0',
+    'Read our best practices agreement'
 ); ?>
 
 <?php echo end_sec_regularContent(); ?>
