@@ -58,7 +58,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Multicultural and affinity groups strengthen alum communities that center around shared experiences, activities, and identities. These communities include athletic teams, singing groups, LGBTQ+, ALANA orgs, veterans, and First Gen alums (among others).</p>
-    <p>If you are interested in participating in multicultural and affinity groups, reach out to Sharon Parkinson at <a href="mailto:shparkinson@vassar.edu">shparkinson@vassar.edu</a> or <a href="tel:845-437-5543">(845) 437-5515</a>.</p> 
+    <p>If you are interested in participating in multicultural and affinity groups, reach out to Sharon Parkinson at <a href="mailto:shparkinson@vassar.edu">shparkinson@vassar.edu</a> or <a href="tel:845-437-5515">(845) 437-5515</a>.</p>
     <ul class="linked-list mt-4">
         <li><a href="https://www.vassar.edu/social-media-alums#affinity-groups">Follow Multicultural and Affinity Groups on Social</a></li>
         <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Multicultural and Affinity Group Volunteer</a></li>
@@ -81,7 +81,6 @@ $page_info = json_decode($page_info, true);
 
     <ul class="linked-list mt-4">
         <li><a href="/alums/calendar/reunion/">Explore Reunion</a></li>
-        <li><a href="https://www.vassar.edu/social-media/class-by-year">Follow Classes on Social</a></li>
         <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Class Volunteer</a></li>
     </ul>
 
