@@ -589,7 +589,7 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Heather Clark',
+    'Heather Mattioli',
     'Assistant Director of Advancement Communications Content',
     [
       'phone' => '845-437-5861',
