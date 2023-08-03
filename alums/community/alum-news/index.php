@@ -60,12 +60,12 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Sasha Velour ’09',
-        'https://www.newyorker.com/culture/cover-story/cover-story-2023-06-12',
-        ['url' => $logos_path.'New-Yorker-logo.png', 'alt' => 'The New Yorker logo' ],
+        'Charlie Stickney ’96',
+        'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/92623-indie-community-at-home-in-the-crowd.html',
+        ['url' => $logos_path.'publishersweekly-logo.png', 'alt' => 'Publishers Weekly logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p>Drag artist and author <strong>Sasha Velour ’09</strong> was the subject of a cover story in the <em>New Yorker</em>.</p>
+      <p><strong>Charlie Stickney ’96</strong>, a writer, producer, and comic book creator, talked with <em>Publishers Weekly</em> about how crowdfunding helped him launch his comic book series.</p>
 
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
@@ -73,24 +73,24 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Dr. Jonathan Howard ’97',
-        'https://www.latimes.com/business/story/2023-05-23/column-these-experts-sold-the-u-s-on-a-disastrous-covid-plan-and-never-paid-a-professional-price',
-        ['url' => $logos_path.'LA-Times-logo.png', 'alt' => 'Los Angeles Times logo' ],
+        'Mildred H. McAfee, class of 1920',
+        'https://www.aerotechnews.com/blog/2023/07/06/veteran-of-the-day-u-s-navy-veteran-mildred-h-mcafee/',
+        ['url' => $logos_path.'aerotechnews-logo.png', 'alt' => 'Aerotech News logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p>The book <em>We Want them Infected</em> by <strong>Dr. Jonathan Howard ’97</strong> was the subject of a <em>Los Angeles Times</em> column about how pseudoscience derailed efforts to fight COVID-19.</p>
+        <p>U.S. Navy veteran <strong>Mildred H. McAfee</strong>, class of 1920, the first director of the Women Accepted for Volunteer Emergency Services (WAVES) and the first woman commissioned in the U.S. Navy Reserve, was the subject of an <em>Aerotech News</em> story.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Melody Smith Johnson ’85',
-        'https://auburnpub.com/news/local/govt-and-politics/auburn-woman-honored-with-ny-senate-women-of-distinction-award/article_e9aff5a8-f4d9-11ed-baed-0b6fd388721c.html',
-        ['url' => $logos_path.'auburnpub-dotcom-logo.png', 'alt' => 'auburnpub.com logo' ],
+        'Kimberly Nguyen ’19',
+        'https://www.nytimes.com/2023/06/20/business/job-search-salary-ranges.html',
+        ['url' => $logos_path.'newyorktimes.gif', 'alt' => 'The New York Times logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p>Entrepreneur <strong>Melody Smith Johnson ’85</strong> received the New York State Senate’s Women of Distinction Award, as noted by auburnpub.com.</p>
+        <p><strong>Kimberly Nguyen ’19</strong>, a poet and UX writer, spoke to <em>The New York Times</em> about her experience with an employer regarding salary transparency.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -107,29 +107,43 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://www.broadwayworld.com/article/Video-Beowulf-Boritt-Celebrates-Tony-Win-for-Best-Scenic-Design-of-a-Musical-20230613">Set designer <strong>Beowulf Boritt ’93</strong> won the Tony Award for his work on <em>New York, New York</em>, as noted by many media outlets, including BroadwayWorld.com</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://www.adweek.com/media/creative-100-2023-the-media-innovators-reimagining-the-industrys-future/"><strong>Kiana Moore ’02</strong>, co-director of the award-winning documentary <em>The Beauty of Blackness</em> and Vice President of Epic Stories at Vox Creative, was named to <em>Adweek</em>’s Creative 100</a>, which celebrates top talents in marketing, media, and culture.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><a href="https://www.baltimoresun.com/opinion/hall-of-fame/bs-ed-hof-sherrilyn-ifill-20230609-h4unsfgdtvcphmsj3qhg5hlpw4-story.html">Lawyer and author <strong>Sherrilyn Ifill ’84</strong>, who led the NAACP Legal Defense and Educational Fund for a decade, is a <em>Baltimore Sun</em> 2023 Business and Civic Hall of Fame honoree</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><a href="https://playbill.com/article/schools-of-the-stars-see-where-the-76th-annual-tony-award-winners-went-to-college">Tony award-winning set designer <strong>Beowulf Boritt ’93</strong> was mentioned in a <em>Playbill</em> article</a> about where 2023 Tony Award winners went to college.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://variety.com/2023/tv/news/amy-entelis-cnn-chris-licht-exit-1235636139/"><strong>Amy Entelis ’71</strong>, CNN Worldwide Executive VP for Talent and Content Development, is one of three CNN executives taking the reins at the network after the departure of CEO Chris Licht, as noted by <em>Variety</em></a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://www.bkmag.com/2023/07/03/meet-the-lone-tenants-rights-attorney-on-the-nyc-planning-commission/">Tenants’ rights lawyer, Managing Attorney for Housing Policy at Mobilization for Justice, and New York City Planning Commission member <strong>Leah Goodridge ’04</strong> was interviewed by <em>Brooklyn Magazine</em></a>.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://www.youtube.com/watch?v=dc_9R7aU7VE&list=PLeyPUMOvEaOi5vPnkOeBenLkKntDYOgPp&index=2"><strong>Andrij V. Dobriansky ’99</strong>, Director of Communications and Media of the Ukrainian Congress Committee of America, discusses many issues related to the war in Ukraine, mostly recently on Press TV</a>.</p></div>
+
+
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><a href="https://chestnuthilllocal.com/stories/from-portraits-of-murder-victims-to-kids-book-artwork,28331">Artist, book illustrator, and teacher <strong>Rebecca Hoenig ’81</strong> was the subject of a <em>Chestnut Hill Local</em> story</a>.</p></div>
+
+
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><a href="https://www.dramatistsguild.com/thedramatist/bad-words-and-good-theatre?check_logged_in=1">Author <strong>Joseph Bardin ’89</strong> wrote a Dramatists Guild article, “Bad Words and Good Theatre.”</a></p></div>
 
 
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="9"><a href="https://deadline.com/2023/06/noah-baumbach-memoir-knopf-1235408485/">Oscar-nominated filmmaker <strong>Noah Baumbach ’91</strong> is writing a memoir, as noted in <em>Deadline</em></a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.reformer.com/sports/whitney-reestablishes-23-year-old-school-record/article_c71a1bc6-0c6d-11ee-a127-73a333dba843.html"><strong>Ava Whitney ’27</strong>, a track and field competitor who broke her high school record in the 800-meter run, was the subject of a <em>Brattleboro Reformer</em> story</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="11"><a href="https://www.nytimes.com/2023/05/30/dining/glace-ice-cream-upper-east-side.html"><em>The Migrant Chef: The Life and Times of Lalo García</em>, written by <strong>Laura Tillman ’07</strong>, was reviewed by <em>New York Times</em> columnist Florence Fabricant</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><a href="https://harpers.org/archive/2023/08/doctors-orders-jason-blakely/"><strong>Jason Blakely ’03</strong>, author and Associate Professor of Political Science at Pepperdine University, wrote the <em>Harper’s Magazine</em> cover story, “Doctor’s Orders: COVID-19 and the new science wars.”</a></p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="13"><a href="https://www.ajc.com/things-to-do/food-and-recipes/cookbook-review-egg-rolls-and-sweet-tea-by-natalie-keng/SWVAPMJXP5FKXDHSSHHV5DLCCY/">The cookbook <em>Egg Rolls & Sweet Tea</em> by <strong>Natalie Keng ’90</strong> was the subject of an <em>Atlanta Journal-Constitution</em> review</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><a href="https://www.fltimes.com/news/co-author-of-era-to-be-remembered-at-canandaigua-gravesite/article_61030734-1b23-11ee-9c9f-f3ecde20a614.html">The grave of ERA co-author and women’s suffrage leader <strong>Crystal Eastman</strong>, class of 1903, will be given a commemorative marker and be added to the National Votes for Women Trail, as noted by the <em>Finger Lakes Times</em></a>.</p></div>
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21"><a href="https://www.americantheatre.org/2023/07/10/craig-lucas-chisa-hutchinson-ryan-j-haddad-win-provincetown-theater-awards/">Playwright <strong>Chisa Hutchinson ’02</strong> was a recipient of a 2023 Provincetown American Playwright Award, as noted by <em>American Theater</em></a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="15"><a href="https://tourismquest.com/2023/06/12/grand-marshals-announced-for-2023-nyc-pride-march/"><strong>AC Dumlao ’13</strong>, Chief of Staff at Athlete Ally, was named one of the grand marshals of the New York City Pride Parade, as noted by Tourism Quest</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><a href="https://prizes.new-european-bauhaus.eu/"><strong>Ani Kodjabasheva ’12</strong> took part in an award-winning project, “Danube Design Lab Ruse,” which was a European Bauhaus Prize winner</a>.</p></div>
+
+
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="24" data-line-end="25"><a href="https://www.hollywoodreporter.com/movies/movie-news/judith-james-dead-mr-hollands-opus-quiz-show-1235538217/">Emmy-winning producer <strong>Judith James ’59</strong> was remembered by the <em>Hollywood Reporter</em></a>.</p></div>
 
 
   <?php echo end_item_col(); ?>

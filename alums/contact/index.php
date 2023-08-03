@@ -367,7 +367,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Cher Pompa',
-    'Accounting Specialist',
+    'Gift Processing Coordinator',
     [
       'phone' => '845-437-5404',
       'email' => 'cpompa@vassar.edu',
@@ -377,11 +377,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'TBD',
-    'Accounting Specialist',
+    'Beatrice Shivers',
+    'Gift Processing Coordinator',
     [
-      'phone' => '',
-      'email' => '',
+      'phone' => '845-437-7789',
+      'email' => 'bshivers@vassar.edu',
     ]
 );
 echo end_contact_card();
