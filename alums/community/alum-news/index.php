@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Charlie Stickney ’96',
         'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/92623-indie-community-at-home-in-the-crowd.html',
-        ['url' => $logos_path.'publishers-weekly-logo.png', 'alt' => 'Publishers Weekly logo' ],
+        ['url' => $logos_path.'publishersweekly-logo.png', 'alt' => 'Publishers Weekly logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
       <p><strong>Charlie Stickney ’96</strong>, a writer, producer, and comic book creator, talked with <em>Publishers Weekly</em> about how crowdfunding helped him launch his comic book series.</p>
@@ -119,10 +119,10 @@ $page_info = json_decode($page_info, true);
 <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://www.youtube.com/watch?v=dc_9R7aU7VE&list=PLeyPUMOvEaOi5vPnkOeBenLkKntDYOgPp&index=2"><strong>Andrij V. Dobriansky ’99</strong>, Director of Communications and Media of the Ukrainian Congress Committee of America, discusses many issues related to the war in Ukraine, mostly recently on Press TV</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><a href="https://chestnuthilllocal.com/stories/from-portraits-of-murder-victims-to-kids-book-artwork,28331">Artist, book illustrator, and teacher and <strong>Rebecca Hoenig ’81</strong> was the subject of a <em>Chestnut Hill Local</em> story</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><a href="https://chestnuthilllocal.com/stories/from-portraits-of-murder-victims-to-kids-book-artwork,28331">Artist, book illustrator, and teacher <strong>Rebecca Hoenig ’81</strong> was the subject of a <em>Chestnut Hill Local</em> story</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><a href="https://www.dramatistsguild.com/thedramatist/bad-words-and-good-theatre?check_logged_in=1">Author <strong>Joseph Bardin ’89</strong> wrote Dramatists Guild article, “Bad Words and Good Theatre.”</a></p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><a href="https://www.dramatistsguild.com/thedramatist/bad-words-and-good-theatre?check_logged_in=1">Author <strong>Joseph Bardin ’89</strong> wrote a Dramatists Guild article, “Bad Words and Good Theatre.”</a></p></div>
 
 
   <?php echo end_item_col(); ?>
@@ -132,7 +132,7 @@ $page_info = json_decode($page_info, true);
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.reformer.com/sports/whitney-reestablishes-23-year-old-school-record/article_c71a1bc6-0c6d-11ee-a127-73a333dba843.html"><strong>Ava Whitney ’27</strong>, a track and field competitor who broke her high school record in the 800-meter run, was the subject of a <em>Brattleboro Reformer</em> story</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><a href="https://harpers.org/archive/2023/08/doctors-orders-jason-blakely/"><strong>Jason Blakely ’03</strong>, author and Associate Professor of Political Science at Pepperdine University wrote the <em>Harper’s Magazine</em> cover story, “Doctor’s Orders: COVID-19 and the new science wars.”</a></p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><a href="https://harpers.org/archive/2023/08/doctors-orders-jason-blakely/"><strong>Jason Blakely ’03</strong>, author and Associate Professor of Political Science at Pepperdine University, wrote the <em>Harper’s Magazine</em> cover story, “Doctor’s Orders: COVID-19 and the new science wars.”</a></p></div>
 
 
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><a href="https://www.fltimes.com/news/co-author-of-era-to-be-remembered-at-canandaigua-gravesite/article_61030734-1b23-11ee-9c9f-f3ecde20a614.html">The grave of ERA co-author and women’s suffrage leader <strong>Crystal Eastman</strong>, class of 1903, will be given a commemorative marker and be added to the National Votes for Women Trail, as noted by the <em>Finger Lakes Times</em></a>.</p></div>
