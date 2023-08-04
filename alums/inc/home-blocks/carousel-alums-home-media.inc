@@ -54,20 +54,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 
-<?php echo carousel_item(
-    $media_carousel_path.'/2023-06-26/in-the-media/beowulf_boritt_by_ci.jpg',
-    'is-link',
-    'A person with short dark hair and black-rimmed glasses stands against a black backdrop, smiling and thrusting an award toward the viewer. The person is wearing a black bowtie and a black suit coat.'
-  ); ?>
 
-  <p>Set designer Beowulf Boritt ’93 won the Tony Award for his work on <em>New York, New York</em>, as noted by many media outlets, including BroadwayWorld.com.</p>
-  <p><em>Photo: Cindy Ord</em></p>
-  <?php echo cta_link(
-  'https://www.broadwayworld.com/article/Video-Beowulf-Boritt-Celebrates-Tony-Win-for-Best-Scenic-Design-of-a-Musical-20230613',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
 
 
 
