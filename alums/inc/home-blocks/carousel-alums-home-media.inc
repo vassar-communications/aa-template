@@ -93,22 +93,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2023-06-26/in-the-media/0037-19-02-kr-ifill-sherrilyn-vassar-7885.jpg',
-    'is-link',
-    'A person with long, dark, braided hair stands in front of a microphone and a wood paneled room. The person is wearing yellow-green suit coat.'
-  ); ?>
-
-  <p>Lawyer and author Sherrilyn Ifill ’84, who led the NAACP Legal Defense and Educational Fund for a decade, is a <em>Baltimore Sun</em> 2023 Business and Civic Hall of Fame honoree.</p>
-  <p><em>Photo: Karl Rabe</em></p>
-  <?php echo cta_link(
-  'https://www.baltimoresun.com/opinion/hall-of-fame/bs-ed-hof-sherrilyn-ifill-20230609-h4unsfgdtvcphmsj3qhg5hlpw4-story.html',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
-
-
-<?php echo carousel_item(
     $media_carousel_path.'/2023-06-26/in-the-media/Amy_Entelis_cr_CNN-Jai_Lennard.jpg',
     'is-link',
     'A person with long, dark, brown hair stands against a light-blue photographic backdrop, smiling at the camera. The person is wearing a blue dress coat with gold buttons.'
