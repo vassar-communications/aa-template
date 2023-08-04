@@ -4,6 +4,73 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 
+<?php echo carousel_item(
+    $media_carousel_path.'/2023-08-04/in-the-media/Jason_Blakely_cr_Lindsay_Blakely.jpg',
+    'is-link',
+    'A portrait of a person with short dark hair, a beard, and a mustache. The person is wearing a white buttoned shirt and a dark blue suit jacket.'
+  ); ?>
+
+  <p>Jason Blakely ’03, author and Associate Professor of Political Science at Pepperdine University wrote the <em>Harper’s Magazine</em> cover story, “Doctor’s Orders: COVID-19 and the new science wars.”</p>
+  <p><em>Photo: Lindsay Blakely</em></p>
+  <?php echo cta_link(
+  'https://harpers.org/archive/2023/08/doctors-orders-jason-blakely/',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2023-08-04/in-the-media/Leah_Goodridge_by_Laura_Merrill.jpg',
+    'is-link',
+    'A portrait of a person with short, black, curly hair and large hoop earrings. The person is wearing a black dress.'
+  ); ?>
+
+  <p>Tenants’ rights lawyer and New York City Planning Commission member Leah Goodridge ’04 was interviewed by <em>Brooklyn Magazine</em>.</p>
+  <p><em>Photo: Laura Merrill</em></p>
+  <?php echo cta_link(
+  'https://www.bkmag.com/2023/07/03/meet-the-lone-tenants-rights-attorney-on-the-nyc-planning-commission/',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2023-08-04/in-the-media/Kiana_Moore_cr_Chad-Avery_V._Hilliard.jpg',
+    'is-link',
+    'A portrait of a person with long black hair and pink lipstick. The person is wearing a thin gold chain and a bright pink dress.'
+  ); ?>
+
+  <p>Kiana Moore ’02, Vice President of Epic Stories at Vox Creative, was named to <em>Adweek’s</em> Creative 100, which celebrates top talents in marketing, media, and culture.</p>
+  <p><em>Photo: Chad-Avery V. Hilliard</em></p>
+  <?php echo cta_link(
+  'https://www.adweek.com/media/creative-100-2023-the-media-innovators-reimagining-the-industrys-future/',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2023-06-26/in-the-media/beowulf_boritt_by_ci.jpg',
+    'is-link',
+    'A person with short dark hair and black-rimmed glasses stands against a black backdrop, smiling and thrusting an award toward the viewer. The person is wearing a black bowtie and a black suit coat.'
+  ); ?>
+
+  <p>Set designer Beowulf Boritt ’93 won the Tony Award for his work on <em>New York, New York</em>, as noted by many media outlets, including BroadwayWorld.com.</p>
+  <p><em>Photo: Cindy Ord</em></p>
+  <?php echo cta_link(
+  'https://www.broadwayworld.com/article/Video-Beowulf-Boritt-Celebrates-Tony-Win-for-Best-Scenic-Design-of-a-Musical-20230613',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+
 
 
 <?php echo carousel_item(
@@ -68,73 +135,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   'stretched-link'
   ); ?>
 <?php echo end_carousel_item(); ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2023-06-09/in-the-media/0060-18-04-kr-triennial-vassar-0153.jpg',
-    'is-link',
-    'A person with short, dark hair and formal clothing sits in a room of people at a social gathering, smiling and talking to someone next to them.'
-  ); ?>
-
-  <p>Philip Jefferson ’83 was nominated Vice Chair of the Federal Reserve Board by President Biden, as noted by the White House and numerous media outlets.</p>
-  <p><em>Photo: Karl Rabe</em></p>
-  <?php echo cta_link(
-  'https://www.whitehouse.gov/briefing-room/statements-releases/2023/05/12/president-biden-announces-nominees-to-the-federal-reserve-board-of-governors/',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
-
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2023-06-09/in-the-media/dumlao-ac-aavc-alum-001.jpg',
-    'is-link',
-    'A person with very short, dark hair and glasses, wearing a suit coat, looks at the camera'
-  ); ?>
-
-  <p>NYC Pride announced that AC Dumlao ’13 will serve as a Grand Marshal for the 2023 New York City Pride March.</p>
-  <p><em>Photo: AC Dumlao ’13</em></p>
-  <?php echo cta_link(
-  'https://www.nycpride.org/news-press-media/grand-marshals-announced-for-2023-nyc-pride-march',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
-
-
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2023-06-09/in-the-media/monje_2021_hi-res-download_5.jpg',
-    'is-link',
-    'A person with blond hair and wearing a white lab coat with the words “Michelle Monje MD PhD Neuro-Oncology” stands in a crowded lab, smiling at the camera'
-  ); ?>
-
-  <p>Dr. Michelle Monje ’98 received the 2023 Richard Lounsbery Award, as noted by the National Academy of Sciences.</p>
-  <p><em>Photo: Courtesy of the MacArthur Foundation</em></p>
-  <?php echo cta_link(
-  'http://www.nasonline.org/programs/awards/2023-awards/Monje.html',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
-
-
 
 
 <?php echo end_carousel(); ?>
