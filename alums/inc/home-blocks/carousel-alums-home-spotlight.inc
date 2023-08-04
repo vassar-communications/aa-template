@@ -14,6 +14,48 @@
 ?>
 
 
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2023-08-04/spotlight/0053-23-06-kr-edu-reunion-vassar-0122.jpg',
+  'is-link',
+  'A classroom with people sitting at a long table. Water bottles are placed on the table. In the foreground, a person with long, black, curly hair and a black-and-white patterned dress talks to a person with long brown hair.'
+); ?>
+  <h3 class="h3">Alums Explore Teaching’s Rewards and Challenges at First Education Department Reunion</h3>
+  <p>Forty alums took part in the on-campus gathering.</p>
+  <p><em>Photo: Karl Rabe</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/alums-explore-teachings-rewards-and-challenges-first-education-department-reunion',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2023-08-04/spotlight/Ifill_ctsy_American_Bar_Assn.jpg',
+  'is-link',
+  'A person with long, black, braided hair stands at a podium in front of a blue curtain. The podium has the text “Fairmont, Chicago, Millennium Park” on the front. The person is wearing a bright pink dress.'
+); ?>
+  <h3 class="h3">Sherrilyn Ifill ’84 Assumes Howard University Civil Rights Post</h3>
+  <p>Attorney Ifill is now Howard’s Vernon E. Jordan Jr., Esq. Endowed Chair in Civil Rights.</p>
+  <p><em>Photo: Courtesy of the American Bar Association</em></p>
+
+  <?php echo cta_link(
+    'https://thedig.howard.edu/all-stories/civil-rights-lawyer-sherrilyn-ifill-appointed-inaugural-vernon-jordan-endowed-chair-civil-rights',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
+
+
+
 
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2023-06-26/spotlight/1973-Reunion-Celebrate-230603-KR-0013.jpg',
@@ -68,67 +110,6 @@
   ); ?>
 
 <?php echo end_carousel_item(); ?>
-
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-06-09/spotlight/hamburg-vassar_commencement_20230521_initial_selects_kr_036-lightened.jpg',
-  'is-link',
-  'Two people in formal academic garb—robes and hats—smile at the camera. The person on the left has long brown hair, glasses, and a black robe; the person on the right has long gray hair and a blue robe.'
-); ?>
-  <h3 class="h3">Despite Pandemic-Imposed Interruptions, the Class of 2023 Persisted</h3>
-  <p>More than 620 proud members of the class graduated on May 21.</p>
-
-  <p><em>Photo: Karl Rabe</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/despite-pandemic-imposed-interruptions-class-2023-persisted',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-06-09/spotlight/00014-23-04-apu-velour-sasha-vassar-5.jpg',
-  'is-link',
-  'A person wearing a costume that looks like a blue armchair. Their face is at the center of the armchair back.'
-); ?>
-  <h3 class="h3">Drag Artist Sasha Velour ’09 Offers a Breathtaking Performance—and Slice of Personal History</h3>
-  <p>The winner of <em>RuPaul’s Drag Race</em>, Season 9, thrilled a packed audience with a performance during a tour to promote her new memoir.</p>
-
-  <p><em>Photo: Allyse Pulliam</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/drag-artist-sasha-velour-09-offers-breathtaking-performance-and-slice-personal-history',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-06-09/spotlight/diane-robinson-film-screening-2304-gaw-005.jpg',
-  'is-link',
-  'A formally dressed person in a flowered dress stands in front of a wooden podium, speaking to a room. The audiences is unseen.'
-); ?>
-  <h3 class="h3"><em>The Young Vote</em>, a Documentary by Diane Robinson ’91, Examines Barriers to Civic Engagement</h3>
-  <p>In 2016—a pivotal election year that saw Donald Trump ascend to the presidency—only 39 percent of eligible voters between the ages of 18 and 21 voted in the presidential election.</p>
-
-  <p><em>Photo: Grace Adams Ward ’24</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/young-vote-documentary-diane-robinson-91-examines-barriers-civic-engagement',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
 
 
 
