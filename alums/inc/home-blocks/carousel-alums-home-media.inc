@@ -54,20 +54,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 
-<?php echo carousel_item(
-    $media_carousel_path.'/2023-06-26/in-the-media/beowulf_boritt_by_ci.jpg',
-    'is-link',
-    'A person with short dark hair and black-rimmed glasses stands against a black backdrop, smiling and thrusting an award toward the viewer. The person is wearing a black bowtie and a black suit coat.'
-  ); ?>
 
-  <p>Set designer Beowulf Boritt ’93 won the Tony Award for his work on <em>New York, New York</em>, as noted by many media outlets, including BroadwayWorld.com.</p>
-  <p><em>Photo: Cindy Ord</em></p>
-  <?php echo cta_link(
-  'https://www.broadwayworld.com/article/Video-Beowulf-Boritt-Celebrates-Tony-Win-for-Best-Scenic-Design-of-a-Musical-20230613',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
 
 
 
@@ -99,22 +86,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   <p><em>Photo: Allyse Pulliam</em></p>
   <?php echo cta_link(
   'https://www.newyorker.com/culture/cover-story/cover-story-2023-06-12',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2023-06-26/in-the-media/0037-19-02-kr-ifill-sherrilyn-vassar-7885.jpg',
-    'is-link',
-    'A person with long, dark, braided hair stands in front of a microphone and a wood paneled room. The person is wearing yellow-green suit coat.'
-  ); ?>
-
-  <p>Lawyer and author Sherrilyn Ifill ’84, who led the NAACP Legal Defense and Educational Fund for a decade, is a <em>Baltimore Sun</em> 2023 Business and Civic Hall of Fame honoree.</p>
-  <p><em>Photo: Karl Rabe</em></p>
-  <?php echo cta_link(
-  'https://www.baltimoresun.com/opinion/hall-of-fame/bs-ed-hof-sherrilyn-ifill-20230609-h4unsfgdtvcphmsj3qhg5hlpw4-story.html',
   'Read more',
   'stretched-link'
   ); ?>

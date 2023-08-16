@@ -593,7 +593,7 @@ echo contact_card(
     'Assistant Director of Advancement Communications Content',
     [
       'phone' => '845-437-5861',
-      'email' => 'heatherclark@vassar.edu',
+      'email' => 'hmattioli@vassar.edu',
     ]
 );
 echo end_contact_card();
