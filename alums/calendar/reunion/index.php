@@ -41,7 +41,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'a large group of people walking along a campus road, with some banners displaying class years']
 ); ?>
 
-  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 4s and 9s on campus for Reunion, May 31 - June 2, 2024 (the 50th Reunion class arrives on May 30). Please help us prepare for your arrival by expressing your interest to attend below.</p>
+  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 4s and 9s on campus for Reunion, May 31–June 2, 2024 (the 50th Reunion class arrives on May 30). Please help us prepare for your arrival by expressing your interest to attend below.</p>
   
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
