@@ -30,8 +30,7 @@ Make sure functions convert straight quotes to curly
 -->
 
 <?php echo sec_fixedCenteredTitle_masthead_vid(
-    '<b class="slide-from-left">Alums&nbsp;</b>
-   <b class="slide-from-right">Calendar</b>',
+    '<b class="slide-from-left">Calendar</b>',
     '727857392?h=9586cb06fa',
     'theme-verylightgray reveal-image has-image',
     'mw-4',
@@ -54,7 +53,7 @@ Make sure functions convert straight quotes to curly
 
 <?php echo masthead_interiorPage(
     'You’re Invited',
-    'Vassar alums always have a way to stay connected. Join us for College programs and reunions, special alum events, expertly planned travel programs, and more.',
+    'The Vassar community always has a way to stay connected. Join us for College programs and reunions, special events, expertly planned travel programs, and more.',
     $alums_img_path.'alums-calendar/Reunion_Saturday_190608_CS-V815-319.jpg
   ',
   null,
@@ -218,7 +217,7 @@ June 6–8, 2025</p>
   ['img_alt_text' => 'Fireworks in the night sky']
 ); ?>
 
-<p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled about the return to in-person reunions and can’t wait to welcome you and your classmates back to campus.</p>
+<p>Vassar and the Alumnae/i Association of Vassar College (AAVC) can’t wait to welcome you and your classmates back to campus.</p>
 
 <?php echo cta_link(
     '/alums/calendar/reunion/',

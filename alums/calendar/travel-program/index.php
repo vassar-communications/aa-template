@@ -33,13 +33,42 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Updates to the Vassar Travel Program',
+    'Vassar Travel Programs in 2024',
     $alums_img_path.'alums-calendar/travel-program/Amazon_River_Cruise_Mach_Picchu_2017.jpg',
     'image-is-first theme-cream',
     '',
     ['img_alt_text' => 'Alums group photo in front of a site at Machu Picchu']
 ); ?>
-<p>As we make plans for future Vassar Travel Programs, we look forward to hearing from you regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please contact <a href="mailto:suquade@vassar.edu">Susan Quade</a>, Senior Associate Director of Special Events and Programs and the Vassar Travel Program</a>. </p>
+<p>We are building our trips for 2024! Information will be forthcoming as soon as itineraries and details for each trip are finalized. As we are planning our future trips for both 2024 and 2025, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Special Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
+
+<p>The tentative schedule so far:</p>
+
+<p><strong>Iceland Getaway Weekend with a focus on health & well-being</strong></br>
+Faculty host: Michele Tugade ’95</br>
+February 8–12, 2024</p>
+
+<p><strong>Paris in the Jazz Age, featuring the African American Experience</strong></br>
+June 8–16, 2024</br>
+Hosts: Mia Mask, PhD, Mary Riepma Ross ’32 Professor of Film, and Mark Wittman, MBA, Managing Director, Investment Banking</p>
+
+<p><strong>Namibia: Endless Horizons & Open Skies</strong></br>
+June 9–20, 2024</br>
+Faculty host: Abigail Baird ’91, Professor of Psychological Science on the Arnhold Family Chair</p>
+
+<p><strong>The Galapagos Islands</strong></br>
+July 6–13, 2024</br>
+Faculty host: Jill Schneiderman, Professor of Earth Science</p>
+
+<p><strong>Discover Egypt and the Nile Valley</strong></br>
+Dates to be determined, tentatively autumn</p>
+
+<p><strong>Flavors of Tuscany: Cultural & Culinary Exploration</strong></br>
+September 26–October 4</p>
+
+<p><strong>Discovering South Korea: Food, Culture, & Globalization</strong></br>
+October 9–21, 2024</br>
+Faculty Host: Seungsook Moon, Professor of Sociology</p>
+
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
