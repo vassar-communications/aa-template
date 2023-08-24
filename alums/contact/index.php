@@ -65,8 +65,8 @@ $page_info = json_decode($page_info, true);
             USA
         </p>
         <p>
-            Telephone: <a href="tel:1-800-443-8196">(800) 443-8196</a> or <a href="tel:1-845-437-5400">(845) 437-5400</a><br>
-            Email: <a href="mailto:advancement@vassar.edu">advancement@vassar.edu</a>
+            <strong>Telephone:</strong> <a href="tel:1-800-443-8196">(800) 443-8196</a> or <a href="tel:1-845-437-5400">(845) 437-5400</a><br>
+            <strong>Email:</strong> <a href="mailto:advancement@vassar.edu">advancement@vassar.edu</a>
         </p>
 
           <p> <?php echo cta_link('https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=1144&cid=2123&post_id=0', 'Update your contact information online'); ?> </p>
@@ -78,8 +78,8 @@ $page_info = json_decode($page_info, true);
           161 College Avenue<br>
           Poughkeepsie, NY 12603</p>
 
-          <p>Telephone: <a href="tel:8454377100" class="">(845) 437-7100</a><br>
-              Email: <a href="mailto:alumnaehouse@vassar.edu">alumnaehouse@vassar.edu</a></p>
+          <p><strong>Telephone:</strong> <a href="tel:8454377100" class="">(845) 437-7100</a><br>
+              <strong>Email:</strong> <a href="mailto:alumnaehouse@vassar.edu">alumnaehouse@vassar.edu</a></p>
 
           <p> <?php echo cta_link('https://www.vassar.edu/alums/resources/alumnae-house/', 'Learn more about Alumnae House'); ?> </p>
     </div>
@@ -87,7 +87,13 @@ $page_info = json_decode($page_info, true);
 
 
     <div class="d-grid gap-2">
-    <a href="https://offices.vassar.edu/registrar/" class="btn btn-link arrow">Contact the Registrar</a>
+    <a href="https://offices.vassar.edu/registrar/grades/transcripts/" class="btn btn-link arrow">Transcript Requests</a>
+    </div>
+    <div class="d-grid gap-2">
+    <a href="https://offices.vassar.edu/registrar/grades/degree-verification/" class="btn btn-link arrow">Degree Verification</a>
+    </div>
+    <div class="d-grid gap-2">
+    <a href="https://offices.vassar.edu/registrar/academic-information/replacement-diplomas/" class="btn btn-link arrow">Replacement Diplomas</a>
     </div>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
