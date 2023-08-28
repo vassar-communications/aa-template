@@ -152,7 +152,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <?php echo info_card(); ?>
-    <p>The Time Out Grant is hitting the pause button. The application process is planned to re-open in August 2023.</p>
+    <p>The application process for the Time Out Grant is scheduled to reopen in Fall 2023. Please check back for details.</p>
   <?php echo end_info_card(); ?>
 
 
