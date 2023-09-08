@@ -223,6 +223,22 @@ echo contact_card(
 );
 echo end_contact_card();
 ?>
+
+
+<?php
+echo contact_card(
+    'Ariel Pena',
+    'Associate Vice President for Advancement Services',
+    [
+      'phone' => '845-437-5497',
+      'email' => 'arielpena@vassar.edu',
+    ]
+);
+echo end_contact_card();
+?>
+
+
+
 </div>
 
 
