@@ -3,11 +3,12 @@
 include $_SERVER["DOCUMENT_ROOT"] . "/_cfg.php";
 include $project_paths["main_project_root"] . "/functions.php";
 ?>
- /* PAGE INFO === */<?php
- $page_info =
-   '{"page_title":"Connect","feature_image":"/admission/assets/images/connect/0148-17-09-kr-alana-vassar-1599.jpg"}'; /* === */
- $page_info = json_decode($page_info, true);
- ?>
+
+<?php
+$page_info =
+  '{"page_title":"Connect","feature_image":"/admission/assets/images/connect/0148-17-09-kr-alana-vassar-1599.jpg"}'; /* === */
+$page_info = json_decode($page_info, true);
+?>
 
 <?php echo site_header(); ?>
 
@@ -78,7 +79,7 @@ include $project_paths["main_project_root"] . "/functions.php";
 
 
 
-<?php echo end_sec_regularContent(); ?>
+ <?php echo end_sec_regularContent(); ?>
 
 
 
