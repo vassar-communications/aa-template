@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-<p>Learn about and register for upcoming alum events.</p>
+<p>Learn about and register for upcoming events.</p>
 
 <?php echo end_item_cardWithText(
     null,
