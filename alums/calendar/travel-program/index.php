@@ -44,7 +44,7 @@ $page_info = json_decode($page_info, true);
 <p>The tentative schedule so far:</p>
 
 <p><strong>Iceland Getaway Weekend with a focus on health & well-being</strong></br>
-Faculty host: Michele Tugade ’95</br>
+Faculty host: Michele Tugade ’95, Professor of Psychological Science on the William R. Kenan, Jr. Chair</br>
 February 8–12, 2024</p>
 
 <p><strong>Paris in the Jazz Age, featuring the African American Experience</strong></br>
