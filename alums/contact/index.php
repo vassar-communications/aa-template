@@ -225,20 +225,6 @@ echo end_contact_card();
 ?>
 
 
-<?php
-echo contact_card(
-    'Ariel Pena',
-    'Associate Vice President for Advancement Services',
-    [
-      'phone' => '845-437-5497',
-      'email' => 'arielpena@vassar.edu',
-    ]
-);
-echo end_contact_card();
-?>
-
-
-
 </div>
 
 
@@ -250,11 +236,11 @@ echo end_contact_card();
                 <div class="grid cols-2 mb-5 mb-5" style="--bs-gap: 2rem">
 <?php
                 echo contact_card(
-                    'TBD',
+                    'Ariel Pe&ntilde;a',
                     'Associate Vice President for Advancement Services',
                     [
-                      'phone' => '',
-                      'email' => '',
+                      'phone' => '845-437-5497',
+                      'email' => 'arielpena@vassar.edu',
                     ]
                 );
                 echo end_contact_card();
@@ -807,7 +793,7 @@ echo contact_card(
     'Jeremy Goldberg',
     'Assistant Director of Gift Planning',
     [
-      'phone' => '845-437-7902',
+      'phone' => '845-437-5429',
       'email' => 'jeremygoldberg@vassar.edu',
     ]
 );
