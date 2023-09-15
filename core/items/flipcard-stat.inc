@@ -26,7 +26,7 @@ function flipcard_stat(
     }
 
     return <<<TMP
-<div class="flip-card $class" $css>
+<div tabindex="0" class="flip-card $class" $css>
   <div class="card-content">
     <div class="card__face card__face--front">
       <div class="flipcard__title tagline mb-3">$title</div>

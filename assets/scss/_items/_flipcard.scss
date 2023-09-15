@@ -55,7 +55,8 @@
 
   @media (hover: hover) {
 
-    &:hover {
+    &:hover,
+    &:focus {
       .card-content {
         transform: rotateY(180deg);
       }
