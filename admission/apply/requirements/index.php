@@ -87,7 +87,7 @@ $page_info = json_decode($page_info, true);
 <ul>
     <li>Early Decision I: <strong>November 22</strong></li>
     <li>Spring Transfer: <strong>November 22</strong></li>
-    <li>Regular Decision and Early Decision II: <strong>January 9</strong></li>
+    <li>Regular Decision and Early Decision II: <strong>January 8</strong></li>
     <li>Fall Transfer: <strong>April 1</strong></li>
 </ul>
 
