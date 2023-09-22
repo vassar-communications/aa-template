@@ -762,6 +762,17 @@ echo end_contact_card();
 
 
 echo contact_card(
+    'Amanda Tyrrell',
+    'Office Specialist',
+    [
+      'phone' => '845-437-5489',
+      'email' => 'atyrrell@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
     'Sallie Moore',
     'Administrative Assistant',
     [
