@@ -97,26 +97,18 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-community/aavc/awards/0037-22-06-kr-reunion-vassar-0025.jpg',
+    '/alums/assets/img/alums-community/aavc/awards/steve-hankins-52958792570_6631bb839b_k.jpg',
     'image-is-first theme-verylightgray',
     '',
-    ['img_alt_text' => 'A person with gray hair speaks into a microphone while standing at an outdoor podium on a sunny day.']
+    ['img_alt_text' => 'Two women, one with brown hair and the other with a baseball cap on her head, and one man with gray hair holding a glass plaque stand smiling at the camera.']
 ); ?>
-<h6 class="tagline">2022 Recipient</h6>
-<h1>Deborah Macfarlan Enright ’82</h1>
+<h6 class="tagline">2023 Recipient</h6>
+<h1>Stephen Hankins ’85, P’13,’17</h1>
 
-
-<p><?php echo item_link_VideoModal(
-    'Watch the Deborah Macfarlan Enright video',
-    'https://player.vimeo.com/video/788023992',
-    'vimeo',
-    '',
-    'no-arrow btn-link mt-4'
-); ?></p>
 
 <?php echo cta_link(
-    'https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards',
-     'Read more about Deborah Macfarlan Enright'
+    'https://www.vassar.edu/news/aavc-announces-2023-honorees',
+     'Read more about Steve Hankins'
 ); ?>
 
 
@@ -181,26 +173,19 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-community/aavc/awards/0037-22-06-kr-reunion-vassar-0019.jpg',
+    '/alums/assets/img/alums-community/aavc/awards/abigail-baird-52957810832_cc603f0fcf_k.jpg',
     'image-is-first theme-verylightgray',
     '',
-    ['img_alt_text' => 'A person with short dark hair speaks into a microphone while standing at an outdoor podium on a sunny day.']
+    ['img_alt_text' => 'Three women of varying ages stand smiling at the camera, with the one in the middle holding a glass plaque.']
 ); ?>
-<h6 class="tagline">2022 Recipient</h6>
-<h1>Edward Pittman ’82</h1>
-<p class="intro-text">Senior Associate Dean of the College (Retired)</p>
+<h6 class="tagline">2023 Recipient</h6>
+<h1>Abigail Baird ’91</h1>
+<p class="intro-text">Professor of Psychological Science on the Arnhold Family Chair</p>
 
-<p><?php echo item_link_VideoModal(
-    'Watch the Edward Pittman video',
-    'https://player.vimeo.com/video/788004126',
-    'vimeo',
-    '',
-    'no-arrow btn-link mt-4'
-); ?></p>
 
 <?php echo cta_link(
-    'https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards',
-     'Read more about Edward Pittman'
+    'https://www.vassar.edu/news/aavc-announces-2023-honorees',
+     'Read more about Abigail Baird'
 ); ?>
 
 
@@ -222,24 +207,17 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-community/aavc/awards/arushi-raina.jpg',
+    '/alums/assets/img/alums-community/aavc/awards/priya-nair-0091-23-08-bl-convocation-nair-vassar-12.jpg',
     'image-is-first',
     '',
-    ['img_alt_text' => 'A person with short black hair stands at a wooden podium, speaking into a microphone.']
+    ['img_alt_text' => 'Three people, all with dark brown hair, stand smiling at the camera, with the person in the middle holding a glass plaque.']
 ); ?>
-<h6 class="tagline">2022 Recipient</h6>
-<h1>Arushi Raina ’14</h1>
+<h6 class="tagline">2023 Recipient</h6>
+<h1>Priya Nair ’15</h1>
 
-<p><?php echo item_link_VideoModal(
-    'Watch the Arushi Raina video',
-    'https://player.vimeo.com/video/745469490',
-    'vimeo',
-    '',
-    'no-arrow btn-link mt-4'
-); ?></p>
 <?php echo cta_link(
-    'https://www.vassar.edu/news/convocation-2022',
-     'Read more about Arushi Raina'
+    'https://www.vassar.edu/news/convocation-2023',
+     'Read more about Priya Nair'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>

@@ -40,7 +40,7 @@ $page_info = json_decode($page_info, true);
 
   <ul class="clean-list-with-borders">
     <li>(she/her/hers)</li>
-    <li>Pennsylvania</li>
+    <li>Illinois</li>
     <li>Term of Service: 2022–2026</li>
   </ul>
 
