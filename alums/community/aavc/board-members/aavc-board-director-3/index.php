@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>AAVC Board Director</li>
+    <li>Nominating and Governance Committee Member and Ad Hoc Diversity, Equity and Inclusion Committee Member</li>
     <li>(she/her/hers)</li>
     <li>Oregon</li>
     <li>Term of Service: 2022–2026</li>

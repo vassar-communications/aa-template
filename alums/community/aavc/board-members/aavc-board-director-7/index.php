@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>AAVC Board Director</li>
+    <li>Alumnae House Committee Member and Alumnae/i Recognition Committee Member</li>
     <li>(she/her/hers)</li>
     <li>New Jersey</li>
     <li>Term of Service: 2022–2026</li>

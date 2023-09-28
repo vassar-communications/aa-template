@@ -60,12 +60,12 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Charlie Stickney ’96',
-        'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/92623-indie-community-at-home-in-the-crowd.html',
-        ['url' => $logos_path.'publishersweekly-logo.png', 'alt' => 'Publishers Weekly logo' ],
+        'Rob LoBreglio ’88 and Eliot Butler ’90',
+        'https://www.channel3000.com/madison-magazine/the-great-dane-is-headed-to-japan/article_15659956-48df-11ee-a899-5f8b0df75971.html',
+        ['url' => $logos_path.'madison-magazine.png', 'alt' => 'Madison Magazine logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p><strong>Charlie Stickney ’96</strong>, a writer, producer, and comic book creator, talked with <em>Publishers Weekly</em> about how crowdfunding helped him launch his comic book series.</p>
+      <p>Great Dane Brewing co-founders <strong>Rob LoBreglio ’88</strong> and <strong>Eliot Butler ’90</strong> discussed their business expansion in Japan in <em>Madison Magazine</em>.</p>
 
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
@@ -73,24 +73,24 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Mildred H. McAfee, class of 1920',
-        'https://www.aerotechnews.com/blog/2023/07/06/veteran-of-the-day-u-s-navy-veteran-mildred-h-mcafee/',
-        ['url' => $logos_path.'aerotechnews-logo.png', 'alt' => 'Aerotech News logo' ],
+        'Tiana Headley ’22',
+        'https://news.bloomberglaw.com/us-law-week/color-of-justice-all-white-benches-persist-in-us-district-courts?utm_medium=lawdesk&utm_source=twitter&campaign=A54DE238-4BED-11EE-A680-4DB7F143A863',
+        ['url' => $logos_path.'bloomberg-law-logo-inline-white.png', 'alt' => 'Bloomberge Law logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p>U.S. Navy veteran <strong>Mildred H. McAfee</strong>, class of 1920, the first director of the Women Accepted for Volunteer Emergency Services (WAVES) and the first woman commissioned in the U.S. Navy Reserve, was the subject of an <em>Aerotech News</em> story.</p>
+        <p><strong>Tiana Headley ’22</strong> wrote the <em>Bloomberg Law</em> article “Color of Justice: All-White Benches Persist in US District Courts.”</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Kimberly Nguyen ’19',
-        'https://www.nytimes.com/2023/06/20/business/job-search-salary-ranges.html',
-        ['url' => $logos_path.'newyorktimes.gif', 'alt' => 'The New York Times logo' ],
+        'Selwa Roosevelt ’50',
+        'https://www.arabamerica.com/pathbreakers-of-arab-america-eighth-in-series-selwa-showker-roosevelt/',
+        ['url' => $logos_path.'arab-america-logo.png', 'alt' => 'Arab America logo' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p><strong>Kimberly Nguyen ’19</strong>, a poet and UX writer, spoke to <em>The New York Times</em> about her experience with an employer regarding salary transparency.</p>
+        <p><strong>Selwa Roosevelt ’50</strong>, a journalist, writer, and Chief of Protocol of the United States, was the subject of an <em>Arab America</em> story.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -107,43 +107,34 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://www.adweek.com/media/creative-100-2023-the-media-innovators-reimagining-the-industrys-future/"><strong>Kiana Moore ’02</strong>, co-director of the award-winning documentary <em>The Beauty of Blackness</em> and Vice President of Epic Stories at Vox Creative, was named to <em>Adweek</em>’s Creative 100</a>, which celebrates top talents in marketing, media, and culture.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://www.advocate.com/books/lesbian-mb-caschetta-memoir">The memoir of author <strong>MB Caschetta ’88</strong>, <em>A Cheerleader’s Guide to Spiritual Enlightenment</em>, was the subject of an <em>Advocate</em> story</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><a href="https://playbill.com/article/schools-of-the-stars-see-where-the-76th-annual-tony-award-winners-went-to-college">Tony award-winning set designer <strong>Beowulf Boritt ’93</strong> was mentioned in a <em>Playbill</em> article</a> about where 2023 Tony Award winners went to college.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><a href="https://www.washingtonpost.com/made-by-history/2023/04/20/nixon-era-roots-todays-opioid-crisis/"><strong>Dr. Zoe Adams ’15</strong> wrote the <em>Washington Post</em> op-ed “The Nixon-era roots of today’s opioid crisis.”</a></p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://www.bkmag.com/2023/07/03/meet-the-lone-tenants-rights-attorney-on-the-nyc-planning-commission/">Tenants’ rights lawyer, Managing Attorney for Housing Policy at Mobilization for Justice, and New York City Planning Commission member <strong>Leah Goodridge ’04</strong> was interviewed by <em>Brooklyn Magazine</em></a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://politicalsciencenow.com/fiona-shen-bayh-receives-the-2023-apsa-ipsa-theodore-j-lowi-first-book-award/"><strong>Fiona Shen-Bayh ’11</strong> received the 2023 American Political Science Association’s Theodore J. Lowi First Book Award</a> for <em>Undue Process: Persecution and Punishment in Autocratic Courts</em>, as noted by Political Science Now.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://www.youtube.com/watch?v=dc_9R7aU7VE&list=PLeyPUMOvEaOi5vPnkOeBenLkKntDYOgPp&index=2"><strong>Andrij V. Dobriansky ’99</strong>, Director of Communications and Media of the Ukrainian Congress Committee of America, discusses many issues related to the war in Ukraine, mostly recently on Press TV</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://coloradosun.com/2023/08/04/field-research-rmbl-gothic-inouye-underwood/"><strong>Nora Underwood ’88</strong> and her family were the subjects of a <em>Colorado Sun article</em></a>, “How one family is carrying on generations-long ecological research near Crested Butte.”</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><a href="https://chestnuthilllocal.com/stories/from-portraits-of-murder-victims-to-kids-book-artwork,28331">Artist, book illustrator, and teacher <strong>Rebecca Hoenig ’81</strong> was the subject of a <em>Chestnut Hill Local</em> story</a>.</p></div>
-
-
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><a href="https://www.dramatistsguild.com/thedramatist/bad-words-and-good-theatre?check_logged_in=1">Author <strong>Joseph Bardin ’89</strong> wrote a Dramatists Guild article, “Bad Words and Good Theatre.”</a></p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11">Tenants’ rights lawyer and New York City Planning Commission member <a href="https://amsterdamnews.com/news/2023/07/27/leah-goodridge-lays-out-her-work-as-nyc-planning-commissioner/"><strong>Leah Goodridge ’04</strong> was the subject of a <em>New York Amsterdam News</em> story</a>.</p></div>
 
 
   <?php echo end_item_col(); ?>
 
   <?php echo item_col(); ?>
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.reformer.com/sports/whitney-reestablishes-23-year-old-school-record/article_c71a1bc6-0c6d-11ee-a127-73a333dba843.html"><strong>Ava Whitney ’27</strong>, a track and field competitor who broke her high school record in the 800-meter run, was the subject of a <em>Brattleboro Reformer</em> story</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><a href="https://cccc.ncte.org/cccc/awards/techsci"><strong>Andrew Fiss ’05</strong>, Associate Professor of Technical & Professional Communication at Michigan Tech, has been awarded “Best Book in Technical or Scientific Communication”</a> for <em>Performing Math: A History of Communication and Anxiety in the American Mathematics Classroom</em> by the Conference on College Composition and Communication.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><a href="https://harpers.org/archive/2023/08/doctors-orders-jason-blakely/"><strong>Jason Blakely ’03</strong>, author and Associate Professor of Political Science at Pepperdine University, wrote the <em>Harper’s Magazine</em> cover story, “Doctor’s Orders: COVID-19 and the new science wars.”</a></p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.citybiz.co/article/453454/penfed-credit-union-promotes-four-leaders-to-senior-vice-president/"><strong>Andrea McCarren ’85</strong>, Vice President of PenFed Credit Union Digital, has been promoted to Senior Vice President of PenFed Digital and President of PenFed Foundation, as noted by <em>CityBiz</em></a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><a href="https://www.fltimes.com/news/co-author-of-era-to-be-remembered-at-canandaigua-gravesite/article_61030734-1b23-11ee-9c9f-f3ecde20a614.html">The grave of ERA co-author and women’s suffrage leader <strong>Crystal Eastman</strong>, class of 1903, will be given a commemorative marker and be added to the National Votes for Women Trail, as noted by the <em>Finger Lakes Times</em></a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><a href="https://autos.yahoo.com/alice-ramsey-first-woman-drive-131400844.html"><strong>Alice Ramsey, class of 1907</strong>, the first woman to drive across the U.S. in an automobile, was the subject of a Yahoo! story</a>.</p></div>
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21"><a href="https://www.americantheatre.org/2023/07/10/craig-lucas-chisa-hutchinson-ryan-j-haddad-win-provincetown-theater-awards/">Playwright <strong>Chisa Hutchinson ’02</strong> was a recipient of a 2023 Provincetown American Playwright Award, as noted by <em>American Theater</em></a>.</p></div>
-
-
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><a href="https://prizes.new-european-bauhaus.eu/"><strong>Ani Kodjabasheva ’12</strong> took part in an award-winning project, “Danube Design Lab Ruse,” which was a European Bauhaus Prize winner</a>.</p></div>
-
-
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="24" data-line-end="25"><a href="https://www.hollywoodreporter.com/movies/movie-news/judith-james-dead-mr-hollands-opus-quiz-show-1235538217/">Emmy-winning producer <strong>Judith James ’59</strong> was remembered by the <em>Hollywood Reporter</em></a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><a href="https://www.theedadvocate.org/teaching-students-about-grace-hoppers-trailblazing-journey-in-computing/">Computer pioneer Rear Admiral <strong>Grace Hopper, class of 1928</strong>, was the subject of an <em>Edvocate</em> story</a>, “Teaching Students About Grace Hopper’s Trailblazing Journey in Computing.”</p></div>
 
 
   <?php echo end_item_col(); ?>
