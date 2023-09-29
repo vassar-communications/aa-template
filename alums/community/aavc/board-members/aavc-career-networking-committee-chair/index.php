@@ -39,9 +39,9 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Career Networking Committee Chair</li>
+    <li>Career Networking Committee Chair and Ad Hoc Diversity, Equity and Inclusion Committee Member</li>
     <li>Brazil</li>
-    <li>Term of Service: 2022–2026</li>
+    <li>Term of Service: 2022–2027</li>
   </ul>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>

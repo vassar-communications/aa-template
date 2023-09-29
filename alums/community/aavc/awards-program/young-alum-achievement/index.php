@@ -37,6 +37,15 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
+<h3 class="mt-5">2023</h3>
+
+<h4>Priya Nair ’15</h4>
+
+<ul class="linked-list">
+  <li>
+   <li><a href="https://www.vassar.edu/news/convocation-2023">Read more about Nair in the Vassar news story about Convocation 2023</a></li>
+</ul>
+
 
 <h3 class="mt-5">2022</h3>
 
@@ -57,10 +66,6 @@ $page_info = json_decode($page_info, true);
 </ul>
 
 
-
-
-
-
 <h3 class="mt-5">2021</h3>
 
 <h4>Marie Dugo Dilemani ’11</h4>
@@ -75,7 +80,6 @@ $page_info = json_decode($page_info, true);
         'no-arrow'
     ); ?>
   </li>
-    <!-- <li><a href="https://www.vassar.edu/news/five-honored-2021-aavc-awards" title="Five Honored with 2021 AAVC Awards">Read about Dilemani in the Vassar news story about the 2021 AAVC Awards</a></li> -->
     <li><a href="https://www.vassar.edu/news/convocation-brings-campus-community-together-again" title="Convocation Brings the Campus Community Together Again">Read more about Dilemani in the Vassar news story about Convocation 2021</a></li>
 </ul>
 

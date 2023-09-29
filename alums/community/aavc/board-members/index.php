@@ -190,7 +190,7 @@ ul.inline-list-links li a {
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
 <div class="position">AAVC President and AAVC Trustee</div>
-<div class="location">Philadelphia</div>
+<div class="location">Illinois</div>
 <div class="term">Term of Service: 2022–2026</div>
 <?php echo end_item_cardWithText(
     '',
@@ -237,24 +237,9 @@ ul.inline-list-links li a {
 ); ?>
 <div class="pronouns">(he/him/his)</div>
 <div class="position">AAVC Trustee, Nominating and Governance Committee Member and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</div>
-<div class="location">Washington</div>
+<div class="location">California</div>
 <div class="term">Term of Service: 2022–2026</div>
 
-<?php echo end_item_cardWithText(
-    null,
-); ?>
-
-
-<?php echo item_cardWithText(
-    'Seiji Hayashi ’91',
-    '/alums/community/aavc/board-members/aavc-trustee-hayashi/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/hayashi-seiji-aavc-alum-001.jpg', 'alt' => 'Seiji Hayashi' ],
-    'related-topics card--withParagraph card-has-cta-icon card-is-link'
-); ?>
-<div class="pronouns">(he/him/his)</div>
-<div class="position">AAVC Trustee, Alumnae/i Recognition Committee Member and Career Networking Committee Member</div>
-<div class="location">Maryland</div>
-<div class="term">Term of Service: 2020–2024</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
@@ -328,7 +313,7 @@ ul.inline-list-links li a {
 <div class="pronouns">(she/her/hers)</div>
 <div class="position">Nominating and Governance Committee Chair, Communications Advisory Committee Member and Ad Hoc Diversity, Equity and Inclusion Committee Member
 </div>
-<div class="location">New York</div>
+<div class="location">New Jersey</div>
 <div class="term">Term of Service: 2020–2024</div>
 <?php echo end_item_cardWithText(
     null,
@@ -341,9 +326,9 @@ ul.inline-list-links li a {
     ['url' => '/alums/assets/img/alums-community/aavc/board/tellez-carlos-hernandez-aavc-alum-001.jpg', 'alt' => 'Carlos Hernandez Tellez' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
-<div class="position">Career Networking Committee Chair</div>
+<div class="position">Career Networking Committee Chair and Ad Hoc Diversity, Equity and Inclusion Committee Member</div>
 <div class="location">Brazil</div>
-<div class="term">Term of Service: 2022–2026</div>
+<div class="term">Term of Service: 2022–2027</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
@@ -428,7 +413,7 @@ ul.inline-list-links li a {
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">AAVC Board Director</div>
+<div class="position">Alumnae House Committee Member and Alumnae/i Recognition Committee Member </div>
 <div class="location">New Jersey</div>
 <div class="term">Term of Service: 2022–2026</div>
 <?php echo end_item_cardWithText(
@@ -471,7 +456,7 @@ ul.inline-list-links li a {
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">AAVC Board Director</div>
+<div class="position">Nominating and Governance Committee Member and Ad Hoc Diversity, Equity and Inclusion Committee Member</div>
 <div class="location">Oregon</div>
 <div class="term">Term of Service: 2022–2026</div>
 <?php echo end_item_cardWithText(
@@ -527,7 +512,7 @@ ul.inline-list-links li a {
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">AAVC Board Director</div>
+<div class="position">Alumnae House Committee Vice Chair and Nominating and Governance Committee Member </div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2023–2027</div>
 <?php echo end_item_cardWithText(
