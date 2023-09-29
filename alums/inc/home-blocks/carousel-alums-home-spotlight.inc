@@ -14,35 +14,17 @@
 ?>
 
 
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-08-04/spotlight/0053-23-06-kr-edu-reunion-vassar-0122.jpg',
-  'is-link',
-  'A classroom with people sitting at a long table. Water bottles are placed on the table. In the foreground, a person with long, black, curly hair and a black-and-white patterned dress talks to a person with long brown hair.'
-); ?>
-  <h3 class="h3">Alums Explore Teaching’s Rewards and Challenges at First Education Department Reunion</h3>
-  <p>Forty alums took part in the on-campus gathering.</p>
-  <p><em>Photo: Karl Rabe</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/alums-explore-teachings-rewards-and-challenges-first-education-department-reunion',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
 
 <?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-08-04/spotlight/Ifill_ctsy_American_Bar_Assn.jpg',
+  $alums_spotlight_itm_path.'/2023-09-28/spotlight/natasha-joshunda-collage-edit-2.jpg',
   'is-link',
-  'A person with long, black, braided hair stands at a podium in front of a blue curtain. The podium has the text “Fairmont, Chicago, Millennium Park” on the front. The person is wearing a bright pink dress.'
+  'Two different photos. On the left is a photo of a person with glasses, a yellow headscarf, and a brightly patterned dress, standing in front of a bookshelf. On the right is a photo of person with short curly hair and a black shirt. Both are smiling at the camera.'
 ); ?>
-  <h3 class="h3">Sherrilyn Ifill ’84 Assumes Howard University Civil Rights Post</h3>
-  <p>Attorney Ifill is now Howard’s Vernon E. Jordan Jr., Esq. Endowed Chair in Civil Rights.</p>
-  <p><em>Photo: Courtesy of the American Bar Association</em></p>
+  <h3 class="h3">Connecting Alums: Multicultural and Affinity Engagement’s New Virtual Series</h3>
+  <p>Featuring Dr. Natasha Gordon-Chipembere ’92 (left) and Joshunda Sanders ’00 (right).</p>
 
   <?php echo cta_link(
-    'https://thedig.howard.edu/all-stories/civil-rights-lawyer-sherrilyn-ifill-appointed-inaugural-vernon-jordan-endowed-chair-civil-rights',
+    'https://www.vassar.edu/news/connecting-alums-multicultural-and-affinity-engagements-new-virtual-series',
     'Read more',
     'stretched-link'
   ); ?>
@@ -52,27 +34,6 @@
 
 
 
-
-
-
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-06-26/spotlight/1973-Reunion-Celebrate-230603-KR-0013.jpg',
-  'is-link',
-  'A crowd of people on a green field. Some people stand and clap on the stage. Next to the stage, three people hold a cloth banner that says “Vassar, 1973” in crimson lettering.'
-); ?>
-  <h3 class="h3">Reunion 2023—Full of Joy and Laughter</h3>
-  <p>The first weekend of June was a particularly joyous one for Vassar as the College welcomed back more than 1,200 alums from near and far for Reunion. While always a blast, this year’s festivities seemed extra jubilant as classmates rushed in for the tight hugs long denied during earlier pandemic years.</p>
-  <p><em>Photo: Karl Rabe</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/reunion-2023-full-joy-and-laughter',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
 
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2023-06-26/spotlight/baird-0045-23-06-kr-reunion-aavc-vassar-0061-compressed.jpg',
