@@ -22,6 +22,7 @@
 ); ?>
   <h3 class="h3">Connecting Alums: Multicultural and Affinity Engagement’s New Virtual Series</h3>
   <p>Featuring Dr. Natasha Gordon-Chipembere ’92 (left) and Joshunda Sanders ’00 (right).</p>
+  <p><em>Photos: Photos: Masauko Chipembere; Julian Budge</em></p>
 
   <?php echo cta_link(
     'https://www.vassar.edu/news/connecting-alums-multicultural-and-affinity-engagements-new-virtual-series',
