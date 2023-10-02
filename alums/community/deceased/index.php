@@ -37,7 +37,23 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 
-<p>[content goes here]</p>
+<!-- Start Dynamic Content -->
+<link href="../dist/alums-data-min.css" rel="stylesheet">
+<div class="cca-page-content">
+
+<div class="cca-data-status">
+    <strong class="cca-data-status-label">Data current as of:</strong>
+    <div id="necro-data-refreshed-dummy"></div>
+</div>
+
+<div id="cca-classes-selector-dummy"></div>
+
+<div id="necrology-table-dummy"></div>
+
+</div>
+
+<script src="../dist/alums-data-min.js"></script>
+<!-- End Dynamic Content -->
 
 
 <?php echo end_sec_regularContent(); ?>

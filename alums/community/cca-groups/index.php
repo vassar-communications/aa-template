@@ -37,8 +37,33 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 
-<p>[content goes here]</p>
+<!-- Start Dynamic Content -->
+<link href="../dist/alums-data-min.css" rel="stylesheet">
+<div class="cca-page-content">
 
+<div class="cca-data-status">
+    <strong class="cca-data-status-label">Data current as of:</strong>
+    <div id="cca-data-refreshed-dummy"></div>
+</div>
+
+<div class="cca-button-tabs">
+    <div id="cca-classes-button-dummy"></div>
+    <div id="cca-clubs-button-dummy"></div>
+    <div id="cca-affiliates-button-dummy"></div>
+</div>
+
+<div id="cca-classes-selector-dummy"></div>
+<div id="cca-clubs-selector-dummy"></div>
+<div class="cca-section-title" id="cca-classes-text-dummy"></div>
+<div class="cca-section-title" id="cca-clubs-text-dummy"></div>
+<div class="cca-section-title" id="cca-affiliates-text-dummy"></div>
+
+<div id="cca-table-dummy"></div>
+
+</div>
+
+<script src="../dist/alums-data-min.js"></script>
+<!-- End Dynamic Content -->
 
 <?php echo end_sec_regularContent(); ?>
 
