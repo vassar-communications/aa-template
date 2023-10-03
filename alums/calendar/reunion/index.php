@@ -111,39 +111,37 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_regularContent(); ?>
 
-<?php /* --hiding content until needed for 2024--
 
 <?php echo sec_fullBleedImageColumn(
     'General Reunion<br> Class Schedule',
-    $alums_img_path.'alums-calendar/reunion/Reunion_Parade_180609_KR_8754.jpg',
+    $alums_img_path.'alums-calendar/reunion/Reunion-General-52960456425_6f999747a0_k.jpg',
     'theme-burgundy',
     '',
-    ['img_alt_text' => 'a large group of people walking up a winding road on Vassar campus']
+    ['img_alt_text' => 'a large group of people sitting at round tables under a huge tent on Noyes Circle at Vassar College']
 ); ?>
 <?php echo cta_link(
     '/alums/calendar/reunion/schedule/',
-    'See the Reunion schedule'
+    'See the Reunion Schedule Preview'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_fullBleedImageColumn(
     '50th Reunion<br> Class Schedule',
-    $alums_img_path.'alums-calendar/reunion/Reunion_1806_CS_073.jpg',
+    $alums_img_path.'alums-calendar/reunion/Reunion-50th-1974-48139007901_53fb3fba6b_k.jpg',
     'image-is-first',
     '',
-    ['img_alt_text' => 'Overhead shot of people seated a round table in a large room for an event']
+    ['img_alt_text' => 'People walking in a group, with some people holding a banner reading The Legendary Class of 1974']
 ); ?>
 
-<p>Enjoy the campus a day early with programming designed especially for the 50th Reunion class. Check-in will open on Thursday, June 1 at 2:00 p.m.</p>
+<p>Enjoy the campus a day early with programming designed especially for the 50th Reunion class. Check-in will open on Thursday, May 30 at 4:00 p.m.</p>
 
 <?php echo cta_link(
     '50th/',
-    'See the 50th Reunion Schedule'
+    'See the 50th Reunion Schedule Preview'
 ); ?>
-
-
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
+<?php /* --hiding content until needed for 2024--
 
 <?php echo sec_fullBleedImageColumn(
     'Lectures, Panels, and Tours',
@@ -161,8 +159,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-
-
+--end hiding content */ ?>
 
 
 <div id="information-updates"></div>
@@ -179,8 +176,7 @@ $page_info = json_decode($page_info, true);
 </ul>
 <p>Already have the app and use the “Alum” persona? Tap on the person icon in the upper right corner of the app, then tap on “My Role” to switch to the Reunion persona for the weekend.</p>
 <h4>Alum ID Card</h4>
-<p>Ever visit campus and wish you had an ID card for access to the College’s library and fitness center?</p>
-<p>If you would like to get an Alum ID card during Reunion, please submit the <a href="https://offices.vassar.edu/card/alum-id-card-request/">Alum ID Card Request Form</a> by <strong>May 17, 2023</strong>. The Card Office will make sure everything is ready for you to get your Alum ID card at Reunion. Alum ID cards are only issued in person at Vassar’s Service Desk located in the College Center, North Atrium, as a photo must be taken for the card.  The Service Desk will be open during Reunion on Friday, June 2, from 8:30 a.m.–5&nbsp;p.m. and Saturday, June 3, from 12 p.m.–5 p.m. For more information, contact the Card Office at <a href="tel:+18454513333">(845) 451-3333</a>.</p>
+<p>If you would like to get an Alum ID card during Reunion, please submit the <a href="https://offices.vassar.edu/card/alum-id-card-request/">Alum ID Card Request Form</a> by <strong>May 17, 2024</strong>. The Card Office will make sure everything is ready for you to get your Alum ID card at Reunion. Alum ID cards are only issued in person at Vassar’s Service Desk located in the College Center, North Atrium, as a photo must be taken for the card.  The Service Desk will be open during Reunion on Friday, May 31, from 8:30 a.m.–5&nbsp;p.m. and Saturday, June 1, from 12 p.m.–5 p.m. For more information, contact the Card Office at <a href="tel:+18454513333">(845) 451-3333</a>.</p>
 
 <?php echo end_item_iconItem(); ?>
 
@@ -244,12 +240,17 @@ $page_info = json_decode($page_info, true);
                     2750 South Rd</br>
                     Poughkeepsie NY 12601</br>
                     (845) 473-1151</br>
-                    <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/poughkeepsie/pouny/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-US-_-POUNY">Book a room at the Holiday Inn Express online with code CVR</a></p>
+                    <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/poughkeepsie/pouny/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-US-_-POUNY">Book a room at the Holiday Inn Express by referring to Vassar Reunion and booking code “WEE”</a></p>
                     <p><strong>Quality Inn</strong> (walking distance from the college)</br>
                     536 Haight Ave</br>
                     Poughkeepsie NY 12603</br>
                     (845) 454-1010</br>
-                    <a href=" https://www.choicehotels.com/reservations/groups/RO40F0">Book a room at the Quality Inn online (group rate already applied)</a></p>
+                    <a href="https://www.choicehotels.com/reservations/groups/ZD39L5">Book a room at the Quality Inn online (group rate already applied)</a></p>
+                    <p><strong>Homewood Suites Poughkeepsie</strong></br>
+                    900 Thomas Watson Drive</br>
+                    Poughkeepsie NY 12601</br>
+                    (845) 462-0030</br>
+                    <a href="https://links.h6.hilton.com/f/a/Z7g2dJWPznxyhC09q8VFrg~~/AAQRxQA~/RgRm5fngP0RRaHR0cHM6Ly93d3cubXktZXZlbnQuaGlsdG9uLmNvbS9wb3Vwbmh3LXZhcy03YzA5NTUwMC00MTM2LTQ2OWEtODZlMC00YjhjMTU1Mzc0Y2MvVwNzcGNCCmT64HQDZRrRj2NSE3BvdXBuX2RzQGhpbHRvbi5jb21YBAAAAuI~">View the Homewood Suites Poughkeepsie Vassar Reunion 2024 attendee website and reserve a room</a></p>
             </div>
         </div>
     </div>
@@ -259,11 +260,13 @@ $page_info = json_decode($page_info, true);
     <div class="accordion-item">
         <div class="accordion-header" id="flush-headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Reunion 2023 Dorm Headquarters
+                Reunion 2024 Dorm Headquarters
             </button>
         </div>
         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
             <div class="accordion-body">
+                <p>Dorm assignments will be announced in January 2024</p>
+                <!--
                 <p><strong>1958:</strong> Jewett House<br />
 <strong>1963:</strong> Jewett House<br />
 <strong>1968:</strong> Jewett House<br />
@@ -277,7 +280,7 @@ $page_info = json_decode($page_info, true);
 <strong>2008:</strong> Raymond House<br />
 <strong>2013:</strong> TownHouse 164<br />
 <strong>2016:</strong> Lathrop House<br />
-<strong>2018:</strong> Noyes House</p>
+<strong>2018:</strong> Noyes House</p> -->
             </div>
         </div>
     </div>
@@ -314,8 +317,8 @@ $page_info = json_decode($page_info, true);
 <?php echo end_item_iconItem(); ?>
 
 <?php echo item_iconItem('New York City Bus','bus',''); ?>
-<h4>Friday, June 2: Depart from NYC (Bryant Park) at 12 p.m.</h4>
-<h4>Sunday, June 4: Depart from Vassar (Main Circle) at 1 p.m.</h4>
+<h4>Friday, May 31: Depart from NYC (Bryant Park) at 12 p.m.</h4>
+<h4>Sunday, June 2: Depart from Vassar (Main Circle) at 1 p.m.</h4>
 <p>The Vassar Club of New York will be on hand to greet you on Friday on the south side of 42nd Street between 5th and 6th Avenues, in front of Bryant Park, as shown in the Google Map below.</p>
 <style>.embed-container { position: relative; padding-bottom: 56.25%; margin-bottom: 20px; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 20px; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3022.34973581112!2d-73.98570558727074!3d40.754331934902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDQ1JzE1LjYiTiA3M8KwNTgnNTkuMyJX!5e0!3m2!1sen!2sus!4v1682952585698!5m2!1sen!2sus' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div>
 <?php echo end_item_iconItem(); ?>
@@ -325,7 +328,7 @@ $page_info = json_decode($page_info, true);
 <ul>
     <li><a href="https://www.vassar.edu/smokefree/">Vassar is a smoke-free campus</a>.</li>
     <li>All bathrooms are gender-neutral, unless otherwise noted.</li>
-    <li>Loop technology for hearing assistance is available in the 1951 Reading Room in Thompson Library and Rockefeller Hall, Auditorium 300.  FM system capability available in the Chapel.</li>
+    <li>Loop technology for hearing assistance is available in the 1951 Reading Room in Thompson Library and Rockefeller Hall, Auditorium 300. FM system capability available in the Chapel.</li>
     <li>No password needed to connect to Vassar Public Wi-Fi.</li>
 </ul>
 <?php echo end_item_iconItem(); ?>
@@ -346,7 +349,7 @@ $page_info = json_decode($page_info, true);
 <div id="campus-facilities"></div>
 
 <?php echo sec_hasColumns(
-    'Campus Facilities Hours and Services',
+    'Campus Facilities Hours and Services (Tentative)',
     '2',
     null,
     'mw-inner-1',
@@ -422,7 +425,7 @@ $page_info = json_decode($page_info, true);
   <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
-*/ ?>
+
 
 
 <?php echo relatedTopics(); ?>
