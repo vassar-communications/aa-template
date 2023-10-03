@@ -39,7 +39,9 @@ $page_info = json_decode($page_info, true);
 
 <!-- Start Dynamic Content -->
 <link href="https://s.vassar.edu/alums_data/dist/alums-data-min.css" rel="stylesheet">
-<div class="cca-page-content">
+<div class="cca-page-content cca-page-content-deceased">
+
+<p class="cca-page-content-deceased-notice">Select a decade or start a search to view content.</p>
 
 <div class="cca-data-status">
     <strong class="cca-data-status-label">Data current as of:</strong>
