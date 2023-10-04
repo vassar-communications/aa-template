@@ -132,14 +132,6 @@ $page_info = json_decode($page_info, true);
   ); ?>
 
   <?php echo schedule_item_dropdown(
-    '9:30 p.m.',
-    '“The Group”',
-    null,
-    null,
-    ['noContent' => true]
-  ); ?>
-
-  <?php echo schedule_item_dropdown(
     '9:30 p.m.–11:30 p.m.',
     '1974 Hospitality lounge',
     'Davison multipurpose room'
