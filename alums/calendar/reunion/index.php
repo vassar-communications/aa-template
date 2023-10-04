@@ -97,8 +97,7 @@ $page_info = json_decode($page_info, true);
 
   <h3>Future Reunion Dates</h3>
 
-  <p>May 31–June 2, 2024<br>
-  June 6–8, 2025<br>
+  <p>June 6–8, 2025<br>
   June 5–7, 2026</p>
 
   <h3>Past Reunions</h3>
@@ -166,6 +165,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent('Information & Updates','theme-verylightgray','','',); ?>
 
+<?php /* --hiding content2 until needed for 2024--
 
 <?php echo item_iconItem('New This Year!','star',''); ?>
 <h4>Vassar Mobile App for Reunion</h4>
@@ -221,6 +221,7 @@ $page_info = json_decode($page_info, true);
 <p><a href="https://offices.vassar.edu/campus-safety/procedures/">Read Vassar’s complete emergency procedures</a>.</p>
 <?php echo end_item_iconItem(); ?>
 
+--end hiding content2 */ ?>
 
 <?php echo item_iconItem('Housing','house-chimney',''); ?>
 <p>We are excited to welcome alums back to Vassar for in-person reunions and want to ensure that everyone makes informed decisions about where to stay.</p>
@@ -240,7 +241,7 @@ $page_info = json_decode($page_info, true);
                     2750 South Rd</br>
                     Poughkeepsie NY 12601</br>
                     (845) 473-1151</br>
-                    <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/poughkeepsie/pouny/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-US-_-POUNY">Book a room at the Holiday Inn Express by referring to Vassar Reunion and booking code “WEE”</a></p>
+                    Refer to Vassar Reunion and booking code “WEE” when calling to make the reservation.</p>
                     <p><strong>Quality Inn</strong> (walking distance from the college)</br>
                     536 Haight Ave</br>
                     Poughkeepsie NY 12603</br>
@@ -304,7 +305,7 @@ $page_info = json_decode($page_info, true);
                     <li>Are not guaranteed to be quiet.</li>
                 </ul>
 
-                <p>We regret that we are unable to guarantee single room requests. If you are attending Reunion by yourself, we encourage coordinating with friends in advance to ensure your roommate of choice. If you require a single room or a room with a private bathroom, we strongly encourage you to make reservations at one of the Hudson Valley’s area hotels.</p>
+                <p>We regret that we are unable to guarantee single room requests. If you are attending Reunion by yourself, we encourage coordinating with friends in advance to ensure your roommate of choice. If you require a single room, please indicate that in the special housing notes. If you require a room with a private bathroom, we strongly recommend you make reservations at one of the Hudson Valley’s area hotels.</p>
 
                 <p>Please Note: Alumnae House is reserved for the 70th and 75th Reunion Classes.</p>
 
@@ -368,10 +369,10 @@ $page_info = json_decode($page_info, true);
 
   <h3>Street Eats food truck, outside Gordon Commons</h3>
   <ul>
-    <li>Saturday: 7:30 a.m.–11 a.m.</li>
+    <li>Saturday: 7:30 a.m.–5 p.m.</li>
     <li>Sunday: 7:30 a.m.–11 a.m.</li>
   </ul>
-  <p><em>Coffee, light continental selections</em></p>
+  <p><em>Coffee, light refreshments and snacks</em></p>
 
   <h3>Thompson Memorial Library including the Art Library</h3>
   <ul>
