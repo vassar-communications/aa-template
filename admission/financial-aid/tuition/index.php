@@ -57,7 +57,8 @@ $page_info = json_decode($page_info, true);
     <?php echo item_stat(
       'Tuition',
       $facts[$current_school_year]['adm_tuition'],
-      'For the ' . $current_school_year . ' school year',
+      null,
+      /* 'For the ' . $current_school_year . ' school year', */
       'stat-value-small',
       [
         'format_number' => true,

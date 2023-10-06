@@ -217,7 +217,7 @@ $page_info = json_decode($page_info, true);
                 </ul>
                 <p><strong>Important Information:</strong></p>
                 <ul>
-                    <li>Interest rate: 4.99% (fixed) for 2022-2023</li>
+                    <li>Interest rate: 5.50% (fixed) for 2023-2024</li>
                     <li>Origination fee: 1.057%</li>
                     <li>Maximum annual limit:
                         <ul>
@@ -249,8 +249,8 @@ $page_info = json_decode($page_info, true);
                 </ul>
                 <p><strong>Important Information:</strong></p>
                 <ul>
-                    <li>Interest rate: 7.54% (fixed) for 2022-2023</li>
-                    <li>Origination fee:  4.228%</li>
+                    <li>Interest rate: 8.05% (fixed) for 2023-2024</li>
+                    <li>Origination fee: 4.228%</li>
                     <li>Maximum annual limit: total cost of attendance (budget) less any financial aid the student receives</li>
                     <li>Repayment begins once the loan is fully disbursed, with an option to request a deferment</li>
                     <li>Repayment period varies depending on plan selected</li>
