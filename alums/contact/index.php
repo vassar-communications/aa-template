@@ -627,11 +627,11 @@ echo end_contact_card();
                 <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
-    'Erin Martin',
+    'TBD',
     'Associate Vice President for Individual Giving',
     [
-      'phone' => '845-437-5486',
-      'email' => 'erinmartin@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
