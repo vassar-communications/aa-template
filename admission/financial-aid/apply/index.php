@@ -65,7 +65,7 @@ $page_info = json_decode($page_info, true);
 
     <ul class="labeled-list">
         <?php echo labeled_list_item('Vassar code', '002895'); ?>
-        <?php echo labeled_list_item('Available after', 'October 1st'); ?>
+        <?php echo labeled_list_item('Available', 'December 2023'); ?>
         <?php echo labeled_list_item('Applies to', 'U.S. Citizens and Permanent Residents only'); ?>
     </ul>
 
@@ -167,8 +167,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
     <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2022/10/Prospective_US_2324.pdf">U.S. Citizen or Permanent Resident (PDF)</a></li>
     <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2022/10/Prospective_Canadian_2223.pdf">Canadian Citizen (PDF)</a></li>
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2022/10/Prospective_IntlUS_2324.pdf">International Student (inside US) (PDF)</a></li>
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2022/10/Prospective_Intl_2324.pdf">International Student (outside US) (PDF)</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/docs/prospective-international.pdf">International Student (PDF)</a></li>
 </ul>
 
 
