@@ -41,7 +41,7 @@ $page_info = json_decode($page_info, true);
   <ul class="clean-list-with-borders">
     <li>Nominating and Governance Committee Member and Alumnae House Committee Member</li>
     <li>(she/her/hers)</li>
-    <li>New York</li>
+    <li>Georgia</li>
     <li>Term of Service: 2020–2024</li>
   </ul>
 
