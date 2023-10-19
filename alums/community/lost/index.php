@@ -8,9 +8,8 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Lost",
-  "page_classes":"",
-  "feature_image":"/alums/assets/img/alums-community/alum-groups/Vassar_Reunion_2206_CS-417.jpg"
+  "page_title":"Lost Classmates",
+  "page_classes":"", "feature_image":"/alums/assets/img/alums-community/alum-groups/Vassar_Reunion_2206_CS-417.jpg"
 }';
 
 /* === */
