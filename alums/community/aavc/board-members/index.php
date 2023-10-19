@@ -484,7 +484,7 @@ ul.inline-list-links li a {
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
 <div class="position">Nominating and Governance Committee Member and Alumnae House Committee Member</div>
-<div class="location">New York</div>
+<div class="location">Georgia</div>
 <div class="term">Term of Service: 2020–2024</div>
 <?php echo end_item_cardWithText(
     null,
@@ -497,7 +497,7 @@ ul.inline-list-links li a {
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">AAVC Board Director</div>
+<div class="position">Class Engagement Committee Member and Alumnae House Committee Member</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2022–2026</div>
 <?php echo end_item_cardWithText(
