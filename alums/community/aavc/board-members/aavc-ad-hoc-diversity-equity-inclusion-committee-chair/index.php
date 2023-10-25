@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Delia Cheung Hom ’00']
+    ['img_alt_text' => 'A person with short straight black hair, a dark blue shirt, and a silver necklace smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

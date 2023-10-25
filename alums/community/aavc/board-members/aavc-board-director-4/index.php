@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/reid-chip-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Chip Reid ’77']
+    ['img_alt_text' => 'A person with short straight brown hair, black suit jacket, blue patterned tie, and white shirt smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

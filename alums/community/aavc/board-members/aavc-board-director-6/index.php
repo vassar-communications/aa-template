@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/st-john-keith-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Keith St John ’81']
+    ['img_alt_text' => 'A person with closely cropped gray-black hair, a white beard and gray mustaches, a patterned shirt and purple tie smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

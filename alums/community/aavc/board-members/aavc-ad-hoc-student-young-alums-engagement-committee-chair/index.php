@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/winter-ellie-aavc-alum-6332.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Ellie Winter ’18']
+    ['img_alt_text' => 'A person with curly shoulder length hair and a black sweater looks at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

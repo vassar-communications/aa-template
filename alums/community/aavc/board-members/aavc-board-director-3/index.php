@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/nagae-peggy-ann-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Peggy Ann Nagae ’73']
+    ['img_alt_text' => 'A person with long brown hair and bangs, a red and black shirt, and white bead necklace smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

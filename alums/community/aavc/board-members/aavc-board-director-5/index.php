@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/smikle-sheryl-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Sheryl Smikle ’81']
+    ['img_alt_text' => 'A person with short curly gray hair, and a black shirt with colored flowers on it smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

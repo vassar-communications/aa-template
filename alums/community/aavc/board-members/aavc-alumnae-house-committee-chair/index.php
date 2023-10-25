@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/estrada-james-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'James Estrada']
+    ['img_alt_text' => 'A person with short black hair, a mustache and beard, arms crossed, a gray jacket, and a black shirt smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

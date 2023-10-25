@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/deyoung-patrick-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Patrick DeYoung ’18, AAVC Trustee']
+    ['img_alt_text' => 'A person wearing a gray suit jacket over a blue shirt and a gray patterned tie looks at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

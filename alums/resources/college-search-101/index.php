@@ -44,7 +44,7 @@ $page_info = json_decode($page_info, true);
     <p>Sunday, November 12, 2023<br />11:00 a.m.–4:00 p.m. ET</p>
     <?php echo cta_link(
     'https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=7090&cid=11813&ecid=11813&ciid=30387&crid=0',
-    'Registration is Open!'
+    'Registration for College Search 101 is Open!'
 ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>

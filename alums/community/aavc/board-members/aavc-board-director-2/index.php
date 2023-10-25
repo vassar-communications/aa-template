@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/alisa-swire.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Alisa Swire ’84']
+    ['img_alt_text' => 'A person with shoulder-length wavy brown hair, gray jacket, and white shirt smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">
