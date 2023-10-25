@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/forman-tyrone-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Tyrone Forman, AAVC Vice President and AAVC Trustee']
+    ['img_alt_text' => 'A person with closely cropped dark gray hair, a mustache and goatee, with a black checkered shirt smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/solum-andrew-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Andrew Solum']
+    ['img_alt_text' => 'A person with short brown hair, a black jacket, and a blue and white striped shirt smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

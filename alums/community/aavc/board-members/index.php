@@ -184,7 +184,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Monica Vachher ’77',
     '/alums/community/aavc/board-members/aavc-president/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/vachher-monica-aavc-alum-001.jpg', 'alt' => 'Monica Vachher' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/vachher-monica-aavc-alum-001.jpg', 'alt' => 'A person with long dark brown hair, a black shirt with a red sweater over it, and a red necklace smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
@@ -200,7 +200,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Brian Farkas ’10',
     '/alums/community/aavc/board-members/aavc-vice-president/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/farkas-brian-aavc-alum-001.jpg', 'alt' => 'Brian Farkas' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/farkas-brian-aavc-alum-001.jpg', 'alt' => 'A person with short brown hair, a dark formal jacket, and a burgundy patterned tie smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
@@ -215,7 +215,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Tyrone Forman ’92',
     '/alums/community/aavc/board-members/aavc-vice-president-2/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/forman-tyrone-aavc-alum-001.jpg', 'alt' => 'Tyrone Forman' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/forman-tyrone-aavc-alum-001.jpg', 'alt' => 'A person with closely cropped dark gray hair, a mustache and goatee, with a black checkered shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
@@ -231,7 +231,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Patrick DeYoung ’18',
     '/alums/community/aavc/board-members/aavc-trustee-deyoung/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/deyoung-patrick-aavc-alum-001.jpg', 'alt' => 'Patrick DeYoung' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/deyoung-patrick-aavc-alum-001.jpg', 'alt' => 'A person wearing a gray suit jacket over a blue shirt and a gray patterned tie looks at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
@@ -247,7 +247,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Delia Cheung Hom ’00',
     '/alums/community/aavc/board-members/aavc-ad-hoc-diversity-equity-inclusion-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg', 'alt' => 'Delia Cheung Hom' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg', 'alt' => 'A person with short straight black hair, a dark blue shirt, and a silver necklace smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
@@ -262,7 +262,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Alexandria Dempsey ’09',
     '/alums/community/aavc/board-members/aavc-class-engagement-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/dempsey-alexandria-aavc-alum-001.jpg', 'alt' => 'Alexandria Dempsey' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/dempsey-alexandria-aavc-alum-001.jpg', 'alt' => 'A person with long dark brown hair, black shirt, black jacket, and silver necklace smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
@@ -277,7 +277,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'James Estrada ’13',
     '/alums/community/aavc/board-members/aavc-alumnae-house-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/estrada-james-aavc-alum-001.jpg', 'alt' => 'James Estrada' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/estrada-james-aavc-alum-001.jpg', 'alt' => 'A person with short black hair, a mustache and beard, arms crossed, a gray jacket, and a black shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
@@ -291,7 +291,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Justin Hergianto ’04',
     '/alums/community/aavc/board-members/aavc-communications-advisory-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/Justin_Hergianto-removebg-aavc-alum-001.jpg', 'alt' => 'Justin Hergianto' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/Justin_Hergianto-removebg-aavc-alum-001.jpg', 'alt' => 'A person with short grey-black hair and a dark blue shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
@@ -306,7 +306,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Anne Green ’93',
     '/alums/community/aavc/board-members/aavc-nominating-and-governance-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/green-anne-aavc-alum-001.jpg', 'alt' => 'Anne Green' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/green-anne-aavc-alum-001.jpg', 'alt' => 'A person with wavy grey-black hair pulled back from their face, a dark blue jacket over a red shirt, and a red beaded necklace smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
@@ -322,7 +322,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Carlos Hernandez Tellez ’14',
     '/alums/community/aavc/board-members/aavc-career-networking-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/tellez-carlos-hernandez-aavc-alum-001.jpg', 'alt' => 'Carlos Hernandez Tellez' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/tellez-carlos-hernandez-aavc-alum-001.jpg', 'alt' => 'A person with wavy black hair, a mustache, and a light gray jacket over a black shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="position">Career Networking Committee Chair and Ad Hoc Diversity, Equity and Inclusion Committee Member</div>
@@ -336,7 +336,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Katherine “Kat” Mills Polys ’93',
     '/alums/community/aavc/board-members/aavc-vassar-fund-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/polys-kat-mills-aavc-alum-001.jpg', 'alt' => 'Katherine “Kat” Mills Polys' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/polys-kat-mills-aavc-alum-001.jpg', 'alt' => 'A person with shoulder length grey black wavy hair and a patterned collared shirt looks at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
@@ -351,7 +351,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Amy Pullman ’71',
     '/alums/community/aavc/board-members/aavc-alums-recognition-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/pullman-amy-aavc-alum-001.jpg', 'alt' => 'Amy Pullman' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/pullman-amy-aavc-alum-001.jpg', 'alt' => 'A person with short curly gray-brown hair and a white collared shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
@@ -365,7 +365,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Andrew Solum ’89',
     '/alums/community/aavc/board-members/aavc-clubs-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/solum-andrew-aavc-alum-001.jpg', 'alt' => 'Andrew Solum' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/solum-andrew-aavc-alum-001.jpg', 'alt' => 'A person with short brown hair, a black jacket, and a blue and white striped shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
@@ -379,7 +379,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Ellie Winter ’18',
     '/alums/community/aavc/board-members/aavc-ad-hoc-student-young-alums-engagement-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/winter-ellie-aavc-alum-6332.jpg', 'alt' => 'Ellie Winter' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/winter-ellie-aavc-alum-6332.jpg', 'alt' => 'A person with curly shoulder length hair and a black sweater looks at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
@@ -394,7 +394,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Katrine “Cage” Ames ’69',
     '/alums/community/aavc/board-members/aavc-board-director-1/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/ames-katrine-cage-aavc-alum-001.jpg', 'alt' => 'Katrine “Cage” Ames' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/ames-katrine-cage-aavc-alum-001.jpg', 'alt' => 'A person with blond short hair, black jacket, and a blue patterned scarf smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
@@ -408,7 +408,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Gail Becker ’64',
     '/alums/community/aavc/board-members/aavc-board-director-7/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/becker-gail-aavc-alum-001.jpg', 'alt' => 'Gail Becker' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/becker-gail-aavc-alum-001.jpg', 'alt' => 'A person with short wavy gray-brown hair and a black turtleneck sweater smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
@@ -423,7 +423,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Maybelle Taylor Bennett ’70',
     '/alums/community/aavc/board-members/aavc-board-director-8/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/bennett-maybelle-taylor-aavc-alum-001.jpg', 'alt' => 'Maybelle Taylor Bennett' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/bennett-maybelle-taylor-aavc-alum-001.jpg', 'alt' => 'A person wearing a purple head covering, glasses, and a purple scarf smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers) </div>
@@ -437,7 +437,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'AC Dumlao ’13',
     '/alums/community/aavc/board-members/aavc-board-director-9/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/AC-Dumlao_Headshot_Credit-AC-Dumlao_AAVC.jpg', 'alt' => 'AC Dumlao' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/AC-Dumlao_Headshot_Credit-AC-Dumlao_AAVC.jpg', 'alt' => 'A person with a closely shaven head, glasses, dark colored jacket, and a white shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(they/them/he/him)</div>
@@ -451,7 +451,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Peggy Ann Nagae ’73',
     '/alums/community/aavc/board-members/aavc-board-director-3/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/nagae-peggy-ann-aavc-alum-001.jpg', 'alt' => 'Peggy Ann Nagae' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/nagae-peggy-ann-aavc-alum-001.jpg', 'alt' => 'A person with long brown hair and bangs, a red and black shirt, and white bead necklace smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
@@ -465,7 +465,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Chip Reid ’77',
     '/alums/community/aavc/board-members/aavc-board-director-4/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/reid-chip-aavc-alum-001.jpg', 'alt' => 'Chip Reid' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/reid-chip-aavc-alum-001.jpg', 'alt' => 'A person with short straight brown hair, black suit jacket, blue patterned tie, and white shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
@@ -479,7 +479,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Sheryl Smikle ’81',
     '/alums/community/aavc/board-members/aavc-board-director-5/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/smikle-sheryl-aavc-alum-001.jpg', 'alt' => 'Sheryl Smikle' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/smikle-sheryl-aavc-alum-001.jpg', 'alt' => 'A person with short curly gray hair, and a black shirt with colored flowers on it smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
@@ -493,7 +493,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Keith St John ’81',
     '/alums/community/aavc/board-members/aavc-board-director-6/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/st-john-keith-aavc-alum-001.jpg', 'alt' => 'Keith St John' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/st-john-keith-aavc-alum-001.jpg', 'alt' => 'A person with closely cropped gray-black hair, a white beard and gray mustaches, a patterned shirt and purple tie smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
@@ -507,7 +507,7 @@ ul.inline-list-links li a {
 <?php echo item_cardWithText(
     'Alisa Swire ’84',
     '/alums/community/aavc/board-members/aavc-board-director-2/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/alisa-swire.jpg', 'alt' => 'Alisa Swire' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/alisa-swire.jpg', 'alt' => 'A person with shoulder-length wavy brown hair, gray jacket, and white shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>

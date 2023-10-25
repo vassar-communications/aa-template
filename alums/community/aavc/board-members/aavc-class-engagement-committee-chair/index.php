@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/dempsey-alexandria-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Alexandria Dempsey']
+    ['img_alt_text' => 'A person with long dark brown hair, black shirt, black jacket, and silver necklace smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/becker-gail-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Gail Becker ’64']
+    ['img_alt_text' => 'A person with short wavy gray-brown hair and a black turtleneck sweater smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">
