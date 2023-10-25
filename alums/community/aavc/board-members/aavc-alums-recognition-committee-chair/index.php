@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/pullman-amy-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Amy Pullman ’71']
+    ['img_alt_text' => 'A person with short curly gray-brown hair and a white collared shirt smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

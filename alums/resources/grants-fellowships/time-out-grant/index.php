@@ -41,7 +41,7 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-resources/grants-fellowships/irene_lopez_dominican_republic_16x9.jpg',
     null,
     null,
-    ['img_alt_text' => 'Irene López smiling']
+    ['img_alt_text' => 'Irene López smiling at the camera']
   );
 ?>
 
@@ -72,7 +72,7 @@ $page_info = json_decode($page_info, true);
       'https://www.vassar.edu/stories/2021/time-out-awardee-bishop-joseph-tolton-89.html',
       [
         'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2022-06/bishop-tolton-2021-card.jpg',
-        'alt' => 'Bishop Joseph Tolton'
+        'alt' => 'Bishop Joseph Tolton ’89 standing at a lecturn outdoors on the Vassar campus'
       ],
       'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
   ); ?>
@@ -84,7 +84,7 @@ $page_info = json_decode($page_info, true);
       'https://www.vassar.edu/news/time-out-grant-winner-explores-legacy-koreas-division-new-book',
       [
         'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2022-04/katherinekim_3235-by-dahlia-simone-kim-levy-card_0.jpg',
-        'alt' => 'Katherine Yungmee Kim'
+        'alt' => 'Katherine Yungmee Kim ’93 smiling at the camera'
       ],
       'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
   ); ?>
@@ -96,7 +96,7 @@ $page_info = json_decode($page_info, true);
       'https://www.vassar.edu/stories/2020/vassar-time-out-grant-gives-sustainable-farming-advocate-more-latitude-to-make-a-difference.html',
       [
         'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2021-07/time-out-eliott.jpg',
-        'alt' => 'Pablo Elliott'
+        'alt' => 'Pablo Elliott ’00 holding onto a tree with his two young children in his arms'
       ],
       'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
   ); ?>
@@ -109,7 +109,7 @@ $page_info = json_decode($page_info, true);
       'https://www.vassar.edu/vq/issues/2010/01/beyond-vassar/turning-handicrafts-opportunity.html',
       [
         'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2021-07/klein.jpg',
-        'alt' => 'Susan Yacubian Klein'
+        'alt' => 'Susan Yacubian Klein ’64 standing beneath the trunk of a stone carved elephant'
       ],
       'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
   ); ?>
@@ -122,7 +122,7 @@ $page_info = json_decode($page_info, true);
       'https://www.vassar.edu/vq/issues/2010/03/beyond-vassar/dream-a-little-dream.html',
       [
         'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2021-07/kramer.jpg',
-        'alt' => 'Jane Kramer'
+        'alt' => 'Jane Kramer ’78 and a young boy with musical instruments'
       ],
       'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
   ); ?>
@@ -135,7 +135,7 @@ $page_info = json_decode($page_info, true);
       'https://www.washingtonpost.com/sf/national/2016/09/22/from-hiroko-to-susie-the-untold-stories-of-japanese-war-brides/?noredirect=on&utm_term=.975bd531e220',
       [
         'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2021-07/tolbert-kathrynandhiroko-final.jpg',
-        'alt' => 'Kathryn Tolbert'
+        'alt' => 'Kathryn Tolbert ’74 wearing a winter coat and hat, surrounded by two other women smiling at the camera'
       ],
       'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
   ); ?>

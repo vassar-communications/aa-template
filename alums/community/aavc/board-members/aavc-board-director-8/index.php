@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/bennett-maybelle-taylor-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Maybelle Taylor Bennett ’70']
+    ['img_alt_text' => 'A person wearing a purple head covering, glasses, and a purple scarf smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

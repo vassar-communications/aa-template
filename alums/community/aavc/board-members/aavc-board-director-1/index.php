@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/ames-katrine-cage-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Katrine “Cage” Ames']
+    ['img_alt_text' => 'A person with blond short hair, black jacket, and a blue patterned scarf smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/green-anne-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Anne Green']
+    ['img_alt_text' => 'A person with wavy grey-black hair pulled back from their face, a dark blue jacket over a red shirt, and a red beaded necklace smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

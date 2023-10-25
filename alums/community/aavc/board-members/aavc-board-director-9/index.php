@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/AC-Dumlao_Headshot_Credit-AC-Dumlao_AAVC.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'AC Dumlao ’13']
+    ['img_alt_text' => 'A person with a closely shaven head, glasses, dark colored jacket, and a white shirt smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

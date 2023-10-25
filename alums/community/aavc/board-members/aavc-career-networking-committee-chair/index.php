@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/tellez-carlos-hernandez-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Carlos Hernandez Tellez ’14']
+    ['img_alt_text' => 'A person with wavy black hair, a mustache, and a light gray jacket over a black shirt smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/farkas-brian-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Brian Farkas, AAVC Vice President and AAVC Trustee']
+    ['img_alt_text' => 'A person with short brown hair, a dark formal jacket, and a burgundy patterned tie smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

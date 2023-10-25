@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/polys-kat-mills-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Katherine “Kat” Mills Polys ’93']
+    ['img_alt_text' => 'A person with shoulder length grey black wavy hair and a patterned collared shirt looks at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">

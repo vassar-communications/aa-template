@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/Justin_Hergianto-removebg-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Justin Hergianto']
+    ['img_alt_text' => 'A person with short grey-black hair and a dark blue shirt smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">
