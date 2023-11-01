@@ -38,9 +38,9 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <!-- Start Dynamic Content -->
-<link href="../dist/alums-data-min.css" rel="stylesheet">
+<link href="https://s.vassar.edu/alums_data/dist/alums-data-min.css" rel="stylesheet">
 <div id="necrology-layout-dummy"></div>
-<script src="../dist/alums-data-min.js"></script>
+<script src="https://s.vassar.edu/alums_data/dist/alums-data-min.js"></script>
 <!-- End Dynamic Content -->
 
 
