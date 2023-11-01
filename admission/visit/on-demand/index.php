@@ -75,13 +75,13 @@ $page_info = [
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'The College Search During the Pandemic',
+    get_icon('play').'Demystifying Financial Aid 2023',
     null,
-    'https://player.vimeo.com/video/487429322?badge=0',
+    'https://player.vimeo.com/video/879455422?badge=0',
     'vimeo',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/the-college-search-during-the-pandemic.jpg',
-        'alt' => 'The College Search During the Pandemic'
+    ['url' => '/admission/assets/images/visit/video-thumbnails/finaid-101.jpg',
+        'alt' => 'A picture of a slide with the following text: “Financial Aid 101: Navigating the Financial Aid Process. Jacqueline Perez, Director of Student Financial Services, Vassar College; Emma Ritter, Senior Assistant Director, Vassar College.”'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -91,13 +91,13 @@ echo item_imageCard_videoModal(
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'A Case for the Liberal Arts',
+    get_icon('play').'International Student Life and Support',
     null,
-    'https://player.vimeo.com/video/487422599?badge=0',
+    'https://player.vimeo.com/video/879457722?badge=0',
     'vimeo',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/a-case-for-the-liberal-arts-2.jpg',
-        'alt' => 'A Case for the Liberal Arts'
+    ['url' => '/admission/assets/images/visit/video-thumbnails/questbridge.jpg',
+        'alt' => 'A slide from a presentation with the following text: “Questbridge: Find your fit at Vassar College”.'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -108,13 +108,13 @@ echo item_imageCard_videoModal(
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'Demystifying Financial Aid',
+    get_icon('play').'QuestBridge: Find Your Fit at Vassar',
     null,
-    'https://player.vimeo.com/video/761423179?h=20cf09ebd9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    'https://player.vimeo.com/video/879458084?badge=0',
     'vimeo',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/demystifying-financial-aid-2022.jpg',
-        'alt' => 'Demystifying Financial Aid'
+    ['url' => '/admission/assets/images/visit/video-thumbnails/research-opportunities.jpg',
+        'alt' => 'A slide from a presentation showing various statistics, as well as a photo of students working in a river with a net.'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
