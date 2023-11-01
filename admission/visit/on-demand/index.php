@@ -77,7 +77,7 @@ $page_info = [
 echo item_imageCard_videoModal(
     get_icon('play').'Demystifying Financial Aid 2023',
     null,
-    'https://player.vimeo.com/video/879455422?badge=0',
+    'https://player.vimeo.com/video/879455422?h=8fd1b2b0ca&badge=0',
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/finaid-101.jpg',
@@ -93,7 +93,7 @@ echo item_imageCard_videoModal(
 echo item_imageCard_videoModal(
     get_icon('play').'International Student Life and Support',
     null,
-    'https://player.vimeo.com/video/879457722?badge=0',
+    'https://player.vimeo.com/video/879457722?h=354bbf458a&badge=0',
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/questbridge.jpg',
@@ -110,7 +110,7 @@ echo item_imageCard_videoModal(
 echo item_imageCard_videoModal(
     get_icon('play').'QuestBridge: Find Your Fit at Vassar',
     null,
-    'https://player.vimeo.com/video/879458084?badge=0',
+    'https://player.vimeo.com/video/879458084?h=aa00398155&badge=0',
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/research-opportunities.jpg',
