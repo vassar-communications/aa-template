@@ -62,6 +62,7 @@ $page_info = json_decode($page_info, true);
     <ul class="linked-list mt-4">
         <li><a href="https://www.vassar.edu/social-media-alums#affinity-groups">Follow Multicultural and Affinity Groups on Social</a></li>
         <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Multicultural and Affinity Group Volunteer</a></li>
+        <li><a href="/alums/community/cca-groups/#affinity">Find Multicultural and Affinity Groups</a></li>
     </ul>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -82,6 +83,7 @@ $page_info = json_decode($page_info, true);
     <ul class="linked-list mt-4">
         <li><a href="/alums/calendar/reunion/">Explore Reunion</a></li>
         <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Class Volunteer</a></li>
+        <li><a href="/alums/community/cca-groups/#class">Connect with Your Vassar Class</a></li>
     </ul>
 
 </div>
@@ -104,6 +106,7 @@ $page_info = json_decode($page_info, true);
         <li><a href="/alums/calendar/">Explore Upcoming Club Events</a></li>
         <li><a href="https://www.vassar.edu/social-media-alums#regional-clubs">Follow Vassar Clubs on Social</a></li>
         <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Club Volunteer</a></li>
+        <li><a href="/alums/community/cca-groups/#club">Find an Active Vassar Club</a></li>
     </ul>
 
 

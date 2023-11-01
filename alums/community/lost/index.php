@@ -37,23 +37,9 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <!-- Start Dynamic Content -->
-<link href="https://s.vassar.edu/alums_data/dist/alums-data-min.css" rel="stylesheet">
-<div class="cca-page-content cca-page-content-lost">
-
-<p class="cca-page-content-deceased-notice">Select a decade or start a search to view content.</p>
-
-<div class="cca-data-status">
-    <strong class="cca-data-status-label">Data current as of:</strong>
-    <div id="lost-data-refreshed-dummy"></div>
-</div>
-
-<div id="cca-classes-selector-dummy"></div>
-
-<div id="lost-table-dummy"></div>
-
-</div>
-
-<script src="https://s.vassar.edu/alums_data/dist/alums-data-min.js"></script>
+<link href="../dist/alums-data-min.css" rel="stylesheet">
+<div id="lost-layout-dummy"></div>
+<script src="../dist/alums-data-min.js"></script>
 <!-- End Dynamic Content -->
 
 
