@@ -33,7 +33,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     '',
-    'theme-white',
+    'theme-white pt-0',
     'mw-5'
 ); ?>
 
