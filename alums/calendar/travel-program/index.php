@@ -34,10 +34,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Vassar Travel Programs in 2024',
-    $alums_img_path.'alums-calendar/travel-program/Amazon_River_Cruise_Mach_Picchu_2017.jpg',
+    $alums_img_path.'alums-calendar/travel-program/Group-photo-Camon-France-wide.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Alums group photo in front of a site at Machu Picchu']
+    ['img_alt_text' => 'A group of people, one holding a Vassar College banner, standing and smiling at the viewer with a sunny grean countryside behind them in Camon, France']
 ); ?>
 <p>We are building our trips for 2024! Information will be forthcoming as soon as itineraries and details for each trip are finalized. As we are planning our future trips for both 2024 and 2025, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Special Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
 

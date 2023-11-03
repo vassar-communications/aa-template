@@ -68,7 +68,9 @@ $page_info = json_decode($page_info, true);
             <strong>Telephone:</strong> <a href="tel:1-800-443-8196">(800) 443-8196</a> or <a href="tel:1-845-437-5400">(845) 437-5400</a><br>
             <strong>Email:</strong> <a href="mailto:advancement@vassar.edu">advancement@vassar.edu</a>
         </p>
-
+        <hr />
+        <p><strong>Not getting communications from Vassar?</strong></p>
+          <p> <?php echo cta_link('https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=5370&cid=8841&post_id=0', 'Update your email preferences online'); ?> </p>
           <p> <?php echo cta_link('https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=1144&cid=2123&post_id=0', 'Update your contact information online'); ?> </p>
     </div>
 
