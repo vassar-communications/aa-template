@@ -91,9 +91,9 @@ echo item_imageCard_videoModal(
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'International Student Life and Support',
+    get_icon('play').'QuestBridge: Find Your Fit at Vassar',
     null,
-    'https://player.vimeo.com/video/879457722?h=354bbf458a&badge=0',
+    'https://player.vimeo.com/video/879458084?h=aa00398155&badge=0',
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/questbridge.jpg',
@@ -108,9 +108,9 @@ echo item_imageCard_videoModal(
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'QuestBridge: Find Your Fit at Vassar',
+    get_icon('play').'International Student Life and Support',
     null,
-    'https://player.vimeo.com/video/879458084?h=aa00398155&badge=0',
+    'https://player.vimeo.com/video/879457722?h=354bbf458a&badge=0',
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/research-opportunities.jpg',
