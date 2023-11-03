@@ -112,10 +112,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Career Chats',
-    '/alums/assets/img/alums-give/mentor/0153-19-11-kr-major-palooza-vassar-5436.jpg',
+    '/alums/assets/img/alums-give/mentor/be-mentor-52632362530_a164f2a771_o.jpg',
     'image-is-first theme-burgundy',
     '',
-    ['img_alt_text' => 'Three people seated on a couch, one speaking, two listening']
+    ['img_alt_text' => 'Two people seated at a round table with papers on it, talking to one another, in a room with another table of people behind them']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>For students, there is often no better inspiration for life after Vassar than to hear the stories of those who have paved the way. Consider hosting a “career chat,” either virtually or on-campus. It’s a great opportunity to discuss your path and educate students about a career field, or share whatever advice or expertise you’d like to impart. </p>

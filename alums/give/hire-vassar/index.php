@@ -49,10 +49,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-give/mentor/0153-19-11-kr-major-palooza-vassar-5436.jpg',
+    '/alums/assets/img/alums-give/hire/hire-vassar-52632404398_32dd113963_o.jpg',
     'theme-cream',
     '',
-    ['img_alt_text' => 'Three people seated on a couch, one talking two listening']
+    ['img_alt_text' => 'Four people standing in a room in casual clothing with their arms around one another smiling at the camera']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <h1 class="display-3 mb-4">Post a Job on VassarNet</h1>
