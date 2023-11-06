@@ -108,7 +108,9 @@ $page_info = json_decode($page_info, true);
         </div>
         <div id="arts-collapseTwo" class="accordion-collapse collapse" aria-labelledby="arts-headingTwo" data-bs-parent="#arts">
             <div class="accordion-body">
-                <p>Please submit 10 to 20 photos of your art.</p>
+                <p>Vassar’s art portfolio is designed to provide applicants with a keen interest in the visual arts a means to demonstrate their conceptual strength and visual responsiveness as evaluated by Studio Art faculty. As a result, media not taught in Vassar’s Studio Art program, including jewelry, fashion, graphic design/advertising, makeup/sfx, stagecraft/theatre design, functional ceramics, music videos, and fanart of existing characters, while valuable, are not appropriate materials for the art portfolio process.</p>
+                  
+                  <p>Students who engage in these activities, or others, and would like to have them reviewed as part of their application for admission should consider submitting them through the Your Space section of the application. Your Space submissions are reviewed by the Admission Committee as part of our holistic review process.</p>
             </div>
         </div>
     </div>
