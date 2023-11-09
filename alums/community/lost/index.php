@@ -36,6 +36,8 @@ $page_info = json_decode($page_info, true);
     'mw-5'
 ); ?>
 
+<p>This list contains people for whom Vassar does not have a valid residential mailing address. Vassar may be in communication with them via email or phone. If you know someone on this list, please ask them to <a href="https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=1144&cid=2123&post_id=0">update their mailing address via our online form</a> or <a href="mailto:advancement@vassar.edu">email it to us at advancement@vassar.edu</a>.</p>
+  
 <!-- Start Dynamic Content -->
 <link href="https://s.vassar.edu/alums_data/dist/alums-data-min.css" rel="stylesheet">
 <div id="lost-layout-dummy"></div>
