@@ -78,7 +78,7 @@ $page_info = json_decode($page_info, true);
         ['url' => $logos_path.'diva-logo.png', 'alt' => 'Diva logo, black block text on a light graey background' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p>Playwright <strong>juliany taveras ’16</strong> spoke to DIVA magazine about their new play, <em>Morris Micklewhite And The Tangerine Dress</em>, at the Children’s Theatre Company in Minneapolis.</p>
+        <p>Playwright <strong>juliany taveras ’16</strong> spoke to <em>DIVA</em> magazine about their new play, <em>Morris Micklewhite And The Tangerine Dress</em>, at the Children’s Theatre Company in Minneapolis.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
