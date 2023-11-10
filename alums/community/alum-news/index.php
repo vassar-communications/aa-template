@@ -116,7 +116,7 @@ $page_info = json_decode($page_info, true);
 <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://www.astronomy.com/science/the-vera-c-rubin-observatory-shows-its-flair-for-asteroid-detection/">The Vera C. Rubin Observatory, named after noted astronomer <strong>Vera Rubin ’48</strong>, was the subject of an <em>Astronomy</em> article</a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://fortune.com/longform/jason-blum-exorcist-blumhouse-low-budget-horror-films/"><strong>Jason Blum ’91</strong>, CEO and Founder of Blumhouse Productions, talked to <em>Fortune</em></a>about his filmmaking business model.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://fortune.com/longform/jason-blum-exorcist-blumhouse-low-budget-horror-films/"><strong>Jason Blum ’91</strong>, CEO and Founder of Blumhouse Productions, talked to <em>Fortune</em></a> about his filmmaking business model.</p></div>
 
 
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><a href="https://www.newyorker.com/gallery/cartoons-from-the-september-18-2023-issue"><strong>Carl Kissin ’80</strong> co-created a <em>New Yorker</em> cartoon</a> with former visiting professor Liza Donnelly.</p></div>
