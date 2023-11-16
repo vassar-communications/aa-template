@@ -106,6 +106,13 @@ $page_info = json_decode($page_info, true);
 <h1>Stephen Hankins ’85, P’13,’17</h1>
 
 
+<p><?php echo item_link_VideoModal(
+    'Watch the Steve Hankins video',
+    'https://player.vimeo.com/video/857168936',
+    'vimeo',
+    '',
+    'no-arrow btn-link mt-4'
+); ?></p>
 <?php echo cta_link(
     'https://www.vassar.edu/news/aavc-announces-2023-honorees',
      'Read more about Steve Hankins'
@@ -215,6 +222,13 @@ $page_info = json_decode($page_info, true);
 <h6 class="tagline">2023 Recipient</h6>
 <h1>Priya Nair ’15</h1>
 
+<p><?php echo item_link_VideoModal(
+    'Watch the Priya Nair video',
+    'https://player.vimeo.com/video/859555999',
+    'vimeo',
+    '',
+    'no-arrow btn-link mt-4'
+); ?></p>
 <?php echo cta_link(
     'https://www.vassar.edu/news/convocation-2023',
      'Read more about Priya Nair'
