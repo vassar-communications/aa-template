@@ -43,6 +43,15 @@ $page_info = json_decode($page_info, true);
 
 
 <ul class="linked-list">
+  <li>
+    <?php echo item_link_VideoModal(
+        'Watch Hankins’ acceptance remarks',
+        'https://player.vimeo.com/video/857168936',
+        'vimeo',
+        '',
+        'no-arrow'
+    ); ?>
+    </li>
 		<li><a href="https://www.vassar.edu/news/aavc-announces-2023-honorees">Read more about Hankins in the June 2023 <em>Vassar Stories</em> article</a></li>
 	</ul>
 

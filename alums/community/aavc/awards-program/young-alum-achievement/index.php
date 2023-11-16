@@ -43,6 +43,14 @@ $page_info = json_decode($page_info, true);
 
 <ul class="linked-list">
   <li>
+    <?php echo item_link_VideoModal(
+        'Watch Nair’s acceptance remarks',
+        'https://player.vimeo.com/video/859555999',
+        'vimeo',
+        '',
+        'no-arrow'
+    ); ?>
+   </li>
    <li><a href="https://www.vassar.edu/news/convocation-2023">Read more about Nair in the Vassar news story about Convocation 2023</a></li>
 </ul>
 
