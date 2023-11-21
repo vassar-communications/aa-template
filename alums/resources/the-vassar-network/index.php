@@ -47,9 +47,9 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Two people and a networking event listening to someone off screen']
 ); ?>
 
-<p>Sign up for <a href="https://vassarnet.vassar.edu/">VassarNet</a>, our online platform for professional networking and connections. Take a few minutes to complete your VassarNet profile and make yourself available as a resource for the Vassar community.</p>
+<p>Sign up for <a href="https://vassarnet.vassar.edu/">VassarNet</a>, our online platform for professional networking and connections. Take a few minutes to complete your VassarNet profile and tap into the power of the Vassar network.</p>
 
-<p>Within the platform, you can answer questions a student or alum may have that are within your field of expertise or expand your own network by connecting with one of the thousands of other alums.</p>
+<p>Within the platform, you can post or apply for job and internship opportunities, answer questions a student or alum may have that are within your field of expertise, or expand your own network by connecting with one of the thousands of other alums.</p>
 
 <?php echo cta_link(
     'https://vassarnet.vassar.edu/',

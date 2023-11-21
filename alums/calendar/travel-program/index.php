@@ -43,9 +43,12 @@ $page_info = json_decode($page_info, true);
 
 <p>The tentative schedule so far:</p>
 
-<p><strong>Iceland Getaway Weekend with a focus on health & well-being</strong></br>
-Faculty host: Michele Tugade ’95, Professor of Psychological Science on the William R. Kenan, Jr. Chair</br>
+<p><strong><a href="#trip1">A Restorative Retreat to Iceland</a></strong></br>
 February 8–12, 2024</p>
+
+<p><strong>Cuba: Art, Culture & History</strong></br>
+May 5–11, 2024</br>
+Faculty host:  Leslie Offutt, Professor Emerita of History</p>
 
 <p><strong>Paris in the Jazz Age, featuring the African American Experience</strong></br>
 June 8–16, 2024</br>
@@ -59,11 +62,13 @@ Faculty host: Abigail Baird ’91, Professor of Psychological Science on the Arn
 July 6–13, 2024</br>
 Faculty host: Jill Schneiderman, Professor of Earth Science</p>
 
-<p><strong>Discover Egypt and the Nile Valley</strong></br>
-Dates to be determined, tentatively autumn</p>
+<p><strong>Egypt and the Nile</strong></br>
+September 21–October 4, 2024</br>
+Faculty to be announced</p>
 
 <p><strong>Flavors of Tuscany: Cultural & Culinary Exploration</strong></br>
-September 26–October 4</p>
+September 26–October 4</br>
+Faculty host: Miriam Rossi, Professor Emerita of Chemistry</p>
 
 <p><strong>Discovering South Korea: Food, Culture, & Globalization</strong></br>
 October 9–21, 2024</br>
@@ -77,77 +82,55 @@ Faculty Host: Seungsook Moon, Professor of Sociology</p>
 
 
 
-<?php echo sec_regularContent('Recent Trip','','text-center');?>
+<?php echo sec_regularContent('Upcoming Trips','','text-center');?>
 
-<p class="intro-text">Imperial Treasures:<br />Art and Music in Dresden and Prague</p>
-
-<p><strong>June 8–18, 2023<strong></p>
-
-<p><strong>Vassar Hosts:  Kathryn Libin, Professor of Music<br />
-T. Barton Thurber, The Anne Hendricks Bass Director of the Frances Lehman Loeb Art Center and Lecturer in Art</strong>
-</p>
 
 
 <?php echo end_sec_regularContent();?>
 
+<div id="trip1"></div>
+
 <?php echo sec_fullBleedImageColumn(
     null,
-    $alums_img_path.'alums-calendar/travel-program/Dresden-image2-web.jpg',
+    $alums_img_path.'alums-calendar/travel-program/Iceland-2024.jpg',
     '',
     '',
-    ['img_alt_text' => 'Dresden in the evening along the water. Photo by Oliver Guhr.']
+    ['img_alt_text' => 'A waterfall at night with the Northern lights in the sky overhead.']
 ); ?>
 
-<p>This small tour, limited to 20 people, studied the art and music of two extraordinary European cities with two of Vassar’s finest scholars. Both Bart and Kathryn have studied and lived in Europe for many years and it is through their scholarship and expertise that we were able to offer this personal exploration of both cities.</p>
+<p class="intro-text">A Restorative Retreat to Iceland</p>
 
- <?php /*
-<ul>
-    <li>Uniquely created seven-night cruise itinerary</li>
-    <li>Visit up to eight UNESCO World Heritage sites showcasing the culture and architecture of Ancient Greece.</li>
-    <li>Call on islands steeped in myth and history—Delos, Mykonos, Pátmos, Santorini, Rhodes and the Peloponnese Peninsula</li>
-    <li>Walk through the fabled Lion Gate of the legendary city of Mycenae.</li>
-    <li>Explore the monumental ruins of the Sanctuary of Asklepios in historic Epidaurus.</li>
-    <li>Enjoy guided tours, plus free time to explore on your own.</li>
-    <li>Athens Pre-Program Option and Delphi and Thebes Post-Program Option.</li>
-</ul>
-<p>Your host, Barbara Olsen, is a Classics scholar. She specializes in Greek history and archaeology, especially in the study of women in the ancient world.</p>
- */ ?>
+<p><strong>February 8–12, 2024<strong></p>
 
+<p><strong>Faculty Host: Michele Tugade ’95, Professor of Psychological Science on the William R. Kennan, Jr. Endowed Chair</strong>
+</p>
+
+<p>Our weekend getaway (Thursday night to Monday night) offers an opportunity to travel with fellow alums to explore this rugged and breathtaking country. Iceland is also a place to relax, recharge, and explore nature. With Michele Tugade ’95 as your host, you will also explore the benefits of awakening your senses to nature and its power to elicit positive emotions. It promises to be a very special journey.</p>
 
 <?php echo cta_link(
-    'https://www.vassar.edu/sites/default/files/2023-03/VASSAR-Dresden-Prague-2023-Brochure.pdf',
-    'Download Brochure',
-    null,
-    [
-      'file_type' => 'pdf',
-      'file_size' => '1.6 MB'
-    ]
+    'https://www.discovereuropeltd.com/vassar-travel/240208vig',
+    'See the full Iceland itinerary and reserve your place.'
+
 ); ?>
 
- <?php /*
-<?php echo cta_link(
-    'https://www.vassar.edu/sites/default/files/2023-03/VASSAR-Dresden-Registration-Form.pdf',
-    'Download Registration Form',
-    null,
-    [
-      'file_type' => 'pdf',
-      'file_size' => '106 KB'
-    ]
-); ?>
- */ ?>
-
-<p>&nbsp;</p>
-<p><em>Photo by Oliver Guhr</em></p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_regularContent('Travel Insurance','theme-extralightgray','');?>
-<p>The Vassar Travel Program is now offering quality travel insurance to all our travelers. After much research we selected Meyer and Associates. Meyer and Associates have been in the insurance business for more than 40 years, and they come highly recommended by our peer institutions.</p>
+<p>The Vassar Travel Program offers quality travel insurance through <a href="https://meyerandassoc.com/travel-insurance/">Meyer and Associates</a>.</p>
 
-<p>Of course, the choice of whether to purchase insurance is yours, but the Vassar Travel Program wants to make sure each Vassar traveler is offered quality insurance. We believe it is very important to protect your travel investment. Meyer and Associates offers a wide range of insurance options, but we strongly urge travelers to purchase the package that offers trip cancellation coverage at the minimum.</p>
+<p>Upon receipt of your tour registration, Vassar will send insurance information to you directly.
+Please note that the purchase of insurance is time sensitive to the date that your trip deposit
+payment is received. Insurance information will be sent to you both by email and postal mail.</p>
 
-<p><strong>For detailed information and to purchase travel insurance, contact <a href="https://meyerandassoc.com/">Meyer and Associates</a> or call <?php echo phone_number('800-635-7801'); ?>.</strong></p>
+<p>Of course, the choice of whether to purchase insurance is yours, but the Vassar Travel Program
+wants to make sure each Vassar traveler is offered quality insurance. We believe it is very
+important to protect your travel investment. Meyer and Associates offers a wide range of
+insurance options. We strongly urge travelers to purchase the package that offers trip
+cancellation coverage at the minimum.</p>
+
+<p>For detailed information and to purchase travel insurance, contact Meyer and Associates or call <?php echo phone_number('800-635-7801'); ?>.</p>
 
 <?php echo end_sec_regularContent();?>
 
