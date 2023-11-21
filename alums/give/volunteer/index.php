@@ -191,7 +191,7 @@ $page_info = json_decode($page_info, true);
     'globe',
     'icon-on-left theme-white-border'
 ); ?>
-<p>VassarNet is the College’s online platform where people at any stage of their professional life can share expertise, ask questions, and connect with one another. VassarNet users provide valuable advice and guidance to Vassar students and alums, post job and internship opportunities for Vassar candidates, and network with thousands of members of the Vassar community.</p>
+<p>VassarNet is the College’s online platform where people at any stage of their professional life can share expertise, ask questions, and connect with one another. VassarNet users provide valuable advice and guidance to Vassar students and alums, post and apply to job and internship opportunities for Vassar candidates, and network with thousands of members of the Vassar community.</p>
 <ul class="linked-list">
     <li><a href="https://vassarnet.vassar.edu/">Join VassarNet</a></li>
 </ul>

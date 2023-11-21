@@ -76,7 +76,7 @@ $page_info = json_decode($page_info, true);
     <p>Annual gifts (even at very modest levels) can have just as much impact as major gifts when they are pooled together. For example, multiple gifts from many donors totaling $50,000 can have the same financial effect as the payout from a $1 million endowment gift in a given year.</p>
 
     <?php echo cta_link(
-        'https://www.givecampus.com/i22tit',
+        'https://www.givecampus.com/c5fm3q',
         'Give'
     ); ?>
 
@@ -100,7 +100,7 @@ $page_info = json_decode($page_info, true);
     <p>Alum participation is one factor used when evaluating and ranking colleges and universities. Rankings can affect reputation, reputation can affect enrollment, and enrollment can affect revenue from tuition. Additionally, think of a diploma as if it were a stock certificate. As the quality of the institution grows, so does the value of your degree!</p>
 
     <?php echo cta_link(
-        'https://www.givecampus.com/i22tit',
+        'https://www.givecampus.com/c5fm3q',
         'Give'
     ); ?>
 
@@ -124,7 +124,7 @@ $page_info = json_decode($page_info, true);
     <p>People want to give to a winning cause. Your participation can influence major donors, corporations, and foundations when they’re considering their own investments. They want to give to institutions that you find worthy of supporting.</p>
 
     <?php echo cta_link(
-        'https://www.givecampus.com/i22tit',
+        'https://www.givecampus.com/c5fm3q',
         'Give'
     ); ?>
 
@@ -146,7 +146,7 @@ $page_info = json_decode($page_info, true);
     <p>Alums giving helps Vassar establish a broad and diverse base of financial support that provides a safeguard for future uncertainties. Your help is critical in protecting Vassar and its stakeholders.</p>
 
     <?php echo cta_link(
-        'https://www.givecampus.com/i22tit',
+        'https://www.givecampus.com/c5fm3q',
         'Give'
     ); ?>
 
@@ -169,37 +169,13 @@ $page_info = json_decode($page_info, true);
     <p>Echoing Vassar’s commitment to philanthropy and service, your participation shows the current student body the importance of giving through programs like the <a href="https://vassar.edu/genvc">Generation Vassar Challenge</a>. Your commitment to Vassar and its future is also an important example to set for prospective students and encourages young alums to give. Ultimately, it just feels good to continue to give back to the community that helped to shape your experience as a student.</p>
 
     <?php echo cta_link(
-        'https://www.givecampus.com/i22tit',
+        'https://www.givecampus.com/c5fm3q',
         'Give'
     ); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php echo sec_regularContent(
-    'Reverse the 10-Year Trend',
-    'theme-darkcoal',
-    ''
-); ?>
-<p>In 2021, we saw an encouraging shift upwards as a result of the Generation Vassar participation challenge and we are so grateful that many of you answered the call. We need <strong>your</strong> help now more than ever to keep up the momentum and continue this upward trend!</p>
-
-<img class="mt-5" src="/alums/assets/img/alums-give/support/participation-chart.jpg" alt="A graph of the Vassar Fund alums participation rate for each fiscal year. In the 2010 fiscal year, 42% of alums participated.
-In the 2011 fiscal year, 43% of alums participated.
-In the 2012 fiscal year, 41% of alums participated.
-In the 2013 fiscal year, 41% of alums participated.
-In the 2014 fiscal year, 32% of alums participated.
-In the 2015 fiscal year, 32% of alums participated.
-In the 2016 fiscal year, 24% of alums participated.
-In the 2017 fiscal year, 26% of alums participated.
-In the 2018 fiscal year, 28% of alums participated.
-In the 2019 fiscal year, 27% of alums participated.
-In the 2020 fiscal year, 20% of alums participated.
-In the 2021 fiscal year, 25% of alums participated.
-In the 2022 fiscal year, 25% of alums participated.
-In the 2023 fiscal year, 27% of alums are expected to participate." />
-
-
-<?php echo end_sec_regularContent(); ?>
 
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/alums/inc/pages/calendar/calendar-generation-vassar.php');?>
