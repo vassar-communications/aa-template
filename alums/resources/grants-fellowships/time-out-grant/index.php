@@ -37,7 +37,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Take Time Out to Change the World',
-    'What would you do if you had a year off to change your life while helping to change the world?',
+    'What would you do if you had the opportunity to change your life while changing the world?',
     $alums_img_path.'alums-resources/grants-fellowships/irene_lopez_dominican_republic_16x9.jpg',
     null,
     null,
@@ -52,9 +52,20 @@ $page_info = json_decode($page_info, true);
     'content_classes'
 ); ?>
 
+<h2>Applications for the 2024 Time Out grant award are now open!</h2>
 
+<a href="https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=5680&cid=9348" class="btn btn-primary arrow mt-5">Apply for the Time Out Grant</a>
+<p>&nbsp;</p>
+<p>Applications accepted until February 15, 2024.</p>
 
-<p>2022 recipient Irene López ’91 (depicted above) <a href="https://www.vassar.edu/news/time-out-grant-will-help-awardee-give-voice-survivors-gender-based-violence">plans to use the grant to give voice to survivors of gender-based violence in Puerto Rico</a>. The Lydia Project: Mujeres Bravas con Cámaras (Brave Women with Cameras) will train survivors to document their experiences via photography and enable them to engage in a critical reflection on the images they produce.</p>
+<p>The Time Out grant criteria has been updated as of this year. The grant will be awarded biennially beginning in June 2024 and the recipient will receive $150,000 to fund their proposal.</p>
+
+<p>In order to be eligible, the applicant must be at least 35 years of age by June 30, 2023 and a Vassar college alumnus. The Time-Out Grant proposal may be in any field—science, business, education, the arts, human services, environment, etc. Any proposal that involves experiment or significant change will be considered. The proposal may be, but not need to be, related to one’s career. At Vassar's discretion, the proposed venture may be funded with complementary grants, provided the Time Out grant is the lead source of funding. The project must take place over a minimum of twelve months and may extend for up to two years.</p>
+
+<a href="https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=5681&cid=9349" class="btn btn-primary arrow mt-5">Submit a reference for an applicant</a>
+<p>&nbsp;</p>
+
+<p>[are we keeping this language anywhere?] 2022 recipient Irene López ’91 (depicted above) <a href="https://www.vassar.edu/news/time-out-grant-will-help-awardee-give-voice-survivors-gender-based-violence">plans to use the grant to give voice to survivors of gender-based violence in Puerto Rico</a>. The Lydia Project: Mujeres Bravas con Cámaras (Brave Women with Cameras) will train survivors to document their experiences via photography and enable them to engage in a critical reflection on the images they produce.</p>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -142,21 +153,6 @@ $page_info = json_decode($page_info, true);
     <p>Japanese War Brides</p>
   <?php echo end_item_cardWithText(); ?>
 <?php echo end_sec_hasColumns(); ?>
-
-
-
-<?php echo sec_regularContent(
-    null,
-    '',
-    'content_classes'
-); ?>
-
-  <?php echo info_card(); ?>
-    <p>The application process for the Time Out Grant is scheduled to reopen in Fall 2023. Please check back for details.</p>
-  <?php echo end_info_card(); ?>
-
-
-<?php echo end_sec_regularContent(); ?>
 
 
 
