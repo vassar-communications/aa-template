@@ -1064,6 +1064,16 @@ echo end_contact_card();
     echo end_contact_card();
 
 
+    echo contact_card(
+        'Kataura Ross',
+        'Office Specialist',
+        [
+          'phone' => '',
+          'email' => 'kaross@vassar.edu',
+        ]
+    );
+    echo end_contact_card();
+
 echo contact_card(
     'Lilly Scrimmager',
     'Office Specialist',
@@ -1074,15 +1084,6 @@ echo contact_card(
 );
 echo end_contact_card();
 
-    echo contact_card(
-        'TBD',
-        'Office Specialist',
-        [
-          'phone' => '',
-          'email' => '',
-        ]
-    );
-    echo end_contact_card();
 
 ?>
 

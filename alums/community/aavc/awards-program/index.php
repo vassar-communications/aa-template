@@ -189,6 +189,13 @@ $page_info = json_decode($page_info, true);
 <h1>Abigail Baird ’91</h1>
 <p class="intro-text">Professor of Psychological Science on the Arnhold Family Chair</p>
 
+<p><?php echo item_link_VideoModal(
+    'Watch the Abigail Baird video',
+    'https://player.vimeo.com/video/857168905',
+    'vimeo',
+    '',
+    'no-arrow btn-link mt-4'
+); ?></p>
 
 <?php echo cta_link(
     'https://www.vassar.edu/news/aavc-announces-2023-honorees',
