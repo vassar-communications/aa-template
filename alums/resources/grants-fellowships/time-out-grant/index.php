@@ -36,26 +36,16 @@ $page_info = json_decode($page_info, true);
 </style>
 
 
-<?php /*echo masthead_interiorPage(
-    'Take Time Out to Change the World',
-    'What would you do if you had the opportunity to change your life while changing the world?',
-    $alums_img_path.'alums-resources/grants-fellowships/irene_lopez_dominican_republic_16x9.jpg',
-    null,
-    null,
-    ['img_alt_text' => 'Irene López smiling at the camera.']
-  );*/
-?>
-
 <?php echo sec_fullBleedImageColumn(
     'Take Time Out to Change the World',
     $alums_img_path.'alums-resources/grants-fellowships/irene_lopez_dominican_republic_16x9.jpg',
     'theme-cream',
     '',
-    ['img_alt_text' => 'Irene López smiling at the camera.']
+    ['img_alt_text' => 'A person with dark hair wearing a tank top, smiling at the viewer.']
 ); ?>
 <p class="intro-text">What would you do if you had the opportunity to change your life while changing the world?</p>
-<p>The Time-Out Grant was created to help inspire a Vassar College alum to pursue a significant interest, experiment, project or business that could help improve the world.</p>
-<p>Recent Time Out Grant recipient Irene López ’91 (depicted) <a href="https://www.vassar.edu/news/time-out-grant-will-help-awardee-give-voice-survivors-gender-based-violence">planned to use the grant to give voice to survivors of gender-based violence in Puerto Rico</a>. The Lydia Project: Mujeres Bravas con Cámaras (Brave Women with Cameras) was to train survivors to document their experiences via photography and enable them to engage in a critical reflection on the images they produced.</p>
+<p class="intro-text">The Time Out Grant was created to help inspire a Vassar College alum to pursue a significant interest, experiment, project or business that could help improve the world.</p>
+<p>Recent Time Out Grant recipient Irene López ’91 (pictured) <a href="https://www.vassar.edu/news/time-out-grant-will-help-awardee-give-voice-survivors-gender-based-violence">planned to use the grant to give voice to survivors of gender-based violence in Puerto Rico</a>. The Lydia Project: Mujeres Bravas con Cámaras (Brave Women with Cameras) was to train survivors to document their experiences via photography and enable them to engage in a critical reflection on the images they produced.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -68,18 +58,19 @@ $page_info = json_decode($page_info, true);
 
 <h2>Time Out Grant Reimagined for 2024</h2>
 
-
-<p>The Time Out Grant criteria has been updated as of this year:</p>
-
 <ul>
-  <li>The Awardee is no longer required to leave their current job to accept the award.*</li>
-  <li>Any Vassar alum 35 years or older by June 30, 2023 may apply for the grant.*</li>
-  <li>The Time Out Grant of $150,000 will now be awarded <strong>every other year</strong>.*</li>
   <li>The proposal may be in any field—science, business, education, the arts, human services, environment, etc.</li>  
   <li>The project must take place over a minimum of twelve months and may extend for up to two years.</li>  
 </ul>
 
-<p><em>*Changes to this year’s grant.</em></p>
+
+<p>The following Time Out Grant criteria has been updated as of this year:</p>
+
+<ul>
+  <li>The Awardee is no longer required to leave their current job to accept the award.</li>
+  <li>Any Vassar alum 35 years or older by June 30, 2023 may apply for the grant.</li>
+  <li>The Time Out Grant of $150,000 will now be awarded <strong>every other year</strong>.</li>
+</ul>
 
 <p>Any proposal that involves experiment or significant change will be considered. The proposal may be, but not need to be, related to one’s career. At Vassar’s discretion, the proposed venture may be funded with complementary grants, provided the Time Out grant is the lead source of funding.</p>
 
@@ -90,9 +81,6 @@ $page_info = json_decode($page_info, true);
 
 <p>Applications and references accepted until February 15, 2024. The winner will be announced by May 30, 2024.</p>
 
-<?php /*
-<p>Recent recipient Irene López ’91 (depicted above) <a href="https://www.vassar.edu/news/time-out-grant-will-help-awardee-give-voice-survivors-gender-based-violence">planned to use the grant to give voice to survivors of gender-based violence in Puerto Rico</a>. The Lydia Project: Mujeres Bravas con Cámaras (Brave Women with Cameras) was to train survivors to document their experiences via photography and enable them to engage in a critical reflection on the images they produced.</p>
-*/?>
 
 <?php echo end_sec_regularContent(); ?>
 
