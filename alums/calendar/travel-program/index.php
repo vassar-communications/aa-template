@@ -149,7 +149,7 @@ cancellation coverage at the minimum.</p>
 
 
 <?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/alums/inc/pages/calendar/calendar-on-demand.php');?>
+<?php include($project_paths['main_project_root'].'/alums/inc/pages/give/give-support-vassar.php');?>
 <?php include($project_paths['main_project_root'].'/alums/inc/pages/calendar/calendar.php');?>
 <?php include($project_paths['main_project_root'].'/alums/inc/pages/community/community.php');?>
 <?php echo end_sec_relatedTopics(); ?>

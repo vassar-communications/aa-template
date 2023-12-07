@@ -43,9 +43,18 @@ $page_info = json_decode($page_info, true);
     <p class="">Alumnae House has served as the quintessential meeting place for Vassar College alums throughout the last century, and  is open to the public for catered events. The iconic building offers an array of stylish settings and services for small to large gatherings, special occasions, and meetings.</p>
 
     <p>To reserve space or for more information, contact Martha Barry, Alumnae House Manager, at <?php echo phone_number('845-437-7150'); ?> or <a href="mailto:mabarry@vassar.edu">mabarry@vassar.edu</a>.</p>
+    
+    <ul class="linked-list mt-4">
+        <li><a href="#weddings">Learn more about weddings</a></li>
+        <li><a href="#meetings">Learn more about meetings and retreats</a></li>
+        <li><a href="#celebrations">Learn more about celebrations and special events</a></li>
+    </ul>
+    
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
+<div id="weddings"></div>
 
 <?php echo sec_regularContent(
     'Weddings',
@@ -61,6 +70,9 @@ $page_info = json_decode($page_info, true);
 <p>To inquire about hosting a wedding reception at Alumnae House, please contact Martha Barry, Alumnae House Manager, at <?php echo phone_number('845-437-7150'); ?> or <a href="mailto:mabarry@vassar.edu">mabarry@vassar.edu</a>.</p>
 </p>
 <?php echo end_sec_regularContent(); ?>
+
+<div id="meetings"></div>
+
 
 <?php echo sec_regularContent(
     'Meetings and Retreats',
@@ -80,6 +92,7 @@ $page_info = json_decode($page_info, true);
 </p>
 <?php echo end_sec_regularContent(); ?>
 
+<div id="celebrations"></div>
 
 <?php echo sec_regularContent(
     'Celebrations and Special Events',
