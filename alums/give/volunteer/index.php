@@ -127,7 +127,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>Strengthen alum communities that center shared experiences, activities, and identities, such as athletic teams, singing groups, LGBTQ+, ALANA organizations, veterans, and First Gen alums (among others).</p>
 <ul class="linked-list">
-    <li><a href="/alums/community/alum-groups/">Learn more about Multicultural and Affinity Groups</a></li>
+    <li><a href="/alums/community/alum-groups/#affinity">Learn more about Multicultural and Affinity Groups</a></li>
     <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Multicultural and Affinity Group Volunteer</a></li>
 </ul>
 
@@ -143,7 +143,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>Class Leaders plan reunions and mini-reunions, administer social media groups, and help the College stay in touch with and informed about members of their class communities. Roles vary, but include event planning, outreach (general and fundraising), writing class notes for the alum magazine, and more.</p>
 <ul class="linked-list">
-    <li><a href="/alums/community/alum-groups/">Learn more about Vassar Classes</a></li>
+    <li><a href="/alums/community/alum-groups/#classes">Learn more about Vassar Classes</a></li>
     <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Class Volunteer</a></li>
 </ul>
 
@@ -156,7 +156,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>With more than 25 groups in the US and across the globe, Vassar Clubs provide opportunities for alums—along with current students and their families—to build relationships across generations, nurture intellectual curiosity, support each other and the College community...and have fun while doing it! Thanks to Vassar Club volunteers, alums can get together, wherever they live, and continue to build lasting connections beyond the College’s gates.</p>
 <ul class="linked-list">
-    <li><a href="/alums/community/alum-groups/">Learn more about Vassar Clubs</a></li>
+    <li><a href="/alums/community/alum-groups/#clubs">Learn more about Vassar Clubs</a></li>
     <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Club Volunteer</a></li>
 </ul>
 
