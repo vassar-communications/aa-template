@@ -46,7 +46,7 @@ $page_info = json_decode($page_info, true);
         'Distinguished Achievement Award',
         '',
         ''); ?>
-<p>The Distinguished Achievement Award is presented to an alum who has reached the highest level in their field, including the professions, science, the arts, and public affairs. While demonstrating exceptional talent, application, creativity, and skill within a certain career, this individual must at the same time exemplify the ideals of a liberal arts education and have used their position of visibility, power, or leadership to better the human community and serve the wider goals of society.</p>
+<p>The Distinguished Achievement Award is presented to an alum who has reached the highest level in their professional field. While demonstrating exceptional talent, application, creativity, and skill within a certain career, this individual should exemplify the ideals of a liberal arts education and have used their position of visibility, power, or leadership to better the human community and serve the wider goals of society.</p>
 <?php echo cta_link(
     '/alums/community/aavc/awards-program/distinguished-achievement',
      'See past Distinguished Achievement Award recipients'

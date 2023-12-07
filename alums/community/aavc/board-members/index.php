@@ -295,7 +295,7 @@ ul.inline-list-links li a {
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">Communications Advisory Committee Chair and Career Networking Committee Member</div>
+<div class="position">Communications Advisory Committee Chair, Alumnae/i Recognition Committee Member and Career Networking Committee Member</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2021–2025</div>
 <?php echo end_item_cardWithText(

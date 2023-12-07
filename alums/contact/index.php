@@ -1068,7 +1068,7 @@ echo end_contact_card();
         'Kataura Ross',
         'Office Specialist',
         [
-          'phone' => '',
+          'phone' => '845-437-5495',
           'email' => 'kaross@vassar.edu',
         ]
     );
