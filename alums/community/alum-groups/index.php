@@ -40,13 +40,13 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Alums have been entrepreneurial community builders since the Alumnae/i Association (AAVC) was founded in 1871.</p>
-    <p>Most everyone is familiar with <em>Classes</em>, which focus on building and maintaining community between classmates and peers. <em>Vassar Clubs</em> focus on building communities where people live and work, while <em>Multicultural and Affinity Groups</em> focus on strengthening ties among alums who share identities or undergraduate activities, such as athletic teams and singing groups.</p>
+    <p>Most everyone is familiar with <em><a href="#classes">Classes</a></em>, which focus on building and maintaining community between classmates and peers. <em><a href="#clubs">Vassar Clubs</a></em> focus on building communities where people live and work, while <em><a href="#affinity">Multicultural and Affinity Groups</a></em> focus on strengthening ties among alums who share identities or undergraduate activities, such as athletic teams and singing groups.</p>
 
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-
+<a id="classes"></a>
 <?php echo sec_fullBleedImageColumn(
     'Vassar Classes',
     '/alums/assets/img/alums-community/alum-groups/0041-22-06-bl-reunion-vassar-6992.jpg',
@@ -69,7 +69,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-
+<a id="clubs"></a>
 <?php echo sec_fullBleedImageColumn(
     'Vassar Clubs',
     '/alums/assets/img/alums-community/alum-groups/0080_16_07_BL_1377.jpg',
@@ -95,7 +95,6 @@ $page_info = json_decode($page_info, true);
 
 
 <div id="affinity"></div>
-
 <?php echo sec_fullBleedImageColumn(
     'Multicultural and Affinity Groups',
     '/alums/assets/img/alums-community/alum-groups/52960663255_044d75e46c_o.jpg',
