@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'Adult with a flute watching a child play a flute']
 ); ?>
-<p>Over 30 years ago, a generous anonymous alumna established the Time Out Grant to provide fellow alums the opportunity to change the trajectory of their lives. The Time Out grant funds endeavors that are bold, innovative and impactful. Through the decades, Vassar graduates have used this grant as a catalyst to step out of the comfort zone and create groundbreaking change. The application process is now open until February 15, 2024.</p>
+<p>Over 30 years ago, a generous anonymous alum established the Time Out Grant to provide fellow alums the opportunity to change the trajectory of their lives. The Time Out Grant funds endeavors that are bold, innovative, and impactful. Through the decades, Vassar graduates have used this grant as a catalyst to step out of their comfort zone and create groundbreaking change. The application process is now open until February 15, 2024.</p>
 
 <?php echo cta_link(
     'time-out-grant',
