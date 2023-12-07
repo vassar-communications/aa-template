@@ -87,12 +87,12 @@ $page_info = json_decode($page_info, true);
 
     <?php echo item_cardWithText(
         'Make a Gift',
-        'https://go.vassar.edu/give',
-        ['url' => '/alums/assets/img/alums-home/Library-TT-IMG_6613.jpg', 'alt' => 'Person riding a bicycle in from of Thompson Library on Vassar Campus' ],
+        'https://campaign.vassar.edu',
+        ['url' => '/alums/assets/img/alums-home/campaign2-53245499527_6f2541ca60_k.jpg', 'alt' => 'People walking down a large staircase in a museum with a projected image of a Vassar Fearlessly Consequential campaign logo project on a wall.' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link mb-below-md-3'
     ); ?>
 
-    <p>Your gift to The Vassar Fund can honor the aspect of the Vassar experience that matters most to you.</p>
+    <p>With your gift to the Fearlessly Consequential Campaign, Vassar can continue to provide a bold liberal arts education that will ignite the world around us.</p>
 
 
     <?php echo end_item_cardWithText(
