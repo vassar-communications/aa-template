@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>AAVC Board Director, Nominating and Governance Committee Member, and Communications Advisory Committee Member</li>
+    <li>Nominating and Governance Committee Member and Communications Advisory Committee Member</li>
     <li>(he/him/his)</li>
     <li>Washington, DC</li>
     <li>Term of Service: 2020–2024</li>

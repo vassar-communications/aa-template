@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Nominating and Governance Committee Member and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</li>
+    <li>AAVC Trustee, Nominating and Governance Committee Member and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</li>
     <li>(he/him/his)</li>
     <li>California</li>
     <li>Term of Service: 2022–2026</li>

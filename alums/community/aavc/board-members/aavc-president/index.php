@@ -39,6 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
+    <li>AAVC President and AAVC Trustee</li>
     <li>(she/her/hers)</li>
     <li>Illinois</li>
     <li>Term of Service: 2022–2026</li>

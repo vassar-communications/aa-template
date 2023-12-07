@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Communications Advisory Committee Chair and Career Networking Committee Member</li>
+    <li>Communications Advisory Committee Chair, Alumnae/i Recognition Committee Member and Career Networking Committee Member</li>
     <li>(he/him/his)</li>
     <li>New York</li>
     <li>Term of Service: 2021–2025</li>
