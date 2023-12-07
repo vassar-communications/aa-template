@@ -35,15 +35,20 @@ $page_info = json_decode($page_info, true);
   }
 </style>
 
-<?php echo masthead_interiorPage(
+
+<?php echo sec_fullBleedImageColumn(
     'Take Time Out to Change the World',
-    'What would you do if you had a year off to change your life while helping to change the world?',
     $alums_img_path.'alums-resources/grants-fellowships/irene_lopez_dominican_republic_16x9.jpg',
-    null,
-    null,
-    ['img_alt_text' => 'Irene López smiling at the camera']
-  );
-?>
+    'theme-cream',
+    '',
+    ['img_alt_text' => 'A person with dark hair wearing a tank top, smiling at the viewer.']
+); ?>
+<p class="intro-text">What would you do if you had the chance to change your life while changing the world?</p>
+<p class="intro-text">The Time Out Grant was created to inspire a Vassar College alum to pursue an original, bold interest, project, or business that could effect change in the world. Recipients have used the grant to shed light on issues facing society today.</p>
+
+<p>Irene López ’91 (pictured) created the <em>Lydia Project: Mujeres Bravas con Camaras</em> to train survivors of gender-based violence to document their experiences via photography and enable them to engage in a critical reflection on the images they produced.</p>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_regularContent(
@@ -52,9 +57,31 @@ $page_info = json_decode($page_info, true);
     'content_classes'
 ); ?>
 
+<h2>Time Out Grant Reimagined for 2024</h2>
+
+<ul>
+  <li>The proposal may be in any field—science, business, education, the arts, human services, environment, etc.</li>  
+  <li>The project must take place over a minimum of twelve months and may extend for up to two years.</li>  
+</ul>
 
 
-<p>2022 recipient Irene López ’91 (depicted above) <a href="https://www.vassar.edu/news/time-out-grant-will-help-awardee-give-voice-survivors-gender-based-violence">plans to use the grant to give voice to survivors of gender-based violence in Puerto Rico</a>. The Lydia Project: Mujeres Bravas con Cámaras (Brave Women with Cameras) will train survivors to document their experiences via photography and enable them to engage in a critical reflection on the images they produce.</p>
+<p>The Time Out Grant has been updated to create a more accessible opportunity in today’s modern working environment:</p>
+
+<ul>
+  <li>The Awardee is no longer required to leave their current job to accept the award.</li>
+  <li>Any Vassar alum 35 years or older by June 30, 2024 may apply for the grant.</li>
+  <li>The Time Out Grant of $150,000 will now be awarded <strong>every other year</strong>.</li>
+</ul>
+
+<p>All courageous and creative proposals will be considered. The proposal does not need to be related to the applicant’s current career. At Vassar’s discretion, the proposed venture may be funded with complementary grants, provided the Time Out Grant is the lead funding source.</p>
+
+<a href="https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=5680&cid=9348" class="btn btn-primary arrow mt-5">Apply for the Time Out Grant</a>
+<br />
+<a href="https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=5681&cid=9349" class="btn btn-primary arrow mt-5">Submit a reference for an applicant</a>
+<p>&nbsp;</p>
+
+<p>Applications and references accepted until February 15, 2024. The winner will be announced by May 30, 2024.</p>
+
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -142,21 +169,6 @@ $page_info = json_decode($page_info, true);
     <p>Japanese War Brides</p>
   <?php echo end_item_cardWithText(); ?>
 <?php echo end_sec_hasColumns(); ?>
-
-
-
-<?php echo sec_regularContent(
-    null,
-    '',
-    'content_classes'
-); ?>
-
-  <?php echo info_card(); ?>
-    <p>The application process for the Time Out Grant is scheduled to reopen in Fall 2023. Please check back for details.</p>
-  <?php echo end_info_card(); ?>
-
-
-<?php echo end_sec_regularContent(); ?>
 
 
 
