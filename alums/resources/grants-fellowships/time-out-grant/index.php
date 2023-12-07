@@ -44,8 +44,9 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A person with dark hair wearing a tank top, smiling at the viewer.']
 ); ?>
 <p class="intro-text">What would you do if you had the chance to change your life while changing the world?</p>
-<p class="intro-text">The Time Out grant was created to inspire a Vassar College alum to pursue an original, bold interest, project or business that could affect change in the world. From giving voice to survivors of gender based violence in Puerto Rico to exploring the legacy of Korea’s division, grant recipients are using their passion to shed light and affect change on issues facing the world today.</p>
-<p>Irene López ’91 (pictured) used the grant to create the <em>Lydia Project: Mujeres Bravas con Camaras</em> to train survivors of gender-based violence to document their experiences via photography and enable them to engage in a critical reflection on the images they produced.</p>
+<p class="intro-text">The Time Out Grant was created to inspire a Vassar College alum to pursue an original, bold interest, project, or business that could effect change in the world. Recipients have used the grant to shed light on issues facing society today.</p>
+
+<p>Irene López ’91 (pictured) created the <em>Lydia Project: Mujeres Bravas con Camaras</em> to train survivors of gender-based violence to document their experiences via photography and enable them to engage in a critical reflection on the images they produced.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -64,7 +65,7 @@ $page_info = json_decode($page_info, true);
 </ul>
 
 
-<p>The Time Out Grant has been modernized to be more inclusive and reflect recent changes in the workplace:</p>
+<p>The Time Out Grant has been updated to create a more accessible opportunity in today’s modern working environment:</p>
 
 <ul>
   <li>The Awardee is no longer required to leave their current job to accept the award.</li>
@@ -72,7 +73,7 @@ $page_info = json_decode($page_info, true);
   <li>The Time Out Grant of $150,000 will now be awarded <strong>every other year</strong>.</li>
 </ul>
 
-<p>Any proposal that is courageous and creative will be considered. The proposal may be, but not need to be, related to one’s career. At Vassar’s discretion, the proposed venture may be funded with complementary grants, provided the Time Out grant is the lead source of funding.</p>
+<p>All courageous and creative proposals will be considered. The proposal does not need to be related to the applicant’s current career. At Vassar’s discretion, the proposed venture may be funded with complementary grants, provided the Time Out Grant is the lead funding source.</p>
 
 <a href="https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=5680&cid=9348" class="btn btn-primary arrow mt-5">Apply for the Time Out Grant</a>
 <br />
