@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
   "page_supertitle":"Quick Facts",
-  "page_title":"Class of ’26",
+  "page_title":"Class of ’27",
   "page_navTitle":"Class Profile",
   "feature_image":"/admission/assets/images/quick-facts/0124_16_10_TT_3100.jpg"
 }';
@@ -49,9 +49,9 @@ $page_info = json_decode($page_info, true);
     ]
 ); ?>
 
-<p><i class="fa-solid fa-file-pdf me-2"></i> <a href="2026-Class-Profile.pdf">Class of 2026 Profile (PDF)</a></p>
+<p><i class="fa-solid fa-file-pdf me-2"></i> <a href="2027-Class-Profile.pdf">Class of 2027 Profile (PDF)</a></p>
 
-<p class="mb-4"><i class="fa-solid fa-file me-2"></i> <a href="2026-Class-Profile.rtf">Class of 2026 Profile (RTF)</a></p>
+<!-- <p class="mb-4"><i class="fa-solid fa-file me-2"></i> <a href="2026-Class-Profile.rtf">Class of 2026 Profile (RTF)</a></p> -->
 
 
   <div class="row">
@@ -59,7 +59,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_col('col-md-6 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         'First-Year Class',
-        '681',
+        '689',
     ''
       ); ?>
     <?php echo end_item_col(); ?>
@@ -67,7 +67,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_col('col-md-6 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         'Applications',
-        '11,412',
+        '12,145',
     ''
       ); ?>
     <?php echo end_item_col(); ?>
@@ -103,13 +103,13 @@ $page_info = json_decode($page_info, true);
   <div class="d-grid cols-6 gap-3">
 
     <?php echo item_col('span-6 theme-burgundy-stats'); ?>
-      <p class="stat-item"><strong class="d-md-flex justify-content-center align-items-center gap-2"><span class="fs-2 text-primary">37% </span> self-identify as students of color</strong></p>
+      <p class="stat-item"><strong class="d-md-flex justify-content-center align-items-center gap-2"><span class="fs-2 text-primary">36% </span> self-identify as students of color</strong></p>
     <?php echo end_item_col(); ?>
 
     <?php echo item_col('span-1 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         'African American/Black',
-        '8.4%',
+        '8.3%',
   ''
       ); ?>
     <?php echo end_item_col(); ?>
@@ -117,7 +117,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_col('span-1 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         'Asian American/Pacific Islander',
-        '16.7%',
+        '18.3%',
         ''
       ); ?>
     <?php echo end_item_col(); ?>
@@ -125,7 +125,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_col('span-1 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         'Latinx',
-        '13.2%',
+        '12.2%',
         ''
       ); ?>
     <?php echo end_item_col(); ?>
@@ -133,7 +133,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_col('span-2 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         'Native American',
-        '1.3%',
+        '1.2%',
         ''
       ); ?>
     <?php echo end_item_col(); ?>
@@ -160,7 +160,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_stat(
       '',
-      '57.1%',
+      '53%',
 '<p>receiving need-based financial aid from Vassar</p>'
     ); ?>
   <?php echo end_item_col(); ?>
@@ -168,7 +168,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_stat(
       '',
-      '19.7%',
+      '18%',
       '<p>Pell Grant recipients</p>'
     ); ?>
   <?php echo end_item_col(); ?>
