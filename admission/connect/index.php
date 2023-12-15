@@ -77,7 +77,7 @@ $page_info = json_decode($page_info, true);
 </p>
     </div>
 
-<div class="display: flex; align-items: center; justify-content: center; margin-top: 2rem;">
+<div style="display: flex; align-items: center; justify-content: center; margin-top: 2rem;">
 <a class="m-2 btn btn-lg btn-primary" href="https://apply.vassar.edu/register/requestinfo">Request info</a>
 </div>  
 
