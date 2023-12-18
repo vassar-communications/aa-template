@@ -106,7 +106,7 @@ $page_info = json_decode($page_info, true);
       <p class="stat-item"><strong class="d-md-flex justify-content-center align-items-center gap-2"><span class="fs-2 text-primary">36% </span> self-identify as students of color</strong></p>
     <?php echo end_item_col(); ?>
 
-    <?php echo item_col('span-1 theme-burgundy-stats'); ?>
+    <?php echo item_col('span-2 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         'African American/Black',
         '8.3%',
@@ -114,7 +114,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
     <?php echo end_item_col(); ?>
 
-    <?php echo item_col('span-1 theme-burgundy-stats'); ?>
+    <?php echo item_col('span-2 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         'Asian American/Pacific Islander',
         '18.3%',
@@ -122,7 +122,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
     <?php echo end_item_col(); ?>
 
-    <?php echo item_col('span-1 theme-burgundy-stats'); ?>
+    <?php echo item_col('span-2 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         'Latinx',
         '12.2%',
@@ -138,6 +138,8 @@ $page_info = json_decode($page_info, true);
       ); ?>
     <?php echo end_item_col(); ?>
 
+
+<!--
     <?php echo item_col('span-2 theme-burgundy-stats'); ?>
       <?php echo item_stat(
         'White',
@@ -145,6 +147,9 @@ $page_info = json_decode($page_info, true);
         ''
       ); ?>
     <?php echo end_item_col(); ?>
+-->
+
+
   </div>
 <?php echo end_sec_imageThenContent(); ?>
 
