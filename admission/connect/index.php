@@ -61,7 +61,7 @@ $page_info = json_decode($page_info, true);
 <p>We are happy to help with questions, but please know that we do not track demonstrated interest as part of the application process.</p>
 
 
-    <div class="address-card">
+    <div class="address-card" style="margin-left: auto; margin-right: auto;">
 <p>
     <strong>Mailing address:</strong><br>
     Office of Admission<br>
@@ -77,6 +77,9 @@ $page_info = json_decode($page_info, true);
 </p>
     </div>
 
+<div style="display: flex; align-items: center; justify-content: center; margin-top: 2rem;">
+<a class="m-2 btn btn-lg btn-primary" href="https://apply.vassar.edu/register/requestinfo">Request info</a>
+</div>  
 
 
 
@@ -91,6 +94,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_regularContent(); ?>
 
+
+<?php echo sec_regularContent(null, null, null); ?>
+<p>Vassar College values the safety of our campus community members. We publish the Annual Security and Fire Safety Report, the yearly versions of which can be found through links on the <a href="https://offices.vassar.edu/campus-safety/statistics/">Campus Safety website</a>. This report includes important policies and procedures about safety at Vassar and statistics for crime on and in the immediate area around campus, as well as statistics for fires in campus student residential facilities. If you would like a paper copy of the report, please <a href="mailto:arsabo@vassar.edu">contact Arlene M. Sabo</a>, Director of Campus Safety, at <a href="tel:+18454375201">(845) 437-5201</a>.</p>
+<?php echo end_sec_regularContent(); ?>
 
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/admission/inc/pages/connect/connect-students.php');?>

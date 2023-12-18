@@ -287,7 +287,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_stat(
       'Languages spoken',
       $class_stats['languages_spoken'],
-      '<p class="fs-6">by the Class of 2026</p>'
+      '<p class="fs-6">by the Class of 2027</p>'
     ); ?>
   <?php echo end_item_col(); ?>
 
