@@ -38,7 +38,7 @@ $template = <<<TMP
             <div class="col-6 col-md-7">
               <ul class="secondary_menu d-md-flex">
 
-  <li class="level-1 fearlessly-consequential">
+  <li class="level-1 fearlessly-consequential secondary_menu-item">
     <a href="https://campaign.vassar.edu/">Fearlessly<br>Consequential</a>
   </li>
 
