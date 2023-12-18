@@ -37,9 +37,11 @@ $template = <<<TMP
         <div class="megamenu-cols-container row top-mini-menu-area">
             <div class="col-6 col-md-7">
               <ul class="secondary_menu d-md-flex">
-                <li class="secondary_menu-item">
-                  <a href="https://www.vassar.edu/together">VassarTogether</a>
-                </li>
+
+  <li class="level-1 fearlessly-consequential">
+    <a href="https://campaign.vassar.edu/">Fearlessly<br>Consequential</a>
+  </li>
+
                 <li class="secondary_menu-item">
                   <a href="https://www.vassar.edu/campuslife">Students</a>
                 </li>
@@ -54,7 +56,7 @@ $template = <<<TMP
                 </li>
               </ul>
             </div>
-            <div class="col-6 col-md-5">
+            <div class="col-6 col-md-5 d-md-flex">
               <ul class="secondary_menu d-md-flex">
                 <li class="secondary_menu-item">
                   <a href="https://www.vassar.edu/admission/apply">Apply</a>
