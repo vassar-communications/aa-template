@@ -710,6 +710,17 @@ echo end_contact_card();
 
 
 echo contact_card(
+    'Chase Engel ’23',
+    'Assistant Director of Annual Giving, Digital Engagement Officer',
+    [
+      'phone' => '845-437-7890',
+      'email' => 'cengel@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
     'Karolina Gomez',
     'Assistant Director of Annual Giving, Digital Engagement Officer',
     [
@@ -742,11 +753,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Chase Engel ’23',
+    'TBD',
     'Administrative Fellow',
     [
       'phone' => '',
-      'email' => 'cengel@vassar.edu',
+      'email' => '',
     ]
 );
 echo end_contact_card();
