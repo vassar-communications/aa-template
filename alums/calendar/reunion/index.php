@@ -56,13 +56,14 @@ $page_info = json_decode($page_info, true);
 	<?php echo item_col(); ?>
 
     <ul class="linked-list">
+        <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=7224&content_id=6636">Class of 1944 Reunion Interest Form</a></li>
+        <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=7221&content_id=6634">Class of 1948/49 Reunion Interest Form</a></li>
+        <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=7218&content_id=6632">Class of 1954 Reunion Interest Form</a></li>
         <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6942&content_id=6373">Class of 1959 Reunion Interest Form</a></li>
         <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6962&content_id=6388">Class of 1964 Reunion Interest Form</a></li>
         <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6965&content_id=6390">Class of 1969 Reunion Interest Form</a></li>
         <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6939&content_id=6371">Class of 1974 Reunion Interest Form</a></li>
         <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6968&content_id=6392">Class of 1979 Reunion Interest Form</a></li>
-        <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6971&content_id=6394">Class of 1984 Reunion Interest Form</a></li>
-        <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6974&content_id=6396">Class of 1989 Reunion Interest Form</a></li>
     </ul>  
 
 	<?php echo end_item_col(); ?>
@@ -70,6 +71,8 @@ $page_info = json_decode($page_info, true);
 	<?php echo item_col(); ?>
 
     <ul class="linked-list">
+        <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6971&content_id=6394">Class of 1984 Reunion Interest Form</a></li>
+        <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6974&content_id=6396">Class of 1989 Reunion Interest Form</a></li>
         <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6977&content_id=6398">Class of 1994 Reunion Interest Form</a></li>
         <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6945&content_id=6375">Class of 1999 Reunion Interest Form</a></li>
         <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6980&content_id=6400">Class of 2004 Reunion Interest Form</a></li>
