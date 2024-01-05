@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     <li><?php echo central_link('common-app', 'Common Application'); ?> or <?php echo central_link('coalition-app', 'Coalition Application'); ?></li>
     <li>$65 application fee or a fee waiver</li>
     <li>Early Decision Agreement (Early Decision Applicants ONLY)</li>
-    <li>School Report and High School Transcript: To be completed and sent by your school counselor. Available for online completion or download through <?php echo central_link('common-app', 'Common Application'); ?>.</li>
+    <li>School Report with the Counselor Recommendation and High School Transcript: To be completed and sent by your school counselor. Available for <a href="https://apply.commonapp.org/login?ma=278">online completion</a> or <a href="https://membersupport.commonapp.org/s/article/Are-paper-PDF-versions-of-the-application-and-or-recommender-forms-available">download through Common Application</a>.</li>
     <li>A Teacher Evaluation</li>
     <li>Mid-year Report: Your school counselor or another school official must submit your mid-year grades to us. Early Decision applicants must submit a fall progress report and will be asked to provide their first-term grades as soon as they become available.</li>
     <li><a href="/admission/apply/international/">TOEFL/IELTS/Duolingo</a>: If English is neither your first language nor the primary language of instruction in secondary schools you have attended for the last three years.
