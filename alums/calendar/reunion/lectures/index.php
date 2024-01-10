@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Lectures, Panels and Tours",
+  "page_title":"College-sponsored Lectures and Tours",
   "page_classes":"",
   "feature_image":"/alums/assets/img/alums-calendar/reunion/Vassar_Reunion_4706.jpg"
 }';
@@ -34,69 +34,61 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(); ?>
 
-<h3 class="schedule-item__heading">Friday, June 2</h3>
+<h3 class="schedule-item__heading">Friday, May 31</h3>
 
   <?php echo presentation_item(
-    'Ageless Aging: Resilience, Cognitive Health, and Mindfulness',
-    'Rockefeller Hall, Room 300 (also available virtually)',
-    '3:00 p.m.'
-  ); ?>
-    <?php echo presentation_content(); ?>
-      <p>Join us for an interactive experience that will teach you strategies for effective coping, the benefits of mindfulness for your cognitive health, and how to practice mindfulness in minutes in real life.<br>
-      <a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6784&content_id=6216">To participate virtually in this program, please register</a>.</p>
-    <?php echo end_presentation_content(); ?>
-
-    <?php echo presentation_member_list('Panelists'); ?>
-      <?php echo presentation_member(
-        'Quinn Kennedy ’93',
-        'https://www.linkedin.com/in/quinn-kennedy-qkconsulting/',
-        'Director of Aging Research at neuroFit',
-        '/alums/assets/img/alums-calendar/reunion/2023-lectures/QuinnKennedy_PhotoTakenBy_IanMartin.jpg',
-        'A black and white photo of a person with short, straight hair and a black jacket, smiling at the camera'
-      ); ?>
-      <?php echo presentation_member(
-        'Nina Smiley ’73',
-        'https://www.linkedin.com/in/nina-smiley-2439435/',
-        'Director of Mindfulness Programming at Mohonk Mountain House',
-        '/alums/assets/img/alums-calendar/reunion/2023-lectures/Nina-Smiley.jpg',
-        'A photo of a person with short, straight, brown hair and a blue jacket, smiling at the camera'
-      ); ?>
-      <?php echo presentation_member(
-        'Michele Tugade ’95',
-        'https://www.vassar.edu/faculty/mitugade',
-        'William R. Kenan, Jr. Endowed Chair and Professor of Psychological Science at Vassar College',
-        '/alums/assets/img/alums-calendar/reunion/2023-lectures/tugade-2022.jpg',
-        'A photo of a person with long, black hair and a pink dress, smiling at the camera'
-      ); ?>
-    <?php echo end_presentation_member_list(); ?>
-  <?php echo end_presentation_item(); ?>
-
-
-
-  <?php echo presentation_item(
-    'Campus Capital Projects: What’s Happening and Upcoming?',
+    'Honoring Childhood for 96 years at the Wimpfheimer Nursery School',
     'Rockefeller Hall, Room 200',
-    '3:00 p.m.'
+    '2:00 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Join <a href="https://www.vassar.edu/faculty/begemann">Marianne Begemann ’79</a>, Dean of Strategic Planning and Academic Resources, for a presentation that contextualizes and showcases current and future campus capital projects.</p>
+      <p>Join Wimpfheimer Nursery School Director Carol Murray for a presentation and conversation about this remarkable Vassar jewel and its younger companion, The ITC (Infant and Toddler Center).</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenter'); ?>
       <?php echo presentation_member(
+        'Carol Murray',
+        null,
+        'Wimpfheimer Nursery School Director',
+        null,
+        null
+      ); ?>
+    <?php echo end_presentation_member_list(); ?>
+  <?php echo end_presentation_item(); ?>
+
+
+
+  <?php echo presentation_item(
+    'Capital Project Planning: Past, Present and Future',
+    'Rockefeller Hall, Room 300',
+    '2:00 p.m.'
+  ); ?>
+    <?php echo presentation_content(); ?>
+      <p>Ever wondered what drives the prioritization of Vassar’s asset renewal projects and strategic capital investments? Join us to find out.</p>
+    <?php echo end_presentation_content(); ?>
+
+    <?php echo presentation_member_list('Presenters'); ?>
+      <?php echo presentation_member(
         'Marianne Begemann ’79',
         'https://www.vassar.edu/faculty/begemann',
-        'Dean of Strategic Planning and Academic Resources',
+        'Dean of Strategic Planning and Academic Resources and Professor of Chemistry',
         '/alums/assets/img/alums-calendar/reunion/2023-lectures/begemann.jpg',
         'A photo of a person with short, straight, brown hair; glasses; and a black shirt, smiling at the camera'
+      ); ?>
+      <?php echo presentation_member(
+        'Maxine Coleman',
+        '',
+        'Assistant Vice President of Facilities Operations',
+        '',
+        ''
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
 
   <?php echo presentation_item(
-    'Tour of the <a href="https://www.vassar.edu/preserve">Vassar Preserve</a> and <a href="https://offices.vassar.edu/environmental-cooperative/">Environmental Cooperative</a>',
-    'Shuttles depart from Main Circle.',
-    '3:00 p.m.',
+    'Tour of the <a href="https://offices.vassar.edu/environmental-cooperative/">Environmental Cooperative</a> and <a href="https://www.vassar.edu/preserve">Vassar Preserve</a>',
+    'Shuttles depart from Main Circle',
+    '2:00 p.m.',
     null,
     '4',
     ['alternate_id' => 'vassar-preserve-environmental-cooperative']
@@ -104,19 +96,130 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_content(); ?>
       <p>Conservation, sustainability and an exploration of the natural world are all core values at Vassar. Explore one of the College’s greatest gems on this guided walking tour (weather permitting). Sensible shoes and long pants are strongly suggested.</p>
     <?php echo end_presentation_content(); ?>
+
+    <?php echo presentation_member_list('Presenters'); ?>
+      <?php echo presentation_member(
+        'Jennifer Rubbo',
+        null,
+        'Director of the Environmental Cooperative',
+        '',
+        ''
+      ); ?>
+      <?php echo presentation_member(
+        'Keri VanCamp',
+        null,
+        'Director of the Field Station and Ecological Preserve',
+        '',
+        ''
+      ); ?>
+    <?php echo end_presentation_member_list(); ?>
+  <?php echo end_presentation_item(); ?>
+
+
+  <?php echo presentation_item(
+    'The Road to an AI Future: Promises and Pitfalls',
+    'New England Building 105',
+    '3:30 p.m.'
+  ); ?>
+    <?php echo presentation_content(); ?>
+      <p>Recent advances in one form of artificial intelligence (Large Language Models or LLMs) have raised important questions about how these systems might change the ways in which we live and work. We will then consider the range of ways in which the emergence of LLM technology could change how humans think and interact with one another, potentially changing not only our social, economic, and political lives, but quite possibly our private lives as well. Is it possible to manage the emergence of this new technology into human life in a way that enhances our humanity for the long term rather than diminishing or even destroying it?</p>
+    <?php echo end_presentation_content(); ?>
+
+    <?php echo presentation_member_list('Presenter'); ?>
+      <?php echo presentation_member(
+        'Kenneth Livingston',
+        'https://www.vassar.edu/faculty/livingst',
+        'Professor of Cognitive Science',
+        '',
+        ''
+      ); ?>
+    <?php echo end_presentation_member_list(); ?>
+  <?php echo end_presentation_item(); ?>
+
+
+  <?php echo presentation_item(
+    'Sounds and Science: Grants in Action at Vassar',
+    'Meet at the Bridge for Laboratory Sciences Atrium (Chapel side)',
+    '3:30 p.m.'
+  ); ?>
+    <?php echo presentation_content(); ?>
+      <p>Join us for a field trip to the Bridge for Laboratory Sciences to visit the college’s new state-of-the-art confocal microscope, and to Skinner Hall's Dickinson Music Library to learn about the digitization of 80-years of Vassar music-making—both made possible by highly competitive extramural grants.</p>
+    <?php echo end_presentation_content(); ?>
+
+    <?php echo presentation_member_list('Facilitators'); ?>
+      <?php echo presentation_member(
+        'Christina Johnson',
+        null,
+        'Assistant Dean for Grants Development & Administration',
+        '',
+        ''
+      ); ?>
+      <?php echo presentation_member(
+        'Gary Hohenberger ’97',
+        null,
+        'Associate Vice President, Foundation & Government Relations',
+        '',
+        ''
+      ); ?>
+    <?php echo end_presentation_member_list(); ?>
+
+    <?php echo presentation_member_list('Presenters'); ?>
+      <?php echo presentation_member(
+        'Hadley Bergstrom',
+        '',
+        'Associate Professor of Psychological Science',
+        '',
+        ''
+      ); ?>
+      <?php echo presentation_member(
+        'Sarah Canino',
+        '',
+        'Music Librarian (Director)',
+        '',
+        ''
+      ); ?>
+    <?php echo end_presentation_member_list(); ?>
+  <?php echo end_presentation_item(); ?>
+
+
+  <?php echo presentation_item(
+    'Flight of the Wasp: The Rise, Fall and Future of America’s Original Ruling Class',
+    'New England Building 206',
+    '3:30 p.m.'
+  ); ?>
+    <?php echo presentation_content(); ?>
+      <p>Join Rebecca Edwards, Professor of History on the Elloise Ellory Chair, for an interview with renowned author Michael Gross ’74 about his new book.</p>
+    <?php echo end_presentation_content(); ?>
+
+    <?php echo presentation_member_list('Presenters'); ?>
+      <?php echo presentation_member(
+        'Rebecca Edwards',
+        '',
+        'Professor of History on the Elloise Ellory Chair',
+        '',
+        ''
+      ); ?>
+      <?php echo presentation_member(
+        'Michael Gross ’74',
+        null,
+        null,
+        '',
+        ''
+      ); ?>
+    <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
 
 
   <?php echo presentation_item(
     'Walking Tour of the Vassar College Arboretum',
     'Meet at the entrance to Main in front of Main Circle.',
-    '3:00 p.m.'
+    '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Enjoy a leisurely walk, discover fascinating fun facts about trees, and learn about the increasing importance of campus trees for our efforts to be more sustainable and achieve carbon neutrality. Our itinerary will include visits to the reuning classes’ class trees. Please wear comfortable walking shoes and dress for the weather.</p>
+      <p>Enjoy a leisurely walk, discover fascinating fun facts about trees, and learn about the increasing importance of campus trees for our efforts to be more sustainable and achieve carbon neutrality. Our itinerary will include visits to the reuning classes' class trees. Please wear comfortable walking shoes and dress for the weather.</p>
     <?php echo end_presentation_content(); ?>
 
-    <?php echo presentation_member_list('Presenter'); ?>
+    <?php echo presentation_member_list('Presenters'); ?>
       <?php echo presentation_member(
         'Mark Schlessman',
         'https://www.vassar.edu/faculty/emeriti/schlessman',
@@ -136,46 +239,30 @@ $page_info = json_decode($page_info, true);
 
 
 
-<h3 class="schedule-item__heading">Saturday, June 3</h3>
+<h3 class="schedule-item__heading">Saturday, June 1</h3>
 
 <?php echo presentation_item(
-  'Is a Multiracial Inclusive Democracy Possible in the United States?',
-  'Rockefeller Hall, Room 300 (also available virtually)',
-  '2:00 p.m.'
+  'Paula Madison ’74 - Finding Samuel Lowe: From Harlem to China',
+  'Rosenwald Screening Room in Vogelstein Center for Drama and Film',
+  '2:30 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Those who wrote the Constitution did not conceptualize “We the People” as multiracial and inclusive. Every student of history knows this. As the demographics, power and politics of the US change, we are seeing White Nationalism emerge from the shadows into being an openly championed segment of US politics and daily life. Are we at risk of becoming the next Apartheid state? Instead of a democracy, will we be ruled by the Authoritarian Few or an Oligarchy?<br>
-    <a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6784&content_id=6216">To participate virtually in this program, please register</a>.</p>
+    <p>Join Sophia Harvey, Associate Professor of film for a glimpse at Paula Madison’s compelling documentary that chronicles her journey to her maternal grandfather’s homeland in China and the reconnection of her nuclear family with his 300+ descendants.</p>
+
+<p>An Afro-Chinese-Jamaican Harlem family seeks their Chinese grandfather who was forever separated from their mother - his 3-year-old half-Chinese, half-Jamaican daughter - in Jamaica in1920. Samuel Lowe (Lowe Ding Chow) returned to China for the last time in 1933 with his Chinese wife and two youngest daughters after having already taken three sons and another daughter there previously.</p>
+ 
+<p>After a 91-year separation, his Black Chinese Jamaican grandchildren, led by Paula Williams Madison ’74, who never knew their family journey to China where they find Samuel Lowe's 300 Chinese descendants and the entire clan is reunited. The film takes viewers to Harlem, Toronto, Martha's Vineyard, three cities in Jamaica and two cities in China to see these families of different races become One.</p>
+
+<p><a href="https://vimeo.com/70450824">Watch Paula Madison’s documentary with the password FSLd!st5rn</a>.
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenter'); ?>
     <?php echo presentation_member(
-      'Peggy Nagae ’73',
-      'https://www.linkedin.com/in/peggy-nagae-75ba402/',
-      'Attorney and Owner, Peggy Nagae Consulting',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/Peggy-2020.jpg',
-      'A photo of a person with long, straight, brown hair and a red dress, smiling at the camera'
-    ); ?>
-    <?php echo presentation_member(
-      'Keith St. John ’81',
-      'https://www.linkedin.com/in/keith-st-john-045b29a9/',
-      'General Counsel, NYS Commission on Ethics and Lobbying in Govt',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/keith-st-john.jpg',
-      'A photo of a person with a long gray beard and a white shirt with a black tie, smiling at the camera'
-    ); ?>
-    <?php echo presentation_member(
-      'Richard Born',
-      'https://www.vassar.edu/faculty/born',
-      'Professor of Political Science at Vassar College',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/born-richard-230330.jpg',
-      'A photo of a person with short, wavy, gray hair, glasses, and a blue sweater over a yellow shirt with a collar, looking at the camera'
-    ); ?>
-    <?php echo presentation_member(
-      'Mallory Whiteduck',
-      'https://www.vassar.edu/faculty/mwhiteduck',
-      'Assistant Professor of Political Science at Vassar College',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/mallory-whiteduck.jpg',
-      'A photo of a person with long, straight, brown hair and a green shirt, smiling at the camera'
+      'Sophia Harvey',
+      '',
+      'Associate Professor of Film',
+      '',
+      ''
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
@@ -183,38 +270,100 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo presentation_item(
-  'Financial Wellness for Young Professionals',
-  'Rockefeller Hall, Room 200',
-  '2:00 p.m.'
+  'Celebrating the Alumnae House Centennial: Honoring the Past, Reimagining the Future',
+  'Alumnae House, Living Room',
+  '2:30 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Juggling student loans, credit cards, rent, groceries and more? Tired of living paycheck to paycheck? Join finance professionals Caroline Sarles ’13 and Marisa Rothstein ’08 for an informative discussion about how to move from basic survival to building assets and greater financial stability.</p>
+    <p>Join us for a special panel discussion reflecting on the history of Alumnae House, from the initial gift that led to its founding and the work of artist Violet Oakley, to the key role alums have played in sustaining and modernizing the house over the past century. Looking to the future, we'll discuss how this key part of Vassar's campus will remain a forever home that fosters a sense of belonging for alums across generations for the century ahead. Moderated by AAVC Board Director James Estrada ’13, Chair, Alumnae House Committee.</p>
   <?php echo end_presentation_content(); ?>
 
-  <?php echo presentation_member_list('Presenter'); ?>
+  <?php echo presentation_member_list('Moderator'); ?>
     <?php echo presentation_member(
-      'Caroline Sarles ’13, CFP&reg;',
-      'https://www.linkedin.com/in/sarles-caroline/',
-      'Senior Marketing and Client Service Manager at Martin Investment Management, LLC',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/sarles.jpg',
-      'A photo of a person with long, straight, brown hair, smiling at the camera'
-    ); ?>
-    <?php echo presentation_member(
-      'Marisa Rothstein ’08, JD, CFP&reg;, AEP&reg;',
-      'https://www.linkedin.com/in/attorneycfp/',
-      'Personal Financial Advisor at Siena Private Wealth',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/Marisa-Rothstein.jpg',
-      'A photo of a person with curly shoulder-length brown hair, smiling at the camera'
+      'James Estrada ’13',
+      '',
+      'AAVC Board Director and Chair, Alumnae House Committee',
+      '',
+      ''
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
 
+
+  <?php echo presentation_item(
+    'Climate Tales from a Southwestern Lake: Lessons for the Future',
+    'Rockefeller 210',
+    '2:30 p.m.'
+  ); ?>
+    <?php echo presentation_content(); ?>
+      <p>Kirsten Menking, Professor of Earth Science on the Althea Ward Clark Chair and Environmental Studies Program Director, has studied the history of climate change in central New Mexico (last ~70,000 years) through a combination of numerical modeling and lake sediment records from now dry Lake Estancia.  Come hear what the lake has to tell us about future climate in this arid region that is experiencing rapid population growth and that has been designated as a site for nuclear waste disposal.</p>
+    <?php echo end_presentation_content(); ?>
+
+    <?php echo presentation_member_list('Presenter'); ?>
+      <?php echo presentation_member(
+        'Kirsten Menking',
+        '',
+        'Professor of Earth Science on the Althea Ward Clark Chair and Environmental Studies Program Director',
+        '',
+        ''
+      ); ?>
+    <?php echo end_presentation_member_list(); ?>
+  <?php echo end_presentation_item(); ?>
+
+
+  <?php echo presentation_item(
+    'Enhancing Resilience: Strategies for Mental Health at Vassar and Beyond',
+    'New England Building 206',
+    '2:30 p.m.'
+  ); ?>
+    <?php echo presentation_content(); ?>
+      <p>Join Associate Dean of Student Living and Wellness Luis Jimenez Inoa and Director of Counseling Service Wendy Freedman as they delve into the multifaceted world of mental wellness at Vassar and in higher education. From proactive support structures to the evolving needs of today's students, this session will engage attendees in a critical dialogue about the importance of mental health in the academic journey.</p>
+    <?php echo end_presentation_content(); ?>
+
+    <?php echo presentation_member_list('Presenters'); ?>
+      <?php echo presentation_member(
+        'Luis Jimenez Inoa',
+        'https://www.vassar.edu/faculty/livingst',
+        'Associate Dean of Student Living and Wellness',
+        '',
+        ''
+      ); ?>
+       <?php echo presentation_member(
+        'Wendy Freedman',
+        'https://www.vassar.edu/faculty/livingst',
+        'Director of Counseling Service',
+        '',
+        ''
+      ); ?>
+   <?php echo end_presentation_member_list(); ?>
+  <?php echo end_presentation_item(); ?>
+
+
+  <?php echo presentation_item(
+    'Pulitzer Prize winning author Ada Ferrera ’84 presents “Cuba: An American Story”, and other works of Cuban history',
+    'Rockefeller 310',
+    '2:30 p.m.'
+  ); ?>
+    <?php echo presentation_content(); ?>
+      <p>All are welcome.</p>
+    <?php echo end_presentation_content(); ?>
+
+    <?php echo presentation_member_list('Presenter'); ?>
+      <?php echo presentation_member(
+        'Ada Ferrera ’84',
+        '',
+        null,
+        '',
+        ''
+      ); ?>
+    <?php echo end_presentation_member_list(); ?>
+  <?php echo end_presentation_item(); ?>
 
 
 <?php echo presentation_item(
   'Walking Tour of the Vassar College Arboretum',
   'Meet at the entrance to Main in front of Main Circle.',
-  '2:00 p.m.',
+  '2:30 p.m.',
   null,
   '4',
   [
@@ -225,7 +374,7 @@ $page_info = json_decode($page_info, true);
     <p>Enjoy a leisurely walk, discover fascinating fun facts about trees, and learn about the increasing importance of campus trees for our efforts to be more sustainable and achieve carbon neutrality. Our itinerary will include visits to the reuning classes’ class trees. Please wear comfortable walking shoes and dress for the weather.</p>
   <?php echo end_presentation_content(); ?>
 
-  <?php echo presentation_member_list('Presenter'); ?>
+  <?php echo presentation_member_list('Presenters'); ?>
     <?php echo presentation_member(
       'Mark Schlessman',
       'https://www.vassar.edu/faculty/emeriti/schlessman',
@@ -245,100 +394,106 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo presentation_item(
-  'The Promise and Peril of Social Media',
-  'Rockefeller Hall, Room 300 (also available virtually)',
-  '3:30 p.m.'
+  'Intergenerational Dialogue: Life Survival Hacks and Vassar Experiences',
+  'Location TBD',
+  '4:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Join us for a nuanced conversation about how social media engages and influences our emotional, social, and cultural lives. We will discuss mental health, belonging needs, and the contextual origins of our hyper-connected world.<br>
-    <a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6784&content_id=6216">To participate virtually in this program, please register</a>.</p>
+    <p>Join members of classes of 1969, 1999, 2019 and 2024 for non-hierarchical and intergenerational conversation where the audience members are the participants.
+Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student and Young Alumnae/i Engagement Committee (SYAEC).</p>
   <?php echo end_presentation_content(); ?>
 
-  <?php echo presentation_member_list('Presenter'); ?>
+  <?php echo presentation_member_list('Facillitator'); ?>
     <?php echo presentation_member(
-      'John Andrews',
-      'https://www.vassar.edu/faculty/jandrews',
-      'Visiting Assistant Professor of Sociology',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/john-andrews.jpg',
-      'A photo of a person with short, straight gray hair, smiling at the camera'
-    ); ?>
-    <?php echo presentation_member(
-      'Dara Greenwood',
-      'https://www.vassar.edu/faculty/dagreenwood',
-      'Associate Professor of Psychological Science and Director of Media Studies',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/dara-greenwood.jpg',
-      'A photo of a person with long, straight, brown hair, smiling at the camera'
-    ); ?>
-    <?php echo presentation_member(
-      'Anton Hart ’83',
-      'https://as.nyu.edu/faculty/anton-hart.html',
-      'FABP, FIPA, Psychoanalyst and Faculty Member at Multiple Institutions',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/anton-hart.jpg',
-      'A photo of a person with short, dark-gray hair, looking at the camera'
+      'Ellie Winter ’18',
+      '',
+      'AAVC Board member and Chair of the Student and Young Alumnae/i Engagement Committee (SYAEC)',
+      '',
+      ''
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
 
 
 <?php echo presentation_item(
-  'Hallie Flanagan and the 1937 Federal Summer Theater Conference at Vassar',
-  'Rockefeller Hall, Room 200',
-  '3:30 p.m.'
+  'Stop Making Sense: The Art of Inspiring Anybody',
+  'Rockefeller 210',
+  '4:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p><a href="https://vcencyclopedia.vassar.edu/faculty/prominent-faculty/hallie-flanagan-davis/">Hallie Flanagan Davis</a>, founder of the Vassar Experimental Theater and Director of the WPA Federal Theatre Project, brought theater professionals and academics to the Vassar campus in the summer of 1937 to introduce them to innovative technologies and emerging modern drama theories, to workshop a Living Newspaper production on the housing crisis in America, and to foster the development of “a new, imaginative theater” in America. Herman Daniel Farrell III ’83 (Drama major), a University Research Professor at the University of Kentucky will discuss his recent research that will be published this year in <a href="https://sup.sorbonne-universite.fr/catalogue/collections/e-theatrum-mundi-0"><em>e-Theatrum Mundi</em></a>, Sorbonne University Press, Paris, France.</p>
+    <p>We all crave the awesome energy of inspiration, but what if we didn’t have to wait for it to strike on its own stingy schedule? What if each of us could <em>be</em> inspiring, summoning our own muse-like power to move the world? Michael Fanuele ’94, one of the world’s most successful marketing strategists, shares tips and tricks from his best-selling book that’ll help unleash the inspiring leader within us all. With insights from music, politics, business, neuroscience, and even a recipe for radishes, <em>Stop Making Sense</em> is a fun and provocative blueprint for leadership, which, according to Andrew Zimmern ’84, is exactly what you’d get “if Brene Brown and Simon Sinek had a book baby.”</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenter'); ?>
     <?php echo presentation_member(
-      'Herman Daniel Farrell III ’83',
-      'https://finearts.uky.edu/theatre-dance/faculty-staff/herman-d-farrell-iii',
-      'University Research Professor, University of Kentucky',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/farrell.jpg',
-      'A photo of a person with a short gray beard, looking at the camera'
-    ); ?>
-  <?php echo end_presentation_member_list(); ?>
-<?php echo end_presentation_item(); ?>
-
-
-
-<?php echo presentation_item(
-  'Pedagogy and Place: The Legacy of Vassar’s Landscape',
-  'Meet in front of Rockefeller Hall',
-  '3:30 p.m.'
-); ?>
-  <?php echo presentation_content(); ?>
-    <p>This walking tour, led by Karen Van Lengen ’73, will visit several key landscape and building sites that demonstrate the unusual manner in which Vassar’s campus structure and design have emerged. Its interactive relationship with the emerging curriculum created a unique story that has shaped the spirit of the College and its graduates for many years.</p>
-  <?php echo end_presentation_content(); ?>
-
-  <?php echo presentation_member_list('Presenter'); ?>
-    <?php echo presentation_member(
-      'Karen Van Lengen ’73',
-      'https://www.arch.virginia.edu/people/karen-van-lengen',
-      'William Kenan Professor of Architecture, University of Virginia',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/van-lengen.jpg',
-      'A black and white photo of a person with long, straight hair, smiling at the camera'
+      'Michael Fanuele ’94',
+      '',
+      null,
+      '',
+      ''
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
 
 
 <?php echo presentation_item(
-  'Campus Projects: View What’s New',
-  'Meet in Main Circle',
-  '3:30 p.m.'
+  'A Conversation About Health, Education, and Politics in America',
+  'Rockfeller 300',
+  '4:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Join Vassar Project Manager Bryan Corrigan for a walking tour of recent renovations and capital projects, including Main Building, the Bridge for Laboratory Sciences, Faculty Housing, Gordon Commons and the site for the Center for Admission and Career Education.</p>
+    <p>Join three Vassar faculty members for an exploration of modern American culture through the lenses of their scholarship and current course offerings.</p>
   <?php echo end_presentation_content(); ?>
 
-  <?php echo presentation_member_list('Presenter'); ?>
+  <?php echo presentation_member_list('Presenters'); ?>
     <?php echo presentation_member(
-      'Bryan Corrigan',
-      'https://www.linkedin.com/in/bryan-corrigan-ra-leed-ap-05630612/',
-      'Vassar Project Manager',
-      '/alums/assets/img/alums-calendar/reunion/2023-lectures/Bryan_Corrigan.jpg',
-      'A photo of a person with very short grayish hair and glasses in a blue checked shirt, smiling at the camera'
+      'Catherine Do Tan',
+      '',
+      'Assistant Professor of Sociology',
+      '',
+      ''
+    ); ?>
+    <?php echo presentation_member(
+      'Kimberly Williams Brown',
+      '',
+      'Assistant Professor of Education',
+      '',
+      ''
+    ); ?>
+    <?php echo presentation_member(
+      'Sidney Plotkin',
+      '',
+      'Professor of Political Science',
+      '',
+      ''
+    ); ?>
+  <?php echo end_presentation_member_list(); ?>
+<?php echo end_presentation_item(); ?>
+
+
+<?php echo presentation_item(
+  'Sneak Peek at the Institute for the Liberal Arts',
+  'Meet at Chicago Hall Gate',
+  '4:00 p.m.'
+); ?>
+  <?php echo presentation_content(); ?>
+    <p>Join Robert Brigham, Professor of History and the Inaugural Faculty Director of Vassar’s Institute for the Liberal Arts, and Maryann Pilon, project manager, for a tour of Vassar’s newest community resource and a sneak peek into early Institute programming.</p>
+  <?php echo end_presentation_content(); ?>
+
+  <?php echo presentation_member_list('Presenters'); ?>
+    <?php echo presentation_member(
+      'Robert Brigham',
+      '',
+      'Professor of History and Inaugural Faculty Director of Vassar’s Institute for the Liberal Arts',
+      '',
+      ''
+    ); ?>
+    <?php echo presentation_member(
+      'Maryann Pilon',
+      null,
+      'Project Manager',
+      '',
+      ''
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
