@@ -59,7 +59,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '6 p.m.–9 p.m.',
+    '6–9 p.m.',
     'Campfire Casual Welcome Back buffet dinner',
     'Davison Tent',
   ); ?>
@@ -69,7 +69,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '9:30 p.m.–11:30 p.m.',
+    '9:30–11:30 p.m.',
     'Meet Your Stars: An Astrological Icebreaker',
     'Davison Multipurpose Room',
   ); ?>
@@ -78,7 +78,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '9:30 p.m.–11:30 p.m.',
+    '9:30–11:30 p.m.',
     '1974 Hospitality',
     'Davison Multipurpose Room',
   ); ?>
@@ -87,7 +87,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '9:30 p.m.–11:30 p.m.',
+    '9:30–11:30 p.m.',
     '1974 Lounge – Demitasse',
     'Davison Parlor',
   ); ?>
@@ -263,7 +263,7 @@ $page_info = json_decode($page_info, true);
   ); ?>
 
   <?php echo schedule_item_dropdown(
-    '9:30 p.m.–11:30 p.m.',
+    '9:30–11:30 p.m.',
     '1974 Hospitality',
     'Davison Multipurpose Room',
   ); ?>
@@ -272,7 +272,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '9:30 p.m.–11:30 p.m.',
+    '9:30–11:30 p.m.',
     '1974 Lounge',
     'Davison Parlor',
   ); ?>
@@ -449,9 +449,6 @@ $page_info = json_decode($page_info, true);
     'College-sponsored Lectures and Tours'
   ); ?>
 
-  <h4><a href="../lectures/#intergenerational-dialogue-life-survival-hacks-and-vassar-experiences">Intergenerational Dialogue: Life Survival Hacks and Vassar Experiences</a></h4>
-<p><strong>Location:</strong> Location TBD</p>
-
   <h4><a href="../lectures/#stop-making-sense-the-art-of-inspiring-anybody">Stop Making Sense: The Art of Inspiring Anybody</a></h4>
 <p><strong>Location:</strong> Rockefeller 210</p>
 
@@ -509,6 +506,23 @@ $page_info = json_decode($page_info, true);
     'Davison multipurpose room'
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
+
+  <?php echo schedule_item_dropdown(
+    '10 p.m.–12 a.m.',
+    '1974 Hospitality',
+    'Davison Multipurpose Room',
+  ); ?>
+<p>Beer, wine, and soft drinks available</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '10 p.m.–12 a.m.',
+    '1974 Lounge',
+    'Davison Parlor',
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
 
   <?php echo schedule_item_dropdown(
     '10 p.m.–1 a.m.',
