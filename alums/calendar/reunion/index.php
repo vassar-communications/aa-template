@@ -123,7 +123,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <?php echo cta_link(
     '/alums/calendar/reunion/schedule/',
-    'See the Reunion Schedule Preview'
+    'See the Preliminary Reunion Schedule'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -139,36 +139,32 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     '50th/',
-    'See the 50th Reunion Schedule Preview'
+    'See the Preliminary 50th Reunion Schedule'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-<?php /* --hiding content until needed for 2024--
 
 <?php echo sec_fullBleedImageColumn(
-    'Lectures, Panels, and Tours',
+    'College-sponsored Lectures and Tours',
     $alums_img_path.'alums-calendar/reunion/52129387193_a6f8dcfc89_k.jpg',
     '',
     '',
     ['img_alt_text' => 'A person wearing a mask speaks in front of a projector screen at the front of a sunlit classroom with a hardwood floor. The classroom is filled with visiting alums.']
 ); ?>
 
-<p>Explore this year’s lifelong learning opportunities through lectures, panels, and tours at Reunion!</p>
+<p>Explore this year’s lifelong learning opportunities through college-sponsored lectures and tours at Reunion!</p>
 
 <?php echo cta_link(
     '/alums/calendar/reunion/lectures/',
-    'Learn more about Lectures, Panels, and Tours'
+    'Learn more about College-sponsored Lectures and Tours'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
-
---end hiding content */ ?>
 
 
 <div id="information-updates"></div>
 
 <?php echo sec_regularContent('Information & Updates','theme-verylightgray','','',); ?>
 
-<?php /* --hiding content2 until needed for 2024--
 
 <?php echo item_iconItem('New This Year!','star',''); ?>
 <h4>Vassar Mobile App for Reunion</h4>
@@ -224,7 +220,6 @@ $page_info = json_decode($page_info, true);
 <p><a href="https://offices.vassar.edu/campus-safety/procedures/">Read Vassar’s complete emergency procedures</a>.</p>
 <?php echo end_item_iconItem(); ?>
 
---end hiding content2 */ ?>
 
 <?php echo item_iconItem('Housing','house-chimney',''); ?>
 <p>We are excited to welcome alums back to Vassar for in-person reunions and want to ensure that everyone makes informed decisions about where to stay.</p>
@@ -269,22 +264,19 @@ $page_info = json_decode($page_info, true);
         </div>
         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
             <div class="accordion-body">
-                <p>Dorm assignments will be announced in January 2024</p>
-                <!--
-                <p><strong>1958:</strong> Jewett House<br />
-<strong>1963:</strong> Jewett House<br />
-<strong>1968:</strong> Jewett House<br />
-<strong>1973:</strong> Davison House<br />
-<strong>1978:</strong> Josselyn House<br />
-<strong>1983:</strong> Josselyn House<br />
-<strong>1988:</strong> Strong House<br />
-<strong>1993:</strong> Cushing House<br />
-<strong>1998:</strong> Cushing House<br />
-<strong>2003:</strong> Raymond House<br />
-<strong>2008:</strong> Raymond House<br />
-<strong>2013:</strong> TownHouse 164<br />
-<strong>2016:</strong> Lathrop House<br />
-<strong>2018:</strong> Noyes House</p> -->
+                <p><strong>1959:</strong> Jewett House<br />
+<strong>1964:</strong> Jewett House<br />
+<strong>1969:</strong> Jewett House<br />
+<strong>1974:</strong> Davison House<br />
+<strong>1979:</strong> Josselyn House<br />
+<strong>1984:</strong> Josselyn House<br />
+<strong>1989:</strong> Strong House<br />
+<strong>1994:</strong> Lathrop House<br />
+<strong>1999:</strong> Cushing House<br />
+<strong>2004:</strong> Raymond House<br />
+<strong>2009:</strong> Raymond House<br />
+<strong>2014:</strong> TownHouses<br />
+<strong>2019:</strong> Noyes House</p>
             </div>
         </div>
     </div>
@@ -411,10 +403,10 @@ $page_info = json_decode($page_info, true);
     <ul>
       <li>Thursday: 10 a.m.–6 p.m.</li>
       <li>Friday: 10 a.m.–6 p.m</li>
-      <li>Saturday: 11 a.m.–6 p.m.<br>
-        <em>Author Meet and Greet, 2:30–4:30 p.m.</em>
+      <li>Saturday: 10 a.m.–6 p.m.<br>
+        <em>Author Meet and Greet, 3–5 p.m.</em>
       </li>
-      <li>Sunday: 10 a.m.–2 p.m.<br>
+      <li>Sunday: 9 a.m.–2 p.m.<br>
         <em>Ring sales will be available from 10 a.m.–1 p.m.</em>
       </li>
     </ul>
