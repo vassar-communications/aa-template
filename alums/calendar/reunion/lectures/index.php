@@ -242,12 +242,12 @@ $page_info = json_decode($page_info, true);
 <h3 class="schedule-item__heading">Saturday, June 1</h3>
 
 <?php echo presentation_item(
-  'Paula Madison ’74 - Finding Samuel Lowe: From Harlem to China',
+  'Paula Williams Madison ’74 - Finding Samuel Lowe: From Harlem to China',
   'Rosenwald Screening Room in Vogelstein Center for Drama and Film',
   '2:30 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Join Sophia Harvey, Associate Professor of film for a glimpse at Paula Madison’s compelling documentary that chronicles her journey to her maternal grandfather’s homeland in China and the reconnection of her nuclear family with his 300+ descendants.</p>
+    <p>Join Sophia Harvey, Associate Professor of Film for a glimpse at Paula Madison’s compelling documentary that chronicles her journey to her maternal grandfather’s homeland in China and the reconnection of her nuclear family with his 300+ descendants.</p>
 
 <p>An Afro-Chinese-Jamaican Harlem family seeks their Chinese grandfather who was forever separated from their mother - his 3-year-old half-Chinese, half-Jamaican daughter - in Jamaica in1920. Samuel Lowe (Lowe Ding Chow) returned to China for the last time in 1933 with his Chinese wife and two youngest daughters after having already taken three sons and another daughter there previously.</p>
  

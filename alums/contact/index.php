@@ -272,7 +272,7 @@ echo end_contact_card();
 
                 echo contact_card(
                     'Jennifer Ruedebusch',
-                    'Office Specialist',
+                    'Office Coordinator for Gift, Trust, and Estate Administration',
                     [
                       'phone' => '845-437-5487',
                       'email' => 'jeruedebusch@vassar.edu',

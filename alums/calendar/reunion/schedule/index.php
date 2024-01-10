@@ -343,7 +343,7 @@ $page_info = json_decode($page_info, true);
     'College-sponsored Lectures and Tours'
   ); ?>
 
-  <h4><a href="../lectures/#paula-madison-74-finding-samuel-lowe-from-harlem-to-china">Paula Madison ’74 - Finding Samuel Lowe: From Harlem to China</a></h4>
+  <h4><a href="../lectures/#paula-williams-madison-74-finding-samuel-lowe-from-harlem-to-china">Paula Williams Madison ’74 - Finding Samuel Lowe: From Harlem to China</a></h4>
 <p><strong>Location:</strong> Rosenwald Screening Room in Vogelstein Center for Drama and Film</p>
 
   <h4><a href="../lectures/#celebrating-the-alumnae-house-centennial-honoring-the-past-reimagining-the-future">Celebrating the Alumnae House Centennial: Honoring the Past, Reimagining the Future</a></h4>
