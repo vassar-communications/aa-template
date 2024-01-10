@@ -88,7 +88,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '9:30–11:30 p.m.',
-    '1974 Lounge – Demitasse',
+    'Lounge ’74 – Demitasse',
     'Davison Parlor',
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -273,9 +273,10 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '9:30–11:30 p.m.',
-    '1974 Lounge',
+    'Lounge ’74',
     'Davison Parlor',
   ); ?>
+<p>Join us for Throwback ’70’s Soul Night</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -387,7 +388,7 @@ $page_info = json_decode($page_info, true);
     'College-sponsored Lectures and Tours'
   ); ?>
 
-  <h4><a href="../lectures/#paula-madison-74-finding-samuel-lowe-from-harlem-to-china">Paula Madison ’74 - Finding Samuel Lowe: From Harlem to China</a></h4>
+  <h4><a href="../lectures/#paula-williams-madison-74-finding-samuel-lowe-from-harlem-to-china">Paula Williams Madison ’74 - Finding Samuel Lowe: From Harlem to China</a></h4>
 <p><strong>Location:</strong> Rosenwald Screening Room in Vogelstein Center for Drama and Film</p>
 
   <h4><a href="../lectures/#celebrating-the-alumnae-house-centennial-honoring-the-past-reimagining-the-future">Celebrating the Alumnae House Centennial: Honoring the Past, Reimagining the Future</a></h4>
