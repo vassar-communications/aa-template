@@ -50,8 +50,8 @@ $page_info = json_decode($page_info, true);
         'Carol Murray',
         null,
         'Wimpfheimer Nursery School Director',
-        null,
-        null
+        '/alums/assets/img/alums-calendar/reunion/2024-lectures/Carol-Murray.jpg',
+        'A person with shoulder-length brown hair standing against a wall of paper leaves smiles as the viewer.'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -73,14 +73,14 @@ $page_info = json_decode($page_info, true);
         'https://www.vassar.edu/faculty/begemann',
         'Dean of Strategic Planning and Academic Resources and Professor of Chemistry',
         '/alums/assets/img/alums-calendar/reunion/2023-lectures/begemann.jpg',
-        'A photo of a person with short, straight, brown hair; glasses; and a black shirt, smiling at the camera'
+        'A photo of a person with short, straight, brown hair; glasses; and a black shirt, smiling at the camera.'
       ); ?>
       <?php echo presentation_member(
         'Maxine Coleman',
-        '',
+        null,
         'Assistant Vice President of Facilities Operations',
-        '',
-        ''
+        null,
+        null
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -102,15 +102,15 @@ $page_info = json_decode($page_info, true);
         'Jennifer Rubbo',
         null,
         'Director of the Environmental Cooperative',
-        '',
-        ''
+        null,
+        null
       ); ?>
       <?php echo presentation_member(
         'Keri VanCamp',
         null,
         'Director of the Field Station and Ecological Preserve',
-        '',
-        ''
+        null,
+        null
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -130,8 +130,8 @@ $page_info = json_decode($page_info, true);
         'Kenneth Livingston',
         'https://www.vassar.edu/faculty/livingst',
         'Professor of Cognitive Science',
-        '',
-        ''
+        '/alums/assets/img/alums-calendar/reunion/2024-lectures/Ken-Livingston.jpg',
+        'A person with short grey hair and a grey beard and mustache holding a soldering iron smiles at the viewer.'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -151,39 +151,39 @@ $page_info = json_decode($page_info, true);
         'Christina Johnson',
         null,
         'Assistant Dean for Grants Development & Administration',
-        '',
-        ''
+        null,
+        null
       ); ?>
       <?php echo presentation_member(
         'Gary Hohenberger ’97',
         null,
         'Associate Vice President, Foundation & Government Relations',
-        '',
-        ''
+        null,
+        null
       ); ?>
     <?php echo end_presentation_member_list(); ?>
 
     <?php echo presentation_member_list('Presenters'); ?>
       <?php echo presentation_member(
         'Hadley Bergstrom',
-        '',
+        'https://www.vassar.edu/faculty/habergstrom',
         'Associate Professor of Psychological Science',
-        '',
-        ''
+        '/alums/assets/img/alums-calendar/reunion/2024-lectures/Hadley-Bergstrom.jpg',
+        'A person with a shaved head and a short beard and mustache wearing a sweater over a white button down shirt smiles at the camera.'
       ); ?>
       <?php echo presentation_member(
         'Sarah Canino',
         '',
         'Music Librarian (Director)',
-        '',
-        ''
+        null,
+        null
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
 
 
   <?php echo presentation_item(
-    'Flight of the Wasp: The Rise, Fall and Future of America’s Original Ruling Class',
+    'Michael Gross ’74 - Flight of the Wasp: The Rise, Fall and Future of America’s Original Ruling Class',
     'New England Building 206',
     '3:30 p.m.'
   ); ?>
@@ -194,17 +194,17 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_member_list('Presenters'); ?>
       <?php echo presentation_member(
         'Rebecca Edwards',
-        '',
+        'https://www.vassar.edu/faculty/reedwards',
         'Professor of History on the Elloise Ellory Chair',
-        '',
-        ''
+        '/alums/assets/img/alums-calendar/reunion/2024-lectures/Rebecca-Edwards.jpg',
+        'A person with short straight brown hair wearing glasses smiles at the viewer.'
       ); ?>
       <?php echo presentation_member(
         'Michael Gross ’74',
-        null,
-        null,
         '',
-        ''
+        null,
+        '/alums/assets/img/alums-calendar/reunion/2024-lectures/Michael-Gross.jpg',
+        'A person with short curly dark hair wearing a leather jacket smiles at the viewer.'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -256,13 +256,20 @@ $page_info = json_decode($page_info, true);
 <p><a href="https://vimeo.com/70450824">Watch Paula Madison’s documentary with the password FSLd!st5rn</a>.
   <?php echo end_presentation_content(); ?>
 
-  <?php echo presentation_member_list('Presenter'); ?>
+  <?php echo presentation_member_list('Presenters'); ?>
     <?php echo presentation_member(
       'Sophia Harvey',
-      '',
+      'https://www.vassar.edu/faculty/soharvey',
       'Associate Professor of Film',
+      '/alums/assets/img/alums-calendar/reunion/2024-lectures/Sophia-harvey.jpg',
+      'A person with short black and gray hair wearing glasses and a green sweater smiles at the viewer.'
+    ); ?>
+    <?php echo presentation_member(
+      'Paula Williams Madison ’74',
       '',
-      ''
+      null,
+      '/alums/assets/img/alums-calendar/reunion/2024-lectures/Paula-Madison.jpg',
+      'A person with very curly short dark brown hair wearing glasses and a pink shirt smiles at the viewer.'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
@@ -281,10 +288,10 @@ $page_info = json_decode($page_info, true);
   <?php echo presentation_member_list('Moderator'); ?>
     <?php echo presentation_member(
       'James Estrada ’13',
-      '',
+      'https://www.vassar.edu/alums/community/aavc/board-members/aavc-alumnae-house-committee-chair/',
       'AAVC Board Director and Chair, Alumnae House Committee',
-      '',
-      ''
+      '/alums/assets/img/alums-calendar/reunion/2024-lectures/James-Estrada.jpg',
+      'A person with short dark hair and a beard and mustache wearing a gray and black patterned jacket smiles at the viewer.'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
@@ -302,10 +309,10 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_member_list('Presenter'); ?>
       <?php echo presentation_member(
         'Kirsten Menking',
-        '',
+        'https://www.vassar.edu/faculty/kimenking',
         'Professor of Earth Science on the Althea Ward Clark Chair and Environmental Studies Program Director',
-        '',
-        ''
+        '/alums/assets/img/alums-calendar/reunion/2024-lectures/Kirsten-Menking.jpg',
+        'A person with short medium brown straight hair wearing glasses and standing under a tree smiles at the viewer.'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -323,24 +330,24 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_member_list('Presenters'); ?>
       <?php echo presentation_member(
         'Luis Jimenez Inoa',
-        'https://www.vassar.edu/faculty/livingst',
-        'Associate Dean of Student Living and Wellness',
         '',
-        ''
+        'Associate Dean of Student Living and Wellness',
+        '/alums/assets/img/alums-calendar/reunion/2024-lectures/Luis-Inoa.jpg',
+        'A person with short curly black hair and a beard and mustache wearing glasses smiles at the viewer.'
       ); ?>
        <?php echo presentation_member(
         'Wendy Freedman',
-        'https://www.vassar.edu/faculty/livingst',
-        'Director of Counseling Service',
         '',
-        ''
+        'Director of Counseling Service',
+        '/alums/assets/img/alums-calendar/reunion/2024-lectures/Wendy-Freedman.jpg',
+        'A person with shoulder length wavy brown hair stands under a tree and smiles at the viewer.'
       ); ?>
    <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
 
 
   <?php echo presentation_item(
-    'Pulitzer Prize winning author Ada Ferrera ’84 presents “Cuba: An American Story”, and other works of Cuban history',
+    'Pulitzer Prize winning author Ada Ferrer ’84 presents “Cuba: An American Story”, and other works of Cuban history',
     'Rockefeller 310',
     '2:30 p.m.'
   ); ?>
@@ -350,11 +357,11 @@ $page_info = json_decode($page_info, true);
 
     <?php echo presentation_member_list('Presenter'); ?>
       <?php echo presentation_member(
-        'Ada Ferrera ’84',
+        'Ada Ferrer ’84',
         '',
         null,
-        '',
-        ''
+        '/alums/assets/img/alums-calendar/reunion/2024-lectures/Ada-Ferrer.jpg',
+        'A person wih chin-length curly brown hair wearing glasses and a dark sweater smiles at the viewer.'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -406,10 +413,10 @@ Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student an
   <?php echo presentation_member_list('Facillitator'); ?>
     <?php echo presentation_member(
       'Ellie Winter ’18',
-      '',
+      'https://www.vassar.edu/alums/community/aavc/board-members/aavc-ad-hoc-student-young-alums-engagement-committee-chair/',
       'AAVC Board member and Chair of the Student and Young Alumnae/i Engagement Committee (SYAEC)',
-      '',
-      ''
+      '/alums/assets/img/alums-calendar/reunion/2024-lectures/Ellie-Winter.jpg',
+      'A person with shoulder length curly black hair wearing glasses and a black suit jacket smiles at the viewer.'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
@@ -429,8 +436,8 @@ Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student an
       'Michael Fanuele ’94',
       '',
       null,
-      '',
-      ''
+      '/alums/assets/img/alums-calendar/reunion/2024-lectures/Michael-Fanuele.jpg',
+      'A person with very short hair and a short beard and mustache grins at the viewer.'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
@@ -447,25 +454,25 @@ Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student an
 
   <?php echo presentation_member_list('Presenters'); ?>
     <?php echo presentation_member(
+      'Sidney Plotkin',
+      'https://www.vassar.edu/faculty/plotkin',
+      'Professor of Political Science',
+      '/alums/assets/img/alums-calendar/reunion/2024-lectures/Sidney-Plotkin.jpg',
+      'A person with short white hair and a beard and mustache wearing a blue sweater over a blue shirt smiles at the viewer.'
+    ); ?>
+    <?php echo presentation_member(
       'Catherine Do Tan',
-      '',
+      'https://www.vassar.edu/faculty/ctan',
       'Assistant Professor of Sociology',
-      '',
-      ''
+      '/alums/assets/img/alums-calendar/reunion/2024-lectures/Catherine-Tan.jpg',
+      'A person with short straight black hair wearing an orange colored dress smiles off to one side of the viewer.'
     ); ?>
     <?php echo presentation_member(
       'Kimberly Williams Brown',
-      '',
+      'https://www.vassar.edu/faculty/kwilliamsbrown',
       'Assistant Professor of Education',
-      '',
-      ''
-    ); ?>
-    <?php echo presentation_member(
-      'Sidney Plotkin',
-      '',
-      'Professor of Political Science',
-      '',
-      ''
+      '/alums/assets/img/alums-calendar/reunion/2024-lectures/Kimberly-Williams-Brown.jpg',
+      'A person with black hair in braids styled on top of their head, wearing glasses and a black suit, smiles at the viewer.'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
@@ -477,23 +484,16 @@ Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student an
   '4:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Join Robert Brigham, Professor of History and the Inaugural Faculty Director of Vassar’s Institute for the Liberal Arts, and Maryann Pilon, project manager, for a tour of Vassar’s newest community resource and a sneak peek into early Institute programming.</p>
+    <p>Join Robert Brigham, Professor of History and the Inaugural Faculty Director of Vassar’s Institute for the Liberal Arts, and Olympia Management for a tour of Vassar’s newest community resource and a sneak peek into early Institute programming.</p>
   <?php echo end_presentation_content(); ?>
 
-  <?php echo presentation_member_list('Presenters'); ?>
+  <?php echo presentation_member_list('Presenter'); ?>
     <?php echo presentation_member(
       'Robert Brigham',
-      '',
+      'https://www.vassar.edu/faculty/robrigham',
       'Professor of History and Inaugural Faculty Director of Vassar’s Institute for the Liberal Arts',
-      '',
-      ''
-    ); ?>
-    <?php echo presentation_member(
-      'Maryann Pilon',
-      null,
-      'Project Manager',
-      '',
-      ''
+      '/alums/assets/img/alums-calendar/reunion/2024-lectures/Robert-Brigham.jpg',
+      'A person with a bald head and a gray beard and mustache, wearing a suit, looks at the viewer.'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
