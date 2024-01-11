@@ -95,7 +95,7 @@ $page_info = json_decode($page_info, true);
       <h4><a href="../lectures/#sounds-and-science-grants-in-action-at-vassar">Sounds and Science: Grants in Action at Vassar</a></h4>
       <p><strong>Location:</strong> Meet at the Bridge for Laboratory Sciences Atrium (Chapel side)</p>
 
-      <h4><a href="../lectures/#flight-of-the-wasp-the-rise-fall-and-future-of-americas-original-ruling-class">Flight of the Wasp: The Rise, Fall and Future of America’s Original Ruling Class</a></h4>
+      <h4><a href="../lectures/#michael-gross-74-flight-of-the-wasp-the-rise-fall-and-future-of-americas-original-ruling-class">Michael Gross ’74 - Flight of the Wasp: The Rise, Fall and Future of America’s Original Ruling Class</a></h4>
       <p><strong>Location:</strong> New England Building 206</p>
 
     <h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum">Tour: Walking Tour of the Vassar College Arboretum</a></h4>
@@ -115,7 +115,7 @@ $page_info = json_decode($page_info, true);
   
    <?php echo schedule_item_dropdown(
     '5 p.m.',
-    'Class of 1969 Reception',
+    'Class of 1969 Reception and Dinner',
     'Shakespeare Garden'
   ); ?>
   
@@ -355,7 +355,7 @@ $page_info = json_decode($page_info, true);
   <h4><a href="../lectures/#enhancing-resilience-strategies-for-mental-health-at-vassar-and-beyond">Enhancing Resilience: Strategies for Mental Health at Vassar and Beyond</a></h4>
 <p><strong>Location:</strong> New England Building 206</p>
 
-  <h4><a href="../lectures/#pulitzer-prize-winning-author-ada-ferrera-84-presents-cuba-an-american-story-and-other-works-of-cuban-history">Pulitzer Prize winning author Ada Ferrera ’84 presents “Cuba: An American Story”, and other works of Cuban history</a></h4>
+  <h4><a href="../lectures/#pulitzer-prize-winning-author-ada-ferrer-84-presents-cuba-an-american-story-and-other-works-of-cuban-history">Pulitzer Prize winning author Ada Ferrer ’84 presents “Cuba: An American Story”, and other works of Cuban history</a></h4>
 <p><strong>Location:</strong> Rockefeller 310</p>
 
     <h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum-2">Tour: Walking Tour of the Vassar College Arboretum</a></h4>
