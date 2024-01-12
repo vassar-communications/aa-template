@@ -15,22 +15,43 @@
 
 
 
+
 <?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-11-09/spotlight/0127-23-10-kma-bartlett-vassar-0766-HP-cropped.jpg',
+  $alums_spotlight_itm_path.'/2024-01-11/spotlight/Triennial-0031_15_04_KR_0034-compressed.jpg',
   'is-link',
-  '3 people sitting in chairs in front row and 7 people standing in the back in an office with several framed artworks on the walls.'
+  'Two people sit in a large brick room. One person is sitting on the right, closest to the viewer and out of focus. The other person has short curly gray hair and is wearing a purple robe and glasses.'
 ); ?>
-  <h3 class="h3">Dede Thompson Bartlett ’65 Visits Campus to Talk Career Education</h3>
-  <p>The alum met with students who received fellowships she is funding.</p>
-  <p><em>Photo: Kelly Marsh</em></p>
+  <h3 class="h3">We Remember June Jackson Christmas ’45-4, Groundbreaking Psychiatrist and Ardent Supporter of the Vassar Community</h3>
+  <p><em>Photo: Karl Rabe</em></p>
 
   <?php echo cta_link(
-    'https://www.vassar.edu/news/dede-thompson-bartlett-65-visits-campus-talk-career-education',
+    'https://www.vassar.edu/news/we-remember-june-jackson-christmas-45-4-groundbreaking-psychiatrist-and-ardent-supporter-of-the-vassar-community',
     'Read more',
     'stretched-link'
   ); ?>
 
 <?php echo end_carousel_item(); ?>
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2024-01-11/spotlight/drago_kearney.jpg',
+  'is-link',
+  'Two portrait photos, side by side. The left photo shows a person with short dark hair and a blue button-down shirt. The right photo shows a person with longer brown hair and a white button-down shirt.'
+); ?>
+  <h3 class="h3">Two Alums Win Important Seats in Local Elections</h3>
+  <p>Chris Drago ’98 (left) and Brennan Kearney ’96</p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/candidates-vassar-ties-win-important-seats-local-elections',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
 
 
 <?php echo carousel_item(
@@ -44,24 +65,6 @@
 
   <?php echo cta_link(
     'https://www.vassar.edu/news/dr-paul-frank-91-gifts-endowment-vassars-health-and-wellness-program',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2023-11-09/spotlight/vcsa-group-at-town-hall-in-kolkata_feature-cropped.jpg',
-  'is-link',
-  'A group of people stand under a large straw roof, on a street with an intricate pattern painted on it. Behind them is a large stone building.'
-); ?>
-  <h3 class="h3">Vassar Club of South Asia Trip Expands Opportunities for Connection</h3>
-  <p>Alums, students, and two faculty members traveled to Kolkata, India, for an immersive program.</p>
-  <p><em>Photo: Madhabendu Hensh</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/gathering-vassar-club-south-asia-expands-opportunities-connection',
     'Read more',
     'stretched-link'
   ); ?>
