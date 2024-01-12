@@ -42,7 +42,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
     'A monochrome archival photo of a person with short light-colored hair sitting in front of a stone wall, looking to their left. The person is wearing a light-colored button-down shirt.'
   ); ?>
 
-  <p>The exhibition of postcards from award-winning poet <strong>Elizabeth Bishop ’35<strong> at the Thompson Memorial Library was featured in the <em>Paris Review</em>.</p>
+  <p>The exhibition of postcards from award-winning poet <strong>Elizabeth Bishop ’35</strong> at the Thompson Memorial Library was featured in the <em>Paris Review</em>.</p>
   <p><em>Photo: Courtesy of Vassar Archives & Special Collections</em></p>
   <?php echo cta_link(
   'https://www.theparisreview.org/blog/2023/11/27/postcards-from-elizabeth-bishop/',
