@@ -173,10 +173,10 @@ $page_info = json_decode($page_info, true);
       ); ?>
       <?php echo presentation_member(
         'Sarah Canino',
-        '',
-        'Music Librarian (Director)',
         null,
-        null
+        'Music Librarian (Director)',
+        '/alums/assets/img/alums-calendar/reunion/2024-lectures/Sarah-Canino.jpg',
+        'A person with long brown hair and bangs, wearing glasses, a teal sweater, and a multi-colored scarf, smiles at the viewer. Photo credit: Karl Rabe/Vassar College.'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -410,7 +410,7 @@ $page_info = json_decode($page_info, true);
 Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student and Young Alumnae/i Engagement Committee (SYAEC).</p>
   <?php echo end_presentation_content(); ?>
 
-  <?php echo presentation_member_list('Facillitator'); ?>
+  <?php echo presentation_member_list('Facilitator'); ?>
     <?php echo presentation_member(
       'Ellie Winter ’18',
       'https://www.vassar.edu/alums/community/aavc/board-members/aavc-ad-hoc-student-young-alums-engagement-committee-chair/',
