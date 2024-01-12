@@ -4,6 +4,64 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-01-11/in-the-media/Jonathan_Karl_Capitol_ABC-News.jpg',
+    'is-link',
+    'A photo of a person with short brown hair, glasses, a blue suit jacket, and a formal shirt and tie smiles at the viewer. The person is standing in front of the United States Capitol building, a classical building with a dome.'
+  ); ?>
+
+  <p>Author and ABC News Chief Washington Correspondent <strong>Jonathan Karl ’90</strong> was a guest on Preet Bharara’s podcast, <em>Stay Tuned with Preet</em>.</p>
+  <p><em>Photo: Courtesy of ABC News</em></p>
+  <?php echo cta_link(
+  'https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vVk1QNTQ4OTczNDcwMg/episode/MWIxZjVlYTgtMzUyYy0xMWVkLWExODEtY2ZlY2RjMjMyNTMy?ep=14',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-01-11/in-the-media/Frances_Sternhagen_Reunion_parade_11_CS.jpg',
+    'is-link',
+    'A photo of a person with long gray hair, glasses, and a light blue scarf sitting on the back of a golf cart, smiling at the viewer.'
+  ); ?>
+
+  <p>Tony Award-winning actor <strong>Frances Sternhagen ’51</strong> was remembered by the <em>New York Times</em>.</p>
+  <p><em>Photo: Stockton Photo, Inc.</em></p>
+  <?php echo cta_link(
+  'https://www.nytimes.com/2023/11/29/theater/frances-sternhagen-dead.html?smid=nytcore-ios-share&referringSource=articleShare',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-01-11/in-the-media/Bishop100-25-Ref3.jpg',
+    'is-link',
+    'A monochrome archival photo of a person with short light-colored hair sitting in front of a stone wall, looking to their left. The person is wearing a light-colored button-down shirt.'
+  ); ?>
+
+  <p>The exhibition of postcards from award-winning poet <strong>Elizabeth Bishop ’35</strong> at the Thompson Memorial Library was featured in the <em>Paris Review</em>.</p>
+  <p><em>Photo: Courtesy of Vassar Archives & Special Collections</em></p>
+  <?php echo cta_link(
+  'https://www.theparisreview.org/blog/2023/11/27/postcards-from-elizabeth-bishop/',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <?php echo carousel_item(
@@ -54,40 +112,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 <?php echo end_carousel_item(); ?>
 
 
-<?php echo carousel_item(
-    $media_carousel_path.'/2023-11-09/in-the-media/juliany_taveras-cropped.jpg',
-    'is-link',
-    'A person with long black curly hair, an orange jacket, a nose ring, and a green necklace looks at the viewer.'
-  ); ?>
-
-  <p>Playwright juliany taveras ’16 spoke to <em>DIVA</em> magazine about their new play, <em>Morris Micklewhite And The Tangerine Dress</em>, at the Children’s Theatre Company in Minneapolis.</p>
-  <p><em>Photo: Courtesy of the subject</em></p>
-  <?php echo cta_link(
-  'https://diva-magazine.com/2023/09/25/juliany-taveras/',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
-
-
-
-
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2023-09-28/in-the-media/Tiana_Headley_courtesy_of.jpg',
-    'is-link',
-    'A portrait of a person with long black hair, a pink shirt with black polka-dots, and glasses. The person is standing outside, smiling at the viewer.'
-  ); ?>
-
-  <p>Tiana Headley ’22 wrote the <em>Bloomberg Law</em> article “Color of Justice: All-White Benches Persist in US District Courts.”</p>
-  <p><em>Photo: Tiana Headley</em></p>
-  <?php echo cta_link(
-  'https://news.bloomberglaw.com/us-law-week/color-of-justice-all-white-benches-persist-in-us-district-courts?utm_medium=lawdesk&utm_source=twitter&campaign=A54DE238-4BED-11EE-A680-4DB7F143A863',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
 
 
 <?php echo end_carousel(); ?>
