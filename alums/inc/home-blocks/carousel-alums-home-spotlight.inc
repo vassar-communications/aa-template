@@ -21,7 +21,7 @@
   'is-link',
   'Two people sit in a large brick room. One person is sitting on the right, closest to the viewer and out of focus. The other person has short curly gray hair and is wearing a purple robe and glasses.'
 ); ?>
-  <h3 class="h3">We Remember June Jackson Christmas ’45-4, Groundbreaking Psychiatrist and Ardent Supporter of the Vassar Community</h3>
+  <h3 class="h3">We Remember June Jackson Christmas ’45-4, Ground-breaking Psychiatrist and Ardent Supporter of the Vassar Community</h3>
   <p><em>Photo: Karl Rabe</em></p>
 
   <?php echo cta_link(
