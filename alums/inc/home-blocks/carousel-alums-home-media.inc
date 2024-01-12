@@ -25,7 +25,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
     'A photo of a person with long gray hair, glasses, and a light blue scarf sitting on the back of a golf cart, smiling at the viewer.'
   ); ?>
 
-  <p>Tony Award-winning actor <strong>Frances Sternhagen ’51<strong> was remembered by the <em>New York Times</em>.</p>
+  <p>Tony Award-winning actor <strong>Frances Sternhagen ’51</strong> was remembered by the <em>New York Times</em>.</p>
   <p><em>Photo: Stockton Photo, Inc.</em></p>
   <?php echo cta_link(
   'https://www.nytimes.com/2023/11/29/theater/frances-sternhagen-dead.html?smid=nytcore-ios-share&referringSource=articleShare',
