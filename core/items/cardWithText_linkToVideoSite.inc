@@ -24,8 +24,29 @@ function item_cardWithText_linkToVideoSite(
     $card_image_alt = $card_image_info['alt'];
 
     return <<<TMP
+    
+    
+<style>
 
-<button type="button" class="card card-full-image video-btn js-video-btn $classes"   data-bs-toggle="modal"  data-src="$videourl" data-video-url="$mp4url" data-channel="$channel" data-bs-target="#videoModal">
+.card-link-to-video-site .card-button-title {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    justify-content: center;
+    padding-left: 1.2rem;
+}
+
+.card-link-to-video-site .card-social-icon svg {
+    fill: #fff;
+}
+
+card-link-to-video-site. span.card-title-label {
+    padding-top: 0.1rem;
+}
+
+</style>    
+
+<button type="button" class="card-link-to-video-site card card-full-image video-btn js-video-btn $classes"   data-bs-toggle="modal"  data-src="$videourl" data-video-url="$mp4url" data-channel="$channel" data-bs-target="#videoModal">
   <img src="$card_image_url" class="card-img" alt="$card_image_alt">
   <div class="card-img-overlay">
     <div class="card-img-content">
