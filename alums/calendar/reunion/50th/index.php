@@ -39,6 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <p class="intro-text">Preliminary 50th Reunion Schedule for 1974</p>
+<p>Items with an <span style="display: inline" class="schedule-item__icon fa-solid fa-circle-info" title="“i” in a solid red circle"></span>  are links to additional information.</p>
 <p>Use one of these links to go directly to the activities for that day:</p>
 <ul class="linked-list">
   <li><a href="#thursday">Thursday, May 30</a></li>
