@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_member_list('Presenter'); ?>
       <?php echo presentation_member(
         'Carol Murray',
-        null,
+        'https://offices.vassar.edu/wimpfheimer/contact/',
         'Wimpfheimer Nursery School Director',
         '/alums/assets/img/alums-calendar/reunion/2024-lectures/Carol-Murray.jpg',
         'A person with shoulder-length brown hair standing against a wall of paper leaves smiles as the viewer.'
@@ -100,14 +100,14 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_member_list('Presenters'); ?>
       <?php echo presentation_member(
         'Jennifer Rubbo',
-        null,
+        'https://www.linkedin.com/in/jen-rubbo-909877160/',
         'Director of the Environmental Cooperative',
         null,
         null
       ); ?>
       <?php echo presentation_member(
         'Keri VanCamp',
-        null,
+        'https://www.linkedin.com/in/keri-vancamp-4966a177/',
         'Director of the Field Station and Ecological Preserve',
         null,
         null
@@ -149,14 +149,14 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_member_list('Facilitators'); ?>
       <?php echo presentation_member(
         'Christina Johnson',
-        null,
+        'https://www.linkedin.com/in/christina-a-johnson-406a9868/',
         'Assistant Dean for Grants Development & Administration',
         null,
         null
       ); ?>
       <?php echo presentation_member(
         'Gary Hohenberger ’97',
-        null,
+        'https://www.linkedin.com/in/gary-hohenberger-977b74/',
         'Associate Vice President, Foundation & Government Relations',
         null,
         null
@@ -173,7 +173,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
       <?php echo presentation_member(
         'Sarah Canino',
-        null,
+        'https://library.vassar.edu/prf.php?id=5a1aa553-7cdb-11ed-9922-0ad758b798c3',
         'Music Librarian (Director)',
         '/alums/assets/img/alums-calendar/reunion/2024-lectures/Sarah-Canino.jpg',
         'A person with long brown hair and bangs, wearing glasses, a teal sweater, and a multi-colored scarf, smiles at the viewer. Photo credit: Karl Rabe/Vassar College.'
@@ -201,7 +201,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
       <?php echo presentation_member(
         'Michael Gross ’74',
-        '',
+        'https://groveatlantic.com/book/flight-of-the-wasp/',
         null,
         '/alums/assets/img/alums-calendar/reunion/2024-lectures/Michael-Gross.jpg',
         'A person with short curly dark hair wearing a leather jacket smiles at the viewer.'
@@ -229,7 +229,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
       <?php echo presentation_member(
         'Laura Graceffa ’87',
-        null,
+        'https://www.linkedin.com/in/laura-graceffa-3b14009/',
         null,
         '/alums/assets/img/alums-calendar/reunion/2023-lectures/Laura_Graceffa.jpg',
         'A photo of a person with short dark gray hair, smiling at the camera'
@@ -266,7 +266,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
     <?php echo presentation_member(
       'Paula Williams Madison ’74',
-      '',
+      'https://www.linkedin.com/in/paula-madison-3169a8136/',
       null,
       '/alums/assets/img/alums-calendar/reunion/2024-lectures/Paula-Madison.jpg',
       'A person with very curly short dark brown hair wearing glasses and a pink shirt smiles at the viewer.'
@@ -330,14 +330,14 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_member_list('Presenters'); ?>
       <?php echo presentation_member(
         'Luis Jimenez Inoa',
-        '',
+        'https://www.linkedin.com/in/luisinoa/',
         'Associate Dean of Student Living and Wellness',
         '/alums/assets/img/alums-calendar/reunion/2024-lectures/Luis-Inoa.jpg',
         'A person with short curly black hair and a beard and mustache wearing glasses smiles at the viewer.'
       ); ?>
        <?php echo presentation_member(
         'Wendy Freedman',
-        '',
+        'https://offices.vassar.edu/counseling-service/contact/#wendy-anne-freedman-director-of-the-psychological-services',
         'Director of Counseling Service',
         '/alums/assets/img/alums-calendar/reunion/2024-lectures/Wendy-Freedman.jpg',
         'A person with shoulder length wavy brown hair stands under a tree and smiles at the viewer.'
@@ -358,7 +358,7 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_member_list('Presenter'); ?>
       <?php echo presentation_member(
         'Ada Ferrer ’84',
-        '',
+        'https://www.adaferrer.net/',
         null,
         '/alums/assets/img/alums-calendar/reunion/2024-lectures/Ada-Ferrer.jpg',
         'A person wih chin-length curly brown hair wearing glasses and a dark sweater smiles at the viewer.'
@@ -391,7 +391,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
       <?php echo presentation_member(
         'Laura Graceffa ’87',
-        null,
+        'https://www.linkedin.com/in/laura-graceffa-3b14009/',
         null,
         '/alums/assets/img/alums-calendar/reunion/2023-lectures/Laura_Graceffa.jpg',
         'A photo of a person with short dark gray hair, smiling at the camera'
@@ -434,7 +434,7 @@ Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student an
   <?php echo presentation_member_list('Presenter'); ?>
     <?php echo presentation_member(
       'Michael Fanuele ’94',
-      '',
+      'https://www.linkedin.com/in/michael-fanuele-2794812/',
       null,
       '/alums/assets/img/alums-calendar/reunion/2024-lectures/Michael-Fanuele.jpg',
       'A person with very short hair and a short beard and mustache grins at the viewer.'

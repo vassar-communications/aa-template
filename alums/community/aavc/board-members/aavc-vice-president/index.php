@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Attorney, Arent Fox Schiff (formerly Arent Fox LLP), 2020–present; Adjunct Professor of Law, Brooklyn Law School, 2014–present; Adjunct Professor, City University of New York, 2015–present; Judicial Law Clerk, U.S. District for the Southern District of New York, 2019–2020; Attorney, Goetz Fitzpatrick LLP, 2013–2018; volunteer mediator, New York State Court System, 2012–present.</p>
+<p>Partner, ArentFox Schiff, 2024–present; Attorney, ArentFox Schiff, 2020–2023; Adjunct Professor of Law, Brooklyn Law School, 2014–present; Adjunct Professor, City University of New York, 2015–present; Judicial Law Clerk, U.S. District for the Southern District of New York, 2019–2020; Attorney, Goetz Fitzpatrick LLP, 2013–2018; volunteer mediator, New York State Court System, 2012–present.</p>
 <?php echo end_sec_regularContent(); ?>
 
 
