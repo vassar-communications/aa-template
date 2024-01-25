@@ -77,7 +77,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
       <?php echo presentation_member(
         'Maxine Coleman',
-        null,
+        'https://offices.vassar.edu/facilities-operations/contact/maxine-coleman/',
         'Assistant Vice President of Facilities Operations',
         null,
         null

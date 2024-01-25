@@ -70,7 +70,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '9:30–11:30 p.m.',
+    '9 p.m.',
     'Meet Your Stars: An Astrological Icebreaker',
     'Davison Multipurpose Room',
   ); ?>
