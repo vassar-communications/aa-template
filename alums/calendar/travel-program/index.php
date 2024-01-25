@@ -41,22 +41,21 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>We are building our trips for 2024! Information will be forthcoming as soon as itineraries and details for each trip are finalized. As we are planning our future trips for both 2024 and 2025, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Special Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
 
-<p>The tentative schedule so far:</p>
+<p>The schedule so far:</p>
 
 <p><strong><a href="#trip1">A Restorative Retreat to Iceland</a></strong></br>
 February 8–12, 2024</p>
 
 <p><strong>Cuba: Art, Culture & History</strong></br>
 May 5–11, 2024</br>
-Faculty host:  Leslie Offutt, Professor Emerita of History</p>
+Faculty host: Leslie Offutt, Professor Emerita of History</p>
 
 <p><strong>Paris in the Jazz Age, featuring the African American Experience</strong></br>
 June 8–16, 2024</br>
 Hosts: Mia Mask, PhD, Mary Riepma Ross ’32 Professor of Film, and Mark Wittman, MBA, Managing Director, Investment Banking</p>
 
-<p><strong>Namibia: Endless Horizons & Open Skies</strong></br>
-June 9–20, 2024</br>
-Faculty host: Abigail Baird ’91, Professor of Psychological Science on the Arnhold Family Chair</p>
+<p><strong><a href="#trip4">Namibia: Endless Horizons & Open Skies</a></strong></br>
+June 9–20, 2024</p>
 
 <p><strong>The Galapagos Islands</strong></br>
 July 6–13, 2024</br>
@@ -64,15 +63,15 @@ Faculty host: Jill Schneiderman, Professor of Earth Science</p>
 
 <p><strong>Egypt and the Nile</strong></br>
 September 21–October 4, 2024</br>
-Faculty to be announced</p>
+Faculty host: April M. Beisaw, Professor of Anthropology</p>
 
-<p><strong>Flavors of Tuscany: Cultural & Culinary Exploration</strong></br>
+<p><strong>Flavors of Tuscany</strong></br>
 September 26–October 4</br>
 Faculty host: Miriam Rossi, Professor Emerita of Chemistry</p>
 
-<p><strong>Discovering South Korea: Food, Culture, & Globalization</strong></br>
+<p><strong>Discovering South Korea: A Journey through its Food, Culture, and Globalization</strong></br>
 October 9–21, 2024</br>
-Faculty Host: Seungsook Moon, Professor of Sociology</p>
+Faculty Host: Seungsook Moon, Professor of Sociology, and Rev. Ben Caldwell, Business Advisor for the Mid-Hudson Small Business Development Center</p>
 
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -89,7 +88,6 @@ Faculty Host: Seungsook Moon, Professor of Sociology</p>
 <?php echo end_sec_regularContent();?>
 
 <div id="trip1"></div>
-
 <?php echo sec_fullBleedImageColumn(
     null,
     $alums_img_path.'alums-calendar/travel-program/Iceland-2024.jpg',
@@ -102,8 +100,7 @@ Faculty Host: Seungsook Moon, Professor of Sociology</p>
 
 <p><strong>February 8–12, 2024<strong></p>
 
-<p><strong>Faculty Host: Michele Tugade ’95, Professor of Psychological Science on the William R. Kennan, Jr. Endowed Chair</strong>
-</p>
+<p><strong>Faculty Host: Michele Tugade ’95, Professor of Psychological Science on the William R. Kennan, Jr. Endowed Chair</strong></p>
 
 <p>Our weekend getaway (Thursday night to Monday night) offers an opportunity to travel with fellow alums to explore this rugged and breathtaking country. Iceland is also a place to relax, recharge, and explore nature. With Michele Tugade ’95 as your host, you will also explore the benefits of awakening your senses to nature and its power to elicit positive emotions. It promises to be a very special journey.</p>
 
@@ -113,8 +110,35 @@ Faculty Host: Seungsook Moon, Professor of Sociology</p>
 
 ); ?>
 
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+<div id="trip4"></div>
+<?php echo sec_fullBleedImageColumn(
+    null,
+    $alums_img_path.'alums-calendar/travel-program/Namibia-2024.jpg',
+    'image-is-first theme-cream',
+    '',
+    ['img_alt_text' => 'A baby elephant and an adult elephant browse in tall wheat-colored grass next to a body of water at sunset.']
+); ?>
+
+<p class="intro-text">Endless Horizons & Open Skies</p>
+
+<p><strong>June 8–16, 2024<strong></p>
+
+<p><strong>Faculty Host: Abby Baird ’91, Professor of Psychological Science on the Arnhold Family Chair</strong></p>
+
+<p>Venture to the South African country of Namibia, renowned for its captivating vistas, sculpted red canyons, some of the most spectacular sand dunes, and the home of the world’s oldest desert. Along the way, you’ll marvel at these geological wonders and admire the remarkable wildlife that call this vast and varied landscape home—leopards, giraffes, rhinos, zebras, antelopes, and desert elephants. You’ll also learn about the country’s extraordinary conservation programs.</p>
+<ul>
+<li>Evening game drive and rhino tracking</li>
+<li>Take a bush flight deep into the Namib desert</li>
+<li>Visit the AfriCat Foundation to experience the work they are doing to protect leopards and cheetahs and reintroducing them into the wild</li>
+</ul>
+<p>For more information and to register, please contact Immersion Journeys at <?php echo phone_number('917-686-2620'); ?>.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
 
 
 <?php echo sec_regularContent('Travel Insurance','theme-extralightgray','');?>

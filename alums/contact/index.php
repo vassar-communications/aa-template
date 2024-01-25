@@ -678,6 +678,17 @@ echo end_contact_card();
 
 
 echo contact_card(
+    'Amanda Ader',
+    'Associate Director of Annual Giving, Digital Engagement Officer/Donor Experience',
+    [
+      'phone' => '',
+      'email' => 'aader@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
     'Wally Fisher ’12',
     'Associate Director of Annual Giving, Volunteer &amp; Reunion',
     [
@@ -690,7 +701,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Lane Sulzer',
-    'Associate Director of Annual Giving, Digital Engagement Officer',
+    'Associate Director of Annual Giving, Digital Engagement Officer/Donor Experience',
     [
       'phone' => '845-437-7898',
       'email' => 'lsulzer@vassar.edu',
@@ -711,7 +722,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Chase Engel ’23',
-    'Assistant Director of Annual Giving, Digital Engagement Officer',
+    'Assistant Director of Annual Giving, Digital Engagement Officer/Donor Experience',
     [
       'phone' => '845-437-7890',
       'email' => 'cengel@vassar.edu',
@@ -722,7 +733,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Karolina Gomez',
-    'Assistant Director of Annual Giving, Digital Engagement Officer',
+    'Assistant Director of Annual Giving, Digital Engagement Officer/Donor Experience',
     [
       'phone' => '845-437-7884',
       'email' => 'kgomez@vassar.edu',
@@ -884,7 +895,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Nancy Reimer John ’79',
-    'Leadership Gifts Officer',
+    'Assistant Director of Leadership Gifts',
     [
       'phone' => '845-437-5431',
       'email' => 'njohn@vassar.edu',
