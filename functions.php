@@ -61,7 +61,7 @@ include($project_paths['main_project_root'].'/core/items/iconItem.inc');
 include($project_paths['main_project_root'].'/core/items/icon-cardButton.inc');
 include($project_paths['main_project_root'].'/core/items/icon-statItem.inc');
 include($project_paths['main_project_root'].'/core/items/cardWithText.inc');
-include($project_paths['main_project_root'].'/core/items/cardWithText_linkToVideoSite.inc');
+include($project_paths['main_project_root'].'/core/modules/cardWithText_linkToVideoSite.inc');
 include($project_paths['main_project_root'].'/core/items/cardWithText_videoModal.inc');
 
 include($project_paths['main_project_root'].'/core/items/imageCard.inc');

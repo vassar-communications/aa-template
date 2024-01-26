@@ -44,21 +44,27 @@ card-link-to-video-site. span.card-title-label {
     padding-top: 0.1rem;
 }
 
+.card-link-to-video-site .card-img-content {
+    padding: 0;
+}
+
+.card-button-title {
+    justify-content: flex-start !important;
+}
+
 </style>    
 
-<button type="button" class="card-link-to-video-site card card-full-image video-btn js-video-btn $classes"   data-bs-toggle="modal"  data-src="$videourl" data-video-url="$mp4url" data-channel="$channel" data-bs-target="#videoModal">
+<div class="card-link-to-video-site card card-full-image video-btn $classes">
+    <a href="$videourl">
   <img src="$card_image_url" class="card-img" alt="$card_image_alt">
-  <div class="card-img-overlay">
     <div class="card-img-content">
     <div class="card-button-title">
       <div class="card-social-icon">$svg_icon</div>
       <span class="card-title-label">$title</span>
     </div>
-<!--      {$card_title($title, $extras)} -->
-<!--      <p class="card-text">$text</p> -->
     </div>
-  </div>
-</button>
+    </a>
+</div>
 
 TMP;
 }
