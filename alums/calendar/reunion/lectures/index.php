@@ -402,7 +402,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo presentation_item(
   'Intergenerational Dialogue: Life Survival Hacks and Vassar Experiences',
-  'Location TBD',
+  'Gordon Commons, 2nd floor UpCDC',
   '4:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
