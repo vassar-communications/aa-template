@@ -415,7 +415,7 @@ $page_info = json_decode($page_info, true);
   ); ?>
 
   <h4><a href="../lectures/#intergenerational-dialogue-life-survival-hacks-and-vassar-experiences">Intergenerational Dialogue: Life Survival Hacks and Vassar Experiences</a></h4>
-<p><strong>Location:</strong> Location TBD</p>
+<p><strong>Location:</strong> Gordon Commons, 2nd floor UpCDC</p>
 
   <h4><a href="../lectures/#stop-making-sense-the-art-of-inspiring-anybody">Stop Making Sense: The Art of Inspiring Anybody</a></h4>
 <p><strong>Location:</strong> Rockefeller 210</p>
