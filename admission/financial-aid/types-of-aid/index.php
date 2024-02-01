@@ -261,24 +261,19 @@ $page_info = json_decode($page_info, true);
     <div class="accordion-item">
         <div class="accordion-header" id="loans-headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#loans-collapseThree" aria-expanded="false" aria-controls="loans-collapseThree">
-                Alternative/Private Loans
+                Alternative Loans
             </button>
         </div>
         <div id="loans-collapseThree" class="accordion-collapse collapse" aria-labelledby="loans-headingThree" data-bs-parent="#loans">
             <div class="accordion-body">
-                <p>Private student loans are non-government loans from lenders such as banks, credit unions, and state agencies. Either the parent or the student can be the primary borrower. If the student is the borrower, a co-signer is usually required.
-                </p>
-                <p><a href="https://studentaid.gov/understand-aid/types/loans/federal-vs-private">This summary of the differences</a> explains federal versus private student loans.</p>
-                <p>Vassar College does not endorse or recommend any particular private lender. For a sampling of lenders used by Vassar students in recent years, visit <a href="http://www.elmselect.com/?schoolId=235">ELM Select</a>.</p>
-                <p><strong>Important Information:</strong></p>
-                <ul>
-                    <li>Interest rate: varies. A comparison of interest rates (prime rate versus 3 month Libor) can be found at <a href="http://www.forecasts.org/interest-rate/">Financial Forecast Center</a></li>
-                    <li>Origination fee: varies</li>
-                    <li>Maximum annual limit: total cost of attendance (budget) less any financial aid the student receives</li>
-                    <li>Repayment begins: varies</li>
-                    <li>Repayment period: varies</li>
-                </ul>
-            </div>
+<p>Alternative student loans are non-government loans from lenders such as banks, credit unions, and state agencies. The primary borrower can be the student, a parent, or a sponsor. When the student is the borrower, a co-signer is typically required. Before taking an alternative loan, we encourage families to exhaust all Federal Direct Student Loan options first.</p>
+
+<p>Vassar College does not endorse or recommend any lenders in particular. Ultimately it is the family’s responsibility to research all options and select the one that best meets their needs. <a href="http://www.elmselect.com/?schoolId=235">Visit ELM Select for a sampling of lenders used by Vassar students in recent years</a>.</p>
+
+<p>Interest rates, origination fees, and repayment terms vary across lenders. The maximum annual limit is the total cost of attendance (student budget) less any financial aid the student receives.</p>
+    
+</div>
+            
         </div>
     </div>
     <div class="accordion-item">
