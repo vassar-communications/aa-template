@@ -46,9 +46,8 @@ $page_info = json_decode($page_info, true);
 <p><strong><a href="#trip1">A Restorative Retreat to Iceland</a></strong></br>
 February 8–12, 2024</p>
 
-<p><strong>Cuba: Art, Culture & History</strong></br>
-May 5–11, 2024</br>
-Faculty host: Leslie Offutt, Professor Emerita of History</p>
+<p><strong><a href="#trip2">Cuba: Art, Culture & History</a></strong></br>
+May 5–11, 2024</p>
 
 <p><strong>Paris in the Jazz Age, featuring the African American Experience</strong></br>
 June 8–16, 2024</br>
@@ -69,14 +68,11 @@ Faculty host: April M. Beisaw, Professor of Anthropology</p>
 September 26–October 4</br>
 Faculty host: Miriam Rossi, Professor Emerita of Chemistry</p>
 
-<p><strong>Discovering South Korea: A Journey through its Food, Culture, and Globalization</strong></br>
-October 9–21, 2024</br>
-Faculty Host: Seungsook Moon, Professor of Sociology, and Rev. Ben Caldwell, Business Advisor for the Mid-Hudson Small Business Development Center</p>
+<p><strong><a href="#trip8">Discovering South Korea: A Journey through its Food, Culture, and Globalization</a></strong></br>
+October 9–21, 2024</p>
 
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
-
-
 
 
 
@@ -91,7 +87,7 @@ Faculty Host: Seungsook Moon, Professor of Sociology, and Rev. Ben Caldwell, Bus
 <?php echo sec_fullBleedImageColumn(
     null,
     $alums_img_path.'alums-calendar/travel-program/Iceland-2024.jpg',
-    '',
+    'theme-cream',
     '',
     ['img_alt_text' => 'A waterfall at night with the Northern lights in the sky overhead.']
 ); ?>
@@ -114,11 +110,41 @@ Faculty Host: Seungsook Moon, Professor of Sociology, and Rev. Ben Caldwell, Bus
 
 
 
+<div id="trip2"></div>
+<?php echo sec_fullBleedImageColumn(
+    null,
+    $alums_img_path.'alums-calendar/travel-program/Cuba-2024.jpg',
+    'image-is-first',
+    '',
+    ['img_alt_text' => 'A row of colorful vintage convertible cars parked on one side of a road in front of an elaborately decorated multi-story building on a sunny day.']
+); ?>
+
+<p class="intro-text">Cuba: Art, Culture & History</p>
+
+<p><strong>May 5–11, 2024<strong></p>
+
+<p><strong>Faculty Host: Leslie Offutt, Associate Professor emerita of History</strong></p>
+
+<p>Get a rare glimpse inside Cuba, exploring the country’s art, architecture, music, and cuisine. Along with Associate Professor emerita of History Leslie Offutt, you’ll stay in boutique accommodations in Havana; take in the ornate architecture of the UNESCO World Heritage site that is Old Havana; venture to the countryside to the lush tobacco fields and mogotes of Vinales Valley; and stop in Ernest Hemingway’s private world at his historic home, <em>La Vigia</em>.</p>
+<p>Highlights will include:</p>
+<ul>
+	<li>Meet former Deputy Minister for Foreign Affairs to speak about Cuban politics</li>
+	<li>Delve into the life of Ernest Hemmingway</li>
+	<li>Engage with Cuba’s leading artistic creators at their studios</li>
+	<li>Attend a private rehearsal of Cuba’s contemporary dance company</li>
+</ul>
+
+<p>For more information and to register, please contact Discover Europe at <?php echo phone_number('866-563-7077'); ?>.</p>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
 <div id="trip4"></div>
 <?php echo sec_fullBleedImageColumn(
     null,
     $alums_img_path.'alums-calendar/travel-program/Namibia-2024.jpg',
-    'image-is-first theme-cream',
+    'theme-cream',
     '',
     ['img_alt_text' => 'A baby elephant and an adult elephant browse in tall wheat-colored grass next to a body of water at sunset.']
 ); ?>
@@ -130,12 +156,41 @@ Faculty Host: Seungsook Moon, Professor of Sociology, and Rev. Ben Caldwell, Bus
 <p><strong>Faculty Host: Abby Baird ’91, Professor of Psychological Science on the Arnhold Family Chair</strong></p>
 
 <p>Venture to the South African country of Namibia, renowned for its captivating vistas, sculpted red canyons, some of the most spectacular sand dunes, and the home of the world’s oldest desert. Along the way, you’ll marvel at these geological wonders and admire the remarkable wildlife that call this vast and varied landscape home—leopards, giraffes, rhinos, zebras, antelopes, and desert elephants. You’ll also learn about the country’s extraordinary conservation programs.</p>
+<p>Highlights will include:</p>
 <ul>
 <li>Evening game drive and rhino tracking</li>
 <li>Take a bush flight deep into the Namib desert</li>
 <li>Visit the AfriCat Foundation to experience the work they are doing to protect leopards and cheetahs and reintroducing them into the wild</li>
 </ul>
 <p>For more information and to register, please contact Immersion Journeys at <?php echo phone_number('917-686-2620'); ?>.</p>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+<div id="trip8"></div>
+<?php echo sec_fullBleedImageColumn(
+    null,
+    $alums_img_path.'alums-calendar/travel-program/South-Korea-2024.jpg',
+    'image-is-first',
+    '',
+    ['img_alt_text' => 'Two people wearing long gowns with gold collars, cuffs and trim and pink or red skirts stand looking at a cell phone and smiling on a wide path between two rows of tall red wooden pillars with a red wall behind them.']
+); ?>
+
+<p class="intro-text">Discovering South Korea: A Journey through its Food, Culture, and Globalization</p>
+
+<p><strong>October 9–21, 2024<strong></p>
+
+<p><strong>Faculty Hosts: Seungsook Moon, Professor of Sociology, and Rev. Ben Caldwell, Business Advisor for the Mid-Hudson Small Business Development Center</strong></p>
+
+<p>Experience cities throughout South Korea, a country of dramatic and dynamic transformation. By historically playing the role of cultural bridge between the Eurasian continent and the Pacific Ocean, Korea cultivated complex layers of beliefs and rituals stemming from a number of religions. Custom-designed for Seungsook Moon, Professor of Sociology, this tour will highlight food as an essential medium to explore Korea’s incredible resilience and cultural dynamism, interweaving visits to iconic and cultural sites of traditional and contemporary Korea with its culinary globalization.</p>
+<p>Highlights will include:</p>
+<ul>
+<li>Once-in-a-lifetime exploration of South Korea</li>
+<li>Tour the cities of Seoul, Andong, Gyeongju and Busan</li>
+<li>Visit Jeju Island to learn about the culture of the “haenyeo”—the women divers who harvest from the ocean for up to seven hours a day without the use of oxygen masks and whose knowledge of the sea is passed down from generation to generation</li>
+</ul>
+<p>For more information and to register, please contact Authentic Asia at <?php echo phone_number('888-263-1170'); ?>.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
