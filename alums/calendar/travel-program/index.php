@@ -145,7 +145,7 @@ October 9–21, 2024</p>
     $alums_img_path.'alums-calendar/travel-program/Paris-2024-Photo-Credit-Susan-Brkich.jpg',
     'theme-cream',
     '',
-    ['img_alt_text' => 'The Eiffel Tower, a tall open metalwork structure with sloping sides narrowing to a spire on top, with platforms on several levels, standing at the end of a large green field.']
+    ['img_alt_text' => 'The Eiffel Tower, a tall open metalwork structure with sloping sides narrowing to a spire on top, with platforms on several levels, standing at the end of a large green field. Photo Credit Susan Brkich ’86.']
 ); ?>
 
 <p class="intro-text">Paris in the Jazz Age, featuring the African American Experience</p>
@@ -168,6 +168,7 @@ October 9–21, 2024</p>
     'See the full Paris itinerary and reserve your place.'
 
 ); ?>
+<p><em>Photo credit: Susan Brkich ’86</em></p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
