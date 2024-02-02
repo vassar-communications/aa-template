@@ -133,7 +133,7 @@ October 9–21, 2024</p>
 	<li>Attend a private rehearsal of Cuba’s contemporary dance company</li>
 </ul>
 
-<p>For more information and to register, please contact Discover Europe at <?php echo phone_number('866-563-7077'); ?>.</p>
+<p>For more information and to register, please contact Arrangements Abroad at <?php echo phone_number('212-514-8921'); ?> or <?php echo phone_number('800-221-1944'); ?>.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
