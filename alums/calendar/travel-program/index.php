@@ -24,7 +24,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Two backpackers walking on a gravel road along a lake in the Canadian Rockies']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Two backpackers walking on a gravel road along a lake in the Canadian Rockies.']); ?>
 
 
 <?php echo interior_page_nav() ?>
@@ -37,7 +37,7 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-calendar/travel-program/Group-photo-Camon-France-wide.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'A group of people, one holding a Vassar College banner, standing and smiling at the viewer with a sunny grean countryside behind them in Camon, France']
+    ['img_alt_text' => 'A group of people, one holding a Vassar College banner, standing and smiling at the viewer with a sunny grean countryside behind them in Camon, France.']
 ); ?>
 <p>We are building our trips for 2024! Information will be forthcoming as soon as itineraries and details for each trip are finalized. As we are planning our future trips for both 2024 and 2025, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Special Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
 
@@ -49,9 +49,8 @@ February 8–12, 2024</p>
 <p><strong><a href="#trip2">Cuba: Art, Culture & History</a></strong></br>
 May 5–11, 2024</p>
 
-<p><strong>Paris in the Jazz Age, featuring the African American Experience</strong></br>
-June 8–16, 2024</br>
-Hosts: Mia Mask, PhD, Mary Riepma Ross ’32 Professor of Film, and Mark Wittman, MBA, Managing Director, Investment Banking</p>
+<p><strong><a href="#trip3">Paris in the Jazz Age, featuring the African American Experience</a></strong></br>
+June 8–16, 2024</p>
 
 <p><strong><a href="#trip4">Namibia: Endless Horizons & Open Skies</a></strong></br>
 June 9–20, 2024</p>
@@ -140,11 +139,44 @@ October 9–21, 2024</p>
 
 
 
+<div id="trip3"></div>
+<?php echo sec_fullBleedImageColumn(
+    null,
+    $alums_img_path.'alums-calendar/travel-program/Paris-2024-Photo-Credit-Susan-Brkich.jpg',
+    'theme-cream',
+    '',
+    ['img_alt_text' => 'The Eiffel Tower, a tall open metalwork structure with sloping sides narrowing to a spire on top, with platforms on several levels, standing at the end of a large green field.']
+); ?>
+
+<p class="intro-text">Paris in the Jazz Age, featuring the African American Experience</p>
+
+<p><strong>June 8–16, 2024<strong></p>
+
+<p><strong>Hosts: Mia Mask, Ph.D., Professor of Film on the Mary Riepma Ross ’32 Vassar Chair, and Mark Wittman, MBA Managing Director, Investment Banking</strong></p>
+
+<p>Take a trip back in time to trace the journey of Black Americans in France, gain insight into why they moved to Paris, and how they forever influenced French culture. This seven-night small-group program, hosted by Professor Mia Mask, features divine cuisine with an extensive meal plan—including wine with dinner, incredible art, an exploration of Montmartre, and a cruise along the Seine River.</p>
+
+<p>Highlights will include:</p>
+<ul>
+	<li>Learn how African American expatriates influenced Paris</li>
+	<li>Enjoy an evening at a jazz club</li>
+	<li>Sample French treats during a gastronomic walking tour</li>
+</ul>
+
+<?php echo cta_link(
+    'https://vassar.ahitravel.com/destinations/1798A?schoolId=375',
+    'See the full Paris itinerary and reserve your place.'
+
+); ?>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
 <div id="trip4"></div>
 <?php echo sec_fullBleedImageColumn(
     null,
     $alums_img_path.'alums-calendar/travel-program/Namibia-2024.jpg',
-    'theme-cream',
+    'image-is-first',
     '',
     ['img_alt_text' => 'A baby elephant and an adult elephant browse in tall wheat-colored grass next to a body of water at sunset.']
 ); ?>
@@ -172,7 +204,7 @@ October 9–21, 2024</p>
 <?php echo sec_fullBleedImageColumn(
     null,
     $alums_img_path.'alums-calendar/travel-program/South-Korea-2024.jpg',
-    'image-is-first',
+    'theme-cream',
     '',
     ['img_alt_text' => 'Two people wearing long gowns with gold collars, cuffs and trim and pink or red skirts stand looking at a cell phone and smiling on a wide path between two rows of tall red wooden pillars with a red wall behind them.']
 ); ?>
