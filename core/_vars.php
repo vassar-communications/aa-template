@@ -27,8 +27,8 @@ $resources['varsity_teams'] = '27';
 
 $deadlines['early-decision-1'] = 'November 15';
 $deadlines['early-decision-2'] = 'January 1';
-$deadlines['regular-decision'] = 'January 7 (extended)';
-$deadlines['regular-decision-interview'] = 'January 7 (extended)';
+$deadlines['regular-decision'] = 'January 1';
+$deadlines['regular-decision-interview'] = 'January 1';
 $deadlines['spring-transfer'] = 'November 1';
 $deadlines['fall-transfer'] = 'March 15';
 
