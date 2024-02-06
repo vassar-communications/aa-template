@@ -37,9 +37,9 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-calendar/travel-program/Group-photo-Camon-France-wide.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'A group of people, one holding a Vassar College banner, standing and smiling at the viewer with a sunny grean countryside behind them in Camon, France.']
+    ['img_alt_text' => 'A group of people, one holding a Vassar College banner, standing and smiling at the viewer with a sunny green countryside behind them in Camon, France.']
 ); ?>
-<p>We are building our trips for 2024! Information will be forthcoming as soon as itineraries and details for each trip are finalized. As we are planning our future trips for both 2024 and 2025, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Special Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
+<p>We are building our trips for 2024! As we are planning our future trips for both 2024 and 2025, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Special Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
 
 <p>The schedule so far:</p>
 
@@ -55,17 +55,14 @@ June 8–16, 2024</p>
 <p><strong><a href="#trip4">Namibia: Endless Horizons & Open Skies</a></strong></br>
 June 9–20, 2024</p>
 
-<p><strong>The Galapagos Islands</strong></br>
-July 6–13, 2024</br>
-Faculty host: Jill Schneiderman, Professor of Earth Science</p>
+<p><strong><a href="#galapagos">The Galapagos Islands</a></strong></br>
+July 6–13, 2024</p>
 
-<p><strong>Egypt and the Nile</strong></br>
-September 21–October 4, 2024</br>
-Faculty host: April M. Beisaw, Professor of Anthropology</p>
+<p><strong><a href="#egypt">Egypt and the Nile</a></strong></br>
+September 21–October 4, 2024</p>
 
-<p><strong>Flavors of Tuscany</strong></br>
-September 26–October 4</br>
-Faculty host: Miriam Rossi, Professor Emerita of Chemistry</p>
+<p><strong><a href="#tuscany">Flavors of Tuscany</a></strong></br>
+September 26–October 4, 2024</p>
 
 <p><strong><a href="#trip8">Discovering South Korea: A Journey through its Food, Culture, and Globalization</a></strong></br>
 October 9–21, 2024</p>
@@ -200,12 +197,116 @@ October 9–21, 2024</p>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+<div id="galapagos"></div>
+<?php echo sec_fullBleedImageColumn(
+    null,
+    $alums_img_path.'alums-calendar/travel-program/galapagos-extended-2024.jpg',
+    'theme-cream',
+    '',
+    ['img_alt_text' => 'Tour participants aboard a small motorized raft admiring the scenery and local wildlife.']
+); ?>
+
+<p class="intro-text">The Galapagos Islands</p>
+
+<p><strong>July 6–13, 2024<strong></p>
+
+<p><strong>Faculty Host: Jill Schneiderman, Professor of Earth Science</strong></p>
+
+<p>Nestled in the Pacific Ocean—at the confluence of three ocean currents—the Galapagos Islands are a haven for explorers, nature enthusiasts, and those seeking a profound connection with the natural world. Join this transformative expedition voyage through these enchanting islands to celebrate life’s diversity and to witness firsthand the stunning display of nature’s endless wonders.</p>
+<p>Highlights will include:</p>
+<ul>
+<li>Observe up close the endemic species such as giant tortoises, land iguanas, and Darwin’s finches</li>
+<li>Snorkel with sea lions and tropical fish or observe them through a glass bottom boat</li>
+<li>Visit the lush highlands of Santa Cruz Island</li>
+</ul>
+
+<?php echo cta_link(
+    'https://orbridge.com/grp_departures/overview/partner_vassar_the_galapagos_islands_northern_2024',
+    'See the full Galapagos itinerary and reserve your place.'
+
+); ?>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<div id="egypt"></div>
+<?php echo sec_fullBleedImageColumn(
+    null,
+    $alums_img_path.'alums-calendar/travel-program/Egypt-pyramid-2024.jpg',
+    'image-is-first',
+    '',
+    ['img_alt_text' => 'A very large stone pyramid is on a hill above a stone sphinx and stone walls of varying heights, on a sunny day.']
+); ?>
+
+<p class="intro-text">Egypt and the Nile</p>
+
+<p><strong>September 21–October 4, 2024<strong></p>
+
+<p><strong>Faculty Host: April M. Beisaw, Professor of Anthropology</strong></p>
+
+<p>The incomparable Nile. Magnificent ancient monuments. Endless golden sands. This and more is Egypt—a cradle of civilization essential to our human story and the developments in government, religion, and agriculture. With its long past and welcoming people, Egypt beckons travelers to explore ruins of the past and wonders of today. </p>
+<p>Highlights will include:</p>
+<ul>
+<li>Traverse the Nile Valley to visit the Great Sphinx, the Temple of Horus and the tombs of El Kab</li>
+<li>Expert Egyptologists as your guides</li>
+<li>Four-night cruise on a private 14-guest sailing vessel</li>
+</ul>
+
+<p>For more information and to register, please contact Orbridge Destination Specialists at <?php echo phone_number('866-639-0079'); ?>.</p>
+
+<!--commenting out until website is updated, then can remove contact sentence above and replace with this.
+<?php echo cta_link(
+    'https://orbridge.com/grp_departures/overview/partner_vassar_discover_egypt_nile_valley_2024',
+    'See the full Egypt itinerary and reserve your place.'
+
+); ?>
+-->
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+<div id="tuscany"></div>
+<?php echo sec_fullBleedImageColumn(
+    null,
+    $alums_img_path.'alums-calendar/travel-program/Tuscany-hills-2024.jpg',
+    'theme-cream',
+    '',
+    ['img_alt_text' => 'A sunny view of a green valley covered in vineyards and trees, with tree-covered hills rising in the background, with clouds in the sky overhead.']
+); ?>
+
+<p class="intro-text">Flavors of Tuscany</p>
+
+<p><strong>September 26–October 4, 2024<strong></p>
+
+<p><strong>Faculty Host: Miriam Rossi, Professor emerita of Chemistry</strong></p>
+
+<p>Embrace the bewitching enchantment, bucolic ambiance, and charismatic culture of Tuscany. Meander through its colorful cities, cypress-studded hilltop towns, classic <em>cucinas</em>, and idyllic vineyards during this small-group journey. Explore the Italian countryside that provides endless 
+inspiration for artists, chefs, and vintners alike.</p>
+<p>Highlights will include:</p>
+<ul>
+<li>Explore the Etruscan ruins and center in Volterra</li>
+<li>Tour an organic farm and learn about the owners’ dedication to the slow food movement</li>
+<li>Stroll Siena—a UNESCO World Heritage Site</li>
+</ul>
+<p>For more information and to register, please contact Orbridge Destination Specialists at <?php echo phone_number('866-639-0079'); ?>.</p>
+
+<!--commenting out until website is updated, then can remove contact sentence above and replace with this.
+<?php echo cta_link(
+    'https://orbridge.com/grp_departures/overview/partner_vassar_flavors_of_tuscany_2024',
+    'See the full Tuscany itinerary and reserve your place.'
+
+); ?>
+-->
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
 
 <div id="trip8"></div>
 <?php echo sec_fullBleedImageColumn(
     null,
     $alums_img_path.'alums-calendar/travel-program/South-Korea-2024.jpg',
-    'theme-cream',
+    'image-is-first',
     '',
     ['img_alt_text' => 'Two people wearing long gowns with gold collars, cuffs and trim and pink or red skirts stand looking at a cell phone and smiling on a wide path between two rows of tall red wooden pillars with a red wall behind them.']
 ); ?>
@@ -223,7 +324,12 @@ October 9–21, 2024</p>
 <li>Tour the cities of Seoul, Andong, Gyeongju and Busan</li>
 <li>Visit Jeju Island to learn about the culture of the “haenyeo”—the women divers who harvest from the ocean for up to seven hours a day without the use of oxygen masks and whose knowledge of the sea is passed down from generation to generation</li>
 </ul>
-<p>For more information and to register, please contact Authentic Asia at <?php echo phone_number('888-263-1170'); ?>.</p>
+
+<?php echo cta_link(
+    'https://authenticasia.net/destinations/authentic-asia-beyond/vassar-south-korea-trip-food-culture/',
+    'See the full South Korea itinerary and reserve your place.'
+
+); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
