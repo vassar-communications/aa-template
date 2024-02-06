@@ -252,11 +252,15 @@ October 9–21, 2024</p>
 <li>Four-night cruise on a private 14-guest sailing vessel</li>
 </ul>
 
+<p>For more information and to register, please contact Orbridge Destination Specialists at <?php echo phone_number('866-639-0079'); ?>.</p>
+
+<!--commenting out until website is updated, then can remove contact sentence above and replace with this.
 <?php echo cta_link(
     'https://orbridge.com/grp_departures/overview/partner_vassar_discover_egypt_nile_valley_2024',
     'See the full Egypt itinerary and reserve your place.'
 
 ); ?>
+-->
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -285,12 +289,15 @@ inspiration for artists, chefs, and vintners alike.</p>
 <li>Tour an organic farm and learn about the owners’ dedication to the slow food movement</li>
 <li>Stroll Siena—a UNESCO World Heritage Site</li>
 </ul>
+<p>For more information and to register, please contact Orbridge Destination Specialists at <?php echo phone_number('866-639-0079'); ?>.</p>
 
+<!--commenting out until website is updated, then can remove contact sentence above and replace with this.
 <?php echo cta_link(
     'https://orbridge.com/grp_departures/overview/partner_vassar_flavors_of_tuscany_2024',
     'See the full Tuscany itinerary and reserve your place.'
 
 ); ?>
+-->
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
