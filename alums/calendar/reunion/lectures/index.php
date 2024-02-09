@@ -122,7 +122,7 @@ $page_info = json_decode($page_info, true);
     '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Recent advances in one form of artificial intelligence (Large Language Models or LLMs) have raised important questions about how these systems might change the ways in which we live and work. We will then consider the range of ways in which the emergence of LLM technology could change how humans think and interact with one another, potentially changing not only our social, economic, and political lives, but quite possibly our private lives as well. Is it possible to manage the emergence of this new technology into human life in a way that enhances our humanity for the long term rather than diminishing or even destroying it?</p>
+      <p>Recent advances in one form of artificial intelligence (Large Language Models or LLMs) have raised important questions about how these systems might change the ways in which we live and work. We will consider the range of ways in which the emergence of LLM technology could change how humans think and interact with one another, potentially changing not only our social, economic, and political lives, but quite possibly our private lives as well. Is it possible to manage the emergence of this new technology into human life in a way that enhances our humanity for the long term rather than diminishing or even destroying it?</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenter'); ?>

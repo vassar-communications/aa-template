@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
     'A Connection with Vassar Lasts for a Lifetime.',
     '3',
-    '<p>Membership in the AAVC is <em>automatic</em> for all Vassar graduates and former students enrolled as undergraduates.</p>
+    '<p>Membership in the AAVC is <strong>automatic</strong> for all Vassar graduates and former students enrolled as undergraduates.</p>
 
 <p>Choose your AAVC adventure, and discover exciting ways to get involved, make valuable connections, and give back!
 </p>',

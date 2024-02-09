@@ -261,7 +261,7 @@ echo end_contact_card();
 
                 echo contact_card(
                     'Danielle J. Suter',
-                    'Director of Gift, Trust and Estate Administration',
+                    'Director of Gift, Trust, and Estate Administration',
                     [
                       'phone' => '845-437-5498',
                       'email' => 'dasuter@vassar.edu',
@@ -1045,7 +1045,7 @@ echo end_contact_card();
 
     echo contact_card(
         'Susan Quade',
-        'Senior Associate Director of Special Events and Programs',
+        'Senior Associate Director of Special Events and Programs and the Vassar Travel Program',
         [
           'phone' => '845-437-5453',
           'email' => 'suquade@vassar.edu',

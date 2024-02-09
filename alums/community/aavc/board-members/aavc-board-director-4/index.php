@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Panelist, “Democracy and the Fourth Estate,” NYC Donor Recognition Event, December 2018; moderator, “The Presidency, the Press, and Accountability,” Vassar Club of DC, January 2017; Vassar College Commencement Speaker, May 2011; Class Agent, Class of 1977, 2002–2003; 2013–2014.</p>
+<p>Panelist, Democracy and the Fourth Estate, NYC Donor Recognition Event, December 2018; moderator, The Presidency, the Press, and Accountability, Vassar Club of DC, January 2017; Vassar College Commencement Speaker, May 2011; Class Agent, Class of 1977, 2002–2003; 2013–2014.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

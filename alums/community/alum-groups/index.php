@@ -55,7 +55,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'People holding up Vassar Class of 1982 Banner at Reunion.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-<p>Everyone who matriculates at Vassar is a member of a Vassar Class. Classes plan reunions and mini-reunions, manage social media pages, reach out to one another about supporting the college, and enjoy each other’s updates in the Class notes section of the <em>Vassar Quarterly</em> magazine. Classes last for a lifetime and represent the largest organizing alums community.</p>
+<p>Everyone who matriculates at Vassar is a member of a Vassar Class. Classes plan reunions and mini-reunions, manage social media pages, reach out to one another about supporting the College, and enjoy each other’s updates in the Class Notes section of the <em>Vassar Quarterly</em> magazine. Classes last for a lifetime and represent the largest organizing alums community.</p>
     <p>If you are interested in participating in Class activities, reach out to Diana Jedlicka at <a href="mailto:djedlicka@vassar.edu">djedlicka@vassar.edu</a> or <?php echo phone_number('845-437-5398'); ?>.</p>
 
 
@@ -79,7 +79,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 <p>Vassar Clubs serve as a catalyst to bring together the more than <?php echo $facts['number_of_alums']; ?> Vassar alums around the world, fostering lasting connections beyond the College’s gates.</p>
-<p>If you are interested in participating in Club activities or starting a Club, reach out to Cheryl McKeever at <a href="mailto:cmckeever@vassar.edu">cmckeever@vassar.edu</a> or <a href="tel:845-437-5408">845-437-5408</a>.</p>
+<p>If you are interested in participating in Club activities or starting a Club, reach out to Cheryl McKeever at <a href="mailto:cmckeever@vassar.edu">cmckeever@vassar.edu</a> or <a href="tel:+18454375408">(845) 437-5408</a>.</p>
 
     <ul class="linked-list mt-4">
         <li><a href="/alums/community/cca-groups/#club">Find an Active Vassar Club</a></li>
@@ -103,7 +103,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Group of three women smiling at the camera.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Multicultural and affinity groups strengthen alum communities that center around shared experiences, activities, and identities. These communities include athletic teams, singing groups, LGBTQ+, ALANA orgs, veterans, and First Gen alums (among others).</p>
+    <p>Multicultural and affinity groups strengthen alum communities that center around shared experiences, activities, and identities. These communities include athletic teams, singing groups, LGBTQ+, ALANA orgs, veterans, and First-Gen alums.</p>
     <p>If you are interested in participating in multicultural and affinity groups, reach out to Sharon Parkinson at <a href="mailto:shparkinson@vassar.edu">shparkinson@vassar.edu</a> or <a href="tel:845-437-5515">(845) 437-5515</a>.</p>
     <ul class="linked-list mt-4">
         <li><a href="https://www.vassar.edu/social-media-alums#affinity-groups">Follow Multicultural and Affinity Groups on Social</a></li>

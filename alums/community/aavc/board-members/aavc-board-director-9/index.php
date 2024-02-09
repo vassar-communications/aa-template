@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Volunteer consultant, Vassar Alumnae/i Census and Attitudinal Study, 2021; co-chair, LGBTQ+ Alumnae/i of Vassar Affinity Group, 2019–present; guest speaker, Vassar Asian Students’ Alliance “Brown/Round/Queer/Here” workshop, 2018; panelist, LGBTQ+ Alumnae/i “Then and Now” Reunion event, 2018.</p>
+<p>Volunteer consultant, Vassar Alumnae/i Census and Attitudinal Study, 2021; co-chair, LGBTQ+ Alumnae/i of Vassar Affinity Group, 2019–present; guest speaker, Vassar Asian Students’ Alliance Brown/Round/Queer/Here workshop, 2018; panelist, LGBTQ+ Alumnae/i Then and Now Reunion event, 2018.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

@@ -46,9 +46,9 @@ Contact Martha Barry, Alumnae House Manager<br/>
     <a href="mailto:mabarry@vassar.edu">mabarry@vassar.edu</a></p>
 
 <p><strong>Catering</strong><br/>
-    Brasserie 292, Main Course and Twisted Soul are the approved caterers for Alumnae House. Their contact information is listed below.</p>
+    Brasserie 292, Main Course, and Twisted Soul are the approved caterers for Alumnae House. Their contact information is listed below.</p>
 
-<p>Please verify that the caterer you select is available to service and cater your event and that they confirm this with you.</p>
+<p>Please confirm that the caterer you select is available to service your event.</p>
 
 <p>If alcohol will be served, the caterer must obtain a temporary liquor license. Applications must be submitted to the state 21 days prior to your event.</p>
 

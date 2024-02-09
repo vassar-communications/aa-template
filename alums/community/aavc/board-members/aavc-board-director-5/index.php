@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Sr. Learning Partner / Training Director-Human Resources, AIG, 2017–present; Volunteer Advisor, Florence Belsky Charitable Foundation, 2017–present; author, Congratulations, You’re A Compliance Officer! Now What?, 2019; Compliance Learning & Communications Leader, GE Capital Americas, 2012–2016; Associate Dean-Baccalaureate Studies/Director, The College of Westchester, 2006–2012; Assistant Director for Disability & Support Services, Vassar College, 2004–2011; professor, SUNY at New Paltz, 2003–2004; professor, SUNY Ulster Community College, 2003–2004; Director-Compliance, American Express TRS, 1993–2004; board member, Central Harlem Partnership, 1999; adjunct professor of ESL, Hudson County Community College, 1984–1985; Spanish teacher, NYC Board of Education, 1984–1985.</p>
+<p>Sr. Learning Partner/Training Director-Human Resources, AIG, 2017–present; Volunteer Advisor, Florence Belsky Charitable Foundation, 2017–present; author, <em>Congratulations, You’re A Compliance Officer! Now What?</em>, 2019; Compliance Learning & Communications Leader, GE Capital Americas, 2012–2016; Associate Dean-Baccalaureate Studies/Director, The College of Westchester, 2006–2012; Assistant Director for Disability & Support Services, Vassar College, 2004–2011; professor, SUNY New Paltz, 2003–2004; professor, SUNY Ulster Community College, 2003–2004; Director-Compliance, American Express TRS, 1993–2004; board member, Central Harlem Partnership, 1999; adjunct professor of ESL, Hudson County Community College, 1984–1985; Spanish teacher, NYC Board of Education, 1984–1985.</p>
 <?php echo end_sec_regularContent(); ?>
 
 

@@ -81,7 +81,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-      'WatchDilemani’s award acceptance remarks',
+      'Watch Dilemani’s award acceptance remarks',
         'https://player.vimeo.com/video/637612799?h=4c2b5a1293',
         'vimeo',
         '',
@@ -101,7 +101,7 @@ $page_info = json_decode($page_info, true);
 
 <h3 class="mt-5">2019</h3>
 
-<h4>Jacob Adelgren ’15, Alejandro Dinsmore ’15, Matthew Griffiths ’17, Casey Hancock ’16, and Harris Gordon ’15—founders of the immersive technology company eevo</h4>
+<h4>Founders of the immersive technology company eevo—Jacob Adelgren ’15, Alejandro Dinsmore ’15, Matthew Griffiths ’17, Casey Hancock ’16, and Harris Gordon ’15</h4>
 
 <ul class="linked-list">
     <li><a href="https://stories.vassar.edu/2019/190911-aavc-honors-six-alumnaei-during-convocation.html">Read more about the founders of eevo in the September 2019 <em>Vassar Stories</em> article</a></li>

@@ -34,7 +34,7 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'Reunion attendee in a procession raising hand in the air and smiling']
 ); ?>
-<p>Whether you’re looking to reconnect with old friends, network with others in your field, seek or post job and internship opportunities, or benefit from the guidance and advice of others, the Vassar family is here for you. Get and stay connected using the tools below.</p>
+<p>Whether you’re looking to reconnect with old friends, network with others in your field, seek or post job and internship opportunities, or benefit from the guidance and advice of others, the Vassar family is here for you. Stay connected using the tools below.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

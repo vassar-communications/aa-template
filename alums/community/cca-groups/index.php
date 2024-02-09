@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
 <p><small><i><a href="https://www.vassar.edu/alums/contact">Not getting class communications?</a></i></small></p>
 </div>
 <div id="cca-clubs-description" style="display:none">
-<p>Club “membership” is free and based on mailing address. Alums living in an area with an active club (displayed in the list below) should receive communications from the club. Current students or family members of a student may periodically receive relevant announcements from the club. <small><i><a href="https://www.vassar.edu/alums/contact">Not getting club communications?</a></i></small></p>
+<p>Club membership is free and based on mailing address. Alums living in an area with an active club (displayed in the list below) should receive communications from the club. Current students or family members of a student may periodically receive relevant announcements from the club. <small><i><a href="https://www.vassar.edu/alums/contact">Not getting club communications?</a></i></small></p>
 <p>If you do not live within the geographical area of an active club but want to receive communications from a specific club, please reach out to us at <a href="mailto:alumengagement@vassar.edu">alumengagement@vassar.edu</a> and we will get you connected to the club(s) of your choosing.</p>
 <p>Use the area selector or the search field to limit the display to specific clubs or volunteers. Find contact information in the <a href="https://connect.vassar.edu/s/1654/22/interior.aspx?sid=1654&gid=2&pgid=6&cid=41#/Search/Simple">online alum directory</a> for individual club volunteers (login required).</p>
 </div>
