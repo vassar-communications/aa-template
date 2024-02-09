@@ -384,7 +384,7 @@ ul.inline-list-links li a {
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">Ad Hoc Student and Young Alumnae/i Engagement Committee Chair, and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
+<div class="position">Ad Hoc Student and Young Alumnae/i Engagement Committee Chair and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
 <div class="location">Rhode Island</div>
 <div class="term">Term of Service: 2021–2025</div>
 <?php echo end_item_cardWithText(
@@ -456,7 +456,7 @@ ul.inline-list-links li a {
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">Nominating and Governance Committee Member, and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
+<div class="position">Nominating and Governance Committee Member and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
 <div class="location">Oregon</div>
 <div class="term">Term of Service: 2022–2026</div>
 <?php echo end_item_cardWithText(

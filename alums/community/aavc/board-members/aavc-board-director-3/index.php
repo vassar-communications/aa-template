@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Member, AAVC Ad Hoc Diversity, Equity, & Inclusion Committee, 2021–2022; notewriter or phoner, Phonathon Program, 1995–1996.</p>
+<p>Member, AAVC Ad Hoc Diversity, Equity, and Inclusion Committee, 2021–2022; notewriter or phoner, Phonathon Program, 1995–1996.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
