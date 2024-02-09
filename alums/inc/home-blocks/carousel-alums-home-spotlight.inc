@@ -15,6 +15,26 @@
 
 
 
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2024-02-09/spotlight/emma_kr.jpg',
+  'is-link',
+  'Four people sitting in front of a chalkboard, with one person in the center speaking, motioning with their hands.'
+); ?>
+  <h3 class="h3">Sophomore Career Connections 2024</h3>
+  <p><em>Photo: Karl Rabe</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/sophomore-career-connections-2024',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
 
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2024-01-11/spotlight/Triennial-0031_15_04_KR_0034-compressed.jpg',
