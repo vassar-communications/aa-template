@@ -50,7 +50,7 @@ $page_info = json_decode($page_info, true);
         'no-arrow'
     ); ?>
   </li>
-  <li><a href="https://www.vassar.edu/news/peace-and-anti-nuclear-activist-jonathan-granoff-70-receives-aavc-distinguished-achievement">Read more about Streep in the March 2023 <em>Vassar Stories</em> article</a></li>
+  <li><a href="https://www.vassar.edu/news/peace-and-anti-nuclear-activist-jonathan-granoff-70-receives-aavc-distinguished-achievement">Read more about Granoff in the March 2023 <em>Vassar Stories</em> article</a></li>
 </ul>
 
 
