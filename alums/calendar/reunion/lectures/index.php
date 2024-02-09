@@ -348,7 +348,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo presentation_item(
     'Pulitzer Prize winning author Ada Ferrer ’84 presents “Cuba: An American Story”, and other works of Cuban history',
-    'Rockefeller 310',
+    'Rockefeller 300',
     '2:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>

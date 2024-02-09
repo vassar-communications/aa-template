@@ -402,7 +402,7 @@ $page_info = json_decode($page_info, true);
 <p><strong>Location:</strong> New England Building 206</p>
 
   <h4><a href="../lectures/#pulitzer-prize-winning-author-ada-ferrer-84-presents-cuba-an-american-story-and-other-works-of-cuban-history">Pulitzer Prize winning author Ada Ferrer ’84 presents “Cuba: An American Story”, and other works of Cuban history</a></h4>
-<p><strong>Location:</strong> Rockefeller 310</p>
+<p><strong>Location:</strong> Rockefeller 300</p>
 
     <h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum-2">Tour: Walking Tour of the Vassar College Arboretum</a></h4>
     <p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
