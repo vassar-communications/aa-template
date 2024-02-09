@@ -73,7 +73,7 @@ $page_info = json_decode($page_info, true);
 
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Annual gifts (even at very modest levels) can have just as much impact as major gifts when they are pooled together. For example, multiple gifts from many donors totaling $50,000 can have the same financial effect as the payout from a $1 million endowment gift in a given year.</p>
+    <p>Annual gifts—even at very modest levels—can have just as much impact as major gifts when they are pooled together. For example, multiple gifts from many donors totaling $50,000 can have the same financial effect as the payout from a $1 million endowment gift in a given year.</p>
 
     <?php echo cta_link(
         'https://www.givecampus.com/c5fm3q',

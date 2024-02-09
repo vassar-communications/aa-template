@@ -40,12 +40,18 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
 
     <p>Offered annually in the fall by the Office of Advancement in association with the Office of Admission, College Search 101 is designed to familiarize Vassar alum families and their high school juniors with the college admission process. This program provides valuable, general information to your family as your college search process begins.</p>
+    <p><em>This program will be offered virtually.</em></p>
+    
+  <?php /*hiding until needed  
     <p><em>This program is being offered virtually. Register by Wednesday, November 8 to receive the webinar link(s).</em></p>
     <p>Sunday, November 12, 2023<br />11:00 a.m.–4:00 p.m. ET</p>
     <?php echo cta_link(
     'https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=7090&cid=11813&ecid=11813&ciid=30387&crid=0',
     'Registration for College Search 101 is Open!'
 ); ?>
+
+end of hiding*/?>
+
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -67,10 +73,10 @@ $page_info = json_decode($page_info, true);
 
 <h3>Overview</h3>
 
-<p>Here are some of the program highlights registered participants may expect during the session:</p>
+<p>Program highlights for registered participants:</p>
 
 <ul>
-  <li>Hear from Vassar College admissions professionals who will share advice about navigating the college search process, and how to evaluate schools that are right for you.</li>
+  <li>Hear from Vassar College admission professionals who will share advice about navigating the college search process, and how to evaluate schools that are right for you.</li>
   <li>Attend valuable information sessions on financial aid and College athletics.</li>
   <li>Meet current Vassar students for an open discussion about College life (for high school juniors only).</li>
 </ul>

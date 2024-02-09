@@ -178,7 +178,7 @@ $page_info = json_decode($page_info, true);
 
 <h3 class="mt-5">2009</h3>
 
-<h4>Richard W. Roberts ’74</h4>
+<h4>Richard “Ricky” W. Roberts ’74</h4>
 
 
 <ul class="linked-list">
@@ -234,7 +234,7 @@ $page_info = json_decode($page_info, true);
 
 <h3 class="mt-5">2004</h3>
 
-<h4>Kathleen Holman Langan ’46</h4>
+<h4>Kathleen “Kay” Holman Langan ’46</h4>
 
 
 <ul class="linked-list">
@@ -254,7 +254,7 @@ $page_info = json_decode($page_info, true);
 
 <h3 class="mt-5">2002</h3>
 
-<h4>Frances Aaron Hess ’53</h4>
+<h4>Frances “Frannie” Aaron Hess ’53</h4>
 
 
 <ul class="linked-list">
@@ -264,7 +264,7 @@ $page_info = json_decode($page_info, true);
 
 <h3 class="mt-5">2001</h3>
 
-<h4>Frances Prindle Taft ’42</h4>
+<h4>Frances “Franny” Prindle Taft ’42</h4>
 
 
 <ul class="linked-list">

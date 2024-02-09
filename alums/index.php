@@ -92,7 +92,7 @@ $page_info = json_decode($page_info, true);
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link mb-below-md-3'
     ); ?>
 
-    <p>With your gift to the Fearlessly Consequential Campaign, Vassar can continue to provide a bold liberal arts education that will ignite the world around us.</p>
+    <p>With your gift to the <em>Fearlessly Consequential</em> campaign, Vassar can continue to provide a bold liberal arts education that will ignite the world around us.</p>
 
 
     <?php echo end_item_cardWithText(

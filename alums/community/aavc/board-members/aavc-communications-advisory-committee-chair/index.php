@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Communications Advisory Committee Chair, Alumnae/i Recognition Committee Member and Career Networking Committee Member</li>
+    <li>Communications Advisory Committee Chair, Alumnae/i Recognition Committee Member, and Career Networking Committee Member</li>
     <li>(he/him/his)</li>
     <li>New York</li>
     <li>Term of Service: 2021–2025</li>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Director, AAVC Board of Directors, 2019–present, member, AAVC Communications Advisory Committee, 2018–present; volunteer, Admission Activities, 2012–present; volunteer, Admission Phoner Program, 2010–present; volunteer, Club Admission Committee, 2004–present; volunteer, Career Advisor Program, 2019; career panel/event participant, Career Program, 2017; mentor, Sophomore Career Connections, 2017; volunteer, Career Advisory Network, 2006–2012.</p>
+<p>Director, AAVC Board of Directors, 2019–present; member, AAVC Communications Advisory Committee, 2018–present; volunteer, Admission Activities, 2012–present; volunteer, Admission Phoner Program, 2010–present; volunteer, Club Admission Committee, 2004–present; volunteer, Career Advisor Program, 2019; career panel/event participant, Career Program, 2017; mentor, Sophomore Career Connections, 2017; volunteer, Career Advisory Network, 2006–2012.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

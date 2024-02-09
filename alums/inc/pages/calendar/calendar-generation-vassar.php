@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-<p>Take part in this month-long friendly fundraising competition between classes in each decade.</p>
+<p>Take part in this important tradition that invites the entire Vassar community to raise funds for critical areas of the College.</p>
 
 <?php echo end_item_cardWithText(
     null,

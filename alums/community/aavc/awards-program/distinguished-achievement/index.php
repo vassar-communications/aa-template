@@ -36,6 +36,24 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 
+<h3 class="mt-5">2022</h3>
+
+<h4>Jonathan Granoff ’70</h4>
+
+<ul class="linked-list">
+  <li>
+    <?php echo item_link_VideoModal(
+        'Watch Granoff’s interview by Chip Reid ’77 and Granoff’s acceptance remarks',
+        'https://player.vimeo.com/video/813544020',
+        'vimeo',
+        '',
+        'no-arrow'
+    ); ?>
+  </li>
+  <li><a href="https://www.vassar.edu/news/peace-and-anti-nuclear-activist-jonathan-granoff-70-receives-aavc-distinguished-achievement">Read more about Granoff in the March 2023 <em>Vassar Stories</em> article</a></li>
+</ul>
+
+
 <h3 class="mt-5">2021</h3>
 
 <h4>Meryl Streep ’71, P’08, ’13</h4>

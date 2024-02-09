@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Nominating and Governance Committee Member and Ad Hoc Diversity, Equity and Inclusion Committee Member</li>
+    <li>Nominating and Governance Committee Member and Ad Hoc Diversity, Equity, and Inclusion Committee Member</li>
     <li>(she/her/hers)</li>
     <li>Oregon</li>
     <li>Term of Service: 2022–2026</li>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Member, AAVC Ad Hoc Diversity, Equity, & Inclusion Committee, 2021–2022; notewriter or phoner, Phonathon Program, 1995–1996.</p>
+<p>Member, AAVC Ad Hoc Diversity, Equity, and Inclusion Committee, 2021–2022; notewriter or phoner, Phonathon Program, 1995–1996.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
