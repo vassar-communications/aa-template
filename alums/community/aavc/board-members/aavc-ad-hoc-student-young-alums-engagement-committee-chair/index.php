@@ -35,11 +35,11 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/board/winter-ellie-aavc-alum-6332.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'A person with curly shoulder length hair and a black sweater looks at the viewer.']
+    ['img_alt_text' => 'A person with curly shoulder-length hair and a black sweater looks at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Ad Hoc Student and Young Alumnae/i Engagement Committee Chair and Ad Hoc Diversity, Equity and Inclusion Committee Member</li>
+    <li>Ad Hoc Student and Young Alumnae/i Engagement Committee Chair and Ad Hoc Diversity, Equity, and Inclusion Committee Member</li>
     <li>(she/her/hers)</li>
     <li>Rhode Island</li>
     <li>Term of Service: 2021–2025</li>

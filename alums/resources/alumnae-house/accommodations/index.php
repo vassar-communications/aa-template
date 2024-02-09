@@ -37,7 +37,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Common Space inside Alumnae House']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text">Accommodations are available for your next visit to campus.</p>
+    <p class="intro-text">Accommodations are available for your next campus visit.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
     'key',
     'icon-on-left theme-white-border'
 ); ?>
-<p>Each private guest room features a unique decor with period furnishings and a newly renovated bathroom en suite. The private rooms include a King- or Queen-size bed, a desk, dresser, and a comfortable sitting area. Two of the private rooms are ADA-accessible.</p>
+<p>Each private guest room features unique decor with period furnishings and a newly renovated bathroom en suite. The private rooms include a king- or queen-size bed, a desk, dresser, and a comfortable sitting area. Two of the private rooms are ADA-accessible.</p>
 
 <?php echo end_item_iconItem(); ?>
 
@@ -66,7 +66,7 @@ $page_info = json_decode($page_info, true);
     'icon-on-left theme-white-border'
 ); ?>
 <ul>
-    <li>Luxurious Nest Toiletries in Sustainable Dispensers</li>
+    <li>Luxurious Nest toiletries in sustainable dispensers</li>
     <li>Hairdryer</li>
     <li>Closets with hangers</li>
     <li>Iron and ironing board</li>
@@ -79,7 +79,7 @@ $page_info = json_decode($page_info, true);
     <li>Individual climate control</li>
     <li>Windows that open</li>
     <li>Bathrobes (Crego Wing rooms only)</li>
-    <li>Complimentary Coffee and Tea</li>
+    <li>Complimentary coffee and tea</li>
     <li>Vending machine, ice maker, and refrigerator in Guest Kitchenette</li>
     <li>Business Center</li>
     <li>Free parking</li>
@@ -96,11 +96,11 @@ $page_info = json_decode($page_info, true);
         Check-out: 11:00 a.m.</strong></p>
 <p>Guests under 18 years old must be accompanied by a parent or guardian.</p>
 
-<p>Alumnae House has a no pet policy.  Service animals are welcome with proper documentation.</p>
+<p>Alumnae House has a no pet policy. Service animals are welcome with proper documentation.</p>
 
 <p>Cots and cribs available.</p>
 
-<p>Alumnae House is a No Smoking/No Vaping facility.</p>
+<p>Alumnae House is a non-smoking/vaping facility.</p>
 <?php echo end_item_iconItem(); ?>
 <?php echo end_sec_regularContent(); ?>
 

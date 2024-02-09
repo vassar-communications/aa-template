@@ -86,11 +86,11 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>Vassar also supports alums who wish to apply to a variety of nationally competitive fellowships that require institutional endorsement or a campus process, including the following:</p>
 <ul>
-    <li><a href="https://offices.vassar.edu/fellowships/fellowships/graduates/marshall/">Marshall Scholarship</a> – for graduate study in the UK</li>
-    <li><a href="https://offices.vassar.edu/fellowships/fellowships/graduates/rhodes/">Rhodes Scholarship</a> – for graduate study at the University of Oxford</li>
-    <li><a href="https://offices.vassar.edu/fellowships/fellowships/graduates/fulbright/">Fulbright Program</a> – for study/research or teaching English</li>
-    <li><a href="https://offices.vassar.edu/fellowships/fellowships/graduates/churchill/">Churchill Scholarship</a> – for graduate study in engineering, mathematics, or the sciences at Churchill College, the University of Cambridge</li>
-    <li><a href="https://offices.vassar.edu/fellowships/fellowships/graduates/carnegie/">James C. Gaither Junior Fellows</a> – for research assistant work at the Carnegie Endowment for International Peace</li>
+    <li><a href="https://offices.vassar.edu/fellowships/fellowships/graduates/marshall/">Marshall Scholarship</a>—for graduate study in the UK</li>
+    <li><a href="https://offices.vassar.edu/fellowships/fellowships/graduates/rhodes/">Rhodes Scholarship</a>—for graduate study at the University of Oxford</li>
+    <li><a href="https://offices.vassar.edu/fellowships/fellowships/graduates/fulbright/">Fulbright Program</a>—for study/research or teaching English</li>
+    <li><a href="https://offices.vassar.edu/fellowships/fellowships/graduates/churchill/">Churchill Scholarship</a>—for graduate study in engineering, mathematics, or the sciences at Churchill College, the University of Cambridge</li>
+    <li><a href="https://offices.vassar.edu/fellowships/fellowships/graduates/carnegie/">James C. Gaither Junior Fellows</a>—for research assistant work at the Carnegie Endowment for International Peace</li>
 </ul>
 <p>
 

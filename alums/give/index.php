@@ -114,7 +114,7 @@ b {
 
     <?php echo cta_link(
       'http://campaign.vassar.edu/',
-      'Learn more about our new campaign'
+      'Learn more about our campaign'
     ); ?>
 
 </div>
@@ -209,7 +209,7 @@ b {
     <p>Vassar students and alums are great candidates for internships and positions at any level within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
     <?php echo cta_link(
         '/alums/give/hire-vassar/',
-        'Information for Employers'
+        'Information for employers'
     ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>

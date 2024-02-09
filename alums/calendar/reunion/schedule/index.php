@@ -52,7 +52,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '9 a.m.–10 p.m.',
+    '9:00 a.m.–10:00 p.m.',
     'Reunion Information Center is open',
     'Main Building Lobby'
   ); ?>
@@ -60,7 +60,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '9 a.m.–11 p.m.',
+    '9:00 a.m.–11:00 p.m.',
     'Residence halls open for check-in'
   ); ?>
     <p>Dorm rooms are available after 2 p.m. <a href="../#flush-headingTwo">Find your Dorm Headquarters</a>.</p>
@@ -69,7 +69,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '2–3 p.m.',
+    '2:00–3:00 p.m.',
     'College-sponsored Lectures and Tours',
   ); ?>
   
@@ -106,7 +106,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '5–6 p.m.',
+    '5:00–6:00 p.m.',
     'Open House at Pratt House',
     null,
     null,
@@ -115,7 +115,7 @@ $page_info = json_decode($page_info, true);
   
   
    <?php echo schedule_item_dropdown(
-    '5 p.m.',
+    '5:00 p.m.',
     'Class of 1969 Reception and Dinner',
     'Shakespeare Garden'
   ); ?>
@@ -126,7 +126,7 @@ $page_info = json_decode($page_info, true);
  
    
   <?php echo schedule_item_dropdown(
-    '5 p.m.',
+    '5:00 p.m.',
     'Night Owls rehearsal (tentative)',
     'Rockefeller 200'
   ); ?>
@@ -134,8 +134,8 @@ $page_info = json_decode($page_info, true);
 
   
     <?php echo schedule_item_dropdown(
-    '5 p.m.',
-    'Class of 1964 presents: “Bricks, Mortar, and More”',
+    '5:00 p.m.',
+    'Class of 1964 presents: Bricks, Mortar, and More',
     'Rockefeller 300'
   ); ?>
   
@@ -145,7 +145,7 @@ $page_info = json_decode($page_info, true);
 
 
    <?php echo schedule_item_dropdown(
-    '5 p.m.',
+    '5:00 p.m.',
     'A concert featuring classical and jazz from Vassar music faculty',
     'Skinner Hall'
   ); ?>
@@ -164,7 +164,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '6–7 p.m.',
+    '6:00–7:00 p.m.',
     'Faculty Reception',
     'President’s Lawn Tent'
   ); ?>
@@ -173,7 +173,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '7–9:30 p.m.',
+    '7:00–9:30 p.m.',
     'Picnic Dinner'
   ); ?>
 <p><strong>Classes of 1948/49, 1954, 1959, 1964:</strong> 2nd floor Main Building</p>
@@ -199,22 +199,22 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '10 p.m.–12 a.m.',
-    '“The Mug”',
+    '10:00 p.m.–midnight',
+    'The Mug',
     'Lower Level, College Center'
   ); ?>
-  <p>Join us at the “Mug” for music from the 80’s and 90’s. Don’t forget to wait in line. Everyone 21 and older are welcome. Cash bar, DJ, and dancing.</p>
+  <p>Join us at the Mug for music from the 80’s and 90’s. Don’t forget to wait in line. Everyone 21 and older are welcome. Cash bar, DJ, and dancing.</p>
   <?php echo end_schedule_item_dropdown(); ?>
   
   <?php echo schedule_item_dropdown(
-    '10 p.m.',
-    'Movie Night: The Group',
+    '10:00 p.m.',
+    'Movie Night: <em>The Group</em>',
     'Rosenwald Theater, Vogelstein Center for Drama and Film'
   ); ?>
 
   <p>1966 American ensemble film directed by Sidney Lumet based on the 1963 novel of the same name by Mary McCarthy about the lives of a group of eight female graduates from Vassar from 1933 to 1940.</p>
-
-<p><em>Eight young women from the Vassar College class of 1933 rush out into the world to find exciting lives, but discover nothing is quite as they dreamed. Rather than blazing trails in art, science and literature, the friends are each variously burdened with disappointing relationships, children, aging parents and unemployment. Kay Strong (Joanna Pettet), the center of the group, gradually loses faith in the promise of their lives and, as war approaches, becomes unhinged.</em>.</p>
+<p>MATURE AUDIENCES ONLY</p>
+<p><em>Eight young women from the Vassar College class of 1933 rush out into the world to find exciting lives, but discover nothing is quite as they dreamed. Rather than blazing trails in art, science, and literature, the friends are each variously burdened with disappointing relationships, children, aging parents, and unemployment. Kay Strong (Joanna Pettet), the center of the group, gradually loses faith in the promise of their lives and, as war approaches, becomes unhinged</em>.</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -222,7 +222,7 @@ $page_info = json_decode($page_info, true);
   <h3 id="saturday" class="schedule-item__heading">Saturday, June 1</h3>
 
   <?php echo schedule_item_dropdown(
-    '7:30–9 a.m.',
+    '7:30–9:00 a.m.',
     'Breakfast'
   ); ?>
 <p>Available at Gordon Commons (formerly ACDC)</p>
@@ -232,7 +232,7 @@ $page_info = json_decode($page_info, true);
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
-    '8–10 a.m.',
+    '8:00–10:00 a.m.',
     'Breakfast for the Classes of 1959, 1964, and 1969',
     'Jewett Multipurpose Rooms'
   ); ?>
@@ -243,7 +243,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '9 a.m.–10 p.m.',
+    '9:00 a.m.–10:00 p.m.',
     'Reunion Information Center is open',
     'Main Building Lobby'
   ); ?>
@@ -251,7 +251,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '9 a.m.–11 p.m.',
+    '9:00 a.m.–11:00 p.m.',
     'Residence halls open for check-in'
   ); ?>
 
@@ -331,7 +331,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '2–4 p.m.',
+    '2:00–4:00 p.m.',
     'The Loeb Art Center',
     'Hildegard Krause Baker, class of 1911, Sculpture Garden'
   ); ?>
@@ -382,7 +382,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '3–5 p.m.',
+    '3:00–5:00 p.m.',
     'Alum Author Meet and Greet',
     'Vassar College Store (aka, the Juliet), Raymond Avenue'
   ); ?>
@@ -390,7 +390,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '3–5 p.m.',
+    '3:00–5:00 p.m.',
     'Multicultural and Affinity Group Receptions',
     'Main Building, 1st and 2nd floors, and the Jeh Vincent Johnson ALANA Cultural Center'
   ); ?>
@@ -401,7 +401,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '3:30–5 p.m.',
+    '3:30–5:00 p.m.',
     'Annual Ferry House Mini-Reunion at Reunion',
     'Ferry House Outdoor Patio (weather permitting)'
   ); ?>
@@ -410,7 +410,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '4–5 p.m.',
+    '4:00–5:00 p.m.',
     'College-sponsored Lectures and Tours'
   ); ?>
 
@@ -430,7 +430,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '5–6 p.m.',
+    '5:00–6:00 p.m.',
     'Class of 1984 Wine Tasting',
     'Josselyn House, 2nd floor multipurpose room'
   ); ?>
@@ -438,7 +438,7 @@ $page_info = json_decode($page_info, true);
 
 
     <?php echo schedule_item_dropdown(
-      '5–6 p.m.',
+      '5:00–6:00 p.m.',
       'Night Owls Concert (tentative)',
       'Taylor 102'
     ); ?>
@@ -462,7 +462,7 @@ $page_info = json_decode($page_info, true);
 
 
     <?php echo schedule_item_dropdown(
-    '6 p.m.',
+    '6:00 p.m.',
     'Class of 1964 Photo',
     'Rockefeller Hall steps facing Main Building'
   ); ?>
@@ -497,7 +497,7 @@ $page_info = json_decode($page_info, true);
 
 
       <?php echo schedule_item_dropdown(
-        '10 p.m–1 a.m.',
+        '10:00 p.m–1:00 a.m.',
         'All-class after party on Noyes Circle'
       ); ?>
       <p>Cash bar, DJ, and dancing to a multigenerational playlist.</p>
@@ -508,7 +508,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '7:30 a.m–12 p.m.',
+    '7:30 a.m–noon',
     'Breakfast/brunch'
   ); ?>
   <p>Available at Gordon Commons (formerly ACDC).</p>
@@ -517,7 +517,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '8–10 a.m.',
+    '8:00–10:00 a.m.',
     'Classes of 1959, 1964, and 1969',
     'Jewett Multipurpose Rooms'
   ); ?>
@@ -528,7 +528,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '8 a.m.–1 p.m.',
+    '8:00 a.m.–1:00 p.m.',
     'Reunion Information Center is open',
     'Main Building Lobby'
   ); ?>
@@ -544,15 +544,15 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '9 a.m–1 p.m.',
-    'Residence halls open for check out'
+    '9:00 a.m–1:00 p.m.',
+    'Residence halls open for check-out'
   ); ?>
   <p>Please return room keys to Guest Services Coordinators in residence halls.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
-    '9 a.m.',
+    '9:00 a.m.',
     'Fun Run with Cross-Country Coach Ron Stonitsch'
   ); ?>
   <p>Meet in front of the Athletic and Fitness Center</p>
@@ -560,7 +560,7 @@ $page_info = json_decode($page_info, true);
 
 
     <?php echo schedule_item_dropdown(
-      '10–11 a.m.',
+      '10:00–11:00 a.m.',
       'Service of Remembrance',
       'The Chapel'
     ); ?>
@@ -579,7 +579,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '1 p.m.',
+    '1:00 p.m.',
     'Reunion adjourns/check-out'
   ); ?>
   <p>Please return room keys to Guest Services Coordinators in residence halls.</p>
@@ -587,7 +587,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '1 p.m.',
+    '1:00 p.m.',
     'NYC charter bus departs from Main Circle',
     null,
     null,

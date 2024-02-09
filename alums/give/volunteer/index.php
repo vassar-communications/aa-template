@@ -154,7 +154,7 @@ $page_info = json_decode($page_info, true);
     'beer-mug-empty',
     'icon-on-left theme-white-border'
 ); ?>
-<p>With more than 25 groups in the US and across the globe, Vassar Clubs provide opportunities for alums—along with current students and their families—to build relationships across generations, nurture intellectual curiosity, support each other and the College community...and have fun while doing it! Thanks to Vassar Club volunteers, alums can get together, wherever they live, and continue to build lasting connections beyond the College’s gates.</p>
+<p>With more than 25 groups in the US and across the globe, Vassar Clubs provide opportunities for alums—along with current students and their families—to build relationships across generations, nurture intellectual curiosity, support each other and the College community, and have fun while doing it! Thanks to Vassar Club volunteers, alums can get together, wherever they live, and continue to build lasting connections beyond the College’s gates.</p>
 <ul class="linked-list">
     <li><a href="/alums/community/alum-groups/#clubs">Learn more about Vassar Clubs</a></li>
     <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Club Volunteer</a></li>

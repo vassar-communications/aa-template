@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Travel Program",
   "page_classes":"",
-  "feature_image":"/alums/assets/img/alums-calendar/travel-program/Canadian_Rockies_2014.jpg"
+  "feature_image":"/alums/assets/img/alums-calendar/travel-program/travel-program-header-AdobeStock_501648198.jpg"
 }';
 
 /* === */
@@ -24,7 +24,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Two backpackers walking on a gravel road along a lake in the Canadian Rockies.']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'An elephant, two giraffes, and a group of zebras gather around a watering hole on a sandy area surrounded by low scrub bushes.']); ?>
 
 
 <?php echo interior_page_nav() ?>

@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Co-founder, Higher Education Advisors, 2009–present; financial executive and securities lawyer at UBS Securities, Bear Stearns, Financial Security Assurance (FSA), Kutak Rock & Campbell, and the Astor Group Ltd., 1981-present; board member of institutions focused on education and international development, including CARE, IES Abroad, the Free Library of Philadelphia, the University of Pennsylvania Press, the International House at the University of Chicago, and the Latin School of Chicago; board member of CMG, Washington DC; founding member of the U.S. Committee for the United Nations High Commissioner for Refugees (UNHCR); and appointed by President Clinton to serve on the board of the Central Asian-American Enterprise Fund.</p>
+<p>Co-founder, Higher Education Advisors, 2009–present; financial executive and securities lawyer at UBS Securities, Bear Stearns, Financial Security Assurance (FSA), Kutak Rock & Campbell, and the Astor Group Ltd., 1981-present; board member of institutions focused on education and international development, including CARE, IES Abroad, the Free Library of Philadelphia, the University of Pennsylvania Press, the International House at the University of Chicago, and the Latin School of Chicago; board member of CMG, Washington D.C.; founding member of the U.S. Committee for the United Nations High Commissioner for Refugees (UNHCR); and appointed by President Clinton to serve on the board of the Central Asian-American Enterprise Fund.</p>
 <?php echo end_sec_regularContent(); ?>
 
 

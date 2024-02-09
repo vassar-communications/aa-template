@@ -190,7 +190,7 @@ $page_info = json_decode($page_info, true);
 <h3 class="mt-5">2011</h3>
 
 <h4>Former Living AAVC Presidents</h4>
-<p>Awarded to Frances Prindle Taft ’42, Kathleen Holman Langan ’46, Joan Andrews Watters ’50, Frances Aaron Hess ’53, Billie Davis Gaines ’58, Susan McCallum Bledsoe ’64, Joan Strashinsky Kjelleren ’71, Paula Madison ’74, and Margaret Daly Johnson ’84</p>
+<p>Awarded to Frances “Franny” Prindle Taft ’42, Kathleen “Kay” Holman Langan ’46, Joan Andrews Watters ’50, Frances “Frannie” Aaron Hess ’53, Billie Davis Gaines ’58, Susan McCallum Bledsoe ’64, Joan Strashinsky Kjelleren ’71, Paula Williams Madison ’74, and Margaret “Meg” Daly Johnson ’84</p>
 
 <ul class="linked-list">
     <li><a href="http://vq.vassar.edu/issues/2011/03/beyond-vassar/the-irrepressible-spirit-of-vassar.html">Read more about the AAVC Presidents in the Fall 2011 <em>Vassar, the Alumnae/i Quarterly</em> article</a></li>

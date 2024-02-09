@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>AAVC Trustee, Ad Hoc Diversity, Equity and Inclusion Committee Chair and Nominating and Governance Member</li>
+    <li>AAVC Trustee, Ad Hoc Diversity, Equity, and Inclusion Committee Chair, and Nominating and Governance Member</li>
     <li>(she/her/hers)</li>
     <li>Massachusetts</li>
     <li>Term of Service: 2023–2027</li>

@@ -143,7 +143,7 @@ $page_info = json_decode($page_info, true);
 </ul>
 <p>Already have the app and use the “Alum” persona? Tap on the person icon in the upper right corner of the app, then tap on “My Role” to switch to the Reunion persona for the weekend.</p>
 <h4>Alum ID Card</h4>
-<p>If you would like to get an Alum ID card during Reunion, please submit the <a href="https://offices.vassar.edu/card/alum-id-card-request/">Alum ID Card Request Form</a> by <strong>May 17, 2024</strong>. The Card Office will make sure everything is ready for you to get your Alum ID card at Reunion. Alum ID cards are only issued in person at Vassar’s Service Desk located in the College Center, North Atrium, as a photo must be taken for the card.  The Service Desk will be open during Reunion on Friday, May 31, from 8:30 a.m.–5&nbsp;p.m. and Saturday, June 1, from 12 p.m.–5 p.m. For more information, contact the Card Office at <a href="tel:+18454513333">(845) 451-3333</a>.</p>
+<p>If you would like to get an Alum ID card during Reunion, please submit the <a href="https://offices.vassar.edu/card/alum-id-card-request/">Alum ID Card Request Form</a> by <strong>May 17, 2024</strong>. The Card Office will make sure everything is ready for you to get your Alum ID card at Reunion. Alum ID cards are only issued in person at Vassar’s Service Desk located in the College Center, North Atrium, as a photo must be taken for the card. The Service Desk will be open during Reunion on Friday, May 31, from 8:30 a.m. to 5:00&nbsp;p.m. and Saturday, June 1, from noon to 5:00 p.m. For more information, contact the Card Office at <a href="tel:+18454513333">(845) 451-3333</a>.</p>
 
 <?php echo end_item_iconItem(); ?>
 
@@ -281,8 +281,8 @@ $page_info = json_decode($page_info, true);
 <?php echo end_item_iconItem(); ?>
 
 <?php echo item_iconItem('New York City Bus','bus',''); ?>
-<h4>Friday, May 31: Depart from NYC (Bryant Park) at 12 p.m.</h4>
-<h4>Sunday, June 2: Depart from Vassar (Main Circle) at 1 p.m.</h4>
+<h4>Friday, May 31: Depart from NYC (Bryant Park) at noon</h4>
+<h4>Sunday, June 2: Depart from Vassar (Main Circle) at 1:00 p.m.</h4>
 <p>The Vassar Club of New York will be on hand to greet you on Friday on the south side of 42nd Street between 5th and 6th Avenues, in front of Bryant Park, as shown in the Google Map below.</p>
 <style>.embed-container { position: relative; padding-bottom: 56.25%; margin-bottom: 20px; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 20px; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3022.34973581112!2d-73.98570558727074!3d40.754331934902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDQ1JzE1LjYiTiA3M8KwNTgnNTkuMyJX!5e0!3m2!1sen!2sus!4v1682952585698!5m2!1sen!2sus' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div>
 <?php echo end_item_iconItem(); ?>
@@ -324,30 +324,30 @@ $page_info = json_decode($page_info, true);
 
 <h3>Athletic and Fitness Center</h3>
 <ul>
-  <li>Friday: 7 a.m.–8 p.m.</li>
-  <li>Saturday:	10 a.m.–6 p.m.</li>
-  <li>Sunday: 10 a.m.–6 p.m.</li>
+  <li>Friday: 7:00 a.m.–8:00 p.m.</li>
+  <li>Saturday:	10:00 a.m.–6:00 p.m.</li>
+  <li>Sunday: 10:00 a.m.–6:00 p.m.</li>
 </ul>
   <p><em>We intend to have the pool open, pending lifeguard availability. Please check back for more information.</em></p>
 
   <h3>Street Eats food truck, outside Gordon Commons</h3>
   <ul>
-    <li>Saturday: 7:30 a.m.–5 p.m.</li>
-    <li>Sunday: 7:30 a.m.–11 a.m.</li>
+    <li>Saturday: 7:30 a.m.–5:00 p.m.</li>
+    <li>Sunday: 7:30–11:00 a.m.</li>
   </ul>
   <p><em>Coffee, light refreshments and snacks</em></p>
 
   <h3>Thompson Memorial Library including the Art Library</h3>
   <ul>
     <li>Friday: 8:30 a.m.–4:30 p.m.</li>
-    <li>Saturday: 8:30 a.m.–5 p.m.</li>
-    <li>Sunday: 8:30 a.m.–12 p.m.</li>
+    <li>Saturday: 8:30 a.m.–5:00 p.m.</li>
+    <li>Sunday: 8:30 a.m.–noon</li>
   </ul>
 
   <h3>Music Library</h3>
   <ul>
-    <li>Friday: 1–4 p.m.</li>
-    <li>Saturday: 10 a.m.–4 p.m.</li>
+    <li>Friday: 1:00 p.m.–4:00 p.m.</li>
+    <li>Saturday: 10:00 a.m.–4:00 p.m.</li>
   </ul>
 
   <?php echo end_item_col(); ?>
@@ -356,26 +356,26 @@ $page_info = json_decode($page_info, true);
 
   <h3>Frances Lehman Loeb Art Center</h3>
   <ul>
-    <li>Friday: 10 a.m.–7 p.m.	</li>
-    <li>Saturday: 9 a.m.–5 p.m.	</li>
-    <li>Sunday: 9 a.m.–5 p.m.	</li>
+    <li>Friday: 10:00 a.m.–7:00 p.m.	</li>
+    <li>Saturday: 9:00 a.m.–5:00 p.m.	</li>
+    <li>Sunday: 9:00 a.m.–5:00 p.m.	</li>
   </ul>
 
     <h3>A. Scott Warthin Museum of Geology & Natural History, Ely Hall</h3>
     <ul>
-      <li>Friday: 8:30 a.m.–5 p.m.</li>
-      <li>Saturday: 2–4 p.m.</li>
+      <li>Friday: 8:30 a.m.–5:00 p.m.</li>
+      <li>Saturday: 2:00–4:00 p.m.</li>
     </ul>
 
     <h3>Vassar College Store, Juliet, Raymond Avenue</h3>
     <ul>
-      <li>Thursday: 10 a.m.–6 p.m.</li>
-      <li>Friday: 10 a.m.–6 p.m</li>
-      <li>Saturday: 10 a.m.–6 p.m.<br>
-        <em>Author Meet and Greet, 3–5 p.m.</em>
+      <li>Thursday: 10:00 a.m.–6:00 p.m.</li>
+      <li>Friday: 10:00 a.m.–6:00 p.m</li>
+      <li>Saturday: 10:00 a.m.–6:00 p.m.<br>
+        <em>Author Meet and Greet, 3:00–5:00&nbsp;p.m.</em>
       </li>
-      <li>Sunday: 9 a.m.–2 p.m.<br>
-        <em>Ring sales will be available from 10 a.m.–1 p.m.</em>
+      <li>Sunday: 9:00 a.m.–2:00 p.m.<br>
+        <em>Ring sales will be available from 10:00&nbsp;a.m. to 1:00 p.m.</em>
       </li>
     </ul>
 

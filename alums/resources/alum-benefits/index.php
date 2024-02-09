@@ -106,7 +106,7 @@ $page_info = json_decode($page_info, true);
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 
-<p>Use of the facilities is subject to various rules with which you should familiarize yourself prior to your visit, including advanced registration of any guest you intend to bring to the fitness center. Please consult the athletics website for the latest information, as rules and policies are subject to change.</p>
+<p>Use of the facilities including the indoor track, fitness machines, and pool. Please consult the athletics website for the latest information including rules and policies.</p>
 
 <?php echo end_item_cardWithText(
     '',
