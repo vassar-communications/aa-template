@@ -13764,6 +13764,10 @@ details > summary::-webkit-details-marker {
   color: var(--color-vassar-burgundy);
 }
 
+.node--type-alert {
+  --section-text-color: #fff;
+}
+
 .node--type-alert a, .node--type-alert .video-modal-link,
 .node--type-alert a:visited {
   color: #fff;
