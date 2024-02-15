@@ -170,7 +170,6 @@ ul.inline-list-links li a {
     ''
 ); ?>
 
-
 <a id="board-members"></a>
 
 <?php echo sec_hasColumns(
