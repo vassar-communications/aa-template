@@ -609,12 +609,9 @@ Vassar students are surrounded by an environment designed to spark something ama
       url: urlIN,
       dataType: 'json',
       success: function (data) {
-        //console.log(data);
-        //callback(data);
         markup = '';
-
-//        for (let i = 0; i < data.length; i++) {
         for (let i = 0; i < 5; i++) {
+          var itemPath = data[i]['override_url'] ? data[i]['override_url'] : data[i]['path'];
           var itemMarkup = `
     <div class="carousel-cell is-link">
       <div class="carousel-cell-content">
@@ -623,7 +620,7 @@ Vassar students are surrounded by an environment designed to spark something ama
        </div>
        <div class="figcaption pt-4 listen">
           <h3>
-             <a href="${data[i]['path']}" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">${data[i]['title']}</span>
+             <a href="${itemPath}" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">${data[i]['title']}</span>
              </a>
           </h3>
           <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
@@ -632,7 +629,6 @@ Vassar students are surrounded by an environment designed to spark something ama
    </div>
 `.trim();
           markup += itemMarkup;
-
         }
         if (markup.length !== 0) {
           markup = '<div class="featureImage-text-ticker media-carousel full">' + markup + '</div>';
@@ -651,7 +647,7 @@ Vassar students are surrounded by an environment designed to spark something ama
       }
     });
   }
-  parseRSS('https://www.vassar.edu/news/rss/511');
+  parseRSS('https://www.vassar.edu/news/rest/511?img_req=1');
 </script>
 
   <div id="newsRSS_target">
