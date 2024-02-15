@@ -1,5 +1,5 @@
- <?php
-/*Dummy Commit*/
+<?php
+
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include( $project_paths['main_project_root'] . '/functions.php');
 
@@ -19,7 +19,6 @@ $page_info = '{
 $page_info = json_decode($page_info, true);
 
 ?>
-
 
 
 
@@ -460,12 +459,10 @@ Vassar students are surrounded by an environment designed to spark something ama
 <div class="animation-group staggered-grid tiktok-grid animation-zoom-in animate-when-content-appears gap-3  mb-3">
 
 
-  <?php echo item_imageCard_videoModal(
-      get_icon('play').'Day in the Life',
-      null,
-      'https://player.vimeo.com/video/754937441',
-      'vimeo',
-      '',
+  <?php echo item_cardWithText_linkToVideoSite(
+      get_icon('play').'Day in the Life NEW',
+      'https://www.tiktok.com/@vassar_college/video/7321759737840799007?is_from_webapp=1&sender_device=pc&web_id=7322108294952617514',
+      '<svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"></path></svg>',
       ['url' => '/admission/assets/images/admission-home/video/day-1.jpg',
           'alt' => 'Student working on a laptop in front of a window'
       ],
@@ -604,18 +601,17 @@ Vassar students are surrounded by an environment designed to spark something ama
 
 
 <script>
-
-  // note: news items without a specified image
-  // will *not* show up in the carousel.
-
   function parseRSS(urlIN, callback) {
     $.ajax({
       url: urlIN,
       dataType: 'json',
       success: function (data) {
+        //console.log(data);
+        //callback(data);
         markup = '';
+
+//        for (let i = 0; i < data.length; i++) {
         for (let i = 0; i < 5; i++) {
-          var itemPath = data[i]['override_url'] ? data[i]['override_url'] : data[i]['path'];
           var itemMarkup = `
     <div class="carousel-cell is-link">
       <div class="carousel-cell-content">
@@ -624,7 +620,7 @@ Vassar students are surrounded by an environment designed to spark something ama
        </div>
        <div class="figcaption pt-4 listen">
           <h3>
-             <a href="${itemPath}" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">${data[i]['title']}</span>
+             <a href="${data[i]['path']}" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">${data[i]['title']}</span>
              </a>
           </h3>
           <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
@@ -633,6 +629,7 @@ Vassar students are surrounded by an environment designed to spark something ama
    </div>
 `.trim();
           markup += itemMarkup;
+
         }
         if (markup.length !== 0) {
           markup = '<div class="featureImage-text-ticker media-carousel full">' + markup + '</div>';
@@ -651,7 +648,7 @@ Vassar students are surrounded by an environment designed to spark something ama
       }
     });
   }
-  parseRSS('https://www.vassar.edu/news/rest/511?img_req=1');
+  parseRSS('https://www.vassar.edu/news/rss/511');
 </script>
 
   <div id="newsRSS_target">
