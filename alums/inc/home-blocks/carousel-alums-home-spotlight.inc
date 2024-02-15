@@ -21,6 +21,7 @@
   'Four people sitting in front of a chalkboard, with one person in the center speaking, motioning with their hands.'
 ); ?>
   <h3 class="h3">Sophomore Career Connections 2024</h3>
+  <p>This year, SCC celebrated its 10th anniversary and offered more than 250 students the opportunity to network and exchange industry information with 100+ mentors.</p>
   <p><em>Photo: Karl Rabe</em></p>
 
   <?php echo cta_link(
