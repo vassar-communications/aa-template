@@ -121,7 +121,7 @@ $page_info = json_decode($page_info, true);
         'https://www.vassar.edu/faculty/emeriti/schlessman',
         'Emeritus Professor of Biology',
         '/alums/assets/img/alums-calendar/reunion/2023-lectures/schlessman.jpg',
-        'A photo of a person with a black baseball cap, a tan shirt, and a thin gray beard, smiling at the camera'
+        'A person with a black baseball cap, a tan shirt, and a thin gray beard, smiles at the camera.'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -217,7 +217,7 @@ $page_info = json_decode($page_info, true);
       'https://www.vassar.edu/faculty/emeriti/schlessman',
       'Emeritus Professor of Biology',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/schlessman.jpg',
-      'A photo of a person with a long gray beard and a white shirt with a black tie, smiling at the camera'
+      'A person with a black baseball cap, a tan shirt, and a thin gray beard, smiles at the camera.'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>

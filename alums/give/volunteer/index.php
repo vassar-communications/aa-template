@@ -24,7 +24,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Three people seated behind a table smiling and talking']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Three people seated behind a wooden table smiling and talking to each other, wearing casual clothes and nametags.']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-give/volunteer/0009-18-01-cs-scc-vassar-144.jpg',
     'theme-cream image-is-first',
     '',
-    ['img_alt_text' => 'A mentor named Darys speaking']
+    ['img_alt_text' => 'A person with short light brown hair wearing a bright blue sweater and a name tag that reads Darys gestures and speaks while seated at a table.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Thousands of alums and parents share their time and expertise with Vassar students and fellow community members every year.</p>

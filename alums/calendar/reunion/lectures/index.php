@@ -94,7 +94,7 @@ $page_info = json_decode($page_info, true);
     ['alternate_id' => 'vassar-preserve-environmental-cooperative']
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Conservation, sustainability and an exploration of the natural world are all core values at Vassar. Explore one of the College’s greatest gems on this guided walking tour (weather permitting). Sensible shoes and long pants are strongly suggested.</p>
+      <p>Conservation, sustainability, and an exploration of the natural world are all core values at Vassar. Learn about one of the College’s greatest gems at this talk about the Preserve at Vassar.  The talk will take place at the Vassar Barns and will be followed by an optional guided walking tour of the Preserve at 3:30 (weather permitting). Sensible shoes and long pants are strongly suggested.</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenters'); ?>
@@ -108,7 +108,7 @@ $page_info = json_decode($page_info, true);
       <?php echo presentation_member(
         'Keri VanCamp',
         'https://www.linkedin.com/in/keri-vancamp-4966a177/',
-        'Director of the Field Station and Ecological Preserve',
+        'Director of the Preserve at Vassar',
         null,
         null
       ); ?>
@@ -156,7 +156,7 @@ $page_info = json_decode($page_info, true);
       ); ?>
       <?php echo presentation_member(
         'Gary Hohenberger ’97',
-        'https://www.linkedin.com/in/gary-hohenberger-977b74/',
+        'https://www.linkedin.com/in/gary-hohenberger-cra-977b74/',
         'Associate Vice President, Foundation & Government Relations',
         null,
         null
@@ -178,6 +178,13 @@ $page_info = json_decode($page_info, true);
         '/alums/assets/img/alums-calendar/reunion/2024-lectures/Sarah-Canino.jpg',
         'A person with long brown hair and bangs, wearing glasses, a teal sweater, and a multi-colored scarf, smiles at the viewer. Photo credit: Karl Rabe/Vassar College.'
       ); ?>
+      <?php echo presentation_member(
+        'Nicole Scalessa',
+        'https://library.vassar.edu/prf.php?account_id=213888',
+        'Head of Digital Scholarship and Technology Services',
+        '/alums/assets/img/alums-calendar/reunion/2024-lectures/Nicole_Scalessa.jpg',
+        'A person with long brown hair, standing in front of a leaded glass window, smiles at the viewer.'
+      ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
 
@@ -188,14 +195,14 @@ $page_info = json_decode($page_info, true);
     '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Join Rebecca Edwards, Professor of History on the Elloise Ellory Chair, for an interview with renowned author Michael Gross ’74 about his new book.</p>
+      <p>Join Rebecca Edwards, Professor of History on the Eloise Ellery Chair, for an interview with renowned author Michael Gross ’74 about his new book.</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenters'); ?>
       <?php echo presentation_member(
         'Rebecca Edwards',
         'https://www.vassar.edu/faculty/reedwards',
-        'Professor of History on the Elloise Ellory Chair',
+        'Professor of History on the Eloise Ellery Chair',
         '/alums/assets/img/alums-calendar/reunion/2024-lectures/Rebecca-Edwards.jpg',
         'A person with short straight brown hair wearing glasses smiles at the viewer.'
       ); ?>
@@ -225,14 +232,14 @@ $page_info = json_decode($page_info, true);
         'https://www.vassar.edu/faculty/emeriti/schlessman',
         'Emeritus Professor of Biology',
         '/alums/assets/img/alums-calendar/reunion/2023-lectures/schlessman.jpg',
-        'A photo of a person with a black baseball cap, a tan shirt, and a thin gray beard, smiling at the camera'
+        'A person with a black baseball cap, a tan shirt, and a thin gray beard, smiles at the camera.'
       ); ?>
       <?php echo presentation_member(
         'Laura Graceffa ’87',
         'https://www.linkedin.com/in/laura-graceffa-3b14009/',
         null,
         '/alums/assets/img/alums-calendar/reunion/2023-lectures/Laura_Graceffa.jpg',
-        'A photo of a person with short dark gray hair, smiling at the camera'
+        'A person with short dark gray hair smiles at the camera.'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -247,22 +254,22 @@ $page_info = json_decode($page_info, true);
   '2:30 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Join Sophia Harvey, Associate Professor of Film for a glimpse at Paula Madison’s compelling documentary that chronicles her journey to her maternal grandfather’s homeland in China and the reconnection of her nuclear family with his 300+ descendants.</p>
+    <p>Join Richard Roberts ’74 for a glimpse at Paula Madison’s compelling documentary that chronicles her journey to her maternal grandfather’s homeland in China and the reconnection of her nuclear family with his 300+ descendants.</p>
 
-<p>An Afro-Chinese-Jamaican Harlem family seeks their Chinese grandfather who was forever separated from their mother - his 3-year-old half-Chinese, half-Jamaican daughter - in Jamaica in1920. Samuel Lowe (Lowe Ding Chow) returned to China for the last time in 1933 with his Chinese wife and two youngest daughters after having already taken three sons and another daughter there previously.</p>
+<p>An Afro-Chinese-Jamaican Harlem family seeks their Chinese grandfather who was forever separated from their mother - his 3-year-old half-Chinese, half-Jamaican daughter - in Jamaica in 1920. Samuel Lowe (Lowe Ding Chow) returned to China for the last time in 1933 with his Chinese wife and two youngest daughters after having already taken three sons and another daughter there previously.</p>
  
-<p>After a 91-year separation, his Black Chinese Jamaican grandchildren, led by Paula Williams Madison ’74, who never knew their family journey to China where they find Samuel Lowe's 300 Chinese descendants and the entire clan is reunited. The film takes viewers to Harlem, Toronto, Martha's Vineyard, three cities in Jamaica and two cities in China to see these families of different races become One.</p>
+<p>After a 91-year separation, his Black Chinese Jamaican grandchildren, led by Paula Williams Madison ’74, who never knew their family journey to China where they find Samuel Lowe’s 300 Chinese descendants and the entire clan is reunited. The film takes viewers to Harlem, Toronto, Martha’s Vineyard, three cities in Jamaica and two cities in China to see these families of different races become One.</p>
 
 <p><a href="https://vimeo.com/70450824">Watch Paula Madison’s documentary with the password FSLd!st5rn</a>.
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenters'); ?>
     <?php echo presentation_member(
-      'Sophia Harvey',
-      'https://www.vassar.edu/faculty/soharvey',
-      'Associate Professor of Film',
-      '/alums/assets/img/alums-calendar/reunion/2024-lectures/Sophia-harvey.jpg',
-      'A person with short black and gray hair wearing glasses and a green sweater smiles at the viewer.'
+      'Richard Roberts ’74',
+      '',
+      '',
+      '',
+      ''
     ); ?>
     <?php echo presentation_member(
       'Paula Williams Madison ’74',
@@ -312,7 +319,7 @@ $page_info = json_decode($page_info, true);
         'https://www.vassar.edu/faculty/kimenking',
         'Professor of Earth Science on the Althea Ward Clark Chair and Environmental Studies Program Director',
         '/alums/assets/img/alums-calendar/reunion/2024-lectures/Kirsten-Menking.jpg',
-        'A person with short medium brown straight hair wearing glasses and standing under a tree smiles at the viewer.'
+        'A person with short medium brown straight hair wearing glasses and a backpack stands under a tree smiling at the viewer.'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -387,14 +394,14 @@ $page_info = json_decode($page_info, true);
       'https://www.vassar.edu/faculty/emeriti/schlessman',
       'Emeritus Professor of Biology',
       '/alums/assets/img/alums-calendar/reunion/2023-lectures/schlessman.jpg',
-      'A photo of a person with a long gray beard and a white shirt with a black tie, smiling at the camera'
+      'A person with a black baseball cap, a tan shirt, and a thin gray beard, smiles at the camera.'
     ); ?>
       <?php echo presentation_member(
         'Laura Graceffa ’87',
         'https://www.linkedin.com/in/laura-graceffa-3b14009/',
         null,
         '/alums/assets/img/alums-calendar/reunion/2023-lectures/Laura_Graceffa.jpg',
-        'A photo of a person with short dark gray hair, smiling at the camera'
+        'A person with short dark gray hair smiles at the camera.'
       ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
@@ -437,7 +444,7 @@ Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student an
       'https://www.linkedin.com/in/michael-fanuele-2794812/',
       null,
       '/alums/assets/img/alums-calendar/reunion/2024-lectures/Michael-Fanuele.jpg',
-      'A person with very short hair and a short beard and mustache grins at the viewer.'
+      'A person with very short hair and a short beard and mustache smiles at the viewer.'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>

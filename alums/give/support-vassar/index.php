@@ -24,7 +24,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Aerial view of Vassar Campus']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'An aerial view of various large buildings on Vassar Campus, one with towers made of marble on the right, and a group of brick buildings in a quadrangle on the left, all surrounded by trees. ']); ?>
 
 
 
@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-give/support/0085-20-12-kr-reading-room-vassar-0118.jpg',
     'theme-cream image-is-first',
     '',
-    ['img_alt_text' => 'Interior view of Vassar College ’51 Reading Room']
+    ['img_alt_text' => 'Interior view a room with a sign that reads Class of 1951 Reading Room in a black frame with large windows below it.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
        <p class="intro-text"> A gift at any level is key to sustaining Vassar.</p>
@@ -67,7 +67,7 @@ $page_info = json_decode($page_info, true);
     'theme-burgundy image-is-first',
     '',
     [
-      'img_alt_text' => 'Front of Main Building at Vassar College',
+      'img_alt_text' => 'The front of Main Building on the Vassar campus, a large red brick building. In front of the building lies a circular garden area adorned with various types of colorful flowers.',
       'title_level' => '3'
     ]
 
@@ -91,7 +91,7 @@ $page_info = json_decode($page_info, true);
     'theme-cream',
     '',
     [
-      'img_alt_text' => 'Volleyball player celebrating',
+      'img_alt_text' => 'A person with short dark hair in a white sports jersey excitedly has their hands in the air. ',
       'title_level' => '3'
     ]
 
@@ -116,7 +116,7 @@ $page_info = json_decode($page_info, true);
     'theme-charcoal has-bg quad-pattern image-is-first',
     '',
     [
-      'img_alt_text' => 'Speaker in front of a microphone gesticulating',
+      'img_alt_text' => 'A person who is bald wearing a formal blue jacket and white collared shirt stands in front of a microphone speaking and gesticulating.',
       'title_level' => '3'
     ]
 ); ?>
@@ -138,7 +138,7 @@ $page_info = json_decode($page_info, true);
     'theme-cream',
     '',
     [
-      'img_alt_text' => 'Exterior View of the The Bridge for Laboratory Sciences building on Vassar Campus',
+      'img_alt_text' => 'The Bridge for Laboratory Sciences, a large long building with huge windows standing elevated on angled pillars over greenery on the Vassar campus.',
       'title_level' => '3'
     ]
 ); ?>
@@ -161,7 +161,7 @@ $page_info = json_decode($page_info, true);
     'theme-dark-burgundy image-is-first',
     '',
     [
-      'img_alt_text' => 'Plaque in front of the Shakespear Garden on Vassar Campus',
+      'img_alt_text' => 'A plaque in front of the Class of 1969 Shakespeare Garden, a garden of different trees, flowers, and bushes laid out in multiple tiers on the Vassar campus, noting that the renovation of the garden was made possible by donations of the Class of 1969 on their 50th Reunion.',
       'title_level' => '3'
     ]
 ); ?>

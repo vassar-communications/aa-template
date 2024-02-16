@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/alum-groups/0127_12_12_YEM_2474.jpg',
     'theme-cream image-is-first',
     '',
-    ['img_alt_text' => 'Two people talking.']
+    ['img_alt_text' => 'Two people stand with their arms around one another, talking, one with short light brown hair wearing a grey formal jacket and the other with short dark hair and a bright pink jacket.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Alums have been entrepreneurial community builders since the Alumnae/i Association (AAVC) was founded in 1871.</p>
@@ -100,7 +100,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/alum-groups/52960663255_044d75e46c_o.jpg',
     '',
     '',
-    ['img_alt_text' => 'Group of three women smiling at the camera.']
+    ['img_alt_text' => 'A group of three people in casual attire, standing side by side, smile at the viewer.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Multicultural and affinity groups strengthen alum communities that center around shared experiences, activities, and identities. These communities include athletic teams, singing groups, LGBTQ+, ALANA orgs, veterans, and First-Gen alums.</p>

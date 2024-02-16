@@ -68,7 +68,7 @@ b {
     '/alums/assets/img/alums-give/0002-18-01-kr-scc-estrella-vassar-0048.jpg',
     null,
     null,
-    ['img_alt_text' => 'speaker in front of the audience with their hands raised and smiling']
+    ['img_alt_text' => 'A person with long light brown hair wearing a green sweater and blue pants stands in front of a seated audience in a large room with their hands raised, smiling at the viewer.']
 );
 ?>
 
@@ -79,7 +79,7 @@ b {
     'theme-darkcoal bg-dark py-5 text-white ',
     'animate-when-content-appears animation-fade-in text-center',
     ['bg-image-url' => '/alums/assets/img/alums-give/Vassar_Campus_6_26_17_0078.jpg',
-        'bg-image-alt' => 'replacealttxt']
+        'bg-image-alt' => 'The Bridge for Laboratory Sciences, a large long building with huge windows standing elevated on angled pillars over greenery on the Vassar campus.']
 
 ); ?>
 <p class="pt-5"><span class="text-white intro-line">Make a Gift</span></p>
@@ -162,7 +162,7 @@ b {
     '/alums/assets/img/alums-give/Vassar Project-11.jpg',
     'theme-cream section-large-title',
     'mw-100',
-    ['img_alt_text' => 'Volunteer in a Vassar Jersey planting flowers']
+    ['img_alt_text' => 'A person in a Vassar jersey and baseball cap, sits on the ground with gloves on, planting flowers.']
 ); ?>
 
 <div class="animate-when-content-appears animation-slide-up">
@@ -201,7 +201,7 @@ b {
     '/alums/assets/img/alums-give/0006-19-01-kr-scc-reception-vassar-0956_crop.jpg',
     'theme-cream section-large-title',
     'mw-100',
-    ['img_alt_text' => 'Person with a nametag that reads, Mario, addressing a group']
+    ['img_alt_text' => 'A person with short dark hair in a blue formal jacket and a nametag that reads Mario, talks to a group of young people in a room.']
 ); ?>
 
 

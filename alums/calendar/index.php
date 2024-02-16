@@ -58,7 +58,7 @@ Make sure functions convert straight quotes to curly
   ',
   null,
   null,
-  ['img_alt_text' => 'Two smiling Alums standing arm in arm at a reunion event']
+  ['img_alt_text' => 'A group of people standing arm in arm at an event smile at the viewer.']
 );
 ?>
 
@@ -214,7 +214,7 @@ June 6–8, 2025</p>
   'https://www.vassar.edu/sites/default/files/2021-06/20-reunion-1906-bl-vassar-4706-cropped.jpg',
   '',
   '',
-  ['img_alt_text' => 'Fireworks in the night sky']
+  ['img_alt_text' => 'Fireworks in the night sky explode next to a lake, surrounded by greenery.']
 ); ?>
 
 <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) can’t wait to welcome you and your classmates back to campus.</p>

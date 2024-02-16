@@ -28,7 +28,7 @@ $page_info = json_decode($page_info, true);
 <?php echo page_partialmasthead(
   $page_info['feature_image'],
   [
-    'image_alt_text' => 'Professor addressing a class',
+    'image_alt_text' => 'A person with short dark hair and a formal jacket speaks to a seated group of people in a classroom from behind a podium.',
     'css' => '--bg-shim-background: rgba(0,0,0,0)'
   ]); ?>
 
@@ -65,7 +65,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-give/mentor/0002-20-01-kr-scc-networking-vassar-0041.jpg',
     '',
     '',
-    ['img_alt_text' => 'Three people speaking at a networking event']
+    ['img_alt_text' => 'Four people, standing in a circle, speaking and gesturing to each other.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>An award-winning, three-day, on-campus program designed to introduce second-year students to the vast array of career options available to liberal arts graduates. The program features industry-based alums panels, identity at work conversations, networking opportunities, and more. 100+ alums and parent mentors return to campus every year for this event. </p>
@@ -82,7 +82,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-give/mentor/0009-18-01-cs-scc-vassar-062.jpg',
     'image-is-first theme-burgundy',
     '',
-    ['img_alt_text' => 'two panelists sitting behind a table, one speaking']
+    ['img_alt_text' => 'Two people sit at a table, one wearing a blue blazer and jeans, the other wearing a tie and beige suit jacket, both wearing name tags, while one of them speaks to someone outside of view.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>The Center for Career Education regularly organizes panels that feature a variety of industries, majors, and more, often in collaboration with student organizations and academic departments.</p>
@@ -98,7 +98,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-give/mentor/CDO_IBM_Design_Night_feat_Diego Encarnacion_4892.jpg',
     '',
     '',
-    ['img_alt_text' => 'People in discussion at a table for a Vassar Design Night']
+    ['img_alt_text' => 'A group of young people are seated around a table, talking, with a projection behind them that reads Vassar Design Night.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Want to share your experience navigating the workplace based on your identity (race, class, gender, sexual orientation, international student status, religion, etc.)? The Center for Career Education regularly hosts meetups designed to connect students to alums and parents around a shared identity so that they can engage in meaningful conversations about the intersection of identity and career.</p>
@@ -115,7 +115,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-give/mentor/be-mentor-52632362530_a164f2a771_o.jpg',
     'image-is-first theme-burgundy',
     '',
-    ['img_alt_text' => 'Two people seated at a round table with papers on it, talking to one another, in a room with another table of people behind them']
+    ['img_alt_text' => 'Two people seated at a round table with papers on it, talking to one another, in a room with another table of people behind them.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>For students, there is often no better inspiration for life after Vassar than to hear the stories of those who have paved the way. Consider hosting a Career Chat, either virtually or on-campus. It’s a great opportunity to discuss your path and educate students about a career field, or share whatever advice or expertise you’d like to impart. </p>
@@ -131,7 +131,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-give/mentor/0001-18-01-kr-scc-nixon-vassar-0021.jpg',
     '',
     '',
-    ['img_alt_text' => 'Speaker with a microphone at a talk']
+    ['img_alt_text' => 'A person with short dark hair wearing a black jacket and a microphone, gesturing and speaking to a group.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Do you have a skill or content-area specialty that you would like to share? Past workshops led by alums have included sessions on design thinking, tech and case interview preparation, budgeting, professional communication, and more.</p>
@@ -148,7 +148,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-give/mentor/Fall_2019_Analysis_Group_Employer_Info_Session-crop.jpg',
     'image-is-first theme-burgundy',
     '',
-    ['img_alt_text' => 'students behind their desks in a classroom']
+    ['img_alt_text' => 'A group of people seated behind desks in a classroom facing a standing group of three people speaking.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Does your organization hire interns or entry-level opportunities? Consider hosting an employer information session, either virtually or on-campus, to connect current students with your employer. We can also work with you to coordinate on-campus or virtual interviews.</p>
@@ -169,7 +169,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-give/mentor/2019_Career_Trek_to_Spotify-crop.jpg',
     '',
     '',
-    ['img_alt_text' => 'Seated students watching a video screen']
+    ['img_alt_text' => 'A group of students sit on cushioned chairs facing a video screen and a person in a black shirt and blue jeans seated in a chair.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Are you open to hosting a group of students at your workplace? The Center for Career Education hosts both individual employer site visits and industry-based career treks, bringing small groups of students to employers to experience a road trip to the real world. Past treks have featured financial services, technology, publishing, and more.</p>
