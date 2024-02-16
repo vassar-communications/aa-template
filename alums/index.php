@@ -72,7 +72,7 @@ $page_info = json_decode($page_info, true);
     'sec-fixedCenteredTitle theme-burgundy make-a-difference section-title-text-shadow',
     'mw-4',
     ['bg-image-url' => '/alums/assets/img/alums-give/0153-19-11-kr-major-palooza-vassar-6031.jpg',
-        'bg-image-alt' => 'Seated person in front of a painting addressing a standing group',
+        'bg-image-alt' => 'Seated person in front of a painting addressing a standing group.',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
@@ -102,7 +102,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Volunteer',
         '/alums/give/volunteer/',
-        ['url' => '/alums/assets/img/alums-home/VC-Atlanta_Becca-Marco-05_Jada-Graves-14_Juan-Acosta-02-(1).jpg', 'alt' => 'Vassar people standing beside a sign that reads, Serve Your Neighbor' ],
+        ['url' => '/alums/assets/img/alums-home/VC-Atlanta_Becca-Marco-05_Jada-Graves-14_Juan-Acosta-02-(1).jpg', 'alt' => 'People wearing and holding Vassar merchandise standing beside a sign that reads, Serve Your Neighbor.' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link mb-below-md-3'
     ); ?>
     <p>An incredible way to enrich your life and the lives of others in countless ways.</p>
@@ -114,7 +114,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_cardWithText(
         'Be a Mentor',
         '/alums/give/be-a-mentor/',
-        ['url' => '/alums/assets/img/alums-home/0006-19-01-kr-scc-reception-vassar-0977.jpg', 'alt' => 'two people speaking at a networking event' ],
+        ['url' => '/alums/assets/img/alums-home/0006-19-01-kr-scc-reception-vassar-0977.jpg', 'alt' => 'One person with their curly hair up wearing a blue blazer and grey turtle neck stands next to a person who has curly hair and glasses as they talk at an event.' ],
         'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link mb-below-md-3'
     ); ?>
     <p>An extraordinary opportunity to develop positive relationships with students and help them navigate their future.</p>
@@ -154,7 +154,7 @@ echo sec_fixedCenteredTitle(
     'mw-4',
     [
         'bg-image-url' => '/alums/assets/img/alums-home/0227-17-04-ym-dc-johnson-brunch-vassar-0644.jpg',
-        'bg-image-alt' => 'Group of people taking a selfie at a Vassar event',
+        'bg-image-alt' => 'Group of people stand next to each other smiling, taking a selfie at a crowded event.',
         'css' => '
       --section-title-size: 10vw;
       /* --section-title-faded-opacity: 0.2; */
@@ -196,7 +196,7 @@ echo sec_fixedCenteredTitle(
     'sec-fixedCenteredTitle theme-charcoal alums-spotlight',
     'mw-4',
     ['bg-image-url' => '/alums/assets/img/alums-home/0037-19-02-kr-ifill-sherrilyn-vassar-7892.jpg',
-        'bg-image-alt' => 'Sherrilyn Ifill speaking to an audience at a Vassar event',
+        'bg-image-alt' => 'A person with long dark hair, yellow jacket, and a black shirt, Sherrilyn Ifill, stands behind a podium, speaking to a seated audience at a Vassar event.',
         'css' => '
       --section-title-size: 10vw;
       /* --section-title-faded-opacity: 0.2; */
@@ -222,7 +222,7 @@ echo sec_fixedCenteredTitle(
     'sec-fixedCenteredTitle theme-burgundy',
     'animation-fade-in animate-when-content-appears mw-4',
     ['bg-image-url' => '/alums/assets/img/alums-home/0069-19-05-kr-spring-vassar-4662.jpg',
-        'bg-image-alt' => 'Aerial view of the Vassar residential quad',
+        'bg-image-alt' => 'Aerial view of the Vassar campus residential quad featuring traditional red brick buildings with white trimmings,  lush green lawns, and concrete paths crisscrossing the lawns, leading to various buildings.',
         'css' => '
       --section-title-size: 10vw;
       /* --section-title-faded-opacity: 0.2; */

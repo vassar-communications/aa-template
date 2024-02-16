@@ -31,7 +31,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Large group of people attending an event in the Vassar Chapel']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'A large group of people seated inside a spacious church. Each person is holding a lit candle. The church’s gothic architecture is highlighted by the candlelight, revealing arched ceilings, wooden beams, and intricate designs.']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -44,7 +44,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-calendar/college-events/0026-20-02-kr-bourgeois-fllac-vassar-9731.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Two people looking at artwork on a wall']
+    ['img_alt_text' => 'Two people, dressed in casual attire, are standing close to a wall, examining artwork consisting of multiple square frames, each containing different artistic patterns or designs, including abstract patterns, and varied color schemes.']
 ); ?>
 <p>View events and activities happening on the Vassar campus.</p>
 

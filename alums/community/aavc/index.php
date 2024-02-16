@@ -25,7 +25,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Aerial view of Vassar College campus ']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'An aerial view of the top of Jewett building on the Vassar campus, a large multi-story red brick building with many windows, surrounded by greenery, with the rooftops of other buildings in front of it.']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-community/aavc/Vassar_Reunion_19 BL_4788.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'AAVC members holding an AAVC banner']
+    ['img_alt_text' => 'A group of people holding a large grey banner with the letters AAVC on it are smiling at the viewer.']
 ); ?>
 <p>Since its founding in 1871, the AAVC has been dedicated to connecting alums to the College
     and to each other, sustaining lifelong relationships and shared Vassar experiences.</p>
@@ -61,7 +61,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'AAVC Board of Directors',
     '/alums/community/aavc/board-members/',
-    ['url' => '/alums/assets/img/alums-community/aavc/aavc.png', 'alt' => 'Alumnae/i Association of Vassar College wordmark' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/aavc.png', 'alt' => 'Black rectangle with white lettering that spells out AAVC.' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>A group of dedicated volunteers that serves the College and more than <?php echo $facts['number_of_alums']; ?> alums at the highest level.</p>
@@ -72,7 +72,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Awards Program',
     '/alums/community/aavc/awards-program/',
-    ['url' => '/alums/assets/img/alums-community/aavc/0114_18_09_KR_3944.jpg', 'alt' => 'An alums awardee holding an award flanked by two AAVC Board members' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/0114_18_09_KR_3944.jpg', 'alt' => 'Three people stand next to each other. On the left is a person in a blue outfit with light hair, in the middle is a person with mid length dark hair in a blue shirt and on the right is a person with short white hair in a blue suit. The person in the middle is holding an award while all three people smile at the viewer.' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>Recognizing alums who have made significant contributions to the vitality and success of the College and AAVC.</p>
@@ -83,7 +83,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Bylaws',
     '/alums/assets/pdf/Alumnae_i_Association_of_Vassar_-_Bylaws.pdf',
-    ['url' => '/alums/assets/img/alums-community/aavc/0038-22-06-cs-reunion-vassar-084.jpg', 'alt' => 'Exterior view of the front of a residential hall on Vassar Campus' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/0038-22-06-cs-reunion-vassar-084.jpg', 'alt' => 'A multi-storied red brick building with a light slate roof and a round cupola, viewed through the green leaves of some trees.' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link download'
 ); ?>
 <p>Read the Alumnae/i Association of Vassar College Bylaws (PDF)</p>

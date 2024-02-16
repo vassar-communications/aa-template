@@ -22,7 +22,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 <?php echo carousel_item(
     $media_carousel_path.'/2024-01-11/in-the-media/Frances_Sternhagen_Reunion_parade_11_CS.jpg',
     'is-link',
-    'A photo of a person with long gray hair, glasses, and a light blue scarf sitting on the back of a golf cart, smiling at the viewer.'
+    'A photo of a person with short gray hair, glasses, and a light blue scarf sitting on the back of a golf cart, smiling at the viewer.'
   ); ?>
 
   <p>Tony Award-winning actor <strong>Frances Sternhagen ’51</strong> was remembered by the <em>New York Times</em>.</p>

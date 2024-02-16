@@ -37,14 +37,11 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-calendar/travel-program/Group-photo-Camon-France-wide.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'A group of people, one holding a Vassar College banner, standing and smiling at the viewer with a sunny green countryside behind them in Camon, France.']
+    ['img_alt_text' => 'A group of people, one holding a Vassar College banner, standing and smiling at the viewer with a sunny green countryside and cloudy skies behind them.']
 ); ?>
-<p>We are building our trips for 2024! As we are planning our future trips for both 2024 and 2025, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Special Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
+<p>As we are planning our future trips for both 2024 and 2025, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Special Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
 
-<p>The schedule so far:</p>
-
-<p><strong><a href="#trip1">A Restorative Retreat to Iceland</a></strong></br>
-February 8–12, 2024</p>
+<p>Upcoming trips at a glance:</p>
 
 <p><strong><a href="#trip2">Cuba: Art, Culture & History</a></strong></br>
 May 5–11, 2024</p>
@@ -78,32 +75,6 @@ October 9–21, 2024</p>
 
 
 <?php echo end_sec_regularContent();?>
-
-<div id="trip1"></div>
-<?php echo sec_fullBleedImageColumn(
-    null,
-    $alums_img_path.'alums-calendar/travel-program/Iceland-2024.jpg',
-    'theme-cream',
-    '',
-    ['img_alt_text' => 'A waterfall at night with the Northern lights in the sky overhead.']
-); ?>
-
-<p class="intro-text">A Restorative Retreat to Iceland</p>
-
-<p><strong>February 8–12, 2024<strong></p>
-
-<p><strong>Faculty Host: Michele Tugade ’95, Professor of Psychological Science on the William R. Kennan, Jr. Endowed Chair</strong></p>
-
-<p>Our weekend getaway (Thursday night to Monday night) offers an opportunity to travel with fellow alums to explore this rugged and breathtaking country. Iceland is also a place to relax, recharge, and explore nature. With Michele Tugade ’95 as your host, you will also explore the benefits of awakening your senses to nature and its power to elicit positive emotions. It promises to be a very special journey.</p>
-
-<?php echo cta_link(
-    'https://www.discovereuropeltd.com/vassar-travel/240208vig',
-    'See the full Iceland itinerary and reserve your place.'
-
-); ?>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
 
 
 <div id="trip2"></div>

@@ -25,7 +25,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Queer Liberation March']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'The front of Main Building on the Vassar campus, a large red brick building. In front of the building lies a circular garden area adorned with various types of colorful flowers.']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-community/aavc/0124-19-10-kr-spirit-award-vassar-0814.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Group of people at The Alumnae/i Association of Vassar College (AAVC) Awards presentation applauding Professor Robert Brigham.']
+    ['img_alt_text' => 'A group of people stand in a wood-paneled dining room applauding Professor Robert Brigham, a person with a bald head and a full white beard and mustache, wearing a suit.']
 ); ?>
 <p class="intro-text">The Alumnae/i Association of Vassar College (AAVC) Awards Program was inaugurated in 2001 to recognize alums who have made significant contributions to the vitality and success of the College and AAVC.</p>
 

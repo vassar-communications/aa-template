@@ -34,7 +34,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-resources/alums-benefits/reunion-1906-kr-vassar-3139.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'People seated on the lawn in front of Thompson Library on Vassar campus']
+    ['img_alt_text' => 'People seated on the lawn in front of Thompson Library, a large, stone building with stained-glass windows and classical architecture, on the Vassar campus.']
 ); ?>
 <p class="intro-text">Vassar offers a wide array of benefits to the more than 41,000 alums across the globe.</p>
 
@@ -57,7 +57,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Vassar Alum ID Card',
     'https://offices.vassar.edu/card/alums-id-card-request/',
-    ['url' => $alums_img_path.'alums-resources/alums-benefits/0138-15-11-kr-vcdf-vassar-0090.jpg', 'alt' => 'exterior of the Vogelstein center for drama and film' ],
+    ['url' => $alums_img_path.'alums-resources/alums-benefits/0138-15-11-kr-vcdf-vassar-0090.jpg', 'alt' => 'A nighttime view of the glass-walled entrance to a large stone and brick building, with the name of the building above the entrance, the Vogelstein Center for Drama and Film.' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 
@@ -70,7 +70,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Vassar Email Address',
     'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=429',
-    ['url' => $alums_img_path.'alums-resources/alums-benefits/adlov-taylor-vq-vassar-0911-lrr-8293.jpg', 'alt' => 'Gate on Vassar Campus' ],
+    ['url' => $alums_img_path.'alums-resources/alums-benefits/adlov-taylor-vq-vassar-0911-lrr-8293.jpg', 'alt' => 'Interior view of a tall black metal gate inside an archway with a view of a brown-leaved tree beyond.' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 
@@ -88,7 +88,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Library',
     'https://library.vassar.edu/',
-    ['url' => $alums_img_path.'alums-resources/alums-benefits/0069-19-05-kr-spring-vassar-4173.jpg', 'alt' => 'Tulips in front of Thompson Library on Vassar campus' ],
+    ['url' => $alums_img_path.'alums-resources/alums-benefits/0069-19-05-kr-spring-vassar-4173.jpg', 'alt' => 'Tulips in red, white and yellow in front of Thompson Library on the Vassar campus, a large, stone building with stained-glass windows and classical architecture.' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 
@@ -102,7 +102,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Fitness Center',
     'https://www.vassarathletics.com/facilities/athletics-and-fitness-center/5',
-    ['url' => $alums_img_path.'alums-resources/alums-benefits/AFCtrack6.jpg', 'alt' => 'Running track inside the Athletics and Fitness Center at Vassar College' ],
+    ['url' => $alums_img_path.'alums-resources/alums-benefits/AFCtrack6.jpg', 'alt' => 'A running track inside the Athletics and Fitness Center at Vassar College, a long brown lane divided into multiple sections with large windows all the way around.' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 
@@ -115,7 +115,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'VassarNet',
     'https://vassarnet.vassar.edu/',
-    ['url' => $alums_img_path.'alums-resources/alums-benefits/0039-22-06-cs-reunion-vassar-347.jpg', 'alt' => 'Two board members walking and smiling on Vassar Campus' ],
+    ['url' => $alums_img_path.'alums-resources/alums-benefits/0039-22-06-cs-reunion-vassar-347.jpg', 'alt' => 'Two people walk next to each other, one person is wearing a wide hat and a blue shirt and the other is wearing a baseball cap and a white shirt, smiling at the viewer.' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>Alums, students, parents, faculty, and friends of Vassar can join to build their network and find Vassar-connected career networking opportunities.</p>
@@ -129,7 +129,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Grants & Fellowships',
     '/alums/resources/grants-fellowships',
-    ['url' =>  $alums_img_path.'alums-resources/alums-benefits/Jonathan_Kaiman.jpg', 'alt' => 'Two people seated with stringed instruments' ],
+    ['url' =>  $alums_img_path.'alums-resources/alums-benefits/Jonathan_Kaiman.jpg', 'alt' => 'Two people of different ages sit holding unusual stringed instruments looking at each other.' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>Alums are eligible to apply for a variety of grants and fellowships.</p>

@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Give Back',
     '/alums/give/',
-    ['url' => '/alums/assets/img/alums-give/0153-19-11-kr-major-palooza-vassar-6031.jpg', 'alt' => 'Seated speaker addressing a standing group in front of a painting in the Loeb Art Center' ],
+    ['url' => '/alums/assets/img/alums-give/0153-19-11-kr-major-palooza-vassar-6031.jpg', 'alt' => 'Seated person in front of a painting addressing a standing group.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

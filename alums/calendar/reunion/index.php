@@ -25,7 +25,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo page_partialmasthead(
   $page_info['feature_image'],
-  ['image_alt_text' => 'Fireworks in the night sky']
+  ['image_alt_text' => 'The Main Gate entrance to Vassar College, a large brick building with a tower over an archway wide enough for a vehicle, surrounded by greenery, in the late afternoon sunlight.']
 ); ?>
 
 <?php echo interior_page_nav() ?>
@@ -38,7 +38,7 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-calendar/reunion/Reunion-52960367243_97df9164f3_k.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'a large group of people walking along a campus road, with some banners displaying class years']
+    ['img_alt_text' => 'A large group of people walking along a campus road, with some banners displaying class years.']
 ); ?>
 
   <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 4s and 9s on campus for Reunion, May 31–June 2, 2024 (the 50th Reunion class arrives on May 30). Please help us prepare for your arrival by expressing your interest to attend below.</p>
@@ -87,7 +87,7 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-calendar/reunion/Reunion-General-52960456425_6f999747a0_k.jpg',
     'theme-burgundy',
     '',
-    ['img_alt_text' => 'a large group of people sitting at round tables under a huge tent on Noyes Circle at Vassar College']
+    ['img_alt_text' => 'A large group of people sitting at round tables, coversing with one and other, under a huge white tent.']
 ); ?>
 <?php echo cta_link(
     '/alums/calendar/reunion/schedule/',
@@ -100,7 +100,7 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-calendar/reunion/Reunion-50th-1974-48139007901_53fb3fba6b_k.jpg',
     'image-is-first',
     '',
-    ['img_alt_text' => 'People walking in a group, with some people holding a banner reading The Legendary Class of 1974']
+    ['img_alt_text' => 'People walking in a group, with some people holding a banner reading The Legendary Class of 1974 Vassar College.']
 ); ?>
 
 <p>Enjoy the campus a day early with programming designed especially for the 50th Reunion class. Check-in will open on Thursday, May 30 at 4:00 p.m.</p>
@@ -117,7 +117,7 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-calendar/reunion/52129387193_a6f8dcfc89_k.jpg',
     '',
     '',
-    ['img_alt_text' => 'A person wearing a mask speaks in front of a projector screen at the front of a sunlit classroom with a hardwood floor. The classroom is filled with visiting alums.']
+    ['img_alt_text' => 'A person wearing a mask, a purple shirt and brown pants, speaks in front of a projector screen at the front of a sunlit classroom with a hardwood floor. The classroom is filled with people of various ages sitting at individual desks.']
 ); ?>
 
 <p>Explore this year’s lifelong learning opportunities through college-sponsored lectures and tours at Reunion!</p>
