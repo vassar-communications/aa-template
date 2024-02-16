@@ -23,7 +23,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Front Exterior of Alumnae House']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'The front exterior of Alumnae House on the Vassar campus, a large beige building with a red roof and many windows across the entire building.']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -52,7 +52,7 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-resources/alumnae-house/Alumnae_House_06_CB_08.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Common area inside Alumnae House']
+    ['img_alt_text' => 'A common area inside Alumnae House on the Vassar campus, a wide space with a patterned wooden ceiling, various seating spaces, and a large painting hanging on the far wall of the room.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 
@@ -90,7 +90,7 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-resources/alumnae-house/0168_16_04_TT_9843.jpg',
     'image-is-first theme-dark-burgundy has-bg quad-pattern',
     '',
-    ['img_alt_text' => 'Exterior Front of the Alumnae House in the snow']
+    ['img_alt_text' => 'The front exterior of Alumnae House on the Vassar campus, a large beige building with a red roof and many windows across the entire building, covered in snow.']
 ); ?>
 <p>Accommodations are available for your next visit.</p>
 
@@ -106,7 +106,7 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-resources/alumnae-house/events/Reunion_1806_CS_057.jpg',
     '',
     '',
-    ['img_alt_text' => 'Gathering of people in the Alumnae House courtyard']
+    ['img_alt_text' => 'A large number of people standing on a flagstone patio surrounding a green courtyard and the walls of a large beige building with a red roof and brown framing.']
 ); ?>
 <p>As the quintessential meeting place for Vassar College alums throughout the last century, Alumnae House is open to the public for catered events.</p>
 

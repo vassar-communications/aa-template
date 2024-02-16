@@ -23,7 +23,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Detail of Thompson Library on Vassar Campus']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'A detailed view of the top of the central tower of Thompson Library on Vassar Campus, a large, stone building with stained-glass windows and classical architecture.']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -35,7 +35,7 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-resources/college-search/0036-22-06-kr-reunion-vassar-0040.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Two people walking in front of Rockefeller Library on Vassar Campus']
+    ['img_alt_text' => 'Two people walking in front of Rockefeller Hall, a large red brick building with many windows on the Vassar campus.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 

@@ -23,7 +23,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation_alums(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Two people embrace at a crowded event']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Two people, one with short white hair wearing a blue shirt and the other with short dark hair, wearing a dark shirt embrace each other at a crowded event.']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -32,7 +32,7 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-resources/vassar-network/0039-22-06-cs-reunion-vassar-403.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Reunion attendee in a procession raising hand in the air and smiling']
+    ['img_alt_text' => 'A group of people in a procession wearing white clothing and multicolored scarves raise their hands in the air and smile at the viewer.']
 ); ?>
 <p>Whether you’re looking to reconnect with old friends, network with others in your field, seek or post job and internship opportunities, or benefit from the guidance and advice of others, the Vassar family is here for you. Stay connected using the tools below.</p>
 
@@ -44,7 +44,7 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-resources/vassar-network/0036-22-06-kr-reunion-vassar-0120.jpg',
     'theme-dark-burgundy has-bg quad-pattern',
     '',
-    ['img_alt_text' => 'Two people and a networking event listening to someone off screen']
+    ['img_alt_text' => 'Two people, one person with long blond hair wearing a beige shirt and the other with very short dark hair and a light colored button down shirt, listening to someone speak off screen.']
 ); ?>
 
 <p>Sign up for <a href="https://vassarnet.vassar.edu/">VassarNet</a>, our online platform for professional networking and connections. Take a few minutes to complete your VassarNet profile and tap into the power of the Vassar network.</p>

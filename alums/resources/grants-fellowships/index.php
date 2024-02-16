@@ -46,7 +46,7 @@ $page_info = json_decode($page_info, true);
    $alums_img_path.'alums-resources/grants-fellowships/J_Kramer_162_HR.jpg',
     'theme-dark-burgundy has-bg quad-pattern',
     '',
-    ['img_alt_text' => 'Adult with a flute watching a child play a flute']
+    ['img_alt_text' => 'A person, with short dark hair wearing a yellow sweater holding an instrument, faces a child with short dark hair wearing a bright orange shirt playing the flute.']
 ); ?>
 <p>Over 30 years ago, a generous anonymous alum established the Time Out Grant to provide fellow alums the opportunity to change the trajectory of their lives. The Time Out Grant funds endeavors that are bold, innovative, and impactful. Through the decades, Vassar graduates have used this grant as a catalyst to step out of their comfort zone and create groundbreaking change. The application process is now open until February 15, 2024.</p>
 
@@ -82,7 +82,7 @@ $page_info = json_decode($page_info, true);
     $alums_img_path.'alums-resources/alums-benefits/Jonathan_Kaiman.jpg',
     'theme-dark-burgundy has-bg quad-pattern',
     '',
-    ['img_alt_text' => 'Two seated people playing stringed instruments.']
+    ['img_alt_text' => 'Two people of different ages sit holding unusual stringed instruments looking at each other.']
 ); ?>
 <p>Vassar also supports alums who wish to apply to a variety of nationally competitive fellowships that require institutional endorsement or a campus process, including the following:</p>
 <ul>
@@ -107,7 +107,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-resources/grants-fellowships/Harry-Potter-Bridge.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Student abroad standing in front of an aqueduct.']
+    ['img_alt_text' => 'A person with dark hair wearing a blue jacket and dark pants is standing in front of an aqueduct surrounded by greenery.']
 ); ?>
 <h6 class="tagline">For Study Abroad After Graduation</h6>
 <p>Intended for recent graduates wishing to pursue their interest in the humanities abroad, this fellowship awards up to $25,000 to graduates with a well-developed proposal of study with a clear academic focus. Evidence of sufficient language skills and academic preparation to successfully undertake the proposed study must be presented as well as a clear articulation of how the Fellowship will further one’s future objectives.</p>

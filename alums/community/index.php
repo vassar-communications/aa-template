@@ -59,7 +59,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/Vassar_11.19.17_Woodmere_Phila-151-edits.jpg',
     null,
     null,
-    ['img_alt_text' => 'Two Alums community members talking']
+    ['img_alt_text' => 'A person in a black shirt and black pants stands next to a person in a grey sweater and black pants as they converse in front a large painting.']
 );
 ?>
 
@@ -73,7 +73,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/Vassar_Reunion_19 BL_4788.jpg',
     'theme-burgundy',
     '',
-    ['img_alt_text' => 'Image of AAVC members holding an AAVC banner.']
+    ['img_alt_text' => 'A group of people holding a large grey banner with the letters AAVC on it are smiling at the viewer.']
 ); ?>
   <div class="animate-when-content-appears animation-slide-up">
       <p>A dynamic global network of 41,000+ members!</p>
@@ -90,7 +90,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/blum-square.jpg',
     'theme-extralightgray quad-pattern has-bg image-is-first',
     '',
-    ['img_alt_text' => 'Vassar Alums Jason Blum speaking into a microphone']
+    ['img_alt_text' => 'Vassar alum Jason Blum, a person with short thick brown hair and a grey shirt, speaking into a microphone looking off to one side of the viewer.']
 ); ?>
   <div class="animate-when-content-appears animation-slide-up">
       <p>Read about the latest achievements from Vassar alums.
@@ -109,7 +109,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/alum-groups/0127_12_12_YEM_2467.jpg',
     'theme-cream',
     '',
-    ['img_alt_text' => 'Three Alum community members talking']
+    ['img_alt_text' => ' Three people stand in a circle speaking to each other, wearing formal attire.']
 ); ?>
   <div class="animate-when-content-appears animation-slide-up">
       <p>Explore Vassar&#8217;s extensive network of groups and clubs.</p>
@@ -128,7 +128,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/vq-logo.gif',
     'theme-cream image-is-first',
     '',
-    ['img_alt_text' => 'VQ logo']
+    ['img_alt_text' => 'A red square with white lettering that spells out VQ.']
 ); ?>
   <div class="animate-when-content-appears animation-slide-up">
       <?php echo cta_link(

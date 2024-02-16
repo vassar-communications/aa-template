@@ -1,7 +1,7 @@
 <?php echo item_cardWithText(
     'Alum Benefits',
     '/alums/resources/alum-benefits/',
-    ['url' => '/alums/assets/img/alums-resources/110619_160over90_Vassar_7814.jpg', 'alt' => 'People in the Loeb Gallery looking at art.' ],
+    ['url' => '/alums/assets/img/alums-resources/110619_160over90_Vassar_7814.jpg', 'alt' => 'People in an art gallery are looking at a black statue and conversing with one another.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 

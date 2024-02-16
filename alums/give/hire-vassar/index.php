@@ -25,7 +25,7 @@ $page_info = json_decode($page_info, true);
 <?php echo hamburger_navigation_alums(); ?>
 
 
-<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Fall foliage and a bench on Vassar Campus']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'A large tree with orange leaves above a walkway with a bench next to it on the Vassar Campus.']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -37,7 +37,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-give/hire/0006-19-01-kr-scc-career-clusters-vassar-0522.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Mentor named Seiji speaking to a room of people']
+    ['img_alt_text' => 'A person with short dark hair, glasses, and a purple button-down shirt, wearing a name tag that says Seiji, sits in a chair in a classroom talking.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <h1 class="display-3 mb-4">Add Vassar Talent to Your Team</h1>
@@ -52,7 +52,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-give/hire/hire-vassar-52632404398_32dd113963_o.jpg',
     'theme-cream',
     '',
-    ['img_alt_text' => 'Four people standing in a room in casual clothing with their arms around one another smiling at the camera']
+    ['img_alt_text' => 'Four people standing in a room in casual clothing with their arms around one another smile at the viewer.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <h1 class="display-3 mb-4">Post a Job on VassarNet</h1>

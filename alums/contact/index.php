@@ -32,7 +32,7 @@ $page_info = json_decode($page_info, true);
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => $page_info['feature_image'],
-        'bg-image-alt' => 'Rockefeller Hall on Vassar Campus',
+        'bg-image-alt' => 'Rockefeller Hall, a large brick building on Vassar’s campus, with several large windows surrounded by various trees on a clear day.',
         'css' => '
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
@@ -365,11 +365,11 @@ echo end_contact_card();
 <?php
 
 echo contact_card(
-    'TBD',
-    'Manager of Gifts and Records',
+    'Melanie Beczak',
+    'Assistant Director of Gift Processing',
     [
       'phone' => '',
-      'email' => '',
+      'email' => 'mbeczak@vassar.edu',
     ]
 );
 echo end_contact_card();

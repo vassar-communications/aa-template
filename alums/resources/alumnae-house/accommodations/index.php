@@ -34,7 +34,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-resources/alumnae-house/0027_14_03_TT_1436.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Common Space inside Alumnae House']
+    ['img_alt_text' => 'A medium-sized room with dark brown walls, a bright purple patterned rug and different chairs and couches arranged around a coffee table.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Accommodations are available for your next campus visit.</p>
