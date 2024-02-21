@@ -145,7 +145,7 @@ $page_info = json_decode($page_info, true);
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
-    '12:00 p.m.',
+    '1:00 p.m.',
     'Reflections on Coeducation at Vassar',
     'Alumnae House Living Room',
   ); ?>
@@ -381,6 +381,15 @@ $page_info = json_decode($page_info, true);
     'Hildegard Krause Baker, class of 1911, Sculpture Garden'
   ); ?>
     <p>Enjoy afternoon iced tea and refreshments.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '2:00–4:00 p.m.',
+    'Open House at the A. Scott Warthin Jr. Museum',
+    'A. Scott Warthin Jr. Museum (next to the Aula)'
+  ); ?>
+    <p>The A. Scott Warthin Jr. Museum is one of Vassar’s many hidden gems! Housed in Ely Hall, the museum has over a dozen active display cases with exhibits curated by Vassar students and faculty alike, in addition to an artistic Geologic Timeline, lots of wall art, a working geyser model, and all the fun facts you could want. Come by to get a personal tour of the museum from our Assistant Museum Curator, a current Vassar geology student, Harrison Walker!</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
