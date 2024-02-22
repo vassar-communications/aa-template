@@ -20,7 +20,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2024-02-22/in-the-media/christmas_4x3.jpg',
+    $media_carousel_path.'/2024-02-22/in-the-media/carlstrom_4x3.jpg',
     'is-link',
     'A photo of a person with no hair, glasses, and a dark gray button-down shirt. The person is smiling at the camera, and is superimposed on a photograph of an Arctic observatory with green aurora visible in the sky.'
   ); ?>
