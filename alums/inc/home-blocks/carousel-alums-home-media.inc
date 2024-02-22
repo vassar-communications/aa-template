@@ -2,6 +2,68 @@
 $media_carousel_path = '/alums/assets/img/alums-home/news-and-spotlight/';
 echo carousel( '', 'alums-media-carousel' ); ?>
 
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-02-22/in-the-media/christmas_4x3.jpg',
+    'is-link',
+    'Two people sit in a large brick room. One person is sitting on the right, closest to the viewer and out of focus. The other person has short curly gray hair and is wearing a purple robe and glasses.'
+  ); ?>
+
+  <p><strong>Dr. June Jackson Christmas ’45-4</strong>, a pioneer psychiatrist who headed the NYC Department of Mental Health and Retardation Services, was remembered by <em>The New York Times</em>.</p>
+  <p><em>Photo: Karl Rabe</em></p>
+  <?php echo cta_link(
+  'https://www.nytimes.com/2024/01/04/nyregion/june-jackson-christmas-dead.html',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-02-22/in-the-media/christmas_4x3.jpg',
+    'is-link',
+    'A photo of a person with no hair, glasses, and a dark gray button-down shirt. The person is smiling at the camera, and is superimposed on a photograph of an Arctic observatory with green aurora visible in the sky.'
+  ); ?>
+
+  <p>University of Chicago Professor <strong>John E. Carlstrom ’81</strong> was named the winner of the 2024 Dannie Heineman Prize for Astrophysics, as noted by <em>Science Magazine</em>.</p>
+  <?php echo cta_link(
+  'https://scienmag.com/john-e-carlstrom-wins-2024-dannie-heineman-prize-for-astrophysics/',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-02-22/in-the-media/cruz_4x3.jpg',
+    'is-link',
+    'A person with short, black, curly hair and a patterned black-and-orange shirt speaks into a microphone at an event.'
+  ); ?>
+
+  <p><em>The Black Joy Project: A Literary and Visual Love Letter to How We Thrive</em> by <strong>Kleaver Cruz ’11</strong> is “captivating” and “remarkable,” says <em>Essence</em> magazine.</p>
+  <p><em>Photo: Roman Iwasiwka</em></p>
+  <?php echo cta_link(
+  'https://www.essence.com/entertainment/the-black-joy-project-literary-visual-celebration-black-resilience/',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-02-22/in-the-media/rubin_4x3.jpg',
+    'is-link',
+    'A person with short straight gray hair, glasses, and a white shirt smiles at the viewer. The person is standing in front of a brick wall, into which is set an alcove containing the metal bust of a person with long hair and a 19th-century dress.'
+  ); ?>
+
+  <p>Renowned astronomer <strong>Vera Rubin ’48</strong> was the subject of an <em>Astronomy</em> magazine story.</p>
+  <p><em>Photo: Will Faller</em></p>
+  <?php echo cta_link(
+  'https://www.astronomy.com/science/vera-rubin-found-a-lifetime-of-wonder-in-the-dark-skies/',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
 
 
 <?php echo carousel_item(
@@ -18,100 +80,5 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   'stretched-link'
   ); ?>
 <?php echo end_carousel_item(); ?>
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2024-01-11/in-the-media/Frances_Sternhagen_Reunion_parade_11_CS.jpg',
-    'is-link',
-    'A photo of a person with short gray hair, glasses, and a light blue scarf sitting on the back of a golf cart, smiling at the viewer.'
-  ); ?>
-
-  <p>Tony Award-winning actor <strong>Frances Sternhagen ’51</strong> was remembered by the <em>New York Times</em>.</p>
-  <p><em>Photo: Stockton Photo, Inc.</em></p>
-  <?php echo cta_link(
-  'https://www.nytimes.com/2023/11/29/theater/frances-sternhagen-dead.html?smid=nytcore-ios-share&referringSource=articleShare',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
-
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2024-01-11/in-the-media/Bishop100-25-Ref3.jpg',
-    'is-link',
-    'A monochrome archival photo of a person with short light-colored hair sitting in front of a stone wall, looking to their left. The person is wearing a light-colored button-down shirt.'
-  ); ?>
-
-  <p>The exhibition of postcards from award-winning poet <strong>Elizabeth Bishop ’35</strong> at the Thompson Memorial Library was featured in the <em>Paris Review</em>.</p>
-  <p><em>Photo: Courtesy of Vassar Archives & Special Collections</em></p>
-  <?php echo cta_link(
-  'https://www.theparisreview.org/blog/2023/11/27/postcards-from-elizabeth-bishop/',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2023-11-09/in-the-media/michele_tugade_by_kevin_arce_20-cropped.jpg',
-    'is-link',
-    'A person with long black hair and a blue dress smiles at the viewer. The person appears to be standing in the interior of a library, with stone walls and a stained glass window visible in the background.'
-  ); ?>
-
-  <p>In an interview with CBS News, Vassar Professor of Psychological Science Michele Tugade ’95 offered tips for coping with stress induced by news reports from the Middle East.</p>
-  <p><em>Photo: Kevin Arce ’20</em></p>
-  <?php echo cta_link(
-  'https://www.cbsnews.com/video/coping-with-stress-from-turmoil-in-news/',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2023-11-09/in-the-media/Jason_Blum_by_Eric_Charbonneau-cropped.jpg',
-    'is-link',
-    'A person with thick brown hair and a blue formal jacket smiles at the viewer.'
-  ); ?>
-
-  <p>Jason Blum ’91, CEO and Founder of Blumhouse Productions, talked to <em>Fortune</em> about his filmmaking business model.</p>
-  <p><em>Photo: Eric Charbonneau</em></p>
-  <?php echo cta_link(
-  'https://fortune.com/longform/jason-blum-exorcist-blumhouse-low-budget-horror-films/',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2023-11-09/in-the-media/0002-20-01-kr-scc-maldonado-vassar-0043-cropped.jpg',
-    'is-link',
-    'A person with a shaved head and blue formal jacket stands at a podium speaking into a microphone.'
-  ); ?>
-
-  <p>Author and educator Torrey Maldonado ’96 talked to CNN about the rise in book banning.</p>
-  <p><em>Photo: Karl Rabe</em></p>
-  <?php echo cta_link(
-  'https://www.cnn.com/2023/10/04/style/book-bans-sales-authors-impact-cec/index.html',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
-
-
-
 
 <?php echo end_carousel(); ?>
