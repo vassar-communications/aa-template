@@ -91,7 +91,7 @@
   <p><em>Photo: Karl Rabe</em></p>
 
   <?php echo cta_link(
-    'https://www.vassar.edu/news/vassar-named-top-producer-of-fulbright-students',
+    'https://www.vassar.edu/news/two-vassar-grads-embark-on-study-in-china-after-winning-prestigious-schwarzman-scholarships',
     'Read more',
     'stretched-link'
   ); ?>
