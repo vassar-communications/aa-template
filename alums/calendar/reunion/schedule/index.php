@@ -69,6 +69,16 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
+    '12:00 p.m.',
+    'Jummah Service',
+    'Pratt House'
+  ); ?>
+    <p>Experience tranquility and spiritual connection by joining Saba Ali, Advisor for 		Muslim Student Life, for the Jummah prayer service. An adjacent wudu station provides the perfect setting for this sacred gathering.</p>
+
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
     '2:00–3:00 p.m.',
     'College-sponsored Lectures and Tours',
   ); ?>
@@ -106,12 +116,16 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '5:00–6:00 p.m.',
-    'Open House at Pratt House',
-    null,
-    null,
-    ['noContent' => true]
+    '4:00–5:00 p.m.',
+    'Labyrinth Walk and Pratt House Open House',
+    'Pratt House'
   ); ?>
+  
+  <p>Come experience the new labyrinth on campus and get a tour of Pratt House, the new hub for Religious and Spiritual Life and Contemplative Practices (RSLCP) at the College.</p>
+<p>The labyrinth tour will be hosted by Professor Carolyn Palmer (Department of Psychology) and Katilau Mbindyo '14, an alumna who advocated for a permanent labyrinth at Vassar throughout her student years.</p>
+<p>The Open House will be hosted by Saba Ali, Advisor for Muslim Student Life; Rabbi Bryan Mann, Rachlin Director for Jewish Student Life and Assistant Director, RSLCP; and Rev. Sam Speers, Associate Dean of the College for RSLCP. Refreshments will be served.</p>
+
+   <?php echo end_schedule_item_dropdown(); ?>
   
   
    <?php echo schedule_item_dropdown(
@@ -336,6 +350,15 @@ $page_info = json_decode($page_info, true);
     'Hildegard Krause Baker, class of 1911, Sculpture Garden'
   ); ?>
     <p>Enjoy afternoon iced tea and refreshments.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '2:00–4:00 p.m.',
+    'Open House at the A. Scott Warthin Jr. Museum',
+    'A. Scott Warthin Jr. Museum (next to the Aula)'
+  ); ?>
+    <p>The A. Scott Warthin Jr. Museum is one of Vassar’s many hidden gems! Housed in Ely Hall, the museum has over a dozen active display cases with exhibits curated by Vassar students and faculty alike, in addition to an artistic Geologic Timeline, lots of wall art, a working geyser model, and all the fun facts you could want. Come by to get a personal tour of the museum from our Assistant Museum Curator, a current Vassar geology student, Harrison Walker!</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
