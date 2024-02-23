@@ -190,7 +190,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo presentation_item(
-    'Michael Gross ’74 - Flight of the Wasp: The Rise, Fall and Future of America’s Original Ruling Class',
+    'Michael Gross ’74 - Flight of the Wasp: The Rise, Fall, and Future of America’s Original Ruling Class',
     'New England Building 206',
     '3:30 p.m.'
   ); ?>
@@ -331,7 +331,7 @@ $page_info = json_decode($page_info, true);
     '2:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Join Associate Dean of Student Living and Wellness Luis Jimenez Inoa and Director of Counseling Service Wendy Freedman as they delve into the multifaceted world of mental wellness at Vassar and in higher education. From proactive support structures to the evolving needs of today's students, this session will engage attendees in a critical dialogue about the importance of mental health in the academic journey.</p>
+      <p>Join Associate Dean of the College for Student Living and Wellness Luis Jimenez Inoa and Director of Counseling Service Wendy Freedman as they delve into the multifaceted world of mental wellness at Vassar and in higher education. From proactive support structures to the evolving needs of today's students, this session will engage attendees in a critical dialogue about the importance of mental health in the academic journey.</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenters'); ?>

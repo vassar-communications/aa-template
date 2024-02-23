@@ -60,36 +60,36 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Neil Buchanan ’81',
-        'https://www.nytimes.com/2023/12/03/us/florida-professors-education-desantis.html',
+        'Dr. June Jackson Christmas&nbsp;’45-4',
+        'https://www.nytimes.com/2024/01/04/nyregion/june-jackson-christmas-dead.html',
         ['url' => $logos_path.'newyorktimes.gif', 'alt' => 'The New York Times logo, black text on a gray background.' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p><strong>Neil Buchanan ’81</strong>, an economist and tax law scholar, is among those leaving tenured professorships in Florida because of hostility toward professors and higher education in the state, as noted by the <em>New York Times</em>.</p>
+      <p><strong>Dr. June Jackson Christmas ’45-4</strong>, a pioneer psychiatrist who headed the NYC Department of Mental Health and Retardation Services, was remembered by the <em>New York Times</em>.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Naoko Takahatake ’99',
-        'https://dailybruin.com/2023/11/21/qa-naoko-takahatake-on-new-curator-role-at-hammer-museums-grunwald-center',
-        ['url' => $logos_path.'dailybruin-logo.png', 'alt' => 'Daily Bruin logo, blue text on a grey background.' ],
+        'Kleaver Cruz ’11',
+        'https://www.essence.com/entertainment/the-black-joy-project-literary-visual-celebration-black-resilience/',
+        ['url' => $logos_path.'Essence-logo.png', 'alt' => 'Essence logo, black all capital sans-serif text on a light grey background.' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p><strong>Naoko Takahatake ’99</strong>, the newly appointed Director and Chief Curator of the Grunwald Center for the Graphic Arts at UCLA’s Hammer Museum, was the subject of a <em>Daily Bruin</em> story.</p>
+        <p><em>The Black Joy Project: A Literary and Visual Love Letter to How We Thrive</em> by <strong>Kleaver Cruz ’11</strong> is “captivating” and “remarkable,” says <em>Essence</em> magazine.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Elizabeth Bishop ’35',
-        'https://www.theparisreview.org/blog/2023/11/27/postcards-from-elizabeth-bishop/',
-        ['url' => $logos_path.'the-paris-review-logo.png', 'alt' => 'The Paris Review logo, black text on a gray background.' ],
+        'John E. Carlstrom ’81',
+        'https://scienmag.com/john-e-carlstrom-wins-2024-dannie-heineman-prize-for-astrophysics/',
+        ['url' => $logos_path.'Scienmag-logo.png', 'alt' => 'Scienmag Science Magazine logo, a red circle with an extension at the bottom next to black text on a gray background.' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p>The exhibition of postcards from award-winning poet <strong>Elizabeth Bishop ’35</strong> at the Thompson Memorial Library was featured in the <em>Paris Review</em>.</p>
+      <p><strong>John E. Carlstrom ’81</strong>, Subramanyan Chandrasekhar Distinguished Service Professor at the University of Chicago Departments of Astronomy and Astrophysics and Physics, was named the winner of the 2024 Dannie Heineman Prize for Astrophysics, as noted by <em>Science Magazine</em>.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -106,28 +106,22 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vVk1QNTQ4OTczNDcwMg/episode/MWIxZjVlYTgtMzUyYy0xMWVkLWExODEtY2ZlY2RjMjMyNTMy?ep=14">Author and ABC News Chief Washington Correspondent <strong>Jonathan Karl ’90</strong> was a guest on Preet Bharara’s podcast, <em>Stay Tuned with Preet</em></a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://artdaily.com/news/166120/A-Lincoln-trove-lands-at-the-library--pie-safe-included-">The collection of the late <strong>Jonathan Mann ’83</strong>, an Abraham Lincoln aficionado, was the subject of an <em>Art Daily</em> story</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><a href="https://www.theatermania.com/news/photos-real-life-counterparts-of-how-to-dance-in-ohio-characters-walk-the-carpet-on-opening-night_1723661/"><em>How to Dance in Ohio</em>, a Broadway show featuring <strong>Imani Russell ’18</strong> and based on a documentary by <strong>Alexandra Shiva ’95</strong>, was the subject of a TheaterMania story</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><a href="https://www.astronomy.com/science/vera-rubin-found-a-lifetime-of-wonder-in-the-dark-skies/">Renowned astronomer <strong>Vera Rubin ’48</strong> was the subject of an <em>Astronomy</em> magazine story</a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://www.astronomy.com/science/the-vera-c-rubin-observatory-shows-its-flair-for-asteroid-detection/">Computer pioneer Rear Admiral <strong>Grace Hopper, class of 1928</strong>, was the subject of a <em>Medium</em> story</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://communityfoundationshv.org/news-publications/cfhv-welcomes-laura-washington-as-president-and-ceo/"><strong>Laura Washington ’88</strong> was named President and CEO of Community Foundations of the Hudson Valley, as noted by the nonprofit</a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://www.docnyc.net/film/shaken//"><em>Shaken</em>, a film director by <strong>Asher Levinthal ’08</strong>, was featured at DOC NYC</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://www.energy.gov/articles/us-department-energy-welcomes-new-biden-harris-appointees-and-announces-promotions"><strong>Charisma Troiano ’06</strong> was named Deputy Director and Chief Spokesperson in the U.S. Department of Energy’s Office of Public Affairs, as noted by the department</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><a href="https://www.nytimes.com/2023/08/28/arts/music/queer-club-fliers-getting-in-book.html"><strong>David Kennerley ’82</strong> spoke to the <em>New York Times</em> about his new book</a>, <em>Getting In: NYC Club Flyers from the Gay 1990s</em>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><a href="https://patch.com/connecticut/avon/award-winning-mystery-writer-appear-avon">Author <strong>Mariah Fredericks ’88</strong> will be hosted by the Avon Free Public Library to talk about her latest book, <em>The Wharton Plot</em>, as noted by Patch Connecticut</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><a href="https://www.kalw.org/podcast/sandip-roys-dispatches-from-kolkata/2023-11-08/the-art-of-durga"><strong>Lavanya Manickam ’25, Milena Chilla-Markhoff ’92</strong>, Associate Professor of Anthropology <strong>Candice Lowe Swift</strong>, and Professor of Political Science <strong>Himadeep Muppidi</strong> spoke to KALW</a> about the Durga Puja festival in Kolkata, which all they attended together.</p></div>
-
-
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.businesswire.com/news/home/20231026360795/en/Sarah-E.-Nash-Receives-Inaugural-Russell-S.-Reynolds-Jr.-Chair-of-the-Year-Award"><strong>Sarah E. Nash ’74</strong>, Chair of the Board at Bath & Body Works, received the Russell S. Reynolds Jr. Chair of the Year Award, as noted by <em>Business Wire</em></a>.</p></div>
-
-
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><a href="https://www.nytco.com/press/styles-new-additions-and-expanded-coverage-areas/"><strong>Marie Solis ’15</strong> has joined the <em>New York Times</em> as a Styles Editor</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><a href="https://www.wiareport.com/2023/12/four-women-scholars-who-are-taking-on-new-duties/"><strong>Summer Sherburne Hawkins ’00</strong>, Professor in the Boston College School of Social Work, was appointed the inaugural Associate Director of the Boston College Global Public Health and the Common Good interdisciplinary undergraduate program, as noted by <em>WIA Report</em></a>.</p></div>
 
 
   <?php echo end_item_col(); ?>
@@ -135,24 +129,25 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><a href="https://www.psychologytoday.com/intl/blog/mirror-mirror/202311/coping-through-comedy-and-connection"><strong>Dara Greenwood</strong>, Associate Professor of Psychological Science and Director of Media Studies, wrote a <em>Psychology Today</em> article</a> on “Coping Through Comedy and Connection” that included the work of <strong>Michele Tugade ’95</strong>, Professor of Psychological Science on the William R. Kenan Jr. Chair.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.kiiitv.com/article/news/local/the-epitome-of-civic-service-corpus-christis-first-female-mayor-to-be-buried-saturday/503-b00daa2c-d54e-428c-a25a-322a9938e8ac"><strong>Betty Turner ’53</strong>, former Mayor of Corpus Christi, was remembered by KIII-TV</a>.</p></div>
+
+
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><a href="https://news.ucsc.edu/2023/12/in-memoriam-peggy-downes-baskin.html"><strong>Peggy Downes Baskin ’52</strong>, an educator, scholar, women’s rights advocate, and philanthropist, was remembered by UC Santa Cruz</a>.</p></div>
+
+
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><a href="https://www.artic.edu/articles/1097/the-great-and-modest-life-of-mary-reynolds">The remarkable life of <strong>Mary Reynolds</strong>, class of 1913, was the subject of an Art Institute of Chicago story</a>.</p></div>
   
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21"><a href="https://tworivertimes.com/alifewelllivedjoanellis/"><em>Permission</em>, a memoir by <strong>Joan Ellis ’51</strong>, was the subject of a <em>Two River Times</em> story</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21"><a href="https://www.nytco.com/press/jordana-hochman-joins-opinion-as-editor-of-matter-of-opinion/"><strong>Jordana Hochman ’01</strong> will be joining the <em>New York Times</em> as the Senior Editor of the <em>Matter of Opinion</em> podcast, as noted by the newspaper</a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><a href="https://www.nytimes.com/2023/11/29/theater/frances-sternhagen-dead.html?smid=nytcore-ios-share&referringSource=articleShare">Tony Award-winning actor <strong>Frances Sternhagen ’51</strong> was remembered by the <em>New York Times</em></a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><a href="https://www.gloucestertimes.com/news/local_news/author-pens-childrens-book-about-lessons-learned-from-dogtowns-babson-boulders/article_170318ca-9a0a-11ee-8e9e-17dfb24bb8ec.html">Author <strong>Katherine “Gig” Babson Jr. ’69</strong> discussed her new children’s book, <em>Pippi Rocks: More Stories from the Dog Blog</em>, with the <em>Gloucester Daily Times</em></a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="24" data-line-end="25"><a href="https://www.orartswatch.org/tom-webb-former-director-of-newport-visual-arts-center-dies-at-58/"><strong>Tom Webb ’87</strong>, former director of Newport Visual Arts Center, was remembered by <em>Oregon Artswartch</em></a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="24" data-line-end="25"><a href="https://www.umassmed.edu/news/news-archives/2024/01/prestigious-kirschstein-award-helps-fund-mdphd-students-als-research/"><strong>Abigail Hiller ’17</strong>, an MD/PhD student at UMass Chan Medical School, received a Ruth L. Kirschstein National Serviced Award Individual Predoctoral Fellowship from the National Institute of Neurological Disorders and Stroke</a>, as noted by the medical school.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27"><a href="https://www.baltimoresun.com/obituaries/bs-md-ob-ellen-kelly-20231126-kpmwjtptirholdtnnz3o3nsa5q-story.html"><strong>Ellen H. “Ellie” Kelly ’51</strong>, a Baltimore civic leader, was remembered by the <em>Baltimore Sun</em></a>.</p></div>
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="28" data-line-end="29"><a href="https://www.glossy.co/fashion/fashion-briefing-how-influencers-and-resellers-tapped-into-menswear-enthusiasts-obsessive-tendencies/">Fashion influencer <strong>Albert Muzquiz ’17</strong> was mentioned in a <em>Glossy</em> story</a> about men’s fashion influencers and resellers.</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="30" data-line-end="31"><a href="https://midhudsonnews.com/2023/11/06/vassar-to-host-tv-journalist-chip-reid/"><strong>Vassar College</strong> and <strong>Chip Reid ’77</strong>, author and former NBC News correspondent, were mentioned in a <em>Mid Hudson News</em> article</a> about his talk at the College regarding his book, <em>Battle Scars</em>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27"><a href="https://www.baltimoresun.com/2024/01/16/courtney-garland-iglehart-educational-administrator-and-opera-aficionado-dies/"><strong>Courtney Garland Iglehart ’52</strong>, an education administrator and opera aficionado, was remembered by the <em>Baltimore Sun</em></a>.</p></div>
 
 
   <?php echo end_item_col(); ?>

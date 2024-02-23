@@ -69,6 +69,16 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
+    '12:00 p.m.',
+    'Jummah Service',
+    'Pratt House'
+  ); ?>
+    <p>Experience tranquility and spiritual connection by joining Saba Ali, Advisor for 		Muslim Student Life, for the Jummah prayer service. An adjacent wudu station provides the perfect setting for this sacred gathering.</p>
+
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
     '2:00–3:00 p.m.',
     'College-sponsored Lectures and Tours',
   ); ?>
@@ -96,7 +106,7 @@ $page_info = json_decode($page_info, true);
       <h4><a href="../lectures/#sounds-and-science-grants-in-action-at-vassar">Sounds and Science: Grants in Action at Vassar</a></h4>
       <p><strong>Location:</strong> Meet at the Bridge for Laboratory Sciences Atrium (Chapel side)</p>
 
-      <h4><a href="../lectures/#michael-gross-74-flight-of-the-wasp-the-rise-fall-and-future-of-americas-original-ruling-class">Michael Gross ’74 - Flight of the Wasp: The Rise, Fall and Future of America’s Original Ruling Class</a></h4>
+      <h4><a href="../lectures/#michael-gross-74-flight-of-the-wasp-the-rise-fall-and-future-of-americas-original-ruling-class">Michael Gross ’74 - Flight of the Wasp: The Rise, Fall, and Future of America’s Original Ruling Class</a></h4>
       <p><strong>Location:</strong> New England Building 206</p>
 
     <h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum">Tour: Walking Tour of the Vassar College Arboretum</a></h4>
@@ -106,12 +116,16 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '5:00–6:00 p.m.',
-    'Open House at Pratt House',
-    null,
-    null,
-    ['noContent' => true]
+    '4:00–5:00 p.m.',
+    'Labyrinth Walk and Pratt House Open House',
+    'Pratt House'
   ); ?>
+  
+  <p>Come experience the new labyrinth on campus and get a tour of Pratt House, the new hub for Religious and Spiritual Life and Contemplative Practices (RSLCP) at the College.</p>
+<p>The labyrinth tour will be hosted by Professor Carolyn Palmer (Department of Psychology) and Katilau Mbindyo '14, an alumna who advocated for a permanent labyrinth at Vassar throughout her student years.</p>
+<p>The Open House will be hosted by Saba Ali, Advisor for Muslim Student Life; Rabbi Bryan Mann, Rachlin Director for Jewish Student Life and Assistant Director, RSLCP; and Rev. Sam Speers, Associate Dean of the College for RSLCP. Refreshments will be served.</p>
+
+   <?php echo end_schedule_item_dropdown(); ?>
   
   
    <?php echo schedule_item_dropdown(
@@ -120,7 +134,7 @@ $page_info = json_decode($page_info, true);
     'Shakespeare Garden'
   ); ?>
   
-  <p>Followed by dinner at <em>Sunset Lake Tent</em></p>
+  <p>Followed by dinner at the Sunset Lake tent</p>
 
    <?php echo end_schedule_item_dropdown(); ?>
  
@@ -271,7 +285,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '10:30 a.m.',
-    'Parade of Classes Line-Up'
+    'Parade of Classes Line-up'
   ); ?>
   <p>Line up for Parade of Classes (line starts with 1954 at the chapel along the path and road, ending with 2019). Look for your class banner along the parade route. Golf carts will be available.</p>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -331,11 +345,29 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
+    '2:00–3:00 p.m.',
+    'Frances Lehman Loeb Art Center Curatorial Tours',
+    null
+  ); ?>
+    <p>More information coming soon.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
     '2:00–4:00 p.m.',
     'The Loeb Art Center',
     'Hildegard Krause Baker, class of 1911, Sculpture Garden'
   ); ?>
     <p>Enjoy afternoon iced tea and refreshments.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '2:00–4:00 p.m.',
+    'Open House at the A. Scott Warthin Jr. Museum',
+    'A. Scott Warthin Jr. Museum (next to the Aula)'
+  ); ?>
+    <p>The A. Scott Warthin Jr. Museum is one of Vassar’s many hidden gems! Housed in Ely Hall, the museum has over a dozen active display cases with exhibits curated by Vassar students and faculty alike, in addition to an artistic Geologic Timeline, lots of wall art, a working geyser model, and all the fun facts you could want. Come by to get a personal tour of the museum from our Assistant Museum Curator, a current Vassar geology student, Harrison Walker!</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -382,6 +414,15 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
+    '3:00–4:00 p.m.',
+    'Frances Lehman Loeb Art Center Curatorial Tours',
+    null
+  ); ?>
+    <p>More information coming soon.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
     '3:00–5:00 p.m.',
     'Alum Author Meet and Greet',
     'Vassar College Store (aka, the Juliet), Raymond Avenue'
@@ -394,9 +435,9 @@ $page_info = json_decode($page_info, true);
     'Multicultural and Affinity Group Receptions',
     'Main Building, 1st and 2nd floors, and the Jeh Vincent Johnson ALANA Cultural Center'
   ); ?>
-  <p>Connect with alums from diverse backgrounds and enjoy ethnic foods while visiting receptions hosted by representatives from the African American Alumnae/i of Vassar College (AAAVC), Athletics, International Services, Transitions Program/First Generation alums, LGBTQ+ Center, and the WVKR radio station.</p>
+  <p>Join us for an unforgettable experience at the Multicultural and Affinity Group Receptions! Connect with alums from diverse backgrounds and establish lasting relationships in an inclusive and intersectional setting. Indulge in delicious ethnic foods while you visit receptions tailored to Alum-athletes, Black/African American alums (AAAVC members), First Generation and Transitions alums, International alums, LGBTQ+ alums, and WVKR alums.</p>
 
-<p>Receptions will be held on the first and second floors of the Main building (in the atrium and upstairs parlors). Additionally, the Jeh Vincent Johnson ALANA Cultural Center is hosting an open house for alums who have ties to ALANA student organizations, as well as for alums who want to visit the renovated center. This is an inclusive, intersectional event that provides an opportunity to create lasting connections. Don’t miss out!</p>
+<p>The receptions will take place in the Campus Center North Atrium and Main parlors.	Additionally, the Jeh Vincent Johnson ALANA Cultural Center will host an ALANA Alum Open House during the same time. All ALANA Center affiliated alums are welcome, including Black/African American, Latiné, Asian, Asian American, South Asian, Native Hawaiian, Pacific Islander, Native American, Indigenous alums, and former members of ALANA student organizations. Don’t miss out on this unique opportunity to connect and create new memories!</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -450,7 +491,7 @@ $page_info = json_decode($page_info, true);
     'Donor Societies Reception (by invitation)',
     'Thompson Memorial Library Lawn Tent'
   ); ?>
-  <p>A special reception for members of the <em>1861 Loyalty Society</em> and <em>Matthew Vassar Legacy Society</em> in appreciation for those who have made Vassar a philanthropic priority.</p>
+  <p>A special reception for members of the 1861 Loyalty Society and Matthew Vassar Legacy Society in appreciation for those who have made Vassar a philanthropic priority.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
     <?php echo schedule_item_dropdown(

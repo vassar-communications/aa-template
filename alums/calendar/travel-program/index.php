@@ -33,24 +33,18 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Vassar Travel Programs in 2024',
+    'Vassar Travel Programs',
     $alums_img_path.'alums-calendar/travel-program/Group-photo-Camon-France-wide.jpg',
     'image-is-first theme-cream',
     '',
     ['img_alt_text' => 'A group of people, one holding a Vassar College banner, standing and smiling at the viewer with a sunny green countryside and cloudy skies behind them.']
 ); ?>
-<p>As we are planning our future trips for both 2024 and 2025, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Special Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
+<p>As we are planning our future trips, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Special Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
 
-<p>Upcoming trips at a glance:</p>
+<p class="intro-text">Upcoming 2024 trips at a glance:</p>
 
 <p><strong><a href="#trip2">Cuba: Art, Culture & History</a></strong></br>
 May 5–11, 2024</p>
-
-<p><strong><a href="#trip3">Paris in the Jazz Age, featuring the African American Experience</a></strong></br>
-June 8–16, 2024</p>
-
-<p><strong><a href="#trip4">Namibia: Endless Horizons & Open Skies</a></strong></br>
-June 9–20, 2024</p>
 
 <p><strong><a href="#galapagos">The Galapagos Islands</a></strong></br>
 July 6–13, 2024</p>
@@ -63,6 +57,14 @@ September 26–October 4, 2024</p>
 
 <p><strong><a href="#trip8">Discovering South Korea: A Journey through its Food, Culture, and Globalization</a></strong></br>
 October 9–21, 2024</p>
+
+<p class="intro-text">Postponed till 2025:</p>
+
+<p><strong><a href="#trip3">Paris in the Jazz Age, featuring the African American Experience</a></strong></br>
+Date TBD</p>
+
+<p><strong><a href="#trip4">Namibia: Endless Horizons & Open Skies</a></strong></br>
+June 24-July 6, 2025</p>
 
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -106,66 +108,6 @@ October 9–21, 2024</p>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-
-<div id="trip3"></div>
-<?php echo sec_fullBleedImageColumn(
-    null,
-    $alums_img_path.'alums-calendar/travel-program/Paris-2024-Photo-Credit-Susan-Brkich.jpg',
-    'theme-cream',
-    '',
-    ['img_alt_text' => 'The Eiffel Tower, a tall open metalwork structure with sloping sides narrowing to a spire on top, with platforms on several levels, standing at the end of a large green field. Photo Credit Susan Brkich ’86.']
-); ?>
-
-<p class="intro-text">Paris in the Jazz Age, featuring the African American Experience</p>
-
-<p><strong>June 8–16, 2024<strong></p>
-
-<p><strong>Hosts: Mia Mask, Ph.D., Professor of Film on the Mary Riepma Ross ’32 Vassar Chair, and Mark Wittman, MBA Managing Director, Investment Banking</strong></p>
-
-<p>Take a trip back in time to trace the journey of Black Americans in France, gain insight into why they moved to Paris, and how they forever influenced French culture. This seven-night small-group program, hosted by Professor Mia Mask, features divine cuisine with an extensive meal plan—including wine with dinner, incredible art, an exploration of Montmartre, and a cruise along the Seine River.</p>
-
-<p>Highlights will include:</p>
-<ul>
-	<li>Learn how African American expatriates influenced Paris</li>
-	<li>Enjoy an evening at a jazz club</li>
-	<li>Sample French treats during a gastronomic walking tour</li>
-</ul>
-
-<?php echo cta_link(
-    'https://vassar.ahitravel.com/destinations/1798A?schoolId=375',
-    'See the full Paris itinerary and reserve your place.'
-
-); ?>
-<p><em>Photo credit: Susan Brkich ’86</em></p>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<div id="trip4"></div>
-<?php echo sec_fullBleedImageColumn(
-    null,
-    $alums_img_path.'alums-calendar/travel-program/Namibia-2024.jpg',
-    'image-is-first',
-    '',
-    ['img_alt_text' => 'A baby elephant and an adult elephant browse in tall wheat-colored grass next to a body of water at sunset.']
-); ?>
-
-<p class="intro-text">Endless Horizons & Open Skies</p>
-
-<p><strong>June 8–16, 2024<strong></p>
-
-<p><strong>Faculty Host: Abby Baird ’91, Professor of Psychological Science on the Arnhold Family Chair</strong></p>
-
-<p>Venture to the South African country of Namibia, renowned for its captivating vistas, sculpted red canyons, some of the most spectacular sand dunes, and the home of the world’s oldest desert. Along the way, you’ll marvel at these geological wonders and admire the remarkable wildlife that call this vast and varied landscape home—leopards, giraffes, rhinos, zebras, antelopes, and desert elephants. You’ll also learn about the country’s extraordinary conservation programs.</p>
-<p>Highlights will include:</p>
-<ul>
-<li>Evening game drive and rhino tracking</li>
-<li>Take a bush flight deep into the Namib desert</li>
-<li>Visit the AfriCat Foundation to experience the work they are doing to protect leopards and cheetahs and reintroducing them into the wild</li>
-</ul>
-<p>For more information and to register, please contact Immersion Journeys at <?php echo phone_number('917-686-2620'); ?>.</p>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <div id="galapagos"></div>
@@ -304,6 +246,67 @@ inspiration for artists, chefs, and vintners alike.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
+<div id="trip3"></div>
+<?php echo sec_fullBleedImageColumn(
+    null,
+    $alums_img_path.'alums-calendar/travel-program/Paris-2024-Photo-Credit-Susan-Brkich.jpg',
+    'theme-cream',
+    '',
+    ['img_alt_text' => 'The Eiffel Tower, a tall open metalwork structure with sloping sides narrowing to a spire on top, with platforms on several levels, standing at the end of a large green field. Photo Credit Susan Brkich ’86.']
+); ?>
+
+<p class="intro-text">Paris in the Jazz Age, featuring the African American Experience</p>
+
+<p><strong>Postponed until 2025, dates to come<strong></p>
+
+<p><strong>Hosts: Mia Mask, Ph.D., Professor of Film on the Mary Riepma Ross ’32 Vassar Chair, and Mark Wittman, MBA Managing Director, Investment Banking</strong></p>
+
+<p>Take a trip back in time to trace the journey of Black Americans in France, gain insight into why they moved to Paris, and how they forever influenced French culture. This seven-night small-group program, hosted by Professor Mia Mask, features divine cuisine with an extensive meal plan—including wine with dinner, incredible art, an exploration of Montmartre, and a cruise along the Seine River.</p>
+
+<p>Highlights will include:</p>
+<ul>
+	<li>Learn how African American expatriates influenced Paris</li>
+	<li>Enjoy an evening at a jazz club</li>
+	<li>Sample French treats during a gastronomic walking tour</li>
+</ul>
+<!--hiding until new dates for 2025 are set.
+<?php echo cta_link(
+    'https://vassar.ahitravel.com/destinations/1798A?schoolId=375',
+    'See the full Paris itinerary and reserve your place.'
+
+); ?>
+-->
+<p><em>Photo credit: Susan Brkich ’86</em></p>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<div id="trip4"></div>
+<?php echo sec_fullBleedImageColumn(
+    null,
+    $alums_img_path.'alums-calendar/travel-program/Namibia-2024.jpg',
+    'image-is-first',
+    '',
+    ['img_alt_text' => 'A baby elephant and an adult elephant browse in tall wheat-colored grass next to a body of water at sunset.']
+); ?>
+
+<p class="intro-text">Endless Horizons & Open Skies</p>
+
+<p><strong>June 24-July 6, 2025<strong></p>
+
+<p><strong>Faculty Host: Abby Baird ’91, Professor of Psychological Science on the Arnhold Family Chair</strong></p>
+
+<p>Venture to the South African country of Namibia, renowned for its captivating vistas, sculpted red canyons, some of the most spectacular sand dunes, and the home of the world’s oldest desert. Along the way, you’ll marvel at these geological wonders and admire the remarkable wildlife that call this vast and varied landscape home—leopards, giraffes, rhinos, zebras, antelopes, and desert elephants. You’ll also learn about the country’s extraordinary conservation programs.</p>
+<p>Highlights will include:</p>
+<ul>
+<li>Evening game drive and rhino tracking</li>
+<li>Take a bush flight deep into the Namib desert</li>
+<li>Visit the AfriCat Foundation to experience the work they are doing to protect leopards and cheetahs and reintroducing them into the wild</li>
+</ul>
+<p>For more information, please contact Immersion Journeys at <?php echo phone_number('917-686-2620'); ?>.</p>
+
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_regularContent('Travel Insurance','theme-extralightgray','');?>
