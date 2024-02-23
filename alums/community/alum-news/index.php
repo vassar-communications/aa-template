@@ -129,7 +129,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.caller.com/story/news/local/2024/02/01/first-female-mayor-corpus-christi-betty-turner-passes-age-92/72437349007/"><strong>Betty Turner ’53</strong>, former Mayor of Corpus Christi, was remembered by the <em>Corpus Christi Caller-Times</em></a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.kiiitv.com/article/news/local/the-epitome-of-civic-service-corpus-christis-first-female-mayor-to-be-buried-saturday/503-b00daa2c-d54e-428c-a25a-322a9938e8ac"><strong>Betty Turner ’53</strong>, former Mayor of Corpus Christi, was remembered by KIII-TV</a>.</p></div>
 
 
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><a href="https://news.ucsc.edu/2023/12/in-memoriam-peggy-downes-baskin.html"><strong>Peggy Downes Baskin ’52</strong>, an educator, scholar, women’s rights advocate, and philanthropist, was remembered by UC Santa Cruz</a>.</p></div>

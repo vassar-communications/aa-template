@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'A group of people, one holding a Vassar College banner, standing and smiling at the viewer with a sunny green countryside and cloudy skies behind them.']
 ); ?>
-<p>As we are planning our future trips for both 2024 and 2025, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Special Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
+<p>As we are planning our future trips, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Special Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
 
 <p class="intro-text">Upcoming 2024 trips at a glance:</p>
 
@@ -58,11 +58,13 @@ September 26–October 4, 2024</p>
 <p><strong><a href="#trip8">Discovering South Korea: A Journey through its Food, Culture, and Globalization</a></strong></br>
 October 9–21, 2024</p>
 
-<p class="intro-text">Postponed till 2025 (dates to come):</p>
+<p class="intro-text">Postponed till 2025:</p>
 
-<p><strong><a href="#trip3">Paris in the Jazz Age, featuring the African American Experience</a></strong></p>
+<p><strong><a href="#trip3">Paris in the Jazz Age, featuring the African American Experience</a></strong></br>
+Date TBD</p>
 
-<p><strong><a href="#trip4">Namibia: Endless Horizons & Open Skies</a></strong></p>
+<p><strong><a href="#trip4">Namibia: Endless Horizons & Open Skies</a></strong></br>
+June 24-July 6, 2025</p>
 
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -290,7 +292,7 @@ inspiration for artists, chefs, and vintners alike.</p>
 
 <p class="intro-text">Endless Horizons & Open Skies</p>
 
-<p><strong>Postponed until 2025, dates to come<strong></p>
+<p><strong>June 24-July 6, 2025<strong></p>
 
 <p><strong>Faculty Host: Abby Baird ’91, Professor of Psychological Science on the Arnhold Family Chair</strong></p>
 
