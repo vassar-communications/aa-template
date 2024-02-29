@@ -180,7 +180,7 @@ $page_info = json_decode($page_info, true);
   <?php echo schedule_item_dropdown(
     '6:00–7:00 p.m.',
     'Faculty Reception',
-    'President’s Lawn Tent'
+    'Fergusson Quadrangle Tent, Vogelstein Center for Drama and Film'
   ); ?>
 <!--  <p><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6710&cid=11232&fid=11231">See the list of faculty attendees</a></p>-->
    <?php echo end_schedule_item_dropdown(); ?>
