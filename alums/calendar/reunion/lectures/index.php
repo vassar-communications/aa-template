@@ -254,7 +254,7 @@ $page_info = json_decode($page_info, true);
   '2:30 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Join the Hon. Judge Richard W. Roberts ’74 for a glimpse at Paula Madison’s compelling documentary that chronicles her journey to her maternal grandfather’s homeland in China and the reconnection of her nuclear family with his 300+ descendants.</p>
+    <p>Join the Hon. Richard W. Roberts ’74 for a glimpse at Paula Madison’s compelling documentary that chronicles her journey to her maternal grandfather’s homeland in China and the reconnection of her nuclear family with his 300+ descendants.</p>
 
 <p>An Afro-Chinese-Jamaican Harlem family seeks their Chinese grandfather who was forever separated from their mother - his 3-year-old half-Chinese, half-Jamaican daughter - in Jamaica in 1920. Samuel Lowe (Lowe Ding Chow) returned to China for the last time in 1933 with his Chinese wife and two youngest daughters after having already taken three sons and another daughter there previously.</p>
  
@@ -265,11 +265,11 @@ $page_info = json_decode($page_info, true);
 
   <?php echo presentation_member_list('Presenters'); ?>
     <?php echo presentation_member(
-      'Hon. Judge Richard W. Roberts ’74',
-      '',
-      '',
-      '',
-      ''
+      'Hon. Richard W. Roberts ’74',
+      'https://docs.google.com/document/d/1rkaVzh63Xy-69hriILXSNzjlnKeSbBWNIza_IcSScSk/edit?usp=sharing',
+      null,
+      '/alums/assets/img/alums-calendar/reunion/2024-lectures/Richard_Roberts.jpg',
+      'A person with short dark gray hair, a mustache, and a goatee, wearing glasses, looks at the viewer.'
     ); ?>
     <?php echo presentation_member(
       'Paula Williams Madison ’74',
