@@ -69,18 +69,24 @@ $page_info = json_decode($page_info, true);
 
 <ul>
   <li>The Awardee is no longer required to leave their current job to accept the award.</li>
-  <li>Any Vassar alum 35 years or older by June 30, 2024 may apply for the grant.</li>
+  <li>Any Vassar alum 35 years or older by June 30, 2024 has been invited to apply for the grant.</li>
   <li>The Time Out Grant of $150,000 will now be awarded <strong>every other year</strong>.</li>
 </ul>
 
 <p>All courageous and creative proposals will be considered. The proposal does not need to be related to the applicant’s current career. At Vassar’s discretion, the proposed venture may be funded with complementary grants, provided the Time Out Grant is the lead funding source.</p>
+
+<?php /* 
+
+<!--hiding until applications reopen next cycle-->
 
 <a href="https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=5680&cid=9348" class="btn btn-primary arrow mt-5">Apply for the Time Out Grant</a>
 <br />
 <a href="https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=5681&cid=9349" class="btn btn-primary arrow mt-5">Submit a reference for an applicant</a>
 <p>&nbsp;</p>
 
-<p>Applications and references accepted until February 15, 2024. The winner will be announced by May 30, 2024.</p>
+ */ ?>
+
+<p>Applications are now closed. The winner will be announced by May 30, 2024.</p>
 
 
 <?php echo end_sec_regularContent(); ?>
