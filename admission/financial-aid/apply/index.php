@@ -162,13 +162,17 @@ $page_info = json_decode($page_info, true);
 
 
 
-<p>For detailed information regarding financial aid application requirements and deadlines, please select the appropriate checklist below.</p>
+<p>For detailed information regarding financial aid application requirements and deadlines, 
+  please select the appropriate checklist in <a href="https://offices.vassar.edu/student-financial-services/financial-aid/prospective-students/#checklists">the Financial Aid Application Checklists section</a> on the Student Financial Aid site.</p>
 
+<?php /*
 <ul class="linked-list">
     <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2022/10/Prospective_US_2324.pdf">U.S. Citizen or Permanent Resident (PDF)</a></li>
     <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2022/10/Prospective_Canadian_2223.pdf">Canadian Citizen (PDF)</a></li>
     <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/docs/prospective-international.pdf">International Student (PDF)</a></li>
 </ul>
+
+*/ ?>
 
 
 <?php echo end_sec_regularContent(); ?>
