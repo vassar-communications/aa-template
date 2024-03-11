@@ -86,8 +86,8 @@ $page_info = json_decode($page_info, true);
 <li><a href="https://www.vassar.edu/cogsci">Cognitive Science</a></li>
 <li><a href="https://www.vassar.edu/computerscience">Computer Science</a></li>
 <li><a href="https://www.vassar.edu/drama">Drama</a></li>
-<li><a href="https://www.vassar.edu/earthscienceandgeography/earth-science/">Earth Science</a></li>
-<li><a href="https://www.vassar.edu/earthscienceandgeography/earth-science/earth-science-society/">Earth Science and Society</a></li>
+<li><a href="https://www.vassar.edu/earth-science-and-geography/majors-and-correlates/earth-science">Earth Science</a></li>
+<li><a href="https://www.vassar.edu/earth-science-and-geography/majors-and-correlates/earth-science-and-society">Earth Science and Society</a></li>
 <li><a href="https://www.vassar.edu/economics">Economics</a></li>
 
         </ul>
@@ -99,8 +99,8 @@ $page_info = json_decode($page_info, true);
 <li><a href="https://www.vassar.edu/environmentalstudies">Environmental Studies</a></li>
 <li><a href="https://www.vassar.edu/film">Film</a></li>
 <li><a href="https://www.vassar.edu/french">French &amp; Francophone Studies</a></li>
-<li><a href="https://www.vassar.edu/earthscienceandgeography/geography/">Geography</a></li>
-<li><a href="https://www.vassar.edu/earthscienceandgeography/geography/geography-anthropology/">Geography-Anthropology</a></li>
+<li><a href="https://www.vassar.edu/earth-science-and-geography/majors-and-correlates/geography">Geography</a></li>
+<li><a href="https://www.vassar.edu/earth-science-and-geography/majors-and-correlates/geography-anthropology">Geography-Anthropology</a></li>
 <li><a href="https://www.vassar.edu/german">German Studies</a></li>
 <li><a href="https://www.vassar.edu/global-nineteenth-century-studies/">Global Nineteenth-Century Studies</a></li>
 <li><a href="https://www.vassar.edu/greekandromanstudies">Greek and Roman Studies</a></li>

@@ -40,7 +40,7 @@
 
               <div class="mb-2"> <a class="text-white" href="/alums/calendar/college-events/">College Events</a></div>
 
-              <div class="mb-2"> <a class="text-white" href="/alums/calendar/on-demand-programs/">On-Demand Programs</a></div>
+<!--              <div class="mb-2"> <a class="text-white" href="/alums/calendar/on-demand-programs/">On-Demand Programs</a></div> -->
 
               <div class="mb-2"> <a class="text-white" href="/alums/calendar/travel-program/">Travel Program</a></div>
 
