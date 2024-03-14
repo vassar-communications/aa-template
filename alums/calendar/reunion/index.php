@@ -45,18 +45,12 @@ $page_info = json_decode($page_info, true);
   
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
+
 <?php echo sec_regularContent(
-  'Express Your Interest in Attending',
+  '',
   '',
   ''
 ); ?>
-    <ul class="linked-list">
-        <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=7224&content_id=6636">Class of 1944 Reunion Interest Form</a></li>
-        <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=7221&content_id=6634">Class of 1948/49 Reunion Interest Form</a></li>
-        <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=7218&content_id=6632">Class of 1954 Reunion Interest Form</a></li>
-    </ul>  
-
-<p><strong>Classes of 1959 through 2019:</strong> Thank you for expressing your interest in attending Reunion. Your Reunion Interest Forms have closed.</p>
 
     <p>Reunion Registration will open in early April. This page continues to be updated periodically. Be sure to check back! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
 
