@@ -354,22 +354,41 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo presentation_item(
-    'Pulitzer Prize winning author Ada Ferrer ’84 presents “Cuba: An American Story”, and other works of Cuban history',
+    '“Cuba and América: Entangled Histories,” A Conversation with Ada Ferrer ’84 and Jennifer Adair ’99, moderated by Katherine Hite',
     'Rockefeller 300',
     '2:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>All are welcome.</p>
+      <p>Join us for a wide-ranging discussion about how Cuba and the Cuban Revolution have shaped how we imagine human rights and social struggles across the Americas, how the quest for justice can go awry, what it means to live this history, and how it is inseparable from the history of the United States itself.</p>
     <?php echo end_presentation_content(); ?>
 
-    <?php echo presentation_member_list('Presenter'); ?>
+    <?php echo presentation_member_list('Moderator'); ?>
+      <?php echo presentation_member(
+        'Katherine Hite',
+        'https://www.vassar.edu/faculty/kahite',
+        'Professor of Political Science on the F. Thompson Chair and Director of International Studies',
+        '/alums/assets/img/alums-calendar/reunion/2024-lectures/Katherine-Hite.jpg',
+        'A person wih long brown hair wearing a black button-down shirt smiles at the viewer.'
+      ); ?>
+    <?php echo end_presentation_member_list(); ?>
+
+
+    <?php echo presentation_member_list('Presenters'); ?>
       <?php echo presentation_member(
         'Ada Ferrer ’84',
         'https://www.adaferrer.net/',
         null,
         '/alums/assets/img/alums-calendar/reunion/2024-lectures/Ada-Ferrer.jpg',
-        'A person wih chin-length curly brown hair wearing glasses and a dark sweater smiles at the viewer.'
+        'A person with chin-length curly brown hair wearing glasses and a dark sweater smiles at the viewer.'
       ); ?>
+        <?php echo presentation_member(
+        'Jennifer Adair ’99',
+        'https://facultyprofile.fairfield.edu/?uname=jadair',
+        null,
+        '/alums/assets/img/alums-calendar/reunion/2024-lectures/Jennifer-Adair.jpg',
+        'A smiling person with chin-length curly brown hair wearing a cowl-necked dark sweater.'
+      ); ?>
+
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
 
