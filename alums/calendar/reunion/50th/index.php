@@ -419,7 +419,7 @@ $page_info = json_decode($page_info, true);
   <h4><a href="../lectures/#enhancing-resilience-strategies-for-mental-health-at-vassar-and-beyond">Enhancing Resilience: Strategies for Mental Health at Vassar and Beyond</a></h4>
 <p><strong>Location:</strong> New England Building 206</p>
 
-  <h4><a href="../lectures/#cuba-and-america-entangled-histories-a-conversation-with-ada-ferrer-84-and-jennifer-adair-99-moderated-by-katherine-hite">“Cuba and América: Entangled Histories,” A Conversation with Ada Ferrer ’84 and Jennifer Adair ’99, moderated by Katherine Hite</a></h4>
+  <h4><a href="../lectures/#cuba-and-am-rica-entangled-histories-a-conversation-with-ada-ferrer-84-and-jennifer-adair-99-moderated-by-katherine-hite">“Cuba and América: Entangled Histories,” A Conversation with Ada Ferrer ’84 and Jennifer Adair ’99, moderated by Katherine Hite</a></h4>
 <p><strong>Location:</strong> Rockefeller 300</p>
 
     <h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum-2">Tour: Walking Tour of the Vassar College Arboretum</a></h4>
