@@ -214,11 +214,11 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <div class="animate-when-content-appears animation-slide-up">
-  <p>Transitions is a comprehensive, four-year program for first-generation, low income, and/or undocumented students, focused on building community and creating a sense of belonging.</p>
+  <p>FLI is a comprehensive, four-year program for first-generation, low income, and/or undocumented students, focused on building community and creating a sense of belonging.</p>
 
   <?php echo cta_link(
     'https://offices.vassar.edu/transitions/',
-    'Learn more about the Transitions Program'
+    'Learn more about the FLI Program'
   ); ?>
 
 </div>
