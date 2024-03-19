@@ -203,7 +203,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-  'Transitions Program',
+  'First-generation, Low Income (FLI) Program <em>(formerly the Transitions Program)</em>',
   '/admission/assets/images/explore/diversity/0097-22-08-kr-transitions-vassar-0002-crop.jpg',
   'theme-darkcoal has-bg quad-pattern light-bg-pattern-1',
   '',
