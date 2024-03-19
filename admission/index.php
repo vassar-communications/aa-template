@@ -229,7 +229,7 @@ echo sec_fixedCenteredTitle(
     <?php echo flipcard_stat(
         'First-Generation Students',
         $class_stats['1st-gen-students'],
-        'Vassar’s First-generation, Low Income (FLI) Program <em>(formerly the Transitions Program)</em> is designed to support first-generation, low-income, and undocumented students.',
+        'Vassar’s First-generation, Low Income (FLI) Program is designed to support first-generation, low-income, and undocumented students.',
         'animation-item',
         '/admission/explore/student-life/'
     );
