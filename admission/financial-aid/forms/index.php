@@ -123,7 +123,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <ul class="linked-list">
     <li><a href="https://www.cashcourse.org/">Cash Course (Financial Literacy)</a></li>
-    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2023/03/vassar-fin-aid-award-23-24-v1.pdf">Understanding your Financial Aid Letter (PDF)</a></li>
+    <li><a href="https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/docs/vassar-fin-aid-award-guide.pdf">Understanding your Financial Aid Letter (PDF)</a></li>
     <li><a href="https://offices.vassar.edu/student-financial-services/financial-aid/forms/computer/">Guidelines for Computer Purchases</a></li>
 </ul>
 <?php echo end_item_iconItem(); ?>
