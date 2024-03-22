@@ -471,21 +471,14 @@ Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student an
 
 <?php echo presentation_item(
   'A Conversation About Health, Education, and Politics in America',
-  'Rockfeller 300',
+  'Rockefeller 300',
   '4:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Join three Vassar faculty members for an exploration of modern American culture through the lenses of their scholarship and current course offerings.</p>
+    <p>Join two Vassar faculty members for an exploration of modern American culture through the lenses of their scholarship and current course offerings.</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenters'); ?>
-    <?php echo presentation_member(
-      'Sidney Plotkin',
-      'https://www.vassar.edu/faculty/plotkin',
-      'Professor of Political Science',
-      '/alums/assets/img/alums-calendar/reunion/2024-lectures/Sidney-Plotkin.jpg',
-      'A person with short white hair and a beard and mustache wearing a blue sweater over a blue shirt smiles at the viewer.'
-    ); ?>
     <?php echo presentation_member(
       'Catherine Do Tan',
       'https://www.vassar.edu/faculty/ctan',
