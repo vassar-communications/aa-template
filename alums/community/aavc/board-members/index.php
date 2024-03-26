@@ -92,7 +92,7 @@ ul.inline-list-links li a {
   <h3 class="mb-4">AAVC Trustee</h3>
 
 <div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="https://www.vassar.edu/alums/assets/img/alums-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg" alt="A person with long straight dark hair and glasses smiles at the camera." />
+  <img src="https://www.vassar.edu/alums/assets/img/alums-community/aavc/board/green-anne-aavc-alum-001.jpg" alt="A person with wavy grey-black hair pulled back from their face, a dark blue jacket over a red shirt, and a red beaded necklace smiles at the viewer." />
 </div>
 
 <ul class="clean-list-with-borders">
