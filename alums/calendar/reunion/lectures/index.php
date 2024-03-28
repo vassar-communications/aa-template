@@ -219,7 +219,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo presentation_item(
     'Walking Tour of the Vassar College Arboretum',
-    'Meet at the entrance to Main in front of Main Circle.',
+    'Meet at the entrance to Main in front of Main Circle',
     '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
@@ -391,7 +391,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo presentation_item(
   'Walking Tour of the Vassar College Arboretum',
-  'Meet at the entrance to Main in front of Main Circle.',
+  'Meet at the entrance to Main in front of Main Circle',
   '2:30 p.m.',
   null,
   '4',
