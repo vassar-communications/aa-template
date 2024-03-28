@@ -41,7 +41,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A large group of people walking along a campus road, with some banners displaying class years.']
 ); ?>
 
-  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 4s and 9s on campus for Reunion, May 31–June 2, 2024 (the 50th Reunion class arrives on May 30). Please help us prepare for your arrival by expressing your interest to attend below.</p>
+  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 4s and 9s on campus for Reunion, May 31–June 2, 2024 (the 50th Reunion class arrives on May 30).</p>
   
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -235,13 +235,13 @@ $page_info = json_decode($page_info, true);
 <strong>1974:</strong> Davison House<br />
 <strong>1979:</strong> Josselyn House<br />
 <strong>1984:</strong> Josselyn House<br />
-<strong>1989:</strong> Strong House<br />
+<strong>1989:</strong> TBD<br />
 <strong>1994:</strong> Lathrop House<br />
 <strong>1999:</strong> Cushing House<br />
 <strong>2004:</strong> Raymond House<br />
 <strong>2009:</strong> Raymond House<br />
 <strong>2014:</strong> TownHouses<br />
-<strong>2019:</strong> Noyes House</p>
+<strong>2019:</strong> TBD</p>
             </div>
         </div>
     </div>
@@ -288,9 +288,9 @@ $page_info = json_decode($page_info, true);
 <?php echo item_iconItem('Important to Know','circle-info',''); ?>
 <ul>
     <li><a href="https://www.vassar.edu/smokefree/">Vassar is a smoke-free campus</a>.</li>
-    <li>All bathrooms are gender-neutral, unless otherwise noted.</li>
-    <li>Loop technology for hearing assistance is available in the 1951 Reading Room in Thompson Library and Rockefeller Hall, Auditorium 300. FM system capability available in the Chapel.</li>
-    <li>No password needed to connect to Vassar Public Wi-Fi.</li>
+    <li>All bathrooms are gender-neutral unless otherwise noted.</li>
+    <li>Loop technology for hearing assistance is available in the 1951 Reading Room in Thompson Library, Belle Skinner Hall of Music, and Rockefeller Hall, Auditorium 300.  FM system capability is available in the Chapel.</li>
+    <li>No password needed to connect to Vassar public Wi-Fi.</li>
 </ul>
 <?php echo end_item_iconItem(); ?>
 
@@ -299,7 +299,7 @@ $page_info = json_decode($page_info, true);
 <p>At this time, we recommend all Reunion registrants will consider the following upon arrival at Reunion:</p>
 <ul>
     <li>My guests and I understand that COVID-19 is an extremely contagious virus and spreads easily through person-to-person contact and we know we are taking risks by attending in-person events.</li>
-    <li>My guests and I acknowledge that it is safer to wear a mask around others in close proximity. If my guests or I become symptomatic or test positive at any time during the event, we agree that we will leave campus and follow up with our primary health care providers or seek treatment at a medical facility in the local community.</li>
+    <li>My guests and I acknowledge that it is safer to wear a mask around others in close proximity. If my guests or I become symptomatic or test positive at any time during the event, we agree that we will leave campus and follow up with our primary healthcare providers or seek treatment at a medical facility in the local community.</li>
     <li>My guests and I will not attend if we are not feeling well.</li>
 </ul>
 <?php echo end_item_iconItem(); ?>
@@ -310,7 +310,7 @@ $page_info = json_decode($page_info, true);
 <div id="campus-facilities"></div>
 
 <?php echo sec_hasColumns(
-    'Campus Facilities Hours and Services (Tentative)',
+    'Campus Facilities Hours and Services',
     '2',
     null,
     'mw-inner-1',
@@ -319,6 +319,12 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
+    <h3>A. Scott Warthin Museum of Geology & Natural History, Ely Hall</h3>
+    <ul>
+      <li>Friday: 8:30 a.m.–5:00 p.m.</li>
+      <li>Saturday: 2:00–4:00 p.m.</li>
+    </ul>
+
 <h3>Athletic and Fitness Center</h3>
 <ul>
   <li>Friday: 7:00 a.m.–8:00 p.m.</li>
@@ -326,6 +332,37 @@ $page_info = json_decode($page_info, true);
   <li>Sunday: 10:00 a.m.–6:00 p.m.</li>
 </ul>
   <p><em>We intend to have the pool open, pending lifeguard availability. Please check back for more information.</em></p>
+
+  <h3>Frances Lehman Loeb Art Center</h3>
+  <ul>
+    <li>Friday: 10:00 a.m.–7:00 p.m.	</li>
+    <li>Saturday: 9:00 a.m.–5:00 p.m.	</li>
+    <li>Sunday: 9:00 a.m.–5:00 p.m.	</li>
+  </ul>
+
+  <h3>Music Library</h3>
+  <ul>
+    <li>Friday: 1:00–4:00 p.m.</li>
+    <li>Saturday: 10:00 a.m.–4:00 p.m.</li>
+  </ul>
+
+<h3>Olmsted Greenhouse</h3>
+<ul>
+  <li>Friday: 1:00–5:00 p.m.</li>
+  <li>Saturday:	11:00 a.m.–4:00 p.m.</li>
+</ul>
+  <p><em>Enter through the glass doors off of Vassar Lake Drive (behind Olmsted). The Greenhouse Manager will be giving tours of the collection.</em></p>
+
+
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+
+    <h3>Shabbat Services at The Bayit (51 Collegeview Avenue, North Gate)</h3>
+
+    <ul>
+      <li>Friday: 5:30–6:45 p.m.</li>
+    </ul>
 
   <h3>Street Eats food truck, outside Gordon Commons</h3>
   <ul>
@@ -341,29 +378,6 @@ $page_info = json_decode($page_info, true);
     <li>Sunday: 8:30 a.m.–noon</li>
   </ul>
 
-  <h3>Music Library</h3>
-  <ul>
-    <li>Friday: 1:00–4:00 p.m.</li>
-    <li>Saturday: 10:00 a.m.–4:00 p.m.</li>
-  </ul>
-
-  <?php echo end_item_col(); ?>
-
-  <?php echo item_col(); ?>
-
-  <h3>Frances Lehman Loeb Art Center</h3>
-  <ul>
-    <li>Friday: 10:00 a.m.–7:00 p.m.	</li>
-    <li>Saturday: 9:00 a.m.–5:00 p.m.	</li>
-    <li>Sunday: 9:00 a.m.–5:00 p.m.	</li>
-  </ul>
-
-    <h3>A. Scott Warthin Museum of Geology & Natural History, Ely Hall</h3>
-    <ul>
-      <li>Friday: 8:30 a.m.–5:00 p.m.</li>
-      <li>Saturday: 2:00–4:00 p.m.</li>
-    </ul>
-
     <h3>Vassar College Store, Juliet, Raymond Avenue</h3>
     <ul>
       <li>Thursday: 10:00 a.m.–6:00 p.m.</li>
@@ -376,12 +390,6 @@ $page_info = json_decode($page_info, true);
       </li>
     </ul>
 
-
-    <h3>Shabbat Services at The Bayit (51 Collegeview Avenue, North Gate)</h3>
-
-    <ul>
-      <li>Friday: 5:30–6:45 p.m.</li>
-    </ul>
 
   <?php echo end_item_col(); ?>
 

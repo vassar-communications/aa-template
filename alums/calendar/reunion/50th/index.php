@@ -65,7 +65,7 @@ $page_info = json_decode($page_info, true);
     'Davison Tent',
   ); ?>
   
-  <p>Refined yet relaxing dinner in “come as you are” casual attire style. Enjoy Adirondack chairs and campfires on Joss Beach and the makings for s’mores after dinner. President Bradley will be stopping to help us kick off our 50th Reunion weekend. Sit back, relax, and have a drink and dinner with friends!</p>  
+  <p>Refined yet relaxing dinner in a “come as you are” casual attire style. Enjoy Adirondack chairs and campfires on Joss beach and the makings for s’mores after dinner. President Bradley will be stopping by to help us kick off our 50th Reunion weekend. Sit back, relax, and have a drink and dinner with friends!</p>  
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -89,7 +89,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '9:30–11:30 p.m.',
-    'Lounge ’74 – Demitasse',
+    'Lounge ’74—Demitasse',
     'Davison Parlor',
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -129,15 +129,15 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '10:15 a.m.–noon',
-    'Class dedicated sneak peek of the Institute for the Liberal Arts',
+    '10:15 a.m.–Noon',
+    'Class dedicated sneak peek of The Vassar Institute for the Liberal Arts',
     'Meet in front of Davison',
   ); ?>
-  <p>Join Robert Brigham, Professor of History and the Inaugural Faculty Director of Vassar’s Institute for the Liberal Arts, and Olympia Management for a tour and presentation about Vassar’s newest community resource and a sneak peek into early Institute programming during the summer of 2024.</p>
+  <p>Join Robert Brigham, Professor of History and the Inaugural Faculty Director of The Vassar Institute for the Liberal Arts, and Olympia Management for a tour and presentation about the College’s newest community resource and a sneak peek into early Institute programming during the summer of 2024.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
-    '12:00 p.m.',
+    'Noon',
     'Worldview Inspired Buffet Lunch',
     'Alumnae House Dining Room',
   ); ?>
@@ -149,13 +149,12 @@ $page_info = json_decode($page_info, true);
     'Reflections on Coeducation at Vassar',
     'Alumnae House Living Room',
   ); ?>
-  <p>M. Glen Johnson, Professor Emeritus of Political Science<br>
-    Anne Constantinople, Professor Emerita of Psychology</p>
+  <p>M. Glen Johnson, Professor Emeritus of Political Science, and Anne Constantinople, Professor Emerita of Psychology</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     '2:00–3:00 p.m.',
-    'College-sponsored Lectures and Tours',
+    'College-Sponsored Lectures and Tours',
   ); ?>
   
       <h4><a href="../lectures/#honoring-childhood-for-96-years-at-the-wimpfheimer-nursery-school">Honoring Childhood for 96 years at the Wimpfheimer Nursery School</a></h4>
@@ -172,7 +171,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '3:30–4:30 p.m.',
-    'College-sponsored Lectures and Tours',
+    'College-Sponsored Lectures and Tours',
   ); ?>
 
       <h4><a href="../lectures/#the-road-to-an-ai-future-promises-and-pitfalls">The Road to an AI Future: Promises and Pitfalls</a></h4>
@@ -181,7 +180,7 @@ $page_info = json_decode($page_info, true);
       <h4><a href="../lectures/#sounds-and-science-grants-in-action-at-vassar">Sounds and Science: Grants in Action at Vassar</a></h4>
       <p><strong>Location:</strong> Meet at the Bridge for Laboratory Sciences Atrium (Chapel side)</p>
 
-      <h4><a href="../lectures/#michael-gross-74-flight-of-the-wasp-the-rise-fall-and-future-of-americas-original-ruling-class">Michael Gross ’74 - Flight of the Wasp: The Rise, Fall, and Future of America’s Original Ruling Class</a></h4>
+      <h4><a href="../lectures/#em-flight-of-the-wasp-the-rise-fall-and-future-of-americas-original-ruling-class-em"><em>Flight of the Wasp: The Rise, Fall, and Future of America’s Original Ruling Class</em></a></h4>
       <p><strong>Location:</strong> New England Building 206</p>
 
     <h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum">Tour: Walking Tour of the Vassar College Arboretum</a></h4>
@@ -191,17 +190,21 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '5:00–6:00 p.m.',
-    'Open House at Pratt House',
-    null,
-    null,
-    ['noContent' => true]
+    '4:00–5:00 p.m.',
+    'Labyrinth Walk and Pratt House Open House',
+    'Pratt House'
   ); ?>
+  
+  <p>Come experience the new labyrinth on campus and get a tour of Pratt House, the new hub for Religious and Spiritual Life and Contemplative Practices (RSLCP) at the College.</p>
+<p>The labyrinth tour will be hosted by Associate Professor Carolyn Palmer of Psychological Science and Katilau Mbindyo '14, an alum who advocated for a permanent labyrinth at Vassar throughout her student years.</p>
+<p>The open house will be hosted by Saba Ali, Advisor for Muslim Student Life; Rabbi Bryan Mann, Rachlin Director for Jewish Student Life and Assistant Director, RSLCP; and Rev. Sam Speers, Associate Dean of the College for RSLCP. Refreshments will be served.</p>
+
+   <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
     '5:00 p.m.',
-    'Night Owls rehearsal (tentative)',
+    'Night Owls Rehearsal',
     'Rockefeller 200'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
@@ -213,7 +216,7 @@ $page_info = json_decode($page_info, true);
     'Rockefeller 300'
   ); ?>
   
-  <p>Did you know that Main was the largest building in the country when it was completed in 1865? Or that Marcel Breuer’s masterful Ferry House was tucked behind Main so that its mid century modern design would not offend the eyes of traditionalists? Join Margaret McCurry ’64, FAIA, and Virginia Gerst ’64, veteran architecture docent, to learn about the cultural history of Vassar as seen through its architecture in this presentation, updated from a talk originally given at the Class of 64’s 50th Reunion.</p>
+  <p>Did you know that Main was the largest building in the country when it was completed in 1865? Or that Marcel Breuer’s masterful Ferry House was tucked behind Main so that its mid-century modern design would not offend the eyes of traditionalists? Join Margaret McCurry ’64, FAIA, and Virginia Gerst ’64, veteran architecture docent, to learn about the cultural history of Vassar as seen through its architecture in this presentation, updated from a talk originally given at the Class of ’64’s 50th Reunion.</p>
 
    <?php echo end_schedule_item_dropdown(); ?>
 
@@ -251,7 +254,7 @@ $page_info = json_decode($page_info, true);
     'Tropical Breezes',
     'Terrace and Bridge for Laboratory Sciences'
   ); ?>
-  <p>Join us on our own island paradise for our island buffet complete with tropical décor and signature cocktail!  Enjoy views of Skinner and the fireworks. Don’t forget to pack your favorite Hawaiian or floral outfits!</p>
+  <p>Join us on our own island paradise for our buffet complete with tropical décor and signature cocktail! Enjoy views of Skinner and the fireworks. Don’t forget to pack your favorite Hawaiian or floral outfits!</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -277,15 +280,15 @@ $page_info = json_decode($page_info, true);
     'Lounge ’74',
     'Davison Parlor',
   ); ?>
-<p>Join us for Throwback ’70’s Soul Night</p>
+<p>Join us for throwback ’70s Soul Night</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
-    '10:00 p.m.–midnight',
+    '10:00 p.m.–Midnight',
     'The Mug',
     'Lower Level, College Center'
   ); ?>
-  <p>Join us at the Mug for music from the 80’s and 90’s. Don’t forget to wait in line. Everyone 21 and older are welcome. Cash bar, DJ, and dancing.</p>
+  <p>Join us at the Mug for music from the 80’s and 90’s. Don’t forget to wait in line. Everyone 21 and older is welcome. Cash bar, DJ, and dancing.</p>
   <?php echo end_schedule_item_dropdown(); ?>
   
   <?php echo schedule_item_dropdown(
@@ -294,9 +297,8 @@ $page_info = json_decode($page_info, true);
     'Rosenwald Theater, Vogelstein Center for Drama and Film'
   ); ?>
 
-  <p>1966 American ensemble film directed by Sidney Lumet based on the 1963 novel of the same name by Mary McCarthy about the lives of a group of eight female graduates from Vassar from 1933 to 1940.</p>
-
-<p><em>Eight young women from the Vassar College class of 1933 rush out into the world to find exciting lives, but discover nothing is quite as they dreamed. Rather than blazing trails in art, science, and literature, the friends are each variously burdened with disappointing relationships, children, aging parents, and unemployment. Kay Strong (Joanna Pettet), the center of the group, gradually loses faith in the promise of their lives and, as war approaches, becomes unhinged.</em>.</p>
+  <p>Based on the 1963 novel of the same name, this 1966 American ensemble film directed by Sidney Lumet follows the lives of a group of eight female graduates from Vassar from 1933 to 1940.</p>
+<p>MATURE AUDIENCES ONLY</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -335,9 +337,9 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '10:30 a.m.',
-    'Parade of Classes Line-up'
+    'Line Up for Parade of Classes'
   ); ?>
-  <p>Line up for Parade of Classes (line starts with 1954 at the chapel along the path and road, ending with 2019). Look for your class banner along the parade route. Golf carts will be available. Class photo opportunity at the start of the parade.</p>
+  <p>Line starts with 1954 at the chapel along the path and ends with 2019. Look for your class banner along the parade route. Golf carts will be available. Class photo opportunity at the start of the parade.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -404,10 +406,10 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '2:30–3:30 p.m.',
-    'College-sponsored Lectures and Tours'
+    'College-Sponsored Lectures and Tours'
   ); ?>
 
-  <h4><a href="../lectures/#paula-williams-madison-74-finding-samuel-lowe-from-harlem-to-china">Paula Williams Madison ’74 - Finding Samuel Lowe: From Harlem to China</a></h4>
+  <h4><a href="../lectures/#paula-williams-madison-74-finding-samuel-lowe-from-harlem-to-china">Paula Williams Madison ’74—Finding Samuel Lowe: From Harlem to China</a></h4>
 <p><strong>Location:</strong> Rosenwald Screening Room in Vogelstein Center for Drama and Film</p>
 
   <h4><a href="../lectures/#celebrating-the-alumnae-house-centennial-honoring-the-past-reimagining-the-future">Celebrating the Alumnae House Centennial: Honoring the Past, Reimagining the Future</a></h4>
@@ -419,7 +421,7 @@ $page_info = json_decode($page_info, true);
   <h4><a href="../lectures/#enhancing-resilience-strategies-for-mental-health-at-vassar-and-beyond">Enhancing Resilience: Strategies for Mental Health at Vassar and Beyond</a></h4>
 <p><strong>Location:</strong> New England Building 206</p>
 
-  <h4><a href="../lectures/#cuba-and-am-rica-entangled-histories-a-conversation-with-ada-ferrer-84-and-jennifer-adair-99-moderated-by-katherine-hite">“Cuba and América: Entangled Histories,” A Conversation with Ada Ferrer ’84 and Jennifer Adair ’99, moderated by Katherine Hite</a></h4>
+  <h4><a href="../lectures/#cuba-and-am-rica-entangled-histories-a-conversation-with-ada-ferrer-84-and-jennifer-adair-99-moderated-by-katherine-hite">Cuba and América: Entangled Histories, A Conversation with Ada Ferrer ’84 and Jennifer Adair ’99, moderated by Katherine Hite</a></h4>
 <p><strong>Location:</strong> Rockefeller 300</p>
 
     <h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum-2">Tour: Walking Tour of the Vassar College Arboretum</a></h4>
@@ -475,16 +477,16 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '4:00–5:00 p.m.',
-    'College-sponsored Lectures and Tours'
+    'College-Sponsored Lectures and Tours'
   ); ?>
 
-  <h4><a href="../lectures/#stop-making-sense-the-art-of-inspiring-anybody">Stop Making Sense: The Art of Inspiring Anybody</a></h4>
+  <h4><a href="../lectures/#em-stop-making-sense-the-art-of-inspiring-anybody-em"><em>Stop Making Sense: The Art of Inspiring Anybody</em></a></h4>
 <p><strong>Location:</strong> Rockefeller 210</p>
 
   <h4><a href="../lectures/#a-conversation-about-health-education-and-politics-in-america">A Conversation About Health, Education, and Politics in America</a></h4>
 <p><strong>Location:</strong> Rockefeller 300</p>
 
-    <h4><a href="../lectures/#sneak-peek-at-the-institute-for-the-liberal-arts">Tour: Sneak Peek at the Institute for the Liberal Arts</a></h4>
+    <h4><a href="../lectures/#sneak-peek-at-the-vassar-institute-for-the-liberal-arts">Tour: Sneak Peek at The Vassar Institute for the Liberal Arts</a></h4>
     <p><strong>Location:</strong> Meet at Chicago Hall Gate</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
@@ -509,7 +511,7 @@ $page_info = json_decode($page_info, true);
     <?php echo schedule_item_dropdown(
     '6:15 p.m.',
     'Class Photo',
-    'Rockefeller steps (facing the Library); Rain location - Library lobby'
+    'Rockefeller steps (facing the library); Rain location—library lobby'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
 
@@ -531,7 +533,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '10:00 p.m.–midnight',
+    '10:00 p.m.–Midnight',
     '1974 Hospitality',
     'Davison Multipurpose Room',
   ); ?>
@@ -540,7 +542,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '10:00 p.m.–midnight',
+    '10:00 p.m.–Midnight',
     'Lounge ’74',
     'Davison Parlor',
   ); ?>
@@ -552,6 +554,7 @@ $page_info = json_decode($page_info, true);
     'All-class Dance Party',
     'Noyes Circle Tent'
   ); ?>
+      <p>Cash bar, DJ, and dancing to a multigenerational playlist.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -560,7 +563,7 @@ $page_info = json_decode($page_info, true);
   <?php echo schedule_item_dropdown(
     '7:30 a.m.–noon',
     'Breakfast/Brunch',
-    'Gordon Commons (formerly ACDC)',
+    'Gordon Commons',
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -616,7 +619,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '1:00 p.m.',
-    'Reunion adjourns/check-out'
+    'Reunion adjourns/Check-Out'
   ); ?>
   <p>Please return room keys to Guest Services Coordinators in residence halls.</p>
   <?php echo end_schedule_item_dropdown(); ?>
