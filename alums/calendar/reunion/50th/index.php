@@ -133,7 +133,7 @@ $page_info = json_decode($page_info, true);
     'Class dedicated sneak peek of The Vassar Institute for the Liberal Arts',
     'Meet in front of Davison',
   ); ?>
-  <p>Join Robert Brigham, Professor of History and the Inaugural Faculty Director of The Vassar Institute for the Liberal Arts, and Olympia Management for a tour and presentation about the College’s newest community resource and a sneak peek into early Institute programming during the summer of 2024.</p>
+  <p>Join Robert Brigham, Professor of History and the Inaugural Faculty Director of The Vassar Institute for the Liberal Arts, and Olympia Management for a tour and presentation about the College’s newest community resource and a sneak peek into early Institute programming.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
