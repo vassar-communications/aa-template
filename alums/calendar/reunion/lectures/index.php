@@ -424,7 +424,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo presentation_item(
   'Intergenerational Dialogue: Life Survival Hacks and Vassar Experiences',
-  'Gordon Commons, 2nd floor UpCDC',
+  'Gordon Commons (formerly ACDC), 2nd floor UpCDC',
   '4:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
@@ -438,7 +438,7 @@ Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student an
       'https://www.vassar.edu/alums/community/aavc/board-members/aavc-ad-hoc-student-young-alums-engagement-committee-chair/',
       'AAVC Board member and Chair of the Student and Young Alumnae/i Engagement Committee (SYAEC)',
       '/alums/assets/img/alums-calendar/reunion/2024-lectures/Ellie-Winter.jpg',
-      'A person with shoulder length curly black hair wearing glasses and a black suit jacket smiles at the viewer.'
+      'A person with shoulder-length curly black hair wearing glasses and a black suit jacket smiles at the viewer.'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
