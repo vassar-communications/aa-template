@@ -29,7 +29,7 @@
     'stretched-link'
   ); ?>
 
-<?php echo end_carousel_item(); ?>
+<?php echo end_carousel_item(); ?> 
 
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2024-03-28/spotlight/rollie_mckenna_4x3_resized.jpg',
