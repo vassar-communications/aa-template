@@ -121,7 +121,7 @@ $page_info = json_decode($page_info, true);
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><a href="https://www.newyorklife.com/newsroom/first-female-director">Author <strong>Mildred McAfee Horton</strong>, class of 1920, was the first female director of the New York Life Insurance Company, as noted by the company</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><a href="https://www.mmm-online.com/home/channel/medical-advertising-hall-of-fame-chapman-michaelson/"><strong>David Chapman ’75, P ’15, ’20</strong> was inducted into the Medical Advertising Hall of Fame, as noted by Medical Marketing and Media</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><a href="https://www.mmm-online.com/home/channel/medical-advertising-hall-of-fame-chapman-michaelson/"><strong>David Chapman ’75, P’15, ’20</strong> was inducted into the Medical Advertising Hall of Fame, as noted by Medical Marketing and Media</a>.</p></div>
 
 
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.cbsnews.com/gooddaysacramento/video/rescue-me-at-the-b-street-theater/#x"><em>Rescue Me</em>, the B Street Theater comedy featuring actor <strong>Caroline Kinsolving ’03</strong>, was mentioned by Fox 40 and CBS News in Sacramento</a>.</p></div>
