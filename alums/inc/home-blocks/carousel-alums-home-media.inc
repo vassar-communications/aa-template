@@ -2,6 +2,80 @@
 $media_carousel_path = '/alums/assets/img/alums-home/news-and-spotlight/';
 echo carousel( '', 'alums-media-carousel' ); ?>
 
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-03-28/in-the-media/jess_chong_4x3_resized.jpg',
+    'is-link',
+    'A person with long black hair and a blue striped shirt stands in front of a large body of water, arms folded, smiling at the viewer.'
+  ); ?>
+
+  <p><strong>Jess Chong ’08</strong> gave <em>Global News</em> an insider’s view of <em>Survivor</em> after competing on the show’s 46th season.</p>
+  <p><em>Photo: Robert Voets/CBS</em></p>
+  <?php echo cta_link(
+  'https://globalnews.ca/news/10311172/survivor-season-46-jess-chong-toronto/',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-03-28/in-the-media/mike_schmidt_4x3_resized.jpg',
+    'is-link',
+    'A person with short brown hair and beard looks at the viewer. The person is wearing a gray suit and a blue tie.'
+  ); ?>
+
+  <p>District Attorney <strong>Mike Schmidt ’03</strong> discussed amending Portland’s failed drug decriminalization policy on <em>The New York Times</em> podcast <em>The Daily</em>.</p>
+  <p><em>Photo: Courtesy of the subject</em></p>
+  <?php echo cta_link(
+  'https://www.nytimes.com/2024/03/12/podcasts/the-daily/oregon-drugs.html',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-03-28/in-the-media/ellen_galinsky_4x3_resized.jpg',
+    'is-link',
+    'A person with long brown hair, round hoop earrings, and a black leather jacket smiles at the viewer.'
+  ); ?>
+
+  <p>Author <strong>Ellen Galinsky ’64</strong>, President and Founder of the Families and Work Institute, wrote a <em>Los Angeles Times</em> op-ed about mental health and Gen Z.</p>
+  <p><em>Photo: Courtesy of the subject</em></p>
+  <?php echo cta_link(
+  'https://www.latimes.com/opinion/story/2024-02-16/youth-mental-health-crisis-gen-z-discrimination-stereotype-depression',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php echo carousel_item(
     $media_carousel_path.'/2024-02-22/in-the-media/christmas_4x3.jpg',
     'is-link',
@@ -34,51 +108,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 <?php echo end_carousel_item(); ?>
 
 
-<?php echo carousel_item(
-    $media_carousel_path.'/2024-02-22/in-the-media/cruz_4x3.jpg',
-    'is-link',
-    'A person with short, black, curly hair and a patterned black-and-orange shirt speaks into a microphone at an event.'
-  ); ?>
-
-  <p><em>The Black Joy Project: A Literary and Visual Love Letter to How We Thrive</em> by <strong>Kleaver Cruz ’11</strong> is “captivating” and “remarkable,” says <em>Essence</em> magazine.</p>
-  <p><em>Photo: Roman Iwasiwka</em></p>
-  <?php echo cta_link(
-  'https://www.essence.com/entertainment/the-black-joy-project-literary-visual-celebration-black-resilience/',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
 
 
-<?php echo carousel_item(
-    $media_carousel_path.'/2024-02-22/in-the-media/rubin_4x3.jpg',
-    'is-link',
-    'A person with short straight gray hair, glasses, and a white shirt smiles at the viewer. The person is standing in front of a brick wall, into which is set an alcove containing the metal bust of a person with long hair and a 19th-century dress.'
-  ); ?>
-
-  <p>Renowned astronomer <strong>Vera Rubin ’48</strong> was the subject of an <em>Astronomy</em> magazine story.</p>
-  <p><em>Photo: Will Faller</em></p>
-  <?php echo cta_link(
-  'https://www.astronomy.com/science/vera-rubin-found-a-lifetime-of-wonder-in-the-dark-skies/',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2024-01-11/in-the-media/Jonathan_Karl_Capitol_ABC-News.jpg',
-    'is-link',
-    'A photo of a person with short brown hair, glasses, a blue suit jacket, and a formal shirt and tie smiles at the viewer. The person is standing in front of the United States Capitol building, a classical building with a dome.'
-  ); ?>
-
-  <p>Author and ABC News Chief Washington Correspondent <strong>Jonathan Karl ’90</strong> was a guest on Preet Bharara’s podcast, <em>Stay Tuned with Preet</em>.</p>
-  <p><em>Photo: Courtesy of ABC News</em></p>
-  <?php echo cta_link(
-  'https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vVk1QNTQ4OTczNDcwMg/episode/MWIxZjVlYTgtMzUyYy0xMWVkLWExODEtY2ZlY2RjMjMyNTMy?ep=14',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
 
 <?php echo end_carousel(); ?>

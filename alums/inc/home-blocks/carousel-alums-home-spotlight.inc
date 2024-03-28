@@ -13,22 +13,112 @@
   echo carousel( '', 'alums-carousel' );
 ?>
 
+
 <?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2024-02-22/spotlight/new_trustees_4x3.jpg',
+  $alums_spotlight_itm_path.'/2024-03-28/spotlight/admin_fellows_zickl_4x3_resized.jpg',
   'is-link',
-  'An image divided into two photos. The left photo is of a person with long, straight, gray hair and a black shirt, smiling at the camera. The right photo is of a person with long, straight, brown hair, glasses, and a navy-blue sleeveless shirt smiling at the camera.'
+  'A person with long brown hair and a maroon athletic sweater stands outside in front of an athletic net, holding a ball in one hand and a helmet in the other.'
 ); ?>
-  <h3 class="h3">Vassar Gains Two New Trustees</h3>
-  <p>Jennifer Haas ’94 (left) and Delia Cheung Hom ’00 bring unique talents and backgrounds to the board.</p>
-  <p><em>Photo: Courtesy of the subjects</em></p>
+  <h3 class="h3">Administrative Fellowship Program Develops Leadership Capacity for Higher Ed and Other Key Fields</h3>
+  <p>Claire Zickl ’23 (pictured) is a President’s Administrative Fellow for Student Athlete Welfare and Compliance.</p>
+  <p><em>Photo: Grace Adams Ward ’24</em></p>
 
   <?php echo cta_link(
-    'https://www.vassar.edu/news/vassar-gains-two-new-trustees',
+    'https://www.vassar.edu/news/administrative-fellowships-a-unique-opportunity-for-recent-vassar-grads',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?> 
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2024-03-28/spotlight/rollie_mckenna_4x3_resized.jpg',
+  'is-link',
+  'A black-and-white historical photo of a person with long hair, holding a camera and looking up.'
+); ?>
+  <h3 class="h3">A Vassar Homecoming for Photographer Rollie McKenna ’40</h3>
+  <p>The alum’s work is on view at the Loeb Art Center until June 2.</p>
+  <p><em>Photo: © The Rosalie Thorne McKenna Foundation, Courtesy Center for Creative Photography, The University of Arizona Foundation</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/vassar-homecoming-photographer-rollie-mckenna-40',
     'Read more',
     'stretched-link'
   ); ?>
 
 <?php echo end_carousel_item(); ?>
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2024-03-28/spotlight/simmons_4x3_resized.jpg',
+  'is-link',
+  'A person with long brown hair and a black-and-white-patterned shirt sits in a room at a table surrounded by other people, speaking.'
+); ?>
+  <h3 class="h3">A Winding Path Will Get You There</h3>
+  <p>Rachel Simmons ’96, author and founder of the nonprofit Girls Leadership, offered career advice to students during campus visit.</p>
+  <p><em>Photo: Kelly Marsh</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/alum-students-winding-path-will-get-you-there',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2024-03-28/spotlight/thurman_gaines_4x3_resized.jpg',
+  'is-link',
+  'An image divided into two photos. The left photo is a black-and-white historical photo of a person with short black hair, a thin mustache, and a dark suit and tie. The right photo is a contemporary color image of a person with mid-length graying black hair, a floral patterned shirt, and a pearl necklace.'
+); ?>
+  <h3 class="h3">Student Research Reveals Surprising Legacy of Rev. Howard Thurman at Vassar</h3>
+  <p>The panel discussed the noted theologian and his influence. Billie Davis Gaines ’58 (right) was among those who remembered him.</p>
+  <p><em>Photo: National Institutes of Health and Dmitri Kasterine</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/surprising-legacy-black-theologian-rev-howard-thurman-vassar',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2024-02-22/spotlight/how_to_dance_4x3.jpg',
@@ -47,6 +137,9 @@
 
 <?php echo end_carousel_item(); ?>
 
+
+
+
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2024-02-22/spotlight/jan_farrington_4x3.jpg',
   'is-link',
@@ -64,22 +157,7 @@
 
 <?php echo end_carousel_item(); ?>
 
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2024-02-22/spotlight/fulbright_4x3.jpg',
-  'is-link',
-  'An image divided into two photos. The left photo is of a person with long, straight brown hair, smiling at the camera. The right photo is of a person with mid-length light-brown hair and a black shirt, smiling at the camera.'
-); ?>
-  <h3 class="h3">Vassar Named Top Producer of Fulbright Students</h3>
-  <p>Four alums received awards this year, including Chase Bradley Estes ’22 (left) and Malinda Marie Smith ’23.</p>
-  <p><em>Photo: Courtesy of the subjects</em></p>
 
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/vassar-named-top-producer-of-fulbright-students',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
 
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2024-02-22/spotlight/schwarzman_scholarships_4x3.jpg',
@@ -92,23 +170,6 @@
 
   <?php echo cta_link(
     'https://www.vassar.edu/news/two-vassar-grads-embark-on-study-in-china-after-winning-prestigious-schwarzman-scholarships',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2024-02-09/spotlight/emma_kr.jpg',
-  'is-link',
-  'Four people sitting in front of a chalkboard, with one person in the center speaking, motioning with their hands.'
-); ?>
-  <h3 class="h3">Sophomore Career Connections 2024</h3>
-  <p>This year, SCC celebrated its 10th anniversary and offered more than 250 students the opportunity to network and exchange industry information with 100+ mentors.</p>
-  <p><em>Photo: Karl Rabe</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/sophomore-career-connections-2024',
     'Read more',
     'stretched-link'
   ); ?>
