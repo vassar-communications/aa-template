@@ -288,7 +288,7 @@ $page_info = json_decode($page_info, true);
     'The Mug',
     'Lower Level, College Center'
   ); ?>
-  <p>Join us at the Mug for music from the 80’s and 90’s. Don’t forget to wait in line. Everyone 21 and older is welcome. Cash bar, DJ, and dancing.</p>
+  <p>Join us at the Mug for music from the 80s and 90s. Don’t forget to wait in line. Everyone 21 and older is welcome. Cash bar, DJ, and dancing.</p>
   <?php echo end_schedule_item_dropdown(); ?>
   
   <?php echo schedule_item_dropdown(
@@ -364,7 +364,7 @@ $page_info = json_decode($page_info, true);
   <?php echo schedule_item_dropdown(
     '12:30–1:00 p.m.',
     'Class Memorial Gathering',
-    'Class Tree, in front of Swift Hall'
+    'Class tree, in front of Swift Hall'
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -551,7 +551,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '10:00 p.m.–1:00 a.m.',
-    'All-class Dance Party',
+    'All Class After Party in Noyes Circle Tent',
     'Noyes Circle Tent'
   ); ?>
       <p>Cash bar, DJ, and dancing to a multigenerational playlist.</p>
@@ -563,7 +563,7 @@ $page_info = json_decode($page_info, true);
   <?php echo schedule_item_dropdown(
     '7:30 a.m.–noon',
     'Breakfast/Brunch',
-    'Gordon Commons',
+    'Gordon Commons (formerly ACDC)',
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -612,7 +612,7 @@ $page_info = json_decode($page_info, true);
       'The Chapel'
     ); ?>
     
-    <p>An inter-religious service drawing upon religious and humanist traditions to honor and celebrate the women and men of our reuning classes who have died since last reunions, as well as faculty, administrators, and staff who have died. This year<strong> Katilau Mbindyo ’14</strong> will give the memorial address. Mbindyo is a Mkamba PhD Candidate at Harvard University’s African American Studies Department, writing on Akamba traditional interpretations of the Anthropocene epoch. After graduating from Vassar with a major in Italian, she received her Master of Divinity (M.Div.) from Union Theological Seminary in New York City. The Alumnae/i Choir will sing, directed by Gail Archer, College Organist.</p>
+    <p>An inter-religious service drawing upon religious and humanist traditions to honor and celebrate the women and men of our reuning classes who have died since the last reunion, as well as faculty, administrators, and staff who have died. This year<strong> Katilau Mbindyo ’14</strong> will give the memorial address. Mbindyo is a Mkamba PhD Candidate at Harvard University’s African American Studies Department, writing on Akamba traditional interpretations of the Anthropocene epoch. After graduating from Vassar with a major in Italian, she received her Master of Divinity (M.Div.) from Union Theological Seminary in New York City. The Alumnae/i Choir will sing, directed by Gail Archer, College Organist.</p>
 
     <?php echo end_schedule_item_dropdown(); ?>
 

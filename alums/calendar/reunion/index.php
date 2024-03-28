@@ -107,7 +107,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'College-sponsored Lectures and Tours',
+    'College-Sponsored Lectures and Tours',
     $alums_img_path.'alums-calendar/reunion/52129387193_a6f8dcfc89_k.jpg',
     '',
     '',
