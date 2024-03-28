@@ -184,7 +184,7 @@ $page_info = json_decode($page_info, true);
       <p><strong>Location:</strong> New England Building 206</p>
 
     <h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum">Tour: Walking Tour of the Vassar College Arboretum</a></h4>
-    <p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
+    <p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -425,7 +425,7 @@ $page_info = json_decode($page_info, true);
 <p><strong>Location:</strong> Rockefeller 300</p>
 
     <h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum-2">Tour: Walking Tour of the Vassar College Arboretum</a></h4>
-    <p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
+    <p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
