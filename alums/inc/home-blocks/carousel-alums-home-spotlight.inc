@@ -31,24 +31,6 @@
 
 <?php echo end_carousel_item(); ?>
 
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2024-03-28/spotlight/admin_fellows_zickl_4x3_resized.jpg',
-  'is-link',
-  'A person with long brown hair and a maroon athletic sweater stands outside in front of an athletic net, holding a ball in one hand and a helmet in the other.'
-); ?>
-  <h3 class="h3">Administrative Fellowship Program Develops Leadership Capacity for Higher Ed and Other Key Fields</h3>
-  <p>Claire Zickl ’23 (pictured) is a President’s Administrative Fellow for Student Athlete Welfare and Compliance.</p>
-  <p><em>Photo: Grace Adams Ward ’24</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/administrative-fellowships-a-unique-opportunity-for-recent-vassar-grads',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2024-03-28/spotlight/rollie_mckenna_4x3_resized.jpg',
   'is-link',
