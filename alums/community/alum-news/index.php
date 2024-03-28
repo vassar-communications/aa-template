@@ -65,7 +65,7 @@ $page_info = json_decode($page_info, true);
         ['url' => $logos_path.'the-daily-album-logo.png', 'alt' => 'The Daily logo, white text with a stylized T in the lower left corner, on a blue to yellow gradient background.' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p>District <strong>Attorney Mike Schmidt ’03</strong> discussed amending Portland’s failed drug decriminalization policy on <em>The New York Times</em> podcast <em>The Daily</em>.</p>
+      <p>District Attorney <strong>Mike Schmidt ’03</strong> discussed amending Portland’s failed drug decriminalization policy on <em>The New York Times</em> podcast <em>The Daily</em>.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -77,7 +77,7 @@ $page_info = json_decode($page_info, true);
         ['url' => $logos_path.'Alta-logo.png', 'alt' => 'Alta logo, black serif text on a light grey background.' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p>Flickr co-founder <strong>Caterina Fake ’91</strong> was a special guest on the February California Book Club, as noted by Alta.</p>
+        <p>Flickr co-founder <strong>Caterina Fake ’91</strong> was a special guest on the February California Book Club, as noted by <em>Alta</em>.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -89,7 +89,7 @@ $page_info = json_decode($page_info, true);
         ['url' => $logos_path.'Urban-News-logo.png', 'alt' => 'the Urban News logo, lowercase word the in a white script font slightly overlapping all uppercase words Urban News in a white block font outlined in red.' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p>Actor and storyteller <strong>Becky Stone ’70</strong> will play the remarkable Dr. Pauli Murray, lawyer, founder of the National Organization for Women, and labor, civil rights, and women’s rights advocate, as announced by Urban News.</p>
+      <p>Actor and storyteller <strong>Becky Stone ’70</strong> will play the remarkable Dr. Pauli Murray, lawyer, founder of the National Organization for Women, and labor, civil rights, and women’s rights advocate, as announced by <em>Urban News</em>.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -112,7 +112,7 @@ $page_info = json_decode($page_info, true);
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><a href="https://www.latimes.com/opinion/story/2024-02-16/youth-mental-health-crisis-gen-z-discrimination-stereotype-depression"><strong>Ellen Galinsky ’64</strong>, author, President and Founder of the Families and Work Institute, and Co-Director of the Civic Service Center at the University of Minnesota, wrote a <em>Los Angeles Times</em> op-ed about mental health and Gen Z</a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://globalnews.ca/news/10311172/survivor-season-46-jess-chong-toronto/"><strong>Jess Chong ’08</strong> gave Global News an insider’s view of <em>Survivor</em></a> after competing on the show’s 46th season.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://globalnews.ca/news/10311172/survivor-season-46-jess-chong-toronto/"><strong>Jess Chong ’08</strong> gave <em>Global News</em> an insider’s view of <em>Survivor</em></a> after competing on the show’s 46th season.</p></div>
 
 
 <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://www.theguardian.com/games/2024/feb/13/she-was-a-beautiful-nerd-a-tribute-to-game-designer-laralyn-mcwilliams"><strong>Laralyn McWilliams ’87</strong>, Creative Director of Free Realms and Game Developers Choice Lifetime Achievement Award recipient, was remembered by <em>The Guardian</em></a>.</p></div>
@@ -121,7 +121,7 @@ $page_info = json_decode($page_info, true);
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><a href="https://www.newyorklife.com/newsroom/first-female-director">Author <strong>Mildred McAfee Horton</strong>, class of 1920, was the first female director of the New York Life Insurance Company, as noted by the company</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><a href="https://www.mmm-online.com/home/channel/medical-advertising-hall-of-fame-chapman-michaelson/"><strong>David Chapman ’75, P’15 P’20</strong> was inducted into the Medical Advertising Hall of Fame, as noted by Medical Marketing and Media</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><a href="https://www.mmm-online.com/home/channel/medical-advertising-hall-of-fame-chapman-michaelson/"><strong>David Chapman ’75, P ’15, ’20</strong> was inducted into the Medical Advertising Hall of Fame, as noted by Medical Marketing and Media</a>.</p></div>
 
 
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.cbsnews.com/gooddaysacramento/video/rescue-me-at-the-b-street-theater/#x"><em>Rescue Me</em>, the B Street Theater comedy featuring actor <strong>Caroline Kinsolving ’03</strong>, was mentioned by Fox 40 and CBS News in Sacramento</a>.</p></div>
@@ -150,7 +150,7 @@ $page_info = json_decode($page_info, true);
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27"><a href="https://list23.com/3717970-let-them-eat-candles-shark-tank-update-is-the-premiere-episode-of-melted-candles-with-no-adequate-st/"><strong>Loree Sandler ’86</strong>, the creator of Let Them Eat Candles, was the subject of a list23.com story</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="28" data-line-end="29"><a href="https://www.hercampus.com/school/cal-poly/computer-science-was-started-by-a-woman/">Computer pioneer Rear Admiral <strong>Grace Hopper</strong>, class of 1928, was the subject of a Her Campus story</a>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="28" data-line-end="29"><a href="https://www.hercampus.com/school/cal-poly/computer-science-was-started-by-a-woman/">Computer pioneer Rear Admiral <strong>Grace Hopper</strong>, class of 1928, was the subject of a <em>Her Campus</em> story</a>.</p></div>
 
 
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="30" data-line-end="31"><a href="https://www.boston25news.com/news/local/mass-students-unsure-about-college-due-fear-financial-burden-family-earn-full-scholarships/AQ52NDN5BZAKXN7QHOZXUYJCA4/"><strong>Miguel Gomez ’28</strong> was quoted in a Boston 25 News story</a> about how his full ride to Vassar is allowing him to attend a top college without worry about the financial burden.</p></div>

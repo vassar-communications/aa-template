@@ -69,7 +69,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '12:00 p.m.',
+    'Noon',
     'Jummah Service',
     'Pratt House'
   ); ?>
@@ -236,17 +236,16 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '7:30–9:00 a.m.',
-    'Breakfast'
+    'Breakfast',
+    'Gordon Commons (formerly ACDC)',
   ); ?>
-<p>Available at Gordon Commons (formerly ACDC)</p>
-
 <p><strong>Alumnae House Guests:</strong> Continental breakfast in the Dining Room</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     '8:00–10:00 a.m.',
-    'Breakfast for the Classes of 1959, 1964, and 1969',
+    'Classes of 1959, 1964, and 1969',
     'Jewett Multipurpose Rooms'
   ); ?>
   
@@ -315,7 +314,7 @@ $page_info = json_decode($page_info, true);
   ); ?>
 <p><strong>Classes of 1948/49, 1954, 1959, and 1964:</strong> Main Building, Villard Room</p>
 <p><strong>Class of 1969:</strong> Sunset Lake Tent</p>
-<p><strong>Classes of 1979, 1984, 1989, 1994, 1999, 2004, 2009, 2014, and 2019:</strong> Gordon Commons</p>
+<p><strong>Classes of 1979, 1984, 1989, 1994, 1999, 2004, 2009, 2014, and 2019:</strong> Gordon Commons (formerly ACDC)</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -405,7 +404,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '2:30–4:30 p.m.',
-    'Family activities on the Quad lawn'
+    'Family Activities on the Quad lawn'
   ); ?>
     <p>Bubble bus, bouncy castles</p>
 	<p>A Day in the Park, The Wimpfheimer</p>
@@ -455,7 +454,7 @@ $page_info = json_decode($page_info, true);
   ); ?>
 
   <h4><a href="../lectures/#intergenerational-dialogue-life-survival-hacks-and-vassar-experiences">Intergenerational Dialogue: Life Survival Hacks and Vassar Experiences</a></h4>
-<p><strong>Location:</strong> Gordon Commons, 2nd floor UpCDC</p>
+<p><strong>Location:</strong> Gordon Commons (formerly ACDC), 2nd floor UpCDC</p>
 
   <h4><a href="../lectures/#em-stop-making-sense-the-art-of-inspiring-anybody-em"><em>Stop Making Sense: The Art of Inspiring Anybody</em></a></h4>
 <p><strong>Location:</strong> Rockefeller 210</p>
@@ -531,14 +530,14 @@ $page_info = json_decode($page_info, true);
   		<p><strong>1999:</strong> Cushing Tent</p>
   		<p><strong>2004:</strong> Sunset Lake Tent</p>
   		<p><strong>2009:</strong> Fergusson Quadrangle sunken lawn (outside Center for Drama and Film)</p>
-  		<p><strong>2014:</strong> TownHouse Tent</p>
+  		<p><strong>2014:</strong> Town House Tent</p>
   		<p><strong>2019:</strong> Noyes Circle Tent</p>
     <?php echo end_schedule_item_dropdown(); ?>
 
 
       <?php echo schedule_item_dropdown(
         '10:00 p.m–1:00 a.m.',
-        'All-class after party on Noyes Circle'
+        'All Class After Party in Noyes Circle Tent'
       ); ?>
       <p>Cash bar, DJ, and dancing to a multigenerational playlist.</p>
       <?php echo end_schedule_item_dropdown(); ?>
@@ -548,9 +547,9 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '7:30 a.m–noon',
-    'Breakfast/brunch',
-    'Gordon Commons',
+    '7:30 a.m–Noon',
+    'Breakfast/Brunch',
+    'Gordon Commons (formerly ACDC)',
   ); ?>
 		<p><strong>Alumnae House Guests:</strong> Continental breakfast in the Dining Room</p>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -577,7 +576,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '8:45 a.m.',
-    'Choir rehearsal',
+    'Choir Rehearsal',
     'The Chapel'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>

@@ -94,7 +94,7 @@ $page_info = json_decode($page_info, true);
     ['alternate_id' => 'vassar-preserve-environmental-cooperative']
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Conservation, sustainability, and an exploration of the natural world are all core values at Vassar. Learn about one of the College’s greatest gems at this talk about the Preserve at Vassar.  The talk will take place at the Vassar Barns and will be followed by an optional guided walking tour of the Preserve at 3:30&nbsp;p.m. (weather permitting). Sensible shoes and long pants are strongly suggested.</p>
+      <p>Conservation, sustainability, and an exploration of the natural world are all core values at Vassar. Learn about one of the College’s greatest gems at this talk about the Preserve at Vassar. The talk will take place at the Vassar Barns and will be followed by an optional guided walking tour of the Preserve at 3:30&nbsp;p.m. (weather permitting). Sensible shoes and long pants are strongly suggested.</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenters'); ?>
@@ -122,7 +122,7 @@ $page_info = json_decode($page_info, true);
     '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Recent advances in one form of artificial intelligence (Large Language Models or LLMs) have raised important questions about how these systems might change how we live and work. We will consider the range of ways in which the emergence of LLM technology could change how humans think and interact with one another, potentially changing not only our social, economic, and political lives, but quite possibly our private lives as well. Is it possible to manage the emergence of this new technology into human life in a way that enhances our humanity for the long term rather than diminishing or even destroying it?</p>
+      <p>Recent advances in one form of artificial intelligence (Large Language Models or LLMs) have raised important questions about how these systems might change how we live and work. We will consider the range of ways in which the emergence of LLM technology could change how humans think and interact with one another, potentially changing not only our social, economic, and political lives but quite possibly our private lives as well. Is it possible to manage the emergence of this new technology into human life in a way that enhances our humanity for the long term rather than diminishing or even destroying it?</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenter'); ?>
@@ -143,7 +143,7 @@ $page_info = json_decode($page_info, true);
     '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Join us for a field trip to the Bridge for Laboratory Sciences to visit the college’s new state-of-the-art confocal microscope; and to Skinner Hall’s Dickinson Music Library to learn about the digitization of 80 years of Vassar music-making—both made possible by highly competitive extramural grants.</p>
+      <p>Join us for a field trip to the Bridge for Laboratory Sciences to visit the college’s new state-of-the-art confocal microscope and to Skinner Hall’s Dickinson Music Library to learn about the digitization of 80 years of Vassar music-making—both made possible by highly competitive extramural grants.</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Facilitators'); ?>
