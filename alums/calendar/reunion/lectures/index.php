@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"College-sponsored Lectures and Tours",
+  "page_title":"College-Sponsored Lectures and Tours",
   "page_classes":"",
   "feature_image":"/alums/assets/img/alums-calendar/reunion/Vassar_Reunion_4706.jpg"
 }';
@@ -42,14 +42,14 @@ $page_info = json_decode($page_info, true);
     '2:00 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Join Wimpfheimer Nursery School Director Carol Murray for a presentation and conversation about this remarkable Vassar jewel and its younger companion, The ITC (Infant and Toddler Center).</p>
+      <p>Learn more about this remarkable Vassar jewel and its younger companion, The Infant and Toddler Center (ITC) during this presentation and conversation.</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenter'); ?>
       <?php echo presentation_member(
         'Carol Murray',
         'https://offices.vassar.edu/wimpfheimer/contact/',
-        'Wimpfheimer Nursery School Director',
+        'Director of the Wimpfheimer Nursery School',
         '/alums/assets/img/alums-calendar/reunion/2024-lectures/Carol-Murray.jpg',
         'A person with shoulder-length brown hair standing against a wall of paper leaves smiles as the viewer.'
       ); ?>
@@ -94,7 +94,7 @@ $page_info = json_decode($page_info, true);
     ['alternate_id' => 'vassar-preserve-environmental-cooperative']
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Conservation, sustainability, and an exploration of the natural world are all core values at Vassar. Learn about one of the College’s greatest gems at this talk about the Preserve at Vassar.  The talk will take place at the Vassar Barns and will be followed by an optional guided walking tour of the Preserve at 3:30 (weather permitting). Sensible shoes and long pants are strongly suggested.</p>
+      <p>Conservation, sustainability, and an exploration of the natural world are all core values at Vassar. Learn about one of the College’s greatest gems at this talk about the Preserve at Vassar. The talk will take place at the Vassar Barns and will be followed by an optional guided walking tour of the Preserve at 3:30&nbsp;p.m. (weather permitting). Sensible shoes and long pants are strongly suggested.</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenters'); ?>
@@ -122,7 +122,7 @@ $page_info = json_decode($page_info, true);
     '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Recent advances in one form of artificial intelligence (Large Language Models or LLMs) have raised important questions about how these systems might change the ways in which we live and work. We will consider the range of ways in which the emergence of LLM technology could change how humans think and interact with one another, potentially changing not only our social, economic, and political lives, but quite possibly our private lives as well. Is it possible to manage the emergence of this new technology into human life in a way that enhances our humanity for the long term rather than diminishing or even destroying it?</p>
+      <p>Recent advances in one form of artificial intelligence (Large Language Models or LLMs) have raised important questions about how these systems might change how we live and work. We will consider the range of ways in which the emergence of LLM technology could change how humans think and interact with one another, potentially changing not only our social, economic, and political lives but quite possibly our private lives as well. Is it possible to manage the emergence of this new technology into human life in a way that enhances our humanity for the long term rather than diminishing or even destroying it?</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenter'); ?>
@@ -143,21 +143,21 @@ $page_info = json_decode($page_info, true);
     '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Join us for a field trip to the Bridge for Laboratory Sciences to visit the college’s new state-of-the-art confocal microscope, and to Skinner Hall's Dickinson Music Library to learn about the digitization of 80-years of Vassar music-making—both made possible by highly competitive extramural grants.</p>
+      <p>Join us for a field trip to the Bridge for Laboratory Sciences to visit the college’s new state-of-the-art confocal microscope and to Skinner Hall’s Dickinson Music Library to learn about the digitization of 80 years of Vassar music-making—both made possible by highly competitive extramural grants.</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Facilitators'); ?>
       <?php echo presentation_member(
         'Christina Johnson',
         'https://www.linkedin.com/in/christina-a-johnson-406a9868/',
-        'Assistant Dean for Grants Development & Administration',
+        'Assistant Dean for Grants Development and Administration',
         null,
         null
       ); ?>
       <?php echo presentation_member(
         'Gary Hohenberger ’97',
         'https://www.linkedin.com/in/gary-hohenberger-cra-977b74/',
-        'Associate Vice President, Foundation & Government Relations',
+        'Associate Vice President, Foundation and Government Relations',
         null,
         null
       ); ?>
@@ -190,12 +190,12 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo presentation_item(
-    'Michael Gross ’74 - Flight of the Wasp: The Rise, Fall, and Future of America’s Original Ruling Class',
+    '<em>Flight of the Wasp: The Rise, Fall, and Future of America’s Original Ruling Class</em>',
     'New England Building 206',
     '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Join Rebecca Edwards, Professor of History on the Eloise Ellery Chair, for an interview with renowned author Michael Gross ’74 about his new book.</p>
+      <p>An interview with renowned author Michael Gross ’74 about his new book, <em>Flight of the Wasp: The Rise, Fall, and Future of America’s Original Ruling Class</em>.</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenters'); ?>
@@ -219,7 +219,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo presentation_item(
     'Walking Tour of the Vassar College Arboretum',
-    'Meet at the entrance to Main in front of Main Circle.',
+    'Meet at the entrance to Main in front of Main Circle',
     '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
@@ -249,16 +249,12 @@ $page_info = json_decode($page_info, true);
 <h3 class="schedule-item__heading">Saturday, June 1</h3>
 
 <?php echo presentation_item(
-  'Paula Williams Madison ’74 - Finding Samuel Lowe: From Harlem to China',
+  'Paula Williams Madison ’74—Finding Samuel Lowe: From Harlem to China',
   'Rosenwald Screening Room in Vogelstein Center for Drama and Film',
   '2:30 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Join the Hon. Richard W. Roberts ’74 for a glimpse at Paula Madison’s compelling documentary that chronicles her journey to her maternal grandfather’s homeland in China and the reconnection of her nuclear family with his 300+ descendants.</p>
-
-<p>An Afro-Chinese-Jamaican Harlem family seeks their Chinese grandfather who was forever separated from their mother - his 3-year-old half-Chinese, half-Jamaican daughter - in Jamaica in 1920. Samuel Lowe (Lowe Ding Chow) returned to China for the last time in 1933 with his Chinese wife and two youngest daughters after having already taken three sons and another daughter there previously.</p>
- 
-<p>After a 91-year separation, his Black Chinese Jamaican grandchildren, led by Paula Williams Madison ’74, who never knew their family journey to China where they find Samuel Lowe’s 300 Chinese descendants and the entire clan is reunited. The film takes viewers to Harlem, Toronto, Martha’s Vineyard, three cities in Jamaica and two cities in China to see these families of different races become One.</p>
+    <p>Join the Honorable Richard W. Roberts ’74 for a glimpse at Paula Madison’s compelling documentary that chronicles her journey to her maternal grandfather’s homeland in China and the reconnection of her nuclear family with his 300+ descendants.</p>
 
 <p><a href="https://vimeo.com/70450824">Watch Paula Madison’s documentary with the password FSLd!st5rn</a>.
   <?php echo end_presentation_content(); ?>
@@ -310,7 +306,7 @@ $page_info = json_decode($page_info, true);
     '2:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Kirsten Menking, Professor of Earth Science on the Althea Ward Clark Chair and Environmental Studies Program Director, has studied the history of climate change in central New Mexico (last ~70,000 years) through a combination of numerical modeling and lake sediment records from now dry Lake Estancia.  Come hear what the lake has to tell us about future climate in this arid region that is experiencing rapid population growth and that has been designated as a site for nuclear waste disposal.</p>
+      <p>Kirsten Menking, Professor of Earth Science on the Althea Ward Clark Chair and Environmental Studies Program Director, has studied the history of climate change in central New Mexico (last ~70,000 years) through a combination of numerical modeling and lake sediment records from now dry Lake Estancia. Come hear what the lake has to tell us about the future of the climate in this arid region that is experiencing rapid population growth and has been designated as a site for nuclear waste disposal.</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenter'); ?>
@@ -331,7 +327,7 @@ $page_info = json_decode($page_info, true);
     '2:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Join Associate Dean of the College for Student Living and Wellness Luis Jimenez Inoa and Director of Counseling Service Wendy Freedman as they delve into the multifaceted world of mental wellness at Vassar and in higher education. From proactive support structures to the evolving needs of today's students, this session will engage attendees in a critical dialogue about the importance of mental health in the academic journey.</p>
+      <p>Delve into the multifaceted world of mental wellness at Vassar and in higher education. From proactive support structures to the evolving needs of today’s students, this session will engage attendees in a critical dialogue about the importance of mental health in the academic journey.</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenters'); ?>
@@ -354,7 +350,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo presentation_item(
-    '“Cuba and América: Entangled Histories,” A Conversation with Ada Ferrer ’84 and Jennifer Adair ’99, moderated by Katherine Hite',
+    'Cuba and América: Entangled Histories, A Conversation with Ada Ferrer ’84 and Jennifer Adair ’99, moderated by Katherine Hite',
     'Rockefeller 300',
     '2:30 p.m.'
   ); ?>
@@ -395,7 +391,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo presentation_item(
   'Walking Tour of the Vassar College Arboretum',
-  'Meet at the entrance to Main in front of Main Circle.',
+  'Meet at the entrance to Main in front of Main Circle',
   '2:30 p.m.',
   null,
   '4',
@@ -428,11 +424,11 @@ $page_info = json_decode($page_info, true);
 
 <?php echo presentation_item(
   'Intergenerational Dialogue: Life Survival Hacks and Vassar Experiences',
-  'Gordon Commons, 2nd floor UpCDC',
+  'Gordon Commons (formerly ACDC), 2nd floor UpCDC',
   '4:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Join members of classes of 1969, 1999, 2019 and 2024 for non-hierarchical and intergenerational conversation where the audience members are the participants.
+    <p>Join members of classes of 1969, 1999, 2019, and 2024 for a non-hierarchical and intergenerational conversation where the audience members are the participants.
 Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student and Young Alumnae/i Engagement Committee (SYAEC).</p>
   <?php echo end_presentation_content(); ?>
 
@@ -442,19 +438,19 @@ Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student an
       'https://www.vassar.edu/alums/community/aavc/board-members/aavc-ad-hoc-student-young-alums-engagement-committee-chair/',
       'AAVC Board member and Chair of the Student and Young Alumnae/i Engagement Committee (SYAEC)',
       '/alums/assets/img/alums-calendar/reunion/2024-lectures/Ellie-Winter.jpg',
-      'A person with shoulder length curly black hair wearing glasses and a black suit jacket smiles at the viewer.'
+      'A person with shoulder-length curly black hair wearing glasses and a black suit jacket smiles at the viewer.'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
 
 
 <?php echo presentation_item(
-  'Stop Making Sense: The Art of Inspiring Anybody',
+  '<em>Stop Making Sense: The Art of Inspiring Anybody</em>',
   'Rockefeller 210',
   '4:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>We all crave the awesome energy of inspiration, but what if we didn’t have to wait for it to strike on its own stingy schedule? What if each of us could <em>be</em> inspiring, summoning our own muse-like power to move the world? Michael Fanuele ’94, one of the world’s most successful marketing strategists, shares tips and tricks from his best-selling book that’ll help unleash the inspiring leader within us all. With insights from music, politics, business, neuroscience, and even a recipe for radishes, <em>Stop Making Sense</em> is a fun and provocative blueprint for leadership, which, according to Andrew Zimmern ’84, is exactly what you’d get “if Brene Brown and Simon Sinek had a book baby.”</p>
+    <p>We all crave the awesome energy of inspiration, but what if we didn’t have to wait for it to strike on its own stingy schedule? What if each of us could <strong>be</strong> inspiring, summoning our own muse-like power to move the world? Michael Fanuele ’94, one of the world’s most successful marketing strategists, shares tips and tricks from his best-selling book that’ll help unleash the inspiring leader within us all. With insights from music, politics, business, neuroscience, and even a recipe for radishes, <em>Stop Making Sense</em> is a fun and provocative blueprint for leadership, which, according to Andrew Zimmern ’84, is exactly what you’d get “if Brene Brown and Simon Sinek had a book baby.”</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenter'); ?>
@@ -498,7 +494,7 @@ Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student an
 
 
 <?php echo presentation_item(
-  'Sneak Peek at the Institute for the Liberal Arts',
+  'Sneak Peek at The Vassar Institute for the Liberal Arts',
   'Meet at Chicago Hall Gate',
   '4:00 p.m.'
 ); ?>
