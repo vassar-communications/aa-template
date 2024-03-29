@@ -118,7 +118,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     '/alums/calendar/reunion/lectures/',
-    'Learn more about College-sponsored Lectures and Tours'
+    'Learn more about College-Sponsored Lectures and Tours'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
