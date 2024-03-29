@@ -619,7 +619,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '1:00 p.m.',
-    'Reunion adjourns/Check-Out'
+    'Reunion Adjourns/Check-Out'
   ); ?>
   <p>Please return room keys to Guest Services Coordinators in residence halls.</p>
   <?php echo end_schedule_item_dropdown(); ?>
