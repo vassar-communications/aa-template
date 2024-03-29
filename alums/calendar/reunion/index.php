@@ -299,13 +299,9 @@ $page_info = json_decode($page_info, true);
 <?php echo end_item_iconItem(); ?>
 
 
-<?php echo item_iconItem('Health Acknowledgement','shield-virus',''); ?>
-<p>At this time, we recommend all Reunion registrants will consider the following upon arrival at Reunion:</p>
+<?php echo item_iconItem('Photography/Video','photo-film',''); ?>
+<p>By joining this event, you acknowledge that you and your guests, including minors, may be photographed, filmed, or recorded, allowing unrestricted use and distribution of any media capturing your likeness, voice, or name for College-related purposes, including online platforms, waiving any inspection, approval, and privacy rights (including those in NY Civil Rights Law Sections 50 & 51).</p>
 <ul>
-    <li>My guests and I understand that COVID-19 is an extremely contagious virus and spreads easily through person-to-person contact and we know we are taking risks by attending in-person events.</li>
-    <li>My guests and I acknowledge that it is safer to wear a mask around others in close proximity. If my guests or I become symptomatic or test positive at any time during the event, we agree that we will leave campus and follow up with our primary healthcare providers or seek treatment at a medical facility in the local community.</li>
-    <li>My guests and I will not attend if we are not feeling well.</li>
-</ul>
 <?php echo end_item_iconItem(); ?>
 
 
@@ -350,7 +346,7 @@ $page_info = json_decode($page_info, true);
 </ul>
   <p><em>Enter through the glass doors off of Vassar Lake Drive (behind Olmsted). The Greenhouse Manager will be giving tours of the collection.</em></p>
 
-    <h3>Shabbat Services at The Bayit (51 Collegeview Avenue, North Gate)</h3>
+    <h3>Shabbat Services at The Bayit, 51 Collegeview Avenue, North Gate</h3>
 
     <ul>
       <li>Friday: 5:30–6:45 p.m.</li>
@@ -370,9 +366,16 @@ $page_info = json_decode($page_info, true);
 
   <h3>The Loeb</h3>
   <ul>
-    <li>Friday: 10:00 a.m.–7:00 p.m.	</li>
-    <li>Saturday: 9:00 a.m.–5:00 p.m.	</li>
-    <li>Sunday: 9:00 a.m.–5:00 p.m.	</li>
+    <li>Friday: 10:00 a.m.–7:00 p.m.</li>
+    <li>Saturday: 9:00 a.m.–5:00 p.m.</li>
+    <li>Sunday: 9:00 a.m.–5:00 p.m.</li>
+  </ul>
+
+  <h3>The Retreat, College Center</h3>
+  <ul>
+    <li>Friday: 7:30 a.m.–8:00 p.m.</li>
+    <li>Saturday: 7:30 a.m.–8:00 p.m.</li>
+    <li>Sunday: 7:30 a.m.–1:00 p.m.</li>
   </ul>
 
   <h3>Thompson Memorial Library including the Art Library</h3>

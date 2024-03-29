@@ -160,7 +160,7 @@ $page_info = json_decode($page_info, true);
 
    <?php echo schedule_item_dropdown(
     '5:00 p.m.',
-    'A concert featuring classical and jazz from Vassar music faculty',
+    'Class of 1974 sponsors a concert featuring classical and jazz from Vassar music faculty',
     'Skinner Hall'
   ); ?>
   
