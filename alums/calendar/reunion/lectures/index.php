@@ -499,7 +499,7 @@ Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student an
   '4:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Join Robert Brigham, Professor of History and the Inaugural Faculty Director of Vassar’s Institute for the Liberal Arts, and Olympia Management for a tour of Vassar’s newest community resource and a sneak peek into early Institute programming.</p>
+    <p>Join Robert Brigham, Professor of History and the Inaugural Faculty Director of The Vassar Institute for the Liberal Arts, and Olympia Management for a tour of the College’s newest community resource and a sneak peek into early Institute programming.</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenter'); ?>
