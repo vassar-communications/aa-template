@@ -41,7 +41,11 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A large group of people walking along a campus road, with some banners displaying class years.']
 ); ?>
 
-  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 4s and 9s on campus for Reunion, May 31–June 2, 2024 (the 50th Reunion class arrives on May 30).</p>
+  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 4s and 9s on campus for Reunion, May 31–June 2, 2024 (the 50th Reunion class arrives on May 30). Registration is now open!</p>
+  <a href="https://reunionregistration.vassar.edu" class="btn btn-primary arrow mt-5">Register for Reunion</a>
+  <br />
+   <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who’s Coming to Reunion</a>
+ 
   
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -52,7 +56,7 @@ $page_info = json_decode($page_info, true);
   ''
 ); ?>
 
-    <p>Reunion Registration will open in early April. This page continues to be updated periodically. Be sure to check back! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
+    <p>Reunion registration will close on May 17, 2024. This page continues to be updated periodically. Be sure to check back! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
 
   <h3>Future Reunion Dates</h3>
 
@@ -85,7 +89,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <?php echo cta_link(
     '/alums/calendar/reunion/schedule/',
-    'See the Preliminary Reunion Schedule'
+    'See the Reunion Schedule'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -101,7 +105,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     '50th/',
-    'See the Preliminary 50th Reunion Schedule'
+    'See the 50th Reunion Schedule'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

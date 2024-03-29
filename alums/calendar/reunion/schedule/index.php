@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"General Reunion Preliminary Class Schedule",
+  "page_title":"General Reunion Class Schedule",
   "page_classes":"",
   "feature_image":"/alums/assets/img/alums-calendar/reunion/Vassar_Reunion_4706.jpg"
 }';
@@ -38,7 +38,7 @@ $page_info = json_decode($page_info, true);
   'pt-0'
 ); ?>
 
-<p class="intro-text">Preliminary Reunion General Schedule</p>
+<p class="intro-text">Reunion General Schedule</p>
 <p>Items with an <span style="display: inline" class="schedule-item__icon fa-solid fa-circle-info" title="“i” in a solid red circle"></span>  are links to additional information.</p>
 <p>Use one of these links to go directly to the activities for that day:</p>
 
