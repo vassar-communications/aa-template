@@ -333,13 +333,6 @@ $page_info = json_decode($page_info, true);
 </ul>
   <p><em>We intend to have the pool open, pending lifeguard availability. Please check back for more information.</em></p>
 
-  <h3>Frances Lehman Loeb Art Center</h3>
-  <ul>
-    <li>Friday: 10:00 a.m.–7:00 p.m.	</li>
-    <li>Saturday: 9:00 a.m.–5:00 p.m.	</li>
-    <li>Sunday: 9:00 a.m.–5:00 p.m.	</li>
-  </ul>
-
   <h3>Music Library</h3>
   <ul>
     <li>Friday: 1:00–4:00 p.m.</li>
@@ -353,16 +346,16 @@ $page_info = json_decode($page_info, true);
 </ul>
   <p><em>Enter through the glass doors off of Vassar Lake Drive (behind Olmsted). The Greenhouse Manager will be giving tours of the collection.</em></p>
 
-
-  <?php echo end_item_col(); ?>
-
-  <?php echo item_col(); ?>
-
     <h3>Shabbat Services at The Bayit (51 Collegeview Avenue, North Gate)</h3>
 
     <ul>
       <li>Friday: 5:30–6:45 p.m.</li>
     </ul>
+
+
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
 
   <h3>Street Eats food truck, outside Gordon Commons</h3>
   <ul>
@@ -370,6 +363,13 @@ $page_info = json_decode($page_info, true);
     <li>Sunday: 7:30–11:00 a.m.</li>
   </ul>
   <p><em>Coffee, light refreshments and snacks</em></p>
+
+  <h3>The Loeb</h3>
+  <ul>
+    <li>Friday: 10:00 a.m.–7:00 p.m.	</li>
+    <li>Saturday: 9:00 a.m.–5:00 p.m.	</li>
+    <li>Sunday: 9:00 a.m.–5:00 p.m.	</li>
+  </ul>
 
   <h3>Thompson Memorial Library including the Art Library</h3>
   <ul>
