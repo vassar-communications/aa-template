@@ -58,6 +58,7 @@ ul.inline-list-links li a {
   <li><a href="#board-slate">2024 Board Slate</a></li>
   <li><a href="#board-of-directors">Board of Directors</a></li>
   <li><a href="#board-members">Current AAVC Board Members</a></li>
+  <li><a href="#bylaws">AAVC Bylaws</a></li>
 
 </ul>
 
@@ -121,7 +122,7 @@ ul.inline-list-links li a {
   <h3 class="mb-4">AAVC Alum Recognition Committee Chair</h3>
 
 <div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="https://www.vassar.edu/alums/assets/img/alums-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg" alt="A person with long straight dark hair and glasses smiles at the camera." />
+  <img src="https://www.vassar.edu/alums/assets/img/alums-community/aavc/board/gamarra-eddie-aavc-alum.jpg" alt="A person with short dark hair wearing a dark suit jacket and blue button-down shirt smiles at the viewer." />
 </div>
 
 <ul class="clean-list-with-borders">
@@ -246,18 +247,18 @@ ul.inline-list-links li a {
 <ul class="clean-list-with-borders">
     <li><strong>Heller An Shapiro ’81</strong></li>
     <li>(she/her/hers)</li>
-    <li>---------------</li>
+    <li> Maryland</li>
     <li><strong>Term of Service:</strong> 2024–2028</li>
   </ul>
 </div>
 
 <h4>Additional Vassar Volunteer Experience</h4>
 
-<p>---------------</p>
+<p>Member, AAVC Vassar Fund Committee, 2022–present; committee member, Class of 1981, 2021–present; committee member, Class of 1981, 2020–2021; Sophomore Career Connections mentor, 2018; Co-Chair, Class Reunion Gift, 2000–2001; Co-Chair, Class of 1981, 1996–2001; Co-Chair, Class Fund, 1996–2000; AAVC Volunteer Leadership Week trainer, 1992–1993; Second Vice President, Class of 1981, 1991–1996.</p>
 
 <h4>Professional/Community Experience</h4>
 
-<p>----------------</p>
+<p>Volunteer team leader, Compass Pro Bono, 2023–present; consultant, coach, Heller An Shapiro, 2008–present; volunteer grant review panelist, Maryland State Arts Council 2021, 2023; Executive Director, ArtStream, Inc., 2016–2023; board member, Head of School Search Co-Leader, Barrie School, 2015–2017; consultant, Optica, 2010–2016; Co-Leader, Executive Development Career Workshops, Executive Search Consultant, TransitionGuides, 2007–2016; consultant, Barth Syndrome Foundation, 2010–2012; Board Co-Chair, Kidsave International, 2010–2012; Executive Director, Osteogenesis Imperfecta Foundation, 1997–2007; Board of Directors member, Chair Standards of Excellence Committee, National Health Council, 2003–2007; Associate Director of Affiliate Management, Christmas in April USA/Rebuilding Together, 1997–1998; Deputy Director, State and International Services, VSA, 1995–1997; Director of Affiliate Management and Training, the Foundation Fighting Blindness, 1992–1995; Director of Volunteers, Kennedy Center, 1986–1991 and recipient of 1991 President's Volunteer Action Award; Leadership America, Class of 1993; board member, Chair of Public Issues, Chair National Summit on Trends in Volunteer Leadership Development, Association for Volunteer Administration (AVA), 1991–1993; Founder and Chair, MVP-Arts (Managers of Volunteer Programs in the Arts), 1990–1992.</p>
 
 </div>
 
@@ -269,24 +270,26 @@ ul.inline-list-links li a {
   <h3 class="mb-4">AAVC Board Director</h3>
 
 <div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="https://www.vassar.edu/alums/assets/img/alums-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg" alt="A person with long straight dark hair and glasses smiles at the camera." />
+  <img src="https://www.vassar.edu/alums/assets/img/alums-community/aavc/board/tillett-kerri-aavc-alum.jpg" alt="A person with short straight dark hair and glasses wearing a white jacket and black shirt smiles at the viewer." />
 </div>
 
 <ul class="clean-list-with-borders">
     <li><strong>Kerri Tillett ’91</strong></li>
     <li>(she/her/hers)</li>
-    <li>----------------</li>
+    <li>Massachusetts/North Carolina</li>
     <li><strong>Term of Service:</strong> 2024–2028</li>
   </ul>
 </div>
 
 <h4>Additional Vassar Volunteer Experience</h4>
 
-<p>--------------------</p>
+<p>Member, AAVC Ad Hoc Diversity, Equity, & Inclusion Committee, 2021–present.</p>
 
 <h4>Professional/Community Experience</h4>
 
-<p>----------------------</p>
+<p>Associate Vice Chancellor for Equal Opportunity, University of Massachusetts Amherst, 2021–present; Associate Vice President for the Division of Inclusive Excellence, the College of New Jersey, 2011–2021; Equal Employment Opportunity Officer, New Jersey Department of Transportation, 2004–2010;
+Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appeals, 1994–1996.
+</p>
 
 </div>
 
@@ -321,6 +324,22 @@ ul.inline-list-links li a {
 
 
 <?php echo end_sec_regularContent(); ?>
+
+
+<a id="bylaws"></a>
+<?php echo sec_regularContent(
+    'AAVC Bylaws',
+    'theme-cream',
+    ''
+); ?>
+
+<p>The following changes to the 2020 AAVC bylaws have been approved by the AAVC Board, to be ratified by voice vote at the Annual Meeting of the AAVC at Reunion on June 1, 2024.  Please choose the version you wish to view:</p>
+<ul>
+<li><a href="#">2020 Bylaws with recent amendments (edited)</a></li>
+<li><a href="#">Proposed 2024 Bylaws (clean)</a></li>
+
+<?php echo end_sec_regularContent(); ?>
+
 
 
 <a id="board-of-directors"></a>
