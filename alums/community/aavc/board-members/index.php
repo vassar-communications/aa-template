@@ -56,10 +56,9 @@ ul.inline-list-links li a {
 
 <ul class="inline-list-links">
   <li><a href="#board-slate">2024 Board Slate</a></li>
+  <li><a href="#bylaws">AAVC Bylaws</a></li>
   <li><a href="#board-of-directors">Board of Directors</a></li>
   <li><a href="#board-members">Current AAVC Board Members</a></li>
-  <li><a href="#bylaws">AAVC Bylaws</a></li>
-
 </ul>
 
 
