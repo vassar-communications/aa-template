@@ -121,7 +121,7 @@ ul.inline-list-links li a {
   <h3 class="mb-4">AAVC Alum Recognition Committee Chair</h3>
 
 <div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="https://www.vassar.edu/alums/assets/img/alums-community/aavc/board/gamarra-eddie-aavc-alum.jpg" alt="A person with short dark hair wearing a dark suit jacket and blue button-down shirt smiles at the viewer." />
+  <img src="/alums/assets/img/alums-community/aavc/board/gamarra-eddie-aavc-alum.jpg" alt="A person with short dark hair wearing a dark suit jacket and blue button-down shirt smiles at the viewer." />
 </div>
 
 <ul class="clean-list-with-borders">
@@ -269,7 +269,7 @@ ul.inline-list-links li a {
   <h3 class="mb-4">AAVC Board Director</h3>
 
 <div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="https://www.vassar.edu/alums/assets/img/alums-community/aavc/board/tillett-kerri-aavc-alum.jpg" alt="A person with short straight dark hair and glasses wearing a white jacket and black shirt smiles at the viewer." />
+  <img src="/alums/assets/img/alums-community/aavc/board/tillett-kerri-aavc-alum.jpg" alt="A person with short straight dark hair and glasses wearing a white jacket and black shirt smiles at the viewer." />
 </div>
 
 <ul class="clean-list-with-borders">
