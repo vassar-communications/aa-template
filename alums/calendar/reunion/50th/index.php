@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"50th Reunion Preliminary Class Schedule",
+  "page_title":"50th Reunion Class Schedule",
   "page_classes":"",
   "feature_image":"/alums/assets/img/alums-calendar/reunion/Vassar_Reunion_4706.jpg"
 }';
@@ -38,7 +38,7 @@ $page_info = json_decode($page_info, true);
   'pt-0'
 ); ?>
 
-<p class="intro-text">Preliminary 50th Reunion Schedule for 1974</p>
+<p class="intro-text">50th Reunion Schedule for 1974</p>
 <p>Items with an <span style="display: inline" class="schedule-item__icon fa-solid fa-circle-info" title="“i” in a solid red circle"></span>  are links to additional information.</p>
 <p>Use one of these links to go directly to the activities for that day:</p>
 <ul class="linked-list">
@@ -223,7 +223,7 @@ $page_info = json_decode($page_info, true);
 
    <?php echo schedule_item_dropdown(
     '5:00 p.m.',
-    'A concert featuring classical and jazz from Vassar music faculty',
+    'Class of 1974 sponsors a concert featuring classical and jazz from Vassar music faculty',
     'Skinner Hall'
   ); ?>
   

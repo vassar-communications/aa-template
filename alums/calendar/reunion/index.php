@@ -41,7 +41,11 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A large group of people walking along a campus road, with some banners displaying class years.']
 ); ?>
 
-  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 4s and 9s on campus for Reunion, May 31–June 2, 2024 (the 50th Reunion class arrives on May 30).</p>
+  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 4s and 9s on campus for Reunion, May 31–June 2, 2024 (the 50th Reunion class arrives on May 30). Registration is now open!</p>
+  <a href="https://reunionregistration.vassar.edu" class="btn btn-primary arrow mt-5">Register for Reunion</a>
+  <br />
+   <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who’s Coming to Reunion</a>
+ 
   
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -52,7 +56,7 @@ $page_info = json_decode($page_info, true);
   ''
 ); ?>
 
-    <p>Reunion Registration will open in early April. This page continues to be updated periodically. Be sure to check back! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
+    <p>Reunion registration will close on May 17, 2024. This page continues to be updated periodically. Be sure to check back! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
 
   <h3>Future Reunion Dates</h3>
 
@@ -85,7 +89,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <?php echo cta_link(
     '/alums/calendar/reunion/schedule/',
-    'See the Preliminary Reunion Schedule'
+    'See the Reunion Schedule'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -101,7 +105,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     '50th/',
-    'See the Preliminary 50th Reunion Schedule'
+    'See the 50th Reunion Schedule'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -295,13 +299,9 @@ $page_info = json_decode($page_info, true);
 <?php echo end_item_iconItem(); ?>
 
 
-<?php echo item_iconItem('Health Acknowledgement','shield-virus',''); ?>
-<p>At this time, we recommend all Reunion registrants will consider the following upon arrival at Reunion:</p>
+<?php echo item_iconItem('Photography/Video','photo-film',''); ?>
+<p>By joining this event, you acknowledge that you and your guests, including minors, may be photographed, filmed, or recorded, allowing unrestricted use and distribution of any media capturing your likeness, voice, or name for College-related purposes, including online platforms, waiving any inspection, approval, and privacy rights (including those in NY Civil Rights Law Sections 50 & 51).</p>
 <ul>
-    <li>My guests and I understand that COVID-19 is an extremely contagious virus and spreads easily through person-to-person contact and we know we are taking risks by attending in-person events.</li>
-    <li>My guests and I acknowledge that it is safer to wear a mask around others in close proximity. If my guests or I become symptomatic or test positive at any time during the event, we agree that we will leave campus and follow up with our primary healthcare providers or seek treatment at a medical facility in the local community.</li>
-    <li>My guests and I will not attend if we are not feeling well.</li>
-</ul>
 <?php echo end_item_iconItem(); ?>
 
 
@@ -346,7 +346,7 @@ $page_info = json_decode($page_info, true);
 </ul>
   <p><em>Enter through the glass doors off of Vassar Lake Drive (behind Olmsted). The Greenhouse Manager will be giving tours of the collection.</em></p>
 
-    <h3>Shabbat Services at The Bayit (51 Collegeview Avenue, North Gate)</h3>
+    <h3>Shabbat Services at The Bayit, 51 Collegeview Avenue, North Gate</h3>
 
     <ul>
       <li>Friday: 5:30–6:45 p.m.</li>
@@ -366,9 +366,16 @@ $page_info = json_decode($page_info, true);
 
   <h3>The Loeb</h3>
   <ul>
-    <li>Friday: 10:00 a.m.–7:00 p.m.	</li>
-    <li>Saturday: 9:00 a.m.–5:00 p.m.	</li>
-    <li>Sunday: 9:00 a.m.–5:00 p.m.	</li>
+    <li>Friday: 10:00 a.m.–7:00 p.m.</li>
+    <li>Saturday: 9:00 a.m.–5:00 p.m.</li>
+    <li>Sunday: 9:00 a.m.–5:00 p.m.</li>
+  </ul>
+
+  <h3>The Retreat, College Center</h3>
+  <ul>
+    <li>Friday: 7:30 a.m.–8:00 p.m.</li>
+    <li>Saturday: 7:30 a.m.–8:00 p.m.</li>
+    <li>Sunday: 7:30 a.m.–1:00 p.m.</li>
   </ul>
 
   <h3>Thompson Memorial Library including the Art Library</h3>
