@@ -69,7 +69,7 @@
 
 
 <?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2024-03-28/spotlight/thurman_gaines_4x3_resized.jpg',
+  $alums_spotlight_itm_path.'/2024-03-28/spotlight/thurman_gaines_4x3-edit_new.jpg',
   'is-link',
   'An image divided into two photos. The left photo is a black-and-white historical photo of a person with short black hair, a thin mustache, and a dark suit and tie. The right photo is a contemporary color image of a person with mid-length graying black hair, a floral patterned shirt, and a pearl necklace.'
 ); ?>

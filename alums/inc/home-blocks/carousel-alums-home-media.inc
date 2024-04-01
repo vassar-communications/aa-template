@@ -3,6 +3,27 @@ $media_carousel_path = '/alums/assets/img/alums-home/news-and-spotlight/';
 echo carousel( '', 'alums-media-carousel' ); ?>
 
 
+
+
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-03-28/in-the-media/zoe_adams_4x3.jpg',
+    'is-link',
+    'A person with long brown hair, a blue formal jacket, and a pink shirt smiles at the camera.'
+  ); ?>
+
+  <p><strong>Dr. Zoe Adams ’15</strong> wrote a <em>Scientific American</em> article about the stigma against hospital patients with addiction.</p>
+  <p><em>Photo courtesy of the subject</em></p>
+  <?php echo cta_link(
+  'https://www.scientificamerican.com/article/against-medical-advice-another-deadly-consequence-of-our-opioid-epidemic/',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+
 <?php echo carousel_item(
     $media_carousel_path.'/2024-03-28/in-the-media/jess_chong_4x3_resized.jpg',
     'is-link',
