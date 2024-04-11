@@ -114,7 +114,11 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 
-<?php echo carousel_item(
+<?php
+//  Scienmag removed this story for some reason, and Kim said to remove this item. Keeping
+//  it here temporarily in case they restore it.
+
+/* echo carousel_item(
     $media_carousel_path.'/2024-02-22/in-the-media/carlstrom_4x3.jpg',
     'is-link',
     'A photo of a person with no hair and a dark gray suit with a blue white-striped tie. The person is smiling at the camera and standing in front of a large window, through which is visible a city with ornate classic buildings and red tile roofs.'
@@ -126,7 +130,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   'Read more',
   'stretched-link'
   ); ?>
-<?php echo end_carousel_item(); ?>
+<?php echo end_carousel_item();  */ ?>
 
 
 
