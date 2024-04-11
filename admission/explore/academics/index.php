@@ -197,11 +197,11 @@ $page_info = json_decode($page_info, true);
         Dance Performance<br>
         Dance Studies
     </dd>
-    <dt><a href="https://www.vassar.edu/earthscienceandgeography/earth-science/">Earth Science</a></dt>
+    <dt><a href="https://www.vassar.edu/earth-science-and-geography/majors-and-correlates/earth-science">Earth Science</a></dt>
     <dd>
         Earth Science
     </dd>
-    <dt><a href="https://www.vassar.edu/earthscienceandgeography/earth-science/earth-science-society/">Earth Science and Society</a></dt>
+    <dt><a href="https://www.vassar.edu/earth-science-and-geography/majors-and-correlates/earth-science-and-society">Earth Science and Society</a></dt>
     <dd>
         Climate Change
     </dd>
