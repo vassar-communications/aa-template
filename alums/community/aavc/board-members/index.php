@@ -240,7 +240,7 @@ ul.inline-list-links li a {
   <h3 class="mb-4">AAVC Board Director</h3>
 
 <div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="https://www.vassar.edu/alums/assets/img/alums-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg" alt="A person with long straight dark hair and glasses smiles at the camera." />
+  <img src="/alums/assets/img/alums-community/aavc/board/shapiro-heller-an-aavc-alum.jpg" alt="A person with short straight gray and black hair and glasses, wearing a sleeveless dark purple shirt, leans against a brick wall, smiling at the viewer." />
 </div>
 
 <ul class="clean-list-with-borders">
@@ -334,8 +334,8 @@ Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appea
 
 <p>The following changes to the 2020 AAVC bylaws have been approved by the AAVC Board, to be ratified by voice vote at the Annual Meeting of the AAVC at Reunion on June 1, 2024.  Please choose the version you wish to view:</p>
 <ul>
-<li><a href="#">2020 Bylaws with recent amendments (edited)</a></li>
-<li><a href="https://docs.google.com/document/d/1aJpLMi-1xBQjG0QTkbkwEgqkJhXd_XS_yfcswW_RIYk/edit?usp=sharing">Proposed 2024 Bylaws (clean)</a></li>
+<li><a href="/alums/assets/doc/Current-Bylaws-with-Proposed-Changes.docx">2020 Bylaws with recent amendments (edited, Word document download)</a></li>
+<li><a href="https://docs.google.com/document/d/1aJpLMi-1xBQjG0QTkbkwEgqkJhXd_XS_yfcswW_RIYk/edit?usp=sharing">Proposed 2024 Bylaws (clean, Google document)</a></li>
 
 <?php echo end_sec_regularContent(); ?>
 
