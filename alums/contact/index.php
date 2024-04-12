@@ -589,7 +589,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Yolanda Johnson',
-    'Associate Director of Advancement Communications – Digital',
+    'Associate Director of Advancement Communications',
     [
       'phone' => '845-437-5440',
       'email' => 'yojohnson@vassar.edu',
@@ -656,11 +656,11 @@ echo end_contact_card();
                 <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
-    'Deborah Vanecek',
+    'TBD',
     'Director of Annual Giving',
     [
-      'phone' => '845-437-5494',
-      'email' => 'dvanecek@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
@@ -689,11 +689,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Wally Fisher ’12',
+    'TBD',
     'Associate Director of Annual Giving, Volunteer &amp; Reunion',
     [
-      'phone' => '845-437-5419',
-      'email' => 'wfisher@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
