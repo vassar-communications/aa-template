@@ -74,7 +74,7 @@ ul.inline-list-links li a {
 <p>The Nominating and Governance Committee is pleased to present the slate of nominees for open board positions for 2024–2028:</p>
 
 <ul class="linked-list mb-5">
-    <li><a href="#anne-green">Anne Green ’92</a></li>
+    <li><a href="#anne-green">Anne Green ’93</a></li>
     <li><a href="#eddie-gamarra">Eddie Gamarra ’94</a></li>
     <li><a href="#alisa-swire">Alisa Swire ’84</a></li>
     <li><a href="#michael-neuwirth">Michael Neuwirth ’89</a></li>
@@ -96,7 +96,7 @@ ul.inline-list-links li a {
 </div>
 
 <ul class="clean-list-with-borders">
-    <li><strong>Anne Green ’92</strong></li>
+    <li><strong>Anne Green ’93</strong></li>
     <li>(she/her/hers)</li>
     <li>New Jersey</li>
     <li><strong>Term of Service:</strong> 2024–2028</li>
@@ -125,7 +125,7 @@ ul.inline-list-links li a {
 </div>
 
 <ul class="clean-list-with-borders">
-    <li><strong>Eddie Gamarra '94</strong></li>
+    <li><strong>Eddie Gamarra ’94</strong></li>
     <li>(he/him/his)</li>
     <li>California</li>
     <li><strong>Term of Service:</strong> 2024–2028</li>
