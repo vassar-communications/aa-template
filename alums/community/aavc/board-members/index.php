@@ -56,7 +56,6 @@ ul.inline-list-links li a {
 
 <ul class="inline-list-links">
   <li><a href="#board-slate">2024 Board Slate</a></li>
-  <li><a href="#bylaws">AAVC Bylaws</a></li>
   <li><a href="#board-of-directors">Board of Directors</a></li>
   <li><a href="#board-members">Current AAVC Board Members</a></li>
 </ul>
@@ -145,7 +144,8 @@ ul.inline-list-links li a {
 
 <div>
 
-<div id="alisa-swire" style="clear: both; padding-bottom: 2rem; overflow: hidden" class="mt-6">
+
+<div id="alisa-swire" style="clear: both; padding-bottom: 2rem; overflow: hidden">
  
  
   <h3 class="mb-4">AAVC Nominating and Governance Committee Chair</h3>
@@ -323,23 +323,6 @@ Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appea
 
 
 <?php echo end_sec_regularContent(); ?>
-
-
-<a id="bylaws"></a>
-<?php echo sec_regularContent(
-    'AAVC Bylaws',
-    'theme-cream',
-    ''
-); ?>
-
-<p>The following changes to the 2020 AAVC bylaws have been approved by the AAVC Board, to be ratified by voice vote at the Annual Meeting of the AAVC at Reunion on June 1, 2024. Be sure to set your tracking setting to “All Markup” after opening the Word document. Contact Patricia Lamark at <a href="mailto:plamark@vassar.edu">plamark@vassar.edu</a> if you need assistance.</p>
-<p>Please choose the version you wish to view:</p>
-<ul>
-<li><a href="/alums/assets/doc/Current-Bylaws-with-Proposed-Changes.docx">2020 Bylaws with recent amendments (edited, Word document download)</a></li>
-<li><a href="https://docs.google.com/document/d/1aJpLMi-1xBQjG0QTkbkwEgqkJhXd_XS_yfcswW_RIYk/edit?usp=sharing">Proposed 2024 Bylaws (clean, Google document)</a></li>
-
-<?php echo end_sec_regularContent(); ?>
-
 
 
 <a id="board-of-directors"></a>
