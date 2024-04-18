@@ -145,7 +145,7 @@ ul.inline-list-links li a {
 <div>
 
 
-<div id="alisa-swire" style="clear: both; padding-bottom: 2rem; overflow: hidden">
+<div id="alisa-swire" style="clear: both; padding-bottom: 2rem; overflow: hidden"> 
  
  
   <h3 class="mb-4">AAVC Nominating and Governance Committee Chair</h3>
