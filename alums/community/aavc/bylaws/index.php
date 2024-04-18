@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
-<p>The following changes to the 2020 AAVC bylaws have been approved by the AAVC Board, to be ratified by voice vote at the Annual Meeting of the AAVC at Reunion on June 1, 2024. Be sure to set your tracking setting to “All Markup” after opening the Word document. Contact Patricia Lamark at <a href="mailto:plamark@vassar.edu">plamark@vassar.edu</a> if you need assistance.</p>
+ <p>The following changes to the 2020 AAVC bylaws have been approved by the AAVC Board, to be ratified by voice vote at the Annual Meeting of the AAVC at Reunion on June 1, 2024. Be sure to set your tracking setting to “All Markup” after opening the Word document. Contact Patricia Lamark at <a href="mailto:plamark@vassar.edu">plamark@vassar.edu</a> if you need assistance.</p>
 <p>Please choose the version you wish to view:</p>
 <ul>
 <li><a href="/alums/assets/doc/Current-Bylaws-with-Proposed-Changes.docx">2020 Bylaws with recent amendments (edited, Word document download)</a></li>
