@@ -1087,7 +1087,7 @@ echo end_contact_card();
 
 
     echo contact_card(
-        'Kataura Ross',
+        'Kataura Ross ’17',
         'Office Specialist',
         [
           'phone' => '845-437-5495',
@@ -1097,11 +1097,11 @@ echo end_contact_card();
     echo end_contact_card();
 
 echo contact_card(
-    'Lilly Scrimmager',
+    'TBD',
     'Office Specialist',
     [
-      'phone' => '845-437-5480',
-      'email' => 'lscrimmager@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();

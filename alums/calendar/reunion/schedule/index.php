@@ -128,13 +128,21 @@ $page_info = json_decode($page_info, true);
    <?php echo end_schedule_item_dropdown(); ?>
   
   
+  <?php echo schedule_item_dropdown(
+    '4:00–6:00 p.m.',
+    'Class of 1994 Happy Hour',
+    'Lathrop lobby'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
+
+
    <?php echo schedule_item_dropdown(
     '5:00 p.m.',
-    'Class of 1969 Reception and Dinner',
+    'Class of 1969 Reception, Benches Dedication, and Dinner',
     'Shakespeare Garden'
   ); ?>
   
-  <p>Followed by dinner at the Sunset Lake tent</p>
+  <p>Join us for a reception and dedication of our class gift, the benches, followed by dinner at the Sunset Lake tent.</p>
 
    <?php echo end_schedule_item_dropdown(); ?>
  
@@ -182,7 +190,7 @@ $page_info = json_decode($page_info, true);
     'Faculty Reception',
     'Fergusson Quadrangle Tent, Vogelstein Center for Drama and Film'
   ); ?>
-<!--  <p><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6710&cid=11232&fid=11231">See the list of faculty attendees</a></p>-->
+<p><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=7479&cid=12478&fid=12477">See the list of faculty attendees</a></p>
    <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -219,6 +227,16 @@ $page_info = json_decode($page_info, true);
   ); ?>
   <p>Join us at the Mug for music from the 80s and 90s. Don’t forget to wait in line. Everyone 21 and older is welcome. Cash bar, DJ, and dancing.</p>
   <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '10:00 p.m.–Midnight',
+    'Class of 1994 Dorm Karaoke',
+    'Lathrop Multipurpose Room'
+  ); ?>
+  <p>Come as you were.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
   
   <?php echo schedule_item_dropdown(
     '10:00 p.m.',
@@ -313,7 +331,7 @@ $page_info = json_decode($page_info, true);
     null
   ); ?>
 <p><strong>Classes of 1948/49, 1954, 1959, and 1964:</strong> Main Building, Villard Room</p>
-<p><strong>Class of 1969:</strong> Sunset Lake Tent</p>
+<p><strong>Class of 1969:</strong> Sunset Lake Tent (includes class meeting)</p>
 <p><strong>Classes of 1979, 1984, 1989, 1994, 1999, 2004, 2009, 2014, and 2019:</strong> Gordon Commons (formerly ACDC)</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -330,6 +348,14 @@ $page_info = json_decode($page_info, true);
     '1:30 p.m.',
     'Class of 1989 Memorial Service',
     '1989 class tree, Ferry House'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '1:30 p.m.',
+    'Class of 1969 Memorial Service',
+    '1969 class tree, Sunset Lake'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
 
@@ -459,11 +485,11 @@ $page_info = json_decode($page_info, true);
   <h4><a href="../lectures/#em-stop-making-sense-the-art-of-inspiring-anybody-em"><em>Stop Making Sense: The Art of Inspiring Anybody</em></a></h4>
 <p><strong>Location:</strong> Rockefeller 210</p>
 
-  <h4><a href="../lectures/#a-conversation-about-health-education-and-politics-in-america">A Conversation About Health, Education, and Politics in America</a></h4>
-<p><strong>Location:</strong> Rockefeller 300</p>
+  <h4><a href="../lectures/#a-conversation-about-health-and-education-in-america">A Conversation About Health and Education in America</a></h4>
+<p><strong>Location:</strong> Rockefeller 200</p>
 
-    <h4><a href="../lectures/#sneak-peek-at-the-vassar-institute-for-the-liberal-arts">Tour: Sneak Peek at The Vassar Institute for the Liberal Arts</a></h4>
-    <p><strong>Location:</strong> Meet at Chicago Hall Gate</p>
+    <h4><a href="../lectures/#sneak-peek-at-the-vassar-institute-for-the-liberal-arts">Sneak Peek at The Vassar Institute for the Liberal Arts</a></h4>
+    <p><strong>Location:</strong> Rockefeller 300</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -518,7 +544,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '7:15–9:30 p.m.',
-    'Class Dinners',
+    'Class Receptions and Dinners',
       null
     ); ?>
       <p><strong>1954 and 1959:</strong> Alumnae House Dining Room</p>

@@ -466,8 +466,8 @@ Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student an
 
 
 <?php echo presentation_item(
-  'A Conversation About Health, Education, and Politics in America',
-  'Rockefeller 300',
+  'A Conversation About Health and Education in America',
+  'Rockefeller 200',
   '4:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
@@ -495,7 +495,7 @@ Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student an
 
 <?php echo presentation_item(
   'Sneak Peek at The Vassar Institute for the Liberal Arts',
-  'Meet at Chicago Hall Gate',
+  'Rockefeller 300',
   '4:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>

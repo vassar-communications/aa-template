@@ -239,13 +239,13 @@ $page_info = json_decode($page_info, true);
 <strong>1974:</strong> Davison House<br />
 <strong>1979:</strong> Josselyn House<br />
 <strong>1984:</strong> Josselyn House<br />
-<strong>1989:</strong> TBD<br />
+<strong>1989:</strong> Strong House<br />
 <strong>1994:</strong> Lathrop House<br />
 <strong>1999:</strong> Cushing House<br />
 <strong>2004:</strong> Raymond House<br />
 <strong>2009:</strong> Raymond House<br />
 <strong>2014:</strong> TownHouses<br />
-<strong>2019:</strong> TBD</p>
+<strong>2019:</strong> Noyes House</p>
             </div>
         </div>
     </div>
@@ -333,6 +333,11 @@ $page_info = json_decode($page_info, true);
 </ul>
   <p><em>We intend to have the pool open, pending lifeguard availability. Please check back for more information.</em></p>
 
+<h3>Jummah Service at Pratt House</h3>   
+    <ul>
+      <li>Friday: Noon</li>
+    </ul>
+
   <h3>Music Library</h3>
   <ul>
     <li>Friday: 1:00–4:00 p.m.</li>
@@ -346,8 +351,7 @@ $page_info = json_decode($page_info, true);
 </ul>
   <p><em>Enter through the glass doors off of Vassar Lake Drive (behind Olmsted). The Greenhouse Manager will be giving tours of the collection.</em></p>
 
-    <h3>Shabbat Services at The Bayit, 51 Collegeview Avenue, North Gate</h3>
-
+<h3>Shabbat Services at The Bayit, 51 Collegeview Avenue, North Gate</h3>   
     <ul>
       <li>Friday: 5:30–6:45 p.m.</li>
     </ul>
