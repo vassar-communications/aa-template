@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Communications & Outreach, Brown University Department of Africana Studies/Rites and Reason Theatre, 2019–present; media studies educator & grant writer, Making Us Matter, 2020–present; freelance designer, Autipacha Studios, 2019–present; event and administrative coordinator, Ubuntu Pathways, 2018–2019; account coordinator, G&S Business Communications, 2018.</p>
+<p>Digital Communications Manager, Barr Foundation, 2024-present; Communications Specialist, Brown University Center for the Study of Race and Ethnicity in America, 2021-2024; Communications & Outreach, Brown University Department of Africana Studies/Rites and Reason Theatre, 2019–2021; Freelance Designer and Art Consultant, Autipacha Studios, 2019–present; Event and Administrative Coordinator, Ubuntu Pathways, 2018–2019; Account Coordinator, G&S Business Communications, 2018.</p>
 <?php echo end_sec_regularContent(); ?>
 
 
