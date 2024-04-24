@@ -346,16 +346,16 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '1:30 p.m.',
-    'Class of 1989 Memorial Service',
-    '1989 class tree, Ferry House'
+    'Class of 1969 Memorial Service',
+    '1969 class tree, Sunset Lake'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
     '1:30 p.m.',
-    'Class of 1969 Memorial Service',
-    '1969 class tree, Sunset Lake'
+    'Class of 1989 Memorial Service',
+    '1989 class tree, Ferry House'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
 
