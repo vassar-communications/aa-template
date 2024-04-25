@@ -555,7 +555,7 @@ Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appea
 <?php echo item_cardWithText(
     'Ellie Winter ’18',
     '/alums/community/aavc/board-members/aavc-ad-hoc-student-young-alums-engagement-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/winter-ellie-aavc-alum-6332.jpg', 'alt' => 'A person with curly shoulder length hair and a black sweater looks at the viewer.' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/winter-ellie-aavc-alum-6332.jpg', 'alt' => 'A person with curly shoulder-length hair wearing glasses and a pink sweater smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
