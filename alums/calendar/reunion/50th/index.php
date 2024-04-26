@@ -72,7 +72,7 @@ $page_info = json_decode($page_info, true);
   <?php echo schedule_item_dropdown(
     '9:00 p.m.',
     'Meet Your Stars: An Astrological Icebreaker',
-    'Davison Multipurpose Room',
+    'Davison Tent',
   ); ?>
 <p>Classmate Robbie Rothman will offer a fun way to reconnect with one another. If interested, please contact Robbie at <a href="mailto:robertrothman@techie.com">robertrothman@techie.com</a> for more details.</p>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -138,7 +138,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     'Noon',
-    'Worldview Inspired Buffet Lunch',
+    'Worldview Inspired Lunch',
     'Alumnae House Dining Room',
   ); ?>
   <p>Class photo opportunity before lunch at the Alumnae House front steps.</p>
@@ -245,7 +245,7 @@ $page_info = json_decode($page_info, true);
     'Faculty Reception',
     'Fergusson Quadrangle Tent, Vogelstein Center for Drama and Film'
   ); ?>
-<!--  <p><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=6710&cid=11232&fid=11231">See the list of faculty attendees</a></p>-->
+  <p><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=7479&cid=12478&fid=12477">See the list of faculty attendees</a></p>
    <?php echo end_schedule_item_dropdown(); ?>
 
  
@@ -364,7 +364,7 @@ $page_info = json_decode($page_info, true);
   <?php echo schedule_item_dropdown(
     '12:30–1:00 p.m.',
     'Class Memorial Gathering',
-    'Class tree, in front of Swift Hall'
+    'Class tree, in front of Swift Hall (rain backup: Lobby of the Vogelstein Center for Drama and Film)'
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -483,11 +483,11 @@ $page_info = json_decode($page_info, true);
   <h4><a href="../lectures/#em-stop-making-sense-the-art-of-inspiring-anybody-em"><em>Stop Making Sense: The Art of Inspiring Anybody</em></a></h4>
 <p><strong>Location:</strong> Rockefeller 210</p>
 
-  <h4><a href="../lectures/#a-conversation-about-health-education-and-politics-in-america">A Conversation About Health, Education, and Politics in America</a></h4>
-<p><strong>Location:</strong> Rockefeller 300</p>
+  <h4><a href="../lectures/#a-conversation-about-health-and-education-in-america">A Conversation About Health and Education in America</a></h4>
+<p><strong>Location:</strong> Rockefeller 200</p>
 
-    <h4><a href="../lectures/#sneak-peek-at-the-vassar-institute-for-the-liberal-arts">Tour: Sneak Peek at The Vassar Institute for the Liberal Arts</a></h4>
-    <p><strong>Location:</strong> Meet at Chicago Hall Gate</p>
+    <h4><a href="../lectures/#sneak-peek-at-the-vassar-institute-for-the-liberal-arts">Sneak Peek at The Vassar Institute for the Liberal Arts</a></h4>
+    <p><strong>Location:</strong> Rockefeller 300</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
