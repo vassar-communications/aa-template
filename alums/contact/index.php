@@ -368,7 +368,7 @@ echo contact_card(
     'Melanie Beczak',
     'Assistant Director of Gift Processing',
     [
-      'phone' => '',
+      'phone' => '845-437-5208',
       'email' => 'mbeczak@vassar.edu',
     ]
 );
@@ -681,19 +681,8 @@ echo contact_card(
     'Amanda Ader',
     'Associate Director of Annual Giving, Digital Engagement Officer/Donor Experience',
     [
-      'phone' => '',
+      'phone' => '845-437-5451',
       'email' => 'aader@vassar.edu',
-    ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
-    'TBD',
-    'Associate Director of Annual Giving, Volunteer &amp; Reunion',
-    [
-      'phone' => '',
-      'email' => '',
     ]
 );
 echo end_contact_card();
@@ -708,6 +697,17 @@ echo contact_card(
     ]
 );
 echo end_contact_card();
+
+echo contact_card(
+    'Joe Vayas',
+    'Associate Director of Annual Giving, Volunteer &amp; Reunion',
+    [
+      'phone' => '845-437-5379',
+      'email' => 'jvayas@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
 
 echo contact_card(
     'Tammy Carney',
@@ -743,11 +743,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Joe Vayas',
+    'TBD',
     'Assistant Director of Annual Giving, Volunteer &amp; Reunion',
     [
-      'phone' => '845-437-5379',
-      'email' => 'jvayas@vassar.edu',
+      'phone' => '',
+      'email' => '',
     ]
 );
 echo end_contact_card();
