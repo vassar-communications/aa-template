@@ -106,7 +106,7 @@ $page_info = json_decode($page_info, true);
       <h4><a href="../lectures/#sounds-and-science-grants-in-action-at-vassar">Sounds and Science: Grants in Action at Vassar</a></h4>
       <p><strong>Location:</strong> Meet at the Bridge for Laboratory Sciences Atrium (Chapel side)</p>
 
-      <h4><a href="../lectures/#em-flight-of-the-wasp-the-rise-fall-and-future-of-americas-original-ruling-class-em"><em>Flight of the Wasp: The Rise, Fall, and Future of America’s Original Ruling Class</em></a></h4>
+      <h4><a href="../lectures/#em-flight-of-the-wasp-the-rise-fall-and-future-of-americas-original-ruling-class-em"><em>Flight of the WASP: The Rise, Fall, and Future of America’s Original Ruling Class</em></a></h4>
       <p><strong>Location:</strong> New England Building 206</p>
 
     <h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum">Tour: Walking Tour of the Vassar College Arboretum</a></h4>
@@ -373,7 +373,14 @@ $page_info = json_decode($page_info, true);
     'Frances Lehman Loeb Art Center Curatorial Tours',
     null
   ); ?>
-    <p>More information coming soon.</p>
+    <h4><strong>Jessica Brier, Curator of Photography</strong></h4>
+
+    <p>Join us for a tour of the exhibition <em>Making a Life in Photography: Rollie McKenna</em>, led by exhibition co-curator Jessica Brier, curator of photography at the Loeb. This is the first survey of the prolific career of American photographer Rollie McKenna ’40, who made significant contributions to American modernism through portrait, architectural, and documentary photography.</p>
+
+    <h4>John Murphy, The Philip and Lynn Straus Curator of Prints and Drawings <br />
+Ian Shelley, Curatorial and Learning and Engagement Fellow</h4>
+
+    <p>Join us for a tour of the Founding Collection, Hudson River School works. The Hudson River School of American painting is one of the richest areas of the permanent collection. Paintings by many of the movement’s leading artists, including Thomas Cole, Asher B. Durand, Frederic Church, Jasper Cropsey, and Sanford Robinson Gifford, can be seen in a special, intimate suite of galleries at the Art Center featuring their views of the American Northeast and Europe.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -442,7 +449,14 @@ $page_info = json_decode($page_info, true);
     'Frances Lehman Loeb Art Center Curatorial Tours',
     null
   ); ?>
-    <p>More information coming soon.</p>
+    <h4><strong>Jessica Brier, Curator of Photography</strong></h4>
+
+    <p>Join us for a tour of the exhibition <em>Making a Life in Photography: Rollie McKenna</em>, led by exhibition co-curator Jessica Brier, curator of photography at the Loeb. This is the first survey of the prolific career of American photographer Rollie McKenna ’40, who made significant contributions to American modernism through portrait, architectural, and documentary photography.</p>
+
+    <h4>John Murphy, The Philip and Lynn Straus Curator of Prints and Drawings <br />
+Ian Shelley, Curatorial and Learning and Engagement Fellow</h4>
+
+    <p>Join us for a tour of the Founding Collection, Hudson River School works. The Hudson River School of American painting is one of the richest areas of the permanent collection. Paintings by many of the movement’s leading artists, including Thomas Cole, Asher B. Durand, Frederic Church, Jasper Cropsey, and Sanford Robinson Gifford, can be seen in a special, intimate suite of galleries at the Art Center featuring their views of the American Northeast and Europe.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -495,6 +509,14 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
+    '5:00 p.m.',
+    '“Friends of Bill”',
+    'Rockefeller 112'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
     '5:00–6:00 p.m.',
     'Class of 1984 Wine Tasting',
     'Josselyn House, 2nd floor multipurpose room'
@@ -530,6 +552,14 @@ $page_info = json_decode($page_info, true);
     '6:00 p.m.',
     'Class of 1964 Photo',
     'Rockefeller Hall steps facing Main Building'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
+
+
+    <?php echo schedule_item_dropdown(
+    '6:15 p.m.',
+    'Class of 1984 Photo',
+    'Chapel Steps'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
 
@@ -633,6 +663,15 @@ $page_info = json_decode($page_info, true);
     <p>An inter-religious service drawing upon religious and humanist traditions to honor and celebrate the women and men of our reuning classes who have died since the last reunion, as well as faculty, administrators, and staff who have died. This year<strong> Katilau Mbindyo ’14</strong> will give the memorial address. Mbindyo is a Mkamba PhD Candidate at Harvard University’s African American Studies Department, writing on Akamba traditional interpretations of the Anthropocene epoch. After graduating from Vassar with a major in Italian, she received her Master of Divinity (M.Div.) from Union Theological Seminary in New York City. The Alumnae/i Choir will sing, directed by Gail Archer, College Organist.</p>
 
     <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '11 a.m.',
+    'Calling all former Reunion Student workers!',
+    'Outside Aula'
+  ); ?>
+  <p>Remember your days as a student working Reunion at Vassar? Come to reminisce and get to know some of our current student workers. Light refreshments will be served, and guests and families are welcome. We hope you’ll stop by and say hi before you leave campus!</p>
+   <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
