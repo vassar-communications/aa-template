@@ -3,6 +3,47 @@ $media_carousel_path = '/alums/assets/img/alums-home/news-and-spotlight/';
 echo carousel( '', 'alums-media-carousel' ); ?>
 
 
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-05-02/in-the-media/20240502-sasha-velour.jpg',
+    'is-link',
+    'A person with red lipstick, a shaved head, and a bright indigo dress and cap speaks into a microphone.'
+  ); ?>
+
+  <p>Drag artist <strong>Sasha Velour ’09</strong> was the subject of a lengthy <em>Washington Post</em> feature on queer activism, the culture wars, and a new reality series called <em>We’re Here</em>.</p>
+  <p><em>Photo: Allyse Pulliam</em></p>
+  <?php echo cta_link(
+  'https://www.washingtonpost.com/entertainment/2024/04/17/sasha-velour-hbo-max-drag-queen-ban/?utm_campaign=wp_post_most&utm_medium=email&utm_source=newsletter&wpisrc=nl_most&carta-url=https%3A%2F%2Fs2.washingtonpost.com%2Fcar-ln-tr%2F3d6caa2%2F661ff4242d43a25434edb2be%2F65b15869faddfc25cad83b0b%2F37%2F52%2F661ff4242d43a25434edb2be',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-05-02/in-the-media/20240502-laybourne-pittman.jpg',
+    'is-link',
+    'An image divided into two photos. In the left photo, a person with a navy blue shirt, blond hair, and glasses is speaking into a microphone. In the right photo, a person with a dark gray shirt and a brown sport jacket speaks in front of a room of people.'
+  ); ?>
+
+  <p>The Dutchess Community College Foundation honored <strong>Geraldine Laybourne ’69</strong>, co-founder of DAY ONE Early Learning Community in Poughkeepsie, and retired Vassar Associate Dean <strong>Edward Pittman ’82</strong>.</p>
+  <p><em>Photo: Karl Rabe</em></p>
+  <?php echo cta_link(
+  'https://www.sunydutchess.edu/about/facts/news/articles/annual-gala-honors-four-2024.html',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -24,20 +65,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 
-<?php echo carousel_item(
-    $media_carousel_path.'/2024-03-28/in-the-media/jess_chong_4x3_resized.jpg',
-    'is-link',
-    'A person with long black hair and a blue striped shirt stands in front of a large body of water, arms folded, smiling at the viewer.'
-  ); ?>
-
-  <p><strong>Jess Chong ’08</strong> gave <em>Global News</em> an insider’s view of <em>Survivor</em> after competing on the show’s 46th season.</p>
-  <p><em>Photo: Robert Voets/CBS</em></p>
-  <?php echo cta_link(
-  'https://globalnews.ca/news/10311172/survivor-season-46-jess-chong-toronto/',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
 
 <?php echo carousel_item(
     $media_carousel_path.'/2024-03-28/in-the-media/mike_schmidt_4x3_resized.jpg',
@@ -54,83 +81,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   ); ?>
 <?php echo end_carousel_item(); ?>
 
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2024-03-28/in-the-media/ellen_galinsky_4x3_resized.jpg',
-    'is-link',
-    'A person with long brown hair, round hoop earrings, and a black leather jacket smiles at the viewer.'
-  ); ?>
-
-  <p>Author <strong>Ellen Galinsky ’64</strong>, President and Founder of the Families and Work Institute, wrote a <em>Los Angeles Times</em> op-ed about mental health and Gen Z.</p>
-  <p><em>Photo: Courtesy of the subject</em></p>
-  <?php echo cta_link(
-  'https://www.latimes.com/opinion/story/2024-02-16/youth-mental-health-crisis-gen-z-discrimination-stereotype-depression',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2024-02-22/in-the-media/christmas_4x3.jpg',
-    'is-link',
-    'Two people sit in a large brick room. One person is sitting on the right, closest to the viewer and out of focus. The other person has short curly gray hair and is wearing a purple robe and glasses.'
-  ); ?>
-
-  <p><strong>Dr. June Jackson Christmas ’45-4</strong>, a pioneer psychiatrist who headed the NYC Department of Mental Health and Retardation Services, was remembered by <em>The New York Times</em>.</p>
-  <p><em>Photo: Karl Rabe</em></p>
-  <?php echo cta_link(
-  'https://www.nytimes.com/2024/01/04/nyregion/june-jackson-christmas-dead.html',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item(); ?>
-
-
-
-<?php
-//  Scienmag removed this story for some reason, and Kim said to remove this item. Keeping
-//  it here temporarily in case they restore it.
-
-/* echo carousel_item(
-    $media_carousel_path.'/2024-02-22/in-the-media/carlstrom_4x3.jpg',
-    'is-link',
-    'A photo of a person with no hair and a dark gray suit with a blue white-striped tie. The person is smiling at the camera and standing in front of a large window, through which is visible a city with ornate classic buildings and red tile roofs.'
-  ); ?>
-
-  <p>University of Chicago Professor <strong>John E. Carlstrom ’81</strong> was named the winner of the 2024 Dannie Heineman Prize for Astrophysics, as noted by <em>Science Magazine</em>.</p>
-  <?php echo cta_link(
-  'https://scienmag.com/john-e-carlstrom-wins-2024-dannie-heineman-prize-for-astrophysics/',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item();  */ ?>
 
 
 
