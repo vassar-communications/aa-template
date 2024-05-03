@@ -14,6 +14,63 @@
 ?>
 
 
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2024-05-02/spotlight/alums-20240502-triennial.jpg',
+  'is-link',
+  'Two people stand together while a third takes a photo with a phone. One person has a badge with the Vassar logo; the badge says "Nancy" on it.'
+); ?>
+  <h3 class="h3">AAAVC’s Triennial 2024: Reconnecting and Remembering</h3>
+  <p><em>Photo: Kelly Marsh</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/aaavcs-triennial-2024-reconnecting-and-remembering',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>  
+
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2024-05-02/spotlight/20240502-alumnae-house.jpg',
+  'is-link',
+  'A group of people walk in front of several Vassar buildings. One is holding a banner that says "100 Years of Alumnae House".'
+); ?>
+  <h3 class="h3">Vassar Celebrates Alumnae House’s 100th Birthday in Style</h3>
+  <p><em>Photo: Karl Rabe</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/vassar-celebrates-alumnae-houses-100th-birthday',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>  
+
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2024-05-02/spotlight/jess-chong-20240502.jpg',
+  'is-link',
+  'Two people stand outside, maneuvering some very large wooden puzzle pieces.'
+); ?>
+  <h3 class="h3">Jess Chong on <em>Survivor</em></h3>
+  <p>Jessica Chong ’08 becomes second alum to compete on <em>Survivor</em>.</p>
+  <p><em>Photo: Courtesy of CBS/Paramount</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/getting-real',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>  
+
+
+
+
+
+
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2024-03-28/spotlight/admin_fellows_zickl_4x3_resized.jpg',
   'is-link',
@@ -68,74 +125,7 @@
 
 
 
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2024-03-28/spotlight/thurman_gaines_4x3-edit_new.jpg',
-  'is-link',
-  'An image divided into two photos. The left photo is a black-and-white historical photo of a person with short black hair, a thin mustache, and a dark suit and tie. The right photo is a contemporary color image of a person with mid-length graying black hair, a floral patterned shirt, and a pearl necklace.'
-); ?>
-  <h3 class="h3">Student Research Reveals Surprising Legacy of Rev. Howard Thurman at Vassar</h3>
-  <p>The panel discussed the noted theologian and his influence. Billie Davis Gaines ’58 (right) was among those who remembered him.</p>
-  <p><em>Photo: National Institutes of Health and Dmitri Kasterine</em></p>
 
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/surprising-legacy-black-theologian-rev-howard-thurman-vassar',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2024-02-22/spotlight/how_to_dance_4x3.jpg',
-  'is-link',
-  'A person with long, straight, brown hair and a gray shirt stands in a city street. In the background is a theater with illuminated letters that spell "How to Dance in Ohio".'
-); ?>
-  <h3 class="h3"><em>How to Dance</em> on Broadway!</h3>
-  <p>How a documentary about the social lives of young adults with autism by Alexandra Shiva ’95 became a Broadway musical.</p>
-  <p><em>Photo: Samuel Stuart Photography</em></p>
-
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/how-dance-broadway',
-    'Read more',
-    'stretched-link'
-  ); ?>
-
-<?php echo end_carousel_item(); ?>
 
 
 
