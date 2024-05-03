@@ -190,12 +190,12 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo presentation_item(
-    '<em>Flight of the Wasp: The Rise, Fall, and Future of America’s Original Ruling Class</em>',
+    '<em>Flight of the WASP: The Rise, Fall, and Future of America’s Original Ruling Class</em>',
     'New England Building 206',
     '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>An interview with renowned author Michael Gross ’74 about his new book, <em>Flight of the Wasp: The Rise, Fall, and Future of America’s Original Ruling Class</em>.</p>
+      <p>An interview with renowned author Michael Gross ’74 about his new book, <em>Flight of the WASP: The Rise, Fall, and Future of America’s Original Ruling Class</em>.</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenters'); ?>
@@ -499,7 +499,7 @@ Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student an
   '4:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Join Robert Brigham, Professor of History and the Inaugural Faculty Director of The Vassar Institute for the Liberal Arts, and Olympia Management for a tour of the College’s newest community resource and a sneak peek into early Institute programming.</p>
+    <p>Join Robert Brigham, Professor of History and the Inaugural Faculty Director of The Vassar Institute for the Liberal Arts, and Olympia Management for a virtual tour of the College’s newest community resource and a sneak peek into early Institute programming.</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenter'); ?>

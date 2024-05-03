@@ -281,11 +281,54 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_item_iconItem(); ?>
 
-<?php echo item_iconItem('New York City Bus','bus',''); ?>
-<h4>Friday, May 31: Depart from NYC (Bryant Park) at noon</h4>
-<h4>Sunday, June 2: Depart from Vassar (Main Circle) at 1:00 p.m.</h4>
-<p>The Vassar Club of New York will be on hand to greet you on Friday on the south side of 42nd Street between 5th and 6th Avenues, in front of Bryant Park, as shown in the Google Map below.</p>
-<style>.embed-container { position: relative; padding-bottom: 56.25%; margin-bottom: 20px; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 20px; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3022.34973581112!2d-73.98570558727074!3d40.754331934902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDQ1JzE1LjYiTiA3M8KwNTgnNTkuMyJX!5e0!3m2!1sen!2sus!4v1682952585698!5m2!1sen!2sus' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div>
+
+<?php echo item_iconItem('Parking and Transportation','car',''); ?>
+
+    <h4>Parking during Reunion</h4>
+
+    <p>Due to the groundbreaking of The Dede Thompson Bartlett Center for Admission and
+Career Education, parking will be limited on campus. Please use the designated parking at
+the Vassar Preserve, South Lot, and Walker Field House parking lots.</p>
+
+<div class="accordion accordion-flush mt-3" id="accordionFlushExample4">
+    <div class="accordion-item">
+        <div class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                <i class="fa-solid fa-taxi"></i>&nbsp;Local Taxis
+            </button>
+        </div>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample4">
+            <div class="accordion-body">
+                <ul>
+                    <li><strong>Roy Taxi</strong> <a href="tel:+18454534267">(845) 453-4267</a> (cash only)</li>
+                    <li><strong>Allen Taxi</strong> <a href="tel:+18454852411">(845) 485-2411</a> (cash or card)</li>
+                    <li><strong>Empire Transport</strong> <a href="tel:+18454544444">(845) 454-4444</a> (cash only)</li>
+                    <li>Uber and Lyft also available in the area</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="accordion accordion-flush mt-3" id="accordionFlushExample5">
+    <div class="accordion-item">
+        <div class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                <i class="fa-solid fa-bus"></i>&nbsp;New York City Bus
+            </button>
+        </div>
+        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample5">
+            <div class="accordion-body">
+                <h4>Friday, May 31: Depart from NYC (Bryant Park) at noon</h4>
+                <h4>Sunday, June 2: Depart from Vassar (Main Circle) at 1:00 p.m.</h4>
+                <p>The Vassar Club of New York will be on hand to greet you on Friday on the south side of 42nd Street between 5th and 6th Avenues, in front of Bryant Park, as shown in the Google Map below.</p>
+                <style>.embed-container { position: relative; padding-bottom: 56.25%; margin-bottom: 20px; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 20px; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3022.34973581112!2d-73.98570558727074!3d40.754331934902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDQ1JzE1LjYiTiA3M8KwNTgnNTkuMyJX!5e0!3m2!1sen!2sus!4v1682952585698!5m2!1sen!2sus' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php echo end_item_iconItem(); ?>
 
 
@@ -294,7 +337,7 @@ $page_info = json_decode($page_info, true);
     <li><a href="https://www.vassar.edu/smokefree/">Vassar is a smoke-free campus</a>.</li>
     <li>All bathrooms are gender-neutral unless otherwise noted.</li>
     <li>Loop technology for hearing assistance is available in the 1951 Reading Room in Thompson Library, Belle Skinner Hall of Music, and Rockefeller Hall, Auditorium 300.  FM system capability is available in the Chapel.</li>
-    <li>No password needed to connect to Vassar public Wi-Fi.</li>
+    <li>Vassar Guest Wi-Fi: follow the prompts to join the network.</li>
 </ul>
 <?php echo end_item_iconItem(); ?>
 

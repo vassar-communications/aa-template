@@ -74,7 +74,7 @@ $page_info = json_decode($page_info, true);
     'Meet Your Stars: An Astrological Icebreaker',
     'Davison Tent',
   ); ?>
-<p>Classmate Robbie Rothman will offer a fun way to reconnect with one another. If interested, please contact Robbie at <a href="mailto:robertrothman@techie.com">robertrothman@techie.com</a> for more details.</p>
+<p>Classmate Robbie Rothman will offer a fun way to reconnect with one another.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -129,11 +129,11 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '10:15 a.m.–Noon',
-    'Class dedicated sneak peek of The Vassar Institute for the Liberal Arts',
-    'Meet in front of Davison',
+    '10:15 a.m.',
+    'Sneak Peek at The Vassar Institute for the Liberal Arts',
+    'Rockefeller 300',
   ); ?>
-  <p>Join Robert Brigham, Professor of History and the Inaugural Faculty Director of The Vassar Institute for the Liberal Arts, and Olympia Management for a tour and presentation about the College’s newest community resource and a sneak peek into early Institute programming.</p>
+  <p>Join Robert Brigham, Professor of History and the Inaugural Faculty Director of The Vassar Institute for the Liberal Arts, and Olympia Management for a virtual tour and presentation about the College’s newest community resource and a sneak peek into early Institute programming.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -147,7 +147,7 @@ $page_info = json_decode($page_info, true);
   <?php echo schedule_item_dropdown(
     '1:00 p.m.',
     'Reflections on Coeducation at Vassar',
-    'Alumnae House Living Room',
+    'Alumnae House Dining Room',
   ); ?>
   <p>M. Glen Johnson, Professor Emeritus of Political Science, and Anne Constantinople, Professor Emerita of Psychology</p>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -180,7 +180,7 @@ $page_info = json_decode($page_info, true);
       <h4><a href="../lectures/#sounds-and-science-grants-in-action-at-vassar">Sounds and Science: Grants in Action at Vassar</a></h4>
       <p><strong>Location:</strong> Meet at the Bridge for Laboratory Sciences Atrium (Chapel side)</p>
 
-      <h4><a href="../lectures/#em-flight-of-the-wasp-the-rise-fall-and-future-of-americas-original-ruling-class-em"><em>Flight of the Wasp: The Rise, Fall, and Future of America’s Original Ruling Class</em></a></h4>
+      <h4><a href="../lectures/#em-flight-of-the-wasp-the-rise-fall-and-future-of-americas-original-ruling-class-em"><em>Flight of the WASP: The Rise, Fall, and Future of America’s Original Ruling Class</em></a></h4>
       <p><strong>Location:</strong> New England Building 206</p>
 
     <h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum">Tour: Walking Tour of the Vassar College Arboretum</a></h4>
@@ -288,7 +288,7 @@ $page_info = json_decode($page_info, true);
     'The Mug',
     'Lower Level, College Center'
   ); ?>
-  <p>Join us at the Mug for music from the 80s and 90s. Don’t forget to wait in line. Everyone 21 and older is welcome. Cash bar, DJ, and dancing.</p>
+  <p>Join us at the Mug for music from the 80s and 90s. Don’t forget to wait in line. Everyone 21 and older is welcome. Cash only bar, DJ, and dancing.</p>
   <?php echo end_schedule_item_dropdown(); ?>
   
   <?php echo schedule_item_dropdown(
@@ -339,7 +339,7 @@ $page_info = json_decode($page_info, true);
     '10:30 a.m.',
     'Line Up for Parade of Classes'
   ); ?>
-  <p>Line starts with 1954 at the chapel along the path and ends with 2019. Look for your class banner along the parade route. Golf carts will be available. Class photo opportunity at the start of the parade.</p>
+  <p>Line starts with 1948/49 at the chapel along the path and ends with 2019. Look for your class banner along the parade route. Golf carts will be available. Class photo opportunity at the start of the parade.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -382,7 +382,14 @@ $page_info = json_decode($page_info, true);
     'Frances Lehman Loeb Art Center Curatorial Tours',
     null
   ); ?>
-    <p>More information coming soon.</p>
+    <h4><strong>Jessica Brier, Curator of Photography</strong></h4>
+
+    <p>Join us for a tour of the exhibition <em>Making a Life in Photography: Rollie McKenna</em>, led by exhibition co-curator Jessica Brier, curator of photography at the Loeb. This is the first survey of the prolific career of American photographer Rollie McKenna ’40, who made significant contributions to American modernism through portrait, architectural, and documentary photography.</p>
+
+    <h4>John Murphy, The Philip and Lynn Straus Curator of Prints and Drawings <br />
+Ian Shelley, Curatorial and Learning and Engagement Fellow</h4>
+
+    <p>Join us for a tour of the Founding Collection, Hudson River School works. The Hudson River School of American painting is one of the richest areas of the permanent collection. Paintings by many of the movement’s leading artists, including Thomas Cole, Asher B. Durand, Frederic Church, Jasper Cropsey, and Sanford Robinson Gifford, can be seen in a special, intimate suite of galleries at the Art Center featuring their views of the American Northeast and Europe.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -443,7 +450,14 @@ $page_info = json_decode($page_info, true);
     'Frances Lehman Loeb Art Center Curatorial Tours',
     null
   ); ?>
-    <p>More information coming soon.</p>
+    <h4><strong>Jessica Brier, Curator of Photography</strong></h4>
+
+    <p>Join us for a tour of the exhibition <em>Making a Life in Photography: Rollie McKenna</em>, led by exhibition co-curator Jessica Brier, curator of photography at the Loeb. This is the first survey of the prolific career of American photographer Rollie McKenna ’40, who made significant contributions to American modernism through portrait, architectural, and documentary photography.</p>
+
+    <h4>John Murphy, The Philip and Lynn Straus Curator of Prints and Drawings <br />
+Ian Shelley, Curatorial and Learning and Engagement Fellow</h4>
+
+    <p>Join us for a tour of the Founding Collection, Hudson River School works. The Hudson River School of American painting is one of the richest areas of the permanent collection. Paintings by many of the movement’s leading artists, including Thomas Cole, Asher B. Durand, Frederic Church, Jasper Cropsey, and Sanford Robinson Gifford, can be seen in a special, intimate suite of galleries at the Art Center featuring their views of the American Northeast and Europe.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -457,10 +471,10 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '3:00–5:00 p.m.',
-    'Multicultural and Affinity Group Receptions',
+    'Affinity Group Receptions',
     'Main Building, 1st and 2nd floors, and the Jeh Vincent Johnson ALANA Cultural Center'
   ); ?>
-  <p>Join us for an unforgettable experience at the Multicultural and Affinity Group Receptions! Connect with alums from diverse backgrounds and establish lasting relationships in an inclusive and intersectional setting. Indulge in delicious ethnic foods while you visit receptions tailored to Alum-athletes, Black/African American alums (AAAVC members), First-generation, Low Income (FLI) alums (formerly Transitions), International alums, LGBTQ+ alums, and WVKR alums. </p>
+  <p>Join us for an unforgettable experience at the Affinity Group Receptions! Connect with alums from diverse backgrounds and establish lasting relationships in an inclusive and intersectional setting. Indulge in delicious ethnic foods while you visit receptions tailored to Alum-athletes, Black/African American alums (AAAVC members), First-generation, Low Income (FLI) alums (formerly Transitions), International alums, LGBTQ+ alums, and WVKR alums. </p>
 
 <p>The receptions will take place in the Campus Center North Atrium and Main parlors.	Additionally, the Jeh Vincent Johnson ALANA Cultural Center will host an ALANA Alum Open House during the same time. All ALANA Center affiliated alums are welcome, including Black/African American, Latiné, Asian, Asian American, South Asian, Native Hawaiian, Pacific Islander, Native American, Indigenous alums, and former members of ALANA student organizations. Don’t miss out on this unique opportunity to connect and create new memories!</p>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -492,9 +506,17 @@ $page_info = json_decode($page_info, true);
   <?php echo end_schedule_item_dropdown(); ?>
 
 
+  <?php echo schedule_item_dropdown(
+    '5:00 p.m.',
+    '“Friends of Bill”',
+    'Rockefeller 112'
+  ); ?>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
     <?php echo schedule_item_dropdown(
       '5:00-6:00 p.m.',
-      'Night Owls Concert (tentative)',
+      'Night Owls Concert',
       'Taylor 102'
     ); ?>
       <?php echo end_schedule_item_dropdown(); ?>
@@ -554,7 +576,7 @@ $page_info = json_decode($page_info, true);
     'All Class After Party in Noyes Circle Tent',
     'Noyes Circle Tent'
   ); ?>
-      <p>Cash bar, DJ, and dancing to a multigenerational playlist.</p>
+      <p>Cash only bar, DJ, and dancing to a multigenerational playlist.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
