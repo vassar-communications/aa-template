@@ -54,7 +54,7 @@
   'is-link',
   'Two people stand outside, maneuvering some very large wooden puzzle pieces.'
 ); ?>
-  <h3 class="h3">Jess Chong on <em>Survivor</em></h3>
+  <h3 class="h3">Getting Real</h3>
   <p>Jessica Chong ’08 becomes second alum to compete on <em>Survivor</em>.</p>
   <p><em>Photo: Courtesy of CBS/Paramount</em></p>
 
