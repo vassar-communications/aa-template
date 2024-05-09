@@ -365,7 +365,6 @@ the Vassar Preserve, South Lot, and Walker Field House parking lots.</p>
     <h3>A. Scott Warthin Museum of Geology & Natural History, Ely Hall</h3>
     <ul>
       <li>Friday: 8:30 a.m.–5:00 p.m.</li>
-      <li>Saturday: 2:00–4:00 p.m.</li>
     </ul>
 
 <h3>Athletic and Fitness Center</h3>
