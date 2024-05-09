@@ -403,7 +403,7 @@ the Vassar Preserve, South Lot, and Walker Field House parking lots.</p>
 
   <?php echo item_col(); ?>
 
-  <h3>Street Eats food truck, outside Gordon Commons</h3>
+  <h3>Street Eats Food Truck - Outside College Center (behind Main Building)</h3>
   <ul>
     <li>Saturday: 7:30 a.m.–5:00 p.m.</li>
     <li>Sunday: 7:30–11:00 a.m.</li>
@@ -415,13 +415,6 @@ the Vassar Preserve, South Lot, and Walker Field House parking lots.</p>
     <li>Friday: 10:00 a.m.–7:00 p.m.</li>
     <li>Saturday: 9:00 a.m.–5:00 p.m.</li>
     <li>Sunday: 9:00 a.m.–5:00 p.m.</li>
-  </ul>
-
-  <h3>The Retreat, College Center</h3>
-  <ul>
-    <li>Friday: 7:30 a.m.–8:00 p.m.</li>
-    <li>Saturday: 7:30 a.m.–8:00 p.m.</li>
-    <li>Sunday: 7:30 a.m.–1:00 p.m.</li>
   </ul>
 
   <h3>Thompson Memorial Library including the Art Library</h3>
