@@ -191,7 +191,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo presentation_item(
     '<em>Flight of the WASP: The Rise, Fall, and Future of America’s Original Ruling Class</em>',
-    'New England Building 206',
+    'Taylor 203',
     '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
