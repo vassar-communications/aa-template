@@ -107,7 +107,7 @@ $page_info = json_decode($page_info, true);
       <p><strong>Location:</strong> Meet at the Bridge for Laboratory Sciences Atrium (Chapel side)</p>
 
       <h4><a href="../lectures/#em-flight-of-the-wasp-the-rise-fall-and-future-of-americas-original-ruling-class-em"><em>Flight of the WASP: The Rise, Fall, and Future of America’s Original Ruling Class</em></a></h4>
-      <p><strong>Location:</strong> New England Building 206</p>
+      <p><strong>Location:</strong> Taylor 203</p>
 
     <h4><a href="../lectures/#walking-tour-of-the-vassar-college-arboretum">Tour: Walking Tour of the Vassar College Arboretum</a></h4>
     <p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle</p>
@@ -369,6 +369,14 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
+    '2:00 p.m.',
+    'Class of 2009 - Join us on the Quad Lawn',
+    'Quad Lawn, outside Raymond House entrance'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
     '2:00–3:00 p.m.',
     'Frances Lehman Loeb Art Center Curatorial Tours',
     null
@@ -390,15 +398,6 @@ Ian Shelley, Curatorial and Learning and Engagement Fellow</h4>
     'Hildegard Krause Baker, class of 1911, Sculpture Garden'
   ); ?>
     <p>Enjoy afternoon iced tea and refreshments.</p>
-  <?php echo end_schedule_item_dropdown(); ?>
-
-
-  <?php echo schedule_item_dropdown(
-    '2:00–4:00 p.m.',
-    'Open House at the A. Scott Warthin Jr. Museum',
-    'A. Scott Warthin Jr. Museum (next to the Aula)'
-  ); ?>
-    <p>The A. Scott Warthin Jr. Museum is one of Vassar’s many hidden gems! Housed in Ely Hall, the museum has over a dozen active display cases with exhibits curated by Vassar students and faculty alike, in addition to an artistic Geologic Timeline, lots of wall art, a working geyser model, and all the fun facts you could want. Come by to get a personal tour of the museum from our Assistant Museum Curator, a current Vassar geology student, Harrison Walker!</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
