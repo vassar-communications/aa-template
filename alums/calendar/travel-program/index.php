@@ -43,9 +43,6 @@ $page_info = json_decode($page_info, true);
 
 <p class="intro-text">Upcoming 2024 trips at a glance:</p>
 
-<p><strong><a href="#trip2">Cuba: Art, Culture & History</a></strong></br>
-May 5–11, 2024</p>
-
 <p><strong><a href="#galapagos">The Galapagos Islands</a></strong></br>
 July 6–13, 2024</p>
 
@@ -77,37 +74,6 @@ June 18-July 2, 2025</p>
 
 
 <?php echo end_sec_regularContent();?>
-
-
-<div id="trip2"></div>
-<?php echo sec_fullBleedImageColumn(
-    null,
-    $alums_img_path.'alums-calendar/travel-program/Cuba-2024.jpg',
-    'image-is-first',
-    '',
-    ['img_alt_text' => 'A row of colorful vintage convertible cars parked on one side of a road in front of an elaborately decorated multi-story building on a sunny day.']
-); ?>
-
-<p class="intro-text">Cuba: Art, Culture & History</p>
-
-<p><strong>May 5–11, 2024<strong></p>
-
-<p><strong>Faculty Host: Leslie Offutt, Associate Professor emerita of History</strong></p>
-
-<p>Get a rare glimpse inside Cuba, exploring the country’s art, architecture, music, and cuisine. Along with Associate Professor emerita of History Leslie Offutt, you’ll stay in boutique accommodations in Havana; take in the ornate architecture of the UNESCO World Heritage site that is Old Havana; venture to the countryside to the lush tobacco fields and mogotes of Vinales Valley; and stop in Ernest Hemingway’s private world at his historic home, <em>La Vigia</em>.</p>
-<p>Highlights will include:</p>
-<ul>
-	<li>Meet former Deputy Minister for Foreign Affairs to speak about Cuban politics</li>
-	<li>Delve into the life of Ernest Hemmingway</li>
-	<li>Engage with Cuba’s leading artistic creators at their studios</li>
-	<li>Attend a private rehearsal of Cuba’s contemporary dance company</li>
-</ul>
-
-<p>For more information and to register, please contact Arrangements Abroad at <?php echo phone_number('212-514-8921'); ?> or <?php echo phone_number('800-221-1944'); ?>.</p>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
 
 
 <div id="galapagos"></div>

@@ -626,31 +626,6 @@ echo end_contact_card();
 
 
 <?php echo heading_with_anchor_id( 'Individual Giving', '3' ); ?>
-                <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
-<?php
-echo contact_card(
-    'TBD',
-    'Associate Vice President for Individual Giving',
-    [
-      'phone' => '',
-      'email' => '',
-    ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
-    'Kristen Andersen',
-    'Senior Associate Director of Principal Gifts',
-    [
-      'phone' => '845-437-5597',
-      'email' => 'kandersen@vassar.edu',
-    ]
-);
-echo end_contact_card();
-?>
-
-</div>
 
 <?php echo heading_with_anchor_id( 'Annual Giving', '4' ); ?>
                 <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
@@ -956,6 +931,18 @@ echo end_contact_card();
 
                 <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
+
+echo contact_card(
+    'Kristen Andersen',
+    'Senior Associate Director of Principal Gifts',
+    [
+      'phone' => '845-437-5597',
+      'email' => 'kandersen@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
 echo contact_card(
     'TBD',
     'Principal Gifts Associate',

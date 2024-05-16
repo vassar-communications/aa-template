@@ -481,9 +481,6 @@ Ian Shelley, Curatorial and Learning and Engagement Fellow</h4>
   <h4><a href="../lectures/#em-stop-making-sense-the-art-of-inspiring-anybody-em"><em>Stop Making Sense: The Art of Inspiring Anybody</em></a></h4>
 <p><strong>Location:</strong> Rockefeller 210</p>
 
-  <h4><a href="../lectures/#a-conversation-about-health-and-education-in-america">A Conversation About Health and Education in America</a></h4>
-<p><strong>Location:</strong> Rockefeller 200</p>
-
     <h4><a href="../lectures/#sneak-peek-at-the-vassar-institute-for-the-liberal-arts">Sneak Peek at The Vassar Institute for the Liberal Arts</a></h4>
     <p><strong>Location:</strong> Rockefeller 300</p>
 
