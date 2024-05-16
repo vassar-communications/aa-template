@@ -41,7 +41,8 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A large group of people walking along a campus road, with some banners displaying class years.']
 ); ?>
 
-  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 4s and 9s on campus for Reunion, May 31–June 2, 2024 (the 50th Reunion class arrives on May 30). Registration is now open!</p>
+  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. </p>
+<p>Reunion registration and on-campus housing are now closed. Late registration, including a $50.00 late fee, is available until Friday, May 24 at 5:00 p.m. On-campus housing is no longer available. Please <a href="#housing">go to the housing section for information on area hotels</a>.</p>
   <a href="https://reunionregistration.vassar.edu" class="btn btn-primary arrow mt-5">Register for Reunion</a>
   <br />
    <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who’s Coming to Reunion</a>
@@ -56,7 +57,7 @@ $page_info = json_decode($page_info, true);
   ''
 ); ?>
 
-    <p>Reunion registration will close on May 17, 2024. This page continues to be updated periodically. Be sure to check back! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
+    <p>Late registration will close on May 24, 2024, by 5:00 p.m. There is a late registration fee of $50.00. If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
 
   <h3>Future Reunion Dates</h3>
 
@@ -189,11 +190,12 @@ $page_info = json_decode($page_info, true);
 <p><a href="https://offices.vassar.edu/campus-safety/procedures/">Read Vassar’s complete emergency procedures</a>.</p>
 <?php echo end_item_iconItem(); ?>
 
+<div id="housing"></div>
 
 <?php echo item_iconItem('Housing','house-chimney',''); ?>
 <p>We are excited to welcome alums back to Vassar for in-person reunions and want to ensure that everyone makes informed decisions about where to stay.</p>
 
-<p>We recommend you <strong>register early</strong> for on-campus housing as it is allocated on a first come, first served basis. If you prefer the creature comforts of home, <a href="https://www.vassar.edu/visit/community/lodging">search area hotels</a>. The following area hotels have rooms specifically reserved for Reunion.</p>
+<p>We recommend you <strong>register early</strong> for on-campus housing as it is allocated on a first-come, first-served basis. If you prefer the creature comforts of home, <a href="https://www.vassar.edu/visit/community/lodging">search area hotels</a>. The following area hotels have rooms specifically reserved for Reunion.</p>
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
     <div class="accordion-item">
