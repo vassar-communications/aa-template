@@ -466,34 +466,6 @@ Facilitated by Ellie Winter ’18, AAVC Board member and Chair of the Student an
 
 
 <?php echo presentation_item(
-  'A Conversation About Health and Education in America',
-  'Rockefeller 200',
-  '4:00 p.m.'
-); ?>
-  <?php echo presentation_content(); ?>
-    <p>Join two Vassar faculty members for an exploration of modern American culture through the lenses of their scholarship and current course offerings.</p>
-  <?php echo end_presentation_content(); ?>
-
-  <?php echo presentation_member_list('Presenters'); ?>
-    <?php echo presentation_member(
-      'Catherine Do Tan',
-      'https://www.vassar.edu/faculty/ctan',
-      'Assistant Professor of Sociology',
-      '/alums/assets/img/alums-calendar/reunion/2024-lectures/Catherine-Tan.jpg',
-      'A person with short straight black hair wearing an orange colored dress smiles off to one side of the viewer.'
-    ); ?>
-    <?php echo presentation_member(
-      'Kimberly Williams Brown',
-      'https://www.vassar.edu/faculty/kwilliamsbrown',
-      'Assistant Professor of Education',
-      '/alums/assets/img/alums-calendar/reunion/2024-lectures/Kimberly-Williams-Brown.jpg',
-      'A person with black hair in braids styled on top of their head, wearing glasses and a black suit, smiles at the viewer.'
-    ); ?>
-  <?php echo end_presentation_member_list(); ?>
-<?php echo end_presentation_item(); ?>
-
-
-<?php echo presentation_item(
   'Sneak Peek at The Vassar Institute for the Liberal Arts',
   'Rockefeller 300',
   '4:00 p.m.'
