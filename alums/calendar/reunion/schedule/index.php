@@ -69,7 +69,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    'Noon',
+    '1:00 p.m.',
     'Jummah Service',
     'Pratt House'
   ); ?>
