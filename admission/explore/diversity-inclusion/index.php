@@ -74,7 +74,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_stat(
       null,
       $facts['number_of_students'],
-      'students from all 50 states and '.$class_stats['number_of_countries_all'].' countries'
+      'students from ' . $class_stats['number_of_states'] . ' states and '.$class_stats['number_of_countries'].' countries'
     ); ?>
   <?php echo end_item_col(); ?>
 
