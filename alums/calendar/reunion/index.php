@@ -286,7 +286,7 @@ $page_info = json_decode($page_info, true);
 
     <h4>Parking during Reunion</h4>
 
-    <p>Due to the groundbreaking of The Dede Thompson Bartlett Center for Admission and Career Education, North Lot will be unavailable and parking will be limited on campus. Please use the designated parking at the Vassar Preserve, South Lot (entrance on Raymond Ave), Kenyon Hall, and Walker Field House parking lots.</p>
+    <p>Due to the groundbreaking of The Dede Thompson Bartlett Center for Admission and Career Education, North Lot will be unavailable and parking will be limited on campus. Please use the designated parking at South Lot (entrance on Raymond Ave), Kenyon Hall, and Walker Field House parking lots.</p>
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample4">
     <div class="accordion-item">
