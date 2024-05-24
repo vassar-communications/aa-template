@@ -244,7 +244,7 @@ $page_info = json_decode($page_info, true);
 <strong>1999:</strong> Cushing House<br />
 <strong>2004:</strong> Raymond House<br />
 <strong>2009:</strong> Raymond House<br />
-<strong>2014:</strong> TownHouses<br />
+<strong>2014:</strong> TownHouse 164<br />
 <strong>2019:</strong> Noyes House</p>
             </div>
         </div>
@@ -286,9 +286,7 @@ $page_info = json_decode($page_info, true);
 
     <h4>Parking during Reunion</h4>
 
-    <p>Due to the groundbreaking of The Dede Thompson Bartlett Center for Admission and
-Career Education, parking will be limited on campus. Please use the designated parking at
-the Vassar Preserve, South Lot, and Walker Field House parking lots.</p>
+    <p>Due to the groundbreaking of The Dede Thompson Bartlett Center for Admission and Career Education, North Lot will be unavailable and parking will be limited on campus. Please use the designated parking at the Vassar Preserve, South Lot (entrance on Raymond Ave), Kenyon Hall, and Walker Field House parking lots.</p>
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample4">
     <div class="accordion-item">
