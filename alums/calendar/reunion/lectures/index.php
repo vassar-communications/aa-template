@@ -285,7 +285,7 @@ $page_info = json_decode($page_info, true);
   '2:30 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Join us for a special panel discussion reflecting on the history of Alumnae House, from the initial gift that led to its founding and the work of artist Violet Oakley, to the key role alums have played in sustaining and modernizing the house over the past century. Looking to the future, we'll discuss how this key part of Vassar's campus will remain a forever home that fosters a sense of belonging for alums across generations for the century ahead. Moderated by AAVC Board Director James Estrada ’13, Chair, Alumnae House Committee.</p>
+    <p>Please join us as we mark the 100th Anniversary of Alumnae House with an interactive exercise in collective foresight! Together, we’ll reflect on the unique history of Alumnae House, share memories and stories, including the key role that alums have played in keeping the House open. Then, we will ideate about its future, to imagine how this key place on Vassar’s campus might remain a “forever home” that fosters a sense of belonging for alums across generations for the century ahead.</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Moderator'); ?>

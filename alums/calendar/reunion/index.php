@@ -41,10 +41,9 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A large group of people walking along a campus road, with some banners displaying class years.']
 ); ?>
 
-  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. </p>
-<p>Reunion registration and on-campus housing are now closed. Late registration, including a $50.00 late fee, is available until Friday, May 24 at 5:00 p.m. On-campus housing is no longer available. Please <a href="#housing">go to the housing section for information on area hotels</a>.</p>
-  <a href="https://reunionregistration.vassar.edu" class="btn btn-primary arrow mt-5">Register for Reunion</a>
-  <br />
+  <p>Reunion is nearly here! Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus.</p>
+<p>Late registration is now closed.</p>
+<p>The campus looks beautiful, and we are working hard to prepare for everyone’s arrival. See you soon!</p>
    <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who’s Coming to Reunion</a>
  
   
@@ -57,7 +56,7 @@ $page_info = json_decode($page_info, true);
   ''
 ); ?>
 
-    <p>Late registration will close on May 24, 2024, by 5:00 p.m. There is a late registration fee of $50.00. If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
+    <p>Reunion registration is now closed. If you have any questions or need assistance, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
 
   <h3>Future Reunion Dates</h3>
 
@@ -149,7 +148,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_iconItem('In Case of Emergency','triangle-exclamation',''); ?>
 
-<?php /*
+
 <?php echo info_card(
   '',
   'mt-4 '); ?>
@@ -160,7 +159,6 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_info_card(); ?>
 
-*/ ?>
 
 <p><strong>The safety of our guests, faculty, students and staff is our highest priority. In the event of an emergency, please:</strong></p>
 <ul>
@@ -246,7 +244,7 @@ $page_info = json_decode($page_info, true);
 <strong>1999:</strong> Cushing House<br />
 <strong>2004:</strong> Raymond House<br />
 <strong>2009:</strong> Raymond House<br />
-<strong>2014:</strong> TownHouses<br />
+<strong>2014:</strong> TownHouse 164<br />
 <strong>2019:</strong> Noyes House</p>
             </div>
         </div>
@@ -288,9 +286,7 @@ $page_info = json_decode($page_info, true);
 
     <h4>Parking during Reunion</h4>
 
-    <p>Due to the groundbreaking of The Dede Thompson Bartlett Center for Admission and
-Career Education, parking will be limited on campus. Please use the designated parking at
-the Vassar Preserve, South Lot, and Walker Field House parking lots.</p>
+    <p>Due to the groundbreaking of The Dede Thompson Bartlett Center for Admission and Career Education, North Lot will be unavailable and parking will be limited on campus. Please use the designated parking at South Lot (entrance on Raymond Ave), Kenyon Hall, and Walker Field House parking lots.</p>
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample4">
     <div class="accordion-item">

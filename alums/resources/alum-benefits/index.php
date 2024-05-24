@@ -56,7 +56,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_cardWithText(
     'Vassar Alum ID Card',
-    'https://offices.vassar.edu/card/alums-id-card-request/',
+    'https://offices.vassar.edu/card/alum-id-card-request/',
     ['url' => $alums_img_path.'alums-resources/alums-benefits/0138-15-11-kr-vcdf-vassar-0090.jpg', 'alt' => 'A nighttime view of the glass-walled entrance to a large stone and brick building, with the name of the building above the entrance, the Vogelstein Center for Drama and Film.' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
