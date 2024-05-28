@@ -631,15 +631,25 @@ echo end_contact_card();
                 <div class="grid cols-2 mb-5" style="--bs-gap: 2rem">
 <?php
 echo contact_card(
-    'TBD',
+    'Lane Sulzer',
     'Director of Annual Giving',
+    [
+      'phone' => '845-437-7898',
+      'email' => 'lsulzer@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'TBD',
+    'Senior Associate Director of Annual Giving',
     [
       'phone' => '',
       'email' => '',
     ]
 );
 echo end_contact_card();
-
 
 
 echo contact_card(
@@ -654,7 +664,7 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Lane Sulzer',
+    'TBD',
     'Associate Director of Annual Giving, Digital Engagement Officer/Donor Experience',
     [
       'phone' => '845-437-7898',
