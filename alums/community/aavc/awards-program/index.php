@@ -139,24 +139,18 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-community/aavc/awards/Vassar_Feigen_20220929_KR_0074.jpg',
+    '/alums/assets/img/alums-community/aavc/awards/0030-24-04-kma-harris-award-vassar-8953-square.jpg',
     'image-is-first',
     '',
-    ['img_alt_text' => 'Three women of various ages stand together, smiling at the camera.']
+    ['img_alt_text' => 'Four women of various ages stand together, smiling at the viewer.']
 ); ?>
-<h6 class="tagline">2022 Recipient</h6>
-<h1>Brenda Feigen ’66</h1>
+<h6 class="tagline">2023 Recipient</h6>
+<h1>Pamela Harris ’92</h1>
 
-<p><?php echo item_link_VideoModal(
-    'Watch the Brenda Feigen video',
-    'https://player.vimeo.com/video/759562549',
-    'vimeo',
-    '',
-    'no-arrow btn-link mt-4'
-); ?></p>
+
 <?php echo cta_link(
-    'https://www.vassar.edu/news/feminist-legend-brenda-feigen-66-accepts-spirit-vassar-award-tells-students-embrace-activism',
-     'Read more about Brenda Feigen'
+    'https://www.vassar.edu/news/aavc-announces-2023-honorees',
+     'Read more about Pamela Harris'
 ); ?>
 
 
