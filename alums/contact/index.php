@@ -641,16 +641,6 @@ echo contact_card(
 echo end_contact_card();
 
 
-echo contact_card(
-    'Lisa Lynch',
-    'Senior Associate Director of Annual Giving',
-    [
-      'phone' => '845-437-7017',
-      'email' => 'lilynch@vassar.edu',
-    ]
-);
-echo end_contact_card();
-
 
 echo contact_card(
     'Amanda Ader',
