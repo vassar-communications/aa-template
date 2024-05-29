@@ -42,6 +42,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <p>Reunion is here! Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus.</p>
+      <p>The Vassar Reunion team is on campus and looking forward to seeing you all during the weekend.   The best way to reach us is by calling <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">emailing us regarding Reunion</a>.</p>
    <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who’s Coming to Reunion</a>
  
   
@@ -53,8 +54,6 @@ $page_info = json_decode($page_info, true);
   '',
   ''
 ); ?>
-
-    <p>The Vassar Reunion team is on campus and looking forward to seeing you all during the weekend.   The best way to reach us is by calling <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">emailing us regarding Reunion</a>.</p>
 
   <h3>Future Reunion Dates</h3>
 
@@ -373,7 +372,7 @@ $page_info = json_decode($page_info, true);
 
 <h3>Jummah Service at Pratt House</h3>   
     <ul>
-      <li>Friday: Noon</li>
+      <li>Friday: 1:00 p.m.</li>
     </ul>
 
   <h3>Music Library</h3>
