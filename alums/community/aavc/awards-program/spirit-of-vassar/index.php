@@ -37,6 +37,15 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
+<h3 class="mt-5">2023</h3>
+
+<h4>Pamela Harris ’92</h4>
+
+<ul class="linked-list">
+  <li><a href="https://www.vassar.edu/news/aavc-announces-2023-honorees">Read more about Harris in the June 2023 <em>Vassar Stories</em> article</a></li>
+</ul>
+
+
 <h3 class="mt-5">2022</h3>
 
 <h4>Brenda Feigen ’66</h4>
