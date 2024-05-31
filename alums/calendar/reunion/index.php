@@ -378,7 +378,7 @@ $page_info = json_decode($page_info, true);
   <h3>Music Library</h3>
   <ul>
     <li>Friday: 1:00–4:00 p.m.</li>
-    <li>Saturday: 10:00 a.m.–4:00 p.m.</li>
+    <li>Saturday: Noon–4:00 p.m.</li>
   </ul>
 
 <h3>Olmsted Greenhouse</h3>
