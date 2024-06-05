@@ -142,7 +142,7 @@ $page_info = json_decode($page_info, true);
     '/alums/assets/img/alums-community/aavc/awards/0030-24-04-kma-harris-award-vassar-8953-square.jpg',
     'image-is-first',
     '',
-    ['img_alt_text' => 'Four women of various ages stand together, smiling at the viewer.']
+    ['img_alt_text' => 'Four people of various ages stand together, smiling at the viewer.']
 ); ?>
 <h6 class="tagline">2023 Recipient</h6>
 <h1>Pamela Harris ’92</h1>
