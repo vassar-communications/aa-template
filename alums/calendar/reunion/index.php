@@ -34,7 +34,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Welcome Back',
+    'Thanks for coming!',
     $alums_img_path.'alums-calendar/reunion/Reunion-52960367243_97df9164f3_k.jpg',
     'image-is-first theme-cream',
     '',
