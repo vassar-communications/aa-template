@@ -624,7 +624,7 @@ echo contact_card(
     'Lauren Zallo',
     'Assistant Director of Advancement Communications – Digital',
     [
-      'phone' => '',
+      'phone' => '845-437-5419',
       'email' => 'lzallo@vassar.edu',
     ]
 );
