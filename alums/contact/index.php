@@ -619,6 +619,17 @@ echo contact_card(
 );
 echo end_contact_card();
 
+
+echo contact_card(
+    'Lauren Zallo',
+    'Assistant Director of Advancement Communications – Digital',
+    [
+      'phone' => '',
+      'email' => 'lzallo@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
 ?>
 </div>
                 <div class="anchor" id="sec7"></div>
