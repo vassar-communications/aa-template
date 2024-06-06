@@ -42,8 +42,9 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <p>Reunion 2024 has come to an end. It was a beautiful and joyous weekend. We hope you all had a wonderful time!</p>
-      <p>Keep an eye out for a link to photos capturing the weekend, coming soon.</p>
       <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5.</p>
+   <a href="https://www.flickr.com/photos/vassarcollegemedia/albums/72177720317624209/" class="btn btn-primary arrow mt-5">View Reunion 2024 Photos</a>
+   <br />
    <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who Came to Reunion</a>
  
   
