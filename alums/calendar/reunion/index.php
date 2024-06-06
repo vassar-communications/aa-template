@@ -34,16 +34,17 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Welcome Back',
+    'Thanks for coming!',
     $alums_img_path.'alums-calendar/reunion/Reunion-52960367243_97df9164f3_k.jpg',
     'image-is-first theme-cream',
     '',
     ['img_alt_text' => 'A large group of people walking along a campus road, with some banners displaying class years.']
 ); ?>
 
-  <p>Reunion is here! Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus.</p>
-      <p>The Vassar Reunion team is on campus and looking forward to seeing you all during the weekend.   The best way to reach us is by calling <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">emailing us regarding Reunion</a>.</p>
-   <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who’s Coming to Reunion</a>
+  <p>Reunion 2024 has come to an end. It was a beautiful and joyous weekend. We hope you all had a wonderful time!</p>
+      <p>Keep an eye out for a link to photos capturing the weekend, coming soon.</p>
+      <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5.</p>
+   <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who Came to Reunion</a>
  
   
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -55,6 +56,11 @@ $page_info = json_decode($page_info, true);
   ''
 ); ?>
 
+    <h3>Lost and Found</h3>
+
+    <p>Leave something behind? Please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
+
+    
   <h3>Future Reunion Dates</h3>
 
   <p>June 6–8, 2025<br>
@@ -67,15 +73,12 @@ $page_info = json_decode($page_info, true);
         <li><a href="https://www.flickr.com/photos/vassarcollegemedia/collections/72157683898719825/">View photos from in-person Reunions held since 2012</a></li>
     </ul>  
 
-<!--
-    <h3>Lost and Found</h3>
 
-    <p>Leave something behind? Please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
-    -->
-    
 
 <?php echo end_sec_regularContent(); ?>
 
+
+<?php /*hiding everything else on page until 2025 setup
 
 <?php echo sec_fullBleedImageColumn(
     'General Reunion<br> Class Schedule',
@@ -437,6 +440,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_hasColumns(); ?>
 
 
+End of hiding all content*/ ?>
 
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/alums/inc/pages/give/give.php');?>
