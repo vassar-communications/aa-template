@@ -15,6 +15,27 @@
 
 
 
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2024-06-17/spotlight/reunion.jpg',
+  'is-link',
+  'A black-and-white historical photo of a person with long hair, holding a camera and looking up.'
+); ?>
+  <h3 class="h3">Reunion 2024</h3>
+  <p>Nearly 1,300 alums returned to campus for a full weekend of fun!</p>
+  <p><em>Photo: Stockton Photo, Inc.</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/reunion-2024-highlights',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2024-05-02/spotlight/alums-20240502-triennial.jpg',
   'is-link',
@@ -88,22 +109,12 @@
 
 <?php echo end_carousel_item(); ?>  
 
-<?php echo carousel_item(
-  $alums_spotlight_itm_path.'/2024-03-28/spotlight/rollie_mckenna_4x3_resized.jpg',
-  'is-link',
-  'A black-and-white historical photo of a person with long hair, holding a camera and looking up.'
-); ?>
-  <h3 class="h3">A Vassar Homecoming for Photographer Rollie McKenna ’40</h3>
-  <p>The alum’s work is on view at the Loeb Art Center until June 2.</p>
-  <p><em>Photo: © The Rosalie Thorne McKenna Foundation, Courtesy Center for Creative Photography, The University of Arizona Foundation</em></p>
 
-  <?php echo cta_link(
-    'https://www.vassar.edu/news/vassar-homecoming-photographer-rollie-mckenna-40',
-    'Read more',
-    'stretched-link'
-  ); ?>
 
-<?php echo end_carousel_item(); ?>
+
+
+
+
 
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2024-03-28/spotlight/simmons_4x3_resized.jpg',
