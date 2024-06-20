@@ -56,26 +56,26 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-community/aavc/awards/0002-23-03-kr-granoff-jonathan-vassar-0090.jpg',
+    '/alums/assets/img/alums-community/aavc/awards/Sau-Lan-Wu-distinguished-ach-2024.jpg',
     'image-is-first',
     '',
-    ['img_alt_text' => 'Three people stand in a room, smiling and looking at the camera. One person has mid-length gray hair and glasses; one person has a shaved head, short gray beard, and no glasses; and one person has long brown hair and a dark jacket.']
+    ['img_alt_text' => 'A person with long black hair wearing a red and black patterned jacket stands in front of a blackboard with equations written on it, holding a microphone and smiling.']
 ); ?>
-<h6 class="tagline">2022 Recipient</h6>
-<h1>Jonathan Granoff ’70</h1>
+<h6 class="tagline">2023 Recipient</h6>
+<h1>Sau Lan Yu Wu ’63</h1>
 
 
 <p><?php echo item_link_VideoModal(
-    'Watch the Jonathan Granoff video',
-    'https://player.vimeo.com/video/813544020',
+    'Watch Sau Lan Yu Wu’s 2014 Commencement address via video',
+    'https://www.youtube.com/watch?v=jERTKiNbARU',
     'vimeo',
     '',
     'no-arrow btn-link mt-4'
 ); ?></p>
 
 <?php echo cta_link(
-    'https://www.vassar.edu/news/peace-and-anti-nuclear-activist-jonathan-granoff-70-receives-aavc-distinguished-achievement',
-     'Read more about Jonathan Granoff'
+    'https://www.vassar.edu/news/aavc-announces-2023-honorees',
+     'Read more about Sau Lan Yu Wu'
 ); ?>
 
 
