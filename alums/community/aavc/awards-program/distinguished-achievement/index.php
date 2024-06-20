@@ -38,12 +38,12 @@ $page_info = json_decode($page_info, true);
 
 <h3 class="mt-5">2023</h3>
 
-<h4>Sau Lan Yu Wu ’63</h4>
+<h4>Sau Lan Wu ’63</h4>
 
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-        'Watch Sau Lan Yu Wu’s 2014 Commencement address',
+        'Watch Sau Lan Wu’s 2014 Commencement address',
         'https://www.youtube.com/embed/jERTKiNbARU',
         'youtube',
         '',

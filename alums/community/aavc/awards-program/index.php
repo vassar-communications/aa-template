@@ -62,11 +62,11 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A person with long black hair wearing a red and black patterned jacket stands in front of a blackboard with equations written on it, holding a microphone and smiling.']
 ); ?>
 <h6 class="tagline">2023 Recipient</h6>
-<h1>Sau Lan Yu Wu ’63</h1>
+<h1>Sau Lan Wu ’63</h1>
 
 
 <p><?php echo item_link_VideoModal(
-    'Watch Sau Lan Yu Wu’s 2014 Commencement address via video',
+    'Watch Sau Lan Wu’s 2014 Commencement address via video',
     'https://www.youtube.com/embed/jERTKiNbARU',
     'youtube',
     '',
@@ -75,7 +75,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     'https://www.vassar.edu/news/aavc-announces-2023-honorees',
-     'Read more about Sau Lan Yu Wu'
+     'Read more about Sau Lan Wu'
 ); ?>
 
 
