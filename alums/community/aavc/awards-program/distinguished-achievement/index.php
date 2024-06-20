@@ -44,7 +44,7 @@ $page_info = json_decode($page_info, true);
   <li>
     <?php echo item_link_VideoModal(
         'Watch Sau Lan Yu Wu’s 2014 Commencement address',
-        'https://www.youtube.com/watch?v=jERTKiNbARU',
+        'https://www.youtube.com/embed/jERTKiNbARU',
         'youtube',
         '',
         'no-arrow'
