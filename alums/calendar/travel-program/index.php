@@ -52,13 +52,7 @@ September 21–October 4, 2024</p>
 <p><strong><a href="#tuscany">Flavors of Tuscany</a></strong></br>
 September 26–October 4, 2024</p>
 
-<p><strong><a href="#trip8">Discovering South Korea: A Journey through its Food, Culture, and Globalization</a></strong></br>
-October 9–21, 2024</p>
-
 <p class="intro-text">Postponed Until 2025:</p>
-
-<p><strong><a href="#trip3">Paris in the Jazz Age, featuring the African American Experience</a></strong></br>
-Date TBD</p>
 
 <p><strong><a href="#trip4">Namibia: Endless Horizons & Open Skies</a></strong></br>
 June 18-July 2, 2025</p>
@@ -131,15 +125,12 @@ June 18-July 2, 2025</p>
 <li>Four-night cruise on a private 14-guest sailing vessel</li>
 </ul>
 
-<p>For more information and to register, please contact Orbridge Destination Specialists at <?php echo phone_number('866-639-0079'); ?>.</p>
-
-<!--commenting out until website is updated, then can remove contact sentence above and replace with this.
 <?php echo cta_link(
     'https://orbridge.com/grp_departures/overview/partner_vassar_discover_egypt_nile_valley_2024',
     'See the full Egypt itinerary and reserve your place.'
 
 ); ?>
--->
+
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -168,18 +159,74 @@ inspiration for artists, chefs, and vintners alike.</p>
 <li>Tour an organic farm and learn about the owners’ dedication to the slow food movement</li>
 <li>Stroll Siena—a UNESCO World Heritage Site</li>
 </ul>
-<p>For more information and to register, please contact Orbridge Destination Specialists at <?php echo phone_number('866-639-0079'); ?>.</p>
 
-<!--commenting out until website is updated, then can remove contact sentence above and replace with this.
 <?php echo cta_link(
     'https://orbridge.com/grp_departures/overview/partner_vassar_flavors_of_tuscany_2024',
     'See the full Tuscany itinerary and reserve your place.'
 
 ); ?>
--->
+
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
+
+<div id="trip4"></div>
+<?php echo sec_fullBleedImageColumn(
+    null,
+    $alums_img_path.'alums-calendar/travel-program/Namibia-2024.jpg',
+    'image-is-first',
+    '',
+    ['img_alt_text' => 'A baby elephant and an adult elephant browse in tall wheat-colored grass next to a body of water at sunset.']
+); ?>
+
+<p class="intro-text">Endless Horizons & Open Skies</p>
+
+<p><strong>June 18-July 2, 2025<strong></p>
+
+<p><strong>Faculty Host: Abby Baird ’91, Professor of Psychological Science on the Arnhold Family Chair</strong></p>
+
+<p>Venture to the South African country of Namibia, renowned for its captivating vistas, sculpted red canyons, some of the most spectacular sand dunes, and the home of the world’s oldest desert. Along the way, you’ll marvel at these geological wonders and admire the remarkable wildlife that call this vast and varied landscape home—leopards, giraffes, rhinos, zebras, antelopes, and desert elephants. You’ll also learn about the country’s extraordinary conservation programs.</p>
+<p>Highlights will include:</p>
+<ul>
+<li>Evening game drive and rhino tracking</li>
+<li>Take a bush flight deep into the Namib desert</li>
+<li>Visit the AfriCat Foundation to experience the work they are doing to protect leopards and cheetahs and reintroducing them into the wild</li>
+</ul>
+<p>For more information, please contact Immersion Journeys at <?php echo phone_number('917-686-2620'); ?>.</p>
+
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php echo sec_regularContent('Travel Insurance','theme-extralightgray','');?>
+<p>The Vassar Travel Program offers quality travel insurance through <a href="https://meyerandassoc.com/travel-insurance/">Meyer and Associates</a>.</p>
+
+<p>Upon receipt of your tour registration, Vassar will send insurance information to you directly.
+Please note that the purchase of insurance is time sensitive to the date that your trip deposit
+payment is received. Insurance information will be sent to you both by email and postal mail.</p>
+
+<p>Of course, the choice of whether to purchase insurance is yours, but the Vassar Travel Program
+wants to make sure each Vassar traveler is offered quality insurance. We believe it is very
+important to protect your travel investment. Meyer and Associates offers a wide range of
+insurance options. We strongly urge travelers to purchase the package that offers trip
+cancellation coverage at the minimum.</p>
+
+<p>For detailed information and to purchase travel insurance, contact Meyer and Associates or call <?php echo phone_number('800-635-7801'); ?>.</p>
+
+<?php echo end_sec_regularContent();?>
+
+
+<?php /*
+
+<!-- Commenting this out, as the copy is a duplicate of the intro section - Chris -->
+
+<?php echo sec_regularContent('We’d like to hear from you!','theme-charcoal bg-dark  presentation quad-pattern has-bg','py-3 d-flex justify-content-around text-center'); ?>
+
+<p>As we make our plans, we look forward to hearing from you regarding destinations and trip themes you’d like to explore and faculty members you’d like to travel with. Please contact Susan Quade, Senior Associate Director of Regional and International Programs and the Vassar Travel Program, via email at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
+<?php echo end_sec_regularContent(); ?>
+
+
+<!--putting the info for these two postponed trips (South Korea, Paris in the Jazz Age) here, to use whenever they are rescheduled -->
 
 <div id="trip8"></div>
 <?php echo sec_fullBleedImageColumn(
@@ -245,62 +292,6 @@ inspiration for artists, chefs, and vintners alike.</p>
 <p><em>Photo credit: Susan Brkich ’86</em></p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<div id="trip4"></div>
-<?php echo sec_fullBleedImageColumn(
-    null,
-    $alums_img_path.'alums-calendar/travel-program/Namibia-2024.jpg',
-    'image-is-first',
-    '',
-    ['img_alt_text' => 'A baby elephant and an adult elephant browse in tall wheat-colored grass next to a body of water at sunset.']
-); ?>
-
-<p class="intro-text">Endless Horizons & Open Skies</p>
-
-<p><strong>June 18-July 2, 2025<strong></p>
-
-<p><strong>Faculty Host: Abby Baird ’91, Professor of Psychological Science on the Arnhold Family Chair</strong></p>
-
-<p>Venture to the South African country of Namibia, renowned for its captivating vistas, sculpted red canyons, some of the most spectacular sand dunes, and the home of the world’s oldest desert. Along the way, you’ll marvel at these geological wonders and admire the remarkable wildlife that call this vast and varied landscape home—leopards, giraffes, rhinos, zebras, antelopes, and desert elephants. You’ll also learn about the country’s extraordinary conservation programs.</p>
-<p>Highlights will include:</p>
-<ul>
-<li>Evening game drive and rhino tracking</li>
-<li>Take a bush flight deep into the Namib desert</li>
-<li>Visit the AfriCat Foundation to experience the work they are doing to protect leopards and cheetahs and reintroducing them into the wild</li>
-</ul>
-<p>For more information, please contact Immersion Journeys at <?php echo phone_number('917-686-2620'); ?>.</p>
-
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<?php echo sec_regularContent('Travel Insurance','theme-extralightgray','');?>
-<p>The Vassar Travel Program offers quality travel insurance through <a href="https://meyerandassoc.com/travel-insurance/">Meyer and Associates</a>.</p>
-
-<p>Upon receipt of your tour registration, Vassar will send insurance information to you directly.
-Please note that the purchase of insurance is time sensitive to the date that your trip deposit
-payment is received. Insurance information will be sent to you both by email and postal mail.</p>
-
-<p>Of course, the choice of whether to purchase insurance is yours, but the Vassar Travel Program
-wants to make sure each Vassar traveler is offered quality insurance. We believe it is very
-important to protect your travel investment. Meyer and Associates offers a wide range of
-insurance options. We strongly urge travelers to purchase the package that offers trip
-cancellation coverage at the minimum.</p>
-
-<p>For detailed information and to purchase travel insurance, contact Meyer and Associates or call <?php echo phone_number('800-635-7801'); ?>.</p>
-
-<?php echo end_sec_regularContent();?>
-
-
-<?php /*
-
-<!-- Commenting this out, as the copy is a duplicate of the intro section - Chris -->
-
-<?php echo sec_regularContent('We’d like to hear from you!','theme-charcoal bg-dark  presentation quad-pattern has-bg','py-3 d-flex justify-content-around text-center'); ?>
-
-<p>As we make our plans, we look forward to hearing from you regarding destinations and trip themes you’d like to explore and faculty members you’d like to travel with. Please contact Susan Quade, Senior Associate Director of Regional and International Programs and the Vassar Travel Program, via email at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
-<?php echo end_sec_regularContent(); ?>
 
 */ ?>
 
