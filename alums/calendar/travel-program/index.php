@@ -55,7 +55,7 @@ September 26–October 4, 2024</p>
 <p class="intro-text">Postponed Until 2025:</p>
 
 <p><strong><a href="#trip4">Namibia: Endless Horizons & Open Skies</a></strong></br>
-June 18-July 2, 2025</p>
+June 20-July 1, 2025</p>
 
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -181,7 +181,7 @@ inspiration for artists, chefs, and vintners alike.</p>
 
 <p class="intro-text">Endless Horizons & Open Skies</p>
 
-<p><strong>June 18-July 2, 2025<strong></p>
+<p><strong>June 20-July 1, 2025<strong></p>
 
 <p><strong>Faculty Host: Abby Baird ’91, Professor of Psychological Science on the Arnhold Family Chair</strong></p>
 
