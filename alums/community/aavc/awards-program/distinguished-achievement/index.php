@@ -36,6 +36,24 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 
+<h3 class="mt-5">2023</h3>
+
+<h4>Sau Lan Wu ’63</h4>
+
+<ul class="linked-list">
+  <li>
+    <?php echo item_link_VideoModal(
+        'Watch Sau Lan Wu’s 2014 Commencement address',
+        'https://www.youtube.com/embed/jERTKiNbARU',
+        'youtube',
+        '',
+        'no-arrow'
+    ); ?>
+  </li>
+  <li><a href="https://www.vassar.edu/news/aavc-announces-2023-honorees">Read more about Wu in the June 2023 <em>Vassar Stories</em> article</a></li>
+</ul>
+
+
 <h3 class="mt-5">2022</h3>
 
 <h4>Jonathan Granoff ’70</h4>
