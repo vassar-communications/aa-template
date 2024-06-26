@@ -31,7 +31,7 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'Maybelle Taylor Bennett ’70',
+    'Maybelle Taylor Bennett&nbsp;’70',
     '/alums/assets/img/alums-community/aavc/board/bennett-maybelle-taylor-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Alumnae/i Recognition Committee Member and Career Networking Committee Member</li>
+    <li>Alum Recognition Committee Member and Career Networking Committee Member</li>
     <li>(she/her/hers)</li>
     <li>Washington, D.C.</li>
     <li>Term of Service: 2021–2025</li>

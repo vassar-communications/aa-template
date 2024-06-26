@@ -49,19 +49,33 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-give/hire/hire-vassar-52632404398_32dd113963_o.jpg',
+    '/alums/assets/img/alums-give/hire/Alum-with-students-2024-square.jpg',
     'theme-cream',
     '',
-    ['img_alt_text' => 'Four people standing in a room in casual clothing with their arms around one another smile at the viewer.']
+    ['img_alt_text' => 'A person with long black hair sitting on a table in front of a wall talks to several students who stand in a semi-circle with their backs to the viewer.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <h1 class="display-3 mb-4">Post a Job on VassarNet</h1>
-    <p class="mb-3">VassarNet opens doors for students and alums alike, connecting them to a powerful online resource to build meaningful professional relationships and find opportunities.</p>
-    <a href="https://vassarnet.vassar.edu/" class="btn btn-link px-0 mt-5 arrow">Launch VassarNet</a>
+    <h1 class="display-3 mb-4">Post a Job for Students</h1>
+    <p class="mb-3">If you are interested in sharing entry-level internship or job opportunities with Vassar students, the Center for Career Education can help.</p>
+    <a href="mailto:hirevassar@vassar.edu" class="btn btn-link px-0 mt-5 arrow">Email hirevassar@vassar.edu</a>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
+<?php echo sec_fullBleedImageColumn(
+    null,
+    '/alums/assets/img/alums-give/hire/hire-vassar-52632404398_32dd113963_o.jpg',
+    'image-is-first theme-cream',
+    '',
+    ['img_alt_text' => 'Four people standing in a room in casual clothing with their arms around one another smile at the viewer.']
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <h1 class="display-3 mb-4">Post a Job for Alums</h1>
+    <p class="mb-3">Job and other career-related opportunities that are relevant for Vassar alums should be posted to the VassarNet LinkedIn group.</p>
+    <a href="https://vassarnet.vassar.edu" class="btn btn-link px-0 mt-5 arrow">Launch VassarNet</a>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo relatedTopics(); ?>

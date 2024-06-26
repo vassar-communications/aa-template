@@ -5,7 +5,7 @@
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 
-<p>Sign up for our online platform for professional networking and mentoring opportunities.</p>
+<p>Join our private LinkedIn group for professional networking and career development.</p>
 
 <?php echo end_item_cardWithText(
     null,

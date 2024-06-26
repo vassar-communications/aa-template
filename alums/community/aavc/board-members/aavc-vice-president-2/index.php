@@ -31,7 +31,7 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'Tyrone Forman ’92',
+    'Tyrone A Forman ’92',
     '/alums/assets/img/alums-community/aavc/board/forman-tyrone-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',

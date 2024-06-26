@@ -47,9 +47,9 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Two people, one person with long blond hair wearing a beige shirt and the other with very short dark hair and a light colored button down shirt, listening to someone speak off screen.']
 ); ?>
 
-<p>Sign up for <a href="https://vassarnet.vassar.edu/">VassarNet</a>, our online platform for professional networking and connections. Take a few minutes to complete your VassarNet profile and tap into the power of the Vassar network.</p>
+<p>Join VassarNet, our private LinkedIn group dedicated to building professional networks between and among alums and current students of Vassar.</p>
 
-<p>Within the platform, you can post or apply for job and internship opportunities, answer questions a student or alum may have that are within your field of expertise, or expand your own network by connecting with one of the thousands of other alums.</p>
+<p>Within the group, you can post or apply for job opportunities, answer questions a student or alum may have that are within your field of expertise, or expand your own network by connecting with other alums.</p>
 
 <?php echo cta_link(
     'https://vassarnet.vassar.edu/',

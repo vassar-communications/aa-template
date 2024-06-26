@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Nominating and Governance Committee Member and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</li>
+    <li>Nominating and Governance Committee Member</li>
     <li>(they/them/he/him)</li>
     <li>New York</li>
     <li>Term of Service: 2021–2025</li>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Volunteer consultant, Vassar Alumnae/i Census and Attitudinal Study, 2021; co-chair, LGBTQ+ Alumnae/i of Vassar Affinity Group, 2019–present; guest speaker, Vassar Asian Students’ Alliance Brown/Round/Queer/Here workshop, 2018; panelist, LGBTQ+ Alumnae/i Then and Now Reunion event, 2018.</p>
+<p>Director, AAVC Board of Directors, 2021–present; member, AAVC Nominating and Governance Committee, 2021–present; member, AAVC Ad Hoc Student and Young Alumnae/i Engagement Committee, 2022–2024; co-chair, LGBTQ+ Alumnae/i of Vassar Affinity Group, 2019–2023; member, AAVC Communications Advisory Committee, 2021–2022; volunteer consultant, Vassar Alumnae/i Census and Attitudinal Study, 2021; guest speaker, Vassar Asian Students’ Alliance Brown/Round/Queer/Here workshop, 2018; panelist, LGBTQ+ Alumnae/i Then and Now Reunion event, 2018.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

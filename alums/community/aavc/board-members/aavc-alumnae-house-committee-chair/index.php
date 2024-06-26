@@ -39,10 +39,10 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Alumnae House Committee Chair, Vassar Fund Committee Member, and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</li>
+    <li>Alumnae House Committee Chair and Vassar Fund Committee Member</li>
     <li>(he/him/his)</li>
     <li>Michigan</li>
-    <li>Term of Service: 2021–2025</li>
+    <li>Term of Service: 2021–2026</li>
   </ul>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Member, Latino/a Alumnae/i of Vassar College (LAVC), 2016–present; volunteer, Admissions Activities, 2015–present; member, Club Admission Committee, 2013–present; member, Alumnae/i Club Programming Committee, 2016–2018; volunteer, Admission Phoner Program, 2015–present.</p>
+<p>Chair, AAVC Alumnae House Committee, 2022–present; member, AAVC Vassar Fund Committee, 2022–present; director, AAVC Board of Directors, 2021–present; member, Latino/a Alumnae/i of Vassar College (LAVC), 2016–present; volunteer, Admissions Activities, 2015–present; member, AAVC Ad Hoc Student and Young Alumnae/i Engagement Committee, 2021–2024; member, Club Admission Committee, 2013–2023; member, AAVC Alumnae House Committee, 2021–2022; member, Alumnae/i Club Programming Committee, 2016–2018; volunteer, Admission Phoner Program, 2015–present.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

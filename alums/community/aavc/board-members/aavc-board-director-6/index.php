@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Class Engagement Committee Member and Alumnae House Committee Member</li>
+    <li>Alumnae House Committee Member</li>
     <li>(he/him/his)</li>
     <li>New York</li>
     <li>Term of Service: 2022–2026</li>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Co-President, Class of 1981, 2021–present; President, Class of 1981, 2020–2021; committee member, Class of 1981, 1996–2001.</p>
+<p>Director, AAVC Board of Directors, 2022–present; member, AAVC Alumnae House Committee, 2022–present; co-president, Class of 1981, 2021–present; member, AAVC Class Engagement Committee, 2022–2024; president, Class of 1981, 2020–2021; committee member, Class of 1981, 1996–2001.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

@@ -31,7 +31,7 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'Brian Farkas ’10',
+    'Brian D. Farkas ’10',
     '/alums/assets/img/alums-community/aavc/board/farkas-brian-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
