@@ -55,11 +55,12 @@ ul.inline-list-links li a {
 </style>
 
 <ul class="inline-list-links">
-  <li><a href="#board-slate">2024 Board Slate</a></li>
   <li><a href="#board-of-directors">Board of Directors</a></li>
   <li><a href="#board-members">Current AAVC Board Members</a></li>
 </ul>
 
+
+<?php /*hiding board slate until 2025 setup
 
 <?php echo sec_regularContent(
     '2024 Board Slate',
@@ -323,6 +324,8 @@ Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appea
 
 <?php echo end_sec_regularContent(); ?>
 
+End of hiding board slate content*/ ?>
+
 
 <a id="board-of-directors"></a>
 <?php echo sec_regularContent(
@@ -358,7 +361,7 @@ Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appea
 
 
 <?php echo item_cardWithText(
-    'Monica Vachher ’77',
+    'Monica Vachher&nbsp;’77',
     '/alums/community/aavc/board-members/aavc-president/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/vachher-monica-aavc-alum-001.jpg', 'alt' => 'A person with long dark brown hair, a black shirt with a red sweater over it, and a red necklace smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
@@ -374,7 +377,7 @@ Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appea
 
 
 <?php echo item_cardWithText(
-    'Brian Farkas ’10',
+    'Brian D. Farkas&nbsp;’10',
     '/alums/community/aavc/board-members/aavc-vice-president/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/farkas-brian-aavc-alum-001.jpg', 'alt' => 'A person with short brown hair, a dark formal jacket, and a burgundy patterned tie smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
@@ -389,7 +392,7 @@ Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appea
 
 
 <?php echo item_cardWithText(
-    'Tyrone Forman ’92',
+    'Tyrone A Forman&nbsp;’92',
     '/alums/community/aavc/board-members/aavc-vice-president-2/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/forman-tyrone-aavc-alum-001.jpg', 'alt' => 'A person with closely cropped dark gray hair, a mustache and goatee, with a black checkered shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
@@ -405,13 +408,13 @@ Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appea
 
 
 <?php echo item_cardWithText(
-    'Patrick DeYoung ’18',
+    'Patrick DeYoung&nbsp;’18',
     '/alums/community/aavc/board-members/aavc-trustee-deyoung/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/deyoung-patrick-aavc-alum-001.jpg', 'alt' => 'A person wearing a gray suit jacket over a blue shirt and a gray patterned tie looks at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">AAVC Trustee, Nominating and Governance Committee Member, and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</div>
+<div class="position">AAVC Trustee and Nominating and Governance Committee Member</div>
 <div class="location">California</div>
 <div class="term">Term of Service: 2022–2026</div>
 
@@ -421,7 +424,22 @@ Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appea
 
 
 <?php echo item_cardWithText(
-    'Delia Cheung Hom ’00',
+    'Anne Elizabeth Green&nbsp;’93',
+    '/alums/community/aavc/board-members/aavc-trustee-green/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/green-anne-aavc-alum-001.jpg', 'alt' => 'A person with wavy grey-black hair pulled back from their face, a dark blue jacket over a red shirt, and a red beaded necklace smiles at the viewer.' ],
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
+); ?>
+<div class="pronouns">(she/her/hers)</div>
+<div class="position">AAVC Trustee, Nominating and Governance Committe Member, Communications Advisory Committee Member, and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
+<div class="location">New Jersey</div>
+<div class="term">Term of Service: 2024–2028</div>
+<?php echo end_item_cardWithText(
+    null,
+); ?>
+
+
+<?php echo item_cardWithText(
+    'Delia Cheung Hom&nbsp;’00',
     '/alums/community/aavc/board-members/aavc-ad-hoc-diversity-equity-inclusion-committee-chair/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/hom-delia-cheung-aavc-alum-001.jpg', 'alt' => 'A person with short straight black hair, a dark blue shirt, and a silver necklace smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
@@ -436,67 +454,36 @@ Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appea
 
 
 <?php echo item_cardWithText(
-    'Alexandria Dempsey ’09',
-    '/alums/community/aavc/board-members/aavc-class-engagement-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/dempsey-alexandria-aavc-alum-001.jpg', 'alt' => 'A person with long dark brown hair, black shirt, black jacket, and silver necklace smiles at the viewer.' ],
-    'related-topics card--withParagraph card-has-cta-icon card-is-link'
-); ?>
-<div class="pronouns">(she/her/hers)</div>
-<div class="position">Class Engagement Committee Chair and Clubs Committee Member</div>
-<div class="location">California</div>
-<div class="term">Term of Service: 2020–2024</div>
-<?php echo end_item_cardWithText(
-    null,
-); ?>
-
-
-<?php echo item_cardWithText(
-    'James Estrada ’13',
+    'James Estrada&nbsp;’13',
     '/alums/community/aavc/board-members/aavc-alumnae-house-committee-chair/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/estrada-james-aavc-alum-001.jpg', 'alt' => 'A person with short black hair, a mustache and beard, arms crossed, a gray jacket, and a black shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">Alumnae House Committee Chair, Vassar Fund Committee Member, and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</div>
+<div class="position">Alumnae House Committee Chair and Vassar Fund Committee Member</div>
 <div class="location">Michigan</div>
-<div class="term">Term of Service: 2021–2025</div>
+<div class="term">Term of Service: 2021–2026</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
 
 <?php echo item_cardWithText(
-    'Justin Hergianto ’04',
-    '/alums/community/aavc/board-members/aavc-communications-advisory-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/Justin_Hergianto-removebg-aavc-alum-001.jpg', 'alt' => 'A person with short grey-black hair and a dark blue shirt smiles at the viewer.' ],
+    'Eddie Gamarra&nbsp;’94',
+    '/alums/community/aavc/board-members/aavc-alum-recognition-committee-chair/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/gamarra-eddie-aavc-alum.jpg', 'alt' => 'A person with short dark hair wearing a dark suit jacket and blue button-down shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">Communications Advisory Committee Chair, Alumnae/i Recognition Committee Member, and Career Networking Committee Member</div>
-<div class="location">New York</div>
-<div class="term">Term of Service: 2021–2025</div>
+<div class="position">AAVC Alum Recognition Committee Chair</div>
+<div class="location">California</div>
+<div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
 
 
 <?php echo item_cardWithText(
-    'Anne Green ’93',
-    '/alums/community/aavc/board-members/aavc-nominating-and-governance-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/green-anne-aavc-alum-001.jpg', 'alt' => 'A person with wavy grey-black hair pulled back from their face, a dark blue jacket over a red shirt, and a red beaded necklace smiles at the viewer.' ],
-    'related-topics card--withParagraph card-has-cta-icon card-is-link'
-); ?>
-<div class="pronouns">(she/her/hers)</div>
-<div class="position">Nominating and Governance Committee Chair, Communications Advisory Committee Member, and Ad Hoc Diversity, Equity, and Inclusion Committee Member
-</div>
-<div class="location">New Jersey</div>
-<div class="term">Term of Service: 2020–2024</div>
-<?php echo end_item_cardWithText(
-    null,
-); ?>
-
-
-<?php echo item_cardWithText(
-    'Carlos Hernandez Tellez ’14',
+    'Carlos Hernandez Tellez&nbsp;’14',
     '/alums/community/aavc/board-members/aavc-career-networking-committee-chair/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/tellez-carlos-hernandez-aavc-alum-001.jpg', 'alt' => 'A person with wavy black hair, a mustache, and a light gray jacket over a black shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
@@ -510,7 +497,7 @@ Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appea
 
 
 <?php echo item_cardWithText(
-    'Katherine “Kat” Mills Polys ’93',
+    'Katherine “Kat” Mills Polys&nbsp;’93',
     '/alums/community/aavc/board-members/aavc-vassar-fund-committee-chair/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/polys-kat-mills-aavc-alum-001.jpg', 'alt' => 'A person with shoulder length grey black wavy hair and a patterned collared shirt looks at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
@@ -525,21 +512,7 @@ Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appea
 
 
 <?php echo item_cardWithText(
-    'Amy Pullman ’71',
-    '/alums/community/aavc/board-members/aavc-alums-recognition-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/pullman-amy-aavc-alum-001.jpg', 'alt' => 'A person with short curly gray-brown hair and a white collared shirt smiles at the viewer.' ],
-    'related-topics card--withParagraph card-has-cta-icon card-is-link'
-); ?>
-<div class="pronouns">(she/her/hers)</div>
-<div class="position">Alumnae/i Recognition Committee Chair</div>
-<div class="location">Virginia</div>
-<div class="term">Term of Service: 2020–2024</div>
-<?php echo end_item_cardWithText(
-    null,
-); ?>
-
-<?php echo item_cardWithText(
-    'Andrew Solum ’89',
+    'Andrew Solum&nbsp;’89',
     '/alums/community/aavc/board-members/aavc-clubs-committee-chair/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/solum-andrew-aavc-alum-001.jpg', 'alt' => 'A person with short brown hair, a black jacket, and a blue and white striped shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
@@ -552,43 +525,45 @@ Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appea
     null,
 ); ?>
 
+
 <?php echo item_cardWithText(
-    'Ellie Winter ’18',
-    '/alums/community/aavc/board-members/aavc-ad-hoc-student-young-alums-engagement-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/winter-ellie-aavc-alum-6332.jpg', 'alt' => 'A person with curly shoulder-length hair wearing glasses and a pink sweater smiles at the viewer.' ],
+    'Alisa Swire&nbsp;’84',
+    '/alums/community/aavc/board-members/aavc-nominating-and-governance-committee-chair/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/alisa-swire.jpg', 'alt' => 'A person with long straight brown hair and a gray coat smiles at the camera.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">Ad Hoc Student and Young Alumnae/i Engagement Committee Chair and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
-<div class="location">Rhode Island</div>
-<div class="term">Term of Service: 2021–2025</div>
-<?php echo end_item_cardWithText(
-    null,
-); ?>
-
-
-<?php echo item_cardWithText(
-    'Katrine “Cage” Ames ’69',
-    '/alums/community/aavc/board-members/aavc-board-director-1/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/ames-katrine-cage-aavc-alum-001.jpg', 'alt' => 'A person with blond short hair, black jacket, and a blue patterned scarf smiles at the viewer.' ],
-    'related-topics card--withParagraph card-has-cta-icon card-is-link'
-); ?>
-<div class="pronouns">(she/her/hers)</div>
-<div class="position">Vassar Fund Committee Member and Class Engagement Committee Member</div>
+<div class="position">Nominating and Governance Committee Chair</div>
 <div class="location">New York</div>
-<div class="term">Term of Service: 2020–2024</div>
+<div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
 
+
 <?php echo item_cardWithText(
-    'Gail Becker ’64',
+    'Sheryl Tracy Smikle&nbsp;’81',
+    '/alums/community/aavc/board-members/aavc-board-director-5/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/smikle-sheryl-aavc-alum-001.jpg', 'alt' => 'A person with short curly gray hair, and a black shirt with colored flowers on it smiles at the viewer.' ],
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
+); ?>
+<div class="pronouns">(she/her/hers)</div>
+<div class="position">Nominating and Governance Committee Vice Chair</div>
+<div class="location">Georgia</div>
+<div class="term">Term of Service: 2024–2028</div>
+<?php echo end_item_cardWithText(
+    null,
+); ?>
+
+
+<?php echo item_cardWithText(
+    'Gail Becker&nbsp;’64',
     '/alums/community/aavc/board-members/aavc-board-director-7/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/becker-gail-aavc-alum-001.jpg', 'alt' => 'A person with short wavy gray-brown hair and a black turtleneck sweater smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">Alumnae House Committee Member and Alumnae/i Recognition Committee Member </div>
+<div class="position">Alumnae House Committee Member and Alum Recognition Committee Member</div>
 <div class="location">New Jersey</div>
 <div class="term">Term of Service: 2022–2026</div>
 <?php echo end_item_cardWithText(
@@ -597,35 +572,37 @@ Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appea
 
 
 <?php echo item_cardWithText(
-    'Maybelle Taylor Bennett ’70',
+    'Maybelle Taylor Bennett&nbsp;’70',
     '/alums/community/aavc/board-members/aavc-board-director-8/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/bennett-maybelle-taylor-aavc-alum-001.jpg', 'alt' => 'A person wearing a purple head covering, glasses, and a purple scarf smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers) </div>
-<div class="position">Alumnae/i Recognition Committee Member and Career Networking Committee Member</div>
+<div class="position">Alum Recognition Committee Member and Career Networking Committee Member</div>
 <div class="location">Washington, DC</div>
 <div class="term">Term of Service: 2021–2025</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
 
+
 <?php echo item_cardWithText(
-    'AC Dumlao ’13',
+    'AC Dumlao&nbsp;’13',
     '/alums/community/aavc/board-members/aavc-board-director-9/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/AC-Dumlao_Headshot_Credit-AC-Dumlao_AAVC.jpg', 'alt' => 'A person with a closely shaven head, glasses, dark colored jacket, and a white shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(they/them/he/him)</div>
-<div class="position">Nominating and Governance Committee Member and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</div>
+<div class="position">Nominating and Governance Committee Member</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2021–2025</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
 
+
 <?php echo item_cardWithText(
-    'Peggy Ann Nagae ’73',
+    'Peggy Ann Nagae&nbsp;’73',
     '/alums/community/aavc/board-members/aavc-board-director-3/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/nagae-peggy-ann-aavc-alum-001.jpg', 'alt' => 'A person with long brown hair and bangs, a red and black shirt, and white bead necklace smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
@@ -638,58 +615,92 @@ Practicing attorney, 1996–2004; Law Clerk, District of Columbia Court of Appea
     null,
 ); ?>
 
+
 <?php echo item_cardWithText(
-    'Chip Reid ’77',
-    '/alums/community/aavc/board-members/aavc-board-director-4/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/reid-chip-aavc-alum-001.jpg', 'alt' => 'A person with short straight brown hair, black suit jacket, blue patterned tie, and white shirt smiles at the viewer.' ],
+    'Michael Neuwirth&nbsp;’89',
+    '/alums/community/aavc/board-members/aavc-board-director-neuwirth/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/neuwirth-michael-aavc-alum.jpg', 'alt' => 'A person with close-shaven hair, beard, and mustache, wearing glasses, smiles at the viewer' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">Nominating and Governance Committee Member and Communications Advisory Committee Member</div>
-<div class="location">Washington, DC</div>
-<div class="term">Term of Service: 2020–2024</div>
+<div class="position">AAVC Board Director</div>
+<div class="location">New York</div>
+<div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
 
+
 <?php echo item_cardWithText(
-    'Sheryl Smikle ’81',
-    '/alums/community/aavc/board-members/aavc-board-director-5/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/smikle-sheryl-aavc-alum-001.jpg', 'alt' => 'A person with short curly gray hair, and a black shirt with colored flowers on it smiles at the viewer.' ],
+    'Heller An Shapiro&nbsp;’81',
+    '/alums/community/aavc/board-members/aavc-board-director-shapiro/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/shapiro-heller-an-aavc-alum.jpg', 'alt' => 'A person with short straight gray and black hair and glasses, wearing a sleeveless dark purple shirt, leans against a brick wall, smiling at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">Nominating and Governance Committee Member and Alumnae House Committee Member</div>
-<div class="location">Georgia</div>
-<div class="term">Term of Service: 2020–2024</div>
+<div class="position">AAVC Board Director</div>
+<div class="location">Maryland</div>
+<div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
 
+
 <?php echo item_cardWithText(
-    'Keith St John ’81',
+    'Keith St John&nbsp;’81',
     '/alums/community/aavc/board-members/aavc-board-director-6/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/st-john-keith-aavc-alum-001.jpg', 'alt' => 'A person with closely cropped gray-black hair, a white beard and gray mustaches, a patterned shirt and purple tie smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">Class Engagement Committee Member and Alumnae House Committee Member</div>
+<div class="position">Alumnae House Committee Member</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2022–2026</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
 
+
 <?php echo item_cardWithText(
-    'Alisa Swire ’84',
-    '/alums/community/aavc/board-members/aavc-board-director-2/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/alisa-swire.jpg', 'alt' => 'A person with shoulder-length wavy brown hair, gray jacket, and white shirt smiles at the viewer.' ],
+    'Kerri Tillett&nbsp;’91',
+    '/alums/community/aavc/board-members/aavc-board-director-tillett/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/tillett-kerri-aavc-alum.jpg', 'alt' => 'A person with short straight dark hair and glasses wearing a white jacket and black shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">Alumnae House Committee Vice Chair and Nominating and Governance Committee Member </div>
-<div class="location">New York</div>
-<div class="term">Term of Service: 2023–2027</div>
+<div class="position">AAVC Board Director</div>
+<div class="location">Massachusetts/North Carolina</div>
+<div class="term">Term of Service: 2024–2028</div>
+<?php echo end_item_cardWithText(
+    null,
+); ?>
+
+
+<?php echo item_cardWithText(
+    'Emily Weisgrau&nbsp;’96',
+    '/alums/community/aavc/board-members/aavc-board-director-weisgrau/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/weisgrau-emily-aavc-alum.jpg', 'alt' => 'A person with wavy brown and gray shoulder-length hair and glasses, wearing a dark sweater over a black and white patterned shirt, smiles at the viewer.' ],
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
+); ?>
+<div class="pronouns">(she/her/hers)</div>
+<div class="position">AAVC Board Director</div>
+<div class="location">Pennsylvania and Massachusetts</div>
+<div class="term">Term of Service: 2024–2028</div>
+<?php echo end_item_cardWithText(
+    null,
+); ?>
+
+
+<?php echo item_cardWithText(
+    'Ellie Winter&nbsp;’18',
+    '/alums/community/aavc/board-members/aavc-board-director-winter/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/winter-ellie-aavc-alum-6332.jpg', 'alt' => 'A person with curly shoulder-length hair wearing glasses and a pink sweater smiles at the viewer.' ],
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
+); ?>
+<div class="pronouns">(she/her/hers)</div>
+<div class="position">Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
+<div class="location">Rhode Island</div>
+<div class="term">Term of Service: 2021–2025</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>

@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Nominating and Governance Committee Chair",
   "page_classes":"",
-  "feature_image":"/alums/assets/img/alums-community/aavc/board/green-anne-aavc-alum-001.jpg"
+  "feature_image":"/alums/assets/img/alums-community/aavc/board/alisa-swire.jpg"
 }';
 
 /* === */
@@ -31,18 +31,18 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'Anne Green ’93',
-    '/alums/assets/img/alums-community/aavc/board/green-anne-aavc-alum-001.jpg',
+    'Alisa Swire ’84',
+    '/alums/assets/img/alums-community/aavc/board/alisa-swire.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'A person with wavy grey-black hair pulled back from their face, a dark blue jacket over a red shirt, and a red beaded necklace smiles at the viewer.']
+    ['img_alt_text' => 'A person with long straight brown hair and a gray coat smiles at the camera']
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Nominating and Governance Committee Chair, Communications Advisory Committee Member, and Ad Hoc Diversity, Equity, and Inclusion Committee Member</li>
+    <li>Nominating and Governance Committee Chair</li>
     <li>(she/her/hers)</li>
-    <li>New Jersey</li>
-    <li>Term of Service: 2020–2024</li>
+    <li>New York</li>
+    <li>Term of Service: 2024–2028</li>
   </ul>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Director, AAVC Board of Directors, 2018–present; member, AAVC Nominating and Governance Committee, 2018–present; member, AAVC Communications Advisory Committee, 2018–present; mentor, Sophomore Career Connections, 2018–2020; volunteer consultant to Vassar senior staff regarding communications issues, Fall 2017; volunteer, Career Advisor Program, 1994–2006.</p>
+<p>Member, AAVC Board, 2023–present; member, AAVC Nominating and Governance Committee, 2023–2024;  Vice Chair, Alumnae House Committee, 2022–present and member, 2019–2022; Program Chair, Vassar Club of the Hudson Valley, 2022 and Vice President, 2020–2022; member, Advisory Council for the Consortium on Forced Migration, Vassar College, 2018–2020;  Chair, Wisconsin Alumni Admissions Program, 2008–2016 and member, 2006–2008; note-writer/phoner, Class of 1984, 1997–1998.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Principal & Managing Director, G&S Business Communications, 2018–present; Steering Committee member, Friends of the QueensWay, 2016–present; board member and current Chair, LifeWay Network, 2015–present; board member, PR Council, 2017–2019; Executive Committee member, Public Relations Global Network, 2016–2018; President & CEO, CooperKatz & Company, Inc., 2011–2018; Vice President, Senior Vice President/General Manager, and COO, CooperKatz & Company, Inc., 1996–2011; associate, Burson-Marsteller, 1993–1996.</p>
+<p>Vice President, General Counsel, and Corporate Secretary, Johnson Outdoors Inc., February 2001–December 2016 (ret.). Director, Hudson Valley Credit Union since 2022 and member of the Finance and Compensation & Benefit Committees since 2023; Chair, Governance & Nominating Committee and Board Secretary, 2022–2023; pro bono immigration law attorney, My Sister’s Place, since 2022; trustee and Chair of the Finance Committee, Poughkeepsie Day School 2019–2020; Refugee Resettlement Coordinator, Greater Newburgh Interfaith Council, 2016–2018.</p>
 <?php echo end_sec_regularContent(); ?>
 
 
