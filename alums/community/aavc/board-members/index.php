@@ -432,7 +432,7 @@ End of hiding board slate content*/ ?>
 <div class="pronouns">(she/her/hers)</div>
 <div class="position">AAVC Trustee, Nominating and Governance Committe Member, Communications Advisory Committee Member, and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
 <div class="location">New Jersey</div>
-<div class="term">Term of Service: 2024–2028</div>
+<div class="term">Term of Service: 2018–2028</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
@@ -474,7 +474,7 @@ End of hiding board slate content*/ ?>
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">AAVC Alum Recognition Committee Chair</div>
+<div class="position">Alum Recognition Committee Chair</div>
 <div class="location">California</div>
 <div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
@@ -550,7 +550,7 @@ End of hiding board slate content*/ ?>
 <div class="pronouns">(she/her/hers)</div>
 <div class="position">Nominating and Governance Committee Vice Chair</div>
 <div class="location">Georgia</div>
-<div class="term">Term of Service: 2024–2028</div>
+<div class="term">Term of Service: 2020–2028</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>

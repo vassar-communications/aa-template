@@ -42,7 +42,7 @@ $page_info = json_decode($page_info, true);
     <li>Nominating and Governance Committee Vice Chair</li>
     <li>(she/her/hers)</li>
     <li>Georgia</li>
-    <li>Term of Service: 2024–2028</li>
+    <li>Term of Service: 2020–2028</li>
   </ul>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>

@@ -346,7 +346,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Joe Vayas',
-    'Associate Director of Annual Giving, Volunteer &amp; Reunion',
+    'Associate Director of Annual Giving, Volunteer, and Reunion',
     [
       'phone' => '845-437-5379',
       'email' => 'jvayas@vassar.edu',
