@@ -16,6 +16,7 @@
 
 
 
+
 <?php echo carousel_item(
   $alums_spotlight_itm_path.'/2024-06-27/spotlight/0094-24-06-kma-groundbreaking-vassar-3814.jpg',
   'is-link',
@@ -27,6 +28,28 @@
 
   <?php echo cta_link(
     'https://www.vassar.edu/news/vassars-game-changing-admission-and-career-center-takes-a-big-step-forward',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
+
+<?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2024-06-27/spotlight/Laura-Alice-Marian.jpg',
+  'is-link',
+  'A person with brown hair and a long floral-patterned dress stands outside, speaking in front of a wooden podium with the word Vassar on it.'
+); ?>
+  <h3 class="h3">Embracing Every Chapter</h3>
+  <p>When Alice Belgray ʼ59, née Bunzl, came to Vassar, she was planning to study math, but found herself gravitating toward the rich musical education at the College. At 86, Alice still has a passion for music and also children’s literature.</p>
+  <p><em>Photo: Courtesy of Alice Belgray ʼ59</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/embracing-every-chapter-alice-belgray',
     'Read more',
     'stretched-link'
   ); ?>
