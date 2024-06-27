@@ -42,7 +42,7 @@ $page_info = json_decode($page_info, true);
     <li>AAVC Trustee, Nominating and Governance Committe Member, Communications Advisory Committee Member, and Ad Hoc Diversity, Equity, and Inclusion Committee Member</li>
     <li>(she/her/hers)</li>
     <li>New Jersey</li>
-    <li>Term of Service: 2024–2028</li>
+    <li>Term of Service: 2018–2028</li>
   </ul>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
