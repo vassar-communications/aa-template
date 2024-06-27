@@ -22,7 +22,7 @@
   'A person with brown hair and a long floral-patterned dress stands outside, speaking in front of a wooden podium with the word Vassar on it.'
 ); ?>
   <h3 class="h3">Vassar’s “Game-Changing” Admission and Career Center Takes a Big Step Forward</h3>
-  <p>World-class. Transformational. Game-changing. Those were just a few of the adjectives used to describe The Dede Thompson Bartlett Center for Admission and Career Education at a groundbreaking ceremony on June 12 adjacent to the construction site at the north end of Vassar’s campus.</p>
+  <p>World-class. Transformational. Game-changing. Those were just a few of the adjectives used to describe The Dede Thompson Bartlett Center for Admission and Career Education at a groundbreaking ceremony on June 12.</p>
   <p><em>Photo: Kelly Marsh</em></p>
 
   <?php echo cta_link(
