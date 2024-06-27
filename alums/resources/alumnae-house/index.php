@@ -57,7 +57,15 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
 
     <p class="">Celebrating its 100th anniversary in 2024, Alumnae House was gifted to Vassar College by sisters Blanche Ferry Hooker, class of 1894, and Queene Ferry Coonley, class of 1896. They intended it to be a center for the activities of the alums of the College, but more importantly wanted all alums to have a welcoming space that they could call home when returning to campus. They hoped each houseguest would depart saying, “It is well for us to have been here.”</p>
-
+        
+<p><?php echo item_link_VideoModal(
+    'Enjoy the Alumnae House Centennial Celebration sizzle video',
+    'https://player.vimeo.com/video/932915754',
+    'vimeo',
+    '',
+    'no-arrow btn-link mt-4'
+); ?></p>
+    
     <div class="address-card mt-4 mb-5">
       <p><strong>Alumnae House, the Inn at Vassar College</strong><br>
           161 College Avenue<br>

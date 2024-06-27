@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>AAVC Trustee, Nominating and Governance Committee Member, and Ad Hoc Student and Young Alumnae/i Engagement Committee Member</li>
+    <li>AAVC Trustee, Nominating and Governance Committee Member</li>
     <li>(he/him/his)</li>
     <li>California</li>
     <li>Term of Service: 2022–2026</li>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Member, AAVC Nominating and Governance Committee, 2020–present; member, AAVC Ad Hoc Student and Young Alumnae/i Engagement Committee, 2018–present; member, AAVC Career Networking Committee, 2018–2020; member, AAVC Clubs Committee, 2018–2019.</p>
+<p>Trustee, Board of Trustees, 2022–present; director, AAVC Board of Directors, 2020–present; member, AAVC Nominating and Governance Committee, 2020–present; member, AAVC Ad Hoc Student and Young Alumnae/i Engagement Committee, 2018–2024; member, AAVC Career Networking Committee, 2018–2020; member, AAVC Clubs Committee, 2018–2019.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

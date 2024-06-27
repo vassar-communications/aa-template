@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Ad Hoc Student and Young Alumnae/i Engagement Committee Chair",
+  "page_title":"AAVC Board Director",
   "page_classes":"",
   "feature_image":"/alums/assets/img/alums-community/aavc/board/winter-ellie-aavc-alum-6332.jpg"
 }';
@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Ad Hoc Student and Young Alumnae/i Engagement Committee Chair and Ad Hoc Diversity, Equity, and Inclusion Committee Member</li>
+    <li>Ad Hoc Diversity, Equity, and Inclusion Committee Member</li>
     <li>(she/her/hers)</li>
     <li>Rhode Island</li>
     <li>Term of Service: 2021–2025</li>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Member, AAVC Ad Hoc Student and Young Alumnae/i Engagement Committee, 2018–present; student observer, AAVC Board of Directors, 2017–2018; member, Presidential Search Committee, 2016–2017.</p>
+<p>Director , AAVC Board of Directors, 2021–present; member, AAVC Ad Hoc Diversity, Equity, & Inclusion Committee, 2021–present; member, African American Alumnae/i of Vassar College (AAAVC), 2023–present; president, Class of 2018, 2018–present; chair, AAVC Ad Hoc Student and Young Alumnae/i Engagement Committee, 2021–2024, and member, 2018–2021; student observer, AAVC Board of Directors, 2017–2018; member, Presidential Search Committee, 2016–2017.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

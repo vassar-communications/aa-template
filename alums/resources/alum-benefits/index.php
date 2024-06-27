@@ -118,7 +118,7 @@ $page_info = json_decode($page_info, true);
     ['url' => $alums_img_path.'alums-resources/alums-benefits/0039-22-06-cs-reunion-vassar-347.jpg', 'alt' => 'Two people walk next to each other, one person is wearing a wide hat and a blue shirt and the other is wearing a baseball cap and a white shirt, smiling at the viewer.' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
-<p>Alums, students, parents, faculty, and friends of Vassar can join to build their network and find Vassar-connected career networking opportunities.</p>
+<p>Alums and students can join our private LinkedIn group to build their professional networks, share expertise, and post or pursue Vassar-connected job opportunities.</p>
 
 <?php echo end_item_cardWithText(
     '',
