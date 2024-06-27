@@ -635,7 +635,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Patricia Lamark',
-    'Program Associate',
+    'Assistant Director of AAVC Engagement',
     [
       'phone' => '845-437-5438',
       'email' => 'plamark@vassar.edu',
