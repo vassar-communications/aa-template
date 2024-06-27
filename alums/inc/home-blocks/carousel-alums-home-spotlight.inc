@@ -17,6 +17,29 @@
 
 
 <?php echo carousel_item(
+  $alums_spotlight_itm_path.'/2024-06-27/spotlight/0094-24-06-kma-groundbreaking-vassar-3814.jpg',
+  'is-link',
+  'A person with brown hair and a long floral-patterned dress stands outside, speaking in front of a wooden podium with the word Vassar on it.'
+); ?>
+  <h3 class="h3">Vassar’s “Game-Changing” Admission and Career Center Takes a Big Step Forward</h3>
+  <p>World-class. Transformational. Game-changing. Those were just a few of the adjectives used to describe The Dede Thompson Bartlett Center for Admission and Career Education at a groundbreaking ceremony on June 12.</p>
+  <p><em>Photo: Kelly Marsh</em></p>
+
+  <?php echo cta_link(
+    'https://www.vassar.edu/news/vassars-game-changing-admission-and-career-center-takes-a-big-step-forward',
+    'Read more',
+    'stretched-link'
+  ); ?>
+
+<?php echo end_carousel_item(); ?>
+
+
+
+
+
+
+
+<?php echo carousel_item(
   $alums_spotlight_itm_path.'/2024-06-17/spotlight/reunion.jpg',
   'is-link',
   'A black-and-white historical photo of a person with long hair, holding a camera and looking up.'
