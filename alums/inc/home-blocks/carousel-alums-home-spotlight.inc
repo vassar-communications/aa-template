@@ -23,7 +23,7 @@
   'Five people wearing construction helmets stand over a mound of dirt, holding shovels that are pushed into the dirt. They are smiling at the camera.'
 ); ?>
   <h3 class="h3">Vassar’s “Game-Changing” Admission and Career Center Takes a Big Step Forward</h3>
-  <p>World-class. Transformational. Game-changing. Those were just a few of the adjectives used to describe The Dede Thompson Bartlett Center for Admission and Career Education at a groundbreaking June 12 ceremony.</p>
+  <p>World-class. Transformational. Game-changing. Those were just a few of the adjectives used to describe The Dede Thompson Bartlett Center for Admission and Career Education at a June 12th groundbreaking ceremony.</p>
   <p><em>Center: Dede Thompson Bartlett ’65<br>Photo: Kelly Marsh</em></p>
 
   <?php echo cta_link(
