@@ -151,7 +151,6 @@ ul.inline-list-links li a {
  
   <h3 class="mb-4">AAVC Nominating and Governance Committee Chair</h3>
 
-
 <div class="col-12 col-md-4 col-lg-3 align-left me-4">
   <img src="/alums/assets/img/alums-community/aavc/board/alisa-swire.jpg" alt="A person with long straight brown hair and a gray coat smiles at the camera." />
 </div>
@@ -349,7 +348,6 @@ End of hiding board slate content*/ ?>
     'theme-cream pt-3',
     ''
 ); ?>
-
 
 <a id="board-members"></a>
 
