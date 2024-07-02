@@ -97,27 +97,22 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-community/aavc/awards/steve-hankins-52958792570_6631bb839b_k.jpg',
+    '/alums/assets/img/alums-community/aavc/awards/hyacinth-2024-outstanding-service-53771504533_f9d4a85592_o.jpg',
     'image-is-first theme-verylightgray',
     '',
-    ['img_alt_text' => 'Two women, one with brown hair and the other with a baseball cap on her head, and one man with gray hair holding a glass plaque stand smiling at the camera.']
+    ['img_alt_text' => 'Three people stand smiling at the viewer, with the middle person holding a an award statue.']
 ); ?>
-<h6 class="tagline">2023 Recipient</h6>
-<h1>Stephen Hankins ’85, P’13,’17</h1>
+<h6 class="tagline">2024 Recipient</h6>
+<h1>Stephanie M. Hyacinth ’84</h1>
 
 
 <p><?php echo item_link_VideoModal(
-    'Watch the Steve Hankins video',
-    'https://player.vimeo.com/video/857168936',
+    'Watch the Stephanie Hyacinth video',
+    'https://player.vimeo.com/video/953642348',
     'vimeo',
     '',
     'no-arrow btn-link mt-4'
 ); ?></p>
-<?php echo cta_link(
-    'https://www.vassar.edu/news/aavc-announces-2023-honorees',
-     'Read more about Steve Hankins'
-); ?>
-
 
 
 
