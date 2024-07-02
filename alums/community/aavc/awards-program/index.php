@@ -106,15 +106,6 @@ $page_info = json_decode($page_info, true);
 <h1>Stephanie M. Hyacinth ’84</h1>
 
 
-<p><?php echo item_link_VideoModal(
-    'Watch the Stephanie Hyacinth video',
-    'https://player.vimeo.com/video/953642348',
-    'vimeo',
-    '',
-    'no-arrow btn-link mt-4'
-); ?></p>
-
-
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

@@ -42,19 +42,6 @@ $page_info = json_decode($page_info, true);
 <h4>Stephanie M. Hyacinth ’84</h4>
 
 
-<ul class="linked-list">
-  <li>
-    <?php echo item_link_VideoModal(
-        'Watch Hyacinth’s acceptance remarks',
-        'https://player.vimeo.com/video/953642348',
-        'vimeo',
-        '',
-        'no-arrow'
-    ); ?>
-    </li>
-	</ul>
-
-
 <h3 class="mt-5">2023</h3>
 
 <h4>Stephen Hankins ’85, P’13,’17</h4>
