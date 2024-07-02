@@ -719,22 +719,22 @@ echo end_contact_card();
 
 
     echo contact_card(
-        'Jessica Rossi',
-        'Senior Associate Director for Advancement Events and Programs',
+        'Kataura Ross ’17',
+        'Office Specialist',
         [
-          'phone' => '845-437-5243',
-          'email' => 'jerossi@vassar.edu',
+          'phone' => '845-437-5495',
+          'email' => 'kaross@vassar.edu',
         ]
     );
     echo end_contact_card();
 
 
     echo contact_card(
-        'Kataura Ross ’17',
-        'Office Specialist',
+        'Jessica Rossi',
+        'Senior Associate Director for Advancement Events and Programs',
         [
-          'phone' => '845-437-5495',
-          'email' => 'kaross@vassar.edu',
+          'phone' => '845-437-5243',
+          'email' => 'jerossi@vassar.edu',
         ]
     );
     echo end_contact_card();
