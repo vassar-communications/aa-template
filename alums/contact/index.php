@@ -1005,17 +1005,6 @@ echo end_contact_card();
 <?php
 
 echo contact_card(
-    'Melanie Beczak',
-    'Assistant Director of Gift Processing',
-    [
-      'phone' => '845-437-5208',
-      'email' => 'mbeczak@vassar.edu',
-    ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
     'Dashawn Greene',
     'Data Records Assistant',
     [
