@@ -208,8 +208,6 @@ echo sec_fixedCenteredTitle(
 
 <?php include($project_paths['main_project_root'].'/alums/inc/home-blocks/carousel-alums-home-spotlight.inc'); ?>
 
-
-
 <?php echo end_sec_fixedCenteredTitle(); ?>
 
 
