@@ -18,6 +18,7 @@
              <a href="${itemPath}" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">${data[i]['title']}</span>
              </a>
           </h3>
+          ${data[i]['summary']}
           <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
        </div>
     </div>
