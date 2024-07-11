@@ -38,15 +38,16 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Take Time Out to Change the World',
-    $alums_img_path.'alums-resources/grants-fellowships/irene_lopez_dominican_republic_16x9.jpg',
+    $alums_img_path.'alums-resources/grants-fellowships/Samantha-Orient-2024-DSC00651.jpg',
     'theme-cream',
     '',
-    ['img_alt_text' => 'A person with dark hair wearing a tank top, smiling at the viewer.']
+    ['img_alt_text' => 'A person wearing a safety helmet wearing a yellow shirt and carrying a hoe smiles at the viewer in front of burnt vegetation.']
 ); ?>
-<p class="intro-text">What would you do if you had the chance to change your life while changing the world?</p>
-<p class="intro-text">The Time Out Grant was created to inspire a Vassar College alum to pursue an original, bold interest, project, or business that could effect change in the world. Recipients have used the grant to shed light on issues facing society today.</p>
+<p class="intro-text">Established in 1998, the Time Out Grant seeks to inspire Vassar alums to pursue an original, bold interest, project, or business that could innovate the world around them.</p>
 
-<p>Irene López ’91 (pictured) created the <em>Lydia Project: Mujeres Bravas con Camaras</em> to train survivors of gender-based violence to document their experiences via photography and enable them to engage in a critical reflection on the images they produced.</p>
+<p>We are excited to announce <strong>Samantha Orient ’05</strong> as the 2024 award recipient. Orient, who has been involved in firefighting since she graduated high school strives to innovate the world of wildland firefighting. As the 2024 Time Out Grant recipient, she will develop a mobile application to help wildland firefighters learn to operate and troubleshoot portable water pumps during wildland fire operations. Once operational, the application could be used as a template for more firefighting training initiatives and tools.</p>
+
+<p>Orient (pictured) was selected out of 150 applicants because the Committee felt her project exemplified the spirit of the Time Out Grant.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -60,20 +61,20 @@ $page_info = json_decode($page_info, true);
 <h2>Time Out Grant Reimagined for 2024</h2>
 
 <ul>
-  <li>The proposal may be in any field—science, business, education, the arts, human services, environment, etc.</li>  
-  <li>The project must take place over a minimum of twelve months and may extend for up to two years.</li>  
+  <li>The proposal could be in any field—science, business, education, the arts, human services, environment, etc.</li>  
+  <li>The project could take place over a minimum of 12 months and may extend for up to 2 years.</li>  
 </ul>
 
 
-<p>The Time Out Grant has been updated to create a more accessible opportunity in today’s modern working environment:</p>
+<p>The Time Out Grant was updated to create a more accessible opportunity to coincide with the modern working environment:</p>
 
 <ul>
-  <li>The Awardee is no longer required to leave their current job to accept the award.</li>
-  <li>Any Vassar alum 35 years or older by June 30, 2024 has been invited to apply for the grant.</li>
+  <li>The Awardee was no longer required to leave their current job to accept the award.</li>
+  <li>Any Vassar alum 35 years or older by June 30, 2024 was invited to apply for the grant.</li>
   <li>The Time Out Grant of $150,000 will now be awarded <strong>every other year</strong>.</li>
 </ul>
 
-<p>All courageous and creative proposals will be considered. The proposal does not need to be related to the applicant’s current career. At Vassar’s discretion, the proposed venture may be funded with complementary grants, provided the Time Out Grant is the lead funding source.</p>
+<p>All courageous and creative proposals were considered. The proposal did not need to be related to the applicant’s current career. At Vassar’s discretion, the proposed venture can be funded with complementary grants, provided the Time Out Grant was the lead funding source.</p>
 
 <?php /* 
 
@@ -86,7 +87,7 @@ $page_info = json_decode($page_info, true);
 
  */ ?>
 
-<p>Applications are now closed. The winner will be announced by May 30, 2024.</p>
+<p>Applications for the next grant will open in <strong>Fall/Winter 2025</strong> and the recipient will be awarded in <strong>Spring 2026</strong>.</p>
 
 
 <?php echo end_sec_regularContent(); ?>
@@ -138,15 +139,15 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo item_cardWithText(
-      'Susan Yacubian Klein ’64',
-      'https://www.vassar.edu/vq/issues/2010/01/beyond-vassar/turning-handicrafts-opportunity.html',
+      'Irene López ’91',
+      'https://www.vassar.edu/news/time-out-grant-will-help-awardee-give-voice-survivors-gender-based-violence',
       [
-        'url' => 'https://www.vassar.edu/sites/default/files/styles/card_bg/public/2021-07/klein.jpg',
-        'alt' => 'A person with short dark hair, a dark sweater, and beige pants is standing beneath the trunk of a stone-carved elephant smiling at the viewer.'
+        'url' => $alums_img_path.'alums-resources/grants-fellowships/irene_lopez_card.jpg',
+        'alt' => 'A person with dark hair wearing a tank top, smiling at the viewer.'
       ],
       'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
   ); ?>
-    <p>Turning Handicrafts into Opportunity</p>
+    <p>Empowering Survivors Through Photography</p>
   <?php echo end_item_cardWithText(); ?>
 
 
