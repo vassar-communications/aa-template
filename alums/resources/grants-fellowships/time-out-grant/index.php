@@ -45,7 +45,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p class="intro-text">Established in 1998, the Time Out Grant seeks to inspire Vassar alums to pursue an original, bold interest, project, or business that could innovate the world around them.</p>
 
-<p>We are excited to announce Samantha Orient ’05 as the 2024 award recipient. Orient, who has been involved in firefighting since she graduated high school strives to innovate the world of wildland firefighting. As the 2024 Time Out Grant recipient, she will develop a mobile application to help wildland firefighters learn to operate and troubleshoot portable water pumps during wildland fire operations. Once operational, the application could be used as a template for more firefighting training initiatives and tools.</p>
+<p>We are excited to announce <strong>Samantha Orient ’05</strong> as the 2024 award recipient. Orient, who has been involved in firefighting since she graduated high school strives to innovate the world of wildland firefighting. As the 2024 Time Out Grant recipient, she will develop a mobile application to help wildland firefighters learn to operate and troubleshoot portable water pumps during wildland fire operations. Once operational, the application could be used as a template for more firefighting training initiatives and tools.</p>
 
 <p>Orient (pictured) was selected out of 150 applicants because the Committee felt her project exemplified the spirit of the Time Out Grant.</p>
 
