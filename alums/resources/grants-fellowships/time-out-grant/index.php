@@ -74,7 +74,7 @@ $page_info = json_decode($page_info, true);
   <li>The Time Out Grant of $150,000 will now be awarded <strong>every other year</strong>.</li>
 </ul>
 
-<p>All courageous and creative proposals were considered. The proposal did not need to be related to the applicant’s current career. At Vassar’s discretion, the proposed venture could have been funded with complementary grants, provided the Time Out Grant was the lead funding source.</p>
+<p>All courageous and creative proposals were considered. The proposal did not need to be related to the applicant’s current career. At Vassar’s discretion, the proposed venture can be funded with complementary grants, provided the Time Out Grant was the lead funding source.</p>
 
 <?php /* 
 
