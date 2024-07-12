@@ -38,6 +38,19 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 
+
+<style>
+
+/* Requested by Susan (Slack, June 2, 2024) */
+
+.section-content li {
+  --regularContent-lineHeight: unset;
+  padding-left: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+</style>
+
 <p><em>Adopted June 1980 — Amended June 1992; June 2000; June 2005; June 2008; June 2013; June 2016; June 2018; June 2020; June 2024</em></p>
 
 <h3>ARTICLE I. NAME</h3>
