@@ -58,7 +58,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   ); ?>
 
   <p>Chef and television personality <strong>Andrew Zimmern ’84</strong> talked to <em>Forbes</em> about his favorite Catskill restaurants.</p>
-  <!--<p><em>Photo: Karl Rabe</em></p>-->
+  <p><em>Photo: Courtesy of the Travel Channel</em></p>
   <?php echo cta_link(
   'https://www.forbes.com/sites/forbestravelguide/2024/05/07/andrew-zimmerns-favorite-food-city-will-surprise-you/?sh=121193911ca9',
   'Read more',
