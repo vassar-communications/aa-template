@@ -53,8 +53,8 @@ $page_info = json_decode($page_info, true);
 <p>Use the area selector or the search field to limit the display to specific clubs or volunteers. Find contact information in the <a href="https://connect.vassar.edu/s/1654/22/interior.aspx?sid=1654&gid=2&pgid=6&cid=41#/Search/Simple">online alum directory</a> for individual club volunteers (login required).</p>
 </div>
 <div id="cca-affiliates-description" style="display:none">
-<p>You can find contact information for individual multicultural and affinity group officers by searching for them in the <a href="https://connect.vassar.edu/s/1654/22/interior.aspx?sid=1654&gid=2&pgid=6&cid=41#/Search/Simple">online alum directory</a> (login required).</p>
-<p><small><i><a href="https://www.vassar.edu/alums/contact">Not getting multicultural or affinity group communications?</a></i></small></p>
+<p>You can find contact information for individual affinity engagement group officers by searching for them in the <a href="https://connect.vassar.edu/s/1654/22/interior.aspx?sid=1654&gid=2&pgid=6&cid=41#/Search/Simple">online alum directory</a> (login required).</p>
+<p><small><i><a href="https://www.vassar.edu/alums/contact">Not getting affinity engagement communications?</a></i></small></p>
 </div>
 
 <link href="https://s.vassar.edu/alums_data/dist/alums-data-min.css" rel="stylesheet">
