@@ -613,7 +613,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Jolee DuBois',
-    'Associate Director for Volunteer Engagement',
+    'Associate Director of Volunteer Engagement',
     [
       'phone' => '845-437-5442',
       'email' => 'jdubois@vassar.edu',
@@ -646,7 +646,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Cheryl McKeever',
-    'Senior Associate Director for Volunteer Engagement',
+    'Senior Associate Director of Volunteer Engagement',
     [
       'phone' => '845-437-5408',
       'email' => 'cmckeever@vassar.edu',

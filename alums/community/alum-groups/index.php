@@ -40,7 +40,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Alums have been entrepreneurial community builders since the Alumnae/i Association (AAVC) was founded in 1871.</p>
-    <p>Most everyone is familiar with <em><a href="#classes">Classes</a></em>, which focus on building and maintaining community between classmates and peers. <em><a href="#clubs">Vassar Clubs</a></em> focus on building communities where people live and work, while <em><a href="#affinity">Multicultural and Affinity Groups</a></em> focus on strengthening ties among alums who share identities or undergraduate activities, such as athletic teams and singing groups.</p>
+    <p>Most everyone is familiar with <em><a href="#classes">Classes</a></em>, which focus on building and maintaining community between classmates and peers. <em><a href="#clubs">Vassar Clubs</a></em> focus on building communities where people live and work, while <em><a href="#affinity">Affinity Engagement</a></em> focuses on strengthening ties among alums who share identities or undergraduate activities, such as athletic teams and singing groups.</p>
 
 
 </div>
@@ -96,19 +96,21 @@ $page_info = json_decode($page_info, true);
 
 <div id="affinity"></div>
 <?php echo sec_fullBleedImageColumn(
-    'Multicultural and Affinity Groups',
+    'Affinity Engagement',
     '/alums/assets/img/alums-community/alum-groups/52960663255_044d75e46c_o.jpg',
     '',
     '',
     ['img_alt_text' => 'A group of three people in casual attire, standing side by side, smile at the viewer.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Multicultural and affinity groups strengthen alum communities that center around shared experiences, activities, and identities. These communities include athletic teams, singing groups, LGBTQ+, ALANA orgs, veterans, and First-Gen alums.</p>
-    <p>If you are interested in participating in multicultural and affinity groups, reach out to Sharon Parkinson at <a href="mailto:shparkinson@vassar.edu">shparkinson@vassar.edu</a> or <a href="tel:845-437-5515">(845) 437-5515</a>.</p>
+    <p>Vassar’s Director of Affinity Engagement strives to create spaces where Vassar alums feel visible, connected, and celebrated. We aim to engage a diverse range of alums, including alum-athletes, FirstGen, performing artists, veterans, international alums, STEM majors, as well as individuals who identify as Asian, Asian American, South Asian, Native Hawaiian, and Pacific Islander, Black/African American, Latiné, Native American and Indigenous, and LGBTQI+. Through tailored initiatives and events, we strive to create spaces where alums with shared affinities find meaningful connections and a sense of belonging within the Vassar community.</p>
+    <p>We invite you to bring your creativity and ideas to help shape our programming. Your suggestions will play a vital role in enhancing the experiences we offer and ensuring they resonate with our diverse alum community. Join us in crafting events that celebrate and unite our 41,000+ strong Vassar alum network.</p>
+    <p>For more information or to share your ideas, contact the Vassar Affinity Engagement team at <a href="mailto:vassaraffinity@vassar.edu">vassaraffinity@vassar.edu</a> or <a href="tel:845-437-5515">(845) 437-5515</a>.</p>
     <ul class="linked-list mt-4">
-        <li><a href="https://www.vassar.edu/social-media-alums#affinity-groups">Follow Multicultural and Affinity Groups on Social</a></li>
-        <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Multicultural and Affinity Group Volunteer</a></li>
-        <li><a href="/alums/community/cca-groups/#affinity">Find Multicultural and Affinity Groups</a></li>
+        <li><a href="https://www.vassar.edu/social-media-alums#affinity-groups">Follow Affinity Engagement on Social</a></li>
+        <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Share Your Ideas for Affinity Engagement Events</a></li>
+        <li><a href="https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=5370&cid=8841&post_id=0">Receive Affinity Engagement Communications</a></li>
+        <li><a href="/alums/community/cca-groups/#affinity">Find Affinity Engagement Groups</a></li>
     </ul>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
