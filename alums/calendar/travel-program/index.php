@@ -43,9 +43,6 @@ $page_info = json_decode($page_info, true);
 
 <p class="intro-text">Upcoming 2024 trips at a glance:</p>
 
-<p><strong><a href="#galapagos">The Galapagos Islands</a></strong></br>
-July 6–13, 2024</p>
-
 <p><strong><a href="#egypt">Egypt and the Nile</a></strong></br>
 September 21–October 4, 2024</p>
 
@@ -68,38 +65,6 @@ June 20-July 1, 2025</p>
 
 
 <?php echo end_sec_regularContent();?>
-
-
-<div id="galapagos"></div>
-<?php echo sec_fullBleedImageColumn(
-    null,
-    $alums_img_path.'alums-calendar/travel-program/galapagos-extended-2024.jpg',
-    'theme-cream',
-    '',
-    ['img_alt_text' => 'Tour participants aboard a small motorized raft admiring the scenery and local wildlife.']
-); ?>
-
-<p class="intro-text">The Galapagos Islands</p>
-
-<p><strong>July 6–13, 2024<strong></p>
-
-<p><strong>Faculty Host: Jill Schneiderman, Professor of Earth Science</strong></p>
-
-<p>Nestled in the Pacific Ocean—at the confluence of three ocean currents—the Galapagos Islands are a haven for explorers, nature enthusiasts, and those seeking a profound connection with the natural world. Join this transformative expedition voyage through these enchanting islands to celebrate life’s diversity and to witness firsthand the stunning display of nature’s endless wonders.</p>
-<p>Highlights will include:</p>
-<ul>
-<li>Observe up close the endemic species such as giant tortoises, land iguanas, and Darwin’s finches</li>
-<li>Snorkel with sea lions and tropical fish or observe them through a glass bottom boat</li>
-<li>Visit the lush highlands of Santa Cruz Island</li>
-</ul>
-
-<?php echo cta_link(
-    'https://orbridge.com/grp_departures/overview/partner_vassar_the_galapagos_islands_northern_2024',
-    'See the full Galapagos itinerary and reserve your place.'
-
-); ?>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <div id="egypt"></div>
