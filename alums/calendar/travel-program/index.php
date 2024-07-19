@@ -39,17 +39,17 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'A group of people, one holding a Vassar College banner, standing and smiling at the viewer with a sunny green countryside and cloudy skies behind them.']
 ); ?>
-<p>As we are planning our future trips, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Special Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
+<p>As we are planning our future trips, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Advancement Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
 
 <p class="intro-text">Upcoming 2024 trips at a glance:</p>
 
 <p><strong><a href="#egypt">Egypt and the Nile</a></strong></br>
 September 21–October 4, 2024</p>
 
-<p><strong><a href="#tuscany">Flavors of Tuscany</a></strong></br>
-September 26–October 4, 2024</p>
+<p><strong><a href="#venice">The Art of Venice: Explore the Venice Biennale and the Veneto</a></strong></br>
+October 13–23, 2024</p>
 
-<p class="intro-text">Postponed Until 2025:</p>
+<p class="intro-text">Trips for 2025:</p>
 
 <p><strong><a href="#trip4">Namibia: Endless Horizons & Open Skies</a></strong></br>
 June 20-July 1, 2025</p>
@@ -62,7 +62,7 @@ June 20-July 1, 2025</p>
 
 <?php echo sec_regularContent('Upcoming Trips','','text-center');?>
 
-
+<h3>Fall 2024</h3>
 
 <?php echo end_sec_regularContent();?>
 
@@ -101,38 +101,42 @@ June 20-July 1, 2025</p>
 
 
 
-<div id="tuscany"></div>
+<div id="venice"></div>
 <?php echo sec_fullBleedImageColumn(
     null,
-    $alums_img_path.'alums-calendar/travel-program/Tuscany-hills-2024.jpg',
+    $alums_img_path.'alums-calendar/travel-program/Venice-2024-Courtyard-of-the-Doges-Palace.jpg',
     'theme-cream',
     '',
-    ['img_alt_text' => 'A sunny view of a green valley covered in vineyards and trees, with tree-covered hills rising in the background, with clouds in the sky overhead.']
+    ['img_alt_text' => 'A large courtyard with several stories of brick or colonnaded walls on three sides, with the round domes of the church of San Marco in the background.']
 ); ?>
 
-<p class="intro-text">Flavors of Tuscany</p>
+<p class="intro-text">The Art of Venice: Explore the Venice Biennale and the Veneto</p>
 
-<p><strong>September 26–October 4, 2024<strong></p>
+<p><strong>October 13–23, 2024<strong></p>
 
-<p><strong>Faculty Host: Miriam Rossi, Professor emerita of Chemistry</strong></p>
+<p><strong>Faculty Hosts: Bart Thurber, The Anne Hendricks Bass Director and Lecturer in Art and Mary-Kay Lombino, Deputy Director and Curator of Vassar’s Frances Lehman Loeb Art Center</strong></p>
 
-<p>Embrace the bewitching enchantment, bucolic ambiance, and charismatic culture of Tuscany. Meander through its colorful cities, cypress-studded hilltop towns, classic <em>cucinas</em>, and idyllic vineyards during this small-group journey. Explore the Italian countryside that provides endless 
-inspiration for artists, chefs, and vintners alike.</p>
+<p>This customized trip will highlight Italy’s Veneto region, home of notable Renaissance masterworks, and the <em>Venice Biennale</em>, the world’s most prestigious contemporary art exhibition, through the eyes of two incredible art historians.</p>
 <p>Highlights will include:</p>
 <ul>
-<li>Explore the Etruscan ruins and center in Volterra</li>
-<li>Tour an organic farm and learn about the owners’ dedication to the slow food movement</li>
-<li>Stroll Siena—a UNESCO World Heritage Site</li>
+<li>Rare behind-the-scenes tours: such as a private evening visit to the Palazzo Ducale filled with masterpieces of Renaissance art and a guided exploration of the Biennale’s highlights</li>
+<li>Private reception and tour at the world-renowned Peggy Guggenheim Collection</li>
+<li>Unique opportunity to sightsee, interact and learn with four current Vassar students who work at the Loeb</li>
 </ul>
 
 <?php echo cta_link(
-    'https://orbridge.com/grp_departures/overview/partner_vassar_flavors_of_tuscany_2024',
-    'See the full Tuscany itinerary and reserve your place.'
+    'https://thegrandtour.com/europe/vassar-venice/',
+    'View the full Art of Venice itinerary and reserve your place.'
 
 ); ?>
 
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php echo sec_regularContent('Looking Ahead at 2025','','text-center');?>
+
+<?php echo end_sec_regularContent();?>
 
 
 <div id="trip4"></div>
