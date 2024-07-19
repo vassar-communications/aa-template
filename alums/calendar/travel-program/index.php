@@ -114,7 +114,7 @@ June 20-July 1, 2025</p>
 
 <p><strong>October 13–23, 2024<strong></p>
 
-<p><strong>Bart Thurber, The Anne Hendricks Bass Director and Lecturer in Art and Mary-Kay Lombino, Deputy Director and Curator of Vassar’s Frances Lehman Loeb Art Center</strong></p>
+<p><strong>Faculty Hosts: Bart Thurber, The Anne Hendricks Bass Director and Lecturer in Art and Mary-Kay Lombino, Deputy Director and Curator of Vassar’s Frances Lehman Loeb Art Center</strong></p>
 
 <p>This customized trip will highlight Italy’s Veneto region, home of notable Renaissance masterworks, and the <em>Venice Biennale</em>, the world’s most prestigious contemporary art exhibition, through the eyes of two incredible art historians.</p>
 <p>Highlights will include:</p>
