@@ -49,6 +49,9 @@
           //callback(data);
           markup = '';
           for (let i = 0; i < data.length; i++) {
+            if (!(i < 4)) {
+              break;
+            }
             var itemPath = data[i]['override_url'] ? data[i]['override_url'] : data[i]['path'];
             var itemMarkup = `
       <div class="carousel-cell is-link">
@@ -85,7 +88,7 @@
         }
       });
     }
-    parseRSS('https://www.vassar.edu/news/rest/511?img_req=1');
+    parseRSS('https://www.vassar.edu/news/rest/701?img_req=1');
   </script>
 
 </body>
