@@ -647,7 +647,7 @@ Vassar students are surrounded by an environment designed to spark something ama
       }
     });
   }
-  parseRSS('https://www.vassar.edu/news/rest/511?img_req=1');
+  parseRSS('https://www.vassar.edu/news/rest/701?img_req=1');
 </script>
 
   <div id="newsRSS_target">
