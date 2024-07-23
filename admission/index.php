@@ -615,7 +615,7 @@ Vassar students are surrounded by an environment designed to spark something ama
       success: function (data) {
         markup = '';
         for (let i = 0; i < data.length; i++) {
-          if (!i < 5) {
+          if (!i < 4) {
             break;
           }
           var itemPath = data[i]['override_url'] ? data[i]['override_url'] : data[i]['path'];
