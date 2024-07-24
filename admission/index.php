@@ -426,79 +426,8 @@ Vassar students are surrounded by an environment designed to spark something ama
 */ ?>
 
 
-<div class="animation-group staggered-grid  animation-zoom-in animate-when-content-appears gap-3  mb-3">
+<?php include($project_paths['main_project_root'].'/admission/inc/video-cards.php'); ?>
 
-  <?php echo item_imageCard_videoModal(
-      get_icon('play').'Art Studios',
-      null,
-      'https://player.vimeo.com/video/754937394',
-      'vimeo',
-      '',
-      ['url' => '/admission/assets/images/admission-home/art-studio.jpg',
-          'alt' => 'An art studio with easels, paints, stools and carts with art materials'
-      ],
-      'animation-item grid-item text-at-bottom text-white'
-  ); ?>
-
-  <?php echo item_imageCard_videoModal(
-      get_icon('play').'Car Camera Rigging',
-      null,
-      'https://player.vimeo.com/video/754937420',
-      'vimeo',
-      '',
-      ['url' => '/admission/assets/images/admission-home/camera-rigging.jpg',
-          'alt' => 'Videographer with camera and editing equipment outside'
-      ],
-      'animation-item grid-item text-at-bottom text-white'
-  ); ?>
-
-
-
-</div>
-
-
-<div class="animation-group staggered-grid tiktok-grid animation-zoom-in animate-when-content-appears gap-3  mb-3">
-
-
-  <?php echo item_imageCard_videoModal(
-      get_icon('play').'Day in the Life',
-      null,
-      'https://player.vimeo.com/video/754937441',
-      'vimeo',
-      '',
-      ['url' => '/admission/assets/images/admission-home/video/day-1.jpg',
-          'alt' => 'Student working on a laptop in front of a window'
-      ],
-      'animation-item grid-item text-at-bottom text-white'
-  ); ?>
-
-  <?php echo item_imageCard_videoModal(
-      get_icon('play').'Dorm Tour: Noyes',
-      null,
-      'https://player.vimeo.com/video/754937458',
-      'vimeo',
-      '',
-      ['url' => '/admission/assets/images/admission-home/video/dorm-a-1.jpg',
-          'alt' => 'View of campus quad through a sunny window'
-      ],
-      'animation-item grid-item text-at-bottom text-white'
-  ); ?>
-
-  <?php echo item_imageCard_videoModal(
-      get_icon('play').'Dorm Tour: Town Houses',
-      null,
-      'https://player.vimeo.com/video/754937477',
-      'vimeo',
-      '',
-      ['url' => '/admission/assets/images/admission-home/video/dorm-b.jpg',
-          'alt' => 'Decorative string lights on a dorm wall'
-      ],
-      'animation-item grid-item text-at-bottom text-white'
-  ); ?>
-
-
-
-</div>
 
 
 <div class="text-center mt-3 pt-5">
