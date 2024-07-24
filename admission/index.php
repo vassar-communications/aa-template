@@ -523,6 +523,7 @@ Vassar students are surrounded by an environment designed to spark something ama
 
 
 
+
 <?php echo end_sec_fixedCenteredTitle(); ?>
 
 <!-- end you may be wondering -->
@@ -539,7 +540,10 @@ Vassar students are surrounded by an environment designed to spark something ama
       dataType: 'json',
       success: function (data) {
         markup = '';
-        for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < data.length; i++) {
+          if (!(i < 4)) {
+            break;
+          }
           var itemPath = data[i]['override_url'] ? data[i]['override_url'] : data[i]['path'];
           var itemMarkup = `
     <div class="carousel-cell is-link">
@@ -576,13 +580,15 @@ Vassar students are surrounded by an environment designed to spark something ama
       }
     });
   }
-  parseRSS('https://www.vassar.edu/news/rest/511?img_req=1');
+  parseRSS('https://www.vassar.edu/news/rest/701?img_req=1');
 </script>
 
   <div id="newsRSS_target">
     <p>News could not be loaded. Please make sure JavaScript is enabled in your browser.</p>
   </div>
 </div>
+
+
 
  <?php echo item_modal_standardVideo(); ?>
 
