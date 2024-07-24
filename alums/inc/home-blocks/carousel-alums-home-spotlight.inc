@@ -5,7 +5,7 @@
       dataType: 'json',
       success: function (data) {
         markup = '';
-        for (let i = 0; i < 4; i++) {
+        for (let i = 0; i < data.length; i++) {
         
           if (!(i < 4)) {
             break;
