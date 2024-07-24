@@ -610,7 +610,10 @@ Vassar students are surrounded by an environment designed to spark something ama
       dataType: 'json',
       success: function (data) {
         markup = '';
-        for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < data.length; i++) {
+          if (!(i < 4)) {
+            break;
+          }
           var itemPath = data[i]['override_url'] ? data[i]['override_url'] : data[i]['path'];
           var itemMarkup = `
     <div class="carousel-cell is-link">
@@ -647,7 +650,7 @@ Vassar students are surrounded by an environment designed to spark something ama
       }
     });
   }
-  parseRSS('https://www.vassar.edu/news/rest/511?img_req=1');
+  parseRSS('https://www.vassar.edu/news/rest/701?img_req=1');
 </script>
 
   <div id="newsRSS_target">
