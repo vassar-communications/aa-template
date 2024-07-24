@@ -5,7 +5,12 @@
       dataType: 'json',
       success: function (data) {
         markup = '';
-        for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < 4; i++) {
+        
+          if (!(i < 4)) {
+            break;
+          }
+        
           var itemPath = data[i]['override_url'] ? data[i]['override_url'] : data[i]['path'];
           var itemMarkup = `
     <div class="carousel-cell is-link">
