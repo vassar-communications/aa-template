@@ -1,3 +1,3 @@
-<div class="ratio ratio-16x9 has-playlist-arrow">
+<div class="ratio ratio-16x9 has-playlist-arrow mt-6 mt-md-0">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?si=70w-IUPITvFlYFfk&amp;list=PLURusQJONMcpLr6DRm8L-0zWkTI7jQEqt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
