@@ -407,7 +407,7 @@ Vassar students are surrounded by an environment designed to spark something ama
 
    <p class="text-center mb-5 fs-5">See the Vassar campus through the eyes of our students:</p>',
     'sec-fixedCenteredTitle theme-dark-burgundy featured-video',
-    'mw-4',
+    'mw-2',
     ['bg-image-url' => '/admission/assets/images/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
         'bg-image-alt' => 'Large group of students seated on a lawn in front of the Thompson Memorial Library on Vassar campus',
         'css' => '
@@ -426,79 +426,8 @@ Vassar students are surrounded by an environment designed to spark something ama
 */ ?>
 
 
-<div class="animation-group staggered-grid  animation-zoom-in animate-when-content-appears gap-3  mb-3">
+<?php include($project_paths['main_project_root'].'/admission/inc/reslife-video-embed.php'); ?>
 
-  <?php echo item_imageCard_videoModal(
-      get_icon('play').'Art Studios',
-      null,
-      'https://player.vimeo.com/video/754937394',
-      'vimeo',
-      '',
-      ['url' => '/admission/assets/images/admission-home/art-studio.jpg',
-          'alt' => 'An art studio with easels, paints, stools and carts with art materials'
-      ],
-      'animation-item grid-item text-at-bottom text-white'
-  ); ?>
-
-  <?php echo item_imageCard_videoModal(
-      get_icon('play').'Car Camera Rigging',
-      null,
-      'https://player.vimeo.com/video/754937420',
-      'vimeo',
-      '',
-      ['url' => '/admission/assets/images/admission-home/camera-rigging.jpg',
-          'alt' => 'Videographer with camera and editing equipment outside'
-      ],
-      'animation-item grid-item text-at-bottom text-white'
-  ); ?>
-
-
-
-</div>
-
-
-<div class="animation-group staggered-grid tiktok-grid animation-zoom-in animate-when-content-appears gap-3  mb-3">
-
-
-  <?php echo item_imageCard_videoModal(
-      get_icon('play').'Day in the Life',
-      null,
-      'https://player.vimeo.com/video/754937441',
-      'vimeo',
-      '',
-      ['url' => '/admission/assets/images/admission-home/video/day-1.jpg',
-          'alt' => 'Student working on a laptop in front of a window'
-      ],
-      'animation-item grid-item text-at-bottom text-white'
-  ); ?>
-
-  <?php echo item_imageCard_videoModal(
-      get_icon('play').'Dorm Tour: Noyes',
-      null,
-      'https://player.vimeo.com/video/754937458',
-      'vimeo',
-      '',
-      ['url' => '/admission/assets/images/admission-home/video/dorm-a-1.jpg',
-          'alt' => 'View of campus quad through a sunny window'
-      ],
-      'animation-item grid-item text-at-bottom text-white'
-  ); ?>
-
-  <?php echo item_imageCard_videoModal(
-      get_icon('play').'Dorm Tour: Town Houses',
-      null,
-      'https://player.vimeo.com/video/754937477',
-      'vimeo',
-      '',
-      ['url' => '/admission/assets/images/admission-home/video/dorm-b.jpg',
-          'alt' => 'Decorative string lights on a dorm wall'
-      ],
-      'animation-item grid-item text-at-bottom text-white'
-  ); ?>
-
-
-
-</div>
 
 
 <div class="text-center mt-3 pt-5">
@@ -594,6 +523,7 @@ Vassar students are surrounded by an environment designed to spark something ama
 
 
 
+
 <?php echo end_sec_fixedCenteredTitle(); ?>
 
 <!-- end you may be wondering -->
@@ -657,6 +587,8 @@ Vassar students are surrounded by an environment designed to spark something ama
     <p>News could not be loaded. Please make sure JavaScript is enabled in your browser.</p>
   </div>
 </div>
+
+
 
  <?php echo item_modal_standardVideo(); ?>
 
