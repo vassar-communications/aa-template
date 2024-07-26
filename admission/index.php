@@ -407,7 +407,7 @@ Vassar students are surrounded by an environment designed to spark something ama
 
    <p class="text-center mb-5 fs-5">See the Vassar campus through the eyes of our students:</p>',
     'sec-fixedCenteredTitle theme-dark-burgundy featured-video',
-    'mw-4',
+    'mw-3',
     ['bg-image-url' => '/admission/assets/images/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
         'bg-image-alt' => 'Large group of students seated on a lawn in front of the Thompson Memorial Library on Vassar campus',
         'css' => '
