@@ -15317,3 +15317,24 @@ button.accordion-button:focus {
 html {
   overflow-x: hidden;
 }
+
+
+
+
+.ratio.ratio-16x9.has-playlist-arrow {
+    position: relative;
+}
+.has-playlist-arrow:after {
+    position: absolute;
+    content: "";
+    top: -4.6rem;
+    right: 2rem;
+    width: 12rem;
+    height: 4rem;
+
+    background: url(/admission/assets/images/more-videos-arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    opacity: 0.7;
+}

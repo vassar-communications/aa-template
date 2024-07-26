@@ -426,7 +426,7 @@ Vassar students are surrounded by an environment designed to spark something ama
 */ ?>
 
 
-<?php include($project_paths['main_project_root'].'/admission/inc/video-cards.php'); ?>
+<?php include($project_paths['main_project_root'].'/admission/inc/reslife-video-embed.php'); ?>
 
 
 
