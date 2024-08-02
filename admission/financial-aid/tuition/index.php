@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
     '2024–2025 Tuition and Fees Overview',
     '3',
-    '<!--<p>The total cost to attend Vassar is $'.$facts['adm_total_cost'].'.</p>-->',
+    '',
     'mw-inner-4 theme-extralightgray',
     'gap-3 items-equal-height'
 ); ?>
