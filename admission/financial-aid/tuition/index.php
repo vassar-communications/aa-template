@@ -48,7 +48,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
     '2024–2025 Tuition and Fees Overview',
     '3',
-    '',
+    ' ',
     'mw-inner-4 theme-extralightgray',
     'gap-3 items-equal-height'
 ); ?>
