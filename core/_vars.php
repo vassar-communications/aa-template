@@ -5,11 +5,11 @@
 // These are values that might be used in several places
 // across the site, like tuition. They should be centralized.
 
-$current_school_year = '2022–2023';
+$current_school_year = '2024–2025';
 
-$facts[$current_school_year]['adm_tuition'] = 66870;
-$facts[$current_school_year]['adm_room_and_board'] = 17415;
-$facts[$current_school_year]['adm_fees'] = 935;
+$facts[$current_school_year]['adm_tuition'] = 70050;
+$facts[$current_school_year]['adm_room_and_board'] = 18240;
+$facts[$current_school_year]['adm_fees'] = 980;
 
 $facts['adm_total_cost'] = $facts[$current_school_year]['adm_tuition'] + $facts[$current_school_year]['adm_room_and_board'] + $facts[$current_school_year]['adm_fees'];
 
