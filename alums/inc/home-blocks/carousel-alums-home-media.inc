@@ -69,7 +69,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   'Read more',
   'stretched-link'
   ); ?>
-<?php echo end_carousel_item(); ?>
+<?php echo end_carousel_item();  ?>
 
 
 
