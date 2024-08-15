@@ -6,7 +6,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 <?php echo carousel_item(
     $media_carousel_path.'/2024-08-15/in-the-media/naveen_kumar_4x3.jpg',
     'is-link',
-    'ALT'
+    'A portrait of Naveen Kumar ’04, a person with black hair, a black beard, and a black shirt, standing against a red background, looking at the camera.'
   ); ?>
 
   <p>The <em>Washington Post</em> announced its new theater critic: <strong>Naveen Kumar ’04</strong>.</p>
@@ -23,7 +23,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 <?php echo carousel_item(
     $media_carousel_path.'/2024-08-15/in-the-media/eric_marcus_4x3.jpg',
     'is-link',
-    'ALT'
+    'A portrait of Eric Marcus ’80, a brown-haired person wearing a striped dress shirt, sitting in front of recording equipment.'
   ); ?>
 
   <p>NPR interviewed <strong>Eric Marcus ’80</strong>, founder and host of the podcast <em>Making Gay History</em>.</p>
@@ -39,9 +39,9 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2024-08-15/in-the-media/grace_hopper_4x3.jpg',
+    $media_carousel_path.'/2024-08-15/in-the-media/vera_rubin_4x3.jpg',
     'is-link',
-    'ALT'
+    'A photo of Vera Rubin ’48, a person with short gray hair and glasses, standing next to a metal bust.'
   ); ?>
 
   <p><em>Ars Technica</em> reports that AI tech giant Nvidia has named its newest AI platform for astronomer <strong>Vera Rubin ’48</strong>.</p>
@@ -59,7 +59,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 <?php echo carousel_item(
     $media_carousel_path.'/2024-08-15/in-the-media/grace_hopper_4x3.jpg',
     'is-link',
-    'ALT'
+    'A monochrome historical photo of Grace Hopper, a person wearing a long dress and glasses, standing in front of old computer cabinets.'
   ); ?>
 
   <p><strong>Grace Hopper, class of 1928</strong>, was included in a <em>U.S. News & World Report</em> story on where 10 famous inventors went to college.</p>
