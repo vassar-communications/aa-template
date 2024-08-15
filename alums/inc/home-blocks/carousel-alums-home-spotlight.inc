@@ -7,7 +7,7 @@
         markup = '';
         for (let i = 0; i < data.length; i++) {
         
-          if (!(i < 4)) {
+          if (!(i < 6)) {
             break;
           }
         

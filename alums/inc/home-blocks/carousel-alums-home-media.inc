@@ -4,67 +4,72 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2024-07-11/in-the-media/Sieu_Nguyen_4x3-copy.jpg',
+    $media_carousel_path.'/2024-08-15/in-the-media/naveen_kumar_4x3.jpg',
     'is-link',
-    'A person with short black hair and wearing a brown suit sits in a chair, talking to someone in a dark blue shirt, dark curly hair, and glasses.'
+    'A portrait of Naveen Kumar ’04, a person with black hair, a black beard, and a black shirt, standing against a red background, looking at the camera.'
   ); ?>
 
-  <p><strong>Siêu Nguyễn ’17</strong>, who works for the marketing team for HBO and Max Originals, was the subject of a <em>Northwest Asian Weekly article</em>.</p>
-  <p><em>Photo: Karl Rabe</em></p>
+  <p>The <em>Washington Post</em> announced its new theater critic: <strong>Naveen Kumar ’04</strong>.</p>
+  <p><em>Photo: Myles Loftin</em></p>
   <?php echo cta_link(
-  'https://nwasianweekly.com/2024/06/from-hanoi-to-hollywood-vietnamese-writer-producer-sieu-nguyen-finds-success-at-hbo-and-max/',
+  'https://www.washingtonpost.com/pr/2024/06/20/naveen-kumar-named-posts-theater-critic/',
   'Read more',
   'stretched-link'
   ); ?>
 <?php echo end_carousel_item(); ?>
 
 
+
 <?php echo carousel_item(
-    $media_carousel_path.'/2024-07-11/in-the-media/bella_depaulo_4x3-copy.jpg',
+    $media_carousel_path.'/2024-08-15/in-the-media/eric_marcus_4x3.jpg',
     'is-link',
-    'A person with short gray hair smiles at the camera.'
+    'A portrait of Eric Marcus ’80, a brown-haired person wearing a striped dress shirt, sitting in front of recording equipment.'
   ); ?>
 
-  <p>The book <em>Single at Heart: The Power, Freedom, and Heart-Filled Joy of Single Life</em> by <strong>Bella DePaulo ’75</strong> was mentioned in multiple media outlets including <em>Ms.</em> magazine.</p>
+  <p>NPR interviewed <strong>Eric Marcus ’80</strong>, founder and host of the podcast <em>Making Gay History</em>.</p>
   <p><em>Photo: Courtesy of the subject</em></p>
   <?php echo cta_link(
-  'https://msmagazine.com/2024/04/10/tradwife-feminist-divorce-women-home/',
+  'https://www.npr.org/2024/06/30/nx-s1-5021708/as-lgbtq-visibility-increases-so-does-the-backlash',
   'Read more',
   'stretched-link'
   ); ?>
 <?php echo end_carousel_item(); ?>
+
+
 
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2024-07-11/in-the-media/matthew_knigge_4x3-copy.jpg',
+    $media_carousel_path.'/2024-08-15/in-the-media/vera_rubin_4x3.jpg',
     'is-link',
-    'A person with short blond hair and a thin beard sits with other people and smiles off-camera.'
+    'A photo of Vera Rubin ’48, a person with short gray hair and glasses, standing next to a metal bust.'
   ); ?>
 
-  <p>Pro volleyball player and former Brewers standout <strong>Matthew Knigge ’18</strong> was the subject of a feature article in <em>Volleyball</em> magazine.</p>
-  <p><em>Photo: Karl Rabe</em></p>
+  <p><em>Ars Technica</em> reports that AI tech giant Nvidia has named its newest AI platform for astronomer <strong>Vera Rubin ’48</strong>.</p>
+  <p><em>Photo: Will Faller</em></p>
   <?php echo cta_link(
-  'https://volleyballmag.com/matthew-knigge-usa-volleyball-052324/',
+  'https://arstechnica.com/information-technology/2024/06/nvidia-jumps-ahead-of-itself-and-reveals-next-gen-rubin-ai-chips-in-keynote-tease/',
   'Read more',
   'stretched-link'
   ); ?>
 <?php echo end_carousel_item(); ?>
+
+
 
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2024-07-11/in-the-media/andrew_zimmern_4x3-copy.jpg',
+    $media_carousel_path.'/2024-08-15/in-the-media/grace_hopper_4x3.jpg',
     'is-link',
-    'A person with no hair and a brown suit coat smiles at the camera.'
+    'A monochrome historical photo of Grace Hopper, a person wearing a long dress and glasses, standing in front of old computer cabinets.'
   ); ?>
 
-  <p>Chef and television personality <strong>Andrew Zimmern ’84</strong> talked to <em>Forbes</em> about his favorite Catskill restaurants.</p>
-  <p><em>Photo: Courtesy of the Travel Channel</em></p>
+  <p><strong>Grace Hopper, class of 1928</strong>, was included in a <em>U.S. News & World Report</em> story on where 10 famous inventors went to college.</p>
+  <p><em>Photo: Vassar Archives and Special Collections</em></p>
   <?php echo cta_link(
-  'https://www.forbes.com/sites/forbestravelguide/2024/05/07/andrew-zimmerns-favorite-food-city-will-surprise-you/?sh=121193911ca9',
+  'https://www.usnews.com/education/slideshows/where-10-famous-inventors-went-to-college?slide=11',
   'Read more',
   'stretched-link'
   ); ?>
-<?php echo end_carousel_item(); ?>
+<?php echo end_carousel_item();  ?>
 
 
 
