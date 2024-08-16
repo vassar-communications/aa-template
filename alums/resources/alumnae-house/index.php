@@ -35,15 +35,6 @@ $page_info = json_decode($page_info, true);
   'p-2'
 ); ?>
 
-<?php echo info_card(
-  'Construction Alert',
-  'classes',
-  'alert'); ?>
-
-<p>The entrance from College Ave to Alumnae House is currently closed to accommodate construction activities. The Fulton Ave entrance is available to access the Alumnae House during the construction project.</p>
-
-<?php echo end_info_card(); ?>
-
 <?php echo end_sec_regularContent(); ?>
 
 
@@ -73,6 +64,7 @@ $page_info = json_decode($page_info, true);
 
           <p>Telephone: <a href="tel:8454377100" class="">(845) 437-7100</a><br>
               Email: <a href="mailto:alumnaehouse@vassar.edu">alumnaehouse@vassar.edu</a></p>
+              <p><em>Please enter the property via The Heartwood parking lot.</em></p>
     </div>
 
 
