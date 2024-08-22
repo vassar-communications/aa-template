@@ -28,7 +28,7 @@ function sec_fixedCenteredTitle(
 
     $css = get_extras_value( 'css', $extras, 'style="%s"' );
 
-    $id = get_extras_value( 'css', $extras, 'id="%s"' );
+    $id = get_extras_value( 'id', $extras, 'id="%s"' );
 
     return <<<TMP
     <div class="section $section_classes" $css $id>
