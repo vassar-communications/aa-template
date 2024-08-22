@@ -271,7 +271,8 @@ echo sec_fixedCenteredTitle(
       /* --section-title-faded-opacity: 0.2; */
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
-      '
+      ',
+      'id' => 'our-favorite-places'
     ]
 ); ?>
 
