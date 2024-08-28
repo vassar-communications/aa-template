@@ -69,11 +69,11 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <h3 class="mt-5">Best Practices</h3>
-<p>Our best practices agreement will give you a sense of the values uplifted by our creative and hardworking volunteers.</p>
+<p>Our best practices notice will give you a sense of the values uplifted by our creative and hardworking volunteers.</p>
 
 <?php echo cta_link(
-    'https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=1723&cid=3035&post_id=0',
-    'Read our best practices agreement'
+    'https://volunteers.vassarspaces.net/home/best-practices-notice-for-alum-volunteers/',
+    'Read our best practices notice'
 ); ?>
 
 <?php echo end_sec_regularContent(); ?>
@@ -121,14 +121,14 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <?php echo item_iconItem(
-    'Multicultural and Affinity Groups',
+    'Affinity Engagement',
     'users',
     'icon-on-left theme-white-border'
 ); ?>
 <p>Strengthen alum communities that center shared experiences, activities, and identities, such as athletic teams, singing groups, LGBTQ+, ALANA organizations, veterans, and First Gen alums (among others).</p>
 <ul class="linked-list">
-    <li><a href="/alums/community/alum-groups/#affinity">Learn more about Multicultural and Affinity Groups</a></li>
-    <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Multicultural and Affinity Group Volunteer</a></li>
+    <li><a href="/alums/community/alum-groups/#affinity">Learn more about Affinity Engagement</a></li>
+    <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become an Affinity Group Volunteer</a></li>
 </ul>
 
 
