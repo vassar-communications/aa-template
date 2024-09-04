@@ -41,14 +41,43 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A large group of people walking along a campus road, with some banners displaying class years.']
 ); ?>
 
-  <p>Reunion 2024 has come to an end. It was a beautiful and joyous weekend. We hope you all had a wonderful time!</p>
+  <p>We look forward to welcoming the classes that graduated in a year ending in 0 or 5, June 6–8, 2025. Please help us plan for your arrival by expressing your interest to attend. Can't wait to see you next summer!</p>
       <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5.</p>
-   <a href="https://www.flickr.com/photos/vassarcollegemedia/albums/72177720317624209/" class="btn btn-primary arrow mt-5">View Reunion 2024 Photos</a>
    <br />
    <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who Came to Reunion</a>
  
   
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
+<?php echo sec_regularContent(
+  'Express your Interest to attend Reunion 2025',
+  '',
+  ''
+); ?>
+
+
+<ul>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7715&amp;content_id=7200">Class of 1975 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7718&amp;content_id=7202">Class of 2000 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7721&amp;content_id=7204">Class of 1950 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7724&amp;content_id=7206">Class of 1955 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7727&amp;content_id=7208">Class of 1960 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7774&amp;content_id=7241">Class of 1965 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7733&amp;content_id=7212">Class of 1970 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7736&amp;content_id=7214">Class of 1980 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7739&amp;content_id=7216">Class of 1985 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7742&amp;content_id=7218">Class of 1990 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7745&amp;content_id=7220">Class of 1995 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7748&amp;content_id=7222">Class of 2005 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7751&amp;content_id=7224">Class of 2010 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7754&amp;content_id=7226">Class of 2015 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7757&amp;content_id=7228">Class of 2020 Interest Form</a></li>
+</ul>
+
+
+<?php echo end_sec_regularContent(); ?>
+
+
 
 
 <?php echo sec_regularContent(
@@ -57,19 +86,23 @@ $page_info = json_decode($page_info, true);
   ''
 ); ?>
 
+
+<?php /*
     <h3>Lost and Found</h3>
 
     <p>Leave something behind? Please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
+*/ ?>
+
 
     
   <h3>Future Reunion Dates</h3>
 
-  <p>June 6–8, 2025<br>
-  June 5–7, 2026</p>
+  <p>June 5–7, 2026</p>
 
   <h3>Past Reunions</h3>
 
     <ul class="linked-list mt-4">
+        <li><a href="https://www.flickr.com/photos/vassarcollegemedia/albums/72177720317624209/">View photos from Reunion 2024</a></li>
         <li><a href="https://www.flickr.com/photos/vassarcollegemedia/sets/72177720308893162/">View photos from Reunion 2023</a></li>
         <li><a href="https://www.flickr.com/photos/vassarcollegemedia/collections/72157683898719825/">View photos from in-person Reunions held since 2012</a></li>
     </ul>  
