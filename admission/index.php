@@ -554,7 +554,7 @@ Vassar students are surrounded by an environment designed to spark something ama
     <div class="carousel-cell is-link">
       <div class="carousel-cell-content">
        <div class="image-container">
-          <img src="${data[i]['image_16_9_l']}" alt="" />
+          <img src="${data[i]['image_16_9_l']}" alt="${data[i]['alt']}" />
        </div>
        <div class="figcaption pt-4 listen">
           <h3>
