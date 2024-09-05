@@ -6,17 +6,15 @@
       success: function (data) {
         markup = '';
         for (let i = 0; i < data.length; i++) {
-        
           if (!(i < 6)) {
             break;
           }
-        
           var itemPath = data[i]['override_url'] ? data[i]['override_url'] : data[i]['path'];
           var itemMarkup = `
     <div class="carousel-cell is-link">
       <div class="carousel-cell-content">
        <div class="image-container">
-          <img src="${data[i]['image_16_9_l']}" alt="" />
+          <img src="${data[i]['image_16_9_l']}" alt="${data[i]['alt']}" />
        </div>
        <div class="figcaption pt-4 listen">
           <h3>
