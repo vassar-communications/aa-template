@@ -50,7 +50,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_regularContent(
-  'Express your Interest to<br>attend Reunion 2025',
+  'Express your Interest to<br> attend Reunion 2025',
   '',
   ''
 ); ?>
