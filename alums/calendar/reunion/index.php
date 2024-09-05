@@ -56,7 +56,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
-<ul>
+<ul class="linked-list grid cols-2" style="gap: 0;">
 <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7721&amp;content_id=7204">Class of 1950 Interest Form</a></li>
 <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7724&amp;content_id=7206">Class of 1955 Interest Form</a></li>
 <li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&amp;gid=2&amp;pgid=7727&amp;content_id=7208">Class of 1960 Interest Form</a></li>
