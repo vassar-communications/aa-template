@@ -133,7 +133,7 @@ $page_info = json_decode($page_info, true);
         <p>This 415-acre green space comprises a multitude of habitats including streams, wetlands, ponds, forest, and old fields populated by a diversity of flora and fauna. This is an invaluable resource for Vassar faculty and students conducting scientific research.</p>
     <?php echo end_carousel_item(); ?>
 
-<?php echo end_carousel(); ?>
+<?php echo end_carousel(); ?> 
 
 
 
