@@ -80,7 +80,7 @@ $page_info = json_decode($page_info, true);
         'tree',
         'icon-on-left'
       ); ?>
-          <p>A historic arboretum and over 400 acres of Ecological Preserve.</p>
+          <p>A historic <a href="https://www.vassar.edu/arboretum">arboretum</a> and over 400 acres of Ecological Preserve.</p>
       <?php echo end_item_iconItem(); ?>
 
       <?php echo item_iconItem(
@@ -124,8 +124,8 @@ $page_info = json_decode($page_info, true);
     <?php echo end_carousel_item(); ?>
 
     <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0037-22-06-kr-reunion-vassar-0226.jpg", null, "A large, open garden area with several stone statues and brick buildings in the background."); ?>
-          <h3 class="h3">The Shakespeare Garden</h3>
-      <p>The second oldest Shakespeare Garden in the United States, this tranquil space is appreciated by the Vassar community and visitors alike.</p>
+          <h3 class="h3">The Arboretum</h3>
+      <p>Nature and landscape have been integral to Vassar’s culture, campus, and curriculum from the inception of the College. Its site in the Hudson Valley has long been naturally enriched by lakes and creeks, and surrounded by gentle ravines, hollows, farmland, grasslands, and woods, creating a striking range of landscape types, as well as ecological diversity. Today there are over 2,200 trees spread across much of the campus, representing over 170 species.</p>
     <?php echo end_carousel_item(); ?>
 
     <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0075_16_07_KR_0132.jpg", null, "A faculty member and student stand in the woods looking up at a tree trunk"); ?>
