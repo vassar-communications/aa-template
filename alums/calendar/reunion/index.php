@@ -160,14 +160,11 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-End of hiding schedule content*/ ?>
 
 <div id="information-updates"></div>
 
 <?php echo sec_regularContent('Information & Updates','theme-verylightgray','','',); ?>
 
-
-<?php /*hiding below items until 2025 setup
 
 <?php echo item_iconItem('New This Year!','star',''); ?>
 <h4>Vassar Mobile App for Reunion</h4>
@@ -225,8 +222,6 @@ End of hiding schedule content*/ ?>
 <p><a href="https://offices.vassar.edu/campus-safety/procedures/">Read Vassar’s complete emergency procedures</a>.</p>
 <?php echo end_item_iconItem(); ?>
 
-End of hiding info content*/ ?>
-
 <div id="housing"></div>
 
 <?php echo item_iconItem('Housing','house-chimney',''); ?>
@@ -263,8 +258,6 @@ End of hiding info content*/ ?>
     </div>
 </div>
 
-<?php /*hiding dorms until 2025 setup
-
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample2">
     <div class="accordion-item">
         <div class="accordion-header" id="flush-headingTwo">
@@ -292,7 +285,6 @@ End of hiding info content*/ ?>
     </div>
 </div>
 
-End of hiding dorms content*/ ?>
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample3">
     <div class="accordion-item">
@@ -390,8 +382,6 @@ End of hiding dorms content*/ ?>
 
 <?php echo end_sec_regularContent(); ?>
 
-<?php /*hiding campus facilities until 2025 setup
-
 <div id="campus-facilities"></div>
 
 <?php echo sec_hasColumns(
@@ -484,7 +474,7 @@ End of hiding dorms content*/ ?>
 <?php echo end_sec_hasColumns(); ?>
 
 
-End of hiding campus facilities content*/ ?>
+End of hiding all content*/ ?>
 
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/alums/inc/pages/give/give.php');?>
