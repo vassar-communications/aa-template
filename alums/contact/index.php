@@ -291,7 +291,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Karolina Gomez',
-    'Assistant Director of Annual Giving, Digital Engagement Officer',
+    'Associate Director of Annual Giving, Digital Engagement Officer',
     [
       'phone' => '845-437-7884',
       'email' => 'kgomez@vassar.edu',

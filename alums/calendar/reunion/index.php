@@ -247,17 +247,17 @@ End of hiding info content*/ ?>
                     2750 South Rd</br>
                     Poughkeepsie NY 12601</br>
                     (845) 473-1151</br>
-                    Refer to Vassar Reunion and booking code “WEE” when calling to make the reservation.</p>
+                    <em>Refer to Vassar College Reunion and reference code “VR5” when calling to make the reservation.</em></p>
                     <p><strong>Quality Inn</strong> (walking distance from the college)</br>
                     536 Haight Ave</br>
                     Poughkeepsie NY 12603</br>
                     (845) 454-1010</br>
-                    <a href="https://www.choicehotels.com/reservations/groups/ZD39L5">Book a room at the Quality Inn online (group rate already applied)</a></p>
+                    <em>Reference Vassar College Reunion when making a reservation to receive the   discounted rate.</em></p>
                     <p><strong>Homewood Suites Poughkeepsie</strong></br>
                     900 Thomas Watson Drive</br>
                     Poughkeepsie NY 12601</br>
                     (845) 462-0030</br>
-                    <a href="https://links.h6.hilton.com/f/a/Z7g2dJWPznxyhC09q8VFrg~~/AAQRxQA~/RgRm5fngP0RRaHR0cHM6Ly93d3cubXktZXZlbnQuaGlsdG9uLmNvbS9wb3Vwbmh3LXZhcy03YzA5NTUwMC00MTM2LTQ2OWEtODZlMC00YjhjMTU1Mzc0Y2MvVwNzcGNCCmT64HQDZRrRj2NSE3BvdXBuX2RzQGhpbHRvbi5jb21YBAAAAuI~">View the Homewood Suites Poughkeepsie Vassar Reunion 2024 attendee website and reserve a room</a></p>
+                    <em>Reference Vassar College Reunion when making a reservation to receive the   discounted rate.</em></p>
             </div>
         </div>
     </div>
@@ -328,7 +328,7 @@ End of hiding dorms content*/ ?>
 
     <h4>Parking during Reunion</h4>
 
-    <p>Due to the groundbreaking of The Dede Thompson Bartlett Center for Admission and Career Education, North Lot will be unavailable and parking will be limited on campus. Please use the designated parking at South Lot (entrance on Raymond Ave), Kenyon Hall, and Walker Field House parking lots.</p>
+    <p>Please remember to place the parking pass on your dashboard after arriving on campus.  Need a parking pass?  Call <a href="tel:+18004438196">(800) 443-8196</a>, option 5, OR visit us at the Info Center in Main Building while on campus.</p>
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample4">
     <div class="accordion-item">
@@ -360,8 +360,8 @@ End of hiding dorms content*/ ?>
         </div>
         <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample5">
             <div class="accordion-body">
-                <h4>Friday, May 31: Depart from NYC (Bryant Park) at noon</h4>
-                <h4>Sunday, June 2: Depart from Vassar (Main Circle) at 1:00 p.m.</h4>
+                <h4>Friday, June 6: Depart from NYC (Bryant Park) at noon</h4>
+                <h4>Sunday, June 8: Depart from Vassar (Main Circle) at 1:00 p.m.</h4>
                 <p>The Vassar Club of New York will be on hand to greet you on Friday on the south side of 42nd Street between 5th and 6th Avenues, in front of Bryant Park, as shown in the Google Map below.</p>
                 <style>.embed-container { position: relative; padding-bottom: 56.25%; margin-bottom: 20px; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 20px; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3022.34973581112!2d-73.98570558727074!3d40.754331934902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDQ1JzE1LjYiTiA3M8KwNTgnNTkuMyJX!5e0!3m2!1sen!2sus!4v1682952585698!5m2!1sen!2sus' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div>
             </div>
