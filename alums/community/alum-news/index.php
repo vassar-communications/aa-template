@@ -118,7 +118,7 @@ $page_info = json_decode($page_info, true);
   <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><strong>Joanna Pearlstein ’92</strong> was promoted to an expanded role as Print Editor of the <a href="https://www.nytco.com/press/a-promotion-for-joanna-pearlstein-in-opinion/"><em>New York Times</em></a> Opinion section, as noted by the newspaper.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><strong>Anirudh Tiwathia ’0</strong>5, Director of Behavior Science at the Center for Behavior and the Environment, was mentioned in a <a href="https://www.latimes.com/environment/newsletter/2024-08-01/column-check-out-the-tv-shows-nudging-people-to-act-on-climate-boiling-point"><em>Los Angeles Times</em> story</a> about television shows that have climate change thoughtfulness included in their scripts.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><strong>Anirudh Tiwathia ’05</strong>, Director of Behavior Science at the Center for Behavior and the Environment, was mentioned in a <a href="https://www.latimes.com/environment/newsletter/2024-08-01/column-check-out-the-tv-shows-nudging-people-to-act-on-climate-boiling-point"><em>Los Angeles Times</em> story</a> about television shows that have climate change thoughtfulness included in their scripts.</p></div>
 
 
 <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13">Filmmaker <strong>India Donaldson ’07</strong> and her new film, <em>Good One</em>, were the subjects of a <a href="https://www.latimes.com/entertainment-arts/movies/story/2024-08-06/director-india-donaldson-cuts-her-own-path-good-one"><em>Los Angeles Times</em> feature</a>.</p></div>
@@ -130,7 +130,7 @@ $page_info = json_decode($page_info, true);
 <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><strong>Alex Bhattacharji ’92</strong> wrote a <a href="https://www.rollingstone.com/culture/culture-features/sammy-davis-jr-satanism-anton-lavey-1235070544/"><em>Rolling Stone</em> article</a> about the unlikely friendship between Sammy Davis Jr. and Anton La Vey, founder and high priest of the Church of Satan.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><strong>Susanna Ashton ’89</strong>, a Professor of English at Clemson University, wrote an article in <a href="https://theconversation.com/the-black-fugitive-who-inspired-uncle-toms-cabin-and-the-end-of-us-slavery-234256"><em>The Conversation</em></a> about her new book, <em>A Plausible Man: The True Story of the Escaped Slave Who Inspired Uncle Tom’s Cabin</em>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><strong>Susanna Ashton ’89</strong>, a Professor of English at Clemson University, wrote <a href="https://theconversation.com/the-black-fugitive-who-inspired-uncle-toms-cabin-and-the-end-of-us-slavery-234256">an article in <em>The Conversation</em></a> about her new book, <em>A Plausible Man: The True Story of the Escaped Slave Who Inspired Uncle Tom’s Cabin</em>.</p></div>
 
 
   <?php echo end_item_col(); ?>
@@ -144,7 +144,7 @@ $page_info = json_decode($page_info, true);
 <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><strong>Margaret Floy Washburn</strong>, class of 1891, was the subject of a <a href="https://www.discovermagazine.com/mind/what-were-margaret-floy-washburns-contributions-to-psychology"><em>Discover</em> magazine article</a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="24" data-line-end="25"><strong>Mattie Drucker ’22</strong> was one of several people interviewed by the French news site <a href="https://www.instagram.com/reel/C-r4MIQPdax/?igsh=eWgzYnJtbGM5bmtt"><em>Brut.</em></a> on what France is like for American tourists.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="24" data-line-end="25"><strong>Mattie Drucker ’22</strong> was one of several people interviewed by <a href="https://www.instagram.com/reel/C-r4MIQPdax/?igsh=eWgzYnJtbGM5bmtt">the French news site <em>Brut.</em></a> on what France is like for American tourists.</p></div>
 
 
 <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27"><strong>Amanda Forsythe ’98</strong> was named Best Opera Singer at the <a href="https://www.sfcv.org/articles/feature/audience-choice-awards-2023-2024-bay-area-winners"><em>SF Classical Voice</em> Audience Choice Awards</a>.</p></div>
