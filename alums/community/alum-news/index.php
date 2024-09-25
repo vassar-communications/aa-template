@@ -60,36 +60,36 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Deva Kyle ’01',
-        'https://www.plansponsor.com/white-house-announces-nominee-for-pbgc-director/',
-        ['url' => $logos_path.'plansponsor-logo.png', 'alt' => 'Plan Sponsor logo, all capital red block letters in a sans serif font.' ],
-        'related-topics card--withParagraph card-has-cta-icon card-is-link'
-    ); ?>
-        <p>Attorney <strong>Deva Kyle ’01</strong> was nominated by President Biden to become the next director of the Pension Benefit Guaranty Corporation, as noted by Plan Sponsor.</p>
-    <?php echo end_item_cardWithText(); ?>
-  <?php echo end_item_col(); ?>
-
-
-  <?php echo item_col(); ?>
-    <?php echo item_cardWithText(
-        'Eric Marcus ’80',
-        'https://www.npr.org/2024/06/30/nx-s1-5021708/as-lgbtq-visibility-increases-so-does-the-backlash',
-        ['url' => $logos_path.'npr.gif', 'alt' => 'NPR logo, lowercase white letters each on a different-color background, in the order red, black, blue.' ],
-        'related-topics card--withParagraph card-has-cta-icon card-is-link'
-    ); ?>
-      <p>On NPR’s <em>All Things Considered</em>, Scott Detrow talked to founder and host of the podcast <em>Making Gay History</em> <strong>Eric Marcus ’80</strong> about how LGBTQ Pride has evolved through the years.</p>
-    <?php echo end_item_cardWithText(); ?>
-  <?php echo end_item_col(); ?>
-
-
-  <?php echo item_col(); ?>
-    <?php echo item_cardWithText(
-        'Carlos Eduardo Espina ’20',
-        'https://www.nytimes.com/2024/07/18/business/media/carlos-espina-tiktok.html',
+        'Betty Prashker ’45',
+        'https://www.nytimes.com/2024/08/14/books/betty-a-prashker-dead.html',
         ['url' => $logos_path.'newyorktimes.gif', 'alt' => 'New York Times logo, black serif font.' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p>The<em> New York Times</em> profiled TikTok influencer <strong>Carlos Eduardo Espina ’20</strong>, “a one-man Telemundo for millions of Latinos in the United States and one of the White House’s favored social media personalities.”</p>
+        <p>Pioneering editor <strong>Betty Prashker ’45</strong> was remembered by several media outlets, including the <em>New York Times</em>.</p>
+    <?php echo end_item_cardWithText(); ?>
+  <?php echo end_item_col(); ?>
+
+
+  <?php echo item_col(); ?>
+    <?php echo item_cardWithText(
+        'Jenny Romero ’01',
+        'https://sites.utexas.edu/ransomcentermagazine/2024/08/21/introducing-jenny-romero-the-ransom-centers-robert-de-niro-curator-of-film/',
+        ['url' => $logos_path.'Ransom-Center-Magazine-Logo.png', 'alt' => 'Ransom Center Magazine logo, black serif and sans-serifs fonts.' ],
+        'related-topics card--withParagraph card-has-cta-icon card-is-link'
+    ); ?>
+      <p><strong>Jenny Romero ’01</strong>, the Ransom Center’s Robert De Niro Curator of Film, was the subject of a Ransom Center magazine article.</p>
+    <?php echo end_item_cardWithText(); ?>
+  <?php echo end_item_col(); ?>
+
+
+  <?php echo item_col(); ?>
+    <?php echo item_cardWithText(
+        'Evan Wright ’87',
+        'https://www.washingtonpost.com/obituaries/2024/07/16/evan-wright-generation-kill-dead/',
+        ['url' => $logos_path.'washington-post.jpg', 'alt' => 'Washington Post logo, black serif font.' ],
+        'related-topics card--withParagraph card-has-cta-icon card-is-link'
+    ); ?>
+      <p>Writer and author <strong>Evan Wright ’87</strong> was remembered by numerous news outlets, including the <em>Washington Post</em>.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -106,16 +106,31 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><strong>Matthew Moneypenny ’93</strong> was named Executive Director of the Southlands Foundation, as <a href="https://bit.ly/3VYXkoa">announced in a release</a> that quoted <strong>Michele Tugade ’95</strong>, Professor of Psychological Science on the William R. Kegan Jr. Chair, the outgoing board president of the nonprofit.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><strong>Lisa Kudrow ’85</strong> discussed her time at Vassar on the <a href="https://podcasts.apple.com/us/podcast/smartless/id1521578868?i=1000662553267">podcast <em>SmartLess</em></a> with hosts Jason Bateman, Sean Hayes, and Will Arnett.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5">Director, writer, and actor <strong>Lim Sheng Hui ’17</strong> will bring <em>Into the Symbiocene</em> to the Stockholm Fringe Festival, as announced by <a href="https://cj.my/145199/theatre-collective-crowdfunds-for-stockholm-fringe-festival-performance/"><em>Citizens Journal</em></a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><strong>Jonathan Karl ’90</strong>, Chief Washington Correspondent for ABC News and the co-anchor of This Week, spoke about the presidential election on the <a href="https://cafe.com/stay-tuned/kamala-harris-trump-election-jonathan-karl/">podcast <em>Stay Tuned with Preet</em></a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><strong>Dr. James Dodington ’05</strong>, a pediatric emergency medicine specialist with Yale Medicine, spoke with <a href="https://www.wtnh.com/news/health/health-headlines-how-to-prevent-drownings/">WTNH News 8</a> about how to prevent drownings.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><strong>Mackenzie Galloway-Cole ’17</strong>, who lost her wife, Megan, while still in her 20s, took a chance on attending a grief camp and talked about the experience with <a href="https://www.cnn.com/travel/grief-camp-experience-camps-mackenzie-galloway-cole/index.html">CNN</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9">The <a href="https://www.washingtonpost.com/pr/2024/06/20/naveen-kumar-named-posts-theater-critic/"><em>Washington Post</em></a> announced its new theater critic: <strong>Naveen Kumar ’04</strong>.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><strong>Joanna Pearlstein ’92</strong> was promoted to an expanded role as Print Editor of the <a href="https://www.nytco.com/press/a-promotion-for-joanna-pearlstein-in-opinion/"><em>New York Times</em></a> Opinion section, as noted by the newspaper.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><strong>Anirudh Tiwathia ’0</strong>5, Director of Behavior Science at the Center for Behavior and the Environment, was mentioned in a <a href="https://www.latimes.com/environment/newsletter/2024-08-01/column-check-out-the-tv-shows-nudging-people-to-act-on-climate-boiling-point"><em>Los Angeles Times</em> story</a> about television shows that have climate change thoughtfulness included in their scripts.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13">Filmmaker <strong>India Donaldson ’07</strong> and her new film, <em>Good One</em>, were the subjects of a <a href="https://www.latimes.com/entertainment-arts/movies/story/2024-08-06/director-india-donaldson-cuts-her-own-path-good-one"><em>Los Angeles Times</em> feature</a>.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><strong>Michele Tugade ’95</strong>, Professor of Psychological Science on the William R. Kenan Jr. Chair, was featured in a <a href="https://www.womenshealthmag.com/life/a61803754/what-is-learned-optimism/"><em>Women’s Health</em> article</a> about learned optimism.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><strong>Alex Bhattacharji ’92</strong> wrote a <a href="https://www.rollingstone.com/culture/culture-features/sammy-davis-jr-satanism-anton-lavey-1235070544/"><em>Rolling Stone</em> article</a> about the unlikely friendship between Sammy Davis Jr. and Anton La Vey, founder and high priest of the Church of Satan.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><strong>Susanna Ashton ’89</strong>, a Professor of English at Clemson University, wrote an article in <a href="https://theconversation.com/the-black-fugitive-who-inspired-uncle-toms-cabin-and-the-end-of-us-slavery-234256"><em>The Conversation</em></a> about her new book, <em>A Plausible Man: The True Story of the Escaped Slave Who Inspired Uncle Tom’s Cabin</em>.</p></div>
 
 
   <?php echo end_item_col(); ?>
@@ -123,13 +138,28 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><a href="https://arstechnica.com/information-technology/2024/06/nvidia-jumps-ahead-of-itself-and-reveals-next-gen-rubin-ai-chips-in-keynote-tease/"><em>Ars Technica</em></a> reports that AI tech giant Nvidia has named its newest AI platform for astronomer <strong>Vera Rubin ’48</strong>—one year after paying tribute to computer pioneer <strong>Grace Hopper, class of 1928</strong>, with a “superchip” named after her. Hopper was also included in a <a href="https://www.usnews.com/education/slideshows/where-10-famous-inventors-went-to-college?slide=11"><em>U.S. News & World Report</em> story</a> on where 10 famous inventors went to college.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21"><strong>Richard Barakat ’81</strong> discussed art, literature, and Faust on <a href="https://www.youtube.com/watch?v=YiiZbUErFcA"><em>Philosophic Dialogues from La Frontera</em></a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><strong>Dr. Monica Riley ’86</strong>, Founder/CEO at Dr. Monica’s Natural Beauty, LLC, was recently selected as Top Holistic and Self Care Leader of the Year for 2024 by the International Association of Top Professionals (IAOTP), as noted by <a href="https://www.wicz.com/story/50982861/dr-monica-riley-selected-as-top-holistic-and-self-care-leader-of-the-year-by-iaotp">WICZ Fox 40</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><strong>Margaret Floy Washburn</strong>, class of 1891, was the subject of a <a href="https://www.discovermagazine.com/mind/what-were-margaret-floy-washburns-contributions-to-psychology"><em>Discover</em> magazine article</a>.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="11">The poem “Sustain” by <strong>Tim Horvath ’93</strong> was published in the Summer 2024 issue of <em>Ploughshares</em> (subscription publication).</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="24" data-line-end="25"><strong>Mattie Drucker ’22</strong> was one of several people interviewed by the French news site <a href="https://www.instagram.com/reel/C-r4MIQPdax/?igsh=eWgzYnJtbGM5bmtt"><em>Brut.</em></a> on what France is like for American tourists.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27"><strong>Amanda Forsythe ’98</strong> was named Best Opera Singer at the <a href="https://www.sfcv.org/articles/feature/audience-choice-awards-2023-2024-bay-area-winners"><em>SF Classical Voice</em> Audience Choice Awards</a>.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="28" data-line-end="29"><strong>Burt Flickinger III ’75</strong>, owner of Strategic Resource Group, wrote a <a href="https://chicago.suntimes.com/letters-to-the-editor/2024/08/19/blocking-kroger-albertsons-merger-benefits-walmart-ftc-dnc-protests-political-parties-letters"><em>Chicago Sun-Times</em> op-ed</a> titled, “Customers, union workers will lose if Kroger-Albertsons merger gets blocked.”</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="30" data-line-end="31">Fashion designer <strong>Elizabeth Hawes</strong>, class of 1925, was mentioned in a <a href="https://nypost.com/2024/08/24/lifestyle/how-politics-and-fascism-shaped-american-fashion-sweeping-away-anonymity/"><em>New York Post</em> article</a> titled, “How politics and fascism shaped American fashion: The wave that wiped away anonymity.”</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="32" data-line-end="33"><strong>Matthew Moshen ’92</strong>, a volunteer at the Oyster Bay Historical Society and a member of the Long Island Sons of the American Revolution, discovered graves of five American Revolutionary War veterans in a small, often overlooked cemetery in Oyster Bay, as noted by <a href="https://www.liherald.com/stories/graves-of-revolutionary-vets-found-in-oyster-bay,209794">LI Herald.com</a>.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="34" data-line-end="35"><strong>David Foote ’75</strong>, chief analyst and research officer with IT research firm Foote Partners, was quoted in a <a href="https://www.computerworld.com/article/3507029/will-genai-kill-the-help-desk-and-other-it-jobs.html"><em>Computerworld</em> article</a> about how AI adoption is impacting IT employment in the next five years. Foote was also mentioned in a <a href="https://www.csoonline.com/article/2144220/12-hottest-it-security-certs-for-higher-pay-today.html">CSO article</a> about which cybersecurity skills are earning IT security workers the most pay.</p></div>
 
 
   <?php echo end_item_col(); ?>

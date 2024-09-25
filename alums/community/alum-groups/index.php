@@ -60,9 +60,9 @@ $page_info = json_decode($page_info, true);
 
 
     <ul class="linked-list mt-4">
-        <li><a href="/alums/calendar/reunion/">Explore Reunion</a></li>
-        <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Class Volunteer</a></li>
-        <li><a href="/alums/community/cca-groups/#class">Connect with Your Vassar Class</a></li>
+        <li><a href="/alums/calendar/reunion/">Explore Reunion.</a></li>
+        <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Class Volunteer.</a></li>
+        <li><a href="/alums/community/cca-groups/#class">Connect with Your Vassar Class.</a></li>
     </ul>
 
 </div>
@@ -82,10 +82,10 @@ $page_info = json_decode($page_info, true);
 <p>If you are interested in participating in Club activities or starting a Club, reach out to Cheryl McKeever at <a href="mailto:cmckeever@vassar.edu">cmckeever@vassar.edu</a> or <a href="tel:+18454375408">(845) 437-5408</a>.</p>
 
     <ul class="linked-list mt-4">
-        <li><a href="/alums/community/cca-groups/#club">Find an Active Vassar Club</a></li>
-        <li><a href="/alums/calendar/">Explore Upcoming Club Events</a></li>
-        <li><a href="https://www.vassar.edu/social-media-alums#regional-clubs">Follow Vassar Clubs on Social</a></li>
-        <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Club Volunteer</a></li>
+        <li><a href="/alums/community/cca-groups/#club">Find an Active Vassar Club.</a></li>
+        <li><a href="/alums/calendar/">Explore Upcoming Club Events.</a></li>
+        <li><a href="https://www.vassar.edu/social-media-alums#regional-clubs">Follow Vassar Clubs on Social.</a></li>
+        <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Club Volunteer.</a></li>
     </ul>
 
 
@@ -107,10 +107,10 @@ $page_info = json_decode($page_info, true);
     <p>We invite you to bring your creativity and ideas to help shape our programming. Your suggestions will play a vital role in enhancing the experiences we offer and ensuring they resonate with our diverse alum community. Join us in crafting events that celebrate and unite our 41,000+ strong Vassar alum network.</p>
     <p>For more information or to share your ideas, contact the Vassar Affinity Engagement team at <a href="mailto:vassaraffinity@vassar.edu">vassaraffinity@vassar.edu</a> or <a href="tel:845-437-5515">(845) 437-5515</a>.</p>
     <ul class="linked-list mt-4">
-        <li><a href="https://www.vassar.edu/social-media-alums#affinity-groups">Follow Affinity Engagement on Social</a></li>
-        <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Share Your Ideas for Affinity Engagement Events</a></li>
-        <li><a href="https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=5370&cid=8841&post_id=0">Receive Affinity Engagement Communications</a></li>
-        <li><a href="/alums/community/cca-groups/#affinity">Find Affinity Engagement Groups</a></li>
+        <li><a href="https://www.vassar.edu/social-media-alums#affinity-groups">Follow Affinity Engagement on Social.</a></li>
+        <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Share Your Ideas for Affinity Engagement Events.</a></li>
+        <li><a href="https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=5370&cid=8841&post_id=0">Receive Affinity Engagement Communications.</a></li>
+        <li><a href="/alums/community/cca-groups/#affinity">Find Affinity Engagement Groups.</a></li>
     </ul>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>

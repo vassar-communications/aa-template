@@ -52,7 +52,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     'time-out-grant',
-    'Learn more about the Time Out Grant'
+    'Learn more about the Time Out Grant.'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -70,7 +70,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     'https://offices.vassar.edu/fellowships/fellowships/graduates/cornelisen/',
-    'Learn more about the Ann Cornelisen Fellowship'
+    'Learn more about the Ann Cornelisen Fellowship.'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -96,7 +96,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     'https://offices.vassar.edu/fellowships/deadlines/',
-    'Learn more about deadlines for these opportunities'
+    'Learn more about deadlines for these opportunities.'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -114,7 +114,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     'https://offices.vassar.edu/fellowships/fellowships/graduates/maguire/',
-    'Learn more about the Maguire Fellowship'
+    'Learn more about the Maguire Fellowship.'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -131,7 +131,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     'https://offices.vassar.edu/fellowships/fellowships/graduates/vassar/',
-    'Learn more about Vassar Fellowships for Graduate Study'
+    'Learn more about Vassar Fellowships for Graduate Study.'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -148,7 +148,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     'https://offices.vassar.edu/fellowships/fellowships/graduates/rose/',
-    'Learn more about the W.K. Rose Fellowship'
+    'Learn more about the W.K. Rose Fellowship.'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>

@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     'https://vassarnet.vassar.edu/',
-    'Launch VassarNet'
+    'Launch VassarNet.'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 

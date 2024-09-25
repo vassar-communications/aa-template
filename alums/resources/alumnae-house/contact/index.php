@@ -54,15 +54,15 @@ Contact Martha Barry, Alumnae House Manager<br/>
 
 <p><strong>Brasserie 292</strong><br/>
 <?php echo phone_number('845-473-0292'); ?><br/>
-    <a href="https://www.brasserie292.com/">Visit Brasserie 292’s website</a></p>
+    <a href="https://www.brasserie292.com/">Visit Brasserie 292’s website</a>.</p>
 
 <p><strong>Main Course</strong><br/>
 <?php echo phone_number('845-255-2600'); ?><br/>
-    <a href="https://www.maincoursecatering.com/">Visit Main Course’s website</a></p>
+    <a href="https://www.maincoursecatering.com/">Visit Main Course’s website</a>.</p>
 
 <p><strong>Twisted Soul</strong><br/>
 <?php echo phone_number('845-454-2770'); ?><br/>
-    <a href="https://www.twistedsoulconcepts.com/">Visit Twisted Soul’s website</a></p>
+    <a href="https://www.twistedsoulconcepts.com/">Visit Twisted Soul’s website</a>.</p>
 <?php echo end_sec_regularContent(); ?>
 
 

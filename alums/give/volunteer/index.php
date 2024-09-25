@@ -73,7 +73,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     'https://volunteers.vassarspaces.net/home/best-practices-notice-for-alum-volunteers/',
-    'Read our best practices notice'
+    'Read our best practices notice.'
 ); ?>
 
 <?php echo end_sec_regularContent(); ?>
@@ -93,7 +93,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>The Vassar College Alumni Admission Program (VCAAP) connects alum volunteers with various opportunities that support the work of Vassar’s Office of Admission. VCAAP volunteers help to increase the visibility of Vassar in their local communities and provide valuable points of contact for prospective students.</p>
 <ul class="linked-list">
-    <li><a href="https://apply.vassar.edu/portal/vcaap">Become a VCAAP Volunteer</a></li>
+    <li><a href="https://apply.vassar.edu/portal/vcaap">Become a VCAAP Volunteer.</a></li>
 </ul>
 
 
@@ -108,7 +108,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>Become part of the team that works in partnership with the Annual Giving team throughout the year to promote class engagement and financial support for the College. Fund chairs and class agents work with each other to inspire gifts to the Vassar Fund, providing crucial support for financial aid, student life, sustainability, and much more.</p>
 <ul class="linked-list">
-    <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Class Fundraising Volunteer</a></li>
+    <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Class Fundraising Volunteer.</a></li>
 </ul>
 
 <?php echo end_item_iconItem(); ?>
@@ -127,8 +127,8 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>Strengthen alum communities that center shared experiences, activities, and identities, such as athletic teams, singing groups, LGBTQ+, ALANA organizations, veterans, and First Gen alums (among others).</p>
 <ul class="linked-list">
-    <li><a href="/alums/community/alum-groups/#affinity">Learn more about Affinity Engagement</a></li>
-    <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become an Affinity Group Volunteer</a></li>
+    <li><a href="/alums/community/alum-groups/#affinity">Learn more about Affinity Engagement.</a></li>
+    <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become an Affinity Group Volunteer.</a></li>
 </ul>
 
 
@@ -143,8 +143,8 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>Class Leaders plan reunions and mini-reunions, administer social media groups, and help the College stay in touch with and informed about members of their class communities. Roles vary, but include event planning, outreach (general and fundraising), writing class notes for the alum magazine, and more.</p>
 <ul class="linked-list">
-    <li><a href="/alums/community/alum-groups/#classes">Learn more about Vassar Classes</a></li>
-    <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Class Volunteer</a></li>
+    <li><a href="/alums/community/alum-groups/#classes">Learn more about Vassar Classes.</a></li>
+    <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Class Volunteer.</a></li>
 </ul>
 
 <?php echo end_item_iconItem(); ?>
@@ -156,8 +156,8 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>With more than 25 groups in the US and across the globe, Vassar Clubs provide opportunities for alums—along with current students and their families—to build relationships across generations, nurture intellectual curiosity, support each other and the College community, and have fun while doing it! Thanks to Vassar Club volunteers, alums can get together, wherever they live, and continue to build lasting connections beyond the College’s gates.</p>
 <ul class="linked-list">
-    <li><a href="/alums/community/alum-groups/#clubs">Learn more about Vassar Clubs</a></li>
-    <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Club Volunteer</a></li>
+    <li><a href="/alums/community/alum-groups/#clubs">Learn more about Vassar Clubs.</a></li>
+    <li><a href="https://securelb.imodules.com/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=3956&cid=6461&post_id=0">Become a Club Volunteer.</a></li>
 </ul>
 
 <?php echo end_item_iconItem(); ?>
@@ -178,7 +178,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>Vassar Clubs, individual classes, and affinity groups all plan programs that feature alums and parent experts. These programs can be purely educational and/or take the form of discussion-based workshops that build skills and deepen relationships. If you are interested in volunteering to lead a discussion or skills-based workshop for Vassar community members, please contact <a href="mailto:alumengagement@vassar.edu">alumengagement@vassar.edu</a>.</p>
 <ul class="linked-list">
-    <li><a href="mailto:alumengagement@vassar.edu">Contact Us</a></li>
+    <li><a href="mailto:alumengagement@vassar.edu">Contact Us.</a></li>
 </ul>
 
 
@@ -193,7 +193,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>VassarNet is the College’s private LinkedIn group dedicated to building professional networks between and among alums and current students of Vassar. Members of the Vassar community—at any stage of their professional life—can ask questions, share expertise, post and apply to job opportunities for Vassar candidates, and form professional connections with one another.</p>
 <ul class="linked-list">
-    <li><a href="https://vassarnet.vassar.edu/">Join VassarNet</a></li>
+    <li><a href="https://vassarnet.vassar.edu/">Join VassarNet.</a></li>
 </ul>
 
 <?php echo end_item_iconItem(); ?>

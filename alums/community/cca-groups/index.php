@@ -41,9 +41,9 @@ $page_info = json_decode($page_info, true);
 <div id="cca-classes-description" style="display:none">
 <p>Use the decade selector or the search field to limit the display to specific classes or volunteers. Other options:</p>
 <ul>
-<li><a href="/alums/community/deceased/">View a list of deceased classmates</a></li>
-<li><a href="/alums/community/lost/">View a list of lost classmates</a></li>
-<li>Find contact information in the <a href="https://connect.vassar.edu/s/1654/22/interior.aspx?sid=1654&gid=2&pgid=6&cid=41#/Search/Simple">online alum directory</a> for individual class volunteers (login required)</li>
+<li><a href="/alums/community/deceased/">View a list of deceased classmates</a>.</li>
+<li><a href="/alums/community/lost/">View a list of lost classmates</a>.</li>
+<li>Find contact information in the <a href="https://connect.vassar.edu/s/1654/22/interior.aspx?sid=1654&gid=2&pgid=6&cid=41#/Search/Simple">online alum directory</a> for individual class volunteers (login required).</li>
 </ul>
 <p><small><i><a href="https://www.vassar.edu/alums/contact">Not getting class communications?</a></i></small></p>
 </div>

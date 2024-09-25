@@ -45,9 +45,9 @@ $page_info = json_decode($page_info, true);
     <p>To reserve space or for more information, contact Martha Barry, Alumnae House Manager, at <?php echo phone_number('845-437-7150'); ?> or <a href="mailto:mabarry@vassar.edu">mabarry@vassar.edu</a>.</p>
     
     <ul class="linked-list mt-4">
-        <li><a href="#weddings">Learn more about weddings</a></li>
-        <li><a href="#meetings">Learn more about meetings and retreats</a></li>
-        <li><a href="#celebrations">Learn more about celebrations and special events</a></li>
+        <li><a href="#weddings">Learn more about weddings.</a></li>
+        <li><a href="#meetings">Learn more about meetings and retreats.</a></li>
+        <li><a href="#celebrations">Learn more about celebrations and special events.</a></li>
     </ul>
     
 

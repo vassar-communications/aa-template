@@ -114,7 +114,7 @@ b {
 
     <?php echo cta_link(
       'http://campaign.vassar.edu/',
-      'Learn more about our campaign'
+      'Learn more about our campaign.'
     ); ?>
 
 </div>
@@ -169,7 +169,7 @@ b {
     <p>Deepen relationships, expand your community, and devote time and expertise to things you care about.</p>
     <?php echo cta_link(
         '/alums/give/volunteer/',
-        'Explore volunteer opportunities'
+        'Explore volunteer opportunities.'
     ); ?>
 
 </div>
@@ -188,7 +188,7 @@ b {
     <p>Being a mentor is an extraordinary opportunity to develop positive relationships with students and help them navigate their future personally and professionally.</p>
     <?php echo cta_link(
         '/alums/give/be-a-mentor/',
-        'Explore mentorship opportunities'
+        'Explore mentorship opportunities.'
     ); ?>
 
 </div>
@@ -209,7 +209,7 @@ b {
     <p>Vassar students and alums are great candidates for internships and positions at any level within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
     <?php echo cta_link(
         '/alums/give/hire-vassar/',
-        'Information for employers'
+        'Information for employers.'
     ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
