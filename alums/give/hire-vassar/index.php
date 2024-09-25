@@ -42,7 +42,7 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <h1 class="display-3 mb-4">Add Vassar Talent to Your Team</h1>
     <p class="mb-3">Vassar students and alums are great candidates for internships and positions at all levels within your organization. Keep Vassar in mind when considering your next professional vacancy.</p>
-    <a href="https://offices.vassar.edu/career-education/info/employers/" class="px-0 btn btn-link mt-5 arrow">Information for Employers</a>
+    <a href="https://offices.vassar.edu/career-education/info/employers/" class="px-0 btn btn-link mt-5 arrow">Information for Employers.</a>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -57,7 +57,7 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <h1 class="display-3 mb-4">Post a Job for Students</h1>
     <p class="mb-3">If you are interested in sharing entry-level internship or job opportunities with Vassar students, the Center for Career Education can help.</p>
-    <a href="mailto:hirevassar@vassar.edu" class="btn btn-link px-0 mt-5 arrow">Email hirevassar@vassar.edu</a>
+    <a href="mailto:hirevassar@vassar.edu" class="btn btn-link px-0 mt-5 arrow">Email hirevassar@vassar.edu.</a>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -72,7 +72,7 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <h1 class="display-3 mb-4">Post a Job for Alums</h1>
     <p class="mb-3">Job and other career-related opportunities that are relevant for Vassar alums should be posted to the VassarNet LinkedIn group.</p>
-    <a href="https://vassarnet.vassar.edu" class="btn btn-link px-0 mt-5 arrow">Launch VassarNet</a>
+    <a href="https://vassarnet.vassar.edu" class="btn btn-link px-0 mt-5 arrow">Launch VassarNet.</a>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>

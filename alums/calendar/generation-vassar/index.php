@@ -47,7 +47,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     'http://www.vassar.edu/genvc',
-    'Visit Generation Vassar'
+    'Visit Generation Vassar.'
 ); ?>
 
 

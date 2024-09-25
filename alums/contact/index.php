@@ -70,8 +70,8 @@ $page_info = json_decode($page_info, true);
         </p>
         <hr />
         <p><strong>Not getting communications from Vassar?</strong></p>
-          <p> <?php echo cta_link('https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=5370&cid=8841&post_id=0', 'Update your email preferences online'); ?> </p>
-          <p> <?php echo cta_link('https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=1144&cid=2123&post_id=0', 'Update your contact information online'); ?> </p>
+          <p> <?php echo cta_link('https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=5370&cid=8841&post_id=0', 'Update your email preferences online.'); ?> </p>
+          <p> <?php echo cta_link('https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=1144&cid=2123&post_id=0', 'Update your contact information online.'); ?> </p>
     </div>
 
 
@@ -83,7 +83,7 @@ $page_info = json_decode($page_info, true);
           <p><strong>Telephone:</strong> <a href="tel:8454377100" class="">(845) 437-7100</a><br>
               <strong>Email:</strong> <a href="mailto:alumnaehouse@vassar.edu">alumnaehouse@vassar.edu</a></p>
 
-          <p> <?php echo cta_link('https://www.vassar.edu/alums/resources/alumnae-house/', 'Learn more about Alumnae House'); ?> </p>
+          <p> <?php echo cta_link('https://www.vassar.edu/alums/resources/alumnae-house/', 'Learn more about Alumnae House.'); ?> </p>
     </div>
 
 

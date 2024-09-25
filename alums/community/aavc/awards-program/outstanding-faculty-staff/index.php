@@ -44,7 +44,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-        'Watch Baird’s acceptance remarks',
+        'Watch Baird’s acceptance remarks.',
         'https://player.vimeo.com/video/857168905',
         'vimeo',
         '',
@@ -52,7 +52,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
   </li>
 
-	<li><a href="https://www.vassar.edu/news/aavc-announces-2023-honorees">Read more about Baird in the June 2023 <em>Vassar Stories</em> article</a></li>
+	<li><a href="https://www.vassar.edu/news/aavc-announces-2023-honorees">Read more about Baird in the June 2023 <em>Vassar Stories</em> article.</a></li>
 </ul>
 
 
@@ -63,7 +63,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-        'Watch Pittman’s acceptance remarks',
+        'Watch Pittman’s acceptance remarks.',
         'https://player.vimeo.com/video/788004126',
         'vimeo',
         '',
@@ -71,7 +71,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
   </li>
 
-	<li><a href="https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards">Read more about Pittman in the June 2022 <em>Vassar Stories</em> article</a></li>
+	<li><a href="https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards">Read more about Pittman in the June 2022 <em>Vassar Stories</em> article.</a></li>
 </ul>
 
 
@@ -82,14 +82,14 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-        'Watch Kitzinger’s acceptance remarks',
+        'Watch Kitzinger’s acceptance remarks.',
         'https://player.vimeo.com/video/637580661?h=2fa683eea6',
         'vimeo',
         '',
         'no-arrow'
     ); ?>
   </li>
-	<li><a href="https://www.vassar.edu/news/five-honored-2021-aavc-awards" title="Five Honored with 2021 AAVC Awards">Read more about Kitzinger in the October 2021 <em>Vassar Stories</em> article</a></li>
+	<li><a href="https://www.vassar.edu/news/five-honored-2021-aavc-awards" title="Five Honored with 2021 AAVC Awards">Read more about Kitzinger in the October 2021 <em>Vassar Stories</em> article.</a></li>
 </ul>
 
 <h3 class="mt-5">2020</h3>
@@ -99,14 +99,14 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-        'Watch Pounder’s acceptance remarks',
+        'Watch Pounder’s acceptance remarks.',
         'https://player.vimeo.com/video/477225581?h=553302e0ad',
         'vimeo',
         '',
         'no-arrow'
     ); ?>
   </li>
-	<li><a href="https://www.vassar.edu/stories/2020/professor-emeritus-robert-pounder-honored-with-aavcs-outstanding-faculty-award.html">Read more about Pounder in the November 2020 <em>Vassar Stories</em> article</a></li>
+	<li><a href="https://www.vassar.edu/stories/2020/professor-emeritus-robert-pounder-honored-with-aavcs-outstanding-faculty-award.html">Read more about Pounder in the November 2020 <em>Vassar Stories</em> article.</a></li>
 	<!--<li><a href="https://read.nxtbook.com/vassar/vq/summer_fall_2020/the_aavc_announces_annual_awa.html#">Read more about the recipient</a></li>-->
 </ul>
 <h3 class="mt-5">2019</h3>
@@ -114,7 +114,7 @@ $page_info = json_decode($page_info, true);
 <h4>Robert K. Brigham, Vassar’s Shirley Ecker Boskey Professor of History and International Relations</h4>
 
 <ul class="linked-list">
-	<li><a href="https://www.vassar.edu/stories/2019/190828-aavc-bestows-2019-spirit-of-vassar-and-outstanding-faculty-awards.html">Read more about Brigham in the November 2019 <em>Vassar Stories</em> article</a></li>
+	<li><a href="https://www.vassar.edu/stories/2019/190828-aavc-bestows-2019-spirit-of-vassar-and-outstanding-faculty-awards.html">Read more about Brigham in the November 2019 <em>Vassar Stories</em> article.</a></li>
 </ul>
 <h3 class="mt-5">2018</h3>
 
@@ -123,14 +123,14 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-        'Watch Kuretsky’s acceptance remarks',
+        'Watch Kuretsky’s acceptance remarks.',
         'https://www.youtube.com/embed/Vfpr1ASPPZg',
         'youtube',
         '',
         'no-arrow'
     ); ?>
   </li>
-	<li><a href="https://www.vassar.edu/stories/2018/180628-aavc-awards.html">Read more about Kuretsky in the June 2018 <em>Vassar Stories</em> article</a></li>
+	<li><a href="https://www.vassar.edu/stories/2018/180628-aavc-awards.html">Read more about Kuretsky in the June 2018 <em>Vassar Stories</em> article.</a></li>
 </ul>
 <h3 class="mt-5">2017</h3>
 
@@ -139,14 +139,14 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-        'Watch Johnson’s acceptance remarks',
+        'Watch Johnson’s acceptance remarks.',
         'https://www.youtube.com/embed/Zl91M4N2Kzc',
         'youtube',
         '',
         'no-arrow'
     ); ?>
   </li>
-	<li><a href="https://www.vassar.edu/news/glen-johnson-receives-inaugural-aavc-outstanding-facultystaff-award">Read more about Johnson in the 2017 Vassar news article</a></li>
+	<li><a href="https://www.vassar.edu/news/glen-johnson-receives-inaugural-aavc-outstanding-facultystaff-award">Read more about Johnson in the 2017 Vassar news article.</a></li>
 </ul>
 
 

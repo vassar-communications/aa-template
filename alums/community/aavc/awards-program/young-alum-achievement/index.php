@@ -44,14 +44,14 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-        'Watch Nair’s acceptance remarks',
+        'Watch Nair’s acceptance remarks.',
         'https://player.vimeo.com/video/859555999',
         'vimeo',
         '',
         'no-arrow'
     ); ?>
    </li>
-   <li><a href="https://www.vassar.edu/news/convocation-2023">Read more about Nair in the Vassar news story about Convocation 2023</a></li>
+   <li><a href="https://www.vassar.edu/news/convocation-2023">Read more about Nair in the Vassar news story about Convocation 2023.</a></li>
 </ul>
 
 
@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-      'Watch Raina’s award acceptance remarks',
+      'Watch Raina’s award acceptance remarks.',
         'https://player.vimeo.com/video/745469490',
         'vimeo',
         '',
@@ -70,7 +70,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
   </li>
     <!-- <li><a href="https://www.vassar.edu/news/five-alums-selected-2022-aavc-awards">Read about Raina in the Vassar news story about the 2022 AAVC Awards</a></li> -->
-    <li><a href="https://www.vassar.edu/news/convocation-2022">Read more about Raina in the Vassar news story about Convocation 2022</a></li>
+    <li><a href="https://www.vassar.edu/news/convocation-2022">Read more about Raina in the Vassar news story about Convocation 2022.</a></li>
 </ul>
 
 
@@ -81,14 +81,14 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-      'Watch Dilemani’s award acceptance remarks',
+      'Watch Dilemani’s award acceptance remarks.',
         'https://player.vimeo.com/video/637612799?h=4c2b5a1293',
         'vimeo',
         '',
         'no-arrow'
     ); ?>
   </li>
-    <li><a href="https://www.vassar.edu/news/convocation-brings-campus-community-together-again" title="Convocation Brings the Campus Community Together Again">Read more about Dilemani in the Vassar news story about Convocation 2021</a></li>
+    <li><a href="https://www.vassar.edu/news/convocation-brings-campus-community-together-again" title="Convocation Brings the Campus Community Together Again">Read more about Dilemani in the Vassar news story about Convocation 2021.</a></li>
 </ul>
 
 <h3 class="mt-5">2020</h3>
@@ -104,7 +104,7 @@ $page_info = json_decode($page_info, true);
 <h4>Founders of the immersive technology company eevo—Jacob Adelgren ’15, Alejandro Dinsmore ’15, Matthew Griffiths ’17, Casey Hancock ’16, and Harris Gordon ’15</h4>
 
 <ul class="linked-list">
-    <li><a href="https://stories.vassar.edu/2019/190911-aavc-honors-six-alumnaei-during-convocation.html">Read more about the founders of eevo in the September 2019 <em>Vassar Stories</em> article</a></li>
+    <li><a href="https://stories.vassar.edu/2019/190911-aavc-honors-six-alumnaei-during-convocation.html">Read more about the founders of eevo in the September 2019 <em>Vassar Stories</em> article.</a></li>
 </ul>
 
 <h3 class="mt-5">2018</h3>
@@ -114,14 +114,14 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
   <li>
     <?php echo item_link_VideoModal(
-      'Watch Ren’s award acceptance remarks',
+      'Watch Ren’s award acceptance remarks.',
         'https://www.youtube.com/embed/UY5tKY9kVJ8',
         'youtube',
         '',
         'no-arrow'
     ); ?>
   </li>
-    <li><a href="https://stories.vassar.edu/2018/180918-making-an-immediate-impact-in-the-world.html">Read more about Ren in the September 2018 <em>Vassar Stories</em> article</a></li>
+    <li><a href="https://stories.vassar.edu/2018/180918-making-an-immediate-impact-in-the-world.html">Read more about Ren in the September 2018 <em>Vassar Stories</em> article.</a></li>
 </ul>
 
 <h3 class="mt-5">2017</h3>
@@ -131,14 +131,14 @@ $page_info = json_decode($page_info, true);
 <ul class="linked-list">
 <li>
   <?php echo item_link_VideoModal(
-    'Watch O’Haire’s award acceptance remarks',
+    'Watch O’Haire’s award acceptance remarks.',
       'https://www.youtube.com/embed/u44NpcIgbXM',
       'youtube',
       '',
       'no-arrow'
   ); ?>
   </li>
-    <li><a href="http://stories.vassar.edu/2017/170912-fall-convocation.html">Read more about O’Haire in the September 2017 <em>Vassar Stories</em> article</a></li>
+    <li><a href="http://stories.vassar.edu/2017/170912-fall-convocation.html">Read more about O’Haire in the September 2017 <em>Vassar Stories</em> article.</a></li>
 </ul>
 
 <?php echo end_sec_regularContent(); ?>
