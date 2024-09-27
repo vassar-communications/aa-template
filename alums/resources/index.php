@@ -112,7 +112,7 @@ $page_info = json_decode($page_info, true);
 
     <?php echo cta_link(
         '/alums/resources/alumnae-house/',
-        'Visit Alumnae House'
+        'Visit Alumnae House.'
     ); ?>
 
 </div>

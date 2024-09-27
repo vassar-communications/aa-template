@@ -79,7 +79,7 @@ $page_info = json_decode($page_info, true);
       <p>A dynamic global network of 41,000+ members!</p>
       <?php echo cta_link(
           '/alums/community/aavc',
-          'Learn more about AAVC'
+          'Learn more about AAVC.'
       ); ?>
   </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -98,7 +98,7 @@ $page_info = json_decode($page_info, true);
 
       <?php echo cta_link(
           '/alums/community/alum-news',
-          'Learn more'
+          'Learn more about alum achievements.'
       ); ?>
   </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -115,7 +115,7 @@ $page_info = json_decode($page_info, true);
       <p>Explore Vassar&#8217;s extensive network of groups and clubs.</p>
       <?php echo cta_link(
           '/alums/community/alum-groups',
-          'Learn more about alum groups'
+          'Learn more about alum groups.'
       ); ?>
   </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -133,7 +133,7 @@ $page_info = json_decode($page_info, true);
   <div class="animate-when-content-appears animation-slide-up">
       <?php echo cta_link(
           'https://www.vassar.edu/vq',
-          'Read the <em>Vassar Quarterly</em>'
+          'Read the <em>Vassar Quarterly</em>.'
       ); ?>
   </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>

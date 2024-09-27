@@ -221,7 +221,7 @@ June 6–8, 2025</p>
 
 <?php echo cta_link(
     '/alums/calendar/reunion/',
-    'Learn more'
+    'Learn more about Reunion.'
 ); ?>
 
 

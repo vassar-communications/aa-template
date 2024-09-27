@@ -50,7 +50,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo cta_link(
     'http://vassar.edu/news/events',
-    'View events calendar'
+    'View events calendar.'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>

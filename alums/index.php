@@ -55,7 +55,7 @@ $page_info = json_decode($page_info, true);
 <p class="center-object mt-3">
     <?php echo cta_link(
         '/alums/community/aavc/',
-        'Learn more about the AAVC',
+        'Learn more about the AAVC.',
         'style-large'
     ); ?>
 </p>
