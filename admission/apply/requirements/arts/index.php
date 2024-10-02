@@ -62,10 +62,9 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_col('equal'); ?>
 <?php echo deadlines('Portfolio  Deadlines'); ?>
-
 <?php echo deadlines_item('Early Decision I', $deadlines['portfolio-early-decision-1']); ?>
 <?php echo deadlines_item('Early Decision II', $deadlines['portfolio-early-decision-2']); ?>
-<?php echo deadlines_item('Regular Decision',  $deadlines['portfolio-early-decision-2']); ?>
+<?php echo deadlines_item('Regular Decision',  'January 12'); ?>
 <?php echo end_deadlines(); ?>
 
 <?php echo end_item_col(); ?>
