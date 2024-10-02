@@ -173,7 +173,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
         'Pre-Law',
-        'https://offices.vassar.edu/career-education/graduate-and-law/law-school/',
+        'https://offices.vassar.edu/career-education/pre-law/',
         ['url' => '/admission/assets/images/quick-facts/academics/0100_16_09_KR_0090.jpg',
         'alt' => 'Graduate in audience with dramatic lighting' ],
         'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
