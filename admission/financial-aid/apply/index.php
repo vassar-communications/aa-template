@@ -65,7 +65,7 @@ $page_info = json_decode($page_info, true);
 
     <ul class="labeled-list">
         <?php echo labeled_list_item('Vassar code', '002895'); ?>
-        <?php echo labeled_list_item('Available', 'December 2023'); ?>
+        <?php echo labeled_list_item('Available', 'December'); ?>
         <?php echo labeled_list_item('Applies to', 'U.S. Citizens and Permanent Residents only'); ?>
     </ul>
 
