@@ -74,8 +74,12 @@ $page_info = [
 
 
 <?php
+
+//    get_icon('play').'Demystifying Financial Aid 2023',
+
+
 echo item_imageCard_videoModal(
-    get_icon('play').'Demystifying Financial Aid 2023',
+    get_icon('play').'Demystifying Financial Aid',
     null,
     'https://player.vimeo.com/video/879455422?h=8fd1b2b0ca&badge=0',
     'vimeo',
