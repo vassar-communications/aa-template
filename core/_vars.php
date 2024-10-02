@@ -65,5 +65,5 @@ $class_stats['attd_private_school'] = '24%';
 $class_stats['1st-gen-students'] = '13%';
 
 $after_vassar['six_months_out'] = '93%';
-$after_vassar['law_school_admit_rate'] = '88%';
-$after_vassar['med_school_admit_rate'] = '88%';
+$after_vassar['law_school_admit_rate'] = '86%';
+$after_vassar['med_school_admit_rate'] = '78%';
