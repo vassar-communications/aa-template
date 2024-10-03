@@ -290,6 +290,17 @@ echo end_contact_card();
 
 
 echo contact_card(
+    'Jesse Fitzjohn',
+    'Office Specialist',
+    [
+      'phone' => '',
+      'email' => 'jfitzjohn@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
     'Karolina Gomez',
     'Associate Director of Annual Giving, Digital Engagement Officer',
     [
@@ -339,17 +350,6 @@ echo contact_card(
     [
       'phone' => '845-437-5489',
       'email' => 'atyrrell@vassar.edu',
-    ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
-    'Jesse Fitzjohn',
-    'Office Specialist',
-    [
-      'phone' => '',
-      'email' => 'jfitzjohn@vassar.edu',
     ]
 );
 echo end_contact_card();
