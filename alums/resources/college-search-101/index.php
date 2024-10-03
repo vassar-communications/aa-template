@@ -77,7 +77,6 @@ end of hiding*/?>
 
 <ul>
   <li>Hear from Vassar College admission professionals who will share advice about navigating the college search process, and how to evaluate schools that are right for you.</li>
-  <li>Attend valuable information sessions on financial aid and College athletics.</li>
   <li>Meet current Vassar students for an open discussion about College life (for high school juniors only).</li>
 </ul>
 
