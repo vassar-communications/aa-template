@@ -41,7 +41,7 @@ $page_info = json_decode($page_info, true);
 <p>Since its founding in 1871, the AAVC has been dedicated to connecting alums to the College
     and to each other, sustaining lifelong relationships and shared Vassar experiences.</p>
 
-    <p>Through class, regional, multicultural and affinity, career, and educational programming, the AAVC partners with the Office of Advancement to offer a robust array of opportunities for all alums to engage, both in-person and virtually.</p>
+    <p>Through class, regional, affinity, career, and educational programming, the AAVC partners with the Office of Advancement to offer a robust array of opportunities for all alums to engage, both in-person and virtually.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
