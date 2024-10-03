@@ -293,7 +293,7 @@ echo contact_card(
     'Jesse Fitzjohn',
     'Office Specialist',
     [
-      'phone' => '',
+      'phone' => '845-437-5397',
       'email' => 'jfitzjohn@vassar.edu',
     ]
 );
