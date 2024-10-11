@@ -43,9 +43,6 @@ $page_info = json_decode($page_info, true);
 
 <p class="intro-text">Upcoming 2024 trips at a glance:</p>
 
-<p><strong><a href="#egypt">Egypt and the Nile</a></strong></br>
-September 21–October 4, 2024</p>
-
 <p><strong><a href="#venice">The Art of Venice: Explore the Venice Biennale and the Veneto</a></strong></br>
 October 13–23, 2024</p>
 
@@ -65,40 +62,6 @@ June 20-July 1, 2025</p>
 <h3>Fall 2024</h3>
 
 <?php echo end_sec_regularContent();?>
-
-
-<div id="egypt"></div>
-<?php echo sec_fullBleedImageColumn(
-    null,
-    $alums_img_path.'alums-calendar/travel-program/Egypt-pyramid-2024.jpg',
-    'image-is-first',
-    '',
-    ['img_alt_text' => 'A very large stone pyramid is on a hill above a stone sphinx and stone walls of varying heights, on a sunny day.']
-); ?>
-
-<p class="intro-text">Egypt and the Nile</p>
-
-<p><strong>September 21–October 4, 2024<strong></p>
-
-<p><strong>Faculty Host: April M. Beisaw, Professor of Anthropology</strong></p>
-
-<p>The incomparable Nile. Magnificent ancient monuments. Endless golden sands. This and more is Egypt—a cradle of civilization essential to our human story and the developments in government, religion, and agriculture. With its long past and welcoming people, Egypt beckons travelers to explore ruins of the past and wonders of today. </p>
-<p>Highlights will include:</p>
-<ul>
-<li>Traverse the Nile Valley to visit the Great Sphinx, the Temple of Horus and the tombs of El Kab</li>
-<li>Expert Egyptologists as your guides</li>
-<li>Four-night cruise on a private 14-guest sailing vessel</li>
-</ul>
-
-<?php echo cta_link(
-    'https://orbridge.com/grp_departures/overview/partner_vassar_discover_egypt_nile_valley_2024',
-    'See the full Egypt itinerary and reserve your place.'
-
-); ?>
-
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
 
 
 <div id="venice"></div>
