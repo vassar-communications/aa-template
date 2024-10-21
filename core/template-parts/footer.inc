@@ -341,12 +341,19 @@ function site_footer() {
     </div>
 
   </div>
+  
+  <style>
+  a.white-on-hover:hover,
+  a.white-on-hover:focus{
+     color: #fff !important; 
+  }
+  </style>
 
   <div class="footer-section text-light theme-darkest-burgundy text-center">
 
           <ul class="inline-list">
-          <li> <a href="https://offices.vassar.edu/campus-safety/statistics/" class="me-3 my-2">Annual Security and Fire Safety Report</a></li>
-          <li> <a href="https://offices.vassar.edu/eoaa/" class="me-3 my-2">Title IX</a></li>
+          <li> <a href="https://offices.vassar.edu/campus-safety/statistics/" class="me-3 my-2 white-on-hover">Annual Security and Fire Safety Report</a></li>
+          <li> <a href="https://offices.vassar.edu/eoaa/" class="me-3 my-2 white-on-hover">Title IX</a></li>
           </ul>
 
     <p>© 2022 Vassar College</p>
