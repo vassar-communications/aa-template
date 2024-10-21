@@ -310,7 +310,7 @@ function site_footer() {
 
 
 
-
+ 
 
             <li> <a class="social-icon-link" href="https://www.flickr.com/photos/vassarcollegemedia/">
 
