@@ -320,6 +320,10 @@ function site_footer() {
 
 
             <li><a href="https://www.vassar.edu/social-media">Social&nbsp;Media&nbsp;Directory</a></li>
+            <li><a href="https://vas.emscloudservice.com/calendar/MasterCalendar.aspx">Campus&nbsp;Calendar</a></li>
+
+
+
           </ul>
         </div>
       </div>
