@@ -36,7 +36,7 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'Person in a classroom with a name tag that reads, Tonia.']
 ); ?>
-<p class="intro-text">Highlighted below are a few of the grants and fellowships available to Vassar alums. For more information on these and other grants and fellowships, contact the <a href="https://offices.vassar.edu/career-education/">Center for Career Education</a> and visit the <a href="https://offices.vassar.edu/fellowships/fellowships/">Fellowships website</a>.</p>
+<p class="intro-text">Highlighted below are a few of the grants and fellowships available to Vassar alums. For more information on the Time Out Grant, contact <a href="mailto:timeoutgrant@vassar.edu">timeoutgrant@vassar.edu</a>. For more information on these and other fellowships, contact the <a href="https://offices.vassar.edu/career-education/">Center for Career Education</a> and visit the <a href="https://offices.vassar.edu/fellowships/fellowships/">Fellowships website</a>.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -53,6 +53,41 @@ $page_info = json_decode($page_info, true);
 <?php echo cta_link(
     'time-out-grant',
     'Learn more about the Time Out Grant.'
+); ?>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Vassar Fellowships for Graduate Study',
+    '/alums/assets/img/alums-resources/grants-fellowships/luce-boat-on-river.jpg',
+    'image-is-first theme-cream',
+    '',
+    ['img_alt_text' => 'A person wearing a straw hat stands holding a net on a pole in a small orange boat on a river.']
+); ?>
+<p>Intended for the pursuit of graduate study. Some awards are restricted to graduating seniors and recent graduates, others are restricted by field of study. <a href="https://offices.vassar.edu/fellowships/fellowships/graduates/vassar/list-of-vassar-fellowships/">View a list of awards</a>.</p>
+
+<?php echo cta_link(
+    'https://offices.vassar.edu/fellowships/fellowships/graduates/vassar/',
+    'Learn more about Vassar Fellowships for Graduate Study.'
+); ?>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php echo sec_fullBleedImageColumn(
+    'The Maguire Fellowship',
+    '/alums/assets/img/alums-resources/grants-fellowships/Harry-Potter-Bridge.jpg',
+    'theme-dark-burgundy has-bg quad-pattern',
+    '',
+    ['img_alt_text' => 'A person with dark hair wearing a blue jacket and dark pants is standing in front of an aqueduct surrounded by greenery.']
+); ?>
+<h6 class="tagline">For Study Abroad After Graduation</h6>
+<p>Intended for recent graduates wishing to pursue their interest in the humanities abroad, this fellowship awards up to $25,000 to graduates with a well-developed proposal of study with a clear academic focus. Evidence of sufficient language skills and academic preparation to successfully undertake the proposed study must be presented as well as a clear articulation of how the Fellowship will further one’s future objectives.</p>
+
+<?php echo cta_link(
+    'https://offices.vassar.edu/fellowships/fellowships/graduates/maguire/',
+    'Learn more about the Maguire Fellowship.'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -76,11 +111,27 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+<?php echo sec_fullBleedImageColumn(
+    'The Vassar W.K. Rose Fellowship in the Creative Arts',
+    '/alums/assets/img/alums-resources/grants-fellowships/110619_160over90_Vassar_4784.jpg',
+    'theme-dark-burgundy has-bg quad-pattern',
+    '',
+    ['img_alt_text' => 'Students painting on easels in art studio.']
+); ?>
+<p>Intended to provide a worthy young artist a minimum of $45,000 and the chance to be free after college to get on with their work as an artist, the Rose Fellowship is available to artists in the fields of writing, visual arts (including film), and music composition. Applicants must have demonstrated a creative talent during undergraduate study, must not be employed by the College, must not have attained substantial recognition in their field, and be under the age of 36. This fellowship is not intended for graduate study.</p>
+
+<?php echo cta_link(
+    'https://offices.vassar.edu/fellowships/fellowships/graduates/rose/',
+    'Learn more about the W.K. Rose Fellowship.'
+); ?>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
 
 <?php echo sec_fullBleedImageColumn(
     'Nationally Competitive Fellowships',
     $alums_img_path.'alums-resources/alums-benefits/Jonathan_Kaiman.jpg',
-    'theme-dark-burgundy has-bg quad-pattern',
+    'image-is-first theme-cream',
     '',
     ['img_alt_text' => 'Two people of different ages sit holding unusual stringed instruments looking at each other.']
 ); ?>
@@ -97,58 +148,6 @@ $page_info = json_decode($page_info, true);
 <?php echo cta_link(
     'https://offices.vassar.edu/fellowships/deadlines/',
     'Learn more about deadlines for these opportunities.'
-); ?>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<?php echo sec_fullBleedImageColumn(
-    'The Maguire Fellowship',
-    '/alums/assets/img/alums-resources/grants-fellowships/Harry-Potter-Bridge.jpg',
-    'image-is-first theme-cream',
-    '',
-    ['img_alt_text' => 'A person with dark hair wearing a blue jacket and dark pants is standing in front of an aqueduct surrounded by greenery.']
-); ?>
-<h6 class="tagline">For Study Abroad After Graduation</h6>
-<p>Intended for recent graduates wishing to pursue their interest in the humanities abroad, this fellowship awards up to $25,000 to graduates with a well-developed proposal of study with a clear academic focus. Evidence of sufficient language skills and academic preparation to successfully undertake the proposed study must be presented as well as a clear articulation of how the Fellowship will further one’s future objectives.</p>
-
-<?php echo cta_link(
-    'https://offices.vassar.edu/fellowships/fellowships/graduates/maguire/',
-    'Learn more about the Maguire Fellowship.'
-); ?>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<?php echo sec_fullBleedImageColumn(
-    'Vassar Fellowships for Graduate Study',
-    '/alums/assets/img/alums-resources/grants-fellowships/luce-boat-on-river.jpg',
-    'theme-dark-burgundy has-bg quad-pattern',
-    '',
-    ['img_alt_text' => 'A person wearing a straw hat stands holding a net on a pole in a small orange boat on a river.']
-); ?>
-<p>Intended for the pursuit of graduate study. Some awards are restricted to graduating seniors and recent graduates, others are restricted by field of study. <a href="https://offices.vassar.edu/fellowships/fellowships/graduates/vassar/list-of-vassar-fellowships/">View a list of awards</a>.</p>
-
-<?php echo cta_link(
-    'https://offices.vassar.edu/fellowships/fellowships/graduates/vassar/',
-    'Learn more about Vassar Fellowships for Graduate Study.'
-); ?>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<?php echo sec_fullBleedImageColumn(
-    'The Vassar W.K. Rose Fellowship in the Creative Arts',
-    '/alums/assets/img/alums-resources/grants-fellowships/110619_160over90_Vassar_4784.jpg',
-    'image-is-first theme-cream',
-    '',
-    ['img_alt_text' => 'Students painting on easels in art studio.']
-); ?>
-<p>Intended to provide a worthy young artist a minimum of $45,000 and the chance to be free after college to get on with their work as an artist, the Rose Fellowship is available to artists in the fields of writing, visual arts (including film), and music composition. Applicants must have demonstrated a creative talent during undergraduate study, must not be employed by the College, must not have attained substantial recognition in their field, and be under the age of 36. This fellowship is not intended for graduate study.</p>
-
-<?php echo cta_link(
-    'https://offices.vassar.edu/fellowships/fellowships/graduates/rose/',
-    'Learn more about the W.K. Rose Fellowship.'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
