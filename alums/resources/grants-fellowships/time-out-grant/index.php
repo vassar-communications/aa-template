@@ -89,6 +89,8 @@ $page_info = json_decode($page_info, true);
 
 <p>Applications for the next grant will open in <strong>Fall/Winter 2025</strong> and the recipient will be awarded in <strong>Spring 2026</strong>.</p>
 
+<p>Questions? Reach out to us at <a href="mailto:timeoutgrant@vassar.edu">timeoutgrant@vassar.edu</a>.</p>
+
 
 <?php echo end_sec_regularContent(); ?>
 
