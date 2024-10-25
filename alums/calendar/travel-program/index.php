@@ -41,11 +41,6 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <p>As we are planning our future trips, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Advancement Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
 
-<p class="intro-text">Upcoming 2024 trips at a glance:</p>
-
-<p><strong><a href="#venice">The Art of Venice: Explore the Venice Biennale and the Veneto</a></strong></br>
-October 13–23, 2024</p>
-
 <p class="intro-text">Trips for 2025:</p>
 
 <p><strong><a href="#trip4">Namibia: Endless Horizons & Open Skies</a></strong></br>
@@ -57,47 +52,8 @@ June 20-July 1, 2025</p>
 
 
 
-<?php echo sec_regularContent('Upcoming Trips','','text-center');?>
+<?php echo sec_regularContent('Upcoming 2025 Trips','','text-center');?>
 
-<h3>Fall 2024</h3>
-
-<?php echo end_sec_regularContent();?>
-
-
-<div id="venice"></div>
-<?php echo sec_fullBleedImageColumn(
-    null,
-    $alums_img_path.'alums-calendar/travel-program/Venice-2024-Courtyard-of-the-Doges-Palace.jpg',
-    'theme-cream',
-    '',
-    ['img_alt_text' => 'A large courtyard with several stories of brick or colonnaded walls on three sides, with the round domes of the church of San Marco in the background.']
-); ?>
-
-<p class="intro-text">The Art of Venice: Explore the Venice Biennale and the Veneto</p>
-
-<p><strong>October 13–23, 2024<strong></p>
-
-<p><strong>Faculty Hosts: Bart Thurber, The Anne Hendricks Bass Director and Lecturer in Art and Mary-Kay Lombino, Deputy Director and Curator of Vassar’s Frances Lehman Loeb Art Center</strong></p>
-
-<p>This customized trip will highlight Italy’s Veneto region, home of notable Renaissance masterworks, and the <em>Venice Biennale</em>, the world’s most prestigious contemporary art exhibition, through the eyes of two incredible art historians.</p>
-<p>Highlights will include:</p>
-<ul>
-<li>Rare behind-the-scenes tours: such as a private evening visit to the Palazzo Ducale filled with masterpieces of Renaissance art and a guided exploration of the Biennale’s highlights</li>
-<li>Private reception and tour at the world-renowned Peggy Guggenheim Collection</li>
-<li>Unique opportunity to sightsee, interact and learn with four current Vassar students who work at the Loeb</li>
-</ul>
-
-<?php echo cta_link(
-    'https://thegrandtour.com/europe/vassar-venice/',
-    'View the full Art of Venice itinerary and reserve your place.'
-
-); ?>
-
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<?php echo sec_regularContent('Looking Ahead at 2025','','text-center');?>
 
 <?php echo end_sec_regularContent();?>
 
