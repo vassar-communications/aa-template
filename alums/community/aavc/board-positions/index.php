@@ -54,14 +54,11 @@ $page_info = json_decode($page_info, true);
    <li><a href="#g2q4">Alumnae House Committee Chair</a></li>
    <li><a href="#g2q5">Alumnae/i Recognition Committee Chair</a></li>
    <li><a href="#g2q6">Career Networking Committee Chair</a></li>
-   <li><a href="#g2q7">Class Engagement Committee Chair</a></li>
    <li><a href="#g2q8">Clubs Committee Chair</a></li>
-   <li><a href="#g2q9">Communications Advisory Committee Chair</a></li>
    <li><a href="#g2q10">Vassar Fund Committee Chair</a></li>
    <li><a href="#g2q11">Nominating and Governance Committee Chair</a></li>
    <li><a href="#g2q12">Nominating and Governance Committee Member</a></li>
    <li><a href="#g2q13">Ad Hoc Diversity, Inclusion, and Equity Committee Chair</a></li>
-   <li><a href="#g2q14">Ad Hoc Student and Young Alumnae/i Engagement Committee Chair</a></li>
 </ul>
 
 <h3 id="g1">Board Requirements</h3>
@@ -115,20 +112,10 @@ $page_info = json_decode($page_info, true);
 <p>The Career Networking Committee Chair should have a strong interest and experience in developing professional networks. The staff liaisons for the committee are the Senior Director of Alumnae/i Engagement and the Associate Director for Alumnae/i Outreach and Partnerships in the Career Development Office.</p>
 <p>Term of Office: Four years.</p>
 <p><em>r. 7/19</em></p>
-<h4 id="g2q7">Class Engagement Committee Chair</h4>
-<p>The Class Engagement Committee serves in an advisory capacity to help engage alumnae/i with the College and each other based on the unique and shared affinity of graduating class. The chair works with a committee of appointed AAVC Board members and other alumnae/i to assist with developing strategies to strengthen engagement with the alumnae/i body between reunions, and to serve as a sounding board to implement new ideas for Reunion Weekend.</p>
-<p>The chair of the Class Engagement Committee should have a long history of involvement with the College and support of the Vassar Fund. The committee is staffed by the Associate Director of Alumnae/i Engagement responsible for Reunion and class programs.</p>
-<p>Term of Office: Four years.</p>
-<p><em>r. 8/20</em></p>
 <h4 id="g2q8">Clubs Committee Chair</h4>
 <p>The Clubs Committee works with the Office of Alumnae/i Affairs and Development to develop and implement strategies to engage alumnae/i in their communities around the world. To foster a continued bond with the college, the committee aims to ensure thriving activities—cultural, social, and professional—in regions where alumnae/i are most represented.</p>
 <p>The Chair works with the committee of appointed AAVC Board members and leaders of clubs and regional networks. The committee ensures that each region has diverse, creative, and high-quality programming. The Chair should have demonstrated leadership experience with an alumnae/i club or regional network.</p>
 <p>The Clubs Committee is staffed by the Senior Director of Alumnae/i Engagement. Connections with international clubs and affiliate groups are represented by the Associate Vice President for Regional and International Programs.</p>
-<p>Term of Office: Four years.</p>
-<p><em>r. 7/19</em></p>
-<h4 id="g2q9">Communications Advisory Committee Chair</h4>
-<p>The Communications Advisory Committee serves as a resource for the Alumnae/i Communications staff, as it develops and implements communications and marketing strategies aimed at its constituent audiences. The Communications Advisory Committee Chair works with the committee of appointed AAVC Board members and other experienced alumnae/i to assist with communication strategies for the alumnae/i population and the college community. These communications are effected through print and digital media, including Vassar magazine, VassarNet, the alumnae/i website, and social media.</p>
-<p>The Communications Advisory Committee Chair should be an experienced communications, marketing, or public relations professional. The Committee is staffed by the Director of Alumnae/i Communications.</p>
 <p>Term of Office: Four years.</p>
 <p><em>r. 7/19</em></p>
 <h4 id="g2q10">Vassar Fund Committee Chair</h4>
@@ -150,11 +137,6 @@ $page_info = json_decode($page_info, true);
 <h4 id="g2q13">Ad Hoc Diversity, Inclusion, and Equity Committee Chair</h4>
 <p>The Ad Hoc Committee on Diversity, Equity, and Inclusion (DEI) was established to explore, in partnership with Vassar’s Office of Alumnae/i Engagement, the range of engagement opportunities available to alum of diverse backgrounds, with special attention given to groups that have been historically underrepresented and underserved. The committee will review and assess data, habits, practices and policies, formal and informal organizational culture (the Board, Classes, Clubs, and Affinity Groups) with the goal of identifying any potential barriers to the advancement of DEI. The committee will also encourage learning opportunities for alum volunteers that foster an inclusive and welcoming community in which all alums feel empowered to bring their whole self to Vassar College engagements—regardless of their expression of identity.</p>
 <p>This chair of this committee works with dedicated Board and off-Board committee members and brings extensive knowledge and expertise in diversity, equity and inclusion issues. The committee is staffed by the Senior Director of Alumnae/i Engagement.</p>
-<p>Term of Office: To be determined by the Board.</p>
-<p><em>r. 8/20</em></p>
-<h4 id="g2q14">Ad Hoc Student and Young Alumnae/i Engagement Committee Chair</h4>
-<p>The Student and Young Alumnae/i Engagement Ad Hoc Committee was formed to help develop creative means of engaging students and alums, expand offerings that enable students to benefit from the experience and expertise of alums, and to shape a culture of philanthropy on campus. The Chair works with the committee of appointed AAVC Board members and other experienced alumnae/i to fulfill this mission. The Committee will provide guidance by researching programs conducted by peer institutions and making a series of recommendations for future initiatives at the college. The committee will work in conjunction with the House and Career Networking Committees to achieve its goals.</p>
-<p>The Chair of the Student and Young Alumnae/i Engagement Ad Hoc Committee should be a dedicated volunteer with broad exposure to programs that engage alums with current students in relevant ways. The committee is staffed by the Assistant Director for Alumnae/i Engagement.</p>
 <p>Term of Office: To be determined by the Board.</p>
 <p><em>r. 8/20</em></p>
 
