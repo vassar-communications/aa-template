@@ -62,17 +62,43 @@ $page_info = json_decode($page_info, true);
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
+
+<?php echo sec_fullBleedImageColumn(
+    'Host an Employer Info Session for Students',
+    '/alums/assets/img/alums-give/mentor/Fall_2019_Analysis_Group_Employer_Info_Session-crop.jpg',
+    'image-is-first theme-cream',
+    '',
+    ['img_alt_text' => 'A group of people seated behind desks in a classroom facing a standing group of three people speaking.']
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>Does your organization hire interns or entry-level opportunities? Consider hosting an employer information session, either virtually or on-campus, to connect current students with your employer. We can also work with you to coordinate on-campus or virtual interviews.</p>
+
+    <?php echo cta_link(
+      'https://offices.vassar.edu/career-education/info/employers/',
+      'More information for employers.'
+    ); ?>
+
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
 <?php echo sec_fullBleedImageColumn(
     null,
     '/alums/assets/img/alums-give/hire/hire-vassar-52632404398_32dd113963_o.jpg',
-    'image-is-first theme-cream',
+    '',
     '',
     ['img_alt_text' => 'Four people standing in a room in casual clothing with their arms around one another smile at the viewer.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <h1 class="display-3 mb-4">Post a Job for Alums</h1>
     <p class="mb-3">Job and other career-related opportunities that are relevant for Vassar alums should be posted to the VassarNet LinkedIn group.</p>
-    <a href="https://vassarnet.vassar.edu" class="btn btn-link px-0 mt-5 arrow">Launch VassarNet.</a>
+    <?php echo cta_link(
+      'https://vassarnet.vassar.edu',
+      'Launch VassarNet.'
+    ); ?>
+
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
