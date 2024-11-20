@@ -268,6 +268,17 @@ echo end_contact_card();
 
 
 echo contact_card(
+    'Kent W. Copeland, Jr.',
+    'Assistant Director of Annual Giving, Donor Acquisition & Retention',
+    [
+      'phone' => '845-437-7816',
+      'email' => 'kcopeland@vassar.edu',
+    ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
     'Tobias Devor',
     'Office Specialist',
     [
