@@ -60,36 +60,36 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Betty Prashker ’45',
-        'https://www.nytimes.com/2024/08/14/books/betty-a-prashker-dead.html',
+        'Martha Barry ’86',
+        'https://dutchesstourism.com/spotlights/2024-awards-of-distinction-finalist-spotlight-storytelling',
+        ['url' => $logos_path.'DutchessTourismLogo.png', 'alt' => 'Dutchess Tourism logo, white sans serif font on a blue background with an outlined image of leaves to the left.' ],
+        'related-topics card--withParagraph card-has-cta-icon card-is-link'
+    ); ?>
+      <p><strong>Martha Barry ’86</strong>, Manager of Alumnae House, was named a Dutchess Tourism 2024 Storytelling Award of Distinction Finalist and discussed the rich history of Alumnae House, which celebrated its 100th anniversary this year, in a Q&A published on the Dutchess Tourism website.</p>
+    <?php echo end_item_cardWithText(); ?>
+  <?php echo end_item_col(); ?>
+
+
+  <?php echo item_col(); ?>
+    <?php echo item_cardWithText(
+        'Hannah Bos ’00<br />Paul Thureen ’00',
+        'https://www.nytimes.com/2024/10/25/arts/television/somebody-somewhere-final-season.html?unlocked_article_code=1.U04.Ssxy.7h--8hiJ_0jL&smid=nytcore-ios-share&referringSource=articleShare',
         ['url' => $logos_path.'newyorktimes.gif', 'alt' => 'New York Times logo, black serif font.' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p>Pioneering editor <strong>Betty Prashker ’45</strong> was remembered by several media outlets, including the <em>New York Times</em>.</p>
+        <p><strong>Hannah Bos ’00</strong> and <strong>Paul Thureen ’00</strong>, co-creators of the HBO series <em>Somebody Somewhere</em>, talked to <em>The New York Times</em> about the show, which is in its third, and last, season.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Jenny Romero ’01',
-        'https://sites.utexas.edu/ransomcentermagazine/2024/08/21/introducing-jenny-romero-the-ransom-centers-robert-de-niro-curator-of-film/',
-        ['url' => $logos_path.'Ransom-Center-Magazine-Logo.png', 'alt' => 'Ransom Center Magazine logo, black serif and sans-serifs fonts.' ],
+        'Bella Myŏng-wŏl Dalton-Fenkl ’20',
+        'https://www.theguardian.com/culture/2024/oct/20/my-brilliant-korea-rediscovery-of-a-rich-cultural-narrative',
+        ['url' => $logos_path.'the-guardian-logo.png', 'alt' => 'Washington Post logo, white serif font on a dark blue background.' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p><strong>Jenny Romero ’01</strong>, the Ransom Center’s Robert De Niro Curator of Film, was the subject of a Ransom Center magazine article.</p>
-    <?php echo end_item_cardWithText(); ?>
-  <?php echo end_item_col(); ?>
-
-
-  <?php echo item_col(); ?>
-    <?php echo item_cardWithText(
-        'Evan Wright ’87',
-        'https://www.washingtonpost.com/obituaries/2024/07/16/evan-wright-generation-kill-dead/',
-        ['url' => $logos_path.'washington-post.jpg', 'alt' => 'Washington Post logo, black serif font.' ],
-        'related-topics card--withParagraph card-has-cta-icon card-is-link'
-    ); ?>
-      <p>Writer and author <strong>Evan Wright ’87</strong> was remembered by numerous news outlets, including the <em>Washington Post</em>.</p>
+      <p><strong>Bella Myŏng-wŏl Dalton-Fenkl ’20</strong> wrote a <em>Guardian</em> article titled “My brilliant Korea: rediscovery of a rich cultural narrative.”</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -106,31 +106,22 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><strong>Lisa Kudrow ’85</strong> discussed her time at Vassar on the <a href="https://podcasts.apple.com/us/podcast/smartless/id1521578868?i=1000662553267">podcast <em>SmartLess</em></a> with hosts Jason Bateman, Sean Hayes, and Will Arnett.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://newyorkclassicalreview.com/2024/11/the-gesualdo-six-offer-a-moving-musical-experience-with-secret-byrd/"><em>New York Classical Review</em></a> wrote about a performance by Abendmusik, directed by <strong>Bill Barclay ’03</strong> with <strong>Patricia Ann Neely ’75</strong> on the viol.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><strong>Jonathan Karl ’90</strong>, Chief Washington Correspondent for ABC News and the co-anchor of This Week, spoke about the presidential election on the <a href="https://cafe.com/stay-tuned/kamala-harris-trump-election-jonathan-karl/">podcast <em>Stay Tuned with Preet</em></a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><strong>Jens Austin Astrup ’22</strong> just joined the cast of <em>General Hospital</em>, as reported by <a href="https://www.soapoperadigest.com/content/general-hospital-exclusive-meet-trinas-new-love-interest-jans-austin-astrup-kai/"><em>Soap Opera Digest</em></a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><strong>Mackenzie Galloway-Cole ’17</strong>, who lost her wife, Megan, while still in her 20s, took a chance on attending a grief camp and talked about the experience with <a href="https://www.cnn.com/travel/grief-camp-experience-camps-mackenzie-galloway-cole/index.html">CNN</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7">Fulbright scholar <strong>Madeleine Freundlich ’24</strong> was featured in a <a href="https://newsroom.notified.com/girl-scouts-of-central-and-southern-new-jerse/posts/pressreleases/madeleine-freundlich-a-lifelong-journey-of-co">Girl Scouts of Central & Southern New Jersey article</a>, as an International Day of the Girl Spotlight.</p></div>
 
 
-  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><strong>Joanna Pearlstein ’92</strong> was promoted to an expanded role as Print Editor of the <a href="https://www.nytco.com/press/a-promotion-for-joanna-pearlstein-in-opinion/"><em>New York Times</em></a> Opinion section, as noted by the newspaper.</p></div>
+  <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9">Composer <strong>Robinson (Robin) McClellan ’99</strong>, a curator at the Morgan Library & Museum, found a previously unknown waltz by Frédéric Chopin written on a scrap of paper in the museum’s vault, as reported by <a href="https://nyti.ms/48oOEgJ"><em>The New York Times</em></a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><strong>Anirudh Tiwathia ’05</strong>, Director of Behavior Science at the Center for Behavior and the Environment, was mentioned in a <a href="https://www.latimes.com/environment/newsletter/2024-08-01/column-check-out-the-tv-shows-nudging-people-to-act-on-climate-boiling-point"><em>Los Angeles Times</em> story</a> about television shows that have climate change thoughtfulness included in their scripts.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11">Environmentalist <strong>Nikola Alexandre ’14</strong> has been selected as one of the honorees for <a href="https://bit.ly/3Yvs8zB"><em>OUT magazine</em></a>’s 30th Annual OUT100 List.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13">Filmmaker <strong>India Donaldson ’07</strong> and her new film, <em>Good One</em>, were the subjects of a <a href="https://www.latimes.com/entertainment-arts/movies/story/2024-08-06/director-india-donaldson-cuts-her-own-path-good-one"><em>Los Angeles Times</em> feature</a>.</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><strong>Michele Tugade ’95</strong>, Professor of Psychological Science on the William R. Kenan Jr. Chair, was featured in a <a href="https://www.womenshealthmag.com/life/a61803754/what-is-learned-optimism/"><em>Women’s Health</em> article</a> about learned optimism.</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><strong>Alex Bhattacharji ’92</strong> wrote a <a href="https://www.rollingstone.com/culture/culture-features/sammy-davis-jr-satanism-anton-lavey-1235070544/"><em>Rolling Stone</em> article</a> about the unlikely friendship between Sammy Davis Jr. and Anton La Vey, founder and high priest of the Church of Satan.</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><strong>Susanna Ashton ’89</strong>, a Professor of English at Clemson University, wrote <a href="https://theconversation.com/the-black-fugitive-who-inspired-uncle-toms-cabin-and-the-end-of-us-slavery-234256">an article in <em>The Conversation</em></a> about her new book, <em>A Plausible Man: The True Story of the Escaped Slave Who Inspired Uncle Tom’s Cabin</em>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13">Actor <strong>Louisa Jacobson ’13</strong> was a cast member of <em>The Gilded Age</em>, which was selected as one of the honorees for <a href="https://www.out.com/out100/2024/artists/the-gilded-age"><em>OUT magazine</em></a>’s 30th Annual OUT100 List.</p></div>
 
 
   <?php echo end_item_col(); ?>
@@ -138,28 +129,22 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21"><strong>Richard Barakat ’81</strong> discussed art, literature, and Faust on <a href="https://www.youtube.com/watch?v=YiiZbUErFcA"><em>Philosophic Dialogues from La Frontera</em></a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><strong>Aubrey Hays ’15</strong>, who goes by the moniker Somebody Someone, talked to <a href="https://americansongwriter.com/somebody-someone-find-themselves-better-with-riveting-single-video/"><em>American Songwriter</em></a> about life, creativity, and Hays’s latest song, “Better.”</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><strong>Margaret Floy Washburn</strong>, class of 1891, was the subject of a <a href="https://www.discovermagazine.com/mind/what-were-margaret-floy-washburns-contributions-to-psychology"><em>Discover</em> magazine article</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17">Pianist and composer <strong>Jane Strong O’Leary ’68</strong> was a guest on <a href="https://www.rte.ie/radio/lyricfm/clips/22444709/">RTE Lyric FM’s <em>The Lyric Feature</em></a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="24" data-line-end="25"><strong>Mattie Drucker ’22</strong> was one of several people interviewed by <a href="https://www.instagram.com/reel/C-r4MIQPdax/?igsh=eWgzYnJtbGM5bmtt">the French news site <em>Brut.</em></a> on what France is like for American tourists.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><strong>Sherrilyn Ifill ’84</strong> delivered Harvard University’s 2024 Dr. Martin Luther King Jr. Commemorative Lecture, as noted by the <a href="https://news.harvard.edu/gazette/story/2024/10/time-for-emergence-of-a-new-and-better-democracy/22444709/"><em>Harvard Gazette</em></a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="26" data-line-end="27"><strong>Amanda Forsythe ’98</strong> was named Best Opera Singer at the <a href="https://www.sfcv.org/articles/feature/audience-choice-awards-2023-2024-bay-area-winners"><em>SF Classical Voice</em> Audience Choice Awards</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21"><strong>Claire Isabel Webb ’10</strong> wrote a <a href="https://www.nytimes.com/2024/10/13/opinion/nasa-europa-clipper-extraterrestrials.html"><em>New York Times</em> op-ed</a> about the NASA space probe Europa Clipper titled “Can We Please Just Find the Aliens Already?”</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="28" data-line-end="29"><strong>Burt Flickinger III ’75</strong>, owner of Strategic Resource Group, wrote a <a href="https://chicago.suntimes.com/letters-to-the-editor/2024/08/19/blocking-kroger-albertsons-merger-benefits-walmart-ftc-dnc-protests-political-parties-letters"><em>Chicago Sun-Times</em> op-ed</a> titled, “Customers, union workers will lose if Kroger-Albertsons merger gets blocked.”</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><strong>David Foote ’75</strong>, Chief Analyst and Chief Research Officer at Foote Partners LLC, talked about the Big Shift—tectonic changes sweeping through the workplace, driven by new high-momentum technologies of which AI is just one—on the <a href="https://podcasts.apple.com/us/podcast/the-revolution-will-not-be-televised-the-big-shift/id1732063597?i=1000669722182">podcast <em>The AIX Factor</em></a>.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="30" data-line-end="31">Fashion designer <strong>Elizabeth Hawes</strong>, class of 1925, was mentioned in a <a href="https://nypost.com/2024/08/24/lifestyle/how-politics-and-fascism-shaped-american-fashion-sweeping-away-anonymity/"><em>New York Post</em> article</a> titled, “How politics and fascism shaped American fashion: The wave that wiped away anonymity.”</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="32" data-line-end="33"><strong>Matthew Moshen ’92</strong>, a volunteer at the Oyster Bay Historical Society and a member of the Long Island Sons of the American Revolution, discovered graves of five American Revolutionary War veterans in a small, often overlooked cemetery in Oyster Bay, as noted by <a href="https://www.liherald.com/stories/graves-of-revolutionary-vets-found-in-oyster-bay,209794">LI Herald.com</a>.</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="34" data-line-end="35"><strong>David Foote ’75</strong>, chief analyst and research officer with IT research firm Foote Partners, was quoted in a <a href="https://www.computerworld.com/article/3507029/will-genai-kill-the-help-desk-and-other-it-jobs.html"><em>Computerworld</em> article</a> about how AI adoption is impacting IT employment in the next five years. Foote was also mentioned in a <a href="https://www.csoonline.com/article/2144220/12-hottest-it-security-certs-for-higher-pay-today.html">CSO article</a> about which cybersecurity skills are earning IT security workers the most pay.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="24" data-line-end="25"><strong>Sarah Lester ’91</strong>, Director of Maplewood Memorial Library, was quoted extensively in a <a href="https://www.nj.com/essex/2024/10/sleek-235m-nj-library-is-almost-finished-see-inside.html">NJ.com story</a> about the library’s new $23.5 million building.</p></div>
 
 
   <?php echo end_item_col(); ?>
