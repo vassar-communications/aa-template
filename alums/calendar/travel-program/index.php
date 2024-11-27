@@ -44,7 +44,7 @@ $page_info = json_decode($page_info, true);
 <p class="intro-text">Trips for 2025:</p>
 
 <p><strong><a href="#trip4">Namibia: Endless Horizons & Open Skies</a></strong></br>
-June 20-July 1, 2025</p>
+June 19-July 1, 2025</p>
 
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -69,18 +69,24 @@ June 20-July 1, 2025</p>
 
 <p class="intro-text">Endless Horizons & Open Skies</p>
 
-<p><strong>June 20-July 1, 2025<strong></p>
+<p><strong>June 19-July 1, 2025<strong></p>
 
 <p><strong>Faculty Host: Abby Baird ’91, Professor of Psychological Science on the Arnhold Family Chair</strong></p>
 
 <p>Venture to the South African country of Namibia, renowned for its captivating vistas, sculpted red canyons, some of the most spectacular sand dunes, and the home of the world’s oldest desert. Along the way, you’ll marvel at these geological wonders and admire the remarkable wildlife that call this vast and varied landscape home—leopards, giraffes, rhinos, zebras, antelopes, and desert elephants. You’ll also learn about the country’s extraordinary conservation programs.</p>
 <p>Highlights will include:</p>
 <ul>
-<li>Evening game drive and rhino tracking</li>
-<li>Take a bush flight deep into the Namib desert</li>
-<li>Visit the AfriCat Foundation to experience the work they are doing to protect leopards and cheetahs and reintroducing them into the wild</li>
+<li>Climb the towering red sand dunes in Soussevlei.</li>
+<li>Stand amid the petrified forest in the Namib—the world’s oldest desert.</li>
+<li>Experience a wildlife safari in the famous Etosha National Park.</li>
+<li>Meet with conservationists working to save the endangered rhino and Africa’s Big Cats.</li>
 </ul>
-<p>For more information, please contact Immersion Journeys at <?php echo phone_number('917-686-2620'); ?>.</p>
+
+<?php echo cta_link(
+    'https://immersionjourneys.com/vassar-travel-program-namibia-open-skies-endless-horizons-2025/',
+    'View the full Namibia itinerary and reserve your place.'
+
+); ?>
 
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
