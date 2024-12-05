@@ -18,6 +18,7 @@ $facts['number_of_students'] = '2,444';
 $facts['number_of_faculty'] = '358';
 $facts['student_faculty_ratio'] = '8:1';
 $facts['average_class_size'] = '19';
+$facts['average_finaid_award'] = '$58,722';
 
 $facts['number_of_majors'] = '50';
 $facts['number_of_alums'] = '41,000';
