@@ -210,7 +210,7 @@ echo sec_fixedCenteredTitle(
     <?php echo flipcard_stat(
         'Students Receiving Financial Aid',
         $class_stats['students_receiving_finaid'],
-        'The average financial aid award is $54K',
+        'The average financial aid award is $58,722',
         'animation-item',
         '/admission/financial-aid/',
         null
