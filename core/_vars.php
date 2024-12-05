@@ -50,7 +50,7 @@ $class_stats['percentage_male'] = '38.4%';
 $class_stats['percentage_female'] = '61.6%';
 $class_stats['students_of_color'] = '37%';
 $class_stats['languages_spoken'] = '51';
-$class_stats['students_receiving_finaid'] = '63%';
+$class_stats['students_receiving_finaid'] = '55%';
 
 //  This indicates the total number
 //  of countries students have come from - not just the ones
