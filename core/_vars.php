@@ -47,7 +47,7 @@ $class_stats['number_of_countries'] = '53';
 $class_stats['number_of_states'] = '49';
 $class_stats['percentage_male'] = '38.4%';
 $class_stats['percentage_female'] = '61.6%';
-$class_stats['students_of_color'] = '36%';
+$class_stats['students_of_color'] = '37%';
 $class_stats['languages_spoken'] = '51';
 $class_stats['students_receiving_finaid'] = '63%';
 
