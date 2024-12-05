@@ -165,7 +165,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_stat(
       '',
-      '53%',
+      $class_stats['students_receiving_finaid'],
 '<p>receiving need-based financial aid from Vassar</p>'
     ); ?>
   <?php echo end_item_col(); ?>
