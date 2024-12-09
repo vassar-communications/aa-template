@@ -21,7 +21,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 <?php echo end_carousel_item();  ?>
 
 
-
 <?php echo carousel_item(
     $media_carousel_path.'/2024-12-09/in-the-media/thureen-bos_HBO.jpg',
     'is-link',
