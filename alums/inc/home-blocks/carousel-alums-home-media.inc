@@ -5,6 +5,60 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-12-09/in-the-media/michele-tugade-landscape-1200.jpg',
+    'is-link',
+    'A photo of Michele Tugade ’95, a person with long black hair and a blue dress. Tugade is standing in the Vassar Library, a large stone building with a stained glass window behind her.'
+  ); ?>
+
+  <p>Professor of Psychological Science <strong>Michele Tugade ’95</strong> was interviewed by <em>Scientific American</em> for the article “How Humor Takes the Edge off Hard Times.”</p>
+  <p><em>Photo: Kevin Arce ’20</em></p>
+  <?php echo cta_link(
+  'https://www.scientificamerican.com/article/how-humor-can-help-you-get-through-hard-times/',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item();  ?>
+
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-12-09/in-the-media/thureen-bos_HBO.jpg',
+    'is-link',
+    'A photo of Paul Thureen ’00 and Hannah Bos ’00. Paul is tall, with a gray beard and a green baseball cap. Hannah is shorter, with long brown hair and a blue baseball cap.'
+  ); ?>
+
+  <p><strong>Hannah Bos ’00</strong> and <strong>Paul Thureen ’00</strong>, co-creators of the HBO series <em>Somebody Somewhere</em>, talked to <em>The New York Times</em> about the show.</p>
+  <p><em>Photo: Courtesy of Sandy Morris/HBO</em></p>
+  <?php echo cta_link(
+  'https://www.nytimes.com/2024/10/25/arts/television/somebody-somewhere-final-season.html?unlocked_article_code=1.U04.Ssxy.7h--8hiJ_0jL&smid=nytcore-ios-share&referringSource=articleShare',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item();  ?>
+
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2024-12-09/in-the-media/sherrilyn-ifill-16x9-KR.jpg',
+    'is-link',
+    'A photo of Sherrilyn Ifill ’84, a person with long black hair and a green dress. Ifill is speaking in front of a microphone.'
+  ); ?>
+
+  <p><strong>Sherrilyn Ifill ’84</strong> delivered Harvard University’s 2024 Dr. Martin Luther King Jr. Commemorative Lecture, as noted by the <em>Harvard Gazette</em>.</p>
+  <p><em>Photo: Karl Rabe</em></p>
+  <?php echo cta_link(
+  'https://news.harvard.edu/gazette/story/2024/10/time-for-emergence-of-a-new-and-better-democracy/',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item();  ?>
+
+
+
+
+
+
 
 <?php echo carousel_item(
     $media_carousel_path.'/2024-10-01/in-the-media/0141-18-10-kr-kudrow-vassar-0339.jpg',
@@ -20,46 +74,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   'stretched-link'
   ); ?>
 <?php echo end_carousel_item();  ?>
-
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2024-10-01/in-the-media/Jonathan_Karl_Capitol_ABC-News.jpg',
-    'is-link',
-    'A photo of Jonathan Karl ’90, a person with short light-colored hair, glasses, and a dark suit. Karl is standing in front of the Capitol building, a classic building with a dome.'
-  ); ?>
-
-  <p><strong>Jonathan Karl ’90</strong>, Chief Washington Correspondent for ABC News, spoke about the presidential election on the podcast <em>Stay Tuned with Preet</em>.</p>
-  <p><em>Photo: Courtesy of ABC News</em></p>
-  <?php echo cta_link(
-  'https://cafe.com/stay-tuned/kamala-harris-trump-election-jonathan-karl/',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item();  ?>
-
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2024-10-01/in-the-media/michele_tugade_by_kevin_arce_20.jpg',
-    'is-link',
-    'A photo of Michelle Tugade ’95, a person with long dark hair and a blue dress. Tugade is standing in the Vassar Library, a large stone building with a stained glass window in the background.'
-  ); ?>
-
-  <p><strong>Michele Tugade ’95</strong>, Professor of Psychological Science on the William R. Kenan Jr. Chair, was featured in a <em>Women’s Health</em> article about learned optimism.</p>
-  <p><em>Photo: Kevin Arce ’20</em></p>
-  <?php echo cta_link(
-  'https://www.womenshealthmag.com/life/a61803754/what-is-learned-optimism/',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item();  ?>
-
-
-
-
-
-
 
 
 <?php echo carousel_item(
