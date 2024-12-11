@@ -43,6 +43,8 @@ $page_info = json_decode($page_info, true);
 
 <p class="intro-text">Trips for 2025:</p>
 
+<p><strong><a href="#spain">Andalucía Iberia Sepharad: Between Convivencia and Reconquest</a></strong></br>
+June 12-23, 2025</p>
 <p><strong><a href="#trip4">Namibia: Endless Horizons & Open Skies</a></strong></br>
 June 19-July 1, 2025</p>
 
@@ -56,6 +58,34 @@ June 19-July 1, 2025</p>
 
 
 <?php echo end_sec_regularContent();?>
+
+
+<div id="spain"></div>
+<?php echo sec_fullBleedImageColumn(
+    null,
+    $alums_img_path.'alums-calendar/travel-program/cordoba-spain-2025.jpg',
+    'theme-cream',
+    '',
+    ['img_alt_text' => 'Interior of the Great Mosque of Córdoba, a large room with many columns in rows connected by double arches in light and dark stone.']
+); ?>
+
+<p class="intro-text">Andalucía Iberia Sepharad: Between Convivencia and Reconquest</p>
+
+<p><strong>June 12-23, 2025<strong></p>
+
+<p><strong>Faculty Host: Dr. Marc Michael Epstein, Professor of Religion and Visual Culture on the Mackie M. Paschall (1899) & Norman Davis Chair, and Director of Jewish Studies</strong></p>
+
+<p><strong>Cost:</strong> $6500 per person double occupancy (not including international airfare)</p>
+
+<p>Dr. Epstein will explore how this region shaped the three major monotheistic religions—a subject central to both his teaching and research. From impressive mosques, to the remnants of synagogues, to the great Christian sites that resonate with shared artistic and spiritual traditions, every site has been chosen to deepen appreciation for this crossroads of history. In addition to Madrid, Barcelona and Sevilla, experience the vibrant streets of Córdoba, the awe-inspiring Alhambra in Granada, and the synagogues of Toledo.</p>
+
+<?php echo cta_link(
+    '',
+    'View the full Spanish trip itinerary and reserve your place.'
+
+); ?>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <div id="trip4"></div>
@@ -87,7 +117,6 @@ June 19-July 1, 2025</p>
     'View the full Namibia itinerary and reserve your place.'
 
 ); ?>
-
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
