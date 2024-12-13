@@ -75,7 +75,7 @@ June 19-July 1, 2025</p>
 
 <p><strong>Faculty Host: Dr. Marc Michael Epstein, Professor of Religion and Visual Culture on the Mackie M. Paschall (1899) & Norman Davis Chair, and Director of Jewish Studies</strong></p>
 
-<p><strong>Cost:</strong> $6500 per person double occupancy (not including international airfare)</p>
+<p><strong>Cost:</strong> $6950 per person double occupancy (not including international airfare)</p>
 
 <p>Dr. Epstein will explore how this region shaped the three major monotheistic religions—a subject central to both his teaching and research. From impressive mosques, to the remnants of synagogues, to the great Christian sites that resonate with shared artistic and spiritual traditions, every site has been chosen to deepen appreciation for this crossroads of history. In addition to Madrid, Barcelona and Sevilla, experience the vibrant streets of Córdoba, the awe-inspiring Alhambra in Granada, and the synagogues of Toledo.</p>
 
