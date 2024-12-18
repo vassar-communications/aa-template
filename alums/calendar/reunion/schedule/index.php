@@ -38,17 +38,17 @@ $page_info = json_decode($page_info, true);
   'pt-0'
 ); ?>
 
-<p class="intro-text">Reunion General Schedule</p>
+<p class="intro-text">Reunion Preliminary General Schedule</p>
 <p>Items with an <span style="display: inline" class="schedule-item__icon fa-solid fa-circle-info" title="“i” in a solid red circle"></span>  are links to additional information.</p>
 <p>Use one of these links to go directly to the activities for that day:</p>
 
 <ul class="linked-list">
-  <li><a href="#friday">Friday, May 31</a></li>
-  <li><a href="#saturday">Saturday, June 1</a></li>
-  <li><a href="#sunday">Sunday, June 2</a></li>
+  <li><a href="#friday">Friday, June 6</a></li>
+  <li><a href="#saturday">Saturday, June 7</a></li>
+  <li><a href="#sunday">Sunday, June 8</a></li>
 </ul>
 
-  <h3 id="friday" class="schedule-item__heading">Friday, May 31</h3>
+  <h3 id="friday" class="schedule-item__heading">Friday, June 6</h3>
 
 
   <?php echo schedule_item_dropdown(
@@ -63,7 +63,7 @@ $page_info = json_decode($page_info, true);
     '9:00 a.m.–11:00 p.m.',
     'Residence halls open for check-in'
   ); ?>
-    <p>Dorm rooms are available after 2:00 p.m. <a href="../#flush-headingTwo">Find your Dorm Headquarters</a>.</p>
+    <p>Dorm rooms are available after 2:00 p.m. <!--<a href="../#flush-headingTwo">Find your Dorm Headquarters</a>-->.</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -73,24 +73,54 @@ $page_info = json_decode($page_info, true);
     'Jummah Service',
     'Pratt House'
   ); ?>
-    <p>Experience tranquility and spiritual connection by joining Saba Ali, Advisor for 		Muslim Student Life, for the Jummah prayer service. An adjacent wudu station provides the perfect setting for this sacred gathering.</p>
+    <p>Experience tranquility and spiritual connection by joining Saba Ali, Advisor for Muslim Student Life, for the Jummah prayer service. An adjacent wudu station provides the perfect setting for this sacred gathering.</p>
+
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '1:00–5:00 p.m.',
+    'Come visit Vassar’s Olmsted Greenhouse',
+    'Olmsted Greenhouse'
+  ); ?>
+    <p>Our Greenhouse manager will be giving tours of our wonderful plant collection. We will also be providing a plant giveaway for those who want to take a piece of the greenhouse home with them. Come see our beautifully curated collection of over 500 different plant species and learn about the research and educational opportunities we provide! Located on the B-Level of Olmsted Hall, enter through the glass doors facing Skinner Music Hall in the back of Olmsted.</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
     '2:00–3:00 p.m.',
-    'College-Sponsored Lectures and Tours',
+    'College-Sponsored Lectures',
   ); ?>
   
-      <h4><a href="../lectures/#honoring-childhood-for-96-years-at-the-wimpfheimer-nursery-school">Honoring Childhood for 96 years at the Wimpfheimer Nursery School</a></h4>
-      <p><strong>Location:</strong> Rockefeller 200</p>
-
-      <h4><a href="../lectures/#capital-project-planning-past-present-and-future">Capital Project Planning: Past, Present and Future</a></h4>
+      <h4>Exploration of <em>The Dream of a Common Movement: Selected Writings of Urvashi Vaid</em> and her contributions to social justice</h4>
       <p><strong>Location:</strong> Rockefeller 300</p>
 
-      <h4><a href="../lectures/#vassar-preserve-environmental-cooperative">Tour: The Environmental Cooperative and Vassar Preserve</a></h4>
+      <h4>Utilizing AI in the Vassar Classroom</h4>
+      <p><strong>Location:</strong> New England 105</p>
+
+      <h4><em>New Brews: A Showcase of Student Innovation and Entrepreneurship</em></h4>
+      <p><strong>Location:</strong> Rockefeller 200</p>
+
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '2:00–3:30 p.m.',
+    'College-Sponsored Tour',
+  ); ?>
+      <h4>The Environmental Cooperative and Vassar Preserve Tour</h4>
       <p><strong>Location:</strong> Shuttles depart from Main Circle</p>
+
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '5:00–5:00 p.m.',
+    'Alum Happy Hour at the Night Owls Bar!',
+    'The Salt Line Hudson Valley, at the Heartwood'
+  ); ?>
+    <p>Join us at the newly opened Night Owls bar. Special discounted wine, specialty cocktails, and bar menu items will be available for Vassar alums.</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
