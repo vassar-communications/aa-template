@@ -80,7 +80,7 @@ June 19-July 1, 2025</p>
 <p>Dr. Epstein will explore how this region shaped the three major monotheistic religions—a subject central to both his teaching and research. From impressive mosques, to the remnants of synagogues, to the great Christian sites that resonate with shared artistic and spiritual traditions, every site has been chosen to deepen appreciation for this crossroads of history. In addition to Madrid, Barcelona and Sevilla, experience the vibrant streets of Córdoba, the awe-inspiring Alhambra in Granada, and the synagogues of Toledo.</p>
 
 <?php echo cta_link(
-    'https:vassar.edu/alums/assets/pdf/SPAIN_VC_ALUMS_2025_itinerary.pdf',
+    'https://vassar.edu/alums/assets/pdf/SPAIN_VC_ALUMS_2025_itinerary.pdf',
     'View the full Spanish trip itinerary and reserve your place.'
 
 ); ?>
