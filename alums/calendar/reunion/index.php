@@ -41,10 +41,10 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A large group of people walking along a campus road, with some banners displaying class years.']
 ); ?>
 
-  <p>We look forward to welcoming the classes that graduated in a year ending in 0 or 5, June 6–8, 2025. Please help us plan for your arrival by expressing your interest to attend. Can't wait to see you next summer!</p>
+  <p>We look forward to welcoming the classes that graduated in a year ending in 0 or 5, June 6–8, 2025. A preliminary schedule for the weekend is available below. Check back in March for updates.</p>
       <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5.</p>
-   <br />
-   <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who Came to Reunion</a>
+<!-- hiding till post-reunion  <br />
+   <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who Came to Reunion</a>-->
  
   
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -79,41 +79,6 @@ $page_info = json_decode($page_info, true);
 
 
 
-
-<?php echo sec_regularContent(
-  '',
-  '',
-  ''
-); ?>
-
-
-<?php /*
-    <h3>Lost and Found</h3>
-
-    <p>Leave something behind? Please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
-*/ ?>
-
-
-    
-  <h3>Future Reunion Dates</h3>
-
-  <p>June 5–7, 2026</p>
-
-  <h3>Past Reunions</h3>
-
-    <ul class="linked-list mt-4">
-        <li><a href="https://www.flickr.com/photos/vassarcollegemedia/albums/72177720317624209/">View photos from Reunion 2024.</a></li>
-        <li><a href="https://www.flickr.com/photos/vassarcollegemedia/sets/72177720308893162/">View photos from Reunion 2023.</a></li>
-        <li><a href="https://www.flickr.com/photos/vassarcollegemedia/collections/72157683898719825/">View photos from in-person Reunions held since 2012.</a></li>
-    </ul>  
-
-
-
-<?php echo end_sec_regularContent(); ?>
-
-
-<?php /*hiding everything else on page until 2025 setup
-
 <?php echo sec_fullBleedImageColumn(
     'General Reunion<br> Class Schedule',
     $alums_img_path.'alums-calendar/reunion/Reunion-General-52960456425_6f999747a0_k.jpg',
@@ -129,19 +94,22 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     '50th Reunion<br> Class Schedule',
-    $alums_img_path.'alums-calendar/reunion/Reunion-50th-1974-48139007901_53fb3fba6b_k.jpg',
+    $alums_img_path.'alums-calendar/reunion/Reunion-50th-1975-18931441351_bc8855d2d1_o.jpg',
     'image-is-first',
     '',
-    ['img_alt_text' => 'People walking in a group, with some people holding a banner reading The Legendary Class of 1974 Vassar College.']
+    ['img_alt_text' => 'People walking in a group, with a person with long hair and flowers in it holding a banner that says Class of 1975 on it.']
 ); ?>
 
-<p>Enjoy the campus a day early with programming designed especially for the 50th Reunion class. Check-in will open on Thursday, May 30 at 4:00 p.m.</p>
+<p>Enjoy the campus a day early with programming designed especially for the 50th Reunion class. Check-in will open on Thursday, June 5 at 2:00 p.m.</p>
 
 <?php echo cta_link(
     '50th/',
     'See the 50th Reunion Schedule'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php /*hiding lectures until 2025 setup
 
 
 <?php echo sec_fullBleedImageColumn(
@@ -162,14 +130,51 @@ $page_info = json_decode($page_info, true);
 
 End of hiding schedule content*/ ?>
 
+
+<?php echo sec_regularContent(
+  '',
+  '',
+  ''
+); ?>
+
+
+<?php /*
+    <h3>Lost and Found</h3>
+
+    <p>Leave something behind? Please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
+*/ ?>
+
+
+    
+  <h3>Future Reunion Dates</h3>
+
+  <p>June 5–7, 2026<br />
+  June 4–6, 2027<br />
+  June 2–4, 2028</p>
+
+  <h3>Past Reunions</h3>
+
+    <ul class="linked-list mt-4">
+        <li><a href="https://www.flickr.com/photos/vassarcollegemedia/albums/72177720317624209/">View photos from Reunion 2024.</a></li>
+        <li><a href="https://www.flickr.com/photos/vassarcollegemedia/sets/72177720308893162/">View photos from Reunion 2023.</a></li>
+        <li><a href="https://www.flickr.com/photos/vassarcollegemedia/collections/72157683898719825/">View photos from in-person Reunions held since 2012.</a></li>
+    </ul>  
+
+<?php echo end_sec_regularContent(); ?>
+
+
+
 <div id="information-updates"></div>
 
 <?php echo sec_regularContent('Information & Updates','theme-verylightgray','','',); ?>
 
 
-<?php /*hiding below items until 2025 setup
-
 <?php echo item_iconItem('New This Year!','star',''); ?>
+<h4>Reunion Swag Shop!</h4>
+<p>In lieu of class favors, individuals will be able to purchase Reunion-branded items in advance, including water bottles, tote bags, bucket hats, and t-shirts, and have their items shipped to them or they can pick them up from the College Store when they arrive on campus. A small quantity will also be available at the store during Reunion weekend for those who missed out (or need more)! Stay tuned for a list of items and purchasing information.</p>
+
+
+<!-- hiding until ready for 2025
 <h4>Vassar Mobile App for Reunion</h4>
 <p>Did you know that Vassar has a mobile app? It now has a “Reunion” persona to access Reunion schedules and notifications. Get the app and choose “Reunion” from the initial “Choose Your Experience” screen to get started:</p>
 <ul>
@@ -179,9 +184,12 @@ End of hiding schedule content*/ ?>
 <p>Already have the app and use the “Alum” persona? Tap on the person icon in the upper right corner of the app, then tap on “My Role” to switch to the Reunion persona for the weekend.</p>
 <h4>Alum ID Card</h4>
 <p>If you would like to get an Alum ID card during Reunion, please submit the <a href="https://offices.vassar.edu/card/alum-id-card-request/">Alum ID Card Request Form</a> by <strong>May 17, 2024</strong>. The Card Office will make sure everything is ready for you to get your Alum ID card at Reunion. Alum ID cards are only issued in person at Vassar’s Service Desk located in the College Center, North Atrium, as a photo must be taken for the card. The Service Desk will be open during Reunion on Friday, May 31, from 8:30 a.m. to 5:00&nbsp;p.m. and Saturday, June 1, from noon to 5:00 p.m. For more information, contact the Card Office at <a href="tel:+18454513333">(845) 451-3333</a>.</p>
+-->
 
 <?php echo end_item_iconItem(); ?>
 
+
+<?php /*hiding below items until 2025 setup
 
 <?php echo item_iconItem('In Case of Emergency','triangle-exclamation',''); ?>
 

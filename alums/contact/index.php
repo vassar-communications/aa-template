@@ -920,7 +920,7 @@ echo end_contact_card();
 <?php
 echo contact_card(
     'Jeffrey Holl',
-       'Assistant Director of Advancement Services',
+       'Assistant Director of Advancement Budget Operations',
      [
    'phone' => '845-437-5466',
       'email' => 'jholl@vassar.edu',
