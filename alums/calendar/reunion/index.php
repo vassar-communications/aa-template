@@ -43,8 +43,8 @@ $page_info = json_decode($page_info, true);
 
   <p>We look forward to welcoming the classes that graduated in a year ending in 0 or 5, June 6–8, 2025. Please help us plan for your arrival by expressing your interest to attend. Can't wait to see you next summer!</p>
       <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5.</p>
-   <br />
-   <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who Came to Reunion</a>
+<!-- hiding till post-reunion  <br />
+   <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who Came to Reunion</a>-->
  
   
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -79,6 +79,57 @@ $page_info = json_decode($page_info, true);
 
 
 
+<?php echo sec_fullBleedImageColumn(
+    'General Reunion<br> Class Schedule',
+    $alums_img_path.'alums-calendar/reunion/Reunion-General-52960456425_6f999747a0_k.jpg',
+    'theme-burgundy',
+    '',
+    ['img_alt_text' => 'A large group of people sitting at round tables, coversing with one and other, under a huge white tent.']
+); ?>
+<?php echo cta_link(
+    '/alums/calendar/reunion/schedule/',
+    'See the Reunion Schedule'
+); ?>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+<?php echo sec_fullBleedImageColumn(
+    '50th Reunion<br> Class Schedule',
+    $alums_img_path.'alums-calendar/reunion/Reunion-50th-1975-18931441351_bc8855d2d1_o.jpg',
+    'image-is-first',
+    '',
+    ['img_alt_text' => 'People walking in a group, with a person with long hair and flowers in it holding a banner that says Class of 1975 on it.']
+); ?>
+
+<p>Enjoy the campus a day early with programming designed especially for the 50th Reunion class. Check-in will open on Thursday, May 30 at 4:00 p.m.</p>
+
+<?php echo cta_link(
+    '50th/',
+    'See the 50th Reunion Schedule'
+); ?>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php /*hiding lectures until 2025 setup
+
+
+<?php echo sec_fullBleedImageColumn(
+    'College-Sponsored Lectures and Tours',
+    $alums_img_path.'alums-calendar/reunion/52129387193_a6f8dcfc89_k.jpg',
+    '',
+    '',
+    ['img_alt_text' => 'A person wearing a mask, a purple shirt and brown pants, speaks in front of a projector screen at the front of a sunlit classroom with a hardwood floor. The classroom is filled with people of various ages sitting at individual desks.']
+); ?>
+
+<p>Explore this year’s lifelong learning opportunities through college-sponsored lectures and tours at Reunion!</p>
+
+<?php echo cta_link(
+    '/alums/calendar/reunion/lectures/',
+    'Learn more about College-Sponsored Lectures and Tours'
+); ?>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+End of hiding schedule content*/ ?>
+
 
 <?php echo sec_regularContent(
   '',
@@ -107,60 +158,9 @@ $page_info = json_decode($page_info, true);
         <li><a href="https://www.flickr.com/photos/vassarcollegemedia/collections/72157683898719825/">View photos from in-person Reunions held since 2012.</a></li>
     </ul>  
 
-
-
 <?php echo end_sec_regularContent(); ?>
 
 
-<?php /*hiding everything else on page until 2025 setup
-
-<?php echo sec_fullBleedImageColumn(
-    'General Reunion<br> Class Schedule',
-    $alums_img_path.'alums-calendar/reunion/Reunion-General-52960456425_6f999747a0_k.jpg',
-    'theme-burgundy',
-    '',
-    ['img_alt_text' => 'A large group of people sitting at round tables, coversing with one and other, under a huge white tent.']
-); ?>
-<?php echo cta_link(
-    '/alums/calendar/reunion/schedule/',
-    'See the Reunion Schedule'
-); ?>
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-<?php echo sec_fullBleedImageColumn(
-    '50th Reunion<br> Class Schedule',
-    $alums_img_path.'alums-calendar/reunion/Reunion-50th-1974-48139007901_53fb3fba6b_k.jpg',
-    'image-is-first',
-    '',
-    ['img_alt_text' => 'People walking in a group, with some people holding a banner reading The Legendary Class of 1974 Vassar College.']
-); ?>
-
-<p>Enjoy the campus a day early with programming designed especially for the 50th Reunion class. Check-in will open on Thursday, May 30 at 4:00 p.m.</p>
-
-<?php echo cta_link(
-    '50th/',
-    'See the 50th Reunion Schedule'
-); ?>
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<?php echo sec_fullBleedImageColumn(
-    'College-Sponsored Lectures and Tours',
-    $alums_img_path.'alums-calendar/reunion/52129387193_a6f8dcfc89_k.jpg',
-    '',
-    '',
-    ['img_alt_text' => 'A person wearing a mask, a purple shirt and brown pants, speaks in front of a projector screen at the front of a sunlit classroom with a hardwood floor. The classroom is filled with people of various ages sitting at individual desks.']
-); ?>
-
-<p>Explore this year’s lifelong learning opportunities through college-sponsored lectures and tours at Reunion!</p>
-
-<?php echo cta_link(
-    '/alums/calendar/reunion/lectures/',
-    'Learn more about College-Sponsored Lectures and Tours'
-); ?>
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-End of hiding schedule content*/ ?>
 
 <div id="information-updates"></div>
 
