@@ -41,7 +41,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A large group of people walking along a campus road, with some banners displaying class years.']
 ); ?>
 
-  <p>We look forward to welcoming the classes that graduated in a year ending in 0 or 5, June 6–8, 2025. Please help us plan for your arrival by expressing your interest to attend. Can't wait to see you next summer!</p>
+  <p>We look forward to welcoming the classes that graduated in a year ending in 0 or 5, June 6–8, 2025. A preliminary schedule for the weekend is available below. Check back in March for updates.</p>
       <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5.</p>
 <!-- hiding till post-reunion  <br />
    <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who Came to Reunion</a>-->
@@ -148,7 +148,9 @@ End of hiding schedule content*/ ?>
     
   <h3>Future Reunion Dates</h3>
 
-  <p>June 5–7, 2026</p>
+  <p>June 5–7, 2026<br />
+  June 4–6, 2027<br />
+  June 2–4, 2028</p>
 
   <h3>Past Reunions</h3>
 
@@ -167,9 +169,12 @@ End of hiding schedule content*/ ?>
 <?php echo sec_regularContent('Information & Updates','theme-verylightgray','','',); ?>
 
 
-<?php /*hiding below items until 2025 setup
-
 <?php echo item_iconItem('New This Year!','star',''); ?>
+<h4>Reunion Swag Shop!</h4>
+<p>In lieu of class favors, individuals will be able to purchase Reunion-branded items in advance, including water bottles, tote bags, bucket hats, and t-shirts, and have their items shipped to them or they can pick them up from the College Store when they arrive on campus. A small quantity will also be available at the store during Reunion weekend for those who missed out (or need more)! Stay tuned for a list of items and purchasing information.</p>
+
+
+<!-- hiding until ready for 2025
 <h4>Vassar Mobile App for Reunion</h4>
 <p>Did you know that Vassar has a mobile app? It now has a “Reunion” persona to access Reunion schedules and notifications. Get the app and choose “Reunion” from the initial “Choose Your Experience” screen to get started:</p>
 <ul>
@@ -179,9 +184,12 @@ End of hiding schedule content*/ ?>
 <p>Already have the app and use the “Alum” persona? Tap on the person icon in the upper right corner of the app, then tap on “My Role” to switch to the Reunion persona for the weekend.</p>
 <h4>Alum ID Card</h4>
 <p>If you would like to get an Alum ID card during Reunion, please submit the <a href="https://offices.vassar.edu/card/alum-id-card-request/">Alum ID Card Request Form</a> by <strong>May 17, 2024</strong>. The Card Office will make sure everything is ready for you to get your Alum ID card at Reunion. Alum ID cards are only issued in person at Vassar’s Service Desk located in the College Center, North Atrium, as a photo must be taken for the card. The Service Desk will be open during Reunion on Friday, May 31, from 8:30 a.m. to 5:00&nbsp;p.m. and Saturday, June 1, from noon to 5:00 p.m. For more information, contact the Card Office at <a href="tel:+18454513333">(845) 451-3333</a>.</p>
+-->
 
 <?php echo end_item_iconItem(); ?>
 
+
+<?php /*hiding below items until 2025 setup
 
 <?php echo item_iconItem('In Case of Emergency','triangle-exclamation',''); ?>
 
