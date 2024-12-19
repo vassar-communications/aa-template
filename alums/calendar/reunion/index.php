@@ -100,7 +100,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'People walking in a group, with a person with long hair and flowers in it holding a banner that says Class of 1975 on it.']
 ); ?>
 
-<p>Enjoy the campus a day early with programming designed especially for the 50th Reunion class. Check-in will open on Thursday, May 30 at 4:00 p.m.</p>
+<p>Enjoy the campus a day early with programming designed especially for the 50th Reunion class. Check-in will open on Thursday, June 5 at 2:00 p.m.</p>
 
 <?php echo cta_link(
     '50th/',
