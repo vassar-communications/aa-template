@@ -40,17 +40,17 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
 
     <p>Offered annually in the fall by the Office of Advancement in association with the Office of Admission, College Search 101 is designed to familiarize Vassar alum families and their high school juniors with the college admission process. This program provides valuable, general information to your family as your college search process begins.</p>
-  <?php /*hiding until needed  
       <p><em>This program will be offered virtually.</em></p>
- end of hiding*/?>   
 
-    <p><em>This program is being offered virtually. Register by Wednesday, October 30 to receive the webinar link(s).</em></p>
+  <?php /*hiding until needed  
+
+    <p><em>This program is being offered virtually. Register by Wednesday, October 30 to receive the webinar link(s).</em></p>   
     <p>Sunday, November 3, 2024<br />11:00 a.m.–3:15 p.m. ET</p>
     <?php echo cta_link(
     'https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=7823&content_id=7295',
     'Registration for College Search 101 is Open!'
 ); ?>
-
+ end of hiding*/?>  
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
