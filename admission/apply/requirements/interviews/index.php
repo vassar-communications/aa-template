@@ -52,6 +52,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_deadlines(); ?>
 
 
+
 <p class="mt-5">We accept interview requests from current domestic first-year applicants. Interviews take place from October through early March and are informational rather than evaluative. Please note, not all students will be able to meet with an interviewer as we do not have the capacity to honor all requests. If you are not extended an interview, rest assured that it will not negatively impact your application to Vassar. Your interview request will only be processed once the Office of Admission confirms we have received your application.</p>
 
 <?php echo cta_link(
@@ -71,10 +72,10 @@ $page_info = json_decode($page_info, true);
     ); ?>
 
 <?php echo info_card(
-    'Note for International and Overseas Applicants',
-    '',
-    'fa-globe'
-); ?>
+        'Note for International and Overseas Applicants',
+        '',
+        'fa-globe'
+    ); ?>
 
 <p>Given the limited availability of alum and student interviewers internationally, our office will reach out to you if we are able to extend an interview. We do not accept requests for interviews from international students or students residing overseas.</p>
 
