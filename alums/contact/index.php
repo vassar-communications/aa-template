@@ -762,17 +762,6 @@ echo end_contact_card();
     echo end_contact_card();
 
 
-    echo contact_card(
-        'Susan Quade',
-        'Senior Associate Director, Travel Program',
-        [
-          'phone' => '845-437-5453',
-          'email' => 'suquade@vassar.edu',
-        ]
-    );
-    echo end_contact_card();
-
-
 ?>
 
 </div>

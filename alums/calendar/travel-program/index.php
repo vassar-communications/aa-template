@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
     '',
     ['img_alt_text' => 'A group of people, one holding a Vassar College banner, standing and smiling at the viewer with a sunny green countryside and cloudy skies behind them.']
 ); ?>
-<p>As we are planning our future trips, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Susan Quade, Senior Associate Director for Advancement Events and Programs and the Vassar Travel Program at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
+<p>As we are planning our future trips, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Kristy Grimes, Director of Advancement Events and Programs, at <a href="mailto:kgrimes@vassar.edu">kgrimes@vassar.edu</a>.</p>
 
 <p class="intro-text">Trips for 2025:</p>
 
@@ -75,12 +75,12 @@ June 19-July 1, 2025</p>
 
 <p><strong>Faculty Host: Dr. Marc Michael Epstein, Professor of Religion and Visual Culture on the Mackie M. Paschall (1899) & Norman Davis Chair, and Director of Jewish Studies</strong></p>
 
-<p><strong>Cost:</strong> $6950 per person double occupancy (not including international airfare)</p>
+<p><strong>Cost:</strong> $6,950 per person double occupancy/$1,700 single supplement (not including international airfare)</p>
 
 <p>Dr. Epstein will explore how this region shaped the three major monotheistic religions—a subject central to both his teaching and research. From impressive mosques, to the remnants of synagogues, to the great Christian sites that resonate with shared artistic and spiritual traditions, every site has been chosen to deepen appreciation for this crossroads of history. In addition to Madrid, Barcelona and Sevilla, experience the vibrant streets of Córdoba, the awe-inspiring Alhambra in Granada, and the synagogues of Toledo.</p>
 
 <?php echo cta_link(
-    '/alums/assets/pdf/SPAIN_VC_ALUMS_2025_itinerary.pdf',
+    '/alums/assets/pdf/SPAIN_VC_ALUMS_2025_itinerary_V2.pdf',
     'View the full Spanish trip itinerary and reserve your place.'
 
 ); ?>
@@ -102,6 +102,8 @@ June 19-July 1, 2025</p>
 <p><strong>June 19-July 1, 2025<strong></p>
 
 <p><strong>Faculty Host: Abby Baird ’91, Professor of Psychological Science on the Arnhold Family Chair</strong></p>
+
+<p><strong>Cost:</strong> $8,250 per person double occupancy/$1,150 single supplement (not including international airfare)</p>
 
 <p>Venture to the South African country of Namibia, renowned for its captivating vistas, sculpted red canyons, some of the most spectacular sand dunes, and the home of the world’s oldest desert. Along the way, you’ll marvel at these geological wonders and admire the remarkable wildlife that call this vast and varied landscape home—leopards, giraffes, rhinos, zebras, antelopes, and desert elephants. You’ll also learn about the country’s extraordinary conservation programs.</p>
 <p>Highlights will include:</p>
