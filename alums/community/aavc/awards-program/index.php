@@ -125,18 +125,26 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-community/aavc/awards/0030-24-04-kma-harris-award-vassar-8953-square.jpg',
+    '/alums/assets/img/alums-community/aavc/awards/Vassar_Convocation_20240904_KR_0148-square.jpg',
     'image-is-first',
     '',
-    ['img_alt_text' => 'Four people of various ages stand together, smiling at the viewer.']
+    ['img_alt_text' => 'Three people, one of whom is holding a glass award, stand together smiling.']
 ); ?>
-<h6 class="tagline">2023 Recipient</h6>
-<h1>Pamela Harris ’92</h1>
+<h6 class="tagline">2024 Recipient</h6>
+<h1>David H.J. Ambroz ’02</h1>
 
+
+<p><?php echo item_link_VideoModal(
+    'Watch the David Ambroz video.',
+    'https://player.vimeo.com/video/1007025313',
+    'vimeo',
+    '',
+    'no-arrow btn-link mt-4'
+); ?></p>
 
 <?php echo cta_link(
-    'https://www.vassar.edu/news/aavc-announces-2023-honorees',
-     'Read more about Pamela Harris.'
+    'https://www.vassar.edu/news/celebrating-excellence',
+     'Read more about David Ambroz.'
 ); ?>
 
 

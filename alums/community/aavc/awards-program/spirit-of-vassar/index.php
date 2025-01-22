@@ -37,6 +37,24 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
+<h3 class="mt-5">2024</h3>
+
+<h4>David H.J. Ambroz ’02</h4>
+
+<ul class="linked-list">
+<li>
+    <?php echo item_link_VideoModal(
+        'Watch Ambroz’s award presentation and remarks.',
+        'https://player.vimeo.com/video/1007025313',
+        'vimeo',
+        '',
+        'no-arrow'
+    ); ?>
+  </li>
+  <li><a href="https://www.vassar.edu/news/celebrating-excellence">Read more about Ambroz in the July 2024 <em>Vassar Stories</em> article.</a></li>
+</ul>
+
+
 <h3 class="mt-5">2023</h3>
 
 <h4>Pamela Harris ’92</h4>
