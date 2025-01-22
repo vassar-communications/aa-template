@@ -171,7 +171,7 @@ End of hiding schedule content*/ ?>
 
 <?php echo item_iconItem('New This Year!','star',''); ?>
 <h4>Reunion Swag Shop!</h4>
-<p>In lieu of class favors, individuals will be able to purchase Reunion-branded items in advance, including water bottles, tote bags, bucket hats, and t-shirts, and have their items shipped to them or they can pick them up from the College Store when they arrive on campus. A small quantity will also be available at the store during Reunion weekend for those who missed out (or need more)! Stay tuned for a list of items and purchasing information.</p>
+<p>In lieu of class favors, individuals will be able to purchase Reunion-branded items in advance, including water bottles, tote bags, bucket hats, and t-shirts, and have their items shipped to them or they can pick them up from the College Store when they arrive on campus. A small quantity will also be available at the store during Reunion weekend for those who missed out (or need more)! <a href="https://collegestore.vassar.edu/MerchList?ID=36254">Order your Reunion swag now</a>.</p>
 
 
 <!-- hiding until ready for 2025
