@@ -32,31 +32,31 @@ This blocks click events (but not hover events). */
 </style>
 
 
-<h3 class="fancy-heading tagline text-center">The Class of 2027</h3>
+<h3 class="fancy-heading tagline text-center">The Class of 2028</h3>
 
   <div class="quotes-carousel" data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": 3000, "cellAlign": "center", "contain": true, "prevNextButtons": false }'>
 
     <div class="carousel-cell split-words-container">
       <div class="split-words-content">
-        <p>is from 56 countries</p>
+        <p>is from 57 countries</p>
       </div>
     </div>
 
     <div class="carousel-cell split-words-container">
       <div class="split-words-content">
-        <p>is 16.3% international students, including dual citizens</p>
+        <p>is 18.2% international students, including dual citizens</p>
       </div>
     </div>
 
     <div class="carousel-cell split-words-container">
       <div class="split-words-content">
-        <p>speaks 50 languages</p>
+        <p>speaks 49 languages</p>
       </div>
     </div>
 
     <div class="carousel-cell split-words-container">
       <div class="split-words-content">
-        <p>is from 41 states, the District of Columbia, and Puerto Rico</p>
+        <p>is from 44 states, and Washington D.C.</p>
       </div>
     </div>
 
