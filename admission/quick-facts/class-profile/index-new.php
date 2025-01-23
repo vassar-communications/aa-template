@@ -185,7 +185,7 @@ $page_info = json_decode($page_info, true);
     'All Statistics',
     '2',
     null,
-    'items-equal-height mw-inner-2 x-theme-burgundy animate-when-content-appears animation-group animation-fade-in',
+    'mw-inner-2 theme-cream animate-when-content-appears animation-group animation-fade-in',
     'gap-3'
 ); ?>
 
