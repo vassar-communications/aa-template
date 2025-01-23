@@ -222,6 +222,7 @@ $page_info = json_decode($page_info, true);
         0.4% X
     </li>
 </ul>
+
 <ul>
     <li>
         15.6% first-generation college students
