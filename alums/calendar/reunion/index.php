@@ -171,7 +171,7 @@ End of hiding schedule content*/ ?>
 
 <?php echo item_iconItem('New This Year!','star',''); ?>
 <h4>Reunion Swag Shop!</h4>
-<p>In lieu of class favors, individuals will be able to purchase Reunion-branded items in advance, including water bottles, tote bags, bucket hats, and t-shirts, and have their items shipped to them or they can pick them up from the College Store when they arrive on campus. A small quantity will also be available at the store during Reunion weekend for those who missed out (or need more)! Stay tuned for a list of items and purchasing information.</p>
+<p>In lieu of class favors, individuals will be able to purchase Reunion-branded items in advance, including water bottles, tote bags, bucket hats, and t-shirts, and have their items shipped to them or they can pick them up from the College Store when they arrive on campus. A small quantity will also be available at the store during Reunion weekend for those who missed out (or need more)! <a href="https://collegestore.vassar.edu/MerchList?ID=36254">Order your Reunion swag now</a>.</p>
 
 
 <!-- hiding until ready for 2025
@@ -240,7 +240,9 @@ End of hiding info content*/ ?>
 <?php echo item_iconItem('Housing','house-chimney',''); ?>
 <p>We are excited to welcome alums back to Vassar for in-person reunions and want to ensure that everyone makes informed decisions about where to stay.</p>
 
-<p>We recommend you <strong>register early</strong> for on-campus housing as it is allocated on a first-come, first-served basis. If you prefer the creature comforts of home, <a href="https://www.vassar.edu/visit/community/lodging">search area hotels</a>. The following area hotels have rooms specifically reserved for Reunion.</p>
+<p>We recommend you <strong>register early</strong> for on-campus housing as it is allocated on a first-come, first-served basis. Family housing (for families of four or more) will be in the
+Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments will be available in early spring.</p>
+<p>If you prefer the creature comforts of home, <a href="https://www.vassar.edu/visit/community/lodging">search area hotels</a>. The following area hotels have rooms specifically reserved for Reunion.</p>
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
     <div class="accordion-item">
