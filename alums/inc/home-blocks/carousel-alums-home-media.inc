@@ -9,7 +9,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
     'A photo of Leah Goodridge ’04, a person with a white shirt and short curly black hair.'
   ); ?>
 
-  <p><strong>Leah Goodridge ’04<strong>, a lawyer and a member of the New York City Planning Commission, wrote a <em>New York Times</em> op-ed about the need for more public bathrooms in New York City.</p>
+  <p><strong>Leah Goodridge ’04</strong>, a lawyer and a member of the New York City Planning Commission, wrote a <em>New York Times</em> op-ed about the need for more public bathrooms in New York City.</p>
   <p><em>Photo: Courtesy of the subject</em></p>
   <?php echo cta_link(
   'https://www.nytimes.com/2024/12/29/opinion/restrooms-shortage-new-york.html',
