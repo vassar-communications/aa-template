@@ -3,6 +3,65 @@ $media_carousel_path = '/alums/assets/img/alums-home/news-and-spotlight/';
 echo carousel( '', 'alums-media-carousel' ); ?>
 
 
+<?php echo carousel_item(
+    $media_carousel_path.'/2025-01-28/in-the-media/leah-goodridge.jpg',
+    'is-link',
+    'A photo of Leah Goodridge ’04, a person with a white shirt and short curly black hair.'
+  ); ?>
+
+  <p><strong>Leah Goodridge ’04<strong>, a lawyer and a member of the New York City Planning Commission, wrote a <em>New York Times</em> op-ed about the need for more public bathrooms in New York City.</p>
+  <p><em>Photo: Courtesy of the subject</em></p>
+  <?php echo cta_link(
+  'https://www.nytimes.com/2024/12/29/opinion/restrooms-shortage-new-york.html',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item();  ?>
+
+
+
+
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2025-01-28/in-the-media/ethan-slater.jpg',
+    'is-link',
+    'A photo of Ethan Slater ’14, a person with red hair, a white shirt, and a dark suit coat. They are performing in a dark room.'
+  ); ?>
+
+  <p>Actor <strong>Ethan Slater ’14</strong>, who plays Boq in the new film <em>Wicked</em>, was the subject of a <em>GQ</em> article. </p>
+  <p><em>Photo: David Andrako</em></p>
+  <?php echo cta_link(
+  'https://bit.ly/3ON6hOx',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item();  ?>
+
+
+
+
+
+
+
+<?php echo carousel_item(
+    $media_carousel_path.'/2025-01-28/in-the-media/sieu-nguyen.jpg',
+    'is-link',
+    'A photo of Sieu Nguyen ’17, a person with short black hair and a tan shirt. They are standing in front of large TV screens with "Warner Brothers Discovery" on the screens.'
+  ); ?>
+
+  <p><strong>Sieu Nguyen ’17</strong>, writer and producer of promotional materials for HBO, is on the <em>Forbes</em> 30 Under 30 list. </p>
+  <p><em>Photo: Courtesy of HBO</em></p>
+  <?php echo cta_link(
+  'https://bit.ly/3VqdOGD',
+  'Read more',
+  'stretched-link'
+  ); ?>
+<?php echo end_carousel_item();  ?>
+
+
+
+
 
 
 <?php echo carousel_item(
@@ -36,43 +95,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   ); ?>
 <?php echo end_carousel_item();  ?>
 
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2024-12-09/in-the-media/sherrilyn-ifill-16x9-KR.jpg',
-    'is-link',
-    'A photo of Sherrilyn Ifill ’84, a person with long black hair and a green dress. Ifill is speaking in front of a microphone.'
-  ); ?>
-
-  <p><strong>Sherrilyn Ifill ’84</strong> delivered Harvard University’s 2024 Dr. Martin Luther King Jr. Commemorative Lecture, as noted by the <em>Harvard Gazette</em>.</p>
-  <p><em>Photo: Karl Rabe</em></p>
-  <?php echo cta_link(
-  'https://news.harvard.edu/gazette/story/2024/10/time-for-emergence-of-a-new-and-better-democracy/',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item();  ?>
-
-
-
-
-
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2024-10-01/in-the-media/0141-18-10-kr-kudrow-vassar-0339.jpg',
-    'is-link',
-    'A photo of Lisa Kudrow ’85, a person with long blond hair, a dark shirt, and jeans. Kudrow is sitting in a brown leather chair near a fireplace.'
-  ); ?>
-
-  <p><strong>Lisa Kudrow ’85</strong> discussed her time at Vassar on the podcast <em>SmartLess</em> with hosts Jason Bateman, Sean Hayes, and Will Arnett.</p>
-  <p><em>Photo: Karl Rabe</em></p>
-  <?php echo cta_link(
-  'https://podcasts.apple.com/us/podcast/lisa-kudrow/id1521578868?i=1000662553267',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item();  ?>
 
 
 <?php echo carousel_item(
