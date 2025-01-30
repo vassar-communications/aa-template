@@ -261,36 +261,35 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments wil
     </div>
 </div>
 
-<?php /*hiding dorms until 2025 setup
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample2">
     <div class="accordion-item">
         <div class="accordion-header" id="flush-headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Reunion 2024 Dorm Headquarters
+                Reunion 2025 Dorm Headquarters
             </button>
         </div>
         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
             <div class="accordion-body">
-                <p><strong>1959:</strong> Jewett House<br />
-<strong>1964:</strong> Jewett House<br />
-<strong>1969:</strong> Jewett House<br />
-<strong>1974:</strong> Davison House<br />
-<strong>1979:</strong> Josselyn House<br />
-<strong>1984:</strong> Josselyn House<br />
-<strong>1989:</strong> Strong House<br />
-<strong>1994:</strong> Lathrop House<br />
-<strong>1999:</strong> Cushing House<br />
-<strong>2004:</strong> Raymond House<br />
-<strong>2009:</strong> Raymond House<br />
-<strong>2014:</strong> TownHouse 164<br />
-<strong>2019:</strong> Noyes House</p>
+                <p><strong>1950/1955:</strong> Alumnae House<br />
+<strong>1960:</strong> The Heartwood at Vassar<br />
+<strong>1965:</strong> Main Building<br />
+<strong>1970:</strong> Main Building<br />
+<strong>1975:</strong> Davison House<br />
+<strong>1980:</strong> Josselyn House<br />
+<strong>1985:</strong> Main Building<br />
+<strong>1990:</strong> Josselyn House<br />
+<strong>1995:</strong> Cushing House<br />
+<strong>2000:</strong> Cushing House<br />
+<strong>2005:</strong> Raymond House<br />
+<strong>2010:</strong> Strong House<br />
+<strong>2015:</strong> Town Houses, 164<br />
+<strong>2020:</strong> Lathrop House</p>
             </div>
         </div>
     </div>
 </div>
 
-End of hiding dorms content*/ ?>
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample3">
     <div class="accordion-item">
