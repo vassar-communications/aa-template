@@ -15,7 +15,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
   'https://www.nytimes.com/2024/12/29/opinion/restrooms-shortage-new-york.html',
   'Read more',
   'stretched-link'
-  ); ?>
+  ); ?> 
 <?php echo end_carousel_item();  ?>
 
 
