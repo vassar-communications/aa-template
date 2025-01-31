@@ -19,6 +19,7 @@ $facts['number_of_faculty'] = '358';
 $facts['student_faculty_ratio'] = '8:1';
 $facts['average_class_size'] = '19';
 $facts['average_finaid_award'] = '$58,722';
+$facts['students_of_color'] = '37%';
 
 $facts['number_of_majors'] = '50';
 $facts['number_of_alums'] = '41,000';
@@ -68,3 +69,11 @@ $class_stats['1st-gen-students'] = '14%';
 $after_vassar['six_months_out'] = '93%';
 $after_vassar['law_school_admit_rate'] = '86%';
 $after_vassar['med_school_admit_rate'] = '78%';
+
+//these are additional values specifically for the alums website, Give Back > Support Vassar page
+$fiscal_year = '2023-2024';
+$common_data_set = '2023-2024';
+$facts[$fiscal_year]['vassar_fund_total'] = '9.4M';
+$facts[$common_data_set]['avg_Vassar_need_based_scholarship_pkg_award'] = 61252;
+$facts[$common_data_set]['number_students_receiving_need_based_scholarships_grants'] = 1337;
+$class_stats['average_gpa'] = '3.9/4.0'; //this is from the class of 2028 profile

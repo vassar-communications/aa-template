@@ -34,143 +34,205 @@ $page_info = json_decode($page_info, true);
 
 <?php /*  PAGE CONTENT === */ ?>
 
-<?php echo sec_fullBleedImageColumn(
-    'Every Alum. Any Amount. Every Year.',
-    '/alums/assets/img/alums-give/support/0085-20-12-kr-reading-room-vassar-0118.jpg',
-    'theme-cream image-is-first',
-    '',
-    ['img_alt_text' => 'Interior view a room with a sign that reads Class of 1951 Reading Room in a black frame with large windows below it.']
+<?php echo sec_hasColumns(
+    'The Vassar Fund <br> Every Gift Matters',
+    '3',
+    '<p>The Vassar Fund supports all areas of the College from financial aid and our need-blind admissions policy to faculty and student research to preserving our beautiful campus.<p>',
+    'mw-inner-4 theme-cream',
+    'gap-3 items-equal-height'
 ); ?>
-<div class="animate-when-content-appears animation-slide-up">
-       <p class="intro-text"> A gift at any level is key to sustaining Vassar.</p>
-    <p>Vassar Fund dollars are crucial to the long-term success of the College and provide an important source of flexible and spendable revenue that has an immediate impact on today’s students, faculty, and programs. The support of the alum community helps the College remain strong and resilient throughout each year. Your philanthropic contributions support research programs, upgrades in classrooms and residence halls, tuition assistance, career education, and so much more.</p>
 
-    <?php echo cta_link(
-        'https://go.vassar.edu/give',
-        'Give'
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Raised to the Vassar Fund',
+      $facts[$fiscal_year]['vassar_fund_total'],
+      '(Fiscal Year ' . $fiscal_year .')',
+      /* 'For the ' . $current_school_year . ' school year', */
+      'stat-value-small',
+      [
+        'format_number' => false,
+        'unit' => '$'
+      ]
     ); ?>
+  <?php echo end_item_col(); ?>
 
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Average need-based scholarship/grant awarded',
+      $facts[$common_data_set]['avg_Vassar_need_based_scholarship_pkg_award'],
+      '(Academic Year ' . $common_data_set . ')',
+      'stat-value-small',
+      [
+        'format_number' => true,
+        'unit' => '$'
+      ]
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Number of students receiving need-based scholarships/grants',
+      $facts[$common_data_set]['number_students_receiving_need_based_scholarships_grants'],
+       '(Academic Year ' . $common_data_set . ')',
+      'stat-value-small',
+      [
+        'format_number' => true,
+        'unit' => ''
+      ]
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Average class size',
+      $facts['average_class_size'],
+      '',
+      'stat-value-small',
+      [
+        'format_number' => true,
+        'unit' => ''
+      ]
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Average GPA, class of ' . $class_stats['class_year'],
+      $class_stats['average_gpa'],
+      '(unweighted)',
+      'stat-value-small',
+      [
+        'format_number' => false,
+        'unit' => ''
+      ]
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
+    <?php echo item_stat(
+      'Percentage of students of color',
+      $facts['students_of_color'],
+      '',
+      'stat-value-small',
+      [
+        'format_number' => false,
+        'unit' => ''
+      ]
+    ); ?>
+  <?php echo end_item_col(); ?>
+
+<?php echo end_sec_hasColumns(); ?>
+
+
 
 <?php echo sec_regularContent(
-    '5 Reasons to Consider Participating',
-    'theme-white mt-5 pt-5',
+    '',
+    'theme-cream mt-0 pt-0',
     ''
 ); ?>
+
+
+
 <?php echo end_sec_regularContent(); ?>
 
 
+
+<?php echo sec_regularContent(
+    'Ways to Support the Vassar Fund',
+    'theme-white mt-5 pt-5',
+    ''
+); ?>
+
+
+<?php echo end_sec_regularContent(); ?>
+
 <?php echo sec_fullBleedImageColumn(
-    '1 - Participation Gifts Add&nbsp;Up',
-    '/alums/assets/img/alums-give/support/Ad_Poster_15_TT_1683.jpg',
+    'Give to the Vassar Fund',
+    '/alums/assets/img/alums-give/support/V1085-252.jpg',
     'theme-burgundy image-is-first',
     '',
     [
-      'img_alt_text' => 'The front of Main Building on the Vassar campus, a large red brick building. In front of the building lies a circular garden area adorned with various types of colorful flowers.',
+      'img_alt_text' => 'Three students in casual clothing laugh and talk together while walking across the center of Vassar’s quad.',
       'title_level' => '3'
     ]
-
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Annual gifts—even at very modest levels—can have just as much impact as major gifts when they are pooled together. For example, multiple gifts from many donors totaling $50,000 can have the same financial effect as the payout from a $1 million endowment gift in a given year.</p>
+    <p>The Vassar Fund impacts all areas of a Vassar student's experience. Your gift will bolster the College's commitment to robust financial aid packages for incoming students, dynamic faculty and student research, and vibrant student life.</p>
 
     <?php echo cta_link(
         'https://www.givecampus.com/c5fm3q',
-        'Give'
+        'Make a Gift.'
     ); ?>
-
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    '2 - Keeping Vassar on Top',
-    '/alums/assets/img/alums-give/support/volleyball-V752-129.jpg',
+    'The 1861 Loyalty Society',
+    '/alums/assets/img/alums-give/support/NewBVOU_Lvg.jpg',
     'theme-cream',
     '',
     [
-      'img_alt_text' => 'A person with short dark hair in a white sports jersey excitedly has their hands in the air. ',
+      'img_alt_text' => 'A large group of people sit at tables under a tent.',
       'title_level' => '3'
     ]
 
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Alum participation is one factor used when evaluating and ranking colleges and universities. Rankings can affect reputation, reputation can affect enrollment, and enrollment can affect revenue from tuition. Additionally, think of a diploma as if it were a stock certificate. As the quality of the institution grows, so does the value of your degree!</p>
+    <p>Donors who have made gifts to the Vassar Fund for three consecutive fiscal years or have established a recurring gift at Vassar are included in the 1861 Loyalty Society. Make a gift to the Vassar Fund today to start your own giving streak and join our most loyal donors in giving back each year!</p>
 
     <?php echo cta_link(
-        'https://www.givecampus.com/c5fm3q',
-        'Give'
+        'https://connect.vassar.edu/s/1654/20/giving/landing.aspx?sid=1654&gid=2&pgid=6088',
+        'Learn more about the 1861 Loyalty Society.'
     ); ?>
 
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-
-
-<?php echo sec_fullBleedImageColumn(
-    '3 - Influencing Others',
-    '/alums/assets/img/alums-give/support/0002-20-01-kr-scc-maldonado-vassar-0047.jpg',
-    'theme-charcoal has-bg quad-pattern image-is-first',
-    '',
-    [
-      'img_alt_text' => 'A person who is bald wearing a formal blue jacket and white collared shirt stands in front of a microphone speaking and gesticulating.',
-      'title_level' => '3'
-    ]
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <p>People want to give to a winning cause. Your participation can influence major donors, corporations, and foundations when they’re considering their own investments. They want to give to institutions that you find worthy of supporting.</p>
-
-    <?php echo cta_link(
-        'https://www.givecampus.com/c5fm3q',
-        'Give'
-    ); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    '4 - Preserving Vassar’s Future',
-    '/alums/assets/img/alums-give/support/Vassar_Campus_6_26_17_0078.jpg',
-    'theme-cream',
-    '',
-    [
-      'img_alt_text' => 'The Bridge for Laboratory Sciences, a large long building with huge windows standing elevated on angled pillars over greenery on the Vassar campus.',
-      'title_level' => '3'
-    ]
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <p>Alums giving helps Vassar establish a broad and diverse base of financial support that provides a safeguard for future uncertainties. Your help is critical in protecting Vassar and its stakeholders.</p>
-
-    <?php echo cta_link(
-        'https://www.givecampus.com/c5fm3q',
-        'Give'
-    ); ?>
-
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-
-<?php echo sec_fullBleedImageColumn(
-    '5 - Leading by Example',
-    '/alums/assets/img/alums-give/support/0073-21-06-kr-summer-vassar-0183.jpg',
+    'Generation Vassar',
+    '/alums/assets/img/alums-give/support/alums square-01.jpg',
     'theme-dark-burgundy image-is-first',
     '',
     [
-      'img_alt_text' => 'A plaque in front of the Class of 1969 Shakespeare Garden, a garden of different trees, flowers, and bushes laid out in multiple tiers on the Vassar campus, noting that the renovation of the garden was made possible by donations of the Class of 1969 on their 50th Reunion.',
+      'img_alt_text' => 'Four people stand with their arms around one another in summer clothing on a sunny day in front of Vassar’s Main Gate.',
+      'title_level' => '3'
+    ]
+
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>In late February each year, the Vassar community comes together to see what it can accomplish in one week for Vassar students. Make a gift during our week-long giving campaign to help unlock matching gifts and challenges that will immediately impact Vassar students.</p>
+
+    <?php echo cta_link(
+        'https://vassar.edu/genvc',
+        'Participate in Generation Vassar.'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+
+<?php echo sec_fullBleedImageColumn(
+    'Request a Call from a Phonathon Student',
+    '/alums/assets/img/alums-give/support/V1085-092.jpg',
+    'theme-charcoal has-bg quad-pattern',
+    '',
+    [
+      'img_alt_text' => 'Two people sit in chairs at a small round table with a laptop computer on it,  in front of a large glass window, while another person stands between them in front of the computer, pointing at something on the screen.',
       'title_level' => '3'
     ]
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Echoing Vassar’s commitment to philanthropy and service, your participation shows the current student body the importance of giving through programs like the <a href="https://vassar.edu/genvc">Generation Vassar Challenge</a>. Your commitment to Vassar and its future is also an important example to set for prospective students and encourages young alums to give. Ultimately, it just feels good to continue to give back to the community that helped to shape your experience as a student.</p>
+    <p>Want to hear from a current Vassar student? Find a time that works for your schedule and speak with a current Vassar student by phone or text. Our students speak to alums regularly about their Vassar experiences, updates from campus, and giving back to the Vassar Fund.</p>
 
     <?php echo cta_link(
-        'https://www.givecampus.com/c5fm3q',
-        'Give'
+        'https://docs.google.com/forms/d/e/1FAIpQLSfGBq66NtL3NblNSCVH1ItN4Zo4kBcUb-I2v3-cGb3ft_byIg/viewform',
+        'Request a call from a student.'
     ); ?>
 
 </div>
