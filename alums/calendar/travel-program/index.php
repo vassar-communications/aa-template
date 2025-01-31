@@ -78,10 +78,11 @@ June 19-July 1, 2025</p>
 <p><strong>Cost:</strong> $6,950 per person double occupancy/$1,700 single supplement (not including international airfare)</p>
 
 <p>Dr. Epstein will explore how this region shaped the three major monotheistic religions—a subject central to both his teaching and research. From impressive mosques, to the remnants of synagogues, to the great Christian sites that resonate with shared artistic and spiritual traditions, every site has been chosen to deepen appreciation for this crossroads of history. In addition to Madrid, Barcelona and Sevilla, experience the vibrant streets of Córdoba, the awe-inspiring Alhambra in Granada, and the synagogues of Toledo.</p>
+<p><strong>Spaces are filling up quickly!</strong></p>
 
 <?php echo cta_link(
     '/alums/assets/pdf/SPAIN_VC_ALUMS_2025_itinerary_V2.pdf',
-    'View the full Spanish trip itinerary and reserve your place.'
+    'View the full Spain itinerary and reserve your place now.'
 
 ); ?>
 
