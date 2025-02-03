@@ -37,7 +37,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_hasColumns(
     'The Vassar Fund <br> Every Gift Matters',
     '3',
-    '<p>The Vassar Fund supports all areas of the College from financial aid and our need-blind admissions policy to faculty and student research to preserving our beautiful campus.<p>',
+    '<p>The Vassar Fund supports all areas of the College from financial aid and our need-blind admissions policy to faculty and student research to preserving our beautiful&nbsp;campus.<p>',
     'mw-inner-4 theme-cream',
     'gap-3 items-equal-height'
 ); ?>
