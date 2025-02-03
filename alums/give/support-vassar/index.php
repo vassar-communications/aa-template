@@ -157,7 +157,7 @@ $page_info = json_decode($page_info, true);
     ]
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>The Vassar Fund impacts all areas of a Vassar student's experience. Your gift will bolster the College's commitment to robust financial aid packages for incoming students, dynamic faculty and student research, and vibrant student life.</p>
+    <p>The Vassar Fund impacts all areas of a Vassar student’s experience. Your gift will bolster the College’s commitment to robust financial aid packages for incoming students, dynamic faculty and student research, and vibrant student life.</p>
 
     <?php echo cta_link(
         'https://www.givecampus.com/c5fm3q',
