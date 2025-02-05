@@ -81,7 +81,7 @@ June 19-July 1, 2025</p>
 <p><strong>Spaces are filling up quickly!</strong></p>
 
 <?php echo cta_link(
-    '/alums/assets/pdf/SPAIN_VC_ALUMS_2025_itinerary_V2.pdf',
+    '/alums/assets/pdf/SPAIN_VC_ALUMS_2025_itinerary_V5.pdf',
     'View the full Spain itinerary and reserve your place now.'
 
 ); ?>
