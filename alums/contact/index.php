@@ -501,16 +501,6 @@ echo contact_card(
 echo end_contact_card();
 
 
-echo contact_card(
-    'Eric Watson',
-    'Associate Director of Leadership Gifts and Athletic Initiatives',
-    [
-      'phone' => '845-437-5414',
-      'email' => 'erwatson@vassar.edu',
-    ]
-);
-echo end_contact_card();
-
 ?>
 </div>
 
