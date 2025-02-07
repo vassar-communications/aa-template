@@ -35,16 +35,16 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_hasColumns(
-    'The Vassar Fund <br> Every Gift Matters',
+    'The Vassar Fund <br> <span class="intro-text">Every Gift Matters</span>',
     '3',
-    '<p>The Vassar Fund supports all areas of the College from financial aid and our need-blind admissions policy to faculty and student research to preserving our beautiful&nbsp;campus.<p>',
+    '<p>The Vassar Fund supports all areas of the College, from financial aid and need-blind admissions to faculty and student research, to preserving Vassar’s beautiful&nbsp;campus.<p>',
     'mw-inner-4 theme-cream',
     'gap-3 items-equal-height'
 ); ?>
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      'Raised to the Vassar Fund',
+      'Raised toward the Vassar Fund',
       $facts[$fiscal_year]['vassar_fund_total'],
       '(Fiscal Year ' . $fiscal_year .')',
       /* 'For the ' . $current_school_year . ' school year', */
@@ -160,7 +160,7 @@ $page_info = json_decode($page_info, true);
     <p>The Vassar Fund impacts all areas of a Vassar student’s experience. Your gift will bolster the College’s commitment to robust financial aid packages for incoming students, dynamic faculty and student research, and vibrant student life.</p>
 
     <?php echo cta_link(
-        'https://www.givecampus.com/c5fm3q',
+        'https://www.givecampus.com/37tevc',
         'Make a Gift.'
     ); ?>
 
@@ -180,7 +180,7 @@ $page_info = json_decode($page_info, true);
 
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Donors who have made gifts to the Vassar Fund for three consecutive fiscal years or have established a recurring gift at Vassar are included in the 1861 Loyalty Society. Make a gift to the Vassar Fund today to start your own giving streak and join our most loyal donors in giving back each year!</p>
+    <p>Donors who have made gifts to the Vassar Fund for three or more consecutive fiscal years or have established a recurring gift at Vassar are included in the 1861 Loyalty Society. Make a gift to the Vassar Fund today to start your own giving streak and join our most loyal donors in giving back each year!</p>
 
     <?php echo cta_link(
         'https://connect.vassar.edu/s/1654/20/giving/landing.aspx?sid=1654&gid=2&pgid=6088',
