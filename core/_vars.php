@@ -54,6 +54,7 @@ $class_stats['students_of_color'] = '37%';
 $class_stats['languages_spoken'] = '51';
 $class_stats['students_receiving_finaid'] = '59.8%';
 $class_stats['average_gpa'] = '3.9/4.0'; //used on Alums > Give Back > Support Vassar page
+$class_stats['sat_combined_average'] = '1488'; //used on Alums > Give Back > Support Vassar page
 
 //  This indicates the total number
 //  of countries students have come from - not just the ones
