@@ -110,8 +110,8 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      'Percentage of students of color',
-      $facts['students_of_color'],
+      'SAT Combined Average, class of ' . $class_stats['class_year'],
+      $class_stats['sat_combined_average'],
       '',
       'stat-value-small',
       [
