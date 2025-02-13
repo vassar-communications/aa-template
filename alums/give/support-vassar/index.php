@@ -84,12 +84,12 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_stat(
-      'Average class size',
-      $facts['average_class_size'],
+      'Student : Faculty ratio',
+      $facts['student_faculty_ratio'],
       '',
       'stat-value-small',
       [
-        'format_number' => true,
+        'format_number' => false,
         'unit' => ''
       ]
     ); ?>
