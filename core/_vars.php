@@ -19,6 +19,7 @@ $facts['number_of_faculty'] = '358';
 $facts['student_faculty_ratio'] = '8:1';
 $facts['average_class_size'] = '19';
 $facts['average_finaid_award'] = '$58,722';
+$facts['students_of_color'] = '37%'; //used on Alums > Give Back > Support Vassar page
 
 $facts['number_of_majors'] = '50';
 $facts['number_of_alums'] = '41,000';
@@ -44,6 +45,7 @@ $deadlines['finaid-fall-transfer'] = 'March 15';
 $deadlines['finaid-spring-transfer'] = 'November 1';
 $deadlines['finaid-returning'] = 'May 1';
 
+$class_stats['class_year'] = '2028'; //used on Alums > Give Back > Support Vassar page
 $class_stats['number_of_countries'] = '53';
 $class_stats['number_of_states'] = '49';
 $class_stats['percentage_male'] = '38.4%';
@@ -51,6 +53,8 @@ $class_stats['percentage_female'] = '61.6%';
 $class_stats['students_of_color'] = '37%';
 $class_stats['languages_spoken'] = '51';
 $class_stats['students_receiving_finaid'] = '59.8%';
+$class_stats['average_gpa'] = '3.9/4.0'; //used on Alums > Give Back > Support Vassar page
+$class_stats['sat_combined_average'] = '1488'; //used on Alums > Give Back > Support Vassar page
 
 //  This indicates the total number
 //  of countries students have come from - not just the ones
@@ -68,3 +72,11 @@ $class_stats['1st-gen-students'] = '14%';
 $after_vassar['six_months_out'] = '93%';
 $after_vassar['law_school_admit_rate'] = '86%';
 $after_vassar['med_school_admit_rate'] = '78%';
+
+//these are additional values specifically for the alums website > Give Back > Support Vassar page
+$fiscal_year = '2023-2024';
+$common_data_set = '2023-2024';
+$facts[$fiscal_year]['vassar_fund_total'] = '9.4M';
+$facts[$common_data_set]['avg_Vassar_need_based_scholarship_pkg_award'] = 61252;
+$facts[$common_data_set]['number_students_receiving_need_based_scholarships_grants'] = 1337;
+
