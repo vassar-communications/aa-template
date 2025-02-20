@@ -1,4 +1,3 @@
-
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
@@ -8,8 +7,8 @@ include($project_paths['main_project_root'].'/functions.php');
 /* PAGE INFO === */
 
 $page_info = '{
-  "page_title": "Virtual Programs",
-  "feature_image": "/admission/assets/images/visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2033.jpg"
+    "page_title": "Virtual Programs",
+    "feature_image": "/admission/assets/images/visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2033.jpg"
 }';
 
 /* === */
@@ -18,8 +17,8 @@ $page_info = json_decode($page_info, true);
 
 /*
 $page_info = [
-  'page_title' => 'Virtual Programs',
-  'feature_image' => $admission_img_path.'visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2033.jpg'
+    'page_title' => 'Virtual Programs',
+    'feature_image' => $admission_img_path.'visit/virtual/0191-19-10-ali-quad-drone-vassar-vb-2033.jpg'
 ];
 
 
@@ -33,7 +32,7 @@ $page_info = [
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Aerial view of the residential quad on Vassar Campus']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Aerial view of the residential quad on Vassar Campus']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -60,69 +59,26 @@ $page_info = [
 <div class="animate-when-content-appears animation-slide-up ">
     <p class="tagline  mb-2">Virtual Information Sessions</p>
 
-      <p>Learn about academics, student life, the application process, and financial aid, and ask your questions about Vassar.</p>
+    <p>Learn about academics, student life, the application process, and financial aid, and ask your questions about Vassar.</p>
     <p class="tagline  mb-2">Student Q&As</p>
-        <p>Meet current students on Zoom and ask your questions about academics, involvement, and what it’s like to be a Vassar College student.</p>
+    <p>Meet current students on Zoom and ask your questions about academics, involvement, and what it’s like to be a Vassar College student.</p>
 
-        <?php echo cta_button(
-          'https://apply.vassar.edu/portal/campusvisitcalendar',
-          'Register Now'
-        ); ?>
+    <?php echo cta_button(
+    'https://apply.vassar.edu/portal/campusvisitcalendar',
+    'Register Now'
+); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
-
-<?php echo sec_regularContent(
-    'Video Campus Tour',
-    'theme-dark-burgundy section-large-title mw-inner-2',
-    'content-classes'
-); ?>
-
-
-<?php /*  <p class="text-center mb-5">Preview the Vassar campus in this 30-minute video tour.</p> */ ?>
-
-  <?php echo item_imageCard_videoModal(
-      'Preview the Vassar campus in this 30-minute video tour.',
-      null,
-      'https://player.vimeo.com/video/531201548',
-      'vimeo',
-      '',
-      ['url' => '/admission/assets/images/visit/virtual/tour-video-still.jpg',
-          'alt' => 'Aerial view of a brick campus building, the New England Building'
-      ],
-      'animation-item grid-item text-at-bottom text-white'
-  ); ?>
-
-<?php echo end_sec_regularContent(); ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 <?php echo sec_hasColumns(
-    'More Online Resources',
-    3,
-    null,
-    'theme-cream',
-    ''
-); ?>
+                    'More Online Resources',
+                    3,
+                    null,
+                    'theme-cream',
+                    ''
+                ); ?>
 
 
 <?php echo item_cardWithText(
@@ -173,10 +129,6 @@ $page_info = [
 
 
 
-
-
-
-
 <?php echo sec_fullBleedImageColumn(
     'Buildings and Belonging',
     $admission_img_path.'visit/virtual/Urban_Center_Black_Studies_SPC.jpg',
@@ -185,21 +137,15 @@ $page_info = [
     ['img_alt_text' => 'Historical black and white photo of the Urban Center for Black Studies, Poughkeepsie, NY']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-<p>Buildings and Belonging is a digital tool and self-guided campus tour that celebrates, honors, and remembers the contributions of African-American community members whose presence and contributions have shaped Vassar.</p>
+    <p>Buildings and Belonging is a digital tool and self-guided campus tour that celebrates, honors, and remembers the contributions of African-American community members whose presence and contributions have shaped Vassar.</p>
 
-<?php echo cta_link(
-  'https://www.vassar.edu/buildings-and-belonging',
-  'Buildings & Belongings Map'
+    <?php echo cta_link(
+    'https://www.vassar.edu/buildings-and-belonging',
+    'Buildings & Belongings Map'
 ); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-
-
-
-
 
 
 
