@@ -358,7 +358,7 @@ function site_footer() {
           <ul class="inline-list">
           <li> <a href="https://offices.vassar.edu/campus-safety/statistics/" class="me-3 my-2 white-on-hover">Annual Security and Fire Safety Report</a></li>
           <li class="consumer-information">
-            <a href="https://offices.vassar.edu/institutional-research/consumer-information">Consumer Information (HEOA)</a>
+            <a href="https://offices.vassar.edu/institutional-research/consumer-information" class="me-3 my-2 white-on-hover">Consumer Information (HEOA)</a>
           </li>
           <li> <a href="https://offices.vassar.edu/eoaa/" class="me-3 my-2 white-on-hover">Title IX</a></li>
           </ul>
