@@ -684,7 +684,7 @@ End of hiding board slate content*/ ?>
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
 <div class="position">AAVC Board Director</div>
-<div class="location">Pennsylvania and Massachusetts</div>
+<div class="location">Massachusetts</div>
 <div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
     null,
