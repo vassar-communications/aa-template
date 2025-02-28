@@ -56,17 +56,17 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-community/aavc/awards/Sau-Lan-Wu-distinguished-ach-2024.jpg',
+    '/alums/assets/img/alums-community/aavc/awards/CarolynMerchant-1936-ByRobertHolmgren.jpg',
     'image-is-first',
     '',
-    ['img_alt_text' => 'A person with long black hair wearing a red and black patterned jacket stands in front of a blackboard with equations written on it, holding a microphone and smiling.']
+    ['img_alt_text' => 'A person with short gray hair wearing a light gray jacket over a white shirt leans on stone block in front of green trees.']
 ); ?>
 <h6 class="tagline">2024 Recipient</h6>
-<h1>2024 Distinguished Achievement Award recipient Carolyn Merchant ’58</h1>
+<h1>2024 Distinguished Achievement Award recipient Carolyn Merchant&nbsp;’58</h1>
 
 
 <p><?php echo item_link_VideoModal(
-    'Watch Sau Lan Wu’s 2014 Commencement address via video.',
+    'Watch the Carolyn Merchant video.',
     'https://player.vimeo.com/video/1051648508',
     'vimeo',
     '',
