@@ -103,7 +103,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-  'Staff Directory',
+  'Vassar Advancement Staff Directory',
   'mw-inner-5'
 );
 
