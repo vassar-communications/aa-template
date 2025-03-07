@@ -25,7 +25,7 @@ function item_cardWithText(
 <a href="$card_link_url" class="stretched-link"></a>
   <img src="$card_image_url" class="card-img-top" alt="$card_image_alt">
   <div class="card-body">
-    {$card_title($title, $extras)}
+    <a style="color: currentColor" href="$card_link_url">{$card_title($title, $extras)}</a>
     <div class="card-text">
 
 TMP;
