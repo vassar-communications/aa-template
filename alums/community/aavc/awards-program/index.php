@@ -105,6 +105,10 @@ $page_info = json_decode($page_info, true);
 <h6 class="tagline">2024 Recipient</h6>
 <h1>Stephanie M. Hyacinth ’84</h1>
 
+<?php echo cta_link(
+    'https://www.vassar.edu/news/celebrating-excellence',
+     'Read More About Stephanie Hyacinth.'
+); ?>
 
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -168,26 +172,28 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-community/aavc/awards/abigail-baird-52957810832_cc603f0fcf_k.jpg',
+    '/alums/assets/img/alums-community/aavc/awards/0003-25-01-lpo-scc-vassar-5975-v3.jpg',
     'image-is-first theme-verylightgray',
     '',
-    ['img_alt_text' => 'Three women of varying ages stand smiling at the camera, with the one in the middle holding a glass plaque.']
+    ['img_alt_text' => 'A group of people standing in a row in front of a fireplace, with two people in the center holding glass awards.']
 ); ?>
-<h6 class="tagline">2023 Recipient</h6>
-<h1>Abigail Baird ’91</h1>
-<p class="intro-text">Professor of Psychological Science on the Arnhold Family Chair</p>
+<h6 class="tagline">2024 Recipients</h6>
+<h1>Stacy Bingham</h1>
+<p class="intro-text">Associate Dean of the College for Career Education</p>
+<h1>Jannette Swanson</h1>
+<p class="intro-text">Director of External Engagement Center for Career Education</p>
 
 <p><?php echo item_link_VideoModal(
-    'Watch the Abigail Baird video.',
-    'https://player.vimeo.com/video/857168905',
+    'Watch the Stacy Bingham and Jannette Swanson video.',
+    'https://player.vimeo.com/video/1050155213',
     'vimeo',
     '',
     'no-arrow btn-link mt-4'
 ); ?></p>
 
 <?php echo cta_link(
-    'https://www.vassar.edu/news/aavc-announces-2023-honorees',
-     'Read more about Abigail Baird.'
+    'https://www.vassar.edu/news/celebrating-excellence',
+     'Read More About Stacy Bingham and Jannette Swanson.'
 ); ?>
 
 

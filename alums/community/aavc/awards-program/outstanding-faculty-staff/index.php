@@ -37,6 +37,24 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
+<h3 class="mt-5">2024</h3>
+
+<h4>Stacy Bingham, Associate Dean of the College for Career Education, and Jannette Swanson, Director of External Engagement Center for Career Education</h4>
+
+<ul class="linked-list">
+  <li>
+    <?php echo item_link_VideoModal(
+        'Watch the Bingham and Swanson award ceremony.',
+        'https://player.vimeo.com/video/1050155213',
+        'vimeo',
+        '',
+        'no-arrow'
+    ); ?>
+  </li>
+	<li><a href="https://www.vassar.edu/news/celebrating-excellence">Read more about Bingham and Swanson in the July 2024 <em>Vassar Stories</em> article.</a></li>
+</ul>
+
+
 <h3 class="mt-5">2023</h3>
 
 <h4>Abigail Baird ’91, Professor of Psychological Science on the Arnhold Family Chair</h4>
@@ -51,7 +69,6 @@ $page_info = json_decode($page_info, true);
         'no-arrow'
     ); ?>
   </li>
-
 	<li><a href="https://www.vassar.edu/news/aavc-announces-2023-honorees">Read more about Baird in the June 2023 <em>Vassar Stories</em> article.</a></li>
 </ul>
 
@@ -70,7 +87,6 @@ $page_info = json_decode($page_info, true);
         'no-arrow'
     ); ?>
   </li>
-
 	<li><a href="https://www.vassar.edu/news/five-alumni-selected-2022-aavc-awards">Read more about Pittman in the June 2022 <em>Vassar Stories</em> article.</a></li>
 </ul>
 

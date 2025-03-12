@@ -417,7 +417,7 @@ End of hiding board slate content*/ ?>
 ); ?>
 <div class="pronouns">(he/him/his)</div>
 <div class="position">AAVC Trustee and Nominating and Governance Committee Member</div>
-<div class="location">California</div>
+<div class="location">Pennsylvania</div>
 <div class="term">Term of Service: 2022–2026</div>
 
 <?php echo end_item_cardWithText(
