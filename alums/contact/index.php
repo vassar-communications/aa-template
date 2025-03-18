@@ -41,9 +41,6 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
-
-<!-- test deploy content here -->
-
 <?php echo interior_page_nav() ?>
 
 <?php /*  PAGE CONTENT === */ ?>
