@@ -35,13 +35,13 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Welcome back!',
-    $alums_img_path.'alums-calendar/reunion/Reunion-52960367243_97df9164f3_k.jpg',
+    $alums_img_path.'alums-calendar/reunion/reunion-52960218489_a3d3ff91f9_o.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'A large group of people walking along a campus road, with some banners displaying class years.']
+    ['img_alt_text' => 'A person stands at a podium in front of a large group of people sitting under a tent, with a large banner behind them that says AAVC in white on a red background.']
 ); ?>
 
-  <p>We look forward to welcoming the classes that graduated in a year ending in 0 or 5, June 6–8, 2025. A preliminary schedule for the weekend is available below. Check back in March for updates.</p>
+  <p>Vassar and the Alumnae/i Association (AAVC) look forward to welcoming the classes that graduated in a year ending in 0 or 5, June 6–8, 2025. Registration will open on April 7. An email will be sent soon with your Vassar ID and link to register.</p>
       <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5.</p>
 <!-- hiding till post-reunion  <br />
    <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who Came to Reunion</a>-->
