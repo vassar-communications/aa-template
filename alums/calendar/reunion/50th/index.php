@@ -584,7 +584,7 @@ $page_info = json_decode($page_info, true);
 
   
     <?php echo schedule_item_dropdown(
-      '5:00-6:00 p.m.',
+      '5:00–6:00 p.m.',
       'Night Owls Concert',
       'Taylor 102'
     ); ?>
