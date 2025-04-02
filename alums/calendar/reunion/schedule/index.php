@@ -619,7 +619,7 @@ lunch. Afterward, we’ll gather outside the barn for a memorial service honorin
 
   
     <?php echo schedule_item_dropdown(
-      '5:00-6:00 p.m.',
+      '5:00–6:00 p.m.',
       'Night Owls Concert',
       'Taylor 102'
     ); ?>
