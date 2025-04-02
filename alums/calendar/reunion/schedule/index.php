@@ -68,12 +68,21 @@ $page_info = json_decode($page_info, true);
   <?php echo end_schedule_item_dropdown(); ?>
 
 
+ <?php echo schedule_item_dropdown(
+    'Noon–1:30 p.m.',
+    'Class of 1965—Boxed lunch',
+    'Main Building, Faculty Parlor, 2nd floor'
+  ); ?>
+
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
   <?php echo schedule_item_dropdown(
     '1:00 p.m.',
     'Jummah Service',
     'Pratt House'
   ); ?>
-    <p>Experience tranquility and spiritual connection by joining Saba Ali, Advisor for Muslim Student Life, for the Jummah prayer service. An adjacent wudu station provides the perfect setting for this sacred gathering.</p>
+    <p>Join Saba Ali, Advisor for Muslim Student Life, for a student-led Jummah prayer service. Gather at Pratt House, home to a wudu area and a central space where the Muslim campus community comes together to worship, study, and share meals.</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -90,12 +99,8 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '2:00–3:00 p.m.',
-    'College-Sponsored Lectures',
+    'Lectures',
   ); ?>
-  
-<!-- hiding for now      <h4>Exploration of <em>The Dream of a Common Movement: Selected Writings of Urvashi Vaid</em> and her contributions to social justice</h4>
-      <p><strong>Location:</strong> Rockefeller 300</p>
-      -->
 
       <h4>Utilizing AI in the Vassar Classroom</h4>
       <p><strong>Location:</strong> New England 105</p>
@@ -108,10 +113,10 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '2:00–3:30 p.m.',
-    'College-Sponsored Tour',
+    'The Environmental Cooperative and the Preserve at Vassar Tour',
   ); ?>
-      <h4>The Environmental Cooperative and Vassar Preserve Tour</h4>
-      <p><strong>Location:</strong> Shuttles depart from Main Circle</p>
+      <h4>Learn more about the Environmental Cooperative and the Preserve at Vassar Tour</h4>
+      <p><strong>Location:</strong> Shuttles depart from Main Drive</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -128,42 +133,87 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '3:30–4:30 p.m.',
-    'College-Sponsored Lectures and Tours',
+    'Lectures and Tours',
   ); ?>
 
-      <h4>Full Circle: An Author’s Reflections and A Professor’s Legacy</h4>
+      <h4>The Third Chapter: Shaking things up after a certain age</h4>
+      <p><strong>Location:</strong> Rockefeller 200</p>
+
+      <h4>Exploration of <em>The Dream of a Common Movement: Selected Writings of Urvashi Vaid</em> (Edited by Jyotsna Vaid and Amy Hoffman, Duke University Press, 2025)</h4>
       <p><strong>Location:</strong> Rockefeller 300</p>
 
-      <h4>The Third Chapter: Shaking things up after a certain age</h4>
+      <h4>Activism then and now</h4>
       <p><strong>Location:</strong> Rockefeller 210</p>
 
-      <h4>Walking Tour of the Vassar College Class Trees</h4>
-      <p><strong>Location:</strong> Meet at the entrance to Main in front of Main Circle.</p>
+     <h4>Walking Tour of the Vassar College Class Trees</h4>
+      <p><strong>Location:</strong> Meet in front of Rockefeller Hall (Library side)</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
     '4:00–5:00 p.m.',
+    '<em>Great Green Hope for the Urban Blues</em>: Art and Myths of the Hudson Valley',
+    'Taylor 203'
+  ); ?>
+  
+  <p>From the birth of the Hudson River School to countercultural artist colonies in Woodstock and beyond, artists have looked to the Hudson Valley as an escape and refuge. John Murphy, the Loeb’s Curator of Prints and Drawings, and Ian Shelley ’22, Curatorial Fellow, discuss their new exhibition <a href="https://www.vassar.edu/theloeb/exhibitions/great-green-hope-urban-blues"><em>Great Green Hope for the Urban Blues</em></a>, which looks back at two centuries of artmaking in the Hudson Valley, exploring the region’s enduring appeal as well as what lies beneath the surface.</p>
+
+   <?php echo end_schedule_item_dropdown(); ?>
+  
+  
+  <?php echo schedule_item_dropdown(
+    '4:00–5:00 p.m.',
     'Labyrinth Walk and Pratt House Open House',
     'Pratt House'
   ); ?>
   
-  <p>Come experience the new labyrinth on campus and get a tour of Pratt House, the new hub for Religious and Spiritual Life and Contemplative Practices (RSLCP) at the College.</p>
-<p>The labyrinth tour will be hosted by Associate Professor of Psychological Science Carolyn Palmer and Katilau Mbindyo ’14, an alum who advocated for a permanent labyrinth at Vassar throughout her student years.</p>
-<p>The open house will be hosted by Saba Ali, Advisor for Muslim Student Life; Rabbi Bryan Mann, Rachlin Director for Jewish Student Life and Assistant Director, RSLCP; and Rev. Sam Speers, Associate Dean of the College for RSLCP. Refreshments will be served.</p>
+  <p>Explore the Pratt Labyrinth and tour Pratt House, the hub for Religious and Spiritual Life and Contemplative Practices (RSLCP).</p>
+<ul>
+	<li><strong>Labyrinth Walk:</strong> Hosted by Associate Professor of Psychological Science Carolyn Palmer.</li>
+	<li><strong>Pratt House Open House:</strong> Hosted by Saba Ali, Advisor for Muslim Student Life; Rabbi Bryan Mann, Rachlin Director for Jewish Student Life & Assistant Director for RSLCP; and Rev. Sam Speers, Associate Dean of the College for RSLCP.</li>
+</ul>
 
    <?php echo end_schedule_item_dropdown(); ?>
   
   
   <?php echo schedule_item_dropdown(
     '5:00–6:00 p.m.',
-    'Night Owls Rehearsal (tentative)',
+    '“Friends of Bill”',
+    'Rockefeller 112'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
+
+  
+  <?php echo schedule_item_dropdown(
+    '5:00–6:00 p.m.',
+    'Night Owls Rehearsal',
     'Rockefeller 200'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
 
   
+  <?php echo schedule_item_dropdown(
+    '5:00–6:00 p.m.',
+    'Class of 1985—Welcome Reception',
+    'Palmer Gallery, College Center'
+  ); ?>
+  <p>“Connecting Through the Camera: The Class of 1985 Portrait Project”</p>
+
+   <?php echo end_schedule_item_dropdown(); ?>
+
+  
+   <?php echo schedule_item_dropdown(
+    '5:00–6:30 p.m.',
+    'Class of 1975 sponsors a Musicale Bacchanale',
+    'Bridge for Laboratory Sciences'
+  ); ?>
+  
+  <p>Come and enjoy light refreshments and an all-reunion “Musicale Bacchanale.” Featuring alums of all reunion classes presenting performances showcasing a variety of musical genres!</p>
+
+   <?php echo end_schedule_item_dropdown(); ?>
+ 
+ 
     <?php echo schedule_item_dropdown(
     '5:00–7:00 p.m.',
     'All-Class Welcome Reception at the Loeb',
@@ -174,35 +224,36 @@ $page_info = json_decode($page_info, true);
    <?php echo end_schedule_item_dropdown(); ?>
 
 
-   <?php echo schedule_item_dropdown(
-    '5:00–7:00 p.m.',
-    'Class of 1975 sponsors a Musicale Bacchanale',
-    'Bridge for Laboratory Sciences'
-  ); ?>
-  
-  <p>Come and enjoy light refreshments and an all-reunion “Musicale Bacchanale.” </p>
-
-   <?php echo end_schedule_item_dropdown(); ?>
- 
- 
   <?php echo schedule_item_dropdown(
     '5:30–6:45 p.m.',
     'Shabbat Service',
     'The Bayit (51 Collegeview Avenue, North Gate)'
   ); ?>
+  <p>Celebrate Shabbat with the campus community in a welcoming and peaceful gathering. Join us for prayers and reflection as we take part in this weekly tradition.</p>
+
    <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
     '6:00–7:00 p.m.',
-    'Faculty Reception',
+    'Reception with Vassar Faculty members',
     'Thompson Memorial Library Lawn Tent'
+  ); ?>
+  <p>Please join your favorite professors and meet new faculty under the Library lawn tent. Interim Dean of Faculty Brian Daly will deliver an update on the latest academic news on campus.</p>
+
+   <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '6:00–7:00 p.m',
+    'Class of 1970 Welcome Reception',
+    'Main Building, Jade Parlor, 2nd floor'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
-    '6:30–9:30 p.m.',
+    '6:30–9:15 p.m.',
     'Class of 1965 Reception and Dinner',
     'The Vassar Institute for Liberal Arts, Elm room'
   ); ?>
@@ -210,15 +261,15 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '6:30–9:30 p.m.',
-    'Class of 1970 Reception and Dinner',
-    '2nd floor Main Building'
+    '7:00–9:15 p.m.',
+    'Class of 1970 Dinner',
+    'Main Building, 2nd floor'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
-    '7:00–9:30 p.m.',
+    '7:00–9:15 p.m.',
     'Picnic Dinner'
   ); ?>
 <p><strong>Classes of 1950, 1955, 1960:</strong> 2nd floor Main Building</p>
@@ -227,19 +278,37 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '9:30 p.m.',
+    '9:15 p.m.',
     'Fireworks over Sunset Lake',
     null,
     null,
     ['noContent' => true]
   ); ?>
 
+
+  <?php echo schedule_item_dropdown(
+    '9:15–10:30 p.m.',
+    'Class of 1965 Night Caps',
+    'The Heartwood, Night Owls Bar'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '9:45 p.m.',
+    'Screening of <em>The World According to Allee Willis</em>',
+    'Vogelstein Center For Drama and Film, Rosenwald Theater',
+  ); ?>
+<p>Co-executive produced by Prudence Fenton ’75, <em>The World According to Allee Willis</em> chronicles the life of Fenton’s partner of 27 years, songwriter/artist Allee Willis. Willis is best known for writing the Friends theme song, the Earth, Wind & Fire mega-hits “September” and “Boogie Wonderland,” as well as the Broadway musical <em>The Color Purple</em>. She began filming her life as a kid in 1950s Detroit and never stopped. Willis pursued creative expression at all costs while struggling with not fitting established gender and sexual norms...until she found a path to love.</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
   <?php echo schedule_item_dropdown(
     '10 p.m.–midnight',
     '“Block” Party at Noyes Circle',
     'Noyes Circle Tent',
   ); ?>
-<p>This very special event is being hosted by the Class of ’75 and the Class of ’80. Classic songs from our favorite era performed live by The Never Going Back To My Old School Band featuring Vassar classmates Bill Block and Drew Zingg with some very special musical guests!</p>
+<p>This very special event is being hosted by the Class of 1975 and the Class of 1980. Classic songs from our favorite era performed live by The Never Going Back To My Old School Band featuring Vassar classmates Bill Block and Drew Zingg with some very special musical guests!</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -247,7 +316,7 @@ $page_info = json_decode($page_info, true);
     'The Mug',
     'Lower Level, College Center'
   ); ?>
-  <p>Join us at the Mug for music from the 80s and 90s. Don’t forget to wait in line. Everyone 21 and older is welcome. Cash bar, DJ, and dancing.</p>
+  <p>Join us at the Mug for music from the ’80s and ’90s. Don’t forget to wait in line. Everyone 21 and older is welcome. Cash bar, DJ, and dancing.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -258,6 +327,7 @@ $page_info = json_decode($page_info, true);
     'Breakfast',
     'Gordon Commons (formerly ACDC)',
   ); ?>
+<p>(included for those staying on campus, credit card accepted for those staying off campus)</p>
 <p><strong>Alumnae House Guests:</strong> Continental breakfast in the Dining Room</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
@@ -265,7 +335,7 @@ $page_info = json_decode($page_info, true);
   <?php echo schedule_item_dropdown(
     '8:00–10:00 a.m.',
     'Classes of 1965 and 1970',
-    'Jewett Multipurpose Rooms'
+    'Main Building, 3rd floor multipurpose room'
   ); ?>  
 <p>Coffee service, muffins, and fruit.</p>
 
@@ -285,7 +355,7 @@ $page_info = json_decode($page_info, true);
     'Residence halls open for check-in'
   ); ?>
 
-    <!--<p><a href="https://www.vassar.edu/alums/calendar/reunion#flush-headingOne">Find your Dorm Headquarters</a>.</p>-->
+    <p><a href="https://www.vassar.edu/alums/calendar/reunion#flush-headingOne">Find your Dorm Headquarters</a>.</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -303,7 +373,7 @@ $page_info = json_decode($page_info, true);
     '10:30 a.m.',
     'Line up for Parade of Classes'
   ); ?>
-  <p>Line starts with 1955 at the chapel along the path and ends with 2020. Look for your class banner along the parade route. Arrive early to gather for a class photo. Golf carts will be available.</p>
+  <p>Line starts with 1945 at the chapel along the path and ends with 2020. Look for your class banner along the parade route. Arrive early to gather for a class photo. Golf carts will be available.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -336,6 +406,14 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
+    '12:30–1:00 p.m.',
+    'Class of 1990 Memorial Service',
+    'Class Tree, Sunset Lake bridge'
+  ); ?>
+    <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
     '12:30–2:30 p.m.',
     'Class Luncheons',
     null
@@ -343,6 +421,16 @@ $page_info = json_decode($page_info, true);
 <p><strong>Classes of 1955, 1960, and 1970:</strong> Main Building, Villard Room</p>
 <p><strong>Class of 1965:</strong> Vassar Barn</p>
 <p><strong>Classes of 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, and 2020:</strong> Gordon Commons (formerly ACDC)</p>
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '12:30–3:00 p.m.',
+    'Class of 1965 Table Talk lunch ',
+    'Vassar Barn'
+  ); ?>
+<p>Join classmates in exploring thought-provoking topics during a Table Talk 
+lunch. Afterward, we’ll gather outside the barn for a memorial service honoring the classmates we’ve lost over the years.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -379,6 +467,14 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
+    '1:30 p.m.',
+    'Class of 1985 Memorial Service',
+    'Class Tree, East of Rockefeller Hall'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
     '2:00–3:00 p.m.',
     'The Loeb Art Center Curatorial Tours',
     null
@@ -389,10 +485,14 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '2:00–3:30 p.m.',
-    'The Vassar Institute for the Liberal Arts and The Heartwood',
-    'The Vassar Institute for the Liberal Arts, Elm room'
+    'Lectures',
   ); ?>
-    <p>Join Robert Brigham, Professor of History and the Inaugural Faculty Director of The Vassar Institute for the Liberal Arts, and Maryann Pilon, Director of Project Management and Construction for a presentation about the College’s newest community resource and a look into early Institute programming followed by Q&A.</p>
+
+      <h4>The Vassar Institute for the Liberal Arts and The Heartwood</h4>
+      <p><strong>Location:</strong> The Vassar Institute for the Liberal Arts, Elm room</p>
+
+      <h4>Full Circle: An Author’s Reflections and A Professor’s Legacy</h4>
+      <p><strong>Location:</strong> Rockefeller 300</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -428,12 +528,20 @@ $page_info = json_decode($page_info, true);
     'Family Activities',
     null
   ); ?>
-    <h4>Bouncy castles, live music, balloon twister, lawn games</h4>
+    <h4>Tennis anyone?</h4>
+    <p>Come and join Jennifer Echevarria ’05 and the Class of 2005 for tennis fun at the courts. Please bring your own racket and tennis balls.<br />
+    <strong>Location:</strong> Behind Josselyn House</p>
+
+    <h4>Looking to play a little softball?</h4>
+    <p>Join Julia Phillips ’00 and the Class of 2000 for a friendly game.<br />
+    <strong>Location:</strong> Prentiss Sports Complex</p>
+
+    <h4>Bouncy castles, live music, balloon twister, and lawn games</h4>
     <p><strong>Location:</strong> Quad lawn</p>
 
     <h4>Creativity In Action: Button-Making at the Innovation Lab</h4>
-    <p>Hands-on button-making activity at the Innovation Lab! Join us in the makerspace to design and craft your own personalized buttons—perfect keepsakes or conversation starters for reunion weekend. Whether you’re feeling nostalgic, inspired, or just ready to have fun, this event is for all skill levels.</p>
-    <p><strong>Location:</strong> Innovation Lab, lower level of the College Center (the old bookstore)</p>
+    <p>Hands-on button-making activity at the Innovation Lab! Join us in the makerspace to design and craft your own personalized buttons—perfect keepsakes or conversation starters for reunion weekend. Whether you’re feeling nostalgic, inspired, or just ready to have fun, this event is for all skill levels.<br />
+    <strong>Location:</strong> Innovation Lab, lower level of the College Center (the old bookstore)</p>
 
     <h4>A Day in the Park</h4>
     <p><strong>Location:</strong> The Wimpfheimer</p>
@@ -460,18 +568,28 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '3:00–5:00 p.m.',
-    'Multicultural and Affinity Group Receptions',
-    null
+    'Affinity Connections',
+    'Main Building, 1st and 2nd floors, and the Jeh Vincent Johnson ALANA Cultural Center'
   ); ?>
-  <p>Join us for an unforgettable experience at the Multicultural and Affinity Group Receptions! Connect with alums from diverse backgrounds and establish lasting relationships in an inclusive and intersectional setting. Indulge in delicious ethnic foods while you visit receptions tailored to alum-athletes, Black/African American alums (AAAVC members), first-generation, low-income (FLI) alums (formerly Transitions), international alums, LGBTQ+ alums, and WVKR alums.</p>
+  <p>Reconnect, reminisce, and celebrate community during <strong>Affinity Connections</strong> at Reunion Weekend! These gatherings bring together alums with shared experiences.</p>
+<ul>
+	<li><strong>AAAVC:</strong> African American Alumnae/i of Vassar College </li>
+	<li><strong>AANHPI:</strong> Asian American and Native Hawaiian/Pacific Islander alums</li>
+	<li><strong>Athletics:</strong> Brewers alum-athletes and coaches</li>
+	<li><strong>FLI:</strong> First-generation alums (formerly Transitions)</li>
+	<li><strong>International Alums:</strong> Vassar’s global alum community</li>
+	<li><strong>Jeh Vincent Johnson ALANA Cultural Center:</strong> ALANA student organization members and affiliated alums</li>
+	<li><strong>LGBTQ+ Alums:</strong> Alums connected to the LGBTQ Center and community</li>
+	<li><strong>WVKR Alums:</strong> Independent radio station alums and friends</li>
+</ul>
+<p>All are welcome!</p>
 
-<p>The receptions will take place in the Campus Center North Atrium and Main parlors. Additionally, the Jeh Vincent Johnson ALANA Cultural Center will host an ALANA Alum Open House during the same time. All ALANA Center affiliated alums are welcome, including Black/African American, Latiné, Asian, Asian American, South Asian, Native Hawaiian, Pacific Islander, Native American, Indigenous alums, and former members of ALANA student organizations. Don’t miss out on this unique opportunity to connect and create new memories!</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
     '3:30–4:30 p.m.',
-    'College-Sponsored Lectures and Tours'
+    'Lectures and Tours'
   ); ?>
 
   <h4>The Science of Food Shopping in a Postpan World</h4>
@@ -501,9 +619,17 @@ $page_info = json_decode($page_info, true);
   <?php echo end_schedule_item_dropdown(); ?>
 
 
+  <?php echo schedule_item_dropdown(
+    '5:00–6:00 p.m.',
+    '“Friends of Bill”',
+    'Rockefeller 112'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
+
+  
     <?php echo schedule_item_dropdown(
       '5:00-6:00 p.m.',
-      'Night Owls Concert (tentative)',
+      'Night Owls Concert',
       'Taylor 102'
     ); ?>
       <?php echo end_schedule_item_dropdown(); ?>
@@ -520,7 +646,7 @@ $page_info = json_decode($page_info, true);
     <?php echo schedule_item_dropdown(
     '6:15 p.m.',
     'Class of 1970 Photo',
-    'Rockefeller Hall steps facing Main Building'
+    'President’s House porch'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
 
@@ -538,11 +664,21 @@ $page_info = json_decode($page_info, true);
     'Class Receptions and Dinners',
       null
     ); ?>
-      <p><strong>1955 and 1960:</strong> Alumnae House Dining Room</p>
-  		<p><strong>1965:</strong> Alumnae House Living Room
-  		<br />Class photo on Alumnae House steps</p>
-  		<p><strong>1970:</strong> 2nd Floor, Main Building, Faculty Parlor
-  		<br />Demitasse will be served following dinner</p>
+      <p><strong>1945, 1950, and 1955:</strong> Alumnae House Pub</p>
+  		<p><strong>1960:</strong> Alumnae House Dining Room</p>
+  		<ul>
+	        <li>Class photo on Alumnae House steps</li>
+	        <li>Survey results revealed</li>
+        </ul>
+  		<p><strong>1965:</strong> Alumnae House Living Room</p>
+        <ul>
+            <li>Class photo on Alumnae House steps</li>
+            <li>Nightcaps following dinner at the Heartwood, Night Owls Bar</li>
+        </ul>
+  		<p><strong>1970:</strong> 2nd Floor, Main Building, Faculty Parlor</p>
+        <ul>
+            <li>Demitasse will be served following dinner</li>
+        </ul>
   		<p><strong>1980:</strong> Bridge for Laboratory Sciences</p>
   		<p><strong>1985:</strong> Rose Parlor and the Villard Room, 2nd floor, Main Building</p>
   		<p><strong>1990:</strong> Sunset Lake Tent</p>
@@ -569,14 +705,15 @@ $page_info = json_decode($page_info, true);
     'Breakfast/Brunch',
     'Gordon Commons (formerly ACDC)',
   ); ?>
-		<p><strong>Alumnae House Guests:</strong> Continental breakfast in the Dining Room</p>
+    <p>(included for those staying on campus, credit card accepted for those staying off campus)</p>
+	<p><strong>Alumnae House Guests:</strong> Continental breakfast in the Dining Room</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
     '8:00–10:00 a.m.',
     'Classes of 1965 and 1970',
-    'Jewett Multipurpose Rooms'
+    'Main Building, 3rd floor multipurpose room'
   ); ?>
   
     <p>Coffee service, muffins, and fruit.</p>
@@ -622,7 +759,18 @@ $page_info = json_decode($page_info, true);
       'The Chapel'
     ); ?>
     
-    <p>An inter-religious gathering drawing upon religious and humanist traditions to honor and celebrate the women and men of our reuning classes who have died since the last reunion, as well as faculty, administrators, and staff who have died. The Alumnae/i Choir will sing, directed by Gail Archer, College Organist.</p>
+    <p>A service honoring members of our reuning classes, as well as faculty, administrators, and staff who have passed since the last reunion. Rooted in religious and humanist traditions, this service offers a time for remembrance. The Alumnae/i Choir and College Organist Gail Archer will perform.</p>
+
+    <?php echo end_schedule_item_dropdown(); ?>
+
+
+    <?php echo schedule_item_dropdown(
+      'Noon–1:00 p.m.',
+      'Former Reunion Student Worker Meet and Greet',
+      'Outside the Aula'
+    ); ?>
+    
+    <p>Remember your days as a student working Reunion at Vassar? Now you’re a returning alum! Come to reminisce and get to know some of our current student workers. Light refreshments will be served, and guests and families are welcome.</p>
 
     <?php echo end_schedule_item_dropdown(); ?>
 
