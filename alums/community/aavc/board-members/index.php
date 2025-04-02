@@ -430,7 +430,7 @@ End of hiding board slate content*/ ?>
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">AAVC Trustee, Nominating and Governance Committe Member, Communications Advisory Committee Member, and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
+<div class="position">AAVC Trustee and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
 <div class="location">New Jersey</div>
 <div class="term">Term of Service: 2018–2028</div>
 <?php echo end_item_cardWithText(
@@ -548,7 +548,7 @@ End of hiding board slate content*/ ?>
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">Nominating and Governance Committee Vice Chair</div>
+<div class="position">Nominating and Governance Committee Vice Chair and Alumnae House Committee Member</div>
 <div class="location">Georgia</div>
 <div class="term">Term of Service: 2020–2028</div>
 <?php echo end_item_cardWithText(
@@ -593,7 +593,7 @@ End of hiding board slate content*/ ?>
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(they/them/he/him)</div>
-<div class="position">Nominating and Governance Committee Member</div>
+<div class="position">Nominating and Governance Committee Member and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2021–2025</div>
 <?php echo end_item_cardWithText(
@@ -608,7 +608,7 @@ End of hiding board slate content*/ ?>
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">Nominating and Governance Committee Member and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
+<div class="position">Nominating and Governance Committee Member and Ad Hoc Diversity, Equity, and Inclusion Committee Vice Chair</div>
 <div class="location">Oregon</div>
 <div class="term">Term of Service: 2022–2026</div>
 <?php echo end_item_cardWithText(
@@ -623,7 +623,7 @@ End of hiding board slate content*/ ?>
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">AAVC Board Director</div>
+<div class="position">Nominating and Governance Committee Member</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
@@ -638,7 +638,7 @@ End of hiding board slate content*/ ?>
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">AAVC Board Director</div>
+<div class="position">Alum Recognition Committee Member and Vassar Fund Committee Member</div>
 <div class="location">Maryland</div>
 <div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
@@ -653,7 +653,7 @@ End of hiding board slate content*/ ?>
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">Alumnae House Committee Member</div>
+<div class="position">Alumnae House Committee Member and Nominating and Governance Committee Member</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2022–2026</div>
 <?php echo end_item_cardWithText(
@@ -662,13 +662,13 @@ End of hiding board slate content*/ ?>
 
 
 <?php echo item_cardWithText(
-    'Kerri Tillett&nbsp;’91',
+    'Kerri Tillett&nbsp;’91 (On&nbsp;leave)',
     '/alums/community/aavc/board-members/aavc-board-director-tillett/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/tillett-kerri-aavc-alum.jpg', 'alt' => 'A person with short straight dark hair and glasses wearing a white jacket and black shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">AAVC Board Director</div>
+<div class="position">Alum Recognition Committee Member and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
 <div class="location">Massachusetts/North Carolina</div>
 <div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
@@ -683,7 +683,7 @@ End of hiding board slate content*/ ?>
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">AAVC Board Director</div>
+<div class="position">Career Networking Committee Member and Vassar Fund Committee Member</div>
 <div class="location">Massachusetts</div>
 <div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
@@ -698,7 +698,7 @@ End of hiding board slate content*/ ?>
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
+<div class="position">Clubs Committee Member</div>
 <div class="location">Rhode Island</div>
 <div class="term">Term of Service: 2021–2025</div>
 <?php echo end_item_cardWithText(
