@@ -113,9 +113,9 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '2:00–3:30 p.m.',
-    'College-Sponsored Tour',
+    'The Environmental Cooperative and the Preserve at Vassar Tour',
   ); ?>
-      <h4>The Environmental Cooperative and the Preserve at Vassar Tour</h4>
+      <h4>Learn more about the Environmental Cooperative and the Preserve at Vassar Tour</h4>
       <p><strong>Location:</strong> Shuttles depart from Main Drive</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
@@ -179,6 +179,14 @@ $page_info = json_decode($page_info, true);
   
   <?php echo schedule_item_dropdown(
     '5:00–6:00 p.m.',
+    '“Friends of Bill”',
+    'Rockefeller 112'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
+
+  
+  <?php echo schedule_item_dropdown(
+    '5:00–6:00 p.m.',
     'Night Owls Rehearsal',
     'Rockefeller 200'
   ); ?>
@@ -195,21 +203,13 @@ $page_info = json_decode($page_info, true);
    <?php echo end_schedule_item_dropdown(); ?>
 
   
-  <?php echo schedule_item_dropdown(
-    '5:00–6:00 p.m.',
-    '“Friends of Bill”',
-    'Rockefeller 112'
-  ); ?>
-   <?php echo end_schedule_item_dropdown(); ?>
-
-  
    <?php echo schedule_item_dropdown(
     '5:00–6:30 p.m.',
     'Class of 1975 sponsors a Musicale Bacchanale',
     'Bridge for Laboratory Sciences'
   ); ?>
   
-  <p>Come and enjoy light refreshments and an all-reunion “Musicale Bacchanale.”</p>
+  <p>Come and enjoy light refreshments and an all-reunion “Musicale Bacchanale.” Featuring alums of all reunion classes presenting performances showcasing a variety of musical genres!</p>
 
    <?php echo end_schedule_item_dropdown(); ?>
  
@@ -278,20 +278,20 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '9:15–10:30 p.m.',
-    'Class of 1965 Night Caps',
-    'The Heartwood, Night Owls Bar'
-  ); ?>
-   <?php echo end_schedule_item_dropdown(); ?>
-
-
-  <?php echo schedule_item_dropdown(
     '9:15 p.m.',
     'Fireworks over Sunset Lake',
     null,
     null,
     ['noContent' => true]
   ); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '9:15–10:30 p.m.',
+    'Class of 1965 Night Caps',
+    'The Heartwood, Night Owls Bar'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
@@ -316,7 +316,7 @@ $page_info = json_decode($page_info, true);
     'The Mug',
     'Lower Level, College Center'
   ); ?>
-  <p>Join us at the Mug for music from the 80s and 90s. Don’t forget to wait in line. Everyone 21 and older is welcome. Cash bar, DJ, and dancing.</p>
+  <p>Join us at the Mug for music from the ’80s and ’90s. Don’t forget to wait in line. Everyone 21 and older is welcome. Cash bar, DJ, and dancing.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -484,7 +484,7 @@ lunch. Afterward, we’ll gather outside the barn for a memorial service honorin
 
 
   <?php echo schedule_item_dropdown(
-    '2:00–3:00 p.m.',
+    '2:00–3:30 p.m.',
     'Lectures',
   ); ?>
 
@@ -619,6 +619,14 @@ lunch. Afterward, we’ll gather outside the barn for a memorial service honorin
   <?php echo end_schedule_item_dropdown(); ?>
 
 
+  <?php echo schedule_item_dropdown(
+    '5:00–6:00 p.m.',
+    '“Friends of Bill”',
+    'Rockefeller 112'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
+
+  
     <?php echo schedule_item_dropdown(
       '5:00-6:00 p.m.',
       'Night Owls Concert',

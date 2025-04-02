@@ -194,10 +194,10 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '2:00–3:30 p.m.',
-    'College-Sponsored Tour',
+    'The Environmental Cooperative and the Preserve at Vassar Tour',
   ); ?>
-      <h4>The Environmental Cooperative and Vassar Preserve Tour</h4>
-      <p><strong>Location:</strong> Shuttles depart from Main Circle</p>
+      <h4>Learn more about the Environmental Cooperative and the Preserve at Vassar Tour</h4>
+      <p><strong>Location:</strong> Shuttles depart from Main Drive</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -243,12 +243,6 @@ $page_info = json_decode($page_info, true);
 
    <?php echo end_schedule_item_dropdown(); ?>
   
-  
-  <?php echo schedule_item_dropdown(
-    '4:00–5:00 p.m.',
-    'Labyrinth Walk and Pratt House Open House',
-    'Pratt House'
-  ); ?>
   
   <?php echo schedule_item_dropdown(
     '4:00–5:00 p.m.',
@@ -369,7 +363,7 @@ $page_info = json_decode($page_info, true);
     'The Mug',
     'Lower Level, College Center'
   ); ?>
-  <p>Join us at the Mug for music from the 80s and 90s. Don’t forget to wait in line. Everyone 21 and older is welcome. Cash bar, DJ, and dancing.</p>
+  <p>Join us at the Mug for music from the ’80s and ’90s. Don’t forget to wait in line. Everyone 21 and older is welcome. Cash bar, DJ, and dancing.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   
@@ -391,6 +385,7 @@ $page_info = json_decode($page_info, true);
     'Full Breakfast',
     'Gordon Commons (formerly ACDC)',
   ); ?>
+<p>(included for those staying on campus, credit card accepted for those staying off campus)</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -413,7 +408,7 @@ $page_info = json_decode($page_info, true);
     '10:30 a.m.',
     'Line up for Parade of Classes'
   ); ?>
-  <p>Line starts with 1955 at the chapel along the path and ends with 2020. Look for your class banner along the parade route. Arrive early to gather for a class photo. Golf carts will be available.</p>
+  <p>Line starts with 1945 at the chapel along the path and ends with 2020. Look for your class banner along the parade route. Arrive early to gather for a class photo. Golf carts will be available.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -448,6 +443,7 @@ $page_info = json_decode($page_info, true);
     'Class Memorial Gathering',
     'The lower level of Commencement Hill'
   ); ?>
+    <p>After lunch, join Reverend Sandye Wilson and Rabbi Liza Stern to memorialize and celebrate the lives of the 71 classmates we have lost during the past 50 years.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -462,10 +458,14 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '2:00–3:30 p.m.',
-    'The Vassar Institute for the Liberal Arts and The Heartwood',
-    'The Vassar Institute for the Liberal Arts, Elm room'
+    'Lectures',
   ); ?>
-    <p>Join Robert Brigham, Professor of History and the Inaugural Faculty Director of The Vassar Institute for the Liberal Arts, and Maryann Pilon, Director of Project Management and Construction for a presentation about the College’s newest community resource and a look into early Institute programming followed by Q&A.</p>
+
+      <h4>The Vassar Institute for the Liberal Arts and The Heartwood</h4>
+      <p><strong>Location:</strong> The Vassar Institute for the Liberal Arts, Elm room</p>
+
+      <h4>Full Circle: An Author’s Reflections and A Professor’s Legacy</h4>
+      <p><strong>Location:</strong> Rockefeller 300</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -524,18 +524,28 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '3:00–5:00 p.m.',
-    'Multicultural and Affinity Group Receptions',
-    null
+    'Affinity Connections',
+    'Main Building, 1st and 2nd floors, and the Jeh Vincent Johnson ALANA Cultural Center'
   ); ?>
-  <p>Join us for an unforgettable experience at the Multicultural and Affinity Group Receptions! Connect with alums from diverse backgrounds and establish lasting relationships in an inclusive and intersectional setting. Indulge in delicious ethnic foods while you visit receptions tailored to alum-athletes, Black/African American alums (AAAVC members), first-generation, low-income (FLI) alums (formerly Transitions), international alums, LGBTQ+ alums, and WVKR alums.</p>
+  <p>Reconnect, reminisce, and celebrate community during <strong>Affinity Connections</strong> at Reunion Weekend! These gatherings bring together alums with shared experiences.</p>
+<ul>
+	<li><strong>AAAVC:</strong> African American Alumnae/i of Vassar College </li>
+	<li><strong>AANHPI:</strong> Asian American and Native Hawaiian/Pacific Islander alums</li>
+	<li><strong>Athletics:</strong> Brewers alum-athletes and coaches</li>
+	<li><strong>FLI:</strong> First-generation alums (formerly Transitions)</li>
+	<li><strong>International Alums:</strong> Vassar’s global alum community</li>
+	<li><strong>Jeh Vincent Johnson ALANA Cultural Center:</strong> ALANA student organization members and affiliated alums</li>
+	<li><strong>LGBTQ+ Alums:</strong> Alums connected to the LGBTQ Center and community</li>
+	<li><strong>WVKR Alums:</strong> Independent radio station alums and friends</li>
+</ul>
+<p>All are welcome!</p>
 
-<p>The receptions will take place in the Campus Center North Atrium and Main parlors. Additionally, the Jeh Vincent Johnson ALANA Cultural Center will host an ALANA Alum Open House during the same time. All ALANA Center affiliated alums are welcome, including Black/African American, Latiné, Asian, Asian American, South Asian, Native Hawaiian, Pacific Islander, Native American, Indigenous alums, and former members of ALANA student organizations. Don’t miss out on this unique opportunity to connect and create new memories!</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
     '3:30–4:30 p.m.',
-    'College-Sponsored Lectures and Tours'
+    'Lectures and Tours'
   ); ?>
 
   <h4>The Science of Food Shopping in a Postpan World</h4>
@@ -565,9 +575,17 @@ $page_info = json_decode($page_info, true);
   <?php echo end_schedule_item_dropdown(); ?>
 
 
+  <?php echo schedule_item_dropdown(
+    '5:00–6:00 p.m.',
+    '“Friends of Bill”',
+    'Rockefeller 112'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
+
+  
     <?php echo schedule_item_dropdown(
       '5:00-6:00 p.m.',
-      'Night Owls Concert (tentative)',
+      'Night Owls Concert',
       'Taylor 102'
     ); ?>
       <?php echo end_schedule_item_dropdown(); ?>
@@ -591,17 +609,18 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '6:45–9:30 p.m.',
-    'BBQ Dinner and Drinks with special entertainment',
+    'Reunion Bash: Close the Weekend with Memories, Music, and BBQ',
     'Davison Tent'
   ); ?>
+    <p>Let’s wrap up the long weekend in style with our exciting finale event—enjoy live entertainment by the mentalist duo <a href="https://www.evason.com/">The Evasons</a> and a fabulous dinner of mouthwatering BBQ food, with accompanying salads and side dishes, to treat all palates for the perfect end to an unforgettable celebration!</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     '10 p.m.–midnight',
-    '’70’s music cover band',
+    '’70’s music cover band—The Accidental Gypsies',
     'Davison Tent'
   ); ?>
-  <p>Keep an eye out for updates.</p>
+  <p>Get ready to groove to all your favorite ’70s hits as the band takes the stage for a night of retro fun and unforgettable tunes.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -611,7 +630,7 @@ $page_info = json_decode($page_info, true);
     'Davison Tent',
   ); ?>
   
-  <p>All musicians are welcome to perform. Please contact Benjy Keenan in advance. Call or text <a href="tel:+16032088490">(603) 208-8490</a>.</p>
+  <p>Join us for one last intimate gathering of live music at our cozy “coffeehouse,” where classmates’ talent will, again, serenade you with acoustic tunes and soulful melodies. Sip your favorite brew and enjoy a night of unforgettable music!</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -622,6 +641,7 @@ $page_info = json_decode($page_info, true);
     'Breakfast/Brunch',
     'Gordon Commons (formerly ACDC)',
   ); ?>
+    <p>(included for those staying on campus, credit card accepted for those staying off campus)</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -663,7 +683,7 @@ $page_info = json_decode($page_info, true);
       'The Chapel'
     ); ?>
     
-    <p>An inter-religious gathering drawing upon religious and humanist traditions to honor and celebrate the women and men of our reuning classes who have died since the last reunion, as well as faculty, administrators, and staff who have died. The Alumnae/i Choir will sing, directed by Gail Archer, College Organist.</p>
+    <p>A service honoring members of our reuning classes, as well as faculty, administrators, and staff who have passed since the last reunion. Rooted in religious and humanist traditions, this service offers a time for remembrance. The Alumnae/i Choir and College Organist Gail Archer will perform.</p>
 
     <?php echo end_schedule_item_dropdown(); ?>
 
