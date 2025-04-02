@@ -63,7 +63,7 @@ $page_info = json_decode($page_info, true);
     '9:00 a.m.–11:00 p.m.',
     'Residence halls open for check-in'
   ); ?>
-    <p>Dorm rooms are available after 2:00 p.m. <!--<a href="../#flush-headingTwo">Find your Dorm Headquarters.</a>--></p>
+    <p>Dorm rooms are available after 2:00 p.m. <a href="../#flush-headingTwo">Find your Dorm Headquarters.</a></p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -272,7 +272,7 @@ $page_info = json_decode($page_info, true);
     '7:00–9:15 p.m.',
     'Picnic Dinner'
   ); ?>
-<p><strong>Classes of 1950, 1955, 1960:</strong> 2nd floor Main Building</p>
+<p><strong>Classes of 1945, 1945-4, 1950, 1955, 1960:</strong> 2nd floor Main Building</p>
 <p><strong>Classes of 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, and 2020: </strong> Noyes Circle Tent</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -332,15 +332,6 @@ $page_info = json_decode($page_info, true);
 
   <?php echo end_schedule_item_dropdown(); ?>
 
-  <?php echo schedule_item_dropdown(
-    '8:00–10:00 a.m.',
-    'Classes of 1965 and 1970',
-    'Main Building, 3rd floor multipurpose room'
-  ); ?>  
-<p>Coffee service, muffins, and fruit.</p>
-
-  <?php echo end_schedule_item_dropdown(); ?>
-
 
   <?php echo schedule_item_dropdown(
     '9:00 a.m.–10:00 p.m.',
@@ -355,7 +346,7 @@ $page_info = json_decode($page_info, true);
     'Residence halls open for check-in'
   ); ?>
 
-    <p><a href="https://www.vassar.edu/alums/calendar/reunion#flush-headingOne">Find your Dorm Headquarters</a>.</p>
+    <p><a href="../#flush-headingTwo">Find your Dorm Headquarters</a>.</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -418,7 +409,7 @@ $page_info = json_decode($page_info, true);
     'Class Luncheons',
     null
   ); ?>
-<p><strong>Classes of 1955, 1960, and 1970:</strong> Main Building, Villard Room</p>
+<p><strong>Classes of 1945, 1945-4, 1950, 1955, 1960, and 1970:</strong> Main Building, Villard Room</p>
 <p><strong>Class of 1965:</strong> Vassar Barn</p>
 <p><strong>Classes of 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, and 2020:</strong> Gordon Commons (formerly ACDC)</p>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -664,7 +655,7 @@ lunch. Afterward, we’ll gather outside the barn for a memorial service honorin
     'Class Receptions and Dinners',
       null
     ); ?>
-      <p><strong>1945, 1950, and 1955:</strong> Alumnae House Pub</p>
+      <p><strong>1945, 1945-4, 1950, and 1955:</strong> Alumnae House Pub</p>
   		<p><strong>1960:</strong> Alumnae House Dining Room</p>
   		<ul>
 	        <li>Class photo on Alumnae House steps</li>
@@ -707,17 +698,6 @@ lunch. Afterward, we’ll gather outside the barn for a memorial service honorin
   ); ?>
     <p>(included for those staying on campus, credit card accepted for those staying off campus)</p>
 	<p><strong>Alumnae House Guests:</strong> Continental breakfast in the Dining Room</p>
-  <?php echo end_schedule_item_dropdown(); ?>
-
-
-  <?php echo schedule_item_dropdown(
-    '8:00–10:00 a.m.',
-    'Classes of 1965 and 1970',
-    'Main Building, 3rd floor multipurpose room'
-  ); ?>
-  
-    <p>Coffee service, muffins, and fruit.</p>
-
   <?php echo end_schedule_item_dropdown(); ?>
 
 

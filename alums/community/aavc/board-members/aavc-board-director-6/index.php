@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Alumnae House Committee Member</li>
+    <li>Alumnae House Committee Member and Nominating and Governance Committee Member</li>
     <li>(he/him/his)</li>
     <li>New York</li>
     <li>Term of Service: 2022–2026</li>

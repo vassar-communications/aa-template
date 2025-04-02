@@ -31,7 +31,7 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'Kerri Tillett ’91',
+    'Kerri Tillett ’91 (On&nbsp;leave)',
     '/alums/assets/img/alums-community/aavc/board/tillett-kerri-aavc-alum.jpg',
     'image-is-first theme-cream',
     '',
@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>AAVC Board Director</li>
+    <li>Alum Recognition Committee Member and Ad Hoc Diversity, Equity, and Inclusion Committee Member</li>
     <li>(she/her/hers)</li>
     <li>Massachusetts/North Carolina</li>
     <li>Term of Service: 2024–2028</li>

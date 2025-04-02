@@ -398,7 +398,7 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments wil
   <p><em>We intend to have the pool open, pending lifeguard availability. Check back for updates.</em></p>
 
 <h3>James W. Palmer III Gallery, North Atrium, College Center</h3>
-  <p>The Class of 1985 Presents: “Connecting Through the Camera”</p>
+  <p>The Class of 1985 Presents: <em>Connecting Through the Camera</em></p>
 <ul>
   <li>Friday: 9:00 a.m.–10:00 p.m.</li>
   <li>Saturday:	10:00 a.m.–10:00 p.m.</li>
@@ -428,7 +428,7 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments wil
 </ul>
   <p><em>Located on the B-Level of Olmsted Hall, enter through the glass doors facing Skinner Music Hall in the back of Olmsted.</em></p>
 
-<h3>Shabbat Services at The Bayit, 51 Collegeview Avenue, North Gate</h3>   
+<h3>Shabbat Services at The Bayit, 51 Collegeview Avenue, near the North Gate</h3>   
     <ul>
       <li>Friday: 5:30–6:45 p.m.</li>
     </ul>
@@ -448,7 +448,7 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments wil
     <li>Sunday: 9:00 a.m.–5:00 p.m.</li>
   </ul>
 
-  <h3>Thompson Memorial Library including the Art Library</h3>
+  <h3>Thompson Memorial Library, including the Art Library</h3>
   <ul>
     <li>Thursday: 8:30 a.m.–4:30 p.m.</li>
     <li>Friday: 8:30 a.m.–4:30 p.m.</li>
