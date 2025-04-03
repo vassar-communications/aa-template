@@ -204,11 +204,19 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '3:30–4:30 p.m.',
+    'The Third Chapter: Shaking things up after a certain age',
+    'Rockefeller 200'
+  ); ?>
+    <p>Moderated by Karen Valentia Clopton ’80, P’19, ’22; Harvard University Advanced Leadership Initiative Senior Fellow ’25</p>
+<p>At a key moment in the 21st century, demographers are recognizing the significance of a distinct developmental phase: those years following early adulthood and middle age when we are “neither young nor old.” Whether by choice or not, many in their “third chapters” are finding ways to adapt, explore, and channel their energies, skills, and passions in new ways and into new areas. We will discuss resources, including <em>I Change Course: A Journey to My Truth</em> by Kate Bean; <em>Second Chances Shakespeare & Freud</em> by Stephen Greenblatt & Adam Phillips; <em>Think Outside the Building</em> by Rosabeth Moss Kanter; and our own Morgan Baker’s <a href="https://www.amazon.com/Emptying-Nest-Getting-Better-Goodbyes/dp/1645384810/"><em>Emptying the Nest: Getting Better at Goodbyes</em></a>. We will share the many avenues Vassar alums have explored after age 50 that were different career and life paths than their original trajectory.</p>
+
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '3:30–4:30 p.m.',
     'Lectures and Tours',
   ); ?>
-
-      <h4>The Third Chapter: Shaking things up after a certain age</h4>
-      <p><strong>Location:</strong> Rockefeller 200</p>
 
       <h4>Exploration of <em>The Dream of a Common Movement: Selected Writings of Urvashi Vaid</em> (Edited by Jyotsna Vaid and Amy Hoffman, Duke University Press, 2025)</h4>
       <p><strong>Location:</strong> Rockefeller 300</p>
@@ -458,15 +466,21 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '2:00–3:30 p.m.',
-    'Lectures',
+    'Lecture',
   ); ?>
 
       <h4>The Vassar Institute for the Liberal Arts and The Heartwood</h4>
       <p><strong>Location:</strong> The Vassar Institute for the Liberal Arts, Elm room</p>
 
-      <h4>Full Circle: An Author’s Reflections and A Professor’s Legacy</h4>
-      <p><strong>Location:</strong> Rockefeller 300</p>
+  <?php echo end_schedule_item_dropdown(); ?>
 
+
+  <?php echo schedule_item_dropdown(
+    '2:00–3:30 p.m.',
+    'Full Circle: An Author’s Reflections and A Professor’s Legacy',
+    'Rockefeller 300'
+  ); ?>
+    <p>Join author/educator Meg Stone ’95 for a dialogue with Professor Emerita of Political Science Molly Shanley, as Meg traces the origins of her first book—and life’s work—back to the Vassar classroom. <em>The Cost of Fear: Why Most Safety Advice is Sexist and How We Can Stop Gender-Based Violence</em> by Meg Stone was published in February 2025.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
