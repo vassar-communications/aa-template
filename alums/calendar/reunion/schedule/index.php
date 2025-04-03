@@ -594,7 +594,7 @@ lunch. Afterward, we’ll gather outside the barn for a memorial service honorin
 
   <?php echo schedule_item_dropdown(
     '3:30–4:30 p.m.',
-    'Lectures and Tours'
+    'Lectures'
   ); ?>
 
   <h4>The Science of Food Shopping in a Postpan World</h4>
@@ -608,10 +608,12 @@ lunch. Afterward, we’ll gather outside the barn for a memorial service honorin
 
   <?php echo schedule_item_dropdown(
     '3:30–5:00 p.m.',
-    'Centennial Celebration of the Arboretum: History of the Arboretum plus the future vision for the Arboretum',
-    'Taylor 203'
+    'Lecture and Tour'
   ); ?>
-    <p>Yvonne Elet, Professor of Art, and Kenneth Foster, Vassar’s new Director of Sustainability will speak about the history of the Arboretum and campus landscape development along with the College’s future plans and sustainability efforts. Following the talk, join Yvonne and Ken for a continuation of their talk as they tour the Arboretum.</p>
+
+  <h4>Centennial Celebration of the Arboretum: History of the Arboretum plus the future vision for the Arboretum</h4>
+<p><strong>Location:</strong> Taylor 203</p>
+
   <?php echo end_schedule_item_dropdown(); ?>
 
 
