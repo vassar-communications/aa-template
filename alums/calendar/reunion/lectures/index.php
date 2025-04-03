@@ -50,7 +50,7 @@ $page_info = json_decode($page_info, true);
         'Joshua de Leeuw',
         '',
         'Associate Professor of Cognitive Science',
-        '/alums/assets/img/alums-calendar/reunion/2024-lectures/Carol-Murray.jpg',
+        '',
         ''
       ); ?>
     <?php echo end_presentation_member_list(); ?>
