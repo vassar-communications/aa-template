@@ -145,42 +145,6 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo presentation_item(
-    'Activism then and now',
-    'Rockefeller 210',
-    '3:30 p.m.'
-  ); ?>
-    <?php echo presentation_content(); ?>
-      <p>Join Maybelle Bennett, Bonnie Halpern, and Dosia Fire from the Class of 1970 in a discussion of activism as students back in the day and ways to make a difference today. </p>
-    <?php echo end_presentation_content(); ?>
-
-    <?php echo presentation_member_list('Facilitators'); ?>
-      <?php echo presentation_member(
-        'Maybelle Bennett ’70',
-        '',
-        null,
-        null,
-        null
-      ); ?>
-      <?php echo presentation_member(
-        'Bonnie Halpern ’70',
-        '',
-        null,
-        null,
-        null
-      ); ?>
-      <?php echo presentation_member(
-        'Dosia Fire',
-        '',
-        null,
-        null,
-        null
-      ); ?>
-    <?php echo end_presentation_member_list(); ?>
-
-  <?php echo end_presentation_item(); ?>
-
-
-  <?php echo presentation_item(
     'Walking Tour of the Vassar College Class Trees',
     'Meet in front of Rockefeller Hall (Library side)',
     '3:30 p.m.'
