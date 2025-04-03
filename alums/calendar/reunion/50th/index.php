@@ -221,11 +221,18 @@ $page_info = json_decode($page_info, true);
       <h4>Exploration of <em>The Dream of a Common Movement: Selected Writings of Urvashi Vaid</em> (Edited by Jyotsna Vaid and Amy Hoffman, Duke University Press, 2025)</h4>
       <p><strong>Location:</strong> Rockefeller 300</p>
 
-      <h4>Activism then and now</h4>
-      <p><strong>Location:</strong> Rockefeller 210</p>
-
      <h4>Walking Tour of the Vassar College Class Trees</h4>
       <p><strong>Location:</strong> Meet in front of Rockefeller Hall (Library side)</p>
+
+  <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '3:30–4:30 p.m.',
+    'Activism then and now',
+    'Rockefeller 210'
+  ); ?>
+      <p>Join Maybelle Bennett, Bonnie Halpern, and Dosia Fire from the Class of 1970 in a discussion of activism as students back in the day and ways to make a difference today. </p>
 
   <?php echo end_schedule_item_dropdown(); ?>
   
