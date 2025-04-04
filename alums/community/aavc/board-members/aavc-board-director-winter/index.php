@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Ad Hoc Diversity, Equity, and Inclusion Committee Member</li>
+    <li>Clubs Committee Member</li>
     <li>(she/her/hers)</li>
     <li>Rhode Island</li>
     <li>Term of Service: 2021–2025</li>

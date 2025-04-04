@@ -255,8 +255,8 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments wil
         </div>
         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
             <div class="accordion-body">
-                <p><strong>1950/1955:</strong> Alumnae House<br />
-<strong>1960:</strong> The Heartwood at Vassar<br />
+                <p><strong>1945, 1945-4, 1950, 1955:</strong> Alumnae House<br />
+<strong>1960:</strong> Heartwood<br />
 <strong>1965:</strong> Main Building<br />
 <strong>1970:</strong> Main Building<br />
 <strong>1975:</strong> Davison House<br />
@@ -371,7 +371,6 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments wil
 
 <?php echo end_sec_regularContent(); ?>
 
-<?php /*hiding campus facilities until 2025 setup
 
 <div id="campus-facilities"></div>
 
@@ -393,10 +392,18 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments wil
 <h3>Athletic and Fitness Center</h3>
 <ul>
   <li>Friday: 7:00 a.m.–8:00 p.m.</li>
-  <li>Saturday:	10:00 a.m.–6:00 p.m.</li>
+  <li>Saturday:	<em>Closed due to events happening throughout the day</em></li>
   <li>Sunday: 10:00 a.m.–6:00 p.m.</li>
 </ul>
-  <p><em>We intend to have the pool open, pending lifeguard availability. Please check back for more information.</em></p>
+  <p><em>We intend to have the pool open, pending lifeguard availability. Check back for updates.</em></p>
+
+<h3>James W. Palmer III Gallery, North Atrium, College Center</h3>
+  <p>The Class of 1985 Presents: <em>Connecting Through the Camera</em></p>
+<ul>
+  <li>Friday: 9:00 a.m.–10:00 p.m.</li>
+  <li>Saturday:	10:00 a.m.–10:00 p.m.</li>
+  <li>Sunday: 10:00 a.m.–3:00 p.m.</li>
+</ul>
 
 <h3>Jummah Service at Pratt House</h3>   
     <ul>
@@ -405,43 +412,45 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments wil
 
   <h3>Music Library</h3>
   <ul>
+    <li>Thursday: 1:00–4:00 p.m.</li>
     <li>Friday: 1:00–4:00 p.m.</li>
-    <li>Saturday: Noon–4:00 p.m.</li>
+    <li>Saturday: 10:00 a.m.–4:00 p.m.</li>
   </ul>
+
+  <?php echo end_item_col(); ?>
+
+  <?php echo item_col(); ?>
 
 <h3>Olmsted Greenhouse</h3>
 <ul>
   <li>Friday: 1:00–5:00 p.m.</li>
   <li>Saturday:	11:00 a.m.–4:00 p.m.</li>
 </ul>
-  <p><em>Enter through the glass doors off of Vassar Lake Drive (behind Olmsted). The Greenhouse Manager will be giving tours of the collection.</em></p>
+  <p><em>Located on the B-Level of Olmsted Hall, enter through the glass doors facing Skinner Music Hall in the back of Olmsted.</em></p>
 
-<h3>Shabbat Services at The Bayit, 51 Collegeview Avenue, North Gate</h3>   
+<h3>Shabbat Services at The Bayit, 51 Collegeview Avenue, near the North Gate</h3>   
     <ul>
       <li>Friday: 5:30–6:45 p.m.</li>
     </ul>
 
-
-  <?php echo end_item_col(); ?>
-
-  <?php echo item_col(); ?>
-
-  <h3>Street Eats Food Truck - Outside College Center (behind Main Building)</h3>
+<!--  <h3>Street Eats Food Truck - Outside College Center (behind Main Building)</h3>
   <ul>
     <li>Saturday: 7:30 a.m.–5:00 p.m.</li>
     <li>Sunday: 7:30–11:00 a.m.</li>
   </ul>
-  <p><em>Coffee, light refreshments and snacks</em></p>
+  <p><em>Coffee, light refreshments and snacks</em></p>-->
 
   <h3>The Loeb</h3>
   <ul>
+    <li>Thursday: 10:00 a.m.–9:00 p.m.</li>
     <li>Friday: 10:00 a.m.–7:00 p.m.</li>
     <li>Saturday: 9:00 a.m.–5:00 p.m.</li>
     <li>Sunday: 9:00 a.m.–5:00 p.m.</li>
   </ul>
 
-  <h3>Thompson Memorial Library including the Art Library</h3>
+  <h3>Thompson Memorial Library, including the Art Library</h3>
   <ul>
+    <li>Thursday: 8:30 a.m.–4:30 p.m.</li>
     <li>Friday: 8:30 a.m.–4:30 p.m.</li>
     <li>Saturday: 8:30 a.m.–5:00 p.m.</li>
     <li>Sunday: 8:30 a.m.–noon</li>
@@ -464,8 +473,6 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments wil
 
 <?php echo end_sec_hasColumns(); ?>
 
-
-End of hiding campus facilities content*/ ?>
 
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/alums/inc/pages/give/give.php');?>
