@@ -32,10 +32,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Maybelle Taylor Bennett&nbsp;’70',
-    '/alums/assets/img/alums-community/aavc/board/bennett-maybelle-taylor-aavc-alum-001.jpg',
+    '/alums/assets/img/alums-community/aavc/board/Maybelle-Taylor-Bennett-2025.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'A person wearing a purple head covering, glasses, and a purple scarf smiles at the viewer.']
+    ['img_alt_text' => 'Maybelle Taylor Bennett ’70, a person with short, gray hair styled in a bun, wearing round eyeglasses, gold hoop earrings, and a multicolored knitted shawl in shades of red, orange, teal, and brown, standing against a plain light-colored background.']
 ); ?>
 
   <ul class="clean-list-with-borders">
