@@ -639,16 +639,7 @@ $page_info = json_decode($page_info, true);
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
-    '10 p.m.–midnight',
-    '’70’s music cover band—The Accidental Gypsies',
-    'Davison Tent'
-  ); ?>
-  <p>Get ready to groove to all your favorite ’70s hits as the band takes the stage for a night of retro fun and unforgettable tunes.</p>
-  <?php echo end_schedule_item_dropdown(); ?>
-
-
-  <?php echo schedule_item_dropdown(
-    'Midnight–1:00 a.m.',
+    '10:00 p.m.–1:00 a.m.',
     'Coffee House—Hospitality',
     'Davison Tent',
   ); ?>
