@@ -41,11 +41,11 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A person stands at a podium in front of a large group of people sitting under a tent, with a large banner behind them that says AAVC in white on a red background.']
 ); ?>
 
-  <p>Vassar and the Alumnae/i Association (AAVC) look forward to welcoming the classes that graduated in a year ending in 0 or 5, June 6–8, 2025. Registration will open on April 7. An email will be sent soon with your Vassar ID and link to register.</p>
-      <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5.</p>
-<!-- hiding till post-reunion  <br />
-   <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-5">See Who Came to Reunion</a>-->
- 
+  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 0s and 5s on campus for Reunion, June 6-8, 2025 (the 50th Reunion class arrives on June 5). Registration is now open!</p>
+   <a href="https://reunionregistration.vassar.edu/" class="btn btn-primary arrow mt-2 mb-2">Register for Reunion</a>
+  <br />
+   <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-4 mb-4">See Who’s Coming to Reunion</a>
+    <p>Reunion registration will close on May 23, 2025. This page continues to be updated periodically. Be sure to check back! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email&nbsp;us</a> regarding Reunion.</p> 
   
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
