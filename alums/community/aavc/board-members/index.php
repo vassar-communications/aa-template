@@ -178,7 +178,7 @@ ul.inline-list-links li a {
   <h3 class="mb-4">AAVC Board Director</h3>
 
 <div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="/alums/assets/img/alums-community/aavc/board/Patricia-Ann-Neely.jpg" alt="Patricia Ann Neely ’75, " />
+  <img src="/alums/assets/img/alums-community/aavc/board/Patricia-Ann-Neely.jpg" alt="Patricia Ann Neely ’75, a person with shoulder-length, coiled hair and glasses wearing a textured black garment and a necklace, sitting next to a tall, stringed musical instrument with an intricately carved scroll shaped like a lion’s head." />
 </div>
 
 <ul class="clean-list-with-borders">
@@ -207,7 +207,7 @@ ul.inline-list-links li a {
   <h3 class="mb-4">AAVC Board Director</h3>
 
 <div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="/alums/assets/img/alums-community/aavc/board/Sam-Thypin-Bermeo.jpg" alt="Sam Thypin-Bermeo ʼ11, " />
+  <img src="/alums/assets/img/alums-community/aavc/board/Sam-Thypin-Bermeo.jpg" alt="Sam Thypin-Bermeo ʼ11, a person with short dark hair and glasses smiling and wearing a gray hoodie layered over a dark shirt." />
 </div>
 
 <ul class="clean-list-with-borders">
