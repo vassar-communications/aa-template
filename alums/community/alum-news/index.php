@@ -109,7 +109,7 @@ $page_info = json_decode($page_info, true);
 <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><strong>Meghan Daum ’92</strong>, who lost everything in the L.A. fires, wrote a <a href="https://www.nytimes.com/2025/01/31/opinion/la-wildfires-altadena-fires.html">guest essay for <em>The New York Times</em></a> on how the experience taught her to accept help.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5">Actor <strong>Hope Davis ’86</strong>, performed a live reading of an article published in <em>The Atlantic</em> for <a href="https://www.wnyc.org/story/journalism-performed-reporting-on-weight-loss-drugs-like-ozempic/?tab=transcript">WNYC’s show <em>All&nbsp;of&nbsp;It</em></a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5">Actor <strong>Hope Davis ’86</strong> performed a live reading of an article published in <em>The Atlantic</em> for <a href="https://www.wnyc.org/story/journalism-performed-reporting-on-weight-loss-drugs-like-ozempic/?tab=transcript">WNYC’s show <em>All&nbsp;of&nbsp;It</em></a>.</p></div>
 
 
 <div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://www.nybooks.com/online/2025/03/13/her-own-woman-mary-mccarthy/"><em>The New York Review</em></a> published an article on the life of writer <strong>Mary McCarthy ’35</strong>, mentioning writer <strong>Elizabeth Bishop ’34</strong> as well.</p></div>
