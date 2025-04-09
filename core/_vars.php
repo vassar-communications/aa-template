@@ -22,7 +22,7 @@ $facts['average_finaid_award'] = '$58,722';
 $facts['students_of_color'] = '37%'; //used on Alums > Give Back > Support Vassar page
 
 $facts['number_of_majors'] = '50';
-$facts['number_of_alums'] = '41,000';
+$facts['number_of_alums'] = '42,000';
 
 $resources['student_orgs'] = '170';
 $resources['varsity_teams'] = '27';

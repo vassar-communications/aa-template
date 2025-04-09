@@ -178,7 +178,7 @@ ul.inline-list-links li a {
   <h3 class="mb-4">AAVC Board Director</h3>
 
 <div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="/alums/assets/img/alums-community/aavc/board/Patricia-Ann-Neely.jpg" alt="Patricia Ann Neely ’75, " />
+  <img src="/alums/assets/img/alums-community/aavc/board/Patricia-Ann-Neely.jpg" alt="Patricia Ann Neely ’75, a person with shoulder-length, coiled hair and glasses wearing a textured black garment and a necklace, sitting next to a tall, stringed musical instrument with an intricately carved scroll shaped like a lion’s head." />
 </div>
 
 <ul class="clean-list-with-borders">
@@ -207,7 +207,7 @@ ul.inline-list-links li a {
   <h3 class="mb-4">AAVC Board Director</h3>
 
 <div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="/alums/assets/img/alums-community/aavc/board/Sam-Thypin-Bermeo.jpg" alt="Sam Thypin-Bermeo ʼ11, " />
+  <img src="/alums/assets/img/alums-community/aavc/board/Sam-Thypin-Bermeo.jpg" alt="Sam Thypin-Bermeo ʼ11, a person with short dark hair and glasses smiling and wearing a gray hoodie layered over a dark shirt." />
 </div>
 
 <ul class="clean-list-with-borders">
@@ -240,11 +240,11 @@ ul.inline-list-links li a {
     ''
 ); ?>
 
-<p>The Alumnae/i Association of Vassar College (AAVC) Board of Directors is a group of dedicated volunteers that serves the College and its more than <?php echo $facts['number_of_alums']; ?> alums at the highest level. The Board manages the affairs of the AAVC, working closely with the College’s Associate Vice President for Alumnae/i Engagement and Executive Director of the AAVC, and meets regularly in October, February, and June at Reunion. Most of the Board’s work, however, is accomplished by hard-working committees comprised of directors, volunteers, observers, and staff leads.</p>
+<p>The Alumnae/i Association of Vassar College (AAVC) Board of Directors is a group of dedicated volunteers that serves the College and its more than <?php echo $facts['number_of_alums']; ?> alums at the highest level. The Board advises on the affairs of the AAVC, working closely with the College’s Associate Vice President for Engagement and the Executive Director of the AAVC, and meets regularly in October, February, and June at Reunion. Most of the Board’s work, however, is accomplished by hard-working committees comprised of directors, volunteers, and staff leads.</p>
 
-<p>Current standing committees are devoted to these AAVC priorities: Alumnae House, Alumnae/i Recognition, Career Networking, Clubs, Class Engagement, Communications, Nominations and Governance, and the Vassar Fund. The Board regularly examines programming and policy to ensure that the AAVC meets the varied needs of its diverse, worldwide constituents and advances the interests and mission of Vassar in relevant and substantive ways. Six AAVC directors also serve as Vassar College trustees. Additionally, observers from the African-American Alumnae/i of Vassar College (AAAVC) and the college student leadership attend the AAVC board and committee meetings.</p>
+<p>Current standing committees are devoted to these AAVC priorities: Alumnae House, Alum Recognition, Career Networking, Clubs, Nominations and Governance, and the Vassar Fund. The Board advises the Advancement Office on the varied needs of its diverse, worldwide constituents and advances the interests and mission of Vassar in relevant and substantive ways. Six AAVC directors also serve as Vassar College trustees. Additionally, advisors from the African-American Alumnae/i of Vassar College (AAAVC) and observers from the Vassar Student Association (VSA) attend the AAVC board and committee meetings.</p>
 
-<p>A call for nominations to the Board is held each year in the fall, with elections occurring at Reunion in June. The board encourages nominations of individuals who have high levels of professional achievement, experience serving the College, and who reflect the diverse backgrounds of our over <?php echo $facts['number_of_alums']; ?> constituents.</p>
+<p>A call for nominations to the Board is held in the fall, with elections occurring at Reunion in June. The Board encourages nominations of individuals who have high levels of professional achievement, experience serving the College, and who reflect the diverse backgrounds of our over <?php echo $facts['number_of_alums']; ?> constituents.</p>
 
 <?php echo end_sec_regularContent(); ?>
 
