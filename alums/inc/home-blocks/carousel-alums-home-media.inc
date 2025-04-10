@@ -1,45 +1,68 @@
-<?php
+ <?php
 $media_carousel_path = '/alums/assets/img/alums-home/news-and-spotlight/';
 echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 <?php echo carousel_item(
-    $media_carousel_path.'/2025-01-28/in-the-media/leah-goodridge.jpg',
-    'is-link',
-    'A photo of Leah Goodridge ’04, a person with a white shirt and short curly black hair.'
-  ); ?>
+        $media_carousel_path.'/2025-04-08/in-the-media/Meghan_Daum_cr_David_Belusic.jpg',
+        'is-link',
+        'A person with shoulder-length blond hair is shown from the shoulders up against a solid orange background, wearing a light-colored cable-knit turtleneck sweater. The lighting is even, illuminating the face with soft shadows. The expression is neutral, with direct eye contact. The composition is centered and closely cropped.'
+      ); ?>
+    
+<p><strong>Meghan Daum ’92</strong>, who lost everything in the L.A. fires, wrote a guest essay for The New York Times on how the experience taught her to accept help.</p>
 
-  <p><strong>Leah Goodridge ’04</strong>, a lawyer and a member of the New York City Planning Commission, wrote a <em>New York Times</em> op-ed about the need for more public bathrooms in New York City.</p>
-  <p><em>Photo: Courtesy of the subject</em></p>
-  <?php echo cta_link(
-  'https://www.nytimes.com/2024/12/29/opinion/restrooms-shortage-new-york.html',
-  'Read more',
-  'stretched-link'
-  ); ?> 
-<?php echo end_carousel_item();  ?>
-
-
-
-
-
-
+      <p><em>Photo: David Belusic</em></p>
+      <?php echo cta_link(
+      'https://www.nytimes.com/2025/01/31/opinion/la-wildfires-altadena-fires.html?smid=nytcore-android-share',
+      'Read more',
+      'stretched-link'
+      ); ?>
+    <?php echo end_carousel_item();  ?>
 <?php echo carousel_item(
-    $media_carousel_path.'/2025-01-28/in-the-media/ethan-slater.jpg',
-    'is-link',
-    'A photo of Ethan Slater ’14, a person with red hair, a white shirt, and a dark suit coat. They are performing in a dark room.'
-  ); ?>
+        $media_carousel_path.'/2025-04-08/in-the-media/0138_13_09_SS2_043.jpg',
+        'is-link',
+        'A person with long dark hair is seated on a white couch, wearing a cream knit cardigan and dark tights, with hands resting on one knee. Behind them are two large vertical portrait paintings depicting elaborately dressed historical figures. Bright pink and teal cushions are arranged on the couch.'
+      ); ?>
+    
+<p><strong>Anu Duggal ’01</strong>, Founding Partner of Female Founders Fund, was profiled in <em>Fortune</em>.</p>
 
-  <p>Actor <strong>Ethan Slater ’14</strong>, who plays Boq in the new film <em>Wicked</em>, was the subject of a <em>GQ</em> article. </p>
-  <p><em>Photo: David Andrako</em></p>
-  <?php echo cta_link(
-  'https://bit.ly/3ON6hOx',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item();  ?>
+      <p><em>Photo: Samuel Stuart</em></p>
+      <?php echo cta_link(
+      'https://fortune.com/2025/03/03/anu-duggal-female-founders-fund-maven-women-tech/',
+      'Read more',
+      'stretched-link'
+      ); ?>
+    <?php echo end_carousel_item();  ?>
+<?php echo carousel_item(
+        $media_carousel_path.'/2025-04-08/in-the-media/philip-jefferson-kr.jpg',
+        'is-link',
+        'A person wearing a navy blue blazer and a name tag labeled “Philip” is seated and smiling during a conversation, holding a glass and gesturing with one hand. Others in the background sit on couches, with one person using a smartphone and another looking downward. The setting is a warmly lit room with a table of drinks and snacks in the foreground. A lamp on the right side casts ambient light across the scene.'
+      ); ?>
+    
+<p><em>Reuters</em> reported on a speech by Federal Reserve Vice Chair <strong>Philip Jefferson ’83</strong> about the state of the U.S. economy and inflation.</p>
 
+      <p><em>Photo: Karl Rabe</em></p>
+      <?php echo cta_link(
+      'https://www.reuters.com/markets/rates-bonds/feds-jefferson-says-fed-can-take-time-next-interest-rate-decision-2025-02-19/',
+      'Read more',
+      'stretched-link'
+      ); ?>
+    <?php echo end_carousel_item();  ?>
+<?php echo carousel_item(
+        $media_carousel_path.'/2025-04-08/in-the-media/bella_depaulo_screenshot_4x3.jpg',
+        'is-link',
+        'A person with short gray hair stands onstage, smiling while holding a small presentation remote. They wear a dark textured jacket over a black shirt and speak into a headset microphone. The background is a plain black curtain, and soft stage lighting highlights the face and hands. One hand is raised mid-gesture during the presentation.'
+      ); ?>
+    
+<p><strong>Bella DePaulo ’75</strong> was featured on NPR’s <em>TED Radio Hour</em>, speaking about the freedom and autonomy that comes with being single by choice throughout her adult life.</p>
 
-
+      <p><em>Photo: </em></p>
+      <?php echo cta_link(
+      'https://www.npr.org/2025/02/07/g-s1-46818/are-you-most-suited-to-the-single-life-heres-how-to-find-out',
+      'Read more',
+      'stretched-link'
+      ); ?>
+    <?php echo end_carousel_item();  ?>
 
 
 
@@ -61,56 +84,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 
-
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2024-12-09/in-the-media/michele-tugade-landscape-1200.jpg',
-    'is-link',
-    'A photo of Michele Tugade ’95, a person with long black hair and a blue dress. Tugade is standing in the Vassar Library, a large stone building with a stained glass window behind her.'
-  ); ?>
-
-  <p>Professor of Psychological Science <strong>Michele Tugade ’95</strong> was interviewed by <em>Scientific American</em> for the article “How Humor Takes the Edge off Hard Times.”</p>
-  <p><em>Photo: Kevin Arce ’20</em></p>
-  <?php echo cta_link(
-  'https://www.scientificamerican.com/article/how-humor-can-help-you-get-through-hard-times/',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item();  ?>
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2024-12-09/in-the-media/thureen-bos_HBO.jpg',
-    'is-link',
-    'A photo of Paul Thureen ’00 and Hannah Bos ’00. Paul is tall, with a gray beard and a green baseball cap. Hannah is shorter, with long brown hair and a blue baseball cap.'
-  ); ?>
-
-  <p><strong>Hannah Bos ’00</strong> and <strong>Paul Thureen ’00</strong>, co-creators of the HBO series <em>Somebody Somewhere</em>, talked to <em>The New York Times</em> about the show.</p>
-  <p><em>Photo: Courtesy of Sandy Morris/HBO</em></p>
-  <?php echo cta_link(
-  'https://www.nytimes.com/2024/10/25/arts/television/somebody-somewhere-final-season.html?unlocked_article_code=1.U04.Ssxy.7h--8hiJ_0jL&smid=nytcore-ios-share&referringSource=articleShare',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item();  ?>
-
-
-
-<?php echo carousel_item(
-    $media_carousel_path.'/2024-08-15/in-the-media/grace_hopper_4x3.jpg',
-    'is-link',
-    'A monochrome historical photo of Grace Hopper, a person wearing a long dress and glasses, standing in front of old computer cabinets.'
-  ); ?>
-
-  <p><strong>Grace Hopper, class of 1928</strong>, was included in a <em>U.S. News & World Report</em> story on where 10 famous inventors went to college.</p>
-  <p><em>Photo: Vassar Archives and Special Collections</em></p>
-  <?php echo cta_link(
-  'https://www.usnews.com/education/slideshows/where-10-famous-inventors-went-to-college?slide=11',
-  'Read more',
-  'stretched-link'
-  ); ?>
-<?php echo end_carousel_item();  ?>
 
 
 
