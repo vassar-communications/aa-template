@@ -9,7 +9,8 @@ echo carousel( '', 'alums-media-carousel' ); ?>
         'A person with shoulder-length blond hair is shown from the shoulders up against a solid orange background, wearing a light-colored cable-knit turtleneck sweater. The lighting is even, illuminating the face with soft shadows. The expression is neutral, with direct eye contact. The composition is centered and closely cropped.'
       ); ?>
     
-<p><strong>Meghan Daum ’92</strong>, who lost everything in the L.A. fires, wrote a guest essay for The New York Times on how the experience taught her to accept help.</p>
+<p><strong>Meghan Daum ’92</strong>, who lost everything in the L.A. fires, wrote a guest essay for <em>The New York Times</em> on how the experience taught her to accept help.</p>
+
 
       <p><em>Photo: David Belusic</em></p>
       <?php echo cta_link(
@@ -56,7 +57,6 @@ echo carousel( '', 'alums-media-carousel' ); ?>
     
 <p><strong>Bella DePaulo ’75</strong> was featured on NPR’s <em>TED Radio Hour</em>, speaking about the freedom and autonomy that comes with being single by choice throughout her adult life.</p>
 
-      <p><em>Photo: </em></p>
       <?php echo cta_link(
       'https://www.npr.org/2025/02/07/g-s1-46818/are-you-most-suited-to-the-single-life-heres-how-to-find-out',
       'Read more',
