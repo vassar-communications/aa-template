@@ -60,36 +60,36 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Ethan Slater ’14',
-        'https://bit.ly/3ON6hOx',
-        ['url' => $logos_path.'gq-logo.png', 'alt' => 'GQ logo, the letters G and Q in a thick sans-serif font, with the G in black and the Q in gold.' ],
+        'Adam Ross ’89',
+        'https://www.washingtonpost.com/books/2025/01/03/playworld-adam-ross-book-review/',
+        ['url' => $logos_path.'washington-post.jpg', 'alt' => 'Washington Post logo, in a stylized serif font.' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p>Actor <strong>Ethan Slater ’14</strong>, who plays Boq in the new film <em>Wicked</em>, was the subject of a <em>GQ</em> article.</p>
+      <p>The <em>Washington Post</em> says the new novel by <strong>Adam Ross ’89</strong> “is so good, it will give readers hope for the year ahead.”</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Joanna Smith ’92',
-        'https://www.democracynow.org/2024/9/12/climate_rights_international',
-        ['url' => $logos_path.'democracy-now-logo-larger.png', 'alt' => 'Democracy Now! logo, in a red sans serif font with the top part of the Statue of Liberty in white in place of the letter O in Now.' ],
+        'Bella DePaulo ’75',
+        'https://www.npr.org/2025/02/07/g-s1-46818/are-you-most-suited-to-the-single-life-heres-how-to-find-out',
+        ['url' => $logos_path.'npr.gif', 'alt' => 'NPR logo, white sans serif letters, each in their own color block, in the order red, black, and blue.s' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-        <p>Climate activist <strong>Joanna Smith ’92</strong>, who last year applied washable finger paint to the museum case holding Edgar Degas’s sculpture <em>Little Dancer</em>, was interviewed for a Democracy Now! article about Western nations’ crackdown on climate protests.</p>
+        <p><strong>Bella DePaulo ’75</strong> was featured on NPR’s <em>Ted Radio Hour</em>, speaking about the freedom and autonomy that comes with being single by choice throughout her adult life.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Corydon Cowansage ’08',
-        'https://www.meer.com/en/85691-separation-anxiety',
-        ['url' => $logos_path.'meer-logo.png', 'alt' => 'Meer logo, three connected diamond shapes followed by the word meer in lowercase sans-serif font.' ],
+        'Anu Duggal ’01',
+        'https://fortune.com/2025/03/03/anu-duggal-female-founders-fund-maven-women-tech/',
+        ['url' => $logos_path.'fortune-logo.png', 'alt' => 'Fortune logo, a sans serif all capital black font.' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-      <p>The first solo exhibition in Italy of artist <strong>Corydon Cowansage ’08</strong>, titled <em>Separation anxiety</em>, was the subject of a <em>Meer</em> magazine article.</p>
+      <p><strong>Anu Duggal ’01</strong>, Founding Partner of Female Founders Fund, was profiled in <em>Fortune</em>.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -106,10 +106,19 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><strong>Leah Goodridge ’04</strong>, a lawyer and a member of the New York City Planning Commission, wrote a <a href="https://www.nytimes.com/2024/12/29/opinion/restrooms-shortage-new-york.html"><em>New York Times</em> op-ed</a> about the need for more public bathrooms in New York City.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><strong>Meghan Daum ’92</strong>, who lost everything in the L.A. fires, wrote a <a href="https://www.nytimes.com/2025/01/31/opinion/la-wildfires-altadena-fires.html">guest essay for <em>The New York Times</em></a> on how the experience taught her to accept help.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><em>Good One</em>, the debut feature by director <strong>India Donaldson ’07</strong>, was selected by <a href="https://www.nytimes.com/2024/11/30/movies/best-movies-2024.html"><em>New York Times</em></a> film critic Alissa Wilkinson as one of the 10 best movies of 2024.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5">Actor <strong>Hope Davis ’86</strong> performed a live reading of an article published in <em>The Atlantic</em> for <a href="https://www.wnyc.org/story/journalism-performed-reporting-on-weight-loss-drugs-like-ozempic/?tab=transcript">WNYC’s show <em>All&nbsp;of&nbsp;It</em></a>.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><a href="https://www.nybooks.com/online/2025/03/13/her-own-woman-mary-mccarthy/"><em>The New York Review</em></a> published an article on the life of writer <strong>Mary McCarthy ’35</strong>, mentioning writer <strong>Elizabeth Bishop ’34</strong> as well.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><strong>Julia Hansen ’60</strong>, a survivor of the <em>Andrea Doria</em> shipwreck, was featured in <a href="https://www.marionstar.com/story/news/education/2025/03/23/ohio-state-marion-to-host-andrea-doria-survivor-julia-hansen-five-nights-theater-speaker/82566683007/"><em>The Marion Star</em></a>.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><a href="https://www.cornellsun.com/article/2025/03/astronomer-vera-rubin-m-s-51-to-be-featured-on-a-u-s-quarter"><em>The Cornell Daily Sun</em></a> reported that <strong>Vera Rubin ’48</strong> will be featured on a U.S. Quarter as a part of the 2025 American Women Quarters Program.</p></div>
 
 
   <?php echo end_item_col(); ?>
@@ -117,13 +126,19 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7">Professor of Psychological Science <strong>Michele M. Tugade ’95</strong> was interviewed by <a href="https://www.scientificamerican.com/article/how-humor-can-help-you-get-through-hard-times/"><em>Scientific American</em></a> for the article “How Humor Takes the Edge off Hard Times.”</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><strong>Paco (Francis) Underhill ’75</strong> spoke at <a href="https://schedule.sxsw.com/2025/events/PP1148087">SXSW 2025</a> on a panel about the correlation between neuroscience and brand design.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><strong>Sieu Nguyen ’17</strong>, writer and producer of promotional materials for HBO, is on the <a href="https://bit.ly/3VqdOGD"><em>Forbes</em> 30 Under 30 list</a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><a href="https://www.townandcountrymag.com/leisure/arts-and-culture/a63977899/who-is-conan-obrien-wife-liza-powel-obrien/"><em>Town & Country</em> magazine</a> spoke to <strong>Liza Powel O’Brien ’92</strong> about her career and how she met her spouse, comedian Conan O’Brien.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><a href="https://variety.com/2024/film/news/cannes-in-retreat-producer-kerala-migration-drama-kurinji-film-bazaar-1236218931/"><em>Variety</em></a> highlighted the work of filmmaker <strong>Payal&nbsp;Sethi&nbsp;’01</strong>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><a href="https://www.reuters.com/markets/rates-bonds/feds-jefferson-says-fed-can-take-time-next-interest-rate-decision-2025-02-19/">Reuters</a> reported on a speech given by Federal Reserve Vice Chair <strong>Philip Jefferson ’83</strong> on the state of the U.S. economy and inflation.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><a href="https://vermontbiz.com/people/february/three-business-leaders-join-vbsr-board-directors"><em>VermontBiz</em> magazine</a> reported that <strong>Eliza Leeper ’06</strong>, Mission and Sales Operations Manager at Vermont Creamery, has joined the Vermont Businesses of Social Responsibility Board of Directors.</p></div>
+
+
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21"><strong>Jim Citrin ’81</strong> was named to the International Tennis Hall of Fame’s Board of Governors, according to <a href="https://whatsupnewp.com/2025/02/international-tennis-hall-of-fame-welcomes-new-additions-to-its-board-of-governors/"><em>What’sUpNewp</em></a>.</p></div>
 
 
   <?php echo end_item_col(); ?>
