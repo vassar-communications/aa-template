@@ -100,17 +100,17 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_member_list('Presenters'); ?>
       <?php echo presentation_member(
         'Jennifer Rubbo',
-        'https://www.linkedin.com/in/jen-rubbo-909877160/',
+        'https://www.linkedin.com/in/jennifer-rubbo-909877160/',
         'Director of the Environmental Cooperative',
-        null,
-        null
+        '/alums/assets/img/alums-calendar/reunion/2025-lectures/Jennifer-Rubbo.jpg',
+        'Jennifer Rubbo, a relaxed person with curly dark brown hair, wearing a floral top and sitting outdoors among trees.'
       ); ?>
       <?php echo presentation_member(
         'Keri VanCamp',
         'https://www.linkedin.com/in/keri-vancamp-4966a177/',
         'Director of the Preserve at Vassar',
-        null,
-        null
+        '/alums/assets/img/alums-calendar/reunion/2025-lectures/Keri-VanCamp.jpg',
+        'Keri VanCamp, a thoughtful-looking person with straight brown hair, wearing a fleece jacket and neck gaiter while sitting on a rock ledge with a mountain view behind.'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -165,8 +165,8 @@ $page_info = json_decode($page_info, true);
         'Laura Graceffa ’87',
         'https://www.linkedin.com/in/laura-graceffa-3b14009/',
         null,
-        '/alums/assets/img/alums-calendar/reunion/2023-lectures/Laura_Graceffa.jpg',
-        'A person with short dark gray hair smiles at the camera.'
+        '/alums/assets/img/alums-calendar/reunion/2025-lectures/Laura-Graceffa.jpg',
+        'Laura Graceffa, a smiling person with short gray hair and red lipstick, wearing a light top and drop earrings.'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -216,10 +216,10 @@ $page_info = json_decode($page_info, true);
   <?php echo presentation_member_list('Presenter'); ?>
     <?php echo presentation_member(
       'Paco Underhill ’75',
-      '',
+      'https://pacounderhill.com/',
       null,
-      '',
-      ''
+      '/alums/assets/img/alums-calendar/reunion/2025-lectures/Paco-Underhill.jpg',
+      'Paco Underhill, a gentle-looking person with a graying beard and bald head, wearing a green jacket and white scarf.'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
@@ -237,31 +237,31 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_member_list('Presenters'); ?>
       <?php echo presentation_member(
         'Sallie Bourrie ’80',
-        '',
+        'https://sallybourrie.com/',
         null,
-        '',
-        ''
+        '/alums/assets/img/alums-calendar/reunion/2025-lectures/Sally-Bourrie.jpg',
+        'Sally Bourrie, a smiling person with long, wavy brown hair, wearing a white top.'
       ); ?>
       <?php echo presentation_member(
         'Eric Marcus ’80',
-        '',
+        'https://www.linkedin.com/in/ericmarcus2/',
         null,
-        '',
-        ''
+        '/alums/assets/img/alums-calendar/reunion/2025-lectures/Eric-Marcus.jpg',
+        'Eric Marcus, a smiling person with short dark hair, wearing a black shirt.'
       ); ?>
       <?php echo presentation_member(
         'Morgan Baker ’80',
-        '',
+        'https://www.bymorganbaker.com/',
         null,
-        '',
-        ''
+        '/alums/assets/img/alums-calendar/reunion/2025-lectures/Morgan-Baker.jpg',
+        'Morgan Baker, a cheerful person with shoulder-length reddish hair and glasses, wearing a white turtleneck.'
       ); ?>
       <?php echo presentation_member(
         'Pari Forood ’80',
-        '',
+        'https://pariforood.com/',
         null,
-        '',
-        ''
+        '/alums/assets/img/alums-calendar/reunion/2025-lectures/Pari-Forood.jpg',
+        'Pari Forood, a smiling person with light brown, wavy hair parted to the side, wearing pearl earrings.'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
