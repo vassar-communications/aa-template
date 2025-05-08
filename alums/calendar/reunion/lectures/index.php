@@ -48,10 +48,10 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_member_list('Presenter'); ?>
       <?php echo presentation_member(
         'Joshua de Leeuw',
-        '',
+        'https://www.vassar.edu/faculty/jdeleeuw',
         'Associate Professor of Cognitive Science',
-        '',
-        ''
+        '/alums/assets/img/alums-calendar/reunion/2025-lectures/joshua-de-leeuw-kr_0018_72.jpg',
+        'Joshua De Leeuw, a smiling person with short tousled brown hair, wearing rectangular glasses and a light pink shirt.'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -67,20 +67,13 @@ $page_info = json_decode($page_info, true);
       <p>Discover the next generation of changemakers! Hear from students about their creative projects, startups, and social ventures. From groundbreaking ideas to hands-on solutions, explore how Vassar students are turning passion into impact through the Vassar Innovation and Entrepreneurship (VIE) Program.</p>
     <?php echo end_presentation_content(); ?>
 
-    <?php echo presentation_member_list('Presenters'); ?>
+    <?php echo presentation_member_list('Moderator'); ?>
       <?php echo presentation_member(
-        'presenter one',
-        '',
-        '',
-        '',
-        ''
-      ); ?>
-      <?php echo presentation_member(
-        'presenter two',
-        '',
-        '',
+        'Julián Aguilar ’23',
+        'https://www.linkedin.com/in/julenragu/',
         null,
-        null
+        '/alums/assets/img/alums-calendar/reunion/2025-lectures/Julian-Aguilar.jpg',
+        'Julian Aguilar, a cheerful person with short curly hair, wearing a navy blue shirt and a pearl necklace, standing on a campus lawn with a brick building behind.'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -117,28 +110,28 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo presentation_item(
-    'Exploration of The Dream of a Common Movement: Selected Writings of Urvashi Vaid (Edited by Jyotsna Vaid and Amy Hoffman, Duke University Press, 2025)',
+    'Exploration of <em>The Dream of a Common Movement: Selected Writings of Urvashi Vaid</em> (Edited by Jyotsna Vaid and Amy Hoffman, Duke University Press, 2025)',
     'Rockefeller 300',
     '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Urvashi Vaid ’79 (1958–2022) was a trailblazing feminist and civil rights activist  whose progressive vision for social change and prolific organizing skills profoundly shaped the LGBTQ+ rights movement and the social justice movement more broadly. In this session, her sisters, Jyotsna Vaid ’76 (who co-edited a recent collection of Urvashi’s writings) and Rachna Vaid ’75 will share their reflections on their sister's life and impact, and will invite others to share their own thoughts about Urvashi.</p>
+      <p>Urvashi Vaid ’79 (1958–2022) was a trailblazing feminist and civil rights activist  whose progressive vision for social change and prolific organizing skills profoundly shaped the LGBTQ+ rights movement and the social justice movement more broadly. In this session, her sisters, Jyotsna Vaid ’76 (who co-edited a recent collection of Urvashi’s writings) and Rachna Vaid ’75 will share their reflections on their sister’s life and impact, and will invite others to share their own thoughts about Urvashi.</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenters'); ?>
       <?php echo presentation_member(
         'Jyotsna Vaid ’76',
-        '',
+        'https://www.linkedin.com/in/jyotsna-vaid-2a357312/details/education/',
         null,
-        '',
-        ''
+        '/alums/assets/img/alums-calendar/reunion/2025-lectures/Jyotsna-Vaid26665-1463x2048.jpg',
+        'Jyotsna Vaid, a smiling person with short curly black hair, wearing a dark blazer and pearl earrings.'
       ); ?>
       <?php echo presentation_member(
         'Rachna Vaid ’75',
-        '',
+        'https://www.nyu.edu/about/leadership-university-administration/office-of-the-president/general-counsel/compliance-and-risk-management/compliance-officer-bios/rachna-vaid.html',
         null,
-        '',
-        ''
+        '/alums/assets/img/alums-calendar/reunion/2025-lectures/Rachna-Vaid.jpg',
+        'Rachna Vaid, a composed person with shoulder-length brown hair, wearing hoop earrings and red lipstick.'
       ); ?>
     <?php echo end_presentation_member_list(); ?>
   <?php echo end_presentation_item(); ?>
@@ -150,7 +143,7 @@ $page_info = json_decode($page_info, true);
     '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Enjoy a leisurely walk, discover fascinating fun facts about trees, and learn about the increasing importance of campus trees for our efforts to be more sustainable and achieve carbon neutrality. Our itinerary will include visits to the reuning classes' class trees. Please wear comfortable walking shoes and dress for the weather.</p>
+      <p>Enjoy a leisurely walk, discover fascinating fun facts about trees, and learn about the increasing importance of campus trees for our efforts to be more sustainable and achieve carbon neutrality. Our itinerary will include visits to the reuning classes’ class trees. Please wear comfortable walking shoes and dress for the weather.</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenters'); ?>
@@ -194,10 +187,10 @@ $page_info = json_decode($page_info, true);
     ); ?>
     <?php echo presentation_member(
       'Marianne Begemann',
-      '',
+      'https://www.vassar.edu/faculty/begemann',
       'Director of Strategic Planning and Academic Resources and Associate Professor of Chemistry',
-      '',
-      ''
+      '/alums/assets/img/alums-calendar/reunion/2025-lectures/marianne-begemann-1112-tt-_0076_72.jpg',
+      'Marianne Begemann, a calm-looking person with short brown hair and glasses, wearing drop earrings and a black top.'
     ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
@@ -285,17 +278,17 @@ Future Vision for the Arboretum',
   <?php echo presentation_member_list('Presenters'); ?>
     <?php echo presentation_member(
       'Yvonne Elet',
-      '',
+      'https://www.vassar.edu/faculty/yvelet',
       'Professor of Art',
-      '',
-      ''
+      '/alums/assets/img/alums-calendar/reunion/2025-lectures/Yvonne-Elet.jpg',
+      'Yvonne Elet, a person with long brown hair, wearing tortoiseshell glasses and pearl earrings.'
     ); ?>
       <?php echo presentation_member(
         'Kenneth Foster',
-        '',
+        'https://www.vassar.edu/sustainability/contact',
         'Director of Sustainability',
-        '',
-        ''
+        '/alums/assets/img/alums-calendar/reunion/2025-lectures/kenneth-foster-portrait.jpg',
+        'Kenneth Foster, a smiling person with short dark hair and a gray beard, wearing glasses and a blue striped shirt, in front of a blurred background of bookshelves.'
       ); ?>
   <?php echo end_presentation_member_list(); ?>
 <?php echo end_presentation_item(); ?>
