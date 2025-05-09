@@ -81,26 +81,23 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-<?php /*hiding lectures until 2025 setup
-
 
 <?php echo sec_fullBleedImageColumn(
-    'College-Sponsored Lectures and Tours',
+    'Lectures and Tours',
     $alums_img_path.'alums-calendar/reunion/52129387193_a6f8dcfc89_k.jpg',
-    '',
+    ' theme-cream',
     '',
     ['img_alt_text' => 'A person wearing a mask, a purple shirt and brown pants, speaks in front of a projector screen at the front of a sunlit classroom with a hardwood floor. The classroom is filled with people of various ages sitting at individual desks.']
 ); ?>
 
-<p>Explore this year’s lifelong learning opportunities through college-sponsored lectures and tours at Reunion!</p>
+<p>Explore this year’s lifelong learning opportunities through lectures and tours at Reunion!</p>
 
 <?php echo cta_link(
     '/alums/calendar/reunion/lectures/',
-    'Learn more about College-Sponsored Lectures and Tours'
+    'Learn more about Lectures and Tours'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-End of hiding schedule content*/ ?>
 
 
 <?php echo sec_regularContent(
