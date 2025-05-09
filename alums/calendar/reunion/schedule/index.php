@@ -102,10 +102,10 @@ $page_info = json_decode($page_info, true);
     'Lectures',
   ); ?>
 
-      <h4>Utilizing AI in the Vassar Classroom</h4>
+<h4><a href="../lectures/#utilizing-ai-in-the-vassar-classroom">Utilizing AI in the Vassar Classroom</a></h4>
       <p><strong>Location:</strong> New England 105</p>
 
-      <h4>New Brews: A Showcase of Student Innovation and Entrepreneurship</h4>
+      <h4><a href="../lectures/#new-brews-a-showcase-of-student-innovation-and-entrepreneurship">New Brews: A Showcase of Student Innovation and Entrepreneurship</a></h4>
       <p><strong>Location:</strong> Rockefeller 200</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
@@ -115,7 +115,7 @@ $page_info = json_decode($page_info, true);
     '2:00–3:30 p.m.',
     'The Environmental Cooperative and the Preserve at Vassar Tour',
   ); ?>
-      <h4>Learn more about the Environmental Cooperative and the Preserve at Vassar Tour</h4>
+<h4><a href="../lectures/#vassar-preserve-environmental-cooperative">Learn more about the Environmental Cooperative and the Preserve at Vassar Tour</a></h4>
       <p><strong>Location:</strong> Shuttles depart from Main Drive</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
@@ -147,10 +147,10 @@ $page_info = json_decode($page_info, true);
     'Lectures and Tours',
   ); ?>
 
-      <h4>Exploration of <em>The Dream of a Common Movement: Selected Writings of Urvashi Vaid</em> (Edited by Jyotsna Vaid and Amy Hoffman, Duke University Press, 2025)</h4>
+<h4><a href="../lectures/#exploration-of-em-the-dream-of-a-common-movement-selected-writings-of-urvashi-vaid-em-edited-by-jyotsna-vaid-and-amy-hoffman-duke-university-press-2025">Exploration of <em>The Dream of a Common Movement: Selected Writings of Urvashi Vaid</em> (Edited by Jyotsna Vaid and Amy Hoffman, Duke University Press, 2025)</a></h4>
       <p><strong>Location:</strong> Rockefeller 300</p>
 
-     <h4>Walking Tour of the Vassar College Class Trees</h4>
+<h4><a href="../lectures/#walking-tour-of-the-vassar-college-class-trees">Walking Tour of the Vassar College Class Trees</a></h4>
       <p><strong>Location:</strong> Meet in front of Rockefeller Hall (Library side)</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
@@ -494,7 +494,7 @@ lunch. Afterward, we’ll gather outside the barn for a memorial service honorin
     'Lecture',
   ); ?>
 
-      <h4>The Vassar Institute for the Liberal Arts and The Heartwood</h4>
+<h4><a href="../lectures/#the-vassar-institute-for-the-liberal-arts-and-the-heartwood">The Vassar Institute for the Liberal Arts and The Heartwood</a></h4>
       <p><strong>Location:</strong> The Vassar Institute for the Liberal Arts, Elm room</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
@@ -601,15 +601,22 @@ lunch. Afterward, we’ll gather outside the barn for a memorial service honorin
 
   <?php echo schedule_item_dropdown(
     '3:30–4:30 p.m.',
-    'Lectures'
+    'Lecture'
   ); ?>
 
-  <h4>The Science of Food Shopping in a Postpan World</h4>
+<h4><a href="../lectures/#the-science-of-food-shopping-in-a-postpan-world">The Science of Food Shopping in a Postpan World</a></h4>
 <p><strong>Location:</strong> The Vassar Institute for the Liberal Arts, Beech room</p>
 
-  <h4>Beyond the Book: Vassar Authors Discuss the Writing Process</h4>
-<p><strong>Location:</strong> Rockefeller 200 </p>
+  <?php echo end_schedule_item_dropdown(); ?>
 
+
+  <?php echo schedule_item_dropdown(
+    '3:30–4:30 p.m.',
+    'Beyond the Book: Vassar Authors Discuss the Writing Process',
+    'Rockefeller 200'
+  ); ?>
+    <p>Moderated by Annette Banks Candido ’80<br>
+Join us for an inspiring and intimate session at this year’s reunion, where accomplished alum authors, Morgan Baker, Sally Bourrie, Pari Farood, and Eric Marcus, each a member of the Class of ’80, will take center stage to share their personal experiences navigating the writing and publishing world. Beyond the Book invites attendees to sit in on a candid conversation that will delve into the emotional and creative journey of writing from the initial spark of an idea, through the challenges and revelations of the process, to the powerful moment of completion and release. Authors will share candid reflections on what drove them to write, how they navigated self-doubt and discipline, and how publishing their work has impacted their lives. Whether you‘re an aspiring writer or a curious reader, this conversation promises insight and inspiration.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -618,7 +625,7 @@ lunch. Afterward, we’ll gather outside the barn for a memorial service honorin
     'Lecture and Tour'
   ); ?>
 
-  <h4>Centennial Celebration of the Arboretum: History of the Arboretum plus the future vision for the Arboretum</h4>
+<h4><a href="../lectures/#centennial-celebration-of-the-arboretum-history-of-the-arboretum-plus-the-future-vision-for-the-arboretum">Centennial Celebration of the Arboretum: History of the Arboretum plus the Future Vision for the Arboretum</a></h4>
 <p><strong>Location:</strong> Taylor 203</p>
 
   <?php echo end_schedule_item_dropdown(); ?>

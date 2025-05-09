@@ -218,58 +218,10 @@ $page_info = json_decode($page_info, true);
 <?php echo end_presentation_item(); ?>
 
 
-  <?php echo presentation_item(
-    'Beyond the Book: Vassar Authors Discuss the Writing Process',
-    'Rockefeller 200',
-    '3:30 p.m.'
-  ); ?>
-    <?php echo presentation_content(); ?>
-      <p>Class of 1980 presents an author panel discussion featuring Sallie Bourrie, Eric Marcus, Morgan Baker, and Pari Forood. Learn about the journeys that led these authors to write their books, the effect that writing these books has had on their lives, and their love of writing. We will not only discuss book content but also discover what inspires them to write and what they hope each book imparts to its readers. The session will include a Q&A with the authors.</p>
-    <?php echo end_presentation_content(); ?>
-
-    <?php echo presentation_member_list('Presenters'); ?>
-      <?php echo presentation_member(
-        'Sallie Bourrie ’80',
-        'https://sallybourrie.com/',
-        null,
-        '/alums/assets/img/alums-calendar/reunion/2025-lectures/Sally-Bourrie.jpg',
-        'Sally Bourrie, a smiling person with long, wavy brown hair, wearing a white top.'
-      ); ?>
-      <?php echo presentation_member(
-        'Eric Marcus ’80',
-        'https://www.linkedin.com/in/ericmarcus2/',
-        null,
-        '/alums/assets/img/alums-calendar/reunion/2025-lectures/Eric-Marcus.jpg',
-        'Eric Marcus, a smiling person with short dark hair, wearing a black shirt.'
-      ); ?>
-      <?php echo presentation_member(
-        'Morgan Baker ’80',
-        'https://www.bymorganbaker.com/',
-        null,
-        '/alums/assets/img/alums-calendar/reunion/2025-lectures/Morgan-Baker.jpg',
-        'Morgan Baker, a cheerful person with shoulder-length reddish hair and glasses, wearing a white turtleneck.'
-      ); ?>
-      <?php echo presentation_member(
-        'Pari Forood ’80',
-        'https://pariforood.com/',
-        null,
-        '/alums/assets/img/alums-calendar/reunion/2025-lectures/Pari-Forood.jpg',
-        'Pari Forood, a smiling person with light brown, wavy hair parted to the side, wearing pearl earrings.'
-      ); ?>
-    <?php echo end_presentation_member_list(); ?>
-  <?php echo end_presentation_item(); ?>
-
-
 <?php echo presentation_item(
-  'Centennial Celebration of the Arboretum; History of the Arboretum plus the 
-Future Vision for the Arboretum',
+  'Centennial Celebration of the Arboretum: History of the Arboretum plus the Future Vision for the Arboretum',
   'Taylor 203',
-  '3:30 p.m.',
-  null,
-  '4',
-  [
-    'id_modifier' => '-2'
-  ]
+  '3:30 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
     <p>Yvonne Elet, Professor of Art, and Kenneth Foster, Vassar’s new Director of Sustainability, will speak about the history of the Arboretum and campus landscape development along with the College’s future plans and sustainability efforts. Following the talk, join Yvonne and Ken for a continuation of the discussion as they tour the Arboretum.</p>
