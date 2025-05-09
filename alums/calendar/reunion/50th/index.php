@@ -118,7 +118,7 @@ $page_info = json_decode($page_info, true);
     'Walkway Over the Hudson Bike ride',
     '',
   ); ?>
-  <p>A gentle 10–15 mile paved trail bike ride on the Dutchess County Rail Trail. We will meet at the parking lot on the west side, a.k.a. the Highland side, of the <a href="https://walkway.org/">Walkway Over the Hudson</a>. Limited bike rentals are available. For more information contact Hudson Bike Co. at <a href="mailto:hudsonbikeco@gmail.com">hudsonbikeco@gmail.com</a> or call  <a href="tel:+18456919198">(845) 691-9198</a>. The ride is limited to 25 participants, and the deadline to sign up is May 23, 2025. Please reach out to Paul Winkeller at <a href="mailto:winkp1725@gmail.com">winkp1725@gmail.com</a> with any questions.</p>
+  <p>A gentle 10–15 mile paved trail bike ride on the Dutchess County Rail Trail. We will meet at the parking lot on the west side, a.k.a. the Highland side, of the <a href="https://walkway.org/">Walkway Over the Hudson</a>. Limited bike rentals are available.  For more information contact Hudson Bike Co. at <a href="mailto:hudsonbikeco@gmail.com">hudsonbikeco@gmail.com</a> or call  <a href="tel:+18456919198">(845) 691-9198</a>. The ride is limited to 25 participants, and the deadline to sign up is May 23, 2025. Please reach out to Paul Winkeller at <a href="mailto:winkp1725@gmail.com">winkp1725@gmail.com</a> with any questions.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -149,7 +149,7 @@ $page_info = json_decode($page_info, true);
     'Golf Outing',
     'Meet at the Vassar Golf Course',
   ); ?>
-  <p>Join other classmates to play nine holes of golf at the Vassar Golf Course.  Contact Sturgess Spanos for more details—<a href="mailto:sturgess.spanos@gmail.com">sturgess.spanos@gmail.com</a>.</p>
+  <p>Join other classmates to play nine holes of golf at the Vassar Golf Course. The cost for 9 holes of golf is $16 per person, $22 with a golf cart. You must have your own clubs. The Vassar Golf Course does not have clubs to rent. Contact Sturgess Spanos for more details—<a href="mailto:sturgess.spanos@gmail.com">sturgess.spanos@gmail.com</a>.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -183,10 +183,10 @@ $page_info = json_decode($page_info, true);
     'Lectures',
   ); ?>
   
-      <h4>Utilizing AI in the Vassar Classroom</h4>
-      <p><strong>Location:</strong> New England 105</p>
+ <h4><a href="../lectures/#utilizing-ai-in-the-vassar-classroom">Utilizing AI in the Vassar Classroom</a></h4>
+       <p><strong>Location:</strong> New England 105</p>
 
-      <h4>New Brews: A Showcase of Student Innovation and Entrepreneurship</h4>
+      <h4><a href="../lectures/#new-brews-a-showcase-of-student-innovation-and-entrepreneurship">New Brews: A Showcase of Student Innovation and Entrepreneurship</a></h4>
       <p><strong>Location:</strong> Rockefeller 200</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
@@ -196,7 +196,7 @@ $page_info = json_decode($page_info, true);
     '2:00–3:30 p.m.',
     'The Environmental Cooperative and the Preserve at Vassar Tour',
   ); ?>
-      <h4>Learn more about the Environmental Cooperative and the Preserve at Vassar Tour</h4>
+<h4><a href="../lectures/#vassar-preserve-environmental-cooperative">Learn more about the Environmental Cooperative and the Preserve at Vassar Tour</a></h4>
       <p><strong>Location:</strong> Shuttles depart from Main Drive</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
@@ -221,7 +221,7 @@ $page_info = json_decode($page_info, true);
       <h4>Exploration of <em>The Dream of a Common Movement: Selected Writings of Urvashi Vaid</em> (Edited by Jyotsna Vaid and Amy Hoffman, Duke University Press, 2025)</h4>
       <p><strong>Location:</strong> Rockefeller 300</p>
 
-     <h4>Walking Tour of the Vassar College Class Trees</h4>
+<h4><a href="../lectures/#walking-tour-of-the-vassar-college-class-trees">Walking Tour of the Vassar College Class Trees</a></h4>
       <p><strong>Location:</strong> Meet in front of Rockefeller Hall (Library side)</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
@@ -476,7 +476,7 @@ $page_info = json_decode($page_info, true);
     'Lecture',
   ); ?>
 
-      <h4>The Vassar Institute for the Liberal Arts and The Heartwood</h4>
+<h4><a href="../lectures/#the-vassar-institute-for-the-liberal-arts-and-the-heartwood">The Vassar Institute for the Liberal Arts and The Heartwood</a></h4>
       <p><strong>Location:</strong> The Vassar Institute for the Liberal Arts, Elm room</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
@@ -566,15 +566,22 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '3:30–4:30 p.m.',
-    'Lectures'
+    'Lecture'
   ); ?>
 
-  <h4>The Science of Food Shopping in a Postpan World</h4>
+<h4><a href="../lectures/#the-science-of-food-shopping-in-a-postpan-world">The Science of Food Shopping in a Postpan World</a></h4>
 <p><strong>Location:</strong> The Vassar Institute for the Liberal Arts, Beech room</p>
 
-  <h4>Beyond the Book: Vassar Authors Discuss the Writing Process</h4>
-<p><strong>Location:</strong> Rockefeller 200 </p>
+  <?php echo end_schedule_item_dropdown(); ?>
 
+
+  <?php echo schedule_item_dropdown(
+    '3:30–4:30 p.m.',
+    'Beyond the Book: Vassar Authors Discuss the Writing Process',
+    'Rockefeller 200'
+  ); ?>
+    <p>Moderated by Annette Banks Candido ‘80<br>
+Join us for an inspiring and intimate session at this year’s reunion, where accomplished alum authors, Morgan Baker, Sally Bourrie, Pari Farood, and Eric Marcus, each a member of the Class of ’80, will take center stage to share their personal experiences navigating the writing and publishing world. Beyond the Book invites attendees to sit in on a candid conversation that will delve into the emotional and creative journey of writing from the initial spark of an idea, through the challenges and revelations of the process, to the powerful moment of completion and release. Authors will share candid reflections on what drove them to write, how they navigated self-doubt and discipline, and how publishing their work has impacted their lives. Whether you‘re an aspiring writer or a curious reader, this conversation promises insight and inspiration.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -583,7 +590,7 @@ $page_info = json_decode($page_info, true);
     'Lecture and Tour'
   ); ?>
 
-  <h4>Centennial Celebration of the Arboretum: History of the Arboretum plus the future vision for the Arboretum</h4>
+<h4><a href="../lectures/#centennial-celebration-of-the-arboretum-history-of-the-arboretum-plus-the-future-vision-for-the-arboretum">Centennial Celebration of the Arboretum: History of the Arboretum plus the future vision for the Arboretum</a></h4>
 <p><strong>Location:</strong> Taylor 203</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
@@ -640,11 +647,11 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '10:00 p.m.–1:00 a.m.',
-    'Coffee House—Hospitality',
+    'Our Favorite Music: Songs You Heard in the Hallways played and sung by 1975’s very own',
     'Davison Tent',
   ); ?>
   
-  <p>Join us for one last intimate gathering of live music at our cozy “coffeehouse,” where classmates’ talent will, again, serenade you with acoustic tunes and soulful melodies. Sip your favorite brew and enjoy a night of unforgettable music!</p>
+  <p>Join us for one last intimate gathering of live music in our tent—where classmates’ talent will again entertain you with familiar tunes and lively melodies from the 60’s and 70’s. Sip your favorite brew, boogie if you want, chat with friends, and enjoy a night of unforgettable music!</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
