@@ -121,7 +121,7 @@ $page_info = json_decode($page_info, true);
     <?php echo presentation_member_list('Presenters'); ?>
       <?php echo presentation_member(
         'Jyotsna Vaid ’76',
-        'https://www.linkedin.com/in/jyotsna-vaid-2a357312/details/education/',
+        'https://www.linkedin.com/in/jyotsna-vaid-2a357312/',
         null,
         '/alums/assets/img/alums-calendar/reunion/2025-lectures/Jyotsna-Vaid26665-1463x2048.jpg',
         'Jyotsna Vaid, a smiling person with short curly black hair, wearing a dark blazer and pearl earrings.'
