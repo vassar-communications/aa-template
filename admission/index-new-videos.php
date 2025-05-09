@@ -1,5 +1,5 @@
- <?php
-/*Dummy Commit*/
+<?php
+
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include( $project_paths['main_project_root'] . '/functions.php');
 
@@ -19,7 +19,6 @@ $page_info = '{
 $page_info = json_decode($page_info, true);
 
 ?>
-
 
 
 
@@ -210,7 +209,7 @@ echo sec_fixedCenteredTitle(
     <?php echo flipcard_stat(
         'Students Receiving Financial Aid',
         $class_stats['students_receiving_finaid'],
-        'The average financial aid award is '.$facts['average_finaid_award'],
+        'The average financial aid award is $54K',
         'animation-item',
         '/admission/financial-aid/',
         null
@@ -229,7 +228,7 @@ echo sec_fixedCenteredTitle(
     <?php echo flipcard_stat(
         'First-Generation Students',
         $class_stats['1st-gen-students'],
-        'Vassar’s First-generation, Low Income (FLI) Program is designed to support first-generation, low-income, and undocumented students.',
+        'Vassar’s Transitions Program is designed to support first-generation, low-income, and undocumented students.',
         'animation-item',
         '/admission/explore/student-life/'
     );
@@ -271,8 +270,7 @@ echo sec_fixedCenteredTitle(
       /* --section-title-faded-opacity: 0.2; */
       --title-container-bg-beforeContent: rgba(0,0,0,0.4);
       --section-bg-image-opacity: 0;
-      ',
-      'id' => 'our-favorite-places'
+      '
     ]
 ); ?>
 
@@ -408,7 +406,7 @@ Vassar students are surrounded by an environment designed to spark something ama
 
    <p class="text-center mb-5 fs-5">See the Vassar campus through the eyes of our students:</p>',
     'sec-fixedCenteredTitle theme-dark-burgundy featured-video',
-    'mw-2',
+    'mw-4',
     ['bg-image-url' => '/admission/assets/images/journey/0256-19-10-ja-library-lawn-vassar-vb-038.jpg',
         'bg-image-alt' => 'Large group of students seated on a lawn in front of the Thompson Memorial Library on Vassar campus',
         'css' => '
@@ -427,8 +425,77 @@ Vassar students are surrounded by an environment designed to spark something ama
 */ ?>
 
 
-<?php include($project_paths['main_project_root'].'/admission/inc/reslife-video-embed.php'); ?>
+<div class="animation-group staggered-grid  animation-zoom-in animate-when-content-appears gap-3  mb-3">
 
+  <?php echo item_imageCard_videoModal(
+      get_icon('play').'Art Studios',
+      null,
+      'https://player.vimeo.com/video/754937394',
+      'vimeo',
+      '',
+      ['url' => '/admission/assets/images/admission-home/art-studio.jpg',
+          'alt' => 'An art studio with easels, paints, stools and carts with art materials'
+      ],
+      'animation-item grid-item text-at-bottom text-white'
+  ); ?>
+
+  <?php echo item_imageCard_videoModal(
+      get_icon('play').'Car Camera Rigging',
+      null,
+      'https://player.vimeo.com/video/754937420',
+      'vimeo',
+      '',
+      ['url' => '/admission/assets/images/admission-home/camera-rigging.jpg',
+          'alt' => 'Videographer with camera and editing equipment outside'
+      ],
+      'animation-item grid-item text-at-bottom text-white'
+  ); ?>
+
+
+
+</div>
+
+
+<div class="animation-group staggered-grid tiktok-grid animation-zoom-in animate-when-content-appears gap-3  mb-3">
+
+
+  <?php echo item_cardWithText_linkToVideoSite(
+      get_icon('play').'Day in the Life NEW',
+      'https://www.tiktok.com/@vassar_college/video/7321759737840799007?is_from_webapp=1&sender_device=pc&web_id=7322108294952617514',
+      '<svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"></path></svg>',
+      ['url' => '/admission/assets/images/admission-home/video/day-1.jpg',
+          'alt' => 'Student working on a laptop in front of a window'
+      ],
+      'animation-item grid-item text-at-bottom text-white'
+  ); ?>
+
+  <?php echo item_imageCard_videoModal(
+      get_icon('play').'Dorm Tour: Noyes',
+      null,
+      'https://player.vimeo.com/video/754937458',
+      'vimeo',
+      '',
+      ['url' => '/admission/assets/images/admission-home/video/dorm-a-1.jpg',
+          'alt' => 'View of campus quad through a sunny window'
+      ],
+      'animation-item grid-item text-at-bottom text-white'
+  ); ?>
+
+  <?php echo item_imageCard_videoModal(
+      get_icon('play').'Dorm Tour: Town Houses',
+      null,
+      'https://player.vimeo.com/video/754937477',
+      'vimeo',
+      '',
+      ['url' => '/admission/assets/images/admission-home/video/dorm-b.jpg',
+          'alt' => 'Decorative string lights on a dorm wall'
+      ],
+      'animation-item grid-item text-at-bottom text-white'
+  ); ?>
+
+
+
+</div>
 
 
 <div class="text-center mt-3 pt-5">
@@ -524,7 +591,6 @@ Vassar students are surrounded by an environment designed to spark something ama
 
 
 
-
 <?php echo end_sec_fixedCenteredTitle(); ?>
 
 <!-- end you may be wondering -->
@@ -535,39 +601,35 @@ Vassar students are surrounded by an environment designed to spark something ama
 
 
 <script>
-
-  // note: news items without a specified image
-  // will *not* show up in the carousel.
-
   function parseRSS(urlIN, callback) {
     $.ajax({
       url: urlIN,
       dataType: 'json',
       success: function (data) {
+        //console.log(data);
+        //callback(data);
         markup = '';
-        for (let i = 0; i < data.length; i++) {
-          if (!(i < 4)) {
-            break;
-          }
-          var itemPath = data[i]['override_url'] ? data[i]['override_url'] : data[i]['path'];
+
+//        for (let i = 0; i < data.length; i++) {
+        for (let i = 0; i < 5; i++) {
           var itemMarkup = `
     <div class="carousel-cell is-link">
       <div class="carousel-cell-content">
        <div class="image-container">
-          <img src="${data[i]['image_16_9_l']}" alt="${data[i]['alt']}" />
+          <img src="${data[i]['image_16_9_l']}" alt="" />
        </div>
        <div class="figcaption pt-4 listen">
           <h3>
-             <a href="${itemPath}" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">${data[i]['title']}</span>
+             <a href="${data[i]['path']}" class="stretched-link"><span class="field field--name-title field--type-string field--label-hidden">${data[i]['title']}</span>
              </a>
           </h3>
-          ${data[i]['summary']}
           <p>Read more <i class="fa-solid fa-arrow-right"></i></p>
        </div>
     </div>
    </div>
 `.trim();
           markup += itemMarkup;
+
         }
         if (markup.length !== 0) {
           markup = '<div class="featureImage-text-ticker media-carousel full">' + markup + '</div>';
@@ -586,15 +648,13 @@ Vassar students are surrounded by an environment designed to spark something ama
       }
     });
   }
-  parseRSS('https://www.vassar.edu/news/rest/701?img_req=1');
+  parseRSS('https://www.vassar.edu/news/rss/511');
 </script>
 
   <div id="newsRSS_target">
     <p>News could not be loaded. Please make sure JavaScript is enabled in your browser.</p>
   </div>
 </div>
-
-
 
  <?php echo item_modal_standardVideo(); ?>
 
