@@ -11,6 +11,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
     
 <p><strong>Meghan Daum ’92</strong>, who lost everything in the L.A. fires, wrote a guest essay for <em>The New York Times</em> on how the experience taught her to accept help.</p>
 
+
       <p><em>Photo: David Belusic</em></p>
       <?php echo cta_link(
       'https://www.nytimes.com/2025/01/31/opinion/la-wildfires-altadena-fires.html?smid=nytcore-android-share',

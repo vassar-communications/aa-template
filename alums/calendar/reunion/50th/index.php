@@ -118,7 +118,7 @@ $page_info = json_decode($page_info, true);
     'Walkway Over the Hudson Bike ride',
     '',
   ); ?>
-  <p>A gentle 10–15 mile paved trail bike ride on the Dutchess County Rail Trail. We will meet at the parking lot on the west side, a.k.a. the Highland side, of the <a href="https://walkway.org/">Walkway Over the Hudson</a>. Limited bike rentals are available. For more information contact Hudson Bike Co. at <a href="mailto:hudsonbikeco@gmail.com">hudsonbikeco@gmail.com</a> or call  <a href="tel:+18456919198">(845) 691-9198</a>. The ride is limited to 25 participants, and the deadline to sign up is May 23, 2025. Please reach out to Paul Winkeller at <a href="mailto:winkp1725@gmail.com">winkp1725@gmail.com</a> with any questions.</p>
+  <p>A gentle 10–15 mile paved trail bike ride on the Dutchess County Rail Trail. We will meet at the parking lot on the west side, a.k.a. the Highland side, of the <a href="https://walkway.org/">Walkway Over the Hudson</a>. Limited bike rentals are available. More information will be available in the spring. The ride is limited to 25 participants, and the deadline to sign up is May 23, 2025. Please reach out to Paul Winkeller at <a href="mailto:winkp1725@gmail.com">winkp1725@gmail.com</a> with any questions.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
