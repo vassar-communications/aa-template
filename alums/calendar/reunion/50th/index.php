@@ -458,7 +458,7 @@ $page_info = json_decode($page_info, true);
     'Class Memorial Gathering',
     'The lower level of Commencement Hill'
   ); ?>
-    <p>After lunch, join Reverend Sandye Wilson and Rabbi Liza Stern to memorialize and celebrate the lives of the 71 classmates we have lost during the past 50 years.</p>
+    <p>After lunch, join Rabbi Liza Stern to memorialize and celebrate the lives of the 71 classmates we have lost during the past 50 years.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
