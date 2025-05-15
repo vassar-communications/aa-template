@@ -311,10 +311,11 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '9:45 p.m.',
-    'Screening of <em>The World According to Allee Willis</em>',
+    'Screening of <em>The World According to Allee Willis</em> along with a short film, <em>Not Just Any Flower</em>',
     'Vogelstein Center For Drama and Film, Rosenwald Theater',
   ); ?>
 <p>Co-executive produced by Prudence Fenton ’75, <em>The World According to Allee Willis</em> chronicles the life of Fenton’s partner of 27 years, songwriter/artist Allee Willis. Willis is best known for writing the Friends theme song, the Earth, Wind & Fire mega-hits “September” and “Boogie Wonderland,” as well as the Broadway musical <em>The Color Purple</em>. She began filming her life as a kid in 1950s Detroit and never stopped. Willis pursued creative expression at all costs while struggling with not fitting established gender and sexual norms...until she found a path to love.</p>
+<p><em>Not Just Any Flower</em>, a 1988 short comedy written and directed by Terry deRoy Gruber ’75, chronicles a stormy night in NYC where not much goes right. Made under the supervision of Martin Scorsese, Gruber’s Columbia Film School thesis film traveled the film festival circuit in 1989 and was recently restored, making it available to new audiences.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
