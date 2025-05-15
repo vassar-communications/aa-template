@@ -355,6 +355,7 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments wil
     <li><a href="https://www.vassar.edu/smokefree/">Vassar is a smoke-free campus</a>.</li>
     <li>All bathrooms are gender-neutral unless otherwise noted.</li>
     <li>Loop technology for hearing assistance is available in the 1951 Reading Room in Thompson Library, Belle Skinner Hall of Music, and Rockefeller Hall, Auditorium 300.  FM system capability is available in the Chapel.</li>
+    <li>Golf carts, vans, and shuttle buses are available to assist alums who may have mobility challenges and need assistance.</li>
     <li>Vassar Guest Wi-Fi: follow the prompts to join the network.</li>
 </ul>
 <?php echo end_item_iconItem(); ?>
