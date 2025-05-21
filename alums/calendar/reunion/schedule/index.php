@@ -269,16 +269,8 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '6:30–9:15 p.m.',
-    'Class of 1965 Reception and Dinner Followed by Night Caps',
+    'Class of 1965 Reception and Dinner',
     'The Vassar Institute for Liberal Arts, Elm Room'
-  ); ?>
-   <?php echo end_schedule_item_dropdown(); ?>
-
-
-  <?php echo schedule_item_dropdown(
-    '7:00–9:15 p.m.',
-    'Class of 1970 Dinner',
-    'Main Building, 2nd floor'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
 
@@ -664,13 +656,6 @@ Join us for an inspiring and intimate session at this year’s reunion, where ac
   <p>A special reception for members of the 1861 Loyalty Society and Matthew Vassar Legacy Society in appreciation for those who have made Vassar a philanthropic priority.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
-    <?php echo schedule_item_dropdown(
-    '6:30 p.m.',
-    'Class of 1970 Photo',
-    'Rockefeller Hall'
-  ); ?>
-   <?php echo end_schedule_item_dropdown(); ?>
-
 
   <?php echo schedule_item_dropdown(
     '6:30–7:15 p.m.',
@@ -685,7 +670,7 @@ Join us for an inspiring and intimate session at this year’s reunion, where ac
     'Class Dinners',
       null
     ); ?>
-      <p><strong>1945, 1945-4, 1950, and 1955:</strong> Alumnae House Pub</p>
+      <p><strong>1950 and 1955:</strong> Alumnae House Pub</p>
   		<p><strong>1960:</strong> Alumnae House Living Room</p>
   		<ul>
 	        <li>Class photo on Alumnae House steps (7:00 p.m.)</li>
@@ -698,6 +683,7 @@ Join us for an inspiring and intimate session at this year’s reunion, where ac
         </ul>
   		<p><strong>1970:</strong> Main Building, Faculty Parlor, 2nd Floor</p>
         <ul>
+            <li>Class photo on Rockefeller Hall steps (6:30 p.m.)</li>
             <li>Demitasse will be served following dinner</li>
         </ul>
   		<p><strong>1980:</strong> Bridge for Laboratory Sciences</p>
