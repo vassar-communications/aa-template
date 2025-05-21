@@ -186,9 +186,6 @@ $page_info = json_decode($page_info, true);
     <li>For life threatening/medical emergencies/fire/police, call <a href="tel:1-911">911</a></li>
     <li>Then call Vassar Security: <a href="tel:+18454377333">(845) 437-7333</a></li>
     <li>For non-threatening/non-medical emergencies, call <a href="tel:+18454375221">(845) 437-5221</a></li>
-    <li>Police: <a href="tel:+18454853666">(845) 485-3666</a></li>
-    <li>Sheriff: <a href="tel:+18454863800">(845) 486-3800</a></li>
-    <li>State Police: <a href="tel:+18456777300">(845) 677-7300</a></li>
 </ul>
 <p><strong>Poughkeepsie Hospitals:</strong></p>
 <ul>
