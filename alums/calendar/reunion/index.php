@@ -45,7 +45,7 @@ $page_info = json_decode($page_info, true);
    <a href="https://reunionregistration.vassar.edu/" class="btn btn-primary arrow mt-2 mb-2">Register for Reunion</a>
   <br />
    <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-4 mb-4">See Who’s Coming to Reunion</a>
-    <p>Reunion registration will close on May 23, 2025. This page continues to be updated periodically. Be sure to check back! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email&nbsp;us</a> regarding Reunion.</p> 
+    <p>Reunion registration ends on May 23, 2025. Late registration will begin on May 24 and close on May 30. On campus housing is no longer available after May 23. If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email&nbsp;us</a> regarding Reunion.</p> 
   
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -183,8 +183,9 @@ $page_info = json_decode($page_info, true);
 
 <p><strong>Emergency numbers:</strong></p>
 <ul>
-    <li>For non-medical emergencies, call Vassar Security: <a href="tel:+18454377333">(845) 437-7333</a></li>
-    <li>Medical emergencies/fire/police: <a href="tel:1-911">911</a></li>
+    <li>For life threatening/medical emergencies/fire/police, call <a href="tel:1-911">911</a></li>
+    <li>Then call Vassar Security: <a href="tel:+18454377333">(845) 437-7333</a></li>
+    <li>For non-threatening/non-medical emergencies, call <a href="tel:+18454375221">(845) 437-5221</a></li>
     <li>Police: <a href="tel:+18454853666">(845) 485-3666</a></li>
     <li>Sheriff: <a href="tel:+18454863800">(845) 486-3800</a></li>
     <li>State Police: <a href="tel:+18456777300">(845) 677-7300</a></li>
@@ -355,7 +356,7 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments wil
     <li><a href="https://www.vassar.edu/smokefree/">Vassar is a smoke-free campus</a>.</li>
     <li>All bathrooms are gender-neutral unless otherwise noted.</li>
     <li>Loop technology for hearing assistance is available in the 1951 Reading Room in Thompson Library, Belle Skinner Hall of Music, and Rockefeller Hall, Auditorium 300.  FM system capability is available in the Chapel.</li>
-    <li>Golf carts, vans, and shuttle buses are available to assist alums who may have mobility challenges and need assistance. <a href="https://map.concept3d.com/?id=699#!ct/10104,8434,10356,8426,22116,22152,22153,22154,22158,22160,22161,22162,22163,22164,22165,22166,22167,22169,22170,22171,22172,22173,22175,22176,22177,22178,22179,22180,22181,22182,22183,22184,22185,22186,22187,22188,22189,22190,22191,22192,22193,22194,22195,22196,22197,22198,22199,22200,22201,22202,22203,22329,29500?s/">View the accessibility map</a>.</li>
+    <li>Golf carts, vans, and shuttle buses are available to assist alums who may have mobility challenges and need assistance. Call <a href="tel:+18454377601">(845) 437-7601</a>. <a href="https://map.concept3d.com/?id=699#!ct/10104,8434,10356,8426,22116,22152,22153,22154,22158,22160,22161,22162,22163,22164,22165,22166,22167,22169,22170,22171,22172,22173,22175,22176,22177,22178,22179,22180,22181,22182,22183,22184,22185,22186,22187,22188,22189,22190,22191,22192,22193,22194,22195,22196,22197,22198,22199,22200,22201,22202,22203,22329,29500?s/">View the accessibility map</a>.</li>
     <li>Vassar Guest Wi-Fi: follow the prompts to join the network.</li>
 </ul>
 <?php echo end_item_iconItem(); ?>
@@ -390,13 +391,19 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments wil
 <h3>Athletic and Fitness Center</h3>
 <ul>
   <li>Friday: 7:00 a.m.–8:00 p.m.</li>
-  <li>Saturday:	<em>Closed due to events happening throughout the day</em></li>
+  <li>Saturday:	<em>Closed due to events happening throughout the day.</em></li>
   <li>Sunday: 10:00 a.m.–6:00 p.m.</li>
 </ul>
-  <p><em>We intend to have the pool open, pending lifeguard availability. Check back for updates.</em></p>
+  <p><strong>Pool Hours:</strong></p>
+  <ul>
+  <li>Friday: 8:00 a.m.–12:00 p.m. & 1:00–5:00 p.m.</li>
+  <li>Saturday:	Closed</li>
+  <li>Sunday: 1:00–4:00 p.m.</li>
+</ul>
+
 
 <h3>James W. Palmer III Gallery, North Atrium, College Center</h3>
-  <p>The Class of 1985 Presents: <em>Connecting Through the Camera</em></p>
+  <p><em>Connecting Through the Camera: The Class of 1985 Portrait Project</em></p>
 <ul>
   <li>Friday: 9:00 a.m.–10:00 p.m.</li>
   <li>Saturday:	10:00 a.m.–10:00 p.m.</li>
@@ -438,7 +445,7 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments wil
   </ul>
   <p><em>Coffee, light refreshments and snacks</em></p>-->
 
-  <h3>The Loeb</h3>
+  <h3>The Loeb Art Center</h3>
   <ul>
     <li>Thursday: 10:00 a.m.–9:00 p.m.</li>
     <li>Friday: 10:00 a.m.–7:00 p.m.</li>

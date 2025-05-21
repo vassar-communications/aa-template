@@ -1070,6 +1070,17 @@ echo end_contact_card();
 
 
 echo contact_card(
+    'Katherine Stikkers',
+    'Advancement Data Manager',
+    [
+            'phone' => '',
+            'email' => 'kstikkers@vassar.edu',
+        ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
     'Anita West',
     'Data Records Specialist',
     [
