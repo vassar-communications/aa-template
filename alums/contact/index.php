@@ -929,6 +929,17 @@ echo end_contact_card();
 
 
 echo contact_card(
+    'Katherine Stikkers',
+    'Advancement Data Manager',
+    [
+            'phone' => '845-437-5492',
+            'email' => 'kstikkers@vassar.edu',
+        ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
     'Danielle J. Suter',
     'Director of Gift, Trust, and Estate Administration',
     [
@@ -1064,17 +1075,6 @@ echo contact_card(
     [
             'phone' => '845-437-7789',
             'email' => 'bshivers@vassar.edu',
-        ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
-    'Katherine Stikkers',
-    'Advancement Data Manager',
-    [
-            'phone' => '',
-            'email' => 'kstikkers@vassar.edu',
         ]
 );
 echo end_contact_card();
