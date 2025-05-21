@@ -279,7 +279,7 @@ $page_info = json_decode($page_info, true);
     '7:00–9:15 p.m.',
     'Picnic Dinner'
   ); ?>
-<p><strong>Classes of 1950, 1955, 1960, 1970:</strong>Main Building, 2nd floor</p>
+<p><strong>Classes of 1950, 1955, 1960, 1970: </strong>Main Building, 2nd floor</p>
 <p><strong>Classes of 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, and 2020: </strong> Noyes Circle Tent</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
