@@ -79,7 +79,7 @@ $page_info = json_decode($page_info, true);
   <?php echo end_presentation_item(); ?>
 
   <?php echo presentation_item(
-    'The <a href="https://offices.vassar.edu/environmental-cooperative/">Environmental Cooperative</a> and <a href="https://www.vassar.edu/preserve">the Preserve</a> at Vassar Tour',
+    'The <a href="https://offices.vassar.edu/environmental-cooperative/">Environmental Cooperative</a> and <a href="https://www.vassar.edu/preserve">the Preserve</a> at Vassar Farm',
     'Shuttles depart from Main Circle',
     '2:00 p.m.',
     null,
@@ -174,7 +174,7 @@ $page_info = json_decode($page_info, true);
   '2:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
-    <p>Join Robert Brigham, Professor of History on the Shirley Ecker Boskey Chair and Faculty Director of The Institute for the Liberal Arts and Marianne Begemann, Director of Strategic Planning and Academic Resources and Associate Professor of Chemistry, for a presentation about the College’s newest community resource and a special look into early Institute programming followed by a Q&A.</p>
+    <p>Join Robert Brigham, Professor of History on the Shirley Ecker Boskey Chair and Faculty Director of The Institute for the Liberal Arts, and Marianne Begemann, Director of Strategic Planning and Academic Resources and Associate Professor of Chemistry, for a presentation about the College’s newest community resource and a special look into early Institute programming followed by a Q&A.</p>
   <?php echo end_presentation_content(); ?>
 
   <?php echo presentation_member_list('Presenters'); ?>
@@ -219,7 +219,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo presentation_item(
-  'Centennial Celebration of the Arboretum: History of the Arboretum plus the Future Vision for the Arboretum',
+  'Centennial Celebration of the Arboretum: History of the Arboretum Plus the Future Vision for the Arboretum',
   'Taylor 203',
   '3:30 p.m.'
 ); ?>

@@ -9,7 +9,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"50th Reunion Preliminary Class Schedule",
+  "page_title":"50th Reunion Class Schedule",
   "page_classes":"",
   "feature_image":"/alums/assets/img/alums-calendar/reunion/Vassar_Reunion_4706.jpg"
 }';
@@ -38,7 +38,7 @@ $page_info = json_decode($page_info, true);
   'pt-0'
 ); ?>
 
-<p class="intro-text">50th Reunion Preliminary Schedule for 1975</p>
+<p class="intro-text">50th Reunion Schedule for 1975</p>
 <p>Items with an <span style="display: inline" class="schedule-item__icon fa-solid fa-circle-info" title="“i” in a solid red circle"></span>  are links to additional information.</p>
 <p>Use one of these links to go directly to the activities for that day:</p>
 <ul class="linked-list">
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '2:00 p.m.',
-    'Registration opens',
+    'Registration Opens',
     'Davison Lobby',
   ); ?>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -61,7 +61,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '4:00 p.m.',
-    'Class of 1975 special look at The Vassar Institute for the Liberal Arts',
+    'Class of 1975 Special Look at The Vassar Institute for the Liberal Arts',
     'The Vassar Institute for the Liberal Arts, Elm room',
   ); ?>
   
@@ -71,7 +71,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '6:00–9:30 p.m.',
-    'Casual buffet dinner upon arrival',
+    'Casual Buffet Dinner',
     'Alumnae House',
   ); ?>
   <p>Enjoy a relaxed and casual buffet dinner upon arrival, featuring a delicious spread to kick off the evening. Please note: The buffet will be replenished with fresh food throughout the evening to accommodate later arrivals.</p>  
@@ -115,10 +115,10 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '8:30 a.m.',
-    'Walkway Over the Hudson Bike ride',
+    'Walkway Over the Hudson Bike Ride',
     '',
   ); ?>
-  <p>A gentle 10–15 mile paved trail bike ride on the Dutchess County Rail Trail. We will meet at the parking lot on the west side, a.k.a. the Highland side, of the <a href="https://walkway.org/">Walkway Over the Hudson</a>. Limited bike rentals are available.  For more information contact Hudson Bike Co. at <a href="mailto:hudsonbikeco@gmail.com">hudsonbikeco@gmail.com</a> or call  <a href="tel:+18456919198">(845) 691-9198</a>. The ride is limited to 25 participants, and the deadline to sign up is May 23, 2025. Please reach out to Paul Winkeller at <a href="mailto:winkp1725@gmail.com">winkp1725@gmail.com</a> with any questions.</p>
+  <p>A gentle 10–15 mile paved trail bike ride on the Dutchess County Rail Trail. We will meet at the parking lot on the west side, a.k.a. the Highland side, of the <a href="https://walkway.org/">Walkway Over the Hudson</a>. Limited bike rentals are available. For more information contact Hudson Bike Co. at <a href="mailto:hudsonbikeco@gmail.com">hudsonbikeco@gmail.com</a> or call  <a href="tel:+18456919198">(845) 691-9198</a>. Please reach out to Paul Winkeller at <a href="mailto:winkp1725@gmail.com">winkp1725@gmail.com</a> with any questions.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
@@ -131,14 +131,14 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '9:00 a.m.–10:00 p.m.',
-    'Reunion Information Center is open',
+    'Reunion Information Center is Open',
     'Main Building Lobby'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     '9:00 a.m.–11:00 p.m.',
-    'Davison House open for check-in',
+    'Davison House Open for Check-In',
     null,
     null,
     ['noContent' => true]
@@ -157,12 +157,12 @@ $page_info = json_decode($page_info, true);
     '<em>Great Green Hope for the Urban Blues:</em> Art and Myths of the Hudson Valley',
     'Taylor 203',
   ); ?>
-  <p>From the birth of the Hudson River School to countercultural artist colonies in Woodstock and beyond, artists have looked to the Hudson Valley as an escape and refuge. John Murphy, the Loeb’s Curator of Prints and Drawings, and Ian Shelley ’22, Curatorial Fellow, discuss their new exhibition <a href="https://www.vassar.edu/theloeb/exhibitions/great-green-hope-urban-blues"><em>Great Green Hope for the Urban Blues</em></a>, which looks back at two centuries of artmaking in the Hudson Valley, exploring the region’s enduring appeal as well as what lies beneath the surface.</p>
+  <p>From the birth of the Hudson River School to countercultural artist colonies in Woodstock and beyond, artists have looked to the Hudson Valley as an escape and refuge. John Murphy, the Loeb’s Curator of Prints and Drawings, and Ian Shelley ’22, Curatorial Fellow, discuss their new exhibition, <a href="https://www.vassar.edu/theloeb/exhibitions/great-green-hope-urban-blues"><em>Great Green Hope for the Urban Blues</em></a>, which looks back at two centuries of artmaking in the Hudson Valley, exploring the region’s enduring appeal as well as what lies beneath the surface.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
   <?php echo schedule_item_dropdown(
     'Noon',
-    'Cookout Lunch showcasing Vassar’s campus dining team',
+    'Cookout Lunch Showcasing Vassar’s Campus Dining Team',
     'Davison Tent',
   ); ?>
     <p>Outgoing Class President Patricia Ann Neely will offer welcome remarks and announce our slate of incoming class volunteers.</p>
@@ -194,7 +194,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '2:00–3:30 p.m.',
-    'The Environmental Cooperative and the Preserve at Vassar Tour',
+    'The Environmental Cooperative and the Preserve at Vassar Farm',
   ); ?>
 <h4><a href="../lectures/#vassar-preserve-environmental-cooperative">Learn more about the Environmental Cooperative and the Preserve at Vassar Tour</a></h4>
       <p><strong>Location:</strong> Shuttles depart from Main Drive</p>
@@ -204,8 +204,8 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '3:30–4:30 p.m.',
-    'The Third Chapter: Shaking things up after a certain age',
-    'Rockefeller 200'
+    'The Third Chapter: Shaking Things Up After a Certain Age',
+    'Rockefeller 300'
   ); ?>
     <p>Moderated by Karen Valentia Clopton ’80, P’19, ’22; Harvard University Advanced Leadership Initiative Senior Fellow ’25</p>
 <p>At a key moment in the 21st century, demographers are recognizing the significance of a distinct developmental phase: those years following early adulthood and middle age when we are “neither young nor old.” Whether by choice or not, many in their “third chapters” are finding ways to adapt, explore, and channel their energies, skills, and passions in new ways and into new areas. We will discuss resources, including <em>I Change Course: A Journey to My Truth</em> by Kate Bean; <em>Second Chances Shakespeare & Freud</em> by Stephen Greenblatt & Adam Phillips; <em>Think Outside the Building</em> by Rosabeth Moss Kanter; and our own Morgan Baker’s <a href="https://www.amazon.com/Emptying-Nest-Getting-Better-Goodbyes/dp/1645384810/"><em>Emptying the Nest: Getting Better at Goodbyes</em></a>. We will share the many avenues Vassar alums have explored after age 50 that were different career and life paths than their original trajectory.</p>
@@ -219,7 +219,7 @@ $page_info = json_decode($page_info, true);
   ); ?>
 
 <h4><a href="../lectures/#exploration-of-em-the-dream-of-a-common-movement-selected-writings-of-urvashi-vaid-em-edited-by-jyotsna-vaid-and-amy-hoffman-duke-university-press-2025">Exploration of <em>The Dream of a Common Movement: Selected Writings of Urvashi Vaid</em> (Edited by Jyotsna Vaid and Amy Hoffman, Duke University Press, 2025)</a></h4>
-      <p><strong>Location:</strong> Rockefeller 300</p>
+      <p><strong>Location:</strong> Rockefeller 200</p>
 
 <h4><a href="../lectures/#walking-tour-of-the-vassar-college-class-trees">Walking Tour of the Vassar College Class Trees</a></h4>
       <p><strong>Location:</strong> Meet in front of Rockefeller Hall (Library side)</p>
@@ -229,7 +229,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '3:30–4:30 p.m.',
-    'Activism then and now',
+    'Activism Then and Now',
     'Rockefeller 210'
   ); ?>
       <p>Join Maybelle Bennett, Bonnie Halpern, and Dosia Fire from the Class of 1970 in a discussion of activism as students back in the day and ways to make a difference today. </p>
@@ -254,7 +254,7 @@ $page_info = json_decode($page_info, true);
     'Taylor 203'
   ); ?>
   
-  <p>From the birth of the Hudson River School to countercultural artist colonies in Woodstock and beyond, artists have looked to the Hudson Valley as an escape and refuge. John Murphy, the Loeb’s Curator of Prints and Drawings, and Ian Shelley ’22, Curatorial Fellow, discuss their new exhibition <a href="https://www.vassar.edu/theloeb/exhibitions/great-green-hope-urban-blues"><em>Great Green Hope for the Urban Blues</em></a>, which looks back at two centuries of artmaking in the Hudson Valley, exploring the region’s enduring appeal as well as what lies beneath the surface.</p>
+  <p>From the birth of the Hudson River School to countercultural artist colonies in Woodstock and beyond, artists have looked to the Hudson Valley as an escape and refuge. John Murphy, the Loeb’s Curator of Prints and Drawings, and Ian Shelley ’22, Curatorial Fellow, discuss their new exhibition, <a href="https://www.vassar.edu/theloeb/exhibitions/great-green-hope-urban-blues"><em>Great Green Hope for the Urban Blues</em></a>, which looks back at two centuries of artmaking in the Hudson Valley, exploring the region’s enduring appeal as well as what lies beneath the surface.</p>
 
    <?php echo end_schedule_item_dropdown(); ?>
   
@@ -302,11 +302,11 @@ $page_info = json_decode($page_info, true);
 
    <?php echo schedule_item_dropdown(
     '5:00–6:30 p.m.',
-    'Class of 1975 sponsors a Musicale Bacchanale',
+    'Class of 1975 Sponsors a Musicale Bacchanale',
     'Bridge for Laboratory Sciences'
   ); ?>
   
-  <p>Come and enjoy light refreshments and an all-reunion “Musicale Bacchanale.” Featuring alums of all reunion classes presenting performances showcasing a variety of musical genres!</p>
+  <p>Come and enjoy light refreshments and an all-reunion Musicale Bacchanale. Featuring alums of all reunion classes presenting performances showcasing a variety of musical genres!</p>
 
    <?php echo end_schedule_item_dropdown(); ?>
  
@@ -323,10 +323,10 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '6:00–7:00 p.m.',
-    'Reception with Vassar Faculty members',
+    'Reception with Vassar Faculty Members',
     'Thompson Memorial Library Lawn Tent'
   ); ?>
-  <p>Please join your favorite professors and meet new faculty under the Library lawn tent. Interim Dean of Faculty Brian Daly will deliver an update on the latest academic news on campus.</p>
+  <p>Please join your favorite professors and meet new faculty under the Library Lawn Tent. Interim Dean of Faculty Brian Daly will deliver an update on the latest academic news on campus.</p>
 
    <?php echo end_schedule_item_dropdown(); ?>
 
@@ -350,7 +350,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '9:15 p.m.',
-    'Fireworks over Sunset Lake',
+    'Fireworks Over Sunset Lake',
     null,
     null,
     ['noContent' => true]
@@ -397,7 +397,7 @@ $page_info = json_decode($page_info, true);
   <h3 id="saturday" class="schedule-item__heading">Saturday, June 7</h3>
 
   <?php echo schedule_item_dropdown(
-    '7:30–9:00 a.m.',
+    '7:30–10:00 a.m.',
     'Full Breakfast',
     'Gordon Commons (formerly ACDC)',
   ); ?>
@@ -406,7 +406,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '9:00 a.m.–10:00 p.m.',
-    'Reunion Information Center is open',
+    'Reunion Information Center is Open',
     'Main Building Lobby'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
@@ -468,12 +468,12 @@ $page_info = json_decode($page_info, true);
     'The Loeb Art Center Curatorial Tours',
     null
   ); ?>
-    <p>More information coming soon</p>
+    <p>Highlighting current special exhibitions and featured works of art in the collection</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
-    '2:00–3:30 p.m.',
+    '2:00–3:00 p.m.',
     'Lecture',
   ); ?>
 
@@ -503,10 +503,10 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '2:30–3:30 p.m.',
-    'Open House at The Vassar Institute for Liberal Arts and the Night Owls bar',
+    'Open House at The Vassar Institute for Liberal Arts and the Night Owls Bar',
     'The Vassar Institute for the Liberal Arts, its bridge, and Night Owls bar'
   ); ?>
-    <p>Join us for an open house at The Heartwood and The Vassar Institute for the Liberal Arts. Take in the beauty of the surroundings as you enjoy cocktails on the bridge or make your way to the cozy ambiance of Night Owls, a hidden gem of a bar. Sip on a perfectly crafted beverage and savor delightful nibbles prepared by the talented Chef Will.</p>
+    <p>Join us for an open house at The Heartwood and The Vassar Institute for the Liberal Arts. Take in the beauty of the surroundings as you enjoy cocktails on the bridge or make your way to the cozy ambiance of Night Owls, a hidden gem of a bar. Sip on a perfectly crafted beverage and savor delightful nibbles.</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -523,16 +523,16 @@ $page_info = json_decode($page_info, true);
     'Creativity In Action: Button-Making at the Innovation Lab',
     'Innovation Lab, lower level of the College Center (the old bookstore)'
   ); ?>
-  <p>Hands-on button-making activity at the Innovation Lab! Join us in the makerspace to design and craft your own personalized buttons—perfect keepsakes or conversation starters for reunion weekend. Whether you’re feeling nostalgic, inspired, or just ready to have fun, this event is for all skill levels.</p>
+  <p>Hands-on button-making activity at the Innovation Lab! Join us in the makerspace to design and craft your own personalized buttons—perfect keepsakes or conversation starters for Reunion weekend. Whether you’re feeling nostalgic, inspired, or just ready to have fun, this event is for all skill levels.</p>
     <?php echo end_schedule_item_dropdown(); ?>
 
     
   <?php echo schedule_item_dropdown(
-    '3:00–4:00 p.m ',
+    '3:00–4:00 p.m. ',
     'The Loeb Art Center Curatorial Tours',
     null
   ); ?>
-    <p>More information coming soon</p>
+    <p>Highlighting current special exhibitions and featured works of art in the collection</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -571,7 +571,7 @@ $page_info = json_decode($page_info, true);
   ); ?>
 
 <h4><a href="../lectures/#the-science-of-food-shopping-in-a-postpan-world">The Science of Food Shopping in a Postpan World</a></h4>
-<p><strong>Location:</strong> The Vassar Institute for the Liberal Arts, Beech room</p>
+<p><strong>Location:</strong> The Vassar Institute for the Liberal Arts, Beech Room</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
 
@@ -591,7 +591,7 @@ Join us for an inspiring and intimate session at this year’s reunion, where ac
     'Lecture and Tour'
   ); ?>
 
-<h4><a href="../lectures/#centennial-celebration-of-the-arboretum-history-of-the-arboretum-plus-the-future-vision-for-the-arboretum">Centennial Celebration of the Arboretum: History of the Arboretum plus the future vision for the Arboretum</a></h4>
+<h4><a href="../lectures/#centennial-celebration-of-the-arboretum-history-of-the-arboretum-plus-the-future-vision-for-the-arboretum">Centennial Celebration of the Arboretum: History of the Arboretum Plus the Future Vision for the Arboretum</a></h4>
 <p><strong>Location:</strong> Taylor 203</p>
 
   <?php echo end_schedule_item_dropdown(); ?>
@@ -624,7 +624,7 @@ Join us for an inspiring and intimate session at this year’s reunion, where ac
 
   <?php echo schedule_item_dropdown(
     '5:30–6:30 p.m.',
-    'Donor Societies Reception (by invitation)',
+    'Donor Societies Reception (By Invitation)',
     'Thompson Memorial Library Lawn Tent'
   ); ?>
   <p>A special reception for members of the 1861 Loyalty Society and Matthew Vassar Legacy Society in appreciation for those who have made Vassar a philanthropic priority.</p>
@@ -648,11 +648,11 @@ Join us for an inspiring and intimate session at this year’s reunion, where ac
 
   <?php echo schedule_item_dropdown(
     '10:00 p.m.–1:00 a.m.',
-    'Our Favorite Music: Songs You Heard in the Hallways played and sung by 1975’s very own',
+    'Our Favorite Music: Songs You Heard in the Hallways Played and Sung by 1975’s Very Own',
     'Davison Tent',
   ); ?>
   
-  <p>Join us for one last intimate gathering of live music in our tent—where classmates’ talent will again entertain you with familiar tunes and lively melodies from the 60’s and 70’s. Sip your favorite brew, boogie if you want, chat with friends, and enjoy a night of unforgettable music!</p>
+  <p>Join us for one last intimate gathering of live music in our tent—where classmates’ talent will again entertain you with familiar tunes and lively melodies from the 60s and 70s. Sip your favorite brew, boogie if you want, chat with friends, and enjoy a night of unforgettable music!</p>
   <?php echo end_schedule_item_dropdown(); ?>
 
 
@@ -669,7 +669,7 @@ Join us for an inspiring and intimate session at this year’s reunion, where ac
 
   <?php echo schedule_item_dropdown(
     '8:00 a.m.–1:00 p.m.',
-    'Reunion Information Center is open',
+    'Reunion Information Center is Open',
     'Main Building Lobby'
   ); ?>
    <?php echo end_schedule_item_dropdown(); ?>
@@ -685,7 +685,7 @@ Join us for an inspiring and intimate session at this year’s reunion, where ac
 
   <?php echo schedule_item_dropdown(
     '9:00 a.m–1:00 p.m.',
-    'Davison is open for check-out'
+    'Davison is Open for Check-Out'
   ); ?>
   <p>Please return room keys to Guest Services Coordinators in residence halls.</p>
   <?php echo end_schedule_item_dropdown(); ?>
@@ -705,7 +705,7 @@ Join us for an inspiring and intimate session at this year’s reunion, where ac
       'The Chapel'
     ); ?>
     
-    <p>A service honoring members of our reuning classes, as well as faculty, administrators, and staff who have passed since the last reunion. Rooted in religious and humanist traditions, this service offers a time for remembrance. The Alumnae/i Choir and College Organist Gail Archer will perform.</p>
+    <p>A service honoring members of our reuning classes, as well as faculty, administrators, and staff who have passed since the last Reunion. Rooted in religious and humanist traditions, this service offers a time for remembrance. The Alumnae/i Choir and College Organist Gail Archer will perform.</p>
 
     <?php echo end_schedule_item_dropdown(); ?>
 
@@ -720,7 +720,7 @@ Join us for an inspiring and intimate session at this year’s reunion, where ac
 
   <?php echo schedule_item_dropdown(
     '1:00 p.m.',
-    'NYC charter bus departs from Main Circle',
+    'NYC Charter Bus Departs from Main Circle',
     null,
     null,
     ['noContent' => true]
