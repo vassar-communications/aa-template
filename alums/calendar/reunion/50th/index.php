@@ -60,7 +60,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '4:00 p.m.',
+    '4:30 p.m.',
     'Class of 1975 Special Look at The Vassar Institute for the Liberal Arts',
     'The Vassar Institute for the Liberal Arts, Elm room',
   ); ?>
@@ -484,7 +484,7 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '2:00–3:30 p.m.',
+    '2:00–3:00 p.m.',
     'Full Circle: An Author’s Reflections and A Professor’s Legacy',
     'Rockefeller 300'
   ); ?>
