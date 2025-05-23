@@ -61,7 +61,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '9:00 a.m.–11:00 p.m.',
-    'Residence halls Open for Check-In'
+    'Residence Halls Open for Check-In'
   ); ?>
     <p>Dorm rooms are available after 2:00 p.m. <a href="../#flush-headingTwo">Find your Dorm Headquarters.</a></p>
 
@@ -123,7 +123,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo schedule_item_dropdown(
     '3:00–5:00 p.m.',
-    'Alum Happy Hour at the Night Owls bar',
+    'Alum Happy Hour at the Night Owls Bar',
     'The Salt Line Hudson Valley, next to the Heartwood'
   ); ?>
     <p>Join us at the newly opened Night Owls bar. Special discounted wine, specialty cocktails, and bar menu items will be available for Vassar alums.</p>
@@ -467,9 +467,11 @@ lunch. Afterward, we’ll gather outside the barn for a memorial service honorin
 
   <?php echo schedule_item_dropdown(
     '1:30 p.m.',
-    'Class of 1970 Shakespeare Garden Tour'
+    'Class of 1970 Shakespeare Garden Tour',
+    null,
+    null,
+    ['noContent' => true]
   ); ?>
-   <?php echo end_schedule_item_dropdown(); ?>
 
 
   <?php echo schedule_item_dropdown(
