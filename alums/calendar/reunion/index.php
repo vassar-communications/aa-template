@@ -41,11 +41,13 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A person stands at a podium in front of a large group of people sitting under a tent, with a large banner behind them that says AAVC in white on a red background.']
 ); ?>
 
-  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 0s and 5s on campus for Reunion, June 6-8, 2025 (the 50th Reunion class arrives on June 5). Registration is now open!</p>
+  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 0s and 5s on campus for Reunion, June 6-8, 2025 (the 50th Reunion class arrives on June 5).</p>
+<!--
    <a href="https://reunionregistration.vassar.edu/" class="btn btn-primary arrow mt-2 mb-2">Register for Reunion</a>
   <br />
+  -->
    <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-4 mb-4">See Who’s Coming to Reunion</a>
-    <p>Reunion registration ends on May 23, 2025. Late registration will begin on May 24 and close on May 30. On campus housing is no longer available after May 23. If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email&nbsp;us</a> regarding Reunion.</p> 
+    <p>Registration has now closed. We are preparing for your arrival and can't wait to see you all very soon! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email&nbsp;us</a> regarding Reunion.</p> 
   
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -142,8 +144,6 @@ $page_info = json_decode($page_info, true);
 <h4>Reunion Swag Shop!</h4>
 <p>In lieu of class favors, individuals will be able to purchase Reunion-branded items in advance, including water bottles, tote bags, bucket hats, and t-shirts, and have their items shipped to them or they can pick them up from the College Store when they arrive on campus. A small quantity will also be available at the store during Reunion weekend for those who missed out (or need more)! <a href="https://collegestore.vassar.edu/MerchList?ID=36254">Order your Reunion swag now</a>.</p>
 
-
-<!-- hiding until ready for 2025
 <h4>Vassar Mobile App for Reunion</h4>
 <p>Did you know that Vassar has a mobile app? It now has a “Reunion” persona to access Reunion schedules and notifications. Get the app and choose “Reunion” from the initial “Choose Your Experience” screen to get started:</p>
 <ul>
@@ -151,14 +151,16 @@ $page_info = json_decode($page_info, true);
     <li><a href="https://go.vassar.edu/vassarmobile-google">Download for Android</a></li>
 </ul>
 <p>Already have the app and use the “Alum” persona? Tap on the person icon in the upper right corner of the app, then tap on “My Role” to switch to the Reunion persona for the weekend.</p>
+
+<?php /*hiding below items until 2026 setup
+
 <h4>Alum ID Card</h4>
 <p>If you would like to get an Alum ID card during Reunion, please submit the <a href="https://offices.vassar.edu/card/alum-id-card-request/">Alum ID Card Request Form</a> by <strong>May 17, 2024</strong>. The Card Office will make sure everything is ready for you to get your Alum ID card at Reunion. Alum ID cards are only issued in person at Vassar’s Service Desk located in the College Center, North Atrium, as a photo must be taken for the card. The Service Desk will be open during Reunion on Friday, May 31, from 8:30 a.m. to 5:00&nbsp;p.m. and Saturday, June 1, from noon to 5:00 p.m. For more information, contact the Card Office at <a href="tel:+18454513333">(845) 451-3333</a>.</p>
--->
+
+End of hiding info content*/ ?>
 
 <?php echo end_item_iconItem(); ?>
 
-
-<?php /*hiding below items until 2025 setup
 
 <?php echo item_iconItem('In Case of Emergency','triangle-exclamation',''); ?>
 
@@ -167,7 +169,7 @@ $page_info = json_decode($page_info, true);
   '',
   'mt-4 '); ?>
 
-  <p>In the event of a severe weather emergency or an active threat of violence on campus, the College could send out a Rave alert to notify the campus community of such a threat. To receive emergency Rave text alerts during Reunion weekend, text <strong>VCEVENT</strong> to <strong>226787</strong>.</p>
+  <p>In the event of a severe weather emergency or an active threat of violence on campus, the College could send out a Rave alert to notify the campus community of such a threat. To receive emergency Vassar Campus alert texts during Reunion weekend, text <strong>VCEVENT</strong> to <strong>226787</strong>.</p>
 
 <style>.alert-header { display: none; }</style>
 
@@ -200,7 +202,6 @@ $page_info = json_decode($page_info, true);
 <p><a href="https://offices.vassar.edu/campus-safety/procedures/">Read Vassar’s complete emergency procedures</a>.</p>
 <?php echo end_item_iconItem(); ?>
 
-End of hiding info content*/ ?>
 
 <div id="housing"></div>
 
@@ -208,7 +209,7 @@ End of hiding info content*/ ?>
 <p>We are excited to welcome alums back to Vassar for in-person reunions and want to ensure that everyone makes informed decisions about where to stay.</p>
 
 <p>We recommend you <strong>register early</strong> for on-campus housing as it is allocated on a first-come, first-served basis. Family housing (for families of four or more) will be in the
-Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments will be available in early spring.</p>
+Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments are listed below.</p>
 <p>If you prefer the creature comforts of home, <a href="https://www.vassar.edu/visit/community/lodging">search area hotels</a>. The following area hotels have rooms specifically reserved for Reunion.</p>
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
@@ -407,11 +408,12 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments wil
   <li>Sunday: 10:00 a.m.–3:00 p.m.</li>
 </ul>
 
+<!--
 <h3>Jummah Service at Pratt House</h3>   
     <ul>
       <li>Friday: 1:00 p.m.</li>
     </ul>
-
+-->
   <h3>Music Library</h3>
   <ul>
     <li>Thursday: 1:00–4:00 p.m.</li>

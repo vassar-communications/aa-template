@@ -78,16 +78,6 @@ $page_info = json_decode($page_info, true);
 
 
   <?php echo schedule_item_dropdown(
-    '1:00 p.m.',
-    'Jummah Service',
-    'Pratt House'
-  ); ?>
-    <p>Join Saba Ali, Advisor for Muslim Student Life, for a student-led Jummah prayer service. Gather at Pratt House, home to a wudu area and a central space where the Muslim campus community comes together to worship, study, and share meals.</p>
-
-  <?php echo end_schedule_item_dropdown(); ?>
-
-
-  <?php echo schedule_item_dropdown(
     '1:00–5:00 p.m.',
     'Visit Vassar’s Olmsted Greenhouse',
     'Located on the B-Level of Olmsted Hall, enter through the glass doors facing Skinner Music Hall in the back of Olmsted.'
