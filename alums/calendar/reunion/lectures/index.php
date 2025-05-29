@@ -111,7 +111,7 @@ $page_info = json_decode($page_info, true);
 
   <?php echo presentation_item(
     'Exploration of <em>The Dream of a Common Movement: Selected Writings of Urvashi Vaid</em> (Edited by Jyotsna Vaid and Amy Hoffman, Duke University Press, 2025)',
-    'Rockefeller 300',
+    'Rockefeller 200',
     '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
@@ -170,7 +170,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo presentation_item(
   'The Vassar Institute for the Liberal Arts and The Heartwood',
-  'The Vassar Institute for the Liberal Arts, Elm room',
+  'The Vassar Institute for the Liberal Arts, Elm Room',
   '2:00 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
@@ -199,7 +199,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo presentation_item(
   'The Science of Food Shopping in a Postpan World',
-  'The Vassar Institute for the Liberal Arts, Beech room',
+  'The Vassar Institute for the Liberal Arts, Beech Room',
   '3:30 p.m.'
 ); ?>
   <?php echo presentation_content(); ?>
