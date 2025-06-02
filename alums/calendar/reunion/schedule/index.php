@@ -183,6 +183,14 @@ $page_info = json_decode($page_info, true);
   
   
   <?php echo schedule_item_dropdown(
+    '4:00–6:00 p.m.',
+    'Class of 2005 Welcome Reception',
+    'Raymond, Multipurpose Room'
+  ); ?>
+   <?php echo end_schedule_item_dropdown(); ?>
+
+  
+  <?php echo schedule_item_dropdown(
     '5:00–6:00 p.m.',
     '“Friends of Bill”',
     'Rockefeller 112'
