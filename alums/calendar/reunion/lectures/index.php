@@ -115,7 +115,7 @@ $page_info = json_decode($page_info, true);
     '3:30 p.m.'
   ); ?>
     <?php echo presentation_content(); ?>
-      <p>Urvashi Vaid ’79 (1958–2022) was a trailblazing feminist and civil rights activist  whose progressive vision for social change and prolific organizing skills profoundly shaped the LGBTQ+ rights movement and the social justice movement more broadly. In this session, her sisters, Jyotsna Vaid ’76 (who co-edited a recent collection of Urvashi’s writings) and Rachna Vaid ’75 will share their reflections on their sister’s life and impact, and will invite others to share their own thoughts about Urvashi.</p>
+      <p>Urvashi Vaid ’79 (1958–2022) was a trailblazing feminist and civil rights activist  whose progressive vision for social change and prolific organizing skills profoundly shaped the LGBTQ+ rights movement and the social justice movement more broadly. In this session, her sisters, Jyotsna Vaid ’76 (who co-edited a recent collection of Urvashi’s writings) and Rachna Vaid ’75 will share their reflections on their sister’s life and impact, and will invite others to share their own thoughts about Urvashi. They will be joined by Jyotsna’s child Alok (they/them), who is a poet, comedian, public speaker, and actor, and author of “Beyond the Gender Binary,” “Femme in Public,” and “Your Wound, My Garden.”</p>
     <?php echo end_presentation_content(); ?>
 
     <?php echo presentation_member_list('Presenters'); ?>
