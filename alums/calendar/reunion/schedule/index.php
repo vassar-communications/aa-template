@@ -572,6 +572,14 @@ lunch. Afterward, we’ll gather outside the barn for a memorial service honorin
 
   <?php echo schedule_item_dropdown(
     '3:00–5:00 p.m.',
+    'Education Department Open House',
+    'Maria Mitchell Observatory, Room 211'
+  ); ?>
+    <?php echo end_schedule_item_dropdown(); ?>
+
+
+  <?php echo schedule_item_dropdown(
+    '3:00–5:00 p.m.',
     'Affinity Connections',
     'Main Building, 1st and 2nd floors, and the Jeh Vincent Johnson ALANA Cultural Center'
   ); ?>
