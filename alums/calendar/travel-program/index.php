@@ -33,13 +33,19 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Vassar Travel Programs',
-    $alums_img_path.'alums-calendar/travel-program/Group-photo-Camon-France-wide.jpg',
-    'image-is-first theme-cream',
+    'Vassar Travel Program',
+    $alums_img_path.'alums-calendar/travel-program/2025-loeb-to-venice-alum-24-10-mmgt-01.jpg',
+    'image-is-first theme-verylightgray',
     '',
-    ['img_alt_text' => 'A group of people, one holding a Vassar College banner, standing and smiling at the viewer with a sunny green countryside and cloudy skies behind them.']
+    ['img_alt_text' => 'A group of people pose together in front of a vividly colored, modern art pavilion featuring bold red sculptural elements and a classical-style pediment inscribed with "STATI UNITI D’AMERICA." Photo Credit: Marc Mariani of The Grand Tour.']
 ); ?>
-<p>As we are planning our future trips, we always appreciate hearing from alums regarding destinations and trip themes you’d like to explore and faculty members with whom you’d like to travel. Please feel free to contact Kristy Grimes, Director of Advancement Events and Programs, at <a href="mailto:kgrimes@vassar.edu">kgrimes@vassar.edu</a>.</p>
+<p>Vassar Travel Programs turn the world into your classroom, offering unforgettable adventures led by Vassar’s expert faculty. These thoughtfully curated trips blend exploration with intellectual discovery—from ancient cities to natural wonders, each destination comes to life through the Vassar lens. Along the way, alums can reconnect with old friends, forge new friendships, learn from distinguished scholars, and, on special trips, share the experience with current students.</p>
+<p>Check out the exciting itineraries for our upcoming trips.</p>
+<p><em>Photo: Marc Mariani of The Grand Tour</em></p>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+<?php /* -- SAB: commenting out but keeping the code in case they decide they want it back. jump links code goes in section above.
 
 <p class="intro-text">Trips for 2025:</p>
 
@@ -49,79 +55,107 @@ June 12-23, 2025</p>
 June 19-July 1, 2025</p>
 
 
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-
-
 <?php echo sec_regularContent('Upcoming 2025 Trips','','text-center');?>
-
 
 <?php echo end_sec_regularContent();?>
 
+*/ ?>
 
-<div id="spain"></div>
+
+<div id="paris"></div>
 <?php echo sec_fullBleedImageColumn(
     null,
-    $alums_img_path.'alums-calendar/travel-program/cordoba-spain-2025.jpg',
-    'theme-cream',
+    $alums_img_path.'alums-calendar/travel-program/2025-Palais-Garnier-in-Paris-13-copyright-French-Moments.jpg',
+    'theme-burgundy',
     '',
-    ['img_alt_text' => 'Interior of the Great Mosque of Córdoba, a large room with many columns in rows connected by double arches in light and dark stone.']
+    ['img_alt_text' => 'Palais Garnier in Paris, a lavish hall adorned with gold trim, ornate chandeliers, and ceiling frescoes, with symmetrical columns and mirrors lining the sides beneath a vaulted painted ceiling.']
 ); ?>
 
-<p class="intro-text">Andalucía Iberia Sepharad: Between Convivencia and Reconquest</p>
+<p class="intro-text">La Paris Musicale!: Music and Art in the City of Lights</p>
 
-<p><strong>June 12-23, 2025<strong></p>
+<p><strong>October 13–21, 2025<strong></p>
 
-<p><strong>Faculty Host: Dr. Marc Michael Epstein, Professor of Religion and Visual Culture on the Mackie M. Paschall (1899) & Norman Davis Chair, and Director of Jewish Studies</strong></p>
+<p>Spend a truly magical week in Paris this fall, enjoying music, art, and (bien sûr!) excellent food and wine with fellow Vassar alums. Led by Kathryn Libin, Mary Conover Mellon Professor of Music, this experience includes:</p>
 
-<p><strong>Cost:</strong> $6,950 per person double occupancy/$1,700 single supplement (not including international airfare)</p>
-
-<p>Dr. Epstein will explore how this region shaped the three major monotheistic religions—a subject central to both his teaching and research. From impressive mosques, to the remnants of synagogues, to the great Christian sites that resonate with shared artistic and spiritual traditions, every site has been chosen to deepen appreciation for this crossroads of history. In addition to Madrid, Barcelona and Sevilla, experience the vibrant streets of Córdoba, the awe-inspiring Alhambra in Granada, and the synagogues of Toledo.</p>
-<p><strong>Spaces are filling up quickly!</strong></p>
-
-<?php echo cta_link(
-    '/alums/assets/pdf/SPAIN_VC_ALUMS_2025_itinerary_V6.pdf',
-    'View the full Spain itinerary and reserve your place now.'
-
-); ?>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<div id="trip4"></div>
-<?php echo sec_fullBleedImageColumn(
-    null,
-    $alums_img_path.'alums-calendar/travel-program/Namibia-2024.jpg',
-    'image-is-first',
-    '',
-    ['img_alt_text' => 'A baby elephant and an adult elephant browse in tall wheat-colored grass next to a body of water at sunset.']
-); ?>
-
-<p class="intro-text">Endless Horizons & Open Skies</p>
-
-<p><strong>June 19-July 1, 2025<strong></p>
-
-<p><strong>Faculty Host: Abby Baird ’91, Professor of Psychological Science on the Arnhold Family Chair</strong></p>
-
-<p><strong>Cost:</strong> $8,250 per person double occupancy/$1,150 single supplement (not including international airfare)</p>
-
-<p>Venture to the South African country of Namibia, renowned for its captivating vistas, sculpted red canyons, some of the most spectacular sand dunes, and the home of the world’s oldest desert. Along the way, you’ll marvel at these geological wonders and admire the remarkable wildlife that call this vast and varied landscape home—leopards, giraffes, rhinos, zebras, antelopes, and desert elephants. You’ll also learn about the country’s extraordinary conservation programs.</p>
-<p>Highlights will include:</p>
 <ul>
-<li>Climb the towering red sand dunes in Soussevlei.</li>
-<li>Stand amid the petrified forest in the Namib—the world’s oldest desert.</li>
-<li>Experience a wildlife safari in the famous Etosha National Park.</li>
-<li>Meet with conservationists working to save the endangered rhino and Africa’s Big Cats.</li>
+	<li>Private concerts at distinguished venues</li>
+	<li>Immersive exploration of Paris’s rich history and culture through specially curated walking and private guided tours of the Musée d’Orsay and other museums</li>
+	<li>A visit to the grand Domaine de Chantilly, home to the finest private collection of paintings outside the Louvre</li>
 </ul>
 
+<p><strong>Tour cost:</strong> $7,980 per person, double occupancy (additional single room supplement $1,350). <em>International airfare not included.</em></p>
+
 <?php echo cta_link(
-    'https://immersionjourneys.com/vassar-travel-program-namibia-open-skies-endless-horizons-2025/',
-    'View the full Namibia itinerary and reserve your place.'
+    '/alums/assets/pdf/Travel-Program-Paris-Brochure_V2.pdf',
+    'View the full Paris itinerary and reserve your place.'
 
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<div id="mexico"></div>
+<?php echo sec_fullBleedImageColumn(
+    null,
+    $alums_img_path.'alums-calendar/travel-program/2026-Frida-Kahlo-House-Mexico-City-byRodWaddington-CCBYSA20.jpg',
+    'image-is-first',
+    '',
+    ['img_alt_text' => 'Frida Kahlo House in Mexico City, a vibrant cobalt blue exterior wall with green-paned windows framed in red, surrounded by lush potted plants and shaded by trees in a courtyard with red tile flooring.']
+); ?>
+
+<p class="intro-text">Mexico Today: Colors, Culture, and Cuisine</p>
+
+<p><strong>January 12–21, 2026<strong></p>
+
+<p>Escape winter and join faculty hosts Colleen Ballerino Cohen, Professor of Anthropology and Women, Feminist, and Queer Studies, and Chair of Anthropology and Leslie Offutt, Associate Professor Emerita of History, on a culinary and cultural adventure to Mexico. Travelers will explore three awe-inspiring cities—Mexico City, Puebla, and Oaxaca—immersing themselves in rich culture, enjoying amazing food experiences, and discovering the region’s artistic treasures. Highlights of the trip include:</p>
+
+<ul>
+	<li>Visiting a chocolate mill and a mezcal distillery, and participating in a cooking class and farewell dinner with a renowned chef</li>
+	<li>Exploring the artistic legacies of Diego Rivera and Frida Kahlo, attending a performance of the Ballet Folklórico, and taking part in a food tour of the San Juan Market in Mexico City</li>
+	<li>Sampling rich moles, seeing the finest Indian Baroque churches, and touring a talavera tile factory in Puebla</li>
+	<li>Meeting renowned craftspeople in their village workshops and exploring remarkable archaeological sites in Oaxaca</li>
+</ul>
+
+<p><strong>Tour cost:</strong> $6,995 per person, double occupancy (additional single supplement $1,295). <em>International airfare not included.</em></p>
+
+<p>Full itinerary coming soon!</p>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<div id="greece"></div>
+<?php echo sec_fullBleedImageColumn(
+    null,
+    $alums_img_path.'alums-calendar/travel-program/2026-Greece-Andros-Chora.jpg',
+    'theme-darkcoal',
+    '',
+    ['img_alt_text' => 'Chora in Andros, Greece, a coastal village of whitewashed buildings with terracotta roofs perched on rocky cliffs above crystal-clear blue water, backed by rolling hills under a bright sky.']
+); ?>
+
+<p class="intro-text">Impressions of Life: An Island-Hopping Greek Adventure</p>
+
+<p><strong>June 13–24, 2026<strong></p>
+
+<p>Visit the ancient sites and picturesque villages of four of Greece’s most beautiful islands—Andros, Naxos, Santorini, and Crete. Along the way, savor distinctive regional cuisine and discover the remarkable history of the islands. This unique journey is hosted by Michele Tugade, Professor of Psychological Science on the William R. Kenan, Jr. Chair, whose inspiring research explores how wellness and lifestyle contribute to happiness and longevity. Explore these stunning islands in-depth and experience Greece in a rewarding way.</p>
+
+<p>An optional pre-trip stay in Athens is offered from June 11–14, 2026.</p>
+
+<p><strong>Tour cost:</strong> $6,590 per person, double occupancy (additional single supplement: $1,590). <em>International airfare not included.</em></p>
+
+<p>Full itinerary coming soon!</p>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+<?php echo sec_regularContent('Read about recent Vassar Travel Programs','','');?>
+
+<p><a href="https://www.vassar.edu/news/students-four-year-journey-at-the-loeb-leads-to-trip-to-venice">Venice Biennale adventure with Bart Thurber, Mary-Kay Lambino, and four current students</a>!</p>
+
+<p><a href="https://www.vassar.edu/news/vassar-goes-to-the-source-over-spring-break/#vietnam">Bob Brigham and Monica Church lead an alum spring break trip to Vietnam</a>.</p>
+
+<?php echo end_sec_regularContent();?>
+
 
 
 <?php echo sec_regularContent('Travel Insurance','theme-extralightgray','');?>
@@ -142,6 +176,12 @@ cancellation coverage at the minimum.</p>
 <?php echo end_sec_regularContent();?>
 
 
+<?php echo sec_regularContent('We’d like to hear from you!','theme-charcoal bg-dark  presentation quad-pattern has-bg','py-3 d-flex justify-content-around text-center'); ?>
+
+<p>Questions about the Travel Program? Please feel free to contact Kristy Grimes, Director of Advancement Events and Programs, at <a href="mailto:kgrimes@vassar.edu">kgrimes@vassar.edu</a>.</p>
+<?php echo end_sec_regularContent(); ?>
+
+
 <?php /*
 
 <!-- Commenting this out, as the copy is a duplicate of the intro section - Chris -->
@@ -150,74 +190,6 @@ cancellation coverage at the minimum.</p>
 
 <p>As we make our plans, we look forward to hearing from you regarding destinations and trip themes you’d like to explore and faculty members you’d like to travel with. Please contact Susan Quade, Senior Associate Director of Regional and International Programs and the Vassar Travel Program, via email at <a href="mailto:suquade@vassar.edu">suquade@vassar.edu</a>.</p>
 <?php echo end_sec_regularContent(); ?>
-
-
-<!--putting the info for these two postponed trips (South Korea, Paris in the Jazz Age) here, to use whenever they are rescheduled -->
-
-<div id="trip8"></div>
-<?php echo sec_fullBleedImageColumn(
-    null,
-    $alums_img_path.'alums-calendar/travel-program/South-Korea-2024.jpg',
-    'image-is-first',
-    '',
-    ['img_alt_text' => 'Two people wearing long gowns with gold collars, cuffs and trim and pink or red skirts stand looking at a cell phone and smiling on a wide path between two rows of tall red wooden pillars with a red wall behind them.']
-); ?>
-
-<p class="intro-text">Discovering South Korea: A Journey through its Food, Culture, and Globalization</p>
-
-<p><strong>October 9–21, 2024<strong></p>
-
-<p><strong>Faculty Hosts: Seungsook Moon, Professor of Sociology, and Rev. Ben Caldwell, Business Advisor for the Mid-Hudson Small Business Development Center</strong></p>
-
-<p>Experience cities throughout South Korea, a country of dramatic and dynamic transformation. By historically playing the role of cultural bridge between the Eurasian continent and the Pacific Ocean, Korea cultivated complex layers of beliefs and rituals stemming from a number of religions. Custom-designed for Seungsook Moon, Professor of Sociology, this tour will highlight food as an essential medium to explore Korea’s incredible resilience and cultural dynamism, interweaving visits to iconic and cultural sites of traditional and contemporary Korea with its culinary globalization.</p>
-<p>Highlights will include:</p>
-<ul>
-<li>Once-in-a-lifetime exploration of South Korea</li>
-<li>Tour the cities of Seoul, Andong, Gyeongju and Busan</li>
-<li>Visit Jeju Island to learn about the culture of the “haenyeo”—the women divers who harvest from the ocean for up to seven hours a day without the use of oxygen masks and whose knowledge of the sea is passed down from generation to generation</li>
-</ul>
-
-<?php echo cta_link(
-    'https://authenticasia.net/destinations/authentic-asia-beyond/vassar-south-korea-trip-food-culture/',
-    'See the full South Korea itinerary and reserve your place.'
-
-); ?>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-<div id="trip3"></div>
-<?php echo sec_fullBleedImageColumn(
-    null,
-    $alums_img_path.'alums-calendar/travel-program/Paris-2024-Photo-Credit-Susan-Brkich.jpg',
-    'theme-cream',
-    '',
-    ['img_alt_text' => 'The Eiffel Tower, a tall open metalwork structure with sloping sides narrowing to a spire on top, with platforms on several levels, standing at the end of a large green field. Photo Credit Susan Brkich ’86.']
-); ?>
-
-<p class="intro-text">Paris in the Jazz Age, featuring the African American Experience</p>
-
-<p><strong>Postponed until 2025, dates to come<strong></p>
-
-<p><strong>Hosts: Mia Mask, Ph.D., Professor of Film on the Mary Riepma Ross ’32 Vassar Chair, and Mark Wittman, MBA Managing Director, Investment Banking</strong></p>
-
-<p>Take a trip back in time to trace the journey of Black Americans in France, gain insight into why they moved to Paris, and how they forever influenced French culture. This seven-night small-group program, hosted by Professor Mia Mask, features divine cuisine with an extensive meal plan—including wine with dinner, incredible art, an exploration of Montmartre, and a cruise along the Seine River.</p>
-
-<p>Highlights will include:</p>
-<ul>
-	<li>Learn how African American expatriates influenced Paris</li>
-	<li>Enjoy an evening at a jazz club</li>
-	<li>Sample French treats during a gastronomic walking tour</li>
-</ul>
-<!--hiding until new dates for 2025 are set.
-<?php echo cta_link(
-    'https://vassar.ahitravel.com/destinations/1798A?schoolId=375',
-    'See the full Paris itinerary and reserve your place.'
-
-); ?>
--->
-<p><em>Photo credit: Susan Brkich ’86</em></p>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
 
 */ ?>
 
