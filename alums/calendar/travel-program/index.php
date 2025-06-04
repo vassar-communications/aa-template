@@ -34,13 +34,14 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Vassar Travel Program',
-    $alums_img_path.'alums-calendar/travel-program/Group-photo-Camon-France-wide.jpg',
+    $alums_img_path.'alums-calendar/travel-program/2025-loeb-to-venice-alum-24-10-mmgt-01.jpg',
     'image-is-first theme-verylightgray',
     '',
-    ['img_alt_text' => 'A group of people, one holding a Vassar College banner, standing and smiling at the viewer with a sunny green countryside and cloudy skies behind them.']
+    ['img_alt_text' => 'A group of people pose together in front of a vividly colored, modern art pavilion featuring bold red sculptural elements and a classical-style pediment inscribed with "STATI UNITI D’AMERICA." Photo Credit: Marc Mariani of The Grand Tour.']
 ); ?>
 <p>Vassar Travel Programs turn the world into your classroom, offering unforgettable adventures led by Vassar’s expert faculty. These thoughtfully curated trips blend exploration with intellectual discovery—from ancient cities to natural wonders, each destination comes to life through the Vassar lens. Along the way, alums can reconnect with old friends, forge new friendships, learn from distinguished scholars, and, on special trips, share the experience with current students.</p>
 <p>Check out the exciting itineraries for our upcoming trips.</p>
+<p><em>Photo: Marc Mariani of The Grand Tour</em></p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -135,7 +136,7 @@ June 19-July 1, 2025</p>
 
 <p><strong>June 13–24, 2026<strong></p>
 
-<p>Visit the ancient sites and picturesque villages of four of Greece’s most beautiful islands—Andros, Naxos, Santorini, and Crete. Along the way, savor distinctive regional cuisine and discover the remarkable history of the islands. This unique journey is hosted by Michele Tugade, Professor of Psychological Science on the William R. Kenan, Jr., Chair, whose inspiring research explores how wellness and lifestyle contribute to happiness and longevity. Explore these stunning islands in-depth and experience Greece in a rewarding way.</p>
+<p>Visit the ancient sites and picturesque villages of four of Greece’s most beautiful islands—Andros, Naxos, Santorini, and Crete. Along the way, savor distinctive regional cuisine and discover the remarkable history of the islands. This unique journey is hosted by Michele Tugade, Professor of Psychological Science on the William R. Kenan, Jr. Chair, whose inspiring research explores how wellness and lifestyle contribute to happiness and longevity. Explore these stunning islands in-depth and experience Greece in a rewarding way.</p>
 
 <p>An optional pre-trip stay in Athens is offered from June 11–14, 2026.</p>
 
