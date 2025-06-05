@@ -250,9 +250,9 @@ $page_info = json_decode($page_info, true);
   <?php echo schedule_item_dropdown(
     '6:00–7:00 p.m.',
     'Reception with Vassar Faculty Members',
-    'Thompson Memorial Library Lawn Tent'
+    'Main Building, College Center North Atrium'
   ); ?>
-  <p>Please join your favorite professors and meet new faculty under the Library Lawn Tent. Interim Dean of Faculty Brian Daly will deliver an update on the latest academic news on campus.</p>
+  <p>Please join your favorite professors and meet new faculty in the College Center. Interim Dean of Faculty Brian Daly will deliver an update on the latest academic news on campus.</p>
 
    <?php echo end_schedule_item_dropdown(); ?>
 
