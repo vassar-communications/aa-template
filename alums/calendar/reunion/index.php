@@ -263,7 +263,7 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments are
 <strong>2000:</strong> Cushing House<br />
 <strong>2005:</strong> Raymond House<br />
 <strong>2010:</strong> Strong House<br />
-<strong>2015:</strong> Town Houses, 164<br />
+<strong>2015:</strong> Town Houses, 46<br />
 <strong>2020:</strong> Lathrop House</p>
             </div>
         </div>
