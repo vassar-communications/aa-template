@@ -71,7 +71,7 @@ June 19-July 1, 2025</p>
     ['img_alt_text' => 'Palais Garnier in Paris, a lavish hall adorned with gold trim, ornate chandeliers, and ceiling frescoes, with symmetrical columns and mirrors lining the sides beneath a vaulted painted ceiling.']
 ); ?>
 
-<p class="intro-text">La Paris Musicale!: Music and Art in the City of Lights</p>
+<p class="intro-text">La Paris Musicale! Music and Art in the City of Lights</p>
 
 <p><strong>October 13–21, 2025<strong></p>
 
@@ -119,7 +119,7 @@ June 19-July 1, 2025</p>
 <p><strong>Tour cost:</strong> $6,995 per person, double occupancy (additional single supplement $1,295). <em>International airfare not included.</em></p>
 
 <?php echo cta_link(
-    '/alums/assets/pdf/Brochure_Vassar Mexico 2026_V2.pdf',
+    '/alums/assets/pdf/Brochure_Vassar_Mexico_2026_V2.pdf',
     'View the full Mexico itinerary and reserve your place.'
 
 ); ?>
@@ -146,7 +146,11 @@ June 19-July 1, 2025</p>
 
 <p><strong>Tour cost:</strong> $6,590 per person, double occupancy (additional single supplement: $1,590). <em>International airfare not included.</em></p>
 
-<p>Full itinerary coming soon!</p>
+<?php echo cta_link(
+    '/alums/assets/pdf/Travel-Program-Greece-Brochure.pdf',
+    'View the full Greece itinerary and reserve your place.'
+
+); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
