@@ -34,12 +34,18 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Welcome back!',
+    'Thanks for coming!',
     $alums_img_path.'alums-calendar/reunion/reunion-52960218489_a3d3ff91f9_o.jpg',
     'image-is-first theme-cream',
     '',
     ['img_alt_text' => 'A person stands at a podium in front of a large group of people sitting under a tent, with a large banner behind them that says AAVC in white on a red background.']
 ); ?>
+
+<p>Reunion 2025 has come to an end. It was a beautiful and joyous weekend. We hope you all had a wonderful time! Photos will be available soon.</p>
+    <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email&nbsp;us</a> regarding Reunion.</p> 
+   <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-4 mb-4">See Who Came to Reunion</a>
+
+<?php /*hiding below items until 2026 setup
 
   <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 0s and 5s on campus for Reunion, June 6-8, 2025 (the 50th Reunion class arrives on June 5).</p>
 <!--
@@ -48,10 +54,13 @@ $page_info = json_decode($page_info, true);
   -->
    <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-4 mb-4">See Who’s Coming to Reunion</a>
     <p>Registration has now closed. We are preparing for your arrival and can't wait to see you all very soon! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email&nbsp;us</a> regarding Reunion.</p> 
+    
+End of hiding info content*/ ?>    
   
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+<?php /*hiding below items until 2026 setup
 
 <?php echo sec_fullBleedImageColumn(
     'General Reunion<br> Class Schedule',
@@ -101,6 +110,8 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+End of hiding info content*/ ?>
+
 
 <?php echo sec_regularContent(
   '',
@@ -109,12 +120,9 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
-<?php /*
     <h3>Lost and Found</h3>
 
     <p>Leave something behind? Please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
-*/ ?>
-
 
     
   <h3>Future Reunion Dates</h3>
@@ -134,6 +142,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_regularContent(); ?>
 
 
+<?php /*hiding below items until 2026 setup
 
 <div id="information-updates"></div>
 
@@ -152,12 +161,10 @@ $page_info = json_decode($page_info, true);
 </ul>
 <p>Already have the app and use the “Alum” persona? Tap on the person icon in the upper right corner of the app, then tap on “My Role” to switch to the Reunion persona for the weekend.</p>
 
-<?php /*hiding below items until 2026 setup
 
 <h4>Alum ID Card</h4>
 <p>If you would like to get an Alum ID card during Reunion, please submit the <a href="https://offices.vassar.edu/card/alum-id-card-request/">Alum ID Card Request Form</a> by <strong>May 17, 2024</strong>. The Card Office will make sure everything is ready for you to get your Alum ID card at Reunion. Alum ID cards are only issued in person at Vassar’s Service Desk located in the College Center, North Atrium, as a photo must be taken for the card. The Service Desk will be open during Reunion on Friday, May 31, from 8:30 a.m. to 5:00&nbsp;p.m. and Saturday, June 1, from noon to 5:00 p.m. For more information, contact the Card Office at <a href="tel:+18454513333">(845) 451-3333</a>.</p>
 
-End of hiding info content*/ ?>
 
 <?php echo end_item_iconItem(); ?>
 
@@ -408,12 +415,12 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments are
   <li>Sunday: 10:00 a.m.–3:00 p.m.</li>
 </ul>
 
-<!--
+
 <h3>Jummah Service at Pratt House</h3>   
     <ul>
       <li>Friday: 1:00 p.m.</li>
     </ul>
--->
+
   <h3>Music Library</h3>
   <ul>
     <li>Thursday: 1:00–4:00 p.m.</li>
@@ -477,6 +484,7 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments are
 
 <?php echo end_sec_hasColumns(); ?>
 
+End of hiding info content*/ ?>
 
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/alums/inc/pages/give/give.php');?>
