@@ -119,7 +119,7 @@ June 19-July 1, 2025</p>
 <p><strong>Tour cost:</strong> $6,995 per person, double occupancy (additional single supplement $1,295). <em>International airfare not included.</em></p>
 
 <?php echo cta_link(
-    '/alums/assets/pdf/Brochure_Vassar Mexico 2026_V2.pdf',
+    '/alums/assets/pdf/Brochure_Vassar_Mexico_2026_V2.pdf',
     'View the full Mexico itinerary and reserve your place.'
 
 ); ?>
