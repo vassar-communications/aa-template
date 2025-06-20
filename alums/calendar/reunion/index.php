@@ -41,7 +41,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A person stands at a podium in front of a large group of people sitting under a tent, with a large banner behind them that says AAVC in white on a red background.']
 ); ?>
 
-<p>Reunion 2025 has come to an end. It was a beautiful and joyous weekend. We hope you all had a wonderful time! Photos will be available soon.</p>
+<p>Reunion 2025 has come to an end. It was a beautiful and joyous weekend. We hope you all had a wonderful time!</p>
     <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email&nbsp;us</a> regarding Reunion.</p> 
    <a href="https://www.flickr.com/photos/vassarcollegemedia/albums/72177720326751103" class="btn btn-primary arrow mt-2 mb-2">See Photos from Reunion 2025</a>
   <br />
