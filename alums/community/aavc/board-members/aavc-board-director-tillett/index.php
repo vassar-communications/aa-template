@@ -39,7 +39,6 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Alum Recognition Committee Member and Ad Hoc Diversity, Equity, and Inclusion Committee Member</li>
     <li>(she/her/hers)</li>
     <li>Massachusetts/North Carolina</li>
     <li>Term of Service: 2024–2028</li>
@@ -53,7 +52,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Member, AAVC Ad Hoc Diversity, Equity, & Inclusion Committee, 2021–present.</p>
+<p>Member, AAVC Ad Hoc Diversity, Equity, & Inclusion Committee, 2021–2025.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"AAVC Vice President and AAVC Trustee",
+  "page_title":"AAVC Vice President",
   "page_classes":"",
   "feature_image":"/alums/assets/img/alums-community/aavc/board/forman-tyrone-aavc-alum-001.jpg"
 }';
@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>AAVC Vice President and AAVC Trustee</li>
+    <li>AAVC Vice President</li>
     <li>(he/him/his)</li>
     <li>Illinois</li>
     <li>Term of Service: 2022–2026</li>

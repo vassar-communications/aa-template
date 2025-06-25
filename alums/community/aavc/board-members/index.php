@@ -55,11 +55,11 @@ ul.inline-list-links li a {
 </style>
 
 <ul class="inline-list-links">
-  <li><a href="#board-slate">2025 Board Slate</a></li>
   <li><a href="#board-of-directors">Board of Directors</a></li>
   <li><a href="#board-members">Current AAVC Board Members</a></li>
 </ul>
 
+<?php /*hiding below items until 2026 setup
 
 <?php echo sec_regularContent(
     '2025 Board Slate',
@@ -231,6 +231,7 @@ ul.inline-list-links li a {
 
 <?php echo end_sec_regularContent(); ?>
 
+End of hiding info content*/ ?>
 
 
 <a id="board-of-directors"></a>
@@ -305,10 +306,25 @@ ul.inline-list-links li a {
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">AAVC Vice President and AAVC Trustee</div>
+<div class="position">AAVC Vice President</div>
 <div class="location">Illinois</div>
 <div class="term">Term of Service: 2022–2026</div>
 
+<?php echo end_item_cardWithText(
+    null,
+); ?>
+
+
+<?php echo item_cardWithText(
+    'Maybelle Taylor Bennett&nbsp;’70',
+    '/alums/community/aavc/board-members/aavc-trustee-bennett/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/Maybelle-Taylor-Bennett-2025.jpg', 'alt' => 'Maybelle Taylor Bennett ’70, a person with short, gray hair styled in a bun, wearing round eyeglasses, gold hoop earrings, and a multicolored knitted shawl in shades of red, orange, teal, and brown, standing against a plain light-colored background.' ],
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
+); ?>
+<div class="pronouns">(she/her/hers) </div>
+<div class="position">AAVC Trustee and Alum Recognition Committee Member</div>
+<div class="location">Washington, D.C.</div>
+<div class="term">Term of Service: 2025–2029</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
@@ -321,7 +337,7 @@ ul.inline-list-links li a {
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">AAVC Trustee and Nominating and Governance Committee Member</div>
+<div class="position">AAVC Trustee and Vassar Fund Committee Member</div>
 <div class="location">Pennsylvania</div>
 <div class="term">Term of Service: 2022–2026</div>
 
@@ -352,27 +368,13 @@ ul.inline-list-links li a {
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">AAVC Trustee, Ad Hoc Diversity, Equity, and Inclusion Committee Chair, and Nominating and Governance Member</div>
+<div class="position">AAVC Trustee and Ad Hoc Diversity, Equity, and Inclusion Committee Chair</div>
 <div class="location">Massachusetts</div>
 <div class="term">Term of Service: 2023–2027</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
 
-
-<?php echo item_cardWithText(
-    'James Estrada&nbsp;’13',
-    '/alums/community/aavc/board-members/aavc-alumnae-house-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/estrada-james-aavc-alum-001.jpg', 'alt' => 'A person with short black hair, a mustache and beard, arms crossed, a gray jacket, and a black shirt smiles at the viewer.' ],
-    'related-topics card--withParagraph card-has-cta-icon card-is-link'
-); ?>
-<div class="pronouns">(he/him/his)</div>
-<div class="position">Alumnae House Committee Chair and Vassar Fund Committee Member</div>
-<div class="location">Michigan</div>
-<div class="term">Term of Service: 2021–2026</div>
-<?php echo end_item_cardWithText(
-    null,
-); ?>
 
 <?php echo item_cardWithText(
     'Eddie Gamarra&nbsp;’94',
@@ -395,7 +397,7 @@ ul.inline-list-links li a {
     ['url' => '/alums/assets/img/alums-community/aavc/board/tellez-carlos-hernandez-aavc-alum-001.jpg', 'alt' => 'A person with wavy black hair, a mustache, and a light gray jacket over a black shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
-<div class="position">Career Networking Committee Chair and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
+<div class="position">Career Networking Committee Chair and Nominating and Governance Committee Member</div>
 <div class="location">Brazil</div>
 <div class="term">Term of Service: 2022–2027</div>
 <?php echo end_item_cardWithText(
@@ -425,8 +427,23 @@ ul.inline-list-links li a {
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">Clubs Committee Chair</div>
+<div class="position">Clubs Committee Chair and Alum Recognition Committee Member</div>
 <div class="location">United Kingdom</div>
+<div class="term">Term of Service: 2022–2026</div>
+<?php echo end_item_cardWithText(
+    null,
+); ?>
+
+
+<?php echo item_cardWithText(
+    'Keith St John&nbsp;’81',
+    '/alums/community/aavc/board-members/aavc-alumnae-house-committee-chair/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/st-john-keith-aavc-alum-001.jpg', 'alt' => 'A person with closely cropped gray-black hair, a white beard and gray mustaches, a patterned shirt and purple tie smiles at the viewer.' ],
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
+); ?>
+<div class="pronouns">(he/him/his)</div>
+<div class="position">Alumnae House Committee Chair and Nominating and Governance Committee Member</div>
+<div class="location">New York</div>
 <div class="term">Term of Service: 2022–2026</div>
 <?php echo end_item_cardWithText(
     null,
@@ -449,13 +466,28 @@ ul.inline-list-links li a {
 
 
 <?php echo item_cardWithText(
+    'Stephanie Goldberg&nbsp;’14',
+    '/alums/community/aavc/board-members/aavc-alum-recognition-committee-vice-chair/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/Stephanie-Goldberg.jpg', 'alt' => 'Stephanie Goldberg ’14, a person with long, wavy dark hair wearing a sleeveless white top and a necklace with a small pendant, smiling while standing outdoors in front of a body of water and forested hills.' ],
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
+); ?>
+<div class="pronouns">(she/her/hers)</div>
+<div class="position">Alum Recognition Committee Vice Chair and Clubs Committee Member</div>
+<div class="location">New York</div>
+<div class="term">Term of Service: 2025–2029</div>
+<?php echo end_item_cardWithText(
+    null,
+); ?>
+
+
+<?php echo item_cardWithText(
     'Sheryl Tracy Smikle&nbsp;’81',
-    '/alums/community/aavc/board-members/aavc-board-director-5/',
+    '/alums/community/aavc/board-members/aavc-nominating-and-governance-committee-vice-chair/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/smikle-sheryl-aavc-alum-001.jpg', 'alt' => 'A person with short curly gray hair, and a black shirt with colored flowers on it smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">Nominating and Governance Committee Vice Chair and Alumnae House Committee Member</div>
+<div class="position">Nominating and Governance Committee Vice Chair and Career Networking Committee Member</div>
 <div class="location">Georgia</div>
 <div class="term">Term of Service: 2020–2028</div>
 <?php echo end_item_cardWithText(
@@ -465,7 +497,7 @@ ul.inline-list-links li a {
 
 <?php echo item_cardWithText(
     'Gail Becker&nbsp;’64',
-    '/alums/community/aavc/board-members/aavc-board-director-7/',
+    '/alums/community/aavc/board-members/aavc-board-director-becker/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/becker-gail-aavc-alum-001.jpg', 'alt' => 'A person with short wavy gray-brown hair and a black turtleneck sweater smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -479,30 +511,15 @@ ul.inline-list-links li a {
 
 
 <?php echo item_cardWithText(
-    'Maybelle Taylor Bennett&nbsp;’70',
-    '/alums/community/aavc/board-members/aavc-board-director-8/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/Maybelle-Taylor-Bennett-2025.jpg', 'alt' => 'Maybelle Taylor Bennett ’70, a person with short, gray hair styled in a bun, wearing round eyeglasses, gold hoop earrings, and a multicolored knitted shawl in shades of red, orange, teal, and brown, standing against a plain light-colored background.' ],
+    'Kevin Lee&nbsp;’14',
+    '/alums/community/aavc/board-members/aavc-board-director-lee/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/Kevin-Lee.jpg', 'alt' => 'Kevin Lee ’14, a person with short, neatly styled dark hair wearing a suit jacket, light blue dress shirt, and red and blue striped tie, smiling in a brightly lit indoor setting with a blurred background.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
-<div class="pronouns">(she/her/hers) </div>
-<div class="position">Alum Recognition Committee Member and Career Networking Committee Member</div>
-<div class="location">Washington, DC</div>
-<div class="term">Term of Service: 2021–2025</div>
-<?php echo end_item_cardWithText(
-    null,
-); ?>
-
-
-<?php echo item_cardWithText(
-    'AC Dumlao&nbsp;’13',
-    '/alums/community/aavc/board-members/aavc-board-director-9/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/AC-Dumlao_Headshot_Credit-AC-Dumlao_AAVC.jpg', 'alt' => 'A person with a closely shaven head, glasses, dark colored jacket, and a white shirt smiles at the viewer.' ],
-    'related-topics card--withParagraph card-has-cta-icon card-is-link'
-); ?>
-<div class="pronouns">(they/them/he/him)</div>
-<div class="position">Nominating and Governance Committee Member and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
-<div class="location">New York</div>
-<div class="term">Term of Service: 2021–2025</div>
+<div class="pronouns">(he/him/his)</div>
+<div class="position">Career Networking Committee Member and Clubs Committee Member</div>
+<div class="location">California</div>
+<div class="term">Term of Service: 2025–2029</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
@@ -510,7 +527,7 @@ ul.inline-list-links li a {
 
 <?php echo item_cardWithText(
     'Peggy Ann Nagae&nbsp;’73',
-    '/alums/community/aavc/board-members/aavc-board-director-3/',
+    '/alums/community/aavc/board-members/aavc-board-director-nagae/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/nagae-peggy-ann-aavc-alum-001.jpg', 'alt' => 'A person with long brown hair and bangs, a red and black shirt, and white bead necklace smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
@@ -524,13 +541,28 @@ ul.inline-list-links li a {
 
 
 <?php echo item_cardWithText(
+    'Patricia Ann Neely&nbsp;’75',
+    '/alums/community/aavc/board-members/aavc-board-director-neely/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/Patricia-Ann-Neely.jpg', 'alt' => 'Patricia Ann Neely ’75, a person with shoulder-length, coiled hair and glasses wearing a textured black garment and a necklace, sitting next to a tall, stringed musical instrument with an intricately carved scroll shaped like a lion’s head.' ],
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
+); ?>
+<div class="pronouns">(she/her/hers)</div>
+<div class="position">Alumnae House Committee Member and Vassar Fund Committee Member</div>
+<div class="location">New York</div>
+<div class="term">Term of Service: 2025–2029</div>
+<?php echo end_item_cardWithText(
+    null,
+); ?>
+
+
+<?php echo item_cardWithText(
     'Michael Neuwirth&nbsp;’89',
     '/alums/community/aavc/board-members/aavc-board-director-neuwirth/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/neuwirth-michael-aavc-alum.jpg', 'alt' => 'A person with close-shaven hair, beard, and mustache, wearing glasses, smiles at the viewer' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">Nominating and Governance Committee Member</div>
+<div class="position">Nominating and Governance Committee Member and Alumnae House Committee Member</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
@@ -554,15 +586,15 @@ ul.inline-list-links li a {
 
 
 <?php echo item_cardWithText(
-    'Keith St John&nbsp;’81',
-    '/alums/community/aavc/board-members/aavc-board-director-6/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/st-john-keith-aavc-alum-001.jpg', 'alt' => 'A person with closely cropped gray-black hair, a white beard and gray mustaches, a patterned shirt and purple tie smiles at the viewer.' ],
+    'Sam Thypin-Bermeo&nbsp;’11',
+    '/alums/community/aavc/board-members/aavc-board-director-thypin-bermeo/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/Sam-Thypin-Bermeo.jpg', 'alt' => 'Sam Thypin-Bermeo ʼ11, a person with short dark hair and glasses smiling and wearing a gray hoodie layered over a dark shirt.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">Alumnae House Committee Member and Nominating and Governance Committee Member</div>
+<div class="position">Alum Recognition Committee Member and Alumnae House Committee Member</div>
 <div class="location">New York</div>
-<div class="term">Term of Service: 2022–2026</div>
+<div class="term">Term of Service: 2025–2029</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
@@ -575,7 +607,6 @@ ul.inline-list-links li a {
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">Alum Recognition Committee Member and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
 <div class="location">Massachusetts/North Carolina</div>
 <div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
@@ -590,24 +621,9 @@ ul.inline-list-links li a {
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">Career Networking Committee Member and Vassar Fund Committee Member</div>
+<div class="position">Nominating and Governance Committee Member and Vassar Fund Committee Member</div>
 <div class="location">Massachusetts</div>
 <div class="term">Term of Service: 2024–2028</div>
-<?php echo end_item_cardWithText(
-    null,
-); ?>
-
-
-<?php echo item_cardWithText(
-    'Ellie Winter&nbsp;’18',
-    '/alums/community/aavc/board-members/aavc-board-director-winter/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/winter-ellie-aavc-alum-6332.jpg', 'alt' => 'A person with curly shoulder-length hair wearing glasses and a pink sweater smiles at the viewer.' ],
-    'related-topics card--withParagraph card-has-cta-icon card-is-link'
-); ?>
-<div class="pronouns">(she/her/hers)</div>
-<div class="position">Clubs Committee Member</div>
-<div class="location">Rhode Island</div>
-<div class="term">Term of Service: 2021–2025</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>
