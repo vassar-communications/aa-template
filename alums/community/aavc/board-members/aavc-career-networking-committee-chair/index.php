@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Career Networking Committee Chair and Ad Hoc Diversity, Equity, and Inclusion Committee Member</li>
+    <li>Career Networking Committee Chair and Nominating and Governance Committee Member</li>
     <li>Brazil</li>
     <li>Term of Service: 2022–2027</li>
   </ul>

@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"AAVC Board Director",
+  "page_title":"Nominating and Governance Committee Vice Chair",
   "page_classes":"",
   "feature_image":"/alums/assets/img/alums-community/aavc/board/smikle-sheryl-aavc-alum-001.jpg"
 }';
@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Nominating and Governance Committee Vice Chair and Alumnae House Committee Member</li>
+    <li>Nominating and Governance Committee Vice Chair and Career Networking Committee Member</li>
     <li>(she/her/hers)</li>
     <li>Georgia</li>
     <li>Term of Service: 2020–2028</li>

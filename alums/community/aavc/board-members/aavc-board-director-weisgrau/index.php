@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Career Networking Committee Member and Vassar Fund Committee Member</li>
+    <li>Nominating and Governance Committee Member and Vassar Fund Committee Member</li>
     <li>(she/her/hers)</li>
     <li>Massachusetts</li>
     <li>Term of Service: 2024–2028</li>

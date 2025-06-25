@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"AAVC Board Director",
   "page_classes":"",
-  "feature_image":"/alums/assets/img/alums-community/aavc/board/neuwirth-michael-aavc-alum.jpg"
+  "feature_image":"/alums/assets/img/alums-community/aavc/board/Sam-Thypin-Bermeo.jpg"
 }';
 
 /* === */
@@ -31,18 +31,18 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'Michael Neuwirth ’89',
-    '/alums/assets/img/alums-community/aavc/board/neuwirth-michael-aavc-alum.jpg',
+    'Sam Thypin-Bermeo ’11',
+    '/alums/assets/img/alums-community/aavc/board/Sam-Thypin-Bermeo.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'A person with close-shaven hair, beard, and mustache, wearing glasses, smiles at the viewer.']
+    ['img_alt_text' => 'Sam Thypin-Bermeo ʼ11, a person with short dark hair and glasses smiling and wearing a gray hoodie layered over a dark shirt.']
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Nominating and Governance Committee Member and Alumnae House Committee Member</li>
+    <li>Alum Recognition Committee Member and Alumnae House Committee Member</li>
     <li>(he/him/his)</li>
     <li>New York</li>
-    <li>Term of Service: 2024–2028</li>
+    <li>Term of Service: 2025–2029</li>
   </ul>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Member, AAVC Class Engagement Committee, 2022–present; President, Class of 1989, 2019–present; Class Agent, Class of 1989, 2017–2020; volunteer, Club Admission Committee, 2002–2013.</p>
+<p>Correspondent, Class of 2011, 2022–present; mentor, Sophomore Career Connections, 2024; Social Media Coordinator, Vassar Club of South Florida, 2022–2023; Communications Chair, Vassar Club of South Florida, 2021–2023.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Corporate Communications & Public Relations Consultant, Neuwirth Communications, LLC, 2020–present; angel investor, 2020–present; Chief Communications Officer, American Sustainable Business Network, 2021–2022; Public Relations & External Communications Lead, Danone, 2005–2020; Senior Vice President, Ruder Finn, 2003–2005; Director of Corporate Communications, Acirca, Inc, 2001–2003; Public Relations Manager, Danone, 1994–2001; Senior Account Executive, Porter Novelli, 1990–1994.</p>
+<p>Assistant United States Attorney, United States Attorney for the District of New Jersey, 2023–present; Principal, Thypin Bermeo PLLC, 2022–2023; Staff Attorney, Florida Justice Institute, 2020–2022.</p>
 <?php echo end_sec_regularContent(); ?>
 
 
