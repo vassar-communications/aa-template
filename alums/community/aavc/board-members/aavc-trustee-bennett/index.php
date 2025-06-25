@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Trustee, Board of Trustees, 2025–present; director, AAVC Board of Directors, 2021–present; member, AAVC Alum Recognition Committee, 2021–present; member, AAVC Career Networking Committee, 2021–2025; class agent, Class of 1970, 2018–2021; member, Club Admission Committee, 1997–2009; notewriter/phoner, Annual Fund, 2005–2006; member, AAVC Nominating Committee, 2002–2005; panelist, 30th Anniversary Celebration of the Africana Studies Program at Vassar, 2001.</p>
+<p>Member, AAVC Career Networking Committee, 2021–2025; class agent, Class of 1970, 2018–2021; member, Club Admission Committee, 1997–2009; notewriter/phoner, Annual Fund, 2005–2006; member, AAVC Nominating Committee, 2002–2005; panelist, 30th Anniversary Celebration of the Africana Studies Program at Vassar, 2001.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

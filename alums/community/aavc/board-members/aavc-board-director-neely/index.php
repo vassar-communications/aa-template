@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Off-board committee member, AAVC Vassar Fund Committee, 2016–present; President, Class of 1975, 2015–present, and Musicale Coordinator, 2024–present, and Class Agent, 2023–present, and Volunteer, 2016–present, and Class Agent, 2019–2020, and Volunteer, 2013–2014, and Notewriter or Phoner, 2012–2013; Volunteer, Club Admission Committee, 2007–present; Member, Class Reunion Gift Committee, 2012–2015.</p>
+<p>Off-board committee member, AAVC Vassar Fund Committee, 2016–2025; President, Class of 1975, 2015–present, and Musicale Coordinator, 2024–present, and Class Agent, 2023–present, and Volunteer, 2016–present, and Class Agent, 2019–2020, and Volunteer, 2013–2014, and Notewriter or Phoner, 2012–2013; Volunteer, Club Admission Committee, 2007–present; Member, Class Reunion Gift Committee, 2012–2015.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

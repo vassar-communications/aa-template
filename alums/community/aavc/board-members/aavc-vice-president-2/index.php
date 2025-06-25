@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>AAVC Trustee, 2021–present; chair, AAVC Ad Hoc Diversity, Equity, and Inclusion Committee, 2020–2022; director, AAVC Board of Directors, 2018–present; member, AAVC Nominating and Governance Committee, 2018–present; member, AAVC Career Networking Committee, 2018–2020; presenter, Alumnae/i College, Reunion 2017; member, African American Alumnae/i of Vassar College (AAAVC), 2005–present; member, Vassar Club of Chicago, 2003–2008; volunteer, Career Advisor Program, 1995–2006; class agent, Class of 1992, 1993-1997.</p>
+<p>AAVC Trustee, 2021–2025; chair, AAVC Ad Hoc Diversity, Equity, and Inclusion Committee, 2020–2022; director, AAVC Board of Directors, 2018–present; member, AAVC Nominating and Governance Committee, 2018–present; member, AAVC Career Networking Committee, 2018–2020; presenter, Alumnae/i College, Reunion 2017; member, African American Alumnae/i of Vassar College (AAAVC), 2005–present; member, Vassar Club of Chicago, 2003–2008; volunteer, Career Advisor Program, 1995–2006; class agent, Class of 1992, 1993-1997.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

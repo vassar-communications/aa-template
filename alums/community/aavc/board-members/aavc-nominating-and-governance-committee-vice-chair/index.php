@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Class Agent, Class of 1981, 2023–present; Steering Committee member, Vassar Club of Atlanta, 2023–present; Student Life Committee member, African American Alumnae/i of Vassar College (AAAVC), 2023–present; volunteer, Club Admission Committee, 2023–present; committee member, Vassar Club of Atlanta, 2022–present; Director, AAVC Board of Directors, 2020–present; member, AAVC Alumnae House Committee, 2020–present; member, AAVC Nominating and Governance Committee, 2020–present;  Vice President, Class of 1981 Committee, 2017–present; Class Agent, Class of 1981, 2023–2023; member, Campus Investor Responsibility Committee (CIRC), 2017–2021; volunteer, Club Admission Committee, 2013–2016; note-writer/phoner, Vassar Fund, 1996–1997.</p>
+<p>Class Agent, Class of 1981, 2023–present; Steering Committee member, Vassar Club of Atlanta, 2023–present; Student Life Committee member, African American Alumnae/i of Vassar College (AAAVC), 2023–present; volunteer, Club Admission Committee, 2023–present; committee member, Vassar Club of Atlanta, 2022–present; Director, AAVC Board of Directors, 2020–present; member, AAVC Alumnae House Committee, 2020–2025; member, AAVC Nominating and Governance Committee, 2020–present;  Vice President, Class of 1981 Committee, 2017–present; Class Agent, Class of 1981, 2023–2023; member, Campus Investor Responsibility Committee (CIRC), 2017–2021; volunteer, Club Admission Committee, 2013–2016; note-writer/phoner, Vassar Fund, 1996–1997.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
