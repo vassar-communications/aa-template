@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Off-board committee member, AAVC Clubs Committee, 2024–present; Chair of Steering Committee, Vassar Club of San Diego, 2021–present; Committee Member, Class of 2014, 2018–present and Treasurer,  2014–2018; Volunteer, Club Admission Committee, 2017–2024.</p>
+<p>Off-board committee member, AAVC Clubs Committee, 2024–2025; Chair of Steering Committee, Vassar Club of San Diego, 2021–present; Committee Member, Class of 2014, 2018–present and Treasurer,  2014–2018; Volunteer, Club Admission Committee, 2017–2024.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

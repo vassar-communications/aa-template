@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Chair, AAVC Alumnae House Committee, 2025–present; director, AAVC Board of Directors, 2022–present; member, AAVC Alumnae House Committee, 2022–2025; co-president, Class of 1981, 2021–present; member, AAVC Class Engagement Committee, 2022–2024; president, Class of 1981, 2020–2021; committee member, Class of 1981, 1996–2001.</p>
+<p>Member, AAVC Alumnae House Committee, 2022–2025; co-president, Class of 1981, 2021–present; member, AAVC Class Engagement Committee, 2022–2024; president, Class of 1981, 2020–2021; committee member, Class of 1981, 1996–2001.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
