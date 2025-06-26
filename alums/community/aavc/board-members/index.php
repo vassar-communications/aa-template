@@ -480,6 +480,21 @@ End of hiding info content*/ ?>
 
 
 <?php echo item_cardWithText(
+    'Peggy Ann Nagae&nbsp;’73',
+    '/alums/community/aavc/board-members/aavc-ad-hoc-diversity-equity-inclusion-committee-vice-chair/',
+    ['url' => '/alums/assets/img/alums-community/aavc/board/nagae-peggy-ann-aavc-alum-001.jpg', 'alt' => 'A person with long brown hair and bangs, a red and black shirt, and white bead necklace smiles at the viewer.' ],
+    'related-topics card--withParagraph card-has-cta-icon card-is-link'
+); ?>
+<div class="pronouns">(she/her/hers)</div>
+<div class="position">Ad Hoc Diversity, Equity, and Inclusion Committee Vice Chair and Nominating and Governance Committee Member</div>
+<div class="location">Oregon</div>
+<div class="term">Term of Service: 2022–2026</div>
+<?php echo end_item_cardWithText(
+    null,
+); ?>
+
+
+<?php echo item_cardWithText(
     'Sheryl Tracy Smikle&nbsp;’81',
     '/alums/community/aavc/board-members/aavc-nominating-and-governance-committee-vice-chair/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/smikle-sheryl-aavc-alum-001.jpg', 'alt' => 'A person with short curly gray hair, and a black shirt with colored flowers on it smiles at the viewer.' ],
@@ -519,21 +534,6 @@ End of hiding info content*/ ?>
 <div class="position">Career Networking Committee Member and Clubs Committee Member</div>
 <div class="location">California</div>
 <div class="term">Term of Service: 2025–2029</div>
-<?php echo end_item_cardWithText(
-    null,
-); ?>
-
-
-<?php echo item_cardWithText(
-    'Peggy Ann Nagae&nbsp;’73',
-    '/alums/community/aavc/board-members/aavc-board-director-nagae/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/nagae-peggy-ann-aavc-alum-001.jpg', 'alt' => 'A person with long brown hair and bangs, a red and black shirt, and white bead necklace smiles at the viewer.' ],
-    'related-topics card--withParagraph card-has-cta-icon card-is-link'
-); ?>
-<div class="pronouns">(she/her/hers)</div>
-<div class="position">Nominating and Governance Committee Member and Ad Hoc Diversity, Equity, and Inclusion Committee Vice Chair</div>
-<div class="location">Oregon</div>
-<div class="term">Term of Service: 2022–2026</div>
 <?php echo end_item_cardWithText(
     null,
 ); ?>

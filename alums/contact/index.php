@@ -222,7 +222,7 @@ echo end_contact_card();
                     <?php
 echo contact_card(
     'Anca Nelson',
-    'Associate Director of Advancement for Campaign Operations',
+    'Director for Campaign Operations and Principal Gifts Stewardship',
     [
             'phone' => '845-437-5806',
             'email' => 'anelson@vassar.edu',
@@ -245,7 +245,7 @@ echo end_contact_card();
                     <?php
 echo contact_card(
     'Amanda Ader',
-    'Associate Director of Annual Giving, Digital Engagement Officer',
+    'Associate Director of Annual Giving, Strategic Initiatives & Campaigns',
     [
             'phone' => '845-437-5451',
             'email' => 'aader@vassar.edu',
@@ -468,7 +468,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Joe Mastracchio',
-    'Assistant Director of Leadership Gifts',
+    'Associate Director of Leadership Gifts',
     [
             'phone' => '845-437-5433',
             'email' => 'jmastracchio@vassar.edu',
@@ -590,7 +590,7 @@ echo end_contact_card();
                     <?php
 echo contact_card(
     'Martha Barry ’86',
-    'Alumnae House Manager',
+    'Alumnae House General Manager',
     [
             'phone' => '845-437-7150',
             'email' => 'mabarry@vassar.edu',
@@ -813,7 +813,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Heather Mattioli',
-    'Assistant Director of Advancement Communications Content',
+    'Associate Director of Advancement Communications – Content',
     [
             'phone' => '845-437-5861',
             'email' => 'hmattioli@vassar.edu',
@@ -962,7 +962,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Judy Connolly',
-    'Assistant Director of Advancement Systems and Reporting',
+    'Associate Director of Advancement Systems and Reporting',
     [
             'phone' => '845-437-7203',
             'email' => 'jconnolly@vassar.edu',
@@ -973,7 +973,7 @@ echo end_contact_card();
 
 echo contact_card(
     'James Mills',
-    'Programmer / Analyst',
+    'Systems Analyst',
     [
             'phone' => '845-437-5483',
             'email' => 'jamills@vassar.edu',
@@ -984,7 +984,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Carlos Ordonez',
-    'Programmer / Analyst',
+    'Senior Data Analyst',
     [
             'phone' => '845-437-5416',
             'email' => 'cordonez@vassar.edu',
@@ -995,7 +995,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Nancy Wanzer',
-    'Director of Advancement Systems and Reporting',
+    'Senior Director of Advancement Services',
     [
             'phone' => '845-437-5437',
             'email' => 'nawanzer@vassar.edu',
@@ -1027,7 +1027,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Kara Montgomery',
-    'Director of Gifts, Records, and Data Management',
+    'Director of Gifts and Records',
     [
             'phone' => '845-437-5493',
             'email' => 'kamontgomery@vassar.edu',
