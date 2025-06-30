@@ -445,17 +445,6 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Molly Renfroe Katz',
-    'Associate Director of Leadership Gifts',
-    [
-            'phone' => '845-437-5435',
-            'email' => 'margaretkatz@vassar.edu',
-        ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
     'Monika Kort',
     'Office Specialist',
     [
