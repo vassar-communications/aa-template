@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"AAVC Board Director",
+  "page_title":"Ad Hoc Diversity, Equity, and Inclusion Committee Vice Chair",
   "page_classes":"",
   "feature_image":"/alums/assets/img/alums-community/aavc/board/nagae-peggy-ann-aavc-alum-001.jpg"
 }';
@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Nominating and Governance Committee Member and Ad Hoc Diversity, Equity, and Inclusion Committee Vice Chair</li>
+    <li>Ad Hoc Diversity, Equity, and Inclusion Committee Vice Chair and Nominating and Governance Committee Member</li>
     <li>(she/her/hers)</li>
     <li>Oregon</li>
     <li>Term of Service: 2022–2026</li>

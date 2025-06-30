@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Alumnae House Committee Chair",
   "page_classes":"",
-  "feature_image":"/alums/assets/img/alums-community/aavc/board/estrada-james-aavc-alum-001.jpg"
+  "feature_image":"/alums/assets/img/alums-community/aavc/board/st-john-keith-aavc-alum-001.jpg"
 }';
 
 /* === */
@@ -31,18 +31,18 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'James Estrada ’13',
-    '/alums/assets/img/alums-community/aavc/board/estrada-james-aavc-alum-001.jpg',
+    'Keith St John ’81',
+    '/alums/assets/img/alums-community/aavc/board/st-john-keith-aavc-alum-001.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'A person with short black hair, a mustache and beard, arms crossed, a gray jacket, and a black shirt smiles at the viewer.']
+    ['img_alt_text' => 'A person with closely cropped gray-black hair, a white beard and gray mustaches, a patterned shirt and purple tie smiles at the viewer.']
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Alumnae House Committee Chair and Vassar Fund Committee Member</li>
+    <li>Alumnae House Committee Chair and Nominating and Governance Committee Member</li>
     <li>(he/him/his)</li>
-    <li>Michigan</li>
-    <li>Term of Service: 2021–2026</li>
+    <li>New York</li>
+    <li>Term of Service: 2022–2026</li>
   </ul>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Chair, AAVC Alumnae House Committee, 2022–present; member, AAVC Vassar Fund Committee, 2022–present; director, AAVC Board of Directors, 2021–present; member, Latino/a Alumnae/i of Vassar College (LAVC), 2016–present; volunteer, Admissions Activities, 2015–present; member, AAVC Ad Hoc Student and Young Alumnae/i Engagement Committee, 2021–2024; member, Club Admission Committee, 2013–2023; member, AAVC Alumnae House Committee, 2021–2022; member, Alumnae/i Club Programming Committee, 2016–2018; volunteer, Admission Phoner Program, 2015–present.</p>
+<p>Member, AAVC Alumnae House Committee, 2022–2025; co-president, Class of 1981, 2021–present; member, AAVC Class Engagement Committee, 2022–2024; president, Class of 1981, 2020–2021; committee member, Class of 1981, 1996–2001.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Associate Director, Latinx Innovation, Planned Parenthood Federation of America, August 2022–present; Director of Innovation, The Sound, February 2022–June 2022; operations manager–medically tailored meals, Relish Works, 2021–2022; innovation project lead–design strategy, Relish Works, 2018–present; founder & artist, Dreaming Collective, 2015–present; marketing specialist–innovation consulting, Gensler, 2017–2018; Latin America marketing specialist, Gensler, 2015–2017; marketing manager, Studio Hillier, 2014–2015; research assistant, Interboro Partners, 2012; marketing and sales, Adirondack Creamery, 2007–2012.</p>
+<p>Profile and Search Committee for 10th Bishop of Albany, Episcopal Diocese Of Albany, 2021–present; Director of Ethics, NYS Joint Commission on Public Ethics, 2017–present; Committee on Character & Fitness member, New York State Supreme Court, 2016–present; Deputy Counsel, New York State Senate, 1999–2017; Solo Practitioner, Law Office of Keith C. St John, Esq., 1997–2017; President, Legal Aid Society of Northeastern New York, 1991–2011; Assistant Public Defender, Albany County Government, 1995–1999; Law Guardian, New York State Supreme Court, Appellate Division, Third Department, 1989-1999; Alderman, City of Albany, 1990–1997; Staff Attorney and Clinical Instructor, Albany Law School, 1992–1997; Associate, Walter, Thayer & Mishler, P.C., 1989–1992; Staff Attorney, Legal Aid Society of Northeastern New York, 1985–1989; Legal Intern, Office of the Attorney General of the State of New York, 1983; Legislative Assistant, U.S. House of Representatives, 1982; Account Clerk, County Of Westchester, 1978–1981; Director, City of White Plains, New York, 1978.</p>
 <?php echo end_sec_regularContent(); ?>
 
 

@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"AAVC Vice President and AAVC Trustee",
+  "page_title":"AAVC Vice President",
   "page_classes":"",
   "feature_image":"/alums/assets/img/alums-community/aavc/board/forman-tyrone-aavc-alum-001.jpg"
 }';
@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>AAVC Vice President and AAVC Trustee</li>
+    <li>AAVC Vice President</li>
     <li>(he/him/his)</li>
     <li>Illinois</li>
     <li>Term of Service: 2022–2026</li>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>AAVC Trustee, 2021–present; chair, AAVC Ad Hoc Diversity, Equity, and Inclusion Committee, 2020–2022; director, AAVC Board of Directors, 2018–present; member, AAVC Nominating and Governance Committee, 2018–present; member, AAVC Career Networking Committee, 2018–2020; presenter, Alumnae/i College, Reunion 2017; member, African American Alumnae/i of Vassar College (AAAVC), 2005–present; member, Vassar Club of Chicago, 2003–2008; volunteer, Career Advisor Program, 1995–2006; class agent, Class of 1992, 1993-1997.</p>
+<p>AAVC Trustee, 2021–2025; chair, AAVC Ad Hoc Diversity, Equity, and Inclusion Committee, 2020–2022; director, AAVC Board of Directors, 2018–present; member, AAVC Nominating and Governance Committee, 2018–present; member, AAVC Career Networking Committee, 2018–2020; presenter, Alumnae/i College, Reunion 2017; member, African American Alumnae/i of Vassar College (AAAVC), 2005–present; member, Vassar Club of Chicago, 2003–2008; volunteer, Career Advisor Program, 1995–2006; class agent, Class of 1992, 1993-1997.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(

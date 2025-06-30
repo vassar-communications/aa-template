@@ -8,9 +8,9 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Class Engagement Committee Chair",
+  "page_title":"AAVC Board Director",
   "page_classes":"",
-  "feature_image":"/alums/assets/img/alums-community/aavc/board/dempsey-alexandria-aavc-alum-001.jpg"
+  "feature_image":"/alums/assets/img/alums-community/aavc/board/Sam-Thypin-Bermeo.jpg"
 }';
 
 /* === */
@@ -31,18 +31,18 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'Alexandria Dempsey ’09',
-    '/alums/assets/img/alums-community/aavc/board/dempsey-alexandria-aavc-alum-001.jpg',
+    'Sam Thypin-Bermeo ’11',
+    '/alums/assets/img/alums-community/aavc/board/Sam-Thypin-Bermeo.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'A person with long dark brown hair, black shirt, black jacket, and silver necklace smiles at the viewer.']
+    ['img_alt_text' => 'Sam Thypin-Bermeo ʼ11, a person with short dark hair and glasses smiling and wearing a gray hoodie layered over a dark shirt.']
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li>Class Engagement Committee Chair and Clubs Committee Member</li>
-    <li>(she/her/hers)</li>
-    <li>California</li>
-    <li>Term of Service: 2020–2024</li>
+    <li>Alum Recognition Committee Member and Alumnae House Committee Member</li>
+    <li>(he/him/his)</li>
+    <li>New York</li>
+    <li>Term of Service: 2025–2029</li>
   </ul>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -53,7 +53,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Member, AAVC Clubs Committee, 2018–present; President, Vassar Club of the Bay Area, 2017–present; President, Class of 2009, 2014–present; Co-President, Vassar Club of the Bay Area, 2016–2017; Co-Chair, Class of 2009 Reunion Committee, 2013–2014; board member, Vassar Club of New York, 2011–2013; member, Club Admissions Committee, 2009–2016.</p>
+<p>Correspondent, Class of 2011, 2022–present; mentor, Sophomore Career Connections, 2024; Social Media Coordinator, Vassar Club of South Florida, 2022–2023; Communications Chair, Vassar Club of South Florida, 2021–2023.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
@@ -62,7 +62,7 @@ $page_info = json_decode($page_info, true);
     '',
     ''
 ); ?>
-<p>Director of Marketing, af&co., 2019–present; Vice President of Marketing & Branding, Puccini Group, 2018–2019; Co-Founder, The Cutting Board, 2017–2018; Founder, Taste with Alexandria, 2016–2017; Brand Manager, Caviar, Inc., 2014–2015; Brand Manager, The Florence Group, 2013–2014; Coordinator of New Business, Scripps Networks, 2011–2013; Office Coordinator, Scripps Networks, 2009–2011.</p>
+<p>Assistant United States Attorney, United States Attorney for the District of New Jersey, 2023–present; Principal, Thypin Bermeo PLLC, 2022–2023; Staff Attorney, Florida Justice Institute, 2020–2022.</p>
 <?php echo end_sec_regularContent(); ?>
 
 
