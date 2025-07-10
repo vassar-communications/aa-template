@@ -32,11 +32,11 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'A Dynamic Global Network of 41,000+ Members!',
-    $alums_img_path.'alums-community/aavc/Vassar_Reunion_19 BL_4788.jpg',
+    'A Dynamic Global Network of '.$facts['number_of_alums'].'+ Members!',
+    $alums_img_path.'alums-community/aavc/0076-25-06-cs-reunion-aavc-vassar-046.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'A group of people holding a large grey banner with the letters AAVC on it are smiling at the viewer.']
+    ['img_alt_text' => 'A diverse group of people stands close together outdoors, smiling at the camera in bright sunlight, wearing name badges and casual summer clothing. A modern brick building with large windows is in the background.']
 ); ?>
 <p>Since its founding in 1871, the AAVC has been dedicated to connecting alums to the College
     and to each other, sustaining lifelong relationships and shared Vassar experiences.</p>
@@ -61,7 +61,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'AAVC Board of Directors',
     '/alums/community/aavc/board-members/',
-    ['url' => '/alums/assets/img/alums-community/aavc/aavc.png', 'alt' => 'Black rectangle with white lettering that spells out AAVC.' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/AAVC-updated-logo.png', 'alt' => 'Black rectangle with white lettering that spells out AAVC with smaller lettering underneath that spells out Alumnae/i Association of Vassar College.' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>A group of dedicated volunteers that serves the College and more than <?php echo $facts['number_of_alums']; ?> alums at the highest level.</p>
@@ -72,7 +72,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'Awards Program',
     '/alums/community/aavc/awards-program/',
-    ['url' => '/alums/assets/img/alums-community/aavc/0114_18_09_KR_3944.jpg', 'alt' => 'Three people stand next to each other. On the left is a person in a blue outfit with light hair, in the middle is a person with mid length dark hair in a blue shirt and on the right is a person with short white hair in a blue suit. The person in the middle is holding an award while all three people smile at the viewer.' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/aavc-awards-24-crop-2x3.jpg', 'alt' => 'Collage of six people arranged around a central AAVC logo, each posing in individual portraits with varied expressions and backgrounds.' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>Recognizing alums who have made significant contributions to the vitality and success of the College and AAVC.</p>
