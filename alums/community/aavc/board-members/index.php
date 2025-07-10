@@ -427,7 +427,7 @@ End of hiding info content*/ ?>
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">Clubs Committee Chair and Alum Recognition Committee Member</div>
+<div class="position">Clubs Committee Chair, Alum Recognition Committee Member, and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
 <div class="location">United Kingdom</div>
 <div class="term">Term of Service: 2022–2026</div>
 <?php echo end_item_cardWithText(
@@ -442,7 +442,7 @@ End of hiding info content*/ ?>
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
-<div class="position">Alumnae House Committee Chair and Nominating and Governance Committee Member</div>
+<div class="position">Alumnae House Committee Chair, Nominating and Governance Committee Member, and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2022–2026</div>
 <?php echo end_item_cardWithText(
@@ -457,7 +457,7 @@ End of hiding info content*/ ?>
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">Nominating and Governance Committee Chair</div>
+<div class="position">Nominating and Governance Committee Chair and Ad Hoc Diversity, Equity, and Inclusion Committee Member</div>
 <div class="location">New York</div>
 <div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
