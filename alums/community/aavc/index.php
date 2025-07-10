@@ -33,7 +33,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'A Dynamic Global Network of '.$facts['number_of_alums'].'+ Members!',
-    $alums_img_path.'alums-community/aavc/0076-25-06-cs-reunion-aavc-vassar-046.jpg',
+    $alums_img_path.'alums-community/aavc/0076-25-06-cs-reunion-aavc-vassar-045-cropped.jpg',
     'image-is-first theme-cream',
     '',
     ['img_alt_text' => 'A diverse group of people stands close together outdoors, smiling at the camera in bright sunlight, wearing name badges and casual summer clothing. A modern brick building with large windows is in the background.']
