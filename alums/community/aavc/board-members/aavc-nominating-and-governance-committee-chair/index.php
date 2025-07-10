@@ -39,7 +39,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
   <ul class="clean-list-with-borders">
-    <li> and Ad Hoc Diversity, Equity, and Inclusion Committee Member</li>
+    <li>Nominating and Governance Committee Chair and Ad Hoc Diversity, Equity, and Inclusion Committee Member</li>
     <li>(she/her/hers)</li>
     <li>New York</li>
     <li>Term of Service: 2024–2028</li>
