@@ -61,7 +61,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_cardWithText(
     'AAVC Board of Directors',
     '/alums/community/aavc/board-members/',
-    ['url' => '/alums/assets/img/alums-community/aavc/AAVC-updated-logo.png', 'alt' => 'Black rectangle with white lettering that spells out AAVC with smaller lettering underneath that spells out Alumnae/i Association of Vassar College.' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/AAVC-logo-on-red.png', 'alt' => 'Black rectangle with white lettering that spells out AAVC with smaller lettering underneath that spells out Alumnae/i Association of Vassar College.' ],
     'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
 ); ?>
 <p>A group of dedicated volunteers that serves the College and more than <?php echo $facts['number_of_alums']; ?> alums at the highest level.</p>
