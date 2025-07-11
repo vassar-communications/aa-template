@@ -46,7 +46,7 @@
       }
     });
   }
-  parseRSS('https://www.vassar.edu/news/rest/621?img_req=1');
+  parseRSS('https://www.vassar.edu/news/rest/331?img_req=1');
 </script>
 
   <div id="newsRSS_target">
