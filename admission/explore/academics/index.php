@@ -64,7 +64,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_wideContent(
     'Your Choices <span class="text-primary">=</span> Your Education',
-    '<p class="intro-text">Vassar’s curriculum emphasizes a multidisciplinary approach to intellectual inquiry. With more than 1,000 courses to choose from and an average class size of 17, Vassar offers a customizable curriculum to satisfy any curiosity.</p>',
+    '<p class="intro-text">Vassar’s curriculum emphasizes a multidisciplinary approach to intellectual inquiry. With more than 1,000 courses to choose from and an average class size of ' . $facts['average_class_size'] . ', Vassar offers a customizable curriculum to satisfy any curiosity.</p>',
     'theme-cream pb-1 hidemark',
     'mw-3 pb-5'
 ); ?>
@@ -190,7 +190,8 @@ $page_info = json_decode($page_info, true);
     </dd>
     <dt><a href="https://www.vassar.edu/computerscience">Computer Science</a></dt>
     <dd>
-        Computer Science
+        Computer Science<br>
+        Data Science & Society
     </dd>
     <dt><a href="https://www.vassar.edu/computerscience">Dance</a></dt>
     <dd>
@@ -229,7 +230,7 @@ $page_info = json_decode($page_info, true);
     </dd>
     <dt><a href="https://www.vassar.edu/environmentalstudies">Environmental Studies Program</a></dt>
     <dd>
-        Climate Change
+        Environmental Studies
     </dd>
     <dt><a href="https://www.vassar.edu/film">Film</a></dt>
     <dd>
@@ -290,7 +291,8 @@ $page_info = json_decode($page_info, true);
     <dl>
     <dt><a href="https://www.vassar.edu/math">Mathematics &amp; Statistics</a></dt>
     <dd>
-        Mathematics
+        Mathematics<br>
+        Data Science & Society
     </dd>
     <dt><a href="https://www.vassar.edu/medievalandrenaissancestudies">Medieval &amp; Renaissance Studies</a></dt>
     <dd>
@@ -350,18 +352,39 @@ $page_info = json_decode($page_info, true);
 <?php echo end_item_dropdown(); ?>
 
 <?php echo item_dropdown('Accelerated and Dual Degree Programs', 'dropdown--feature bg-white shadow-sm mb-3'); ?>
-<div class="row has-dividers">
-    <div class="col-sm">
-        <h3>Vassar/Columbia BA/MPH</h3>
-        <p>The BA/MPH is a dual degree program in which a student earns a BA from Vassar and then goes on to an accelerated Masters program in Public Health at Columbia University Mailman School of Public Health.</p>
 
 
-    </div>
-    <div class="col-sm">
-        <h3>Vassar/Dartmouth BA/BE</h3>
-        <p>Through a cooperative arrangement with the Thayer School of Engineering at Dartmouth College, Vassar students may earn both the bachelor of arts (BA) degree from Vassar and the bachelor of engineering (BE) degree from Dartmouth. </p>
-    </div>
+
+<div class="row mt-5">
+   <div class="item col-sm">
+      <figure role="group" class="caption caption-drupal-media align-center ">
+         <a class="book-link" href="https://www.vassar.edu/academics/edinburgh-vassar-scholars-program">
+         <img style="border: 2px solid #ddd;" loading="lazy" src="https://www.vassar.edu/sites/default/files/2024-11/u-edinburg-logo.png" alt="Illustration of a seal and text that reads: University of Edinburgh.">
+         </a>
+         <figcaption><a class="book-link" href="https://www.vassar.edu/academics/edinburgh-vassar-scholars-program"><em><strong>University of Edinburgh BA/MSc</strong></em><br><em>Edinburgh Futures Institute</em></a></figcaption>
+      </figure>
+   </div>
+   <div class="item col-sm">
+      <figure role="group" class="caption caption-drupal-media align-center ">
+         <a class="book-link" href="https://www.vassar.edu/academics/vassar-dartmouth-degree-program">
+         <img style="border: 2px solid #ddd;" loading="lazy" src="https://www.vassar.edu/sites/default/files/2024-11/dartmouth-logo.png" alt="Illustration of a shield and text that reads: 1867 Dartmouth Engineering.">
+         </a>
+         <figcaption><a class="book-link" href="https://www.vassar.edu/academics/vassar-dartmouth-degree-program"><em><strong>Dartmouth BA/BE</strong></em><br><em>Thayer School of Engineering</em></a></figcaption>
+      </figure>
+   </div>
+   <div class="item col-sm">
+      <figure role="group" class="caption caption-drupal-media align-center ">
+         <a class="book-link" href="https://www.vassar.edu/academics/vassar-columbia-degree-program">
+         <img style="border: 2px solid #ddd;" loading="lazy" src="https://www.vassar.edu/sites/default/files/2024-11/logo-columbia.png" alt="Illustration of a crown and text that reads: columbia mailman school of public health.">
+         </a>
+         <figcaption><a class="book-link" href="https://www.vassar.edu/academics/vassar-columbia-degree-program"><em><strong>Columbia BA/MPH</strong></em><br><em>Mailman School of Public Health</em></a></figcaption>
+      </figure>
+   </div>
 </div>
+
+
+
+
 
 <div class="d-flex justify-content-center">
 <?php echo cta_link(

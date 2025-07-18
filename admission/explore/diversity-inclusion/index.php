@@ -203,7 +203,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-  'First-generation, Low Income (FLI) Program <em>(formerly the Transitions Program)</em>',
+  'First-generation, Low Income (FLI) Program',
   '/admission/assets/images/explore/diversity/0097-22-08-kr-transitions-vassar-0002-crop.jpg',
   'theme-darkcoal has-bg quad-pattern light-bg-pattern-1',
   '',
@@ -214,7 +214,7 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <div class="animate-when-content-appears animation-slide-up">
-  <p>FLI is a comprehensive, four-year program for first-generation, low income, and/or undocumented students, focused on building community and creating a sense of belonging.</p>
+  <p>The First-generation, Low Income (FLI) Program is a comprehensive, four-year program for first-generation and low-income students focused on building community and creating a sense of belonging.</p>
 
   <?php echo cta_link(
     'https://offices.vassar.edu/transitions/',

@@ -14,9 +14,9 @@ $facts[$current_school_year]['adm_fees'] = 980;
 $facts['adm_total_cost'] = $facts[$current_school_year]['adm_tuition'] + $facts[$current_school_year]['adm_room_and_board'] + $facts[$current_school_year]['adm_fees'];
 
 $facts['adm_total_cost'] = number_format($facts['adm_total_cost']);
-$facts['number_of_students'] = '2,444';
-$facts['number_of_faculty'] = '358';
-$facts['student_faculty_ratio'] = '8:1';
+$facts['number_of_students'] = '2,462';
+$facts['number_of_faculty'] = '367';
+$facts['student_faculty_ratio'] = '7:1';
 $facts['average_class_size'] = '19';
 $facts['average_finaid_award'] = '$58,722';
 $facts['students_of_color'] = '37%'; //used on Alums > Give Back > Support Vassar page
@@ -46,13 +46,13 @@ $deadlines['finaid-spring-transfer'] = 'November 1';
 $deadlines['finaid-returning'] = 'May 1';
 
 $class_stats['class_year'] = '2028'; //used on Alums > Give Back > Support Vassar page
-$class_stats['number_of_countries'] = '53';
-$class_stats['number_of_states'] = '49';
+$class_stats['number_of_countries'] = '54';
+$class_stats['number_of_states'] = '47';
 $class_stats['percentage_male'] = '38.4%';
 $class_stats['percentage_female'] = '61.6%';
 $class_stats['students_of_color'] = '37%';
-$class_stats['languages_spoken'] = '51';
-$class_stats['students_receiving_finaid'] = '59.8%';
+$class_stats['languages_spoken'] = '49';
+$class_stats['students_receiving_finaid'] = '59.1%';
 $class_stats['average_gpa'] = '3.9/4.0'; //used on Alums > Give Back > Support Vassar page
 $class_stats['sat_combined_average'] = '1488'; //used on Alums > Give Back > Support Vassar page
 
@@ -69,9 +69,9 @@ $class_stats['attd_public_school'] = '66.7%';
 $class_stats['attd_private_school'] = '24%';
 $class_stats['1st-gen-students'] = '14%';
 
-$after_vassar['six_months_out'] = '93%';
-$after_vassar['law_school_admit_rate'] = '86%';
-$after_vassar['med_school_admit_rate'] = '78%';
+$after_vassar['six_months_out'] = '94%';
+$after_vassar['law_school_admit_rate'] = '88%';
+$after_vassar['med_school_admit_rate'] = '80%';
 
 //these are additional values specifically for the alums website > Give Back > Support Vassar page
 $fiscal_year = '2023-2024';
