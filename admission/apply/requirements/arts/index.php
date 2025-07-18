@@ -1,4 +1,3 @@
-
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
@@ -8,8 +7,8 @@ include($project_paths['main_project_root'].'/functions.php');
 /* PAGE INFO === */
 
 $page_info = '{
-  "page_title":"Music, Art, and Dance Portfolios",
-  "feature_image":"/admission/assets/images/apply/arts/0123_15_11_KR_0170.jpg"
+    "page_title":"Music, Art, and Dance Portfolios",
+    "feature_image":"/admission/assets/images/apply/arts/0123_15_11_KR_0170.jpg"
 }';
 /* === */
 $page_info = json_decode($page_info, true);
@@ -22,7 +21,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo hamburger_navigation(); ?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Picture of the Vassar orchestra strings section while performing']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Picture of the Vassar orchestra strings section while performing']); ?>
 
 <?php echo interior_page_nav() ?>
 
@@ -64,7 +63,7 @@ $page_info = json_decode($page_info, true);
 <?php echo deadlines('Portfolio  Deadlines'); ?>
 <?php echo deadlines_item('Early Decision I', $deadlines['portfolio-early-decision-1']); ?>
 <?php echo deadlines_item('Early Decision II', $deadlines['portfolio-early-decision-2']); ?>
-<?php echo deadlines_item('Regular Decision',  'January 12'); ?>
+<?php echo deadlines_item('Regular Decision', 'January 5'); ?>
 <?php echo end_deadlines(); ?>
 
 <?php echo end_item_col(); ?>
@@ -107,11 +106,11 @@ $page_info = json_decode($page_info, true);
         </div>
         <div id="arts-collapseTwo" class="accordion-collapse collapse" aria-labelledby="arts-headingTwo" data-bs-parent="#arts">
             <div class="accordion-body">
-              <p>Please submit 10 to 15 examples of your work in studio art.</p>
-              
+                <p>Please submit 10 to 15 examples of your work in studio art.</p>
+
                 <p>Vassar’s art portfolio is designed to provide applicants with a keen interest in the visual arts a means to demonstrate their conceptual strength and visual responsiveness as evaluated by Studio Art faculty. As a result, media not taught in Vassar’s Studio Art program, including jewelry, fashion, graphic design/advertising, makeup/sfx, stagecraft/theatre design, functional ceramics, music videos, and fanart of existing characters, while valuable, are not appropriate materials for the art portfolio process.</p>
-                  
-                  <p>Students who engage in these activities, or others, and would like to have them reviewed as part of their application for admission should consider submitting them through the Your Space section of the application. Your Space submissions are reviewed by the Admission Committee as part of our holistic review process.</p>
+
+                <p>Students who engage in these activities, or others, and would like to have them reviewed as part of their application for admission should consider submitting them through the Your Space section of the application. Your Space submissions are reviewed by the Admission Committee as part of our holistic review process.</p>
             </div>
         </div>
     </div>
@@ -124,21 +123,21 @@ $page_info = json_decode($page_info, true);
         <div id="arts-collapseThree" class="accordion-collapse collapse" aria-labelledby="arts-headingThree" data-bs-parent="#arts">
             <div class="accordion-body">
                 <p>Please submit a video of one or two, 3- to 5-minute selections from a performance or studio work. If submitting a group performance, ensure that you are clearly identifiable.</p>
-             </div>
+            </div>
         </div>
     </div>
 </div>
 <h3 class="mt-5">Common Application</h3>
-    <p>If you are submitting the Common Application go to <a href="https://vassar.slideroom.com/">vassar.slideroom.com</a>, select the program and round in which you are applying, and submit materials through that program. For example, if you are applying in Early Decision I and submitting a dance portfolio, select “Dance: Early Decision I.”</p>
+<p>If you are submitting the Common Application go to <a href="https://vassar.slideroom.com/">vassar.slideroom.com</a>, select the program and round in which you are applying, and submit materials through that program. For example, if you are applying in Early Decision I and submitting a dance portfolio, select “Dance: Early Decision I.”</p>
 
-    <p>If you submitted the Common Application and received a fee waiver, this will automatically apply to Slideroom.</p>
+<p>If you submitted the Common Application and received a fee waiver, this will automatically apply to Slideroom.</p>
 
 <h3 class="mt-5">Coalition or QuestBridge Application</h3>
-    <p>If you are submitting the QuestBridge or Coalition Application go to <a href="https://vassar.slideroom.com/">vassar.slideroom.com</a>, select the “Non-Common App” option for the program and round in which you are applying and submit your materials. For example, if you are applying in Early Decision I and submitting a dance portfolio, you would click on “Dance (Non-Common App): Early Decision I.”</p>
+<p>If you are submitting the QuestBridge or Coalition Application go to <a href="https://vassar.slideroom.com/">vassar.slideroom.com</a>, select the “Non-Common App” option for the program and round in which you are applying and submit your materials. For example, if you are applying in Early Decision I and submitting a dance portfolio, you would click on “Dance (Non-Common App): Early Decision I.”</p>
 
-    <p>If you submitted the QuestBridge or Coalition Application and require a Slideroom fee waiver, please <a href="mailto:admission@vassar.edu">email Admission</a> to make that request.</p>
+<p>If you submitted the QuestBridge or Coalition Application and require a Slideroom fee waiver, please <a href="mailto:admission@vassar.edu">email Admission</a> to make that request.</p>
 
- <?php echo end_sec_regularContent(); ?>
+<?php echo end_sec_regularContent(); ?>
 
 <!-- Related Topics -->
 <?php echo relatedTopics(); ?>

@@ -5,11 +5,11 @@
 // These are values that might be used in several places
 // across the site, like tuition. They should be centralized.
 
-$current_school_year = '2024–2025';
+$current_school_year = '2025–2026';
 
-$facts[$current_school_year]['adm_tuition'] = 70050;
-$facts[$current_school_year]['adm_room_and_board'] = 18240;
-$facts[$current_school_year]['adm_fees'] = 980;
+$facts[$current_school_year]['adm_tuition'] = 73275;
+$facts[$current_school_year]['adm_room_and_board'] = 19055;
+$facts[$current_school_year]['adm_fees'] = 990;
 
 $facts['adm_total_cost'] = $facts[$current_school_year]['adm_tuition'] + $facts[$current_school_year]['adm_room_and_board'] + $facts[$current_school_year]['adm_fees'];
 
@@ -18,7 +18,7 @@ $facts['number_of_students'] = '2,462';
 $facts['number_of_faculty'] = '367';
 $facts['student_faculty_ratio'] = '7:1';
 $facts['average_class_size'] = '19';
-$facts['average_finaid_award'] = '$58,722';
+$facts['average_finaid_award'] = '$56,923';
 $facts['students_of_color'] = '37%'; //used on Alums > Give Back > Support Vassar page
 
 $facts['number_of_majors'] = '50';
@@ -35,8 +35,7 @@ $deadlines['spring-transfer'] = 'November 1';
 $deadlines['fall-transfer'] = 'March 15';
 
 $deadlines['portfolio-early-decision-1'] = 'November 17';
-$deadlines['portfolio-early-decision-2'] = 'January 7';
-
+$deadlines['portfolio-early-decision-2'] = 'January 5';
 
 $deadlines['finaid-early-decision-1'] = 'November 15';
 $deadlines['finaid-early-decision-2'] = 'January 1';
@@ -79,4 +78,3 @@ $common_data_set = '2023-2024';
 $facts[$fiscal_year]['vassar_fund_total'] = '9.4M';
 $facts[$common_data_set]['avg_Vassar_need_based_scholarship_pkg_award'] = 61252;
 $facts[$common_data_set]['number_students_receiving_need_based_scholarships_grants'] = 1337;
-
