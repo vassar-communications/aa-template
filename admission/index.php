@@ -105,8 +105,8 @@ $page_info = json_decode($page_info, true);
 
 
      <?php echo end_item_cardWithText(
-            null,
-        ); ?>
+    null,
+); ?>
 
 
 
@@ -205,7 +205,7 @@ echo sec_fixedCenteredTitle(
      <?php echo flipcard_stat(
     'Students Receiving Financial Aid',
     $class_stats['students_receiving_finaid'],
-    'The average Vassar scholarship award is '.$facts['average_finaid_award'],
+    'The average Vassar scholarship award is '.$facts['average_finaid_award'] . '.',
     'animation-item',
     '/admission/financial-aid/',
     null
@@ -277,16 +277,16 @@ echo sec_fixedCenteredTitle(
 
      <?php
         echo item_imageCard_videoModal(
-    get_icon('play').'Bridge for Laboratory Sciences',
-    null,
-    'https://www.youtube.com/embed/AqDKltbh7h4',
-    'youtube',
-    '',
-    ['url' => '/admission/assets/images/admission-home/fav-places/110619_160over90_Vassar_5483.jpg',
+            get_icon('play').'Bridge for Laboratory Sciences',
+            null,
+            'https://www.youtube.com/embed/AqDKltbh7h4',
+            'youtube',
+            '',
+            ['url' => '/admission/assets/images/admission-home/fav-places/110619_160over90_Vassar_5483.jpg',
                         'alt' => 'People sitting at tables and chairs in a large open space of the Bridge for Laboratory Sciences'
                 ],
-    'animation-item grid-item text-at-bottom text-white'
-);
+            'animation-item grid-item text-at-bottom text-white'
+        );
 
         ?>
 
@@ -436,15 +436,15 @@ Vassar students are surrounded by an environment designed to spark something ama
  <!-- you may be wondering -->
 
  <?php echo sec_fixedCenteredTitle(
-    '<b class="slide-from-left">You may</b>
+            '<b class="slide-from-left">You may</b>
              <b class="slide-from-right">be wondering:</b>',
-    '<h3 class="section-intro-text">Here are some answers to common questions.
+            '<h3 class="section-intro-text">Here are some answers to common questions.
              </h3>
 
              ',
-    'sec-fixedCenteredTitle theme-verylightgray xfeatured-video',
-    'mw-4',
-    ['bg-image-url' => '/admission/assets/images/0027-21-05-kr-founders-vassar-0102.jpg',
+            'sec-fixedCenteredTitle theme-verylightgray xfeatured-video',
+            'mw-4',
+            ['bg-image-url' => '/admission/assets/images/0027-21-05-kr-founders-vassar-0102.jpg',
                 'bg-image-alt' => 'Crowd watching fireworks over Vassar campus',
                 'css' => '
                     --section-title-size: 9vw;
@@ -456,7 +456,7 @@ Vassar students are surrounded by an environment designed to spark something ama
 
                     '
         ]
-);
+        );
 // visit/0216-18-10-jsu-fall-drone-vassar-R01895.jpg?>
 
 
@@ -471,11 +471,11 @@ Vassar students are surrounded by an environment designed to spark something ama
 ); ?>
 
      <?php echo item_iconButton(
-            'coins',
-            'Vassar meets 100% of demonstrated financial need.',
-            null,
-            'btn-card animation-item'
-        ); ?>
+    'coins',
+    'Vassar meets 100% of demonstrated financial need.',
+    null,
+    'btn-card animation-item'
+); ?>
 
      <?php echo item_iconButton(
             'house-chimney-user',
