@@ -256,7 +256,6 @@ End of hiding info content*/ ?>
     ''
 ); ?>
 
-
 <a id="board-members"></a>
 
 <?php echo sec_hasColumns(
