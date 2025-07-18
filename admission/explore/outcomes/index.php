@@ -67,7 +67,7 @@ $page_info = json_decode($page_info, true);
     null
 ); ?>
 
-<?php echo animated_statement('Within six months of graduating, 93% of Vassar students are employed, in graduate school, or in a competitive fellowship.'); ?>
+<?php echo animated_statement('Within six months of graduating,' . $after_vassar['six_months_out'] . ' of Vassar students are employed, in graduate school, or in a competitive fellowship.'); ?>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -90,7 +90,10 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-<?php echo sec_fullBleedImageColumn(
+
+
+
+<?php /* echo sec_fullBleedImageColumn(
     'Major Palooza',
     $admission_img_path.'explore/outcomes/0153-19-11-kr-major-palooza-vassar-5360-crop.jpg',
     ' theme-charcoal',
@@ -106,12 +109,18 @@ $page_info = json_decode($page_info, true);
         'Visit Major Palooza'
     ); ?>
 </div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
+<?php echo end_sec_fullBleedImageColumn(); */ ?>
+
+
+
+
+
+
 
 <?php echo sec_fullBleedImageColumn(
     'Connections',
     $admission_img_path.'explore/outcomes/0002-18-01-kr-scc-estrella-vassar-0048.jpg',
-    'image-is-first theme-extralightgray quad-pattern has-bg',
+    'x-image-is-first theme-extralightgray quad-pattern has-bg',
     '',
     [
       'img_alt_text' => 'A roomful of people wave at the viewer.'
@@ -125,6 +134,7 @@ $page_info = json_decode($page_info, true);
     ); ?>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
 
 <?php echo sec_hasColumns(
   'After Vassar',

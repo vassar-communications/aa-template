@@ -112,7 +112,7 @@ $page_info = json_decode($page_info, true);
         'screwdriver-wrench',
         'icon-on-left'
       ); ?>
-      <p>Vassar offers 50 majors, 68 correlates (minors), and 2 dual-degree programs.</p>
+      <p>Vassar offers 50 majors, 65 correlates (minors), and 3 dual-degree programs.</p>
 
       <?php echo cta_link(
         '/admission/explore/academics/',
@@ -144,7 +144,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_stat(
       'Average class size',
-      '17',
+      $facts['average_class_size'],
       '<p class="fs-6">Many of our upper-level classes have fewer than 10 students.</p>'
     ); ?>
   <?php echo end_item_col(); ?>
@@ -152,7 +152,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
     <?php echo item_stat(
       'Student: Faculty ratio',
-      '8:1',
+      $facts['student_faculty_ratio'],
       '<p class="fs-6">All classes are taught by professors, not teaching assistants or graduate student instructors.</p>'
     ); ?>
   <?php echo end_item_col(); ?>
@@ -261,7 +261,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col('span-2 animation-item'); ?>
     <?php echo item_stat(
       'Students of color',
-      '36%', // $class_stats['students_of_color'],
+      '37%', // $class_stats['students_of_color'],
       ''
     ); ?>
   <?php echo end_item_col(); ?>
@@ -277,7 +277,7 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col('span-1 animation-item'); ?>
     <?php echo item_stat(
       'Pell Grant Eligible',
-      '18%',
+      '22.4%',
       ''
     ); ?>
   <?php echo end_item_col(); ?>

@@ -222,7 +222,7 @@ $page_info = [
     ['img_alt_text' => 'Athletes stand in a huddle']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>Athletics have always been an important facet of the Vassar experience. In addition to our 23 NCAA Division III varsity teams and four varsity club teams, we offer a robust range of activities for the entire community. Join an intramural team, take a yoga class, hit the gym at the Athletic and Fitness Center, or play a round on Vassar’s on-campus golf course.</p>
+    <p>Athletics have always been an important facet of the Vassar experience. In addition to our 25 NCAA Division III varsity teams and four varsity club teams, we offer a robust range of activities for the entire community. Join an intramural team, take a yoga class, hit the gym at the Athletic and Fitness Center, or play a round on Vassar’s on-campus golf course.</p>
 
     <?php echo cta_link(
         'https://www.vassarathletics.com/',
