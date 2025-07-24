@@ -557,7 +557,7 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Cathryn S. Stevens',
+    'Cathryn Stevens',
     'Assistant Director of Prospect Development and Research',
     [
             'phone' => '845-437-5391',
