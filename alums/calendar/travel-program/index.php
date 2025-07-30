@@ -116,13 +116,19 @@ June 19-July 1, 2025</p>
 	<li>Meeting renowned craftspeople in their village workshops and exploring remarkable archaeological sites in Oaxaca</li>
 </ul>
 
-<p><strong>Tour cost:</strong> $6,995 per person, double occupancy (additional single supplement $1,295). <em>International airfare not included.</em></p>
+<p><strong>Tour cost:</strong> $6,995 per person, double occupancy (additional single supplement $1,295).<br /><em>International airfare not included.</em></p>
 
 <?php echo cta_link(
-    '/alums/assets/pdf/Brochure_Vassar_Mexico_2026_V2.pdf',
-    'View the full Mexico itinerary and reserve your place.'
+    '/alums/assets/pdf/Vassar_Mexico_2026_V2_itinerary.pdf',
+    'View the full Mexico itinerary.'
 
 ); ?>
+<?php echo cta_link(
+    '/alums/assets/pdf/Vassar_Mexico_2026_V2_RegistrationForm.pdf',
+    'Reserve your place for Mexico.'
+
+); ?>
+
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -144,13 +150,19 @@ June 19-July 1, 2025</p>
 
 <p>An optional pre-trip stay in Athens is offered from June 11–14, 2026.</p>
 
-<p><strong>Tour cost:</strong> $6,590 per person, double occupancy (additional single supplement: $1,590). <em>International airfare not included.</em></p>
+<p><strong>Tour cost:</strong> $6,590 per person, double occupancy (additional single supplement: $1,590). Optional 2-day Athens pre-trip cost: $1,495 per person, double occupancy ($480 single supplement).<br /><em>International airfare not included.</em></p>
 
 <?php echo cta_link(
     '/alums/assets/pdf/Travel-Program-Greece-Brochure.pdf',
-    'View the full Greece itinerary and reserve your place.'
+    'View the full Greece itinerary.'
 
 ); ?>
+<?php echo cta_link(
+    '/alums/assets/pdf/Vassar_Greece_2026_RegistrationForm.pdf',
+    'Reserve your place for Greece.'
+
+); ?>
+
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
