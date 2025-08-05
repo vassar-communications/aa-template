@@ -31,7 +31,7 @@ $page_info = json_decode($page_info, true);
 <?php /*  PAGE CONTENT === */ ?>
 
 <?php echo sec_fullBleedImageColumn(
-    'Kerri Tillett ’91 (On&nbsp;leave)',
+    'Kerri Tillett ’91',
     '/alums/assets/img/alums-community/aavc/board/tillett-kerri-aavc-alum.jpg',
     'image-is-first theme-cream',
     '',
@@ -40,6 +40,7 @@ $page_info = json_decode($page_info, true);
 
   <ul class="clean-list-with-borders">
     <li>(she/her/hers)</li>
+    <li>Nominating and Governance Committee Member</li>
     <li>Massachusetts/North Carolina</li>
     <li>Term of Service: 2024–2028</li>
   </ul>
