@@ -600,12 +600,13 @@ End of hiding info content*/ ?>
 
 
 <?php echo item_cardWithText(
-    'Kerri Tillett&nbsp;’91 (On&nbsp;leave)',
+    'Kerri Tillett&nbsp;’91',
     '/alums/community/aavc/board-members/aavc-board-director-tillett/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/tillett-kerri-aavc-alum.jpg', 'alt' => 'A person with short straight dark hair and glasses wearing a white jacket and black shirt smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
+<div class="position">Nominating and Governance Committee Member</div>
 <div class="location">Massachusetts/North Carolina</div>
 <div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
@@ -614,13 +615,13 @@ End of hiding info content*/ ?>
 
 
 <?php echo item_cardWithText(
-    'Emily Weisgrau&nbsp;’96',
+    'Emily Weisgrau&nbsp;’96 (On&nbsp;leave)',
     '/alums/community/aavc/board-members/aavc-board-director-weisgrau/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/weisgrau-emily-aavc-alum.jpg', 'alt' => 'A person with wavy brown and gray shoulder-length hair and glasses, wearing a dark sweater over a black and white patterned shirt, smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>
-<div class="position">Nominating and Governance Committee Member and Vassar Fund Committee Member</div>
+<div class="position">Vassar Fund Committee Member</div>
 <div class="location">Massachusetts</div>
 <div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
