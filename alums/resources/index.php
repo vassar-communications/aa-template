@@ -66,11 +66,31 @@ $page_info = json_decode($page_info, true);
 );
 ?>
 
+
+<?php echo sec_fullBleedImageColumn(
+    'Alumnae House',
+    $alums_img_path.'alums-resources/Vassar-Alumnae-T-Exteriors-a-4-resources-page.jpg',
+    'image-is-first theme-cream',
+    '',
+    ['img_alt_text' => 'Courtyard and flagstone patio of a Tudor-style building at dusk, with lit string lights, wrought iron patio furniture, and manicured lawn surrounded by flowers and shrubs.']
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>With a reverence for the past and a nod toward the future, Alumnae House strives to be a welcoming home for all Vassar students and alums.</p>
+
+    <?php echo cta_link(
+        'https://alumnaehouse.com',
+        'Visit Alumnae House.'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
 <?php echo sec_hasColumns(
         'Explore Resources',
     '3',
     '<p>Access career development opportunities; take advantage of a top-notch travel program that allows you to traverse the globe with Vassar professors knowledgeable about the various regions, their history, and culture; and get goodies like a dedicated Vassar email address and a lifetime subscription to the <em>Vassar Quarterly</em> (VQ).</p>',
-    'theme-dark-burgundy quad-pattern has-bg',
+    'theme-burgundy',
     ''
 );?>
 
@@ -98,25 +118,6 @@ $page_info = json_decode($page_info, true);
 <?php include($project_paths['main_project_root'].'/alums/inc/pages/resources/resources-alums-benefits.php');?>
 
 <?php echo end_sec_hasColumns(); ?>
-
-
-<?php echo sec_fullBleedImageColumn(
-    'Alumnae House',
-    $alums_img_path.'alums-resources/alumnae-house/0050_17_06_BL_8695.jpg',
-    '',
-    '',
-    ['img_alt_text' => 'A green courtyard surrounded by a flagstone patio and the walls of a large beige building with a red roof and brown framing.']
-); ?>
-<div class="animate-when-content-appears animation-slide-up">
-    <p>With a reverence for the past and a nod toward the future, Alumnae House strives to be a welcoming home for all Vassar students and alums.</p>
-
-    <?php echo cta_link(
-        '/alums/resources/alumnae-house/',
-        'Visit Alumnae House.'
-    ); ?>
-
-</div>
-<?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 
