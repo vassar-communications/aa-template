@@ -34,22 +34,19 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Thanks for coming!',
+    'Welcome back!',
     $alums_img_path.'alums-calendar/reunion/reunion-52960218489_a3d3ff91f9_o.jpg',
     'image-is-first theme-cream',
     '',
     ['img_alt_text' => 'A person stands at a podium in front of a large group of people sitting under a tent, with a large banner behind them that says AAVC in white on a red background.']
 ); ?>
 
-<p>Reunion 2025 has come to an end. It was a beautiful and joyous weekend. We hope you all had a wonderful time!</p>
-    <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email&nbsp;us</a> regarding Reunion.</p> 
-   <a href="https://www.flickr.com/photos/vassarcollegemedia/albums/72177720326751103" class="btn btn-primary arrow mt-2 mb-2">See Photos from Reunion 2025</a>
-  <br />
-   <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-4 mb-4">See Who Came to Reunion 2025</a>
+  <p>We look forward to welcoming the classes that graduated in a year ending in 1 or 6, June 5-7, 2026.  For the class of 1976, the 50th Reunion class arrives on June 4, 2026.</p>
+  <p>Please help us plan for your arrival by expressing your interest to attend. Can’t wait to see you next summer!</p>
+  <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5.</p>
 
 <?php /*hiding below items until 2026 setup
 
-  <p>Vassar and the Alumnae/i Association of Vassar College (AAVC) are thrilled to welcome you and your classmates back to campus. We are looking forward to seeing alums from the classes ending in 0s and 5s on campus for Reunion, June 6-8, 2025 (the 50th Reunion class arrives on June 5).</p>
 <!--
    <a href="https://reunionregistration.vassar.edu/" class="btn btn-primary arrow mt-2 mb-2">Register for Reunion</a>
   <br />
@@ -57,9 +54,45 @@ $page_info = json_decode($page_info, true);
    <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-4 mb-4">See Who’s Coming to Reunion</a>
     <p>Registration has now closed. We are preparing for your arrival and can't wait to see you all very soon! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email&nbsp;us</a> regarding Reunion.</p> 
     
+<p>Reunion 2025 has come to an end. It was a beautiful and joyous weekend. We hope you all had a wonderful time!</p>
+    <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email&nbsp;us</a> regarding Reunion.</p> 
+   <a href="https://www.flickr.com/photos/vassarcollegemedia/albums/72177720326751103" class="btn btn-primary arrow mt-2 mb-2">See Photos from Reunion 2025</a>
+  <br />
+   <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-4 mb-4">See Who Came to Reunion 2025</a>
+
+    
 End of hiding info content*/ ?>    
   
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php echo sec_regularContent(
+  'Express your Interest to<br> attend Reunion 2026',
+  '',
+  ''
+); ?>
+
+<ul class="linked-list grid cols-2" style="gap: 0;">
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=8430&content_id=8046">Class of 1951 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=8433&content_id=8048">Class of 1956 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=8436&content_id=8050">Class of 1961 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=8439&content_id=8052">Class of 1966 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=8442&content_id=8054">Class of 1971 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=8427&content_id=8043">Class of 1976 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=8445&content_id=8056">Class of 1981 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=8448&content_id=8058">Class of 1986 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=8451&content_id=8060">Class of 1991 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=8455&content_id=8063">Class of 1996 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=8458&content_id=8065">Class of 2001 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=8461&content_id=8067">Class of 2006 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=8464&content_id=8069">Class of 2011 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=8467&content_id=8071">Class of 2016 Interest Form</a></li>
+<li><a href="https://connect.vassar.edu/s/1654/22/events.aspx?sid=1654&gid=2&pgid=8470&content_id=8073">Class of 2021 Interest Form</a></li>
+</ul>
+
+
+<?php echo end_sec_regularContent(); ?>
+
 
 
 <?php /*hiding below items until 2026 setup
@@ -112,6 +145,12 @@ End of hiding info content*/ ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+<!--this lost and found info goes in the section below with the future reunion dates, when it's immediately post-reunion-->
+    <h3>Lost and Found</h3>
+
+    <p>Leave something behind? Please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
+   
+
 End of hiding info content*/ ?>
 
 
@@ -122,20 +161,15 @@ End of hiding info content*/ ?>
 ); ?>
 
 
-    <h3>Lost and Found</h3>
-
-    <p>Leave something behind? Please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email us regarding Reunion</a>.</p>
-
-    
   <h3>Future Reunion Dates</h3>
 
-  <p>June 5–7, 2026<br />
-  June 4–6, 2027<br />
+  <p>June 4–6, 2027<br />
   June 2–4, 2028</p>
 
   <h3>Past Reunions</h3>
 
     <ul class="linked-list mt-4">
+        <li><a href="https://www.flickr.com/photos/vassarcollegemedia/albums/72177720326751103/">View photos from Reunion 2025.</a></li>
         <li><a href="https://www.flickr.com/photos/vassarcollegemedia/albums/72177720317624209/">View photos from Reunion 2024.</a></li>
         <li><a href="https://www.flickr.com/photos/vassarcollegemedia/sets/72177720308893162/">View photos from Reunion 2023.</a></li>
         <li><a href="https://www.flickr.com/photos/vassarcollegemedia/collections/72157683898719825/">View photos from in-person Reunions held since 2012.</a></li>
