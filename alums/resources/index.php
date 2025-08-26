@@ -75,7 +75,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Courtyard and flagstone patio of a Tudor-style building at dusk, with lit string lights, wrought iron patio furniture, and manicured lawn surrounded by flowers and shrubs.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>With a reverence for the past and a nod toward the future, Alumnae House strives to be a welcoming home for all Vassar students and alums.</p>
+    <p>Honoring tradition and embracing the future, Alumnae House is a welcoming home for the entire Vassar community and the public.</p>
 
     <?php echo cta_link(
         'https://alumnaehouse.com',

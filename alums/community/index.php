@@ -93,7 +93,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A three-story tudor-style building on a hill lit warmly at dusk, surrounded by tall trees and lush landscaping.']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p>For over one hundred years, Alumnae House has served the college and nearby community, welcoming returning alums, current and future students, families, and members of the public.</p>
+    <p>For over 100 years, Alumnae House has been the “forever home” for Vassar alums, providing a welcoming place where the Vassar community and visitors can gather, celebrate, and connect.</p>
 
     <?php echo cta_link(
         'https://alumnaehouse.com/about-us',
