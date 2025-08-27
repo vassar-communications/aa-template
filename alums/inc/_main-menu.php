@@ -75,7 +75,6 @@
         <div id="alums-resources" class="accordion-collapse collapse" aria-labelledby="collapseOne" data-bs-parent="#alums-resources">
            <div class="accordion-body h3 text-left px-0">
               <div class="mb-2"> <a class="text-white" href="/alums/resources/alum-benefits/">Alum Benefits</a></div>
-              <div class="mb-2"> <a class="text-white" href="/alums/resources/alumnae-house/">Alumnae House</a></div>
               <div class="mb-2"> <a class="text-white" href="/alums/resources/college-search-101/">College Search 101</a></div>
              <div class="mb-2"> <a class="text-white" href="/alums/resources/grants-fellowships/">Grants & Fellowships</a></div>
               <div class="mb-2"> <a class="text-white" href="/alums/resources/the-vassar-network/">The Vassar Network</a></div>
