@@ -86,9 +86,28 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
+    'Alumnae House',
+    '/alums/assets/img/alums-community/Vassar-Alumnae-T-Exteriors-a-3-community.jpg',
+    'image-is-first theme-cream',
+    '',
+    ['img_alt_text' => 'A three-story tudor-style building on a hill lit warmly at dusk, surrounded by tall trees and lush landscaping.']
+); ?>
+<div class="animate-when-content-appears animation-slide-up">
+    <p>For over 100 years, Alumnae House has been the “forever home” for Vassar alums, providing a welcoming place where the Vassar community and visitors can gather, celebrate, and connect.</p>
+
+    <?php echo cta_link(
+        'https://alumnaehouse.com/about-us',
+        'Learn more about Alumnae House.'
+    ); ?>
+
+</div>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php echo sec_fullBleedImageColumn(
     'Alum News & Stories',
     '/alums/assets/img/alums-community/blum-square.jpg',
-    'theme-extralightgray quad-pattern has-bg image-is-first',
+    'theme-extralightgray quad-pattern has-bg',
     '',
     ['img_alt_text' => 'Vassar alum Jason Blum, a person with short thick brown hair and a grey shirt, speaking into a microphone looking off to one side of the viewer.']
 ); ?>
@@ -107,7 +126,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fullBleedImageColumn(
     'Alum Groups',
     '/alums/assets/img/alums-community/alum-groups/0127_12_12_YEM_2467.jpg',
-    'theme-cream',
+    'theme-cream image-is-first',
     '',
     ['img_alt_text' => ' Three people stand in a circle speaking to each other, wearing formal attire.']
 ); ?>
@@ -126,7 +145,7 @@ $page_info = json_decode($page_info, true);
 <?php echo sec_fullBleedImageColumn(
     'Vassar Quarterly',
     '/alums/assets/img/alums-community/vq-logo.gif',
-    'theme-cream image-is-first',
+    'theme-cream',
     '',
     ['img_alt_text' => 'A red square with white lettering that spells out VQ.']
 ); ?>

@@ -79,10 +79,10 @@ $page_info = json_decode($page_info, true);
             Poughkeepsie, NY 12603</p>
 
         <p><strong>Telephone:</strong> <a href="tel:8454377100" class="">(845) 437-7100</a><br>
-            <strong>Email:</strong> <a href="mailto:alumnaehouse@vassar.edu">alumnaehouse@vassar.edu</a>
+            <strong>Email:</strong> <a href="mailto:alumnaehouse@vassar.edu">alumnaehouse@vassar.edu</a><br>
+            <strong>Website:</strong> <a href="https://alumnaehouse.com">alumnaehouse.com</a>
         </p>
 
-        <p> <?php echo cta_link('https://www.vassar.edu/alums/resources/alumnae-house/', 'Learn more about Alumnae House.'); ?> </p>
     </div>
 
 
