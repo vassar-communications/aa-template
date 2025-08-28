@@ -1,4 +1,0 @@
-RedirectMatch 301 /alums/resources/alumnae-house/accommodations/ https://alumnaehouse.com/poughkeepsie-accommodations
-RedirectMatch 301 /alums/resources/alumnae-house/events/ https://alumnaehouse.com/event-inquiries
-RedirectMatch 301 /alums/resources/alumnae-house/contact/ https://alumnaehouse.com/contact
-RedirectMatch 301 /alums/resources/alumnae-house/ https://alumnaehouse.com/
