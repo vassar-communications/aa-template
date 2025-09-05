@@ -1,4 +1,3 @@
-
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include_once($project_paths['main_project_root'].'/functions.php');
@@ -25,8 +24,8 @@ $page_info = json_decode($page_info, true);
 <?php echo hamburger_navigation(); ?>
 
 <?php echo page_partialmasthead(
-  $page_info['feature_image'],
-  ['image_alt_text' => 'Students sitting on the veranda outside of the Bridge for Laboratory Sciences building studying.']
+    $page_info['feature_image'],
+    ['image_alt_text' => 'Students sitting on the veranda outside of the Bridge for Laboratory Sciences building studying.']
 ); ?>
 
 <?php echo interior_page_nav() ?>
@@ -42,9 +41,9 @@ $page_info = json_decode($page_info, true);
     <p class="intro-text mb-5">Everything you need to know to apply.</p>
 
     <?php echo deadlines('Application Deadlines'); ?>
-      <?php echo deadlines_item('Early Decision I', $deadlines['early-decision-1']); ?>
-      <?php echo deadlines_item('Early Decision II', $deadlines['early-decision-2']); ?>
-      <?php echo deadlines_item('Regular Decision', $deadlines['regular-decision']); ?>
+    <?php echo deadlines_item('Early Decision I', $deadlines['early-decision-1']); ?>
+    <?php echo deadlines_item('Early Decision II', $deadlines['early-decision-2']); ?>
+    <?php echo deadlines_item('Regular Decision', $deadlines['regular-decision']); ?>
     <?php echo end_deadlines(); ?>
 
 
@@ -58,7 +57,7 @@ $page_info = json_decode($page_info, true);
     'checklist'
 ); ?>
 <ul class="style-checklist theme-cream">
-<h3 class="mb-4">Application Checklist</h3>
+    <h3 class="mb-4">Application Checklist</h3>
     <li><?php echo central_link('common-app', 'Common Application'); ?> or <?php echo central_link('coalition-app', 'Coalition Application'); ?></li>
     <li>$65 application fee or a fee waiver</li>
     <li>Early Decision Agreement (Early Decision Applicants ONLY)</li>
@@ -78,10 +77,11 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 
+<span id="standardized-tests"></span>
 <?php echo item_iconItem(
-  'Standardized Tests',
-  'clipboard',
-  'icon-on-left theme-white-border'
+    'Standardized Tests',
+    'clipboard',
+    'icon-on-left theme-white-border'
 ); ?>
 <p>Vassar does not require applicants to submit SAT or ACT scores. Applicants can declare whether or not they wish to include testing with their application by logging in to the applicant status portal and completing the test optional form; the deadlines to do so are:</p>
 <ul>
@@ -94,10 +94,9 @@ $page_info = json_decode($page_info, true);
 
 <p class="py-4">For students who wish to submit their scores: the latest acceptable test dates are November for Early Decision I applicants and December for Regular Decision and Early Decision II applicants. Vassar will accept self-reported SAT and ACT scores; we superscore, which means we will look at your highest section scores if you’ve taken a test more than once.
 
-  <?php echo info_card('Note', null, 'info'); ?>
-  <p>Enrolling students who choose to self-report testing will be required to provide official score reports in the spring. Vassar reserves the right to revoke an offer of admission if an applicant’s self-reported scores do not align with those in their official score report.</p>
-  <?php echo end_info_card(); ?>
-
+    <?php echo info_card('Note', null, 'info'); ?>
+<p>Enrolling students who choose to self-report testing will be required to provide official score reports in the spring. Vassar reserves the right to revoke an offer of admission if an applicant’s self-reported scores do not align with those in their official score report.</p>
+<?php echo end_info_card(); ?>
 
 
 
@@ -105,42 +104,42 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_iconItem(
-  'Your Space',
-  'face-smile',
-  'icon-on-left theme-white-border'
+    'Your Space',
+    'face-smile',
+    'icon-on-left theme-white-border'
 ); ?>
-<p>Your Space is your opportunity to allow the Committee on Admission to learn something about you that you have not addressed in another section of the application.  For example, in the past, applicants have shared poetry, short stories, cartoons, digital images of art projects, photography, and collages, and/or links to videos, and short films. It is your space, so if you choose to complete it, send something that is a reflection of you! <strong>Your Space is entirely optional.</strong></p>
+<p>Your Space is your opportunity to allow the Committee on Admission to learn something about you that you have not addressed in another section of the application. For example, in the past, applicants have shared poetry, short stories, cartoons, digital images of art projects, photography, and collages, and/or links to videos, and short films. It is your space, so if you choose to complete it, send something that is a reflection of you! <strong>Your Space is entirely optional.</strong></p>
 <?php echo end_item_iconItem(); ?>
 
 
 <?php echo item_iconItem(
-  'Informational Interviews',
-  'comments',
-  'icon-on-left theme-white-border'
+    'Informational Interviews',
+    'comments',
+    'icon-on-left theme-white-border'
 ); ?>
-  <p>After applying, you may request an informational interview with an alumnus to learn more about the Vassar experience. These interviews are not evaluative and are not a required part of the application process.</p>
+<p>After applying, you may request an informational interview with an alumnus to learn more about the Vassar experience. These interviews are not evaluative and are not a required part of the application process.</p>
 
-  <?php echo cta_link(
-      '/admission/apply/requirements/interviews',
-      'Learn more about interviews&nbsp;at&nbsp;Vassar',
-      'mt-2'
-  ); ?>
+<?php echo cta_link(
+    '/admission/apply/requirements/interviews',
+    'Learn more about interviews&nbsp;at&nbsp;Vassar',
+    'mt-2'
+); ?>
 
 
 <?php echo end_item_iconItem(); ?>
 
 <?php echo item_iconItem(
-  'Music, Art, and Dance Portfolios',
-  'star',
-  'icon-on-left theme-white-border'
+    'Music, Art, and Dance Portfolios',
+    'star',
+    'icon-on-left theme-white-border'
 ); ?>
-  <p>If you have a well-developed talent or significant accomplishment in music, art, or dance, you may submit a portfolio to be evaluated by our faculty.</p>
+<p>If you have a well-developed talent or significant accomplishment in music, art, or dance, you may submit a portfolio to be evaluated by our faculty.</p>
 
-  <?php echo cta_link(
+<?php echo cta_link(
     '/admission/apply/requirements/arts',
-      'Learn more about arts portfolio&nbsp;submissions',
-      'mt-2'
-  ); ?>
+    'Learn more about arts portfolio&nbsp;submissions',
+    'mt-2'
+); ?>
 
 
 <?php echo end_item_iconItem(); ?>
