@@ -59,7 +59,7 @@ $page_info = json_decode($page_info, true);
   <p>Use our MyinTuition Cost Estimator to quickly estimate your eligibility for need-based financial aid from Vassar. This estimator often takes 5 minutes or less.</p>
 
   <?php echo cta_link(
-    'https://offices.vassar.edu/student-financial-services/calculator/quick-estimator/',
+    'https://c2calc.myintuitionapp.org/institution/b0a373a3-7bb4-4e56-aadf-7657206e9506/costestimator',
     'Launch Calculator'
   ); ?>
 
