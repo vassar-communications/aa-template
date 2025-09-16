@@ -39,8 +39,9 @@ $page_info = json_decode($page_info, true);
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
 
-    <p>Offered annually in the fall by the Office of Advancement in association with the Office of Admission, College Search 101 is designed to familiarize Vassar alum families and their high school juniors with the college admission process. This program provides valuable, general information to your family as your college search process begins.</p>
-      <p><em>This program will be offered virtually.</em></p>
+    <p>College Search 101 (CS101) moves from the fall to the spring semester! Save the date for this academic year’s program:</p>
+    <p><strong>Sunday, February 1, 2026, beginning at 1:00 p.m. Eastern Time.</strong></p>
+    <p>Offered by Advancement’s Office of Engagement and co-facilitated by college guidance professionals Mari Oropeza ’99 and Juan Acosta ’02, CS101 is designed to familiarize Vassar alum families and their high school juniors with the college admission process. This webinar provides valuable, general information to your family as your college search process begins.</p>
 
   <?php /*hiding until needed  
 
@@ -55,37 +56,6 @@ $page_info = json_decode($page_info, true);
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-
-<?php echo sec_regularContent(
-    null,
-    '',
-    '',
-    ''
-); ?>
-
-
-<?php /* echo item_alert(
-    'Announcement',
-    'This year’s College Search 101 program will be offered virtually on Sunday, November 13, 2022. Registration information will be sent via broadcast email in September.',
-    'info-circle',
-    'alert-light alert-accent-gold'
-); */ ?>
-
-<h3>Overview</h3>
-
-<p>Program highlights for registered participants:</p>
-
-<ul>
-  <li>Hear from Vassar College admission professionals who will share advice about navigating the college search process, and how to evaluate schools that are right for you.</li>
-  <li>Meet current Vassar students for an open discussion about College life (for high school juniors only).</li>
-</ul>
-
-<p>Please note: this program provides a broad overview into the college search process from an insider’s perspective. It is not about admission to Vassar; the program is neither a feeder program nor does participation influence admission decisions at the College.</p>
-
-
-
-
-<?php echo end_sec_regularContent(); ?>
 
 <?php echo relatedTopics(); ?>
 <?php include($project_paths['main_project_root'].'/alums/inc/pages/resources/resources-grants.php');?>
