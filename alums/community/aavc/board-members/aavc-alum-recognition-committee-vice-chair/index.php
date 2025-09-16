@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"Alum Recognition Committee Vice Chair",
   "page_classes":"",
-  "feature_image":"/alums/assets/img/alums-community/aavc/board/Stephanie-Goldberg.jpg"
+  "feature_image":"/alums/assets/img/alums-community/aavc/board/Stephanie-Goldberg-2025.jpg"
 }';
 
 /* === */
@@ -32,10 +32,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Stephanie Goldberg ’14',
-    '/alums/assets/img/alums-community/aavc/board/Stephanie-Goldberg.jpg',
+    '/alums/assets/img/alums-community/aavc/board/Stephanie-Goldberg-2025.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'Stephanie Goldberg ’14, a person with long, wavy dark hair wearing a sleeveless white top and a necklace with a small pendant, smiling while standing outdoors in front of a body of water and forested hills.']
+    ['img_alt_text' => 'Stephanie Goldberg ’14, a person with long, wavy dark hair smiling in front of a bright pink wall and vibrant orchid flower display, wearing a colorful floral-patterned shirt.']
 ); ?>
 
   <ul class="clean-list-with-borders">
