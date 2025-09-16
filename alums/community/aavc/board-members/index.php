@@ -467,7 +467,7 @@ End of hiding info content*/ ?>
 <?php echo item_cardWithText(
     'Stephanie Goldberg&nbsp;’14',
     '/alums/community/aavc/board-members/aavc-alum-recognition-committee-vice-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/Stephanie-Goldberg.jpg', 'alt' => 'Stephanie Goldberg ’14, a person with long, wavy dark hair wearing a sleeveless white top and a necklace with a small pendant, smiling while standing outdoors in front of a body of water and forested hills.' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/Stephanie-Goldberg-2025.jpg', 'alt' => 'Stephanie Goldberg ’14, a person with long, wavy dark hair smiling in front of a bright pink wall and vibrant orchid flower display, wearing a colorful floral-patterned shirt.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(she/her/hers)</div>

@@ -930,7 +930,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Ashley Usher',
-    'Administrative Assistant',
+    'Office Specialist',
     [
             'phone' => '845-437-5922',
             'email' => 'ausher@vassar.edu',
