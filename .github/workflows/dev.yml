@@ -14,7 +14,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: aa-devspace.vassarspaces.net
+        server: ftp.summer-immersion.vassarspaces.net
         username: ${{ secrets.vassar_user }}
         password: ${{ secrets.vassar_pass }}
         protocol: ftps
+        timeout: 190000
