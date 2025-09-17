@@ -81,16 +81,75 @@ $page_info = json_decode($page_info, true);
 
 <h3 id="g2">Position Descriptions</h3>
 <h4 id="g2q1">AAVC President and AAVC Trustee</h4>
-<p>The President of the AAVC is the chief elected officer and chair of the AAVC Board. In this capacity, the President serves as an AAVC Trustee, and also serves on the Executive Committee of the Vassar College Board of Trustees. The President provides strategic leadership for the AAVC, including in policy making and in establishing goals and directions. The President also serves as the key liaison between the AAVC and Vassar College.</p>
-<p>In addition to presiding at all meetings of the AAVC Board, the President serves ex officio on all board committees and any ad hoc committees established for specific purposes. The President also presides at the Annual Meeting of the AAVC in June.</p>
-<p>In fulfilling his/her role, the President is assisted by the Vice President for Operations and the Vice President for Strategic Planning of the AAVC Board, as well as by the Associate Vice President and Executive Director of the AAVC.</p>
-<p>The roles and functions of the President are varied and complex, and require a great deal of leadership and organizational skill in managing relationships, negotiating sensitive issues, setting strategic goals, and being the key public representative of Vassar’s more than <?php echo $facts['number_of_alums']; ?> alumnae/i. The President should be a seasoned volunteer with broad leadership and management experience, and an enthusiastic and demonstrated commitment to the college.</p>
+<p class="faq__indexHeader"><strong>Position Overview</strong></p>
+<p>The President of the Alumnae/i Association of Vassar College (AAVC) serves as the chief elected officer, chair of the AAVC Board, and key ambassador for Vassar’s global alum community. The President plays a vital leadership role in Vassar’s shared governance model, also serving as an AAVC Trustee and as a member of the Executive Committee of the Vassar College Board of Trustees. This position offers a unique opportunity not only to serve Vassar’s vibrant and distinguished alum community, but also to advance the mission and interests of the College.</p>
+
+<p class="faq__indexHeader"><strong>Key Responsibilities</strong></p>
+
+  <p><strong>Leadership &amp; Governance</strong></p>
+  <ul>
+    <li>Provide inclusive leadership for the AAVC, establishing Board priorities aligned with Vassar College’s mission and in consultation with the Executive Director of the AAVC.</li>
+    <li>Preside over meetings of the AAVC Board and the Annual Meeting of the AAVC.</li>
+    <li>Serve <em>ex officio</em> (non-voting) on AAVC committees and on <em>ad hoc</em> committees established for specific purposes.</li>
+    <li>Work collaboratively with the AAVC Executive Director to implement Board decisions.</li>
+    <li>Partner with the AAVC Board Officers and Committee Chairs to execute the AAVC’s priorities.</li>
+    <li>Advise on filling AAVC Trustee positions, AAVC officer and director positions, and off-board committee assignments in line with Nominating and Governance Committee processes.</li>
+    <li>Management of Board issues that may require leadership intervention.</li>
+  </ul>
+
+  <p><strong>Alum Engagement &amp; Relationship Building</strong></p>
+  <ul>
+    <li>Engage with leaders of regional clubs, classes, and affinity groups as well as the general alum population to best represent alum interests, perspectives, and concerns to the College’s administration.</li>
+    <li>Participate in local club activities and other regional events, as available.</li>
+    <li>Speak at Commencement and Reunion, and either speak at, or designate a speaker for, AAVC award ceremonies and other select campus gatherings.</li>
+    <li>Join the College President on occasion at off-campus events in various cities, helping facilitate meaningful connections with local alums.</li>
+    <li>Advise the Advancement team on fostering meaningful connections between current students and alums.</li>
+    <li>Champion alum giving and philanthropic support of the College, participating as requested in key donor cultivation and stewardship activities to help build relationships.</li>
+    <li>Advocate for 100% participation in the Vassar Fund among AAVC Board members and other Vassar volunteers.</li>
+    <li>Willingness to engage in local, regional and occasional international travel on behalf of the AAVC.</li>
+  </ul>
+
+  <p><strong>Board of Trustees Partnership</strong></p>
+  <ul>
+    <li>Serve as an AAVC Trustee on the Vassar College Board of Trustees, as a member of the Executive Committee of the Board of Trustees, and on other Board of Trustee committees.</li>
+    <li>Facilitate two-way communication between the AAVC Board and Board of Trustees.</li>
+    <li>Provide counsel to the President of the College and Chair of the Board of Trustees on matters that impact the alum constituency.</li>
+    <li>Support the College’s strategic objectives.</li>
+  </ul>
+
+  <p><strong>Relationship Management</strong></p>
+  <ul>
+    <li>Build and maintain strong relationships with the President of the College, Chair of the Board of Trustees, Vice President for Advancement, other members of the senior administration, the Associate Vice President for Engagement, Executive Director of the AAVC, and leaders of other alum and student groups, creating an essential bridge between alums and the College.</li>
+    <li>Collaborate with the AAVC Executive Director on all operational matters pertaining to the Board.</li>
+    <li>Engage with diverse alum constituencies to ensure that their interests and needs are well represented.</li>
+  </ul>
+
+  <p><strong>Navigation of Complex Community Challenges</strong></p>
+  <ul>
+    <li>Serve as a thought leader and partner with the College to navigate sensitive and controversial issues.</li>
+    <li>Serve as an ambassador for academic freedom and the value of liberal arts education.</li>
+    <li>Serve as a champion of Vassar’s commitment to diversity, equity, and inclusion.</li>
+    <li>Collaborate as appropriate on messaging that communicates the College’s positions on complex issues to the alum community.</li>
+  </ul>
+
+<p class="faq__indexHeader"><strong>Qualifications</strong></p>
+  <ul>
+    <li>Vassar College alum with a strong, longstanding commitment to the College and its alum community and the shared governance model.</li>
+    <li>Demonstrated ability to lead inclusively, build consensus, and navigate sensitive situations with diplomacy and integrity.</li>
+    <li>Demonstrated ability to bridge diverse perspectives within the alum community.</li>
+    <li>Significant prior volunteer leadership experience with the AAVC and other Vassar-related activities.</li>
+    <li>Excellent communication and public speaking capabilities.</li>
+    <li>Experience with board governance, preferably in nonprofit settings.</li>
+    <li>Experience with management, whether through leadership positions on a board or in other professional contexts.</li>
+    <li>Demonstrated commitment to principles of diversity, equity, and inclusion as outlined in the AAVC Bylaws and College’s mission statement.</li>
+  </ul>
+
 <p>Term of Office: Four years.</p>
-<p><em>r. 7/19</em></p>
+<p><em>r. 8/25</em></p>
 <h4 id="g2q2">AAVC Vice Presidents</h4>
-<p>The Association has two Vice Presidents who support the work of the President and oversee the Board’s internal governance and management. The Vice Presidents organize Board orientation, engage in strategic planning efforts, and coordinate with various College departments. Each Vice President serves as the primary liaison to several Board committees, as designated by the President, and works to coordinate the efforts of those committees. In the event of the absence or incapacity of the President, the Vice President who has more seniority on the Board shall exercise the powers and perform the duties of the President. The Vice Presidents should be seasoned volunteers with expertise in organizational, strategic, and governance matters and a demonstrated commitment to the college.</p>
+<p>The Association has two Vice Presidents who support the work of the President and oversee the Board’s internal management. Each Vice President serves as the primary liaison to several Board committees, as designated by the President, and works to coordinate the efforts of those committees. In the event of the absence or incapacity of the President, the Vice President who has more seniority on the Board shall exercise the powers and perform the duties of the President. The Vice Presidents should be seasoned volunteers with expertise in organizational, strategic, and governance matters and a demonstrated commitment to the college.</p>
 <p>Term of Office: Four years.</p>
-<p><em>r. 7/20</em></p>
+<p><em>r. 7/24</em></p>
 <h4 id="g2q3">AAVC Trustee</h4>
 <p>AAVC Trustees serve as liaisons between the AAVC and the college, and serve on the AAVC Board of Directors as well as on the Board of Trustees of Vassar College. Pursuant to the AAVC Bylaws, six individuals serve as AAVC Trustees, with one of those positions being occupied by the President of the AAVC.</p>
 <p>AAVC Trustees are expected to attend and participate in meetings of the AAVC Board and the Board of Trustees. They are also expected to participate in committees on both boards. In their dual roles, AAVC Trustees are uniquely positioned to represent issues and concerns of the alumnae/i body on the Trustee Board, as well as to inform the AAVC Board of matters of import at the college. This dual role requires a great deal of sensitivity and awareness of responsibilities and confidentiality.</p>
