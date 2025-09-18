@@ -74,9 +74,7 @@ $page_info = json_decode($page_info, true);
 
 <ul>
   <li>Applications will open <strong>October 10, 2025</strong>. All applications must be submitted via the online application form.</li>
-  <li>Applications will close <strong>December 19, 2025 at 5 p.m. ET</strong>. No applications will be accepted after this deadline.</li>
-  <li>
-    Round One applications will receive notification at the <strong>end of January 2026</strong> if they have moved on to the second round of review. The application form will ask for:
+<li>The application form will ask for:
     <ul>
       <li>a brief summary of your Time Out Grant project proposal;</li>
       <li>a description of the project’s purpose, scope, and goals;</li>
@@ -84,7 +82,9 @@ $page_info = json_decode($page_info, true);
       <li>an estimated project timeline with key milestones; a high-level budget;</li>
       <li>and how the opportunity will impact your life and benefit others.</li>
     </ul>
-  </li>
+</li>
+  <li>Applications will close <strong>December 19, 2025 at 5 p.m. ET</strong>. No applications will be accepted after this deadline.</li>
+  <li>Round One applications will receive notification at the <strong>end of January 2026</strong> if they have moved on to the second round of review.</li>
   <li>Round Two applications must include additional project information: a detailed proposal (with budget and photos, not exceeding four pages) and a resume.</li>
   <li>The finalists for the grant will be asked to participate in a short phone discussion with the selection committee.</li>
   <li>Selection of grant awardee will be made by the beginning of April 2026.</li>
