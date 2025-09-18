@@ -84,7 +84,7 @@ $page_info = json_decode($page_info, true);
 <p class="faq__indexHeader"><strong>Position Overview</strong></p>
 <p>The President of the Alumnae/i Association of Vassar College (AAVC) serves as the chief elected officer, chair of the AAVC Board, and key ambassador for Vassar’s global alum community. The President plays a vital leadership role in Vassar’s shared governance model, also serving as an AAVC Trustee and as a member of the Executive Committee of the Vassar College Board of Trustees. This position offers a unique opportunity not only to serve Vassar’s vibrant and distinguished alum community, but also to advance the mission and interests of the College.</p>
 
-<p class="faq__indexHeader"><strong>Key Responsibilities</strong></p>
+<p><strong>Key Responsibilities</strong></p>
 
   <p><strong>Leadership &amp; Governance</strong></p>
   <ul>
@@ -132,7 +132,7 @@ $page_info = json_decode($page_info, true);
     <li>Collaborate as appropriate on messaging that communicates the College’s positions on complex issues to the alum community.</li>
   </ul>
 
-<p class="faq__indexHeader"><strong>Qualifications</strong></p>
+<p><strong>Qualifications</strong></p>
   <ul>
     <li>Vassar College alum with a strong, longstanding commitment to the College and its alum community and the shared governance model.</li>
     <li>Demonstrated ability to lead inclusively, build consensus, and navigate sensitive situations with diplomacy and integrity.</li>
@@ -146,16 +146,63 @@ $page_info = json_decode($page_info, true);
 
 <p>Term of Office: Four years.</p>
 <p><em>r. 8/25</em></p>
+
 <h4 id="g2q2">AAVC Vice Presidents</h4>
 <p>The Association has two Vice Presidents who support the work of the President and oversee the Board’s internal management. Each Vice President serves as the primary liaison to several Board committees, as designated by the President, and works to coordinate the efforts of those committees. In the event of the absence or incapacity of the President, the Vice President who has more seniority on the Board shall exercise the powers and perform the duties of the President. The Vice Presidents should be seasoned volunteers with expertise in organizational, strategic, and governance matters and a demonstrated commitment to the college.</p>
 <p>Term of Office: Four years.</p>
 <p><em>r. 7/24</em></p>
+
 <h4 id="g2q3">AAVC Trustee</h4>
-<p>AAVC Trustees serve as liaisons between the AAVC and the college, and serve on the AAVC Board of Directors as well as on the Board of Trustees of Vassar College. Pursuant to the AAVC Bylaws, six individuals serve as AAVC Trustees, with one of those positions being occupied by the President of the AAVC.</p>
-<p>AAVC Trustees are expected to attend and participate in meetings of the AAVC Board and the Board of Trustees. They are also expected to participate in committees on both boards. In their dual roles, AAVC Trustees are uniquely positioned to represent issues and concerns of the alumnae/i body on the Trustee Board, as well as to inform the AAVC Board of matters of import at the college. This dual role requires a great deal of sensitivity and awareness of responsibilities and confidentiality.</p>
-<p>AAVC Trustees should have a demonstrated commitment and history of engagement with the AAVC and the college, and should be mindful of the significant commitment of time and effort required by this position.</p>
-<p>Term of Office: Four years.</p>
-<p><em>r. 7/19</em></p>
+<p><strong>Position Overview</strong></p>
+<p>AAVC Trustees serve as key members of the Vassar College Board of Trustees, contributing to the shared governance model that underpins the College. This role bridges the perspectives of the alum community with the strategic oversight responsibilities of the Board of Trustees. Nominated by the AAVC Nominations and Governance Committee in consultation with the AAVC President and the Executive Director of the AAVC, ratified by AAVC members at their annual meeting, and elected by the Vassar College Board of Trustees, AAVC Trustees collaborate with fellow trustees, administrators, and stakeholders to uphold the College’s mission and values while ensuring its continued excellence and sustainability.</p>
+
+<p><strong>Key Responsibilities</strong></p>
+
+    <p><strong>Governance and Oversight</strong></p>
+    <ul>
+      <li>Actively participate in Board of Trustees meetings, committee assignments, and other Board sessions and activities.</li>
+      <li>Provide fiduciary oversight, ensuring that Vassar’s resources and policies support its mission and long-term goals for the benefit of present and future generations of Vassar students.</li>
+    </ul>
+    
+    <p><strong>Alum Representation and Engagement</strong></p>
+    <ul>
+      <li>Serve as a voice for the alum community, representing their perspectives, concerns, and insights in Board of Trustee discussions.</li>
+      <li>Act as a bridge between the Board of Trustees and the AAVC Board, fostering collaboration and sharing information consistent with trustees’ duty of confidentiality.</li>
+      <li>Attend alum events, gatherings, and reunions to foster deeper connections between alums and the College.</li>
+    </ul>
+    
+    <p><strong>Advocacy and Fundraising</strong></p>
+    <ul>
+      <li>Actively support Vassar’s development efforts, including personal philanthropy and encouraging contributions from others.</li>
+      <li>Promote the College’s achievements and initiatives to alums and external audiences.</li>
+    </ul>
+    
+    <p><strong>Collaboration within Shared Governance</strong></p>
+    <ul>
+      <li>Work within Vassar’s unique shared governance model, respecting and valuing the role of the AAVC in appointing AAVC trustees.</li>
+      <li>Build productive relationships with other trustees, faculty, administrators, and student representatives to advance institutional goals.</li>
+      <li>Recognize and respect the Board of Trustees’ role of providing strategic guidance and oversight and the Administration’s responsibility for day-to-day management of the College.</li>
+    </ul>
+    
+    <p><strong>Compliance and Ethical Standards</strong></p>
+    <ul>
+      <li>Uphold Vassar’s commitment to transparency, integrity, and ethical governance.</li>
+      <li>Ensure adherence to legal, regulatory, and policy requirements.</li>
+      <li>Promptly disclose any actual or potential conflict of interest in conformity with applicable policy.</li>
+    </ul>
+
+<p><strong>Qualifications &amp; Skills</strong></p>
+    <ul>
+      <li>Alums of Vassar College with a deep commitment to the institution’s mission, history, and values.</li>
+      <li>A strong and consistent record of involvement in alum activities or initiatives via, e.g., leadership role(s) on AAVC committees, clubs, class or similar activity and a minimum of one year serving on the AAVC Board of Directors.</li>
+      <li>Ability to serve as fiduciary, providing oversight of institutional affairs in accord with the charter, bylaws, mission statement and other institutional plans of Vassar College.</li>
+      <li>Proven experience in leadership roles within professional, volunteer, and/or community contexts with documented achievements.</li>
+      <li>Strong communication and interpersonal skills, with the ability to represent diverse alum perspectives effectively.</li>
+      <li>Capacity to dedicate the time and effort required for both Board of Trustees and AAVC Board responsibilities.</li>
+    </ul>
+<p>Term of Commitment: Four years.</p>
+<p><em>r. 2/25</em></p>
+
 <h4 id="g2q4">Alumnae House Committee Chair</h4>
 <p>The Alumnae House Committee helps to ensure that Alumnae House remains a vibrant and relevant institution serving the current needs of the students and alumnae/i of the Vassar community, while bearing in mind the historical significance of Alumnae House. The Alumnae House Committee Chair works with the committee of appointed AAVC Board members and other experienced alumnae/i to fulfill this mission. The Committee provides strategic guidance in developing and implementing a vision and plans for actively and creatively engaging alumnae/i and current students with Alumnae House.</p>
 <p>The Chair of the House Committee should be a dedicated volunteer familiar with Alumnae House. The Committee is staffed by the Alumnae House Manager.</p>
