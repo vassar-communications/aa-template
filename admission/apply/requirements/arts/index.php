@@ -88,12 +88,24 @@ $page_info = json_decode($page_info, true);
         </div>
         <div id="arts-collapseOne" class="accordion-collapse collapse" aria-labelledby="arts-headingOne" data-bs-parent="#arts">
             <div class="accordion-body">
+<p>All applicants must include a 1–2 page resume detailing your past music experiences and answer questions that detail your interest and training in music. Certain criteria are required for instrumentalists, vocalists, and composers, as outlined below.</p>
+<ul>
+    <li><strong>Instrumentalists:</strong> Please submit recordings of two contrasting pieces, 3–5 minutes each. Performances should be of classical or jazz selections, either solo or accompanied.</li>
+
+    <li><strong>Vocalists:</strong> Please submit recordings of two contrasting pieces, 3–5 minutes each. Performances should be of solo selections in classical, musical theater, or jazz styles, with at least one piece from classical repertoire. Recordings with a choir or rock band will not be considered.</li>
+
+    <li><strong>Composers:</strong> Please submit a score and a recording of your work.</li>
+</ul>
+                
+                
+<!--                
                 <p>Please submit recordings of two contrasting pieces, 3 to 5 minutes each.</p>
                 <ul>
                     <li>For instrumentalists: classical or jazz selections, either solo or accompanied</li>
                     <li>For vocalists: classical, musical theater, or jazz; solo selections only</li>
                     <li>For composers: submit a score and recording of your composition</li>
                 </ul>
+-->
 
             </div>
         </div>
@@ -108,7 +120,7 @@ $page_info = json_decode($page_info, true);
             <div class="accordion-body">
                 <p>Please submit 10 to 15 examples of your work in studio art.</p>
 
-                <p>Vassar’s art portfolio is designed to provide applicants with a keen interest in the visual arts a means to demonstrate their conceptual strength and visual responsiveness as evaluated by Studio Art faculty. As a result, media not taught in Vassar’s Studio Art program, including jewelry, fashion, graphic design/advertising, makeup/sfx, stagecraft/theatre design, functional ceramics, music videos, and fanart of existing characters, while valuable, are not appropriate materials for the art portfolio process.</p>
+                <p>Vassar’s art portfolio is designed to provide applicants with a keen interest in a major or correlate in the visual arts to demonstrate their conceptual strength and visual responsiveness as evaluated by Studio Art faculty. As a result, media not taught in Vassar’s <a href="https://www.vassar.edu/art/courses-and-requirements/studio-art">Studio Art program</a>, including jewelry, fashion, graphic design/advertising, makeup/sfx, stagecraft/theatre design, functional ceramics, music videos, and fanart of existing characters, while valuable, are not appropriate materials for the art portfolio process.</p>
 
                 <p>Students who engage in these activities, or others, and would like to have them reviewed as part of their application for admission should consider submitting them through the Your Space section of the application. Your Space submissions are reviewed by the Admission Committee as part of our holistic review process.</p>
             </div>

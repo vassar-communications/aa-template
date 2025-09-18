@@ -45,7 +45,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Students sitting in a class listening']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text">Groups from high schools and community-based organizations can request an on-campus or interactive virtual visit specifically for their group to learn more about the academic, residential, and student life experience at Vassar.</p>
+    <p class="intro-text">Groups from high schools and non-profit college access organizations can request a campus visit specifically for their group to learn more about the academic, residential, and student life experience at Vassar.</p>
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -62,9 +62,13 @@ $page_info = json_decode($page_info, true);
   'people-group',
   'icon-on-left'
 ); ?>
-<p>Group visits are offered to groups of 5 to 30 high school students (with at least one adult chaperone for every 10 students), and can be customized to fit the needs of the group. Visits may include general information about Vassar, presentations about topics such as choosing a major or writing the college essay, or a Q&A session with current students.</p>
-<p class="mb-5">Group visits can be scheduled Monday through Friday between 9 a.m. and 5 p.m. ET, based on availability. To request an on campus or virtual group visit, please complete the <a href="https://apply.vassar.edu/portal/group-visit">Group Visit Inquiry Form.</a></p>
+<p>Group visits are open to groups of up to 50 students (with at least one adult chaperone for every 10 students) from high schools and non-profit college access organizations. Visits generally include an information session and a campus tour. To request a visit for your organization, please complete the <a href="https://apply.vassar.edu/portal/group-visit">Group Visit Request Form.</a></p>
 
+<?php echo cta_link(
+    'https://apply.vassar.edu/portal/group-visit',
+    'Request a Group Visit',
+    'mt-2'
+); ?>
 
 <?php echo end_item_iconItem(); ?>
 
