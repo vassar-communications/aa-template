@@ -143,7 +143,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_iconItem(
-    'Exploring Transfer',
+    'Exploring Transfer Summer Program',
     'compass',
     'icon-on-left theme-white-border'
 ); ?>
