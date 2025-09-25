@@ -143,11 +143,11 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo item_iconItem(
-    'Exploring Transfer',
+    'Exploring Transfer Summer Program',
     'compass',
     'icon-on-left theme-white-border'
 ); ?>
-<p>For more than 35 years, <a href="https://offices.vassar.edu/exploring-transfer/">Exploring Transfer Summer Program</a> has brought students from select community colleges to Vassar’s campus for an intensive five-week period during the summer. </p>
+<p>For more than 35 years, <a href="https://offices.vassar.edu/exploring-transfer/">Exploring Transfer</a> has brought students from select community colleges to Vassar’s campus for an intensive five-week period during the summer. </p>
 <?php echo end_item_iconItem(); ?>
 
 <?php echo end_sec_regularContent(); ?>
