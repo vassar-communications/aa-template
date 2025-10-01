@@ -58,7 +58,7 @@ $page_info = json_decode($page_info, true);
 <p>Required application materials, including transcripts and letters of recommendation, may be submitted through email, fax, mail, or <a href="https://slate.org/">slate.org</a>. For faster processing, submission of documents electronically is preferred.</p>
 
 <p>Optional supplemental items can be uploaded by the applicant through their Vassar applicant status portal after their application has been submitted and processed. Financial Aid documents should be submitted to the Office of Student Financial Services through the Institutional Documentation Service (IDOC).</p>
-<p>Email: <a href="mailto:admappmaterials@vassar.edu">admappmaterials@vassar.edu</a><br/>
+<p>Email: <a href="mailto:applicationmaterials@vassar.edu">applicationmaterials@vassar.edu</a><br/>
     Fax: <a href="fax:1-845-437-7063">(845) 437-7063</a>
 
 </p>
