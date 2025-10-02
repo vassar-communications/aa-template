@@ -250,17 +250,17 @@ End of hiding info content*/ ?>
 <div id="housing"></div>
 
 <?php echo item_iconItem('Housing','house-chimney',''); ?>
-<p>We are excited to welcome alums back to Vassar for in-person reunions and want to ensure that everyone makes informed decisions about where to stay.</p>
+<p>We are excited to welcome alums back to Vassar for an in-person reunion and want to ensure that everyone makes informed decisions about where to stay.</p>
 
-<p>We recommend you <strong>register early</strong> for on-campus housing as it is allocated on a first-come, first-served basis. Family housing (for families of four or more) will be in the
-Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments are listed below.</p>
+<p>We recommend you <strong>register early</strong> for on-campus housing as it is allocated on a first-come, first-served basis. Family housing (for families with young children of four or more) will be in the Terrace Apartments (TAs) and will be $400 per family.</p>
+<p>Class Dorm assignments will be available in January. The cost to stay on campus in a dorm will be $175.00 per person, per bed for any part of the weekend. If you are part of the 5th year Reunion class, the cost is $125.00 per person, per bed for any part of the weekend.</p>
 <p>If you prefer the creature comforts of home, <a href="https://www.vassar.edu/visit/community/lodging">search area hotels</a>. The following area hotels have rooms specifically reserved for Reunion.</p>
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
     <div class="accordion-item">
         <div class="accordion-header" id="flush-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseONe">
-                Hotels with Rooms Reserved For Reunion
+                Hotels with rooms reserved for Reunion
             </button>
         </div>
         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -269,7 +269,7 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments are
                     2750 South Rd</br>
                     Poughkeepsie NY 12601</br>
                     (845) 473-1151</br>
-                    <em>Refer to Vassar College Reunion and reference code “VR5” when calling to make the reservation.</em></p>
+                    <em>Refer to Vassar College Reunion and reference code “VR6” when calling to make the reservation.</em></p>
                     <p><strong>Quality Inn</strong> (walking distance from the college)</br>
                     536 Haight Ave</br>
                     Poughkeepsie NY 12603</br>
@@ -322,7 +322,7 @@ End of hiding info content*/ ?>
     <div class="accordion-item">
         <div class="accordion-header" id="flush-headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                Additional On-Campus Housing Information
+                Additional on-campus housing
             </button>
         </div>
         <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample3">
@@ -337,7 +337,7 @@ End of hiding info content*/ ?>
 
                 <p>We regret that we are unable to guarantee single room requests. If you are attending Reunion by yourself, we encourage coordinating with friends in advance to ensure your roommate of choice. If you require a single room, please indicate that in the special housing notes. If you require a room with a private bathroom, we strongly recommend you make reservations at one of the Hudson Valley’s area hotels.</p>
 
-                <p>Please Note: Alumnae House is reserved for the 70th and 75th Reunion Classes.</p>
+                <p>Please Note: Alumnae House and the Heartwood are not open for general reservations but reserved for the oldest Reunion classes (75th, 70th, and 65th) and the AAVC Board.</p>
 
                 <p>Also, the College performs routine maintenance (in rotation) and also houses more than 200 students during the summer months. As such, some residence halls will be “offline” every year (and unavailable for lodging or entering).</p>
             </div>
@@ -352,7 +352,7 @@ End of hiding info content*/ ?>
 
     <h4>Parking during Reunion</h4>
 
-    <p>Please remember to place the parking pass on your dashboard after arriving on campus.  Need a parking pass?  Call <a href="tel:+18004438196">(800) 443-8196</a>, option 5, OR visit us at the Info Center in Main Building while on campus.</p>
+    <p>Please park in designated parking spaces only. In place of parking passes, remember to include your license plate number when registering for Reunion weekend.</p>
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample4">
     <div class="accordion-item">
@@ -384,8 +384,8 @@ End of hiding info content*/ ?>
         </div>
         <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample5">
             <div class="accordion-body">
-                <h4>Friday, June 6: Depart from NYC (Bryant Park) at noon</h4>
-                <h4>Sunday, June 8: Depart from Vassar (Main Circle) at 1:00 p.m.</h4>
+                <h4>Friday, June 5: Depart from NYC (Bryant Park) at noon</h4>
+                <h4>Sunday, June 7: Depart from Vassar (Main Circle) at 1:00 p.m.</h4>
                 <p>The Vassar Club of New York will be on hand to greet you on Friday on the south side of 42nd Street between 5th and 6th Avenues, in front of Bryant Park, as shown in the Google Map below.</p>
                 <style>.embed-container { position: relative; padding-bottom: 56.25%; margin-bottom: 20px; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 20px; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3022.34973581112!2d-73.98570558727074!3d40.754331934902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDQ1JzE1LjYiTiA3M8KwNTgnNTkuMyJX!5e0!3m2!1sen!2sus!4v1682952585698!5m2!1sen!2sus' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div>
             </div>
