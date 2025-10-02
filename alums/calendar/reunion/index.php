@@ -178,12 +178,11 @@ End of hiding info content*/ ?>
 <?php echo end_sec_regularContent(); ?>
 
 
-<?php /*hiding below items until 2026 setup
-
 <div id="information-updates"></div>
 
 <?php echo sec_regularContent('Information & Updates','theme-verylightgray','','',); ?>
 
+<?php /*hiding below items until 2026 setup
 
 <?php echo item_iconItem('New This Year!','star',''); ?>
 <h4>Reunion Swag Shop!</h4>
@@ -245,6 +244,8 @@ End of hiding info content*/ ?>
 <p><a href="https://offices.vassar.edu/campus-safety/procedures/">Read Vassar’s complete emergency procedures</a>.</p>
 <?php echo end_item_iconItem(); ?>
 
+End of hiding info content*/ ?>
+
 
 <div id="housing"></div>
 
@@ -284,6 +285,7 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments are
     </div>
 </div>
 
+<?php /*hiding below items until 2026 setup
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample2">
     <div class="accordion-item">
@@ -312,6 +314,8 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments are
         </div>
     </div>
 </div>
+
+End of hiding info content*/ ?>
 
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample3">
@@ -392,6 +396,8 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments are
 <?php echo end_item_iconItem(); ?>
 
 
+<?php /*hiding below items until 2026 setup
+
 <?php echo item_iconItem('Important to Know','circle-info',''); ?>
 <ul>
     <li><a href="https://www.vassar.edu/smokefree/">Vassar is a smoke-free campus</a>.</li>
@@ -409,8 +415,12 @@ Terrace Apartments (TAs) and will be $400 per family. Class dorm assignments are
 <?php echo end_item_iconItem(); ?>
 
 
+End of hiding info content*/ ?>
+
 <?php echo end_sec_regularContent(); ?>
 
+
+<?php /*hiding below items until 2026 setup
 
 <div id="campus-facilities"></div>
 
