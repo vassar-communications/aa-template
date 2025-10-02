@@ -331,7 +331,7 @@ End of hiding info content*/ ?>
                 <ul>
                     <li>Include twin-sized beds about half of which are lofted/raised and cannot be lowered.</li>
                     <li>Include commercial linens (two twin flat sheets, one pillow case, one light twin blanket, one towel, and one washcloth) placed on each bed. If you would like to have an extra blanket or towel, please bring them with you.</li>
-                    <li>Does <strong>not</strong> include air conditioning or private bathrooms.</li>
+                    <li>Does <strong>not</strong> include air conditioning, soap, or private bathrooms.</li>
                     <li>Are not guaranteed to be quiet.</li>
                 </ul>
 
