@@ -32,10 +32,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Keith St John ’81',
-    '/alums/assets/img/alums-community/aavc/board/st-john-keith-aavc-alum-001.jpg',
+    '/alums/assets/img/alums-community/aavc/board/keith-st-john-vassar-2025.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'A person with closely cropped gray-black hair, a white beard and gray mustaches, a patterned shirt and purple tie smiles at the viewer.']
+    ['img_alt_text' => 'A smiling person with closely cropped gray-black hair, a white beard and gray mustache, wearing a blue shirt with a red, yellow, and gray patterned tie.']
 ); ?>
 
   <ul class="clean-list-with-borders">

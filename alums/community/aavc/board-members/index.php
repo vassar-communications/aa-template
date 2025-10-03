@@ -438,7 +438,7 @@ End of hiding info content*/ ?>
 <?php echo item_cardWithText(
     'Keith St John&nbsp;’81',
     '/alums/community/aavc/board-members/aavc-alumnae-house-committee-chair/',
-    ['url' => '/alums/assets/img/alums-community/aavc/board/st-john-keith-aavc-alum-001.jpg', 'alt' => 'A person with closely cropped gray-black hair, a white beard and gray mustaches, a patterned shirt and purple tie smiles at the viewer.' ],
+    ['url' => '/alums/assets/img/alums-community/aavc/board/keith-st-john-vassar-2025.jpg', 'alt' => 'A smiling person with closely cropped gray-black hair, a white beard and gray mustache, wearing a blue shirt with a red, yellow, and gray patterned tie.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
 ); ?>
 <div class="pronouns">(he/him/his)</div>
