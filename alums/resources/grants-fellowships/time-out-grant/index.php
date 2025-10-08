@@ -63,7 +63,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-    'Application Information',
+    'Applications Are Now Open',
     '',
     'content_classes'
 ); ?>
