@@ -44,10 +44,6 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A person wearing a safety helmet wearing a yellow shirt and carrying a hoe smiles at the viewer in front of burnt vegetation.']
 ); ?>
 
-<div class="info-card alert p-4 shadow mb-5 classes has-title red-alert">
-<p><strong>Time Out applications will open October 10, 2025.</strong> Please check back for the link to the application form at that time.</p>
-</div>
-
 <p class="intro-text">Established in 1998, the Time Out Grant seeks to inspire Vassar alums to pursue an original, bold interest, project, or business that could innovate the world around them.</p>
 
 <ul>
@@ -67,13 +63,13 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-    'Application Information',
+    'Applications Are Now Open',
     '',
     'content_classes'
 ); ?>
 
 <ul>
-  <li>Applications will open <strong>October 10, 2025</strong>. All applications must be submitted via the online application form.</li>
+  <li>All applications must be submitted via the online application form.</li>
 <li>The application form will ask for:
     <ul>
       <li>a brief summary of your Time Out Grant project proposal;</li>
@@ -92,14 +88,8 @@ $page_info = json_decode($page_info, true);
   <li>We will keep applicants informed as we review their submissions.</li>
 </ul>
 
-<?php /* 
 
-<!--hiding until applications reopen next cycle-->
-
-<a href="https://securelb.imodules.com/s/1654/22/events.aspx?sid=1654&gid=2&pgid=5680&cid=9348" class="btn btn-primary arrow mt-5">Apply for the Time Out Grant</a>
-<p>&nbsp;</p>
-
- */ ?>
+<a href="https://form.asana.com/?k=yFWoaO3RgHf4L6uKrXaipQ&d=990419153993974" class="btn btn-primary arrow mt-3">Apply now for the Time Out Grant</a>
 
 
 <?php echo end_sec_regularContent(); ?>
