@@ -277,17 +277,6 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Chase Engel ’23',
-    'Assistant Director of Annual Giving, Digital Engagement Officer',
-    [
-            'phone' => '845-437-7890',
-            'email' => 'cengel@vassar.edu',
-        ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
     'Jesse Fitzjohn',
     'Office Specialist',
     [
@@ -321,17 +310,6 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Haoyue Qian ’24',
-    'Administrative Fellow',
-    [
-            'phone' => '845-437-5491',
-            'email' => 'hqian@vassar.edu',
-        ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
     'Lane Sulzer',
     'Director of Annual Giving',
     [
@@ -359,6 +337,17 @@ echo contact_card(
     [
             'phone' => '845-437-5379',
             'email' => 'jvayas@vassar.edu',
+        ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Carl Webster',
+    'Presidential Administrative Fellow',
+    [
+            'phone' => '845-437-5489',
+            'email' => 'cwebster@vassar.edu',
         ]
 );
 echo end_contact_card();
