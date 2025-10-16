@@ -62,43 +62,11 @@ June 19-July 1, 2025</p>
 */ ?>
 
 
-<div id="paris"></div>
-<?php echo sec_fullBleedImageColumn(
-    null,
-    $alums_img_path.'alums-calendar/travel-program/2025-Palais-Garnier-in-Paris-13-copyright-French-Moments.jpg',
-    'theme-burgundy',
-    '',
-    ['img_alt_text' => 'Palais Garnier in Paris, a lavish hall adorned with gold trim, ornate chandeliers, and ceiling frescoes, with symmetrical columns and mirrors lining the sides beneath a vaulted painted ceiling.']
-); ?>
-
-<p class="intro-text">La Paris Musicale! Music and Art in the City of Lights</p>
-
-<p><strong>October 13–21, 2025<strong></p>
-
-<p>Spend a truly magical week in Paris this fall, enjoying music, art, and (bien sûr!) excellent food and wine with fellow Vassar alums. Led by Kathryn Libin, Mary Conover Mellon Professor of Music, this experience includes:</p>
-
-<ul>
-	<li>Private concerts at distinguished venues</li>
-	<li>Immersive exploration of Paris’s rich history and culture through specially curated walking and private guided tours of the Musée d’Orsay and other museums</li>
-	<li>A visit to the grand Domaine de Chantilly, home to the finest private collection of paintings outside the Louvre</li>
-</ul>
-
-<p><strong>Tour cost:</strong> $7,980 per person, double occupancy (additional single room supplement $1,350). <em>International airfare not included.</em></p>
-
-<?php echo cta_link(
-    '/alums/assets/pdf/Travel-Program-Paris-Brochure_V2.pdf',
-    'View the full Paris itinerary and reserve your place.'
-
-); ?>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
 <div id="mexico"></div>
 <?php echo sec_fullBleedImageColumn(
     null,
     $alums_img_path.'alums-calendar/travel-program/2026-Frida-Kahlo-House-Mexico-City-byRodWaddington-CCBYSA20.jpg',
-    'image-is-first',
+    '',
     '',
     ['img_alt_text' => 'Frida Kahlo House in Mexico City, a vibrant cobalt blue exterior wall with green-paned windows framed in red, surrounded by lush potted plants and shaded by trees in a courtyard with red tile flooring.']
 ); ?>
@@ -137,7 +105,7 @@ June 19-July 1, 2025</p>
 <?php echo sec_fullBleedImageColumn(
     null,
     $alums_img_path.'alums-calendar/travel-program/2026-Greece-Andros-Chora.jpg',
-    'theme-darkcoal',
+    'image-is-first theme-darkcoal',
     '',
     ['img_alt_text' => 'Chora in Andros, Greece, a coastal village of whitewashed buildings with terracotta roofs perched on rocky cliffs above crystal-clear blue water, backed by rolling hills under a bright sky.']
 ); ?>
