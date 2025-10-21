@@ -75,9 +75,23 @@ $page_info = [
 
 <?php
 
+
+echo item_imageCard_videoModal(
+    get_icon('play').'Demystifying Financial Aid',
+    null,
+    'https://player.vimeo.com/video/1128902993',
+    'vimeo',
+    '',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/finaid-101.jpg',
+        'alt' => 'A picture of a slide with the following text: “Financial Aid 101: Navigating the Financial Aid Process. Jacqueline Perez, Director of Student Financial Services, Vassar College; Emma Ritter, Senior Assistant Director, Vassar College.”'
+    ],
+    'animation-item grid-item text-at-bottom text-white'
+);
+
+
 //    get_icon('play').'Demystifying Financial Aid 2023',
 
-
+/*
 echo item_imageCard_videoModal(
     get_icon('play').'Demystifying Financial Aid',
     null,
@@ -89,6 +103,8 @@ echo item_imageCard_videoModal(
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
+*/
+
 
 ?>
 
