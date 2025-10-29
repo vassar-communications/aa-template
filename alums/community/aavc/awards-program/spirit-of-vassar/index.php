@@ -37,6 +37,24 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
+<h3 class="mt-5">2025</h3>
+
+<h4>Georgette F. Bennett ’67</h4>
+
+<ul class="linked-list">
+<li>
+    <?php echo item_link_VideoModal(
+        'Watch Bennett’s award presentation and remarks.',
+        'https://player.vimeo.com/video/1121553351?h=7769497c93',
+        'vimeo',
+        '',
+        'no-arrow'
+    ); ?>
+  </li>
+  <li><a href="https://www.vassar.edu/news/aavc-selects-five-honor-2025-achievement-and-service ">Read more about Bennett in the July 2025 <em>Vassar Stories</em> article.</a></li>
+</ul>
+
+
 <h3 class="mt-5">2024</h3>
 
 <h4>David H.J. Ambroz ’02</h4>
