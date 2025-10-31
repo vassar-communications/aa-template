@@ -129,26 +129,26 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-community/aavc/awards/Vassar_Convocation_20240904_KR_0148-square.jpg',
+    '/alums/assets/img/alums-community/aavc/awards/GeorgetteBennett67-taller.jpg',
     'image-is-first',
     '',
-    ['img_alt_text' => 'Three people, one of whom is holding a glass award, stand together smiling.']
+    ['img_alt_text' => 'Four people standing together indoors, one holding an award, smiling for a photo after a ceremony.']
 ); ?>
-<h6 class="tagline">2024 Recipient</h6>
-<h1>David H.J. Ambroz ’02</h1>
+<h6 class="tagline">2025 Recipient</h6>
+<h1>Georgette F. Bennett ’67</h1>
 
 
 <p><?php echo item_link_VideoModal(
-    'Watch the David Ambroz video.',
-    'https://player.vimeo.com/video/1007025313',
+    'Watch the Georgette Bennett video.',
+    'https://player.vimeo.com/video/1121553351?h=7769497c93',
     'vimeo',
     '',
     'no-arrow btn-link mt-4'
 ); ?></p>
 
 <?php echo cta_link(
-    'https://www.vassar.edu/news/celebrating-excellence',
-     'Read more about David Ambroz.'
+    'https://www.vassar.edu/news/aavc-selects-five-honor-2025-achievement-and-service',
+     'Read more about Georgette Bennett.'
 ); ?>
 
 
@@ -215,24 +215,24 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-community/aavc/awards/priya-nair-0091-23-08-bl-convocation-nair-vassar-12.jpg',
+    '/alums/assets/img/alums-community/aavc/awards/EliseShea-full.jpg',
     'image-is-first',
     '',
-    ['img_alt_text' => 'Three people, all with dark brown hair, stand smiling at the camera, with the person in the middle holding a glass plaque.']
+    ['img_alt_text' => 'Three people stand in front of a large pipe organ, smiling at the camera, with the person in the middle holding a glass plaque.']
 ); ?>
-<h6 class="tagline">2023 Recipient</h6>
-<h1>Priya Nair ’15</h1>
+<h6 class="tagline">2025 Recipient</h6>
+<h1>Elise Shea ’19</h1>
 
 <p><?php echo item_link_VideoModal(
-    'Watch the Priya Nair video.',
-    'https://player.vimeo.com/video/859555999',
+    'Watch the Elise Shea video.',
+    'https://player.vimeo.com/video/1116380063?h=bf5b442379',
     'vimeo',
     '',
     'no-arrow btn-link mt-4'
 ); ?></p>
 <?php echo cta_link(
-    'https://www.vassar.edu/news/convocation-2023',
-     'Read more about Priya Nair.'
+    'https://www.vassar.edu/news/aavc-selects-five-honor-2025-achievement-and-service',
+     'Read more about Elise Shea.'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>

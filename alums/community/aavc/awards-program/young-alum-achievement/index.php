@@ -37,6 +37,24 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
+<h3 class="mt-5">2025</h3>
+
+<h4>Elise Shea ’19</h4>
+
+<ul class="linked-list">
+  <li>
+    <?php echo item_link_VideoModal(
+        'Watch Shea’s acceptance remarks.',
+        'https://player.vimeo.com/video/1116380063?h=bf5b442379',
+        'vimeo',
+        '',
+        'no-arrow'
+    ); ?>
+   </li>
+   <li><a href="https://www.vassar.edu/news/aavc-selects-five-honor-2025-achievement-and-service">Read more about Shea in the July 2025 <em>Vassar Stories</em> article.</a></li>
+</ul>
+
+
 <h3 class="mt-5">2023</h3>
 
 <h4>Priya Nair ’15</h4>
