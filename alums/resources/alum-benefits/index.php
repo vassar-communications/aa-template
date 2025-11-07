@@ -67,22 +67,6 @@ $page_info = json_decode($page_info, true);
     '',
 ); ?>
 
-<?php echo item_cardWithText(
-    'Vassar Email Address',
-    'https://connect.vassar.edu/s/1654/2/16/interior-ai.aspx?sid=1654&gid=2&pgid=429',
-    ['url' => $alums_img_path.'alums-resources/alums-benefits/adlov-taylor-vq-vassar-0911-lrr-8293.jpg', 'alt' => 'Interior view of a tall black metal gate inside an archway with a view of a brown-leaved tree beyond.' ],
-    'card--withParagraph animation-item card-has-cta-icon card-has-cta-label card-is-link'
-); ?>
-
-  <p>Alums can obtain a Vassar-branded @alum.vassar.edu email address/account.</p>
-
-<?php echo end_item_cardWithText(
-    '',
-); ?>
-
-
-
-
 
 
 <?php echo item_cardWithText(
