@@ -97,17 +97,17 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-community/aavc/awards/hyacinth-2024-outstanding-service-53771504533_f9d4a85592_o.jpg',
+    '/alums/assets/img/alums-community/aavc/awards/sally-dayton-clement-25_10_18_aavc_awards_kr_0081-edit.jpg',
     'image-is-first theme-verylightgray',
     '',
-    ['img_alt_text' => 'Three people stand smiling at the viewer, with the middle person holding a an award statue.']
+    ['img_alt_text' => 'Four people posing together against a neutral background, one seated and holding an award, all smiling.']
 ); ?>
-<h6 class="tagline">2024 Recipient</h6>
-<h1>Stephanie M. Hyacinth ’84</h1>
+<h6 class="tagline">2025 Recipient</h6>
+<h1>Sally Dayton Clement ’71</h1>
 
 <?php echo cta_link(
-    'https://www.vassar.edu/news/celebrating-excellence',
-     'Read More About Stephanie Hyacinth.'
+    'https://www.vassar.edu/news/aavc-selects-five-honor-2025-achievement-and-service',
+     'Read more about Sally Dayton Clement.'
 ); ?>
 
 
@@ -172,28 +172,19 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-    '/alums/assets/img/alums-community/aavc/awards/0003-25-01-lpo-scc-vassar-5975-v3.jpg',
+    '/alums/assets/img/alums-community/aavc/awards/patkus-0079-25-06-cs-reunion-aavc-vassar-271.jpg',
     'image-is-first theme-verylightgray',
     '',
-    ['img_alt_text' => 'A group of people standing in a row in front of a fireplace, with two people in the center holding glass awards.']
+    ['img_alt_text' => 'Person standing outdoors holding an award and smiling, with green foliage in the background.']
 ); ?>
-<h6 class="tagline">2024 Recipients</h6>
-<h1>Stacy Bingham</h1>
-<p class="intro-text">Associate Dean of the College for Career Education</p>
-<h1>Jannette Swanson</h1>
-<p class="intro-text">Director of External Engagement Center for Career Education</p>
+<h6 class="tagline">2025 Recipient</h6>
+<h1>Ronald Patkus</h1>
+<p class="intro-text">Head of Special Collections and College Historian and Adjunct Associate Professor of History on the Frederick Weyerhaeuser Chair</p>
 
-<p><?php echo item_link_VideoModal(
-    'Watch the Stacy Bingham and Jannette Swanson video.',
-    'https://player.vimeo.com/video/1050155213',
-    'vimeo',
-    '',
-    'no-arrow btn-link mt-4'
-); ?></p>
 
 <?php echo cta_link(
-    'https://www.vassar.edu/news/celebrating-excellence',
-     'Read More About Stacy Bingham and Jannette Swanson.'
+    'https://www.vassar.edu/news/aavc-selects-five-honor-2025-achievement-and-service',
+     'Read more about Ronald Patkus.'
 ); ?>
 
 

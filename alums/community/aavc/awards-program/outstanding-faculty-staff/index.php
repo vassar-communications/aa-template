@@ -37,6 +37,15 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
+<h3 class="mt-5">2025</h3>
+
+<h4>Ronald Patkus, Head of Special Collections and College Historian and Adjunct Associate Professor of History on the Frederick Weyerhaeuser Chair</h4>
+
+<ul class="linked-list">
+	<li><a href="https://www.vassar.edu/news/aavc-selects-five-honor-2025-achievement-and-service">Read more about Patkus in the July 2025 <em>Vassar Stories</em> article.</a></li>
+</ul>
+
+
 <h3 class="mt-5">2024</h3>
 
 <h4>Stacy Bingham, Associate Dean of the College for Career Education, and Jannette Swanson, Director of External Engagement Center for Career Education</h4>
