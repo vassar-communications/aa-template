@@ -37,6 +37,17 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
+<h3 class="mt-5">2025</h3>
+
+<h4>Sally Dayton Clement ’71</h4>
+
+
+<ul class="linked-list">
+    </li>
+		<li><a href="https://www.vassar.edu/news/aavc-selects-five-honor-2025-achievement-and-service">Read more about Clement in the July 2025 <em>Vassar Stories</em> article.</a></li>
+	</ul>
+
+
 <h3 class="mt-5">2024</h3>
 
 <h4>Stephanie M. Hyacinth ’84</h4>
