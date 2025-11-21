@@ -456,7 +456,7 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Brian C. Lepak Jr. ’24',
+    'Brian C. Lepak Jr.',
     'Assistant Director of Leadership Gifts',
     [
             'phone' => '757-719-8152',
