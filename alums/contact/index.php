@@ -423,6 +423,17 @@ echo end_contact_card();
 
 
 echo contact_card(
+    'Kate Grantz',
+    'Associate Director of Leadership Gifts',
+    [
+            'phone' => '917-484-0153',
+            'email' => 'kgrantz@vassar.edu',
+        ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
     'Nancy Reimer John ’79',
     'Assistant Director of Leadership Gifts',
     [
@@ -439,6 +450,17 @@ echo contact_card(
     [
             'phone' => '845-437-5350',
             'email' => 'mkort@vassar.edu',
+        ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Brian C. Lepak Jr.',
+    'Assistant Director of Leadership Gifts',
+    [
+            'phone' => '757-719-8152',
+            'email' => 'blepak@vassar.edu',
         ]
 );
 echo end_contact_card();
@@ -994,7 +1016,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Dashawn Greene',
-    'Data Records Assistant',
+    'Data Records Specialist',
     [
             'phone' => '845-437-5416',
             'email' => 'dgreene@vassar.edu',
@@ -1016,7 +1038,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Lisa Paoloni',
-    'Data Records Assistant',
+    'Data Records Specialist',
     [
             'phone' => '845-437-7420',
             'email' => 'lpaolini@vassar.edu',
@@ -1049,7 +1071,7 @@ echo end_contact_card();
 
 echo contact_card(
     'Anita West',
-    'Data Records Specialist',
+    'Data Records Coordinator',
     [
             'phone' => '845-437-5444',
             'email' => 'anwest@vassar.edu',
