@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Ethan Slater",
+  "page_title":"From Vassar to Broadway to Oz: Behind the Curtain with Ethan Slater ’14",
   "page_classes":"",
   "feature_image":"/alums/assets/img/alums-community/aavc/board/ETHAN SLATER IMAGE HERE"
 }';
