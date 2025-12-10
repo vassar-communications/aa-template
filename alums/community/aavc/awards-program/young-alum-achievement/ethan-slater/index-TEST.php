@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"From Vassar to Broadway to Oz: Behind the Curtain with Ethan Slater ’14",
+  "page_title":"[TEST] From Vassar to Broadway to Oz: Behind the Curtain with Ethan Slater ’14",
   "page_classes":"",
   "feature_image":"/alums/community/aavc/awards-program/young-alum-achievement/ethan-slater/24_slater_ethan_dan_002-crop.jpg"
 }';
@@ -69,7 +69,7 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_regularContent(); ?>
 
 
-<!--
+
 <a id="webcast"></a>
 <?php echo sec_regularContent(
     'Webcast',
@@ -83,7 +83,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_regularContent(); ?>
 
--->
+
 
 
 
