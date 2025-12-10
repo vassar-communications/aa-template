@@ -68,7 +68,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_regularContent(
     '',
-    'theme-white pb-0',
+    'theme-white pt-0',
     ''
 ); ?>
 
