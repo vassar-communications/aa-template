@@ -10,7 +10,7 @@ include($project_paths['main_project_root'].'/functions.php');
 $page_info = '{
   "page_title":"From Vassar to Broadway to Oz: Behind the Curtain with Ethan Slater ’14",
   "page_classes":"",
-  "feature_image":"/alums/assets/img/alums-community/aavc/board/ETHAN SLATER IMAGE HERE"
+  "feature_image":"/alums/community/aavc/awards-program/young-alum-achievement/ethan-slater/24_slater_ethan_dan_002-crop.jpg"
 }';
 
 /* === */
@@ -35,10 +35,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     'Ethan Slater ’14',
-    '24_slater_ethan_dan_002-crop.jpg',
+    'ethan-slater/24_slater_ethan_dan_002-crop.jpg',
     'image-is-first theme-cream',
     '',
-    ['img_alt_text' => 'ALT']
+    ['img_alt_text' => 'A photo of Ethan Slater ’14, a person with brown curly hair and a dark suit. They are performing on a stage.']
 ); ?>
 
 
@@ -64,7 +64,7 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 
-<p>Ethan Slater ’14 originated the role of SpongeBob SquarePants on Broadway, for which he received a Tony Award nomination and won the Drama Desk, Outer Critics Circle, Theatre World, and Broadway Beacon awards. He also starred as Lee Harvey Oswald in the musical <em>Assassins</em> and in the Broadway revival of Monty Python’s <em>Spamalot</em>. Most recently, Ethan has appeared as Boq in the film adaptation of <em>Wicked</em> and the sequel, <em>Wicked for Good</em>, to be released on November 21, 2025.</p>
+<p>Ethan Slater ’14 originated the role of SpongeBob SquarePants on Broadway, for which he received a Tony Award nomination and won the Drama Desk, Outer Critics Circle, Theatre World, and Broadway Beacon awards. He also starred as Lee Harvey Oswald in the musical <em>Assassins</em> and in the Broadway revival of Monty Python’s <em>Spamalot</em>. Most recently, Ethan has appeared as Boq in the film adaptation of <em>Wicked</em> and the sequel, <em>Wicked for Good</em>, which was released on November 21, 2025.</p>
 
 <?php echo end_sec_regularContent(); ?>
 
