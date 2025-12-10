@@ -45,17 +45,25 @@ $page_info = json_decode($page_info, true);
 <p class="intro-text">Please join us for an exciting live interview with actor, singer, and composer Ethan Slater ’14, who was named as the recipient of the Young Alum Achievement Award by the AAVC in 2024. Award ceremony to follow.</p>
 
 
-
-<!--
-<p class="intro-text">The AAVC is proud to present the 2024 Young Alum Achievement Award to Ethan Slater ’14, who earned a Tony nomination for his portrayal of SpongeBob SquarePants in the Broadway musical of the same name.</p>
--->
-
 <?php echo cta_link(
     '#webcast',
      'See the webcast'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+
+<a id="webcast"></a>
+<?php echo sec_regularContent(
+    'Webcast',
+    'theme-white mw-inner-2',
+    ''
+); ?>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://vimeo.com/event/5560354/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+
+<?php echo end_sec_regularContent(); ?>
 
 
 <?php echo sec_regularContent(
@@ -68,25 +76,5 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_regularContent(); ?>
 
-
-<!--
-<a id="webcast"></a>
-<?php echo sec_regularContent(
-    'Webcast',
-    'theme-white mw-inner-2',
-    ''
-); ?>
-
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://vimeo.com/event/5560354/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
-
-
-
-<?php echo end_sec_regularContent(); ?>
-
--->
-
-
-
-<?php // echo item_modal_standardVideo(); ?>
 
 <?php echo site_footeralums(); ?>
