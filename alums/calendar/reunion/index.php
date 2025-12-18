@@ -285,37 +285,29 @@ End of hiding info content*/ ?>
     </div>
 </div>
 
-<?php /*hiding below items until 2026 setup
-
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample2">
     <div class="accordion-item">
         <div class="accordion-header" id="flush-headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Reunion 2025 Dorm Headquarters
+                Reunion 2026 Dorm Headquarters
             </button>
         </div>
         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
             <div class="accordion-body">
-                <p><strong>1945, 1945-4, 1950, 1955:</strong> Alumnae House<br />
-<strong>1960:</strong> Heartwood<br />
-<strong>1965:</strong> Main Building<br />
-<strong>1970:</strong> Main Building<br />
-<strong>1975:</strong> Davison House<br />
-<strong>1980:</strong> Josselyn House<br />
-<strong>1985:</strong> Main Building<br />
-<strong>1990:</strong> Josselyn House<br />
-<strong>1995:</strong> Cushing House<br />
-<strong>2000:</strong> Cushing House<br />
-<strong>2005:</strong> Raymond House<br />
-<strong>2010:</strong> Strong House<br />
-<strong>2015:</strong> Town Houses, 46<br />
-<strong>2020:</strong> Lathrop House</p>
+<p><strong>1951, 1956, 1961:</strong> Heartwood<br />
+<strong>1966, 1971:</strong> Main Building<br />
+<strong>1976:</strong> Davison House<br />
+<strong>1981, 1986:</strong> Main House<br />
+<strong>1991:</strong> Jewett House<br />
+<strong>1996, 2001:</strong> Cushing House<br />
+<strong>2006:</strong> Raymond House<br />
+<strong>2011:</strong> Strong House<br />
+<strong>2016:</strong> Town Houses<br />
+<strong>2021:</strong> Lathrop House</p>
             </div>
         </div>
     </div>
 </div>
-
-End of hiding info content*/ ?>
 
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample3">
