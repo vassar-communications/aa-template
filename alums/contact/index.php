@@ -346,7 +346,7 @@ echo contact_card(
     'Carl Webster',
     'Presidential Administrative Fellow',
     [
-            'phone' => '845-437-5489',
+            'phone' => '845-437-7890',
             'email' => 'cwebster@vassar.edu',
         ]
 );
