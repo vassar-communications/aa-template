@@ -50,7 +50,7 @@ $page_info = json_decode($page_info, true);
   <li>Proposals can be in any field including science, business, education, the arts, human services, environment, or others.</li>
   <li>The project can take place over a minimum of 12 months and may extend for up to 2 years.</li>
   <li>The Awardee is not required to leave their current job to accept the award.</li>
-  <li>Any Vassar alum 35 years or older by June 30, 2026 can apply for the grant.</li>
+  <li>Any Vassar alum 35 years or older by June 30, 2026 was able to apply for the current grant by the deadline of December 19, 2025.</li>
   <li>The Time Out Grant of $150,000 is awarded every other year.</li>
   <li>The proposals do not need to be related to the applicant’s current career.</li>
   <li>At Vassar’s discretion, the proposed venture can be funded with complementary grants, provided the Time Out Grant is the lead funding source.</li>
@@ -63,33 +63,20 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-    'Applications Are Now Open',
+    'Applications Are Closed and in Review',
     '',
     'content_classes'
 ); ?>
 
 <ul>
-  <li>All applications must be submitted via the online application form.</li>
-<li>The application form will ask for:
-    <ul>
-      <li>a brief summary of your Time Out Grant project proposal;</li>
-      <li>a description of the project’s purpose, scope, and goals;</li>
-      <li>how you developed the project including the background, inspiration, or prior work that informed it;</li>
-      <li>an estimated project timeline with key milestones; a high-level budget;</li>
-      <li>and how the opportunity will impact your life and benefit others.</li>
-    </ul>
-</li>
-  <li>Applications will close <strong>December 19, 2025 at 5 p.m. ET</strong>. No applications will be accepted after this deadline.</li>
+  <li>Applications closed on <strong>December 19, 2025 at 5 p.m. ET</strong>. No further applications will be accepted.</li>
   <li>Round One applications will receive notification at the <strong>end of January 2026</strong> if they have moved on to the second round of review.</li>
-  <li>Round Two applications must include additional project information: a more detailed proposal (with budget and photos, not exceeding four pages) and a resume.</li>
-  <li>The finalists for the grant will be asked to participate in a short phone discussion with the selection committee.</li>
+  <li>Round Two applications must include additional project information: a more detailed proposal (with budget and photos/if desired, not exceeding four pages) and a resume.</li>
+  <li>After Round Two, the finalists for the grant will be asked to participate in a short phone discussion with the selection committee.</li>
   <li>Selection of grant awardee will be made by the beginning of April 2026.</li>
   <li>The grant will be awarded at the beginning of June 2026.</li>
-  <li>We will keep applicants informed as we review their submissions.</li>
+  <li>We will keep applicants informed as we review their submissions. We ask that you do not email asking for the status of your application.</li>
 </ul>
-
-
-<a href="https://form.asana.com/?k=yFWoaO3RgHf4L6uKrXaipQ&d=990419153993974" class="btn btn-primary arrow mt-3">Apply now for the Time Out Grant</a>
 
 
 <?php echo end_sec_regularContent(); ?>
