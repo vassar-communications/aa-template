@@ -295,7 +295,7 @@ End of hiding info content*/ ?>
         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
             <div class="accordion-body">
 <p><strong>1951, 1956, 1961:</strong> Heartwood<br />
-<strong>1966, 1971:</strong> Main Building<br />
+<strong>1966, 1971:</strong> Main House<br />
 <strong>1976:</strong> Davison House<br />
 <strong>1981, 1986:</strong> Main House<br />
 <strong>1991:</strong> Jewett House<br />
