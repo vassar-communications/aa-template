@@ -229,6 +229,30 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+<?php echo sec_fullBleedImageColumn(
+    null,
+    '/alums/assets/img/alums-community/aavc/awards/25_12_10_slater_award_kr_0086-wider-square.jpg',
+    'theme-verylightgray',
+    '',
+    ['img_alt_text' => 'Five people standing together indoors against a wood-paneled wall, smiling, with one person at center holding an award.']
+); ?>
+<h6 class="tagline">2024 Recipient</h6>
+<h1>Ethan Slater ’14</h1>
+
+<p><?php echo item_link_VideoModal(
+    'Watch the Ethan Slater video.',
+    'https://player.vimeo.com/video/1145376203?h=a528c70204',
+    'vimeo',
+    '',
+    'no-arrow btn-link mt-4'
+); ?></p>
+<?php echo cta_link(
+    'https://www.vassar.edu/news/ethan-slater-comes-back-vassar',
+     'Read more about Ethan Slater.'
+); ?>
+
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
 
 
 

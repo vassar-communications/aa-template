@@ -55,6 +55,24 @@ $page_info = json_decode($page_info, true);
 </ul>
 
 
+<h3 class="mt-5">2024</h3>
+
+<h4>Ethan Slater ’19</h4>
+
+<ul class="linked-list">
+  <li>
+    <?php echo item_link_VideoModal(
+        'Watch the Ethan Slater video.',
+        'https://player.vimeo.com/video/1145376203?h=a528c70204',
+        'vimeo',
+        '',
+        'no-arrow'
+    ); ?>
+   </li>
+   <li><a href="https://www.vassar.edu/news/ethan-slater-comes-back-vassar">Read more about Slater’s visit to Vassar in December 2025.</a></li>
+</ul>
+
+
 <h3 class="mt-5">2023</h3>
 
 <h4>Priya Nair ’15</h4>
