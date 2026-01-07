@@ -62,50 +62,11 @@ June 19-July 1, 2025</p>
 */ ?>
 
 
-<div id="mexico"></div>
-<?php echo sec_fullBleedImageColumn(
-    null,
-    $alums_img_path.'alums-calendar/travel-program/2026-Frida-Kahlo-House-Mexico-City-byRodWaddington-CCBYSA20.jpg',
-    '',
-    '',
-    ['img_alt_text' => 'Frida Kahlo House in Mexico City, a vibrant cobalt blue exterior wall with green-paned windows framed in red, surrounded by lush potted plants and shaded by trees in a courtyard with red tile flooring.']
-); ?>
-
-<p class="intro-text">Mexico Today: Colors, Culture, and Cuisine</p>
-
-<p><strong>January 12–21, 2026<strong></p>
-
-<p>Escape winter and join faculty hosts Colleen Ballerino Cohen, Professor of Anthropology and Women, Feminist, and Queer Studies, and Chair of Anthropology and Leslie Offutt, Associate Professor Emerita of History, on a culinary and cultural adventure to Mexico. Travelers will explore three awe-inspiring cities—Mexico City, Puebla, and Oaxaca—immersing themselves in rich culture, enjoying amazing food experiences, and discovering the region’s artistic treasures. Highlights of the trip include:</p>
-
-<ul>
-	<li>Visiting a chocolate mill and a mezcal distillery, and participating in a cooking class and farewell dinner with a renowned chef</li>
-	<li>Exploring the artistic legacies of Diego Rivera and Frida Kahlo, attending a performance of the Ballet Folklórico, and taking part in a food tour of the San Juan Market in Mexico City</li>
-	<li>Sampling rich moles, seeing the finest Indian Baroque churches, and touring a talavera tile factory in Puebla</li>
-	<li>Meeting renowned craftspeople in their village workshops and exploring remarkable archaeological sites in Oaxaca</li>
-</ul>
-
-<p><strong>Tour cost:</strong> $6,995 per person, double occupancy (additional single supplement $1,295).<br /><em>International airfare not included.</em></p>
-
-<?php echo cta_link(
-    '/alums/assets/pdf/Vassar_Mexico_2026_V2_itinerary.pdf',
-    'View the full Mexico itinerary.'
-
-); ?>
-<?php echo cta_link(
-    '/alums/assets/pdf/Vassar_Mexico_2026_V2_RegistrationForm.pdf',
-    'Reserve your place for Mexico.'
-
-); ?>
-
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
 <div id="greece"></div>
 <?php echo sec_fullBleedImageColumn(
     null,
     $alums_img_path.'alums-calendar/travel-program/2026-Greece-Andros-Chora.jpg',
-    'image-is-first theme-darkcoal',
+    'theme-darkcoal',
     '',
     ['img_alt_text' => 'Chora in Andros, Greece, a coastal village of whitewashed buildings with terracotta roofs perched on rocky cliffs above crystal-clear blue water, backed by rolling hills under a bright sky.']
 ); ?>
