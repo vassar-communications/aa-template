@@ -95,7 +95,6 @@ End of hiding info content*/ ?>
 
 
 
-<?php /*hiding below items until 2026 setup
 
 <?php echo sec_fullBleedImageColumn(
     'General Reunion<br> Class Schedule',
@@ -105,8 +104,8 @@ End of hiding info content*/ ?>
     ['img_alt_text' => 'A large group of people sitting at round tables, coversing with one and other, under a huge white tent.']
 ); ?>
 <?php echo cta_link(
-    '/alums/calendar/reunion/schedule/',
-    'See the Reunion Schedule'
+    'https://vassar-college-test.modolabs.net/reunionv2/reunion_schedule/index?feed=events&tracks%5B%5D=general_schedule&tracks%5B%5D=lectures_and_panels&startdate=2026-06-05T00%3A00%3A00',
+    'See the Preliminary Reunion Schedule'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -118,11 +117,11 @@ End of hiding info content*/ ?>
     ['img_alt_text' => 'People walking in a group, with a person with long hair and flowers in it holding a banner that says Class of 1975 on it.']
 ); ?>
 
-<p>Enjoy the campus a day early with programming designed especially for the 50th Reunion class. Check-in will open on Thursday, June 5 at 2:00 p.m.</p>
+<p>Enjoy the campus a day early with programming designed especially for the 50th Reunion class. Check-in will open on Thursday, June 4 at 2:00 p.m.</p>
 
 <?php echo cta_link(
-    '50th/',
-    'See the 50th Reunion Schedule'
+    'https://vassar-college-edit.modolabs.net/reunionv2/reunion_schedule/index?feed=events&tracks%5B%5D=id_50th_reunionv2_2026',
+    'See the Preliminary 50th Reunion Schedule'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -139,10 +138,13 @@ End of hiding info content*/ ?>
 <p>Explore this year’s lifelong learning opportunities through lectures and tours at Reunion!</p>
 
 <?php echo cta_link(
-    '/alums/calendar/reunion/lectures/',
+    'https://vassar-college-test.modolabs.net/reunionv2/reunion_schedule/index?feed=events&tracks%5B%5D=lectures_and_panels&startdate=2026-06-05T00%3A00%3A00',
     'Learn more about Lectures and Tours'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php /*hiding below items until 2026 setup
 
 
 <!--this lost and found info goes in the section below with the future reunion dates, when it's immediately post-reunion-->
