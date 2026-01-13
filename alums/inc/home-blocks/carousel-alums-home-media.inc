@@ -4,83 +4,102 @@ echo carousel( '', 'alums-media-carousel' ); ?>
 
 
 
-<?php echo carousel_item(
-        $media_carousel_path.'/2025-07-23/in-the-media/0141-18-10-kr-kudrow-vassar-0803.jpg',
-        'is-link',
-        'A person with straight, shoulder-length blonde hair sits indoors in front of a softly lit stone or concrete surface. They are dressed in a black jacket with a visible beaded necklace and patterned shirt underneath. A glass vase with yellow and red flowers is blurred in the background on the left. The lighting is natural and diffused, creating a calm, neutral atmosphere.'
-      ); ?>
+    <?php echo carousel_item(
+            $media_carousel_path.'/2026-01-13/in-the-media/noah_baumbach_AP.jpg',
+            'is-link',
+            'A close-up portrait features an individual with dark, tousled hair and a neutral expression. The subject is wearing a dark blazer over a light-striped shirt, which introduces subtle contrast against the light background. Behind, text related to a film festival is partially visible, rendered in soft blue hues. The lighting is even and highlights the subject’s features against the plain backdrop, creating a professional and polished appearance.'
+          ); ?>
+        
+    <p>Director and screenwriter <strong>Noah Baumbach ’91</strong> talked to <em>The New York Times</em> about his latest film, <em>Jay Kelly</em>.</p>
     
-<p><strong>Lisa Kudrow ’85</strong>, star of HBO’s <em>The Comeback</em>, was featured in <em>The New York Times</em> after it was announced that the show will be returning for a third season in 2026.</p>
-
-      <p><em>Photo: Karl Rabe</em></p>
-      <?php echo cta_link(
-      'https://www.nytimes.com/2025/06/27/business/media/the-comeback-lisa-kudrow-hbo.html',
-      'Read more',
-      'stretched-link'
-      ); ?>
+          <p><em>Photo: AP Images</em></p>
+          <?php echo cta_link(
+          'https://www.nytimes.com/2025/11/19/movies/george-clooney-adam-sandler-noah-baumbach-jay-kelly.html',
+          'Read more',
+          'stretched-link'
+          ); ?>
     <?php echo end_carousel_item();  ?>
-<?php echo carousel_item(
-        $media_carousel_path.'/2025-07-23/in-the-media/Eric_Marcus_Studio_CourtesyOf.jpg',
-        'is-link',
-        'A person sits in a soundproof studio wearing over-ear headphones and a blue-striped shirt. They are surrounded by three microphones with foam covers and pop filters on adjustable arms. The gray acoustic panels on the wall and a white paper cup in the lower-left corner suggest a controlled recording environment. Lighting is even and soft, with minimal shadow.'
-      ); ?>
-    
-<p>Podcaster <strong>Eric Marcus ’80</strong> spoke to <em>NPR’s</em> Scott Detrow about how Pride has evolved into what it is today.</p>
 
-      <p><em>Photo: Courtesy of the Subject</em></p>
-      <?php echo cta_link(
-      'https://www.npr.org/2024/06/30/1198912755/the-evolution-of-pride',
-      'Read more',
-      'stretched-link'
-      ); ?>
-    <?php echo end_carousel_item();  ?>
-<?php echo carousel_item(
-        $media_carousel_path.'/2025-07-23/in-the-media/Leah_Goodridge_courtesy_of.jpg',
-        'is-link',
-        'A person poses in front of a plain off-white background with one hand resting under their chin. They wear a sleeveless white shirt, heart-shaped hoop earrings, and several rings. Their hair is styled in a tall, natural curl with one side closely shaved. Bright, even lighting enhances facial highlights and gives the image a clean, high-contrast look.'
-      ); ?>
-    
-<p>Attorney <strong>Leah Goodridge ’04</strong> wrote an opinion piece for <em>The Guardian</em> about New York City mayoral candidate Zohran Mamdani’s proposal for a citywide rent freeze.</p>
 
-      <p><em>Photo: Courtesy of the Subject</em></p>
-      <?php echo cta_link(
-      'https://www.theguardian.com/commentisfree/2025/jul/14/new-york-rent-freeze-zohran-mamdani?CMP=share_btn_url',
-      'Read more',
-      'stretched-link'
-      ); ?>
-    <?php echo end_carousel_item();  ?>
-<?php echo carousel_item(
-        $media_carousel_path.'/2025-07-23/in-the-media/Nova_Gregory.jpg',
-        'is-link',
-        'A person with short, brushed-back hair and rectangular glasses looks directly at the camera. They wear a maroon athletic pullover with a white logo on the chest and a light pink shirt underneath. The background is a soft gradient of gray tones with gentle focus falloff. The lighting is uniform, evenly illuminating the face and clothing.'
-      ); ?>
+    <?php echo carousel_item(
+            $media_carousel_path.'/2026-01-13/in-the-media/phyllis_klaus.jpg',
+            'is-link',
+            'A figure with short brown hair and glasses is positioned against a backdrop of lush, green forest foliage, with tall trees partially obscuring the sky. The figure leans on a wooden railing, hands clasped together in a relaxed posture. The attire includes a dark outer layer over a red turtleneck, contributing to a warm color palette. The surrounding environment is dappled with soft, natural light that filters through the leaves, enhancing the serene atmosphere of the setting.'
+          ); ?>
+        
+    <p>Social worker <strong>Phyllis Klaus ’57, P’82</strong>, a founder of the doula movement, was named to the Prenatal Sciences Research Institute 2025 Hall of Honor.</p>
     
-<p><strong>Nova Gregory ’21</strong> wrote a piece for <em>Outsports</em> about their experience being the first out transgender fencing master.</p>
-
-      <p><em>Photo: Stockton Photo, Inc.</em></p>
-      <?php echo cta_link(
-      'https://www.outsports.com/2025/6/3/24112159/nova-gregory-transgender-fencing-master-pride/',
-      'Read more',
-      'stretched-link'
-      ); ?>
-    <?php echo end_carousel_item();  ?>
-<?php echo carousel_item(
-        $media_carousel_path.'/2025-07-23/in-the-media/Vera_Rubin_Rubin_Observatory_NSF_AURA.jpg',
-        'is-link',
-        'A person operates a large cylindrical mechanical device mounted under a complex metal structure. They wear glasses and a short-sleeved top, with short, curled hair and a bracelet on their wrist. The background is digitally edited in cyan and features a faint landscape with buildings and mountainous terrain. The foreground remains in grayscale, emphasizing the machinery and figure.'
-      ); ?>
-    
-<p>A newly completed observatory named for astronomer <strong>Vera Rubin</strong> ’48 will “transform astronomy,” according to <em>The New York Times</em>.</p>
-
-      <p><em>Photo: Rubin Observatory/NSF/AURA</em></p>
-      <?php echo cta_link(
-      'https://www.nytimes.com/2025/06/23/science/vera-rubin-telescopes-first-images.html?nl=the-morning&regi_id=83703024&segment_id=200470',
-      'Read more',
-      'stretched-link'
-      ); ?>
+          <p><em>Photo: Courtesy of the subject</em></p>
+          <?php echo cta_link(
+          'https://ppphallofhonororg.wordpress.com/2025-hoh-inductees/',
+          'Read more',
+          'stretched-link'
+          ); ?>
     <?php echo end_carousel_item();  ?>
 
 
 
+
+
+
+    <?php echo carousel_item(
+            $media_carousel_path.'/2026-01-13/in-the-media/0047-19-04-kr-maldonado-vassar4022-2.jpg',
+            'is-link',
+            'A smiling figure sits beside a large window, framed by rich wooden panels that echo a warm tone. The figure wears a light pink, checkered shirt and appears relaxed, leaning slightly forward. Outside the window, a textured blue backdrop suggests a building or urban environment. Soft, diffused light illuminates the scene, enhancing the inviting atmosphere.'
+          ); ?>
+        
+    <p>Educator and author <strong>Torrey Maldonado ’96</strong> wrote an article for <em>School Library Journal</em> about how slang can help teachers connect with students.</p>
+    
+          <p><em>Photo: Courtesy of the subject</em></p>
+          <?php echo cta_link(
+          'https://pearlsandrubys.slj.com/2025/12/08/not-gonna-lie-six-seven-and-slang-low-key-gets-kids-attention/',
+          'Read more',
+          'stretched-link'
+          ); ?>
+    <?php echo end_carousel_item();  ?>
+    
+    
+    
+    
+
+
+
+    <?php echo carousel_item(
+            $media_carousel_path.'/2026-01-13/in-the-media/0032_14_03_SS2_22.jpg',
+            'is-link',
+            'A person with long dark hair and glasses stands confidently with arms crossed in a well-lit office space that features large windows allowing natural light to flood the room. The brick wall behind them adds warmth to the environment, contrasting with the cool tones of the sleek, modern furniture. Two computers are positioned on a wooden table, one open and the other turned off, completed with a pen resting nearby. The overall atmosphere suggests a creative and professional workspace.'
+          ); ?>
+        
+    <p>Victims’ rights attorney <strong>Carrie Goldberg ’99</strong> wrote an op-ed for <em>Newsweek</em> about AI.</p>
+    
+          <p><em>Photo: Samuel Stuart Photography</em></p>
+          <?php echo cta_link(
+          'https://www.newsweek.com/ai-is-causing-real-world-trauma-the-courts-have-a-way-to-stop-it-opinion-11182536',
+          'Read more',
+          'stretched-link'
+          ); ?>
+    <?php echo end_carousel_item();  ?>
+    
+
+
+
+    <?php echo carousel_item(
+            $media_carousel_path.'/2026-01-13/in-the-media/andrew_zimmern.jpg',
+            'is-link',
+            'A smiling figure is seated indoors, positioned to the left of the frame. The background features a warm yellow wall and glimpses of a softly blurred outdoor setting, creating a calm atmosphere. The soft lighting highlights the figure’s expression and attire, consisting of a light-colored shirt beneath a textured brown blazer. Minimal furnishings, such as light-colored chairs and tables, are visible in the background, enhancing the inviting environment.'
+          ); ?>
+        
+    <p>Chef and TV personality <strong>Andrew Zimmern ’84</strong> wrote an opinion piece for <em>The New York Times</em> about the harsh chemicals in non-stick pans.</p>
+    
+          <p><em>Photo: Courtesy of the Travel Channel</em></p>
+          <?php echo cta_link(
+          'https://www.nytimes.com/2025/10/08/opinion/nonstick-pans-cooking-chemicals-teflon.html',
+          'Read more',
+          'stretched-link'
+          ); ?>
+    <?php echo end_carousel_item();  ?>    
+    
+    
+    
 
 <?php echo end_carousel(); ?>
