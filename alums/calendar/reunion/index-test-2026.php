@@ -66,7 +66,6 @@ End of hiding info content*/ ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-
 <?php echo sec_regularContent(
   'Express your Interest to<br> attend Reunion 2026',
   '',
@@ -95,19 +94,51 @@ End of hiding info content*/ ?>
 <?php echo end_sec_regularContent(); ?>
 
 
+<?php echo sec_regularContent(
+  'NEW: Vassar Mobile Reunion Experience',
+  ' theme-cream',
+  ''
+); ?>
+
+<p>Did you know that Vassar has a mobile app? It now has a complete mobile Reunion experience. Get the app and choose “Reunion” from the initial “Choose Your Experience” screen to get started:</p>
+<ul>
+    <li><a href="https://go.vassar.edu/vassarmobile-iOS">Download for iOS</a></li>
+    <li><a href="https://go.vassar.edu/vassarmobile-google">Download for Android</a></li>
+</ul>
+<p>Already have the app and use the “Alum” persona? Tap on the person icon in the upper right corner of the app, then tap on “My Role” to switch to the Reunion persona for the weekend.</p>
+<p><a href="https://docs.google.com/document/d/1wmdzh3DJPmxrk7cYZLj_5VaXhdEEv7otQ4_-MVoXnis/edit?usp=sharing">Read the Vassar Mobile Reunion Experience Guide</a> for tips on using the app.</p>
+<p><strong>IMPORTANT!! There is no login to use the app</strong>. Ignore the “Sign In” link under the person icon, it’s solely for Vassar students and employees.</p>
+
+<?php echo end_sec_regularContent(); ?>
+
+
 
 <?php echo sec_fullBleedImageColumn(
-    'General Reunion<br> Class Schedule',
+    'Preliminary<br> Class Schedules',
     $alums_img_path.'alums-calendar/reunion/Reunion-General-52960456425_6f999747a0_k.jpg',
     'theme-burgundy',
     '',
     ['img_alt_text' => 'A large group of people sitting at round tables, coversing with one and other, under a huge white tent.']
 ); ?>
+
+<p>This year’s class schedules can be filtered or searched in any way you wish. You can check or uncheck the filter options, and/or do a keyword search to find results with that keyword (such as your class year).<sup>*</sup> For your convenience, we have set up two first-time views of the class schedules, as follows:</p>
+
 <?php echo cta_link(
     'https://vassar-college-test.modolabs.net/reunionv2/reunion_schedule/index?feed=events&tracks%5B%5D=general_schedule&tracks%5B%5D=lectures_and_panels&startdate=2026-06-05T00%3A00%3A00',
-    'See the Preliminary Reunion Schedule'
+    'List of general events for all Reunion classes.'
 ); ?>
+<?php echo cta_link(
+    'https://vassar-college-edit.modolabs.net/reunionv2/reunion_schedule/index?feed=events&tracks%5B%5D=id_50th_reunionv2_2026',
+    'List of the 50th Reunion class-specific events.'
+); ?>
+
+<br />
+<p><strong><sup>*</sup>Note:</strong> Any events that you star as a Favorite in these schedules will not carry over to the mobile app, and vice versa.</p>
+
 <?php echo end_sec_fullBleedImageColumn(); ?>
+
+
+<?php /*hiding below item until 2026 setup
 
 <?php echo sec_fullBleedImageColumn(
     '50th Reunion<br> Class Schedule',
@@ -125,8 +156,6 @@ End of hiding info content*/ ?>
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
-
-<?php /*hiding below item until 2026 setup
 
 <?php echo sec_fullBleedImageColumn(
     'Lectures and Tours',

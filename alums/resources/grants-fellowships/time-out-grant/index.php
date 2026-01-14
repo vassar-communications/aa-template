@@ -44,7 +44,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A person wearing a safety helmet wearing a yellow shirt and carrying a hoe smiles at the viewer in front of burnt vegetation.']
 ); ?>
 
-<p class="intro-text">Established in 1998, the Time Out Grant seeks to inspire Vassar alums to pursue an original, bold interest, project, or business that could innovate the world around them.</p>
+<p class="intro-text">Established in 1988, the Time Out Grant seeks to inspire Vassar alums to pursue an original, bold interest, project, or business that could innovate the world around them.</p>
 
 <ul>
   <li>Proposals can be in any field including science, business, education, the arts, human services, environment, or others.</li>
