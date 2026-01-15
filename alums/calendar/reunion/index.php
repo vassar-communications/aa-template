@@ -41,7 +41,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A person stands at a podium in front of a large group of people sitting under a tent, with a large banner behind them that says AAVC in white on a red background.']
 ); ?>
 
-  <p>We look forward to welcoming alums from classes ending in 1 or 6 on June 5—7, 2026. The Class of 1976, celebrating its 50th Reunion, will arrive on June 4, 2026.</p>
+  <p>We look forward to welcoming alums from classes ending in 1 or 6 on June 5–7, 2026. The Class of 1976, celebrating its 50th Reunion, will arrive on June 4, 2026.</p>
   <p>Please help us plan for your arrival by expressing your interest to attend. Can’t wait to see you this summer!</p>
   <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5.</p>
 
