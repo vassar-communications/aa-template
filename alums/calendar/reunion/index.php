@@ -128,11 +128,11 @@ End of hiding info content*/ ?>
 <p>For your convenience, we have created two default views of the class schedules, as follows:</p>
 
 <?php echo cta_link(
-    'https://vassar-college-test.modolabs.net/reunionv2/reunion_schedule/index?feed=events&tracks%5B%5D=general_schedule&tracks%5B%5D=lectures_and_panels&startdate=2026-06-05T00%3A00%3A00',
+    'https://vassar-college-prod.modolabs.net/reunionv2/reunion_schedule/index?feed=events&tracks%5B%5D=general_schedule&tracks%5B%5D=lectures_and_panels&startdate=2026-06-05T00%3A00%3A00',
     'List of general events for all Reunion classes.'
 ); ?>
 <?php echo cta_link(
-    'https://vassar-college-edit.modolabs.net/reunionv2/reunion_schedule/index?feed=events&tracks%5B%5D=id_50th_reunionv2_2026',
+    'https://vassar-college-prod.modolabs.net/reunionv2/reunion_schedule/index?feed=events&tracks%5B%5D=id_50th_reunionv2_2026',
     'List of the 50th Reunion class-specific events.'
 ); ?>
 
