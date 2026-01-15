@@ -34,7 +34,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Welcome back!',
+    'Welcome Back!',
     $alums_img_path.'alums-calendar/reunion/reunion-52960218489_a3d3ff91f9_o.jpg',
     'image-is-first theme-cream',
     '',
@@ -43,6 +43,7 @@ $page_info = json_decode($page_info, true);
 
   <p>We look forward to welcoming alums from classes ending in 1 or 6 on June 5–7, 2026. The Class of 1976, celebrating its 50th Reunion, will arrive on June 4, 2026.</p>
   <p>Please help us plan for your arrival by expressing your interest to attend. Can’t wait to see you this summer!</p>
+  <p>Scroll and check out what is happening during the weekend in the preliminary schedules below.</p>
   <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5.</p>
 
 <?php /*hiding below items until 2026 setup
@@ -277,8 +278,9 @@ End of hiding info content*/ ?>
 <?php echo item_iconItem('Housing','house-chimney',''); ?>
 <p>We are excited to welcome alums back to Vassar for an in-person reunion and want to ensure that everyone makes informed decisions about where to stay.</p>
 
-<p>We recommend you <strong>register early</strong> for on-campus housing as it is allocated on a first-come, first-served basis. Family housing (for families with young children of four or more) will be in the Terrace Apartments (TAs) and will be $400 per family.</p>
-<p>Class Dorm assignments are available below. The cost to stay on campus in a dorm will be $175.00 per person, per bed for any part of the weekend. If you are part of the 5th year Reunion class, the cost is $125.00 per person, per bed for any part of the weekend.</p>
+<p>We recommend you register early for on-campus housing as it is allocated on a first-come, first-served basis. Family housing (for families with young children of four or more) will be in the Terrace Apartments (TAs) and will be $400 per family.</p>
+<p>The cost to stay on campus in a dorm will be $175.00 per person, per bed for any part of the weekend.</p>
+<p>If you are part of the 5th year Reunion class, the cost is $125.00 per person, per bed for any part of the weekend.  In order to maximize the housing for the 5th year Reunion class, it is recommended you choose a person to share a room with, either a guest that is attending Reunion with you or another classmate.</p>
 <p>If you prefer the creature comforts of home, <a href="https://www.vassar.edu/visit/community/lodging">search area hotels</a>. The following area hotels have rooms specifically reserved for Reunion.</p>
 
 <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
@@ -347,14 +349,14 @@ End of hiding info content*/ ?>
                 <p><strong>Residence Hall rooms:</strong></p>
                 <ul>
                     <li>Include twin-sized beds about half of which are lofted/raised and cannot be lowered.</li>
-                    <li>Include commercial linens (two twin flat sheets, one pillow case, one light twin blanket, one towel, and one washcloth) placed on each bed. If you would like to have an extra blanket or towel, please bring them with you.</li>
+                    <li>Include commercial linens (x-long fitted sheet, flat sheet, one pillow case, one light twin blanket, one small towel, and one washcloth) placed and bundled on each bed. One bundle packet is ordered per person based on registrations. If you would like to have an extra blanket or towel, please bring them with you.</li>
                     <li>Does <strong>not</strong> include air conditioning, soap, or private bathrooms.</li>
                     <li>Are not guaranteed to be quiet.</li>
                 </ul>
 
-                <p>We regret that we are unable to guarantee single room requests. If you are attending Reunion by yourself, we encourage coordinating with friends in advance to ensure your roommate of choice. If you require a single room, please indicate that in the special housing notes. If you require a room with a private bathroom, we strongly recommend you make reservations at one of the Hudson Valley’s area hotels.</p>
+                <p>We regret that we are unable to guarantee single room requests but do our best to honor as many as we can. If you are attending Reunion by yourself, we encourage coordinating with friends in advance to ensure your roommate of choice. If you require a single room, please indicate that in the special housing notes. If you require a room with a private bathroom, we strongly recommend you make reservations at one of the Hudson Valley’s area hotels.</p>
 
-                <p>Please Note: Alumnae House and the Heartwood are not open for general reservations but reserved for the oldest Reunion classes (75th, 70th, and 65th) and the AAVC Board.</p>
+                <p>Please Note: Alumnae House and the Heartwood are not open for general reservations but reserved for the oldest Reunion classes (75th, 70th, 65th, and 60th Reunion classes) and the Alumnae/i Association of Vassar College board members.</p>
 
                 <p>Also, the College performs routine maintenance (in rotation) and also houses more than 200 students during the summer months. As such, some residence halls will be “offline” every year (and unavailable for lodging or entering).</p>
             </div>
