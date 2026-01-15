@@ -132,7 +132,7 @@ End of hiding info content*/ ?>
     'List of general events for all Reunion classes.'
 ); ?>
 <?php echo cta_link(
-    'https://vassar-college-prod.modolabs.net/reunionv2/reunion_schedule/index?feed=events&tracks%5B%5D=id_50th_reunionv2_2026',
+    'https://vassar-college-prod.modolabs.net/reunionv2/reunion_schedule/index?feed=events&tracks%5B%5D=id_50th_reunionv2_2026&startdate=2026-06-04T00%3A00%3A00',
     'List of the 50th Reunion class-specific events.'
 ); ?>
 
