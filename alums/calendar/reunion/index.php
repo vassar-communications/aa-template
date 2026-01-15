@@ -111,7 +111,7 @@ End of hiding info content*/ ?>
 </ul>
 <p>Already have the app and use the “Alum” persona? Simply tap the person icon in the upper-right corner of the app, select “My Role,” and switch to the “Reunion” persona for the weekend.</p>
 <p>For tips on using the app, <a href="https://docs.google.com/document/d/1wmdzh3DJPmxrk7cYZLj_5VaXhdEEv7otQ4_-MVoXnis/edit?usp=sharing">read the Vassar Mobile Reunion Experience Guide</a>.</p>
-<p>PLEASE NOTE: There is no login required to use the app! Ignore the “Sign In” link beneath the person icon menu, it’s solely for Vassar students and employees.</p>
+<p><strong>PLEASE NOTE: There is no login required to use the app!</strong> Ignore the “Sign In” link beneath the person icon menu, it’s solely for Vassar students and employees.</p>
 
 <?php echo end_sec_regularContent(); ?>
 
