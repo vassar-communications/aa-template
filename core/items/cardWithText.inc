@@ -2,7 +2,7 @@
 
 function item_cardWithText(
     $title=false,
-    $card_link_url,
+    $card_link_url=null,
     $card_image_info=false,
     $classes=null,
     $extras=null
