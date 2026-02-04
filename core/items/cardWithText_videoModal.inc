@@ -2,8 +2,8 @@
 
 function item_cardWithTextVideoModal(
     $title=false,
-    $videourl,
-    $channel,
+    $videourl=null,
+    $channel=null,
     $card_image_info=false,
     $classes=null,
     $extras=null
