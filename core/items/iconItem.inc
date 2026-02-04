@@ -2,7 +2,7 @@
 
 function item_iconItem(
   $title=false,
-  $icon,
+  $icon=null,
   $classes=null,
   $extras=null
 ) {
