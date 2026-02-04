@@ -3,9 +3,9 @@
 function item_imageCard_modal(
   $title=false,
   $text=null,
-  $modal_id,
-  $content_markup,
-  $card_image_info,
+  $modal_id=null,
+  $content_markup=null,
+  $card_image_info=null,
   $classes='',
   $extras=null
 ) {
