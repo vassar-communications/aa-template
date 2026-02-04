@@ -3,8 +3,8 @@
 function item_imageCard(
   $title=false,
   $text=null,
-  $card_link_url,
-  $card_image_info,
+  $card_link_url=null,
+  $card_image_info=null,
   $classes='',
   $extras=null
 ) {
