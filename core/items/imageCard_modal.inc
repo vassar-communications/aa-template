@@ -2,7 +2,7 @@
 
 function item_imageCard_modal(
   $title=false,
-  $text,
+  $text=null,
   $modal_id,
   $content_markup,
   $card_image_info,
@@ -47,10 +47,10 @@ TMP;
 
 function item_imageCard_modal_setup(
   $title=false,
-  $text,
-  $modal_id,
-  $content_markup,
-  $card_image_info,
+  $text=null,
+  $modal_id=null,
+  $content_markup=null,
+  $card_image_info=null,
   $classes='',
   $extras=null
 ) {
