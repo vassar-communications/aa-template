@@ -17,7 +17,7 @@
 
 function sec_fullBleedImageColumn(
   $title = false,
-  $image,
+  $image = null,
   $section_classes = false,
   $content_classes = false,
   $extras = false
