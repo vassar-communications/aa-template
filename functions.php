@@ -300,7 +300,7 @@ TMP;
 //  - make $link required
 //  - put link markup back in template; don't make it conditional
 //
-function crumb_item($link='', $title, $classes='') {
+function crumb_item($title, $link='', $classes='') {
 
   $link_markup_start = '<strong>';
   $link_markup_end = '</strong>';
@@ -624,14 +624,14 @@ function breadcrumb() {
 
       // $breadcrumb_markup .= crumb_item($project_paths['final_url'].$path, $title, 'level-'.$crumb_level);
 
-      $breadcrumb_markup .= crumb_item( $item_link, $title, 'level-'.$crumb_level );
+      $breadcrumb_markup .= crumb_item( $title, $item_link, 'level-'.$crumb_level );
     }
     $crumb_level++;
 
   }
   unset($item);
 
-  $home_item = crumb_item('https://www.vassar.edu', 'Home', 'level-1');
+  $home_item = crumb_item('Home', 'https://www.vassar.edu', 'level-1');
   $breadcrumb_markup = $home_item.$breadcrumb_markup;
 
   return '<ol class="breadcrumb '.$path_class.' ">'.$breadcrumb_markup.'</ol>';
