@@ -279,7 +279,7 @@ End of hiding info content*/ ?>
 <p>We are excited to welcome alums back to Vassar for an in-person reunion and want to ensure that everyone makes informed decisions about where to stay.</p>
 
 <p>We recommend you register early for on-campus housing as it is allocated on a first-come, first-served basis. Family housing (for families with young children of four or more) will be in the Terrace Apartments (TAs) and will be $400 per family.</p>
-<p>The cost to stay on campus in a dorm will be $175.00 per person, per bed for any part of the weekend.</p>
+<p>The cost to stay on campus in a residence hall will be $175.00 per person, per bed for any part of the weekend.</p>
 <p>If you are part of the 5th year Reunion class, the cost is $125.00 per person, per bed for any part of the weekend.  In order to maximize the housing for the 5th year Reunion class, it is recommended you choose a person to share a room with, either a guest that is attending Reunion with you or another classmate.</p>
 <p>If you prefer the creature comforts of home, <a href="https://www.vassar.edu/visit/community/lodging">search area hotels</a>. The following area hotels have rooms specifically reserved for Reunion.</p>
 
@@ -316,7 +316,7 @@ End of hiding info content*/ ?>
     <div class="accordion-item">
         <div class="accordion-header" id="flush-headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Reunion 2026 Dorm Headquarters
+                Reunion 2026 Class Headquarters
             </button>
         </div>
         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
@@ -341,7 +341,7 @@ End of hiding info content*/ ?>
     <div class="accordion-item">
         <div class="accordion-header" id="flush-headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                Additional on-campus housing
+                Additional on-campus housing information
             </button>
         </div>
         <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample3">
