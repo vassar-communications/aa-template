@@ -1,4 +1,3 @@
-
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
@@ -8,8 +7,8 @@ include($project_paths['main_project_root'].'/functions.php');
 /* PAGE INFO === */
 
 $page_info = '{
-  "page_title": "Campus Visits",
-  "feature_image": "/admission/assets/images/visit/in-person/0045-19-05-kr-spring-vassar-6002.jpg"
+    "page_title": "Campus Visits",
+    "feature_image": "/admission/assets/images/visit/in-person/0045-19-05-kr-spring-vassar-6002.jpg"
 }';
 
 /* === */
@@ -19,14 +18,14 @@ $page_info = json_decode($page_info, true);
 ?>
 
 <?php
-  echo site_header();
+    echo site_header();
 ?>
 
 <?php echo vassar_masthead(); ?>
 
-<?php // An aerial view of one of Vassar’s quads: large green lawns and people walking on campus paths; ?>
+<?php // An aerial view of one of Vassar’s quads: large green lawns and people walking on campus paths;?>
 
-<?php echo page_partialmasthead($page_info['feature_image'],['image_alt_text' => 'Aerial view of Jewett House, a tall brick building surrounded by trees.']); ?>
+<?php echo page_partialmasthead($page_info['feature_image'], ['image_alt_text' => 'Aerial view of Jewett House, a tall brick building surrounded by trees.']); ?>
 
 <?php echo hamburger_navigation(); ?>
 
@@ -35,7 +34,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fullBleedImageColumn(
     null,
-     '/admission/assets/images/visit/in-person/0070-21-06-kr-tour-vassar-0053.jpg',
+    '/admission/assets/images/visit/in-person/0070-21-06-kr-tour-vassar-0053.jpg',
     'image-is-first theme-cream',
     '',
     ['img_alt_text' => 'A tour guide leading a group of people.']
@@ -49,7 +48,7 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">We are excited to welcome visitors to campus! Get to know our vibrant community first-hand and learn more about academics and student life at Vassar.</p>
 
-<?php echo cta_link(
+    <?php echo cta_link(
     'https://apply.vassar.edu/portal/campusvisitcalendar',
     'View the Calendar and Register'
 ); ?>
@@ -59,17 +58,17 @@ $page_info = json_decode($page_info, true);
 
 <?php /*
 <?php echo sec_regularContent(
-    'Visitor Health and Safety Policies',
-    '',
-    '',
-    ''
+        'Visitor Health and Safety Policies',
+        '',
+        '',
+        ''
 ); ?>
 
 <?php echo item_alert(
-    'Mask Policy',
-    'All visitors must wear a mask when indoors. The information session and guided tour will include entry into campus buildings, so please have a mask with you during your visit.',
-    'mask-face',
-    'alert-light alert-accent-gold'
+        'Mask Policy',
+        'All visitors must wear a mask when indoors. The information session and guided tour will include entry into campus buildings, so please have a mask with you during your visit.',
+        'mask-face',
+        'alert-light alert-accent-gold'
 ); ?>
 
 <h3>Proof of COVID-19 Vaccination or Negative Test</h3>
@@ -107,7 +106,7 @@ $page_info = json_decode($page_info, true);
 
 <p>Visitor parking can be found in the North Parking Lot or South Parking Lot; additionally, a small number of visitor spaces are available on Main Campus Drive and in front of Kautz House. We recommend arriving on campus at least 20 minutes prior to the start of your visit in order to secure parking and make your way to the check-in location.</p>
 
-<p>Check-in will open 30 minutes prior to the start of the visit and will take place at the Kautz Admission House. Check-in will close 20 minutes after the start of the visit session. Guests arriving after check-in has closed will be unable to join the tour.</p>
+<p>Check-in will open 30 minutes prior to the start of the visit and will take place at The Dede Thompson Bartlett Center for Admission and Career Education. Check-in will close 20 minutes after the start of the visit session. Guests arriving after check-in has closed will be unable to join the tour.</p>
 
 <p>Pets are not permitted in the Information Session or Campus Tour; service animals are welcome.</p>
 
@@ -144,15 +143,14 @@ $page_info = json_decode($page_info, true);
 
 
 
+    <?php /*  PAGE CONTENT === */ ?>
 
-<?php /*  PAGE CONTENT === */ ?>
 
+    <!-- Related Topics -->
+    <?php echo relatedTopics(); ?>
+    <?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-hudson-valley.php');?>
+    <?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-virtual-programs.php');?>
+    <?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-group-visits.php');?>
+    <?php echo end_sec_relatedTopics(); ?>
 
-<!-- Related Topics -->
-<?php echo relatedTopics(); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/explore/explore-hudson-valley.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-virtual-programs.php');?>
-<?php include($project_paths['main_project_root'].'/admission/inc/pages/visit/visit-group-visits.php');?>
-<?php echo end_sec_relatedTopics(); ?>
-
-<?php echo site_footer(); ?>
+    <?php echo site_footer(); ?>
