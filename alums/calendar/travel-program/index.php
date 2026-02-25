@@ -139,7 +139,7 @@ June 19-July 1, 2025</p>
 
 <p>With its dramatic landscapes, fascinating history, epic food, and pulsating energy, Vietnam is a unique travel destination. Professor Brigham has arranged many experiences which are not accessible to most tourists—such as meetings with government officials and diplomats, public health experts, educators, and artists—in addition to popular and off-the-beaten-path destinations.</p>
 
-<p><strong>Pricing:</strong>  $8,750 based on double occupancy (not including international airfare). Single room supplement: $2,150.</p>
+<p><strong>Pricing:</strong>  $8,750 per person based on double occupancy (not including international airfare). Single room supplement: $2,150.</p>
 
 <?php echo cta_link(
     '/alums/assets/pdf/Vassar-Vietnam-Trip-March-2027.pdf',
