@@ -42,7 +42,6 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 <p>We look forward to welcoming alums from classes ending in 1 or 6 on June 5–7, 2026. The Class of 1976, celebrating its 50th Reunion, will arrive on June 4, 2026.</p>
-<p>Please help us plan for your arrival by expressing your interest to attend. Can’t wait to see you this summer!</p>
 <p>Scroll and check out what is happening during the weekend in the preliminary schedules below.</p>
 <p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5.</p>
 
