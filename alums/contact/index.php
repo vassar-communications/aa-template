@@ -59,8 +59,7 @@ $page_info = json_decode($page_info, true);
             <strong>Office of Advancement</strong><br>
             Vassar College<br>
             161 College Ave, Box 14<br>
-            Poughkeepsie, NY 12603<br>
-            USA
+            Poughkeepsie, NY 12603
         </p>
         <p>
             <strong>Telephone:</strong> <a href="tel:1-800-443-8196">(800) 443-8196</a> or <a href="tel:1-845-437-5400">(845) 437-5400</a><br>
@@ -249,6 +248,17 @@ echo contact_card(
     [
             'phone' => '845-437-5451',
             'email' => 'aader@vassar.edu',
+        ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
+    'Olivia Bolger',
+    'Assistant Director of Annual Giving, Digital Engagement Officer',
+    [
+            'phone' => '845-437-7888',
+            'email' => 'obolger@vassar.edu',
         ]
 );
 echo end_contact_card();
