@@ -112,12 +112,14 @@ June 19-July 1, 2025</p>
 
 <p><strong>Pricing:</strong> $8,875 per person (not including international airfare). Single room supplement: $1,575.</p>
 
+<p>This tour is sold out. Please contact Kristy Grimes at <a href="mailto:kgrimes@vassar.edu">kgrimes@vassar.edu</a> to join the waitlist.</p>
+
 <?php echo cta_link(
     'https://thegrandtour.com/patron-tour/vassar-sicily/',
-    'See the Sicily itinerary and save your spot.'
+    'See the Sicily itinerary.'
 ); ?>
 
-<p>Enter code <strong>VS2026</strong> on the tour page to view the full itinerary and register.</p>
+<p>Enter code <strong>VS2026</strong> on the tour page to view the full itinerary.</p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
