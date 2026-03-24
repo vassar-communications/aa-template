@@ -51,6 +51,7 @@ $page_info = json_decode($page_info, true);
 );
 ?>
 
+<p style="font-size: 1rem; padding: 0 2rem; text-align: right; margin-top: -1rem; margin-bottom: 2rem; font-style: italic;">The Dede Thompson Bartlett Center for Admission and Career Education</p>
 
 <?php echo sec_regularContent(
     'Contact Information',
@@ -63,6 +64,14 @@ $page_info = json_decode($page_info, true);
 <div class="address-card" style="margin-left: auto; margin-right: auto;">
     <p>
         <strong>Mailing address:</strong><br>
+        Office of Admission<br>
+        Vassar College, Box 10<br>
+        124 Raymond Ave<br>
+        Poughkeepsie, NY 12604-0010<br>
+        USA
+    </p>
+    <p>
+        <strong>Street address:</strong><br>
         The Dede Thompson Bartlett Center for Admission and Career Education<br>
         4 Josselyn Drive, Poughkeepsie, NY 12603<br>
         USA
