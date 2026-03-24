@@ -106,8 +106,10 @@ $page_info = json_decode($page_info, true);
 
 
 <p>The Office of Admission is located inside the Dede Thompson Bartlett Center for Admission and Career Education. Parking is available in the Bartlett Center Visitor Lot and the North Parking Lot. We offer campus visits for prospective students on most weekdays throughout the year, with pre-registration required. Visit our <a href="https://apply.vassar.edu/portal/campusvisitcalendar">Campus Visit Calendar</a> for the most up to date visit schedule.</p>
-
-<a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="btn btn-light">Campus Visit Calendar <i class="mx-0 fa-solid fa-download"></i></a>
+<br>
+<a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="btn btn-light">Campus Visit Calendar
+    <!--<i class="mx-0 fa-solid fa-download"></i>-->
+</a>
 
 <?php echo end_sec_regularContent(); ?>
 
