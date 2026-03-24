@@ -119,7 +119,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/bartlett-rendering-vassar-22-11-mta-009-1.jpg", null, 'An architectural rendering of the Dede Thompson Bartlett Center for Admission and Career Education, a long, wood-paneled modern building.'); ?>
 <h3 class="h3">Dede Thompson Bartlett Center for Admission and Career Education</h3>
-<p>The Dede Thompson Bartlett Center is designed to be calming and welcoming—for students, parents, staff, and community members alike. Read more from the <a href="https://offices.vassar.edu/facilities-operations/projects/completed-projects/the-dede-thompson-bartlett-center-for-admission-and-career-education/#architects-statement">architects’ statement</a>.</p>
+<p>The Dede Thompson Bartlett Center is designed to be calming and welcoming—for students, parents, staff, and community members alike. <a href="https://digital.vassar.edu/vq/fall-winter-2025/the-dede-thompson-bartlett-center-for-admission-and-career-education-heralds-a-new-day-and-a-better-environment/">Read more about the Center</a>.</p>
 <?php echo end_carousel_item(); ?>
 
 
