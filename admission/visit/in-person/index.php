@@ -2,6 +2,7 @@
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
 ?>
+
 <?php
 
 /* PAGE INFO === */
@@ -97,20 +98,16 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-    'Arrival and Check-In',
+    'Visiting Campus',
     'theme-burgundy',
     '',
     ''
 ); ?>
 
 
-<p>Visitor parking can be found in the North Parking Lot or South Parking Lot; additionally, a small number of visitor spaces are available on Main Campus Drive and in front of Kautz House. We recommend arriving on campus at least 20 minutes prior to the start of your visit in order to secure parking and make your way to the check-in location.</p>
+<p>The Office of Admission is located inside the Dede Thompson Bartlett Center for Admission and Career Education. Parking is available in the Bartlett Center Visitor Lot and the North Parking Lot. We offer campus visits for prospective students on most weekdays throughout the year, with pre-registration required. Visit our <a href="https://apply.vassar.edu/portal/campusvisitcalendar">Campus Visit Calendar</a> for the most up to date visit schedule.</p>
 
-<p>Check-in will open 30 minutes prior to the start of the visit and will take place at The Dede Thompson Bartlett Center for Admission and Career Education. Check-in will close 20 minutes after the start of the visit session. Guests arriving after check-in has closed will be unable to join the tour.</p>
-
-<p>Pets are not permitted in the Information Session or Campus Tour; service animals are welcome.</p>
-
-<a href="https://www.vassar.edu/sites/default/files/2022-06/2022-admission-parking-map.pdf" class="btn btn-light">Download Parking Map <i class="mx-0 fa-solid fa-download"></i></a>
+<a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="btn btn-light">Campus Visit Calendar <i class="mx-0 fa-solid fa-download"></i></a>
 
 <?php echo end_sec_regularContent(); ?>
 
@@ -126,8 +123,9 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_wordByWord_fixed(); ?>
 
 
+
 <!-- Campus Access and Pre-Registration -->
-<?php echo sec_fullBleedImageColumn(
+<?php /* echo sec_fullBleedImageColumn(
     'Campus Access and Pre-Registration',
     $admission_img_path.'visit/in-person/0069-19-05-kr-spring-vassar-4221.jpg',
     'image-is-first theme-charcoal bg-dark',
@@ -138,7 +136,7 @@ $page_info = json_decode($page_info, true);
 
     <p>Pre-registration is required to attend an on-campus Admission Information Session and Campus Tour; walk-ins will not be accommodated. Self-guided tours are permitted without registration, and campus maps are available at the directional sign in front of the Kautz Admission House.</p>
     <a href="https://apply.vassar.edu/portal/campusvisitcalendar" class="btn btn-light mt-5 arrow">Register Now</a>
-    <?php echo end_sec_fullBleedImageColumn(); ?>
+    <?php echo end_sec_fullBleedImageColumn(); */ ?>
     <!-- End Campus Access and Pre-Registration -->
 
 
