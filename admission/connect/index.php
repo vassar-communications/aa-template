@@ -1,4 +1,3 @@
-
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
@@ -37,7 +36,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
 
-<?php // echo page_partialmasthead($page_info['feature_image']); ?>
+<?php // echo page_partialmasthead($page_info['feature_image']);?>
 
 <?php echo interior_page_nav() ?>
 
@@ -45,10 +44,10 @@ $page_info = json_decode($page_info, true);
 <?php echo masthead_interiorPage(
     'Our Team is Here to Help You',
     '',
-    $admission_img_path.'/connect/kautz-house-2105-tsa-V866-040-crop.jpg',
+    $admission_img_path.'/connect/bartlett-rendering-vassar-22-11-mta-009-1_vertCrop.jpg',
     null,
     null,
-    ['img_alt_text' => 'Brightly sunlit sidewalk with colorful planted and hanging flowers leading to the entrance of Kautz House on Vassar Campus.']
+    ['img_alt_text' => 'An architectural rendering of the Dede Thompson Bartlett Center for Admission and Career Education, a long, wood-paneled modern building.']
 );
 ?>
 
@@ -61,25 +60,23 @@ $page_info = json_decode($page_info, true);
 <p>We are happy to help with questions, but please know that we do not track demonstrated interest as part of the application process.</p>
 
 
-    <div class="address-card" style="margin-left: auto; margin-right: auto;">
-<p>
-    <strong>Mailing address:</strong><br>
-    Office of Admission<br>
-    Vassar College, Box 10<br>
-    124 Raymond Ave<br>
-    Poughkeepsie, NY 12604-0010<br>
-    USA
-</p>
-<p>
-    Telephone: <a href="tel:1-845-437-7300">(845) 437-7300</a> or <a href="tel:1-800-827-7270">(800) 827-7270</a><br>
-    Fax: <a href="fax:1-845-437-7063">(845) 437-7063</a><br>
-    Email: <a href="mailto:admission@vassar.edu">admission@vassar.edu</a>
-</p>
-    </div>
+<div class="address-card" style="margin-left: auto; margin-right: auto;">
+    <p>
+        <strong>Mailing address:</strong><br>
+        The Dede Thompson Bartlett Center for Admission and Career Education<br>
+        4 Josselyn Drive, Poughkeepsie, NY 12603<br>
+        USA
+    </p>
+    <p>
+        Telephone: <a href="tel:1-845-437-7300">(845) 437-7300</a> or <a href="tel:1-800-827-7270">(800) 827-7270</a><br>
+        Fax: <a href="fax:1-845-437-7063">(845) 437-7063</a><br>
+        Email: <a href="mailto:admission@vassar.edu">admission@vassar.edu</a>
+    </p>
+</div>
 
 <div style="display: flex; align-items: center; justify-content: center; margin-top: 2rem;">
-<a class="m-2 btn btn-lg btn-primary" href="https://apply.vassar.edu/register/requestinfo">Request info</a>
-</div>  
+    <a class="m-2 btn btn-lg btn-primary" href="https://apply.vassar.edu/register/requestinfo">Request info</a>
+</div>
 
 
 
@@ -87,10 +84,17 @@ $page_info = json_decode($page_info, true);
 
 
 
-
 <?php echo sec_regularContent("Admission Officers", null, null); ?>
 
-<div id="portal_a7d01504-affe-4f95-8da9-a8dfbb473d58">Loading...</div><script>/*<![CDATA[*/var script = document.createElement('script'); script.async = 1; script.src = 'https://apply.vassar.edu/portal/find-my-counselor?output=embed&div=portal_a7d01504-affe-4f95-8da9-a8dfbb473d58' + ((location.search.length > 1) ? '&' + location.search.substring(1) : ''); var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);/*]]>*/</script>
+<div id="portal_a7d01504-affe-4f95-8da9-a8dfbb473d58">Loading...</div>
+<script>
+/*<![CDATA[*/
+var script = document.createElement('script');
+script.async = 1;
+script.src = 'https://apply.vassar.edu/portal/find-my-counselor?output=embed&div=portal_a7d01504-affe-4f95-8da9-a8dfbb473d58' + ((location.search.length > 1) ? '&' + location.search.substring(1) : '');
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(script, s); /*]]>*/
+</script>
 
 <?php echo end_sec_regularContent(); ?>
 
