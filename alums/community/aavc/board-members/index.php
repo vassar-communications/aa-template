@@ -347,7 +347,7 @@ End of hiding info content*/ ?>
 
 
 <?php echo item_cardWithText(
-    'Anne Elizabeth Green&nbsp;’93',
+    'Anne Green&nbsp;’93',
     '/alums/community/aavc/board-members/aavc-trustee-green/',
     ['url' => '/alums/assets/img/alums-community/aavc/board/green-anne-aavc-alum-001.jpg', 'alt' => 'A person with wavy grey-black hair pulled back from their face, a dark blue jacket over a red shirt, and a red beaded necklace smiles at the viewer.' ],
     'related-topics card--withParagraph card-has-cta-icon card-is-link'
