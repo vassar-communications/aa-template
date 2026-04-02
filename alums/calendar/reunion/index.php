@@ -41,9 +41,9 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A person stands at a podium in front of a large group of people sitting under a tent, with a large banner behind them that says AAVC in white on a red background.']
 ); ?>
 
-<p>We can’t wait to welcome alums from classes ending in 1 or 6 on June 5–7, 2026. The Class of 1976, celebrating its 50th Reunion, starting on June 4, 2026.</p>
+<p>We’re excited to welcome alums from classes ending in 1 or 6 for Reunion Weekend, taking place June 5–7, 2026. The Class of 1976 will launch its 50th Reunion celebration early starting on June 4, 2026.</p>
 <p>Scroll and check out what is happening during the weekend in the schedules below.</p>
-<p>If you have any questions or need assistance with registration, please call <?php echo phone_number('800-443-8196'); ?>, option 5 or email <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a>.</p>
+<p>If you have any questions or need assistance with registration, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or email <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a>.</p>
 
      <a href="https://cvent.me/Rab2EW" class="btn btn-primary arrow mt-2 mb-2">Register for Reunion</a>
     <br />
