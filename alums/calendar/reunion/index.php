@@ -143,6 +143,23 @@ End of hiding info content*/ ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
+<?php echo sec_fullBleedImageColumn(
+        'Lectures and Tours',
+        $alums_img_path.'alums-calendar/reunion/54582897468_0cfd84ce20_o-lecture.jpg',
+        ' theme-cream image-is-first',
+        '',
+        ['img_alt_text' => 'A professor presents to a full lecture hall in a tiered classroom.']
+); ?>
+
+<p>Explore this year’s lifelong learning opportunities through lectures and tours at Reunion!</p>
+
+<?php echo cta_link(
+        'https://vassar-college-prod.modolabs.net/reunionv2/reunion_schedule/index?feed=events&tracks%5B%5D=lectures_and_panels&startdate=2026-06-05T00%3A00%3A00',
+        'Learn more about Lectures and Tours.'
+); ?>
+<?php echo end_sec_fullBleedImageColumn(); ?>
+
+
 <?php /*hiding below item until 2026 setup
 
 <?php echo sec_fullBleedImageColumn(
@@ -158,23 +175,6 @@ End of hiding info content*/ ?>
 <?php echo cta_link(
         'https://vassar-college-edit.modolabs.net/reunionv2/reunion_schedule/index?feed=events&tracks%5B%5D=id_50th_reunionv2_2026',
         'See the Preliminary 50th Reunion Schedule'
-); ?>
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
-<?php echo sec_fullBleedImageColumn(
-        'Lectures and Tours',
-        $alums_img_path.'alums-calendar/reunion/54582897468_0cfd84ce20_o-lecture.jpg',
-        ' theme-cream',
-        '',
-        ['img_alt_text' => 'A professor presents to a full lecture hall in a tiered classroom.']
-); ?>
-
-<p>Explore this year’s lifelong learning opportunities through lectures and tours at Reunion!</p>
-
-<?php echo cta_link(
-        'https://vassar-college-test.modolabs.net/reunionv2/reunion_schedule/index?feed=events&tracks%5B%5D=lectures_and_panels&startdate=2026-06-05T00%3A00%3A00',
-        'Learn more about Lectures and Tours'
 ); ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
@@ -458,7 +458,6 @@ End of hiding info content*/ ?>
 
 <?php echo item_iconItem('Photography/Video','photo-film',''); ?>
 <p>By joining this event, you acknowledge that you and your guests, including minors, may be photographed, filmed, or recorded, allowing unrestricted use and distribution of any media capturing your likeness, voice, or name for College-related purposes, including online platforms, waiving any inspection, approval, and privacy rights (including those in NY Civil Rights Law Sections 50 & 51).</p>
-<ul>
     <?php echo end_item_iconItem(); ?>
 
 
