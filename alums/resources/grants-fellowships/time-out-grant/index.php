@@ -54,7 +54,7 @@ $page_info = json_decode($page_info, true);
   <li>The Time Out Grant of $150,000 is awarded every other year.</li>
   <li>The proposals do not need to be related to the applicant’s current career.</li>
   <li>At Vassar’s discretion, the proposed venture can be funded with complementary grants, provided the Time Out Grant is the lead funding source.</li>
-  <li>The grant will be awarded in the spring of 2026.</li>
+  <li>The latest grant was awarded in the spring of 2026 (see below for more information).</li>
 </ul>
 
 <p>Questions? Reach out to us at <a href="mailto:timeoutgrant@vassar.edu">timeoutgrant@vassar.edu</a>.</p>
