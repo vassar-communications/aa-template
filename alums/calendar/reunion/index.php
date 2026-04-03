@@ -34,24 +34,24 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Welcome Back!',
+    'Welcome Back! Registration is open!',
     $alums_img_path.'alums-calendar/reunion/reunion-52960218489_a3d3ff91f9_o.jpg',
     'image-is-first theme-cream',
     '',
     ['img_alt_text' => 'A person stands at a podium in front of a large group of people sitting under a tent, with a large banner behind them that says AAVC in white on a red background.']
 ); ?>
 
-<p>We look forward to welcoming alums from classes ending in 1 or 6 on June 5–7, 2026. The Class of 1976, celebrating its 50th Reunion, will arrive on June 4, 2026.</p>
-<p>Reunion registration will open in early April.</p>
-<p>Scroll and check out what is happening during the weekend in the preliminary schedules below.</p>
-<p>If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5.</p>
+<p>We’re excited to welcome alums from classes ending in 1 or 6 for Reunion Weekend, taking place June 5–7, 2026. The Class of 1976 will launch its 50th Reunion celebration early starting on June 4, 2026.</p>
+<p>Scroll and check out what is happening during the weekend in the schedules below.</p>
+<p>If you have any questions or need assistance with registration, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or email <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a>.</p>
+
+     <a href="https://cvent.me/Rab2EW" class="btn btn-primary arrow mt-2 mb-2">Register for Reunion</a>
+    <br />
+     <a href="https://cvent.me/nW1Zvg" class="btn btn-primary arrow mt-2 mb-2">See who’s coming</a>
+    <br />
 
 <?php /*hiding below items until 2026 setup
 
-<!--
-     <a href="https://reunionregistration.vassar.edu/" class="btn btn-primary arrow mt-2 mb-2">Register for Reunion</a>
-    <br />
-    -->
      <a href="https://reunionregistration.vassar.edu/reunattend.php" class="btn btn-primary arrow mt-4 mb-4">See Who’s Coming to Reunion</a>
         <p>Registration has now closed. We are preparing for your arrival and can't wait to see you all very soon! If you have any questions, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or <a href="mailto:reunion@vassar.edu">email&nbsp;us</a> regarding Reunion.</p>
 
@@ -467,7 +467,6 @@ End of hiding info content*/ ?>
     <?php echo end_sec_regularContent(); ?>
 
 
-    <?php /*hiding below items until 2026 setup
 
 <div id="campus-facilities"></div>
 
@@ -484,24 +483,18 @@ End of hiding info content*/ ?>
     <h3>A. Scott Warthin Museum of Geology & Natural History, Ely Hall</h3>
     <ul>
         <li>Friday: 8:30 a.m.–5:00 p.m.</li>
-    </ul>
+        <li>Saturday: 9:00–11:00 a.m. and 2:00–4:00 p.m.</li>
+   </ul>
 
     <h3>Athletic and Fitness Center</h3>
     <ul>
         <li>Friday: 7:00 a.m.–8:00 p.m.</li>
-        <li>Saturday: <em>Closed due to events happening throughout the day.</em></li>
+        <li>Saturday: 10:00 a.m.–6:00 p.m.</li>
         <li>Sunday: 10:00 a.m.–6:00 p.m.</li>
     </ul>
-    <p><strong>Pool Hours:</strong></p>
-    <ul>
-        <li>Friday: 8:00 a.m.–12:00 p.m. & 1:00–5:00 p.m.</li>
-        <li>Saturday: Closed</li>
-        <li>Sunday: 1:00–4:00 p.m.</li>
-    </ul>
-
+    <p><em>We intend to have the pool open, pending lifeguard availability. Check back for updates.</em></p>
 
     <h3>James W. Palmer III Gallery, North Atrium, College Center</h3>
-    <p><em>Connecting Through the Camera: The Class of 1985 Portrait Project</em></p>
     <ul>
         <li>Friday: 9:00 a.m.–10:00 p.m.</li>
         <li>Saturday: 10:00 a.m.–10:00 p.m.</li>
@@ -510,29 +503,24 @@ End of hiding info content*/ ?>
 
 
     <h3>Jummah Service at Pratt House</h3>
+    <p><em>Join the Muslim campus community at Pratt House for Jummah. Service will depend on attendance.</em></p>
     <ul>
         <li>Friday: 1:00 p.m.</li>
     </ul>
 
-    <h3>Music Library</h3>
+    <h3>Olmsted Greenhouse</h3>
     <ul>
-        <li>Thursday: 1:00–4:00 p.m.</li>
         <li>Friday: 1:00–4:00 p.m.</li>
-        <li>Saturday: 10:00 a.m.–4:00 p.m.</li>
+        <li>Saturday: 12:00 p.m.–4:00 p.m.</li>
     </ul>
+    <p><em>Located on the B-Level of Olmsted Hall, enter through the glass doors facing Skinner Music Hall in the back of Olmsted.</em></p>
 
     <?php echo end_item_col(); ?>
 
     <?php echo item_col(); ?>
 
-    <h3>Olmsted Greenhouse</h3>
-    <ul>
-        <li>Friday: 1:00–5:00 p.m.</li>
-        <li>Saturday: 11:00 a.m.–4:00 p.m.</li>
-    </ul>
-    <p><em>Located on the B-Level of Olmsted Hall, enter through the glass doors facing Skinner Music Hall in the back of Olmsted.</em></p>
-
     <h3>Shabbat Services at The Bayit, 51 Collegeview Avenue, near the North Gate</h3>
+    <p><em>Celebrate Shabbat with the Jewish campus community in a welcoming, participatory, and song-filled gathering.</em></p>
     <ul>
         <li>Friday: 5:30–6:45 p.m.</li>
     </ul>
@@ -562,11 +550,9 @@ End of hiding info content*/ ?>
 
     <h3>Vassar College Store, Juliet, Raymond Avenue</h3>
     <ul>
-        <li>Thursday: 10:00 a.m.–6:00 p.m.</li>
-        <li>Friday: 10:00 a.m.–6:00 p.m</li>
-        <li>Saturday: 10:00 a.m.–6:00 p.m.<br>
-            <em>Author Meet and Greet, 3:00–5:00&nbsp;p.m.</em>
-        </li>
+        <li>Thursday: 9:00 a.m.–6:00 p.m.</li>
+        <li>Friday: 9:00 a.m.–6:00 p.m.</li>
+        <li>Saturday: 10:00 a.m.–6:00 p.m.</li>
         <li>Sunday: 9:00 a.m.–2:00 p.m.<br>
             <em>Ring sales will be available from 10:00&nbsp;a.m. to 1:00 p.m.</em>
         </li>
@@ -577,7 +563,6 @@ End of hiding info content*/ ?>
 
     <?php echo end_sec_hasColumns(); ?>
 
-    End of hiding info content*/ ?>
 
     <?php echo relatedTopics(); ?>
     <?php include($project_paths['main_project_root'].'/alums/inc/pages/give/give.php');?>
