@@ -63,20 +63,22 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-    'Applications Are Closed and in Review',
+    'Applications Closed; Awardee Selected',
     '',
     'content_classes'
 ); ?>
 
-<ul>
-  <li>Applications closed on <strong>December 19, 2025 at 5 p.m. ET</strong>. No further applications will be accepted.</li>
-  <li>Round One applications will receive notification at the <strong>end of January 2026</strong> if they have moved on to the second round of review.</li>
-  <li>Round Two applications must include additional project information: a more detailed proposal (with budget and photos/if desired, not exceeding four pages) and a resume.</li>
-  <li>After Round Two, the finalists for the grant will be asked to participate in a short phone discussion with the selection committee.</li>
-  <li>Selection of grant awardee will be made by the beginning of April 2026.</li>
-  <li>The grant will be awarded at the beginning of June 2026.</li>
-  <li>We will keep applicants informed as we review their submissions. We ask that you do not email asking for the status of your application.</li>
-</ul>
+<p>
+Applications for this grant cycle have now closed, and the selection process is complete.
+</p>
+ 
+<p>
+We are grateful to all who applied and appreciate the time, care, and creativity reflected in each submission. The grant awardee has been selected, and we will share a public announcement and additional details in Summer 2026.
+</p>
+
+<p>
+Applications will open again in Fall 2028.
+</p>
 
 
 <?php echo end_sec_regularContent(); ?>
