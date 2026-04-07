@@ -332,7 +332,7 @@ End of hiding info content*/ ?>
                     <strong>1966, 1971:</strong> Main House<br />
                     <strong>1976:</strong> Davison House<br />
                     <strong>1981, 1986:</strong> Main House<br />
-                    <strong>1991:</strong> Jewett House<br />
+                    <strong>1991:</strong> Josselyn House<br />
                     <strong>1996, 2001:</strong> Cushing House<br />
                     <strong>2006:</strong> Raymond House<br />
                     <strong>2011:</strong> Strong House<br />
