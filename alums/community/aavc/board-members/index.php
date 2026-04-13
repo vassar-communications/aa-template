@@ -55,14 +55,14 @@ ul.inline-list-links li a {
 </style>
 
 <ul class="inline-list-links">
+  <li><a href="#board-slate">2026 Board Slate</a></li>
   <li><a href="#board-of-directors">Board of Directors</a></li>
   <li><a href="#board-members">Current AAVC Board Members</a></li>
 </ul>
 
-<?php /*hiding below items until 2026 setup
 
 <?php echo sec_regularContent(
-    '2025 Board Slate',
+    '2026 Board Slate',
     'theme-cream',
     ''
 ); ?>
@@ -70,168 +70,358 @@ ul.inline-list-links li a {
 <!--
 <p>The 2024 slate of nominees for the AAVC Board was ratified at the Annual Meeting of the AAVC at Reunion on June 3, 2023:</p>
 -->
-<p>The Nominating and Governance Committee is pleased to present the slate of nominees for open board positions for 2025–2029:</p>
+<p>The Nominating and Governance Committee is pleased to present the slate of nominees for open board positions for 2026–2030:</p>
 
 <ul class="linked-list mb-5">
-    <li><a href="#maybelle-bennett">Maybelle Taylor Bennett ’70</a></li>
-    <li><a href="#stephanie-goldberg">Stephanie Goldberg ’14</a></li>
-    <li><a href="#kevin-lee">Kevin Lee ’14</a></li>
-    <li><a href="#patricia-neely">Patricia Ann Neely ’75</a></li>
-    <li><a href="#sam-thypin-bermeo">Sam Thypin-Bermeo ʼ11</a></li>
+    <li>
+        <a href="#green">AAVC President and AAVC Trustee: Anne Green ’93</a>
+    </li>
+    <li>
+        <a href="#gamarra">AAVC Vice President: Eddie Gamarra ’94</a>
+    </li>
+    <li>
+        <a href="#shapiro">AAVC Vice President: Heller An Shapiro ’81</a>
+    </li>
+    <li>
+        <a href="#dempsey">AAVC Trustee: Alexandria Dempsey ’09</a>
+    </li>
+    <li>
+        <a href="#neuwirth">AAVC Trustee: Michael Neuwirth ’89</a>
+    </li>
+    <li>
+        <a href="#solum">AAVC Trustee: Andrew Solum ’89</a>
+    </li>
+    <li>
+        <a href="#baker">AAVC Board Director: Russell Baker ’91</a>
+    </li>
+    <li>
+        <a href="#deutsch">AAVC Board Director: Christopher Deutsch ’97</a>
+    </li>
+    <li>
+        <a href="#molina">AAVC Board Director: Henry Molina ’19</a>
+    </li>
+    <li>
+        <a href="#poole">AAVC Board Director: Tracy Elise Poole ’82</a>
+    </li>
+    <li>
+        <a href="#seth">AAVC Board Director: Dhriti Seth ’24</a>
+    </li>
   </ul>
 
 
 <div>
 
-<div id="maybelle-bennett" style="clear: both; padding-bottom: 2rem; overflow: hidden">
+<div id="green" style="clear: both; padding-bottom: 2rem; overflow: hidden">
 
-  <h3 class="mb-4">AAVC Trustee</h3>
+  <h3 class="mb-4">AAVC President and AAVC Trustee: Anne Green ’93</h3>
 
 <div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="/alums/assets/img/alums-community/aavc/board/Maybelle-Taylor-Bennett-2025.jpg" alt="Maybelle Taylor Bennett ’70, a person with short, gray hair styled in a bun, wearing round eyeglasses, gold hoop earrings, and a multicolored knitted shawl in shades of red, orange, teal, and brown, standing against a plain light-colored background." />
+  <img src="/alums/assets/img/alums-community/aavc/board/green-anne-aavc-alum-001.jpg" alt="Anne Green ’93, a person with wavy grey-black hair pulled back from their face, a dark blue jacket over a red shirt, and a red beaded necklace smiles at the viewer." />
 </div>
 
 <ul class="clean-list-with-borders">
-    <li><strong>Maybelle Taylor Bennett ’70</strong></li>
     <li>(she/her/hers)</li>
-    <li>Washington, D.C.</li>
-    <li><strong>Term of Service:</strong> 2025–2029</li>
+    <li>New Jersey</li>
+    <li><strong>Term of Service:</strong> 2026–2030</li>
   </ul>
 </div>
 
 <h4>Additional Vassar Volunteer Experience</h4>
 
-<p>Director, AAVC Board of Directors, 2021–present; member, AAVC Alum Recognition Committee, 2021–present; member, AAVC Career Networking Committee, 2021–present; class agent, Class of 1970, 2018–2021; member, Club Admission Committee, 1997–2009; notewriter/phoner, Annual Fund, 2005–2006; member, AAVC Nominating Committee, 2002–2005; panelist, 30th Anniversary Celebration of the Africana Studies Program at Vassar, 2001.</p>
+<p>Member, Board of Trustees, 2024–present; Director, AAVC Board of Directors, 2018–present; member, AAVC Ad Hoc Diversity, Equity, and Inclusion Committee, 2020–present; Chair, AAVC Nominating and Governance Committee, 2020–2024, and member, 2018–2020; member, AAVC Communications Advisory Committee, 2018–2024; mentor, Sophomore Career Connections, 2018, and anchor mentor, 2019–2026; volunteer consultant to Vassar senior staff regarding communications issues, fall 2017; volunteer, Career Advisor Program, 1994–2006.</p>
 
 <h4>Professional/Community Experience</h4>
 
-<p>Director, Howard University Community Association, 1996–2019; Assistant for Community Relations and Planning, Howard University, 1991–1996; Member Board of Directors, Douglass Community Land Trust, 2020–2024; Pastor, Covenant Christian Community, 2013–2023; Member Board of Directors, D.C. Building Industry Association, 2000–2015; Commissioner and Chair (7 years), Zoning Commission of the District of Columbia, 1982–1998; Member, Leadership Greater Washington, 1991–present; Member, Lambda Alpha Land Economics Society, 1984–present; Director of Research, Coalition on Human Needs,1984–1990; Director of Research, Working Group for Community Development Reform, 1978–1981.</p>
+<p>Chief Executive Officer & Principal, G&S Business Communications, 2024–present; Principal & Managing Director, G&S Business Communications, 2018–2024; Steering Committee member, Friends of the QueensWay, 2016–present; board member and past Chair, LifeWay Network, 2015–2023; board member, PR Council, 2017–2019; Executive Committee member, Public Relations Global Network, 2016–2018; President & CEO, CooperKatz & Company, Inc., 2011–2018; Vice President, Senior Vice President, General Manager, and President & COO, CooperKatz & Company, Inc., 1996–2011; associate, Burson-Marsteller, 1993–1996.</p>
 
 </div>
 
 
 <div>
 
-<div id="stephanie-goldberg" style="clear: both; padding-bottom: 2rem; overflow: hidden">
+<div id="gamarra" style="clear: both; padding-bottom: 2rem; overflow: hidden">
 
-  <h3 class="mb-4">AAVC Board Director</h3>
+  <h3 class="mb-4">AAVC Vice President: Eddie Gamarra ’94</h3>
 
 <div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="/alums/assets/img/alums-community/aavc/board/Stephanie-Goldberg.jpg" alt="Stephanie Goldberg ’14, a person with long, wavy dark hair wearing a sleeveless white top and a necklace with a small pendant, smiling while standing outdoors in front of a body of water and forested hills." />
+  <img src="/alums/assets/img/alums-community/aavc/board/Gamarra-Eddie-2026.jpg" alt="Eddie Gamarra ’94, a person with short brown hair smiling in a close-up portrait." />
 </div>
 
 <ul class="clean-list-with-borders">
-    <li><strong>Stephanie Goldberg ’14</strong></li>
-    <li>(she/her/hers)</li>
-    <li>New York</li>
-    <li><strong>Term of Service:</strong> 2025–2029</li>
-  </ul>
-</div>
-
-<h4>Additional Vassar Volunteer Experience</h4>
-
-<p>Vice Chair, AAVC Alum Recognition Committee, 2024–present and off-board committee member, 2020–2024; President, Vassar Club of New York, 2024–present, and Program Committee Co-Chair, 2020–2024, and Social Media Coordinator, 2020–2023, and Communications Co-Chair, 2021–2022, and Programming Chair, 2018–2020, and Deputy Programming Chair, 2016–2018; Off-board committee member, AAVC Clubs Committee, 2024–present; Co-President, Class of 2014, 2019–present, and Social Media Coordinator, 2020–2024, and Class Fund Chair, 2014–2019, and Co-Chair, 2014–2019, and  Volunteer, 2014–2015; Volunteer, Club Admission Committee, 2018–present and 2014–2016.</p>
-
-<h4>Professional/Community Experience</h4>
-
-<p>Associate Director, Partner Development, Global Digital Business, Sony Music Entertainment, 2023–present; Marketing Chair, Women’s Initiative Network, Sony Music Entertainment, 2023–present; Talent Advisory Group Executive Council Member, Sony Music Entertainment, 2023–present; President, Emerging Professionals NYC, Sony Music Entertainment, 2023–present; Sustainability Task Force Member, Sony Music Entertainment, 2021–present; Fostering Rescue Animals, 2017–present; Associate Director, E-Commerce and Marketing, Sony Music Entertainment, 2021–2023; Communications & Membership Chair, Emerging Professionals NYC, Sony Music Entertainment, 2020–2023; Co-Chair, Recent Alumni Network, New York University, 2020–2021; Brand Manager/Project Manager, Merchandising, Sony Music Entertainment, 2019–2021; Board Member, Recent Alumni Network, New York University, 2019–2020; Sponsorships Director, A2IM Indie Week and Libera Awards 2022, Marauder, 2022; Sponsorships Director, A2IM Indie Week and Libera Awards 2019, Marauder, 2019; Music and Social Change Lab Manager, New York University, 2018-2019; Sync Licensing Intern, SyncShop, Sony Music Entertainment, 2018; Executive Intern to Rob Stringer, CEO of Sony Music, Sony Music Entertainment, 2018; Special Projects, Office of the President, Lincoln Center for the Performing Arts, 2017–2018; Project Manager, Hall of Fame and Visual Art, Lincoln Center for the Performing Arts 2017; Administrative Assistant, Hall of Fame, Lincoln Center for the Performing Arts, 2015–2017; Program Assistant, Community and Family Programs, Lincoln Center Education, Lincoln Center for the Performing Arts, 2015; Jazz Programming Intern, The John F. Kennedy Center for the Performing Arts, 2014; Friends Office Coordinator, Tanglewood Music Center, Boston Symphony Orchestra, 2014; Intern, New York, The Recording Academy, 2013; Assistant Sound Engineer, John C. Baker Recordings, LLC, 2013.</p>
-
-</div>
-
-
-<div>
-
-
-<div id="kevin-lee" style="clear: both; padding-bottom: 2rem; overflow: hidden">
- 
- 
-  <h3 class="mb-4">AAVC Board Director</h3>
-
-
-<div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="/alums/assets/img/alums-community/aavc/board/Kevin-Lee.jpg" alt="Kevin Lee ’14, a person with short, neatly styled dark hair wearing a suit jacket, light blue dress shirt, and red and blue striped tie, smiling in a brightly lit indoor setting with a blurred background." />
-</div>
-
-<ul class="clean-list-with-borders">
-    <li><strong>Kevin Lee ’14</strong></li>
     <li>(he/him/his)</li>
+    <li>Louisiana</li>
+    <li><strong>Term of Service:</strong> 2026–2030</li>
+  </ul>
+</div>
+
+<h4>Additional Vassar Volunteer Experience</h4>
+
+<p>Director, AAVC Board of Directors, 2024–present; Chair, AAVC Alum Recognition Committee, 2024–present, and member, 2023–2024; keynote speaker, Sophomore Career Connections (SCC), 2026, and mentor, 2026, 2025, and 2021; member, Vassar College Alumni Admissions Program (VCAAP), 2025–present, and 1998–2015; board member, Vassar Club of Greater Los Angeles, 2021–2022; member, AAVC Alumnae/i Recognition Committee, 2016–2020; Vice President, Vassar Club of Southern California, 2013–2016, and Co-chair, 2012–2013; member, AAVC Nominating and Governance Committee, 2009–2012; note-writer and phoner, class of 1994, 2009–2010, 2007–2008, 2005–2006, and 1996–1997; Director at Large, AAVC Board of Directors, 2004–2008; member, AAVC Vassar Fund Committee, 2005–2007; President, class of 1994, 1994–1999.</p>
+
+<h4>Professional/Community Experience</h4>
+
+<p>Founder, Gamarra Media, 2024–present; Advisory Board member, The Share Platform, 2026–present; Advisory Board member, Glendale Community College, 2022–present; Vice President, Paramount Global Kids and Family, 2019–2024; Literary Manager/Producer, The Gotham Group, 2004–2019; Visiting Assistant Professor, Emory University, 2002–2003.</p>
+
+</div>
+
+
+<div>
+
+
+<div id="shapiro" style="clear: both; padding-bottom: 2rem; overflow: hidden">
+ 
+ 
+  <h3 class="mb-4">AAVC Vice President: Heller An Shapiro ’81</h3>
+
+
+<div class="col-12 col-md-4 col-lg-3 align-left me-4">
+  <img src="/alums/assets/img/alums-community/aavc/board/shapiro-heller-an-aavc-alum.jpg" alt="Heller An Shapiro ’81, a person with short straight gray and black hair and glasses, wearing a sleeveless dark purple shirt, leans against a brick wall, smiling." />
+</div>
+
+<ul class="clean-list-with-borders">
+    <li>(she/her/hers)</li>
+    <li>Maryland</li>
+    <li><strong>Term of Service:</strong> 2026–2030</li>
+  </ul>
+</div>
+
+<h4>Additional Vassar Volunteer Experience</h4>
+
+<p>Member, AAVC Board of Directors, 2024–present; member, AAVC Alumnae/i Recognition Committee, 2024–present; member, AAVC Vassar Fund Committee, 2022–present; committee member, class of 1981, 2020–present; Sophomore Career Connections mentor, 2018; Co-chair, Class Reunion Gift, 2000–2001; Co-chair, class of 1981, 1996–2001; Co-chair, Class Fund, 1996–2000; AAVC Volunteer Leadership Week trainer, 1992–1993; second Vice President, class of 1981, 1991–1996.</p>
+
+<h4>Professional/Community Experience</h4>
+
+<p>Volunteer Team Leader, Compass Pro Bono, 2023–present; board member, Nonprofit Liaison, Impact100 DC, 2024–present; Secretary, Metro Bethesda Rotary Foundation Board, 2024–present; Nonprofit Consultant, Coach, 2008–present; volunteer grant review panelist, Maryland State Arts Council, 2021, 2023; Executive Director, ArtStream, Inc., 2016–2023; board member, Head of School Search, Co-leader, Barrie School, 2015–2017; Consultant, Optica, 2010–2016; Co-leader, Executive Development Career Workshops, Executive Search Consultant, TransitionGuides, 2007–2016; Consultant, Barth Syndrome Foundation, 2010–2012; Board Co-Chair, Kidsave International, 2010–2012; Executive Director, Osteogenesis Imperfecta Foundation, 1997–2007; Board of Directors, Chair Standards of Excellence Committee, National Health Council, 2003–2007; Associate Director of Affiliate Management, Christmas in April, USA/Rebuilding Together, 1997–1998; Deputy Director, State and International Services, VSA, 1995–1997; Director of Affiliate Management and Training, The Foundation Fighting Blindness, 1992–1995; Director of Volunteers, Kennedy Center, 1986–1991, recipient of 1991 President’s Volunteer Action Award; Leadership America, class of 1993; board member, Chair of Public Issues, Chair National Summit on Trends in Volunteer Leadership Development, Association for Volunteer Administration (AVA), 1991–1993; Founder and Chair, MVP-Arts (Managers of Volunteer Programs in the Arts), 1990–1992.</p>
+
+</div>
+
+
+<div>
+
+<div id="dempsey" style="clear: both; padding-bottom: 2rem; overflow: hidden">
+
+  <h3 class="mb-4">AAVC Trustee: Alexandria Dempsey ’09</h3>
+
+<div class="col-12 col-md-4 col-lg-3 align-left me-4">
+  <img src="/alums/assets/img/alums-community/aavc/board/Dempsey-Alexandria-2026.jpg" alt="Alexandria Dempsey ’09, a smiling person outdoors with long brown hair, wearing a blazer and blue shirt." />
+</div>
+
+<ul class="clean-list-with-borders">
+    <li>(she/her/hers)</li>
     <li>California</li>
-    <li><strong>Term of Service:</strong> 2025–2029</li>
+    <li><strong>Term of Service:</strong> 2026–2030</li>
   </ul>
 </div>
 
 <h4>Additional Vassar Volunteer Experience</h4>
 
-<p>Off-board committee member, AAVC Clubs Committee, 2024–present; Chair of Steering Committee, Vassar Club of San Diego, 2021–present; Committee Member, Class of 2014, 2018–present and Treasurer,  2014–2018; Volunteer, Club Admission Committee, 2017–2024.</p>
+<p>Co-President, Vassar class of 2009, 2024–present; President, Vassar class of 2009, 2014–2024; member, AAVC Board of Directors, 2020–2024; Chair, Class Engagement Committee, 2020–2024; President, Vassar Club of the Bay Area, 2013–2023; Programming Chair, Vassar Club of New York, 2010–2013.</p>
 
 <h4>Professional/Community Experience</h4>
 
-<p>Environmental Health & Sustainability Manager, Dr. Bronner’s, 2023–present; Environmental Impact & Compliance Specialist, Dr. Bronner’s, 2019–2023; Green Business Associate, San Francisco Department of the Environment (SF Environment), 2017–2019; Sustainability Fellow, VOX Global, 2016; Research Assistant, The Field Museum, 2015; U.S. Department of Energy Research Assistant, Argonne National Laboratory, 2014; U.S. Department of Energy (Environmental Protection Division) Research Assistant, Brookhaven National Laboratory, 2014; Environmental Biology Research Assistant, Vassar College, 2012–2014; Biology Teaching Assistant, Vassar College, 2013; National Science Foundation (NSF) – REU Research Intern, Fordham University, 2013.</p>
+<p>Vice President & Managing Director, af&co., 2026–present; Managing Director, af&co., 2025–2026; Independent Marketing Consultant, 2024–2025; No Kid Hungry’s Taste of the Nation Los Angeles Committee Member, 2024–2025; Vice President, Creative & Marketing, Jamestown, for Google, 2023–2024; Managing Director, af&co., 2021–2022; Director of Marketing & Business Development, af&co., 2019–2020; Dress for Success SF committee member & fundraiser, 2019–2020; No Kid Hungry’s Taste of the Nation San Francisco Auction Chair, 2018–2020; Vice President of Marketing & Branding, Puccini Group, 2018–2019; Co-Founder & Chief Operating Officer, The Cutting Board, 2017–2018; Brand Manager, Caviar, 2014–2015; Brand Manager, The Florence Group, 2013–2014; New Business Coordinator, Food Network, 2009–2013.</p>
 
 </div>
 
 
 <div>
 
-<div id="patricia-neely" style="clear: both; padding-bottom: 2rem; overflow: hidden">
+<div id="neuwirth" style="clear: both; padding-bottom: 2rem; overflow: hidden">
 
-  <h3 class="mb-4">AAVC Board Director</h3>
+  <h3 class="mb-4">AAVC Trustee: Michael Neuwirth ’89</h3>
 
 <div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="/alums/assets/img/alums-community/aavc/board/Patricia-Ann-Neely.jpg" alt="Patricia Ann Neely ’75, a person with shoulder-length, coiled hair and glasses wearing a textured black garment and a necklace, sitting next to a tall, stringed musical instrument with an intricately carved scroll shaped like a lion’s head." />
+  <img src="/alums/assets/img/alums-community/aavc/board/neuwirth-michael-aavc-alum.jpg" alt="Michael Neuwirth ’89, a person with close-shaven hair, beard, and mustache, wearing glasses, smiles at the viewer." />
 </div>
 
 <ul class="clean-list-with-borders">
-    <li><strong>Patricia Ann Neely ’75</strong></li>
-    <li>(she/her/hers)</li>
-    <li>New York</li>
-    <li><strong>Term of Service:</strong> 2025–2029</li>
-  </ul>
-</div>
-
-<h4>Additional Vassar Volunteer Experience</h4>
-
-<p>Off-board committee member, AAVC Vassar Fund Committee, 2016–present; President, Class of 1975, 2015–present, and Musicale Coordinator, 2024–present, and Class Agent, 2023–present, and Volunteer, 2016–present, and Class Agent, 2019–2020, and Volunteer, 2013–2014, and Notewriter or Phoner, 2012–2013; Volunteer, Club Admission Committee, 2007–present; Member, Class Reunion Gift Committee, 2012–2015.</p>
-
-<h4>Professional/Community Experience</h4>
-
-<p>Member of the grants panel for New York State Council on the Arts, New York State Council on the Arts, 2019–present; Board member, Viola da Gamba Society of America, 2019–present, and Chair of the DEI Committee, 2019–present; Director of Abendmusik, New York’s Period Instrument String Band, 2012–present; Freelance musician–Specialty Historical Performance (early-bowed strings), present; Board member, Early Music America, 2020–2025, and Chair of the IDEA (Inclusion, Diversity, Equity, & Access) Taskforce, 2018–2020; Manager of Events and Individual Giving, The Bard Graduate Center: Decorative Arts, Design History, Material Culture, 2017–2019; Music Faculty, The Brearley School, 1998–2019; Director of Development, COPLAND HOUSE, INC. COPLAND HOUSE, INC., 2015–2017; Consultant (part-time Executive Director), Connecticut Early Music Festival, 2012–2015; Member of the Grant Panel for The Fund for Creative Communities & the Manhattan Community Arts Fund, Lower Manhattan Cultural Council, 2013; Foundations and Corporations Coordinator, Jewish Child Care Association, 2010–2012; Senior Director of Programs, Harlem School of the Arts, 2008–2010; Director of Foundations and Corporations for New York City, The Sphinx Organization, 2007–2008; Consultant, Collegiate Chorale, 2006–2007; Associate Director of Scheduling, Jazz at Lincoln Center, 2005–2006; Director of Concert Operations, Mannes College, the New School for Music, 1993–2005; Director of Public Information and Assistant Director of Development, Mannes College of Music, 1993–1996.</p>
-
-</div>
-
-
-<div>
-
-<div id="sam-thypin-bermeo" style="clear: both; padding-bottom: 2rem; overflow: hidden">
-
-  <h3 class="mb-4">AAVC Board Director</h3>
-
-<div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="/alums/assets/img/alums-community/aavc/board/Sam-Thypin-Bermeo.jpg" alt="Sam Thypin-Bermeo ʼ11, a person with short dark hair and glasses smiling and wearing a gray hoodie layered over a dark shirt." />
-</div>
-
-<ul class="clean-list-with-borders">
-    <li><strong>Sam Thypin-Bermeo ʼ11</strong></li>
     <li>(he/him/his)</li>
     <li>New York</li>
-    <li><strong>Term of Service:</strong> 2025–2029</li>
+    <li><strong>Term of Service:</strong> 2026–2030</li>
   </ul>
 </div>
 
 <h4>Additional Vassar Volunteer Experience</h4>
 
-<p>Correspondent, Class of 2011, 2022–present; mentor, Sophomore Career Connections, 2024; Social Media Coordinator, Vassar Club of South Florida, 2022–2023; Communications Chair, Vassar Club of South Florida, 2021–2023.</p>
+<p>Director, AAVC Board of Directors, 2024–present; member, AAVC Nominating and Governance Committee, 2024–present; member, AAVC Alumnae House Committee, 2025–present; President, class of 1989, 2019–present, and Class Agent, 2024–present and 2017–2020; member, AAVC Class Engagement Committee, 2022–2024; member, Vassar College Alumni Admission Program (VCAAP), 2002–2013.</p>
 
 <h4>Professional/Community Experience</h4>
 
-<p>Assistant United States Attorney, United States Attorney for the District of New Jersey, 2023–present; Principal, Thypin Bermeo PLLC, 2022–2023; Staff Attorney, Florida Justice Institute, 2020–2022.</p>
+<p>Corporate Communications & Public Relations Consultant, Neuwirth Communications, LLC, 2020–present; angel investor and real estate management, 2020–present; Chief Communications Officer, American Sustainable Business Network, 2021–2022; Public Relations & External Communications Lead, Danone, 2005–2020; Senior Vice President, Ruder Finn, 2003–2005; Director of Corporate Communications, Acirca, Inc., 2001–2003; Public Relations Manager, Danone, 1994–2001; Senior Account Executive, Porter Novelli, 1990–1994.</p>
+
+</div>
+
+
+<div>
+
+<div id="solum" style="clear: both; padding-bottom: 2rem; overflow: hidden">
+
+  <h3 class="mb-4">AAVC Trustee: Andrew Solum ’89</h3>
+
+<div class="col-12 col-md-4 col-lg-3 align-left me-4">
+  <img src="/alums/assets/img/alums-community/aavc/board/solum-andrew-aavc-alum-001.jpg" alt="Andrew Solum ’89, a person with short brown hair, a black jacket, and a blue and white striped shirt smiles at the viewer." />
+</div>
+
+<ul class="clean-list-with-borders">
+    <li>(he/him/his)</li>
+    <li>United Kingdom</li>
+    <li><strong>Term of Service:</strong> 2026–2030</li>
+  </ul>
+</div>
+
+<h4>Additional Vassar Volunteer Experience</h4>
+
+<p>Director, AAVC Board of Directors, 2022–present; Chair, AAVC Clubs Committee, 2022–present, Vice Chair, 2021–2022, and member, 2016–2021; President, Vassar Club of the United Kingdom, 2014–present, Vice President, 2005–2014, and member, 1990–2010; member, AAVC Alum Recognition Committee, 2025–present; member, AAVC Ad Hoc Diversity, Equity, and Inclusion Committee, 2022–present; member, Vassar College Alumni Admission Program (VCAAP), 2020–present; member, Vassar Club of the United Kingdom/Vassar Club of London, 1990–2010.</p>
+
+<h4>Professional/Community Experience</h4>
+
+<p>Director, Kellanco Associates Ltd., 2015–present; Director, Travel Industry Associates Ltd., 1998–2015; member, British Airways International Advisory Board, 2011–2019; member, Young Vic Gala Committee 2007–2010; volunteer, FareShare (tackling food waste) 2019–present; volunteer, Flying Start 2012; Advisor to the UK Houses of Parliament 2009–2016; Professional Services supplied to the aviation sector: British Airways, Air New Zealand, BA CityFlyer, Air Berlin, Silverjet, United Airlines; Professional Services supplied to the hospitality industry: Westin Hotels &amp; Resorts, Shangri-la Hotels &amp; Resorts; Professional Services supplied to: Amlin Corporate Insurance, Liberum Capital Inc., Global Crossing, United Grand Lodge of England, B. Braun Medical Industries Snd. Bhd. (Malaysia); Mayfair Capital Management; Chartered Institute of Marketing, Royal &amp; Sun Alliance Investment Management; ?Whatif! Innovation; Regus Serviced Offices (now IWG); ZBI Europe, ABC Executive Travel; Judge, Business Travel World Awards 2007–2009; Travel Manager, Inmarsat 1993–1998; Press: <em>BBC</em>, <em>BBC World</em>, <em>The Financial Times</em>, <em>The Daily Telegraph</em>, <em>The Times of London</em>, <em>Business Traveller</em>, <em>Business Travel World</em>.</p>
+
+</div>
+
+
+<div>
+
+<div id="baker" style="clear: both; padding-bottom: 2rem; overflow: hidden">
+
+  <h3 class="mb-4">AAVC Board Director: Russell Baker ’91</h3>
+
+<div class="col-12 col-md-4 col-lg-3 align-left me-4">
+  <img src="/alums/assets/img/alums-community/aavc/board/Baker-Russell.jpg" alt="Russell Baker ’91, a smiling person with short hair in a suit and glasses." />
+</div>
+
+<ul class="clean-list-with-borders">
+    <li>(he/him/his)</li>
+    <li>New Mexico</li>
+    <li><strong>Term of Service:</strong> 2026–2030</li>
+  </ul>
+</div>
+
+<h4>Additional Vassar Volunteer Experience</h4>
+
+<p>Panelist, Dance Pathways panel, VRDT Homecoming, 2025; AAVC Spirit of Vassar Award recipient, 2019; member, Vassar College Alumni Admission Program (VCAAP), 2001–2009 and 2013–2019; panelist, Continuing the Legacy of Dance: A Conversation with Russell Baker ’91 & Merrill Brockway, 2011.</p>
+
+<h4>Professional/Community Experience</h4>
+
+<p>Executive Director, National Dance Institute of New Mexico, 2008–present; Artistic Director, National Dance Institute of New Mexico, 2006–2008; Santa Fe Program Artistic Director, National Dance Institute of New Mexico, 2004–2006; North Program Artistic Director, National Dance of New Mexico, 2002–2004; Founder and Director, Kansas City Contemporary Dance Company, 2000–2002; Company Dancer, Kansas City Ballet, 1993–2002.</p>
+
+</div>
+
+
+<div>
+
+<div id="deutsch" style="clear: both; padding-bottom: 2rem; overflow: hidden">
+
+  <h3 class="mb-4">AAVC Board Director: Christopher Deutsch ’97</h3>
+
+<div class="col-12 col-md-4 col-lg-3 align-left me-4">
+  <img src="/alums/assets/img/alums-community/aavc/board/Deutsch-Christopher-2026.jpg" alt="Christopher Deutsch ’97, a person in a pink button-down shirt smiling against a plain background." />
+</div>
+
+<ul class="clean-list-with-borders">
+    <li>(he/him/his)</li>
+    <li>Illinois</li>
+    <li><strong>Term of Service:</strong> 2026–2030</li>
+  </ul>
+</div>
+
+<h4>Additional Vassar Volunteer Experience</h4>
+
+<p>Member, AAVC Alum Career Connections Committee, 2024–present; member, alum advisory group, Vassar Innovation and Entrepreneurship, 2023–present; judge, student pitch competition, Vassar Innovation and Entrepreneurship, 2024 and 2026; anchor mentor, Sophomore Career Connections, 2025 and mentor, 2024; member, Vassar College Alumni Admission Program (VCAAP), 1997–1998 and 2002–2016; Vassar Admission Volunteer, Phoenix Club, 2009–2011; Co-Chair, Double-Decade Committee,  Vassar Club of Chicago, 1997–1998.</p>
+
+<h4>Professional/Community Experience</h4>
+
+<p>Founder, Lofty Ventures, 2014–present; re-founder and Board Director, teaBOT, 2018–present; advisor, ReloShare, 2021–present; advisor and board observer, Bridge Money, 2019–present; advisor, PairUp, 2022–present; advisor, Sandalphon Capital, 2021–present; executive advisor, kommu, 2023–present; advisor, L Street Collaborative, 2015–present; advisor, Enodo, 2016–2018; founder, WeCasa, 2015–2023; Vice President of Business Development, Loft Development Corp., 2013–2016; co-founder, EventMob, 2011–2013; Vice President of Business Development, RouteCloud, 2009–2011; co-founder, Specialty Retail Shops, 2008–2009; Director of Business Development, Vcommerce, 2005–2008; founder, Lax Scout, 2003–2007; co-founder, C9 Innovations, 2001–2003; founding team, Vstore, 1998–2000; owner, MacroLogix, 1997–1998; board development committee, executive board, Outreach With Lacrosse & Schools, 2015–present; membership committee, The Economic Club of Chicago, 2021–present; In-Gala co-chair and supporter, Chicago Innovation Foundation, 2021–present; supporter, Future Founders, 2019–present; guest speaker, judge, and mentor at Kellogg, Booth, ASU, DePaul, and other undergrad and graduate programs, 2003–present; Partner, Social Venture Partners, 2017–2023; Chicago curator, The 1k Project, 2020–2021; founding member, Arizona chapter of Gen Next, 2010–2021; founding board member, 100+ Who Care Chicago, 2015–2018; head or assistant varsity coach, Chaparral High School lacrosse team, 1999–2004.</p>
+
+</div>
+
+
+<div>
+
+<div id="molina" style="clear: both; padding-bottom: 2rem; overflow: hidden">
+
+  <h3 class="mb-4">AAVC Board Director: Henry Molina ’19</h3>
+
+<div class="col-12 col-md-4 col-lg-3 align-left me-4">
+  <img src="/alums/assets/img/alums-community/aavc/board/Molina-Henry-2026.jpg" alt="Henry Molina ’19, a person in a black leather jacket and red scarf with short black hair smiling outdoors." />
+</div>
+
+<ul class="clean-list-with-borders">
+    <li>(he/him/his)</li>
+    <li>New York</li>
+    <li><strong>Term of Service:</strong> 2026–2030</li>
+  </ul>
+</div>
+
+<h4>Additional Vassar Volunteer Experience</h4>
+
+<p>Fund Chair, class of 2019, 2021–present, and Class Agent, 2020–2021; panelist, FLI Forward, 2025; mentor, Sophomore Career Connections, 2025; panelist, Cognitive Science Alum Panel, 2025; alum speaker, Latiné Sarape Ceremony, 2024; member, class of 2019 Reunion Committee, 2024; member, Vassar Fund Committee, 2021–2023.</p>
+
+<h4>Professional/Community Experience</h4>
+
+<p>Research Analyst, Gilder Gagnon Howe & Co., 2021–present; Research and Program Administrator, Engaged Pluralism Initiative, 2020–2021; Qualitative Research and Curriculum Engagement Associate, Engaged Pluralism Initiative, 2019–2020.</p>
+
+</div>
+
+
+<div>
+
+<div id="poole" style="clear: both; padding-bottom: 2rem; overflow: hidden">
+
+  <h3 class="mb-4">AAVC Board Director: Tracy Elise Poole ’82</h3>
+
+<div class="col-12 col-md-4 col-lg-3 align-left me-4">
+  <img src="/alums/assets/img/alums-community/aavc/board/Poole-Tracy-2026.jpeg" alt="Tracy Elise Poole ’82, a person with long dark hair and gold earrings smiling in a close-up portrait." />
+</div>
+
+<ul class="clean-list-with-borders">
+    <li>(she/her/hers)</li>
+    <li>New York</li>
+    <li><strong>Term of Service:</strong> 2026–2030</li>
+  </ul>
+</div>
+
+<h4>Additional Vassar Volunteer Experience</h4>
+
+<p>Member, President’s Advisory Council, 2021–present; Class Agent, class of 1982, 2018–2025; member, AAVC Vassar Fund Committee, 2018–2023; member, Vassar College Alumni Admission Program (VCAAP), 2010–2023, 2008–2009, and 1998–2003; member, class of 1982 Reunion Planning Committee, 2022; mentor, Sophomore Career Connections (SCC), 2016–2018 and 2020, and anchor mentor, 2018; member, AAVC Clubs Committee, 2020–2021; member, AAVC Ad Hoc Diversity, Equity, and Inclusion Committee, 2020–2021; member, AAVC Ad Hoc Student and Young Alumnae/i Engagement Committee, 2018–2021; Co-chair, African American Alumnae/i of Vassar College (AAAVC), 2018–2021, and faculty liaison, 2012–2018; observer, AAVC Board of Directors, 2018–2021; inaugural recipient, AAAVC Alumnae/i of the Year Award, 2017.</p>
+
+<h4>Professional/Community Experience</h4>
+
+<p>Vice President, Global Chief of Litigation and Risk, Vertex, 2023–2025; Vice President, Assistant General Counsel, Johnson & Johnson, 1999–2023; member, Board of Directors, Executive Committee, and Chair, Education Committee, New York City Center, 2021–present; member, Artistic Director’s Circle, Alvin Ailey American Dance Theater, 2010–present; Risk Management Officer, Executive Committee, Tau Omega Chapter (New York City) of Alpha Kappa Alpha Sorority, Inc., 2024–present.</p>
+
+</div>
+
+
+<div>
+
+<div id="seth" style="clear: both; padding-bottom: 2rem; overflow: hidden">
+
+  <h3 class="mb-4">AAVC Board Director: Dhriti Seth ’24</h3>
+
+<div class="col-12 col-md-4 col-lg-3 align-left me-4">
+  <img src="/alums/assets/img/alums-community/aavc/board/Seth-Dhriti-2026.jpg" alt="Dhriti Seth ’24, a smiling person with long black hair in a black jacket standing outdoors on stairs of a red brick building." />
+</div>
+
+<ul class="clean-list-with-borders">
+    <li>(she/her/hers)</li>
+    <li>Massachusetts</li>
+    <li><strong>Term of Service:</strong> 2026–2030</li>
+  </ul>
+</div>
+
+<h4>Additional Vassar Volunteer Experience</h4>
+
+<p>Steering Committee member, Vassar Club of Boston, 2024–present; member, Vassar College Alumni Admission Program (VCAAP), 2024–present; Co-Chair, Vassar Student Philanthropy Council, 2021–2024; student speaker, Fearlessly Consequential Campaign, 2022–2024; student scholarship ambassador, 2022–2024.</p>
+
+<h4>Professional/Community Experience</h4>
+
+<p>Research assistant, Cardiovascular Research Center, Harvard Medical School and Massachusetts General Hospital, 2024–present; brand management intern, Bayer, 2023; product development intern, Quidel, 2022.</p>
 
 </div>
 
 
 <?php echo end_sec_regularContent(); ?>
 
-End of hiding info content*/ ?>
 
 
 <a id="board-of-directors"></a>
