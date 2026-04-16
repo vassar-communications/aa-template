@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"Bylaws",
+  "page_title":"AAVC Bylaws",
   "page_classes":"",
   "feature_image":"/assets/images/placerholders/placeholder-banner.png"
 }';
