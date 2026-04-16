@@ -41,7 +41,7 @@ $page_info = json_decode($page_info, true);
   <ul class="clean-list-with-borders">
     <li>Alum Recognition Committee Chair</li>
     <li>(he/him/his)</li>
-    <li>California</li>
+    <li>Louisiana</li>
     <li>Term of Service: 2024–2028</li>
   </ul>
 
