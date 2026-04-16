@@ -574,7 +574,7 @@ ul.inline-list-links li a {
 ); ?>
 <div class="pronouns">(he/him/his)</div>
 <div class="position">Alum Recognition Committee Chair</div>
-<div class="location">California</div>
+<div class="location">Louisiana</div>
 <div class="term">Term of Service: 2024–2028</div>
 <?php echo end_item_cardWithText(
     null,
