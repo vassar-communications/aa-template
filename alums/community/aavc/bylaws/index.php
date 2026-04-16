@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 
 $page_info = '{
-  "page_title":"AAVC Bylaws",
+  "page_title":"Bylaws",
   "page_classes":"",
   "feature_image":"/assets/images/placerholders/placeholder-banner.png"
 }';
@@ -32,7 +32,7 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-    'AAVC Bylaws',
+    'Alumnae/i Association of Vassar&nbsp;College&nbsp;Bylaws',
     null,
     '',
     ''
