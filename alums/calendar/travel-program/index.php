@@ -154,6 +154,8 @@ June 19-July 1, 2025</p>
 
 <?php echo sec_regularContent('Read about recent Vassar Travel Programs','','');?>
 
+<p><a href="https://www.vassar.edu/news/experiencing-the-culture-and-history-of-mexico">Vassar students reflect on their favorite cultural experiences traveling throughout Mexico with their professors and alums</a>.</p>
+
 <p><a href="https://www.vassar.edu/news/students-four-year-journey-at-the-loeb-leads-to-trip-to-venice">Venice Biennale adventure with Bart Thurber, Mary-Kay Lambino, and four current students</a>!</p>
 
 <p><a href="https://www.vassar.edu/news/vassar-goes-to-the-source-over-spring-break/#vietnam">Bob Brigham and Monica Church lead an alum spring break trip to Vietnam</a>.</p>
