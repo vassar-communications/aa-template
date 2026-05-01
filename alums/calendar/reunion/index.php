@@ -47,8 +47,8 @@ $page_info = json_decode($page_info, true);
 
      <a href="https://cvent.me/Rab2EW" class="btn btn-primary arrow mt-2 mb-2">Register for Reunion</a>
     <br />
-<!--     <a href="https://cvent.me/nW1Zvg" class="btn btn-primary arrow mt-2 mb-2">See who’s coming</a>
-    <br />-->
+    <a href="https://docs.google.com/spreadsheets/d/1jb-c0Flb31ACM7Ao5bE-LToe_hVwD4SxfZLc8mw05Ao/edit?usp=sharing" class="btn btn-primary arrow mt-2 mb-2">See who’s coming</a>
+    <br />
 
 <?php /*hiding below items until 2026 setup
 
