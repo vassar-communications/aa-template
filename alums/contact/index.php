@@ -849,20 +849,7 @@ echo end_contact_card();
 );
         echo end_contact_card();
 
-
-        echo contact_card(
-            'May Lee',
-            'Senior Associate Director of Donor Relations',
-            [
-                    'phone' => '845-437-5931',
-                    'email' => 'malee@vassar.edu',
-                ]
-        );
-        echo end_contact_card();
-
-
 ?>
-
                 </div>
 
 
