@@ -371,7 +371,7 @@ ul.inline-list-links li a {
   <h3 class="mb-4">AAVC Board Director: Tracy Elise Poole ’82</h3>
 
 <div class="col-12 col-md-4 col-lg-3 align-left me-4">
-  <img src="/alums/assets/img/alums-community/aavc/board/Poole-Tracy-2026.jpg" alt="Tracy Elise Poole ’82, a person with long dark hair and gold earrings smiling in a close-up portrait." />
+  <img src="/alums/assets/img/alums-community/aavc/board/Poole-Tracy-2026-new.jpg" alt="Tracy Elise Poole ’82, a person with long dark hair and gold earrings smiling in a close-up portrait." />
 </div>
 
 <ul class="clean-list-with-borders">
