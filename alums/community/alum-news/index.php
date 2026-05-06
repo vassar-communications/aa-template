@@ -60,36 +60,36 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Ann Northrop ’70',
-        'https://lgbtqcommunitynews.nyc/2025/10/29/breast-cancer-me/',
-        ['url' => $logos_path.'LGBTQ-Community-News-Logo.png', 'alt' => 'LGBTQ Community News NYC logo with a rainbow “Community News” banner across a black circle.' ],
+        'Cassandra Kulukundis ’93',
+        'https://variety.com/2026/artisans/news/one-battle-after-another-wins-first-oscar-best-casting-1236680670/',
+        ['url' => $logos_path.'Variety-logo.png', 'alt' => 'Variety logo in white text on a dark background.' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-       <p><strong>Ann Northrop ’70</strong> wrote a piece about her experience being diagnosed with breast cancer for <em>LGBTQ Community News NYC</em>.</p>
+       <p>Many media outlets, including <em>Variety</em>, reported that<strong> Cassandra Kulukundis ’93</strong> won the first-ever Oscar for Best Casting for her work on the film <em>One Battle After Another</em>.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'James Graham Wilson ’03',
-        'https://www.realcleardefense.com/articles/2025/10/30/we_did_everything_right_right_1144186.html',
-        ['url' => $logos_path.'rcd-home-logo-final.png', 'alt' => 'RealClear Defense logo with “RealClear” in white on a dark green block and “Defense” in black on white.' ],
+        'Jane Smiley ’71',
+        'https://www.altaonline.com/books/fiction/a39643131/jane-smiley-horses-writing-fiction/',
+        ['url' => $logos_path.'Alta-logo.png', 'alt' => 'Alta logo in black text on a light gray background.' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-         <p><strong>James Graham Wilson ’03</strong> wrote a review for <em>RealClear Defense</em> about the critically acclaimed Netflix film <em>A House of Dynamite</em>, a thriller about the threat of nuclear war.</p>
+         <p>Novelist <strong>Jane Smiley ’71</strong> spoke to <em>Alta</em> about how her love of horses has been intertwined with her life as a writer.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
 
   <?php echo item_col(); ?>
     <?php echo item_cardWithText(
-        'Carrie Goldberg ’99',
-        'https://www.newsweek.com/ai-is-causing-real-world-trauma-the-courts-have-a-way-to-stop-it-opinion-11182536',
-        ['url' => $logos_path.'newsweek-logo.gif', 'alt' => 'Newsweek logo in white text on a red background.' ],
+        'Dr. Alexa Mousley ’20',
+        'https://www.nbcnews.com/science/science-news/human-brains-5-epochs-development-rcna245663',
+        ['url' => $logos_path.'NBC-news-logo.png', 'alt' => 'NBC News logo with multicolored peacock icon and white text on a dark blue background.' ],
         'related-topics card--withParagraph card-has-cta-icon card-is-link'
     ); ?>
-     <p>In a <em>Newsweek</em> opinion piece, victims’ rights attorney <strong>Carrie Goldberg ’99</strong> argues that AI companies “should face the same accountability as any other manufacturer whose product foreseeably causes injury.”</p>
+     <p>NBC News and many other media outlets reported on a groundbreaking study of human brain development led by <strong>Dr. Alexa Mousley ’20</strong>.</p>
     <?php echo end_item_cardWithText(); ?>
   <?php echo end_item_col(); ?>
 
@@ -106,22 +106,19 @@ $page_info = json_decode($page_info, true);
 
   <?php echo item_col(); ?>
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3">Director and screenwriter <strong>Noah Baumbach ’91</strong> talked to <a href="https://www.nytimes.com/2025/11/19/movies/george-clooney-adam-sandler-noah-baumbach-jay-kelly.html"><em>The New York Times</em></a> about his latest film, <em>Jay Kelly</em>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://pen.org/press-release/2026-literary-gala-honorees-ann-patchett-and-jason-blum/">PEN America</a> announced that it will honor Blumhouse CEO <strong>Jason Blum ’91</strong> in May 2026 with a Business Visionary award for “his daring and diverse films that have transformed horror from a niche genre into a driving force of contemporary culture, often with social issues at the core.”</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5">Social worker <strong>Phyllis Klaus ’57, P’82</strong>, a founder of the doula movement, was named to the <a href="https://ppphallofhonororg.wordpress.com/2025-hoh-inductees/">Prenatal Sciences Research Institute</a> 2025 Hall of Honor.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="4" data-line-end="5"><strong>David DeSteno ’90</strong> wrote a guest essay for <a href="https://www.nytimes.com/2026/04/20/opinion/ai-religion-morality.html"><em>The New York Times</em></a> about the limitations of using religion to teach the chatbot Claude about morality and ethics.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7">Educator and author <strong>Torrey Maldonado ’96</strong>, wrote an article for <a href="https://pearlsandrubys.slj.com/2025/12/08/not-gonna-lie-six-seven-and-slang-low-key-gets-kids-attention/"><em>School Library Journal</em></a> about how slang can help teachers connect with students.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="6" data-line-end="7"><strong>Lisa Kudrow ’85</strong>, currently starring in the third season of HBO’s <em>The Comeback</em>, was the subject of a lengthy profile in <a href="https://www.newyorker.com/magazine/2026/03/23/lisa-kudrow-profile"><em>The New Yorker</em></a> that mentioned her time as a biology major at Vassar.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9">Chef and TV personality <strong>Andrew Zimmern ’84</strong> wrote an opinion piece for <a href="https://www.nytimes.com/2025/10/08/opinion/nonstick-pans-cooking-chemicals-teflon.html"><em>The New York Times</em></a> about the harsh chemicals in non-stick pans.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="8" data-line-end="9"><a href="https://people.com/all-about-liza-obrien-conan-obrien-wife-11925221"><em>People</em></a> magazine profiled playwright <strong>Liza Powel O’Brien ’92</strong> on the occasion of her spouse, Conan O’Brien, hosting the Academy Awards.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11"><a href="https://ew.com/wicked-star-ethan-slater-reveals-worst-audition-where-he-was-20-years-too-young-for-role-11877625"><em>Entertainment Weekly</em></a> was one of several media outlets reporting on actor <strong>Ethan Slater ’14</strong>’s campus visit to accept the AAVC’s Young Alum Achievement Award.</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><strong>Jack Dolman ’03</strong> was interviewed by <a href="https://www.ludwig-van.com/toronto/2025/12/05/interview-supervising-music-editor-jack-dolman-talks-wicked-good/"><em>Ludwig Van</em></a> about his experience as the supervising editor for the films <em>Wicked</em> and <em>Wicked: For Good</em>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="10" data-line-end="11">Author <strong>Torrey Maldonado ’96</strong> spoke to <a href="https://bit.ly/3LPxIsZ"><em>Publisher’s Weekly</em></a> about his debut picture book, <em>Just Right</em>.</p></div>
 
 
   <?php echo end_item_col(); ?>
@@ -129,19 +126,16 @@ $page_info = json_decode($page_info, true);
   <?php echo item_col(); ?>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15">A film adaptation of the upcoming novel <em>Under Story</em> by bestselling author <strong>Chloe Benjamin ’10</strong> is in the works by Warner Bros Pictures, according to <a href="https://www.hollywoodreporter.com/movies/movie-news/warner-bros-david-heyman-adapt-chloe-benjamin-novel-1236440226/"><em>The Hollywood Reporter</em></a>.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="12" data-line-end="13"><strong>Michele Tugade ’95</strong>, Professor of Psychological Science on the William R. Kenan Jr. Chair, wrote an article for <a href="https://www.psychologytoday.com/us/blog/everyday-resilience/202602/the-year-of-the-fire-horse-a-call-to-adventure"><em>Psychology Today</em></a> about why the Lunar New Year transition to the Year of the Fire Horse is especially meaningful to her.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17">Composer <strong>Jane O’Leary ’68</strong> was featured in <a href="https://journalofmusic.com/reviews/celebrating-vision-and-achievements-jane-o-leary-0"><em>The Journal of Music</em></a> after she was presented with the National Concert Hall Lifetime Achievement Award for her outstanding contribution to music in Ireland.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="14" data-line-end="15"><strong>Carlos Eduardo Espina ’20</strong>, a political influencer with more than 14 million followers on TikTok, was the focus of a <a href="https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/02/19/543853/election-democrats-latino-voters-influencer-houston-texas/">Houston Public Media story</a> on efforts by Texas Democrats to reach Latino voters.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19">Creator of Blumhouse Productions <strong>Jason Blum ’91</strong> was interviewed by <a href="https://www.nytimes.com/2025/10/23/books/review/jason-blum-horrors-new-wave.html"><em>The New York Times</em></a> about his favorite books.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="16" data-line-end="17"><em>New Yorker</em> Staff Writer <strong>Ruby Cramer ’12</strong> appeared on <a href="https://pocketcasts.com/podcast/the-new-yorker-radio-hour/af219330-570e-0133-c8fd-0d11918ab357/the-city-of-minneapolis-vs-donald-trump/138748a5-5443-42c7-93a6-0e9ccabd0367"><em>The New Yorker Radio Hour</em></a> to discuss the current situation in Minneapolis and her interview with Minneapolis Mayor Jacob Frey.</p></div>
 
 
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="20" data-line-end="21">In <a href="https://www.nytimes.com/2025/10/21/magazine/dark-retreat-meditation-sensory-deprivation-spirituality.html"><em>The New York Times Magazine</em></a>, <strong>Chris Colin ’97</strong> describes his experience spending three days in total darkness.</p></div>
-
-
-<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="22" data-line-end="23"><strong>A. Snowden McFall ’75</strong> was the subject of a <a href="https://www.jaxdailyrecord.com/news/2025/oct/09/a-snowden-mcfall/"><em>Jacksonville Daily Record</em></a> article about her mission to inspire women in the workplace.</p></div>
+<div class="other-news-item plain-card-1"><p class="has-line-data" data-line-start="18" data-line-end="19"><a href="https://timesofindia.indiatimes.com/life-style/books/features/quote-of-the-day-by-elizabeth-bishop-one-shouldnt-get-too-involved-with-people-who-/amp_articleshow/130091862.cms"><em>The Times of India</em></a> published an appreciation of poet <strong>Elizabeth Bishop ’34</strong>, mentioning the literary magazine she helped start at Vassar.</p></div>
 
 
   <?php echo end_item_col(); ?>
