@@ -9,7 +9,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
             'Headshot of Lisa Kudrow, a person with long blond hair and dark clothing.'
           ); ?>
         
-    <p><strong>Lisa Kudrow ’85</strong>, currently starring in the third season of HBO’s The Comeback, was the subject of a lengthy profile in <em>The New Yorker</em> that mentioned her time as a biology major at Vassar.</p>
+    <p><strong>Lisa Kudrow ’85</strong>, currently starring in the third season of HBO’s <em>The Comeback</em>, was the subject of a lengthy profile in <em>The New Yorker</em> that mentioned her time as a biology major at Vassar.</p>
     
           <p><em>Photo: Karl Rabe</em></p>
           <?php echo cta_link(
