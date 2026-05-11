@@ -31,7 +31,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
         
     <p>NBC News and many other media outlets reported on a groundbreaking study of human brain development led by <strong>Dr. Alexa Mousley ’20</strong>.</p>
     
-          <!--<p><em>Photo: CREDIT NEEDED</em></p>-->
+          <p><em>Photo: Phil Erb Photography</em></p>
           <?php echo cta_link( 'https://www.nbcnews.com/science/science-news/human-brains-5-epochs-development-rcna245663',
           'Read more',
           'stretched-link'
@@ -66,7 +66,7 @@ echo carousel( '', 'alums-media-carousel' ); ?>
         
     <p>Many media outlets, including <em>Variety</em>, reported that <strong>Cassandra Kulukundis ’93</strong> won the first-ever Oscar for Best Casting for her work on the film <em>One Battle After Another</em>.</p>
     
-          <!--<p><em>Photo: CREDIT NEEDED</em></p>-->
+          <p><em>Photo by Jay L. Clendenin, Shutterstock/Warner Bros.</em></p>
           <?php echo cta_link(      'https://variety.com/2026/artisans/news/one-battle-after-another-wins-first-oscar-best-casting-1236680670/',
           'Read more',
           'stretched-link'
