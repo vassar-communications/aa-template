@@ -203,22 +203,8 @@ echo contact_card(
         ]
 );
 echo end_contact_card();
-?>
 
-                    <?php
-echo contact_card(
-    'RaeAnn Moore',
-    'Executive Assistant',
-    [
-            'phone' => '845-437-5402',
-            'email' => 'rmoore@vassar.edu',
-        ]
-);
-echo end_contact_card();
-?>
-
-
-                    <?php
+                    
 echo contact_card(
     'Anca Nelson',
     'Director for Campaign Operations and Principal Gifts Stewardship',
@@ -229,7 +215,6 @@ echo contact_card(
 );
 echo end_contact_card();
 ?>
-
 
                 </div>
 
@@ -400,11 +385,11 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Brianna Evans',
+    'Ariana Condolora',
     'Office Specialist',
     [
             'phone' => '845-437-5485',
-            'email' => 'briannaevans@vassar.edu',
+            'email' => 'acondolora@vassar.edu',
         ]
 );
 echo end_contact_card();
@@ -438,17 +423,6 @@ echo contact_card(
     [
             'phone' => '845-437-5350',
             'email' => 'mkort@vassar.edu',
-        ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
-    'Brian C. Lepak Jr.',
-    'Assistant Director of Leadership Gifts',
-    [
-            'phone' => '757-719-8152',
-            'email' => 'blepak@vassar.edu',
         ]
 );
 echo end_contact_card();
@@ -1006,17 +980,6 @@ echo contact_card(
     [
             'phone' => '845-437-5493',
             'email' => 'kamontgomery@vassar.edu',
-        ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
-    'Lisa Paoloni',
-    'Data Records Specialist',
-    [
-            'phone' => '845-437-7420',
-            'email' => 'lpaolini@vassar.edu',
         ]
 );
 echo end_contact_card();
