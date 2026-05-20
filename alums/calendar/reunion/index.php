@@ -491,7 +491,12 @@ End of hiding info content*/ ?>
         <li>Saturday: 10:00 a.m.–6:00 p.m.</li>
         <li>Sunday: 10:00 a.m.–6:00 p.m.</li>
     </ul>
-    <p><em>We intend to have the pool open, pending lifeguard availability. Check back for updates.</em></p>
+    <p><strong>Pool Hours:</strong></p>
+     <ul>
+        <li>Friday: 8:00 a.m.–12:00 p.m. and 1:00–5:00 p.m.</li>
+        <li>Saturday: 2:00–6:00 p.m.</li>
+    </ul>
+   
 
     <h3>James W. Palmer III Gallery, North Atrium, College Center</h3>
     <ul>
@@ -518,8 +523,9 @@ End of hiding info content*/ ?>
 
     <?php echo item_col(); ?>
 
-    <h3>Shabbat Services at The Bayit, 51 Collegeview Avenue, near the North Gate</h3>
-    <p><em>Celebrate Shabbat with the Jewish campus community in a welcoming, participatory, and song-filled gathering.</em></p>
+    <h3>Shabbat Services at The Bayit</h3>
+    <p><em>(51 Collegeview Avenue, near the North Gate)</em><br>
+    <em>Celebrate Shabbat with the Jewish campus community in a welcoming, participatory, and song-filled gathering.</em></p>
     <ul>
         <li>Friday: 5:30–6:45 p.m.</li>
     </ul>

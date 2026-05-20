@@ -294,17 +294,6 @@ echo end_contact_card();
 
 
 echo contact_card(
-    'Lane Sulzer',
-    'Director of Annual Giving',
-    [
-            'phone' => '845-437-7898',
-            'email' => 'lsulzer@vassar.edu',
-        ]
-);
-echo end_contact_card();
-
-
-echo contact_card(
     'Amanda Tyrrell',
     'Assistant Director of Annual Giving, Volunteer, and Reunion',
     [
