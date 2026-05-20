@@ -83,7 +83,7 @@ June 19-July 1, 2025</p>
 
 <p><strong>Pricing:</strong> $6,590 per person, double occupancy (not including international airfare). Single room supplement: $1,590. Optional 2-day Athens pre-trip cost: $1,495 per person, double occupancy ($480 single room supplement).</p>
 
-<p>This tour is sold out. Please contact Kristy Grimes at <a href="mailto:kgrimes@vassar.edu">kgrimes@vassar.edu</a> to join the waitlist.</p>
+<p>This tour is sold out.</p>
 
 <?php echo cta_link(
     '/alums/assets/pdf/Travel-Program-Greece-Brochure.pdf',
@@ -106,13 +106,15 @@ June 19-July 1, 2025</p>
 
 <p><strong>October 21–31, 2026<strong></p>
 
+<p><strong>SOLD OUT</strong></p>
+
 <p><em>Faculty Hosts:</em> Bart Thurber, Director of the Frances Lehman Loeb Art Center and Lecturer in Art, and Elizabeth Lastra, Assistant Professor of Art</p>
 
 <p>This customized 11-day trip explores some of the most important historical and artistic sites in Sicily. From its literature, music, religious traditions, cuisine, and in the remarkable art and architectural styles in evidence over the centuries, Sicily represents one of the richest and most diverse cultural tapestries anywhere. For a portion of the trip, alums will be joined by Professor Lastra and four Vassar students, who will share their research on Sicilian history and art.</p>
 
 <p><strong>Pricing:</strong> $8,875 per person (not including international airfare). Single room supplement: $1,575.</p>
 
-<p>This tour is sold out. Please contact Kristy Grimes at <a href="mailto:kgrimes@vassar.edu">kgrimes@vassar.edu</a> to join the waitlist.</p>
+<p>This tour is sold out.</p>
 
 <?php echo cta_link(
     'https://thegrandtour.com/patron-tour/vassar-sicily/',
@@ -137,15 +139,19 @@ June 19-July 1, 2025</p>
 
 <p><strong>March 7–20, 2027<strong></p>
 
+<p><strong>SOLD OUT</strong></p>
+
 <p><em>Faculty Host:</em> Robert. K. Brigham, Shirley Ecker Boskey Professor of History and International Relations</p>
 
 <p>With its dramatic landscapes, fascinating history, epic food, and pulsating energy, Vietnam is a unique travel destination. Professor Brigham has arranged many experiences which are not accessible to most tourists—such as meetings with government officials and diplomats, public health experts, educators, and artists—in addition to popular and off-the-beaten-path destinations.</p>
 
 <p><strong>Pricing:</strong>  $8,750 per person based on double occupancy (not including international airfare). Single room supplement: $2,150.</p>
 
+<p>This tour is sold out.</p>
+
 <?php echo cta_link(
     '/alums/assets/pdf/Vassar-Vietnam-Trip-March-2027.pdf',
-    'View details and join us In Vietnam.'
+    'View the Vietnam itinerary.'
 ); ?>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -184,7 +190,7 @@ cancellation coverage at the minimum.</p>
 
 <?php echo sec_regularContent('We’d like to hear from you!','theme-charcoal bg-dark  presentation quad-pattern has-bg','py-3 d-flex justify-content-around text-center'); ?>
 
-<p>Questions about the Travel Program? Please feel free to contact Kristy Grimes, Director of Advancement Events and Programs, at <a href="mailto:kgrimes@vassar.edu">kgrimes@vassar.edu</a>.</p>
+<p>Questions about the Travel Program? Please contact Willa Vincitore at <a href="mailto:wvincitore@vassar.edu">wvincitore@vassar.edu</a>.</p>
 <?php echo end_sec_regularContent(); ?>
 
 
