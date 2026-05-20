@@ -491,7 +491,7 @@ End of hiding info content*/ ?>
         <li>Saturday: 10:00 a.m.–6:00 p.m.</li>
         <li>Sunday: 10:00 a.m.–6:00 p.m.</li>
     </ul>
-    <p><strong>Pool Hours:</strong></p>
+    <p style="margin-bottom: 0;"><strong>Pool Hours:</strong></p>
      <ul>
         <li>Friday: 8:00 a.m.–12:00 p.m. and 1:00–5:00 p.m.</li>
         <li>Saturday: 2:00–6:00 p.m.</li>
@@ -499,6 +499,7 @@ End of hiding info content*/ ?>
    
 
     <h3>James W. Palmer III Gallery, North Atrium, College Center</h3>
+    <p><strong>Exhibition:</strong><br><a href="https://offices.vassar.edu/campus-activities/palmer-gallery/">Emily Nomer ’76 – <em>10,000 Hours: An Introspective</em></a></p>
     <ul>
         <li>Friday: 9:00 a.m.–10:00 p.m.</li>
         <li>Saturday: 10:00 a.m.–10:00 p.m.</li>
@@ -507,25 +508,33 @@ End of hiding info content*/ ?>
 
 
     <h3>Jummah Service at Pratt House</h3>
-    <p><em>Join the Muslim campus community at Pratt House for Jummah. Service will depend on attendance.</em></p>
+    <p>Join the Muslim campus community at Pratt House for Jummah. Service will depend on attendance.</p>
     <ul>
         <li>Friday: 1:00 p.m.</li>
     </ul>
-
-    <h3>Olmsted Greenhouse</h3>
+    
+    <h3>Music Library, including the Treasure Room</h3>
     <ul>
+        <li>Thursday: 1:00–4:00 p.m.</li>
         <li>Friday: 1:00–4:00 p.m.</li>
-        <li>Saturday: 12:00 p.m.–4:00 p.m.</li>
+        <li>Saturday: 10:00 a.m.–4:00 p.m.</li>
     </ul>
-    <p><em>Located on the B-Level of Olmsted Hall, enter through the glass doors facing Skinner Music Hall in the back of Olmsted.</em></p>
+    
 
     <?php echo end_item_col(); ?>
 
     <?php echo item_col(); ?>
 
+    <h3>Olmsted Greenhouse</h3>
+    <p>Located on the B-Level of Olmsted Hall, enter through the glass doors facing Skinner Music Hall in the back of Olmsted.</p>
+    <ul>
+        <li>Friday: 1:00–4:00 p.m.</li>
+        <li>Saturday: 12:00–4:00 p.m.</li>
+    </ul>
+
     <h3>Shabbat Services at The Bayit</h3>
     <p><em>(51 Collegeview Avenue, near the North Gate)</em><br>
-    <em>Celebrate Shabbat with the Jewish campus community in a welcoming, participatory, and song-filled gathering.</em></p>
+    Celebrate Shabbat with the Jewish campus community in a welcoming, participatory, and song-filled gathering.</p>
     <ul>
         <li>Friday: 5:30–6:45 p.m.</li>
     </ul>
@@ -550,7 +559,7 @@ End of hiding info content*/ ?>
         <li>Thursday: 8:30 a.m.–4:30 p.m.</li>
         <li>Friday: 8:30 a.m.–4:30 p.m.</li>
         <li>Saturday: 8:30 a.m.–5:00 p.m.</li>
-        <li>Sunday: 8:30 a.m.–noon</li>
+        <li>Sunday: 8:30 a.m.–12:00 p.m.</li>
     </ul>
 
     <h3>Vassar College Store, Juliet, Raymond Avenue</h3>
