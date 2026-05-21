@@ -74,7 +74,7 @@ $page_info = json_decode($page_info, true);
     <p>Does your organization hire interns or entry-level opportunities? Consider hosting an employer information session, either virtually or on-campus, to connect current students with your employer. We can also work with you to coordinate on-campus or virtual interviews.</p>
 
     <?php echo cta_link(
-      'https://offices.vassar.edu/career-education/info/employers/',
+      'https://offices.vassar.edu/career-education/connect-with-vassar-talent/',
       'More information for employers.'
     ); ?>
 
