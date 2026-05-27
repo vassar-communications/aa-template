@@ -183,7 +183,7 @@ $page_info = json_decode($page_info, true);
     <p>Donors who have made gifts to the Vassar Fund for three or more consecutive fiscal years or have established a recurring gift at Vassar are included in the 1861 Loyalty Society. Make a gift to the Vassar Fund today to start your own giving streak and join our most loyal donors in giving back each year!</p>
 
     <?php echo cta_link(
-        'https://connect.vassar.edu/s/1654/20/giving/landing.aspx?sid=1654&gid=2&pgid=6088',
+        'https://www.vassar.edu/give/donor-recognition/1861-loyalty-society',
         'Learn more about the 1861 Loyalty Society.'
     ); ?>
 
