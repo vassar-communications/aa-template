@@ -573,6 +573,17 @@ echo end_contact_card();
 
 
 echo contact_card(
+    'Linda Hernandez',
+    'Office Specialist',
+    [
+            'phone' => '845-437-5397',
+            'email' => 'lhernandez@vassar.edu',
+        ]
+);
+echo end_contact_card();
+
+
+echo contact_card(
     'Diana Jedlicka',
     'Director of Volunteer Engagement and Reunion',
     [
