@@ -120,7 +120,7 @@ End of hiding info content*/ ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Preliminary<br> Class Schedules',
+    'Class Schedules',
     $alums_img_path.'alums-calendar/reunion/Reunion-General-52960456425_6f999747a0_k.jpg',
     'theme-burgundy',
     '',
@@ -140,7 +140,7 @@ End of hiding info content*/ ?>
 ); ?>
 
 <br />
-<p><em>Preliminary schedules as of March 27, 2026. Additional events and information will be added.</em></p>
+<p><em>Final schedules as of May 29, 2026.</em></p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
