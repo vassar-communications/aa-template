@@ -77,7 +77,7 @@ We are grateful to all who applied and appreciate the time, care, and creativity
 </p>
 
 <p>
-Applications will open again in Fall 2028.
+Applications will open again in Fall 2027.
 </p>
 
 

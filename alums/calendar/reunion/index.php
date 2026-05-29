@@ -44,7 +44,7 @@ $page_info = json_decode($page_info, true);
 <h3>Registration has been extended until 5/29!</h3>
 <p>We’re excited to welcome alums from classes ending in 1 or 6 for Reunion Weekend, taking place June 5–7, 2026. The Class of 1976 will launch its 50th Reunion celebration early starting on June 4, 2026.</p>
 <p>Scroll and check out what is happening during the weekend in the schedules below.</p>
-<p>On campus housing is full and no longer available. Registration has been extended until 5/29 which includes a late fee.</p>
+<p>Registration is closing on May 29 at 11:59 p.m. (ET). After that time, we will no longer take registrations for Reunion weekend. Caterers prepare based on confirmed registration counts. If you are not registered, you are not expected and may displace a registered guest.</p>
 <p>If you have any questions or need assistance with registration, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or email <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a>.</p>
 
      <a href="https://cvent.me/Rab2EW" class="btn btn-primary arrow mt-2 mb-2">Register for Reunion</a>
