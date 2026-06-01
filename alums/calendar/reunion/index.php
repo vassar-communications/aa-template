@@ -41,14 +41,11 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A person stands at a podium in front of a large group of people sitting under a tent, with a large banner behind them that says AAVC in white on a red background.']
 ); ?>
 
-<h3>Registration has been extended until 5/29!</h3>
 <p>We’re excited to welcome alums from classes ending in 1 or 6 for Reunion Weekend, taking place June 5–7, 2026. The Class of 1976 will launch its 50th Reunion celebration early starting on June 4, 2026.</p>
 <p>Scroll and check out what is happening during the weekend in the schedules below.</p>
-<p>Registration is closing on May 29 at 11:59 p.m. (ET). After that time, we will no longer take registrations for Reunion weekend. Caterers prepare based on confirmed registration counts. If you are not registered, you are not expected and may displace a registered guest.</p>
-<p>If you have any questions or need assistance with registration, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or email <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a>.</p>
+<p>Registration is closed. We will no longer take registrations for Reunion weekend. Caterers prepare based on confirmed registration counts. If you were not registered by May 29, you are not expected and may displace a registered guest.</p>
+<p>If you have any questions or need assistance, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or email <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a>.</p>
 
-     <a href="https://cvent.me/Rab2EW" class="btn btn-primary arrow mt-2 mb-2">Register for Reunion</a>
-    <br />
     <a href="https://docs.google.com/spreadsheets/d/1jb-c0Flb31ACM7Ao5bE-LToe_hVwD4SxfZLc8mw05Ao/edit?usp=sharing" class="btn btn-primary arrow mt-2 mb-2">See who’s coming</a>
     <br />
 
@@ -138,9 +135,6 @@ End of hiding info content*/ ?>
     'https://vassar-college-prod.modolabs.net/reunionv2/reunion_schedule/index?feed=events&tracks%5B%5D=id_50th_reunionv2_2026&startdate=2026-06-04T00%3A00%3A00',
     'List of the 50th Reunion class-specific events.'
 ); ?>
-
-<br />
-<p><em>Final schedules as of May 29, 2026.</em></p>
 
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
