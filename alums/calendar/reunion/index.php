@@ -490,7 +490,7 @@ End of hiding info content*/ ?>
     <p style="margin-bottom: 0;"><strong>Pool Hours:</strong></p>
      <ul>
         <li>Friday: 8:00 a.m.–12:00 p.m. and 1:00–5:00 p.m.</li>
-        <li>Saturday: 2:00–6:00 p.m.</li>
+        <li>Saturday: 4:00–6:00 p.m.</li>
     </ul>
    
 
