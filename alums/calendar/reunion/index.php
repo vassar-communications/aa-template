@@ -41,13 +41,11 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'A person stands at a podium in front of a large group of people sitting under a tent, with a large banner behind them that says AAVC in white on a red background.']
 ); ?>
 
-<p>We’re excited to welcome alums from classes ending in 1 or 6 for Reunion Weekend, taking place June 5–7, 2026. The Class of 1976 will launch its 50th Reunion celebration early starting on June 4, 2026.</p>
-<p>Scroll and check out what is happening during the weekend in the schedules below.</p>
-<p>Registration is closed. We will no longer take registrations for Reunion weekend. Caterers prepare based on confirmed registration counts. If you were not registered by May 29, you are not expected and may displace a registered guest.</p>
-<p>If you have any questions or need assistance, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or email <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a>.</p>
+<p>Reunion 2026 was a tremendous success! We invite you to relive this unforgettable weekend by viewing the photo gallery at the link below.</p>
+<p>As we celebrate the memories of this year’s Reunion, we are already looking ahead to Reunion 2027. We look forward to welcoming alums from classes ending in 2 and 7 on June 4–6, 2027, along with the 50th Reunion Class of 1977, who will begin their celebration on June 3.</p>
+<p>Additional information about Reunion 2027 will be available this fall.</p>
+<p>If you left an item behind during Reunion, our Lost & Found will be maintained through December 1, 2026. For assistance, please call <?php echo phone_number('800-443-8196'); ?>, option 5, or email <a href="mailto:reunion@vassar.edu">reunion@vassar.edu</a>.</p>
 
-    <a href="https://docs.google.com/spreadsheets/d/1jb-c0Flb31ACM7Ao5bE-LToe_hVwD4SxfZLc8mw05Ao/edit?usp=sharing" class="btn btn-primary arrow mt-2 mb-2">See who’s coming</a>
-    <br />
 
 <?php /*hiding below items until 2026 setup
 
@@ -94,6 +92,7 @@ End of hiding info content*/ ?>
 
 <?php echo end_sec_regularContent(); */ ?>
 
+<?php /*hiding below until 2027 setup
 
 
 <?php echo sec_regularContent(
@@ -156,7 +155,6 @@ End of hiding info content*/ ?>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
-<?php /*hiding below item until 2026 setup
 
 <?php echo sec_fullBleedImageColumn(
         '50th Reunion<br> Class Schedule',
@@ -207,12 +205,12 @@ End of hiding info content*/ ?>
 
 <?php echo end_sec_regularContent(); ?>
 
+<?php /*hiding below items until 2027 setup
 
 <div id="information-updates"></div>
 
 <?php echo sec_regularContent('Information & Updates', 'theme-verylightgray', '', '', ); ?>
 
-<?php /*hiding below items until 2026 setup
 
 <?php echo item_iconItem('New This Year!','star',''); ?>
 <h4>Reunion Swag Shop!</h4>
@@ -270,7 +268,6 @@ End of hiding info content*/ ?>
 <p><a href="https://offices.vassar.edu/campus-safety/procedures/">Read Vassar’s complete emergency procedures</a>.</p>
 <?php echo end_item_iconItem(); ?>
 
-End of hiding info content*/ ?>
 
 
 <div id="housing"></div>
@@ -439,7 +436,6 @@ End of hiding info content*/ ?>
 <?php echo end_item_iconItem(); ?>
 
 
-<?php /*hiding below items until 2026 setup
 
 <?php echo item_iconItem('Important to Know','circle-info',''); ?>
 <ul>
@@ -457,7 +453,6 @@ End of hiding info content*/ ?>
     <?php echo end_item_iconItem(); ?>
 
 
-    End of hiding info content*/ ?>
 
     <?php echo end_sec_regularContent(); ?>
 
@@ -573,6 +568,7 @@ End of hiding info content*/ ?>
 
     <?php echo end_sec_hasColumns(); ?>
 
+    End of hiding content*/ ?>
 
     <?php echo relatedTopics(); ?>
     <?php include($project_paths['main_project_root'].'/alums/inc/pages/give/give.php');?>
