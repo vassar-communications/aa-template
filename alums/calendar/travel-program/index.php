@@ -62,42 +62,11 @@ June 19-July 1, 2025</p>
 */ ?>
 
 
-<div id="greece"></div>
-<?php echo sec_fullBleedImageColumn(
-    null,
-    $alums_img_path.'alums-calendar/travel-program/2026-Greece-Andros-Chora.jpg',
-    'theme-darkcoal',
-    '',
-    ['img_alt_text' => 'Chora in Andros, Greece, a coastal village of whitewashed buildings with terracotta roofs perched on rocky cliffs above crystal-clear blue water, backed by rolling hills under a bright sky.']
-); ?>
-
-<p class="intro-text">Impressions of Life: An Island-Hopping Greek Adventure</p>
-
-<p><strong>June 13–24, 2026<strong></p>
-
-<p><strong>SOLD OUT</strong></p>
-
-<p>Visit the ancient sites and picturesque villages of four of Greece’s most beautiful islands—Andros, Naxos, Santorini, and Crete. Along the way, savor distinctive regional cuisine and discover the remarkable history of the islands. This unique journey is hosted by Michele Tugade, Professor of Psychological Science on the William R. Kenan, Jr. Chair, whose inspiring research explores how wellness and lifestyle contribute to happiness and longevity. Explore these stunning islands in-depth and experience Greece in a rewarding way.</p>
-
-<p>An optional pre-trip stay in Athens is offered from June 11–14, 2026.</p>
-
-<p><strong>Pricing:</strong> $6,590 per person, double occupancy (not including international airfare). Single room supplement: $1,590. Optional 2-day Athens pre-trip cost: $1,495 per person, double occupancy ($480 single room supplement).</p>
-
-<p>This tour is sold out.</p>
-
-<?php echo cta_link(
-    '/alums/assets/pdf/Travel-Program-Greece-Brochure.pdf',
-    'View the full Greece itinerary.'
-); ?>
-
-<?php echo end_sec_fullBleedImageColumn(); ?>
-
-
 <div id="sicily"></div>
 <?php echo sec_fullBleedImageColumn(
     null,
     $alums_img_path.'alums-calendar/travel-program/2026-sicily-IMG_6594.jpg',
-    'image-is-first',
+    '',
     '',
     ['img_alt_text' => 'Apse of the Cathedral of Monreale, 12th c., an ornate church interior with a large gold mosaic of Christ above the altar.']
 ); ?>
@@ -130,7 +99,7 @@ June 19-July 1, 2025</p>
 <?php echo sec_fullBleedImageColumn(
     null,
     $alums_img_path.'alums-calendar/travel-program/2027-vietnam-pexels-quang-nguyen-vinh-222549-2138175.jpg',
-    'theme-darkcoal',
+    'image-is-first theme-darkcoal',
     '',
     ['img_alt_text' => 'Three people in small boats gather water lilies on a pond filled with pink blossoms, in Hanoi, Vietnam.']
 ); ?>
