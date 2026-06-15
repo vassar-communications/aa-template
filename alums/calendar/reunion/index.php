@@ -197,6 +197,7 @@ End of hiding info content*/ ?>
 <h3>Past Reunions</h3>
 
 <ul class="linked-list mt-4">
+    <li><a href="https://www.flickr.com/photos/vassarcollegemedia/albums/72177720334143575/">View photos from Reunion 2026.</a></li>
     <li><a href="https://www.flickr.com/photos/vassarcollegemedia/albums/72177720326751103/">View photos from Reunion 2025.</a></li>
     <li><a href="https://www.flickr.com/photos/vassarcollegemedia/albums/72177720317624209/">View photos from Reunion 2024.</a></li>
     <li><a href="https://www.flickr.com/photos/vassarcollegemedia/sets/72177720308893162/">View photos from Reunion 2023.</a></li>
