@@ -53,12 +53,11 @@ $page_info = json_decode($page_info, true);
    <li><a href="#g2q3">AAVC Trustee</a></li>
    <li><a href="#g2q4">Alumnae House Committee Chair</a></li>
    <li><a href="#g2q5">Alumnae/i Recognition Committee Chair</a></li>
-   <li><a href="#g2q6">Career Networking Committee Chair</a></li>
+   <li><a href="#g2q6">Alum Career Connections Committee Chair</a></li>
    <li><a href="#g2q8">Clubs Committee Chair</a></li>
    <li><a href="#g2q10">Vassar Fund Committee Chair</a></li>
    <li><a href="#g2q11">Nominating and Governance Committee Chair</a></li>
    <li><a href="#g2q12">Nominating and Governance Committee Member</a></li>
-   <li><a href="#g2q13">Ad Hoc Diversity, Inclusion, and Equity Committee Chair</a></li>
 </ul>
 
 <h3 id="g1">Board Requirements</h3>
@@ -213,11 +212,11 @@ $page_info = json_decode($page_info, true);
 <p>The Alumnae/i Recognition Committee Chair should be a dedicated volunteer, active in alumnae/i affairs. The committee is staffed by the Associate Vice President for Alumnae/i Engagement and Executive Director of the AAVC. The committee also works with the Office of Alumnae/i Affairs and Development to maintain and update the Alumnae/i Recognition Committee database.</p>
 <p>Term of Office: Four years.</p>
 <p><em>r. 7/19</em></p>
-<h4 id="g2q6">Career Networking Committee Chair</h4>
-<p>The Career Networking Committee provides strategic guidance in partnership with the Alumnae/i Engagement and Career Development Offices to broaden and strengthen career and professional networks among alumnae/i. The Career Networking Committee Chair works with the Committee of appointed AAVC Board members and other key alumnae/i active in supporting these efforts. The committee also advises the college on career support for alumnae/i, and professional networking opportunities.</p>
-<p>The Career Networking Committee Chair should have a strong interest and experience in developing professional networks. The staff liaisons for the committee are the Senior Director of Alumnae/i Engagement and the Associate Director for Alumnae/i Outreach and Partnerships in the Career Development Office.</p>
+<h4 id="g2q6">Alum Career Connections Committee Chair</h4>
+<p>The Alum Career Connections Committee provides strategic guidance in partnership with the Alumnae/i Engagement and Career Development Offices to broaden and strengthen career and professional networks among alumnae/i. The Alum Career Connections Committee Chair works with the Committee of appointed AAVC Board members and other key alumnae/i active in supporting these efforts. The committee also advises the college on career support for alumnae/i, and professional networking opportunities.</p>
+<p>The Alum Career Connections Committee Chair should have a strong interest and experience in developing professional networks. The staff liaisons for the committee are the Senior Director of Alumnae/i Engagement and the Associate Director for Alumnae/i Outreach and Partnerships in the Career Development Office.</p>
 <p>Term of Office: Four years.</p>
-<p><em>r. 7/19</em></p>
+<p><em>r. 6/26</em></p>
 <h4 id="g2q8">Clubs Committee Chair</h4>
 <p>The Clubs Committee works with the Office of Alumnae/i Affairs and Development to develop and implement strategies to engage alumnae/i in their communities around the world. To foster a continued bond with the college, the committee aims to ensure thriving activities—cultural, social, and professional—in regions where alumnae/i are most represented.</p>
 <p>The Chair works with the committee of appointed AAVC Board members and leaders of clubs and regional networks. The committee ensures that each region has diverse, creative, and high-quality programming. The Chair should have demonstrated leadership experience with an alumnae/i club or regional network.</p>
@@ -240,12 +239,6 @@ $page_info = json_decode($page_info, true);
 <p>The work of the Nominating and Governance Committee has a direct impact on the quality, diversity, and breadth of leadership of the AAVC Board and committees of the board. Alumnae/i proposed as members of the Nominating and Governance Committee are identified and selected based upon their demonstrated interest in, and knowledge of, the AAVC’s work; their commitment to Vassar; their sound judgment; and their high level of personal responsibility and initiative. The committee meets in person and telephonically throughout the year, including at the three annual AAVC Board meetings held in Poughkeepsie.</p>
 <p>Term of Office: Four years.</p>
 <p><em>r. 7/19</em></p>
-<h4 id="g2q13">Ad Hoc Diversity, Inclusion, and Equity Committee Chair</h4>
-<p>The Ad Hoc Committee on Diversity, Equity, and Inclusion (DEI) was established to explore, in partnership with Vassar’s Office of Alumnae/i Engagement, the range of engagement opportunities available to alum of diverse backgrounds, with special attention given to groups that have been historically underrepresented and underserved. The committee will review and assess data, habits, practices and policies, formal and informal organizational culture (the Board, Classes, Clubs, and Affinity Groups) with the goal of identifying any potential barriers to the advancement of DEI. The committee will also encourage learning opportunities for alum volunteers that foster an inclusive and welcoming community in which all alums feel empowered to bring their whole self to Vassar College engagements—regardless of their expression of identity.</p>
-<p>This chair of this committee works with dedicated Board and off-Board committee members and brings extensive knowledge and expertise in diversity, equity and inclusion issues. The committee is staffed by the Senior Director of Alumnae/i Engagement.</p>
-<p>Term of Office: To be determined by the Board.</p>
-<p><em>r. 8/20</em></p>
-
 
     <?php echo end_sec_regularContent(); ?>
 
