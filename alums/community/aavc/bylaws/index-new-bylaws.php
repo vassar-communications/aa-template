@@ -39,7 +39,6 @@ $page_info = json_decode($page_info, true);
 ); ?>
 
 
-
 <style>
 
 /* Requested by Susan (Slack, June 2, 2024) */
