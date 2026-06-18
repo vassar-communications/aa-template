@@ -205,8 +205,6 @@ circulate minutes of Association meetings within two weeks of such meetings to t
 
 <h3>ARTICLE XII. NOMINATIONS TO THE BOARD OF DIRECTORS</h3>
 
-<h4>SEC. 1. NOMINATIONS BY THE NOMINATING &amp; GOVERNANCE COMMITTEE.</h4>
-
 <p>In addition to nominations by the Nominating &amp; Governance Committee, nominations may also be made by petition to be signed by not less than twelve hundred (1200) members of the Association representing at least fifteen (15) classes, ten (10) states, and four (4) countries and filed with the Executive Director at least thirty days and not more than sixty (60) days before the Annual Meeting. Such a petition must be accompanied by the candidate's written permission.</p>
 
 <h3>ARTICLE XIII. ELECTIONS OF INDIVIDUALS NOMINATED TO THE BOARD</h3>
