@@ -52,7 +52,7 @@ $page_info = json_decode($page_info, true);
    <li><a href="#g2q2">AAVC Vice Presidents</a></li>
    <li><a href="#g2q3">AAVC Trustee</a></li>
    <li><a href="#g2q4">Alumnae House Committee Chair</a></li>
-   <li><a href="#g2q5">Alumnae/i Recognition Committee Chair</a></li>
+   <li><a href="#g2q5">Alum Recognition Committee Chair</a></li>
    <li><a href="#g2q6">Alum Career Connections Committee Chair</a></li>
    <li><a href="#g2q8">Clubs Committee Chair</a></li>
    <li><a href="#g2q10">Vassar Fund Committee Chair</a></li>
@@ -207,11 +207,11 @@ $page_info = json_decode($page_info, true);
 <p>The Chair of the House Committee should be a dedicated volunteer familiar with Alumnae House. The Committee is staffed by the Alumnae House Manager.</p>
 <p>Term of Office: Four years.</p>
 <p><em>r. 7/19</em></p>
-<h4 id="g2q5">Alumnae/i Recognition Committee Chair</h4>
-<p>The Alumnae/i Recognition Committee proposes distinguished members of the alumnae/i population for recognition with designated alumnae/i awards. The Alumnae/i Recognition Committee Chair works with the committee of appointed AAVC Board members and alumnae/i active in the alumnae/i community. The Committee is also charged with reviewing existing alumnae/i recognition awards and developing additional awards and programs that would enhance the recognition and engagement of distinguished alumnae/i of the college.</p>
-<p>The Alumnae/i Recognition Committee Chair should be a dedicated volunteer, active in alumnae/i affairs. The committee is staffed by the Associate Vice President for Alumnae/i Engagement and Executive Director of the AAVC. The committee also works with the Office of Alumnae/i Affairs and Development to maintain and update the Alumnae/i Recognition Committee database.</p>
+<h4 id="g2q5">Alum Recognition Committee Chair</h4>
+<p>The Alum Recognition Committee proposes distinguished members of the alumnae/i population for recognition with designated alumnae/i awards. The Alum Recognition Committee Chair works with the committee of appointed AAVC Board members and alumnae/i active in the alumnae/i community. The Committee is also charged with reviewing existing alumnae/i recognition awards and developing additional awards and programs that would enhance the recognition and engagement of distinguished alumnae/i of the college.</p>
+<p>The Alum Recognition Committee Chair should be a dedicated volunteer, active in alumnae/i affairs. The committee is staffed by the Associate Vice President for Alumnae/i Engagement and Executive Director of the AAVC. The committee also works with the Office of Advancement to maintain and update the Alum Recognition Committee database.</p>
 <p>Term of Office: Four years.</p>
-<p><em>r. 7/19</em></p>
+<p><em>r. 6/26</em></p>
 <h4 id="g2q6">Alum Career Connections Committee Chair</h4>
 <p>The Alum Career Connections Committee provides strategic guidance in partnership with the Alumnae/i Engagement and Career Development Offices to broaden and strengthen career and professional networks among alumnae/i. The Alum Career Connections Committee Chair works with the Committee of appointed AAVC Board members and other key alumnae/i active in supporting these efforts. The committee also advises the college on career support for alumnae/i, and professional networking opportunities.</p>
 <p>The Alum Career Connections Committee Chair should have a strong interest and experience in developing professional networks. The staff liaisons for the committee are the Senior Director of Alumnae/i Engagement and the Associate Director for Alumnae/i Outreach and Partnerships in the Career Development Office.</p>
