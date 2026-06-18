@@ -208,7 +208,7 @@ $page_info = json_decode($page_info, true);
 <p>Term of Office: Four years.</p>
 <p><em>r. 7/19</em></p>
 <h4 id="g2q5">Alum Recognition Committee Chair</h4>
-<p>The Alumnae/i Recognition Committee proposes distinguished members of the alumnae/i population for recognition with designated alumnae/i awards. The Alum Recognition Committee Chair works with the committee of appointed AAVC Board members and alumnae/i active in the alumnae/i community. The Committee is also charged with reviewing existing alumnae/i recognition awards and developing additional awards and programs that would enhance the recognition and engagement of distinguished alumnae/i of the college.</p>
+<p>The Alum Recognition Committee proposes distinguished members of the alumnae/i population for recognition with designated alumnae/i awards. The Alum Recognition Committee Chair works with the committee of appointed AAVC Board members and alumnae/i active in the alumnae/i community. The Committee is also charged with reviewing existing alumnae/i recognition awards and developing additional awards and programs that would enhance the recognition and engagement of distinguished alumnae/i of the college.</p>
 <p>The Alum Recognition Committee Chair should be a dedicated volunteer, active in alumnae/i affairs. The committee is staffed by the Associate Vice President for Alumnae/i Engagement and Executive Director of the AAVC. The committee also works with the Office of Advancement to maintain and update the Alum Recognition Committee database.</p>
 <p>Term of Office: Four years.</p>
 <p><em>r. 7/19</em></p>
