@@ -19,7 +19,7 @@ $facts['number_of_faculty'] = '371';
 $facts['student_faculty_ratio'] = '7:1';
 $facts['average_class_size'] = '19';
 $facts['average_finaid_award'] = '$60,033';
-$facts['students_of_color'] = '37%'; //used on Alums > Give Back > Support Vassar page /
+$facts['students_of_color'] = '37%'; //used on Alums > Give Back > Support Vassar page
 
 $facts['number_of_majors'] = '50';
 $facts['number_of_alums'] = '41,000';
