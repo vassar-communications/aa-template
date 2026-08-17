@@ -5,21 +5,21 @@
 // These are values that might be used in several places
 // across the site, like tuition. They should be centralized.
 
-$current_school_year = '2025–2026';
+$current_school_year = '2026–2027';
 
-$facts[$current_school_year]['adm_tuition'] = 73275;
-$facts[$current_school_year]['adm_room_and_board'] = 19055;
-$facts[$current_school_year]['adm_fees'] = 990;
+$facts[$current_school_year]['adm_tuition'] = 76140;
+$facts[$current_school_year]['adm_room_and_board'] = 19800;
+$facts[$current_school_year]['adm_fees'] = 1020;
 
 $facts['adm_total_cost'] = $facts[$current_school_year]['adm_tuition'] + $facts[$current_school_year]['adm_room_and_board'] + $facts[$current_school_year]['adm_fees'];
 
 $facts['adm_total_cost'] = number_format($facts['adm_total_cost']);
-$facts['number_of_students'] = '2,462';
-$facts['number_of_faculty'] = '367';
+$facts['number_of_students'] = '2,514';
+$facts['number_of_faculty'] = '371';
 $facts['student_faculty_ratio'] = '7:1';
 $facts['average_class_size'] = '19';
-$facts['average_finaid_award'] = '$56,923';
-$facts['students_of_color'] = '37%'; //used on Alums > Give Back > Support Vassar page
+$facts['average_finaid_award'] = '$60,033';
+$facts['students_of_color'] = '37%'; //used on Alums > Give Back > Support Vassar page ///
 
 $facts['number_of_majors'] = '50';
 $facts['number_of_alums'] = '41,000';
