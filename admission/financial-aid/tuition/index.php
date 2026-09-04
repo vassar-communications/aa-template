@@ -38,7 +38,7 @@ $page_info = json_decode($page_info, true);
     ['img_alt_text' => 'Looking up the trunk of a tree with brightly colored autumn leaves']
 ); ?>
 <div class="animate-when-content-appears animation-slide-up">
-    <p class="intro-text">Around two thirds of Vassar students receive financial aid and the average Vassar scholarship award is <?php echo $facts['average_finaid_award']; ?>. We are committed to making a Vassar education affordable by meeting 100% of the demonstrated financial need of all admitted students.</p>
+    <p class="intro-text">Over half of Vassar students receive financial aid and the average Vassar scholarship award is <?php echo $facts['average_finaid_award']; ?>. We are committed to making a Vassar education affordable by meeting 100% of the demonstrated financial need of all admitted students.</p>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
@@ -81,15 +81,15 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_col(); ?>
 <?php echo item_stat(
-            'Fees',
-            $facts[$current_school_year]['adm_fees'],
-            null,
-            'stat-value-small',
-            [
+    'Fees',
+    $facts[$current_school_year]['adm_fees'],
+    null,
+    'stat-value-small',
+    [
                 'format_number' => true,
                 'unit' => '$'
             ]
-        ); ?>
+); ?>
 <?php echo end_item_col(); ?>
 
 <?php echo end_sec_hasColumns(); ?>
@@ -118,12 +118,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Housing and Dining',
-    $admission_img_path.'financial-aid/tuition/Cushing-Dorm_Room_Series_Seven_12_HW_6.jpg',
-    'image-is-first theme-charcoal',
-    '',
-    ['img_alt_text' => 'Student on the floor of their dorm room reading a book']
-); ?>
+            'Housing and Dining',
+            $admission_img_path.'financial-aid/tuition/Cushing-Dorm_Room_Series_Seven_12_HW_6.jpg',
+            'image-is-first theme-charcoal',
+            '',
+            ['img_alt_text' => 'Student on the floor of their dorm room reading a book']
+        ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Students living on campus are required to participate in a <a href="http://vassar.cafebonappetit.com">college board plan</a> (also known as the meal plan). For more information about housing, visit the <a href="https://offices.vassar.edu/residential-life/">Office of Residential Life</a>.</p>
 
@@ -136,12 +136,12 @@ $page_info = json_decode($page_info, true);
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 <?php echo sec_fullBleedImageColumn(
-            'Student Activity Fee',
-            $admission_img_path.'financial-aid/tuition/0024-18-03-kr-wvkr-vassar-3474.jpg',
-            'theme-burgundy has-bg quad-pattern',
-            '',
-            ['img_alt_text' => 'Student on air in front of  the microphone at Vassar’s radio station WVKR']
-        ); ?>
+    'Student Activity Fee',
+    $admission_img_path.'financial-aid/tuition/0024-18-03-kr-wvkr-vassar-3474.jpg',
+    'theme-burgundy has-bg quad-pattern',
+    '',
+    ['img_alt_text' => 'Student on air in front of  the microphone at Vassar’s radio station WVKR']
+); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Payment of this fee is required of all matriculated students. Student activity fees comprise the budget of the Vassar Student Association (student government) and provide funding for more than 100 student organizations and campus events.</p>
 
@@ -156,19 +156,19 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Student Health Insurance',
-    $admission_img_path.'financial-aid/tuition/0105_14_11_TT_2826.jpg',
-    'image-is-first theme-extralightgray',
-    '',
-    ['img_alt_text' => 'Student riding away on a bicycle on Vassar Campus with Fall foliage']
-); ?>
+            'Student Health Insurance',
+            $admission_img_path.'financial-aid/tuition/0105_14_11_TT_2826.jpg',
+            'image-is-first theme-extralightgray',
+            '',
+            ['img_alt_text' => 'Student riding away on a bicycle on Vassar Campus with Fall foliage']
+        ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>All students are required to have health insurance. Health insurance is available through the College, or you may request a waiver if you already have coverage.</p>
 
     <?php echo cta_link(
-            'https://offices.vassar.edu/student-financial-services/',
-            'Visit Student Financial Services'
-        ); ?>
+    'https://offices.vassar.edu/student-financial-services/',
+    'Visit Student Financial Services'
+); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>

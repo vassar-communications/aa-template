@@ -1,4 +1,3 @@
-
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/_cfg.php');
 include($project_paths['main_project_root'].'/functions.php');
@@ -8,9 +7,9 @@ include($project_paths['main_project_root'].'/functions.php');
 /* PAGE INFO === */
 
 $page_info = '{
-  "page_title":"Financial Aid",
-  "page_classes":"",
-  "feature_image":"/admission/assets/images/financial-aid/0141-15-10-kr-fall-campus-vassar-0003.jpg"
+    "page_title":"Financial Aid",
+    "page_classes":"",
+    "feature_image":"/admission/assets/images/financial-aid/0141-15-10-kr-fall-campus-vassar-0003.jpg"
 }';
 /* === */
 $page_info = json_decode($page_info, true);
@@ -26,18 +25,18 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_fixedCenteredTitle_masthead(
     '<b class="slide-from-left">Financial&nbsp;</b>
-   <b class="slide-from-right">Aid</b>',
+     <b class="slide-from-right">Aid</b>',
     null,
     'theme-verylightgray reveal-image',
     'mw-4',
     ['bg-image-url' => $page_info['feature_image'],
-        'bg-image-alt' => 'The front of Thompson Library on the Vassar College campus.',
-        'css' => '
-      --title-container-bg-beforeContent: rgba(0,0,0,0.4);
-      --section-bg-image-opacity: 0;
-      /* --section-title-faded-color: #444; */
-      --bs-gap: 1rem;
-      ']
+                'bg-image-alt' => 'The front of Thompson Library on the Vassar College campus.',
+                'css' => '
+            --title-container-bg-beforeContent: rgba(0,0,0,0.4);
+            --section-bg-image-opacity: 0;
+            /* --section-title-faded-color: #444; */
+            --bs-gap: 1rem;
+            ']
 ); ?>
 
 <?php echo end_sec_fixedCenteredTitle_masthead(); ?>
@@ -49,14 +48,13 @@ $page_info = json_decode($page_info, true);
 
 <?php echo masthead_interiorPage(
     'Vassar meets 100% of the full demonstrated need of all admitted students for all four years.',
-    'Financial aid is awarded exclusively on the basis of need as determined by the Free Application for Federal Student Aid (FAFSA) and the College Scholarship Service (CSS) Profile. Around two thirds of Vassar students receive financial aid.',
+    'Financial aid is awarded exclusively on the basis of need as determined by the Free Application for Federal Student Aid (FAFSA) and the College Scholarship Service (CSS) Profile. Over half of Vassar students receive financial aid.',
     $admission_img_path.'financial-aid/0013-22-04-kr-noyes-vassar-0040.jpg',
     null,
     null,
     ['img_alt_text' => 'Four students lie on a blanket spread on the grass']
-  );
+);
 ?>
-
 
 
 
@@ -73,8 +71,8 @@ $page_info = json_decode($page_info, true);
 <p class="position-center" style="max-width: 80ch">While we are need aware for international first-year applicants and transfer applicants, we meet 100% of the demonstrated financial need of all admitted students who apply for financial aid at the time of application to Vassar.</p>
 
 <?php echo cta_link(
-  'https://offices.vassar.edu/student-financial-services/',
-  'Learn more at Student Financial Services',
+    'https://offices.vassar.edu/student-financial-services/',
+    'Learn more at Student Financial Services',
     'd-flex justify-content-center'
 ); ?>
 
@@ -93,10 +91,10 @@ $page_info = json_decode($page_info, true);
     <p>Use Vassar’s MyinTuition Calculator and Net Price Calculator to estimate your financial aid.</p>
 
     <?php echo cta_link(
-        '/admission/financial-aid/forms/#calculate-your-cost',
-        'Go to Calculators',
-        'd-flex justify-content-center'
-    ); ?>
+    '/admission/financial-aid/forms/#calculate-your-cost',
+    'Go to Calculators',
+    'd-flex justify-content-center'
+); ?>
 </div>
 <?php echo end_sec_wideContent(); ?>
 
@@ -111,51 +109,50 @@ $page_info = json_decode($page_info, true);
     <p class="intro-text">Learn more about the steps required to apply for need-based financial aid.</p>
 
     <?php echo cta_link(
-      '/admission/financial-aid/apply/',
-      'Learn more about applying for aid'
-    ); ?>
+    '/admission/financial-aid/apply/',
+    'Learn more about applying for aid'
+); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Types of Aid',
-    $admission_img_path.'financial-aid/types/0025-21-04-kr-spring-vassar-0012.jpg',
-    'theme-charcoal bg-dark has-bg quad-pattern',
-    null,
-    ['img_alt_text' => 'A student sits in a tree on a sunny day playing a guitar']
-); ?>
+            'Types of Aid',
+            $admission_img_path.'financial-aid/types/0025-21-04-kr-spring-vassar-0012.jpg',
+            'theme-charcoal bg-dark has-bg quad-pattern',
+            null,
+            ['img_alt_text' => 'A student sits in a tree on a sunny day playing a guitar']
+        ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">Financial aid awards typically include grants and scholarships, loans, and campus jobs. </p>
 
     <?php echo cta_link(
-      '/admission/financial-aid/types-of-aid/',
-      'Learn more about types of aid'
-    ); ?>
+    '/admission/financial-aid/types-of-aid/',
+    'Learn more about types of aid'
+); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
 
 
 <?php echo sec_fullBleedImageColumn(
-    'Tuition & Fees',
-    $admission_img_path.'financial-aid/0198-19-11-kwe-library-vassar-vb-5394.jpg',
-    'image-is-first theme-extralightgray',
-    '',
-    ['img_alt_text' => 'Students sitting at a student table in the libary']
-); ?>
+            'Tuition & Fees',
+            $admission_img_path.'financial-aid/0198-19-11-kwe-library-vassar-vb-5394.jpg',
+            'image-is-first theme-extralightgray',
+            '',
+            ['img_alt_text' => 'Students sitting at a student table in the libary']
+        ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p class="intro-text">View a breakdown of Vassar’s tuition, housing, and dining costs, and other fees.</p>
 
     <?php echo cta_link(
-      '/admission/financial-aid/tuition/',
-      'Learn more about tuition & fees'
-    ); ?>
+    '/admission/financial-aid/tuition/',
+    'Learn more about tuition & fees'
+); ?>
 
 </div>
 <?php echo end_sec_fullBleedImageColumn(); ?>
-
 
 
 
