@@ -110,14 +110,14 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-            'Connections',
-            $admission_img_path.'explore/outcomes/0002-18-01-kr-scc-estrella-vassar-0048.jpg',
-            'x-image-is-first theme-extralightgray quad-pattern has-bg',
-            '',
-            [
+    'Connections',
+    $admission_img_path.'explore/outcomes/0002-18-01-kr-scc-estrella-vassar-0048.jpg',
+    'x-image-is-first theme-extralightgray quad-pattern has-bg',
+    '',
+    [
             'img_alt_text' => 'A roomful of people wave at the viewer.'
         ]
-        ); ?>
+); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <p>Vassar’s Sophomore Career Connections introduces second-year students to the extraordinary range of career options available to them. Vassar offers an extensive network of alum and parent mentors as one of our very best career resources.</p>
     <?php echo cta_link(
@@ -129,12 +129,12 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_hasColumns(
-            'After Vassar',
-            '2',
-            '<p class="intro-text">Vassar opens doors. Vassar students have a high rate of acceptance into both law and medical school. Two-thirds of Vassar students ultimately pursue advanced studies.</p>',
-            'items-equal-height mw-inner-2 theme-dark-burgundy has-bg quad-pattern',
-            'gap-3',
-        ); ?>
+    'After Vassar',
+    '2',
+    '<p class="intro-text">Vassar opens doors. Vassar students have a high rate of acceptance into both law and medical school. Two-thirds of Vassar students ultimately pursue advanced studies.</p>',
+    'items-equal-height mw-inner-2 theme-dark-burgundy has-bg quad-pattern',
+    'gap-3',
+); ?>
 
 <?php /* echo item_col(); ?>
 <?php echo item_stat(
@@ -147,14 +147,16 @@ $page_info = json_decode($page_info, true);
 <?php echo item_col(); ?>
 <?php echo item_stat(
     'Law school admit rate',
-    $after_vassar['law_school_admit_rate']
+    $after_vassar['law_school_admit_rate'],
+    'National average: 70%'
 ); ?>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
 <?php echo item_stat(
             'Med school admit rate',
-            $after_vassar['med_school_admit_rate']
+            $after_vassar['med_school_admit_rate'],
+            'National average: 45%'
         ); ?>
 <?php echo end_item_col(); ?>
 
@@ -163,33 +165,33 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_hasColumns(
-            null,
-            '2',
-            null,
-            'pt-0 items-equal-height mw-inner-5 theme-dark-burgundy has-bg quad-pattern',
-            'gap-3'
-        ); ?>
+    null,
+    '2',
+    null,
+    'pt-0 items-equal-height mw-inner-5 theme-dark-burgundy has-bg quad-pattern',
+    'gap-3'
+); ?>
 
 <?php echo item_col(); ?>
 <?php echo item_cardWithText(
-    'Pre-Law',
-    'https://offices.vassar.edu/career-education/pre-law/',
-    ['url' => '/admission/assets/images/quick-facts/academics/0100_16_09_KR_0090.jpg',
+            'Pre-Law',
+            'https://offices.vassar.edu/career-education/pre-law/',
+            ['url' => '/admission/assets/images/quick-facts/academics/0100_16_09_KR_0090.jpg',
                 'alt' => 'Graduate in audience with dramatic lighting' ],
-    'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
-); ?>
+            'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
+        ); ?>
 <p>Pre-law Advising is handled by the Center for Career Education, also with faculty support. Both encourage students to come to their offices to discuss any questions they have with respect to pre-law studies and the law school application process.</p>
 <?php echo end_item_cardWithText('Learn more'); ?>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
 <?php echo item_cardWithText(
-            'Pre-Med',
-            'https://offices.vassar.edu/pre-health-advising/',
-            ['url' => '/admission/assets/images/quick-facts/academics/0014-19-04-kr-chemistry-vassar-4556.jpg',
+    'Pre-Med',
+    'https://offices.vassar.edu/pre-health-advising/',
+    ['url' => '/admission/assets/images/quick-facts/academics/0014-19-04-kr-chemistry-vassar-4556.jpg',
                 'alt' => 'A student wearing goggles looks at a test tube' ],
-            'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
-        ); ?>
+    'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken'
+); ?>
 <p>The Office for Fellowships and Pre-Health Advising provides guidance and assistance to students planning to pursue careers in medicine and other careers in the health professions.</p>
 <?php echo end_item_cardWithText('Learn more'); ?>
 <?php echo end_item_col(); ?>
