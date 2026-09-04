@@ -164,24 +164,24 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_col(); ?>
 <?php echo item_cardWithText(
-        'Community-Engaged Learning',
-        'https://offices.vassar.edu/community-engaged-learning/',
-        ['url' => '/admission/assets/images/quick-facts/academics/0212-17-07-kr-ursi-frogs-vassar-0026.jpg',
+    'Community-Engaged Learning',
+    'https://offices.vassar.edu/community-engaged-learning/',
+    ['url' => '/admission/assets/images/quick-facts/academics/0212-17-07-kr-ursi-frogs-vassar-0026.jpg',
                     'alt' => 'Student and professor in a lab of terrariums' ],
-        'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
-    ); ?>
+    'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
+); ?>
 <p>Real-world experience can take your education to the next level. Vassar’s Office of Community-Engaged Learning helps students apply their academic knowledge to gain meaningful work experience through internships in the local community, New York City, Albany, and beyond.</p>
 <?php echo end_item_cardWithText('Learn more'); ?>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
 <?php echo item_cardWithText(
-                'Study Abroad',
-                'https://offices.vassar.edu/international-programs/',
-                ['url' => '/admission/assets/images/quick-facts/academics/fotino-bryan-morocco-abroad-fba-70251.jpg',
+        'Study Abroad',
+        'https://offices.vassar.edu/international-programs/',
+        ['url' => '/admission/assets/images/quick-facts/academics/fotino-bryan-morocco-abroad-fba-70251.jpg',
                     'alt' => 'Students stand in front of a Moroccan building decorated with mosaic tiles' ],
-                'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
-            ); ?>
+        'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
+    ); ?>
 <p>Vassar students (usually juniors) may study abroad for one semester or a full academic year. About 45% of our students participate in our study-away programs prior to graduation.</p>
 <?php echo end_item_cardWithText('Learn more about studying away '); ?>
 <?php echo end_item_col(); ?>
@@ -208,18 +208,18 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_col(); ?>
 <?php echo item_stat(
-    'Law school admit rate',
-    $after_vassar['law_school_admit_rate'],
-    'National average: 70%'
-); ?>
+                'Law school admit rate',
+                $after_vassar['law_school_admit_rate'],
+                'National average: 70%'
+            ); ?>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
 <?php echo item_stat(
-            'Med school admit rate',
-            $after_vassar['med_school_admit_rate'],
-            'National average: 45%'
-        ); ?>
+    'Med school admit rate',
+    $after_vassar['med_school_admit_rate'],
+    'National average: 45%'
+); ?>
 <?php echo end_item_col(); ?>
 
 
@@ -238,42 +238,42 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_hasColumns(
-    'Community Quick Facts',
-    '3',
-    '<p class="intro-text">At Vassar, you&#8217;ll be encouraged to collaborate across differences and to celebrate the diversity of backgrounds and experiences that make up our community. Here, your voice will be valued and you will be empowered to make a difference.</p>',
-    'items-equal-height mw-inner-3 theme-extralightgray cols-6 animate-when-content-appears animation-group animation-fade-in',
-    'gap-3'
-); ?>
+            'Community Quick Facts',
+            '3',
+            '<p class="intro-text">At Vassar, you&#8217;ll be encouraged to collaborate across differences and to celebrate the diversity of backgrounds and experiences that make up our community. Here, your voice will be valued and you will be empowered to make a difference.</p>',
+            'items-equal-height mw-inner-3 theme-extralightgray cols-6 animate-when-content-appears animation-group animation-fade-in',
+            'gap-3'
+        ); ?>
 
 <?php echo item_col('span-2 animation-item'); ?>
 <?php echo item_stat(
-            'Student body',
-            $facts['number_of_students'],
-        ); ?>
+    'Student body',
+    $facts['number_of_students'],
+); ?>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col('span-2 animation-item'); ?>
 <?php echo item_stat(
             'Students of color',
-            '37%', // $class_stats['students_of_color'],
+            $class_stats['students_of_color'],
             ''
         ); ?>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col('span-1 animation-item'); ?>
 <?php echo item_stat(
-    'First Generation Students',
-    $class_stats['1st-gen-students'],
+            'First Generation Students',
+            $class_stats['1st-gen-students'],
+            ''
+        ); ?>
+<?php echo end_item_col(); ?>
+
+<?php echo item_col('span-1 animation-item'); ?>
+<?php echo item_stat(
+    'Pell Grant Recipients',
+    $after_vassar['pell_grant'],
     ''
 ); ?>
-<?php echo end_item_col(); ?>
-
-<?php echo item_col('span-1 animation-item'); ?>
-<?php echo item_stat(
-            'Pell Grant Recipients',
-            $after_vassar['pell_grant'],
-            ''
-        ); ?>
 <?php echo end_item_col(); ?>
 
 
@@ -314,18 +314,18 @@ $page_info = json_decode($page_info, true);
 <div class="animate-when-content-appears animation-slide-up burgundy-icons">
 
     <?php echo item_iconItem(
-    null,
-    'house-circle-check',
-    'icon-on-left align-items-center'
-); ?>
+            null,
+            'house-circle-check',
+            'icon-on-left align-items-center'
+        ); ?>
     <p>Housing is guaranteed for all four years</p>
     <?php echo end_item_iconItem(); ?>
 
     <?php echo item_iconItem(
-            null,
-            'people-roof',
-            'icon-on-left align-items-center'
-        ); ?>
+    null,
+    'people-roof',
+    'icon-on-left align-items-center'
+); ?>
     <p>97% of students live on campus</p>
     <?php echo end_item_iconItem(); ?>
 
@@ -371,10 +371,10 @@ $page_info = json_decode($page_info, true);
         <?php echo end_item_iconItem(); ?>
 
         <?php echo item_iconItem(
-        null,
-        'wifi',
-        'icon-on-left'
-    ); ?>
+            null,
+            'wifi',
+            'icon-on-left'
+        ); ?>
         <p>Wireless internet is available in all buildings and most public spaces on campus.</p>
         <?php echo end_item_iconItem(); ?>
 
@@ -386,23 +386,23 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-    'Our Campus',
-    'section-class mw-inner-2',
-    ''
-); ?>
+        'Our Campus',
+        'section-class mw-inner-2',
+        ''
+    ); ?>
 <p class="intro-text">Our campus is 1,000 acres and is maintained as an arboretum with over 200 species of trees. The campus includes the <a href="https://www.vassar.edu/farm">Vassar Farm and Ecological Preserve</a>, a nine-hole golf course, Sunset Lake, the Shakespeare Garden, an <a href="https://www.vassar.edu/physics-and-astronomy/astronomy/class-1951-observatory">observatory</a>, and the <a href="https://www.vassar.edu/theloeb">Frances Lehman Loeb Art Center</a>.</p>
 <?php echo end_sec_regularContent(); ?>
 
 
 <?php echo sec_hasColumns(
-                'How’s the Weather?',
-                '2',
-                '<p class="intro-text text-start">Poughkeepsie weather is close to that of New York City, with four distinct seasons.</p>
+    'How’s the Weather?',
+    '2',
+    '<p class="intro-text text-start">Poughkeepsie weather is close to that of New York City, with four distinct seasons.</p>
         <p class="text-start"> We do get snow, but we are not located in a “snowbelt,” so moderate snow is the norm during the winter. Most students love spring and fall, and it is common to see professors hold classes outside on nice days. While you’ll need a hat, gloves, and scarf in the winter, you’ll be able to wear shorts and t-shirts at other times of the year.</p>',
-                'items-equal-height mw-inner-2 theme-extralightgray wide-intro burgundy-icons',
-                'gap-3',
-                ['title_level' => '3']
-            ); ?>
+    'items-equal-height mw-inner-2 theme-extralightgray wide-intro burgundy-icons',
+    'gap-3',
+    ['title_level' => '3']
+); ?>
 
 <?php echo item_col(); ?>
 <?php echo item_stat(
@@ -427,10 +427,10 @@ $page_info = json_decode($page_info, true);
 <?php echo item_col('span-2'); ?>
 
 <?php echo cta_link(
-    '/admission/explore/student-life/',
-    'Get to know the Vassar Community',
-    'center-object mt-4 d-flex'
-); ?>
+                '/admission/explore/student-life/',
+                'Get to know the Vassar Community',
+                'center-object mt-4 d-flex'
+            ); ?>
 
 
 <?php echo end_item_col(); ?>
