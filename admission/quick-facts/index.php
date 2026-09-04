@@ -108,39 +108,37 @@ $page_info = json_decode($page_info, true);
     <?php echo end_item_iconItem(); ?>
 
     <?php echo item_iconItem(
-        null,
-        'screwdriver-wrench',
-        'icon-on-left'
-    ); ?>
-    <p>Vassar offers 50 majors, 65 correlates (minors), and 3 dual-degree programs.</p>
+    null,
+    'screwdriver-wrench',
+    'icon-on-left'
+); ?>
+    <p>Vassar offers <?php echo $facts['number_of_majors']; ?> majors, <?php echo $facts['number_of_minors']; ?> correlates (minors), and <?php echo $facts['number_of_dual_degree_programs']; ?> dual-degree programs.</p>
 
     <?php echo cta_link(
-                '/admission/explore/academics/',
-                'View our majors and correlates',
-                'center-object mt-4 d-flex'
-            ); ?>
+    '/admission/explore/academics/',
+    'View our majors and correlates',
+    'center-object mt-4 d-flex'
+); ?>
 
     <?php echo end_item_iconItem(); ?>
 </div>
 
 <?php echo end_sec_regularContent(); ?>
 
-
-
 <?php echo sec_hasColumns(
-                null,
-                '2',
-                null,
-                'items-equal-height mw-inner-1 theme-extralightgray',
-                'gap-3'
-            ); ?>
+    null,
+    '2',
+    null,
+    'items-equal-height mw-inner-1 theme-extralightgray',
+    'gap-3'
+); ?>
 
 <?php echo item_col(); ?>
 <?php echo item_stat(
-                'Average class size',
-                $facts['average_class_size'],
-                '<p class="fs-6">Many of our upper-level classes have fewer than 10 students.</p>'
-            ); ?>
+    'Average class size',
+    $facts['average_class_size'],
+    '<p class="fs-6">Many of our upper-level classes have fewer than 10 students.</p>'
+); ?>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
@@ -157,33 +155,33 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_hasColumns(
-            'Learning in the Community and Beyond',
-            '2',
-            null,
-            null,
-            'gap-3 items-equal-height'
-        ); ?>
+        'Learning in the Community and Beyond',
+        '2',
+        null,
+        null,
+        'gap-3 items-equal-height'
+    ); ?>
 
 <?php echo item_col(); ?>
 <?php echo item_cardWithText(
-            'Community-Engaged Learning',
-            'https://offices.vassar.edu/community-engaged-learning/',
-            ['url' => '/admission/assets/images/quick-facts/academics/0212-17-07-kr-ursi-frogs-vassar-0026.jpg',
+                'Community-Engaged Learning',
+                'https://offices.vassar.edu/community-engaged-learning/',
+                ['url' => '/admission/assets/images/quick-facts/academics/0212-17-07-kr-ursi-frogs-vassar-0026.jpg',
                     'alt' => 'Student and professor in a lab of terrariums' ],
-            'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
-        ); ?>
+                'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
+            ); ?>
 <p>Real-world experience can take your education to the next level. Vassar’s Office of Community-Engaged Learning helps students apply their academic knowledge to gain meaningful work experience through internships in the local community, New York City, Albany, and beyond.</p>
 <?php echo end_item_cardWithText('Learn more'); ?>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
 <?php echo item_cardWithText(
-    'Study Abroad',
-    'https://offices.vassar.edu/international-programs/',
-    ['url' => '/admission/assets/images/quick-facts/academics/fotino-bryan-morocco-abroad-fba-70251.jpg',
+                'Study Abroad',
+                'https://offices.vassar.edu/international-programs/',
+                ['url' => '/admission/assets/images/quick-facts/academics/fotino-bryan-morocco-abroad-fba-70251.jpg',
                     'alt' => 'Students stand in front of a Moroccan building decorated with mosaic tiles' ],
-    'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
-); ?>
+                'card--twocols slightly-wider-image related-topics card--withParagraph card-has-cta-icon card-is-link xhey-im-broken bg-dark'
+            ); ?>
 <p>Vassar students (usually juniors) may study abroad for one semester or a full academic year. About 45% of our students participate in our study-away programs prior to graduation.</p>
 <?php echo end_item_cardWithText('Learn more about studying away '); ?>
 <?php echo end_item_col(); ?>
@@ -193,26 +191,26 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_hasColumns(
-            'After Vassar',
-            '3',
-            null,
-            'items-equal-height mw-inner-3 theme-extralightgray',
-            'gap-3'
-        ); ?>
+                'After Vassar',
+                '3',
+                null,
+                'items-equal-height mw-inner-3 theme-extralightgray',
+                'gap-3'
+            ); ?>
 
 <?php echo item_col(); ?>
 <?php echo item_stat(
-            'Six months after graduating',
-            $after_vassar['six_months_out'],
-            '<p class="fs-6">are employed, in school, or pursuing a fellowship/volunteer experience.</p>'
-        ); ?>
+    'Six months after graduating',
+    $after_vassar['six_months_out'],
+    '<p class="fs-6">are employed, in school, or pursuing a fellowship/volunteer experience.</p>'
+); ?>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
 <?php echo item_stat(
-    'Law school admit rate',
-    $after_vassar['law_school_admit_rate']
-); ?>
+            'Law school admit rate',
+            $after_vassar['law_school_admit_rate']
+        ); ?>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
@@ -224,10 +222,10 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_col('span-6'); ?>
 <?php echo cta_link(
-            '/admission/explore/academics/',
-            'Learn more about academics at Vassar',
-            'center-object mt-4 d-flex'
-        ); ?>
+    '/admission/explore/academics/',
+    'Learn more about academics at Vassar',
+    'center-object mt-4 d-flex'
+); ?>
 <?php echo end_item_col(); ?>
 
 
@@ -269,7 +267,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_col('span-1 animation-item'); ?>
 <?php echo item_stat(
             'Pell Grant Recipients',
-            '22.4%',
+            $after_vassar['pell_grant'],
             ''
         ); ?>
 <?php echo end_item_col(); ?>
@@ -303,36 +301,36 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-            'Residential Life',
-            $quickfacts_img_path.'Davison-26A5737.jpg',
-            'image-is-first theme-cream',
-            '',
-            ['title_level' => '3','img_alt_text' => 'A student sits on a window sill between large, wood-framed windows, in a well-lit room. The student is looking at the camera.'],
-        ); ?>
+    'Residential Life',
+    $quickfacts_img_path.'Davison-26A5737.jpg',
+    'image-is-first theme-cream',
+    '',
+    ['title_level' => '3','img_alt_text' => 'A student sits on a window sill between large, wood-framed windows, in a well-lit room. The student is looking at the camera.'],
+); ?>
 <div class="animate-when-content-appears animation-slide-up burgundy-icons">
 
     <?php echo item_iconItem(
-        null,
-        'house-circle-check',
-        'icon-on-left align-items-center'
-    ); ?>
+            null,
+            'house-circle-check',
+            'icon-on-left align-items-center'
+        ); ?>
     <p>Housing is guaranteed for all four years</p>
     <?php echo end_item_iconItem(); ?>
 
     <?php echo item_iconItem(
-    null,
-    'people-roof',
-    'icon-on-left align-items-center'
-); ?>
+            null,
+            'people-roof',
+            'icon-on-left align-items-center'
+        ); ?>
     <p>97% of students live on campus</p>
     <?php echo end_item_iconItem(); ?>
 
     <?php echo item_iconItem(
-                null,
-                'custom',
-                'icon-on-left align-items-center',
-                ['glyph' => '\03A3', 'glyph-name' => 'sigma']
-            ); ?>
+            null,
+            'custom',
+            'icon-on-left align-items-center',
+            ['glyph' => '\03A3', 'glyph-name' => 'sigma']
+        ); ?>
     <p>Vassar does not have fraternities or sororities</p>
     <?php echo end_item_iconItem(); ?>
 
@@ -342,37 +340,37 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_fullBleedImageColumn(
-                'Tech',
-                '/admission/assets/images/quick-facts/Raymond-0204-19-11-kwe-raymond-parlor-vassar-vb-2828.jpg',
-                'theme-charcoal gold-icons',
-                '',
-                ['title_level' => '3',
+            'Tech',
+            '/admission/assets/images/quick-facts/Raymond-0204-19-11-kwe-raymond-parlor-vassar-vb-2828.jpg',
+            'theme-charcoal gold-icons',
+            '',
+            ['title_level' => '3',
         'img_alt_text' => 'A student sits in a large room working at a laptop'
     ]
-            ); ?>
+        ); ?>
 <div class="animate-when-content-appears animation-slide-up">
     <div class="icon-items-list">
         <?php echo item_iconItem(
-                null,
-                'network-wired',
-                'icon-on-left'
-            ); ?>
+            null,
+            'network-wired',
+            'icon-on-left'
+        ); ?>
         <p>All dorm rooms provide both Ethernet and Wi-Fi access for Macs and Windows PCs.</p>
         <?php echo end_item_iconItem(); ?>
 
         <?php echo item_iconItem(
-    null,
-    'desktop',
-    'icon-on-left'
-); ?>
+        null,
+        'desktop',
+        'icon-on-left'
+    ); ?>
         <p>Computer labs are located in every residence hall, as well as in the Computer Center, library, and College Center.</p>
         <?php echo end_item_iconItem(); ?>
 
         <?php echo item_iconItem(
-                null,
-                'wifi',
-                'icon-on-left'
-            ); ?>
+    null,
+    'wifi',
+    'icon-on-left'
+); ?>
         <p>Wireless internet is available in all buildings and most public spaces on campus.</p>
         <?php echo end_item_iconItem(); ?>
 
@@ -404,12 +402,12 @@ $page_info = json_decode($page_info, true);
 
 <?php echo item_col(); ?>
 <?php echo item_stat(
-    'Average Winter Temp',
-    '35<span class="stat-unit">°F</span><br>
+                'Average Winter Temp',
+                '35<span class="stat-unit">°F</span><br>
             2<span class="stat-unit">°C</span>',
-    '',
-    'unflex-stat-values'
-); ?>
+                '',
+                'unflex-stat-values'
+            ); ?>
 <?php echo end_item_col(); ?>
 
 <?php echo item_col(); ?>
@@ -425,10 +423,10 @@ $page_info = json_decode($page_info, true);
 <?php echo item_col('span-2'); ?>
 
 <?php echo cta_link(
-            '/admission/explore/student-life/',
-            'Get to know the Vassar Community',
-            'center-object mt-4 d-flex'
-        ); ?>
+                '/admission/explore/student-life/',
+                'Get to know the Vassar Community',
+                'center-object mt-4 d-flex'
+            ); ?>
 
 
 <?php echo end_item_col(); ?>

@@ -113,7 +113,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0114-19-05-ja-fllac-vassar-046.jpg", null, 'Students admire artwork in the Frances Lehman Loeb Art Center'); ?>
 <h3 class="h3">The Frances Lehman Loeb Art Center</h3>
-<p>Founded in 1864 as the Vassar College Art gallery, the Loeb was the first art museum to be part of a college’s original plan. Today it is home to 21,000 works including by Rembrandt, Pablo Picasso, Georgia O’Keeffe, and Francis Bacon.</p>
+<p>Founded in 1864 as the Vassar College Art gallery, the Loeb was the first art museum to be part of a college’s original plan. Today it is home to over 22,000 works including those by Rembrandt, Pablo Picasso, Georgia O’Keeffe, and Francis Bacon.</p>
 <?php echo end_carousel_item(); ?>
 
 
@@ -131,7 +131,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0037-22-06-kr-reunion-vassar-0226.jpg", null, "A large, open garden area with several stone statues and brick buildings in the background."); ?>
 <h3 class="h3">The Arboretum</h3>
-<p>Nature and landscape have been integral to Vassar’s culture, campus, and curriculum since the inception of the College. Its site in the Hudson Valley has long been naturally enriched by lakes and creeks, and surrounded by gentle ravines, hollows, farmland, grasslands, and woods, creating a striking range of landscape types, as well as ecological diversity. Today there are over 2,200 trees spread across much of the campus, representing over 170 species.</p>
+<p>Nature and landscape have been integral to Vassar’s culture, campus, and curriculum since the inception of the College. Its site in the Hudson Valley has long been naturally enriched by lakes and creeks, and surrounded by gentle ravines, hollows, farmland, grasslands, and woods, creating a striking range of landscape types, as well as ecological diversity. Today there are over 2,600 trees spread across much of the campus, representing over 170 species.</p>
 <?php echo end_carousel_item(); ?>
 
 <?php echo carousel_item("/admission/assets/images/explore/campus/slideshow/0075_16_07_KR_0132.jpg", null, "A faculty member and student stand in the woods looking up at a tree trunk"); ?>
