@@ -139,6 +139,9 @@ $page_info = json_decode($page_info, true);
 <?php echo end_item_dropdown(); ?>
 
 <?php echo item_dropdown($facts['number_of_minors'] . ' Correlates (Minors)', 'dropdown--feature bg-white shadow-sm mb-3'); ?>
+
+
+
 <div class="row has-dividers">
     <div class="col-sm">
         <ul class="linked-list no-first-border">
@@ -162,12 +165,13 @@ $page_info = json_decode($page_info, true);
             <li>Comparative Politics</li>
             <li>Computer Science</li>
             <li>Continental Philosophy</li>
+            <li>Creative Writing and Literary Forms</li>
+            <li>Dance Performance</li>
+
         </ul>
     </div>
     <div class="col-sm">
         <ul class="linked-list no-first-border">
-            <li>Creative Writing and Literary Forms</li>
-            <li>Dance Performance</li>
             <li>Dance Studies</li>
             <li>Data Science and Society</li>
             <li>Earth Science</li>
@@ -184,17 +188,17 @@ $page_info = json_decode($page_info, true);
             <li>Greek and Roman Studies</li>
             <li>Hispanic Studies</li>
             <li>History</li>
-        </ul>
-    </div>
-
-    <div class="col-sm">
-        <ul class="linked-list no-first-border">
             <li>History of Philosophy</li>
             <li>International Politics</li>
             <li>Italian</li>
             <li>Japanese</li>
             <li>Jewish Studies</li>
             <li>Latin American and Latinx Studies</li>
+        </ul>
+    </div>
+
+    <div class="col-sm">
+        <ul class="linked-list no-first-border">
             <li>Literary Geographies</li>
             <li>Mathematics</li>
             <li>Medieval and Renaissance Studies</li>
@@ -216,10 +220,12 @@ $page_info = json_decode($page_info, true);
             <li>Sustainability</li>
             <li>Urban Studies</li>
             <li>Women, Feminist, and Queer Studies</li>
-
         </ul>
     </div>
 </div>
+
+
+
 <?php echo end_item_dropdown(); ?>
 
 <?php echo item_dropdown('Accelerated and Dual Degree Programs', 'dropdown--feature bg-white shadow-sm mb-3'); ?>
