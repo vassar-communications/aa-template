@@ -86,11 +86,11 @@ $page_info = json_decode($page_info, true);
 
 
 <?php echo sec_regularContent(
-            'Submitting Application Materials',
-            'theme-cream',
-            '',
-            ''
-        ); ?>
+    'Submitting Application Materials',
+    'theme-cream',
+    '',
+    ''
+); ?>
 <p>Electronic submission is preferred. Application materials may also be submitted via email, fax, or mail.</p>
 <p>Supplemental materials can be uploaded through the application status portal, which is available after an application has been submitted and processed.</p>
 <p><strong>To submit documents:</strong><br />
@@ -126,10 +126,10 @@ $page_info = json_decode($page_info, true);
 <p>Special attention is given to the academic breadth, depth, and rigor of candidates’ junior and senior year programs.</p>
 
 <?php echo info_card(
-        'Optional SAT/ACT Scores',
-        'mt-5',
-        'info'
-    );
+            'Optional SAT/ACT Scores',
+            'mt-5',
+            'info'
+        );
     ?>
 <p class="mb-4">Students applying to Vassar may choose whether or not to submit SAT/ACT scores.</p>
 <h5>Know the Vassar codes</h5>
@@ -168,10 +168,10 @@ $page_info = json_decode($page_info, true);
     <?php echo end_item_iconItem(); ?>
 
     <?php echo item_iconItem(
-    null,
-    'check',
-    'icon-on-left'
-); ?>
+        null,
+        'check',
+        'icon-on-left'
+    ); ?>
     <p>Students will be able to check their admission decision online on the same website you used to check the status of your application. Vassar does not release admission decisions via telephone.</p>
     <?php echo end_item_iconItem(); ?>
 </div>
@@ -181,9 +181,9 @@ $page_info = json_decode($page_info, true);
 <?php echo accordion('useful-info'); ?>
 
 <?php echo accordion_item('useful-info', 'Fee Waivers'); ?>
-<p>If the application fee poses a financial hardship, a fee waiver can be requested on the Common Application or the Apply Coalition with Scoir application. Fee waivers are automatically offered to applicants who are QuestBridge Finalists and U.S. military veterans.</p>
+<p>If the application fee poses a financial hardship, a fee waiver can be requested on the <?php echo central_link('common-app', 'Common Application'); ?> or the Apply Coalition with Scoir application. Fee waivers are automatically offered to applicants who are QuestBridge Finalists and U.S. military veterans.</p>
 
-<p>If you apply via the <?php echo central_link('common-app', 'Common Application'); ?> or Apply Coalition with Scoir, under the Vassar College supplement you will be asked “Do you intend to use one of these school-specific fee waivers?.” Please select “Yes, I will be using a Vassar fee waiver.”</p>
+<p>If you apply via the Common Application or Apply Coalition with Scoir, under the Vassar College supplement you will be asked “Do you intend to use one of these school-specific fee waivers?” Please select “Yes, I will be using a Vassar fee waiver.”</p>
 <p>Vassar does not provide fee waivers for English Proficiency Exams or offer CSS Profile waiver codes.</p>
 
 <?php echo end_accordion_item(); ?>
