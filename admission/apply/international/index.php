@@ -69,43 +69,13 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 
-<p>If English is not the primary language of instruction in the secondary school(s) you have attended for the last three years, you must submit English language proficiency exam results.</p>
+<p>If English is not the primary language of instruction in the secondary school(s) you have attended for the last three years, you must submit English language proficiency exam results. Vassar does not provide fee waivers for English Proficiency Exams.</p>
 
 <p><strong>Click on the exam type below for complete details:</strong></p>
 
 
 <div class="accordion accordion-flush mb-4" id="elp">
-    <div class="accordion-item">
-        <div class="accordion-header" id="elp-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#elp-collapseOne" aria-expanded="true" aria-controls="elp-collapseOne">
-                TOEFL
-            </button>
-        </div>
-        <div id="elp-collapseOne" class="accordion-collapse collapse" aria-labelledby="elp-headingOne" data-bs-parent="#elp">
-            <div class="accordion-body">
-                <p>We accept the TOEFL iBT, the TOEFL PBT, and the TOEFL iBT Home Edition. We do NOT accept TOEFL Essentials.</p>
 
-                <p>Test results from the testing agency are strongly preferred. If there is a financial hardship, PDFs of the TOEFL Test Taker Score Report (including your registration number and center information) will be accepted from your school counselor. Test results from the testing agency will be required for enrollment.</p>
-                <p><a href="https://www.ets.org/toefl">Visit ets.org/toefl</a></p>
-            </div>
-        </div>
-    </div>
-    <div class="accordion-item">
-        <div class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#elp-collapseTwo" aria-expanded="false" aria-controls="elp-collapseTwo">
-                IELTS
-            </button>
-        </div>
-        <div id="elp-collapseTwo" class="accordion-collapse collapse" aria-labelledby="elp-headingTwo" data-bs-parent="#elp">
-            <div class="accordion-body">
-                <p>We accept the IELTS Academic. We do NOT accept the IELTS General Training.</p>
-
-                <p>Test results from the testing agency are strongly preferred. If there is a financial hardship, PDFs of the Test Report Form (including your center number and candidate number) will be accepted from your school counselor. Test results from the testing agency will be required for enrollment.</p>
-
-                <p><a href="https://www.ielts.org/">Visit ielts.org</a></p>
-            </div>
-        </div>
-    </div>
     <div class="accordion-item">
         <div class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#elp-collapseThree" aria-expanded="false" aria-controls="elp-collapseThree">
@@ -115,11 +85,47 @@ $page_info = json_decode($page_info, true);
         <div id="elp-collapseThree" class="accordion-collapse collapse" aria-labelledby="elp-headingThree" data-bs-parent="#elp">
             <div class="accordion-body">
                 <p>We accept the Duolingo English Test (DET).</p>
-                <p>Test results MUST be submitted from Duolingo directly at the time of application.</p>
+                <p>Test results <strong>must</strong> be submitted from Duolingo directly at the time of application.</p>
                 <p><a href="https://englishtest.duolingo.com/home">Visit englishtest.duolingo.com</a></p>
             </div>
         </div>
     </div>
+
+
+    <div class="accordion-item">
+        <div class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#elp-collapseTwo" aria-expanded="false" aria-controls="elp-collapseTwo">
+                IELTS
+            </button>
+        </div>
+        <div id="elp-collapseTwo" class="accordion-collapse collapse" aria-labelledby="elp-headingTwo" data-bs-parent="#elp">
+            <div class="accordion-body">
+                <p>We accept the IELTS Academic. We do <strong>not</strong> accept the IELTS General Training.</p>
+
+                <p>Test results from the testing agency are strongly preferred. If there is a financial hardship, PDFs of the Test Report Form (including your center number and candidate number) will be accepted from your school counselor. Test results from the testing agency will be required for enrollment.</p>
+
+                <p><a href="https://www.ielts.org/">Visit ielts.org</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <div class="accordion-header" id="elp-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#elp-collapseOne" aria-expanded="true" aria-controls="elp-collapseOne">
+                TOEFL
+            </button>
+        </div>
+        <div id="elp-collapseOne" class="accordion-collapse collapse" aria-labelledby="elp-headingOne" data-bs-parent="#elp">
+            <div class="accordion-body">
+                <p>We accept the TOEFL iBT, the TOEFL PBT, and the TOEFL iBT Home Edition. We do <strong>not</strong> accept TOEFL Essentials.</p>
+
+                <p>Test results from the testing agency are strongly preferred. If there is a financial hardship, PDFs of the TOEFL Test Taker Score Report (including your registration number and center information) will be accepted from your school counselor. Test results from the testing agency will be required for enrollment.</p>
+                <p><a href="https://www.ets.org/toefl">Visit ets.org/toefl</a></p>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <?php echo end_sec_regularContent(); ?>
@@ -158,6 +164,8 @@ $page_info = json_decode($page_info, true);
     ''
 ); ?>
 <p>Vassar meets the full demonstrated need of all admitted students who apply for financial aid at the time of their admission application. We are need aware when reviewing applications from international students. Students who are neither U.S. citizens nor permanent residents who wish to be considered for financial aid at any time during their years at Vassar must apply for aid at the same time that they apply for admission. Students admitted without financial aid in the first year are not eligible to receive Vassar funding during their years at the College. Financial aid is not available for international transfer applicants.</p>
+
+<p>Vassar does not offer CSS Profile waiver codes and does not accept the International Student Financial Aid Application (ISFAA) as an alternative application.</p>
 <?php echo end_sec_regularContent(); ?>
 
 <?php echo sec_regularContent(
