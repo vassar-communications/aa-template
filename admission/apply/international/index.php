@@ -85,7 +85,7 @@ $page_info = json_decode($page_info, true);
         <div id="elp-collapseThree" class="accordion-collapse collapse" aria-labelledby="elp-headingThree" data-bs-parent="#elp">
             <div class="accordion-body">
                 <p>We accept the Duolingo English Test (DET).</p>
-                <p>Test results MUST be submitted from Duolingo directly at the time of application.</p>
+                <p>Test results <strong>must</strong> be submitted from Duolingo directly at the time of application.</p>
                 <p><a href="https://englishtest.duolingo.com/home">Visit englishtest.duolingo.com</a></p>
             </div>
         </div>
@@ -100,7 +100,7 @@ $page_info = json_decode($page_info, true);
         </div>
         <div id="elp-collapseTwo" class="accordion-collapse collapse" aria-labelledby="elp-headingTwo" data-bs-parent="#elp">
             <div class="accordion-body">
-                <p>We accept the IELTS Academic. We do NOT accept the IELTS General Training.</p>
+                <p>We accept the IELTS Academic. We do <strong>not</strong> accept the IELTS General Training.</p>
 
                 <p>Test results from the testing agency are strongly preferred. If there is a financial hardship, PDFs of the Test Report Form (including your center number and candidate number) will be accepted from your school counselor. Test results from the testing agency will be required for enrollment.</p>
 
@@ -118,7 +118,7 @@ $page_info = json_decode($page_info, true);
         </div>
         <div id="elp-collapseOne" class="accordion-collapse collapse" aria-labelledby="elp-headingOne" data-bs-parent="#elp">
             <div class="accordion-body">
-                <p>We accept the TOEFL iBT, the TOEFL PBT, and the TOEFL iBT Home Edition. We do NOT accept TOEFL Essentials.</p>
+                <p>We accept the TOEFL iBT, the TOEFL PBT, and the TOEFL iBT Home Edition. We do <strong>not</strong> accept TOEFL Essentials.</p>
 
                 <p>Test results from the testing agency are strongly preferred. If there is a financial hardship, PDFs of the TOEFL Test Taker Score Report (including your registration number and center information) will be accepted from your school counselor. Test results from the testing agency will be required for enrollment.</p>
                 <p><a href="https://www.ets.org/toefl">Visit ets.org/toefl</a></p>
