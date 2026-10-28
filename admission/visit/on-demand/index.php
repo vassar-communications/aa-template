@@ -63,10 +63,10 @@ $page_info = [
 
 
 <?php echo sec_hasColumns(
-    'Voices of Vassar',
-    3,
-    '<p>Hear directly from our campus community about some of their favorite Vassar topics! These presentations will give you the chance to learn about life at Vassar directly.</p>',
-    '',
+    'Demystifying Financial Aid',
+    1,
+    '<p>Learn more about need-based financial aid and affording college. Applying for financial aid is unfamiliar territory for most, but this recorded webinar will help bring clarity to the process.</p>',
+    'theme-dark-burgundy',
     ''
 ); ?>
 
@@ -79,7 +79,7 @@ $page_info = [
 echo item_imageCard_videoModal(
     get_icon('play').'Demystifying Financial Aid',
     null,
-    'https://player.vimeo.com/video/1128902993',
+    'https://player.vimeo.com/video/1239874121?h=fda178dcef&badge=0',
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/finaid-101.jpg',
@@ -105,67 +105,28 @@ echo item_imageCard_videoModal(
 );
 */
 
-
 ?>
-
-
-<?php
-echo item_imageCard_videoModal(
-    get_icon('play').'QuestBridge: Find Your Fit at Vassar',
-    null,
-    'https://player.vimeo.com/video/879458084?h=aa00398155&badge=0',
-    'vimeo',
-    '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/questbridge.jpg',
-        'alt' => 'A slide from a presentation with the following text: “Questbridge: Find your fit at Vassar College”.'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-?>
-
-
-
-<?php
-echo item_imageCard_videoModal(
-    get_icon('play').'International Student Life and Support',
-    null,
-    'https://player.vimeo.com/video/879457722?h=354bbf458a&badge=0',
-    'vimeo',
-    '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/research-opportunities.jpg',
-        'alt' => 'A slide from a presentation showing various statistics, as well as a photo of students working in a river with a net.'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-?>
-
-
-
 
 <?php echo end_sec_hasColumns(); ?>
 
 
-
 <?php echo sec_hasColumns(
-    'Weekly Features',
-    2,
-    '<p>These presentations are created by students from their own points of view.</p>',
+    'Life at Vassar',
+    3,
+    '<p>From campus housing to the classroom experience, these videos will help you get to know Vassar even better.</p>',
     'theme-charcoal quad-pattern has-bg',
     ''
 ); ?>
 
-
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'Interdisciplinary Living and Learning',
+    get_icon('play').'2026 Move-In Day',
     null,
-    'https://player.vimeo.com/video/487419997?badge=0',
-    'vimeo',
+    'https://www.youtube.com/embed/zUiMrnfe9Sk',
+    'youtube',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/interdisciplinary-living-and-learning.jpg',
-        'alt' => 'Interdisciplinary Living and Learning'
+    ['url' => '/admission/assets/images/visit/video-thumbnails/2026-move-in-day.jpg',
+        'alt' => '2026 Move-In Day'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -174,29 +135,13 @@ echo item_imageCard_videoModal(
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'Faculty Mentored Research',
+    get_icon('play').'Office Hours',
     null,
-    'https://player.vimeo.com/video/487418026?badge=0',
-    'vimeo',
+    'https://www.youtube.com/embed/?listType=playlist&list=PLURusQJONMcrE_HHDx6qDKY362QuIPlwx',
+    'youtube',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/faculty-mentored-research.jpg',
-        'alt' => 'Faculty Mentored Research'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-?>
-
-
-<?php
-echo item_imageCard_videoModal(
-    get_icon('play').'Student Organizations',
-    null,
-    'https://player.vimeo.com/video/486530538?badge=0',
-    'vimeo',
-    '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/student-organizations.jpg',
-        'alt' => 'Student Organizations'
+    ['url' => '/admission/assets/images/visit/video-thumbnails/office-hours.jpg',
+        'alt' => 'Office Hours'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -206,21 +151,18 @@ echo item_imageCard_videoModal(
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'The Transitions Program',
+    get_icon('play').'Vassar Preserve',
     null,
-    'https://player.vimeo.com/video/484138020',
-    'vimeo',
+    'https://www.youtube.com/embed/nb-TXGwhoGY',
+    'youtube',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/the-transitions-program.jpg',
-        'alt' => 'The Transitions Program'
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-preserve.jpg',
+        'alt' => 'Vassar Preserve'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
 
 ?>
-
-
-
 
 <?php echo end_sec_hasColumns(); ?>
 
