@@ -63,9 +63,9 @@ $page_info = [
 
 
 <?php echo sec_hasColumns(
-    'Voices of Vassar',
-    3,
-    '<p>Hear directly from our campus community about some of their favorite Vassar topics! These presentations will give you the chance to learn about life at Vassar directly.</p>',
+    'Demystifying Financial Aid',
+    1,
+    '<iframe src="https://player.vimeo.com/video/1239874121?h=fda178dcef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="2026_Demystifying-Financial-Aid"></iframe>',
     '',
     ''
 ); ?>
@@ -149,9 +149,9 @@ echo item_imageCard_videoModal(
 
 
 <?php echo sec_hasColumns(
-    'Weekly Features',
-    2,
-    '<p>These presentations are created by students from their own points of view.</p>',
+    'Life at Vassar',
+    3,
+    '<p>Some text?</p>',
     'theme-charcoal quad-pattern has-bg',
     ''
 ); ?>
@@ -159,13 +159,13 @@ echo item_imageCard_videoModal(
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'Interdisciplinary Living and Learning',
+    get_icon('play').'2026 Move-In Day',
     null,
-    'https://player.vimeo.com/video/487419997?badge=0',
-    'vimeo',
+    'https://www.youtube.com/watch?v=zUiMrnfe9Sk',
+    'youtube',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/interdisciplinary-living-and-learning.jpg',
-        'alt' => 'Interdisciplinary Living and Learning'
+    ['url' => '/admission/assets/images/visit/video-thumbnails/interdisciplinary-living-and-learning.jpgx',
+        'alt' => '2026 Move-In Day'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -174,29 +174,13 @@ echo item_imageCard_videoModal(
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'Faculty Mentored Research',
+    get_icon('play').'Office Hours',
     null,
-    'https://player.vimeo.com/video/487418026?badge=0',
-    'vimeo',
+    'https://www.youtube.com/watch?v=FXP35mcW6jk&list=PLURusQJONMcrE_HHDx6qDKY362QuIPlwx',
+    'youtube',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/faculty-mentored-research.jpg',
-        'alt' => 'Faculty Mentored Research'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-?>
-
-
-<?php
-echo item_imageCard_videoModal(
-    get_icon('play').'Student Organizations',
-    null,
-    'https://player.vimeo.com/video/486530538?badge=0',
-    'vimeo',
-    '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/student-organizations.jpg',
-        'alt' => 'Student Organizations'
+    ['url' => '/admission/assets/images/visit/video-thumbnails/faculty-mentored-research.jpgX',
+        'alt' => 'Office Hours'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
@@ -206,21 +190,18 @@ echo item_imageCard_videoModal(
 
 <?php
 echo item_imageCard_videoModal(
-    get_icon('play').'The Transitions Program',
+    get_icon('play').'Vassar Preserve',
     null,
-    'https://player.vimeo.com/video/484138020',
+    'https://www.youtube.com/watch?v=nb-TXGwhoGY',
     'vimeo',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/the-transitions-program.jpg',
-        'alt' => 'The Transitions Program'
+    ['url' => '/admission/assets/images/visit/video-thumbnails/student-organizations.jpgX',
+        'alt' => 'Vassar Preserve'
     ],
     'animation-item grid-item text-at-bottom text-white'
 );
 
 ?>
-
-
-
 
 <?php echo end_sec_hasColumns(); ?>
 
