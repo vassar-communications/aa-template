@@ -79,7 +79,7 @@ $page_info = [
 echo item_imageCard_videoModal(
     get_icon('play').'Demystifying Financial Aid',
     null,
-    'https://player.vimeo.com/video/1239874121',
+    'https://player.vimeo.com/video/1239874121?h=fda178dcef&badge=0',
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/finaid-101.jpg',
