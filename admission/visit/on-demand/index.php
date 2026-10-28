@@ -65,8 +65,8 @@ $page_info = [
 <?php echo sec_hasColumns(
     'Demystifying Financial Aid',
     1,
-    '',
-    '',
+    '<p>Some text?</p>',
+    'theme-dark-burgundy',
     ''
 ); ?>
 
