@@ -123,7 +123,7 @@ echo item_imageCard_videoModal(
 echo item_imageCard_videoModal(
     get_icon('play').'2026 Move-In Day',
     null,
-    'https://www.youtube.com/watch?v=zUiMrnfe9Sk',
+    'https://www.youtube.com/embed/zUiMrnfe9Sk',
     'youtube',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/interdisciplinary-living-and-learning.jpgx',
@@ -138,7 +138,7 @@ echo item_imageCard_videoModal(
 echo item_imageCard_videoModal(
     get_icon('play').'Office Hours',
     null,
-    'https://www.youtube.com/watch?v=FXP35mcW6jk&list=PLURusQJONMcrE_HHDx6qDKY362QuIPlwx',
+    'https://www.youtube.com/embed/FXP35mcW6jk',
     'youtube',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/faculty-mentored-research.jpgX',
@@ -154,8 +154,8 @@ echo item_imageCard_videoModal(
 echo item_imageCard_videoModal(
     get_icon('play').'Vassar Preserve',
     null,
-    'https://www.youtube.com/watch?v=nb-TXGwhoGY',
-    'vimeo',
+    'https://www.youtube.com/embed/nb-TXGwhoGY',
+    'youtube',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/student-organizations.jpgX',
         'alt' => 'Vassar Preserve'
