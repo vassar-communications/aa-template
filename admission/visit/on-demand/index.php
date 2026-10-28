@@ -65,7 +65,7 @@ $page_info = [
 <?php echo sec_hasColumns(
     'Demystifying Financial Aid',
     1,
-    '<iframe src="https://player.vimeo.com/video/1239874121?h=fda178dcef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="2026_Demystifying-Financial-Aid"></iframe>',
+    '',
     '',
     ''
 ); ?>
@@ -79,7 +79,7 @@ $page_info = [
 echo item_imageCard_videoModal(
     get_icon('play').'Demystifying Financial Aid',
     null,
-    'https://player.vimeo.com/video/1128902993',
+    'https://player.vimeo.com/video/1239874121',
     'vimeo',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/finaid-101.jpg',
@@ -105,47 +105,9 @@ echo item_imageCard_videoModal(
 );
 */
 
-
 ?>
-
-
-<?php
-echo item_imageCard_videoModal(
-    get_icon('play').'QuestBridge: Find Your Fit at Vassar',
-    null,
-    'https://player.vimeo.com/video/879458084?h=aa00398155&badge=0',
-    'vimeo',
-    '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/questbridge.jpg',
-        'alt' => 'A slide from a presentation with the following text: “Questbridge: Find your fit at Vassar College”.'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-?>
-
-
-
-<?php
-echo item_imageCard_videoModal(
-    get_icon('play').'International Student Life and Support',
-    null,
-    'https://player.vimeo.com/video/879457722?h=354bbf458a&badge=0',
-    'vimeo',
-    '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/research-opportunities.jpg',
-        'alt' => 'A slide from a presentation showing various statistics, as well as a photo of students working in a river with a net.'
-    ],
-    'animation-item grid-item text-at-bottom text-white'
-);
-
-?>
-
-
-
 
 <?php echo end_sec_hasColumns(); ?>
-
 
 
 <?php echo sec_hasColumns(
