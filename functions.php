@@ -303,7 +303,7 @@ TMP;
 //  - make $link required
 //  - put link markup back in template; don't make it conditional
 //
-function crumb_item($link='', $title, $classes='') {
+function crumb_item($link='', $title='', $classes='') {
 
   $link_markup_start = '<strong>';
   $link_markup_end = '</strong>';
