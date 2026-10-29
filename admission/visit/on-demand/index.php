@@ -126,7 +126,7 @@ echo item_imageCard_videoModal(
     'https://www.youtube.com/embed/zUiMrnfe9Sk',
     'youtube',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/2026-move-in-day.jpgx,
+    ['url' => '/admission/assets/images/visit/video-thumbnails/2026-move-in-day.jpg',
         'alt' => '2026 Move-In Day'
     ],
     'animation-item grid-item text-at-bottom text-white'
