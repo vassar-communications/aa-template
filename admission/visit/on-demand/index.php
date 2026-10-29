@@ -118,10 +118,6 @@ echo item_imageCard_videoModal(
     ''
 ); ?>
 
-<?php //include($project_paths['main_project_root'].'/admission/inc/reslife-video-embed.php'); ?>
-<?php //include($project_paths['main_project_root'].'/admission/inc/office-hours-video-embed.php'); ?>
-
-
 <?php
 echo item_imageCard_videoModal(
     get_icon('play').'2026 Move-In Day',
@@ -142,10 +138,9 @@ echo item_imageCard_videoModal(
     get_icon('play').'Office Hours',
     null,
     'https://www.youtube.com/embed/?listType=playlist&list=PLURusQJONMcrE_HHDx6qDKY362QuIPlwx',
-    /*'https://www.youtube.com/embed/videoseries?si=9ypQMTPt9BnLjWEb&amp;list=PLURusQJONMcrE_HHDx6qDKY362QuIPlwx',//Correct one */
     'youtube',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/faculty-mentored-research.jpgX',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/office-hours.jpg',
         'alt' => 'Office Hours'
     ],
     'animation-item grid-item text-at-bottom text-white'
