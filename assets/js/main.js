@@ -507,7 +507,7 @@ $(document).ready(function() {
 
 
     $('#videoModal').on('shown.bs.modal', function (e) {
-        var is_playlist = $videosource.includes(playlist_str) ? true : false;
+        var is_playlist = $videoSrc.includes(playlist_str) ? true : false;
         if(is_playlist){
             $("#video").attr('src',$videoSrc);
         }else{
