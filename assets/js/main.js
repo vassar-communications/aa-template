@@ -505,7 +505,7 @@ $(document).ready(function() {
     console.log($videoSrc);
 
     $('#videoModal').on('shown.bs.modal', function (e) {
-        var playlis_str = 'embed/?listType=playlist'
+        var playlist_str = 'embed/?listType=playlist'
         var is_playlist = $videoSrc.includes(playlist_str) ? true : false;
         if(is_playlist){
             $("#video").attr('src',$videoSrc);
