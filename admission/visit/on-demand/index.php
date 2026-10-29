@@ -158,7 +158,7 @@ echo item_imageCard_videoModal(
     'https://www.youtube.com/embed/nb-TXGwhoGY',
     'youtube',
     '',
-    ['url' => '/admission/assets/images/visit/video-thumbnails/student-organizations.jpgX',
+    ['url' => '/admission/assets/images/visit/video-thumbnails/the-preserve.jpg',
         'alt' => 'Vassar Preserve'
     ],
     'animation-item grid-item text-at-bottom text-white'
