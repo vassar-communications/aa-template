@@ -138,7 +138,8 @@ echo item_imageCard_videoModal(
 echo item_imageCard_videoModal(
     get_icon('play').'Office Hours',
     null,
-    'https://www.youtube.com/embed/videoseries?si=9ypQMTPt9BnLjWEb&list=PLURusQJONMcrE_HHDx6qDKY362QuIPlwx',
+    'https://www.youtube.com/embed/videoseries?si=70w-IUPITvFlYFfk&amp;list=PLURusQJONMcpLr6DRm8L-0zWkTI7jQEqt',
+    /*'https://www.youtube.com/embed/videoseries?si=9ypQMTPt9BnLjWEb&amp;list=PLURusQJONMcrE_HHDx6qDKY362QuIPlwx',//Correct one */
     'youtube',
     '',
     ['url' => '/admission/assets/images/visit/video-thumbnails/faculty-mentored-research.jpgX',
