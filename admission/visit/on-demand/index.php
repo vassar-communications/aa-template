@@ -118,8 +118,8 @@ echo item_imageCard_videoModal(
     ''
 ); ?>
 
-<?php include($project_paths['main_project_root'].'/admission/inc/reslife-video-embed.php'); ?>
-<?php include($project_paths['main_project_root'].'/admission/inc/office-hours-video-embed.php'); ?>
+<?php //include($project_paths['main_project_root'].'/admission/inc/reslife-video-embed.php'); ?>
+<?php //include($project_paths['main_project_root'].'/admission/inc/office-hours-video-embed.php'); ?>
 
 
 <?php
