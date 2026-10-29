@@ -65,7 +65,7 @@ $page_info = [
 <?php echo sec_hasColumns(
     'Demystifying Financial Aid',
     1,
-    '<p>Some text?</p>',
+    '<p>Learn more about need-based financial aid and affording college. Applying for financial aid is unfamiliar territory for most, but this recorded webinar will help bring clarity to the process.</p>',
     'theme-dark-burgundy',
     ''
 ); ?>
@@ -113,7 +113,7 @@ echo item_imageCard_videoModal(
 <?php echo sec_hasColumns(
     'Life at Vassar',
     3,
-    '<p>Some text?</p>',
+    '<p>From campus housing to the classroom experience, these videos will help you get to know Vassar even better.</p>',
     'theme-charcoal quad-pattern has-bg',
     ''
 ); ?>
