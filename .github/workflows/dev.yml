@@ -17,3 +17,4 @@ jobs:
         server: ftp.summer-immersion.vassarspaces.net
         username: ${{ secrets.vassar_user }}
         password: ${{ secrets.vassar_pass }}
+        protocol: ftps
