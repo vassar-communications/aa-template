@@ -499,6 +499,7 @@ $(document).ready(function() {
 // Gets the video src from the data-src on each button
 
     var $videoSrc;
+    const playlis_str = 'embed/?listType=playlist'
     $('.video-btn').click(function() {
         $videoSrc = $(this).data( "src" );
     });
@@ -506,8 +507,13 @@ $(document).ready(function() {
 
 
     $('#videoModal').on('shown.bs.modal', function (e) {
-
-       $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
+        var is_playlist = $videosource.includes(playlist_str) ? true : false;
+        if(is_playlist){
+            $("#video").attr('src',$videoSrc);
+        }else{
+            $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
+        }
+       
 
     })
 
