@@ -504,10 +504,15 @@ $(document).ready(function() {
     });
     console.log($videoSrc);
 
-
     $('#videoModal').on('shown.bs.modal', function (e) {
-
-       $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
+        var playlist_str = 'embed/?listType=playlist'
+        var is_playlist = $videoSrc.includes(playlist_str) ? true : false;
+        if(is_playlist){
+            $("#video").attr('src',$videoSrc);
+        }else{
+            $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
+        }
+       
 
     })
 
