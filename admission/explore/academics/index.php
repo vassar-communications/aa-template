@@ -233,14 +233,9 @@ $page_info = json_decode($page_info, true);
 
 
 <div class="row mt-5">
-    <div class="item col-sm">
-        <figure role="group" class="caption caption-drupal-media align-center ">
-            <a class="book-link" href="https://www.vassar.edu/academics/edinburgh-vassar-scholars-program">
-                <img style="border: 2px solid #ddd;" loading="lazy" src="https://www.vassar.edu/sites/default/files/2024-11/u-edinburg-logo.png" alt="Illustration of a seal and text that reads: University of Edinburgh.">
-            </a>
-            <figcaption><a class="book-link" href="https://www.vassar.edu/academics/edinburgh-vassar-scholars-program"><em><strong>University of Edinburgh BA/MSc</strong></em><br><em>Edinburgh Futures Institute</em></a></figcaption>
-        </figure>
-    </div>
+
+
+
     <div class="item col-sm">
         <figure role="group" class="caption caption-drupal-media align-center ">
             <a class="book-link" href="https://www.vassar.edu/academics/vassar-dartmouth-degree-program">
