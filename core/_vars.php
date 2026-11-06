@@ -23,7 +23,7 @@ $facts['students_of_color'] = '37%'; //used on Alums > Give Back > Support Vassa
 
 $facts['number_of_majors'] = '51';
 $facts['number_of_minors'] = '65';
-$facts['number_of_dual_degree_programs'] = '4';
+$facts['number_of_dual_degree_programs'] = '3';
 $facts['number_of_alums'] = '41,000';
 
 $resources['student_orgs'] = '170';
