@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
     "page_supertitle":"Quick Facts",
-    "page_title":"Class of ’28",
+    "page_title":"Class of ’30",
     "page_navTitle":"Class Profile",
     "feature_image":"/admission/assets/images/quick-facts/0124_16_10_TT_3100.jpg"
 }';
@@ -60,7 +60,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_col('col-md-6 theme-burgundy-stats'); ?>
     <?php echo item_stat(
     'First-Year Class',
-    '665',
+    '686',
     ''
 ); ?>
     <?php echo end_item_col(); ?>
@@ -68,7 +68,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_col('col-md-6 theme-burgundy-stats'); ?>
     <?php echo item_stat(
     'Applications',
-    '12,447',
+    '10,873',
     ''
 ); ?>
     <?php echo end_item_col(); ?>
@@ -90,7 +90,7 @@ $page_info = json_decode($page_info, true);
 
 <?php echo sec_imageThenContent(
     'Racial/Ethnic Diversity',
-    '<p>Categories do not add up to 100% because totals reflect all categories selected by an applicant.</p>',
+    '',
     'show-image-then-content mw-inner-2 content-scrolls-in',
     'content-classes gap-3',
     [
@@ -107,7 +107,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_col('span-2 theme-burgundy-stats'); ?>
     <?php echo item_stat(
     'African American/Black',
-    '8.3%',
+    '6.3%',
     ''
 ); ?>
     <?php echo end_item_col(); ?>
@@ -115,7 +115,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_col('span-2 theme-burgundy-stats'); ?>
     <?php echo item_stat(
     'Asian American/Pacific Islander',
-    '17.6%',
+    '18.1%',
     ''
 ); ?>
     <?php echo end_item_col(); ?>
@@ -123,7 +123,7 @@ $page_info = json_decode($page_info, true);
     <?php echo item_col('span-2 theme-burgundy-stats'); ?>
     <?php echo item_stat(
     'Latinx',
-    '15.5%',
+    '14.9%',
     ''
 ); ?>
     <?php echo end_item_col(); ?>
@@ -131,12 +131,18 @@ $page_info = json_decode($page_info, true);
     <?php echo item_col('span-2 theme-burgundy-stats'); ?>
     <?php echo item_stat(
     'Native American',
-    '2.1%',
+    '1%',
     ''
 ); ?>
     <?php echo end_item_col(); ?>
 
 </div>
+
+<div class="card p-3 mt-3 text-center">
+    <p style="margin: 0;">Categories add up to more than 100% because the total reflects all categories selected by a student.</p>
+</div>
+
+
 <?php echo end_sec_imageThenContent(); ?>
 
 
@@ -159,7 +165,7 @@ $page_info = json_decode($page_info, true);
 <?php echo item_col(); ?>
 <?php echo item_stat(
     '',
-    '23.6%',
+    '21.4%',
     '<p>Pell Grant recipients</p>'
 ); ?>
 <?php echo end_item_col(); ?>
@@ -168,16 +174,16 @@ $page_info = json_decode($page_info, true);
 
 
 
-<?php echo sec_regularContent(
+<?php /* echo sec_regularContent(
     null,
     'mw-inner-3',
     'content_classes',
     null
 ); ?>
 
-<?php echo factsTicker(); ?>
+<?php // echo factsTicker();?>
 
-<?php echo end_sec_regularContent(); ?>
+<?php echo end_sec_regularContent(); */ ?>
 
 
 
@@ -193,64 +199,61 @@ $page_info = json_decode($page_info, true);
 <h3>Students</h3>
 <ul>
     <li>
-        665 students in the class of 2028
+        686 students in the class of 2030
     </li>
     <li>
-        18.6% admitted of 12,447 applicants
+        20.4% admitted of 10,873 applicants
     </li>
     <li>
         37% identify as students of color
         <ul>
-            <li>8.3% African American/Black</li>
-            <li>17.6% Asian American &amp; Pacific Islander</li>
-            <li>15.5% Latinx</li>
-            <li>2.1% Native American</li>
+            <li>6.3% African American/Black</li>
+            <li>18.1% Asian American &amp; Pacific Islander</li>
+            <li>14.9% Latinx</li>
+            <li>1% Native American</li>
         </ul>
     </li>
 </ul>
 
-<p>(Categories add up to more than 100% because total reflects all categories selected by a student)</p>
+<p style="margin: 0;"><em>Categories add up to more than 100% because the total reflects all categories selected by a student.</em></p>
 
 <ul>
     <li>
-        61.8% Female
+        64% Female
     </li>
     <li>
-        37.7% Male
-    </li>
-    <li>
-        0.4% X
+        36% Male
     </li>
 </ul>
 
 <ul>
     <li>
-        15.6% first-generation college students
+        17% first-generation college students
     </li>
     <li>
-        18.2% international citizens (including dual citizens)
+        16.8% international citizens (including dual citizens)
     </li>
     <li>
-        4.4% Vassar Legacy (parent or step-parent)
+        3.6% Vassar Legacy (parent or step-parent)
     </li>
 </ul>
 <h3>Financial Aid</h3>
 <ul>
-    <li>$23.5 million in Vassar scholarships awarded to the first-year class</li>
-    <li>59.8% receiving need-based aid from Vassar</li>
-    <li>23.6% receiving Pell Grants</li>
-    <li>$58,844 average Vassar scholarship</li>
+    <li>$26.5 million in Vassar scholarships awarded to the first-year class</li>
+    <li>59% receiving need-based aid from Vassar</li>
+    <li>21% receiving Pell Grants</li>
+    <li>$65,827 average Vassar scholarship</li>
 </ul>
 <h3>Test Optional</h3>
 <ul>
     <li>
-        56% opted not to submit testing
+        51% opted not to submit testing
     </li>
     <li>
-        44% submitted testing
+        49% submitted testing
     </li>
     <li>
-        SAT Combined Average: 1488
+        SAT Combined Average: 1479
     </li>
     <li>
         ACT Composite Average: 33
@@ -262,36 +265,36 @@ $page_info = json_decode($page_info, true);
 <?php echo item_col(); ?>
 <h3>High School Type</h3>
 <ul>
-    <li>67.5% Public</li>
+    <li>67.2% Public</li>
     <li>23.6% Private</li>
-    <li>8.6% Religious</li>
-    <li>0.3% Homeschool</li>
+    <li>8.3% Religious</li>
+    <li>0.9% Homeschool</li>
 </ul>
 <p>3.9 mean GPA on a 4.0 unweighted scale</p>
-<h3>The Class of 2028 Comes From:</h3>
-<p>44 U.S. States + Washington D.C.</p>
+<h3>The Class of 2030 Comes From:</h3>
+<p>40 U.S. States, Washington D.C., Guam, and the Northern Mariana Islands</p>
 <h4>Top States:</h4>
 <ul>
     <li>New York</li>
-    <li>Massachusetts</li>
     <li>California</li>
+    <li>Massachusetts</li>
     <li>New Jersey</li>
     <li>Pennsylvania</li>
     <li>Connecticut</li>
     <li>Maryland</li>
-    <li>Virginia</li>
     <li>Texas</li>
-    <li>Washington</li>
+    <li>Colorado</li>
+    <li>Illinois</li>
 </ul>
-<h4>57 Countries other than the U.S.</h4>
-<p>Albania, Algeria, Armenia, Australia, Austria, Bangladesh, Bosnia and Herzegovina, Brazil, Bulgaria, Canada, China, Colombia, Costa Rica, Dominican Republic, Ecuador, Egypt, Estonia, Ethiopia, France, Georgia, Germany, Ghana, Greece, Guatemala, Honduras, Hungary, India, Iran, Ireland, Israel, Italy, Jamaica, Japan, Kenya, Kosovo, Mexico, Mongolia, Nepal, New Zealand, Nigeria, Pakistan, Philippines, Poland, Portugal, Russia, Rwanda, Serbia, Singapore, South Korea, Spain, Switzerland, Syria, Turkey, United Kingdom, Venezuela, Vietnam, Yemen</p>
-<h3>Fun Facts:</h3>
+<h4>45 Countries other than the U.S.</h4>
+<p>Albania, Australia, Bangladesh, Bolivia, Brazil, Canada, Chile, China, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, Estonia, Ethiopia, Finland, France, Germany, Greece, Haiti, Honduras, Iceland, Indonesia, Ireland, Italy, Japan, Kenya, Mexico, Mongolia, Nepal, New Zealand, Pakistan, Peru, Philippines, Poland, Romania, Rwanda, South Korea, Spain, Sweden, Switzerland, Uruguay, Vietnam</p>
+<h3>Quick Facts:</h3>
 <ul>
-    <li>49 languages spoken</li>
-    <li>30% play a musical instrument</li>
-    <li>46% had a job while in high school</li>
-    <li>22% were captain of a varsity sport</li>
-    <li>17% were leaders in student government</li>
+    <li>50 languages spoken</li>
+    <li>31% play a musical instrument</li>
+    <li>41% had a job while in high school</li>
+    <li>23% were captain of a varsity sport</li>
+    <li>30% served as president of a student club</li>
 </ul>
 <?php echo end_item_col(); ?>
 
