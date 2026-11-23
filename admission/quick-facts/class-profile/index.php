@@ -138,7 +138,10 @@ $page_info = json_decode($page_info, true);
 
 </div>
 
-<p>Categories add up to more than 100% because the total reflects all categories selected by a student.</p>
+<div class="card p-3 mt-3 text-center">
+    <p style="margin: 0;">Categories add up to more than 100% because the total reflects all categories selected by a student.</p>
+</div>
+
 
 <?php echo end_sec_imageThenContent(); ?>
 
@@ -212,9 +215,7 @@ $page_info = json_decode($page_info, true);
     </li>
 </ul>
 
-<div class="card p-3 mt-3 text-center">
-    <p style="margin: 0;">Categories add up to more than 100% because the total reflects all categories selected by a student.</p>
-</div>
+<p style="margin: 0;"><em>Categories add up to more than 100% because the total reflects all categories selected by a student.</em></p>
 
 <ul>
     <li>
