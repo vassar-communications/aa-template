@@ -215,7 +215,7 @@ $page_info = json_decode($page_info, true);
     </li>
 </ul>
 
-<p style="margin: 0;"><em>Categories add up to more than 100% because the total reflects all categories selected by a student.</em></p>
+<p class="fs-6" style="line-height: 1.2; margin-bottom: 1.6rem;"><em>Categories add up to more than 100% because the total reflects all categories selected by a student.</em></p>
 
 <ul>
     <li>
@@ -241,7 +241,7 @@ $page_info = json_decode($page_info, true);
 <ul>
     <li>$26.5 million in Vassar scholarships awarded to the first-year class</li>
     <li>59% receiving need-based aid from Vassar</li>
-    <li>21% receiving Pell Grants</li>
+    <li>21.4% receiving Pell Grants</li>
     <li>$65,827 average Vassar scholarship</li>
 </ul>
 <h3>Test Optional</h3>
@@ -288,9 +288,8 @@ $page_info = json_decode($page_info, true);
 </ul>
 <h4>45 Countries other than the U.S.</h4>
 <p>Albania, Australia, Bangladesh, Bolivia, Brazil, Canada, Chile, China, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, Estonia, Ethiopia, Finland, France, Germany, Greece, Haiti, Honduras, Iceland, Indonesia, Ireland, Italy, Japan, Kenya, Mexico, Mongolia, Nepal, New Zealand, Pakistan, Peru, Philippines, Poland, Romania, Rwanda, South Korea, Spain, Sweden, Switzerland, Uruguay, Vietnam</p>
-<h3>Quick Facts:</h3>
+<h3>Other Facts:</h3>
 <ul>
-    <li>50 languages spoken</li>
     <li>31% play a musical instrument</li>
     <li>41% had a job while in high school</li>
     <li>23% were captain of a varsity sport</li>
