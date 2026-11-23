@@ -8,7 +8,7 @@ include($project_paths['main_project_root'].'/functions.php');
 
 $page_info = '{
     "page_supertitle":"Quick Facts",
-    "page_title":"Class of ’28",
+    "page_title":"Class of ’30",
     "page_navTitle":"Class Profile",
     "feature_image":"/admission/assets/images/quick-facts/0124_16_10_TT_3100.jpg"
 }';
@@ -178,7 +178,7 @@ $page_info = json_decode($page_info, true);
     null
 ); ?>
 
-<?php echo factsTicker(); ?>
+<?php // echo factsTicker();?>
 
 <?php echo end_sec_regularContent(); ?>
 
