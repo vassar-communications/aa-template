@@ -46,14 +46,14 @@ $deadlines['finaid-fall-transfer'] = 'March 15';
 $deadlines['finaid-spring-transfer'] = 'November 1';
 $deadlines['finaid-returning'] = 'May 1';
 
-$class_stats['class_year'] = '2028'; //used on Alums > Give Back > Support Vassar page
-$class_stats['number_of_countries'] = '50';
-$class_stats['number_of_states'] = '48';
+$class_stats['class_year'] = '2030'; //used on Alums > Give Back > Support Vassar page
+$class_stats['number_of_countries'] = '45';
+$class_stats['number_of_states'] = '40';
 $class_stats['percentage_male'] = '38.4%';
 $class_stats['percentage_female'] = '61.6%';
 $class_stats['students_of_color'] = '35%';
-$class_stats['languages_spoken'] = '49';
-$class_stats['students_receiving_finaid'] = '53%';
+$class_stats['languages_spoken'] = '50';
+$class_stats['students_receiving_finaid'] = '59%';
 $class_stats['average_gpa'] = '3.9/4.0'; //used on Alums > Give Back > Support Vassar page
 $class_stats['sat_combined_average'] = '1488'; //used on Alums > Give Back > Support Vassar page
 
