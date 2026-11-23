@@ -212,7 +212,9 @@ $page_info = json_decode($page_info, true);
     </li>
 </ul>
 
-<p>(Categories add up to more than 100% because total reflects all categories selected by a student)</p>
+<div class="card p-3 mt-3 text-center">
+    <p style="margin: 0;">Categories add up to more than 100% because the total reflects all categories selected by a student.</p>
+</div>
 
 <ul>
     <li>
